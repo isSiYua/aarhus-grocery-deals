@@ -49,7 +49,7 @@ jobs:
           node-version: 20
       - name: Refresh Aarhus and Atlanta offers
         if: steps.schedule_gate.outputs.should_run == 'true'
-        run: npm run update
+        run: npm run update:fallback
       - name: Run regression tests
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm test

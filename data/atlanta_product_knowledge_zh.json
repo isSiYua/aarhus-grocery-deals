@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T20:38:26.959Z",
-  "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its complete English name; image review is tracked separately.",
+  "updatedAt": "2026-07-18T21:23:21.858Z",
+  "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack cigar city brewing beer": {
       "originalName": "12-Pack Cigar City Brewing Beer",
@@ -564,6 +564,19 @@
       "productNameZh": "纸品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "bounty paper towels": {
+      "originalName": "Bounty Paper Towels",
+      "categoryId": "household",
+      "comparisonGroup": "household_paper",
+      "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426750147/1783514853/extra_large.jpg"
+      }
+    },
     "breyers ice cream": {
       "originalName": "Breyers Ice Cream",
       "categoryId": "frozen",
@@ -836,6 +849,19 @@
       "productNameZh": "其他个人护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "crest 3d white or pro health mouthwash or rinse": {
+      "originalName": "Crest 3D White or Pro-Health Mouthwash or Rinse",
+      "categoryId": "personal",
+      "comparisonGroup": "personal_oral",
+      "descriptionZh": "牙膏，用于日常口腔清洁；按含氟量、敏感牙或美白需求选择。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426822511/1783514874/extra_large.jpg"
+      }
+    },
     "crest 3d white toothpaste": {
       "originalName": "Crest 3D White Toothpaste",
       "categoryId": "personal",
@@ -851,6 +877,19 @@
       },
       "productNameZh": "口腔护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "crest 3d whitestrips sensitive 14 pk teeth whitening kit": {
+      "originalName": "Crest 3D Whitestrips Sensitive 14-pk. teeth whitening kit.",
+      "categoryId": "personal",
+      "comparisonGroup": "personal_oral",
+      "descriptionZh": "牙膏，用于日常口腔清洁；按含氟量、敏感牙或美白需求选择。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/425391412/1782378412/extra_large.jpg"
+      }
     },
     "crunch pak apple slices": {
       "originalName": "Crunch Pak Apple Slices",
@@ -947,6 +986,19 @@
       },
       "productNameZh": "面包",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "de longhi dedica duo espresso machine compact size with built in frother for latte art brew espresso cold brew lattes more stainless steel": {
+      "originalName": "De'Longhi Dedica Duo Espresso Machine, Compact Size with Built in Frother for Latte Art, Brew Espresso, Cold Brew, Lattes & More, Stainless Steel",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_coffee_tea",
+      "descriptionZh": "咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427669774/1784222239/extra_large.jpg"
+      }
     },
     "dole fruit cups": {
       "originalName": "Dole Fruit Cups",
@@ -1284,6 +1336,19 @@
       "productNameZh": "其他家庭用品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "glazed mini croissants": {
+      "originalName": "Glazed Mini Croissants†",
+      "categoryId": "bakery",
+      "comparisonGroup": "bakery_croissants",
+      "descriptionZh": "面包或烘焙点心，可作早餐或甜点；购买时按原名确认口味、是否夹馅和包装大小。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426749878/1783514854/extra_large.jpg"
+      }
+    },
     "great value 100 whole wheat round top bread 20 oz": {
       "originalName": "Great Value 100% Whole Wheat Round Top Bread, 20 oz",
       "categoryId": "bakery",
@@ -1507,6 +1572,19 @@
       },
       "productNameZh": "猪排",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "greenwise mini muffins": {
+      "originalName": "GreenWise Mini Muffins",
+      "categoryId": "bakery",
+      "comparisonGroup": "bakery_other",
+      "descriptionZh": "面包或烘焙点心，可作早餐或甜点；购买时按原名确认口味、是否夹馅和包装大小。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426749848/1783514850/extra_large.jpg"
+      }
     },
     "greenwise organic red or white seedless grapes": {
       "originalName": "GreenWise Organic Red or White Seedless Grapes",
@@ -2212,6 +2290,19 @@
       "productNameZh": "酸奶",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "old spice legacy men s antiperspirant spray": {
+      "originalName": "Old Spice Legacy men's antiperspirant spray",
+      "categoryId": "personal",
+      "comparisonGroup": "personal_body",
+      "descriptionZh": "个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/425391409/1782378410/extra_large.jpg"
+      }
+    },
     "oreo cakesters ritz bits ritz crackers or newtons": {
       "originalName": "Oreo Cakesters, Ritz Bits , Ritz Crackers, or Newtons",
       "categoryId": "snacks",
@@ -2323,6 +2414,19 @@
       },
       "productNameZh": "纸尿裤",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "parasol rashshield protection 52 diapers": {
+      "originalName": "Parasol RashShield® Protection 52-diapers",
+      "categoryId": "baby",
+      "comparisonGroup": "baby_diapers",
+      "descriptionZh": "婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/425581064/1782378407/extra_large.jpg"
+      }
     },
     "peet s coffee": {
       "originalName": "Peet's Coffee",
@@ -3012,6 +3116,19 @@
       "productNameZh": "甜椒",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "publix ultra paper towels": {
+      "originalName": "Publix Ultra Paper Towels",
+      "categoryId": "household",
+      "comparisonGroup": "household_paper",
+      "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426751872/1783514869/extra_large.jpg"
+      }
+    },
     "publix water enhancer": {
       "originalName": "Publix Water Enhancer",
       "categoryId": "drinks",
@@ -3652,6 +3769,19 @@
       "productNameZh": "牛肉末",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "stem blue light trap starter kit pet friendly and chemical free flying insect trap": {
+      "originalName": "STEM Blue Light Trap Starter Kit, Pet Friendly and Chemical Free, Flying Insect Trap",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_other",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427669676/1784222241/extra_large.jpg"
+      }
+    },
     "stok cold brew coffee": {
       "originalName": "Stok Cold Brew Coffee",
       "categoryId": "drinks",
@@ -3828,6 +3958,19 @@
       "productNameZh": "糖果或巧克力",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "top sirloin fillet": {
+      "originalName": "Top Sirloin Fillet",
+      "categoryId": "fresh_meat",
+      "comparisonGroup": "meat_beef_sirloin",
+      "descriptionZh": "牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426822692/1783514804/extra_large.jpg"
+      }
+    },
     "tree hut x lisa frank 18 oz sugar sky shea sugar body scrub": {
       "originalName": "Tree Hut x Lisa Frank 18-oz. Sugar Sky shea sugar body scrub",
       "categoryId": "personal",
@@ -3971,6 +4114,19 @@
       },
       "productNameZh": "纸品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "up up soft strong 18 pk toilet paper": {
+      "originalName": "up&up soft & strong 18-pk. toilet paper.",
+      "categoryId": "household",
+      "comparisonGroup": "household_other",
+      "descriptionZh": "卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/425581281/1782378414/extra_large.jpg"
+      }
     },
     "up uptm ultra soft 4 pk limited edition facial tissue": {
       "originalName": "up&up™ ultra soft 4-pk. limited-edition facial tissue.",

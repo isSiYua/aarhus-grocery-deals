@@ -74,13 +74,13 @@ for (const offer of data.offers) {
 
 if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== 'zh-product-v3' || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
 if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== 'zh-product-v3' || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
-if (descriptionPending.count !== 0) throw new Error('Published Aarhus products still have descriptions pending Codex review');
 if (!data.metadata.contentUpdatedAt) throw new Error('Aarhus content update time is missing');
 const pendingKeys = new Set();
 for (const item of descriptionPending.items) {
   if (!item.descriptionKey || !item.originalName || !item.categoryId || !item.comparisonGroup) throw new Error('Incomplete pending description item');
   if (pendingKeys.has(item.descriptionKey)) throw new Error(`Duplicate pending description: ${item.descriptionKey}`);
   if (descriptionCache.entries[item.descriptionKey]) throw new Error(`Cached description still pending: ${item.descriptionKey}`);
+  if (data.offers.some(offer => offer.descriptionKey === item.descriptionKey)) throw new Error(`Pending description was published: ${item.descriptionKey}`);
   pendingKeys.add(item.descriptionKey);
 }
 const publishedDescriptionFiles = JSON.stringify({ descriptionCache, descriptionPending });

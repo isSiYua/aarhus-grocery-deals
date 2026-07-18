@@ -6,6 +6,7 @@
   "description": "Mobile-first Aarhus and Atlanta grocery deal pocketbook with daily updates.",
   "scripts": {
     "update": "node scripts/update-data.mjs && node scripts/update-atlanta-data.mjs && node scripts/sync-atlanta-product-knowledge.mjs && node scripts/update-product-identities.mjs",
+    "update:fallback": "npm run update && node scripts/prepare-fallback-data.mjs",
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test",
     "serve": "python3 -m http.server 8080",

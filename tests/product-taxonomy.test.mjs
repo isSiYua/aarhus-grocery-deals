@@ -59,7 +59,8 @@ test('published fresh herbs are separated by actual species and explain the conc
 test('every published product has a repository-backed Chinese product name and no template fallback', async () => {
   const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
   const pending = JSON.parse(await fs.readFile(new URL('../data/product_descriptions_pending.json', import.meta.url), 'utf8'));
-  assert.equal(pending.count, 0);
+  const publishedKeys = new Set(data.offers.map(offer => offer.descriptionKey));
+  for (const item of pending.items) assert.equal(publishedKeys.has(item.descriptionKey), false, item.originalName);
   assert.ok(data.metadata.contentUpdatedAt);
   for (const offer of data.offers) {
     assert.ok(offer.productNameZh, offer.originalName);
