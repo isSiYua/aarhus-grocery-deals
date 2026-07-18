@@ -11,6 +11,7 @@ const state = {
   shopping: {},
   chrome: { topHidden: false, bottomHidden: false },
   reader: { categoryId: null, storeFilter: null, index: 0 },
+  readerTransitioning: false,
   suppressReaderClickUntil: 0,
   refresh: { status: 'idle', locationId: null, checkedAt: null, error: null },
 };
@@ -784,15 +785,15 @@ function mobileCategoryReader(category, allOffers, groups) {
   const main = el('main', { class: 'mobile-reader', style: `--page-color:${category.color}` }, [
     el('header', { class: 'mobile-reader-head' }, [
       el('div', { class: 'reader-category-line' }, [
-        el('div', {}, [
+        el('div', { class: 'reader-heading' }, [
           el('span', { class: 'reader-kicker' }, `${category.emoji} ${category.nameZh}`),
           el('h2', { class: 'reader-subcategory-title' }, groupLabel.nameZh),
         ]),
-        el('span', { class: 'reader-group-count' }, current ? `${current.groupIndex + 1}/${current.groupCount}` : '0/0'),
+        el('div', { class: 'reader-head-actions' }, [
+          mobileReaderStoreFilter(allOffers),
+          el('span', { class: 'reader-group-count' }, current ? `${current.groupIndex + 1}/${current.groupCount}` : '0/0'),
+        ]),
       ]),
-      el('p', { class: 'reader-subcategory-note' }, groupLabel.noteZh),
-      mobileReaderStoreFilter(allOffers),
-      el('div', { class: 'reader-instructions' }, '上下连续浏览 · 左右翻整页 · 轻点中央显示菜单'),
       el('div', { class: 'reader-progress', 'aria-hidden': 'true' }, el('span', { style: `width:${progress}%` })),
     ]),
     pages.length ? stack : el('div', { class: 'empty' }, '当前筛选条件下没有商品。'),
@@ -830,11 +831,44 @@ function mobileReaderStoreFilter(offers) {
 }
 
 function turnReaderPage(direction, pageCount) {
+  if (state.readerTransitioning) return;
   const next = Math.max(0, Math.min(state.reader.index + direction, pageCount - 1));
   if (next === state.reader.index) return;
-  state.reader.index = next;
-  updateReaderStatus(next);
-  scrollReaderToIndex(next, true);
+  const stack = document.querySelector('.mobile-reader-stack');
+  const currentPage = stack?.querySelector(`[data-reader-index="${state.reader.index}"]`);
+  const nextPage = stack?.querySelector(`[data-reader-index="${next}"]`);
+  const reducedMotion = globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  if (!stack || !currentPage || !nextPage || reducedMotion) {
+    state.reader.index = next;
+    updateReaderStatus(next);
+    scrollReaderToIndex(next, false);
+    return;
+  }
+
+  state.readerTransitioning = true;
+  stack.classList.add('reader-turning');
+  currentPage.classList.add(direction > 0 ? 'reader-exit-left' : 'reader-exit-right');
+  setTimeout(() => {
+    if (!document.contains(stack)) {
+      state.readerTransitioning = false;
+      return;
+    }
+    state.reader.index = next;
+    updateReaderStatus(next);
+    scrollReaderToIndex(next, false);
+    currentPage.classList.remove('reader-exit-left', 'reader-exit-right');
+    nextPage.classList.add(direction > 0 ? 'reader-enter-right' : 'reader-enter-left');
+    requestAnimationFrame(() => requestAnimationFrame(() => nextPage.classList.add('reader-enter-active')));
+    setTimeout(() => {
+      if (!document.contains(stack)) {
+        state.readerTransitioning = false;
+        return;
+      }
+      nextPage.classList.remove('reader-enter-right', 'reader-enter-left', 'reader-enter-active');
+      stack.classList.remove('reader-turning');
+      state.readerTransitioning = false;
+    }, 260);
+  }, 170);
 }
 
 function scrollReaderToIndex(index, smooth) {
@@ -856,14 +890,12 @@ function updateReaderStatus(index) {
   const groupTotal = Number(page.dataset.readerGroupCount);
   const label = activeComparisonGroups()[groupId] || { nameZh: '其他商品', noteZh: '逐件查看商品。' };
   const title = document.querySelector('.reader-subcategory-title');
-  const note = document.querySelector('.reader-subcategory-note');
   const groupCount = document.querySelector('.reader-group-count');
   const pageCount = document.querySelector('.reader-page-count');
   const progress = document.querySelector('.reader-progress span');
   const previous = document.querySelector('.reader-prev');
   const next = document.querySelector('.reader-next');
   if (title) title.textContent = label.nameZh;
-  if (note) note.textContent = label.noteZh;
   if (groupCount) groupCount.textContent = `${groupIndex + 1}/${groupTotal}`;
   if (pageCount) pageCount.textContent = `${index + 1} / ${pages.length}`;
   if (progress) progress.style.width = `${((index + 1) / pages.length) * 100}%`;
@@ -877,6 +909,7 @@ function attachReaderScroll(stack) {
     if (frame !== null) return;
     frame = requestAnimationFrame(() => {
       frame = null;
+      if (state.readerTransitioning) return;
       const rect = stack.getBoundingClientRect();
       const probe = document.elementFromPoint(rect.left + rect.width / 2, rect.top + Math.min(110, rect.height * .28));
       const page = probe?.closest('.reader-page');

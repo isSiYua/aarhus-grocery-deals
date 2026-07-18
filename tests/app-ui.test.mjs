@@ -65,13 +65,21 @@ test('mobile category browsing supports a continuous vertical stream and aligned
   assert.match(appSource, /function scrollReaderToIndex/);
   assert.match(appSource, /stack\.scrollTo\(\{ top, behavior: smooth \? 'smooth' : 'auto' \}\)/);
   assert.match(appSource, /function turnReaderPage/);
+  assert.match(appSource, /state\.readerTransitioning/);
+  assert.match(appSource, /reader-exit-left/);
+  assert.match(appSource, /reader-enter-right/);
   assert.match(appSource, /function attachReaderSwipe/);
-  assert.match(appSource, /上下连续浏览 · 左右翻整页/);
   assert.doesNotMatch(appSource, /左右滑动切换整个大类/);
+  assert.doesNotMatch(appSource, /reader-instructions/);
+  assert.doesNotMatch(appSource, /reader-subcategory-note/);
   assert.match(appSource, /touchStartY/);
   assert.match(appSource, /Math\.abs\(delta\) < Math\.abs\(verticalDelta\) \* 1\.35/);
   assert.match(styleSource, /scroll-snap-type: y proximity/);
   assert.match(styleSource, /\.reader-page \{ min-height: 100%/);
+  assert.match(styleSource, /\.reader-page\.reader-exit-left \{ transform: translateX\(-108%\)/);
+  assert.match(styleSource, /\.reader-page\.reader-enter-right \{ transform: translateX\(108%\)/);
+  assert.match(styleSource, /\.reader-heading \{ min-width: 0; display: flex/);
+  assert.match(styleSource, /\.mobile-reader-head h2 \{ min-width: 0; margin: 0/);
   assert.match(styleSource, /height: calc\(100dvh - var\(--topbar-height/);
 });
 
