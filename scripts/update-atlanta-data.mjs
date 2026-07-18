@@ -1,10 +1,11 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { chooseCurrentFlyer, fetchFlyerItems, fetchFlyers, normalizeFlippItems } from './lib/flipp-client.mjs';
+import { buildFlippFlyerUrl, chooseCurrentFlyer, fetchFlyerItems, fetchFlyers, normalizeFlippItems } from './lib/flipp-client.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/atlanta_offers.json');
 const postalCode = '30318';
+const locationSlug = 'atlanta-ga';
 const nowIso = new Date().toISOString();
 const now = new Date(nowIso);
 
@@ -72,7 +73,7 @@ for (const source of ATLANTA_SOURCES) {
   }
   try {
     const rawItems = await fetchFlyerItems(flyer.id, postalCode);
-    const offers = normalizeFlippItems(rawItems, { storeId: source.storeId, flyer, seenAt: nowIso });
+    const offers = normalizeFlippItems(rawItems, { storeId: source.storeId, flyer, seenAt: nowIso, postalCode, locationSlug });
     if (!offers.length) throw new Error('No priced grocery or household items retained');
     freshByStore.set(source.storeId, offers);
     selectedFlyers.push({
@@ -82,7 +83,7 @@ for (const source of ATLANTA_SOURCES) {
       name: flyer.name,
       validFrom: flyer.valid_from,
       validUntil: flyer.valid_to,
-      url: `https://flipp.com/flyer/${flyer.id}`,
+      url: buildFlippFlyerUrl(flyer.id, { postalCode, locationSlug }),
     });
     storeStatuses[source.storeId] = 'ok';
     console.log(`${source.storeId}: ${offers.length} Atlanta offers`);

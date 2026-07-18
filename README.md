@@ -21,7 +21,7 @@
 
 API 客户端结构参考了 MIT 许可的 `olgasafonova/tilbudstrolden-mcp` 项目所公开的端点使用方式，但本项目界面、分类、中文解释、增量合并和部署流程均为独立实现。
 
-Atlanta Westside 使用 30318 粗粒度邮编匹配当前周促销，在站内显示商品、美元价格、有效期和来源。Kroger、Publix、Target 与 Walmart 有可解析的商品 feed；没有结构化 feed 的门店保留官方入口并明确显示为空，不伪造商品。Flipp 或零售商没有提供可靠页码时，来源状态保持 `unlocated`。
+Atlanta Westside 使用 30318 粗粒度邮编匹配当前周促销，在站内显示商品、美元价格、有效期和来源。Kroger、Publix、Target 与 Walmart 有可解析的商品 feed；没有结构化 feed 的门店保留官方入口并明确显示为空，不伪造商品。每个 Flipp 来源链接固定使用 `en-us/atlanta-ga` 和 `postal_code=30318`，不会根据访问者所在国家跳回其他城市。Flipp 或零售商没有提供可靠页码时，来源状态保持 `unlocated`。
 
 ## 隐私
 

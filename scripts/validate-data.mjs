@@ -32,8 +32,14 @@ for (const [index, offer] of atlanta.offers.entries()) {
   if (!atlantaStoreIds.has(offer.storeId)) throw new Error(`Unknown Atlanta store ${offer.storeId}`);
   if (!atlantaCategoryIds.has(offer.categoryId) || offer.comparisonGroup !== offer.categoryId) throw new Error(`Invalid Atlanta category: ${offer.canonicalKey}`);
   if (offer.currency !== 'USD' || !Number.isFinite(offer.price) || offer.price <= 0) throw new Error(`Invalid Atlanta price: ${offer.canonicalKey}`);
+  const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${offer.flyerId}?postal_code=30318`;
+  if (offer.sourceUrl !== expectedFlyerUrl || offer.flyerUrl !== expectedFlyerUrl) throw new Error(`Atlanta flyer URL is not pinned to 30318: ${offer.canonicalKey}`);
   if (!['direct','unlocated'].includes(offer.sourceLocation?.status)) throw new Error(`Invalid Atlanta source status: ${offer.canonicalKey}`);
   if (offer.sourceLocation.pageNumber !== null) throw new Error(`Atlanta page number must not be inferred: ${offer.canonicalKey}`);
   if (offer.sourceLocation.status === 'direct' && !offer.sourceLocation.deepLink) throw new Error(`Atlanta direct source missing link: ${offer.canonicalKey}`);
+}
+for (const flyer of atlanta.flyers) {
+  const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${flyer.id}?postal_code=30318`;
+  if (flyer.url !== expectedFlyerUrl) throw new Error(`Atlanta flyer directory URL is not pinned to 30318: ${flyer.storeId}`);
 }
 console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores and ${atlanta.offers.length} Atlanta offers.`);

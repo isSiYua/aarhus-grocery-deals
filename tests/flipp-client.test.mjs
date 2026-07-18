@@ -1,12 +1,20 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  buildFlippFlyerUrl,
   chooseCurrentFlyer,
   fetchFlyerItems,
   fetchFlyers,
   classifyFlippItem,
   normalizeFlippItems,
 } from '../scripts/lib/flipp-client.mjs';
+
+test('builds a location-pinned Atlanta flyer URL that cannot fall back to Aarhus', () => {
+  assert.equal(
+    buildFlippFlyerUrl(8021698, { postalCode: '30318', locationSlug: 'atlanta-ga' }),
+    'https://flipp.com/en-us/atlanta-ga/flyer/8021698?postal_code=30318',
+  );
+});
 
 test('loads the postal-code flyer directory and validates its shape', async () => {
   const calls = [];
@@ -54,12 +62,18 @@ test('normalizes real priced groceries, removes duplicates, and uses the exact f
     { id: 3, display_type: 1, name: 'Smart 4K Television', price: '299.99', valid_from: '2026-07-15', valid_to: '2026-07-21' },
     { id: 4, display_type: 5, name: 'Chicken marketing banner', price: '2.99', valid_from: '2026-07-15', valid_to: '2026-07-21' },
   ];
-  const offers = normalizeFlippItems(items, { storeId: 'kroger-howell-mill', flyer, seenAt: '2026-07-18T12:00:00Z' });
+  const offers = normalizeFlippItems(items, {
+    storeId: 'kroger-howell-mill',
+    flyer,
+    seenAt: '2026-07-18T12:00:00Z',
+    postalCode: '30318',
+    locationSlug: 'atlanta-ga',
+  });
   assert.equal(offers.length, 1);
   assert.equal(offers[0].price, 6.99);
   assert.equal(offers[0].sourceLocation.status, 'unlocated');
   assert.equal(offers[0].sourceLocation.pageNumber, null);
   assert.equal(offers[0].sourceLocation.deepLink, null);
-  assert.equal(offers[0].sourceUrl, 'https://flipp.com/flyer/123');
+  assert.equal(offers[0].sourceUrl, 'https://flipp.com/en-us/atlanta-ga/flyer/123?postal_code=30318');
   assert.equal(offers[0].retailerUrl, 'https://retailer.example/item/1');
 });

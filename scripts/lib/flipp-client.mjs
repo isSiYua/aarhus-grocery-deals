@@ -83,8 +83,18 @@ function httpsUrl(value) {
   }
 }
 
-export function normalizeFlippItems(items, { storeId, flyer, seenAt }) {
-  const flyerUrl = `https://flipp.com/flyer/${flyer.id}`;
+export function buildFlippFlyerUrl(flyerId, { postalCode, locationSlug }) {
+  const id = Number(flyerId);
+  const postal = String(postalCode || '').trim();
+  const location = String(locationSlug || '').trim().toLowerCase();
+  if (!Number.isInteger(id) || id < 1) throw new Error('Flipp flyer URL requires a positive flyer ID');
+  if (!/^\d{5}$/.test(postal)) throw new Error('Flipp flyer URL requires a 5-digit postal code');
+  if (!/^[a-z0-9-]+$/.test(location)) throw new Error('Flipp flyer URL requires a safe location slug');
+  return `https://flipp.com/en-us/${location}/flyer/${id}?postal_code=${postal}`;
+}
+
+export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode, locationSlug }) {
+  const flyerUrl = buildFlippFlyerUrl(flyer.id, { postalCode, locationSlug });
   const deduped = new Map();
 
   for (const item of items) {
