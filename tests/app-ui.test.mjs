@@ -30,3 +30,15 @@ test('home integrates upcoming offers into normal categories instead of recommen
   assert.doesNotMatch(appSource, /下一期可以留意/);
   assert.match(appSource, /本期和下期商品都放进对应分类/);
 });
+
+test('manual refresh checks the active location data file and only replaces changed data', () => {
+  assert.match(appSource, /function refreshActiveData/);
+  assert.match(appSource, /data\/atlanta_offers\.json/);
+  assert.match(appSource, /data\/current_offers\.json/);
+  assert.match(appSource, /\?refresh=\$\{Date\.now\(\)\}/);
+  assert.match(appSource, /comparableData\(nextData\) !== comparableData\(currentData\)/);
+  assert.match(appSource, /已刷新，暂无新数据/);
+  assert.match(appSource, /已取得新数据并更新/);
+  assert.match(appSource, /刷新失败，仍显示现有数据/);
+  assert.match(appSource, /aria-label': refresh\.status === 'checking' \? '正在检查更新' : '刷新并检查数据更新'/);
+});

@@ -7,6 +7,7 @@ const state = {
   locationId: null,
   storeFilter: null,
   shopping: {},
+  refresh: { status: 'idle', locationId: null, checkedAt: null, error: null },
 };
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
@@ -160,6 +161,52 @@ const locationShopping = () => state.shopping[state.locationId] || {};
 const shoppingOfferKey = offer => offer.productKey || offer.canonicalKey;
 const shoppingEntry = offer => locationShopping()[shoppingOfferKey(offer)] || null;
 const shoppingCount = () => Object.values(locationShopping()).filter(entry => entry.status === 'wanted').length;
+
+const dataFileForLocation = locationId => locationId === 'atlanta-westside'
+  ? 'data/atlanta_offers.json'
+  : 'data/current_offers.json';
+
+const comparableData = data => JSON.stringify(data);
+
+async function refreshActiveData() {
+  if (state.refresh.status === 'checking') return;
+  const locationId = state.locationId;
+  const currentData = activeData();
+  state.refresh = { status: 'checking', locationId, checkedAt: null, error: null };
+  render({ preserveScroll: true });
+
+  try {
+    const dataUrl = `${dataFileForLocation(locationId)}?refresh=${Date.now()}`;
+    const response = await fetch(dataUrl, {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache' },
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const nextData = await response.json();
+    if (!nextData?.metadata || !Array.isArray(nextData.offers)) throw new Error('数据文件格式不完整');
+
+    const changed = comparableData(nextData) !== comparableData(currentData);
+    if (changed) {
+      if (locationId === 'atlanta-westside') state.atlantaData = nextData;
+      else state.data = nextData;
+    }
+    state.refresh = {
+      status: changed ? 'updated' : 'unchanged',
+      locationId,
+      checkedAt: new Date().toISOString(),
+      error: null,
+    };
+  } catch (error) {
+    state.refresh = {
+      status: 'error',
+      locationId,
+      checkedAt: new Date().toISOString(),
+      error: error instanceof Error ? error.message : String(error),
+    };
+  }
+
+  if (state.locationId === locationId) render({ preserveScroll: true });
+}
 
 function saveShopping() {
   localStorage.setItem(SHOPPING_KEY, JSON.stringify(state.shopping));
@@ -395,15 +442,33 @@ function topbar() {
   const metadata = activeData()?.metadata || {};
   const sourceUpdatedAt = metadata.updatedAt || new Date().toISOString();
   const contentUpdatedAt = metadata.contentUpdatedAt || sourceUpdatedAt;
+  const refresh = state.refresh.locationId === state.locationId ? state.refresh : { status: 'idle' };
+  const refreshText = refresh.status === 'checking'
+    ? '正在检查数据文件…'
+    : refresh.status === 'updated'
+      ? `已取得新数据并更新 · ${formatUpdated(refresh.checkedAt)}`
+      : refresh.status === 'unchanged'
+        ? `已刷新，暂无新数据 · ${formatUpdated(refresh.checkedAt)}`
+        : refresh.status === 'error'
+          ? `刷新失败，仍显示现有数据 · ${refresh.error}`
+          : null;
   return el('header', { class: 'topbar' }, el('div', { class: 'topbar-row' }, [
     el('div', { class: 'brand' }, [
       el('div', { class: 'brand-mark' }, '菜'),
       el('div', {}, [
         el('h1', {}, '买菜口袋书'),
         el('p', {}, `${location.label} · 促销数据 ${formatUpdated(sourceUpdatedAt)} · 中文内容 ${formatUpdated(contentUpdatedAt)}`),
+        refreshText ? el('p', { class: `refresh-state ${refresh.status}`, role: 'status' }, refreshText) : null,
       ]),
     ]),
     el('div', { class: 'topbar-actions' }, [
+      el('button', {
+        class: `icon-btn refresh-btn${refresh.status === 'checking' ? ' checking' : ''}`,
+        'aria-label': refresh.status === 'checking' ? '正在检查更新' : '刷新并检查数据更新',
+        title: '刷新并检查数据更新',
+        disabled: refresh.status === 'checking' ? '' : null,
+        onClick: refreshActiveData,
+      }, '↻'),
       el('button', { class: 'icon-btn', 'aria-label': '切换地点', onClick: () => go('locations') }, '◎'),
       el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
     ]),

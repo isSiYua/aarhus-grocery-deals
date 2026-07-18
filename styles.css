@@ -34,10 +34,18 @@ a { color: inherit; }
 .topbar-row { max-width: 760px; margin: 0 auto; display: flex; gap: 12px; align-items: center; justify-content: space-between; }
 .topbar-actions { display: flex; gap: 8px; }
 .brand { display: flex; gap: 11px; align-items: center; min-width: 0; }
+.brand > div:last-child { min-width: 0; }
 .brand-mark { width: 42px; height: 42px; border-radius: 14px; background: var(--green); display: grid; place-items: center; color: white; font-size: 22px; box-shadow: var(--shadow); }
 .brand h1 { font-size: 18px; line-height: 1.15; margin: 0; letter-spacing: -.02em; }
 .brand p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
 .icon-btn { border: 1px solid var(--border); background: var(--card); min-width: 44px; height: 44px; border-radius: 14px; color: var(--ink); cursor: pointer; box-shadow: 0 4px 16px rgba(25,45,38,.06); }
+.icon-btn:disabled { cursor: wait; opacity: .65; }
+.refresh-btn { font-size: 22px; font-weight: 800; }
+.refresh-state { font-weight: 750; overflow-wrap: anywhere; }
+.refresh-state.updated { color: #1c684f; }
+.refresh-state.unchanged { color: #59635f; }
+.refresh-state.error { color: #9a3f23; }
+.refresh-btn.checking { animation: refresh-spin .8s linear infinite; }
 .icon-btn:focus-visible, .btn:focus-visible, .chip:focus-visible, .nav-btn:focus-visible { outline: 3px solid rgba(217, 104, 45, .35); outline-offset: 2px; }
 
 .content { max-width: 760px; margin: 0 auto; padding: 18px 14px 28px; }
@@ -217,12 +225,26 @@ a { color: inherit; }
 }
 
 @media (max-width: 430px) {
+  .topbar { padding-left: 10px; padding-right: 10px; }
+  .topbar-row { gap: 8px; }
+  .topbar-actions { gap: 5px; }
+  .brand { gap: 8px; }
+  .brand-mark { width: 38px; height: 38px; border-radius: 12px; font-size: 20px; }
+  .brand h1 { font-size: 16px; }
+  .brand p { font-size: 10px; line-height: 1.35; }
+  .icon-btn { min-width: 39px; width: 39px; height: 39px; border-radius: 12px; }
   .price-gap { align-items:flex-start; flex-direction:column; }
   .view-lowest-btn { align-self:flex-start; }
   .lowest-dialog-content { padding:14px; }
   .lowest-slide img { height:170px; }
   .lowest-dialog-nav { grid-template-columns:1fr 1fr; }
   .lowest-dialog-nav span { grid-column:1 / -1; grid-row:1; }
+}
+
+@keyframes refresh-spin { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .refresh-btn.checking { animation: none; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
