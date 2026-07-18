@@ -1,5 +1,6 @@
 import { classifyOffer, normalizedText } from './taxonomy.mjs';
-import { resolveProductDescription } from './product-descriptions.mjs';
+import { descriptionKeyFor, resolveProductDescription } from './product-descriptions.mjs';
+import { resolveProductTaxonomy } from './product-taxonomy.mjs';
 
 const storeAlias = value => String(value || '').toLowerCase().replace(/ø/g,'o').replace(/æ/g,'ae').replace(/[^a-z0-9]+/g,'');
 const STORE_NAMES = {
@@ -77,15 +78,18 @@ function imageUrl(raw) {
 export function normalizeOffer(raw, nowIso, options = {}) {
   const storeId = getStoreId(raw);
   if (!storeId) return null;
-  const classification = classifyOffer(raw);
-  if (!classification) return null;
+  const baseClassification = classifyOffer(raw);
+  if (!baseClassification) return null;
   const pricing = priceFields(raw);
   if (!Number.isFinite(pricing.price)) return null;
   const q = quantityFields(raw);
   const unit = unitPrice(pricing.price, q);
   const conditions = detectConditions(raw);
   const heading = String(raw.heading || '').trim();
-  const description = resolveProductDescription(raw, classification, options.descriptionCache);
+  const descriptionKey = descriptionKeyFor(raw, baseClassification);
+  const classification = resolveProductTaxonomy(descriptionKey, baseClassification, options.productTaxonomy);
+  if (!classification) return null;
+  const description = resolveProductDescription(raw, classification, options.descriptionCache, descriptionKey);
   const productKey = [storeId, normalizedText(heading), q.size || q.pieces || '', q.unit || ''].join('|');
   const catalogId = String(raw.catalog_id || '').trim() || null;
   const sourceOfferId = String(raw.id || '').trim() || null;

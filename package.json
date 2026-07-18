@@ -12,7 +12,8 @@
     "locate": "node scripts/apply-source-locators.mjs",
     "build:preview": "node scripts/build-preview.mjs",
     "descriptions:sync": "node scripts/queue-product-descriptions.mjs",
-    "identities:update": "node scripts/update-product-identities.mjs"
+    "identities:update": "node scripts/update-product-identities.mjs",
+    "taxonomy:sync": "node scripts/sync-product-taxonomy.mjs"
   },
   "engines": {
     "node": ">=20"

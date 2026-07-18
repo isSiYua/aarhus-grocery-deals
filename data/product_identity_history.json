@@ -435,6 +435,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "apricots",
         "stone_fruit"
       ],
       "stores": [
@@ -485,6 +486,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "apples",
         "apples_pears"
       ],
       "stores": [
@@ -1706,9 +1708,11 @@
         "ALESTO Tørrede tranebær, tørret ananas eller mango"
       ],
       "categoryIds": [
-        "fruit"
+        "fruit",
+        "snacks"
       ],
       "comparisonGroups": [
+        "dried_fruit",
         "tropical_fruit"
       ],
       "stores": [
@@ -2009,6 +2013,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "pineapple",
         "tropical_fruit"
       ],
       "stores": [
@@ -2209,6 +2214,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "broccoli",
         "cabbage"
       ],
       "stores": [
@@ -2259,7 +2265,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "lettuce"
       ],
       "stores": [
         "365"
@@ -2309,6 +2316,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "fresh_herbs",
         "leafy_green"
       ],
       "stores": [
@@ -2359,6 +2367,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "fresh_herbs",
         "leafy_green"
       ],
       "stores": [
@@ -2409,7 +2418,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "spinach"
       ],
       "stores": [
         "kvickly"
@@ -2509,6 +2519,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "vegetable_mix",
         "vegetables_other"
       ],
       "stores": [
@@ -3954,7 +3965,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "fruit_other"
+        "fruit_other",
+        "mixed_fruit"
       ],
       "stores": [
         "bilka"
@@ -4004,7 +4016,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "potatoes"
+        "potatoes",
+        "potatoes_fresh"
       ],
       "stores": [
         "netto"
@@ -4301,9 +4314,11 @@
         "BANANKO Chokobanan"
       ],
       "categoryIds": [
-        "fruit"
+        "fruit",
+        "snacks"
       ],
       "comparisonGroups": [
+        "chocolate",
         "tropical_fruit"
       ],
       "stores": [
@@ -4504,6 +4519,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "fresh_herbs",
         "leafy_green"
       ],
       "stores": [
@@ -5377,7 +5393,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "berries"
+        "berries",
+        "blueberries"
       ],
       "stores": [
         "365"
@@ -5427,7 +5444,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "berries"
+        "berries",
+        "blueberries"
       ],
       "stores": [
         "bilka"
@@ -5527,7 +5545,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "cabbage"
+        "cabbage",
+        "cauliflower"
       ],
       "stores": [
         "rema"
@@ -5577,6 +5596,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "plums",
         "stone_fruit"
       ],
       "stores": [
@@ -5724,9 +5744,11 @@
         "Bonduelle majs eller Beauvais survarer"
       ],
       "categoryIds": [
+        "pantry",
         "vegetables"
       ],
       "comparisonGroups": [
+        "pickled_vegetables",
         "vegetables_other"
       ],
       "stores": [
@@ -5877,6 +5899,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "broccoli",
         "cabbage"
       ],
       "stores": [
@@ -6651,6 +6674,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "melon",
         "melon_grapes_citrus"
       ],
       "stores": [
@@ -7201,6 +7225,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_salad",
         "potatoes"
       ],
       "stores": [
@@ -7472,9 +7497,11 @@
         "Citronella lys i glas"
       ],
       "categoryIds": [
-        "fruit"
+        "fruit",
+        "household"
       ],
       "comparisonGroups": [
+        "home_goods",
         "melon_grapes_citrus"
       ],
       "stores": [
@@ -7522,9 +7549,11 @@
         "Citronella lys"
       ],
       "categoryIds": [
-        "fruit"
+        "fruit",
+        "household"
       ],
       "comparisonGroups": [
+        "home_goods",
         "melon_grapes_citrus"
       ],
       "stores": [
@@ -8475,6 +8504,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "peas",
         "vegetables_other"
       ],
       "stores": [
@@ -8572,10 +8602,12 @@
         "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
       ],
       "categoryIds": [
+        "pork",
         "vegetables"
       ],
       "comparisonGroups": [
-        "onion_garlic"
+        "onion_garlic",
+        "pork_chop"
       ],
       "stores": [
         "365"
@@ -8875,6 +8907,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "vegetable_mix",
         "vegetables_other"
       ],
       "stores": [
@@ -9470,10 +9503,12 @@
         "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
       ],
       "categoryIds": [
+        "pork",
         "vegetables"
       ],
       "comparisonGroups": [
-        "onion_garlic"
+        "onion_garlic",
+        "pork_chop"
       ],
       "stores": [
         "365"
@@ -10919,7 +10954,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "cabbage"
+        "cabbage",
+        "cauliflower"
       ],
       "stores": [
         "netto"
@@ -10969,6 +11005,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "broccoli",
         "cabbage"
       ],
       "stores": [
@@ -11019,6 +11056,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "broccoli",
         "cabbage"
       ],
       "stores": [
@@ -11369,6 +11407,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "mixed_produce",
         "vegetables_other"
       ],
       "stores": [
@@ -11419,6 +11458,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "peas",
         "vegetables_other"
       ],
       "stores": [
@@ -11469,6 +11509,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "peas",
         "vegetables_other"
       ],
       "stores": [
@@ -11519,6 +11560,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "mixed_produce",
         "tomatoes"
       ],
       "stores": [
@@ -11619,7 +11661,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "potatoes"
+        "potatoes",
+        "potatoes_fresh"
       ],
       "stores": [
         "foetex"
@@ -11669,7 +11712,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "berries"
+        "berries",
+        "strawberries"
       ],
       "stores": [
         "lidl",
@@ -11743,6 +11787,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "cherries",
         "stone_fruit"
       ],
       "stores": [
@@ -11816,6 +11861,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "peas",
         "vegetables_other"
       ],
       "stores": [
@@ -12237,9 +12283,11 @@
         "DELUXE Kartoffelgratin"
       ],
       "categoryIds": [
+        "frozen_ready",
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_sides",
         "potatoes"
       ],
       "stores": [
@@ -13338,7 +13386,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "melon_grapes_citrus"
+        "melon_grapes_citrus",
+        "watermelon"
       ],
       "stores": [
         "lidl"
@@ -14929,6 +14978,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "avocado",
         "tropical_fruit"
       ],
       "stores": [
@@ -15076,9 +15126,11 @@
         "Fransk majskylling"
       ],
       "categoryIds": [
+        "chicken",
         "vegetables"
       ],
       "comparisonGroups": [
+        "chicken_other",
         "vegetables_other"
       ],
       "stores": [
@@ -15529,6 +15581,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "corn",
         "vegetables_other"
       ],
       "stores": [
@@ -16828,6 +16881,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_salad",
         "potatoes"
       ],
       "stores": [
@@ -16928,6 +16982,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_salad",
         "potatoes"
       ],
       "stores": [
@@ -17752,6 +17807,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "grapes",
         "melon_grapes_citrus"
       ],
       "stores": [
@@ -17852,6 +17908,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "vegetable_mix",
         "vegetables_other"
       ],
       "stores": [
@@ -17926,6 +17983,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "root_vegetables",
         "vegetables_other"
       ],
       "stores": [
@@ -18497,9 +18555,11 @@
         "HARVEST BAKET Kartoffelkroketter"
       ],
       "categoryIds": [
+        "frozen_ready",
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_sides",
         "potatoes"
       ],
       "stores": [
@@ -18597,9 +18657,11 @@
         "HARVEST BASKET Kartoffelbåde"
       ],
       "categoryIds": [
+        "frozen_ready",
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_sides",
         "potatoes"
       ],
       "stores": [
@@ -18647,9 +18709,11 @@
         "HARVEST BASKET Kartoffelrøsti"
       ],
       "categoryIds": [
+        "frozen_ready",
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_sides",
         "potatoes"
       ],
       "stores": [
@@ -20043,7 +20107,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "lettuce"
       ],
       "stores": [
         "rema"
@@ -20717,6 +20782,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "avocado",
         "tropical_fruit"
       ],
       "stores": [
@@ -22159,10 +22225,12 @@
         "KANIA Ristede løg"
       ],
       "categoryIds": [
+        "pantry",
         "vegetables"
       ],
       "comparisonGroups": [
-        "onion_garlic"
+        "onion_garlic",
+        "spices"
       ],
       "stores": [
         "lidl"
@@ -22609,9 +22677,11 @@
         "Kartoffelkroketter"
       ],
       "categoryIds": [
+        "frozen_ready",
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_sides",
         "potatoes"
       ],
       "stores": [
@@ -22837,7 +22907,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "melon_grapes_citrus"
+        "melon_grapes_citrus",
+        "watermelon"
       ],
       "stores": [
         "365"
@@ -25036,7 +25107,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "prepared_salad"
       ],
       "stores": [
         "lidl"
@@ -27632,6 +27704,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "cherries",
         "stone_fruit"
       ],
       "stores": [
@@ -31656,6 +31729,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "corn",
         "vegetables_other"
       ],
       "stores": [
@@ -31756,6 +31830,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "corn",
         "vegetables_other"
       ],
       "stores": [
@@ -32377,7 +32452,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "cabbage"
+        "cabbage",
+        "mixed_produce"
       ],
       "stores": [
         "lidl"
@@ -32427,6 +32503,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "mango",
         "tropical_fruit"
       ],
       "stores": [
@@ -33051,6 +33128,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "prepared_fruit",
         "tropical_fruit"
       ],
       "stores": [
@@ -33998,9 +34076,11 @@
         "MILBONA High Protein salatost"
       ],
       "categoryIds": [
+        "eggs_dairy",
         "vegetables"
       ],
       "comparisonGroups": [
+        "cheese_fresh",
         "leafy_green"
       ],
       "stores": [
@@ -35437,9 +35517,11 @@
         "Mutti tomatkonserves"
       ],
       "categoryIds": [
+        "pantry",
         "vegetables"
       ],
       "comparisonGroups": [
+        "canned_tomatoes",
         "tomatoes"
       ],
       "stores": [
@@ -36040,6 +36122,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "peaches_nectarines",
         "stone_fruit"
       ],
       "stores": [
@@ -36090,6 +36173,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "mixed_stone_fruit",
         "stone_fruit"
       ],
       "stores": [
@@ -36140,6 +36224,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "peaches_nectarines",
         "stone_fruit"
       ],
       "stores": [
@@ -36213,7 +36298,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "potatoes"
+        "potatoes",
+        "potatoes_fresh"
       ],
       "stores": [
         "foetex"
@@ -37637,7 +37723,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "potatoes"
+        "potatoes",
+        "potatoes_fresh"
       ],
       "stores": [
         "kvickly"
@@ -37687,7 +37774,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "potatoes"
+        "potatoes",
+        "potatoes_fresh"
       ],
       "stores": [
         "bilka",
@@ -37761,7 +37849,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "potatoes"
+        "potatoes",
+        "potatoes_fresh"
       ],
       "stores": [
         "rema"
@@ -38061,7 +38150,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "berries"
+        "berries",
+        "blueberries"
       ],
       "stores": [
         "netto"
@@ -38161,7 +38251,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "lettuce"
       ],
       "stores": [
         "bilka"
@@ -38211,6 +38302,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "fresh_herbs",
         "leafy_green"
       ],
       "stores": [
@@ -38261,6 +38353,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "fresh_herbs",
         "leafy_green"
       ],
       "stores": [
@@ -40425,9 +40518,11 @@
         "Peka kartofler"
       ],
       "categoryIds": [
+        "frozen_ready",
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_sides",
         "potatoes"
       ],
       "stores": [
@@ -40828,6 +40923,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "apples",
         "apples_pears"
       ],
       "stores": [
@@ -41872,9 +41968,11 @@
         "PUCK Salatost"
       ],
       "categoryIds": [
+        "eggs_dairy",
         "vegetables"
       ],
       "comparisonGroups": [
+        "cheese_fresh",
         "leafy_green"
       ],
       "stores": [
@@ -41975,6 +42073,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "fresh_herbs",
         "onion_garlic"
       ],
       "stores": [
@@ -42771,6 +42870,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "potato_salad",
         "potatoes"
       ],
       "stores": [
@@ -43021,7 +43121,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "fruit_other"
+        "fruit_other",
+        "mixed_fruit"
       ],
       "stores": [
         "rema"
@@ -43121,6 +43222,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "vegetable_mix",
         "vegetables_other"
       ],
       "stores": [
@@ -43368,9 +43470,11 @@
         "REMA 1000 Hvidløgsflutes"
       ],
       "categoryIds": [
+        "bread_grains",
         "vegetables"
       ],
       "comparisonGroups": [
+        "bread",
         "onion_garlic"
       ],
       "stores": [
@@ -43744,6 +43848,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
+        "vegetable_mix",
         "vegetables_other"
       ],
       "stores": [
@@ -45194,7 +45299,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "berries"
+        "berries",
+        "other_berries"
       ],
       "stores": [
         "rema"
@@ -46394,7 +46500,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "prepared_salad"
       ],
       "stores": [
         "foetex"
@@ -46744,6 +46851,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "pineapple",
         "tropical_fruit"
       ],
       "stores": [
@@ -47816,9 +47924,11 @@
         "SILVERCREST Sæt med tomatknive"
       ],
       "categoryIds": [
+        "household",
         "vegetables"
       ],
       "comparisonGroups": [
+        "kitchen_tools",
         "tomatoes"
       ],
       "stores": [
@@ -50139,7 +50249,8 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "leafy_green"
+        "leafy_green",
+        "spinach"
       ],
       "stores": [
         "rema"
@@ -51411,6 +51522,7 @@
         "fruit"
       ],
       "comparisonGroups": [
+        "plums",
         "stone_fruit"
       ],
       "stores": [
@@ -54057,7 +54169,8 @@
         "fruit"
       ],
       "comparisonGroups": [
-        "melon_grapes_citrus"
+        "melon_grapes_citrus",
+        "watermelon"
       ],
       "stores": [
         "rema"

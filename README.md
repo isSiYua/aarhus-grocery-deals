@@ -46,6 +46,7 @@ npm run serve
 Codex 写入或修订说明后运行：
 
 ```bash
+npm run taxonomy:sync
 npm run descriptions:sync
 npm run identities:update
 npm test
@@ -53,6 +54,8 @@ npm run validate
 ```
 
 `data/product_identity_history.json` 独立追踪稳定商品、每次促销的 source offer ID、有效期、促销单 ID 和精确图片引用。它可以在以后确认“同一 ID 隔月再次出现”“同名商品换了新 ID”或“不同 ID 使用完全相同的图片引用”，但不会仅凭相似网址猜测图片相同。完整的凌晨维护规则见 `CODEX_NIGHTLY_MAINTENANCE.md`。
+
+`data/product_taxonomy_zh.json` 是同样按稳定商品键保存的固定分类知识库。每项记录主类别、可比较小类、中文标签、分类理由和 Codex 复核状态；`data/product_taxonomy_pending.json` 只列出尚待逐项复核的商品。水果已拆为苹果、草莓、蓝莓、葡萄、西瓜、甜瓜、樱桃、李子、杏、桃/油桃、菠萝、芒果、牛油果等；蔬菜已拆为西兰花、花椰菜、甘蓝、生菜、菠菜、香草、蘑菇、番茄、黄瓜、豌豆、玉米、根茎菜、新鲜土豆、土豆沙拉和蔬菜组合。跨品种任选单独成组，不参与单品种最低价。
 
 ## 发布到固定网址
 

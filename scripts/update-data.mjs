@@ -5,12 +5,15 @@ import { normalizeOffer } from './lib/normalize.mjs';
 import { mergeIncrementally } from './lib/merge.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS } from './lib/taxonomy.mjs';
 import { collectPendingDescriptions, loadDescriptionCache } from './lib/product-descriptions.mjs';
+import { collectPendingTaxonomy, loadProductTaxonomy } from './lib/product-taxonomy.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/current_offers.json');
 const historyPath = path.join(root, 'data/history.json');
 const descriptionCachePath = path.join(root, 'data/product_descriptions_zh.json');
 const descriptionPendingPath = path.join(root, 'data/product_descriptions_pending.json');
+const taxonomyPath = path.join(root, 'data/product_taxonomy_zh.json');
+const taxonomyPendingPath = path.join(root, 'data/product_taxonomy_pending.json');
 const nowIso = new Date().toISOString();
 const wantedStores = {
   netto: ['netto'],
@@ -57,6 +60,7 @@ async function loadJson(file, fallback) {
 
 const previous = await loadJson(dataPath, { metadata:{}, stores:[], categories:[], comparisonGroups:{}, offers:[] });
 const descriptionCache = await loadDescriptionCache(descriptionCachePath);
+const productTaxonomy = await loadProductTaxonomy(taxonomyPath);
 const previousHistory = await loadJson(historyPath, []);
 previous.history = previousHistory;
 let dealers = [];
@@ -84,7 +88,7 @@ for (const [storeId, aliases] of Object.entries(wantedStores)) {
   }
   try {
     const raw = await fetchDealerOffers(dealer.id);
-    const normalized = raw.map(item => normalizeOffer(item, nowIso, { descriptionCache })).filter(item => item && item.storeId === storeId);
+    const normalized = raw.map(item => normalizeOffer(item, nowIso, { descriptionCache, productTaxonomy })).filter(item => item && item.storeId === storeId);
     freshByStore[storeId] = normalized;
     storeStatuses[storeId] = 'ok';
     console.log(`${storeId}: ${normalized.length} retained offers`);
@@ -121,4 +125,6 @@ await fs.writeFile(dataPath, JSON.stringify(next, null, 2) + '\n');
 await fs.writeFile(historyPath, JSON.stringify(result.history, null, 2) + '\n');
 const pendingDescriptions = collectPendingDescriptions(next.offers, descriptionCache, nowIso);
 await fs.writeFile(descriptionPendingPath, JSON.stringify(pendingDescriptions, null, 2) + '\n');
-console.log(`Saved ${next.offers.length} current offers; ${result.history.length} archived records; ${pendingDescriptions.count} product descriptions pending AI generation.`);
+const pendingTaxonomy = collectPendingTaxonomy(next.offers, productTaxonomy, nowIso);
+await fs.writeFile(taxonomyPendingPath, JSON.stringify(pendingTaxonomy, null, 2) + '\n');
+console.log(`Saved ${next.offers.length} current offers; ${result.history.length} archived records; ${pendingDescriptions.count} descriptions and ${pendingTaxonomy.count} taxonomy entries pending Codex review.`);

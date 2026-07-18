@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v2",
-  "generatedAt": "2026-07-18T12:02:45.332Z",
-  "count": 1054,
+  "generatedAt": "2026-07-18T12:17:43.854Z",
+  "count": 1053,
   "items": [
     {
       "descriptionKey": "v1|10 friskbagte rundstykker|bread",
@@ -117,7 +117,7 @@
         "Udenlandske\n500 g\nPr. bakke\n30.00 pr. kg"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "apricots",
       "stores": [
         "rema"
       ],
@@ -130,7 +130,7 @@
         "Klasse 1. 1 kg. Pr. kg 20,00"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "apples_pears",
+      "comparisonGroup": "apples",
       "stores": [
         "lidl"
       ],
@@ -443,8 +443,8 @@
       "sampleDescriptions": [
         "100-200 g. Pr. kg maks. 150,00"
       ],
-      "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "categoryId": "snacks",
+      "comparisonGroup": "dried_fruit",
       "stores": [
         "lidl"
       ],
@@ -522,7 +522,7 @@
         "PLUS PRIS PR. STK. GÆLDER KUN MED BILKA PLUS APPEN salling Princip Pr. stk. Udenlandsk."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "comparisonGroup": "pineapple",
       "stores": [
         "bilka"
       ],
@@ -574,7 +574,7 @@
         "Danmark, kl. I. Stk-pris 16,00. 1 stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "broccoli",
       "stores": [
         "365"
       ],
@@ -587,7 +587,7 @@
         "Danmark, kl. I. Pose med 2 stk. Stk.-pris 12,00. 1 pakke."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "lettuce",
       "stores": [
         "365"
       ],
@@ -600,7 +600,7 @@
         "Danmark, kl. I. Stk-pris 14,00. 1 stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "fresh_herbs",
       "stores": [
         "kvickly"
       ],
@@ -613,7 +613,7 @@
         "Danmark, kl. I. Stk.-pris 14,00. 1 stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "fresh_herbs",
       "stores": [
         "kvickly"
       ],
@@ -626,7 +626,7 @@
         "200 g. Kg-pris 100,00. 1 pose."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "spinach",
       "stores": [
         "kvickly"
       ],
@@ -652,7 +652,7 @@
         "Dybfrost. 300-450 g. Kg-pris maks. 43,33. Frit valg. 1 pose."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "vegetable_mix",
       "stores": [
         "365"
       ],
@@ -1010,7 +1010,7 @@
         "salling 200-400 g. Flere varianter. Pr. kg max. 70.- PLUS PRIS FRIT VALG"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "fruit_other",
+      "comparisonGroup": "mixed_fruit",
       "stores": [
         "bilka"
       ],
@@ -1023,7 +1023,7 @@
         "PR. POSE 1,5 kg. Udenlandske. Pr. kg 13,33"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potatoes_fresh",
       "stores": [
         "netto"
       ],
@@ -1100,8 +1100,8 @@
       "sampleDescriptions": [
         "30 g. Pr. kg 166,67 Spot¹"
       ],
-      "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "categoryId": "snacks",
+      "comparisonGroup": "chocolate",
       "stores": [
         "lidl"
       ],
@@ -1153,7 +1153,7 @@
         "Økologisk Dansk\nPr. stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "fresh_herbs",
       "stores": [
         "rema"
       ],
@@ -1375,7 +1375,7 @@
         "Udenlandske, kl. I. 500 g. Kg-pris 90,00. 1 spand."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "berries",
+      "comparisonGroup": "blueberries",
       "stores": [
         "365"
       ],
@@ -1388,7 +1388,7 @@
         "300 g. Udenlandske. Pr. kg 93.33"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "berries",
+      "comparisonGroup": "blueberries",
       "stores": [
         "bilka"
       ],
@@ -1414,7 +1414,7 @@
         "Økologisk Kl. 1, dansk"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "cauliflower",
       "stores": [
         "rema"
       ],
@@ -1427,7 +1427,7 @@
         "Klasse 1. Pr. stk. 1,50"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "plums",
       "stores": [
         "lidl"
       ],
@@ -1465,8 +1465,8 @@
       "sampleDescriptions": [
         "280-580 g. Flere varianter. Pr. kg max. 85,71"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "categoryId": "pantry",
+      "comparisonGroup": "pickled_vegetables",
       "stores": [
         "foetex"
       ],
@@ -1505,7 +1505,7 @@
         "Dansk\nPr. bundt"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "broccoli",
       "stores": [
         "rema"
       ],
@@ -1700,7 +1700,7 @@
         "Udenlandsk"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "comparisonGroup": "melon",
       "stores": [
         "rema"
       ],
@@ -1843,7 +1843,7 @@
         "1000 g. Pr. kg 20,00. Med Lidl Plus³ -15 %"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potato_salad",
       "stores": [
         "lidl"
       ],
@@ -1908,8 +1908,8 @@
       "sampleDescriptions": [
         "Flere farver."
       ],
-      "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "categoryId": "household",
+      "comparisonGroup": "home_goods",
       "stores": [
         "foetex"
       ],
@@ -1921,8 +1921,8 @@
       "sampleDescriptions": [
         "18 fyrfadslys. Brændetid 4 timer. Dåse med 3 væger. Brændetid."
       ],
-      "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "categoryId": "household",
+      "comparisonGroup": "home_goods",
       "stores": [
         "foetex"
       ],
@@ -2169,7 +2169,7 @@
         "Danmark, kl. I. 500 g. Kg-pris 36,00. 1 bakke."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "peas",
       "stores": [
         "365"
       ],
@@ -2194,8 +2194,8 @@
       "sampleDescriptions": [
         "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk."
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "onion_garlic",
+      "categoryId": "pork",
+      "comparisonGroup": "pork_chop",
       "stores": [
         "365"
       ],
@@ -2273,7 +2273,7 @@
         "Dybfrost. Flere varianter. 200-900 g. Kg-pris maks. 70,00. Frit valg. 1 pose"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "vegetable_mix",
       "stores": [
         "kvickly"
       ],
@@ -2418,8 +2418,8 @@
       "sampleDescriptions": [
         "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk."
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "onion_garlic",
+      "categoryId": "pork",
+      "comparisonGroup": "pork_chop",
       "stores": [
         "365"
       ],
@@ -2785,7 +2785,7 @@
         "Pr. stk. Danmark. PR. STK."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "cauliflower",
       "stores": [
         "netto"
       ],
@@ -2798,7 +2798,7 @@
         "Danmark, kl. I. Stk-pris 13,00. 1 stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "broccoli",
       "stores": [
         "kvickly"
       ],
@@ -2811,7 +2811,7 @@
         "Klasse 1.\nPr. stk. 12,00"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "broccoli",
       "stores": [
         "lidl"
       ],
@@ -2902,7 +2902,7 @@
         "Klasse 1. 500 g. Pr. kg 50,00"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "mixed_produce",
       "stores": [
         "lidl"
       ],
@@ -2915,7 +2915,7 @@
         "Danmark, kl. I. 750 g. Kg-pris 40,00. 1 pose"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "peas",
       "stores": [
         "kvickly"
       ],
@@ -2928,7 +2928,7 @@
         "Vej selv PR. ½ KG 24.00 pr. kg"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "peas",
       "stores": [
         "rema"
       ],
@@ -2941,7 +2941,7 @@
         "Klasse 1. Pr. 1/2 kg. 500 g. Pr. kg 30,00"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "tomatoes",
+      "comparisonGroup": "mixed_produce",
       "stores": [
         "lidl"
       ],
@@ -2967,7 +2967,7 @@
         "Danmark. Pr. kg 34,90"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potatoes_fresh",
       "stores": [
         "foetex"
       ],
@@ -2981,7 +2981,7 @@
         "Klasse 1. 350 g. Pr. kg 57,14"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "berries",
+      "comparisonGroup": "strawberries",
       "stores": [
         "lidl",
         "netto"
@@ -2995,7 +2995,7 @@
         "Klasse 1. 400 g. Pr. kg 87,50"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "cherries",
       "stores": [
         "lidl"
       ],
@@ -3008,7 +3008,7 @@
         "Løsvægt. Danmark. Pr. kg 35,-\nPr. 100 g"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "peas",
       "stores": [
         "foetex"
       ],
@@ -3113,8 +3113,8 @@
       "sampleDescriptions": [
         "Dybfrost 400 g / pk. Pr. kg 74,88"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "potato_sides",
       "stores": [
         "lidl"
       ],
@@ -3390,7 +3390,7 @@
         "Klasse 1. Pr. stk. 79,00"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "comparisonGroup": "watermelon",
       "stores": [
         "lidl"
       ],
@@ -3759,7 +3759,7 @@
         "Klasse 1. Pr. stk. 6,00"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "comparisonGroup": "avocado",
       "stores": [
         "lidl"
       ],
@@ -3797,8 +3797,8 @@
       "sampleDescriptions": [
         "1,1 kg. Af langsommere voksende race. Pr. kg 62,73 Landkylling af langsommere voksende race som opdrættes i det vestlige hjørne af Frankrig. De fodres bl.a. med lokalt dyrkede majs, hvilket giver en fyldig smag samt bidrager til saftigt og mørt kød."
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
       "stores": [
         "foetex"
       ],
@@ -3915,7 +3915,7 @@
         "klasse 1. 2 stk. Pr. stk. 7,50"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "corn",
       "stores": [
         "lidl"
       ],
@@ -4244,7 +4244,7 @@
         "800 g. Kg-pris 35,00. Frit valg. 1 stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potato_salad",
       "stores": [
         "kvickly"
       ],
@@ -4271,7 +4271,7 @@
         "400 g. Flere varianter. Pr. kg 62.50 Frit valg"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potato_salad",
       "stores": [
         "bilka",
         "foetex"
@@ -4480,7 +4480,7 @@
         "500 g. Udenlandske. Pr. kg 40,00 PR. BAKKE"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "comparisonGroup": "grapes",
       "stores": [
         "netto"
       ],
@@ -4507,7 +4507,7 @@
         "70-900 g. Flere varianter. Pr. kg max. 142.86 FRIT VALG"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "vegetable_mix",
       "stores": [
         "bilka",
         "foetex"
@@ -4521,7 +4521,7 @@
         "Økologiske Danske\nPr. bundt"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "root_vegetables",
       "stores": [
         "rema"
       ],
@@ -4665,8 +4665,8 @@
       "sampleDescriptions": [
         "Med fyld. 600 g. Pr. kg 31,67 Med Lidl Plus³ Dybfrost"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "potato_sides",
       "stores": [
         "lidl"
       ],
@@ -4691,8 +4691,8 @@
       "sampleDescriptions": [
         "750 g / ps. Pr. kg 18,60"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "potato_sides",
       "stores": [
         "lidl"
       ],
@@ -4704,8 +4704,8 @@
       "sampleDescriptions": [
         "800 g / ps. Pr. kg 23,69"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "potato_sides",
       "stores": [
         "lidl"
       ],
@@ -5048,7 +5048,7 @@
         "Økologisk Kl. 1, dansk"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "lettuce",
       "stores": [
         "rema"
       ],
@@ -5133,19 +5133,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|hugo hollunder lime rose hyldeblomst lime vandmelon eller spritz|melon_grapes_citrus",
-      "originalName": "Hugo Hollunder-lime rosé, hyldeblomst-lime, vandmelon eller spritz",
-      "sampleDescriptions": [
-        "7,3 % alc. 75 cl. Pr. liter 33,33 -37 %"
-      ],
-      "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 1
-    },
-    {
       "descriptionKey": "v1|husholdningsmarked|cleaning",
       "originalName": "Husholdningsmarked",
       "sampleDescriptions": [
@@ -5218,7 +5205,7 @@
         "Udenlandske, kl. I. 3 stk. Stk-pris 8,00. 1 bakke"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "comparisonGroup": "avocado",
       "stores": [
         "kvickly"
       ],
@@ -5574,8 +5561,8 @@
       "sampleDescriptions": [
         "200 g. Pr. kg 40,00."
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "onion_garlic",
+      "categoryId": "pantry",
+      "comparisonGroup": "spices",
       "stores": [
         "lidl"
       ],
@@ -5691,8 +5678,8 @@
       "sampleDescriptions": [
         "HARVEST BAKET Med fyld. 600 g. Pr. kg 31,67 Dybfrost Med Lidl Plus³"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "potato_sides",
       "stores": [
         "lidl"
       ],
@@ -5746,7 +5733,7 @@
         "Udenlandsk, kl. I. Stk.-pris 20,00. 1 stk."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "comparisonGroup": "watermelon",
       "stores": [
         "365"
       ],
@@ -6308,7 +6295,7 @@
         "Spot¹ 410 g. Pr. kg 36,58"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "prepared_salad",
       "stores": [
         "lidl"
       ],
@@ -6940,7 +6927,7 @@
         "Danmark. Pr. kg 79.50 PR. 100 G"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "cherries",
       "stores": [
         "bilka"
       ],
@@ -7772,7 +7759,7 @@
         "Klasse 1. Pr. stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "corn",
       "stores": [
         "lidl"
       ],
@@ -7798,7 +7785,7 @@
         "Udenlandsk"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "corn",
       "stores": [
         "rema"
       ],
@@ -7929,7 +7916,7 @@
         "Klasse 1.\nPr. stk. 9,00"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "cabbage",
+      "comparisonGroup": "mixed_produce",
       "stores": [
         "lidl"
       ],
@@ -7943,7 +7930,7 @@
         "Klasse 1. Pr. stk. 9,00"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "comparisonGroup": "mango",
       "stores": [
         "365",
         "lidl"
@@ -8100,7 +8087,7 @@
         "Pr. bakke. 500 g. Pr. kg 80,-"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "comparisonGroup": "prepared_fruit",
       "stores": [
         "foetex"
       ],
@@ -8346,8 +8333,8 @@
       "sampleDescriptions": [
         "150 g. Pr. kg 113,33 Spot¹"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "categoryId": "eggs_dairy",
+      "comparisonGroup": "cheese_fresh",
       "stores": [
         "lidl"
       ],
@@ -8675,8 +8662,8 @@
       "sampleDescriptions": [
         "400 g. Kg-pris 25,00. Frit valg. 1 stk."
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "tomatoes",
+      "categoryId": "pantry",
+      "comparisonGroup": "canned_tomatoes",
       "stores": [
         "365"
       ],
@@ -8832,7 +8819,7 @@
         "Kl. 1, udenlandske Pr. stk."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "peaches_nectarines",
       "stores": [
         "rema"
       ],
@@ -8845,7 +8832,7 @@
         "salling Princip\n6-8 stk. Udenlandske. Pr. stk. max. 4,17"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "mixed_stone_fruit",
       "stores": [
         "foetex"
       ],
@@ -8859,7 +8846,7 @@
         "Klasse 1. 500 g. Pr. kg 20,00"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "peaches_nectarines",
       "stores": [
         "lidl"
       ],
@@ -8872,7 +8859,7 @@
         "650 g. Danmark. Pr. kg 23,08"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potatoes_fresh",
       "stores": [
         "foetex"
       ],
@@ -9237,7 +9224,7 @@
         "Danmark, kl. I. 650 g. Kg-pris 30,77. 1 bakke"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potatoes_fresh",
       "stores": [
         "kvickly"
       ],
@@ -9251,7 +9238,7 @@
         "Løsvægt. Danmark. Pr. kg 9.50 Pr. 100 g"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potatoes_fresh",
       "stores": [
         "bilka",
         "lidl"
@@ -9265,7 +9252,7 @@
         "Danske 650 g 15.38 pr. kg"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potatoes_fresh",
       "stores": [
         "rema"
       ],
@@ -9343,7 +9330,7 @@
         "125 g. Udenlandske. Pr. kg 160,00 PR. BAKKE"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "berries",
+      "comparisonGroup": "blueberries",
       "stores": [
         "netto"
       ],
@@ -9369,7 +9356,7 @@
         "salling ØKO Pr. stk. Danmark. Pr. stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "lettuce",
       "stores": [
         "bilka"
       ],
@@ -9382,7 +9369,7 @@
         "Gælder kun med føtex plus appen Pr. stk. Danmark."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "fresh_herbs",
       "stores": [
         "foetex"
       ],
@@ -9395,7 +9382,7 @@
         "salling ØKO Pr. stk. Danmark. Pr. stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "fresh_herbs",
       "stores": [
         "bilka"
       ],
@@ -9934,8 +9921,8 @@
       "sampleDescriptions": [
         "a 450-700 g. Flere varianter. Pr. kg max. v/merkøb 44.44 2 pakker Pr. pk. op til 26,99"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "potato_sides",
       "stores": [
         "bilka"
       ],
@@ -10039,7 +10026,7 @@
         "Udenlandske, kl.I. 8 stk. Stk.-pris 2,50. 1 bakke."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "apples_pears",
+      "comparisonGroup": "apples",
       "stores": [
         "365"
       ],
@@ -10274,8 +10261,8 @@
       "sampleDescriptions": [
         "200 g / stk. Pr. kg 74,75"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "categoryId": "eggs_dairy",
+      "comparisonGroup": "cheese_fresh",
       "stores": [
         "lidl"
       ],
@@ -10301,7 +10288,7 @@
         "Dansk Pr. stk."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "onion_garlic",
+      "comparisonGroup": "fresh_herbs",
       "stores": [
         "rema"
       ],
@@ -10483,7 +10470,7 @@
         "800-1000 g Max. 25.00 pr. kg"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "potatoes",
+      "comparisonGroup": "potato_salad",
       "stores": [
         "rema"
       ],
@@ -10548,7 +10535,7 @@
         "Økologisk Dybfrost 200-250 g Max. 75.00 pr. kg"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "fruit_other",
+      "comparisonGroup": "mixed_fruit",
       "stores": [
         "rema"
       ],
@@ -10574,7 +10561,7 @@
         "Økologiske Dybfrost 350-450 g\nMax. 34.28 pr. kg"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "vegetable_mix",
       "stores": [
         "rema"
       ],
@@ -10638,8 +10625,8 @@
       "sampleDescriptions": [
         "Hvede eller fuldkorn\nDybfrost\n2 stk./350 g\n5.00 pr. stk./28.57 pr. kg\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 15.95 pr. stk."
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "onion_garlic",
+      "categoryId": "bread_grains",
+      "comparisonGroup": "bread",
       "stores": [
         "rema"
       ],
@@ -10731,7 +10718,7 @@
         "Dybfrost 400-500 g Max. 25.00 pr. kg Det lækre og nemme tilbehør til sommergrillen"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "vegetables_other",
+      "comparisonGroup": "vegetable_mix",
       "stores": [
         "rema"
       ],
@@ -11108,7 +11095,7 @@
         "BLANDINGSFORHOLD 1:5. 85 cl. Ex. pant. 4.90 pr. færdigblandet liter"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "berries",
+      "comparisonGroup": "other_berries",
       "stores": [
         "rema"
       ],
@@ -11420,7 +11407,7 @@
         "Vores salatbowls indeholder sprøde elementer, farverige grøntsager og lækre toppings. Varmrøget laks, paneret kylling eller falafel."
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "prepared_salad",
       "stores": [
         "foetex"
       ],
@@ -11511,7 +11498,7 @@
         "Pr. stk. Udenlandsk."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "tropical_fruit",
+      "comparisonGroup": "pineapple",
       "stores": [
         "netto"
       ],
@@ -11785,8 +11772,8 @@
       "sampleDescriptions": [
         "6-pak. Tåler maskinopvask. Spot²"
       ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "tomatoes",
+      "categoryId": "household",
+      "comparisonGroup": "kitchen_tools",
       "stores": [
         "lidl"
       ],
@@ -12360,7 +12347,7 @@
         "Dansk 250 g\n48.00 pr. kg"
       ],
       "categoryId": "vegetables",
-      "comparisonGroup": "leafy_green",
+      "comparisonGroup": "spinach",
       "stores": [
         "rema"
       ],
@@ -12677,7 +12664,7 @@
         "Klasse 1. 1 kg. Pr. kg 18,00"
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "stone_fruit",
+      "comparisonGroup": "plums",
       "stores": [
         "lidl"
       ],
@@ -13347,7 +13334,7 @@
         "Udenlandsk Pr. stk."
       ],
       "categoryId": "fruit",
-      "comparisonGroup": "melon_grapes_citrus",
+      "comparisonGroup": "watermelon",
       "stores": [
         "rema"
       ],

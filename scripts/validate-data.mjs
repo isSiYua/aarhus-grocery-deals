@@ -4,6 +4,8 @@ const atlanta = JSON.parse(await fs.readFile(new URL('../data/atlanta_offers.jso
 const descriptionCache = JSON.parse(await fs.readFile(new URL('../data/product_descriptions_zh.json', import.meta.url), 'utf8'));
 const descriptionPending = JSON.parse(await fs.readFile(new URL('../data/product_descriptions_pending.json', import.meta.url), 'utf8'));
 const identityHistory = JSON.parse(await fs.readFile(new URL('../data/product_identity_history.json', import.meta.url), 'utf8'));
+const productTaxonomy = JSON.parse(await fs.readFile(new URL('../data/product_taxonomy_zh.json', import.meta.url), 'utf8'));
+const taxonomyPending = JSON.parse(await fs.readFile(new URL('../data/product_taxonomy_pending.json', import.meta.url), 'utf8'));
 const requiredTop = ['metadata','stores','categories','comparisonGroups','offers'];
 for (const key of requiredTop) if (!(key in data)) throw new Error(`Missing top-level key: ${key}`);
 if ('history' in data) throw new Error('Archive history must stay in data/history.json, not current_offers.json');
@@ -18,6 +20,7 @@ for (const [index, offer] of data.offers.entries()) {
   ids.add(offer.canonicalKey);
   if (!storeIds.has(offer.storeId)) throw new Error(`Unknown store ${offer.storeId}`);
   if (!categoryIds.has(offer.categoryId)) throw new Error(`Unknown category ${offer.categoryId}`);
+  if (!data.comparisonGroups[offer.comparisonGroup]) throw new Error(`Unknown comparison group ${offer.comparisonGroup}`);
   if (offer.categoryId === 'drinks' && !/coca[- ]?cola zero|coke zero|sprite zero/i.test(offer.originalName)) throw new Error(`Disallowed drink: ${offer.originalName}`);
   if (!['codex_cache','rules_fallback'].includes(offer.descriptionSource)) throw new Error(`Invalid description source: ${offer.canonicalKey}`);
   if (offer.descriptionSource === 'codex_cache' && descriptionCache.entries?.[offer.descriptionKey]?.descriptionZh !== offer.zhExplanation) throw new Error(`Codex description is not backed by cache: ${offer.canonicalKey}`);
@@ -38,6 +41,21 @@ const publishedDescriptionFiles = JSON.stringify({ descriptionCache, description
 if (/sk-[A-Za-z0-9_-]{20,}|OPENAI_API_KEY|api[_-]?key/i.test(publishedDescriptionFiles)) throw new Error('Possible API secret in published description data');
 if (identityHistory.schemaVersion !== 1 || typeof identityHistory.products !== 'object') throw new Error('Invalid product identity history');
 for (const offer of data.offers) if (!identityHistory.products[offer.descriptionKey]) throw new Error(`Offer missing stable identity history: ${offer.canonicalKey}`);
+if (productTaxonomy.schemaVersion !== 1 || productTaxonomy.taxonomyVersion !== 'codex-taxonomy-v1' || productTaxonomy.maintainedBy !== 'Codex' || typeof productTaxonomy.entries !== 'object') throw new Error('Invalid fixed product taxonomy');
+if (taxonomyPending.schemaVersion !== 1 || taxonomyPending.taxonomyVersion !== 'codex-taxonomy-v1' || !Array.isArray(taxonomyPending.items) || taxonomyPending.count !== taxonomyPending.items.length) throw new Error('Invalid pending taxonomy queue');
+for (const [key, entry] of Object.entries(productTaxonomy.entries)) {
+  if (entry.status === 'excluded') continue;
+  if (!categoryIds.has(entry.categoryId) || !data.comparisonGroups[entry.comparisonGroup]) throw new Error(`Invalid fixed taxonomy entry: ${key}`);
+  if (!['reviewed','pending_codex_review'].includes(entry.reviewStatus)) throw new Error(`Invalid taxonomy review status: ${key}`);
+  if (entry.reviewStatus === 'reviewed' && (!entry.labelZh || !entry.reasonZh || entry.authoredBy !== 'Codex')) throw new Error(`Incomplete Codex taxonomy review: ${key}`);
+}
+for (const offer of data.offers) {
+  const entry = productTaxonomy.entries[offer.descriptionKey];
+  if (!entry || entry.status === 'excluded') throw new Error(`Published offer is not backed by fixed taxonomy: ${offer.canonicalKey}`);
+  if (entry.categoryId !== offer.categoryId || entry.comparisonGroup !== offer.comparisonGroup) throw new Error(`Published taxonomy differs from fixed knowledge: ${offer.canonicalKey}`);
+}
+const fruitVegetableText = data.offers.filter(offer => ['fruit','vegetables'].includes(offer.categoryId)).map(offer => offer.originalName).join(' | ');
+if (/citronella|\blys\b|rosé|chokobanan|salatost|tomatkniv|majskylling|hvidløgsflutes|long ribs|tomatkonserves/i.test(fruitVegetableText)) throw new Error('Non-produce item leaked into fruit or vegetables');
 
 if (!atlanta.metadata || !Array.isArray(atlanta.offers) || !Array.isArray(atlanta.flyers) || !Array.isArray(atlanta.categories) || !atlanta.comparisonGroups) throw new Error('Invalid Atlanta data shape');
 const atlantaStoreIds = new Set(['kroger-howell-mill', 'publix-howell-mill', 'whole-foods-midtown', 'target-midtown', 'walmart-mlk']);
@@ -64,4 +82,4 @@ for (const flyer of atlanta.flyers) {
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${flyer.id}?postal_code=30318`;
   if (flyer.url !== expectedFlyerUrl) throw new Error(`Atlanta flyer directory URL is not pinned to 30318: ${flyer.storeId}`);
 }
-console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores, ${atlanta.offers.length} Atlanta offers, ${Object.keys(descriptionCache.entries).length} Codex descriptions, ${descriptionPending.count} queued descriptions, and ${Object.keys(identityHistory.products).length} stable product identities.`);
+console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores, ${atlanta.offers.length} Atlanta offers, ${Object.keys(descriptionCache.entries).length} Codex descriptions, ${Object.values(productTaxonomy.entries).filter(entry => entry.reviewStatus === 'reviewed').length} Codex-reviewed taxonomies, ${taxonomyPending.count} pending taxonomy reviews, and ${Object.keys(identityHistory.products).length} stable product identities.`);

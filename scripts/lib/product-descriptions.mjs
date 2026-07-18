@@ -35,8 +35,8 @@ export async function loadDescriptionCache(fileUrl) {
   }
 }
 
-export function resolveProductDescription(raw, classification, cache = emptyDescriptionCache()) {
-  const descriptionKey = descriptionKeyFor(raw, classification);
+export function resolveProductDescription(raw, classification, cache = emptyDescriptionCache(), fixedDescriptionKey = null) {
+  const descriptionKey = fixedDescriptionKey || descriptionKeyFor(raw, classification);
   const cached = cache.entries?.[descriptionKey];
   if (cached?.descriptionZh) {
     return {
