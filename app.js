@@ -787,7 +787,7 @@ function mobileCategoryReader(category, allOffers, groups) {
       el('div', { class: 'reader-category-line' }, [
         el('div', { class: 'reader-heading' }, [
           el('span', { class: 'reader-kicker' }, `${category.emoji} ${category.nameZh}`),
-          el('h2', { class: 'reader-subcategory-title' }, groupLabel.nameZh),
+          mobileReaderGroupPicker(groups, current?.groupId, groupLabel.nameZh),
         ]),
         el('div', { class: 'reader-head-actions' }, [
           mobileReaderStoreFilter(allOffers),
@@ -806,9 +806,63 @@ function mobileCategoryReader(category, allOffers, groups) {
   if (pages.length) {
     attachReaderScroll(stack);
     attachReaderSwipe(main, pages.length);
+    attachReaderGroupPicker(main);
     requestAnimationFrame(() => scrollReaderToIndex(state.reader.index, false));
   }
   return main;
+}
+
+function mobileReaderGroupPicker(groups, currentGroupId, currentLabel) {
+  let startIndex = 0;
+  const labels = activeComparisonGroups();
+  const options = groups.map(([groupId, offers]) => {
+    const groupStart = startIndex;
+    startIndex += offers.length;
+    const active = groupId === currentGroupId;
+    return el('button', {
+      class: `reader-group-option${active ? ' active' : ''}`,
+      type: 'button',
+      'data-reader-group-jump': groupId,
+      'aria-current': active ? 'true' : null,
+      onClick: event => jumpReaderToGroup(groupStart, event.currentTarget),
+    }, [
+      el('span', {}, labels[groupId]?.nameZh || '其他商品'),
+      el('small', {}, `${offers.length} 件`),
+    ]);
+  });
+  return el('details', { class: 'reader-group-picker' }, [
+    el('summary', { 'aria-label': `选择小类，当前为${currentLabel}` }, [
+      el('h2', { class: 'reader-subcategory-title' }, currentLabel),
+      el('span', { class: 'reader-picker-arrow', 'aria-hidden': 'true' }, '⌄'),
+    ]),
+    el('div', { class: 'reader-group-menu' }, [
+      el('div', { class: 'reader-group-menu-title' }, `跳到小类 · 共 ${groups.length} 类`),
+      ...options,
+    ]),
+  ]);
+}
+
+function jumpReaderToGroup(index, control) {
+  if (state.readerTransitioning) return;
+  state.reader.index = index;
+  updateReaderStatus(index);
+  scrollReaderToIndex(index, false);
+  const picker = control?.closest('.reader-group-picker');
+  picker?.removeAttribute('open');
+  picker?.querySelector('summary')?.focus();
+}
+
+function attachReaderGroupPicker(main) {
+  const picker = main.querySelector('.reader-group-picker');
+  const storeFilter = main.querySelector('.reader-store-filter');
+  picker?.addEventListener('toggle', () => {
+    if (!picker.open) return;
+    storeFilter?.removeAttribute('open');
+    requestAnimationFrame(() => picker.querySelector('.reader-group-option.active')?.scrollIntoView({ block: 'nearest' }));
+  });
+  storeFilter?.addEventListener('toggle', () => {
+    if (storeFilter.open) picker?.removeAttribute('open');
+  });
 }
 
 function mobileReaderStoreFilter(offers) {
@@ -896,6 +950,12 @@ function updateReaderStatus(index) {
   const previous = document.querySelector('.reader-prev');
   const next = document.querySelector('.reader-next');
   if (title) title.textContent = label.nameZh;
+  document.querySelectorAll('.reader-group-option').forEach(option => {
+    const active = option.dataset.readerGroupJump === groupId;
+    option.classList.toggle('active', active);
+    if (active) option.setAttribute('aria-current', 'true');
+    else option.removeAttribute('aria-current');
+  });
   if (groupCount) groupCount.textContent = `${groupIndex + 1}/${groupTotal}`;
   if (pageCount) pageCount.textContent = `${index + 1} / ${pages.length}`;
   if (progress) progress.style.width = `${((index + 1) / pages.length) * 100}%`;
@@ -926,7 +986,7 @@ function attachReaderSwipe(node, pageCount) {
   node.addEventListener('touchstart', e => {
     state.touchStartX = e.changedTouches[0].clientX;
     state.touchStartY = e.changedTouches[0].clientY;
-    state.touchStartedInControl = Boolean(e.target.closest('button, a, input, select, textarea, dialog, .chip-row'));
+    state.touchStartedInControl = Boolean(e.target.closest('button, a, input, select, textarea, summary, dialog, .chip-row'));
   }, { passive: true });
   node.addEventListener('touchend', e => {
     if (state.touchStartX === null || state.touchStartY === null) return;

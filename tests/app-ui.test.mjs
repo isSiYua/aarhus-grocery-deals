@@ -65,6 +65,11 @@ test('mobile category browsing supports a continuous vertical stream and aligned
   assert.match(appSource, /function scrollReaderToIndex/);
   assert.match(appSource, /stack\.scrollTo\(\{ top, behavior: smooth \? 'smooth' : 'auto' \}\)/);
   assert.match(appSource, /function turnReaderPage/);
+  assert.match(appSource, /function mobileReaderGroupPicker/);
+  assert.match(appSource, /function jumpReaderToGroup/);
+  assert.match(appSource, /data-reader-group-jump/);
+  assert.match(appSource, /scrollReaderToIndex\(index, false\)/);
+  assert.match(appSource, /reader-group-option\.active/);
   assert.match(appSource, /state\.readerTransitioning/);
   assert.match(appSource, /reader-exit-left/);
   assert.match(appSource, /reader-enter-right/);
@@ -79,6 +84,8 @@ test('mobile category browsing supports a continuous vertical stream and aligned
   assert.match(styleSource, /\.reader-page\.reader-exit-left \{ transform: translateX\(-108%\)/);
   assert.match(styleSource, /\.reader-page\.reader-enter-right \{ transform: translateX\(108%\)/);
   assert.match(styleSource, /\.reader-heading \{ min-width: 0; display: flex/);
+  assert.match(styleSource, /\.reader-group-menu \{ position: absolute/);
+  assert.match(styleSource, /\.reader-group-option\.active \{ background:/);
   assert.match(styleSource, /\.mobile-reader-head h2 \{ min-width: 0; margin: 0/);
   assert.match(styleSource, /height: calc\(100dvh - var\(--topbar-height/);
 });
