@@ -3,6 +3,7 @@ import path from 'node:path';
 import { listDanishDealers, fetchDealerOffers } from './lib/tjek-client.mjs';
 import { normalizeOffer } from './lib/normalize.mjs';
 import { mergeIncrementally } from './lib/merge.mjs';
+import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS } from './lib/taxonomy.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/current_offers.json');
@@ -15,7 +16,35 @@ const wantedStores = {
   '365': ['365discount', 'coop 365'],
   foetex: ['føtex', 'foetex'],
   bilka: ['bilka'],
+  kvickly: ['kvickly'],
 };
+
+const additionalStores = [
+  {
+    id: 'kvickly',
+    name: 'Kvickly Åbyhøj',
+    color: '#E84A27',
+    shortAddress: 'Silkeborgvej 573, 8230 Åbyhøj',
+    distanceLabel: 'Aarhus V 周边的综合超市',
+    membership: '部分价格需 Coop App',
+    descriptionZh: 'eTilbudsavis 提供可核验的 Kvickly 周促销，因此商品会与其他商店一起参与本期和下期比较。',
+    website: 'https://kvickly.coop.dk/find-butik/kvickly-aabyhoej/2010/',
+    flyerUrl: 'https://etilbudsavis.dk/Kvickly',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Kvickly+Silkeborgvej+573+Aabyhoej',
+  },
+  {
+    id: 'kft',
+    name: 'KFT Jylland',
+    color: '#6F8C32',
+    shortAddress: 'Viborgvej 155A, 8210 Aarhus V',
+    distanceLabel: '亚洲食品与新鲜亚洲蔬菜专门店',
+    membership: '官网价格需登录，暂无公开周促销 feed',
+    descriptionZh: 'KFT 确有 Aarhus V 门店，但不在 eTilbudsavis 商家目录中；官网商品价格需登录，旧促销 PDF 当前已失效。因此只保留商店入口，不伪造价格或参与最低价。',
+    website: 'https://kft.dk/',
+    flyerUrl: 'https://kft.dk/product-category/dagligvarer/',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=KFT+Jylland+Viborgvej+155A+Aarhus',
+  },
+];
 
 const normalizeName = value => String(value || '').toLowerCase().replace(/ø/g,'o').replace(/æ/g,'ae');
 
@@ -64,8 +93,16 @@ for (const [storeId, aliases] of Object.entries(wantedStores)) {
 const result = mergeIncrementally(previous, freshByStore, storeStatuses, nowIso);
 const failedStores = Object.entries(storeStatuses).filter(([,s]) => s === 'failed').map(([id]) => id);
 const anySuccessfulStore = Object.values(storeStatuses).some(status => status === 'ok');
+const previousForOutput = { ...previous };
+delete previousForOutput.history;
 const next = {
-  ...previous,
+  ...previousForOutput,
+  stores: [
+    ...previous.stores.filter(store => !additionalStores.some(additional => additional.id === store.id)),
+    ...additionalStores,
+  ],
+  categories: AARHUS_CATEGORIES,
+  comparisonGroups: AARHUS_COMPARISON_GROUPS,
   metadata: {
     ...previous.metadata,
     mode: anySuccessfulStore ? 'live' : (previous.metadata.mode || 'demo'),

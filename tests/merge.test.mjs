@@ -28,3 +28,10 @@ test('successful source removes a missing offer instead of showing a reconfirmat
   assert.equal(out.offers.length, 0);
   assert.equal(out.history[0].status, 'withdrawn');
 });
+
+test('deduplicates the same source offer before merging and archiving', () => {
+  const fresh = { ...old, price:15, lastSeenAt:'2026-07-18' };
+  const out = mergeIncrementally({ offers:[old], history:[] }, { netto:[fresh, fresh] }, { netto:'ok' }, '2026-07-18T07:00:00Z');
+  assert.equal(out.offers.length, 1);
+  assert.equal(out.history.length, 1);
+});

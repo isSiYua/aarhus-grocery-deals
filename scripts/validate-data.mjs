@@ -3,6 +3,7 @@ const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json',
 const atlanta = JSON.parse(await fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8'));
 const requiredTop = ['metadata','stores','categories','comparisonGroups','offers'];
 for (const key of requiredTop) if (!(key in data)) throw new Error(`Missing top-level key: ${key}`);
+if ('history' in data) throw new Error('Archive history must stay in data/history.json, not current_offers.json');
 const storeIds = new Set(data.stores.map(s => s.id));
 const categoryIds = new Set(data.categories.map(c => c.id));
 const ids = new Set();

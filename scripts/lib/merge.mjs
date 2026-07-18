@@ -9,7 +9,8 @@ export function mergeIncrementally(previous, freshByStore, storeStatuses, nowIso
   const freshKeys = new Set();
 
   for (const [storeId, offers] of Object.entries(freshByStore)) {
-    for (const fresh of offers) {
+    const uniqueOffers = [...new Map(offers.map(offer => [offer.canonicalKey, offer])).values()];
+    for (const fresh of uniqueOffers) {
       freshKeys.add(fresh.canonicalKey);
       const old = previousMap.get(fresh.canonicalKey);
       if (!old) {

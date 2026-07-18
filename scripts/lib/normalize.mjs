@@ -5,6 +5,7 @@ const storeAlias = value => String(value || '').toLowerCase().replace(/ø/g,'o')
 const STORE_NAMES = {
   netto: 'netto', lidl: 'lidl', rema1000: 'rema', rema: 'rema', '365discount': '365',
   fotex: 'foetex', foetex: 'foetex', bilka: 'bilka',
+  kvickly: 'kvickly',
 };
 
 function getStoreId(raw) {
@@ -39,6 +40,9 @@ function unitPrice(price, q) {
     if (u === 'kg') return { value: price / q.size, unit: 'DKK/kg', display: `${(price / q.size).toFixed(2)} DKK/kg` };
     if (u === 'ml') return { value: price / q.size * 1000, unit: 'DKK/L', display: `${(price / q.size * 1000).toFixed(2)} DKK/L` };
     if (u === 'l') return { value: price / q.size, unit: 'DKK/L', display: `${(price / q.size).toFixed(2)} DKK/L` };
+    if (['pcs', 'pc', 'stk', 'piece', 'pieces'].includes(u)) {
+      return { value: price / q.size, unit: 'DKK/stk', display: `${(price / q.size).toFixed(2)} DKK/件` };
+    }
   }
   if (Number.isFinite(q.pieces) && q.pieces > 0) return { value: price / q.pieces, unit: 'DKK/stk', display: `${(price / q.pieces).toFixed(2)} DKK/件` };
   return { value: null, unit: null, display: null };
@@ -81,17 +85,20 @@ export function normalizeOffer(raw, nowIso) {
   const unit = unitPrice(pricing.price, q);
   const conditions = detectConditions(raw);
   const heading = String(raw.heading || '').trim();
-  const canonicalKey = [storeId, normalizedText(heading), q.size || q.pieces || '', q.unit || ''].join('|');
-  const sourceSlug = { netto:'Netto', lidl:'Lidl', rema:'REMA-1000', '365':'365discount', foetex:'fotex', bilka:'Bilka' }[storeId];
-  const catalogPage = Number.isInteger(raw.catalog_page) && raw.catalog_page >= 1 ? raw.catalog_page : null;
+  const productKey = [storeId, normalizedText(heading), q.size || q.pieces || '', q.unit || ''].join('|');
   const catalogId = String(raw.catalog_id || '').trim() || null;
   const sourceOfferId = String(raw.id || '').trim() || null;
+  const offerIdentity = sourceOfferId || [catalogId || 'no-catalog', raw.run_from || '', raw.run_till || ''].join('|');
+  const canonicalKey = `${productKey}|${offerIdentity}`;
+  const sourceSlug = { netto:'Netto', lidl:'Lidl', rema:'REMA-1000', '365':'365discount', foetex:'fotex', bilka:'Bilka', kvickly:'Kvickly' }[storeId];
+  const catalogPage = Number.isInteger(raw.catalog_page) && raw.catalog_page >= 1 ? raw.catalog_page : null;
   const sourceUrl = catalogId
     ? `https://etilbudsavis.dk/${sourceSlug}?publication=${encodeURIComponent(catalogId)}${sourceOfferId ? `&offer=${encodeURIComponent(sourceOfferId)}` : ''}`
     : `https://etilbudsavis.dk/${sourceSlug}`;
   return {
     id: canonicalKey,
     canonicalKey,
+    productKey,
     sourceOfferId,
     storeId,
     originalName: heading,
