@@ -770,29 +770,43 @@ function mobileCategoryReader(category, allOffers, groups) {
   state.reader.index = Math.max(0, Math.min(state.reader.index, Math.max(0, pages.length - 1)));
   const current = pages[state.reader.index];
   const groupLabel = activeComparisonGroups()[current?.groupId] || { nameZh: '其他商品', noteZh: '逐件查看商品。' };
+  const progress = pages.length ? ((state.reader.index + 1) / pages.length) * 100 : 0;
+  const stack = el('div', { class: 'mobile-reader-stack', tabindex: '0', 'aria-label': `${category.nameZh}全部商品，纵向连续浏览` }, pages.map((page, pageIndex) =>
+    el('section', {
+      class: 'reader-page',
+      'data-reader-index': pageIndex,
+      'data-reader-group': page.groupId,
+      'data-reader-group-index': page.groupIndex,
+      'data-reader-group-count': page.groupCount,
+      'aria-label': `第 ${pageIndex + 1} 件，共 ${pages.length} 件`,
+    }, offerCard(page.offer))
+  ));
   const main = el('main', { class: 'mobile-reader', style: `--page-color:${category.color}` }, [
     el('header', { class: 'mobile-reader-head' }, [
       el('div', { class: 'reader-category-line' }, [
         el('div', {}, [
           el('span', { class: 'reader-kicker' }, `${category.emoji} ${category.nameZh}`),
-          el('h2', {}, groupLabel.nameZh),
+          el('h2', { class: 'reader-subcategory-title' }, groupLabel.nameZh),
         ]),
         el('span', { class: 'reader-group-count' }, current ? `${current.groupIndex + 1}/${current.groupCount}` : '0/0'),
       ]),
-      el('p', {}, groupLabel.noteZh),
+      el('p', { class: 'reader-subcategory-note' }, groupLabel.noteZh),
       mobileReaderStoreFilter(allOffers),
-      el('div', { class: 'reader-instructions' }, '左右翻商品 · 轻点屏幕中央显示或隐藏菜单'),
+      el('div', { class: 'reader-instructions' }, '上下连续浏览 · 左右翻整页 · 轻点中央显示菜单'),
+      el('div', { class: 'reader-progress', 'aria-hidden': 'true' }, el('span', { style: `width:${progress}%` })),
     ]),
-    current
-      ? el('div', { class: 'mobile-reader-card', 'aria-live': 'polite' }, offerCard(current.offer))
-      : el('div', { class: 'empty' }, '当前筛选条件下没有商品。'),
+    pages.length ? stack : el('div', { class: 'empty' }, '当前筛选条件下没有商品。'),
     el('footer', { class: 'mobile-reader-footer' }, [
-      el('button', { type: 'button', disabled: state.reader.index === 0 ? '' : null, onClick: () => turnReaderPage(-1, pages.length) }, '← 上一件'),
-      el('span', {}, `${pages.length ? state.reader.index + 1 : 0} / ${pages.length}`),
-      el('button', { type: 'button', disabled: state.reader.index >= pages.length - 1 ? '' : null, onClick: () => turnReaderPage(1, pages.length) }, '下一件 →'),
+      el('button', { class: 'reader-prev', type: 'button', disabled: state.reader.index === 0 ? '' : null, onClick: () => turnReaderPage(-1, pages.length) }, '← 上一件'),
+      el('span', { class: 'reader-page-count' }, `${pages.length ? state.reader.index + 1 : 0} / ${pages.length}`),
+      el('button', { class: 'reader-next', type: 'button', disabled: state.reader.index >= pages.length - 1 ? '' : null, onClick: () => turnReaderPage(1, pages.length) }, '下一件 →'),
     ]),
   ]);
-  attachReaderSwipe(main, pages.length);
+  if (pages.length) {
+    attachReaderScroll(stack);
+    attachReaderSwipe(main, pages.length);
+    requestAnimationFrame(() => scrollReaderToIndex(state.reader.index, false));
+  }
   return main;
 }
 
@@ -819,7 +833,60 @@ function turnReaderPage(direction, pageCount) {
   const next = Math.max(0, Math.min(state.reader.index + direction, pageCount - 1));
   if (next === state.reader.index) return;
   state.reader.index = next;
-  render();
+  updateReaderStatus(next);
+  scrollReaderToIndex(next, true);
+}
+
+function scrollReaderToIndex(index, smooth) {
+  const stack = document.querySelector('.mobile-reader-stack');
+  const target = stack?.querySelector(`[data-reader-index="${index}"]`);
+  const first = stack?.querySelector('.reader-page');
+  if (!stack || !target || !first) return;
+  const top = target.offsetTop - first.offsetTop;
+  stack.scrollTo({ top, behavior: smooth ? 'smooth' : 'auto' });
+}
+
+function updateReaderStatus(index) {
+  const stack = document.querySelector('.mobile-reader-stack');
+  const page = stack?.querySelector(`[data-reader-index="${index}"]`);
+  if (!page) return;
+  const pages = stack.querySelectorAll('.reader-page');
+  const groupId = page.dataset.readerGroup;
+  const groupIndex = Number(page.dataset.readerGroupIndex);
+  const groupTotal = Number(page.dataset.readerGroupCount);
+  const label = activeComparisonGroups()[groupId] || { nameZh: '其他商品', noteZh: '逐件查看商品。' };
+  const title = document.querySelector('.reader-subcategory-title');
+  const note = document.querySelector('.reader-subcategory-note');
+  const groupCount = document.querySelector('.reader-group-count');
+  const pageCount = document.querySelector('.reader-page-count');
+  const progress = document.querySelector('.reader-progress span');
+  const previous = document.querySelector('.reader-prev');
+  const next = document.querySelector('.reader-next');
+  if (title) title.textContent = label.nameZh;
+  if (note) note.textContent = label.noteZh;
+  if (groupCount) groupCount.textContent = `${groupIndex + 1}/${groupTotal}`;
+  if (pageCount) pageCount.textContent = `${index + 1} / ${pages.length}`;
+  if (progress) progress.style.width = `${((index + 1) / pages.length) * 100}%`;
+  if (previous) previous.disabled = index === 0;
+  if (next) next.disabled = index >= pages.length - 1;
+}
+
+function attachReaderScroll(stack) {
+  let frame = null;
+  stack.addEventListener('scroll', () => {
+    if (frame !== null) return;
+    frame = requestAnimationFrame(() => {
+      frame = null;
+      const rect = stack.getBoundingClientRect();
+      const probe = document.elementFromPoint(rect.left + rect.width / 2, rect.top + Math.min(110, rect.height * .28));
+      const page = probe?.closest('.reader-page');
+      if (!page) return;
+      const index = Number(page.dataset.readerIndex);
+      if (!Number.isInteger(index) || index === state.reader.index) return;
+      state.reader.index = index;
+      updateReaderStatus(index);
+    });
+  }, { passive: true });
 }
 
 function attachReaderSwipe(node, pageCount) {

@@ -55,16 +55,23 @@ test('mobile chrome behaves like a reading app and has no visible handles', () =
   assert.match(styleSource, /\.bottom-nav\.collapsed \{ display: none; \}/);
 });
 
-test('mobile category browsing turns one product card at a time without changing the large category', () => {
+test('mobile category browsing supports a continuous vertical stream and aligned card turns', () => {
   assert.match(appSource, /function mobileCategoryReader/);
   assert.match(appSource, /groups\.flatMap/);
+  assert.match(appSource, /class: 'mobile-reader-stack'/);
+  assert.match(appSource, /class: 'reader-page'/);
+  assert.match(appSource, /function attachReaderScroll/);
+  assert.match(appSource, /document\.elementFromPoint/);
+  assert.match(appSource, /function scrollReaderToIndex/);
+  assert.match(appSource, /stack\.scrollTo\(\{ top, behavior: smooth \? 'smooth' : 'auto' \}\)/);
   assert.match(appSource, /function turnReaderPage/);
   assert.match(appSource, /function attachReaderSwipe/);
-  assert.match(appSource, /左右翻商品/);
+  assert.match(appSource, /上下连续浏览 · 左右翻整页/);
   assert.doesNotMatch(appSource, /左右滑动切换整个大类/);
   assert.match(appSource, /touchStartY/);
   assert.match(appSource, /Math\.abs\(delta\) < Math\.abs\(verticalDelta\) \* 1\.35/);
-  assert.match(styleSource, /\.mobile-reader-card > \.offer-card \{ height: 100%; overflow-y: auto/);
+  assert.match(styleSource, /scroll-snap-type: y proximity/);
+  assert.match(styleSource, /\.reader-page \{ min-height: 100%/);
   assert.match(styleSource, /height: calc\(100dvh - var\(--topbar-height/);
 });
 
