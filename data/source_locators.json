@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "Only verified or direct source locations belong here. Never invent page numbers.",
+  "locators": []
+}

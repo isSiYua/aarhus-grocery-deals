@@ -1,0 +1,72 @@
+name: Update deals and deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC. Running twice and checking Copenhagen local hour handles daylight saving time.
+    - cron: '17 5,6 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: grocery-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.guard.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - id: guard
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$(TZ=Europe/Copenhagen date +%H)" = "07" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.guard.outputs.should_run == 'true'
+        run: npm test
+      - if: steps.guard.outputs.should_run == 'true'
+        run: npm run update
+      - if: steps.guard.outputs.should_run == 'true'
+        run: npm run locate
+      - if: steps.guard.outputs.should_run == 'true'
+        run: npm run validate
+      - if: steps.guard.outputs.should_run == 'true'
+        run: |
+          git config user.name "grocery-deals-bot"
+          git config user.email "grocery-deals-bot@users.noreply.github.com"
+          git add data/current_offers.json data/history.json data/source_locators.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh grocery deals"
+            git push
+          fi
+      - if: steps.guard.outputs.should_run == 'true'
+        uses: actions/configure-pages@v5
+      - if: steps.guard.outputs.should_run == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
