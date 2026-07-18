@@ -2,6 +2,11 @@ name: Update deals and deploy
 
 on:
   workflow_dispatch:
+    inputs:
+      description_limit:
+        description: Maximum number of uncached AI descriptions to generate in this run
+        required: false
+        default: '100'
   schedule:
     # GitHub cron uses UTC. Running twice and checking Copenhagen local hour handles daylight saving time.
     - cron: '17 5,6 * * *'
@@ -43,7 +48,8 @@ jobs:
         name: Generate and cache new Chinese product descriptions when configured
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: npm run descriptions:generate -- --if-key-present --limit 100
+          OPENAI_DESCRIPTION_LIMIT: ${{ inputs.description_limit || '100' }}
+        run: npm run descriptions:generate -- --if-key-present --limit "$OPENAI_DESCRIPTION_LIMIT"
       - if: steps.guard.outputs.should_run == 'true'
         run: npm run locate
       - if: steps.guard.outputs.should_run == 'true'
