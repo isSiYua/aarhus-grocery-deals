@@ -5,6 +5,7 @@ import {
   collectPendingDescriptions,
   descriptionKeyFor,
   emptyDescriptionCache,
+  applyDescriptionCacheToOffers,
   resolveProductDescription,
 } from '../scripts/lib/product-descriptions.mjs';
 
@@ -14,6 +15,30 @@ test('description identity is reusable across stores and package sizes', () => {
   const first = descriptionKeyFor({ heading: 'Coop hvide champignoner', storeId: '365' }, classification);
   const second = descriptionKeyFor({ heading: 'COOP HVIDE CHAMPIGNONER', storeId: 'foetex', quantity: 500 }, classification);
   assert.equal(first, second);
+});
+
+test('taxonomy changes refresh stale fallback descriptions instead of retaining generic vegetable text', () => {
+  const offers = [{
+    originalName: 'Danske løse ærter',
+    originalDescription: '100 g',
+    categoryId: 'vegetables',
+    comparisonGroup: 'peas',
+    zhExplanation: '蔬菜商品，可用于清炒、炖煮、烤制或配菜；具体品种以原名为准。',
+    descriptionSource: 'rules_fallback',
+  }];
+  const result = applyDescriptionCacheToOffers(offers, emptyDescriptionCache());
+  assert.match(result.offers[0].zhExplanation, /丹麦新鲜豌豆/);
+  assert.doesNotMatch(result.offers[0].zhExplanation, /具体品种以原名为准/);
+  assert.equal(result.applied, 1);
+});
+
+test('a named carrot offer explains the actual vegetable rather than the parent category', () => {
+  const result = resolveProductDescription(
+    { heading: 'Gulerødder med top', description: 'Økologiske danske' },
+    { categoryId: 'vegetables', comparisonGroup: 'root_vegetables' },
+  );
+  assert.match(result.zhExplanation, /带叶胡萝卜/);
+  assert.doesNotMatch(result.zhExplanation, /^蔬菜商品/);
 });
 
 test('Codex cache overrides the rule fallback and records provenance', () => {

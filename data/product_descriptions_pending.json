@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v2",
-  "generatedAt": "2026-07-18T12:17:43.854Z",
-  "count": 1053,
+  "generatedAt": "2026-07-18T13:07:27.483Z",
+  "count": 1051,
   "items": [
     {
       "descriptionKey": "v1|10 friskbagte rundstykker|bread",
@@ -3002,19 +3002,6 @@
       "occurrences": 2
     },
     {
-      "descriptionKey": "v1|danske lose aerter|vegetables_other",
-      "originalName": "Danske løse ærter",
-      "sampleDescriptions": [
-        "Løsvægt. Danmark. Pr. kg 35,-\nPr. 100 g"
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "peas",
-      "stores": [
-        "foetex"
-      ],
-      "occurrences": 1
-    },
-    {
       "descriptionKey": "v1|dava danske frilandsaeg|eggs",
       "originalName": "Dava danske frilandsæg",
       "sampleDescriptions": [
@@ -4513,19 +4500,6 @@
         "foetex"
       ],
       "occurrences": 2
-    },
-    {
-      "descriptionKey": "v1|gulerodder med top|vegetables_other",
-      "originalName": "Gulerødder med top",
-      "sampleDescriptions": [
-        "Økologiske Danske\nPr. bundt"
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "root_vegetables",
-      "stores": [
-        "rema"
-      ],
-      "occurrences": 1
     },
     {
       "descriptionKey": "v1|haarpleje|hair_body",

@@ -37,7 +37,8 @@ export async function loadDescriptionCache(fileUrl) {
 
 export function resolveProductDescription(raw, classification, cache = emptyDescriptionCache(), fixedDescriptionKey = null) {
   const descriptionKey = fixedDescriptionKey || descriptionKeyFor(raw, classification);
-  const cached = cache.entries?.[descriptionKey];
+  const canonicalDescriptionKey = descriptionKeyFor(raw, classification);
+  const cached = cache.entries?.[descriptionKey] || cache.entries?.[canonicalDescriptionKey];
   if (cached?.descriptionZh) {
     return {
       descriptionKey,
@@ -58,7 +59,8 @@ export function collectPendingDescriptions(offers, cache = emptyDescriptionCache
   const pending = new Map();
   for (const offer of offers) {
     const descriptionKey = offer.descriptionKey || descriptionKeyFor(offer, offer);
-    if (cache.entries?.[descriptionKey]?.descriptionZh) continue;
+    const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
+    if (cache.entries?.[descriptionKey]?.descriptionZh || cache.entries?.[canonicalDescriptionKey]?.descriptionZh) continue;
     const current = pending.get(descriptionKey);
     if (current) {
       current.occurrences += 1;
@@ -94,8 +96,16 @@ export function applyDescriptionCacheToOffers(offers, cache) {
   let applied = 0;
   const nextOffers = offers.map(offer => {
     const descriptionKey = offer.descriptionKey || descriptionKeyFor(offer, offer);
-    const cached = cache.entries?.[descriptionKey];
+    const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
+    const cached = cache.entries?.[descriptionKey] || cache.entries?.[canonicalDescriptionKey];
     if (!cached?.descriptionZh) {
+      const fallback = explainInChinese(
+        {
+          heading: offer.originalName || offer.heading || '',
+          description: offer.originalDescription || offer.description || '',
+        },
+        { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup },
+      );
       const {
         descriptionModel: _model,
         descriptionPromptVersion: _prompt,
@@ -103,7 +113,8 @@ export function applyDescriptionCacheToOffers(offers, cache) {
         descriptionVersion: _version,
         ...rest
       } = offer;
-      return { ...rest, descriptionKey, descriptionSource: 'rules_fallback' };
+      if (offer.zhExplanation !== fallback || offer.descriptionSource !== 'rules_fallback') applied += 1;
+      return { ...rest, descriptionKey, zhExplanation: fallback, descriptionSource: 'rules_fallback' };
     }
     if (offer.zhExplanation !== cached.descriptionZh || offer.descriptionSource !== 'codex_cache') applied += 1;
     return {

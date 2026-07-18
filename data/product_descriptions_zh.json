@@ -4,6 +4,32 @@
   "maintainedBy": "Codex",
   "updatedAt": "2026-07-18T12:01:48Z",
   "entries": {
+    "v1|danske lose aerter|peas": {
+      "descriptionZh": "丹麦新鲜豌豆（促销图中为带荚豌豆），剥出豆粒后可清炒、煮汤、拌饭或做配菜。标价按带荚重量计算时，可食豆粒会少于标示重量，不能与去壳豌豆按同一重量直接比价。",
+      "originalName": "Danske løse ærter",
+      "categoryId": "vegetables",
+      "comparisonGroup": "peas",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-2.webp&w=1000&x1r=0.26&x2r=1&y1r=0.19&y2r=0.72&s=0fc54117aa1c7a1bf96e4573bfb6f8a9"
+      }
+    },
+    "v1|gulerodder med top|root_vegetables": {
+      "descriptionZh": "带叶胡萝卜，嫩根可清炒、炖肉、烤制、煮汤或直接生吃；顶部叶片新鲜时也可少量做青酱或汤料。它就是胡萝卜，不应只写成笼统的“蔬菜商品”。",
+      "originalName": "Gulerødder med top",
+      "categoryId": "vegetables",
+      "comparisonGroup": "root_vegetables",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-7.webp&w=1000&x1r=0.482&x2r=0.996&y1r=0.457&y2r=0.732&s=171257dd27425c7525b26d6e4ed409aa"
+      }
+    },
     "v1|floralys toiletpapir|paper": {
       "descriptionZh": "Floralys 卫生纸，有三层和四层等包装，卷数与纸张总量会随促销批次变化。属于家庭纸品，购买时应同时比较每卷价格、层数和总长度，不是按重量判断质量。",
       "originalName": "FLORALYS Toiletpapir",

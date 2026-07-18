@@ -1,9 +1,11 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { buildFlippFlyerUrl, chooseCurrentFlyer, fetchFlyerItems, fetchFlyers, normalizeFlippItems } from './lib/flipp-client.mjs';
+import { loadAtlantaProductKnowledge } from './lib/flipp-product-knowledge.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/atlanta_offers.json');
+const knowledgePath = path.join(root, 'data/atlanta_product_knowledge_zh.json');
 const postalCode = '30318';
 const locationSlug = 'atlanta-ga';
 const nowIso = new Date().toISOString();
@@ -47,6 +49,7 @@ async function loadPrevious() {
 }
 
 const previous = await loadPrevious();
+const productKnowledge = await loadAtlantaProductKnowledge(knowledgePath);
 const freshByStore = new Map();
 const selectedFlyers = [];
 const storeStatuses = {};
@@ -73,7 +76,7 @@ for (const source of ATLANTA_SOURCES) {
   }
   try {
     const rawItems = await fetchFlyerItems(flyer.id, postalCode);
-    const offers = normalizeFlippItems(rawItems, { storeId: source.storeId, flyer, seenAt: nowIso, postalCode, locationSlug });
+    const offers = normalizeFlippItems(rawItems, { storeId: source.storeId, flyer, seenAt: nowIso, postalCode, locationSlug, productKnowledge });
     if (!offers.length) throw new Error('No priced grocery or household items retained');
     freshByStore.set(source.storeId, offers);
     selectedFlyers.push({

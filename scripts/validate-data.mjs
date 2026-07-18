@@ -1,6 +1,8 @@
 import fs from 'node:fs/promises';
+import { descriptionKeyFor } from './lib/product-descriptions.mjs';
 const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
 const atlanta = JSON.parse(await fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8'));
+const atlantaKnowledge = JSON.parse(await fs.readFile(new URL('../data/atlanta_product_knowledge_zh.json', import.meta.url), 'utf8'));
 const descriptionCache = JSON.parse(await fs.readFile(new URL('../data/product_descriptions_zh.json', import.meta.url), 'utf8'));
 const descriptionPending = JSON.parse(await fs.readFile(new URL('../data/product_descriptions_pending.json', import.meta.url), 'utf8'));
 const identityHistory = JSON.parse(await fs.readFile(new URL('../data/product_identity_history.json', import.meta.url), 'utf8'));
@@ -23,7 +25,8 @@ for (const [index, offer] of data.offers.entries()) {
   if (!data.comparisonGroups[offer.comparisonGroup]) throw new Error(`Unknown comparison group ${offer.comparisonGroup}`);
   if (offer.categoryId === 'drinks' && !/coca[- ]?cola zero|coke zero|sprite zero/i.test(offer.originalName)) throw new Error(`Disallowed drink: ${offer.originalName}`);
   if (!['codex_cache','rules_fallback'].includes(offer.descriptionSource)) throw new Error(`Invalid description source: ${offer.canonicalKey}`);
-  if (offer.descriptionSource === 'codex_cache' && descriptionCache.entries?.[offer.descriptionKey]?.descriptionZh !== offer.zhExplanation) throw new Error(`Codex description is not backed by cache: ${offer.canonicalKey}`);
+  const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
+  if (offer.descriptionSource === 'codex_cache' && ![descriptionCache.entries?.[offer.descriptionKey]?.descriptionZh, descriptionCache.entries?.[canonicalDescriptionKey]?.descriptionZh].includes(offer.zhExplanation)) throw new Error(`Codex description is not backed by cache: ${offer.canonicalKey}`);
   if (!['unlocated','direct','verified'].includes(offer.sourceLocation?.status)) throw new Error(`Invalid source location status: ${offer.canonicalKey}`);
   if (offer.sourceLocation?.status === 'verified' && (!Number.isInteger(offer.sourceLocation.pageNumber) || offer.sourceLocation.pageNumber < 1)) throw new Error(`Invalid verified source location: ${offer.canonicalKey}`);
 }
@@ -61,14 +64,20 @@ if (!atlanta.metadata || !Array.isArray(atlanta.offers) || !Array.isArray(atlant
 const atlantaStoreIds = new Set(['kroger-howell-mill', 'publix-howell-mill', 'whole-foods-midtown', 'target-midtown', 'walmart-mlk']);
 const atlantaCategoryIds = new Set(atlanta.categories.map(category => category.id));
 const atlantaIds = new Set();
+if (atlantaKnowledge.schemaVersion !== 1 || atlantaKnowledge.maintainedBy !== 'Codex' || typeof atlantaKnowledge.entries !== 'object') throw new Error('Invalid Atlanta product knowledge');
+const emptyGenericDescription = /^(蔬菜商品|水果商品|肉类或熟食优惠|常温食品或调料|冷冻食品或方便餐|乳制品或鸡蛋优惠|蔬菜水果类优惠|饮料优惠|鱼类或海鲜优惠|面包或烘焙食品优惠|冷冻食品优惠|主食、罐头或调味品优惠|零食或甜品优惠)/;
+for (const offer of data.offers) if (emptyGenericDescription.test(offer.zhExplanation)) throw new Error(`Generic Aarhus description is not publishable: ${offer.canonicalKey}`);
 for (const [index, offer] of atlanta.offers.entries()) {
-  for (const key of ['canonicalKey','storeId','originalName','zhExplanation','categoryId','price','currency','validFrom','validUntil','sourceUrl','itemId']) {
+  for (const key of ['canonicalKey','storeId','originalName','zhExplanation','descriptionSource','productKnowledgeKey','categoryId','price','currency','validFrom','validUntil','sourceUrl','itemId']) {
     if (offer[key] === undefined || offer[key] === null || offer[key] === '') throw new Error(`Atlanta offer ${index} missing ${key}`);
   }
   if (atlantaIds.has(offer.canonicalKey)) throw new Error(`Duplicate Atlanta canonicalKey: ${offer.canonicalKey}`);
   atlantaIds.add(offer.canonicalKey);
   if (!atlantaStoreIds.has(offer.storeId)) throw new Error(`Unknown Atlanta store ${offer.storeId}`);
   if (!atlantaCategoryIds.has(offer.categoryId) || offer.comparisonGroup !== offer.categoryId) throw new Error(`Invalid Atlanta category: ${offer.canonicalKey}`);
+  const knowledge = atlantaKnowledge.entries[offer.productKnowledgeKey];
+  if (offer.descriptionSource !== 'codex_product_knowledge' || !knowledge || knowledge.descriptionZh !== offer.zhExplanation || knowledge.categoryId !== offer.categoryId) throw new Error(`Atlanta offer is not backed by Codex product knowledge: ${offer.canonicalKey}`);
+  if (emptyGenericDescription.test(offer.zhExplanation)) throw new Error(`Generic Atlanta description is not publishable: ${offer.canonicalKey}`);
   if (offer.currency !== 'USD' || !Number.isFinite(offer.price) || offer.price <= 0) throw new Error(`Invalid Atlanta price: ${offer.canonicalKey}`);
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${offer.flyerId}?postal_code=30318`;
   const expectedItemPrefix = `https://flipp.com/en-us/atlanta-ga/item/${offer.itemId}-`;
@@ -82,4 +91,4 @@ for (const flyer of atlanta.flyers) {
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${flyer.id}?postal_code=30318`;
   if (flyer.url !== expectedFlyerUrl) throw new Error(`Atlanta flyer directory URL is not pinned to 30318: ${flyer.storeId}`);
 }
-console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores, ${atlanta.offers.length} Atlanta offers, ${Object.keys(descriptionCache.entries).length} Codex descriptions, ${Object.values(productTaxonomy.entries).filter(entry => entry.reviewStatus === 'reviewed').length} Codex-reviewed taxonomies, ${taxonomyPending.count} pending taxonomy reviews, and ${Object.keys(identityHistory.products).length} stable product identities.`);
+console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores, ${atlanta.offers.length} Atlanta offers backed by ${Object.keys(atlantaKnowledge.entries).length} reusable products, ${Object.keys(descriptionCache.entries).length} Codex descriptions, ${Object.values(productTaxonomy.entries).filter(entry => entry.reviewStatus === 'reviewed').length} Codex-reviewed taxonomies, ${taxonomyPending.count} pending taxonomy reviews, and ${Object.keys(identityHistory.products).length} stable product identities.`);

@@ -62,6 +62,36 @@ test('classifies grocery names before ambiguous words', () => {
   assert.equal(classifyFlippItem('Apple Pie').categoryId, 'bakery');
 });
 
+test('uses the complete Atlanta product name instead of misleading ingredient words', () => {
+  const beans = classifyFlippItem("Van Camp's Pork and Beans");
+  assert.equal(beans.categoryId, 'pantry');
+  assert.match(beans.zhExplanation, /猪肉焗豆罐头/);
+  assert.doesNotMatch(beans.zhExplanation, /^肉类/);
+
+  const croissants = classifyFlippItem('Private Selection Fresh Baked Butter Croissants');
+  assert.equal(croissants.categoryId, 'bakery');
+  assert.match(croissants.zhExplanation, /黄油可颂/);
+
+  const mushrooms = classifyFlippItem('Kroger Whole or Baby Bella Mushrooms');
+  assert.equal(mushrooms.categoryId, 'produce');
+  assert.match(mushrooms.zhExplanation, /鲜蘑菇/);
+});
+
+test('rejects electronics and apparel that only contain incidental grocery words', () => {
+  assert.equal(classifyFlippItem('Apple AirPods 4'), null);
+  assert.equal(classifyFlippItem('BLACK+DECKER Toaster with Bagel Mode'), null);
+  assert.equal(classifyFlippItem("Athletic Works Women's Water Shoes"), null);
+  assert.equal(classifyFlippItem('Ninja CREAMi ice cream, gelato & sorbet maker'), null);
+});
+
+test('classifies packaged product form before fruit and butter flavor words', () => {
+  assert.equal(classifyFlippItem('Capri Sun Fruit Punch Juice Drink Blend').categoryId, 'drinks');
+  assert.equal(classifyFlippItem('Great Value Concord Grape Jelly').categoryId, 'pantry');
+  assert.equal(classifyFlippItem('Great Value Creamy Peanut Butter').categoryId, 'pantry');
+  assert.equal(classifyFlippItem('Ricola lemon, lime & mint dry-mouth-relief lozenges').categoryId, 'personal');
+  assert.equal(classifyFlippItem('Lärabar The Original Fruit & Nut Bar').categoryId, 'snacks');
+});
+
 test('normalizes real priced groceries, removes duplicates, and uses the exact Flipp item instead of a generic retailer campaign', () => {
   const flyer = { id: 123, merchant: 'Kroger', name: 'Weekly Ad', valid_from: '2026-07-15', valid_to: '2026-07-21' };
   const items = [
