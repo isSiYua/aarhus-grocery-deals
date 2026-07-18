@@ -79,8 +79,11 @@ const CHEESE_GROUP_PATTERNS = [
 ];
 
 export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') {
-  if (!['cheese', 'cheese_fresh'].includes(comparisonGroup)) return comparisonGroup;
   const name = norm(originalName);
+  // If ribeye/entrecôte is one of the explicitly purchasable choices, the
+  // offer is useful in the ribeye aisle and its price is valid for that choice.
+  if (comparisonGroup === 'beef_mixed_offer' && /rib ?eye|entrecote/.test(name)) return 'beef_ribeye';
+  if (!['cheese', 'cheese_fresh'].includes(comparisonGroup)) return comparisonGroup;
   return CHEESE_GROUP_PATTERNS.find(([, pattern]) => pattern.test(name))?.[0] || 'cheese_other';
 }
 

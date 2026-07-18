@@ -25,12 +25,36 @@ function priceFields(raw) {
   };
 }
 
+const normalizedUnit = value => String(value || '').toLowerCase().replace('liter', 'l');
+const measurementPattern = /\d+(?:[.,]\d+)?\s*(?:g|kg|ml|l)\b/gi;
+
+export function explicitMultipack(description, baseSize = null, baseUnit = null) {
+  const text = String(description || '');
+  const match = text.match(/\b(\d{1,3})\s*[x×]\s*(\d+(?:[.,]\d+)?)\s*(g|kg|ml|l)\b/i);
+  if (!match) return null;
+  const count = Number(match[1]);
+  const eachSize = Number(match[2].replace(',', '.'));
+  const unit = normalizedUnit(match[3]);
+  const measurements = text.match(measurementPattern) || [];
+  if (!Number.isInteger(count) || count < 2 || count > 100 || !Number.isFinite(eachSize) || eachSize <= 0) return null;
+  // A description such as "2x75 ml/500 ml" is a cross-size assortment.
+  // It has no single honest package denominator, so keep it incomparable.
+  if (measurements.length !== 1) return { ambiguous: true, count, eachSize, unit, totalSize: null };
+  const totalSize = count * eachSize;
+  if (Number.isFinite(baseSize) && Math.abs(baseSize - eachSize) > 0.001 && Math.abs(baseSize - totalSize) > 0.001) return null;
+  if (baseUnit && normalizedUnit(baseUnit) !== unit) return null;
+  return { count, eachSize, unit, totalSize };
+}
+
 function quantityFields(raw) {
   const q = raw.quantity || {};
   const size = q.size?.from ?? null;
   const unit = q.unit?.symbol ?? null;
   const pieces = q.pieces?.from ?? null;
-  return { size, unit, pieces };
+  const multipack = explicitMultipack(raw.description, size, unit);
+  if (multipack?.ambiguous) return { size: null, unit: null, pieces: null, multipack: null, ambiguousMultipack: true };
+  if (multipack) return { size: multipack.totalSize, unit: multipack.unit, pieces: multipack.count, multipack };
+  return { size, unit, pieces, multipack: null, ambiguousMultipack: false };
 }
 
 function unitPrice(price, q) {
@@ -50,10 +74,39 @@ function unitPrice(price, q) {
 }
 
 function packageText(q, raw) {
+  if (q.ambiguousMultipack) return '多规格任选';
+  if (q.multipack) return `${q.multipack.count} × ${q.multipack.eachSize} ${q.multipack.unit}（共 ${q.multipack.totalSize} ${q.multipack.unit}）`;
   if (q.size && q.unit) return `${q.size} ${q.unit}`;
   if (q.pieces) return `${q.pieces} 件`;
   const match = String(raw.description || '').match(/\b\d+(?:[.,]\d+)?\s?(?:g|kg|ml|l|stk)\b/i);
   return match?.[0] || null;
+}
+
+export function repairPublishedPackage(record) {
+  const multipack = explicitMultipack(record.originalDescription, record.perItemQuantity ?? record.quantity, record.perItemQuantityUnit ?? record.quantityUnit);
+  if (!multipack) return record;
+  const q = multipack.ambiguous
+    ? { size: null, unit: null, pieces: null, multipack: null, ambiguousMultipack: true }
+    : { size: multipack.totalSize, unit: multipack.unit, pieces: multipack.count, multipack, ambiguousMultipack: false };
+  const unit = unitPrice(record.price, q);
+  const productKey = record.productKey
+    ? [record.storeId, normalizedText(record.originalName), q.size || '', q.unit || ''].join('|')
+    : null;
+  const canonicalKey = productKey && record.sourceOfferId ? `${productKey}|${record.sourceOfferId}` : record.canonicalKey;
+  return {
+    ...record,
+    ...(productKey ? { productKey, canonicalKey, id: canonicalKey } : {}),
+    packageText: packageText(q, { description: record.originalDescription }),
+    quantity: q.size || null,
+    quantityUnit: q.unit || null,
+    packageCount: q.multipack?.count || null,
+    perItemQuantity: q.multipack?.eachSize || null,
+    perItemQuantityUnit: q.multipack?.unit || null,
+    packageComparisonStatus: q.ambiguousMultipack ? 'ambiguous_assortment' : 'exact',
+    unitPriceValue: unit.value,
+    unitPriceUnit: unit.unit,
+    unitPriceDisplay: unit.display,
+  };
 }
 
 function detectConditions(raw) {
@@ -114,6 +167,10 @@ export function normalizeOffer(raw, nowIso, options = {}) {
     packageText: packageText(q, raw),
     quantity: q.size || q.pieces || null,
     quantityUnit: q.unit || (q.pieces ? 'stk' : null),
+    packageCount: q.multipack?.count || null,
+    perItemQuantity: q.multipack?.eachSize || null,
+    perItemQuantityUnit: q.multipack?.unit || null,
+    packageComparisonStatus: q.ambiguousMultipack ? 'ambiguous_assortment' : 'exact',
     unitPriceValue: unit.value,
     unitPriceUnit: unit.unit,
     unitPriceDisplay: unit.display,

@@ -50,6 +50,49 @@ test('uses package size for pcs instead of treating a multi-pack as one piece', 
   assert.equal(normalized.unitPriceDisplay, '4.17 DKK/件');
 });
 
+test('uses the total weight of an explicit multipack for unit price', () => {
+  const normalized = normalizeOffer({
+    ...baseOffer,
+    heading: 'MADVÆRKET Ribeyesteaks',
+    description: 'Af ungkvæg. 2 x 180 g / pk. Pr. kg 222,08.',
+    quantity: { size: { from: 180 }, unit: { symbol: 'g' } },
+    pricing: { price: 79.95, currency: 'DKK' },
+  }, '2026-07-18T12:00:00Z');
+  assert.equal(normalized.packageText, '2 × 180 g（共 360 g）');
+  assert.equal(normalized.quantity, 360);
+  assert.equal(normalized.packageCount, 2);
+  assert.equal(normalized.perItemQuantity, 180);
+  assert.equal(normalized.unitPriceDisplay, '222.08 DKK/kg');
+});
+
+test('preserves a source that already reports the multipack total', () => {
+  const normalized = normalizeOffer({
+    ...baseOffer,
+    heading: 'MAGNUM Ispinde',
+    description: '8 x 100 ml. Pr. liter 86,25',
+    quantity: { size: { from: 800 }, unit: { symbol: 'ml' } },
+    pricing: { price: 69, currency: 'DKK' },
+  }, '2026-07-18T12:00:00Z');
+  assert.equal(normalized.packageText, '8 × 100 ml（共 800 ml）');
+  assert.equal(normalized.quantity, 800);
+  assert.equal(normalized.unitPriceDisplay, '86.25 DKK/L');
+});
+
+test('does not invent one denominator for a cross-size assortment', () => {
+  const normalized = normalizeOffer({
+    ...baseOffer,
+    heading: 'Sensodyne tandpasta, tandbørster 2-pak eller Listerine mundskyl',
+    description: '2x75 ml/500 ml Partivare. Max. 200.00 pr. liter/Max. 15.00 pr. stk.',
+    quantity: { size: { from: 75 }, unit: { symbol: 'ml' } },
+    pricing: { price: 30, currency: 'DKK' },
+  }, '2026-07-18T12:00:00Z');
+  assert.equal(normalized.packageCount, null);
+  assert.equal(normalized.quantity, null);
+  assert.equal(normalized.packageText, '多规格任选');
+  assert.equal(normalized.unitPriceDisplay, null);
+  assert.equal(normalized.packageComparisonStatus, 'ambiguous_assortment');
+});
+
 test('keeps the same product stable for shopping but separates current and upcoming offer instances', () => {
   const current = normalizeOffer(baseOffer, '2026-07-18T12:00:00Z');
   const upcoming = normalizeOffer({

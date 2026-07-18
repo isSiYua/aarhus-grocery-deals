@@ -166,3 +166,13 @@ test('automatically separates mince, yoghurt, cold dairy, and cheese forms', () 
   assert.equal(classifyOffer({ heading:'Milbona Mozzarella' }).comparisonGroup, 'cheese_mozzarella_burrata');
   assert.equal(classifyOffer({ heading:'Milbona Græsk feta' }).comparisonGroup, 'cheese_feta_white');
 });
+
+test('puts every offer with a purchasable ribeye choice in the ribeye aisle', () => {
+  for (const heading of [
+    "BUTCHER'S Rumpsteak eller entrecote",
+    'REMA 1000 SUPREME Striploin, ribeye eller rumpsteak',
+    'REMA 1000 SUPREME Striploin eller ribeye roast',
+  ]) {
+    assert.equal(classifyOffer({ heading }).comparisonGroup, 'beef_ribeye', heading);
+  }
+});

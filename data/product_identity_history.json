@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-18T20:38:26.959Z",
+  "updatedAt": "2026-07-18T21:05:48.557Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -8464,8 +8464,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|butcher s rumpsteak eller entrecote|beef_mixed_offer": {
-      "stableProductKey": "v1|butcher s rumpsteak eller entrecote|beef_mixed_offer",
+    "v1|butcher s rumpsteak eller entrecote|beef_ribeye": {
+      "stableProductKey": "v1|butcher s rumpsteak eller entrecote|beef_ribeye",
       "canonicalNames": [
         "BUTCHER'S Rumpsteak eller entrecote"
       ],
@@ -8473,7 +8473,7 @@
         "beef"
       ],
       "comparisonGroups": [
-        "beef_mixed_offer"
+        "beef_ribeye"
       ],
       "stores": [
         "lidl"
@@ -61354,8 +61354,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 supreme striploin eller ribeye roast|beef_mixed_offer": {
-      "stableProductKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_mixed_offer",
+    "v1|rema 1000 supreme striploin eller ribeye roast|beef_ribeye": {
+      "stableProductKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_ribeye",
       "canonicalNames": [
         "REMA 1000 SUPREME Striploin eller ribeye roast"
       ],
@@ -61363,7 +61363,7 @@
         "beef"
       ],
       "comparisonGroups": [
-        "beef_mixed_offer"
+        "beef_ribeye"
       ],
       "stores": [
         "rema"
@@ -61504,8 +61504,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_mixed_offer": {
-      "stableProductKey": "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_mixed_offer",
+    "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_ribeye": {
+      "stableProductKey": "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_ribeye",
       "canonicalNames": [
         "REMA 1000 SUPREME Striploin, ribeye eller rumpsteak"
       ],
@@ -61513,7 +61513,7 @@
         "beef"
       ],
       "comparisonGroups": [
-        "beef_mixed_offer"
+        "beef_ribeye"
       ],
       "stores": [
         "rema"

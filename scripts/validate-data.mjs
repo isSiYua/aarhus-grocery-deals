@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import { descriptionKeyFor } from './lib/product-descriptions.mjs';
+import { explicitMultipack } from './lib/normalize.mjs';
 const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
 const atlanta = JSON.parse(await fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8'));
 const atlantaKnowledge = JSON.parse(await fs.readFile(new URL('../data/atlanta_product_knowledge_zh.json', import.meta.url), 'utf8'));
@@ -30,6 +31,14 @@ for (const [index, offer] of data.offers.entries()) {
   if (!cachedDescription || cachedDescription.descriptionZh !== offer.zhExplanation || cachedDescription.productNameZh !== offer.productNameZh) throw new Error(`Codex description is not backed by per-product cache: ${offer.canonicalKey}`);
   if (!['unlocated','direct','verified'].includes(offer.sourceLocation?.status)) throw new Error(`Invalid source location status: ${offer.canonicalKey}`);
   if (offer.sourceLocation?.status === 'verified' && (!Number.isInteger(offer.sourceLocation.pageNumber) || offer.sourceLocation.pageNumber < 1)) throw new Error(`Invalid verified source location: ${offer.canonicalKey}`);
+  const multipack = explicitMultipack(offer.originalDescription, offer.perItemQuantity ?? offer.quantity, offer.perItemQuantityUnit ?? offer.quantityUnit);
+  if (multipack?.ambiguous) {
+    if (offer.packageComparisonStatus !== 'ambiguous_assortment' || offer.unitPriceValue !== null) throw new Error(`Ambiguous assortment has a guessed unit price: ${offer.originalName}`);
+  } else if (multipack) {
+    const scale = ['g', 'ml'].includes(multipack.unit) ? 1000 : 1;
+    const expectedUnitPrice = offer.price / multipack.totalSize * scale;
+    if (offer.packageCount !== multipack.count || offer.quantity !== multipack.totalSize || Math.abs(offer.unitPriceValue - expectedUnitPrice) > 0.01) throw new Error(`Multipack total is not reflected in unit price: ${offer.originalName}`);
+  }
 }
 
 for (const [groupId, definition] of Object.entries(data.comparisonGroups)) {
@@ -45,6 +54,7 @@ const aarhusExpectedGroups = [
 ];
 for (const offer of data.offers) {
   if (/kalkun/i.test(offer.originalName) && /^鸡胸肉/.test(offer.productNameZh)) throw new Error(`Turkey mislabeled as chicken breast: ${offer.originalName}`);
+  if (/rib ?eye|entrec[oô]te/i.test(offer.originalName) && offer.comparisonGroup !== 'beef_ribeye') throw new Error(`Ribeye choice is outside the ribeye aisle: ${offer.originalName}`);
   for (const [pattern, expectedGroup, exclusion] of aarhusExpectedGroups) {
     if (pattern.test(offer.originalName) && !exclusion?.test(offer.originalName) && offer.comparisonGroup !== expectedGroup) throw new Error(`Wrong atomic comparison group for ${offer.originalName}: expected ${expectedGroup}, got ${offer.comparisonGroup}`);
   }

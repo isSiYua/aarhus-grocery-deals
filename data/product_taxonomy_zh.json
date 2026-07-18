@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T20:38:26.959Z",
+  "updatedAt": "2026-07-18T21:05:48.557Z",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
       "status": "active",
@@ -1456,12 +1456,12 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|butcher s rumpsteak eller entrecote|beef_mixed_offer": {
+    "v1|butcher s rumpsteak eller entrecote|beef_ribeye": {
       "status": "active",
       "categoryId": "beef",
-      "comparisonGroup": "beef_mixed_offer",
-      "labelZh": "西冷肋眼牛排",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "comparisonGroup": "beef_ribeye",
+      "labelZh": "牛臀排或肋眼牛排",
+      "reasonZh": "任选促销明确包含 entrecôte 肋眼牛排；选择肋眼时标示公斤价有效，因此归入肋眼小类。",
       "originalName": "BUTCHER'S Rumpsteak eller entrecote",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
@@ -2648,8 +2648,8 @@
       "status": "active",
       "categoryId": "beef",
       "comparisonGroup": "beef_ribeye",
-      "labelZh": "肋眼牛排",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "labelZh": "小牛肋眼或 entrecôte 牛排",
+      "reasonZh": "两个可选名称都属于肋眼附近的牛排部位，按肋眼小类比较。",
       "originalName": "Danske Egnsgårde kalve entrecote eller ribeye",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
@@ -10084,24 +10084,24 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 supreme striploin eller ribeye roast|beef_mixed_offer": {
+    "v1|rema 1000 supreme striploin eller ribeye roast|beef_ribeye": {
       "status": "active",
       "categoryId": "beef",
-      "comparisonGroup": "beef_mixed_offer",
-      "labelZh": "肋眼牛排",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "comparisonGroup": "beef_ribeye",
+      "labelZh": "西冷或肋眼整块烤牛肉",
+      "reasonZh": "任选促销明确包含 ribeye roast；选择肋眼时标示公斤价有效，因此归入肋眼小类。",
       "originalName": "REMA 1000 SUPREME Striploin eller ribeye roast",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_mixed_offer": {
+    "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_ribeye": {
       "status": "active",
       "categoryId": "beef",
-      "comparisonGroup": "beef_mixed_offer",
-      "labelZh": "肋眼牛排",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "comparisonGroup": "beef_ribeye",
+      "labelZh": "西冷、肋眼或牛臀排",
+      "reasonZh": "任选促销明确包含 ribeye；选择肋眼时标示公斤价有效，因此归入肋眼小类。",
       "originalName": "REMA 1000 SUPREME Striploin, ribeye eller rumpsteak",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",

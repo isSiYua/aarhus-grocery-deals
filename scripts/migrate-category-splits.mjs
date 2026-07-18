@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 import { ATLANTA_COMPARISON_GROUPS, refineAtlantaCategory, refineAtlantaComparisonGroup } from './lib/flipp-client.mjs';
+import { repairPublishedPackage } from './lib/normalize.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, normalizedText, refineAarhusCategory, refineAarhusComparisonGroup } from './lib/taxonomy.mjs';
 
 const read = async path => JSON.parse(await fs.readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
@@ -69,7 +70,7 @@ const atlantaCategories = [
 const aarhus = await read('data/current_offers.json');
 aarhus.categories = AARHUS_CATEGORIES;
 aarhus.comparisonGroups = AARHUS_COMPARISON_GROUPS;
-aarhus.offers = aarhus.offers.map(offer => refineAarhusRecord(offer));
+aarhus.offers = aarhus.offers.map(offer => repairPublishedPackage(refineAarhusRecord(offer)));
 aarhus.metadata.contentUpdatedAt = now;
 await write('data/current_offers.json', aarhus);
 
@@ -124,7 +125,7 @@ identityHistory.updatedAt = now;
 await write('data/product_identity_history.json', identityHistory);
 
 const history = await read('data/history.json');
-for (let index = 0; index < history.length; index += 1) history[index] = refineAarhusRecord(history[index]);
+for (let index = 0; index < history.length; index += 1) history[index] = repairPublishedPackage(refineAarhusRecord(history[index]));
 await write('data/history.json', history);
 
 const atlanta = await read('data/atlanta_offers.json');
