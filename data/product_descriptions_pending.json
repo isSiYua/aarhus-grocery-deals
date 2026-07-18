@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v2",
-  "generatedAt": "2026-07-18T13:07:27.483Z",
-  "count": 1051,
+  "generatedAt": "2026-07-18T13:22:23.792Z",
+  "count": 1045,
   "items": [
     {
       "descriptionKey": "v1|10 friskbagte rundstykker|bread",
@@ -594,32 +594,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|anglamark okologisk persille fra rosborg krydderurter|leafy_green",
-      "originalName": "Änglamark økologisk persille fra Rosborg krydderurter",
-      "sampleDescriptions": [
-        "Danmark, kl. I. Stk-pris 14,00. 1 stk."
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
-      "stores": [
-        "kvickly"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|anglamark okologisk persille fra rosborg|leafy_green",
-      "originalName": "Änglamark økologisk persille fra Rosborg",
-      "sampleDescriptions": [
-        "Danmark, kl. I. Stk.-pris 14,00. 1 stk."
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
-      "stores": [
-        "kvickly"
-      ],
-      "occurrences": 1
-    },
-    {
       "descriptionKey": "v1|anglamark okologisk spinat skyllet og klar til brug|leafy_green",
       "originalName": "Änglamark økologisk spinat - Skyllet og klar til brug",
       "sampleDescriptions": [
@@ -1141,19 +1115,6 @@
       ],
       "categoryId": "pantry",
       "comparisonGroup": "pickled_vegetables",
-      "stores": [
-        "rema"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|basilikum|leafy_green",
-      "originalName": "Basilikum",
-      "sampleDescriptions": [
-        "Økologisk Dansk\nPr. stk."
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
       "stores": [
         "rema"
       ],
@@ -9337,32 +9298,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|okologisk dansk persille eller basilikum|leafy_green",
-      "originalName": "Økologisk dansk persille eller basilikum",
-      "sampleDescriptions": [
-        "Gælder kun med føtex plus appen Pr. stk. Danmark."
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
-      "stores": [
-        "foetex"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|okologisk dansk persille|leafy_green",
-      "originalName": "Økologisk dansk persille",
-      "sampleDescriptions": [
-        "salling ØKO Pr. stk. Danmark. Pr. stk."
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
-      "stores": [
-        "bilka"
-      ],
-      "occurrences": 1
-    },
-    {
       "descriptionKey": "v1|okologisk dansk spidskaal|cabbage",
       "originalName": "Økologisk dansk spidskål",
       "sampleDescriptions": [
@@ -10252,19 +10187,6 @@
       "comparisonGroup": "pork_roast",
       "stores": [
         "bilka"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|purlog|onion_garlic",
-      "originalName": "Purløg",
-      "sampleDescriptions": [
-        "Dansk Pr. stk."
-      ],
-      "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
-      "stores": [
-        "rema"
       ],
       "occurrences": 1
     },

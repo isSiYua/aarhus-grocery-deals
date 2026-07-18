@@ -335,9 +335,25 @@
       "nameZh": "菠菜",
       "noteZh": "新鲜菠菜按包装重量比较。"
     },
+    "chives": {
+      "nameZh": "细香葱",
+      "noteZh": "Purløg 单独比较每盆、每把或包装价格。"
+    },
+    "basil": {
+      "nameZh": "罗勒",
+      "noteZh": "Basilikum 单独比较每盆、每把或包装价格。"
+    },
+    "parsley": {
+      "nameZh": "欧芹",
+      "noteZh": "Persille 单独比较每盆、每把或包装价格。"
+    },
+    "mixed_fresh_herbs": {
+      "nameZh": "鲜香草任选",
+      "noteZh": "欧芹、罗勒等跨品种任选不参与单一品种最低价。"
+    },
     "fresh_herbs": {
-      "nameZh": "新鲜香草",
-      "noteZh": "欧芹、罗勒、细香葱等按品种和盆/把比较。"
+      "nameZh": "其他鲜香草",
+      "noteZh": "仅用于尚未确认具体品种的鲜香草。"
     },
     "root_vegetables": {
       "nameZh": "胡萝卜与根茎菜",
@@ -38240,9 +38256,9 @@
       "storeId": "rema",
       "originalName": "Basilikum",
       "originalDescription": "Økologisk Dansk\nPr. stk.",
-      "zhExplanation": "新鲜香草，用于给沙拉、意面、汤和肉类增香；具体味道和用法以原名品种为准。",
+      "zhExplanation": "罗勒，叶片带清甜辛香，适合番茄、意面、披萨、沙拉或制作青酱。丹麦超市常见的是甜罗勒，与中国九层塔同属罗勒，但香气通常更柔和。",
       "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
+      "comparisonGroup": "basil",
       "price": 12,
       "prePrice": null,
       "currency": "DKK",
@@ -38274,11 +38290,13 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|basilikum|leafy_green",
-      "descriptionSource": "rules_fallback",
+      "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "新鲜香草",
-      "taxonomyReasonZh": "新鲜香草按具体品种分类，不属于叶菜最低价。"
+      "taxonomyLabelZh": "罗勒",
+      "taxonomyReasonZh": "Basilikum 是罗勒，应与欧芹和细香葱分开比较。",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "rema|rema 1000 krydderiblanding|10|g|qHraikvvYri0HPBAOAlNr",
@@ -38624,9 +38642,9 @@
       "storeId": "rema",
       "originalName": "Purløg",
       "originalDescription": "Dansk Pr. stk.",
-      "zhExplanation": "新鲜香草，用于给沙拉、意面、汤和肉类增香；具体味道和用法以原名品种为准。",
+      "zhExplanation": "细香葱，也叫西式香葱或虾夷葱，葱味比大葱温和。适合切碎撒在鸡蛋、土豆、汤、沙拉或奶油奶酪上；类似中国小香葱，但叶管更细。",
       "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
+      "comparisonGroup": "chives",
       "price": 7,
       "prePrice": null,
       "currency": "DKK",
@@ -38658,11 +38676,13 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|purlog|onion_garlic",
-      "descriptionSource": "rules_fallback",
+      "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "新鲜香草",
-      "taxonomyReasonZh": "新鲜香草按具体品种分类，不属于叶菜最低价。"
+      "taxonomyLabelZh": "细香葱",
+      "taxonomyReasonZh": "Purløg 是细香葱/西式香葱，应与罗勒和欧芹分开比较。",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "rema|hjertesalat|1|pcs|cGNxpQCu14dMDIau4fv0g",
@@ -43522,9 +43542,9 @@
       "storeId": "foetex",
       "originalName": "Økologisk dansk persille eller basilikum",
       "originalDescription": "Gælder kun med føtex plus appen Pr. stk. Danmark.",
-      "zhExplanation": "新鲜香草，用于给沙拉、意面、汤和肉类增香；具体味道和用法以原名品种为准。",
+      "zhExplanation": "这是有机丹麦欧芹或罗勒二选一的鲜香草促销。欧芹适合撒在土豆、汤和肉类上；罗勒适合意面、披萨、番茄和青酱。两者味道和用途不同，购买时要按盆栽标签确认。",
       "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
+      "comparisonGroup": "mixed_fresh_herbs",
       "price": 22,
       "prePrice": null,
       "currency": "DKK",
@@ -43556,11 +43576,13 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|okologisk dansk persille eller basilikum|leafy_green",
-      "descriptionSource": "rules_fallback",
+      "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "新鲜香草",
-      "taxonomyReasonZh": "新鲜香草按具体品种分类，不属于叶菜最低价。"
+      "taxonomyLabelZh": "欧芹或罗勒任选",
+      "taxonomyReasonZh": "这是 persille 或 basilikum 跨品种任选，不能参加单一香草最低价。",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "foetex|salling eller michelle kristensen faerdigret i glas|625|g|Thlc8eIXMvBz70oQJkyMd",
@@ -51300,9 +51322,9 @@
       "storeId": "bilka",
       "originalName": "Økologisk dansk persille",
       "originalDescription": "salling ØKO Pr. stk. Danmark. Pr. stk.",
-      "zhExplanation": "新鲜香草，用于给沙拉、意面、汤和肉类增香；具体味道和用法以原名品种为准。",
+      "zhExplanation": "有机丹麦欧芹，也叫 parsley，清香微辛，适合切碎撒在土豆、汤、鱼肉、肉丸或沙拉上。它不是中国芹菜，也不是香菜。",
       "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
+      "comparisonGroup": "parsley",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -51334,11 +51356,13 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|okologisk dansk persille|leafy_green",
-      "descriptionSource": "rules_fallback",
+      "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "新鲜香草",
-      "taxonomyReasonZh": "新鲜香草按具体品种分类，不属于叶菜最低价。"
+      "taxonomyLabelZh": "欧芹",
+      "taxonomyReasonZh": "Persille 是欧芹，应与罗勒和细香葱分开比较。",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "bilka|eco care haar eller hudpleje|380|ml|6-E8X-nefihh8yrP8Ohoe",
@@ -53556,9 +53580,9 @@
       "storeId": "kvickly",
       "originalName": "Änglamark økologisk persille fra Rosborg",
       "originalDescription": "Danmark, kl. I. Stk.-pris 14,00. 1 stk.",
-      "zhExplanation": "新鲜香草，用于给沙拉、意面、汤和肉类增香；具体味道和用法以原名品种为准。",
+      "zhExplanation": "Änglamark 有机欧芹，也叫 parsley，清香微辛，适合切碎撒在土豆、汤、鱼肉、肉丸或沙拉上。它不是中国芹菜，也不是香菜。",
       "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
+      "comparisonGroup": "parsley",
       "price": 14,
       "prePrice": null,
       "currency": "DKK",
@@ -53590,11 +53614,13 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|anglamark okologisk persille fra rosborg|leafy_green",
-      "descriptionSource": "rules_fallback",
+      "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "新鲜香草",
-      "taxonomyReasonZh": "新鲜香草按具体品种分类，不属于叶菜最低价。"
+      "taxonomyLabelZh": "欧芹",
+      "taxonomyReasonZh": "原名与促销图均明确为 persille（欧芹），应与罗勒和细香葱分开比较。",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "kvickly|anglamark okologisk persille fra rosborg krydderurter|1|pcs|aFB9dCQealzb2h6WcoGFi",
@@ -53604,9 +53630,9 @@
       "storeId": "kvickly",
       "originalName": "Änglamark økologisk persille fra Rosborg krydderurter",
       "originalDescription": "Danmark, kl. I. Stk-pris 14,00. 1 stk.",
-      "zhExplanation": "新鲜香草，用于给沙拉、意面、汤和肉类增香；具体味道和用法以原名品种为准。",
+      "zhExplanation": "Änglamark 有机欧芹；原名末尾的 krydderurter 是鲜香草产品类别，不表示混合品种。欧芹适合切碎撒在土豆、汤、鱼肉、肉丸或沙拉上，不是中国芹菜或香菜。",
       "categoryId": "vegetables",
-      "comparisonGroup": "fresh_herbs",
+      "comparisonGroup": "parsley",
       "price": 14,
       "prePrice": null,
       "currency": "DKK",
@@ -53638,11 +53664,13 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|anglamark okologisk persille fra rosborg krydderurter|leafy_green",
-      "descriptionSource": "rules_fallback",
+      "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "新鲜香草",
-      "taxonomyReasonZh": "新鲜香草按具体品种分类，不属于叶菜最低价。"
+      "taxonomyLabelZh": "欧芹",
+      "taxonomyReasonZh": "原名与促销图均明确为 persille（欧芹），应与罗勒和细香葱分开比较。",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "kvickly|kims chips|125|g|B0t9mDktmmK2m-ooiw9gv",

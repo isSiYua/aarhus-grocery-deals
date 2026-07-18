@@ -4,6 +4,84 @@
   "maintainedBy": "Codex",
   "updatedAt": "2026-07-18T12:01:48Z",
   "entries": {
+    "v1|purlog|chives": {
+      "descriptionZh": "细香葱，也叫西式香葱或虾夷葱，葱味比大葱温和。适合切碎撒在鸡蛋、土豆、汤、沙拉或奶油奶酪上；类似中国小香葱，但叶管更细。",
+      "originalName": "Purløg",
+      "categoryId": "vegetables",
+      "comparisonGroup": "chives",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-8.webp&w=1000&x1r=0.015&x2r=0.345&y1r=0.665&y2r=0.995&s=ab25e8d2e9e227715a20efd2c3be1e66"
+      }
+    },
+    "v1|basilikum|basil": {
+      "descriptionZh": "罗勒，叶片带清甜辛香，适合番茄、意面、披萨、沙拉或制作青酱。丹麦超市常见的是甜罗勒，与中国九层塔同属罗勒，但香气通常更柔和。",
+      "originalName": "Basilikum",
+      "categoryId": "vegetables",
+      "comparisonGroup": "basil",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-7.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.74&y2r=0.99&s=0b8684af718e75ed4f7865d4986f44bf"
+      }
+    },
+    "v1|okologisk dansk persille eller basilikum|mixed_fresh_herbs": {
+      "descriptionZh": "这是有机丹麦欧芹或罗勒二选一的鲜香草促销。欧芹适合撒在土豆、汤和肉类上；罗勒适合意面、披萨、番茄和青酱。两者味道和用途不同，购买时要按盆栽标签确认。",
+      "originalName": "Økologisk dansk persille eller basilikum",
+      "categoryId": "vegetables",
+      "comparisonGroup": "mixed_fresh_herbs",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-19.webp&w=1000&x1r=0.02&x2r=0.32&y1r=0.67&y2r=0.95&s=3cd5d57cf9675c5a37be10fd0f6540b5"
+      }
+    },
+    "v1|okologisk dansk persille|parsley": {
+      "descriptionZh": "有机丹麦欧芹，也叫 parsley，清香微辛，适合切碎撒在土豆、汤、鱼肉、肉丸或沙拉上。它不是中国芹菜，也不是香菜。",
+      "originalName": "Økologisk dansk persille",
+      "categoryId": "vegetables",
+      "comparisonGroup": "parsley",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-19.webp&w=1000&x1r=0.51&x2r=0.73&y1r=0.49&y2r=0.68&s=af76aeb8eae47eb089d3f49088f2224e"
+      }
+    },
+    "v1|anglamark okologisk persille fra rosborg|parsley": {
+      "descriptionZh": "Änglamark 有机欧芹，也叫 parsley，清香微辛，适合切碎撒在土豆、汤、鱼肉、肉丸或沙拉上。它不是中国芹菜，也不是香菜。",
+      "originalName": "Änglamark økologisk persille fra Rosborg",
+      "categoryId": "vegetables",
+      "comparisonGroup": "parsley",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-15.webp&w=1000&x1r=0.543&x2r=0.96&y1r=0.04&y2r=0.28&s=2c325c6a6690dbc21c15e2f14fa7456d"
+      }
+    },
+    "v1|anglamark okologisk persille fra rosborg krydderurter|parsley": {
+      "descriptionZh": "Änglamark 有机欧芹；原名末尾的 krydderurter 是鲜香草产品类别，不表示混合品种。欧芹适合切碎撒在土豆、汤、鱼肉、肉丸或沙拉上，不是中国芹菜或香菜。",
+      "originalName": "Änglamark økologisk persille fra Rosborg krydderurter",
+      "categoryId": "vegetables",
+      "comparisonGroup": "parsley",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2",
+      "evidence": {
+        "originalNameReviewed": true,
+        "offerImageReviewed": true,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Ff3bb78f14a319da9e2128f844f9d5c53&w=1000&s=d3a06490ae36d6bd839227ff1bf0f5af"
+      }
+    },
     "v1|danske lose aerter|peas": {
       "descriptionZh": "丹麦新鲜豌豆（促销图中为带荚豌豆），剥出豆粒后可清炒、煮汤、拌饭或做配菜。标价按带荚重量计算时，可食豆粒会少于标示重量，不能与去壳豌豆按同一重量直接比价。",
       "originalName": "Danske løse ærter",
