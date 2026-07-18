@@ -1,5 +1,5 @@
-const CACHE = 'aarhus-grocery-v15';
-const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icon.svg'];
+const CACHE = 'aarhus-grocery-v16';
+const SHELL = ['./', 'index.html', 'styles.css?v=16', 'app.js?v=16', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', event => event.waitUntil(
   caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()),
