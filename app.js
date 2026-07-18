@@ -154,6 +154,42 @@ const storeById = id => activeStores().find(s => s.id === id);
 const categoryById = id => activeCategories().find(c => c.id === id);
 const offerMoney = offer => offer.currency === 'USD' ? usd(offer.price) : money(offer.price);
 
+async function copyOfferName(name, button) {
+  const resetLabel = '复制';
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(name);
+    } else {
+      const input = el('textarea', { 'aria-hidden': 'true' }, name);
+      input.style.position = 'fixed';
+      input.style.opacity = '0';
+      document.body.append(input);
+      input.select();
+      if (!document.execCommand('copy')) throw new Error('Copy command failed');
+      input.remove();
+    }
+    button.textContent = '已复制';
+    button.classList.add('copied');
+  } catch {
+    button.textContent = '复制失败';
+  }
+  setTimeout(() => {
+    button.textContent = resetLabel;
+    button.classList.remove('copied');
+  }, 1600);
+}
+
+function offerTitle(name) {
+  const copyButton = el('button', {
+    class: 'copy-name-btn',
+    type: 'button',
+    title: '复制商品原名',
+    'aria-label': `复制商品原名：${name}`,
+  }, '复制');
+  copyButton.addEventListener('click', () => copyOfferName(name, copyButton));
+  return el('div', { class: 'offer-title-row' }, [el('h4', {}, name), copyButton]);
+}
+
 function parseRoute() {
   const params = new URLSearchParams(location.hash.replace(/^#/, ''));
   state.route.view = params.get('view') || 'home';
@@ -515,7 +551,7 @@ function offerCard(o, best) {
   if (o.status === 'unconfirmed') badges.push(el('span', { class: 'badge warning' }, '等待重新确认'));
   return el('article', { class: `offer-card${best ? ' best' : ''}` }, [
     o.imageUrl ? el('img', { class: 'offer-image', src: o.imageUrl, alt: o.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
-    el('h4', {}, o.originalName),
+    offerTitle(o.originalName),
     el('p', { class: 'zh-explanation' }, o.zhExplanation),
     el('div', { class: 'price-row' }, [el('span', { class: 'price' }, offerMoney(o)), el('span', { class: 'package' }, o.packageText || (o.currency === 'USD' ? '促销单标示价格' : '规格待确认'))]),
     o.unitPriceDisplay ? el('div', { class: 'unit-price' }, `单位价格：${o.unitPriceDisplay}`) : null,

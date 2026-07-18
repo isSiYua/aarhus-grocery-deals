@@ -77,7 +77,11 @@ a { color: inherit; }
 .offer-card { border: 1px solid var(--border); background: var(--card); border-radius: 22px; padding: 17px; box-shadow: 0 6px 20px rgba(25,45,38,.065); position: relative; overflow: hidden; }
 .offer-card.best { border: 2px solid #b27920; box-shadow: 0 9px 26px rgba(165,106,17,.14); }
 .offer-card.best::before { content: "本组最低单位价"; position: absolute; right: 0; top: 0; background: #b27920; color: white; font-size: 11px; font-weight: 900; padding: 7px 10px; border-radius: 0 0 0 12px; }
-.offer-card h4 { margin: 0; padding-right: 96px; font-size: 18px; line-height: 1.35; letter-spacing: -.015em; overflow-wrap: anywhere; }
+.offer-title-row { display:flex; align-items:flex-start; gap:8px; }
+.offer-card.best .offer-title-row { padding-right:96px; }
+.offer-card h4 { flex:1; min-width:0; margin:0; font-size:18px; line-height:1.35; letter-spacing:-.015em; overflow-wrap:anywhere; }
+.copy-name-btn { flex:none; border:1px solid #ccd5cf; background:#f1f5f2; color:#315f51; border-radius:999px; min-height:30px; padding:5px 9px; font-size:11px; font-weight:850; cursor:pointer; }
+.copy-name-btn.copied { background:#315f51; border-color:#315f51; color:white; }
 .zh-explanation { margin: 11px 0 0; font-size: 15px; line-height: 1.72; color: #263832; }
 .price-row { display: flex; align-items: flex-end; flex-wrap: wrap; gap: 8px 12px; margin-top: 15px; }
 .price { font-size: 27px; font-weight: 900; line-height: 1; color: var(--orange); letter-spacing: -.03em; }
@@ -150,7 +154,7 @@ a { color: inherit; }
   .quick-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .store-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .offer-list { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
-  .offer-card h4 { padding-right: 0; }
+  .offer-card.best .offer-title-row { padding-right:0; }
   .offer-card.best::before { position: static; display: inline-block; border-radius: 999px; margin-bottom: 10px; }
 }
 

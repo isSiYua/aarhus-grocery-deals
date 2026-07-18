@@ -72,6 +72,10 @@ export function normalizeOffer(raw, nowIso) {
   const canonicalKey = [storeId, normalizedText(heading), q.size || q.pieces || '', q.unit || ''].join('|');
   const sourceSlug = { netto:'Netto', lidl:'Lidl', rema:'REMA-1000', '365':'365discount', foetex:'fotex', bilka:'Bilka' }[storeId];
   const catalogPage = Number.isInteger(raw.catalog_page) && raw.catalog_page >= 1 ? raw.catalog_page : null;
+  const catalogId = String(raw.catalog_id || '').trim() || null;
+  const sourceUrl = catalogId
+    ? `https://etilbudsavis.dk/${sourceSlug}?publication=${encodeURIComponent(catalogId)}`
+    : `https://etilbudsavis.dk/${sourceSlug}`;
   return {
     id: canonicalKey,
     canonicalKey,
@@ -91,9 +95,9 @@ export function normalizeOffer(raw, nowIso) {
     ...conditions,
     validFrom: raw.run_from,
     validUntil: raw.run_till,
-    sourceUrl: `https://etilbudsavis.dk/${sourceSlug}`,
+    sourceUrl,
     sourcePage: catalogPage,
-    sourceCatalogId: raw.catalog_id || null,
+    sourceCatalogId: catalogId,
     sourceLocation: catalogPage
       ? { status: 'verified', pageNumber: catalogPage, positionLabel: null, deepLink: null, verifiedAt: nowIso, method: 'tjek_catalog_page' }
       : { status: 'unlocated', pageNumber: null, positionLabel: null, deepLink: null, verifiedAt: null, method: null },

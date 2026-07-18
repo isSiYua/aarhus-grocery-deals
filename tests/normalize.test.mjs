@@ -19,6 +19,7 @@ test('uses the explicit Tjek catalog page as a verified source location', () => 
   const normalized = normalizeOffer({ ...baseOffer, catalog_page: 17 }, '2026-07-18T12:00:00Z');
   assert.equal(normalized.sourcePage, 17);
   assert.equal(normalized.sourceCatalogId, 'catalog-1');
+  assert.equal(normalized.sourceUrl, 'https://etilbudsavis.dk/Netto?publication=catalog-1');
   assert.deepEqual(normalized.sourceLocation, {
     status: 'verified',
     pageNumber: 17,

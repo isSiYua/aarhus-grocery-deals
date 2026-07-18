@@ -93,9 +93,10 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt }) {
     const category = classifyFlippItem(name);
     if (item.display_type !== 1 || !name || !Number.isFinite(price) || price <= 0 || !category) continue;
 
-    const directUrl = httpsUrl(item.ttm_url);
-    const campaignUrl = httpsUrl(item.print_id);
-    const sourceUrl = directUrl || campaignUrl || flyerUrl;
+    // Retailer campaign URLs in print_id/ttm_url frequently land on a generic
+    // promotion instead of this flyer item. The flyer ID is the only stable,
+    // exact source identity exposed by the public feed.
+    const retailerUrl = httpsUrl(item.ttm_url) || httpsUrl(item.print_id);
     const key = `${normalized(name)}|${price}|${item.valid_from || flyer.valid_from}|${item.valid_to || flyer.valid_to}`;
     if (deduped.has(key)) continue;
 
@@ -114,17 +115,18 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt }) {
       lastSeenAt: seenAt,
       status: 'current',
       imageUrl: httpsUrl(item.cutout_image_url),
-      sourceUrl,
+      sourceUrl: flyerUrl,
+      retailerUrl,
       flyerUrl,
       flyerId: flyer.id,
       flyerName: flyer.name,
       sourceLocation: {
-        status: directUrl ? 'direct' : 'unlocated',
+        status: 'unlocated',
         pageNumber: null,
         positionLabel: null,
-        deepLink: directUrl,
+        deepLink: null,
         verifiedAt: null,
-        method: directUrl ? 'retailer_item_link' : null,
+        method: null,
       },
     });
   }
