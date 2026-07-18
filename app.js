@@ -104,6 +104,14 @@ const ATLANTA_CATEGORY_LABELS = {
   pet: ['🐾', '宠物用品'],
 };
 
+const ATLANTA_CATEGORIES = Object.entries(ATLANTA_CATEGORY_LABELS).map(([id, [emoji, nameZh]]) => ({
+  id,
+  emoji,
+  nameZh,
+  color: '#315f51',
+  descriptionZh: `${nameZh}优惠。保留商品原名、价格、有效期和来源。`,
+}));
+
 const el = (tag, attrs = {}, children = []) => {
   const node = document.createElement(tag);
   Object.entries(attrs).forEach(([key, value]) => {
@@ -132,15 +140,19 @@ const usd = value => Number.isFinite(value) ? `$${Number(value).toFixed(2)}` : '
 const now = () => new Date();
 const activeLocation = () => LOCATIONS.find(location => location.id === state.locationId) || LOCATIONS[0];
 const isAarhusLocation = () => activeLocation().id === 'aarhus-v';
+const activeData = () => isAarhusLocation() ? state.data : state.atlantaData;
 const activeStores = () => isAarhusLocation() ? state.data.stores : ATLANTA_STORES;
-const currentOffers = () => isAarhusLocation() ? state.data.offers.filter(o => o.status !== 'expired') : [];
+const activeCategories = () => activeData()?.categories || (isAarhusLocation() ? state.data.categories : ATLANTA_CATEGORIES);
+const activeComparisonGroups = () => activeData()?.comparisonGroups || state.data.comparisonGroups;
+const currentOffers = () => (activeData()?.offers || []).filter(o => !['expired', 'withdrawn'].includes(o.status));
 const atlantaOffers = () => (state.atlantaData?.offers || []).filter(o => o.status !== 'expired');
 const purchasableNow = () => currentOffers().filter(o => new Date(o.validFrom) <= now() && new Date(o.validUntil) >= now());
 const upcomingOffers = () => currentOffers().filter(o => new Date(o.validFrom) > now());
 const firstSentence = text => String(text || '').split(/(?<=[。！？])/)[0] || '查看中文说明';
 const availabilityBadge = o => new Date(o.validFrom) > now() ? `下期开始 ${formatDate(o.validFrom)}` : '现在能买';
 const storeById = id => activeStores().find(s => s.id === id);
-const categoryById = id => state.data.categories.find(c => c.id === id);
+const categoryById = id => activeCategories().find(c => c.id === id);
+const offerMoney = offer => offer.currency === 'USD' ? usd(offer.price) : money(offer.price);
 
 function parseRoute() {
   const params = new URLSearchParams(location.hash.replace(/^#/, ''));
@@ -162,30 +174,24 @@ function topbar() {
       el('div', { class: 'brand-mark' }, '菜'),
       el('div', {}, [
         el('h1', {}, '买菜口袋书'),
-        el('p', {}, isAarhusLocation()
-          ? `${location.label} · 更新于 ${formatUpdated(state.data.metadata.updatedAt)}`
-          : `${location.label} · 更新于 ${formatUpdated(state.atlantaData?.metadata?.updatedAt || new Date().toISOString())}`),
+        el('p', {}, `${location.label} · 更新于 ${formatUpdated(activeData()?.metadata?.updatedAt || new Date().toISOString())}`),
       ]),
     ]),
     el('div', { class: 'topbar-actions' }, [
       el('button', { class: 'icon-btn', 'aria-label': '切换地点', onClick: () => go('locations') }, '◎'),
-      isAarhusLocation() ? el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕') : null,
+      el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
     ]),
   ]));
 }
 
 function bottomNav() {
-  const items = isAarhusLocation() ? [
+  const items = [
     ['home', '⌂', '首页'],
     ['categories', '▤', '分类'],
     ['stores', '⌖', '商店'],
     ['search', '⌕', '搜索'],
-  ] : [
-    ['home', '⌂', '首页'],
-    ['stores', '⌖', '商店'],
-    ['locations', '◎', '地点'],
   ];
-  return el('nav', { class: `bottom-nav${items.length === 3 ? ' three' : ''}`, 'aria-label': '主导航' }, items.map(([view, icon, label]) =>
+  return el('nav', { class: 'bottom-nav', 'aria-label': '主导航' }, items.map(([view, icon, label]) =>
     el('button', { class: state.route.view === view || (view === 'categories' && state.route.view === 'category') || (view === 'stores' && state.route.view === 'store') ? 'active' : '', onClick: () => go(view) }, [
       el('span', {}, icon), label,
     ])
@@ -337,10 +343,12 @@ function atlantaStoreView(storeId) {
 }
 
 function statusBanner() {
-  if (state.data.metadata.mode !== 'demo' && !state.data.metadata.stale) return null;
-  const text = state.data.metadata.mode === 'demo'
+  const metadata = activeData()?.metadata || {};
+  if (metadata.mode !== 'demo' && !metadata.stale) return null;
+  const failed = (metadata.failedStores || []).map(id => storeById(id)?.name || id).join('、');
+  const text = metadata.mode === 'demo'
     ? '当前是可交互的首版演示数据。部署后，每日更新程序会从促销数据源替换为真实且仍有效的商品。'
-    : '今天的数据源没有全部成功刷新，因此页面暂时保留上一次确认有效的记录。';
+    : `以下商店今天未能刷新：${failed || '未知来源'}。仅这些商店保留上次确认记录。`;
   return el('div', { class: 'status-banner' }, text);
 }
 
@@ -353,8 +361,10 @@ function homeView() {
     const days = (new Date(o.validUntil) - now()) / 86400000;
     return days >= 0 && days <= 1.5;
   }).length;
-  const bestNow = [...nowOffers].filter(o => Number.isFinite(o.unitPriceValue)).sort(compareOffers).slice(0, 4);
-  const bestNext = [...nextOffers].filter(o => Number.isFinite(o.unitPriceValue)).sort(compareOffers).slice(0, 4);
+  const comparableNow = nowOffers.filter(o => Number.isFinite(o.unitPriceValue));
+  const comparableNext = nextOffers.filter(o => Number.isFinite(o.unitPriceValue));
+  const bestNow = [...(comparableNow.length ? comparableNow : nowOffers)].sort(compareOffers).slice(0, 4);
+  const bestNext = [...(comparableNext.length ? comparableNext : nextOffers)].sort(compareOffers).slice(0, 4);
   const hero = el('section', { class: 'hero' }, [
     el('h2', {}, '今天去哪家，买什么，一眼就知道。'),
     el('p', {}, '先看现在已经能买的优惠，再看下一期即将开始的优惠。商品原名保留，中文解释完整显示。'),
@@ -372,7 +382,7 @@ function homeView() {
       el('span', { class: 'emoji' }, categoryById(o.categoryId)?.emoji || '🛒'),
       el('strong', {}, firstSentence(o.zhExplanation)),
       el('span', { class: 'original-mini' }, o.originalName),
-      el('span', {}, `${money(o.price)} · ${storeById(o.storeId)?.name || o.storeId}`),
+      el('span', {}, `${offerMoney(o)} · ${storeById(o.storeId)?.name || o.storeId}`),
     ])
   )) : el('div', { class: 'empty' }, '目前没有已开始的演示优惠。');
 
@@ -404,7 +414,7 @@ function sectionTitle(title, subtitle) {
 }
 function visibleCategories() {
   const ids = new Set(currentOffers().map(o => o.categoryId));
-  return state.data.categories.filter(c => ids.has(c.id));
+  return activeCategories().filter(c => ids.has(c.id));
 }
 
 function categoriesView() {
@@ -485,7 +495,8 @@ function compareOffers(a,b) {
   return (a.price ?? Infinity) - (b.price ?? Infinity);
 }
 function renderGroup(groupId, offers) {
-  const label = state.data.comparisonGroups[groupId] || state.data.comparisonGroups.other || { nameZh: '其他商品', noteZh: '这些商品的规格不一定完全相同。' };
+  const groups = activeComparisonGroups();
+  const label = groups[groupId] || groups.other || { nameZh: '其他商品', noteZh: '这些商品的规格不一定完全相同。' };
   return el('section', { class: 'group' }, [
     el('div', { class: 'group-head' }, [el('h3', {}, label.nameZh), el('p', {}, label.noteZh)]),
     el('div', { class: 'offer-list' }, offers.map((o, i) => offerCard(o, i === 0 && Number.isFinite(o.unitPriceValue)))),
@@ -503,9 +514,10 @@ function offerCard(o, best) {
   if (o.changeType === 'price_drop') badges.push(el('span', { class: 'badge' }, `降价 ${o.priceDropAmount || ''}`.trim()));
   if (o.status === 'unconfirmed') badges.push(el('span', { class: 'badge warning' }, '等待重新确认'));
   return el('article', { class: `offer-card${best ? ' best' : ''}` }, [
+    o.imageUrl ? el('img', { class: 'offer-image', src: o.imageUrl, alt: o.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
     el('h4', {}, o.originalName),
     el('p', { class: 'zh-explanation' }, o.zhExplanation),
-    el('div', { class: 'price-row' }, [el('span', { class: 'price' }, money(o.price)), el('span', { class: 'package' }, o.packageText || '规格待确认')]),
+    el('div', { class: 'price-row' }, [el('span', { class: 'price' }, offerMoney(o)), el('span', { class: 'package' }, o.packageText || (o.currency === 'USD' ? '促销单标示价格' : '规格待确认'))]),
     o.unitPriceDisplay ? el('div', { class: 'unit-price' }, `单位价格：${o.unitPriceDisplay}`) : null,
     el('div', { class: 'badges' }, [el('span', { class: `badge ${new Date(o.validFrom) > now() ? 'warning' : ''}` }, availabilityBadge(o)), ...badges]),
     el('div', { class: 'meta-grid' }, [
@@ -527,8 +539,8 @@ function renderSourceLocation(o, store) {
     const position = loc.positionLabel ? `，${loc.positionLabel}` : '';
     return el('div', { class: 'source-block verified' }, [
       el('div', { class: 'source-heading' }, [el('strong', {}, '促销单准确定位'), el('span', { class: 'source-status' }, '已核验')]),
-      el('p', {}, `第 ${loc.pageNumber} 页${position}。按商品原名“${o.originalName}”核对。`),
-      href ? el('a', { class: 'source-link', href, target: '_blank', rel: 'noopener noreferrer' }, `打开促销单第 ${loc.pageNumber} 页 ↗`) : null,
+      el('p', {}, `数据源明确标注第 ${loc.pageNumber} 页${position}。按商品原名“${o.originalName}”核对。`),
+      href ? el('a', { class: 'source-link', href, target: '_blank', rel: 'noopener noreferrer' }, `打开促销单并查看第 ${loc.pageNumber} 页 ↗`) : null,
     ]);
   }
   if (direct) {
@@ -554,14 +566,15 @@ function storesView() {
     sectionTitle('按商店查看', '每家店有独立颜色、附近地址、会员提示和内部分类'),
     el('div', { class: 'store-grid' }, activeStores().map(store => {
       const storeOffers = offers.filter(o => o.storeId === store.id);
-      const cheapest = storeOffers.filter(o => Number.isFinite(o.unitPriceValue)).sort(compareOffers)[0];
+      const comparable = storeOffers.filter(o => Number.isFinite(o.unitPriceValue));
+      const cheapest = [...(comparable.length ? comparable : storeOffers)].sort(compareOffers)[0];
       return el('button', { class: 'store-card', style: `--store-color:${store.color}`, onClick: () => go('store', store.id) }, [
         el('h3', {}, store.name),
         el('p', {}, `${store.shortAddress} · ${store.distanceLabel}`),
         el('div', { class: 'store-stats' }, [
           el('span', { class: 'store-stat' }, `${storeOffers.length} 项优惠`),
           el('span', { class: 'store-stat' }, store.membership),
-          cheapest ? el('span', { class: 'store-stat' }, `低价示例 ${money(cheapest.price)}`) : null,
+          cheapest ? el('span', { class: 'store-stat' }, `低价示例 ${offerMoney(cheapest)}`) : null,
         ]),
       ]);
     })),
@@ -570,25 +583,26 @@ function storesView() {
 }
 
 function storeView(storeId) {
-  const store = storeById(storeId) || state.data.stores[0];
+  const store = storeById(storeId) || activeStores()[0];
   const offers = currentOffers().filter(o => o.storeId === store.id);
   const categoryIds = [...new Set(offers.map(o => o.categoryId))];
   const catChips = el('div', { class: 'chip-row' }, categoryIds.map(id => {
     const c = categoryById(id);
     return el('button', { class: 'chip', onClick: () => document.getElementById(`store-${store.id}-${id}`)?.scrollIntoView({ block: 'start' }) }, `${c?.emoji || '🛒'} ${c?.nameZh || id}`);
   }));
+  const selectedFlyer = !isAarhusLocation() ? state.atlantaData?.flyers?.find(flyer => flyer.storeId === store.id) : null;
   return el('main', { class: 'content', style: `--store-color:${store.color}` }, [
     el('section', { class: 'store-hero' }, [
       el('h2', {}, store.name),
       el('p', {}, `${store.shortAddress} · ${store.distanceLabel}\n${store.descriptionZh}`),
       el('div', { class: 'store-links' }, [
         el('a', { href: store.mapUrl, target: '_blank', rel: 'noopener noreferrer' }, '地图导航 ↗'),
-        el('a', { href: store.flyerUrl, target: '_blank', rel: 'noopener noreferrer' }, '本周促销单 ↗'),
+        el('a', { href: selectedFlyer?.url || store.flyerUrl, target: '_blank', rel: 'noopener noreferrer' }, '本周促销单 ↗'),
         el('a', { href: store.website, target: '_blank', rel: 'noopener noreferrer' }, '商店官网 ↗'),
       ]),
     ]),
-    sectionTitle(`${offers.length} 项当前促销`, `${store.membership}；同类仍按单位价格排序`),
-    catChips,
+    sectionTitle(`${offers.length} 项当前促销`, `${store.membership}；同类商品使用与首页一致的排序逻辑`),
+    offers.length ? catChips : null,
     ...categoryIds.map(id => {
       const c = categoryById(id);
       const list = offers.filter(o => o.categoryId === id);
@@ -597,6 +611,7 @@ function storeView(storeId) {
         ...groupOffers(list).map(([gid, group]) => renderGroup(gid, group)),
       ]);
     }),
+    offers.length ? null : el('div', { class: 'empty' }, '该商店目前没有可验证的结构化周促销商品。可以使用上方官方入口查看。'),
     footerNote(),
   ]);
 }
@@ -605,7 +620,7 @@ function searchView() {
   const all = currentOffers();
   const query = state.search.trim().toLowerCase();
   const results = !query ? [] : all.filter(o => [o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
-  const input = el('input', { class: 'search-input', value: state.search, placeholder: '输入中文或丹麦文：鸡腿、kylling、饺子……', type: 'search' });
+  const input = el('input', { class: 'search-input', value: state.search, placeholder: '输入中文、丹麦文或英文商品名……', type: 'search' });
   input.addEventListener('input', e => {
     state.search = e.target.value;
     const p = new URLSearchParams({ view: 'search' });
@@ -619,14 +634,15 @@ function searchView() {
   });
   return el('main', { class: 'content' }, [
     el('div', { class: 'search-panel' }, [input, el('p', { class: 'search-hint' }, '同时搜索商品原名、中文解释、商店名称。中文解释不会折叠。')]),
-    query ? sectionTitle(`找到 ${results.length} 项`, '搜索结果按单位价格排列') : sectionTitle('搜索商品', '例如鸡腿肉、烟熏香肠、Coca-Cola Zero'),
+    query ? sectionTitle(`找到 ${results.length} 项`, '有可靠单位价格时优先按单位价格，否则按标示价格排列') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
     query ? el('div', { class: 'offer-list' }, results.sort(compareOffers).map((o, i) => offerCard(o, false))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
     footerNote(),
   ]);
 }
 
 function footerNote() {
-  return el('p', { class: 'footer-note' }, '促销通常是连锁店级别，附近门店库存可能不同。单位价格只在规格可可靠换算时参与同类排序；会员价、多件价和限购条件会明确标注。');
+  const defaultText = '促销通常是连锁店级别，附近门店库存可能不同。单位价格只在规格可可靠换算时参与同类排序；会员价、多件价和限购条件会明确标注。';
+  return el('p', { class: 'footer-note' }, activeData()?.metadata?.disclaimerZh || defaultText);
 }
 
 function render() {
@@ -634,11 +650,7 @@ function render() {
   root.replaceChildren(topbar());
   let view;
   if (state.route.view === 'locations') view = locationsView();
-  else if (!isAarhusLocation()) {
-    if (state.route.view === 'stores') view = atlantaStoresView();
-    else if (state.route.view === 'store') view = atlantaStoreView(state.route.id);
-    else view = atlantaHomeView();
-  } else if (state.route.view === 'categories') view = categoriesView();
+  else if (state.route.view === 'categories') view = categoriesView();
   else if (state.route.view === 'category') view = categoryView(state.route.id);
   else if (state.route.view === 'stores') view = storesView();
   else if (state.route.view === 'store') view = storeView(state.route.id);

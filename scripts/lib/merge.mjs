@@ -36,11 +36,10 @@ export function mergeIncrementally(previous, freshByStore, storeStatuses, nowIso
     const expired = old.validUntil && new Date(old.validUntil) < new Date(nowIso);
     if (status === 'failed') {
       next.push({ ...old, status: 'unconfirmed' });
-    } else if (!expired) {
-      // A product can be missing temporarily from a feed; retain until its stated end date.
-      next.push({ ...old, status: 'unconfirmed' });
     } else {
-      history.push({ ...old, status: 'expired', archivedAt: nowIso });
+      // A successful store refresh is authoritative: a missing item is no longer
+      // presented as current, even if its previously stated end date is later.
+      history.push({ ...old, status: expired ? 'expired' : 'withdrawn', archivedAt: nowIso });
     }
   }
 

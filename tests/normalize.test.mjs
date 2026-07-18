@@ -1,0 +1,36 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { normalizeOffer } from '../scripts/lib/normalize.mjs';
+
+const baseOffer = {
+  id: 'offer-1',
+  heading: 'Kyllingebryst 1 kg',
+  description: '1 kg',
+  pricing: { price: 49, currency: 'DKK' },
+  quantity: { size: { from: 1 }, unit: { symbol: 'kg' } },
+  run_from: '2026-07-18T00:00:00Z',
+  run_till: '2026-07-25T00:00:00Z',
+  catalog_id: 'catalog-1',
+  dealer: { name: 'Netto' },
+  branding: { name: 'Netto' },
+};
+
+test('uses the explicit Tjek catalog page as a verified source location', () => {
+  const normalized = normalizeOffer({ ...baseOffer, catalog_page: 17 }, '2026-07-18T12:00:00Z');
+  assert.equal(normalized.sourcePage, 17);
+  assert.equal(normalized.sourceCatalogId, 'catalog-1');
+  assert.deepEqual(normalized.sourceLocation, {
+    status: 'verified',
+    pageNumber: 17,
+    positionLabel: null,
+    deepLink: null,
+    verifiedAt: '2026-07-18T12:00:00Z',
+    method: 'tjek_catalog_page',
+  });
+});
+
+test('does not invent a page when Tjek omits catalog_page', () => {
+  const normalized = normalizeOffer(baseOffer, '2026-07-18T12:00:00Z');
+  assert.equal(normalized.sourcePage, null);
+  assert.equal(normalized.sourceLocation.status, 'unlocated');
+});

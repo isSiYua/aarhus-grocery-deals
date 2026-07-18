@@ -106,6 +106,7 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt }) {
       brand: item.brand || null,
       zhExplanation: category.zhExplanation,
       categoryId: category.categoryId,
+      comparisonGroup: category.categoryId,
       price,
       currency: 'USD',
       validFrom: item.valid_from || flyer.valid_from,

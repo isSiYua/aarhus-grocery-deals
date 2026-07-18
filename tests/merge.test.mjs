@@ -22,3 +22,9 @@ test('failed source retains old offer as unconfirmed', () => {
   const out = mergeIncrementally({ offers:[old], history:[] }, {}, { netto:'failed' }, '2026-07-18T07:00:00Z');
   assert.equal(out.offers[0].status, 'unconfirmed');
 });
+
+test('successful source removes a missing offer instead of showing a reconfirmation warning', () => {
+  const out = mergeIncrementally({ offers:[old], history:[] }, { netto:[] }, { netto:'ok' }, '2026-07-18T07:00:00Z');
+  assert.equal(out.offers.length, 0);
+  assert.equal(out.history[0].status, 'withdrawn');
+});

@@ -19,8 +19,9 @@ for (const [index, offer] of data.offers.entries()) {
   if (offer.sourceLocation?.status === 'verified' && (!Number.isInteger(offer.sourceLocation.pageNumber) || offer.sourceLocation.pageNumber < 1)) throw new Error(`Invalid verified source location: ${offer.canonicalKey}`);
 }
 
-if (!atlanta.metadata || !Array.isArray(atlanta.offers) || !Array.isArray(atlanta.flyers)) throw new Error('Invalid Atlanta data shape');
+if (!atlanta.metadata || !Array.isArray(atlanta.offers) || !Array.isArray(atlanta.flyers) || !Array.isArray(atlanta.categories) || !atlanta.comparisonGroups) throw new Error('Invalid Atlanta data shape');
 const atlantaStoreIds = new Set(['kroger-howell-mill', 'publix-howell-mill', 'whole-foods-midtown', 'target-midtown', 'walmart-mlk']);
+const atlantaCategoryIds = new Set(atlanta.categories.map(category => category.id));
 const atlantaIds = new Set();
 for (const [index, offer] of atlanta.offers.entries()) {
   for (const key of ['canonicalKey','storeId','originalName','zhExplanation','categoryId','price','currency','validFrom','validUntil','sourceUrl']) {
@@ -29,6 +30,7 @@ for (const [index, offer] of atlanta.offers.entries()) {
   if (atlantaIds.has(offer.canonicalKey)) throw new Error(`Duplicate Atlanta canonicalKey: ${offer.canonicalKey}`);
   atlantaIds.add(offer.canonicalKey);
   if (!atlantaStoreIds.has(offer.storeId)) throw new Error(`Unknown Atlanta store ${offer.storeId}`);
+  if (!atlantaCategoryIds.has(offer.categoryId) || offer.comparisonGroup !== offer.categoryId) throw new Error(`Invalid Atlanta category: ${offer.canonicalKey}`);
   if (offer.currency !== 'USD' || !Number.isFinite(offer.price) || offer.price <= 0) throw new Error(`Invalid Atlanta price: ${offer.canonicalKey}`);
   if (!['direct','unlocated'].includes(offer.sourceLocation?.status)) throw new Error(`Invalid Atlanta source status: ${offer.canonicalKey}`);
   if (offer.sourceLocation.pageNumber !== null) throw new Error(`Atlanta page number must not be inferred: ${offer.canonicalKey}`);
