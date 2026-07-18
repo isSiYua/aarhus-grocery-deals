@@ -45,22 +45,27 @@ test('manual refresh checks the active location data file and only replaces chan
   assert.match(appSource, /aria-label': refresh\.status === 'checking' \? '正在检查更新' : '刷新并检查数据更新'/);
 });
 
-test('mobile chrome can be collapsed independently and remembers the preference', () => {
-  assert.match(appSource, /const CHROME_KEY = 'grocery-deals-mobile-chrome-v1'/);
-  assert.match(appSource, /function toggleChrome\(part\)/);
-  assert.match(appSource, /toggleChrome\('top'\)/);
-  assert.match(appSource, /toggleChrome\('bottom'\)/);
-  assert.match(appSource, /aria-expanded/);
-  assert.match(styleSource, /\.topbar\.collapsed/);
-  assert.match(styleSource, /\.bottom-nav\.collapsed/);
+test('mobile chrome behaves like a reading app and has no visible handles', () => {
+  assert.match(appSource, /function toggleReadingChrome\(\)/);
+  assert.match(appSource, /function attachReadingChromeTap\(node\)/);
+  assert.match(appSource, /x < innerWidth \* \.18/);
+  assert.match(appSource, /state\.chrome = \{ topHidden: mobileReadingMode, bottomHidden: mobileReadingMode \}/);
+  assert.doesNotMatch(appSource, /chrome-toggle|topbar-toggle|bottom-nav-toggle/);
+  assert.match(styleSource, /\.topbar\.collapsed \{ display: none; \}/);
+  assert.match(styleSource, /\.bottom-nav\.collapsed \{ display: none; \}/);
 });
 
-test('mobile category browsing keeps subcategory context and ignores vertical gestures', () => {
-  assert.match(appSource, /class: 'content category-content'/);
-  assert.match(appSource, /左右滑动切换整个大类/);
+test('mobile category browsing turns one product card at a time without changing the large category', () => {
+  assert.match(appSource, /function mobileCategoryReader/);
+  assert.match(appSource, /groups\.flatMap/);
+  assert.match(appSource, /function turnReaderPage/);
+  assert.match(appSource, /function attachReaderSwipe/);
+  assert.match(appSource, /左右翻商品/);
+  assert.doesNotMatch(appSource, /左右滑动切换整个大类/);
   assert.match(appSource, /touchStartY/);
   assert.match(appSource, /Math\.abs\(delta\) < Math\.abs\(verticalDelta\) \* 1\.35/);
-  assert.match(styleSource, /\.category-content \.group-head \{ position: sticky/);
+  assert.match(styleSource, /\.mobile-reader-card > \.offer-card \{ height: 100%; overflow-y: auto/);
+  assert.match(styleSource, /height: calc\(100dvh - var\(--topbar-height/);
 });
 
 test('mobile offer cards collapse secondary details and strongly mark global minima', () => {

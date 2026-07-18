@@ -10,12 +10,13 @@ const state = {
   storeFilter: null,
   shopping: {},
   chrome: { topHidden: false, bottomHidden: false },
+  reader: { categoryId: null, storeFilter: null, index: 0 },
+  suppressReaderClickUntil: 0,
   refresh: { status: 'idle', locationId: null, checkedAt: null, error: null },
 };
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
 const SHOPPING_KEY = 'grocery-deals-shopping-v1';
-const CHROME_KEY = 'grocery-deals-mobile-chrome-v1';
 const LOCATIONS = [
   {
     id: 'aarhus-v',
@@ -158,6 +159,10 @@ const purchasableNow = () => currentOffers().filter(o => new Date(o.validFrom) <
 const upcomingOffers = () => currentOffers().filter(o => new Date(o.validFrom) > now());
 const firstSentence = text => String(text || '').split(/(?<=[。！？])/)[0] || '查看中文说明';
 const availabilityBadge = o => new Date(o.validFrom) > now() ? `下期开始 ${formatDate(o.validFrom)}` : '现在能买';
+const isMobileReadingMode = () => Boolean(
+  globalThis.matchMedia?.('(max-width: 699px)').matches
+  || new URLSearchParams(location.search).get('preview') === 'mobile'
+);
 const storeById = id => activeStores().find(s => s.id === id);
 const categoryById = id => activeCategories().find(c => c.id === id);
 const offerMoney = offer => offer.currency === 'USD' ? usd(offer.price) : money(offer.price);
@@ -408,6 +413,9 @@ function parseRoute() {
   state.storeFilter = activeStores().some(store => store.id === requestedStore) ? requestedStore : null;
 }
 function go(view, id = null, extra = {}) {
+  if (isMobileReadingMode()) {
+    state.chrome = { topHidden: true, bottomHidden: true };
+  }
   const p = new URLSearchParams({ view });
   if (id) p.set('id', id);
   if (!Object.hasOwn(extra, 'store') && state.storeFilter && ['home', 'categories', 'category', 'shopping', 'search'].includes(view)) {
@@ -421,10 +429,6 @@ function setStoreFilter(storeId) {
   go(state.route.view, state.route.id, { q: state.search, store: storeId });
 }
 
-function saveChromePreference() {
-  localStorage.setItem(CHROME_KEY, JSON.stringify(state.chrome));
-}
-
 function syncChromeLayout() {
   const root = document.getElementById('app');
   const topbar = root?.querySelector('.topbar');
@@ -434,24 +438,27 @@ function syncChromeLayout() {
   root.style.setProperty('--bottom-nav-height', `${Math.ceil(bottom.getBoundingClientRect().height)}px`);
   root.classList.toggle('topbar-hidden', state.chrome.topHidden);
   root.classList.toggle('bottom-nav-hidden', state.chrome.bottomHidden);
+  root.classList.toggle('mobile-reading-mode', isMobileReadingMode());
 }
 
-function toggleChrome(part) {
-  const key = part === 'top' ? 'topHidden' : 'bottomHidden';
-  state.chrome[key] = !state.chrome[key];
-  saveChromePreference();
-  const selector = part === 'top' ? '.topbar' : '.bottom-nav';
-  const bar = document.querySelector(selector);
-  if (!bar) return;
-  bar.classList.toggle('collapsed', state.chrome[key]);
-  const toggle = bar.querySelector('.chrome-toggle');
-  if (toggle) {
-    const hidden = state.chrome[key];
-    toggle.textContent = part === 'top' ? (hidden ? '⌄' : '⌃') : (hidden ? '⌃' : '⌄');
-    toggle.setAttribute('aria-label', `${hidden ? '展开' : '收起'}${part === 'top' ? '顶部标题栏' : '底部菜单栏'}`);
-    toggle.setAttribute('aria-expanded', hidden ? 'false' : 'true');
-  }
+function toggleReadingChrome() {
+  const hidden = state.chrome.topHidden && state.chrome.bottomHidden;
+  state.chrome = { topHidden: !hidden, bottomHidden: !hidden };
+  document.querySelector('.topbar')?.classList.toggle('collapsed', !hidden);
+  document.querySelector('.bottom-nav')?.classList.toggle('collapsed', !hidden);
   requestAnimationFrame(syncChromeLayout);
+}
+
+function attachReadingChromeTap(node) {
+  if (!isMobileReadingMode()) return;
+  node.addEventListener('click', event => {
+    if (Date.now() < state.suppressReaderClickUntil) return;
+    if (event.target.closest('button, a, input, select, textarea, summary, dialog')) return;
+    const x = event.clientX;
+    const y = event.clientY;
+    if (x < innerWidth * .18 || x > innerWidth * .82 || y < innerHeight * .18 || y > innerHeight * .82) return;
+    toggleReadingChrome();
+  });
 }
 
 function storeFilterBar(offers, title = '按商店筛选') {
@@ -514,13 +521,6 @@ function topbar() {
         el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
       ]),
     ]),
-    el('button', {
-      class: 'chrome-toggle topbar-toggle',
-      type: 'button',
-      'aria-label': `${hidden ? '展开' : '收起'}顶部标题栏`,
-      'aria-expanded': hidden ? 'false' : 'true',
-      onClick: () => toggleChrome('top'),
-    }, hidden ? '⌄' : '⌃'),
   ]);
 }
 
@@ -534,13 +534,6 @@ function bottomNav() {
   ];
   const hidden = state.chrome.bottomHidden;
   return el('nav', { class: `bottom-nav${hidden ? ' collapsed' : ''}`, 'aria-label': '主导航' }, [
-    el('button', {
-      class: 'chrome-toggle bottom-nav-toggle',
-      type: 'button',
-      'aria-label': `${hidden ? '展开' : '收起'}底部菜单栏`,
-      'aria-expanded': hidden ? 'false' : 'true',
-      onClick: () => toggleChrome('bottom'),
-    }, hidden ? '⌃' : '⌄'),
     el('div', { class: 'bottom-nav-items' }, items.map(([view, icon, label]) =>
       el('button', { class: state.route.view === view || (view === 'categories' && state.route.view === 'category') || (view === 'stores' && state.route.view === 'store') ? 'active' : '', onClick: () => go(view) }, [
         el('span', {}, icon), label,
@@ -725,7 +718,7 @@ function visibleCategories(offers = currentOffers()) {
 function categoriesView() {
   const cats = visibleCategories();
   return el('main', { class: 'content' }, [
-    sectionTitle('商品分类', '点击一类进入；进入后可左右滑动或点上一类、下一类'),
+    sectionTitle('商品分类', '点击一类进入；手机上左右滑动逐件翻商品'),
     el('div', { class: 'quick-grid' }, cats.map(c => {
       const offers = currentOffers().filter(o => o.categoryId === c.id);
       const stores = new Set(offers.map(o => o.storeId)).size;
@@ -746,24 +739,90 @@ function categoryView(categoryId) {
   const allOffers = currentOffers().filter(o => o.categoryId === category.id);
   const offers = filterOffersByStore(allOffers);
   const groups = groupOffers(offers);
+  if (isMobileReadingMode()) {
+    return mobileCategoryReader(category, allOffers, groups);
+  }
   const main = el('main', { class: 'content category-content', style: `--page-color:${category.color}` }, [
     el('section', { class: 'page-head' }, [
       el('div', { class: 'kicker' }, '商品分类'),
       el('h2', {}, `${category.emoji} ${category.nameZh}`),
       el('p', {}, category.descriptionZh),
       el('span', { class: 'page-counter' }, `第 ${index + 1} 类 / 共 ${cats.length} 类 · ${offers.length} 项${state.storeFilter ? '（已筛选）' : ''}`),
-      el('div', { class: 'swipe-hint' }, '← 左右滑动切换整个大类 →'),
     ]),
     storeFilterBar(allOffers),
     ...groups.map(([groupId, groupOffersList]) => renderGroup(groupId, groupOffersList)),
     pager(cats, index),
     footerNote(),
   ]);
-  attachSwipe(main, cats, index);
   return main;
 }
 
-function attachSwipe(node, cats, index) {
+function mobileCategoryReader(category, allOffers, groups) {
+  const pages = groups.flatMap(([groupId, groupOffersList]) => groupOffersList.map((offer, groupIndex) => ({
+    groupId,
+    groupIndex,
+    groupCount: groupOffersList.length,
+    offer,
+  })));
+  if (state.reader.categoryId !== category.id || state.reader.storeFilter !== state.storeFilter) {
+    state.reader = { categoryId: category.id, storeFilter: state.storeFilter, index: 0 };
+  }
+  state.reader.index = Math.max(0, Math.min(state.reader.index, Math.max(0, pages.length - 1)));
+  const current = pages[state.reader.index];
+  const groupLabel = activeComparisonGroups()[current?.groupId] || { nameZh: '其他商品', noteZh: '逐件查看商品。' };
+  const main = el('main', { class: 'mobile-reader', style: `--page-color:${category.color}` }, [
+    el('header', { class: 'mobile-reader-head' }, [
+      el('div', { class: 'reader-category-line' }, [
+        el('div', {}, [
+          el('span', { class: 'reader-kicker' }, `${category.emoji} ${category.nameZh}`),
+          el('h2', {}, groupLabel.nameZh),
+        ]),
+        el('span', { class: 'reader-group-count' }, current ? `${current.groupIndex + 1}/${current.groupCount}` : '0/0'),
+      ]),
+      el('p', {}, groupLabel.noteZh),
+      mobileReaderStoreFilter(allOffers),
+      el('div', { class: 'reader-instructions' }, '左右翻商品 · 轻点屏幕中央显示或隐藏菜单'),
+    ]),
+    current
+      ? el('div', { class: 'mobile-reader-card', 'aria-live': 'polite' }, offerCard(current.offer))
+      : el('div', { class: 'empty' }, '当前筛选条件下没有商品。'),
+    el('footer', { class: 'mobile-reader-footer' }, [
+      el('button', { type: 'button', disabled: state.reader.index === 0 ? '' : null, onClick: () => turnReaderPage(-1, pages.length) }, '← 上一件'),
+      el('span', {}, `${pages.length ? state.reader.index + 1 : 0} / ${pages.length}`),
+      el('button', { type: 'button', disabled: state.reader.index >= pages.length - 1 ? '' : null, onClick: () => turnReaderPage(1, pages.length) }, '下一件 →'),
+    ]),
+  ]);
+  attachReaderSwipe(main, pages.length);
+  return main;
+}
+
+function mobileReaderStoreFilter(offers) {
+  const stores = activeStores().filter(store => offers.some(offer => offer.storeId === store.id));
+  if (stores.length < 2) return null;
+  return el('details', { class: 'reader-store-filter' }, [
+    el('summary', {}, `商店：${state.storeFilter ? storeById(state.storeFilter)?.name || state.storeFilter : '全部商店'} ▾`),
+    el('div', { class: 'chip-row' }, [
+      el('button', { class: `chip${state.storeFilter ? '' : ' active'}`, onClick: () => setStoreFilter(null) }, `全部 ${offers.length}`),
+      ...stores.map(store => {
+        const count = offers.filter(offer => offer.storeId === store.id).length;
+        return el('button', {
+          class: `chip store-filter-chip${state.storeFilter === store.id ? ' active' : ''}`,
+          style: `--store-color:${store.color}`,
+          onClick: () => setStoreFilter(store.id),
+        }, `${store.name} ${count}`);
+      }),
+    ]),
+  ]);
+}
+
+function turnReaderPage(direction, pageCount) {
+  const next = Math.max(0, Math.min(state.reader.index + direction, pageCount - 1));
+  if (next === state.reader.index) return;
+  state.reader.index = next;
+  render();
+}
+
+function attachReaderSwipe(node, pageCount) {
   node.addEventListener('touchstart', e => {
     state.touchStartX = e.changedTouches[0].clientX;
     state.touchStartY = e.changedTouches[0].clientY;
@@ -777,9 +836,9 @@ function attachSwipe(node, cats, index) {
     state.touchStartX = null;
     state.touchStartY = null;
     state.touchStartedInControl = false;
-    if (startedInControl || Math.abs(delta) < 70 || Math.abs(delta) < Math.abs(verticalDelta) * 1.35) return;
-    if (delta < 0 && index < cats.length - 1) go('category', cats[index + 1].id);
-    if (delta > 0 && index > 0) go('category', cats[index - 1].id);
+    if (startedInControl || Math.abs(delta) < 58 || Math.abs(delta) < Math.abs(verticalDelta) * 1.35) return;
+    state.suppressReaderClickUntil = Date.now() + 500;
+    turnReaderPage(delta < 0 ? 1 : -1, pageCount);
   }, { passive: true });
 }
 
@@ -887,7 +946,7 @@ function offerCard(o, options = {}) {
 }
 
 function offerDetails(o, store) {
-  const desktop = globalThis.matchMedia?.('(min-width: 700px)').matches;
+  const desktop = !isMobileReadingMode();
   return el('details', { class: 'offer-details', open: desktop ? '' : null }, [
     el('summary', {}, [
       el('span', {}, `${formatDate(o.validFrom)}—${formatDate(o.validUntil)} · 门店与来源`),
@@ -1069,6 +1128,7 @@ function footerNote() {
 function render({ preserveScroll = false } = {}) {
   const scrollY = window.scrollY;
   const root = document.getElementById('app');
+  root.classList.toggle('mobile-reading-mode', isMobileReadingMode());
   root.replaceChildren(topbar());
   let view;
   if (state.route.view === 'locations') view = locationsView();
@@ -1080,6 +1140,7 @@ function render({ preserveScroll = false } = {}) {
   else if (state.route.view === 'search') view = searchView();
   else view = homeView();
   root.append(view, bottomNav());
+  attachReadingChromeTap(view);
   window.scrollTo({ top: preserveScroll ? scrollY : 0, behavior: 'auto' });
   requestAnimationFrame(syncChromeLayout);
 }
@@ -1108,15 +1169,8 @@ async function boot() {
     } catch {
       state.shopping = {};
     }
-    try {
-      const savedChrome = JSON.parse(localStorage.getItem(CHROME_KEY) || '{}');
-      state.chrome = {
-        topHidden: Boolean(savedChrome?.topHidden),
-        bottomHidden: Boolean(savedChrome?.bottomHidden),
-      };
-    } catch {
-      state.chrome = { topHidden: false, bottomHidden: false };
-    }
+    const mobileReadingMode = isMobileReadingMode();
+    state.chrome = { topHidden: mobileReadingMode, bottomHidden: mobileReadingMode };
     parseRoute();
     render();
   } catch (error) {
