@@ -8,11 +8,11 @@
 - 隐私安全的地点切换：Aarhus V 与 Atlanta Westside 都可在站内查看商品级促销
 - 每个商品大类一页，类内纵向滚动；支持上一类、下一类和左右滑动
 - 同类商品放在一起，按可比较的单位价格从低到高排列
-- 商品原名在前，完整中文解释默认展开；AI 说明按稳定商品键生成一次后永久复用
+- 商品原名在前，完整中文解释默认展开；Codex 编写的说明按稳定商品键生成一次后永久复用
 - 独立商店视图：品牌色、附近地址、距离说明、会员要求、地图和促销单链接
 - 饮料只保留有促销的 Coca-Cola Zero 或 Sprite Zero
 - 每天增量更新：未变化保留；变化替换并归档；仅数据源失败时保留旧记录并标注“等待重新确认”
-- GitHub Pages 部署和每天 07:00（Europe/Copenhagen）更新工作流
+- GitHub Pages 部署，以及 Codex 每天 03:00（Europe/Copenhagen）语义检查
 - 离线应用壳与上一次已缓存数据
 
 ## 数据来源
@@ -39,41 +39,40 @@ npm run serve
 
 浏览器打开 `http://localhost:8080`。
 
-## 可复用的 AI 商品说明
+## 可复用的 Codex 商品说明
 
-`data/product_descriptions_zh.json` 是随仓库版本控制的中文商品知识缓存；键由标准化商品原名和比较组组成，不含商店、价格或包装规格，因此同一商品跨商店、跨日期只生成一次。`data/product_descriptions_pending.json` 只保存尚未生成的公开商品资料。网页本身不会调用 OpenAI，也不会接触 API 密钥；没有密钥时继续使用本地规则说明。
+`data/product_descriptions_zh.json` 是随仓库版本控制的中文商品知识库；键由标准化商品原名和比较组组成，不含商店、价格、包装规格或促销 ID，因此同一商品跨商店、跨日期只编写一次。`data/product_descriptions_pending.json` 保存尚待 Codex 编写的公开商品资料。网页和 GitHub Actions 都不调用任何模型 API，也不需要 API 密钥；Codex 每晚优先处理新品，再认真补充最多 150 个旧商品，尚未写入知识库的商品暂时使用本地规则说明。
 
-要为队列生成说明，请把 OpenAI API key 放在环境变量中，切勿写入文件：
+Codex 写入或修订说明后运行：
 
 ```bash
-npm run descriptions:queue
-read -s "OPENAI_API_KEY?OpenAI API key: " && export OPENAI_API_KEY && echo
-npm run descriptions:generate -- --limit 100
-unset OPENAI_API_KEY
+npm run descriptions:sync
+npm run identities:update
+npm test
 npm run validate
 ```
 
-GitHub Actions 会读取仓库的 `OPENAI_API_KEY` Actions secret，每天最多处理 100 个未见过的商品；已缓存商品不会再次请求模型。可用 `OPENAI_DESCRIPTION_MODEL` 改写默认模型 `gpt-5.6-sol`。
+`data/product_identity_history.json` 独立追踪稳定商品、每次促销的 source offer ID、有效期、促销单 ID 和精确图片引用。它可以在以后确认“同一 ID 隔月再次出现”“同名商品换了新 ID”或“不同 ID 使用完全相同的图片引用”，但不会仅凭相似网址猜测图片相同。完整的凌晨维护规则见 `CODEX_NIGHTLY_MAINTENANCE.md`。
 
 ## 发布到固定网址
 
 1. 新建一个 GitHub 仓库并上传本目录全部文件。
 2. 仓库 Settings → Pages → Source 选择 **GitHub Actions**。
-3. 手动运行一次 `Update deals and deploy` 工作流。
-4. 以后每天自动检查一次；网址保持不变。
+3. 手动运行一次 `Deploy grocery deals` 工作流。
+4. 以后由 Codex 每天凌晨 03:00 检查；只有语义数据或商品知识确实变化时才提交并部署，网址保持不变。
 
 当前附带的是界面演示数据。首次成功运行工作流后会切换为 live 模式并替换为仍有效的实时促销。
 
 ## 数据模型
 
-`data/current_offers.json` 保存当前有效记录和页面配置；`data/history.json` 保存被替换或过期的历史记录。购物商品身份使用“商店 + 标准化原名 + 规格”生成；AI 说明另用不含商店和规格的稳定键，以便长期复用。
+`data/current_offers.json` 保存当前有效记录和页面配置；`data/history.json` 保存被替换或过期的历史记录。购物清单身份使用“商店 + 标准化原名 + 规格”；长期商品知识身份使用“标准化原名 + 比较组”，不依赖每期变化的促销 ID。
 
 ## 已知边界
 
 - Tjek 数据中并非每条商品都含可精确换算的规格；缺少规格时不会伪造单位价格。
 - Aarhus 优惠直接采用 Tjek 明确提供的 `catalog_page`、`catalog_id`、商品 ID 和商品裁切图；来源链接准确打开所属促销单与商品，绝不推算页码。
 - Flipp 当前商品 feed 不提供可靠页码，因此 Atlanta 使用 feed 明确提供的商品 ID 生成商品弹窗直达链接，不根据画布坐标推算页码。
-- 未配置 OpenAI API key 或 AI 队列尚未处理时，中文解释使用确定性词典与规则作为回退；页面会保留说明来源，不能把规则文本冒充成 AI 结果。
+- Codex 尚未处理的新商品使用确定性词典与规则作为临时回退；页面保留说明来源，不能把规则文本冒充成 Codex 编写结果。
 
 ## 促销单定位原则（v0.3）
 

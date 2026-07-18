@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
-  "promptVersion": "zh-product-v1",
-  "generatedAt": "2026-07-18T11:48:55.799Z",
-  "count": 1066,
+  "schemaVersion": 2,
+  "descriptionSpecVersion": "zh-product-v2",
+  "generatedAt": "2026-07-18T12:02:45.332Z",
+  "count": 1054,
   "items": [
     {
       "descriptionKey": "v1|10 friskbagte rundstykker|bread",
@@ -3675,21 +3675,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|floralys toiletpapir|paper",
-      "originalName": "FLORALYS Toiletpapir",
-      "sampleDescriptions": [
-        "4-lags. 10 ruller / pk. 1417 g / pk. Pr. kg 27,88",
-        "3-lags. 6 ruller / pk. 620 g / pk. Pr. kg 20,89.",
-        "3-lags. 18 ruller. 2370 g / pk. Pr. kg 14,75"
-      ],
-      "categoryId": "household",
-      "comparisonGroup": "paper",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 4
-    },
-    {
       "descriptionKey": "v1|floralys xxl kokkenrulle|paper",
       "originalName": "FLORALYS XXL køkkenrulle",
       "sampleDescriptions": [
@@ -6791,22 +6776,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|liba fladbrod|bread",
-      "originalName": "Liba fladbrød",
-      "sampleDescriptions": [
-        "340 g. pr. kg 29,26",
-        "340 g. Pr. kg 29,26 Fast lav pris",
-        "340 g / pk. Pr. kg 29,26."
-      ],
-      "categoryId": "bread_grains",
-      "comparisonGroup": "bread",
-      "stores": [
-        "lidl",
-        "netto"
-      ],
-      "occurrences": 3
-    },
-    {
       "descriptionKey": "v1|libero comfort bleer|diapers",
       "originalName": "Libero Comfort bleer*",
       "sampleDescriptions": [
@@ -7084,21 +7053,6 @@
       "occurrences": 2
     },
     {
-      "descriptionKey": "v1|lupilu premium bleer|diapers",
-      "originalName": "LUPILU Premium bleer",
-      "sampleDescriptions": [
-        "Gælder fra 8.5. Fast lav pris. Str. 1. 24 stk. / pk. Pr. stk. 0,71.",
-        "Str. 1. 24 stk. Pr. stk. 0,71 Fast lav pris",
-        "Fast lav pris. Str. 2. 42 stk. / pk. Pr. stk. 0,71."
-      ],
-      "categoryId": "baby",
-      "comparisonGroup": "diapers",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 4
-    },
-    {
       "descriptionKey": "v1|lupilu vaadservietter|baby_care",
       "originalName": "LUPILU Vådservietter",
       "sampleDescriptions": [
@@ -7270,21 +7224,6 @@
         "lidl"
       ],
       "occurrences": 2
-    },
-    {
-      "descriptionKey": "v1|madvaerket danbo|cheese",
-      "originalName": "MADVÆRKET Danbo",
-      "sampleDescriptions": [
-        "Lagret 45+. 510-624 g / stk. Pr. kg maks. 97,94.",
-        "Ekstralagret 45+. 495-605 g / stk. Pr. kg maks. 111,01.",
-        "Ekstra ekstralagret 45+. 486-594 g / stk. Pr. kg maks. 123,35."
-      ],
-      "categoryId": "eggs_dairy",
-      "comparisonGroup": "cheese",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 3
     },
     {
       "descriptionKey": "v1|madvaerket entrecote|beef_steak",
@@ -7459,21 +7398,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "originalName": "MADVÆRKET Hakket oksekød",
-      "sampleDescriptions": [
-        "14-18 % fedt. 800 g / pk.",
-        "4-7 % fedt. 400 g / pk. Pr. kg 112,38.",
-        "8-12 % fedt. 800 g / pk."
-      ],
-      "categoryId": "beef",
-      "comparisonGroup": "beef_minced",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 6
-    },
-    {
       "descriptionKey": "v1|madvaerket hel kylling|whole_chicken",
       "originalName": "MADVÆRKET Hel kylling",
       "sampleDescriptions": [
@@ -7524,21 +7448,6 @@
         "lidl"
       ],
       "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|madvaerket kyllingebrystfilet|chicken_breast",
-      "originalName": "MADVÆRKET Kyllingebrystfilet",
-      "sampleDescriptions": [
-        "450 g / pk. Pr. kg. 77,67.",
-        "Uden vand. 280 g / pk. Pr. kg",
-        "Uden vand. 650 g / pk. Pr. kg 83,00."
-      ],
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breast",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 4
     },
     {
       "descriptionKey": "v1|madvaerket kyllingeinderfilet|chicken_breast",
@@ -7592,21 +7501,6 @@
         "lidl"
       ],
       "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|madvaerket okologisk koldskaal|yoghurt",
-      "originalName": "MADVÆRKET Økologisk koldskål",
-      "sampleDescriptions": [
-        "1 kg. Pr. kg 16,95 Fast lav pris",
-        "1 kg. Pr. kg",
-        "Citron & vanilje"
-      ],
-      "categoryId": "eggs_dairy",
-      "comparisonGroup": "yoghurt",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 3
     },
     {
       "descriptionKey": "v1|madvaerket okologisk smor|butter",
@@ -7909,21 +7803,6 @@
         "rema"
       ],
       "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|malaco skippers mini eller polly|chocolate",
-      "originalName": "Malaco, Skippers mini eller Polly.",
-      "sampleDescriptions": [
-        "Flere varianter. 192-340 g. Kg-pris maks. 156,25. Frit valg. Medlemspris",
-        "MÅNEDENS Medlems KØB JULI coop MEDLEM Flere varianter. 192-340 g. Kg-pris maks. 156,25. Frit valg. 1 pose."
-      ],
-      "categoryId": "snacks",
-      "comparisonGroup": "chocolate",
-      "stores": [
-        "365",
-        "kvickly"
-      ],
-      "occurrences": 3
     },
     {
       "descriptionKey": "v1|malaco slikpose|chocolate",
@@ -8500,21 +8379,6 @@
         "lidl"
       ],
       "occurrences": 2
-    },
-    {
-      "descriptionKey": "v1|milbona hytteost|yoghurt",
-      "originalName": "MILBONA Hytteost",
-      "sampleDescriptions": [
-        "300 g / stk. Pr. kg 33,17",
-        "200 g / stk. Pr. kg 34,75",
-        "200 g. Pr. kg 34,75 Fast lav pris"
-      ],
-      "categoryId": "eggs_dairy",
-      "comparisonGroup": "yoghurt",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 3
     },
     {
       "descriptionKey": "v1|milbona kakaomaelk|milk",
@@ -10338,24 +10202,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|pringles chips|chips",
-      "originalName": "Pringles chips",
-      "sampleDescriptions": [
-        "165 g.\nPr. kg 90,91",
-        "165 g. Pr. kg 90,91",
-        "160-165 g. Flere varianter. Pr. kg max. 93,75"
-      ],
-      "categoryId": "snacks",
-      "comparisonGroup": "chips",
-      "stores": [
-        "bilka",
-        "foetex",
-        "lidl",
-        "netto"
-      ],
-      "occurrences": 4
-    },
-    {
       "descriptionKey": "v1|protein lab protein brod|bread",
       "originalName": "Protein lab protein brød",
       "sampleDescriptions": [
@@ -10538,21 +10384,6 @@
         "rema"
       ],
       "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|rema 1000 dansk kylling|chicken_other",
-      "originalName": "REMA 1000 Dansk kylling",
-      "sampleDescriptions": [
-        "Bedre Dyrevelfærd\n230-600 g\nMax. 126.09 pr. kg",
-        "600-800 g\nPartivare. Max. 81.67 pr. kg",
-        "325-825 g\nMax. 89.23 pr. kg"
-      ],
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_other",
-      "stores": [
-        "rema"
-      ],
-      "occurrences": 3
     },
     {
       "descriptionKey": "v1|rema 1000 dansk laksefilet|salmon",
@@ -12456,21 +12287,6 @@
         "foetex"
       ],
       "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|sondey kammerjunkere|biscuits",
-      "originalName": "SONDEY Kammerjunkere",
-      "sampleDescriptions": [
-        "300 g. Pr. kg 23,16",
-        "300 g. Pr. kg 23,17",
-        "Vores Sondey kammerjunkere er udnævnt som testvinder 2025 af B.T."
-      ],
-      "categoryId": "snacks",
-      "comparisonGroup": "biscuits",
-      "stores": [
-        "lidl"
-      ],
-      "occurrences": 3
     },
     {
       "descriptionKey": "v1|spangsberg bolcher|chocolate",

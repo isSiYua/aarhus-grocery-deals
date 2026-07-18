@@ -13,7 +13,7 @@ test('published data contains no private home-base fields, secrets, or home word
   assert.equal(Object.hasOwn(data.metadata, 'addressLabel'), false);
   assert.equal(Object.hasOwn(atlanta.metadata, 'addressLabel'), false);
   assert.doesNotMatch(JSON.stringify(atlanta), /homeBase|privateAddress|residentAddress/i);
-  assert.doesNotMatch(JSON.stringify({ descriptionCache, descriptionPending }), /sk-[A-Za-z0-9_-]{20,}|OPENAI_API_KEY/i);
+  assert.doesNotMatch(JSON.stringify({ descriptionCache, descriptionPending }), /sk-[A-Za-z0-9_-]{20,}|OPENAI_API_KEY|api[_-]?key/i);
   for (const store of data.stores) {
     assert.doesNotMatch(store.descriptionZh, /住址|住宅|家庭地址/);
     assert.doesNotMatch(store.mapUrl, /\bnear\b/i);

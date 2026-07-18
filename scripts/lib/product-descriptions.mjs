@@ -3,9 +3,8 @@ import fs from 'node:fs/promises';
 import { normalizedText } from './taxonomy.mjs';
 import { explainInChinese } from './explain-zh.mjs';
 
-export const DESCRIPTION_SCHEMA_VERSION = 1;
-export const DESCRIPTION_PROMPT_VERSION = 'zh-product-v1';
-export const DEFAULT_DESCRIPTION_MODEL = 'gpt-5.6-sol';
+export const DESCRIPTION_SCHEMA_VERSION = 2;
+export const DESCRIPTION_SPEC_VERSION = 'zh-product-v2';
 
 export function descriptionKeyFor(raw, classification) {
   const name = normalizedText(raw?.heading || raw?.originalName || '');
@@ -16,8 +15,8 @@ export function descriptionKeyFor(raw, classification) {
 export function emptyDescriptionCache() {
   return {
     schemaVersion: DESCRIPTION_SCHEMA_VERSION,
-    promptVersion: DESCRIPTION_PROMPT_VERSION,
-    defaultModel: DEFAULT_DESCRIPTION_MODEL,
+    descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
+    maintainedBy: 'Codex',
     updatedAt: null,
     entries: {},
   };
@@ -43,9 +42,9 @@ export function resolveProductDescription(raw, classification, cache = emptyDesc
     return {
       descriptionKey,
       zhExplanation: cached.descriptionZh,
-      descriptionSource: 'ai_cache',
-      descriptionModel: cached.model || null,
-      descriptionPromptVersion: cached.promptVersion || cache.promptVersion || null,
+      descriptionSource: 'codex_cache',
+      descriptionAuthor: cached.authoredBy || 'Codex',
+      descriptionVersion: cached.descriptionSpecVersion || cache.descriptionSpecVersion || null,
     };
   }
   return {
@@ -84,7 +83,7 @@ export function collectPendingDescriptions(offers, cache = emptyDescriptionCache
     .sort((a, b) => a.descriptionKey.localeCompare(b.descriptionKey));
   return {
     schemaVersion: DESCRIPTION_SCHEMA_VERSION,
-    promptVersion: DESCRIPTION_PROMPT_VERSION,
+    descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
     generatedAt,
     count: items.length,
     items,
@@ -97,17 +96,23 @@ export function applyDescriptionCacheToOffers(offers, cache) {
     const descriptionKey = offer.descriptionKey || descriptionKeyFor(offer, offer);
     const cached = cache.entries?.[descriptionKey];
     if (!cached?.descriptionZh) {
-      const { descriptionModel: _model, descriptionPromptVersion: _prompt, ...rest } = offer;
+      const {
+        descriptionModel: _model,
+        descriptionPromptVersion: _prompt,
+        descriptionAuthor: _author,
+        descriptionVersion: _version,
+        ...rest
+      } = offer;
       return { ...rest, descriptionKey, descriptionSource: 'rules_fallback' };
     }
-    if (offer.zhExplanation !== cached.descriptionZh || offer.descriptionSource !== 'ai_cache') applied += 1;
+    if (offer.zhExplanation !== cached.descriptionZh || offer.descriptionSource !== 'codex_cache') applied += 1;
     return {
       ...offer,
       descriptionKey,
       zhExplanation: cached.descriptionZh,
-      descriptionSource: 'ai_cache',
-      descriptionModel: cached.model || null,
-      descriptionPromptVersion: cached.promptVersion || cache.promptVersion || null,
+      descriptionSource: 'codex_cache',
+      descriptionAuthor: cached.authoredBy || 'Codex',
+      descriptionVersion: cached.descriptionSpecVersion || cache.descriptionSpecVersion || null,
     };
   });
   return { offers: nextOffers, applied };

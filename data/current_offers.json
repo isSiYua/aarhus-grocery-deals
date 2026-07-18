@@ -4579,7 +4579,7 @@
       "storeId": "365",
       "originalName": "Malaco, Skippers mini eller Polly.",
       "originalDescription": "Flere varianter. 192-340 g. Kg-pris maks. 156,25. Frit valg. Medlemspris",
-      "zhExplanation": "巧克力、糖果或甜味棒，开袋即食；注意主要口味和单包/多包规格。",
+      "zhExplanation": "这是 Malaco、Skippers Mini 或 Polly 多种糖果零食的任选促销，并非一种相同商品。不同选项可能是甘草糖、巧克力糖或其他软糖，味道和包装重量差异较大，购买前应按原名和包装图片确认。",
       "categoryId": "snacks",
       "comparisonGroup": "chocolate",
       "price": 30,
@@ -4613,7 +4613,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|malaco skippers mini eller polly|chocolate",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "365|coop spareribs pulled pork eller pulled chicken|350|g|qW3UIcA5tGt2OfFAziDR5",
@@ -4798,7 +4800,7 @@
       "storeId": "365",
       "originalName": "Malaco, Skippers mini eller Polly",
       "originalDescription": "MÅNEDENS Medlems KØB JULI coop MEDLEM Flere varianter. 192-340 g. Kg-pris maks. 156,25. Frit valg. 1 pose.",
-      "zhExplanation": "巧克力、糖果或甜味棒，开袋即食；注意主要口味和单包/多包规格。",
+      "zhExplanation": "这是 Malaco、Skippers Mini 或 Polly 多种糖果零食的任选促销，并非一种相同商品。不同选项可能是甘草糖、巧克力糖或其他软糖，味道和包装重量差异较大，购买前应按原名和包装图片确认。",
       "categoryId": "snacks",
       "comparisonGroup": "chocolate",
       "price": 35,
@@ -4832,7 +4834,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|malaco skippers mini eller polly|chocolate",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "365|coop hakket oksekod 14 18|400|g|qcLgSSrpmRKsVm6L3NKig",
@@ -7788,7 +7792,7 @@
       "storeId": "netto",
       "originalName": "Liba fladbrød",
       "originalDescription": "340 g. pr. kg 29,26",
-      "zhExplanation": "面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
+      "zhExplanation": "Liba 扁面包，是柔软的中东式薄饼，可直接卷烤肉和蔬菜，也可加热后蘸鹰嘴豆泥。用途接近中国的薄饼或卷饼皮，但通常更松软、带面包口感。",
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
       "price": 9.95,
@@ -7822,7 +7826,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|liba fladbrod|bread",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "netto|dolmio eller ben s sauce|390|g|_OSaCqLzoA-sRnsTxJdZw",
@@ -8492,7 +8498,7 @@
       "storeId": "netto",
       "originalName": "Pringles chips",
       "originalDescription": "165 g.\nPr. kg 90,91",
-      "zhExplanation": "咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
+      "zhExplanation": "Pringles 罐装复合薯片，通常有多种口味任选。开罐即食，口感比普通切片薯片更均匀、偏脆；不同商店的罐装克数可能不同，应按每公斤价格比较。",
       "categoryId": "snacks",
       "comparisonGroup": "chips",
       "price": 15,
@@ -8526,7 +8532,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|pringles chips|chips",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "netto|lotus bishoff cookies|125|g|1fMbln9Ch28unzOxTy6L1",
@@ -10030,7 +10038,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "14-18 % fedt. 800 g / pk.",
-      "zhExplanation": "牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
+      "zhExplanation": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
       "categoryId": "beef",
       "comparisonGroup": "beef_minced",
       "price": 72.95,
@@ -10064,7 +10072,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|madvaerket skyr naturel eller vanilje|1000|g|PbgZVVFsPwrhyrZDqhfhN",
@@ -11040,8 +11050,8 @@
       "originalName": "MADVÆRKET Økologisk koldskål",
       "originalDescription": "1 kg. Pr. kg 16,95 Fast lav pris",
       "descriptionKey": "v1|madvaerket okologisk koldskaal|yoghurt",
-      "zhExplanation": "酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
-      "descriptionSource": "rules_fallback",
+      "zhExplanation": "MADVÆRKET 有机 koldskål，是丹麦夏季冷食的酸甜乳制甜汤，常带柠檬和香草味。冷藏后直接倒入碗中，通常搭配 kammerjunkere 小脆饼；口感介于稀酸奶和甜味酪乳饮品之间。",
+      "descriptionSource": "codex_cache",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
       "price": 16.95,
@@ -11072,7 +11082,9 @@
       "discoveredAt": "2026-07-18T11:48:55.799Z",
       "lastSeenAt": "2026-07-18T11:48:55.799Z",
       "status": "active",
-      "changeType": "new"
+      "changeType": "new",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|tulip bacon i skiver eller tern|300|g|wLA5tU_m4gULaFRZMSgvA",
@@ -11257,7 +11269,7 @@
       "storeId": "lidl",
       "originalName": "MILBONA Hytteost",
       "originalDescription": "300 g / stk. Pr. kg 33,17",
-      "zhExplanation": "酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
+      "zhExplanation": "MILBONA Hytteost 是 cottage cheese，即带细小凝乳颗粒的新鲜奶酪，不是普通酸奶。味道清淡，可配水果或面包作早餐，也可拌沙拉、夹三明治；接近中国所说的茅屋奶酪。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
       "price": 9.95,
@@ -11291,7 +11303,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|milbona hytteost|yoghurt",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|langelaender polser|1220|g|ugdiu0OJ2hxQ7pmDxQtGO",
@@ -11784,7 +11798,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "4-7 % fedt. 400 g / pk. Pr. kg 112,38.",
-      "zhExplanation": "牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
+      "zhExplanation": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
       "categoryId": "beef",
       "comparisonGroup": "beef_minced",
       "price": 44.95,
@@ -11818,7 +11832,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|lange laender brunchpolser|300|g|LyzCi936ScxnhYwkYWN5l",
@@ -12048,7 +12064,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "8-12 % fedt. 800 g / pk.",
-      "zhExplanation": "牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
+      "zhExplanation": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
       "categoryId": "beef",
       "comparisonGroup": "beef_minced",
       "price": 76.95,
@@ -12082,7 +12098,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|barebells bar|55|g|Kvzm769IgRbH7lgSuvpln",
@@ -12486,7 +12504,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "14-18 % fedt.\n350 g. Pr. kg 91,43\nMaks. 3 pk. pr. kunde pr. dag.\nPr. kg 82,86\nMed Lidl Plus³",
-      "zhExplanation": "牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
+      "zhExplanation": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
       "categoryId": "beef",
       "comparisonGroup": "beef_minced",
       "price": 32,
@@ -12520,7 +12538,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|chef select kartoffelsalat|1000|g|osZTlpJ_Zvmg8N5pyPmNN",
@@ -12661,7 +12681,7 @@
       "storeId": "lidl",
       "originalName": "FLORALYS Toiletpapir",
       "originalDescription": "4-lags. 10 ruller / pk. 1417 g / pk. Pr. kg 27,88",
-      "zhExplanation": "卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "zhExplanation": "Floralys 卫生纸，有三层和四层等包装，卷数与纸张总量会随促销批次变化。属于家庭纸品，购买时应同时比较每卷价格、层数和总长度，不是按重量判断质量。",
       "categoryId": "household",
       "comparisonGroup": "paper",
       "price": 39.5,
@@ -12695,7 +12715,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|floralys toiletpapir|paper",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|formodnet avocado|1|pcs|PhJmq6NMckm-6h32UIiBG",
@@ -12793,7 +12815,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "14-18 % fedt. 400 g / pk.",
-      "zhExplanation": "牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
+      "zhExplanation": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
       "categoryId": "beef",
       "comparisonGroup": "beef_minced",
       "price": 37.95,
@@ -12827,7 +12849,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|hellmann s mayonnaise|250|g|JGuOKHC09EVCXBIXF54RH",
@@ -13714,7 +13738,7 @@
       "storeId": "lidl",
       "originalName": "SONDEY Kammerjunkere",
       "originalDescription": "300 g. Pr. kg 23,16",
-      "zhExplanation": "饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
+      "zhExplanation": "Sondey Kammerjunkere 是丹麦小型双烤脆饼，最常掰碎后放进冷藏 koldskål 中一起吃。口感像较硬、较干的小甜饼，也可当零食，但它主要不是用来夹馅或蘸菜的普通饼干。",
       "categoryId": "snacks",
       "comparisonGroup": "biscuits",
       "price": 6.95,
@@ -13748,7 +13772,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|sondey kammerjunkere|biscuits",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|harvest basket bolgeskaarne pommes frites|1|kg|QO1zlaHxp_rlktUfuAfSC",
@@ -14109,7 +14135,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Kyllingebrystfilet",
       "originalDescription": "450 g / pk. Pr. kg. 77,67.",
-      "zhExplanation": "鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "MADVÆRKET 去骨鸡胸肉，部分包装会注明不注水。可切片快炒、煎烤、做咖喱或空气炸，和中国超市常见鸡胸肉相同；肉质较瘦，烹调过久容易变柴。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "price": 34.95,
@@ -14143,7 +14169,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket kyllingebrystfilet|chicken_breast",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|valsemollen gourmetsolsikkerugbrod eller koldhaevede brunchboller|900|g|prjw3RiD2PxMxI7vn0W1S",
@@ -14813,7 +14841,7 @@
       "storeId": "lidl",
       "originalName": "FLORALYS Toiletpapir",
       "originalDescription": "3-lags. 6 ruller / pk. 620 g / pk. Pr. kg 20,89.",
-      "zhExplanation": "卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "zhExplanation": "Floralys 卫生纸，有三层和四层等包装，卷数与纸张总量会随促销批次变化。属于家庭纸品，购买时应同时比较每卷价格、层数和总长度，不是按重量判断质量。",
       "categoryId": "household",
       "comparisonGroup": "paper",
       "price": 12.95,
@@ -14847,7 +14875,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|floralys toiletpapir|paper",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|vemondo veganske polser|200|g|slKcOj3IlAMJsm1SRCMpL",
@@ -15866,7 +15896,7 @@
       "storeId": "lidl",
       "originalName": "MILBONA Hytteost",
       "originalDescription": "200 g / stk. Pr. kg 34,75",
-      "zhExplanation": "酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
+      "zhExplanation": "MILBONA Hytteost 是 cottage cheese，即带细小凝乳颗粒的新鲜奶酪，不是普通酸奶。味道清淡，可配水果或面包作早餐，也可拌沙拉、夹三明治；接近中国所说的茅屋奶酪。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
       "price": 6.95,
@@ -15900,7 +15930,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|milbona hytteost|yoghurt",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|lays chips|185|g|O6AAizPMWXx58s7S4fxo9",
@@ -16524,7 +16556,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "8-12 % fedt. 400 g / pk. Pr. kg 99,88",
-      "zhExplanation": "牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
+      "zhExplanation": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
       "categoryId": "beef",
       "comparisonGroup": "beef_minced",
       "price": 39.95,
@@ -16558,7 +16590,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket hakket oksekod|beef_minced",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|nostja filodej|400|g|HS-n4M1DmVydJK_DTfucn",
@@ -16787,8 +16821,8 @@
       "originalName": "LIBA Fladbrød",
       "originalDescription": "340 g. Pr. kg 29,26 Fast lav pris",
       "descriptionKey": "v1|liba fladbrod|bread",
-      "zhExplanation": "面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
-      "descriptionSource": "rules_fallback",
+      "zhExplanation": "Liba 扁面包，是柔软的中东式薄饼，可直接卷烤肉和蔬菜，也可加热后蘸鹰嘴豆泥。用途接近中国的薄饼或卷饼皮，但通常更松软、带面包口感。",
+      "descriptionSource": "codex_cache",
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
       "price": 9.95,
@@ -16819,7 +16853,9 @@
       "discoveredAt": "2026-07-18T11:48:55.799Z",
       "lastSeenAt": "2026-07-18T11:48:55.799Z",
       "status": "active",
-      "changeType": "new"
+      "changeType": "new",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|lavazza iskaffe|250|ml|rKqCtBBvPRaAl_E2HKfpd",
@@ -16960,7 +16996,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET. Kyllingebrystfilet",
       "originalDescription": "Uden vand. 280 g / pk. Pr. kg",
-      "zhExplanation": "鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "MADVÆRKET 去骨鸡胸肉，部分包装会注明不注水。可切片快炒、煎烤、做咖喱或空气炸，和中国超市常见鸡胸肉相同；肉质较瘦，烹调过久容易变柴。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "price": 27.95,
@@ -16994,7 +17030,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket kyllingebrystfilet|chicken_breast",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|floralys kokkenrulle|1|pcs|o9DjL5sFGxYQmeOMffhDk",
@@ -17619,7 +17657,7 @@
       "storeId": "lidl",
       "originalName": "LUPILU Premium bleer",
       "originalDescription": "Gælder fra 8.5. Fast lav pris. Str. 1. 24 stk. / pk. Pr. stk. 0,71.",
-      "zhExplanation": "婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
+      "zhExplanation": "Lupilu Premium 婴儿纸尿裤，促销中可能出现不同尺码与片数。应按孩子体重选择包装标注的尺码，并比较每片价格；它不是拉拉裤，除非包装明确写有 buksebleer。",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "price": 16.95,
@@ -17653,7 +17691,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|lupilu premium bleer|diapers",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|gelatelli cookie is|95|ml|iKw5qvSLqGXwUIdsxU-TY",
@@ -17970,7 +18010,7 @@
       "storeId": "lidl",
       "originalName": "FLORALYS Toiletpapir",
       "originalDescription": "3-lags. 18 ruller. 2370 g / pk. Pr. kg 14,75",
-      "zhExplanation": "卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "zhExplanation": "Floralys 卫生纸，有三层和四层等包装，卷数与纸张总量会随促销批次变化。属于家庭纸品，购买时应同时比较每卷价格、层数和总长度，不是按重量判断质量。",
       "categoryId": "household",
       "comparisonGroup": "paper",
       "price": 34.95,
@@ -18004,7 +18044,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|floralys toiletpapir|paper",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|madvaerket grillpolser|280|g|9qiWEJucCJtlz8kH0v6OM",
@@ -18981,7 +19023,7 @@
       "storeId": "lidl",
       "originalName": "PRINGLES Chips",
       "originalDescription": "165 g. Pr. kg 90,91",
-      "zhExplanation": "咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
+      "zhExplanation": "Pringles 罐装复合薯片，通常有多种口味任选。开罐即食，口感比普通切片薯片更均匀、偏脆；不同商店的罐装克数可能不同，应按每公斤价格比较。",
       "categoryId": "snacks",
       "comparisonGroup": "chips",
       "price": 15,
@@ -19015,7 +19057,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|pringles chips|chips",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|j d gross chokolade|125|g|4-NIUhNKna61itCHwEDO1",
@@ -19553,7 +19597,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Økologisk koldskål",
       "originalDescription": "1 kg. Pr. kg",
-      "zhExplanation": "酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
+      "zhExplanation": "MADVÆRKET 有机 koldskål，是丹麦夏季冷食的酸甜乳制甜汤，常带柠檬和香草味。冷藏后直接倒入碗中，通常搭配 kammerjunkere 小脆饼；口感介于稀酸奶和甜味酪乳饮品之间。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
       "price": 16.95,
@@ -19587,7 +19631,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket okologisk koldskaal|yoghurt",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|alesto cashewnodder|150|g|IUqqk-tiY7RUcVswHaZ4Y",
@@ -21965,7 +22011,7 @@
       "storeId": "lidl",
       "originalName": "FLORALYS Toiletpapir",
       "originalDescription": "2-lags. 8 ruller / pk. 734 g / pk. Pr. kg 24,45.",
-      "zhExplanation": "卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "zhExplanation": "Floralys 卫生纸，有三层和四层等包装，卷数与纸张总量会随促销批次变化。属于家庭纸品，购买时应同时比较每卷价格、层数和总长度，不是按重量判断质量。",
       "categoryId": "household",
       "comparisonGroup": "paper",
       "price": 17.95,
@@ -21999,7 +22045,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|floralys toiletpapir|paper",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|mentos|37.5|g|W6lf4fBtmsKiCGJ-MuFDq",
@@ -23547,7 +23595,7 @@
       "storeId": "lidl",
       "originalName": "LIBA Fladbrød",
       "originalDescription": "340 g / pk. Pr. kg 29,26.",
-      "zhExplanation": "面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
+      "zhExplanation": "Liba 扁面包，是柔软的中东式薄饼，可直接卷烤肉和蔬菜，也可加热后蘸鹰嘴豆泥。用途接近中国的薄饼或卷饼皮，但通常更松软、带面包口感。",
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
       "price": 9.95,
@@ -23581,7 +23629,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|liba fladbrod|bread",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|madvaerket kyllingebrystfilet|650|g|li9yo-c66UntWDFkqzruQ",
@@ -23591,7 +23641,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET. Kyllingebrystfilet",
       "originalDescription": "Uden vand. 650 g / pk. Pr. kg 83,00.",
-      "zhExplanation": "鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "MADVÆRKET 去骨鸡胸肉，部分包装会注明不注水。可切片快炒、煎烤、做咖喱或空气炸，和中国超市常见鸡胸肉相同；肉质较瘦，烹调过久容易变柴。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "price": 53.95,
@@ -23625,7 +23675,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket kyllingebrystfilet|chicken_breast",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|vita d or margarine|500|g|ab_9z9hV1zZy_sGKy9-ex",
@@ -23722,7 +23774,7 @@
       "storeId": "lidl",
       "originalName": "LUPILU Premium bleer",
       "originalDescription": "Str. 1. 24 stk. Pr. stk. 0,71 Fast lav pris",
-      "zhExplanation": "婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
+      "zhExplanation": "Lupilu Premium 婴儿纸尿裤，促销中可能出现不同尺码与片数。应按孩子体重选择包装标注的尺码，并比较每片价格；它不是拉拉裤，除非包装明确写有 buksebleer。",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "price": 16.95,
@@ -23756,7 +23808,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|lupilu premium bleer|diapers",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|harvest baket kartoffelkroketter|600|g|UAkvTkCYLS2eQ18_mtipW",
@@ -24815,7 +24869,7 @@
       "storeId": "lidl",
       "originalName": "SONDEY Kammerjunkere",
       "originalDescription": "300 g. Pr. kg 23,17",
-      "zhExplanation": "饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
+      "zhExplanation": "Sondey Kammerjunkere 是丹麦小型双烤脆饼，最常掰碎后放进冷藏 koldskål 中一起吃。口感像较硬、较干的小甜饼，也可当零食，但它主要不是用来夹馅或蘸菜的普通饼干。",
       "categoryId": "snacks",
       "comparisonGroup": "biscuits",
       "price": 6.95,
@@ -24849,7 +24903,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|sondey kammerjunkere|biscuits",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|nektariner|500|g|0Kk1-cdBYDVIn-1xykrB5",
@@ -25123,7 +25179,7 @@
       "storeId": "lidl",
       "originalName": "LUPILU Premium bleer",
       "originalDescription": "Fast lav pris. Str. 2. 42 stk. / pk. Pr. stk. 0,71.",
-      "zhExplanation": "婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
+      "zhExplanation": "Lupilu Premium 婴儿纸尿裤，促销中可能出现不同尺码与片数。应按孩子体重选择包装标注的尺码，并比较每片价格；它不是拉拉裤，除非包装明确写有 buksebleer。",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "price": 29.95,
@@ -25157,7 +25213,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|lupilu premium bleer|diapers",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|madvaerket danbo|510|g|SRw0WD6cEM2R-fElgxlyM",
@@ -25167,7 +25225,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Danbo",
       "originalDescription": "Lagret 45+. 510-624 g / stk. Pr. kg maks. 97,94.",
-      "zhExplanation": "奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "zhExplanation": "MADVÆRKET Danbo 是丹麦半硬质奶酪，促销包含不同熟成程度；熟成越久，味道通常越浓、质地越紧实。可切片夹黑麦面包、做三明治或焗烤，接近中国超市常见切片奶酪但风味更明显。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "cheese",
       "price": 49.95,
@@ -25201,7 +25259,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket danbo|cheese",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|dulano hamburgerryg|150|g|oZHn1UhQFICEYg_hbKazK",
@@ -25826,8 +25886,8 @@
       "originalName": "MADVÆRKET Kyllingebrystfilet",
       "originalDescription": "Uden vand. 280 g. Pr. kg 99,82 Fast lav pris",
       "descriptionKey": "v1|madvaerket kyllingebrystfilet|chicken_breast",
-      "zhExplanation": "鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
-      "descriptionSource": "rules_fallback",
+      "zhExplanation": "MADVÆRKET 去骨鸡胸肉，部分包装会注明不注水。可切片快炒、煎烤、做咖喱或空气炸，和中国超市常见鸡胸肉相同；肉质较瘦，烹调过久容易变柴。",
+      "descriptionSource": "codex_cache",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "price": 27.95,
@@ -25858,7 +25918,9 @@
       "discoveredAt": "2026-07-18T11:48:55.799Z",
       "lastSeenAt": "2026-07-18T11:48:55.799Z",
       "status": "active",
-      "changeType": "new"
+      "changeType": "new",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|ave krainer polser|240|g|9D00aZg6kKz0j6IlSjfSX",
@@ -26131,7 +26193,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Økologisk koldskål",
       "originalDescription": "Citron & vanilje",
-      "zhExplanation": "酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
+      "zhExplanation": "MADVÆRKET 有机 koldskål，是丹麦夏季冷食的酸甜乳制甜汤，常带柠檬和香草味。冷藏后直接倒入碗中，通常搭配 kammerjunkere 小脆饼；口感介于稀酸奶和甜味酪乳饮品之间。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
       "price": 16.95,
@@ -26165,7 +26227,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket okologisk koldskaal|yoghurt",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|kalkununderlaar|900|g|PoZnSfQPeSseG_9RNQm74",
@@ -26307,7 +26371,7 @@
       "storeId": "lidl",
       "originalName": "MILBONA Hytteost",
       "originalDescription": "200 g. Pr. kg 34,75 Fast lav pris",
-      "zhExplanation": "酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
+      "zhExplanation": "MILBONA Hytteost 是 cottage cheese，即带细小凝乳颗粒的新鲜奶酪，不是普通酸奶。味道清淡，可配水果或面包作早餐，也可拌沙拉、夹三明治；接近中国所说的茅屋奶酪。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
       "price": 6.95,
@@ -26341,7 +26405,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|milbona hytteost|yoghurt",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|kakaomaelk|1|l|TQMuSj-hmVKdxFhnXQKH-",
@@ -27054,7 +27120,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Danbo",
       "originalDescription": "Ekstralagret 45+. 495-605 g / stk. Pr. kg maks. 111,01.",
-      "zhExplanation": "奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "zhExplanation": "MADVÆRKET Danbo 是丹麦半硬质奶酪，促销包含不同熟成程度；熟成越久，味道通常越浓、质地越紧实。可切片夹黑麦面包、做三明治或焗烤，接近中国超市常见切片奶酪但风味更明显。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "cheese",
       "price": 54.95,
@@ -27088,7 +27154,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket danbo|cheese",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|madvaerket danbo|486|g|fBSjlL6p2gR1sulraQZWF",
@@ -27098,7 +27166,7 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Danbo",
       "originalDescription": "Ekstra ekstralagret 45+. 486-594 g / stk. Pr. kg maks. 123,35.",
-      "zhExplanation": "奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "zhExplanation": "MADVÆRKET Danbo 是丹麦半硬质奶酪，促销包含不同熟成程度；熟成越久，味道通常越浓、质地越紧实。可切片夹黑麦面包、做三明治或焗烤，接近中国超市常见切片奶酪但风味更明显。",
       "categoryId": "eggs_dairy",
       "comparisonGroup": "cheese",
       "price": 59.95,
@@ -27132,7 +27200,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|madvaerket danbo|cheese",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|sol mar piri piri sauce|195|ml|tNOxnSvoRNF1jHdDAFqeO",
@@ -27537,7 +27607,7 @@
       "storeId": "lidl",
       "originalName": "SONDEY Kammerjunkere",
       "originalDescription": "Vores Sondey kammerjunkere er udnævnt som testvinder 2025 af B.T.",
-      "zhExplanation": "饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
+      "zhExplanation": "Sondey Kammerjunkere 是丹麦小型双烤脆饼，最常掰碎后放进冷藏 koldskål 中一起吃。口感像较硬、较干的小甜饼，也可当零食，但它主要不是用来夹馅或蘸菜的普通饼干。",
       "categoryId": "snacks",
       "comparisonGroup": "biscuits",
       "price": 6.95,
@@ -27571,7 +27641,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|sondey kammerjunkere|biscuits",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|kanelsnegl med glasur|76|g|iN2zLnB8trvqtnIKBBkKl",
@@ -28062,7 +28134,7 @@
       "storeId": "lidl",
       "originalName": "LUPILU Premium bleer",
       "originalDescription": "Str. 2. 42 stk. Pr. stk. 0,71 Fast lav pris",
-      "zhExplanation": "婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
+      "zhExplanation": "Lupilu Premium 婴儿纸尿裤，促销中可能出现不同尺码与片数。应按孩子体重选择包装标注的尺码，并比较每片价格；它不是拉拉裤，除非包装明确写有 buksebleer。",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "price": 29.95,
@@ -28096,7 +28168,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|lupilu premium bleer|diapers",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "lidl|silvercrest paalaegsbokse|1|pcs|a8lxJdCYIKbVtfdBS-g_9",
@@ -28766,7 +28840,7 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Dansk kylling",
       "originalDescription": "Bedre Dyrevelfærd\n230-600 g\nMax. 126.09 pr. kg",
-      "zhExplanation": "鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。",
+      "zhExplanation": "这是 REMA 1000 的丹麦鸡肉促销总称，具体可能是鸡胸、鸡腿、整鸡或其他部位，包装重量也会变化。应先看商品原文和图片确认部位，再选择炒、炖或烤的做法；不同部位不能仅按公斤价直接比较。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_other",
       "price": 29,
@@ -28800,7 +28874,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|rema 1000 dansk kylling|chicken_other",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "rema|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|0.5|kg|zcDfXxOfBjH0b8NaZIfF_",
@@ -31403,7 +31479,7 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Dansk kylling",
       "originalDescription": "600-800 g\nPartivare. Max. 81.67 pr. kg",
-      "zhExplanation": "鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。",
+      "zhExplanation": "这是 REMA 1000 的丹麦鸡肉促销总称，具体可能是鸡胸、鸡腿、整鸡或其他部位，包装重量也会变化。应先看商品原文和图片确认部位，再选择炒、炖或烤的做法；不同部位不能仅按公斤价直接比较。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_other",
       "price": 49,
@@ -31437,7 +31513,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|rema 1000 dansk kylling|chicken_other",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "rema|tulip frankfurtere|320|g|SsePZIeccho3e6j_F5iEC",
@@ -31755,7 +31833,7 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Dansk kylling",
       "originalDescription": "325-825 g\nMax. 89.23 pr. kg",
-      "zhExplanation": "鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。",
+      "zhExplanation": "这是 REMA 1000 的丹麦鸡肉促销总称，具体可能是鸡胸、鸡腿、整鸡或其他部位，包装重量也会变化。应先看商品原文和图片确认部位，再选择炒、炖或烤的做法；不同部位不能仅按公斤价直接比较。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_other",
       "price": 29,
@@ -31789,7 +31867,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|rema 1000 dansk kylling|chicken_other",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "rema|rema 1000 supreme striploin eller ribeye roast|900|g|ONplGMvceKDP0icpmnRid",
@@ -38750,7 +38830,7 @@
       "storeId": "foetex",
       "originalName": "Pringles chips",
       "originalDescription": "160-165 g. Flere varianter. Pr. kg max. 93,75",
-      "zhExplanation": "咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
+      "zhExplanation": "Pringles 罐装复合薯片，通常有多种口味任选。开罐即食，口感比普通切片薯片更均匀、偏脆；不同商店的罐装克数可能不同，应按每公斤价格比较。",
       "categoryId": "snacks",
       "comparisonGroup": "chips",
       "price": 15,
@@ -38784,7 +38864,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|pringles chips|chips",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "foetex|colgate eller zendium mundpleje|1|pcs|zQWCYDRZ-PpRQb-pICRk-",
@@ -47902,7 +47984,7 @@
       "storeId": "bilka",
       "originalName": "Pringles chips",
       "originalDescription": "160-165 g. Flere varianter. Pr. kg max. 93.75 FRIT VALG",
-      "zhExplanation": "咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
+      "zhExplanation": "Pringles 罐装复合薯片，通常有多种口味任选。开罐即食，口感比普通切片薯片更均匀、偏脆；不同商店的罐装克数可能不同，应按每公斤价格比较。",
       "categoryId": "snacks",
       "comparisonGroup": "chips",
       "price": 15,
@@ -47936,7 +48018,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|pringles chips|chips",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "bilka|okologisk vaniljesukker|110|g|9mA-G3ROBD8AQcC1kIKPk",
@@ -50885,7 +50969,7 @@
       "storeId": "kvickly",
       "originalName": "Malaco, Skippers mini eller Polly.",
       "originalDescription": "Flere varianter. 192-340 g. Kg-pris maks. 156,25. Frit valg. Medlemspris",
-      "zhExplanation": "巧克力、糖果或甜味棒，开袋即食；注意主要口味和单包/多包规格。",
+      "zhExplanation": "这是 Malaco、Skippers Mini 或 Polly 多种糖果零食的任选促销，并非一种相同商品。不同选项可能是甘草糖、巧克力糖或其他软糖，味道和包装重量差异较大，购买前应按原名和包装图片确认。",
       "categoryId": "snacks",
       "comparisonGroup": "chocolate",
       "price": 30,
@@ -50919,7 +51003,9 @@
       "changeType": null,
       "priceDropAmount": null,
       "descriptionKey": "v1|malaco skippers mini eller polly|chocolate",
-      "descriptionSource": "rules_fallback"
+      "descriptionSource": "codex_cache",
+      "descriptionAuthor": "Codex",
+      "descriptionVersion": "zh-product-v2"
     },
     {
       "id": "kvickly|coop hele spegepolser|300|g|S6lY3hKCOss4zE1yh9eey",

@@ -1,7 +1,104 @@
 {
-  "schemaVersion": 1,
-  "promptVersion": "zh-product-v1",
-  "defaultModel": "gpt-5.6-sol",
-  "updatedAt": null,
-  "entries": {}
+  "schemaVersion": 2,
+  "descriptionSpecVersion": "zh-product-v2",
+  "maintainedBy": "Codex",
+  "updatedAt": "2026-07-18T12:01:48Z",
+  "entries": {
+    "v1|floralys toiletpapir|paper": {
+      "descriptionZh": "Floralys 卫生纸，有三层和四层等包装，卷数与纸张总量会随促销批次变化。属于家庭纸品，购买时应同时比较每卷价格、层数和总长度，不是按重量判断质量。",
+      "originalName": "FLORALYS Toiletpapir",
+      "categoryId": "household",
+      "comparisonGroup": "paper",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|liba fladbrod|bread": {
+      "descriptionZh": "Liba 扁面包，是柔软的中东式薄饼，可直接卷烤肉和蔬菜，也可加热后蘸鹰嘴豆泥。用途接近中国的薄饼或卷饼皮，但通常更松软、带面包口感。",
+      "originalName": "Liba fladbrød",
+      "categoryId": "bread_grains",
+      "comparisonGroup": "bread",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|lupilu premium bleer|diapers": {
+      "descriptionZh": "Lupilu Premium 婴儿纸尿裤，促销中可能出现不同尺码与片数。应按孩子体重选择包装标注的尺码，并比较每片价格；它不是拉拉裤，除非包装明确写有 buksebleer。",
+      "originalName": "LUPILU Premium bleer",
+      "categoryId": "baby",
+      "comparisonGroup": "diapers",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|madvaerket danbo|cheese": {
+      "descriptionZh": "MADVÆRKET Danbo 是丹麦半硬质奶酪，促销包含不同熟成程度；熟成越久，味道通常越浓、质地越紧实。可切片夹黑麦面包、做三明治或焗烤，接近中国超市常见切片奶酪但风味更明显。",
+      "originalName": "MADVÆRKET Danbo",
+      "categoryId": "eggs_dairy",
+      "comparisonGroup": "cheese",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|madvaerket hakket oksekod|beef_minced": {
+      "descriptionZh": "MADVÆRKET 牛肉末，促销批次可能是 4–7%、8–12% 或 14–18% 脂肪。适合做牛肉丸、汉堡肉、番茄肉酱或中式肉末菜；低脂款更瘦，高脂款通常更多汁，不能只按总价比较。",
+      "originalName": "MADVÆRKET Hakket oksekød",
+      "categoryId": "beef",
+      "comparisonGroup": "beef_minced",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|madvaerket kyllingebrystfilet|chicken_breast": {
+      "descriptionZh": "MADVÆRKET 去骨鸡胸肉，部分包装会注明不注水。可切片快炒、煎烤、做咖喱或空气炸，和中国超市常见鸡胸肉相同；肉质较瘦，烹调过久容易变柴。",
+      "originalName": "MADVÆRKET Kyllingebrystfilet",
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breast",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|madvaerket okologisk koldskaal|yoghurt": {
+      "descriptionZh": "MADVÆRKET 有机 koldskål，是丹麦夏季冷食的酸甜乳制甜汤，常带柠檬和香草味。冷藏后直接倒入碗中，通常搭配 kammerjunkere 小脆饼；口感介于稀酸奶和甜味酪乳饮品之间。",
+      "originalName": "MADVÆRKET Økologisk koldskål",
+      "categoryId": "eggs_dairy",
+      "comparisonGroup": "yoghurt",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|malaco skippers mini eller polly|chocolate": {
+      "descriptionZh": "这是 Malaco、Skippers Mini 或 Polly 多种糖果零食的任选促销，并非一种相同商品。不同选项可能是甘草糖、巧克力糖或其他软糖，味道和包装重量差异较大，购买前应按原名和包装图片确认。",
+      "originalName": "Malaco, Skippers mini eller Polly.",
+      "categoryId": "snacks",
+      "comparisonGroup": "chocolate",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|milbona hytteost|yoghurt": {
+      "descriptionZh": "MILBONA Hytteost 是 cottage cheese，即带细小凝乳颗粒的新鲜奶酪，不是普通酸奶。味道清淡，可配水果或面包作早餐，也可拌沙拉、夹三明治；接近中国所说的茅屋奶酪。",
+      "originalName": "MILBONA Hytteost",
+      "categoryId": "eggs_dairy",
+      "comparisonGroup": "yoghurt",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|pringles chips|chips": {
+      "descriptionZh": "Pringles 罐装复合薯片，通常有多种口味任选。开罐即食，口感比普通切片薯片更均匀、偏脆；不同商店的罐装克数可能不同，应按每公斤价格比较。",
+      "originalName": "Pringles chips",
+      "categoryId": "snacks",
+      "comparisonGroup": "chips",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|rema 1000 dansk kylling|chicken_other": {
+      "descriptionZh": "这是 REMA 1000 的丹麦鸡肉促销总称，具体可能是鸡胸、鸡腿、整鸡或其他部位，包装重量也会变化。应先看商品原文和图片确认部位，再选择炒、炖或烤的做法；不同部位不能仅按公斤价直接比较。",
+      "originalName": "REMA 1000 Dansk kylling",
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    },
+    "v1|sondey kammerjunkere|biscuits": {
+      "descriptionZh": "Sondey Kammerjunkere 是丹麦小型双烤脆饼，最常掰碎后放进冷藏 koldskål 中一起吃。口感像较硬、较干的小甜饼，也可当零食，但它主要不是用来夹馅或蘸菜的普通饼干。",
+      "originalName": "SONDEY Kammerjunkere",
+      "categoryId": "snacks",
+      "comparisonGroup": "biscuits",
+      "authoredBy": "Codex",
+      "descriptionSpecVersion": "zh-product-v2"
+    }
+  }
 }
