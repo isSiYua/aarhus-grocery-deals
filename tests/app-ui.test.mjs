@@ -73,6 +73,8 @@ test('mobile category browsing supports a continuous vertical stream and aligned
   assert.match(appSource, /state\.readerTransitioning/);
   assert.match(appSource, /reader-exit-left/);
   assert.match(appSource, /reader-enter-right/);
+  assert.match(appSource, /\}, 160\);/);
+  assert.match(appSource, /\}, 100\);/);
   assert.match(appSource, /function attachReaderSwipe/);
   assert.doesNotMatch(appSource, /左右滑动切换整个大类/);
   assert.doesNotMatch(appSource, /reader-instructions/);
@@ -85,7 +87,9 @@ test('mobile category browsing supports a continuous vertical stream and aligned
   assert.match(styleSource, /\.reader-page\.reader-enter-right \{ transform: translateX\(108%\)/);
   assert.match(styleSource, /\.reader-heading \{ min-width: 0; display: flex/);
   assert.match(styleSource, /\.reader-group-menu \{ position: absolute/);
-  assert.match(styleSource, /\.reader-group-option\.active \{ background:/);
+  assert.match(styleSource, /\.reader-group-option\.active \{[^\n]*background:/);
+  assert.match(styleSource, /@keyframes reader-menu-in/);
+  assert.match(styleSource, /transition: transform \.15s/);
   assert.match(styleSource, /\.mobile-reader-head h2 \{ min-width: 0; margin: 0/);
   assert.match(styleSource, /height: calc\(100dvh - var\(--topbar-height/);
 });

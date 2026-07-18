@@ -921,8 +921,8 @@ function turnReaderPage(direction, pageCount) {
       nextPage.classList.remove('reader-enter-right', 'reader-enter-left', 'reader-enter-active');
       stack.classList.remove('reader-turning');
       state.readerTransitioning = false;
-    }, 260);
-  }, 170);
+    }, 160);
+  }, 100);
 }
 
 function scrollReaderToIndex(index, smooth) {
