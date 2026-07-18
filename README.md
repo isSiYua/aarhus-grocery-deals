@@ -8,7 +8,7 @@
 - 隐私安全的地点切换：Aarhus V 与 Atlanta Westside 都可在站内查看商品级促销
 - 每个商品大类一页，类内纵向滚动；支持上一类、下一类和左右滑动
 - 同类商品放在一起，按可比较的单位价格从低到高排列
-- 商品原名在前，完整中文解释默认展开，绝不使用“展开全文”
+- 商品原名在前，完整中文解释默认展开；AI 说明按稳定商品键生成一次后永久复用
 - 独立商店视图：品牌色、附近地址、距离说明、会员要求、地图和促销单链接
 - 饮料只保留有促销的 Coca-Cola Zero 或 Sprite Zero
 - 每天增量更新：未变化保留；变化替换并归档；仅数据源失败时保留旧记录并标注“等待重新确认”
@@ -39,6 +39,22 @@ npm run serve
 
 浏览器打开 `http://localhost:8080`。
 
+## 可复用的 AI 商品说明
+
+`data/product_descriptions_zh.json` 是随仓库版本控制的中文商品知识缓存；键由标准化商品原名和比较组组成，不含商店、价格或包装规格，因此同一商品跨商店、跨日期只生成一次。`data/product_descriptions_pending.json` 只保存尚未生成的公开商品资料。网页本身不会调用 OpenAI，也不会接触 API 密钥；没有密钥时继续使用本地规则说明。
+
+要为队列生成说明，请把 OpenAI API key 放在环境变量中，切勿写入文件：
+
+```bash
+npm run descriptions:queue
+read -s "OPENAI_API_KEY?OpenAI API key: " && export OPENAI_API_KEY && echo
+npm run descriptions:generate -- --limit 100
+unset OPENAI_API_KEY
+npm run validate
+```
+
+GitHub Actions 会读取仓库的 `OPENAI_API_KEY` Actions secret，每天最多处理 100 个未见过的商品；已缓存商品不会再次请求模型。可用 `OPENAI_DESCRIPTION_MODEL` 改写默认模型 `gpt-5.6-sol`。
+
 ## 发布到固定网址
 
 1. 新建一个 GitHub 仓库并上传本目录全部文件。
@@ -50,14 +66,14 @@ npm run serve
 
 ## 数据模型
 
-`data/current_offers.json` 保存当前有效记录和页面配置；`data/history.json` 保存被替换或过期的历史记录。商品身份使用“商店 + 标准化原名 + 规格”生成，避免每天重复创建同一商品。
+`data/current_offers.json` 保存当前有效记录和页面配置；`data/history.json` 保存被替换或过期的历史记录。购物商品身份使用“商店 + 标准化原名 + 规格”生成；AI 说明另用不含商店和规格的稳定键，以便长期复用。
 
 ## 已知边界
 
 - Tjek 数据中并非每条商品都含可精确换算的规格；缺少规格时不会伪造单位价格。
 - Aarhus 优惠直接采用 Tjek 明确提供的 `catalog_page`、`catalog_id`、商品 ID 和商品裁切图；来源链接准确打开所属促销单与商品，绝不推算页码。
 - Flipp 当前商品 feed 不提供可靠页码，因此 Atlanta 使用 feed 明确提供的商品 ID 生成商品弹窗直达链接，不根据画布坐标推算页码。
-- 中文解释使用确定性词典与规则，未知新品会给出类别级解释。以后可以增加可选 AI 翻译审核，但第一版不依赖付费 API。
+- 未配置 OpenAI API key 或 AI 队列尚未处理时，中文解释使用确定性词典与规则作为回退；页面会保留说明来源，不能把规则文本冒充成 AI 结果。
 
 ## 促销单定位原则（v0.3）
 

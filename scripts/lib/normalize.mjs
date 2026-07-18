@@ -1,5 +1,5 @@
 import { classifyOffer, normalizedText } from './taxonomy.mjs';
-import { explainInChinese } from './explain-zh.mjs';
+import { resolveProductDescription } from './product-descriptions.mjs';
 
 const storeAlias = value => String(value || '').toLowerCase().replace(/ø/g,'o').replace(/æ/g,'ae').replace(/[^a-z0-9]+/g,'');
 const STORE_NAMES = {
@@ -74,7 +74,7 @@ function imageUrl(raw) {
   }
 }
 
-export function normalizeOffer(raw, nowIso) {
+export function normalizeOffer(raw, nowIso, options = {}) {
   const storeId = getStoreId(raw);
   if (!storeId) return null;
   const classification = classifyOffer(raw);
@@ -85,6 +85,7 @@ export function normalizeOffer(raw, nowIso) {
   const unit = unitPrice(pricing.price, q);
   const conditions = detectConditions(raw);
   const heading = String(raw.heading || '').trim();
+  const description = resolveProductDescription(raw, classification, options.descriptionCache);
   const productKey = [storeId, normalizedText(heading), q.size || q.pieces || '', q.unit || ''].join('|');
   const catalogId = String(raw.catalog_id || '').trim() || null;
   const sourceOfferId = String(raw.id || '').trim() || null;
@@ -103,7 +104,7 @@ export function normalizeOffer(raw, nowIso) {
     storeId,
     originalName: heading,
     originalDescription: raw.description || '',
-    zhExplanation: explainInChinese(raw, classification),
+    ...description,
     ...classification,
     ...pricing,
     packageText: packageText(q, raw),

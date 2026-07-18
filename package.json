@@ -10,7 +10,9 @@
     "test": "node --test",
     "serve": "python3 -m http.server 8080",
     "locate": "node scripts/apply-source-locators.mjs",
-    "build:preview": "node scripts/build-preview.mjs"
+    "build:preview": "node scripts/build-preview.mjs",
+    "descriptions:queue": "node scripts/queue-product-descriptions.mjs",
+    "descriptions:generate": "node scripts/generate-product-descriptions.mjs"
   },
   "engines": {
     "node": ">=20"

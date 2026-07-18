@@ -4,10 +4,13 @@ import { listDanishDealers, fetchDealerOffers } from './lib/tjek-client.mjs';
 import { normalizeOffer } from './lib/normalize.mjs';
 import { mergeIncrementally } from './lib/merge.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS } from './lib/taxonomy.mjs';
+import { collectPendingDescriptions, loadDescriptionCache } from './lib/product-descriptions.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/current_offers.json');
 const historyPath = path.join(root, 'data/history.json');
+const descriptionCachePath = path.join(root, 'data/product_descriptions_zh.json');
+const descriptionPendingPath = path.join(root, 'data/product_descriptions_pending.json');
 const nowIso = new Date().toISOString();
 const wantedStores = {
   netto: ['netto'],
@@ -53,6 +56,7 @@ async function loadJson(file, fallback) {
 }
 
 const previous = await loadJson(dataPath, { metadata:{}, stores:[], categories:[], comparisonGroups:{}, offers:[] });
+const descriptionCache = await loadDescriptionCache(descriptionCachePath);
 const previousHistory = await loadJson(historyPath, []);
 previous.history = previousHistory;
 let dealers = [];
@@ -80,7 +84,7 @@ for (const [storeId, aliases] of Object.entries(wantedStores)) {
   }
   try {
     const raw = await fetchDealerOffers(dealer.id);
-    const normalized = raw.map(item => normalizeOffer(item, nowIso)).filter(item => item && item.storeId === storeId);
+    const normalized = raw.map(item => normalizeOffer(item, nowIso, { descriptionCache })).filter(item => item && item.storeId === storeId);
     freshByStore[storeId] = normalized;
     storeStatuses[storeId] = 'ok';
     console.log(`${storeId}: ${normalized.length} retained offers`);
@@ -115,4 +119,6 @@ const next = {
 };
 await fs.writeFile(dataPath, JSON.stringify(next, null, 2) + '\n');
 await fs.writeFile(historyPath, JSON.stringify(result.history, null, 2) + '\n');
-console.log(`Saved ${next.offers.length} current offers; ${result.history.length} archived records.`);
+const pendingDescriptions = collectPendingDescriptions(next.offers, descriptionCache, nowIso);
+await fs.writeFile(descriptionPendingPath, JSON.stringify(pendingDescriptions, null, 2) + '\n');
+console.log(`Saved ${next.offers.length} current offers; ${result.history.length} archived records; ${pendingDescriptions.count} product descriptions pending AI generation.`);
