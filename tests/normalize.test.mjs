@@ -11,6 +11,7 @@ const baseOffer = {
   run_from: '2026-07-18T00:00:00Z',
   run_till: '2026-07-25T00:00:00Z',
   catalog_id: 'catalog-1',
+  images: { zoom: 'http://image-transformer-api.tjek.com/product.webp?w=1000' },
   dealer: { name: 'Netto' },
   branding: { name: 'Netto' },
 };
@@ -19,7 +20,8 @@ test('uses the explicit Tjek catalog page as a verified source location', () => 
   const normalized = normalizeOffer({ ...baseOffer, catalog_page: 17 }, '2026-07-18T12:00:00Z');
   assert.equal(normalized.sourcePage, 17);
   assert.equal(normalized.sourceCatalogId, 'catalog-1');
-  assert.equal(normalized.sourceUrl, 'https://etilbudsavis.dk/Netto?publication=catalog-1');
+  assert.equal(normalized.sourceUrl, 'https://etilbudsavis.dk/Netto?publication=catalog-1&offer=offer-1');
+  assert.equal(normalized.imageUrl, 'https://image-transformer-api.tjek.com/product.webp?w=1000');
   assert.deepEqual(normalized.sourceLocation, {
     status: 'verified',
     pageNumber: 17,

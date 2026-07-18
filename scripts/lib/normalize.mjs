@@ -58,6 +58,18 @@ function detectConditions(raw) {
   return { memberOnly, multiBuy: multi ? `${multi[1]}件组合价` : null };
 }
 
+function imageUrl(raw) {
+  const candidate = raw.images?.zoom || raw.images?.view || raw.images?.thumb;
+  if (!candidate) return null;
+  try {
+    const url = new URL(candidate);
+    if (url.protocol === 'http:') url.protocol = 'https:';
+    return ['http:', 'https:'].includes(url.protocol) ? url.toString() : null;
+  } catch {
+    return null;
+  }
+}
+
 export function normalizeOffer(raw, nowIso) {
   const storeId = getStoreId(raw);
   if (!storeId) return null;
@@ -73,13 +85,14 @@ export function normalizeOffer(raw, nowIso) {
   const sourceSlug = { netto:'Netto', lidl:'Lidl', rema:'REMA-1000', '365':'365discount', foetex:'fotex', bilka:'Bilka' }[storeId];
   const catalogPage = Number.isInteger(raw.catalog_page) && raw.catalog_page >= 1 ? raw.catalog_page : null;
   const catalogId = String(raw.catalog_id || '').trim() || null;
+  const sourceOfferId = String(raw.id || '').trim() || null;
   const sourceUrl = catalogId
-    ? `https://etilbudsavis.dk/${sourceSlug}?publication=${encodeURIComponent(catalogId)}`
+    ? `https://etilbudsavis.dk/${sourceSlug}?publication=${encodeURIComponent(catalogId)}${sourceOfferId ? `&offer=${encodeURIComponent(sourceOfferId)}` : ''}`
     : `https://etilbudsavis.dk/${sourceSlug}`;
   return {
     id: canonicalKey,
     canonicalKey,
-    sourceOfferId: raw.id,
+    sourceOfferId,
     storeId,
     originalName: heading,
     originalDescription: raw.description || '',
@@ -95,6 +108,7 @@ export function normalizeOffer(raw, nowIso) {
     ...conditions,
     validFrom: raw.run_from,
     validUntil: raw.run_till,
+    imageUrl: imageUrl(raw),
     sourceUrl,
     sourcePage: catalogPage,
     sourceCatalogId: catalogId,
