@@ -99,3 +99,31 @@ test('published comparison pools never mix turkey breasts with turkey legs or mi
     if (/mixed|_offer$/.test(offer.comparisonGroup)) assert.equal(data.comparisonGroups[offer.comparisonGroup].comparable, false, offer.originalName);
   }
 });
+
+test('published fine taxonomy keeps mince, yoghurt, cold dairy, and cheese forms separated', async () => {
+  const [aarhus, atlanta] = await Promise.all([
+    fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8').then(JSON.parse),
+    fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8').then(JSON.parse),
+  ]);
+
+  const aarhusMince = new Set(['chicken_minced', 'turkey_minced', 'pork_minced', 'beef_minced', 'mixed_minced']);
+  for (const offer of aarhus.offers) {
+    if (aarhusMince.has(offer.comparisonGroup)) assert.equal(offer.categoryId, 'minced_meat', offer.originalName);
+    if (offer.comparisonGroup === 'yoghurt') assert.equal(offer.categoryId, 'yoghurt', offer.originalName);
+    if (['cream', 'mixed_dairy'].includes(offer.comparisonGroup)) assert.equal(offer.categoryId, 'cream_cold_dairy', offer.originalName);
+    if (offer.comparisonGroup.startsWith('cheese_')) assert.equal(offer.categoryId, 'cheese', offer.originalName);
+  }
+  const aarhusCheeseGroups = new Set(aarhus.offers.filter(offer => offer.categoryId === 'cheese').map(offer => offer.comparisonGroup));
+  assert.ok(aarhusCheeseGroups.size >= 10);
+  assert.equal(aarhusCheeseGroups.has('cheese'), false);
+  assert.equal(aarhusCheeseGroups.has('cheese_fresh'), false);
+
+  const atlantaMince = new Set(['meat_ground_beef', 'meat_ground_chicken', 'meat_ground_pork']);
+  for (const offer of atlanta.offers) {
+    if (atlantaMince.has(offer.comparisonGroup)) assert.equal(offer.categoryId, 'minced_meat', offer.originalName);
+    if (offer.comparisonGroup === 'dairy_yogurt') assert.equal(offer.categoryId, 'yoghurt', offer.originalName);
+    if (offer.comparisonGroup.startsWith('cheese_')) assert.equal(offer.categoryId, 'cheese', offer.originalName);
+  }
+  const atlantaCheeseGroups = new Set(atlanta.offers.filter(offer => offer.categoryId === 'cheese').map(offer => offer.comparisonGroup));
+  assert.deepEqual([...atlantaCheeseGroups].sort(), ['cheese_grated', 'cheese_portioned', 'cheese_prepared', 'cheese_sliced', 'cheese_table']);
+});

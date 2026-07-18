@@ -84,6 +84,40 @@ test('uses product-level Atlanta comparison groups without splitting size varian
   }
 });
 
+test('automatically separates Atlanta mince, yoghurt, and cheese forms', () => {
+  for (const name of ['Publix Ground Beef', 'Publix Ground Chicken', 'Publix Ground Pork']) {
+    assert.equal(classifyFlippItem(name).categoryId, 'minced_meat', name);
+  }
+  assert.deepEqual(
+    classifyFlippItem('Chobani Greek Yogurt'),
+    {
+      categoryId: 'yoghurt',
+      comparisonGroup: 'dairy_yogurt',
+      zhExplanation: classifyFlippItem('Chobani Greek Yogurt').zhExplanation,
+      evidenceBasis: 'original_name',
+    },
+  );
+  assert.deepEqual(
+    [
+      ['Sargento Cheese Slices', 'cheese_sliced'],
+      ['Kraft Shredded Cheese', 'cheese_grated'],
+      ['Frigo Cheese Sticks', 'cheese_portioned'],
+      ['Publix Cheddar Cheese', 'cheese_table'],
+      ['Publix Breaded Mozzarella Cheese Sticks', 'cheese_prepared'],
+    ].map(([name, comparisonGroup]) => {
+      const result = classifyFlippItem(name);
+      return [result.categoryId, result.comparisonGroup];
+    }),
+    [
+      ['cheese', 'cheese_sliced'],
+      ['cheese', 'cheese_grated'],
+      ['cheese', 'cheese_portioned'],
+      ['cheese', 'cheese_table'],
+      ['cheese', 'cheese_prepared'],
+    ],
+  );
+});
+
 test('Atlanta keeps turkey, pork deli, sausage, and prepared chicken in separate price pools', () => {
   const expected = new Map([
     ['Applegate Naturals Uncured Turkey Bacon', 'meat_turkey_bacon'],

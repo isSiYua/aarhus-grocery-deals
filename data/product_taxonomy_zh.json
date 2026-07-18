@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T20:14:03.853Z",
+  "updatedAt": "2026-07-18T20:38:26.959Z",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
       "status": "active",
@@ -606,7 +606,7 @@
     },
     "v1|antos graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -630,7 +630,7 @@
     },
     "v1|arla cultura kefir eller a38|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "开菲尔发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -642,7 +642,7 @@
     },
     "v1|arla cultura yoghurt eller drik|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -654,7 +654,7 @@
     },
     "v1|arla eller cheasy koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -676,10 +676,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|arla klovborg mellemlagret danbo 45|cheese": {
+    "v1|arla klovborg mellemlagret danbo 45|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Arla Klovborg® Mellemlagret Danbo 45+",
@@ -688,10 +688,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|arla laktosefri friskost|cheese": {
+    "v1|arla laktosefri friskost|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "新鲜奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Arla laktosefri friskost*",
@@ -702,7 +702,7 @@
     },
     "v1|arla laktosefri maelk eller piskeflode|mixed_dairy": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "mixed_dairy",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -726,7 +726,7 @@
     },
     "v1|arla laktosefri piskeflode|cream": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -762,7 +762,7 @@
     },
     "v1|arla yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -786,7 +786,7 @@
     },
     "v1|athena autentisk graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -798,7 +798,7 @@
     },
     "v1|athena graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1300,10 +1300,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|bornholmsk ost|cheese": {
+    "v1|bornholmsk ost|cheese_other": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Bornholmsk ost",
@@ -1360,10 +1360,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|buko flodeost naturel eller pikant|cheese": {
+    "v1|buko flodeost naturel eller pikant|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BUKO Flødeost naturel eller pikant",
@@ -1372,10 +1372,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|buko flodeost|cheese": {
+    "v1|buko flodeost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Buko flødeost",
@@ -1384,10 +1384,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|buko reje eller skinkeost|cheese": {
+    "v1|buko reje eller skinkeost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "虾味或火腿味奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BUKO Reje- eller skinkeost",
@@ -1396,10 +1396,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|buko smelteost eller castello dessertost|cheese": {
+    "v1|buko smelteost eller castello dessertost|cheese_mixed_offer": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "labelZh": "加工融化奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Buko smelteost eller Castello dessertost",
@@ -1408,10 +1408,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|buko smoreost|cheese": {
+    "v1|buko smoreost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Buko smøreost",
@@ -1528,10 +1528,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|castello aged havarti eller gouda|cheese": {
+    "v1|castello aged havarti eller gouda|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Castello Aged Havarti eller Gouda",
@@ -1540,10 +1540,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|castello blaaskimmelost|cheese": {
+    "v1|castello blaaskimmelost|cheese_soft_mould": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_soft_mould",
       "labelZh": "蓝纹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "CASTELLO Blåskimmelost",
@@ -1552,10 +1552,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|castello smorbar ost|cheese": {
+    "v1|castello smorbar ost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "CASTELLO Smørbar ost",
@@ -1576,10 +1576,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|cheasy eller klovborg skaereost|cheese": {
+    "v1|cheasy eller klovborg skaereost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Cheasy eller Klovborg skæreost",
@@ -1588,10 +1588,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|cheasy hytteost|cheese": {
+    "v1|cheasy hytteost|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "CHEASY Hytteost",
@@ -1600,10 +1600,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|cheasy ost|cheese": {
+    "v1|cheasy ost|cheese_other": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "CHEASY Ost",
@@ -1612,10 +1612,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|cheasy skiveost eller dairy good hytteost|cheese": {
+    "v1|cheasy skiveost eller dairy good hytteost|cheese_mixed_offer": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Cheasy skiveost eller Dairy good hytteost",
@@ -1626,7 +1626,7 @@
     },
     "v1|cheasy yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1996,10 +1996,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop grana padano|cheese": {
+    "v1|coop grana padano|cheese_aged_hard": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
       "labelZh": "帕达诺/帕玛森硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop Grana Padano",
@@ -2034,7 +2034,7 @@
     },
     "v1|coop hakket gris kalv 4 7 eller 8 12|mixed_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "labelZh": "猪肉与小牛肉混合肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2046,7 +2046,7 @@
     },
     "v1|coop hakket grisekod 4 7 eller 8 12|pork_minced": {
       "status": "active",
-      "categoryId": "pork_fresh",
+      "categoryId": "minced_meat",
       "comparisonGroup": "pork_minced",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2058,7 +2058,7 @@
     },
     "v1|coop hakket oksekod 14 18|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2248,10 +2248,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop skiveost|cheese": {
+    "v1|coop skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop skiveost",
@@ -2358,7 +2358,7 @@
     },
     "v1|cultura a38|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "A38 丹麦酸牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2370,7 +2370,7 @@
     },
     "v1|cultura kefir|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "开菲尔发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2382,7 +2382,7 @@
     },
     "v1|cultura syrnet drikkeyoghurt eller yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "饮用酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2392,10 +2392,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dairy goood revet mozzarella|cheese": {
+    "v1|dairy goood revet mozzarella|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "刨丝马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dairy goood revet mozzarella",
@@ -2418,7 +2418,7 @@
     },
     "v1|danish crown burger boost|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2430,7 +2430,7 @@
     },
     "v1|danish crown hakket oksekod med 35 grontsager|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2454,7 +2454,7 @@
     },
     "v1|danone actimel danonino yoghurt eller drikkeyoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "饮用酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2526,7 +2526,7 @@
     },
     "v1|dansk hakket kylling 7 10|chicken_minced": {
       "status": "active",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "labelZh": "鸡肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2874,7 +2874,7 @@
     },
     "v1|dessert skyr eller luftig skyr|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2970,7 +2970,7 @@
     },
     "v1|dr oetker fromage|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3820,10 +3820,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gouda eller cheddar i tern|cheese": {
+    "v1|gouda eller cheddar i tern|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "高达或切达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Gouda eller cheddar i tern",
@@ -3906,7 +3906,7 @@
     },
     "v1|gram slot koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3928,10 +3928,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grana padano eller castello haard ost|cheese": {
+    "v1|grana padano eller castello haard ost|cheese_aged_hard": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
       "labelZh": "帕达诺/帕玛森硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Grana Padano eller Castello hård ost",
@@ -4000,10 +4000,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grillost|cheese": {
+    "v1|grillost|cheese_grilling": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grilling",
       "labelZh": "哈罗米烧烤奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Grillost",
@@ -4060,10 +4060,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gronnelund skaereost|cheese": {
+    "v1|gronnelund skaereost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Grønnelund skæreost",
@@ -4134,7 +4134,7 @@
     },
     "v1|hakket kalkunkod|turkey_minced": {
       "status": "active",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "turkey_minced",
       "labelZh": "火鸡肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4146,7 +4146,7 @@
     },
     "v1|hakket okse okse grise eller kalve grisekod|mixed_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "labelZh": "牛猪混合肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4158,7 +4158,7 @@
     },
     "v1|hakket oksekod|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4600,10 +4600,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese": {
+    "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese_mixed_offer": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "labelZh": "高达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Høng Blåhvid, Landana chili gouda, Président Saint Morgon eller Le Brie Gourmet",
@@ -5104,10 +5104,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|karolines kokken eller cheasy revet ost|cheese": {
+    "v1|karolines kokken eller cheasy revet ost|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Karolines Køkken eller Cheasy revet ost",
@@ -5118,7 +5118,7 @@
     },
     "v1|karolines kokken madlavningsflode|cream": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "labelZh": "烹饪奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5130,7 +5130,7 @@
     },
     "v1|karolines kokken piskeflode|cream": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5356,10 +5356,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|klovborg danbo skiveost|cheese": {
+    "v1|klovborg danbo skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KLOVBORG Danbo skiveost",
@@ -5368,10 +5368,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|klovborg danbo|cheese": {
+    "v1|klovborg danbo|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KLOVBORG Danbo",
@@ -5380,10 +5380,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|klovborg skaereost|cheese": {
+    "v1|klovborg skaereost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Klovborg skæreost",
@@ -5392,10 +5392,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|klovborg skiveost|cheese": {
+    "v1|klovborg skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Klovborg skiveost",
@@ -5406,7 +5406,7 @@
     },
     "v1|klover koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5418,7 +5418,7 @@
     },
     "v1|klover naturel sodmaelksyoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5680,10 +5680,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka fast ost|cheese": {
+    "v1|kuljanka fast ost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Fast ost",
@@ -5944,10 +5944,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|la campagna feta|cheese": {
+    "v1|la campagna feta|cheese_feta_white": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_feta_white",
       "labelZh": "菲达式白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "La Campagna feta",
@@ -6220,10 +6220,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lillebror ostehaps eller coop flodehavarti|cheese": {
+    "v1|lillebror ostehaps eller coop flodehavarti|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Lillebror ostehaps eller Coop flødehavarti",
@@ -6258,7 +6258,7 @@
     },
     "v1|logismose okologisk skyr|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6520,10 +6520,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket danbo eller samo|cheese": {
+    "v1|madvaerket danbo eller samo|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Danbo eller Samø",
@@ -6532,10 +6532,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket danbo eller samso skiveost|cheese": {
+    "v1|madvaerket danbo eller samso skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Danbo eller Samsø skiveost",
@@ -6544,10 +6544,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket danbo med kommen|cheese": {
+    "v1|madvaerket danbo med kommen|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Danbo med kommen",
@@ -6556,10 +6556,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket danbo skiveost|cheese": {
+    "v1|madvaerket danbo skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Danbo skiveost",
@@ -6568,10 +6568,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket danbo|cheese": {
+    "v1|madvaerket danbo|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Danbo",
@@ -6604,10 +6604,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket flodehavarti|cheese": {
+    "v1|madvaerket flodehavarti|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Flødehavarti",
@@ -6690,7 +6690,7 @@
     },
     "v1|madvaerket hakket gris og kalv eller hakket gris|mixed_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "labelZh": "猪肉与小牛肉混合肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6702,7 +6702,7 @@
     },
     "v1|madvaerket hakket grise og kalvekod|mixed_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "labelZh": "猪肉与小牛肉混合肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6714,7 +6714,7 @@
     },
     "v1|madvaerket hakket grisekod|pork_minced": {
       "status": "active",
-      "categoryId": "pork_fresh",
+      "categoryId": "minced_meat",
       "comparisonGroup": "pork_minced",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6726,7 +6726,7 @@
     },
     "v1|madvaerket hakket kyllingekod|chicken_minced": {
       "status": "active",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "labelZh": "鸡肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6738,7 +6738,7 @@
     },
     "v1|madvaerket hakket oksekod|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6858,7 +6858,7 @@
     },
     "v1|madvaerket okologisk koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6906,7 +6906,7 @@
     },
     "v1|madvaerket piskeflode|cream": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6978,7 +6978,7 @@
     },
     "v1|madvaerket skyr naturel eller vanilje|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7026,7 +7026,7 @@
     },
     "v1|madvaerket yoghurt naturel|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7038,7 +7038,7 @@
     },
     "v1|madvaerket yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7168,10 +7168,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen danbo guld|cheese": {
+    "v1|mammen danbo guld|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MAMMEN Danbo Guld",
@@ -7180,10 +7180,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen havarti|cheese": {
+    "v1|mammen havarti|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MAMMEN Havarti",
@@ -7192,10 +7192,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen hytteost|cheese": {
+    "v1|mammen hytteost|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MAMMEN Hytteost",
@@ -7204,10 +7204,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen okologisk hytteost|cheese": {
+    "v1|mammen okologisk hytteost|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MAMMEN Økologisk hytteost",
@@ -7216,10 +7216,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen ost|cheese": {
+    "v1|mammen ost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mammen ost",
@@ -7228,10 +7228,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen skaereost|cheese": {
+    "v1|mammen skaereost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mammen skæreost",
@@ -7240,10 +7240,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mammen skiveost|cheese": {
+    "v1|mammen skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MAMMEN Skiveost",
@@ -7458,7 +7458,7 @@
     },
     "v1|mesterhakket grise eller oksekod|mixed_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7480,10 +7480,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mexitopping|cheese": {
+    "v1|mexitopping|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "墨西哥菜用刨丝奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mexitopping*",
@@ -7516,10 +7516,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese": {
+    "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese_soft_mould": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_soft_mould",
       "labelZh": "蓝纹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Blåskimmelost eller hvid- og blåskimmelost",
@@ -7528,10 +7528,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona flodeost|cheese": {
+    "v1|milbona flodeost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Flødeost",
@@ -7540,10 +7540,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona gouda eller tilsiter|cheese": {
+    "v1|milbona gouda eller tilsiter|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "高达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Gouda eller tilsiter",
@@ -7552,10 +7552,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona gouda skiveost|cheese": {
+    "v1|milbona gouda skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "高达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Gouda skiveost",
@@ -7564,10 +7564,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona graesk feta|cheese": {
+    "v1|milbona graesk feta|cheese_feta_white": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_feta_white",
       "labelZh": "菲达式白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Milbona Græsk feta",
@@ -7578,7 +7578,7 @@
     },
     "v1|milbona graesk inspireret yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7590,7 +7590,7 @@
     },
     "v1|milbona graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7602,7 +7602,7 @@
     },
     "v1|milbona high protein budding|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7626,7 +7626,7 @@
     },
     "v1|milbona high protein frugtshots|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7636,10 +7636,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona high protein ricotta|cheese": {
+    "v1|milbona high protein ricotta|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA High Protein ricotta",
@@ -7648,10 +7648,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona high protein salatost|cheese_fresh": {
+    "v1|milbona high protein salatost|cheese_feta_white": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese_fresh",
+      "comparisonGroup": "cheese_feta_white",
       "labelZh": "沙拉白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA High Protein salatost",
@@ -7662,7 +7662,7 @@
     },
     "v1|milbona high protein yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7672,10 +7672,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona hvid ost i blok|cheese": {
+    "v1|milbona hvid ost i blok|cheese_feta_white": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_feta_white",
       "labelZh": "菲达式白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Hvid ost i blok",
@@ -7684,10 +7684,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona hytteost|cheese": {
+    "v1|milbona hytteost|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Hytteost",
@@ -7722,7 +7722,7 @@
     },
     "v1|milbona madlavningsjaevner med flode|cream": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "labelZh": "奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7732,10 +7732,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona minimozzarella|cheese": {
+    "v1|milbona minimozzarella|cheese_mozzarella_burrata": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Minimozzarella",
@@ -7744,10 +7744,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona mozzarella light|cheese": {
+    "v1|milbona mozzarella light|cheese_mozzarella_burrata": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Mozzarella light",
@@ -7756,10 +7756,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona mozzarella|cheese": {
+    "v1|milbona mozzarella|cheese_mozzarella_burrata": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Mozzarella",
@@ -7768,10 +7768,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona revet mozzarella|cheese": {
+    "v1|milbona revet mozzarella|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "刨丝马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Revet mozzarella",
@@ -7780,10 +7780,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona revet ost|cheese": {
+    "v1|milbona revet ost|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Revet ost",
@@ -7794,7 +7794,7 @@
     },
     "v1|milbona skyr med frugt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7804,10 +7804,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona smelteost i skiver|cheese": {
+    "v1|milbona smelteost i skiver|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "加工融化奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Smelteost i skiver",
@@ -7816,10 +7816,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|milbona smoreost|cheese": {
+    "v1|milbona smoreost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Milbona Smøreost",
@@ -7842,7 +7842,7 @@
     },
     "v1|milbona tyrkisk inspireret yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7854,7 +7854,7 @@
     },
     "v1|milbona yoghurt naturel|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8392,10 +8392,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|nostja kaymak|cheese": {
+    "v1|nostja kaymak|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "NOSTJA Kaymak",
@@ -8430,7 +8430,7 @@
     },
     "v1|nostja yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8562,7 +8562,7 @@
     },
     "v1|ogo okologisk hakket oksekod 8 12|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8670,7 +8670,7 @@
     },
     "v1|okologisk piskeflode 38|cream": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8680,10 +8680,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|okologisk revet havarti|cheese": {
+    "v1|okologisk revet havarti|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Økologisk revet havarti",
@@ -8836,10 +8836,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|ost|cheese": {
+    "v1|ost|cheese_other": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Ost",
@@ -9172,10 +9172,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|philadelphia flodeost|cheese": {
+    "v1|philadelphia flodeost|cheese_spreadable": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PHILADELPHIA Flødeost",
@@ -9184,10 +9184,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|piatnica hytteost|cheese": {
+    "v1|piatnica hytteost|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PIATNICA Hytteost",
@@ -9234,7 +9234,7 @@
     },
     "v1|plombir kefir|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "开菲尔发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9412,10 +9412,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|puck ost eller taverna halloumi grillost|cheese": {
+    "v1|puck ost eller taverna halloumi grillost|cheese_mixed_offer": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "labelZh": "哈罗米烧烤奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Puck ost eller Taverna halloumi grillost",
@@ -9424,10 +9424,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|puck ost|cheese": {
+    "v1|puck ost|cheese_other": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Puck ost",
@@ -9436,10 +9436,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|puck salatost|cheese_fresh": {
+    "v1|puck salatost|cheese_feta_white": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese_fresh",
+      "comparisonGroup": "cheese_feta_white",
       "labelZh": "沙拉白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PUCK Salatost",
@@ -9750,7 +9750,7 @@
     },
     "v1|rema 1000 hakket dansk oksekod 15 18 eller burger boost|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9940,10 +9940,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 ost i skiver|cheese": {
+    "v1|rema 1000 ost i skiver|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Ost i skiver",
@@ -10228,10 +10228,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|riberhus danbo skiveost|cheese": {
+    "v1|riberhus danbo skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "RIBERHUS Danbo skiveost",
@@ -10240,10 +10240,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|riberhus danbo|cheese": {
+    "v1|riberhus danbo|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "RIBERHUS Danbo",
@@ -10252,10 +10252,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|riberhus ost|cheese": {
+    "v1|riberhus ost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "RIBERHUS Ost",
@@ -10264,10 +10264,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|riberhus skiveost|cheese": {
+    "v1|riberhus skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Riberhus skiveost",
@@ -10290,7 +10290,7 @@
     },
     "v1|risifrutti yoggi yoghurt eller arla protein budding eller mousse|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10398,7 +10398,7 @@
     },
     "v1|rose hakket kylling|chicken_minced": {
       "status": "active",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "labelZh": "鸡肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10914,7 +10914,7 @@
     },
     "v1|skyr|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11164,10 +11164,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar osteplatte eller manchego corado|cheese": {
+    "v1|sol mar osteplatte eller manchego corado|cheese_mixed_offer": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "labelZh": "奶酪拼盘",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Osteplatte eller manchego corado",
@@ -11406,7 +11406,7 @@
     },
     "v1|stay strong skyr eller koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11776,10 +11776,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|them klovborg faetter kras eller danbo|cheese": {
+    "v1|them klovborg faetter kras eller danbo|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "THEM/KLOVBORG Fætter Kras eller Danbo",
@@ -11788,10 +11788,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|them ost|cheese": {
+    "v1|them ost|cheese_other": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Them ost",
@@ -11800,10 +11800,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|them revet ost|cheese": {
+    "v1|them revet ost|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "THEM Revet ost",
@@ -11812,10 +11812,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|thise okologisk blue tapas eller skiveost|cheese": {
+    "v1|thise okologisk blue tapas eller skiveost|cheese_mixed_offer": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Thise økologisk blue, tapas- eller skiveost",
@@ -11824,10 +11824,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|thise okologisk burrata eller mozzarella|cheese": {
+    "v1|thise okologisk burrata eller mozzarella|cheese_mozzarella_burrata": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Thise økologisk burrata eller mozzarella*",
@@ -11838,7 +11838,7 @@
     },
     "v1|thise okologisk graesk inspireret yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11850,7 +11850,7 @@
     },
     "v1|thise okologisk jerseymaelk creme fraiche eller fraiche|mixed_dairy": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "mixed_dairy",
       "labelZh": "酸奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11862,7 +11862,7 @@
     },
     "v1|thise okologisk kaernemaelk eller skyr med topping|mixed_dairy": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "mixed_dairy",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11874,7 +11874,7 @@
     },
     "v1|thise okologisk laktosefri koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11884,10 +11884,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|thise okologisk skaereost|cheese": {
+    "v1|thise okologisk skaereost|cheese_danish_table": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Thise økologisk skæreost",
@@ -11896,10 +11896,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|thise okologisk skiveost|cheese": {
+    "v1|thise okologisk skiveost|cheese_sliced": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Thise økologisk skiveost",
@@ -11910,7 +11910,7 @@
     },
     "v1|thise okologisk yoghurt eller acido|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11932,10 +11932,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tjia hytteostsalat|cheese": {
+    "v1|tjia hytteostsalat|cheese_cottage_ricotta": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tjia hytteostsalat",
@@ -12282,7 +12282,7 @@
     },
     "v1|varena kvarkbar|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12378,7 +12378,7 @@
     },
     "v1|velsmag hakket oksekod 14 18 eller hakket okse og grisekod 8 12|mixed_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "labelZh": "牛猪混合肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12390,7 +12390,7 @@
     },
     "v1|velsmag hakket oksekod 8 12|beef_minced": {
       "status": "active",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "labelZh": "牛肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12510,7 +12510,7 @@
     },
     "v1|xtra hakket kylling 7 10|chicken_minced": {
       "status": "active",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "labelZh": "鸡肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12606,7 +12606,7 @@
     },
     "v1|yoggi yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12618,7 +12618,7 @@
     },
     "v1|yopro proteindrikkeyoghurt eller activia kefirdrik|yoghurt": {
       "status": "active",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "labelZh": "饮用酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12628,10 +12628,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|zanetti burrata|cheese": {
+    "v1|zanetti burrata|cheese_mozzarella_burrata": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zanetti burrata",
@@ -12640,10 +12640,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese": {
+    "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese_aged_hard": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
       "labelZh": "帕达诺/帕玛森硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zanetti Grana Padano, Parmigiano Reggiano eller Pecorino Romano",
@@ -12652,10 +12652,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|zanetti mozzarella|cheese": {
+    "v1|zanetti mozzarella|cheese_mozzarella_burrata": {
       "status": "active",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zanetti mozzarella",

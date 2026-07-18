@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import { refineAarhusCategory } from './taxonomy.mjs';
+import { refineAarhusCategory, refineAarhusComparisonGroup } from './taxonomy.mjs';
 
 export const TAXONOMY_SCHEMA_VERSION = 1;
 export const TAXONOMY_VERSION = 'codex-taxonomy-v1';
@@ -31,9 +31,10 @@ export function resolveProductTaxonomy(descriptionKey, fallback, taxonomy = empt
   const fixed = taxonomy.entries?.[descriptionKey];
   if (!fixed) return { ...fallback, taxonomySource: 'rules_fallback', taxonomyReviewStatus: 'unreviewed' };
   if (fixed.status === 'excluded') return null;
+  const comparisonGroup = refineAarhusComparisonGroup(fixed.comparisonGroup, fixed.originalName || descriptionKey.split('|')[1]);
   return {
-    categoryId: refineAarhusCategory(fixed.categoryId, fixed.comparisonGroup),
-    comparisonGroup: fixed.comparisonGroup,
+    categoryId: refineAarhusCategory(fixed.categoryId, comparisonGroup),
+    comparisonGroup,
     taxonomySource: fixed.reviewStatus === 'reviewed' ? 'codex_taxonomy' : 'fixed_pending_review',
     taxonomyReviewStatus: fixed.reviewStatus,
     taxonomyLabelZh: fixed.labelZh || null,

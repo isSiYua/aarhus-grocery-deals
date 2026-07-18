@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-18T20:14:03.853Z",
+  "updatedAt": "2026-07-18T20:38:26.959Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -3415,7 +3415,7 @@
         "Antos græsk yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3515,7 +3515,7 @@
         "Arla Cultura Kefir eller A38"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3565,7 +3565,7 @@
         "Arla Cultura Yoghurt eller drik"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3615,7 +3615,7 @@
         "Arla eller Cheasy koldskål"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3733,8 +3733,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|arla klovborg mellemlagret danbo 45|cheese": {
-      "stableProductKey": "v1|arla klovborg mellemlagret danbo 45|cheese",
+    "v1|arla klovborg mellemlagret danbo 45|cheese_danish_table": {
+      "stableProductKey": "v1|arla klovborg mellemlagret danbo 45|cheese_danish_table",
       "canonicalNames": [
         "Arla Klovborg® Mellemlagret Danbo 45+"
       ],
@@ -3742,7 +3742,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "foetex"
@@ -3806,8 +3806,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|arla laktosefri friskost|cheese": {
-      "stableProductKey": "v1|arla laktosefri friskost|cheese",
+    "v1|arla laktosefri friskost|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|arla laktosefri friskost|cheese_cottage_ricotta",
       "canonicalNames": [
         "Arla laktosefri friskost*"
       ],
@@ -3815,7 +3815,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "365"
@@ -3912,7 +3912,7 @@
         "Arla laktosefri mælk eller piskefløde"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "mixed_dairy"
@@ -4012,7 +4012,7 @@
         "Arla laktosefri piskefløde"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "cream"
@@ -4236,7 +4236,7 @@
         "Arla yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -4336,7 +4336,7 @@
         "Athena autentisk græsk yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -4386,7 +4386,7 @@
         "Athena græsk yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -4730,8 +4730,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|bacon cheddar griller|cheese": {
-      "stableProductKey": "v1|bacon cheddar griller|cheese",
+    "v1|bacon cheddar griller|cheese_other": {
+      "stableProductKey": "v1|bacon cheddar griller|cheese_other",
       "canonicalNames": [
         "BACON & CHEDDAR GRILLER"
       ],
@@ -4739,7 +4739,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "rema"
@@ -7315,8 +7315,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|bornholmsk ost|cheese": {
-      "stableProductKey": "v1|bornholmsk ost|cheese",
+    "v1|bornholmsk ost|cheese_other": {
+      "stableProductKey": "v1|bornholmsk ost|cheese_other",
       "canonicalNames": [
         "Bornholmsk ost"
       ],
@@ -7324,7 +7324,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "rema"
@@ -7716,8 +7716,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|buko flodeost naturel eller pikant|cheese": {
-      "stableProductKey": "v1|buko flodeost naturel eller pikant|cheese",
+    "v1|buko flodeost naturel eller pikant|cheese_spreadable": {
+      "stableProductKey": "v1|buko flodeost naturel eller pikant|cheese_spreadable",
       "canonicalNames": [
         "BUKO Flødeost naturel eller pikant"
       ],
@@ -7725,7 +7725,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "lidl"
@@ -7816,8 +7816,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|buko flodeost|cheese": {
-      "stableProductKey": "v1|buko flodeost|cheese",
+    "v1|buko flodeost|cheese_spreadable": {
+      "stableProductKey": "v1|buko flodeost|cheese_spreadable",
       "canonicalNames": [
         "Buko flødeost"
       ],
@@ -7825,7 +7825,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "foetex"
@@ -7966,8 +7966,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|buko reje eller skinkeost|cheese": {
-      "stableProductKey": "v1|buko reje eller skinkeost|cheese",
+    "v1|buko reje eller skinkeost|cheese_spreadable": {
+      "stableProductKey": "v1|buko reje eller skinkeost|cheese_spreadable",
       "canonicalNames": [
         "BUKO Reje- eller skinkeost"
       ],
@@ -7975,7 +7975,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "lidl"
@@ -8016,8 +8016,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|buko smelteost eller castello dessertost|cheese": {
-      "stableProductKey": "v1|buko smelteost eller castello dessertost|cheese",
+    "v1|buko smelteost eller castello dessertost|cheese_mixed_offer": {
+      "stableProductKey": "v1|buko smelteost eller castello dessertost|cheese_mixed_offer",
       "canonicalNames": [
         "Buko smelteost eller Castello dessertost"
       ],
@@ -8025,7 +8025,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -8116,8 +8116,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|buko smoreost|cheese": {
-      "stableProductKey": "v1|buko smoreost|cheese",
+    "v1|buko smoreost|cheese_spreadable": {
+      "stableProductKey": "v1|buko smoreost|cheese_spreadable",
       "canonicalNames": [
         "Buko smøreost"
       ],
@@ -8125,7 +8125,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "365"
@@ -8865,8 +8865,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|castello aged havarti eller gouda|cheese": {
-      "stableProductKey": "v1|castello aged havarti eller gouda|cheese",
+    "v1|castello aged havarti eller gouda|cheese_danish_table": {
+      "stableProductKey": "v1|castello aged havarti eller gouda|cheese_danish_table",
       "canonicalNames": [
         "Castello Aged Havarti eller Gouda"
       ],
@@ -8874,7 +8874,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "rema"
@@ -8915,8 +8915,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|castello blaaskimmelost|cheese": {
-      "stableProductKey": "v1|castello blaaskimmelost|cheese",
+    "v1|castello blaaskimmelost|cheese_soft_mould": {
+      "stableProductKey": "v1|castello blaaskimmelost|cheese_soft_mould",
       "canonicalNames": [
         "CASTELLO Blåskimmelost"
       ],
@@ -8924,7 +8924,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_soft_mould"
       ],
       "stores": [
         "lidl"
@@ -8965,8 +8965,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|castello smorbar ost|cheese": {
-      "stableProductKey": "v1|castello smorbar ost|cheese",
+    "v1|castello smorbar ost|cheese_spreadable": {
+      "stableProductKey": "v1|castello smorbar ost|cheese_spreadable",
       "canonicalNames": [
         "CASTELLO Smørbar ost"
       ],
@@ -8974,7 +8974,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "lidl"
@@ -9115,8 +9115,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|cheasy eller klovborg skaereost|cheese": {
-      "stableProductKey": "v1|cheasy eller klovborg skaereost|cheese",
+    "v1|cheasy eller klovborg skaereost|cheese_danish_table": {
+      "stableProductKey": "v1|cheasy eller klovborg skaereost|cheese_danish_table",
       "canonicalNames": [
         "Cheasy eller Klovborg skæreost"
       ],
@@ -9124,7 +9124,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "kvickly"
@@ -9165,8 +9165,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|cheasy hytteost|cheese": {
-      "stableProductKey": "v1|cheasy hytteost|cheese",
+    "v1|cheasy hytteost|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|cheasy hytteost|cheese_cottage_ricotta",
       "canonicalNames": [
         "CHEASY Hytteost"
       ],
@@ -9174,7 +9174,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -9221,7 +9221,7 @@
         "CHEASY Hytteost"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -9265,8 +9265,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|cheasy ost|cheese": {
-      "stableProductKey": "v1|cheasy ost|cheese",
+    "v1|cheasy ost|cheese_other": {
+      "stableProductKey": "v1|cheasy ost|cheese_other",
       "canonicalNames": [
         "CHEASY Ost"
       ],
@@ -9274,7 +9274,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "lidl"
@@ -9315,8 +9315,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|cheasy skiveost eller dairy good hytteost|cheese": {
-      "stableProductKey": "v1|cheasy skiveost eller dairy good hytteost|cheese",
+    "v1|cheasy skiveost eller dairy good hytteost|cheese_mixed_offer": {
+      "stableProductKey": "v1|cheasy skiveost eller dairy good hytteost|cheese_mixed_offer",
       "canonicalNames": [
         "Cheasy skiveost eller Dairy good hytteost"
       ],
@@ -9324,7 +9324,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -9371,7 +9371,7 @@
         "Cheasy skiveost eller Dairy good hytteost"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -9421,7 +9421,7 @@
         "Cheasy yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -11697,8 +11697,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop grana padano|cheese": {
-      "stableProductKey": "v1|coop grana padano|cheese",
+    "v1|coop grana padano|cheese_aged_hard": {
+      "stableProductKey": "v1|coop grana padano|cheese_aged_hard",
       "canonicalNames": [
         "Coop Grana Padano"
       ],
@@ -11706,7 +11706,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_aged_hard"
       ],
       "stores": [
         "365"
@@ -11904,7 +11904,7 @@
         "Coop hakket gris & kalv 4-7% eller 8-12%"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "mixed_minced"
@@ -11954,7 +11954,7 @@
         "Coop hakket gris & kalv 4-7% eller 8-12%"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -12004,7 +12004,7 @@
         "Coop hakket grisekød 4-7% eller 8-12%"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -12054,7 +12054,7 @@
         "Coop hakket oksekød 14-18%"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -13348,8 +13348,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop skiveost|cheese": {
-      "stableProductKey": "v1|coop skiveost|cheese",
+    "v1|coop skiveost|cheese_sliced": {
+      "stableProductKey": "v1|coop skiveost|cheese_sliced",
       "canonicalNames": [
         "Coop skiveost"
       ],
@@ -13357,7 +13357,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "365"
@@ -14177,7 +14177,7 @@
         "Cultura A38"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -14227,7 +14227,7 @@
         "CULTURA Kefir"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -14277,7 +14277,7 @@
         "Cultura syrnet drikkeyoghurt eller yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -14321,8 +14321,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|dairy goood revet mozzarella|cheese": {
-      "stableProductKey": "v1|dairy goood revet mozzarella|cheese",
+    "v1|dairy goood revet mozzarella|cheese_grated": {
+      "stableProductKey": "v1|dairy goood revet mozzarella|cheese_grated",
       "canonicalNames": [
         "Dairy goood revet mozzarella"
       ],
@@ -14330,7 +14330,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "foetex"
@@ -14477,7 +14477,7 @@
         "Danish Crown Burger Boost"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -14527,7 +14527,7 @@
         "DANISH CROWN Hakket oksekød med 35 % grøntsager"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -14750,7 +14750,7 @@
         "Danone Actimel, Danonino yoghurt eller drikkeyoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -15203,7 +15203,7 @@
         "Dansk hakket kylling 7-10%"
       ],
       "categoryIds": [
-        "chicken"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "chicken_minced"
@@ -17656,7 +17656,7 @@
         "Dessert skyr eller luftig skyr*"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -18152,7 +18152,7 @@
         "Dr. Oetker fromage"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -22940,8 +22940,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|gouda eller cheddar i tern|cheese": {
-      "stableProductKey": "v1|gouda eller cheddar i tern|cheese",
+    "v1|gouda eller cheddar i tern|cheese_danish_table": {
+      "stableProductKey": "v1|gouda eller cheddar i tern|cheese_danish_table",
       "canonicalNames": [
         "Gouda eller cheddar i tern"
       ],
@@ -22949,7 +22949,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "rema"
@@ -23496,7 +23496,7 @@
         "Gram Slot koldskål"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -23641,8 +23641,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|grana padano eller castello haard ost|cheese": {
-      "stableProductKey": "v1|grana padano eller castello haard ost|cheese",
+    "v1|grana padano eller castello haard ost|cheese_aged_hard": {
+      "stableProductKey": "v1|grana padano eller castello haard ost|cheese_aged_hard",
       "canonicalNames": [
         "Grana Padano eller Castello hård ost"
       ],
@@ -23650,7 +23650,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_aged_hard"
       ],
       "stores": [
         "bilka"
@@ -24091,8 +24091,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|grillost|cheese": {
-      "stableProductKey": "v1|grillost|cheese",
+    "v1|grillost|cheese_grilling": {
+      "stableProductKey": "v1|grillost|cheese_grilling",
       "canonicalNames": [
         "Grillost"
       ],
@@ -24100,7 +24100,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grilling"
       ],
       "stores": [
         "foetex"
@@ -24542,8 +24542,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|gronnelund skaereost|cheese": {
-      "stableProductKey": "v1|gronnelund skaereost|cheese",
+    "v1|gronnelund skaereost|cheese_danish_table": {
+      "stableProductKey": "v1|gronnelund skaereost|cheese_danish_table",
       "canonicalNames": [
         "Grønnelund skæreost"
       ],
@@ -24551,7 +24551,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "bilka"
@@ -25098,7 +25098,7 @@
         "Hakket kalkunkød"
       ],
       "categoryIds": [
-        "chicken"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "turkey_minced"
@@ -25198,7 +25198,7 @@
         "Hakket okse-, okse-/grise- eller kalve-/grisekød"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "mixed_minced"
@@ -25248,7 +25248,7 @@
         "Hakket oksekød"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -28087,8 +28087,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese": {
-      "stableProductKey": "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese",
+    "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese_mixed_offer": {
+      "stableProductKey": "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese_mixed_offer",
       "canonicalNames": [
         "Høng Blåhvid, Landana chili gouda, Président Saint Morgon eller Le Brie Gourmet"
       ],
@@ -28096,7 +28096,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mixed_offer"
       ],
       "stores": [
         "rema"
@@ -31803,8 +31803,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|karolines kokken eller cheasy revet ost|cheese": {
-      "stableProductKey": "v1|karolines kokken eller cheasy revet ost|cheese",
+    "v1|karolines kokken eller cheasy revet ost|cheese_grated": {
+      "stableProductKey": "v1|karolines kokken eller cheasy revet ost|cheese_grated",
       "canonicalNames": [
         "Karolines Køkken eller Cheasy revet ost"
       ],
@@ -31812,7 +31812,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "kvickly"
@@ -31859,7 +31859,7 @@
         "KAROLINES KØKKEN Madlavningsfløde"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "cream"
@@ -31959,7 +31959,7 @@
         "KAROLINES KØKKEN Piskefløde"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "cream"
@@ -33180,8 +33180,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|klovborg danbo skiveost|cheese": {
-      "stableProductKey": "v1|klovborg danbo skiveost|cheese",
+    "v1|klovborg danbo skiveost|cheese_sliced": {
+      "stableProductKey": "v1|klovborg danbo skiveost|cheese_sliced",
       "canonicalNames": [
         "KLOVBORG Danbo skiveost"
       ],
@@ -33189,7 +33189,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -33230,8 +33230,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|klovborg danbo|cheese": {
-      "stableProductKey": "v1|klovborg danbo|cheese",
+    "v1|klovborg danbo|cheese_danish_table": {
+      "stableProductKey": "v1|klovborg danbo|cheese_danish_table",
       "canonicalNames": [
         "KLOVBORG Danbo"
       ],
@@ -33239,7 +33239,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -33280,8 +33280,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|klovborg skaereost|cheese": {
-      "stableProductKey": "v1|klovborg skaereost|cheese",
+    "v1|klovborg skaereost|cheese_danish_table": {
+      "stableProductKey": "v1|klovborg skaereost|cheese_danish_table",
       "canonicalNames": [
         "Klovborg skæreost"
       ],
@@ -33289,7 +33289,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "foetex"
@@ -33330,8 +33330,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|klovborg skiveost|cheese": {
-      "stableProductKey": "v1|klovborg skiveost|cheese",
+    "v1|klovborg skiveost|cheese_sliced": {
+      "stableProductKey": "v1|klovborg skiveost|cheese_sliced",
       "canonicalNames": [
         "Klovborg skiveost"
       ],
@@ -33339,7 +33339,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "foetex"
@@ -33386,7 +33386,7 @@
         "Kløver koldskål"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -33486,7 +33486,7 @@
         "Kløver naturel sødmælksyoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -34830,8 +34830,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|kuljanka fast ost|cheese": {
-      "stableProductKey": "v1|kuljanka fast ost|cheese",
+    "v1|kuljanka fast ost|cheese_danish_table": {
+      "stableProductKey": "v1|kuljanka fast ost|cheese_danish_table",
       "canonicalNames": [
         "KULJANKA Fast ost"
       ],
@@ -34839,7 +34839,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -36329,8 +36329,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|la campagna feta|cheese": {
-      "stableProductKey": "v1|la campagna feta|cheese",
+    "v1|la campagna feta|cheese_feta_white": {
+      "stableProductKey": "v1|la campagna feta|cheese_feta_white",
       "canonicalNames": [
         "La Campagna feta"
       ],
@@ -36338,7 +36338,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_feta_white"
       ],
       "stores": [
         "netto"
@@ -37775,8 +37775,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|lillebror ostehaps eller coop flodehavarti|cheese": {
-      "stableProductKey": "v1|lillebror ostehaps eller coop flodehavarti|cheese",
+    "v1|lillebror ostehaps eller coop flodehavarti|cheese_danish_table": {
+      "stableProductKey": "v1|lillebror ostehaps eller coop flodehavarti|cheese_danish_table",
       "canonicalNames": [
         "Lillebror ostehaps eller Coop flødehavarti"
       ],
@@ -37784,7 +37784,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "365"
@@ -37981,7 +37981,7 @@
         "Løgismose økologisk skyr"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -39512,8 +39512,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket danbo eller samo|cheese": {
-      "stableProductKey": "v1|madvaerket danbo eller samo|cheese",
+    "v1|madvaerket danbo eller samo|cheese_danish_table": {
+      "stableProductKey": "v1|madvaerket danbo eller samo|cheese_danish_table",
       "canonicalNames": [
         "MADVÆRKET Danbo eller Samø"
       ],
@@ -39521,7 +39521,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -39562,8 +39562,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket danbo eller samso skiveost|cheese": {
-      "stableProductKey": "v1|madvaerket danbo eller samso skiveost|cheese",
+    "v1|madvaerket danbo eller samso skiveost|cheese_sliced": {
+      "stableProductKey": "v1|madvaerket danbo eller samso skiveost|cheese_sliced",
       "canonicalNames": [
         "MADVÆRKET Danbo eller Samsø skiveost"
       ],
@@ -39571,7 +39571,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -39612,8 +39612,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket danbo med kommen|cheese": {
-      "stableProductKey": "v1|madvaerket danbo med kommen|cheese",
+    "v1|madvaerket danbo med kommen|cheese_danish_table": {
+      "stableProductKey": "v1|madvaerket danbo med kommen|cheese_danish_table",
       "canonicalNames": [
         "MADVÆRKET Danbo med kommen"
       ],
@@ -39621,7 +39621,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -39662,8 +39662,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket danbo skiveost|cheese": {
-      "stableProductKey": "v1|madvaerket danbo skiveost|cheese",
+    "v1|madvaerket danbo skiveost|cheese_sliced": {
+      "stableProductKey": "v1|madvaerket danbo skiveost|cheese_sliced",
       "canonicalNames": [
         "MADVÆRKET Danbo skiveost"
       ],
@@ -39671,7 +39671,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -39735,8 +39735,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket danbo|cheese": {
-      "stableProductKey": "v1|madvaerket danbo|cheese",
+    "v1|madvaerket danbo|cheese_danish_table": {
+      "stableProductKey": "v1|madvaerket danbo|cheese_danish_table",
       "canonicalNames": [
         "MADVÆRKET Danbo"
       ],
@@ -39744,7 +39744,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -40004,8 +40004,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket flodehavarti|cheese": {
-      "stableProductKey": "v1|madvaerket flodehavarti|cheese",
+    "v1|madvaerket flodehavarti|cheese_danish_table": {
+      "stableProductKey": "v1|madvaerket flodehavarti|cheese_danish_table",
       "canonicalNames": [
         "MADVÆRKET Flødehavarti"
       ],
@@ -40013,7 +40013,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -40510,7 +40510,7 @@
         "MADVÆRKET Hakket gris og kalv eller hakket gris"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "mixed_minced"
@@ -40560,7 +40560,7 @@
         "MADVÆRKET Hakket gris og kalv eller hakket gris"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -40610,7 +40610,7 @@
         "MADVÆRKET Hakket grise- og kalvekød"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "mixed_minced"
@@ -40683,7 +40683,7 @@
         "MADVÆRKET Hakket grise- og kalvekød"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -40756,7 +40756,7 @@
         "MADVÆRKET Hakket grisekød"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -40829,7 +40829,7 @@
         "MADVÆRKET Hakket kyllingekød"
       ],
       "categoryIds": [
-        "chicken"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "chicken_minced"
@@ -40879,7 +40879,7 @@
         "MADVÆRKET Hakket oksekød"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -41887,7 +41887,7 @@
         "MADVÆRKET Økologisk koldskål"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -42229,7 +42229,7 @@
         "MADVÆRKET Piskefløde"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "cream"
@@ -42829,7 +42829,7 @@
         "MADVÆRKET Skyr naturel eller vanilje"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -43102,7 +43102,7 @@
         "MADVÆRKET Yoghurt naturel"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -43175,7 +43175,7 @@
         "MADVÆRKET Yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -43919,8 +43919,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen danbo guld|cheese": {
-      "stableProductKey": "v1|mammen danbo guld|cheese",
+    "v1|mammen danbo guld|cheese_danish_table": {
+      "stableProductKey": "v1|mammen danbo guld|cheese_danish_table",
       "canonicalNames": [
         "MAMMEN Danbo Guld"
       ],
@@ -43928,7 +43928,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -43969,8 +43969,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen havarti|cheese": {
-      "stableProductKey": "v1|mammen havarti|cheese",
+    "v1|mammen havarti|cheese_danish_table": {
+      "stableProductKey": "v1|mammen havarti|cheese_danish_table",
       "canonicalNames": [
         "MAMMEN Havarti"
       ],
@@ -43978,7 +43978,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -44019,8 +44019,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen hytteost|cheese": {
-      "stableProductKey": "v1|mammen hytteost|cheese",
+    "v1|mammen hytteost|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|mammen hytteost|cheese_cottage_ricotta",
       "canonicalNames": [
         "MAMMEN Hytteost"
       ],
@@ -44028,7 +44028,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -44098,7 +44098,7 @@
         "MAMMEN Hytteost"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -44165,8 +44165,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen okologisk hytteost|cheese": {
-      "stableProductKey": "v1|mammen okologisk hytteost|cheese",
+    "v1|mammen okologisk hytteost|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|mammen okologisk hytteost|cheese_cottage_ricotta",
       "canonicalNames": [
         "MAMMEN Økologisk hytteost"
       ],
@@ -44174,7 +44174,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -44221,7 +44221,7 @@
         "MAMMEN Økologisk hytteost"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -44265,8 +44265,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen ost|cheese": {
-      "stableProductKey": "v1|mammen ost|cheese",
+    "v1|mammen ost|cheese_danish_table": {
+      "stableProductKey": "v1|mammen ost|cheese_danish_table",
       "canonicalNames": [
         "Mammen ost"
       ],
@@ -44274,7 +44274,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "rema"
@@ -44315,8 +44315,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen skaereost|cheese": {
-      "stableProductKey": "v1|mammen skaereost|cheese",
+    "v1|mammen skaereost|cheese_danish_table": {
+      "stableProductKey": "v1|mammen skaereost|cheese_danish_table",
       "canonicalNames": [
         "Mammen skæreost"
       ],
@@ -44324,7 +44324,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "netto"
@@ -44365,8 +44365,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mammen skiveost|cheese": {
-      "stableProductKey": "v1|mammen skiveost|cheese",
+    "v1|mammen skiveost|cheese_sliced": {
+      "stableProductKey": "v1|mammen skiveost|cheese_sliced",
       "canonicalNames": [
         "MAMMEN Skiveost"
       ],
@@ -44374,7 +44374,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -45722,7 +45722,7 @@
         "MesterHakket grise eller oksekød"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "mixed_minced"
@@ -45772,7 +45772,7 @@
         "MesterHakket grise eller oksekød"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -45866,8 +45866,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|mexitopping|cheese": {
-      "stableProductKey": "v1|mexitopping|cheese",
+    "v1|mexitopping|cheese_grated": {
+      "stableProductKey": "v1|mexitopping|cheese_grated",
       "canonicalNames": [
         "Mexitopping*"
       ],
@@ -45875,7 +45875,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "365"
@@ -46116,8 +46116,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese": {
-      "stableProductKey": "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese",
+    "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese_soft_mould": {
+      "stableProductKey": "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese_soft_mould",
       "canonicalNames": [
         "MILBONA Blåskimmelost eller hvid- og blåskimmelost"
       ],
@@ -46125,7 +46125,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_soft_mould"
       ],
       "stores": [
         "lidl"
@@ -46166,8 +46166,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona flodeost|cheese": {
-      "stableProductKey": "v1|milbona flodeost|cheese",
+    "v1|milbona flodeost|cheese_spreadable": {
+      "stableProductKey": "v1|milbona flodeost|cheese_spreadable",
       "canonicalNames": [
         "MILBONA Flødeost"
       ],
@@ -46175,7 +46175,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "lidl"
@@ -46266,8 +46266,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona gouda eller tilsiter|cheese": {
-      "stableProductKey": "v1|milbona gouda eller tilsiter|cheese",
+    "v1|milbona gouda eller tilsiter|cheese_danish_table": {
+      "stableProductKey": "v1|milbona gouda eller tilsiter|cheese_danish_table",
       "canonicalNames": [
         "MILBONA Gouda eller tilsiter"
       ],
@@ -46275,7 +46275,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -46316,8 +46316,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona gouda skiveost|cheese": {
-      "stableProductKey": "v1|milbona gouda skiveost|cheese",
+    "v1|milbona gouda skiveost|cheese_sliced": {
+      "stableProductKey": "v1|milbona gouda skiveost|cheese_sliced",
       "canonicalNames": [
         "MILBONA Gouda skiveost"
       ],
@@ -46325,7 +46325,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -46366,8 +46366,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona graesk feta|cheese": {
-      "stableProductKey": "v1|milbona graesk feta|cheese",
+    "v1|milbona graesk feta|cheese_feta_white": {
+      "stableProductKey": "v1|milbona graesk feta|cheese_feta_white",
       "canonicalNames": [
         "Milbona Græsk feta"
       ],
@@ -46375,7 +46375,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_feta_white"
       ],
       "stores": [
         "lidl"
@@ -46422,7 +46422,7 @@
         "MILBONA Græsk-inspireret yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46472,7 +46472,7 @@
         "MILBONA Græsk yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46522,7 +46522,7 @@
         "MILBONA High Protein budding"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46622,7 +46622,7 @@
         "MILBONA High Protein frugtshots"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46666,8 +46666,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona high protein ricotta|cheese": {
-      "stableProductKey": "v1|milbona high protein ricotta|cheese",
+    "v1|milbona high protein ricotta|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|milbona high protein ricotta|cheese_cottage_ricotta",
       "canonicalNames": [
         "MILBONA High Protein ricotta"
       ],
@@ -46675,7 +46675,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -46722,7 +46722,7 @@
         "MILBONA High Protein ricotta"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46766,8 +46766,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona high protein salatost|cheese_fresh": {
-      "stableProductKey": "v1|milbona high protein salatost|cheese_fresh",
+    "v1|milbona high protein salatost|cheese_feta_white": {
+      "stableProductKey": "v1|milbona high protein salatost|cheese_feta_white",
       "canonicalNames": [
         "MILBONA High Protein salatost"
       ],
@@ -46775,7 +46775,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese_fresh"
+        "cheese_feta_white"
       ],
       "stores": [
         "lidl"
@@ -46827,7 +46827,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "cheese_fresh",
+        "cheese_feta_white",
         "leafy_green"
       ],
       "stores": [
@@ -46875,7 +46875,7 @@
         "MILBONA High Protein yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46919,8 +46919,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona hvid ost i blok|cheese": {
-      "stableProductKey": "v1|milbona hvid ost i blok|cheese",
+    "v1|milbona hvid ost i blok|cheese_feta_white": {
+      "stableProductKey": "v1|milbona hvid ost i blok|cheese_feta_white",
       "canonicalNames": [
         "MILBONA Hvid ost i blok"
       ],
@@ -46928,7 +46928,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_feta_white"
       ],
       "stores": [
         "lidl"
@@ -46992,8 +46992,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona hytteost|cheese": {
-      "stableProductKey": "v1|milbona hytteost|cheese",
+    "v1|milbona hytteost|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|milbona hytteost|cheese_cottage_ricotta",
       "canonicalNames": [
         "MILBONA Hytteost"
       ],
@@ -47001,7 +47001,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -47094,7 +47094,7 @@
         "MILBONA Hytteost"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -47340,7 +47340,7 @@
         "MILBONA Madlavningsjævner med fløde"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "cream"
@@ -47434,8 +47434,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona minimozzarella|cheese": {
-      "stableProductKey": "v1|milbona minimozzarella|cheese",
+    "v1|milbona minimozzarella|cheese_mozzarella_burrata": {
+      "stableProductKey": "v1|milbona minimozzarella|cheese_mozzarella_burrata",
       "canonicalNames": [
         "MILBONA Minimozzarella"
       ],
@@ -47443,7 +47443,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mozzarella_burrata"
       ],
       "stores": [
         "lidl"
@@ -47484,8 +47484,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona mozzarella light|cheese": {
-      "stableProductKey": "v1|milbona mozzarella light|cheese",
+    "v1|milbona mozzarella light|cheese_mozzarella_burrata": {
+      "stableProductKey": "v1|milbona mozzarella light|cheese_mozzarella_burrata",
       "canonicalNames": [
         "MILBONA Mozzarella light"
       ],
@@ -47493,7 +47493,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mozzarella_burrata"
       ],
       "stores": [
         "lidl"
@@ -47534,8 +47534,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona mozzarella|cheese": {
-      "stableProductKey": "v1|milbona mozzarella|cheese",
+    "v1|milbona mozzarella|cheese_mozzarella_burrata": {
+      "stableProductKey": "v1|milbona mozzarella|cheese_mozzarella_burrata",
       "canonicalNames": [
         "MILBONA Mozzarella"
       ],
@@ -47543,7 +47543,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mozzarella_burrata"
       ],
       "stores": [
         "lidl"
@@ -47584,8 +47584,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona revet mozzarella|cheese": {
-      "stableProductKey": "v1|milbona revet mozzarella|cheese",
+    "v1|milbona revet mozzarella|cheese_grated": {
+      "stableProductKey": "v1|milbona revet mozzarella|cheese_grated",
       "canonicalNames": [
         "MILBONA Revet mozzarella"
       ],
@@ -47593,7 +47593,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "lidl"
@@ -47657,8 +47657,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona revet ost|cheese": {
-      "stableProductKey": "v1|milbona revet ost|cheese",
+    "v1|milbona revet ost|cheese_grated": {
+      "stableProductKey": "v1|milbona revet ost|cheese_grated",
       "canonicalNames": [
         "MILBONA Revet ost"
       ],
@@ -47666,7 +47666,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "lidl"
@@ -47713,7 +47713,7 @@
         "MILBONA Skyr med frugt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -47757,8 +47757,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona smelteost i skiver|cheese": {
-      "stableProductKey": "v1|milbona smelteost i skiver|cheese",
+    "v1|milbona smelteost i skiver|cheese_sliced": {
+      "stableProductKey": "v1|milbona smelteost i skiver|cheese_sliced",
       "canonicalNames": [
         "MILBONA Smelteost i skiver"
       ],
@@ -47766,7 +47766,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -47881,8 +47881,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|milbona smoreost|cheese": {
-      "stableProductKey": "v1|milbona smoreost|cheese",
+    "v1|milbona smoreost|cheese_spreadable": {
+      "stableProductKey": "v1|milbona smoreost|cheese_spreadable",
       "canonicalNames": [
         "Milbona Smøreost",
         "MILBONA Smøreost"
@@ -47891,7 +47891,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "lidl"
@@ -48011,7 +48011,7 @@
         "MILBONA Tyrkisk-inspireret yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -48084,7 +48084,7 @@
         "MILBONA Yoghurt naturel"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -51180,8 +51180,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|nostja kaymak|cheese": {
-      "stableProductKey": "v1|nostja kaymak|cheese",
+    "v1|nostja kaymak|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|nostja kaymak|cheese_cottage_ricotta",
       "canonicalNames": [
         "NOSTJA Kaymak"
       ],
@@ -51189,7 +51189,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -51336,7 +51336,7 @@
         "NOSTJA Yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -52111,7 +52111,7 @@
         "ØGO økologisk hakket oksekød 8-12%"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -52789,7 +52789,7 @@
         "Økologisk piskefløde 38%"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "cream"
@@ -52883,8 +52883,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|okologisk revet havarti|cheese": {
-      "stableProductKey": "v1|okologisk revet havarti|cheese",
+    "v1|okologisk revet havarti|cheese_grated": {
+      "stableProductKey": "v1|okologisk revet havarti|cheese_grated",
       "canonicalNames": [
         "Økologisk revet havarti"
       ],
@@ -52892,7 +52892,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "foetex"
@@ -53633,8 +53633,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|ost|cheese": {
-      "stableProductKey": "v1|ost|cheese",
+    "v1|ost|cheese_other": {
+      "stableProductKey": "v1|ost|cheese_other",
       "canonicalNames": [
         "Ost"
       ],
@@ -53642,7 +53642,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "lidl"
@@ -54876,8 +54876,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|panini med skinke og ost|cheese": {
-      "stableProductKey": "v1|panini med skinke og ost|cheese",
+    "v1|panini med skinke og ost|cheese_other": {
+      "stableProductKey": "v1|panini med skinke og ost|cheese_other",
       "canonicalNames": [
         "Panini med skinke og ost"
       ],
@@ -54885,7 +54885,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "lidl"
@@ -55675,8 +55675,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|philadelphia flodeost|cheese": {
-      "stableProductKey": "v1|philadelphia flodeost|cheese",
+    "v1|philadelphia flodeost|cheese_spreadable": {
+      "stableProductKey": "v1|philadelphia flodeost|cheese_spreadable",
       "canonicalNames": [
         "PHILADELPHIA Flødeost"
       ],
@@ -55684,7 +55684,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_spreadable"
       ],
       "stores": [
         "lidl"
@@ -55775,8 +55775,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|piatnica hytteost|cheese": {
-      "stableProductKey": "v1|piatnica hytteost|cheese",
+    "v1|piatnica hytteost|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|piatnica hytteost|cheese_cottage_ricotta",
       "canonicalNames": [
         "PIATNICA Hytteost"
       ],
@@ -55784,7 +55784,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "lidl"
@@ -55831,7 +55831,7 @@
         "PIATNICA Hytteost"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -56082,7 +56082,7 @@
         "PLOMBIR Kefir"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -57099,8 +57099,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|puck ost eller taverna halloumi grillost|cheese": {
-      "stableProductKey": "v1|puck ost eller taverna halloumi grillost|cheese",
+    "v1|puck ost eller taverna halloumi grillost|cheese_mixed_offer": {
+      "stableProductKey": "v1|puck ost eller taverna halloumi grillost|cheese_mixed_offer",
       "canonicalNames": [
         "Puck ost eller Taverna halloumi grillost"
       ],
@@ -57108,7 +57108,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mixed_offer"
       ],
       "stores": [
         "netto"
@@ -57149,8 +57149,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|puck ost|cheese": {
-      "stableProductKey": "v1|puck ost|cheese",
+    "v1|puck ost|cheese_other": {
+      "stableProductKey": "v1|puck ost|cheese_other",
       "canonicalNames": [
         "Puck ost"
       ],
@@ -57158,7 +57158,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "bilka",
@@ -57223,8 +57223,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|puck salatost|cheese_fresh": {
-      "stableProductKey": "v1|puck salatost|cheese_fresh",
+    "v1|puck salatost|cheese_feta_white": {
+      "stableProductKey": "v1|puck salatost|cheese_feta_white",
       "canonicalNames": [
         "PUCK Salatost"
       ],
@@ -57232,7 +57232,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese_fresh"
+        "cheese_feta_white"
       ],
       "stores": [
         "lidl"
@@ -57284,7 +57284,7 @@
         "vegetables"
       ],
       "comparisonGroups": [
-        "cheese_fresh",
+        "cheese_feta_white",
         "leafy_green"
       ],
       "stores": [
@@ -59383,7 +59383,7 @@
         "REMA 1000 hakket dansk oksekød 15-18% eller Burger Boost"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -60504,8 +60504,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 ost i skiver|cheese": {
-      "stableProductKey": "v1|rema 1000 ost i skiver|cheese",
+    "v1|rema 1000 ost i skiver|cheese_sliced": {
+      "stableProductKey": "v1|rema 1000 ost i skiver|cheese_sliced",
       "canonicalNames": [
         "REMA 1000 Ost i skiver"
       ],
@@ -60513,7 +60513,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "rema"
@@ -62455,8 +62455,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|riberhus danbo skiveost|cheese": {
-      "stableProductKey": "v1|riberhus danbo skiveost|cheese",
+    "v1|riberhus danbo skiveost|cheese_sliced": {
+      "stableProductKey": "v1|riberhus danbo skiveost|cheese_sliced",
       "canonicalNames": [
         "RIBERHUS Danbo skiveost"
       ],
@@ -62464,7 +62464,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "lidl"
@@ -62505,8 +62505,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|riberhus danbo|cheese": {
-      "stableProductKey": "v1|riberhus danbo|cheese",
+    "v1|riberhus danbo|cheese_danish_table": {
+      "stableProductKey": "v1|riberhus danbo|cheese_danish_table",
       "canonicalNames": [
         "RIBERHUS Danbo"
       ],
@@ -62514,7 +62514,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -62555,8 +62555,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|riberhus ost|cheese": {
-      "stableProductKey": "v1|riberhus ost|cheese",
+    "v1|riberhus ost|cheese_danish_table": {
+      "stableProductKey": "v1|riberhus ost|cheese_danish_table",
       "canonicalNames": [
         "RIBERHUS Ost"
       ],
@@ -62564,7 +62564,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -62605,8 +62605,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|riberhus skiveost|cheese": {
-      "stableProductKey": "v1|riberhus skiveost|cheese",
+    "v1|riberhus skiveost|cheese_sliced": {
+      "stableProductKey": "v1|riberhus skiveost|cheese_sliced",
       "canonicalNames": [
         "Riberhus skiveost"
       ],
@@ -62614,7 +62614,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "netto"
@@ -62761,7 +62761,7 @@
         "Risifrutti, Yoggi yoghurt eller Arla Protein budding eller mousse"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -63561,7 +63561,7 @@
         "ROSE Hakket kylling"
       ],
       "categoryIds": [
-        "chicken"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "chicken_minced"
@@ -66790,7 +66790,7 @@
         "Skyr*"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -68258,8 +68258,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|sol mar osteplatte eller manchego corado|cheese": {
-      "stableProductKey": "v1|sol mar osteplatte eller manchego corado|cheese",
+    "v1|sol mar osteplatte eller manchego corado|cheese_mixed_offer": {
+      "stableProductKey": "v1|sol mar osteplatte eller manchego corado|cheese_mixed_offer",
       "canonicalNames": [
         "SOL&MAR Osteplatte eller manchego corado"
       ],
@@ -68267,7 +68267,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mixed_offer"
       ],
       "stores": [
         "lidl"
@@ -69611,7 +69611,7 @@
         "Stay Strong skyr eller koldskål"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -71628,8 +71628,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|them klovborg faetter kras eller danbo|cheese": {
-      "stableProductKey": "v1|them klovborg faetter kras eller danbo|cheese",
+    "v1|them klovborg faetter kras eller danbo|cheese_danish_table": {
+      "stableProductKey": "v1|them klovborg faetter kras eller danbo|cheese_danish_table",
       "canonicalNames": [
         "THEM/KLOVBORG Fætter Kras eller Danbo"
       ],
@@ -71637,7 +71637,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "lidl"
@@ -71678,8 +71678,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|them ost|cheese": {
-      "stableProductKey": "v1|them ost|cheese",
+    "v1|them ost|cheese_other": {
+      "stableProductKey": "v1|them ost|cheese_other",
       "canonicalNames": [
         "Them ost"
       ],
@@ -71687,7 +71687,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_other"
       ],
       "stores": [
         "rema"
@@ -71728,8 +71728,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|them revet ost|cheese": {
-      "stableProductKey": "v1|them revet ost|cheese",
+    "v1|them revet ost|cheese_grated": {
+      "stableProductKey": "v1|them revet ost|cheese_grated",
       "canonicalNames": [
         "THEM Revet ost"
       ],
@@ -71737,7 +71737,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_grated"
       ],
       "stores": [
         "lidl"
@@ -71778,8 +71778,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|thise okologisk blue tapas eller skiveost|cheese": {
-      "stableProductKey": "v1|thise okologisk blue tapas eller skiveost|cheese",
+    "v1|thise okologisk blue tapas eller skiveost|cheese_mixed_offer": {
+      "stableProductKey": "v1|thise okologisk blue tapas eller skiveost|cheese_mixed_offer",
       "canonicalNames": [
         "Thise økologisk blue, tapas- eller skiveost"
       ],
@@ -71787,7 +71787,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mixed_offer"
       ],
       "stores": [
         "kvickly"
@@ -71828,8 +71828,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|thise okologisk burrata eller mozzarella|cheese": {
-      "stableProductKey": "v1|thise okologisk burrata eller mozzarella|cheese",
+    "v1|thise okologisk burrata eller mozzarella|cheese_mozzarella_burrata": {
+      "stableProductKey": "v1|thise okologisk burrata eller mozzarella|cheese_mozzarella_burrata",
       "canonicalNames": [
         "Thise økologisk burrata eller mozzarella*"
       ],
@@ -71837,7 +71837,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mozzarella_burrata"
       ],
       "stores": [
         "365"
@@ -71884,7 +71884,7 @@
         "Thise økologisk græsk inspireret yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -71984,7 +71984,7 @@
         "Thise økologisk jerseymælk, creme fraiche eller fraiche"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "mixed_dairy"
@@ -72084,7 +72084,7 @@
         "Thise økologisk kærnemælk eller skyr med topping"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "cream_cold_dairy"
       ],
       "comparisonGroups": [
         "mixed_dairy"
@@ -72134,7 +72134,7 @@
         "Thise økologisk laktosefri koldskål*"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -72178,8 +72178,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|thise okologisk skaereost|cheese": {
-      "stableProductKey": "v1|thise okologisk skaereost|cheese",
+    "v1|thise okologisk skaereost|cheese_danish_table": {
+      "stableProductKey": "v1|thise okologisk skaereost|cheese_danish_table",
       "canonicalNames": [
         "Thise økologisk skæreost"
       ],
@@ -72187,7 +72187,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_danish_table"
       ],
       "stores": [
         "365",
@@ -72252,8 +72252,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|thise okologisk skiveost|cheese": {
-      "stableProductKey": "v1|thise okologisk skiveost|cheese",
+    "v1|thise okologisk skiveost|cheese_sliced": {
+      "stableProductKey": "v1|thise okologisk skiveost|cheese_sliced",
       "canonicalNames": [
         "Thise økologisk skiveost"
       ],
@@ -72261,7 +72261,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_sliced"
       ],
       "stores": [
         "kvickly"
@@ -72308,7 +72308,7 @@
         "Thise økologisk yoghurt eller acido"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -72402,8 +72402,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|tjia hytteostsalat|cheese": {
-      "stableProductKey": "v1|tjia hytteostsalat|cheese",
+    "v1|tjia hytteostsalat|cheese_cottage_ricotta": {
+      "stableProductKey": "v1|tjia hytteostsalat|cheese_cottage_ricotta",
       "canonicalNames": [
         "Tjia hytteostsalat"
       ],
@@ -72411,7 +72411,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_cottage_ricotta"
       ],
       "stores": [
         "netto"
@@ -72458,7 +72458,7 @@
         "Tjia hytteostsalat"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -74877,7 +74877,7 @@
         "VARÉNA Kvarkbar"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -75327,7 +75327,7 @@
         "Velsmag hakket oksekød 14-18% eller hakket okse- og grisekød 8-12%"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "mixed_minced"
@@ -75377,7 +75377,7 @@
         "Velsmag hakket oksekød 8-12%"
       ],
       "categoryIds": [
-        "beef"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "beef_minced"
@@ -76027,7 +76027,7 @@
         "Xtra! hakket kylling 7-10%"
       ],
       "categoryIds": [
-        "chicken"
+        "minced_meat"
       ],
       "comparisonGroups": [
         "chicken_minced"
@@ -76651,7 +76651,7 @@
         "Yoggi yoghurt"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -76751,7 +76751,7 @@
         "Yopro proteindrikkeyoghurt eller Activia kefirdrik"
       ],
       "categoryIds": [
-        "yoghurt_cream"
+        "yoghurt"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -76795,8 +76795,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|zanetti burrata|cheese": {
-      "stableProductKey": "v1|zanetti burrata|cheese",
+    "v1|zanetti burrata|cheese_mozzarella_burrata": {
+      "stableProductKey": "v1|zanetti burrata|cheese_mozzarella_burrata",
       "canonicalNames": [
         "Zanetti burrata"
       ],
@@ -76804,7 +76804,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mozzarella_burrata"
       ],
       "stores": [
         "foetex"
@@ -76845,8 +76845,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese": {
-      "stableProductKey": "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese",
+    "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese_aged_hard": {
+      "stableProductKey": "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese_aged_hard",
       "canonicalNames": [
         "Zanetti Grana Padano, Parmigiano Reggiano eller Pecorino Romano"
       ],
@@ -76854,7 +76854,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_aged_hard"
       ],
       "stores": [
         "foetex"
@@ -76895,8 +76895,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|zanetti mozzarella|cheese": {
-      "stableProductKey": "v1|zanetti mozzarella|cheese",
+    "v1|zanetti mozzarella|cheese_mozzarella_burrata": {
+      "stableProductKey": "v1|zanetti mozzarella|cheese_mozzarella_burrata",
       "canonicalNames": [
         "Zanetti mozzarella"
       ],
@@ -76904,7 +76904,7 @@
         "cheese"
       ],
       "comparisonGroups": [
-        "cheese"
+        "cheese_mozzarella_burrata"
       ],
       "stores": [
         "netto"

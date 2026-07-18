@@ -110,7 +110,7 @@ test('uses product identity rather than flavour words or brand fragments', () =>
   assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
   assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'beef_steak');
   assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'chicken_breaded');
-  assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese');
+  assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese_spreadable');
   assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');
   assert.equal(classifyOffer({ heading:'Nordthy Mini ris- eller majskiks' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Skagenfood koldrøget laks' }).comparisonGroup, 'salmon_smoked');
@@ -153,4 +153,16 @@ test('splits overloaded parent categories into practical shopping aisles', () =>
   assert.equal(classifyOffer({ heading:'Marabou chokolade' }).categoryId, 'candy_chocolate');
   assert.equal(classifyOffer({ heading:'Oreo cookies' }).categoryId, 'biscuits_cakes');
   assert.equal(classifyOffer({ heading:'Bacon i skiver' }).categoryId, 'sausages_deli');
+});
+
+test('automatically separates mince, yoghurt, cold dairy, and cheese forms', () => {
+  for (const heading of ['Hakket kyllingekød', 'Hakket kalkunkød', 'Hakket grisekød', 'Hakket oksekød', 'Hakket grise- og oksekød']) {
+    assert.equal(classifyOffer({ heading }).categoryId, 'minced_meat', heading);
+  }
+  assert.equal(classifyOffer({ heading:'Skyr med vanilje' }).categoryId, 'yoghurt');
+  assert.equal(classifyOffer({ heading:'Piskefløde 38%' }).categoryId, 'cream_cold_dairy');
+  assert.equal(classifyOffer({ heading:'Klovborg Danbo skiveost' }).comparisonGroup, 'cheese_sliced');
+  assert.equal(classifyOffer({ heading:'Karolines Køkken revet ost' }).comparisonGroup, 'cheese_grated');
+  assert.equal(classifyOffer({ heading:'Milbona Mozzarella' }).comparisonGroup, 'cheese_mozzarella_burrata');
+  assert.equal(classifyOffer({ heading:'Milbona Græsk feta' }).comparisonGroup, 'cheese_feta_white');
 });

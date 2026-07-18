@@ -1,20 +1,59 @@
 import fs from 'node:fs/promises';
 
-import { refineAtlantaCategory } from './lib/flipp-client.mjs';
-import { AARHUS_CATEGORIES, refineAarhusCategory } from './lib/taxonomy.mjs';
+import { ATLANTA_COMPARISON_GROUPS, refineAtlantaCategory, refineAtlantaComparisonGroup } from './lib/flipp-client.mjs';
+import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, normalizedText, refineAarhusCategory, refineAarhusComparisonGroup } from './lib/taxonomy.mjs';
 
 const read = async path => JSON.parse(await fs.readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 const write = async (path, value) => fs.writeFile(new URL(`../${path}`, import.meta.url), `${JSON.stringify(value, null, 2)}\n`);
 const now = new Date().toISOString();
+const descriptionKey = (name, comparisonGroup) => `v1|${normalizedText(name)}|${comparisonGroup}`;
+
+function refineAarhusRecord(record, name = record.originalName) {
+  const comparisonGroup = refineAarhusComparisonGroup(record.comparisonGroup, name);
+  return {
+    ...record,
+    categoryId: refineAarhusCategory(record.categoryId, comparisonGroup),
+    comparisonGroup,
+    ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, comparisonGroup) } : {}),
+  };
+}
+
+function migrateKnowledgeEntries(entries) {
+  const next = {};
+  for (const [oldKey, value] of Object.entries(entries)) {
+    if (value.status === 'excluded') {
+      next[oldKey] = value;
+      continue;
+    }
+    const name = value.originalName || oldKey.split('|')[1];
+    const migrated = refineAarhusRecord(value, name);
+    const newKey = descriptionKey(name, migrated.comparisonGroup);
+    if (next[newKey]) throw new Error(`Duplicate migrated product knowledge key: ${newKey}`);
+    next[newKey] = migrated;
+  }
+  return next;
+}
+
+function refineAtlantaRecord(record, name = record.originalName) {
+  const comparisonGroup = refineAtlantaComparisonGroup(record.comparisonGroup, name);
+  return {
+    ...record,
+    categoryId: refineAtlantaCategory(record.categoryId, comparisonGroup),
+    comparisonGroup,
+  };
+}
 
 const atlantaCategories = [
   ['vegetables', '蔬菜', '🥬', '#3F7147', '新鲜蔬菜、沙拉和预制蔬菜配菜按品种显示。'],
   ['fruit', '水果', '🍎', '#8A4B3D', '新鲜水果和切配水果按品种、包装与重量显示。'],
   ['produce_mixed', '果蔬组合', '🥗', '#5B7650', '无法归入单一品种的果蔬组合和混合加餐。'],
+  ['minced_meat', '肉末', '🥟', '#7A4A3A', '牛肉末、鸡肉末和猪肉末集中分组比较。'],
   ['fresh_meat', '生鲜肉类', '🥩', '#74423C', '鸡、牛、猪和羊的生鲜部位按商品原名保留。'],
   ['deli_prepared', '熟食、香肠与加工肉', '🥓', '#8A5140', '熟制鸡肉、香肠、培根、冷切和其他加工肉食。'],
   ['seafood', '鱼类海鲜', '🐟', '#236A7A', '鱼类和海鲜优惠；鲜品、冷冻和熟制品分别看待。'],
-  ['dairy', '乳制品鸡蛋', '🥛', '#9A7A25', '牛奶、奶酪、酸奶和鸡蛋优惠。'],
+  ['yoghurt', '酸奶', '🥣', '#9A7A25', '普通酸奶和希腊式酸奶集中展示。'],
+  ['cheese', '奶酪', '🧀', '#A26F2D', '切片、刨丝、奶酪棒、餐桌奶酪和奶酪小食按形态分组。'],
+  ['dairy', '牛奶、奶油与鸡蛋', '🥛', '#8A7E42', '牛奶、奶油、黄油和鸡蛋等其他乳品。'],
   ['bakery', '面包烘焙', '🍞', '#8A6B32', '面包、贝果、蛋糕和其他烘焙食品优惠。'],
   ['frozen', '冷冻食品', '🧊', '#815187', '冷冻主食、披萨、冰淇淋和其他冷冻食品。'],
   ['pantry', '主食调味', '🥫', '#8A5A24', '米面、谷物、罐头、酱料和常温食品。'],
@@ -29,68 +68,75 @@ const atlantaCategories = [
 
 const aarhus = await read('data/current_offers.json');
 aarhus.categories = AARHUS_CATEGORIES;
-aarhus.offers = aarhus.offers.map(offer => ({
-  ...offer,
-  categoryId: refineAarhusCategory(offer.categoryId, offer.comparisonGroup),
-}));
+aarhus.comparisonGroups = AARHUS_COMPARISON_GROUPS;
+aarhus.offers = aarhus.offers.map(offer => refineAarhusRecord(offer));
 aarhus.metadata.contentUpdatedAt = now;
 await write('data/current_offers.json', aarhus);
 
 const taxonomy = await read('data/product_taxonomy_zh.json');
-for (const entry of Object.values(taxonomy.entries)) {
-  if (entry.status !== 'excluded') entry.categoryId = refineAarhusCategory(entry.categoryId, entry.comparisonGroup);
-}
+taxonomy.entries = migrateKnowledgeEntries(taxonomy.entries);
 taxonomy.updatedAt = now;
 await write('data/product_taxonomy_zh.json', taxonomy);
 
 const descriptions = await read('data/product_descriptions_zh.json');
-for (const entry of Object.values(descriptions.entries)) {
-  entry.categoryId = refineAarhusCategory(entry.categoryId, entry.comparisonGroup);
-}
+descriptions.entries = migrateKnowledgeEntries(descriptions.entries);
 descriptions.updatedAt = now;
 await write('data/product_descriptions_zh.json', descriptions);
 
 const descriptionPending = await read('data/product_descriptions_pending.json');
-descriptionPending.items = descriptionPending.items.map(item => ({
-  ...item,
-  categoryId: refineAarhusCategory(item.categoryId, item.comparisonGroup),
-}));
+descriptionPending.items = descriptionPending.items.map(item => refineAarhusRecord(item));
 await write('data/product_descriptions_pending.json', descriptionPending);
 
 const taxonomyPending = await read('data/product_taxonomy_pending.json');
-taxonomyPending.items = taxonomyPending.items.map(item => ({
-  ...item,
-  currentCategoryId: refineAarhusCategory(item.currentCategoryId, item.currentComparisonGroup),
-}));
+taxonomyPending.items = taxonomyPending.items.map(item => {
+  const currentComparisonGroup = refineAarhusComparisonGroup(item.currentComparisonGroup, item.originalName);
+  return {
+    ...item,
+    descriptionKey: descriptionKey(item.originalName, currentComparisonGroup),
+    currentCategoryId: refineAarhusCategory(item.currentCategoryId, currentComparisonGroup),
+    currentComparisonGroup,
+  };
+});
 await write('data/product_taxonomy_pending.json', taxonomyPending);
 
 const identityHistory = await read('data/product_identity_history.json');
-for (const product of Object.values(identityHistory.products)) {
-  const refined = new Set();
+const migratedProducts = {};
+for (const [oldKey, product] of Object.entries(identityHistory.products)) {
+  const name = product.canonicalNames?.[0] || oldKey.split('|')[1];
+  const oldPrimaryGroup = oldKey.split('|').at(-1);
+  const primaryGroup = refineAarhusComparisonGroup(oldPrimaryGroup, name);
+  const groups = [...new Set((product.comparisonGroups || [oldPrimaryGroup]).map(group => refineAarhusComparisonGroup(group, name)))];
+  const categories = new Set();
   for (const categoryId of product.categoryIds || []) {
-    for (const comparisonGroup of product.comparisonGroups || []) refined.add(refineAarhusCategory(categoryId, comparisonGroup));
+    for (const comparisonGroup of groups) categories.add(refineAarhusCategory(categoryId, comparisonGroup));
   }
-  product.categoryIds = [...refined];
+  const newKey = descriptionKey(name, primaryGroup);
+  if (migratedProducts[newKey]) throw new Error(`Duplicate migrated product identity: ${newKey}`);
+  migratedProducts[newKey] = {
+    ...product,
+    stableProductKey: newKey,
+    categoryIds: [...categories],
+    comparisonGroups: groups,
+  };
 }
+identityHistory.products = migratedProducts;
 identityHistory.updatedAt = now;
 await write('data/product_identity_history.json', identityHistory);
 
 const history = await read('data/history.json');
-for (const offer of history) offer.categoryId = refineAarhusCategory(offer.categoryId, offer.comparisonGroup);
+for (let index = 0; index < history.length; index += 1) history[index] = refineAarhusRecord(history[index]);
 await write('data/history.json', history);
 
 const atlanta = await read('data/atlanta_offers.json');
 atlanta.categories = atlantaCategories;
-atlanta.offers = atlanta.offers.map(offer => ({
-  ...offer,
-  categoryId: refineAtlantaCategory(offer.categoryId, offer.comparisonGroup),
-}));
+atlanta.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
+atlanta.offers = atlanta.offers.map(offer => refineAtlantaRecord(offer));
 atlanta.metadata.contentUpdatedAt = now;
 await write('data/atlanta_offers.json', atlanta);
 
 const atlantaKnowledge = await read('data/atlanta_product_knowledge_zh.json');
 for (const entry of Object.values(atlantaKnowledge.entries)) {
-  entry.categoryId = refineAtlantaCategory(entry.categoryId, entry.comparisonGroup);
+  Object.assign(entry, refineAtlantaRecord(entry));
 }
 atlantaKnowledge.updatedAt = now;
 await write('data/atlanta_product_knowledge_zh.json', atlantaKnowledge);

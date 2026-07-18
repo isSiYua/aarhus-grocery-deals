@@ -10,9 +10,9 @@ test('service worker refreshes online resources and immediately activates update
   assert.match(source, /await caches\.match\(request\)/);
   assert.match(source, /self\.skipWaiting\(\)/);
   assert.match(source, /self\.clients\.claim\(\)/);
-  assert.match(source, /aarhus-grocery-v18/);
-  assert.match(source, /styles\.css\?v=18/);
-  assert.match(source, /app\.js\?v=18/);
-  assert.match(html, /styles\.css\?v=18/);
-  assert.match(html, /app\.js\?v=18/);
+  assert.match(source, /aarhus-grocery-v19/);
+  assert.match(source, /styles\.css\?v=19/);
+  assert.match(source, /app\.js\?v=19/);
+  assert.match(html, /styles\.css\?v=19/);
+  assert.match(html, /app\.js\?v=19/);
 });

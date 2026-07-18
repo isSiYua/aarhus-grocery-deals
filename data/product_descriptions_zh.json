@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T20:14:03.853Z",
+  "updatedAt": "2026-07-18T20:38:26.959Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
@@ -910,7 +910,7 @@
       "descriptionZh": "希腊酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Antos græsk yoghurt",
       "originalDescription": "2% eller 10% 1 kg",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -946,7 +946,7 @@
       "descriptionZh": "开菲尔发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Arla Cultura Kefir eller A38",
       "originalDescription": "1 liter. Flere varianter.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -964,7 +964,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Arla Cultura Yoghurt eller drik",
       "originalDescription": "Laktosefri 450 g/330 ml. 22.22 pr. kg/30.30 pr. liter",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -982,7 +982,7 @@
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Arla eller Cheasy koldskål",
       "originalDescription": "1 liter.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1013,13 +1013,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8nphpyDk%2Fp-19.webp&w=1000&x1r=0.016&x2r=0.49&y1r=0.014&y2r=0.495&s=15a382650dc085999534a8fc481cab27"
       }
     },
-    "v1|arla klovborg mellemlagret danbo 45|cheese": {
+    "v1|arla klovborg mellemlagret danbo 45|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Arla Klovborg® Mellemlagret Danbo 45+",
       "originalDescription": "Arla Klovborg® Til enhver smag. Osten, alle kan mødes om. 553g. Pr. kg. 97,65",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1031,13 +1031,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-31.webp&w=1000&x1r=0.45&x2r=0.96&y1r=0.06&y2r=0.98&s=c733157565d21ccd94e6a17955f1b907"
       }
     },
-    "v1|arla laktosefri friskost|cheese": {
+    "v1|arla laktosefri friskost|cheese_cottage_ricotta": {
       "productNameZh": "新鲜奶油奶酪",
       "descriptionZh": "新鲜奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Arla laktosefri friskost*",
       "originalDescription": "200 g. Kg-pris 75,00. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1054,7 +1054,7 @@
       "descriptionZh": "淡奶油/打发奶油。这是跨牛奶、奶油、酸奶或奶酪的任选促销；形态和用途不同，不能当作同一种乳制品比较最低价。",
       "originalName": "Arla laktosefri mælk eller piskefløde",
       "originalDescription": "250-1000 ml. Literpris maks. 60,00. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "mixed_dairy",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1090,7 +1090,7 @@
       "descriptionZh": "淡奶油/打发奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "Arla laktosefri piskefløde",
       "originalDescription": "250 ml. Literpris 60,00. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1144,7 +1144,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Arla yoghurt",
       "originalDescription": "Økologisk 1 liter Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 22.95 pr. stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1180,7 +1180,7 @@
       "descriptionZh": "希腊酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Athena autentisk græsk yoghurt",
       "originalDescription": "900 g. Pr. kg 32,22",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1198,7 +1198,7 @@
       "descriptionZh": "希腊酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Athena græsk yoghurt",
       "originalDescription": "400 g. Flere varianter. Pr. kg 37,50",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1949,13 +1949,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-48.webp&w=1000&x1r=0.027&x2r=0.485&y1r=0.03&y2r=0.252&s=3de6306f8ba7839d285fa5746cbb986d"
       }
     },
-    "v1|bornholmsk ost|cheese": {
+    "v1|bornholmsk ost|cheese_other": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Bornholmsk ost",
       "originalDescription": "100-125 g Max. 120.00 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2039,13 +2039,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-11.webp&w=1000&x1r=0.046&x2r=0.957&y1r=0.672&y2r=0.956&s=7b1be8e7222abe167b2ccf51442c6655"
       }
     },
-    "v1|buko flodeost naturel eller pikant|cheese": {
+    "v1|buko flodeost naturel eller pikant|cheese_spreadable": {
       "productNameZh": "奶油奶酪",
       "descriptionZh": "奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "BUKO Flødeost naturel eller pikant",
       "originalDescription": "200 g / stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2057,13 +2057,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.4979&x2r=0.9926&y1r=0.7081&y2r=0.9474&s=a64ab2fff952a97d2a408a46d44d861c"
       }
     },
-    "v1|buko flodeost|cheese": {
+    "v1|buko flodeost|cheese_spreadable": {
       "productNameZh": "奶油奶酪",
       "descriptionZh": "奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Buko flødeost",
       "originalDescription": "150-200 g. Pr. kg max. 66,67",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2075,13 +2075,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-2.webp&w=1000&x1r=0.01&x2r=0.33&y1r=0.16&y2r=0.56&s=822664134b211bc7fb68ffd84950d607"
       }
     },
-    "v1|buko reje eller skinkeost|cheese": {
+    "v1|buko reje eller skinkeost|cheese_spreadable": {
       "productNameZh": "虾味或火腿味奶油奶酪",
       "descriptionZh": "虾味或火腿味涂抹奶酪，可抹面包、饼干或做三明治；商品主体是奶酪，不是虾或火腿冷切。",
       "originalName": "BUKO Reje- eller skinkeost",
       "originalDescription": "200 g / pk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2093,13 +2093,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.0127&x2r=0.5108&y1r=0.0942&y2r=0.4618&s=166c9dda4a20e0d71bc004414b56947b"
       }
     },
-    "v1|buko smelteost eller castello dessertost|cheese": {
+    "v1|buko smelteost eller castello dessertost|cheese_mixed_offer": {
       "productNameZh": "加工融化奶酪",
       "descriptionZh": "加工融化奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Buko smelteost eller Castello dessertost",
       "originalDescription": "125-200 g. Flere varianter. Pr. kg max. 160,-",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2111,13 +2111,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-38.webp&w=1000&x1r=0.505&x2r=0.722&y1r=0.225&y2r=0.495&s=849e9109acfa99fa638a16263aca4c9a"
       }
     },
-    "v1|buko smoreost|cheese": {
+    "v1|buko smoreost|cheese_spreadable": {
       "productNameZh": "涂抹奶酪",
       "descriptionZh": "涂抹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Buko smøreost",
       "originalDescription": "200 g. Kg-pris 75,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2291,13 +2291,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-9.webp&w=1000&x1r=0.02&x2r=0.98&y1r=0.02&y2r=0.468&s=9a9da089884c6d94b7b7bb805568eac0"
       }
     },
-    "v1|castello aged havarti eller gouda|cheese": {
+    "v1|castello aged havarti eller gouda|cheese_danish_table": {
       "productNameZh": "哈瓦蒂奶酪",
       "descriptionZh": "哈瓦蒂奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Castello Aged Havarti eller Gouda",
       "originalDescription": "200 g 125.00 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2309,13 +2309,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-9.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.735&y2r=0.99&s=f8deed8c7e765baaad11398564932887"
       }
     },
-    "v1|castello blaaskimmelost|cheese": {
+    "v1|castello blaaskimmelost|cheese_soft_mould": {
       "productNameZh": "蓝纹奶酪",
       "descriptionZh": "蓝纹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "CASTELLO Blåskimmelost",
       "originalDescription": "150 g / stk. Pr. kg. 133,00.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_soft_mould",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2327,13 +2327,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.4988&x2r=0.9941&y1r=0.7117&y2r=0.9475&s=42ce3b6fc94d0b24eb81c9687f6e6082"
       }
     },
-    "v1|castello smorbar ost|cheese": {
+    "v1|castello smorbar ost|cheese_spreadable": {
       "productNameZh": "涂抹奶酪",
       "descriptionZh": "涂抹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "CASTELLO Smørbar ost",
       "originalDescription": "170 g. Pr. kg 105,88 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2363,13 +2363,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-10.webp&w=1000&x1r=0.5&x2r=1&y1r=0.74&y2r=1&s=237411e9c62eb2e427b72d8e50219eee"
       }
     },
-    "v1|cheasy eller klovborg skaereost|cheese": {
+    "v1|cheasy eller klovborg skaereost|cheese_danish_table": {
       "productNameZh": "块状切片奶酪",
       "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Cheasy eller Klovborg skæreost",
       "originalDescription": "Min. 495 g. Kg-pris maks. 111,11. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2381,13 +2381,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F449b431776adb42ce2b03c9b283dad85%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F3d8293ad3182dff12bc9ba7860a38a22&w=1000&s=7b6e001e585cc60fbb06b1b32a7c8ed7"
       }
     },
-    "v1|cheasy hytteost|cheese": {
+    "v1|cheasy hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "CHEASY Hytteost",
       "originalDescription": "500 g. Pr. kg 40,00 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2399,13 +2399,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0.74&y2r=0.95&s=8365d853ea09756ee28aefbc8ec4c245"
       }
     },
-    "v1|cheasy ost|cheese": {
+    "v1|cheasy ost|cheese_other": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "CHEASY Ost",
       "originalDescription": "Mild. 468-633 g / stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2417,13 +2417,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrR1wWdCy%2Fp-22.webp&w=1000&x1r=0.4732&x2r=0.9959&y1r=0.7021&y2r=0.9469&s=855244a7fefa28409f00967480d4bc5d"
       }
     },
-    "v1|cheasy skiveost eller dairy good hytteost|cheese": {
+    "v1|cheasy skiveost eller dairy good hytteost|cheese_mixed_offer": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Cheasy skiveost eller Dairy good hytteost",
       "originalDescription": "200-450 g. Flere varianter. Pr. kg max. 110,-",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2440,7 +2440,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Cheasy yoghurt",
       "originalDescription": "1 liter. Flere varianter.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2993,13 +2993,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1cfdd7a31ba162674da0329dacbac00f&w=1000&s=dc1b0fbdff61a717b1c09e3d83c973c6"
       }
     },
-    "v1|coop grana padano|cheese": {
+    "v1|coop grana padano|cheese_aged_hard": {
       "productNameZh": "帕达诺/帕玛森硬质奶酪",
       "descriptionZh": "帕达诺/帕玛森硬质奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Coop Grana Padano",
       "originalDescription": "150 g. Kg-pris 166,67. Grana Padano er naturligt laktosefri som de fleste andre hårde oste af parmesantypen, da den indeholder mindre end 0,01 gram laktose pr. 100 g. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3052,7 +3052,7 @@
       "descriptionZh": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "Coop hakket gris & kalv 4-7% eller 8-12%",
       "originalDescription": "400-500 g. Kg-pris maks. 72,50. Frit valg. 1 pakke",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3070,7 +3070,7 @@
       "descriptionZh": "猪肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
       "originalName": "Coop hakket grisekød 4-7% eller 8-12%",
       "originalDescription": "400-500 g. Kg-pris maks. 72,50. Frit valg. 1 pakke",
-      "categoryId": "pork_fresh",
+      "categoryId": "minced_meat",
       "comparisonGroup": "pork_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3088,7 +3088,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "Coop hakket oksekød 14-18%",
       "originalDescription": "KØD TIL HVERDAG OG WEEKEND 400 g. Kg-pris 92,50. 1 pakke.",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3371,13 +3371,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0dbb865de78ac7f358b6d1e2759fba01%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F928eee743aadcd2eba94542010a013f9%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F209e56216867ef2dad99449012d8fd14%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff457fc91ace85a390af5b3542732e379&w=1000&s=c89ed65087cc400199311473f68afd7d"
       }
     },
-    "v1|coop skiveost|cheese": {
+    "v1|coop skiveost|cheese_sliced": {
       "productNameZh": "切片奶酪",
       "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Coop skiveost",
       "originalDescription": "200-300 g. Kg-pris maks. 100,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3538,7 +3538,7 @@
       "descriptionZh": "A38 丹麦酸牛奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Cultura A38",
       "originalDescription": "1 kg. Kg-pris 12,00. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3556,7 +3556,7 @@
       "descriptionZh": "开菲尔发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "CULTURA Kefir",
       "originalDescription": "2,3 % fedt. 1 l. Pr. l 15,00 Spot¹",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3574,7 +3574,7 @@
       "descriptionZh": "饮用酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Cultura syrnet drikkeyoghurt eller yoghurt",
       "originalDescription": "Flere varianter. 500 ml/450 g. Literpris maks. 24,00/ Kg-pris 26,67. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3587,13 +3587,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F44b88d944e801feb924c734f08e14cfe&w=1000&s=4d944f585a867dfc7cba9de2c6d76294"
       }
     },
-    "v1|dairy goood revet mozzarella|cheese": {
+    "v1|dairy goood revet mozzarella|cheese_grated": {
       "productNameZh": "刨丝马苏里拉奶酪",
       "descriptionZh": "刨丝马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Dairy goood revet mozzarella",
       "originalDescription": "140 g. Pr. kg 85,71",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3628,7 +3628,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "Danish Crown Burger Boost",
       "originalDescription": "350 g / pk. Pr. kg 114,14",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3646,7 +3646,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "DANISH CROWN Hakket oksekød med 35 % grøntsager",
       "originalDescription": "400 g / pk.",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3682,7 +3682,7 @@
       "descriptionZh": "饮用酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Danone Actimel, Danonino yoghurt eller drikkeyoghurt",
       "originalDescription": "300-400 g\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 21.95 pr. stk.\nMax. 40.00 pr. kg",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3790,7 +3790,7 @@
       "descriptionZh": "鸡肉末。鸡肉末，可做肉丸、饺子馅、肉末炒饭或咖喱。",
       "originalName": "Dansk hakket kylling 7-10%",
       "originalDescription": "400 g.\nPr. kg 62,50",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -4312,7 +4312,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "Dessert skyr eller luftig skyr*",
       "originalDescription": "125-170 g. Kg-pris maks. 72,00. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -4456,7 +4456,7 @@
       "descriptionZh": "酸奶或发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Dr. Oetker fromage",
       "originalDescription": "100 g. Pr. kg 39,70 Normalpris 7,95 Max. 6 stk. pr. kunde pr. dag til 3,97 SPAR 3,98",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -5729,13 +5729,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-1.webp&w=1000&x1r=0.199&x2r=0.966&y1r=0.138&y2r=0.569&s=ed5d0a63cc911752b0f09a5534d6f002"
       }
     },
-    "v1|gouda eller cheddar i tern|cheese": {
+    "v1|gouda eller cheddar i tern|cheese_danish_table": {
       "productNameZh": "高达或切达奶酪",
       "descriptionZh": "高达或切达奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Gouda eller cheddar i tern",
       "originalDescription": "150 g\nPartivare. 80.00 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5860,7 +5860,7 @@
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Gram Slot koldskål",
       "originalDescription": "Økologisk 1 liter",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -5891,13 +5891,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-17.webp&w=1000&x1r=0.457&x2r=0.963&y1r=0.076&y2r=0.702&s=7cdaa04052b4d67ae53560d9f690e7a7"
       }
     },
-    "v1|grana padano eller castello haard ost|cheese": {
+    "v1|grana padano eller castello haard ost|cheese_aged_hard": {
       "productNameZh": "帕达诺/帕玛森硬质奶酪",
       "descriptionZh": "帕达诺/帕玛森硬质奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Grana Padano eller Castello hård ost",
       "originalDescription": "150-200 g. Flere varianter. Pr. kg max. 200.- FRIT VALG",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5999,13 +5999,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-17.webp&w=1000&x1r=0.015&x2r=0.495&y1r=0.045&y2r=0.265&s=5c01267a83189e7c47b3ef8ba6ff9573"
       }
     },
-    "v1|grillost|cheese": {
+    "v1|grillost|cheese_grilling": {
       "productNameZh": "哈罗米烧烤奶酪",
       "descriptionZh": "哈罗米烧烤奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Grillost",
       "originalDescription": "200 g. Pr. kg 90,- 18,-",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grilling",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6089,13 +6089,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZARSfP-V%2Fp-4.webp&w=1000&x1r=0.49&x2r=0.981&y1r=0.085&y2r=0.375&s=6833e99cbb047fde24bc313d63fba022"
       }
     },
-    "v1|gronnelund skaereost|cheese": {
+    "v1|gronnelund skaereost|cheese_danish_table": {
       "productNameZh": "块状切片奶酪",
       "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Grønnelund skæreost",
       "originalDescription": "467-690 g. Pr. kg max. 96.36 FRIT VALG",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6202,7 +6202,7 @@
       "descriptionZh": "火鸡肉末，可做肉丸、汉堡肉饼、饺子馅或肉酱；只与火鸡肉末同类比较。",
       "originalName": "Hakket kalkunkød",
       "originalDescription": "500 g / pk. Pr. kg 55,90",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "turkey_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -6220,7 +6220,7 @@
       "descriptionZh": "牛猪混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "Hakket okse-, okse-/grise- eller kalve-/grisekød",
       "originalDescription": "600 g 1100 g 600-1100 g. 4-7% fedt. Pr. kg max. 131,67",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -6238,7 +6238,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "Hakket oksekød",
       "originalDescription": "MADVÆRKET 14-18 % fedt. 350 g. Pr. kg 91,43 Maks. 3 pk. pr. kunde pr. dag. Med Lidl Plus³ Pr. kg 82,86",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -6899,13 +6899,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-8.webp&w=1000&x1r=0&x2r=1&y1r=0.68&y2r=0.98&s=a4fed081b9138423860ed5b67c449640"
       }
     },
-    "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese": {
+    "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese_mixed_offer": {
       "productNameZh": "高达奶酪",
       "descriptionZh": "高达奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。原名还显示：偏辣。",
       "originalName": "Høng Blåhvid, Landana chili gouda, Président Saint Morgon eller Le Brie Gourmet",
       "originalDescription": "200 g 100.00 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7655,13 +7655,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-15.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.46&y2r=0.74&s=5c60f99d5c036ae87f83643a8c95fe01"
       }
     },
-    "v1|karolines kokken eller cheasy revet ost|cheese": {
+    "v1|karolines kokken eller cheasy revet ost|cheese_grated": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Karolines Køkken eller Cheasy revet ost",
       "originalDescription": "Begrænset parti. 150 g. Kg-pris 120,00. Frit valg. 1 pose",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7678,7 +7678,7 @@
       "descriptionZh": "烹饪奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "KAROLINES KØKKEN Madlavningsfløde",
       "originalDescription": "15 % fedt. 500 ml / stk. Pr. liter. 29,90.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -7696,7 +7696,7 @@
       "descriptionZh": "淡奶油/打发奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "KAROLINES KØKKEN Piskefløde",
       "originalDescription": "500 ml. Pr. l 30,00 Maks. 3 stk. pr. kunde pr. dag. Med Lidl Plus³ Pr. l 24,00",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8033,13 +8033,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fae6d7eb3b4a322c5bb5d1610f0c97597&w=1000&s=a307cc0e6da82b4e7d80616ad2c2d3bb"
       }
     },
-    "v1|klovborg danbo skiveost|cheese": {
+    "v1|klovborg danbo skiveost|cheese_sliced": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "KLOVBORG Danbo skiveost",
       "originalDescription": "Fast. lav pris. Mellemlagret 45+. 240 g / pk. Pr. kg 112,29.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8051,13 +8051,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-21.webp&w=1000&x1r=0.4972&x2r=0.9941&y1r=0.4702&y2r=0.7093&s=6116f7b9616d6a89df06debf68253404"
       }
     },
-    "v1|klovborg danbo|cheese": {
+    "v1|klovborg danbo|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "KLOVBORG Danbo",
       "originalDescription": "Fast lav pris. Mellemlagret 45+. 650 g / stk. Pr. kg 84,54.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8069,13 +8069,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.4939&x2r=0.9931&y1r=0.4643&y2r=0.7109&s=a77b61fdfbf9d4a573edfcbc48d7f667"
       }
     },
-    "v1|klovborg skaereost|cheese": {
+    "v1|klovborg skaereost|cheese_danish_table": {
       "productNameZh": "块状切片奶酪",
       "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Klovborg skæreost",
       "originalDescription": "399-788 g. Flere varianter. Pr. kg max. 135,34",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8087,13 +8087,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-38.webp&w=1000&x1r=0.032&x2r=0.468&y1r=0.038&y2r=0.295&s=396a8f456918b913bf7360e16753faae"
       }
     },
-    "v1|klovborg skiveost|cheese": {
+    "v1|klovborg skiveost|cheese_sliced": {
       "productNameZh": "切片奶酪",
       "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Klovborg skiveost",
       "originalDescription": "165-240 g. Flere varianter. Pr. kg max. 145,45",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8110,7 +8110,7 @@
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Kløver koldskål",
       "originalDescription": "1 liter.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8128,7 +8128,7 @@
       "descriptionZh": "酸奶或发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Kløver naturel sødmælksyoghurt",
       "originalDescription": "1 liter. Pr. stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8519,13 +8519,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-26.webp&w=1000&x1r=0.3602&x2r=0.9989&y1r=0.7232&y2r=0.9433&s=164c9d5b0d6863ddc03bd4779979d6e8"
       }
     },
-    "v1|kuljanka fast ost|cheese": {
+    "v1|kuljanka fast ost|cheese_danish_table": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。原名还显示：烟熏味。",
       "originalName": "KULJANKA Fast ost",
       "originalDescription": "Spot¹ Røget og dampet. 100 g. Pr. kg 120,00",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8915,13 +8915,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-15.webp&w=1000&x1r=0.505&x2r=1&y1r=0.395&y2r=0.76&s=c02f7e0217e08b8b7b3cf8defec7bbc9"
       }
     },
-    "v1|la campagna feta|cheese": {
+    "v1|la campagna feta|cheese_feta_white": {
       "productNameZh": "菲达式白奶酪",
       "descriptionZh": "菲达式白奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "La Campagna feta",
       "originalDescription": "200 g. pr. kg 99,75",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_feta_white",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9329,13 +9329,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-28.webp&w=1000&x1r=0.645&x2r=0.948&y1r=0.045&y2r=0.237&s=480ef42884dde4e52262d320505b5804"
       }
     },
-    "v1|lillebror ostehaps eller coop flodehavarti|cheese": {
+    "v1|lillebror ostehaps eller coop flodehavarti|cheese_danish_table": {
       "productNameZh": "哈瓦蒂奶酪",
       "descriptionZh": "哈瓦蒂奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Lillebror ostehaps eller Coop flødehavarti",
       "originalDescription": "324-400 g. Kg-pris maks. 89,51. Frit valg. 1 pakke/stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9388,7 +9388,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "Løgismose økologisk skyr",
       "originalDescription": "SPOT 800 g. Pr. kg 31,25 + PRIS 20:- Pr. kg 25,00 Gælder kun med Netto+ appen",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -9779,13 +9779,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&w=1000&x1r=0.4999&x2r=0.9722&y1r=0.1191&y2r=0.4577&s=a127fe711b207b27daa9e9b949856363"
       }
     },
-    "v1|madvaerket danbo eller samo|cheese": {
+    "v1|madvaerket danbo eller samo|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Danbo eller Samø",
       "originalDescription": "Spar 27-31 %. Mellemlagret 45+ eller mild 30+. 590-650 g / stk. Pr. kg maks. 67,71.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9797,13 +9797,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-20.webp&w=1000&x1r=0.0069&x2r=0.5146&y1r=0.0328&y2r=0.4621&s=77fc4820128a340df5e52342a88ae320"
       }
     },
-    "v1|madvaerket danbo eller samso skiveost|cheese": {
+    "v1|madvaerket danbo eller samso skiveost|cheese_sliced": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Danbo eller Samsø skiveost",
       "originalDescription": "Gælder fra 10.5. Fast. Mellemlagret 45+ eller mild 30+. 300 g / pk. Pr. kg 76,50.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9815,13 +9815,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-21.webp&w=1000&x1r=0.0116&x2r=0.5133&y1r=0.0647&y2r=0.4528&s=48328135de1fa1fb2c81d3f17e294bf2"
       }
     },
-    "v1|madvaerket danbo med kommen|cheese": {
+    "v1|madvaerket danbo med kommen|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Danbo med kommen",
       "originalDescription": "Mellemlagret 45+. 650 g / stk. Pr. kg 67,71.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9833,13 +9833,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-20.webp&w=1000&x1r=0.007&x2r=0.5&y1r=0.467&y2r=0.7072&s=84b0ef8d568cc250b4a6aff390ee9aea"
       }
     },
-    "v1|madvaerket danbo skiveost|cheese": {
+    "v1|madvaerket danbo skiveost|cheese_sliced": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Danbo skiveost",
       "originalDescription": "Lagret 45+ eller. ekstralagret 45+. 200 g / pk. Pr. kg 99,75.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9851,13 +9851,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-21.webp&w=1000&x1r=0.4933&x2r=0.9915&y1r=0.0607&y2r=0.4622&s=c6e8d1d81ffe66b4280c31c66a43ab16"
       }
     },
-    "v1|madvaerket danbo|cheese": {
+    "v1|madvaerket danbo|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Danbo",
       "originalDescription": "Lagret 45+. 510-624 g / stk. Pr. kg maks. 97,94.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9905,13 +9905,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&w=1000&x1r=0.0091&x2r=0.4984&y1r=0.4685&y2r=0.7081&s=48342f0fcfea8e72b4c0af5342c24d0b"
       }
     },
-    "v1|madvaerket flodehavarti|cheese": {
+    "v1|madvaerket flodehavarti|cheese_danish_table": {
       "productNameZh": "哈瓦蒂奶酪",
       "descriptionZh": "哈瓦蒂奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Flødehavarti",
       "originalDescription": "Fast lav pris. Gælder fra 7.5. Mild 60+. 400 g / stk. Pr. kg 74,88.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10036,7 +10036,7 @@
       "descriptionZh": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "MADVÆRKET Hakket gris og kalv eller hakket gris",
       "originalDescription": "14-18 % fedt. 300 g. Pr. kg 50,00 Spot¹",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10054,7 +10054,7 @@
       "descriptionZh": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "MADVÆRKET Hakket grise- og kalvekød",
       "originalDescription": "8-12 % fedt. 800 g / pk. Pr. kg 56,19",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10072,7 +10072,7 @@
       "descriptionZh": "猪肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
       "originalName": "MADVÆRKET Hakket grisekød",
       "originalDescription": "8-12 % fedt. 800 g / pk. Pr. kg 47,44.",
-      "categoryId": "pork_fresh",
+      "categoryId": "minced_meat",
       "comparisonGroup": "pork_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10090,7 +10090,7 @@
       "descriptionZh": "鸡肉末。鸡肉末，可做肉丸、饺子馅、肉末炒饭或咖喱。",
       "originalName": "MADVÆRKET Hakket kyllingekød",
       "originalDescription": "3-7 % fedt. 400 g / pk. Pr. kg 74,88.",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10108,7 +10108,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "MADVÆRKET Hakket oksekød",
       "originalDescription": "14-18 % fedt. 800 g / pk.",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10288,7 +10288,7 @@
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MADVÆRKET Økologisk koldskål",
       "originalDescription": "1 kg. Pr. kg 16,95 Fast lav pris",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10360,7 +10360,7 @@
       "descriptionZh": "淡奶油/打发奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "MADVÆRKET Piskefløde",
       "originalDescription": "36 % fedt. 500 ml / stk. Pr. liter. Fast. 29,90.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10468,7 +10468,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "MADVÆRKET Skyr naturel eller vanilje",
       "originalDescription": "1000 g / stk. Pr. kg 19,95",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10540,7 +10540,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MADVÆRKET Yoghurt naturel",
       "originalDescription": "1,5-3,5 % fedt. 1000 g / stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10558,7 +10558,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MADVÆRKET Yoghurt",
       "originalDescription": "0,1-3,1 % fedt. 1000 g / stk. Pr. kg 11,95.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -10751,13 +10751,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-38.webp&w=1000&x1r=0.025&x2r=0.5&y1r=0.72&y2r=0.9&s=1f66c2df1f5613ff87d7cb8d5337eb6d"
       }
     },
-    "v1|mammen danbo guld|cheese": {
+    "v1|mammen danbo guld|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MAMMEN Danbo Guld",
       "originalDescription": "Mellemlagret 45+. 650 g / stk. Pr. kg 76,85.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10769,13 +10769,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.0072&x2r=0.5038&y1r=0.4674&y2r=0.7093&s=32308984e7a6baa5665d357778ab5644"
       }
     },
-    "v1|mammen havarti|cheese": {
+    "v1|mammen havarti|cheese_danish_table": {
       "productNameZh": "哈瓦蒂奶酪",
       "descriptionZh": "哈瓦蒂奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MAMMEN Havarti",
       "originalDescription": "140 g / pk. Pr. kg 106,79.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10787,13 +10787,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-21.webp&w=1000&x1r=0.4985&x2r=0.9905&y1r=0.7092&y2r=0.9464&s=034ac5a93962a3c52acd086c80cda092"
       }
     },
-    "v1|mammen hytteost|cheese": {
+    "v1|mammen hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MAMMEN Hytteost",
       "originalDescription": "1,5-4 % fedt. 450 g / stk. Pr. kg 37,67",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10805,13 +10805,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FerxsFalj%2Fp-16.webp&w=1000&x1r=0.4738&x2r=0.9981&y1r=0.7136&y2r=0.9393&s=9fa3d59794e3a906bb66bed4a569161d"
       }
     },
-    "v1|mammen okologisk hytteost|cheese": {
+    "v1|mammen okologisk hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MAMMEN Økologisk hytteost",
       "originalDescription": "4 % fedt. 200 g / stk. Pr. kg 54,75",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10823,13 +10823,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FerxsFalj%2Fp-16.webp&w=1000&x1r=0.0023&x2r=0.4993&y1r=0.7064&y2r=0.9466&s=b6814d15654b761c460500a69157e86b"
       }
     },
-    "v1|mammen ost|cheese": {
+    "v1|mammen ost|cheese_danish_table": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Mammen ost",
       "originalDescription": "Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 59.95 pr. stk. 450-715 g Max. 86.67 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10841,13 +10841,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-2.webp&w=1000&x1r=0.11&x2r=0.98&y1r=0.52&y2r=0.998&s=ea572980982c5a9fd4e07ef996515cbd"
       }
     },
-    "v1|mammen skaereost|cheese": {
+    "v1|mammen skaereost|cheese_danish_table": {
       "productNameZh": "块状切片奶酪",
       "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Mammen skæreost",
       "originalDescription": "STORT STYKKE 900-1100 g. Pr. kg max. 83,33",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10859,13 +10859,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-11.webp&w=1000&x1r=0.49&x2r=0.985&y1r=0.67&y2r=0.97&s=9973cd7ac846b172ddec5c2c8afa55d6"
       }
     },
-    "v1|mammen skiveost|cheese": {
+    "v1|mammen skiveost|cheese_sliced": {
       "productNameZh": "切片奶酪",
       "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MAMMEN Skiveost",
       "originalDescription": "2-pak 2 x 250 g. Pr. kg 90,00 Med Lidl Plus³ Pr. kg 78,00",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11188,7 +11188,7 @@
       "descriptionZh": "猪肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "MesterHakket grise eller oksekød",
       "originalDescription": "MesterHakket er hakket, pakket og lagt i køledisken samme dag. Det kød, vi bruger, kommer fra danske dyr opdrættet hos de bedste danske landmænd. Derfor er det en klar favorit. Gris: 500-550 g. 9-15% fedt. Pr. kg op til 58,00 Okse: 400-450 g. 9-15% fedt. Pr. kg op 122,50 Pr. pk. 49,- Pr. pk. 29,-",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11219,13 +11219,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-3.webp&w=1000&x1r=0.493&x2r=0.726&y1r=0.468&y2r=0.714&s=e6697198d236f4b0e7401f4570d9edcf"
       }
     },
-    "v1|mexitopping|cheese": {
+    "v1|mexitopping|cheese_grated": {
       "productNameZh": "墨西哥菜用刨丝奶酪",
       "descriptionZh": "墨西哥菜用刨丝奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Mexitopping*",
       "originalDescription": "175 g. Kg-pris 68,57. 1 pose",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11273,13 +11273,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&w=1000&x1r=0&x2r=0.515&y1r=0.019&y2r=0.323&s=14c544d1304283c86d0f0b23f5a92575"
       }
     },
-    "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese": {
+    "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese_soft_mould": {
       "productNameZh": "蓝纹奶酪",
       "descriptionZh": "蓝纹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Blåskimmelost eller hvid- og blåskimmelost",
       "originalDescription": "200 g / stk. Pr. kg. 89,75.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_soft_mould",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11291,13 +11291,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.0129&x2r=0.5055&y1r=0.7086&y2r=0.947&s=48d051982a6a017e735228b5d47e806d"
       }
     },
-    "v1|milbona flodeost|cheese": {
+    "v1|milbona flodeost|cheese_spreadable": {
       "productNameZh": "奶油奶酪",
       "descriptionZh": "奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Flødeost",
       "originalDescription": "300 g / pk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11309,13 +11309,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.0156&x2r=0.5058&y1r=0.7125&y2r=0.9468&s=94b67fb87f8f6a4df3669f04bc0eddd0"
       }
     },
-    "v1|milbona gouda eller tilsiter|cheese": {
+    "v1|milbona gouda eller tilsiter|cheese_danish_table": {
       "productNameZh": "高达奶酪",
       "descriptionZh": "高达奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Gouda eller tilsiter",
       "originalDescription": "400 g / pk. Pr. kg 74,88.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11327,13 +11327,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-21.webp&w=1000&x1r=0.0133&x2r=0.5052&y1r=0.7111&y2r=0.9468&s=5c1c7f3fd54205881a85093bed772bfa"
       }
     },
-    "v1|milbona gouda skiveost|cheese": {
+    "v1|milbona gouda skiveost|cheese_sliced": {
       "productNameZh": "高达奶酪",
       "descriptionZh": "高达奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Gouda skiveost",
       "originalDescription": "1000 g / stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11345,13 +11345,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrR1wWdCy%2Fp-22.webp&w=1000&x1r=0.4777&x2r=0.9942&y1r=0.4631&y2r=0.7245&s=68fa21ca656c78aac27e9b860a3c0b56"
       }
     },
-    "v1|milbona graesk feta|cheese": {
+    "v1|milbona graesk feta|cheese_feta_white": {
       "productNameZh": "菲达式白奶酪",
       "descriptionZh": "菲达式白奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Milbona Græsk feta",
       "originalDescription": "200 g / stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_feta_white",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11368,7 +11368,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA Græsk-inspireret yoghurt",
       "originalDescription": "1000 g / stk. Pr. kg 24,95.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11386,7 +11386,7 @@
       "descriptionZh": "希腊酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA Græsk yoghurt",
       "originalDescription": "10 % fedt. 500 g / stk. Pr. kg. 29,90.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11404,7 +11404,7 @@
       "descriptionZh": "酸奶或发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA High Protein budding",
       "originalDescription": "Med vanilje eller chokolade. 4 x 125 g. Pr. kg 40,00 Spot¹",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11440,7 +11440,7 @@
       "descriptionZh": "酸奶或发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA High Protein frugtshots",
       "originalDescription": "400 g. Pr. kg 42,50 Spot¹",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11453,13 +11453,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FcBhZIRay%2Fp-12.webp&w=1000&x1r=0&x2r=0.497&y1r=0.711&y2r=0.939&s=6d42e006e9c945b8fe0023d9173c951f"
       }
     },
-    "v1|milbona high protein ricotta|cheese": {
+    "v1|milbona high protein ricotta|cheese_cottage_ricotta": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA High Protein ricotta",
       "originalDescription": "250 g. Pr. kg 60,00 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11471,13 +11471,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FcBhZIRay%2Fp-12.webp&w=1000&x1r=0&x2r=0.497&y1r=0.5&y2r=0.717&s=0ab017296bce115e04190b06fe43ed2e"
       }
     },
-    "v1|milbona high protein salatost|cheese_fresh": {
+    "v1|milbona high protein salatost|cheese_feta_white": {
       "productNameZh": "沙拉白奶酪",
       "descriptionZh": "沙拉白奶酪。新鲜白奶酪或沙拉奶酪，常切块拌沙拉、夹面包或烘烤；盐度和口感以品种为准。",
       "originalName": "MILBONA High Protein salatost",
       "originalDescription": "150 g. Pr. kg 113,33 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese_fresh",
+      "comparisonGroup": "cheese_feta_white",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11494,7 +11494,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA High Protein yoghurt",
       "originalDescription": "Med granola og hindbær. 185 g. Pr. kg 81,08 Spot¹",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11507,13 +11507,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FcBhZIRay%2Fp-12.webp&w=1000&x1r=0.509&x2r=0.985&y1r=0.719&y2r=0.939&s=31bd1958447bef831f807e1e6e3d6b9b"
       }
     },
-    "v1|milbona hvid ost i blok|cheese": {
+    "v1|milbona hvid ost i blok|cheese_feta_white": {
       "productNameZh": "菲达式白奶酪",
       "descriptionZh": "菲达式白奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Hvid ost i blok",
       "originalDescription": "250 g / stk. Pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_feta_white",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11525,13 +11525,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-18.webp&w=1000&x1r=0.0107&x2r=0.4956&y1r=0.0745&y2r=0.4629&s=95cdd9c6fcc3fd9f4e48ac28fa4be79b"
       }
     },
-    "v1|milbona hytteost|cheese": {
+    "v1|milbona hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Hytteost",
       "originalDescription": "300 g / stk. Pr. kg 33,17",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11584,7 +11584,7 @@
       "descriptionZh": "奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "MILBONA Madlavningsjævner med fløde",
       "originalDescription": "7-15 % fedt. 250 ml / stk. Pr. liter. 31,80.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11597,13 +11597,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-15.webp&w=1000&x1r=0.5155&x2r=0.9846&y1r=0.4678&y2r=0.7081&s=6026f04ef770019cae84385352a628cf"
       }
     },
-    "v1|milbona minimozzarella|cheese": {
+    "v1|milbona minimozzarella|cheese_mozzarella_burrata": {
       "productNameZh": "马苏里拉奶酪",
       "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Minimozzarella",
       "originalDescription": "125 g / stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11615,13 +11615,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-18.webp&w=1000&x1r=0.0137&x2r=0.5026&y1r=0.7127&y2r=0.9468&s=18b623ba2e2ba22bd0aa83c6d301ea57"
       }
     },
-    "v1|milbona mozzarella light|cheese": {
+    "v1|milbona mozzarella light|cheese_mozzarella_burrata": {
       "productNameZh": "马苏里拉奶酪",
       "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Mozzarella light",
       "originalDescription": "30% mindre fedt",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11633,13 +11633,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-18.webp&w=1000&x1r=0.4949&x2r=0.9849&y1r=0.4695&y2r=0.707&s=acc7fe40c9cfd3dfc835c464e59307dc"
       }
     },
-    "v1|milbona mozzarella|cheese": {
+    "v1|milbona mozzarella|cheese_mozzarella_burrata": {
       "productNameZh": "马苏里拉奶酪",
       "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Mozzarella",
       "originalDescription": "125 g / stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11651,13 +11651,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-18.webp&w=1000&x1r=0.0086&x2r=0.4898&y1r=0.468&y2r=0.7091&s=6fe213531a2a80e8c30023e759aedd18"
       }
     },
-    "v1|milbona revet mozzarella|cheese": {
+    "v1|milbona revet mozzarella|cheese_grated": {
       "productNameZh": "刨丝马苏里拉奶酪",
       "descriptionZh": "刨丝马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Revet mozzarella",
       "originalDescription": "250 g / ps.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11669,13 +11669,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrR1wWdCy%2Fp-22.webp&w=1000&x1r=0&x2r=0.4945&y1r=0.0338&y2r=0.4634&s=63c454d3634e5492b48c407bb0cc466a"
       }
     },
-    "v1|milbona revet ost|cheese": {
+    "v1|milbona revet ost|cheese_grated": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Revet ost",
       "originalDescription": "250 g / ps. Pr. kg 79,80",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11692,7 +11692,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "MILBONA Skyr med frugt",
       "originalDescription": "Flere varianter. 500 g. Pr. kg 30,00",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11705,13 +11705,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-3.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0.74&y2r=0.98&s=d0bbce6cfc2ea7b717674d60b7b5ad9d"
       }
     },
-    "v1|milbona smelteost i skiver|cheese": {
+    "v1|milbona smelteost i skiver|cheese_sliced": {
       "productNameZh": "加工融化奶酪",
       "descriptionZh": "加工融化奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Smelteost i skiver",
       "originalDescription": "200 g. Pr. kg 50,00 -28 ﹪ 13,95",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11723,13 +11723,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&w=1000&x1r=0.51&x2r=0.985&y1r=0.505&y2r=0.725&s=98fa2935994e160a0dea817700d59d2c"
       }
     },
-    "v1|milbona smoreost|cheese": {
+    "v1|milbona smoreost|cheese_spreadable": {
       "productNameZh": "涂抹奶酪",
       "descriptionZh": "涂抹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Smøreost",
       "originalDescription": "200 g / stk. Flere varianter.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11764,7 +11764,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA Tyrkisk-inspireret yoghurt",
       "originalDescription": "10 % fedt. 1000 g. Pr. kg 24,95 Fast lav pris",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11782,7 +11782,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA Yoghurt naturel",
       "originalDescription": "0,1-1,5 % fedt. 500 g / stk. Pr. kg 11,90.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -12587,13 +12587,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-29.webp&w=1000&x1r=0&x2r=1&y1r=0.25&y2r=0.51&s=de1e8a5df4afe2fecbe2768c53ecee42"
       }
     },
-    "v1|nostja kaymak|cheese": {
+    "v1|nostja kaymak|cheese_cottage_ricotta": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "NOSTJA Kaymak",
       "originalDescription": "200 g. Pr. kg 100,00 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -12646,7 +12646,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "NOSTJA Yoghurt",
       "originalDescription": "Af fåre- eller bøffelmælk. 530 g. Pr. kg 47,17 Spot¹",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -12844,7 +12844,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "ØGO økologisk hakket oksekød 8-12%",
       "originalDescription": "400 g. Pr. kg 137,50",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -13006,7 +13006,7 @@
       "descriptionZh": "淡奶油/打发奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "Økologisk piskefløde 38%",
       "originalDescription": "250 ml. Pr. liter 60.- Pr. stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -13019,13 +13019,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-27.webp&w=1000&x1r=0.58&x2r=0.82&y1r=0.41&y2r=0.61&s=5a4a0bd5fe367408882a3a27f763c7c9"
       }
     },
-    "v1|okologisk revet havarti|cheese": {
+    "v1|okologisk revet havarti|cheese_grated": {
       "productNameZh": "哈瓦蒂奶酪",
       "descriptionZh": "哈瓦蒂奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Økologisk revet havarti",
       "originalDescription": "Økologisk, mild og cremet havarti med fine krystaller og god smag. Klar til brug – perfekt til gratinering, hjemmelavede pizzaer, lasagne eller som ekstra smagsgiver i varme retter. 140 g. Pr. kg 163,93",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13253,13 +13253,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-26.webp&w=1000&x1r=0.015&x2r=0.315&y1r=0.495&y2r=0.715&s=9029c19a1dd9b041f3acfffe9428bc5c"
       }
     },
-    "v1|ost|cheese": {
+    "v1|ost|cheese_other": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Ost",
       "originalDescription": "RIBERHUS Mellemlagret. 900 g. Pr. kg 83,33 Med Lidl Plus³ Pr. kg 72,22",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13757,13 +13757,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-39.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.19&y2r=0.71&s=3302d9314ced4f671a84a42eeb6af8cf"
       }
     },
-    "v1|philadelphia flodeost|cheese": {
+    "v1|philadelphia flodeost|cheese_spreadable": {
       "productNameZh": "奶油奶酪",
       "descriptionZh": "奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。原名还显示：蒜香。",
       "originalName": "PHILADELPHIA Flødeost",
       "originalDescription": "Original eller hvidløg og urter.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13775,13 +13775,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.5062&x2r=0.9926&y1r=0.0826&y2r=0.4561&s=29da0b5dc3ffa42d19e239a24c4d2a41"
       }
     },
-    "v1|piatnica hytteost|cheese": {
+    "v1|piatnica hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "PIATNICA Hytteost",
       "originalDescription": "Spot¹ 200 g. Pr. kg 50,00",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13852,7 +13852,7 @@
       "descriptionZh": "开菲尔发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "PLOMBIR Kefir",
       "originalDescription": "Spot¹ 1,8 % fedt. 1 kg. Pr. kg 18,00",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -14117,13 +14117,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-13.webp&w=1000&x1r=0.02&x2r=0.47&y1r=0.294&y2r=0.51&s=f6231a7d7ab0c2d89c9ece1f68a27d2e"
       }
     },
-    "v1|puck ost eller taverna halloumi grillost|cheese": {
+    "v1|puck ost eller taverna halloumi grillost|cheese_mixed_offer": {
       "productNameZh": "哈罗米烧烤奶酪",
       "descriptionZh": "哈罗米烧烤奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Puck ost eller Taverna halloumi grillost",
       "originalDescription": "225-500 g. Pr. kg max. 97,78",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14135,13 +14135,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-11.webp&w=1000&x1r=0.015&x2r=0.5&y1r=0.67&y2r=0.97&s=a031fe84a2fc3b1d794eafbbcda7ee21"
       }
     },
-    "v1|puck ost|cheese": {
+    "v1|puck ost|cheese_other": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Puck ost",
       "originalDescription": "500 g. Pr. kg 60,- 30,- plus pris 25,- Pr. kg 50,- Gælder kun med føtex plus appen",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14153,13 +14153,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&w=1000&x1r=0.02&x2r=0.28&y1r=0.45&y2r=0.725&s=b3f0b6f2416d95e26d0a41290937db2d"
       }
     },
-    "v1|puck salatost|cheese_fresh": {
+    "v1|puck salatost|cheese_feta_white": {
       "productNameZh": "沙拉白奶酪",
       "descriptionZh": "沙拉白奶酪。新鲜白奶酪或沙拉奶酪，常切块拌沙拉、夹面包或烘烤；盐度和口感以品种为准。",
       "originalName": "PUCK Salatost",
       "originalDescription": "200 g / stk. Pr. kg 74,75",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese_fresh",
+      "comparisonGroup": "cheese_feta_white",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14626,7 +14626,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "REMA 1000 hakket dansk oksekød 15-18% eller Burger Boost",
       "originalDescription": "350-400 g\nMax. 108.43 pr. kg",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -14909,13 +14909,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-18.webp&w=1000&x1r=0.56&x2r=0.98&y1r=0.66&y2r=1&s=ac815f9ee62da9e5337bd054b692ed0c"
       }
     },
-    "v1|rema 1000 ost i skiver|cheese": {
+    "v1|rema 1000 ost i skiver|cheese_sliced": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "REMA 1000 Ost i skiver",
       "originalDescription": "250-300 g Max. 80.00 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15341,13 +15341,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&w=1000&x1r=0.44&x2r=0.97&y1r=0.745&y2r=0.99&s=e58364f1f3f0817a7fbf9921d6474472"
       }
     },
-    "v1|riberhus danbo skiveost|cheese": {
+    "v1|riberhus danbo skiveost|cheese_sliced": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "RIBERHUS Danbo skiveost",
       "originalDescription": "Mellemlagret 45+. 240 g / pk. Pr. kg 112,29.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15359,13 +15359,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-21.webp&w=1000&x1r=0.0091&x2r=0.4991&y1r=0.4659&y2r=0.7084&s=0f723bc51fe7811c1f4655f2afba18da"
       }
     },
-    "v1|riberhus danbo|cheese": {
+    "v1|riberhus danbo|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "RIBERHUS Danbo",
       "originalDescription": "Fast lav pris. Mellemlagret 45+. 520 g / stk. Pr. kg 96,06.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15377,13 +15377,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.0068&x2r=0.5046&y1r=0.058&y2r=0.461&s=c3293a89040c89b9f9c2b363d1f5a22d"
       }
     },
-    "v1|riberhus ost|cheese": {
+    "v1|riberhus ost|cheese_danish_table": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "RIBERHUS Ost",
       "originalDescription": "Mellemlagret.\n900 g.\nPr. kg 83,33\nPr. kg 72,22\nMed Lidl Plus³",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15395,13 +15395,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3j48zkCa%2Fp-1.webp&w=1000&x1r=0.67&x2r=0.98&y1r=0.18&y2r=0.72&s=5a98ee5b8c271c75090f16aa3003818d"
       }
     },
-    "v1|riberhus skiveost|cheese": {
+    "v1|riberhus skiveost|cheese_sliced": {
       "productNameZh": "切片奶酪",
       "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Riberhus skiveost",
       "originalDescription": "240 g. Pr. kg 91,67",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15436,7 +15436,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Risifrutti, Yoggi yoghurt eller Arla Protein budding eller mousse",
       "originalDescription": "166-200 g. Flere varianter. Pr. kg max. 54,22",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -15598,7 +15598,7 @@
       "descriptionZh": "鸡肉末。鸡肉末，可做肉丸、饺子馅、肉末炒饭或咖喱。",
       "originalName": "ROSE Hakket kylling",
       "originalDescription": "7-10 % fedt. 700 g. Pr. kg 55,71 Spot¹",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -16372,7 +16372,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "Skyr*",
       "originalDescription": "400 g. Kg-pris 25,00. Frit valg. 1 bæger",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -16745,13 +16745,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-11.webp&w=1000&x1r=0.334&x2r=0.652&y1r=0.273&y2r=0.495&s=7346093b59d88e5efec460e1d49bffc8"
       }
     },
-    "v1|sol mar osteplatte eller manchego corado|cheese": {
+    "v1|sol mar osteplatte eller manchego corado|cheese_mixed_offer": {
       "productNameZh": "奶酪拼盘",
       "descriptionZh": "奶酪拼盘。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "SOL&MAR Osteplatte eller manchego corado",
       "originalDescription": "150 g. Pr. kg 233,33 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17110,7 +17110,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "Stay Strong skyr eller koldskål",
       "originalDescription": "950-1000 g\nMax. 21.05 pr. kg",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -17663,13 +17663,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-2.webp&w=1000&x1r=0.324&x2r=0.643&y1r=0.505&y2r=0.718&s=a692c314c6e197367de13ab287f8fa25"
       }
     },
-    "v1|them klovborg faetter kras eller danbo|cheese": {
+    "v1|them klovborg faetter kras eller danbo|cheese_danish_table": {
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "THEM/KLOVBORG Fætter Kras eller Danbo",
       "originalDescription": "25-26 % fedt. 900-926 g. Pr. kg maks. 83,33 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17681,13 +17681,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-6.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.5&y2r=0.74&s=a57b09799b2644c12b95572f49183591"
       }
     },
-    "v1|them ost|cheese": {
+    "v1|them ost|cheese_other": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Them ost",
       "originalDescription": "Økologisk 380-500 g Max. 102.63 pr. kg",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17699,13 +17699,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-17.webp&w=1000&x1r=0.032&x2r=0.437&y1r=0.063&y2r=0.399&s=48409024f4c4c42139ba8fed4e245a15"
       }
     },
-    "v1|them revet ost|cheese": {
+    "v1|them revet ost|cheese_grated": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "THEM Revet ost",
       "originalDescription": "140 g. Pr. kg 85,71 Spot¹",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17717,13 +17717,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.49&y2r=0.73&s=3c3ebadae99555ce134091c21985a51a"
       }
     },
-    "v1|thise okologisk blue tapas eller skiveost|cheese": {
+    "v1|thise okologisk blue tapas eller skiveost|cheese_mixed_offer": {
       "productNameZh": "切片奶酪",
       "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Thise økologisk blue, tapas- eller skiveost",
       "originalDescription": "Begrænset parti. 150-180 g. Kg-pris maks. 166,67. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17735,13 +17735,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F6ae259cd1e41dd4bca7e3485335bada4&w=1000&s=b93d0390f473f23e573ff5c1d147cba6"
       }
     },
-    "v1|thise okologisk burrata eller mozzarella|cheese": {
+    "v1|thise okologisk burrata eller mozzarella|cheese_mozzarella_burrata": {
       "productNameZh": "马苏里拉奶酪",
       "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Thise økologisk burrata eller mozzarella*",
       "originalDescription": "100-125 g. Kg-pris 240,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17758,7 +17758,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Thise økologisk græsk inspireret yoghurt",
       "originalDescription": "1 kg. Kg-pris 34,00. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -17776,7 +17776,7 @@
       "descriptionZh": "酸奶油。这是跨牛奶、奶油、酸奶或奶酪的任选促销；形态和用途不同，不能当作同一种乳制品比较最低价。",
       "originalName": "Thise økologisk jerseymælk, creme fraiche eller fraiche",
       "originalDescription": "1 liter/400 g. Literpris 15,00/Kg-pris 37,50. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "mixed_dairy",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -17794,7 +17794,7 @@
       "descriptionZh": "Skyr 高蛋白发酵乳。这是跨牛奶、奶油、酸奶或奶酪的任选促销；形态和用途不同，不能当作同一种乳制品比较最低价。",
       "originalName": "Thise økologisk kærnemælk eller skyr med topping",
       "originalDescription": "1 liter/160 g. Literpris 13,00/Kg-pris 81,25. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "cream_cold_dairy",
       "comparisonGroup": "mixed_dairy",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -17812,7 +17812,7 @@
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Thise økologisk laktosefri koldskål*",
       "originalDescription": "1 liter. Literpris 20,00. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -17825,13 +17825,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3614e8ff2dff0a1f02c36fe16fc7b8fa&w=1000&s=a361c453439d1f7aa3d407b1db73f058"
       }
     },
-    "v1|thise okologisk skaereost|cheese": {
+    "v1|thise okologisk skaereost|cheese_danish_table": {
       "productNameZh": "块状切片奶酪",
       "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Thise økologisk skæreost",
       "originalDescription": "Flere varianter. Min. 432 g. Kg-pris maks. 104,17. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17843,13 +17843,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd9ed49f5e99772edf0244f1d415d1b87&w=1000&s=37a115023f3dc9d9bb7477e347e34688"
       }
     },
-    "v1|thise okologisk skiveost|cheese": {
+    "v1|thise okologisk skiveost|cheese_sliced": {
       "productNameZh": "切片奶酪",
       "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Thise økologisk skiveost",
       "originalDescription": "180-200 g. Kg-pris maks. 144,44. Frit valg. 1 stk.",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17866,7 +17866,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Thise økologisk yoghurt eller acido",
       "originalDescription": "Flere varianter. 1 kg. Kg-pris 18,00. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -17897,13 +17897,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&w=1000&x1r=0.0087&x2r=0.4989&y1r=0.4684&y2r=0.7086&s=642d547bf36b7b03f98d95e7afb6ab18"
       }
     },
-    "v1|tjia hytteostsalat|cheese": {
+    "v1|tjia hytteostsalat|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Tjia hytteostsalat",
       "originalDescription": "175 g. Pr. kg 68,57",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18424,7 +18424,7 @@
       "descriptionZh": "酸奶或发酵乳。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "VARÉNA Kvarkbar",
       "originalDescription": "40 g. Pr. kg 150,00 Spot¹",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -18568,7 +18568,7 @@
       "descriptionZh": "牛猪混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "Velsmag hakket oksekød 14-18% eller hakket okse- og grisekød 8-12%",
       "originalDescription": "400 g.\nPr. kg 94,88\nPRIS CHOK",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -18586,7 +18586,7 @@
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "Velsmag hakket oksekød 8-12%",
       "originalDescription": "400 g. Pr. kg 99,88",
-      "categoryId": "beef",
+      "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -18766,7 +18766,7 @@
       "descriptionZh": "鸡肉末。鸡肉末，可做肉丸、饺子馅、肉末炒饭或咖喱。",
       "originalName": "Xtra! hakket kylling 7-10%",
       "originalDescription": "450 g. Kg-pris 71,11. 1 pakke",
-      "categoryId": "chicken",
+      "categoryId": "minced_meat",
       "comparisonGroup": "chicken_minced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -18910,7 +18910,7 @@
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Yoggi yoghurt",
       "originalDescription": "1 liter. Flere varianter.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -18928,7 +18928,7 @@
       "descriptionZh": "饮用酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Yopro proteindrikkeyoghurt eller Activia kefirdrik",
       "originalDescription": "300 g/280 ml. Kg-pris 40,00/Literpris 42,86. Frit valg. 1 stk.",
-      "categoryId": "yoghurt_cream",
+      "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -18941,13 +18941,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-12.webp&w=1000&x1r=0.51&x2r=0.97&y1r=0.35&y2r=0.66&s=d69c09538bbf7524b65563faf6bf7957"
       }
     },
-    "v1|zanetti burrata|cheese": {
+    "v1|zanetti burrata|cheese_mozzarella_burrata": {
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Zanetti burrata",
       "originalDescription": "150 g. Pr. kg 160,-",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18959,13 +18959,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-15.webp&w=1000&x1r=0.568&x2r=0.795&y1r=0.609&y2r=0.944&s=b553be0de8f21b92fd515cf521f9dd45"
       }
     },
-    "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese": {
+    "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese_aged_hard": {
       "productNameZh": "帕达诺/帕玛森硬质奶酪",
       "descriptionZh": "帕达诺/帕玛森硬质奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Zanetti Grana Padano, Parmigiano Reggiano eller Pecorino Romano",
       "originalDescription": "150-200 g. Flere varianter. Pr. kg max. 300,-",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18977,13 +18977,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-38.webp&w=1000&x1r=0.735&x2r=0.985&y1r=0.225&y2r=0.495&s=c08d0bfeaa00ee335f84d73cbfae0c7a"
       }
     },
-    "v1|zanetti mozzarella|cheese": {
+    "v1|zanetti mozzarella|cheese_mozzarella_burrata": {
       "productNameZh": "马苏里拉奶酪",
       "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Zanetti mozzarella",
       "originalDescription": "125 g. Pr. kg 104,00",
       "categoryId": "cheese",
-      "comparisonGroup": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",

@@ -9,13 +9,15 @@ const norm = value => String(value || '')
   .trim();
 
 export const AARHUS_CATEGORIES = [
-  ['chicken', '🐔', '鸡肉与其他禽肉', '鸡胸、鸡腿、整鸡、火鸡和禽肉末分组比较。'],
-  ['pork_fresh', '🐷', '鲜猪肉', '猪里脊、猪排、肋排、肉末和整块猪肉分组比较。'],
+  ['chicken', '🐔', '鸡肉与其他禽肉', '鸡胸、鸡腿、整鸡、火鸡部位和禽肉加工品分组比较。'],
+  ['minced_meat', '🥟', '肉末与混合肉末', '鸡肉末、火鸡肉末、猪肉末、牛肉末和猪牛混合肉末集中分组比较。'],
+  ['pork_fresh', '🐷', '鲜猪肉', '猪里脊、猪排、肋排和整块猪肉分组比较。'],
   ['sausages_deli', '🥓', '香肠、培根与肉类熟食', '香肠、培根、冷切和熟制肉食单独集中展示。'],
-  ['beef', '🥩', '牛羊肉与肉末', '牛肉末、牛排、整块牛肉和羊肉分别比较。'],
+  ['beef', '🥩', '牛羊肉与牛排', '牛排、整块牛肉、牛肉丁和羊肉分别比较。'],
   ['seafood', '🐟', '鱼虾海鲜', '区分三文鱼、白身鱼、虾和熟制海鲜。'],
   ['eggs_milk', '🥚', '鸡蛋、牛奶与植物饮', '鸡蛋、牛奶、乳饮品和植物奶分组显示。'],
-  ['yoghurt_cream', '🥣', '酸奶、奶油与冷藏乳品', '酸奶、Skyr、奶油和乳制品任选集中展示。'],
+  ['yoghurt', '🥣', '酸奶与 Skyr', '酸奶、Skyr、布丁和发酵乳集中展示。'],
+  ['cream_cold_dairy', '🥛', '奶油与其他冷藏乳品', '淡奶油、烹饪奶油和跨乳品任选促销集中展示。'],
   ['cheese', '🧀', '奶酪', '硬质、软质、切片、刨丝和新鲜白奶酪保留原名差异。'],
   ['butter_spreads', '🧈', '黄油与乳脂抹酱', '真黄油和混合抹酱按重量与原名比较。'],
   ['vegetables', '🥬', '蔬菜', '蘑菇、番茄、土豆、叶菜等按品种比较。'],
@@ -60,15 +62,44 @@ const AARHUS_CATEGORY_SPLITS = {
   household: { cleaning: 'household_cleaning', default: 'household_paper' },
 };
 
+const MINCED_MEAT_GROUPS = new Set(['chicken_minced', 'turkey_minced', 'pork_minced', 'beef_minced', 'mixed_minced']);
+
+const CHEESE_GROUP_PATTERNS = [
+  ['cheese_mixed_offer', /skiveost eller .*hytteost|smelteost eller .*dessertost|puck ost eller .*halloumi|blue.*tapas.*skiveost|blaahvid.*gouda.*brie|osteplatte eller/],
+  ['cheese_grated', /revet|topping/],
+  ['cheese_sliced', /skiveost|smelteost i skiver|ost i skiver/],
+  ['cheese_spreadable', /flodeost|smoreost|smorbar ost|rejeost|skinkeost|philadelphia/],
+  ['cheese_cottage_ricotta', /hytteost|ricotta|friskost|kaymak/],
+  ['cheese_mozzarella_burrata', /mozzarella|burrata/],
+  ['cheese_feta_white', /salatost|\bfeta\b|hvid ost/],
+  ['cheese_grilling', /halloumi|grillost/],
+  ['cheese_soft_mould', /blaaskimmel|blaahvid|\bblue\b|\bbrie\b|camembert|saint morgon|dessertost/],
+  ['cheese_aged_hard', /grana|parmigiano|pecorino|manchego|parmesan|hard ost/],
+  ['cheese_danish_table', /skaereost|danbo|havarti|gouda|tilsiter|samso|klovborg|riberhus|mammen|ostehaps|fast ost/],
+];
+
+export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') {
+  if (!['cheese', 'cheese_fresh'].includes(comparisonGroup)) return comparisonGroup;
+  const name = norm(originalName);
+  return CHEESE_GROUP_PATTERNS.find(([, pattern]) => pattern.test(name))?.[0] || 'cheese_other';
+}
+
 export function refineAarhusCategory(categoryId, comparisonGroup) {
+  if (MINCED_MEAT_GROUPS.has(comparisonGroup)) return 'minced_meat';
+  if (comparisonGroup === 'yoghurt') return 'yoghurt';
+  if (['cream', 'mixed_dairy'].includes(comparisonGroup)) return 'cream_cold_dairy';
+  if (comparisonGroup.startsWith('cheese_')) return 'cheese';
   const split = AARHUS_CATEGORY_SPLITS[categoryId];
   return split?.[comparisonGroup] || split?.default || categoryId;
 }
 
-const classified = (categoryId, comparisonGroup) => ({
-  categoryId: refineAarhusCategory(categoryId, comparisonGroup),
-  comparisonGroup,
-});
+const classified = (categoryId, comparisonGroup, originalName = '') => {
+  const refinedGroup = refineAarhusComparisonGroup(comparisonGroup, originalName);
+  return {
+    categoryId: refineAarhusCategory(categoryId, refinedGroup),
+    comparisonGroup: refinedGroup,
+  };
+};
 
 const group = (nameZh, noteZh, comparable = true) => ({ nameZh, noteZh, comparable });
 export const AARHUS_COMPARISON_GROUPS = {
@@ -128,6 +159,18 @@ export const AARHUS_COMPARISON_GROUPS = {
   mixed_dairy: group('乳制品任选', '跨牛奶、奶油、酸奶或奶酪的任选促销不参与单一乳制品最低价。', false),
   yoghurt: group('酸奶与 Skyr', '酸奶、Skyr、布丁和发酵乳形态不同，不计算全局最低价。', false),
   cheese: group('奶酪', '奶酪种类差异较大，不计算跨品种最低价。', false),
+  cheese_grated: group('刨丝奶酪与奶酪碎', '用于焗烤、披萨或意面；优先按公斤比较，并保留奶酪品种。'),
+  cheese_sliced: group('切片奶酪', '适合三明治、汉堡或吐司；按重量比较并保留奶酪品种。'),
+  cheese_spreadable: group('奶油奶酪与可涂抹奶酪', '适合抹面包、做蘸酱或烘焙；原味和调味款保留原名。'),
+  cheese_cottage_ricotta: group('茅屋奶酪、Ricotta 与新鲜凝乳', '含水量和质地不同；可直接吃、拌沙拉或用于烘焙。'),
+  cheese_mozzarella_burrata: group('Mozzarella 与 Burrata', '适合沙拉、披萨和焗烤；按净重和具体品种比较。'),
+  cheese_feta_white: group('Feta、白奶酪与沙拉奶酪', '盐水白奶酪，适合沙拉、烘焙或配面包；按净重比较。'),
+  cheese_grilling: group('Halloumi 与煎烤奶酪', '适合平底锅煎或烧烤；普通硬奶酪不混入此组。'),
+  cheese_soft_mould: group('白霉、蓝纹与软质奶酪', '风味和熟成差异较大，不计算跨品种最低价。', false),
+  cheese_aged_hard: group('Parmesan、Grana 与熟成硬奶酪', '熟成时间和品种差异较大，优先看具体原名与公斤价。'),
+  cheese_danish_table: group('Danbo、Havarti 与丹麦餐桌奶酪', '切块餐桌奶酪按具体品种、熟成度和公斤价参考。'),
+  cheese_mixed_offer: group('多种奶酪任选或拼盘', '跨奶酪形态与品种的任选促销不计算最低价。', false),
+  cheese_other: group('其他奶酪', '名称未能可靠识别具体奶酪形态时保留在这里，不强行比较最低价。', false),
   butter: group('黄油与抹酱', '真黄油与混合抹酱保留原名。'),
   mushrooms: group('蘑菇', '只收录真正的食用蘑菇。'),
   cauliflower: group('花椰菜', '花椰菜单独按公斤或每颗比较。'),
@@ -478,25 +521,25 @@ export function classifyOffer(raw) {
   const text = norm(`${raw.heading || ''} ${raw.description || ''}`);
   if (!heading || isClearlyOutOfScope(raw)) return null;
   if (DRINK_WORDS.test(heading)) {
-    if (DRINK_ALLOWED.test(heading)) return classified('drinks', 'zero_soda');
+    if (DRINK_ALLOWED.test(heading)) return classified('drinks', 'zero_soda', heading);
     // Dairy protein drinks and plant drinks are handled by explicit food rules.
     if (!/protein ?drik|proteinshake|yoghurt|kefir|cultura|soja|havre/.test(heading)) return null;
   }
   for (const [categoryId, comparisonGroup, regex] of PRODUCT_FORM_RULES) {
-    if (regex.test(heading)) return classified(categoryId, comparisonGroup);
+    if (regex.test(heading)) return classified(categoryId, comparisonGroup, heading);
   }
   for (const [categoryId, comparisonGroup, regex] of HEADING_RULES) {
-    if (regex.test(heading)) return classified(categoryId, comparisonGroup);
+    if (regex.test(heading)) return classified(categoryId, comparisonGroup, heading);
   }
   // Descriptions may clarify explicit frozen products or broad household bundles,
   // but never use package units alone as proof that something is food.
   if (/dybfrost/.test(text)) {
-    if (/groentsag/.test(text)) return classified('frozen_ready', 'frozen_vegetables');
-    if (/is\b|ispinde|isvafler/.test(text)) return classified('frozen_ready', 'ice_cream');
-    if (/mad|ret|kylling|pizza|brod/.test(text)) return classified('frozen_ready', 'ready_meal');
+    if (/groentsag/.test(text)) return classified('frozen_ready', 'frozen_vegetables', heading);
+    if (/is\b|ispinde|isvafler/.test(text)) return classified('frozen_ready', 'ice_cream', heading);
+    if (/mad|ret|kylling|pizza|brod/.test(text)) return classified('frozen_ready', 'ready_meal', heading);
   }
   if (/affaldsposer|bagepapir|fryseposer|opvaskeborste|rengoringsmiddel/.test(text)) {
-    return classified('household', /affald|fryseposer/.test(text) ? 'trash_bags' : 'cleaning');
+    return classified('household', /affald|fryseposer/.test(text) ? 'trash_bags' : 'cleaning', heading);
   }
   return null;
 }

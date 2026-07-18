@@ -183,6 +183,8 @@ export const ATLANTA_COMPARISON_GROUPS = {
   seafood_salmon: atlantaGroup('三文鱼'), seafood_salmon_burgers: atlantaGroup('三文鱼汉堡饼'), seafood_shrimp: atlantaGroup('虾'),
   seafood_tuna_fresh: atlantaGroup('金枪鱼排'), seafood_mixed_fish_steaks: atlantaGroup('金枪鱼或剑鱼排任选', '鱼种不同，不计算单一鱼种最低价。', false), seafood_tuna_canned: atlantaGroup('金枪鱼罐头'), seafood_other: atlantaGroup('其他海鲜', '品种不同，不计算全局最低价。', false),
   dairy_yogurt: atlantaGroup('酸奶'), dairy_cheese: atlantaGroup('奶酪'), dairy_prepared_cheese: atlantaGroup('裹粉奶酪小食'), dairy_eggs: atlantaGroup('鸡蛋'), dairy_other: atlantaGroup('其他乳制品', '品种不同，不计算全局最低价。', false),
+  cheese_sliced: atlantaGroup('切片奶酪'), cheese_grated: atlantaGroup('刨丝奶酪'), cheese_portioned: atlantaGroup('奶酪棒与分装奶酪'),
+  cheese_prepared: atlantaGroup('裹粉奶酪小食', '加工形态不同，不与普通奶酪直接比较。', false), cheese_table: atlantaGroup('块状与餐桌奶酪', '具体品种不同，按原名和净重参考。', false),
   bakery_bread: atlantaGroup('面包'), bakery_cake: atlantaGroup('蛋糕与甜点'), bakery_pie: atlantaGroup('派'), bakery_cookies: atlantaGroup('饼干'),
   bakery_croissants: atlantaGroup('可颂'), bakery_other: atlantaGroup('其他烘焙', '品种不同，不计算全局最低价。', false),
   frozen_ice_cream: atlantaGroup('冰淇淋与冰棒'), frozen_pizza: atlantaGroup('冷冻披萨'), frozen_appetizers: atlantaGroup('冷冻点心'), frozen_other: atlantaGroup('其他冷冻食品', '品种不同，不计算全局最低价。', false),
@@ -246,8 +248,22 @@ const ATLANTA_PROCESSED_MEAT_GROUPS = new Set([
   'meat_turkey_bacon', 'meat_meatballs', 'meat_sausage', 'meat_pepperoni',
   'meat_turkey_deli', 'meat_ham_deli', 'meat_sticks',
 ]);
+const ATLANTA_MINCED_MEAT_GROUPS = new Set(['meat_ground_beef', 'meat_ground_chicken', 'meat_ground_pork']);
+
+export function refineAtlantaComparisonGroup(comparisonGroup, originalName = '') {
+  if (comparisonGroup === 'dairy_prepared_cheese') return 'cheese_prepared';
+  if (comparisonGroup !== 'dairy_cheese') return comparisonGroup;
+  const name = String(originalName || '').toLowerCase();
+  if (/shredded|grated/.test(name)) return 'cheese_grated';
+  if (/slices?/.test(name)) return 'cheese_sliced';
+  if (/sticks?|snack/.test(name)) return 'cheese_portioned';
+  return 'cheese_table';
+}
 
 export function refineAtlantaCategory(categoryId, comparisonGroup) {
+  if (ATLANTA_MINCED_MEAT_GROUPS.has(comparisonGroup)) return 'minced_meat';
+  if (comparisonGroup === 'dairy_yogurt') return 'yoghurt';
+  if (comparisonGroup.startsWith('cheese_')) return 'cheese';
   if (categoryId === 'produce') {
     if (comparisonGroup === 'produce_prepared_mixed' || comparisonGroup === 'produce_other') return 'produce_mixed';
     return ATLANTA_VEGETABLE_GROUPS.has(comparisonGroup) ? 'vegetables' : 'fruit';
@@ -262,7 +278,7 @@ export function classifyFlippItem(name) {
   if (NON_GROCERY_PATTERN.test(text)) return null;
   const match = PRODUCT_RULES.find(([, pattern]) => pattern.test(text));
   if (!match) return null;
-  const comparisonGroup = atlantaComparisonGroup(text, match[0]);
+  const comparisonGroup = refineAtlantaComparisonGroup(atlantaComparisonGroup(text, match[0]), text);
   return { categoryId: refineAtlantaCategory(match[0], comparisonGroup), comparisonGroup, zhExplanation: match[2], evidenceBasis: 'original_name' };
 }
 
@@ -314,7 +330,10 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
     const knowledgeKey = flippKnowledgeKey(name);
     const knowledge = productKnowledge?.entries?.[knowledgeKey];
     const category = knowledge?.categoryId && knowledge?.descriptionZh
-      ? { categoryId: refineAtlantaCategory(knowledge.categoryId, knowledge.comparisonGroup), comparisonGroup: knowledge.comparisonGroup, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' }
+      ? (() => {
+          const comparisonGroup = refineAtlantaComparisonGroup(knowledge.comparisonGroup, name);
+          return { categoryId: refineAtlantaCategory(knowledge.categoryId, comparisonGroup), comparisonGroup, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' };
+        })()
       : classifyFlippItem(name);
     if (item.display_type !== 1 || !name || !Number.isFinite(price) || price <= 0 || !category) continue;
 

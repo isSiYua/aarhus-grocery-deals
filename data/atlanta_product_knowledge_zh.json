@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T20:14:03.853Z",
+  "updatedAt": "2026-07-18T20:38:26.959Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its complete English name; image review is tracked separately.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -454,8 +454,8 @@
     },
     "boar s head vermont cheddar cheese yellow or white": {
       "originalName": "Boar's Head Vermont Cheddar Cheese, Yellow or White",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_table",
       "descriptionZh": "切达奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -758,7 +758,7 @@
     },
     "chobani greek yogurt": {
       "originalName": "Chobani Greek Yogurt",
-      "categoryId": "dairy",
+      "categoryId": "yoghurt",
       "comparisonGroup": "dairy_yogurt",
       "descriptionZh": "希腊酸奶。酸奶；Greek Yogurt 是质地更稠、蛋白质通常更高的希腊式酸奶，可直接吃或搭配水果燕麦。",
       "authoredBy": "Codex",
@@ -1302,8 +1302,8 @@
     },
     "great value colby monterey jack cheese snack 9 oz bag 12 cheese sticks": {
       "originalName": "Great Value Colby & Monterey Jack Cheese Snack, 9 oz Bag, 12 Cheese Sticks",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_portioned",
       "descriptionZh": "奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1366,7 +1366,7 @@
     },
     "greenwise 92 lean ground beef": {
       "originalName": "GreenWise 92% Lean Ground Beef",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -1574,7 +1574,7 @@
     },
     "ground chuck": {
       "originalName": "Ground Chuck",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -1878,8 +1878,8 @@
     },
     "kraft shredded cheese": {
       "originalName": "Kraft Shredded Cheese",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
       "descriptionZh": "奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2182,7 +2182,7 @@
     },
     "noosa finest yoghurt": {
       "originalName": "Noosa Finest Yoghurt",
-      "categoryId": "dairy",
+      "categoryId": "yoghurt",
       "comparisonGroup": "dairy_yogurt",
       "descriptionZh": "酸奶。酸奶；Greek Yogurt 是质地更稠、蛋白质通常更高的希腊式酸奶，可直接吃或搭配水果燕麦。",
       "authoredBy": "Codex",
@@ -2198,7 +2198,7 @@
     },
     "noosa yoghurt": {
       "originalName": "Noosa Yoghurt",
-      "categoryId": "dairy",
+      "categoryId": "yoghurt",
       "comparisonGroup": "dairy_yogurt",
       "descriptionZh": "酸奶。酸奶；Greek Yogurt 是质地更稠、蛋白质通常更高的希腊式酸奶，可直接吃或搭配水果燕麦。",
       "authoredBy": "Codex",
@@ -2454,7 +2454,7 @@
     },
     "private selection angus 80 lean ground chuck": {
       "originalName": "Private Selection Angus 80% Lean Ground Chuck",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -2566,8 +2566,8 @@
     },
     "publix breaded mozzarella cheese sticks": {
       "originalName": "Publix Breaded Mozzarella Cheese Sticks",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_prepared_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_prepared",
       "descriptionZh": "马苏里拉奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2742,7 +2742,7 @@
     },
     "publix ground pork": {
       "originalName": "Publix Ground Pork",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_pork",
       "descriptionZh": "猪肉末。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2886,8 +2886,8 @@
     },
     "publix shredded cheese": {
       "originalName": "Publix Shredded Cheese",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
       "descriptionZh": "奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3270,8 +3270,8 @@
     },
     "sargento cheese": {
       "originalName": "Sargento Cheese",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_table",
       "descriptionZh": "奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3286,8 +3286,8 @@
     },
     "sargento cheese slices": {
       "originalName": "Sargento Cheese Slices",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "descriptionZh": "奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3398,7 +3398,7 @@
     },
     "simple truth organic 85 lean ground beef": {
       "originalName": "Simple Truth Organic 85% Lean Ground Beef",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -3590,7 +3590,7 @@
     },
     "springer mountain farms ground chicken breast": {
       "originalName": "Springer Mountain Farms Ground Chicken Breast",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_chicken",
       "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
       "authoredBy": "Codex",
@@ -3638,7 +3638,7 @@
     },
     "steakhouse elite signature ground beef": {
       "originalName": "Steakhouse Elite Signature Ground Beef",
-      "categoryId": "fresh_meat",
+      "categoryId": "minced_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -3910,8 +3910,8 @@
     },
     "try with publix havarti cheese": {
       "originalName": "Try With Publix Havarti Cheese",
-      "categoryId": "dairy",
-      "comparisonGroup": "dairy_cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_table",
       "descriptionZh": "奶酪。奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -4102,7 +4102,7 @@
     },
     "yoplait yogurt": {
       "originalName": "Yoplait Yogurt",
-      "categoryId": "dairy",
+      "categoryId": "yoghurt",
       "comparisonGroup": "dairy_yogurt",
       "descriptionZh": "酸奶。酸奶；Greek Yogurt 是质地更稠、蛋白质通常更高的希腊式酸奶，可直接吃或搭配水果燕麦。",
       "authoredBy": "Codex",

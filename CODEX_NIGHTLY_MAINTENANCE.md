@@ -21,3 +21,13 @@ At 03:00 Europe/Copenhagen, inspect Aarhus and Atlanta deal sources. Only commit
 11. If there is a meaningful change, commit only the scoped repository files, push `main`, run `gh workflow run update-and-deploy.yml --repo isSiYua/aarhus-grocery-deals`, wait for success, and verify `https://issiyua.github.io/aarhus-grocery-deals/` plus both published offer JSON files. Never guess a flyer page number.
 
 The final automation report must state whether anything changed, description and taxonomy reviewed/pending counts, identity-reuse evidence discovered, tests/validation status, commit (if any), workflow run (if any), and deployed URL.
+
+## Fine taxonomy invariants
+
+These rules apply to both newly published flyers and recurring products. Do not collapse a known concrete form back into a broad legacy group.
+
+- Aarhus chicken, turkey, pork, beef and pork/beef mixed mince belong to top category `minced_meat`, while each species keeps its own comparison group. Atlanta ground beef, ground chicken and ground pork follow the same rule.
+- Yoghurt and Skyr belong to top category `yoghurt`. Aarhus cream and cross-dairy refrigerated assortments belong to `cream_cold_dairy`; Atlanta milk, butter, cream and eggs remain in `dairy`.
+- Cheese stays a top-level category, but the comparison group must express the identifiable form. Aarhus distinguishes grated, sliced, spreadable, cottage/ricotta, mozzarella/burrata, feta/white, grilling, soft-mould, aged hard, Danish table, mixed offer and other cheese. Atlanta distinguishes sliced, grated, portioned/sticks, prepared/breaded and table cheese.
+- A recurring normalized product name plus comparison group must reuse its fixed taxonomy and Chinese description even when the promotion ID changes. A genuinely new name is classified by the deterministic rules first, then reviewed by Codex if it is pending or ambiguous.
+- Tests and validation must fail if a known mince, yoghurt or identifiable cheese form returns to an obsolete broad category.
