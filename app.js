@@ -1,5 +1,6 @@
 const state = {
   data: null,
+  atlantaData: null,
   route: { view: 'home', id: null },
   search: '',
   touchStartX: null,
@@ -19,8 +20,8 @@ const LOCATIONS = [
     id: 'atlanta-westside',
     label: 'Atlanta Westside',
     radiusLabel: '10 km',
-    mode: 'flyers',
-    descriptionZh: '美国官方优惠入口：显示附近门店、门店地址与各品牌实时优惠页。',
+    mode: 'items',
+    descriptionZh: '美国商品级周促销：站内查看商品、美元价格、有效期和可追溯来源。',
   },
 ];
 
@@ -87,6 +88,22 @@ const ATLANTA_STORES = [
   },
 ];
 
+const ATLANTA_CATEGORY_LABELS = {
+  produce: ['🥬', '蔬菜水果'],
+  meat: ['🥩', '肉类熟食'],
+  seafood: ['🐟', '鱼类海鲜'],
+  dairy: ['🥛', '乳制品鸡蛋'],
+  bakery: ['🍞', '面包烘焙'],
+  frozen: ['🧊', '冷冻食品'],
+  pantry: ['🥫', '主食调味'],
+  snacks: ['🍪', '零食甜品'],
+  drinks: ['🥤', '饮料'],
+  baby: ['🍼', '婴幼儿用品'],
+  household: ['🧻', '家庭日用品'],
+  personal: ['🧴', '个人护理'],
+  pet: ['🐾', '宠物用品'],
+};
+
 const el = (tag, attrs = {}, children = []) => {
   const node = document.createElement(tag);
   Object.entries(attrs).forEach(([key, value]) => {
@@ -111,11 +128,13 @@ const formatUpdated = iso => new Intl.DateTimeFormat('zh-CN', {
   month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false,
 }).format(new Date(iso));
 const money = value => Number.isFinite(value) ? `${Number(value).toFixed(value % 1 ? 2 : 0)} DKK` : '价格待确认';
+const usd = value => Number.isFinite(value) ? `$${Number(value).toFixed(2)}` : '价格待确认';
 const now = () => new Date();
 const activeLocation = () => LOCATIONS.find(location => location.id === state.locationId) || LOCATIONS[0];
 const isAarhusLocation = () => activeLocation().id === 'aarhus-v';
 const activeStores = () => isAarhusLocation() ? state.data.stores : ATLANTA_STORES;
 const currentOffers = () => isAarhusLocation() ? state.data.offers.filter(o => o.status !== 'expired') : [];
+const atlantaOffers = () => (state.atlantaData?.offers || []).filter(o => o.status !== 'expired');
 const purchasableNow = () => currentOffers().filter(o => new Date(o.validFrom) <= now() && new Date(o.validUntil) >= now());
 const upcomingOffers = () => currentOffers().filter(o => new Date(o.validFrom) > now());
 const firstSentence = text => String(text || '').split(/(?<=[。！？])/)[0] || '查看中文说明';
@@ -143,7 +162,9 @@ function topbar() {
       el('div', { class: 'brand-mark' }, '菜'),
       el('div', {}, [
         el('h1', {}, '买菜口袋书'),
-        el('p', {}, isAarhusLocation() ? `${location.label} · 更新于 ${formatUpdated(state.data.metadata.updatedAt)}` : `${location.label} · 官方优惠入口`),
+        el('p', {}, isAarhusLocation()
+          ? `${location.label} · 更新于 ${formatUpdated(state.data.metadata.updatedAt)}`
+          : `${location.label} · 更新于 ${formatUpdated(state.atlantaData?.metadata?.updatedAt || new Date().toISOString())}`),
       ]),
     ]),
     el('div', { class: 'topbar-actions' }, [
@@ -200,34 +221,78 @@ function locationsView() {
 }
 
 function atlantaStoreCard(store) {
-  return el('article', { class: 'store-card atlanta-store-card', style: `--store-color:${store.color}` }, [
+  const offers = atlantaOffers().filter(offer => offer.storeId === store.id);
+  const flyer = state.atlantaData?.flyers?.find(item => item.storeId === store.id);
+  return el('button', { class: 'store-card atlanta-store-card', style: `--store-color:${store.color}`, onClick: () => go('store', store.id) }, [
     el('h3', {}, store.name),
     el('p', {}, `${store.shortAddress} · ${store.distanceLabel}`),
-    el('div', { class: 'store-stats' }, [el('span', { class: 'store-stat' }, store.membership)]),
+    el('div', { class: 'store-stats' }, [
+      el('span', { class: 'store-stat' }, offers.length ? `${offers.length} 项站内优惠` : '暂无结构化商品'),
+      el('span', { class: 'store-stat' }, store.membership),
+    ]),
     el('p', {}, store.descriptionZh),
-    el('div', { class: 'store-links atlanta-links' }, [
-      el('a', { href: store.flyerUrl, target: '_blank', rel: 'noopener noreferrer' }, '打开官方优惠 ↗'),
-      el('a', { href: store.mapUrl, target: '_blank', rel: 'noopener noreferrer' }, '地图 ↗'),
-      el('a', { href: store.website, target: '_blank', rel: 'noopener noreferrer' }, '门店页 ↗'),
+    flyer ? el('span', { class: 'store-open-hint' }, `查看 ${formatDate(flyer.validFrom)}—${formatDate(flyer.validUntil)} 的商品 →`) : el('span', { class: 'store-open-hint' }, '查看商店说明 →'),
+  ]);
+}
+
+function atlantaStatusBanner() {
+  if (!state.atlantaData?.metadata?.stale) return null;
+  const failed = state.atlantaData.metadata.failedStores
+    .map(id => ATLANTA_STORES.find(store => store.id === id)?.name || id)
+    .join('、');
+  return el('div', { class: 'status-banner' }, `以下美国来源今天未能刷新：${failed || '未知来源'}。页面仅为这些商店保留上次确认记录。`);
+}
+
+function atlantaOfferCard(offer) {
+  const store = ATLANTA_STORES.find(item => item.id === offer.storeId);
+  const category = ATLANTA_CATEGORY_LABELS[offer.categoryId] || ['🛒', '其他'];
+  const direct = offer.sourceLocation?.status === 'direct' && offer.sourceLocation.deepLink;
+  return el('article', { class: 'offer-card atlanta-offer-card' }, [
+    offer.imageUrl ? el('img', { class: 'offer-image', src: offer.imageUrl, alt: offer.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
+    el('div', { class: 'badges atlanta-offer-badges' }, [
+      el('span', { class: 'badge store', style: `--store-color:${store?.color || '#315f51'}` }, store?.name || offer.storeId),
+      el('span', { class: 'badge' }, `${category[0]} ${category[1]}`),
+      offer.status === 'unconfirmed' ? el('span', { class: 'badge warning' }, '等待重新确认') : null,
+    ]),
+    el('h4', {}, offer.originalName),
+    el('p', { class: 'zh-explanation' }, `${offer.zhExplanation}${offer.brand ? ` 品牌：${offer.brand}。` : ''}`),
+    el('div', { class: 'price-row' }, [el('span', { class: 'price' }, usd(offer.price)), el('span', { class: 'package' }, '促销单标示价格')]),
+    el('div', { class: 'meta-grid' }, [
+      el('div', { class: 'meta-line' }, [el('span', {}, '优惠期限'), el('strong', {}, `${formatDate(offer.validFrom)}—${formatDate(offer.validUntil)}`)]),
+      el('div', { class: 'meta-line' }, [el('span', {}, '区域'), el('strong', {}, '30318 · 约 10 km 购物圈')]),
+      el('div', { class: 'meta-line' }, [el('span', {}, '来源状态'), el('strong', {}, direct ? '零售商商品链接' : '整本周促销单')]),
+    ]),
+    el('div', { class: `source-block ${direct ? 'direct' : 'unlocated'}` }, [
+      el('div', { class: 'source-heading' }, [el('strong', {}, direct ? '商品优惠入口' : '来源'), el('span', { class: 'source-status' }, direct ? '直达链接' : '尚未定位')]),
+      el('p', {}, direct ? '来源提供零售商商品链接，但没有可靠促销单页码。' : '商品来自当前周促销 feed；数据源未提供可靠页码，因此不猜测页码。'),
+      el('a', { class: 'source-link secondary', href: offer.sourceUrl, target: '_blank', rel: 'noopener noreferrer' }, direct ? '打开商品优惠 ↗' : '打开来源促销单 ↗'),
     ]),
   ]);
 }
 
 function atlantaHomeView() {
   const location = activeLocation();
+  const offers = atlantaOffers();
+  const activeStoreCount = new Set(offers.map(offer => offer.storeId)).size;
+  const directCount = offers.filter(offer => offer.sourceLocation?.status === 'direct').length;
+  const highlights = [...offers].filter(offer => offer.status !== 'unconfirmed').sort((a, b) => a.price - b.price).slice(0, 8);
   return el('main', { class: 'content' }, [
+    atlantaStatusBanner(),
     el('section', { class: 'hero atlanta-hero' }, [
-      el('h2', {}, 'Atlanta Westside 附近优惠单'),
-      el('p', {}, '以 10 km（约 6.2 英里）作为方便购物区。这里只保存区域标签，不保存任何私人住址。'),
+      el('h2', {}, 'Atlanta Westside 本周打折商品'),
+      el('p', {}, '直接在站内查看 30318 周边商店的商品、美元价格和有效期。以 10 km（约 6.2 英里）作为方便购物区，不保存私人住址。'),
       el('div', { class: 'hero-meta' }, [
-        el('span', { class: 'hero-pill' }, `${ATLANTA_STORES.length} 家已核验门店`),
+        el('span', { class: 'hero-pill' }, `${offers.length} 项真实优惠`),
+        el('span', { class: 'hero-pill' }, `${activeStoreCount} 家有商品数据`),
+        el('span', { class: 'hero-pill' }, `${directCount} 项零售商直达`),
         el('span', { class: 'hero-pill' }, `${location.radiusLabel} 默认半径`),
-        el('span', { class: 'hero-pill' }, '官方优惠入口'),
       ]),
     ]),
-    sectionTitle('附近商店与优惠', '优惠和库存以各商店官方页面为准'),
+    sectionTitle('本周低价先看', '价格来自当前周促销；不同规格之间不直接比较'),
+    highlights.length ? el('div', { class: 'offer-list' }, highlights.map(atlantaOfferCard)) : el('div', { class: 'empty' }, '当前没有成功载入的 Atlanta 商品优惠。'),
+    sectionTitle('按商店查看', '点击商店卡片，在站内查看该店打折商品'),
     el('div', { class: 'store-grid' }, ATLANTA_STORES.map(atlantaStoreCard)),
-    el('p', { class: 'footer-note' }, 'Atlanta 暂不使用丹麦商品 feed，因此不会伪造统一页码或商品数据。官方页面会自行更新 Weekly Ad、Rollback 或会员优惠。'),
+    el('p', { class: 'footer-note' }, state.atlantaData?.metadata?.disclaimerZh || '美国商品数据暂不可用。所有来源都不猜测促销单页码。'),
   ]);
 }
 
@@ -235,6 +300,39 @@ function atlantaStoresView() {
   return el('main', { class: 'content' }, [
     sectionTitle('Atlanta Westside 商店', '默认显示 10 km 购物圈；实际驾车时间请用地图确认'),
     el('div', { class: 'store-grid' }, ATLANTA_STORES.map(atlantaStoreCard)),
+  ]);
+}
+
+function atlantaStoreView(storeId) {
+  const store = ATLANTA_STORES.find(item => item.id === storeId) || ATLANTA_STORES[0];
+  const offers = atlantaOffers().filter(offer => offer.storeId === store.id);
+  const categoryIds = [...new Set(offers.map(offer => offer.categoryId))];
+  const flyer = state.atlantaData?.flyers?.find(item => item.storeId === store.id);
+  return el('main', { class: 'content', style: `--store-color:${store.color}` }, [
+    el('section', { class: 'store-hero' }, [
+      el('h2', {}, store.name),
+      el('p', {}, `${store.shortAddress} · ${store.distanceLabel}\n${store.descriptionZh}`),
+      el('div', { class: 'store-links' }, [
+        el('a', { href: store.mapUrl, target: '_blank', rel: 'noopener noreferrer' }, '地图导航 ↗'),
+        el('a', { href: flyer?.url || store.flyerUrl, target: '_blank', rel: 'noopener noreferrer' }, '本周促销来源 ↗'),
+        el('a', { href: store.website, target: '_blank', rel: 'noopener noreferrer' }, '商店官网 ↗'),
+      ]),
+    ]),
+    sectionTitle(`${offers.length} 项站内优惠`, offers.length ? `${store.membership}；按食品与日用品类别查看` : '当前公开 feed 没有该商店的可解析商品，保留官方入口但不伪造数据'),
+    offers.length ? el('div', { class: 'chip-row' }, categoryIds.map(id => {
+      const label = ATLANTA_CATEGORY_LABELS[id] || ['🛒', id];
+      return el('button', { class: 'chip', onClick: () => document.getElementById(`atlanta-${store.id}-${id}`)?.scrollIntoView({ block: 'start' }) }, `${label[0]} ${label[1]}`);
+    })) : null,
+    ...categoryIds.map(id => {
+      const label = ATLANTA_CATEGORY_LABELS[id] || ['🛒', id];
+      const items = offers.filter(offer => offer.categoryId === id).sort((a, b) => a.price - b.price);
+      return el('section', { id: `atlanta-${store.id}-${id}`, class: 'group' }, [
+        el('div', { class: 'group-head' }, [el('h3', {}, `${label[0]} ${label[1]}`), el('p', {}, `${items.length} 项；不同规格不直接比较`)]),
+        el('div', { class: 'offer-list' }, items.map(atlantaOfferCard)),
+      ]);
+    }),
+    offers.length ? null : el('div', { class: 'empty' }, '该商店目前没有可验证的结构化周促销商品。可以使用上方官方入口查看。'),
+    el('p', { class: 'footer-note' }, state.atlantaData?.metadata?.disclaimerZh || ''),
   ]);
 }
 
@@ -537,7 +635,9 @@ function render() {
   let view;
   if (state.route.view === 'locations') view = locationsView();
   else if (!isAarhusLocation()) {
-    view = state.route.view === 'stores' ? atlantaStoresView() : atlantaHomeView();
+    if (state.route.view === 'stores') view = atlantaStoresView();
+    else if (state.route.view === 'store') view = atlantaStoreView(state.route.id);
+    else view = atlantaHomeView();
   } else if (state.route.view === 'categories') view = categoriesView();
   else if (state.route.view === 'category') view = categoryView(state.route.id);
   else if (state.route.view === 'stores') view = storesView();
@@ -552,10 +652,17 @@ async function boot() {
   try {
     if (globalThis.__GROCERY_DATA__) {
       state.data = globalThis.__GROCERY_DATA__;
+      state.atlantaData = globalThis.__ATLANTA_DATA__ || { metadata: { stale: true, failedStores: [] }, offers: [], flyers: [] };
     } else {
-      const res = await fetch('data/current_offers.json', { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      state.data = await res.json();
+      const [aarhusRes, atlantaRes] = await Promise.all([
+        fetch('data/current_offers.json', { cache: 'no-store' }),
+        fetch('data/atlanta_offers.json', { cache: 'no-store' }),
+      ]);
+      if (!aarhusRes.ok) throw new Error(`Aarhus data HTTP ${aarhusRes.status}`);
+      state.data = await aarhusRes.json();
+      state.atlantaData = atlantaRes.ok
+        ? await atlantaRes.json()
+        : { metadata: { stale: true, failedStores: [] }, offers: [], flyers: [] };
     }
     const savedLocation = localStorage.getItem(LOCATION_KEY);
     state.locationId = LOCATIONS.some(location => location.id === savedLocation) ? savedLocation : LOCATIONS[0].id;

@@ -1,6 +1,24 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchDealerOffers } from '../scripts/lib/tjek-client.mjs';
+import { fetchDealerOffers, listDanishDealers } from '../scripts/lib/tjek-client.mjs';
+
+test('fetches every dealer directory page so REMA is not omitted', async () => {
+  const calls = [];
+  const firstPage = Array.from({ length: 200 }, (_, index) => ({ id: `dealer-${index}`, name: `Dealer ${index}` }));
+  const secondPage = [{ id: '11deC', name: 'REMA 1000' }];
+
+  const dealers = await listDanishDealers(async (path, params) => {
+    calls.push({ path, params });
+    return params.offset === 0 ? firstPage : secondPage;
+  });
+
+  assert.equal(dealers.length, 201);
+  assert.equal(dealers.at(-1).name, 'REMA 1000');
+  assert.deepEqual(calls, [
+    { path: '/dealers', params: { country_id: 'DK', limit: 200, offset: 0 } },
+    { path: '/dealers', params: { country_id: 'DK', limit: 200, offset: 200 } },
+  ]);
+});
 
 test('fetches dealer offers with the API maximum and follows offset pagination', async () => {
   const calls = [];

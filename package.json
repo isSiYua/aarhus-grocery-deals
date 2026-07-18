@@ -3,9 +3,9 @@
   "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "Mobile-first Aarhus grocery deal pocketbook with daily incremental updates.",
+  "description": "Mobile-first Aarhus and Atlanta grocery deal pocketbook with daily updates.",
   "scripts": {
-    "update": "node scripts/update-data.mjs",
+    "update": "node scripts/update-data.mjs && node scripts/update-atlanta-data.mjs",
     "validate": "node scripts/validate-data.mjs",
     "test": "node --test",
     "serve": "python3 -m http.server 8080",

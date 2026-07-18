@@ -28,8 +28,18 @@ async function fetchJson(path, params = {}) {
   throw lastError || new Error('Tjek API request failed');
 }
 
-export async function listDanishDealers() {
-  return fetchJson('/dealers', { country_id: 'DK', limit: 200 });
+export async function listDanishDealers(fetchPage = fetchJson) {
+  const limit = 200;
+  const dealers = [];
+
+  for (let offset = 0; offset < 10_000; offset += limit) {
+    const page = await fetchPage('/dealers', { country_id: 'DK', limit, offset });
+    if (!Array.isArray(page)) throw new Error('Tjek dealers response must be an array');
+    dealers.push(...page);
+    if (page.length < limit) return dealers;
+  }
+
+  throw new Error('Tjek dealers pagination exceeded the safety limit');
 }
 
 export async function fetchDealerOffers(dealerId, fetchPage = fetchJson) {

@@ -3,9 +3,14 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
 test('published data contains no private home-base fields or home wording', async () => {
-  const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
+  const [data, atlanta] = await Promise.all([
+    fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8').then(JSON.parse),
+    fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8').then(JSON.parse),
+  ]);
 
   assert.equal(Object.hasOwn(data.metadata, 'addressLabel'), false);
+  assert.equal(Object.hasOwn(atlanta.metadata, 'addressLabel'), false);
+  assert.doesNotMatch(JSON.stringify(atlanta), /homeBase|privateAddress|residentAddress/i);
   for (const store of data.stores) {
     assert.doesNotMatch(store.descriptionZh, /住址|住宅|家庭地址/);
     assert.doesNotMatch(store.mapUrl, /\bnear\b/i);

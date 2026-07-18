@@ -8,6 +8,16 @@ const file = JSON.parse(await fs.readFile(locatorPath, 'utf8'));
 const byKey = new Map((file.locators || []).map(item => [item.canonicalKey, item]));
 let applied = 0;
 for (const offer of data.offers) {
+  if (!offer.sourceLocation) {
+    offer.sourceLocation = {
+      status: 'unlocated',
+      pageNumber: null,
+      positionLabel: null,
+      deepLink: null,
+      verifiedAt: null,
+      method: null,
+    };
+  }
   const loc = byKey.get(offer.canonicalKey);
   if (!loc) continue;
   if (!['verified','direct'].includes(loc.status)) throw new Error(`Invalid locator status for ${offer.canonicalKey}`);
