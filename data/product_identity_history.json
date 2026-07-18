@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-18T11:48:55.799Z",
+  "updatedAt": "2026-07-18T20:14:03.853Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -8,7 +8,7 @@
         "10 friskbagte rundstykker"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -58,7 +58,7 @@
         "3-Stjernet pålæg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -108,7 +108,7 @@
         "4 burgerboller eller 6 pølsebrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -158,7 +158,7 @@
         "4 burgerboller eller 6 pølsebrød"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -258,7 +258,7 @@
         "A+ Cherry Blossom vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -308,7 +308,7 @@
         "A+ vaskekapsler eller vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -358,7 +358,7 @@
         "A+ vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -432,7 +432,7 @@
         "Aalbæk salami eller postej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -684,7 +684,7 @@
         "AEG Induktionskogeplade"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -734,7 +734,7 @@
         "AEG Kondenstørretumbler"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -784,7 +784,7 @@
         "AEG Ovn"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -834,7 +834,7 @@
         "AEG Vaskemaskine"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -984,7 +984,7 @@
         "Ajax, Klorin eller Vel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -1034,7 +1034,7 @@
         "Ajax rengøringsmiddel eller Domestos toiletrengøringsskum"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -1158,7 +1158,7 @@
         "ALESTO Bananchips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -1208,7 +1208,7 @@
         "ALESTO Californiske valnødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1258,7 +1258,7 @@
         "ALESTO Cashewnødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1308,7 +1308,7 @@
         "ALESTO Chilenske svesker"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -1358,7 +1358,7 @@
         "ALESTO Frugt- og nøddeblanding"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1408,7 +1408,7 @@
         "ALESTO Indbagte chilipeanuts"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1458,7 +1458,7 @@
         "ALESTO Jordnødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1508,7 +1508,7 @@
         "ALESTO Jumborosiner"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -1558,7 +1558,7 @@
         "ALESTO Nøddeblanding"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1608,7 +1608,7 @@
         "ALESTO Nøddemix"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1658,7 +1658,7 @@
         "ALESTO Peanuts eller cashewnødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1708,7 +1708,7 @@
         "ALESTO Peanuts i sprød dej"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1758,7 +1758,7 @@
         "ALESTO Pistacienødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1808,7 +1808,7 @@
         "ALESTO Spanske mandler"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -1858,7 +1858,7 @@
         "ALESTO Tørrede tranebær, tørret ananas eller mango"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -1909,7 +1909,7 @@
       ],
       "categoryIds": [
         "fruit",
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit",
@@ -2110,7 +2110,7 @@
         "AMA flydende, bagning eller stegning"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -2160,7 +2160,7 @@
         "Amo mel eller bageblandinger"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -3291,7 +3291,7 @@
         "Änglamark vådservietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -3365,7 +3365,7 @@
         "Anthon Berg, Toms, Nestle eller Marabou bar"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -3415,7 +3415,7 @@
         "Antos græsk yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3515,7 +3515,7 @@
         "Arla Cultura Kefir eller A38"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3565,7 +3565,7 @@
         "Arla Cultura Yoghurt eller drik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3615,7 +3615,7 @@
         "Arla eller Cheasy koldskål"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -3689,7 +3689,7 @@
         "Arla kakaomælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -3739,7 +3739,7 @@
         "Arla Klovborg® Mellemlagret Danbo 45+"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -3812,7 +3812,7 @@
         "Arla laktosefri friskost*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -3862,7 +3862,7 @@
         "Arla laktosefri mælk eller piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -3912,7 +3912,7 @@
         "Arla laktosefri mælk eller piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "mixed_dairy"
@@ -3962,7 +3962,7 @@
         "Arla laktosefri mælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -4012,7 +4012,7 @@
         "Arla laktosefri piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "cream"
@@ -4062,7 +4062,7 @@
         "Arla laktosefri piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -4112,7 +4112,7 @@
         "Arla laktosefri smør"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -4162,7 +4162,7 @@
         "Arla Protein drik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -4236,7 +4236,7 @@
         "Arla yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -4286,7 +4286,7 @@
         "At Home marked"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -4336,7 +4336,7 @@
         "Athena autentisk græsk yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -4386,7 +4386,7 @@
         "Athena græsk yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -4436,7 +4436,7 @@
         "AVE Krainer-pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -4686,7 +4686,7 @@
         "BACON & CHEDDAR GRILLER"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -4736,7 +4736,7 @@
         "BACON & CHEDDAR GRILLER"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -4786,7 +4786,7 @@
         "BACON & CHEDDAR GRILLER"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -5038,7 +5038,7 @@
         "Bagerens brød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -5088,7 +5088,7 @@
         "Baguette"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -5188,7 +5188,7 @@
         "BAKKEDAL Økologisk smør"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -5238,7 +5238,7 @@
         "BAKKEDAL Smørbar"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -5288,7 +5288,7 @@
         "BANANKO Chokobanan"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -5339,7 +5339,8 @@
       ],
       "categoryIds": [
         "fruit",
-        "snacks"
+        "candy_chocolate",
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chocolate",
@@ -5390,7 +5391,7 @@
         "Bar marked"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -5440,7 +5441,7 @@
         "Barebells bar"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -5841,7 +5842,7 @@
         "BELBAKE Fødselsdagsboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -5891,7 +5892,7 @@
         "BELBAKE Pizzamel"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -5941,7 +5942,7 @@
         "BELBAKE Protein-pandekagemix"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -6064,7 +6065,7 @@
         "BELLAROM Formalet kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -6164,7 +6165,7 @@
         "Bettini pasta"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -6214,7 +6215,7 @@
         "Bifa sandwich kiks med pistacie eller jordbær*"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -6314,7 +6315,7 @@
         "Biotex eller Vanish"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -6364,7 +6365,7 @@
         "BioTex flydende vaskemiddel eller Bamseline skyllemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -6514,7 +6515,7 @@
         "BKI formalet eller instant kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -6766,7 +6767,7 @@
         "Black coffee, Cirkel kaffe eller Nescafé kapsler"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -7068,7 +7069,7 @@
         "BON GELATI/GELATELLI Isvafler"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -7118,7 +7119,7 @@
         "BON GELATI/GELATELLI Isvafler"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -7320,7 +7321,7 @@
         "Bornholmsk ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -7370,7 +7371,7 @@
         "Brioche sliders eller Pretzel burgerboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -7721,7 +7722,7 @@
         "BUKO Flødeost naturel eller pikant"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -7771,7 +7772,7 @@
         "BUKO Flødeost naturel eller pikant"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -7821,7 +7822,7 @@
         "Buko flødeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -7871,7 +7872,7 @@
         "Buko flødeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -7921,7 +7922,7 @@
         "BUKO Reje- eller skinkeost"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -7971,7 +7972,7 @@
         "BUKO Reje- eller skinkeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -8021,7 +8022,7 @@
         "Buko smelteost eller Castello dessertost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -8071,7 +8072,7 @@
         "Buko smøreost"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -8121,7 +8122,7 @@
         "Buko smøreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -8222,7 +8223,7 @@
         "BUTCHER’S Nakkefilet"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -8296,7 +8297,7 @@
         "BUTCHER’S Nakkefilet"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -8569,7 +8570,7 @@
         "Café Noir eller Peter Larsen Kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -8619,7 +8620,7 @@
         "Café Noir, Gevalia, Lavazza Oro, Merrild kaffe eller instant"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -8669,7 +8670,7 @@
         "Californiske valnødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -8820,7 +8821,7 @@
         "Casa Modena Italiensk pålæg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -8870,7 +8871,7 @@
         "Castello Aged Havarti eller Gouda"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -8920,7 +8921,7 @@
         "CASTELLO Blåskimmelost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -8970,7 +8971,7 @@
         "CASTELLO Smørbar ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -9020,7 +9021,7 @@
         "Castus Grinebidder eller frugtpålæg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -9070,7 +9071,7 @@
         "Castus Grinebidder eller frugtpålæg"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -9120,7 +9121,7 @@
         "Cheasy eller Klovborg skæreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -9170,7 +9171,7 @@
         "CHEASY Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -9220,7 +9221,7 @@
         "CHEASY Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -9270,7 +9271,7 @@
         "CHEASY Ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -9320,7 +9321,7 @@
         "Cheasy skiveost eller Dairy good hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -9370,7 +9371,7 @@
         "Cheasy skiveost eller Dairy good hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -9420,7 +9421,7 @@
         "Cheasy yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -9822,7 +9823,7 @@
         "Cirkel Kaffe formalet eller Nescafé instant kaffe*"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -9895,7 +9896,7 @@
         "Citronella lys i glas"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "home_goods"
@@ -9946,7 +9947,7 @@
       ],
       "categoryIds": [
         "fruit",
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "home_goods",
@@ -9997,7 +9998,7 @@
         "Citronella lys"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "home_goods"
@@ -10048,7 +10049,7 @@
       ],
       "categoryIds": [
         "fruit",
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "home_goods",
@@ -10099,7 +10100,7 @@
         "Cloetta bars*"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -10149,7 +10150,7 @@
         "Cocio Iskaffe Vanilje eller Iskaffe Espresso"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -10349,7 +10350,7 @@
         "COMBINO Farfalle, gnocchi eller fusilli tricolore"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -10399,7 +10400,7 @@
         "COMBINO Fusilli, penne rigate eller suppehorn"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -10499,7 +10500,7 @@
         "COMBINO Lasagneplader"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -10599,7 +10600,7 @@
         "COMBINO Økologisk pasta"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -10649,7 +10650,7 @@
         "COMBINO Pasta i bronzeform"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -10699,7 +10700,7 @@
         "COMBINO Spaghetti"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -10749,7 +10750,7 @@
         "Coop affaldsposer eller Skrald-let mad affaldsposer"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "trash_bags"
@@ -10849,7 +10850,7 @@
         "Coop Asia cubes"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -10949,7 +10950,7 @@
         "Coop bacon"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -11049,7 +11050,7 @@
         "Coop canasta mix eller bagechokolade"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -11099,7 +11100,7 @@
         "Coop Ciabatta baguette, mini flutes, hvidløgsbrød eller madbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -11300,7 +11301,7 @@
         "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
       ],
       "categoryIds": [
-        "pork",
+        "pork_fresh",
         "vegetables"
       ],
       "comparisonGroups": [
@@ -11402,7 +11403,7 @@
         "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -11452,7 +11453,7 @@
         "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -11502,7 +11503,7 @@
         "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -11552,7 +11553,7 @@
         "Coop flæskesteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -11602,7 +11603,7 @@
         "Coop fuldkorn pitabrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -11652,7 +11653,7 @@
         "Coop giant køkkenrulle*"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -11702,7 +11703,7 @@
         "Coop Grana Padano"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -11953,7 +11954,7 @@
         "Coop hakket gris & kalv 4-7% eller 8-12%"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -12003,7 +12004,7 @@
         "Coop hakket grisekød 4-7% eller 8-12%"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -12128,7 +12129,7 @@
         "COOP hele kaffebønner"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -12201,7 +12202,7 @@
         "Coop hele spegepølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -12301,7 +12302,7 @@
         "Coop is i bæger"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -12401,7 +12402,7 @@
         "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -12501,7 +12502,7 @@
         "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -12601,7 +12602,7 @@
         "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
       ],
       "categoryIds": [
-        "pork",
+        "pork_fresh",
         "vegetables"
       ],
       "comparisonGroups": [
@@ -12703,7 +12704,7 @@
         "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -12753,7 +12754,7 @@
         "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -12803,7 +12804,7 @@
         "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -13003,7 +13004,7 @@
         "Coop pølsehorn eller focaccia med pepperoni"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -13103,7 +13104,7 @@
         "Coop pølsehorn eller focaccia med pepperoni"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -13153,7 +13154,7 @@
         "Coop proteinbar eller Nutramino wafer"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -13203,7 +13204,7 @@
         "Coop proteinshake*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -13253,7 +13254,7 @@
         "Coop skagenslapper, møllehjul eller Hatting kanelsnegle"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -13303,7 +13304,7 @@
         "Coop skagenslapper, møllehjul, håndværkere eller Hatting kanelsnegle"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -13353,7 +13354,7 @@
         "Coop skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -13403,7 +13404,7 @@
         "Coop skrabeæg"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -13503,7 +13504,7 @@
         "Coop spareribs, pulled pork eller pulled chicken"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -13553,7 +13554,7 @@
         "Coop spareribs, pulled pork eller pulled chicken"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -13603,7 +13604,7 @@
         "Coop spareribs, pulled pork eller pulled chicken"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -14003,7 +14004,7 @@
         "Cream's sandwich-kiks eller Toffypops"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -14126,7 +14127,7 @@
         "Cucina eller Spiga Life mel"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -14176,7 +14177,7 @@
         "Cultura A38"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -14226,7 +14227,7 @@
         "CULTURA Kefir"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -14276,7 +14277,7 @@
         "Cultura syrnet drikkeyoghurt eller yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -14326,7 +14327,7 @@
         "Dairy goood revet mozzarella"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -14426,7 +14427,7 @@
         "Daloon forårsruller, spring rolls eller miniruller"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -14749,7 +14750,7 @@
         "Danone Actimel, Danonino yoghurt eller drikkeyoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -16704,7 +16705,7 @@
         "Dava danske frilandsæg"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -16754,7 +16755,7 @@
         "Dava frilandsæg"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -16804,7 +16805,7 @@
         "De Cecco pasta"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -17078,7 +17079,7 @@
         "DELUXE Brioche-burgerboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -17230,7 +17231,7 @@
         "DELUXE Smør med havsalt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -17330,7 +17331,7 @@
         "Demon hunters servietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -17555,7 +17556,7 @@
         "Den Grønne Slagter pålæg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -17655,7 +17656,7 @@
         "Dessert skyr eller luftig skyr*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -17755,7 +17756,7 @@
         "DOMACICA Småkager"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -17805,7 +17806,7 @@
         "Donut med chokolade eller vaniljefyld"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -17878,7 +17879,7 @@
         "Donut med chokolade eller vaniljefyld"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -17951,7 +17952,7 @@
         "Doritos"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -18001,7 +18002,7 @@
         "DOUBLE Ispind"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -18101,7 +18102,7 @@
         "DOVGAN Blinys"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -18151,7 +18152,7 @@
         "Dr. Oetker fromage"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -18301,7 +18302,7 @@
         "DULANO Bacon i strimler"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -18351,7 +18352,7 @@
         "DULANO Hamburgerryg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -18401,7 +18402,7 @@
         "DULANO Salami"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -18602,7 +18603,7 @@
         "Dun-let skyllemiddel eller spray"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -18652,7 +18653,7 @@
         "Dunlet skyllemiddel eller A+ summer breeze flydende vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -18775,7 +18776,7 @@
         "Egelykke bacon i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -18825,7 +18826,7 @@
         "Egelykke smør"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -18875,7 +18876,7 @@
         "Elephant pretzels"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -19398,7 +19399,7 @@
         "Færdig pastaret"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -19448,7 +19449,7 @@
         "Fazer bar eller slikpose"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -19598,7 +19599,7 @@
         "Finton's kanelgifler"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -19848,7 +19849,7 @@
         "Flæsk i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -19898,7 +19899,7 @@
         "FLORALYS Køkkenrulle"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -19948,7 +19949,7 @@
         "FLORALYS Toiletpapir"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -20067,7 +20068,7 @@
         "FLORALYS XXL køkkenrulle"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -20117,7 +20118,7 @@
         "Focaccia"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -20167,7 +20168,7 @@
         "Focacciabrød, buffalo burgerboller eller pølsebrød*"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -20217,7 +20218,7 @@
         "Focacciabrød, buffalo burgerboller eller pølsebrød*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -20317,7 +20318,7 @@
         "Formalet kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -20367,7 +20368,7 @@
         "FORMIL BASIC Flydende vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -20518,7 +20519,7 @@
         "Frankfurtere"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -20568,7 +20569,7 @@
         "Fransk hotdog"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -21120,7 +21121,7 @@
         "Friland dansk hakket grisekød, grise- og oksekød 8-12%, grillmedister eller koteletter"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -21170,7 +21171,7 @@
         "Friland dansk hakket grisekød, grise- og oksekød 8-12%, grillmedister eller koteletter"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -21220,7 +21221,7 @@
         "Frisk pasta"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -21270,7 +21271,7 @@
         "Friskbagt morgenbrød fra håndværksbageren"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -21421,7 +21422,7 @@
         "Frisko iskasse"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -21471,7 +21472,7 @@
         "Frokost favorit pålæg*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -21671,7 +21672,7 @@
         "Frysetørrede hindbær"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -21721,7 +21722,7 @@
         "Gårdschips*"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -21772,7 +21773,7 @@
         "Galle & Jessen pålægschokolade*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -21847,7 +21848,7 @@
         "Galle & Jessen pålægschokolade*"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -21971,7 +21972,7 @@
         "GELATELLI Cookie-is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22021,7 +22022,7 @@
         "GELATELLI High Protein isbæger"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22071,7 +22072,7 @@
         "GELATELLI Is-bidder"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22121,7 +22122,7 @@
         "GELATELLI Ispinde eller isvafler"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -22171,7 +22172,7 @@
         "GELATELLI Ispinde eller isvafler"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22221,7 +22222,7 @@
         "GELATELLI Jordbær- eller vaniljeis"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22271,7 +22272,7 @@
         "GELATELLI Mini-isvafler"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -22321,7 +22322,7 @@
         "GELATELLI Mini-isvafler"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22371,7 +22372,7 @@
         "GELATELLI Mochi"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22421,7 +22422,7 @@
         "GELATELLI Sandwichis"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22471,7 +22472,7 @@
         "Gelato isbæger"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -22521,7 +22522,7 @@
         "Gevalia, Café Noir, Peter Larsen Kaffe eller Illy"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -22695,7 +22696,7 @@
         "Godt papir"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -22745,7 +22746,7 @@
         "Gøl pølser eller Tulip bacon"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -22795,7 +22796,7 @@
         "Gøl pølser eller Tulip bacon"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -22845,7 +22846,7 @@
         "Gøl pølser eller Tulip bacon"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -22895,7 +22896,7 @@
         "Gøl pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -22945,7 +22946,7 @@
         "Gouda eller cheddar i tern"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -23345,7 +23346,7 @@
         "Graasten pålægssalat"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -23495,7 +23496,7 @@
         "Gram Slot koldskål"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -23646,7 +23647,7 @@
         "Grana Padano eller Castello hård ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -23696,7 +23697,7 @@
         "GRILLMESTER Grillpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -23846,7 +23847,7 @@
         "GRILLMESTER Marinerede nakkekoteletter"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -23946,7 +23947,7 @@
         "GRILLMESTER Marinerede spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -23996,7 +23997,7 @@
         "GRILLMESTER Marinerede spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -24046,7 +24047,7 @@
         "GRILLMESTER Oksemerguez eller grillfakler"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -24096,7 +24097,7 @@
         "Grillost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -24547,7 +24548,7 @@
         "Grønnelund skæreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -24997,7 +24998,7 @@
         "Hakket grisekød, koteletter, herregårdskoteletter, nakkekoteletter eller flæsk i skiver af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -25047,7 +25048,7 @@
         "Hakket grisekød, koteletter, herregårdskoteletter, nakkekoteletter eller flæsk i skiver af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -25421,7 +25422,7 @@
         "Hansens is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -25471,7 +25472,7 @@
         "Haribo slikpose"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -25521,7 +25522,7 @@
         "Harpic, Bref eller Domestos rengøringsmiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -26175,7 +26176,7 @@
         "Hatting brød eller kager"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -26225,7 +26226,7 @@
         "Hatting brød eller kager"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "mixed_bakery"
@@ -26275,7 +26276,7 @@
         "Hatting Burgerboller eller hotdogbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -26767,7 +26768,7 @@
         "Heaply chokolade eller skum"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -27067,7 +27068,7 @@
         "Hel ovnklar flæskesteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -27117,7 +27118,7 @@
         "Helbønnemarked"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -27591,7 +27592,7 @@
         "Hello Sensitive vådservietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -27641,7 +27642,7 @@
         "HERRE GRILLER MED BACON"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -27691,7 +27692,7 @@
         "HERRE GRILLER MED BACON"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -27842,7 +27843,7 @@
         "Højer chorizo brunchpølse eller Steff Houlberg bacon*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -27892,7 +27893,7 @@
         "Højer chorizo brunchpølse eller Steff Houlberg bacon*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -27942,7 +27943,7 @@
         "Højer chorizo brunchpølser eller Steff Houlberg bacon*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -27992,7 +27993,7 @@
         "Højer chorizo brunchpølser eller Steff Houlberg bacon*"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -28042,7 +28043,7 @@
         "Højer chorizo brunchpølser eller Steff Houlberg bacon*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -28092,7 +28093,7 @@
         "Høng Blåhvid, Landana chili gouda, Président Saint Morgon eller Le Brie Gourmet"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -28442,7 +28443,7 @@
         "Husholdningsmarked"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -28493,7 +28494,7 @@
         "HUSK kosttilskud eller mælkesyrebakterier"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -28740,7 +28741,7 @@
         "Irma formalet eller hele kaffebønner"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -28891,7 +28892,7 @@
         "Ismarked"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -28991,7 +28992,7 @@
         "Italiensk pålæg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -29041,7 +29042,7 @@
         "J. D. GROSS Chokolade"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -29241,7 +29242,7 @@
         "JENSENS Pulled chicken eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -29291,7 +29292,7 @@
         "JENSENS Pulled chicken eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -29341,7 +29342,7 @@
         "JENSENS Pulled chicken eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -29516,7 +29517,7 @@
         "Jensens spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -29566,7 +29567,7 @@
         "Jensens spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -29616,7 +29617,7 @@
         "Jordbærkage"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -29716,7 +29717,7 @@
         "Jordbærtærte eller Othellolagkage"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -29966,7 +29967,7 @@
         "K-Salat pålægssalat"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -30214,7 +30215,7 @@
         "Kærgården økologisk smørbar eller Arla ØKO økologisk smør"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -30264,7 +30265,7 @@
         "Kage- eller kiksemarked"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -30314,7 +30315,7 @@
         "Kakaomælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -31283,7 +31284,7 @@
         "Kanel- eller wienerstang*"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -31333,7 +31334,7 @@
         "Kanel- eller wienerstang*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -31383,7 +31384,7 @@
         "Kanelsnegl med glasur"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -31558,7 +31559,7 @@
         "Karen Volf all in one kiks"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -31608,7 +31609,7 @@
         "Karen Volf kagemarked*"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -31658,7 +31659,7 @@
         "Karen Volf kiks- eller kagemarked"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -31708,7 +31709,7 @@
         "Karen Volf Kiks eller småkager"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -31758,7 +31759,7 @@
         "Karen Volf Snøfler, kage eller småkager"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -31808,7 +31809,7 @@
         "Karolines Køkken eller Cheasy revet ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -31858,7 +31859,7 @@
         "KAROLINES KØKKEN Madlavningsfløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "cream"
@@ -31908,7 +31909,7 @@
         "KAROLINES KØKKEN Madlavningsfløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -31958,7 +31959,7 @@
         "KAROLINES KØKKEN Piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "cream"
@@ -32008,7 +32009,7 @@
         "KAROLINES KØKKEN Piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -32161,7 +32162,7 @@
         "Katjes slikpose*"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -32486,7 +32487,7 @@
         "Kettle Cooked chips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -32586,7 +32587,7 @@
         "Kiks- eller kage marked"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -32636,7 +32637,7 @@
         "Kiksemarked*"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -32687,7 +32688,7 @@
         "Kims chips - Limited Edition*"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -32761,7 +32762,7 @@
         "KIMS Chips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -32835,7 +32836,7 @@
         "Kims nødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -32885,7 +32886,7 @@
         "Kinder snack"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -32935,7 +32936,7 @@
         "Kinder snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -33085,7 +33086,7 @@
         "Klare sække"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "trash_bags"
@@ -33135,7 +33136,7 @@
         "Klorin eller Cillit Bang*"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -33185,7 +33186,7 @@
         "KLOVBORG Danbo skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -33235,7 +33236,7 @@
         "KLOVBORG Danbo"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -33285,7 +33286,7 @@
         "Klovborg skæreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -33335,7 +33336,7 @@
         "Klovborg skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -33385,7 +33386,7 @@
         "Kløver koldskål"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -33435,7 +33436,7 @@
         "Kløver naturel sødmælksyoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -33485,7 +33486,7 @@
         "Kløver naturel sødmælksyoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -33685,7 +33686,7 @@
         "Knorr snackpot eller nudler"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -33735,7 +33736,7 @@
         "Kohberg brød, Salling cookies eller hasselnød biscuits"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -33785,7 +33786,7 @@
         "Kohberg brød, Salling cookies eller hasselnød biscuits"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -33835,7 +33836,7 @@
         "Kohberg brød, Salling cookies eller hasselnød biscuits"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "mixed_bakery"
@@ -33885,7 +33886,7 @@
         "Kohberg brød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -33935,7 +33936,7 @@
         "Kohberg fastfoodbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -33985,7 +33986,7 @@
         "KOHBERG Hotdogbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -34035,7 +34036,7 @@
         "KOHBERG Rugbrød, boller eller sandwichbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -34085,7 +34086,7 @@
         "KOTELETTER TILSAT LAGE HVIDLØG"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -34135,7 +34136,7 @@
         "Koteletter uden ben af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -34185,7 +34186,7 @@
         "Kramer's brød- eller pandekagemix"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -34235,7 +34236,7 @@
         "Kramer's brød- eller pandekagemix"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -34285,7 +34286,7 @@
         "Kramer's is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -34335,7 +34336,7 @@
         "Kramer's Proteinbar"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -34385,7 +34386,7 @@
         "Krydrede kødboller eller hakket grisekød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -34435,7 +34436,7 @@
         "Krydrede kødboller eller hakket grisekød"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -34485,7 +34486,7 @@
         "KULJANKA Ægnudler"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -34535,7 +34536,7 @@
         "KULJANKA Bockwurst"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -34685,7 +34686,7 @@
         "KULJANKA Chips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -34735,7 +34736,7 @@
         "KULJANKA Farsbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -34785,7 +34786,7 @@
         "KULJANKA Farsbrød"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "prepared_meatballs"
@@ -34835,7 +34836,7 @@
         "KULJANKA Fast ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -34885,7 +34886,7 @@
         "KULJANKA Fletbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -35136,7 +35137,7 @@
         "KULJANKA Kindziuk skinke eller kabanossi"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -35186,7 +35187,7 @@
         "KULJANKA Østeuropæisk is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -35236,7 +35237,7 @@
         "KULJANKA Pandekager"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -35336,7 +35337,7 @@
         "KULJANKA Polsk krakauerpølse"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -35386,7 +35387,7 @@
         "KULJANKA Røget polsk pølse"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -35486,7 +35487,7 @@
         "KULJANKA Schlesiske pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -35536,7 +35537,7 @@
         "KULJANKA Sesambar"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -35636,7 +35637,7 @@
         "KULJANKA Skinke"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -35686,7 +35687,7 @@
         "KULJANKA Softcake"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -36086,7 +36087,7 @@
         "Kyllingepopcorn"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -36284,7 +36285,7 @@
         "L'OR eller Peter Larsen Kaffe helbønner"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -36334,7 +36335,7 @@
         "La Campagna feta"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -36384,7 +36385,7 @@
         "La Campagna pasta"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -36782,7 +36783,7 @@
         "Lambi Classic papir"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -36882,7 +36883,7 @@
         "Lambi Premium toiletpapir/ køkkenrulle eller Coop giant køkkenrulle"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -36932,7 +36933,7 @@
         "LANGE LÆNDER Brunchpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -36983,7 +36984,7 @@
         "LANGELÆNDER Pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -37157,7 +37158,7 @@
         "LAVAZZA Iskaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -37207,7 +37208,7 @@
         "Lay's Bugles"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -37257,7 +37258,7 @@
         "LAYS Chips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -37307,7 +37308,7 @@
         "Leksands knækbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -37358,7 +37359,7 @@
         "LIBA Fladbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -37730,7 +37731,7 @@
         "Lille morgenkage"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -37780,7 +37781,7 @@
         "Lillebror ostehaps eller Coop flødehavarti"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -37830,7 +37831,7 @@
         "Lillebror ostehaps eller Coop flødehavarti"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -37930,7 +37931,7 @@
         "Løgismose mini cookies"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -37980,7 +37981,7 @@
         "Løgismose økologisk skyr"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -38030,7 +38031,7 @@
         "Løgismose pålægschokolade"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -38080,7 +38081,7 @@
         "Løgismose pålægschokolade"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -38281,7 +38282,7 @@
         "Lotus Bishoff cookies"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -38331,7 +38332,7 @@
         "LOTUS Toiletpapir"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -38381,7 +38382,7 @@
         "LU Petit, Bastogne eller Oreo"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -38431,7 +38432,7 @@
         "LU prince kiks med chokoladecreme, Mcvitie’s eller go ahead frugtkiks"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -38481,7 +38482,7 @@
         "Luksus jordbærkage"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -38969,7 +38970,7 @@
         "LUPILU Vådservietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -39042,7 +39043,7 @@
         "Lurpak pisket smørbar eller Kærgården krydret smør"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -39093,7 +39094,7 @@
         "LURPAK Smør eller smørbar"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -39167,7 +39168,7 @@
         "Lurpak smør, smørbar eller plantebaseret"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -39217,7 +39218,7 @@
         "Lyons Toffypops"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -39267,7 +39268,7 @@
         "M&M’s, Maltesers, Skittles, Milky way eller Kinder marked"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -39367,7 +39368,7 @@
         "Madame Butterfly pitabrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -39517,7 +39518,7 @@
         "MADVÆRKET Danbo eller Samø"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -39567,7 +39568,7 @@
         "MADVÆRKET Danbo eller Samsø skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -39617,7 +39618,7 @@
         "MADVÆRKET Danbo med kommen"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -39667,7 +39668,7 @@
         "MADVÆRKET Danbo skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -39740,7 +39741,7 @@
         "MADVÆRKET Danbo"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -39936,7 +39937,7 @@
         "MADVÆRKET Flæskesteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -40009,7 +40010,7 @@
         "MADVÆRKET Flødehavarti"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -40059,7 +40060,7 @@
         "MADVÆRKET Flødehavarti"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -40109,7 +40110,7 @@
         "MADVÆRKET Fuldkornskrydderboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -40159,7 +40160,7 @@
         "MADVÆRKET/GRILLMEISTER Kamkoteletter eller nakkekoteletter"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -40209,7 +40210,7 @@
         "MADVÆRKET Grillpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -40259,7 +40260,7 @@
         "MADVÆRKET Grisemørbrad med bimørbrad"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -40309,7 +40310,7 @@
         "MADVÆRKET Grisemørbrad med bimørbrad"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_tenderloin"
@@ -40359,7 +40360,7 @@
         "MADVÆRKET Grisemørbrad uden bimørbrad"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -40409,7 +40410,7 @@
         "MADVÆRKET Grisemørbrad uden bimørbrad"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_tenderloin"
@@ -40559,7 +40560,7 @@
         "MADVÆRKET Hakket gris og kalv eller hakket gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -40682,7 +40683,7 @@
         "MADVÆRKET Hakket grise- og kalvekød"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -40755,7 +40756,7 @@
         "MADVÆRKET Hakket grisekød"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -41093,7 +41094,7 @@
         "MADVÆRKET Krydderboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -41786,7 +41787,7 @@
         "MADVÆRKET Medister"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -41836,7 +41837,7 @@
         "MADVÆRKET Nakkekoteletter eller kamkoteletter"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -41886,7 +41887,7 @@
         "MADVÆRKET Økologisk koldskål"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -41982,7 +41983,7 @@
         "MADVÆRKET Økologisk smør"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -42228,7 +42229,7 @@
         "MADVÆRKET Piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "cream"
@@ -42278,7 +42279,7 @@
         "MADVÆRKET Piskefløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -42328,7 +42329,7 @@
         "MADVÆRKET Porchetta"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -42378,7 +42379,7 @@
         "MADVÆRKET Porchetta"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -42628,7 +42629,7 @@
         "MADVÆRKET Rullepølse, hamburgerryg eller sennepsskinke"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -42728,7 +42729,7 @@
         "MADVÆRKET Rullepølse, hamburgerryg eller sennepsskinke"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -42778,7 +42779,7 @@
         "MADVÆRKET Schwarzbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -42828,7 +42829,7 @@
         "MADVÆRKET Skyr naturel eller vanilje"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -42901,7 +42902,7 @@
         "MADVÆRKET Solsikkerugbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -42951,7 +42952,7 @@
         "MADVÆRKET Stegeflæsk i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -43101,7 +43102,7 @@
         "MADVÆRKET Yoghurt naturel"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -43174,7 +43175,7 @@
         "MADVÆRKET Yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -43224,7 +43225,7 @@
         "Mælkesyrebakterier"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -43324,7 +43325,7 @@
         "Magnum 3-pk, Solero eller Minecraft iskasse"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -43374,7 +43375,7 @@
         "Magnum is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -43424,7 +43425,7 @@
         "MAGNUM Ispinde"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -43474,7 +43475,7 @@
         "Magnum, Minecraft eller Solero iskasse"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -43625,7 +43626,7 @@
         "Majskiks med smag*"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -43777,7 +43778,7 @@
         "Malaco, Skippers mini eller Polly."
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -43874,7 +43875,7 @@
         "MALACO Slikpose"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -43924,7 +43925,7 @@
         "MAMMEN Danbo Guld"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -43974,7 +43975,7 @@
         "MAMMEN Havarti"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -44024,7 +44025,7 @@
         "MAMMEN Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -44097,7 +44098,7 @@
         "MAMMEN Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -44170,7 +44171,7 @@
         "MAMMEN Økologisk hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -44220,7 +44221,7 @@
         "MAMMEN Økologisk hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -44270,7 +44271,7 @@
         "Mammen ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -44320,7 +44321,7 @@
         "Mammen skæreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -44370,7 +44371,7 @@
         "MAMMEN Skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -44720,7 +44721,7 @@
         "Marabou eller Toblerone"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -44770,7 +44771,7 @@
         "MARABOU Twist"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -45020,7 +45021,7 @@
         "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -45070,7 +45071,7 @@
         "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -45120,7 +45121,7 @@
         "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -45170,7 +45171,7 @@
         "Mars eller Snickers isbarer"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -45220,7 +45221,7 @@
         "Matilde kakao skummetmælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -45270,7 +45271,7 @@
         "Matilde kakaomælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -45370,7 +45371,7 @@
         "Matilde milkshake eller kakaomælk på dåse"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -45571,7 +45572,7 @@
         "Mentos"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -45671,7 +45672,7 @@
         "Merrild eller Lavazza helbønner"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -45771,7 +45772,7 @@
         "MesterHakket grise eller oksekød"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_minced"
@@ -45821,7 +45822,7 @@
         "Mex & co. tortilla wraps"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -45871,7 +45872,7 @@
         "Mexitopping*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -45921,7 +45922,7 @@
         "Middagsfrikadeller eller mini kødboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -45971,7 +45972,7 @@
         "Middagsfrikadeller eller mini kødboller"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "prepared_meatballs"
@@ -46121,7 +46122,7 @@
         "MILBONA Blåskimmelost eller hvid- og blåskimmelost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46171,7 +46172,7 @@
         "MILBONA Flødeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46221,7 +46222,7 @@
         "MILBONA Flødeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -46271,7 +46272,7 @@
         "MILBONA Gouda eller tilsiter"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46321,7 +46322,7 @@
         "MILBONA Gouda skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46371,7 +46372,7 @@
         "Milbona Græsk feta"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46421,7 +46422,7 @@
         "MILBONA Græsk-inspireret yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46471,7 +46472,7 @@
         "MILBONA Græsk yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46521,7 +46522,7 @@
         "MILBONA High Protein budding"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46571,7 +46572,7 @@
         "MILBONA High Protein drik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -46621,7 +46622,7 @@
         "MILBONA High Protein frugtshots"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46671,7 +46672,7 @@
         "MILBONA High Protein ricotta"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46721,7 +46722,7 @@
         "MILBONA High Protein ricotta"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46771,7 +46772,7 @@
         "MILBONA High Protein salatost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese_fresh"
@@ -46821,7 +46822,8 @@
         "MILBONA High Protein salatost"
       ],
       "categoryIds": [
-        "eggs_dairy",
+        "cheese",
+        "eggs_milk",
         "vegetables"
       ],
       "comparisonGroups": [
@@ -46873,7 +46875,7 @@
         "MILBONA High Protein yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -46923,7 +46925,7 @@
         "MILBONA Hvid ost i blok"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -46996,7 +46998,7 @@
         "MILBONA Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47092,7 +47094,7 @@
         "MILBONA Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -47188,7 +47190,7 @@
         "MILBONA Kakaomælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -47238,7 +47240,7 @@
         "MILBONA Letsaltet smør eller smørbar"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -47338,7 +47340,7 @@
         "MILBONA Madlavningsjævner med fløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "cream"
@@ -47388,7 +47390,7 @@
         "MILBONA Madlavningsjævner med fløde"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -47438,7 +47440,7 @@
         "MILBONA Minimozzarella"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47488,7 +47490,7 @@
         "MILBONA Mozzarella light"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47538,7 +47540,7 @@
         "MILBONA Mozzarella"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47588,7 +47590,7 @@
         "MILBONA Revet mozzarella"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47661,7 +47663,7 @@
         "MILBONA Revet ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47711,7 +47713,7 @@
         "MILBONA Skyr med frugt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -47761,7 +47763,7 @@
         "MILBONA Smelteost i skiver"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47812,7 +47814,7 @@
         "MILBONA Smøreost"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -47886,7 +47888,7 @@
         "MILBONA Smøreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -47959,7 +47961,7 @@
         "MILBONA Sødergården smørbar"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -48009,7 +48011,7 @@
         "MILBONA Tyrkisk-inspireret yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -48082,7 +48084,7 @@
         "MILBONA Yoghurt naturel"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -48132,7 +48134,7 @@
         "Milkshakemix eller proteindrik med chokolade"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -48182,7 +48184,7 @@
         "Milkshakemix eller proteindrik med chokolade"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -48232,7 +48234,7 @@
         "Mini Cream Cookies"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -48282,7 +48284,7 @@
         "Mini donuts"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -48382,7 +48384,7 @@
         "Mørbrad eller nakkefilet af gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -48432,7 +48434,7 @@
         "Mørbrad eller nakkefilet af gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -48482,7 +48484,7 @@
         "Mørbrad eller nakkefilet af gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -48532,7 +48534,7 @@
         "Morgenkage"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -48884,7 +48886,7 @@
         "NAKKE KOTELETTER SMOKEY BBQ"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -48934,7 +48936,7 @@
         "Nakkefilet eller mørbrad af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -48984,7 +48986,7 @@
         "Nakkefilet eller mørbrad af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -49034,7 +49036,7 @@
         "Nakkefilet eller mørbrad af dansk gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -49084,7 +49086,7 @@
         "Naturli' is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -49184,7 +49186,7 @@
         "NATURLI’ Økologisk smørbar eller blok"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -49234,7 +49236,7 @@
         "Naturli’ retter, Spangsberg Flødebolle is eller Underground is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -49284,7 +49286,7 @@
         "NATURLI' Soja- eller havredrik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "plant_drinks"
@@ -49434,7 +49436,7 @@
         "NAUTICA Skagensalat"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -50234,7 +50236,7 @@
         "Neophos maskinopvask"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -50284,7 +50286,7 @@
         "Nescafé instant kaffe Gold eller original"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -50334,7 +50336,7 @@
         "Nescafé instant kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -50384,7 +50386,7 @@
         "Nestlé eller Marabou barer"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -50534,7 +50536,7 @@
         "Neutral vaskemiddel eller skyllemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -50584,7 +50586,7 @@
         "Neutral vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -50784,7 +50786,7 @@
         "Nordthy Mini ris- eller majskiks"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -50834,7 +50836,7 @@
         "Nordthy Mini ris- eller majskiks"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "rice"
@@ -50884,7 +50886,7 @@
         "Nordthy nøddemix eller Elephant pretzels"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -50934,7 +50936,7 @@
         "Nordthy slikpose"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -50984,7 +50986,7 @@
         "NØRREGADE Familieposer"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -51034,7 +51036,7 @@
         "Nørregade slikpose"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -51134,7 +51136,7 @@
         "NOSTJA Filodej"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -51184,7 +51186,7 @@
         "NOSTJA Kaymak"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -51334,7 +51336,7 @@
         "NOSTJA Yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -51384,7 +51386,7 @@
         "Nut’s Amore nødder eller snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -52059,7 +52061,7 @@
         "ØGO økologisk børnekiks"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -52260,7 +52262,7 @@
         "ØGO økologiske pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -52687,7 +52689,7 @@
         "Økologisk kærnemælk"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -52737,7 +52739,7 @@
         "Økologisk Lifebrands majs -snack/-sticks eller Castus bars/bidder*"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -52787,7 +52789,7 @@
         "Økologisk piskefløde 38%"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "cream"
@@ -52837,7 +52839,7 @@
         "Økologisk piskefløde 38%"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -52887,7 +52889,7 @@
         "Økologisk revet havarti"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -52987,7 +52989,7 @@
         "Økologisk vaniljeis"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -53087,7 +53089,7 @@
         "Økologiske æg"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -53137,7 +53139,7 @@
         "Økologiske pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -53387,7 +53389,7 @@
         "Omo eller Bamseline"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -53437,7 +53439,7 @@
         "OMO vaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -53487,7 +53489,7 @@
         "Omo vaskepulver"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -53537,7 +53539,7 @@
         "Opvaskebørste"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -53587,7 +53589,7 @@
         "Opvaskemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -53637,7 +53639,7 @@
         "Ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -53760,7 +53762,7 @@
         "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -53810,7 +53812,7 @@
         "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -53860,7 +53862,7 @@
         "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -53910,7 +53912,7 @@
         "Pågen brød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -53984,7 +53986,7 @@
         "PÅLÆGSSLAGTEREN Bacon i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54034,7 +54036,7 @@
         "PÅLÆGSSLAGTEREN Baconleverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54084,7 +54086,7 @@
         "PÅLÆGSSLAGTEREN Bacontern"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54134,7 +54136,7 @@
         "PÅLÆGSSLAGTEREN Fransk leverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54184,7 +54186,7 @@
         "PÅLÆGSSLAGTEREN Grill- og pande-, wiener- eller hotdogpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54234,7 +54236,7 @@
         "PÅLÆGSSLAGTEREN Grill- og pande-, wiener- eller hotdogpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -54284,7 +54286,7 @@
         "PÅLÆGSSLAGTEREN Leverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54357,7 +54359,7 @@
         "PÅLÆGSSLAGTEREN Rullepølse, hamburgerryg eller røget rullepølse"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54407,7 +54409,7 @@
         "PÅLÆGSSLAGTEREN Rullepølse, hamburgerryg eller røget rullepølse"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -54457,7 +54459,7 @@
         "Pålækker pålæg, baconleverpostej eller salami-hapser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54507,7 +54509,7 @@
         "Pålækker pålæg, salami-hapser eller Tulip postej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54557,7 +54559,7 @@
         "Pålækker Rullepølse eller hamburgerryg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54607,7 +54609,7 @@
         "Pålækker Rullepølse eller hamburgerryg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -54757,7 +54759,7 @@
         "PANDA Lakrids"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -54807,7 +54809,7 @@
         "Panini med skinke og ost"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -54880,7 +54882,7 @@
         "Panini med skinke og ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -55076,7 +55078,7 @@
         "Pastasauce, majs eller kikærte marked"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -55126,7 +55128,7 @@
         "Pasteis de Nata"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -55176,7 +55178,7 @@
         "Pasteis de Nata"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -55226,7 +55228,7 @@
         "Peanuts eller cashewnødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -55276,7 +55278,7 @@
         "Peka flødekartofler"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -55529,7 +55531,7 @@
         "Peter Larsen Iskaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -55579,7 +55581,7 @@
         "Peter Larsen Kaffe blanding 66 formalet kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -55629,7 +55631,7 @@
         "PETER LARSEN Kaffe"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -55679,7 +55681,7 @@
         "PHILADELPHIA Flødeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -55729,7 +55731,7 @@
         "PHILADELPHIA Flødeost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -55779,7 +55781,7 @@
         "PIATNICA Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -55829,7 +55831,7 @@
         "PIATNICA Hytteost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -56030,7 +56032,7 @@
         "PLIVIT Somun-brød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -56080,7 +56082,7 @@
         "PLOMBIR Kefir"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -56180,7 +56182,7 @@
         "Pølsemesteren hotdog- eller grillpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -56230,7 +56232,7 @@
         "Popcorn"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -56280,7 +56282,7 @@
         "Popz mikrobølgeovns popcorn 8-pak"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -56330,7 +56332,7 @@
         "Popz popcorn 3-pak, Lay’s, Bugles, Cheetos eller Doritos chips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -56380,7 +56382,7 @@
         "Premier Is iskasse"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -56430,7 +56432,7 @@
         "Premier Is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -56831,7 +56833,7 @@
         "PRINGLES Chips"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -56953,7 +56955,7 @@
         "Protein lab protein brød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -57003,7 +57005,7 @@
         "Protein tortilla wraps"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -57053,7 +57055,7 @@
         "Proteinbar"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -57103,7 +57105,7 @@
         "Puck ost eller Taverna halloumi grillost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -57153,7 +57155,7 @@
         "Puck ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -57227,7 +57229,7 @@
         "PUCK Salatost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese_fresh"
@@ -57277,7 +57279,8 @@
         "PUCK Salatost"
       ],
       "categoryIds": [
-        "eggs_dairy",
+        "cheese",
+        "eggs_milk",
         "vegetables"
       ],
       "comparisonGroups": [
@@ -57329,7 +57332,7 @@
         "Pulled pork"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -57480,7 +57483,7 @@
         "QUAKER Cruesli mørk chokolade"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -57530,7 +57533,7 @@
         "Rå kamben med Chimichurri eller Mesquit"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -57580,7 +57583,7 @@
         "Rå kamben med Chimichurri eller Mesquit"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -57731,7 +57734,7 @@
         "REMA 1000 Bologna Italiensk is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -57781,7 +57784,7 @@
         "REMA 1000 croissanter"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -57831,7 +57834,7 @@
         "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -57881,7 +57884,7 @@
         "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -57931,7 +57934,7 @@
         "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_tenderloin"
@@ -58377,7 +58380,7 @@
         "REMA 1000 DANSKE KLASSIKERE CHOKOLADE & KARAMEL VAFFEL"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -58728,7 +58731,7 @@
         "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -58778,7 +58781,7 @@
         "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -58878,7 +58881,7 @@
         "REMA 1000 Frilandsgris XL spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -58928,7 +58931,7 @@
         "REMA 1000 Frilandsgris XL spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -58978,7 +58981,7 @@
         "REMA 1000 Frilandsgris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -59280,7 +59283,7 @@
         "REMA 1000 Hakket dansk grisekød 8-12%, danske koteletter eller sommermedister"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -59330,7 +59333,7 @@
         "REMA 1000 Hakket dansk grisekød 8-12%, danske koteletter eller sommermedister"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -59430,7 +59433,7 @@
         "REMA 1000 Hakket grise- og kalvekød eller Frilandsgris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -59480,7 +59483,7 @@
         "REMA 1000 Hakket grise- og kalvekød eller Frilandsgris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -59630,7 +59633,7 @@
         "REMA 1000 Hvidløgsflutes"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -59680,7 +59683,8 @@
         "REMA 1000 Hvidløgsflutes"
       ],
       "categoryIds": [
-        "bread_grains",
+        "bread_bakery",
+        "rice_pasta",
         "vegetables"
       ],
       "comparisonGroups": [
@@ -59732,7 +59736,7 @@
         "REMA 1000 is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -59805,7 +59809,7 @@
         "REMA 1000 Kaffekapsler"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -59855,7 +59859,7 @@
         "REMA 1000 kageblanding"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -59905,7 +59909,7 @@
         "REMA 1000 Kiks, småkager eller kokostoppe"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -60256,7 +60260,7 @@
         "REMA 1000 Lommeletter med balsam eller ansigtsservietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -60356,7 +60360,7 @@
         "REMA 1000 Mazarintærte, træstammer eller romkugler"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -60456,7 +60460,7 @@
         "REMA 1000 Nøddemix eller frugtsnacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -60506,7 +60510,7 @@
         "REMA 1000 Ost i skiver"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -60606,7 +60610,7 @@
         "REMA 1000 Popcorn, flæskesvær eller snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -60656,7 +60660,7 @@
         "REMA 1000 proteinbar"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -61056,7 +61060,7 @@
         "REMA 1000 Saltkød"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -61206,7 +61210,7 @@
         "REMA 1000 skyllemiddel"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -61606,7 +61610,7 @@
         "REMA 1000 Tex Mex Tortillas"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -61656,7 +61660,7 @@
         "REMA 1000 Tomatpuré eller pastasauce"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -61706,7 +61710,7 @@
         "REMA 1000 ultrasoft køkkenruller eller toiletpapir 4-lags"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -62106,7 +62110,7 @@
         "Renova Textil toiletpapir"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -62256,7 +62260,7 @@
         "Ribbensteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -62306,7 +62310,7 @@
         "Ribbensteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -62457,7 +62461,7 @@
         "RIBERHUS Danbo skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -62507,7 +62511,7 @@
         "RIBERHUS Danbo"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -62557,7 +62561,7 @@
         "RIBERHUS Ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -62607,7 +62611,7 @@
         "Riberhus skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -62757,7 +62761,7 @@
         "Risifrutti, Yoggi yoghurt eller Arla Protein budding eller mousse"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -62807,7 +62811,7 @@
         "Ritter Sport"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -63207,7 +63211,7 @@
         "Rodalon"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -63257,7 +63261,7 @@
         "Røgede kamben"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -63307,7 +63311,7 @@
         "Røgede kamben"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -64458,7 +64462,7 @@
         "salling Fryse- eller genluksposer"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "trash_bags"
@@ -64508,7 +64512,7 @@
         "salling Iskasse"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -64708,7 +64712,7 @@
         "salling Pasta fusilli"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -64859,7 +64863,7 @@
         "Salling Princip brioche hotdogbrød pretzel style"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -65109,7 +65113,7 @@
         "Samyang eller Nissin cup noodles"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -65159,7 +65163,7 @@
         "Samyang, Nongshim eller Nissin kopnudler"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -65410,7 +65414,7 @@
         "SCHULSTAD Brød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -65484,7 +65488,7 @@
         "Schulstad Signaturbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -65734,7 +65738,7 @@
         "Secreto af gris"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -65984,7 +65988,7 @@
         "Sensodyne tandpasta, tandbørster 2-pak eller Listerine mundskyl"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "pasta_noodles"
@@ -66034,7 +66038,7 @@
         "Servietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -66084,7 +66088,7 @@
         "SILVERCREST Pålægsbokse"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -66134,7 +66138,7 @@
         "SILVERCREST Pålægsbokse"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "kitchen_tools"
@@ -66184,7 +66188,7 @@
         "SILVERCREST Plastruller til vakuumpakker"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "kitchen_consumables"
@@ -66234,7 +66238,7 @@
         "SILVERCREST Sæt med tomatknive"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "kitchen_tools"
@@ -66284,7 +66288,7 @@
         "SILVERCREST Sæt med tomatknive"
       ],
       "categoryIds": [
-        "household",
+        "household_paper",
         "vegetables"
       ],
       "comparisonGroups": [
@@ -66336,7 +66340,7 @@
         "Skagenfood koldrøget laks"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -66486,7 +66490,7 @@
         "Skagenfood varmrøget laks eller fiskesalat"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -66636,7 +66640,7 @@
         "Skrabeæg M/L"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -66686,7 +66690,7 @@
         "Skrabeæg"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "eggs"
@@ -66736,7 +66740,7 @@
         "Skrald-let affaldsposer ekstra stærke med snørreluk*"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "trash_bags"
@@ -66786,7 +66790,7 @@
         "Skyr*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -66836,7 +66840,7 @@
         "SLAGTER LAMPE Frankfurter"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -66886,7 +66890,7 @@
         "Slagter Lampe Pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -66936,7 +66940,7 @@
         "Slagterens bbq kamben"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -66986,7 +66990,7 @@
         "Slagterens bbq kamben"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -67036,7 +67040,7 @@
         "Slagtermester Andersen Stor leverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -67086,7 +67090,7 @@
         "Slikærter"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -67136,7 +67140,7 @@
         "Små morgenkager"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -67186,7 +67190,7 @@
         "Smirnoff Red Label eller Captain Morgan Magnum"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -67236,7 +67240,7 @@
         "SNICKERS/MARS/TWIX Is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -67286,7 +67290,7 @@
         "Softkerne- eller solsikkerugbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -67336,7 +67340,7 @@
         "Softkernerugbrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -67410,7 +67414,7 @@
         "SOL&MAR Blæksprutteringe eller chorizo-kroketter"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -67560,7 +67564,7 @@
         "SOL&MAR Chorizo-grillpølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -67610,7 +67614,7 @@
         "SOL&MAR Chorizo sarta eller serrano"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -67660,7 +67664,7 @@
         "SOL&MAR Chorizo sarta eller serrano"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -67710,7 +67714,7 @@
         "SOL&MAR Churros eller Mini Churros"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -67760,7 +67764,7 @@
         "SOL&MAR Churros eller Mini Churros"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -67810,7 +67814,7 @@
         "SOL&MAR Flan med karamel"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -67860,7 +67864,7 @@
         "SOL&MAR Friske macarons"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -67910,7 +67914,7 @@
         "SOL&MAR Frugt fyldt med is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -68160,7 +68164,7 @@
         "SOL&MAR Magdalenas"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -68210,7 +68214,7 @@
         "SOL&MAR Magdalenas"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -68260,7 +68264,7 @@
         "SOL&MAR Osteplatte eller manchego corado"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -68460,7 +68464,7 @@
         "SOL&MAR Serranoskinke"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -68510,7 +68514,7 @@
         "SOL&MAR Skinke i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -68610,7 +68614,7 @@
         "SOL&MAR Store solsikkekerner"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -68660,7 +68664,7 @@
         "SOL&MAR Tortilla"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -68810,7 +68814,7 @@
         "SONDEY Kammerjunkere"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -68906,7 +68910,7 @@
         "Spangsberg bolcher*"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -68956,7 +68960,7 @@
         "SPANGSBERG Flødeboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -69006,7 +69010,7 @@
         "SPANGSBERG Flødeboller"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -69056,7 +69060,7 @@
         "Spangsberg is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -69206,7 +69210,7 @@
         "Spareribs, pulled chicken eller pork"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -69256,7 +69260,7 @@
         "Spareribs, pulled chicken eller pork"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -69306,7 +69310,7 @@
         "Spareribs, pulled chicken eller pork"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -69457,7 +69461,7 @@
         "Starbucks® kaffekapsler"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -69507,7 +69511,7 @@
         "Starbucks Triple Espresso, Protein drik med kaffe eller Arla Protein drik"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -69557,7 +69561,7 @@
         "Starbucks Triple Espresso, Protein drik med kaffe eller Arla Protein drik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -69607,7 +69611,7 @@
         "Stay Strong skyr eller koldskål"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -69657,7 +69661,7 @@
         "Steff Houlberg Brunchpølser eller bacon i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -69707,7 +69711,7 @@
         "Steff Houlberg Brunchpølser eller bacon i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -69757,7 +69761,7 @@
         "Steff Houlberg Brunchpølser eller bacon i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -69857,7 +69861,7 @@
         "STEFF HOULBERG Hotdog-, grill- eller bayerske pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -69908,7 +69912,7 @@
         "Steff Houlberg pølser*"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -69982,7 +69986,7 @@
         "Steff Houlberg skinkestrimler"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -70082,7 +70086,7 @@
         "Stor morgenkage"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -70132,7 +70136,7 @@
         "STORE KOTELETTER TOMAT & RAMSLØG"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -70282,7 +70286,7 @@
         "STRYHN’S Leverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -70355,7 +70359,7 @@
         "Stryhns leverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -70429,7 +70433,7 @@
         "Stryhns postej eller røget medister"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -70479,7 +70483,7 @@
         "Stryhns postej eller røget medister"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -70529,7 +70533,7 @@
         "Stryhns postej eller røget medister"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -70579,7 +70583,7 @@
         "Stryhns postej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -70679,7 +70683,7 @@
         "SUN LOLLY Frys-selv-is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -70729,7 +70733,7 @@
         "Sunshine Delights tørret frugt"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -70779,7 +70783,7 @@
         "Surdejsbaguette"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -71130,7 +71134,7 @@
         "Taffel chips +12% eller party snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -71180,7 +71184,7 @@
         "Taffel chips +12%"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -71230,7 +71234,7 @@
         "Taffel chips eller snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -71280,7 +71284,7 @@
         "Taffel nødder"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "nuts"
@@ -71330,7 +71334,7 @@
         "Taga bacondadler, fuet snack sticks eller skiver"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -71380,7 +71384,7 @@
         "Taga bacondadler, fuet snack sticks eller skiver"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -71430,7 +71434,7 @@
         "Taga chorizo eller Casa Modena salsiccia"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -71480,7 +71484,7 @@
         "Taga serrano"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -71530,7 +71534,7 @@
         "TASTINO Smørcroissanter"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -71580,7 +71584,7 @@
         "TASTINO Smørcroissanter"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -71630,7 +71634,7 @@
         "THEM/KLOVBORG Fætter Kras eller Danbo"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -71680,7 +71684,7 @@
         "Them ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -71730,7 +71734,7 @@
         "THEM Revet ost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -71780,7 +71784,7 @@
         "Thise økologisk blue, tapas- eller skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -71830,7 +71834,7 @@
         "Thise økologisk burrata eller mozzarella*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -71880,7 +71884,7 @@
         "Thise økologisk græsk inspireret yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -71930,7 +71934,7 @@
         "Thise økologisk jerseymælk, creme fraiche eller fraiche"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -71980,7 +71984,7 @@
         "Thise økologisk jerseymælk, creme fraiche eller fraiche"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "mixed_dairy"
@@ -72030,7 +72034,7 @@
         "Thise økologisk kærnemælk eller skyr med topping"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -72080,7 +72084,7 @@
         "Thise økologisk kærnemælk eller skyr med topping"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "mixed_dairy"
@@ -72130,7 +72134,7 @@
         "Thise økologisk laktosefri koldskål*"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -72180,7 +72184,7 @@
         "Thise økologisk skæreost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -72254,7 +72258,7 @@
         "Thise økologisk skiveost"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -72304,7 +72308,7 @@
         "Thise økologisk yoghurt eller acido"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -72404,7 +72408,7 @@
         "Tjia hytteostsalat"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -72454,7 +72458,7 @@
         "Tjia hytteostsalat"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -72579,7 +72583,7 @@
         "Toffee Pops"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -72679,7 +72683,7 @@
         "Toms eller Malaco slikpose"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -72729,7 +72733,7 @@
         "Toms marked"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -72779,7 +72783,7 @@
         "Torsdagssmørrebrød"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -72852,7 +72856,7 @@
         "Torsdagssmørrebrød"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -72998,7 +73002,7 @@
         "Træstamme"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -73048,7 +73052,7 @@
         "Træstamme"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -73098,7 +73102,7 @@
         "Trope Frugt eller snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -73148,7 +73152,7 @@
         "Trope frysetørret frugt"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "dried_fruit"
@@ -73198,7 +73202,7 @@
         "Trope snacks"
       ],
       "categoryIds": [
-        "snacks"
+        "salty_snacks"
       ],
       "comparisonGroups": [
         "chips"
@@ -73248,7 +73252,7 @@
         "TULIP Bacon i skiver eller tern"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -73298,7 +73302,7 @@
         "Tulip bacon"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -73348,7 +73352,7 @@
         "TULIP Baconleverpostej"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -73398,7 +73402,7 @@
         "Tulip frankfurtere"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -73498,7 +73502,7 @@
         "Tulip pulled eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -73548,7 +73552,7 @@
         "Tulip pulled eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -73598,7 +73602,7 @@
         "Tulip pulled eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -73698,7 +73702,7 @@
         "Tulip pulled pork eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -73748,7 +73752,7 @@
         "Tulip pulled pork eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -73798,7 +73802,7 @@
         "Tulip pulled pork eller spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -73848,7 +73852,7 @@
         "TULIP Skiveskåret bacon"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -73948,7 +73952,7 @@
         "Tulip Spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_ribs"
@@ -73998,7 +74002,7 @@
         "Tulip Spareribs"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -74298,7 +74302,7 @@
         "Twister, Champagnebrus, Filur, Haribo eller Minecraft is"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -74422,7 +74426,7 @@
         "Underground saltede karamel vafler 3-pak"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -74522,7 +74526,7 @@
         "Vådservietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -74572,7 +74576,7 @@
         "VALSEMØLLEN Gourmetsolsikkerugbrød eller koldhævede brunchboller"
       ],
       "categoryIds": [
-        "bread_grains"
+        "bread_bakery"
       ],
       "comparisonGroups": [
         "bread"
@@ -74622,7 +74626,7 @@
         "Valsemøllen mel*"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -74672,7 +74676,7 @@
         "VALSEMØLLEN Tipo 00 mel"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"
@@ -74873,7 +74877,7 @@
         "VARÉNA Kvarkbar"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -74973,7 +74977,7 @@
         "Vel, Domestos eller Bref"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -75123,7 +75127,7 @@
         "Velsmag dansk ovnklar flæskesteg"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_roast"
@@ -75173,7 +75177,7 @@
         "Velsmag danske koteletter"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -75223,7 +75227,7 @@
         "Velsmag hakket grise- og kalvekød 8-12%, nakkekoteletter eller dansk flæsk i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -75273,7 +75277,7 @@
         "Velsmag hakket grise- og kalvekød 8-12%, nakkekoteletter eller dansk flæsk i skiver"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_mixed_offer"
@@ -75423,7 +75427,7 @@
         "Velsmag marineret kotelet"
       ],
       "categoryIds": [
-        "pork"
+        "pork_fresh"
       ],
       "comparisonGroups": [
         "pork_chop"
@@ -75623,7 +75627,7 @@
         "VEMONDO Veganske pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -75673,7 +75677,7 @@
         "VITA D’OR Margarine"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "butter_spreads"
       ],
       "comparisonGroups": [
         "butter"
@@ -75723,7 +75727,7 @@
         "W5 Maskinopvask"
       ],
       "categoryIds": [
-        "household"
+        "household_cleaning"
       ],
       "comparisonGroups": [
         "cleaning"
@@ -75773,7 +75777,7 @@
         "Wasa runda, biscuits, Pick up 4-pak eller Salling chokolade sticks"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -75823,7 +75827,7 @@
         "Werthers original, Riesen eller Mentos 3-pak"
       ],
       "categoryIds": [
-        "snacks"
+        "candy_chocolate"
       ],
       "comparisonGroups": [
         "chocolate"
@@ -75873,7 +75877,7 @@
         "Wilfa Performance Compact kaffemaskine"
       ],
       "categoryIds": [
-        "breakfast"
+        "coffee_tea"
       ],
       "comparisonGroups": [
         "coffee_tea"
@@ -75923,7 +75927,7 @@
         "Windsor mønstrede servietter"
       ],
       "categoryIds": [
-        "household"
+        "household_paper"
       ],
       "comparisonGroups": [
         "paper"
@@ -75973,7 +75977,7 @@
         "Xtra! bacontern"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -76073,7 +76077,7 @@
         "Xtra! hamburgerryg"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "bacon_deli"
@@ -76123,7 +76127,7 @@
         "Xtra! ispinde eller isvafler"
       ],
       "categoryIds": [
-        "snacks"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
         "biscuits"
@@ -76173,7 +76177,7 @@
         "Xtra! ispinde eller isvafler"
       ],
       "categoryIds": [
-        "frozen_ready"
+        "ice_cream"
       ],
       "comparisonGroups": [
         "ice_cream"
@@ -76597,7 +76601,7 @@
         "XXL pølser"
       ],
       "categoryIds": [
-        "pork"
+        "sausages_deli"
       ],
       "comparisonGroups": [
         "sausages"
@@ -76647,7 +76651,7 @@
         "Yoggi yoghurt"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -76697,7 +76701,7 @@
         "Yopro proteindrikkeyoghurt eller Activia kefirdrik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "eggs_milk"
       ],
       "comparisonGroups": [
         "milk"
@@ -76747,7 +76751,7 @@
         "Yopro proteindrikkeyoghurt eller Activia kefirdrik"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "yoghurt_cream"
       ],
       "comparisonGroups": [
         "yoghurt"
@@ -76797,7 +76801,7 @@
         "Zanetti burrata"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -76847,7 +76851,7 @@
         "Zanetti Grana Padano, Parmigiano Reggiano eller Pecorino Romano"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -76897,7 +76901,7 @@
         "Zanetti mozzarella"
       ],
       "categoryIds": [
-        "eggs_dairy"
+        "cheese"
       ],
       "comparisonGroups": [
         "cheese"
@@ -76947,7 +76951,7 @@
         "Zelected Durum- eller pizzamel"
       ],
       "categoryIds": [
-        "bread_grains"
+        "rice_pasta"
       ],
       "comparisonGroups": [
         "flour_baking"

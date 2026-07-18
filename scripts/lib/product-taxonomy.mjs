@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { refineAarhusCategory } from './taxonomy.mjs';
 
 export const TAXONOMY_SCHEMA_VERSION = 1;
 export const TAXONOMY_VERSION = 'codex-taxonomy-v1';
@@ -31,7 +32,7 @@ export function resolveProductTaxonomy(descriptionKey, fallback, taxonomy = empt
   if (!fixed) return { ...fallback, taxonomySource: 'rules_fallback', taxonomyReviewStatus: 'unreviewed' };
   if (fixed.status === 'excluded') return null;
   return {
-    categoryId: fixed.categoryId,
+    categoryId: refineAarhusCategory(fixed.categoryId, fixed.comparisonGroup),
     comparisonGroup: fixed.comparisonGroup,
     taxonomySource: fixed.reviewStatus === 'reviewed' ? 'codex_taxonomy' : 'fixed_pending_review',
     taxonomyReviewStatus: fixed.reviewStatus,

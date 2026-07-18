@@ -50,13 +50,13 @@ test('keeps cross-part and cross-species meat offers out of atomic lowest-price 
 
 test('keeps household and baby goods out of food categories', () => {
   assert.deepEqual(classifyOffer({ heading:'Skrald-let affaldsposer ekstra stærke med snøreluk' }), {
-    categoryId:'household', comparisonGroup:'trash_bags',
+    categoryId:'household_paper', comparisonGroup:'trash_bags',
   });
   assert.deepEqual(classifyOffer({ heading:'Änglamark skumklude eller babypads' }), {
     categoryId:'baby', comparisonGroup:'baby_care',
   });
   assert.deepEqual(classifyOffer({ heading:'Husholdningsmarked', description:'opvaskebørste og fryseposer' }), {
-    categoryId:'household', comparisonGroup:'cleaning',
+    categoryId:'household_cleaning', comparisonGroup:'cleaning',
   });
 });
 
@@ -89,7 +89,7 @@ test('every comparison group has a useful Chinese explanation', () => {
 
 test('product form wins over ingredient and flavour words', () => {
   assert.deepEqual(classifyOffer({ heading:'GELATELLI Jordbær- eller vaniljeis' }), {
-    categoryId:'frozen_ready', comparisonGroup:'ice_cream',
+    categoryId:'ice_cream', comparisonGroup:'ice_cream',
   });
   assert.equal(classifyOffer({ heading:'Bifa sandwich kiks med jordbær' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'ALESTO Bananchips' }).comparisonGroup, 'chips');
@@ -144,4 +144,13 @@ test('handles Danish compound words without classifying incidental fragments', (
   assert.equal(classifyOffer({ heading:'Træstamme' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Merrild eller Lavazza helbønner' }).comparisonGroup, 'coffee_tea');
   assert.equal(classifyOffer({ heading:'REMA 1000 Vannameirejer eller tunsteak' }).comparisonGroup, 'seafood_mixed_offer');
+});
+
+test('splits overloaded parent categories into practical shopping aisles', () => {
+  assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).categoryId, 'cheese');
+  assert.equal(classifyOffer({ heading:'Lurpak Smør' }).categoryId, 'butter_spreads');
+  assert.equal(classifyOffer({ heading:'Merrild helbønner' }).categoryId, 'coffee_tea');
+  assert.equal(classifyOffer({ heading:'Marabou chokolade' }).categoryId, 'candy_chocolate');
+  assert.equal(classifyOffer({ heading:'Oreo cookies' }).categoryId, 'biscuits_cakes');
+  assert.equal(classifyOffer({ heading:'Bacon i skiver' }).categoryId, 'sausages_deli');
 });

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T16:13:27.448Z",
+  "updatedAt": "2026-07-18T20:14:03.853Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its complete English name; image review is tracked separately.",
   "entries": {
     "12 pack cigar city brewing beer": {
       "originalName": "12-Pack Cigar City Brewing Beer",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_beer",
       "descriptionZh": "啤酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -22,7 +22,7 @@
     },
     "12 pack kona brewing co beer": {
       "originalName": "12-Pack Kona Brewing Co. Beer",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_beer",
       "descriptionZh": "啤酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -38,7 +38,7 @@
     },
     "12 pack pacifico clara beer": {
       "originalName": "12-Pack Pacifico Clara Beer",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_beer",
       "descriptionZh": "啤酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -54,7 +54,7 @@
     },
     "12 pack sierra nevada brewing co beer": {
       "originalName": "12-Pack Sierra Nevada Brewing Co. Beer",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_beer",
       "descriptionZh": "啤酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -70,7 +70,7 @@
     },
     "15 pack miller lite beer": {
       "originalName": "15-Pack Miller Lite Beer",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_beer",
       "descriptionZh": "啤酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -86,7 +86,7 @@
     },
     "2 lb strawberries": {
       "originalName": "2 lb Strawberries",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_strawberries",
       "descriptionZh": "草莓。草莓，可直接吃、配酸奶燕麦、做果酱或甜点；盒装商品比较时需同时看净重。",
       "authoredBy": "Codex",
@@ -102,7 +102,7 @@
     },
     "24 pack michelob ultra beer": {
       "originalName": "24-Pack Michelob Ultra Beer",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_beer",
       "descriptionZh": "啤酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -198,7 +198,7 @@
     },
     "applegate naturals uncured turkey bacon": {
       "originalName": "Applegate Naturals Uncured Turkey Bacon",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_turkey_bacon",
       "descriptionZh": "火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。",
       "authoredBy": "Codex",
@@ -358,7 +358,7 @@
     },
     "black or red plums": {
       "originalName": "Black or Red Plums",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_plums",
       "descriptionZh": "李子。李子，成熟后可直接吃、做水果沙拉或甜点；购买时注意软硬、表皮和成熟度。",
       "authoredBy": "Codex",
@@ -438,7 +438,7 @@
     },
     "boar s head ovengold roasted turkey breast": {
       "originalName": "Boar's Head® Ovengold Roasted Turkey Breast",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_turkey_deli",
       "descriptionZh": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。",
       "authoredBy": "Codex",
@@ -470,7 +470,7 @@
     },
     "boneless chuck roast": {
       "originalName": "Boneless Chuck Roast",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_roast",
       "descriptionZh": "整块烤牛肉。整块烤牛肉或牛腩类，适合慢烤、炖煮或切片；具体嫩度取决于部位。",
       "authoredBy": "Codex",
@@ -486,7 +486,7 @@
     },
     "boneless top sirloin steak": {
       "originalName": "Boneless Top Sirloin Steak",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_sirloin",
       "descriptionZh": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "authoredBy": "Codex",
@@ -502,7 +502,7 @@
     },
     "bota box pinot grigio wine": {
       "originalName": "BOTA BOX PINOT GRIGIO WINE",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "葡萄酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -518,7 +518,7 @@
     },
     "bota box wine": {
       "originalName": "Bota Box Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "葡萄酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -534,7 +534,7 @@
     },
     "bottom round roast": {
       "originalName": "Bottom Round Roast",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_roast",
       "descriptionZh": "整块烤牛肉。整块烤牛肉或牛腩类，适合慢烤、炖煮或切片；具体嫩度取决于部位。",
       "authoredBy": "Codex",
@@ -598,7 +598,7 @@
     },
     "broccoli or cauliflower": {
       "originalName": "Broccoli or Cauliflower",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_broccoli",
       "descriptionZh": "西兰花。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
       "authoredBy": "Codex",
@@ -630,7 +630,7 @@
     },
     "bulk sweet corn": {
       "originalName": "Bulk Sweet Corn†",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_corn",
       "descriptionZh": "鲜玉米。鲜玉米，可水煮、烧烤或剥粒炒菜；整根和散装商品应按重量或根数比较。",
       "authoredBy": "Codex",
@@ -662,7 +662,7 @@
     },
     "california red or black plums": {
       "originalName": "California Red or Black Plums",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_plums",
       "descriptionZh": "李子。李子，成熟后可直接吃、做水果沙拉或甜点；购买时注意软硬、表皮和成熟度。",
       "authoredBy": "Codex",
@@ -678,7 +678,7 @@
     },
     "campari tomatoes": {
       "originalName": "Campari Tomatoes",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_tomatoes",
       "descriptionZh": "番茄。番茄，可生吃、做沙拉、炒蛋、煮汤或熬酱；不同大小和包装仍按番茄归组。",
       "authoredBy": "Codex",
@@ -774,7 +774,7 @@
     },
     "chomps meat sticks": {
       "originalName": "Chomps Meat Sticks",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_sticks",
       "descriptionZh": "调味肉条零食，可直接食用；需按包装确认肉种、辣度和单条重量，不与香肠或冷切火腿混比。",
       "authoredBy": "Codex",
@@ -854,7 +854,7 @@
     },
     "crunch pak apple slices": {
       "originalName": "Crunch Pak Apple Slices",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_prepared_fruit",
       "descriptionZh": "苹果。苹果，可直接吃、做沙拉、烘焙或煮果酱；品种名保留，但大小和袋装规格不另拆商品组。",
       "authoredBy": "Codex",
@@ -870,7 +870,7 @@
     },
     "crunch pak snack featuring bluey with fresh sliced peeled apples pretzels and cheese 2 5oz tray": {
       "originalName": "Crunch Pak Snack Featuring Bluey with Fresh Sliced Peeled Apples, Pretzels, and Cheese, 2.5oz Tray",
-      "categoryId": "produce",
+      "categoryId": "produce_mixed",
       "comparisonGroup": "produce_prepared_mixed",
       "descriptionZh": "苹果。苹果，可直接吃、做沙拉、烘焙或煮果酱；品种名保留，但大小和袋装规格不另拆商品组。",
       "authoredBy": "Codex",
@@ -902,7 +902,7 @@
     },
     "cupcake vineyards prosecco or moscato d asti wine": {
       "originalName": "Cupcake Vineyards Prosecco or Moscato D'Asti Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "蛋糕。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -918,7 +918,7 @@
     },
     "cupcake vineyards sauvignon blanc wine": {
       "originalName": "Cupcake Vineyards Sauvignon Blanc Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "蛋糕。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -950,7 +950,7 @@
     },
     "dole fruit cups": {
       "originalName": "Dole Fruit Cups",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_prepared_fruit",
       "descriptionZh": "切配水果。切配水果杯或水果拼盘，开盒即食；属于预制水果，不与单一整果直接比价。",
       "authoredBy": "Codex",
@@ -966,7 +966,7 @@
     },
     "dole salad kits": {
       "originalName": "Dole Salad Kits",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_prepared_salad",
       "descriptionZh": "预制沙拉。预制或混合沙拉菜，通常开袋后拌食；注意是否含酱料、配料包及保鲜期。",
       "authoredBy": "Codex",
@@ -1142,7 +1142,7 @@
     },
     "fresh banana each": {
       "originalName": "Fresh Banana, Each",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_bananas",
       "descriptionZh": "香蕉。香蕉，可直接吃、配早餐、做奶昔或烘焙香蕉面包；购买时留意成熟度和计价单位。",
       "authoredBy": "Codex",
@@ -1350,7 +1350,7 @@
     },
     "green avocados": {
       "originalName": "Green Avocados",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_avocado",
       "descriptionZh": "牛油果。牛油果（鳄梨），可直接拌沙拉、抹面包或做鳄梨酱；购买时注意软硬和成熟度。",
       "authoredBy": "Codex",
@@ -1366,7 +1366,7 @@
     },
     "greenwise 92 lean ground beef": {
       "originalName": "GreenWise 92% Lean Ground Beef",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -1382,7 +1382,7 @@
     },
     "greenwise 92 lean ground beef burgers": {
       "originalName": "GreenWise 92% Lean Ground Beef Burgers",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_burgers",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -1398,7 +1398,7 @@
     },
     "greenwise angus ribeye steak": {
       "originalName": "GreenWise Angus Ribeye Steak",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_ribeye",
       "descriptionZh": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "authoredBy": "Codex",
@@ -1414,7 +1414,7 @@
     },
     "greenwise angus ribeye steak boneless": {
       "originalName": "GreenWise Angus Ribeye Steak Boneless",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_ribeye",
       "descriptionZh": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "authoredBy": "Codex",
@@ -1430,7 +1430,7 @@
     },
     "greenwise boneless skinless chicken breast": {
       "originalName": "GreenWise Boneless Skinless Chicken Breast",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_chicken_breast",
       "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
       "authoredBy": "Codex",
@@ -1446,7 +1446,7 @@
     },
     "greenwise chicken drumsticks or bone in thighs": {
       "originalName": "GreenWise Chicken Drumsticks or Bone-In Thighs",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_chicken_thigh",
       "descriptionZh": "鸡腿肉。鸡腿或带骨鸡大腿，肉汁较多，适合红烧、炖煮、烧烤或空气炸。",
       "authoredBy": "Codex",
@@ -1462,7 +1462,7 @@
     },
     "greenwise lamb round bone shoulder chops": {
       "originalName": "GreenWise Lamb Round Bone Shoulder Chops",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_lamb",
       "descriptionZh": "羊肉。羊排或羊肩肉，适合煎烤或慢炖；风味比牛猪肉更明显。",
       "authoredBy": "Codex",
@@ -1478,7 +1478,7 @@
     },
     "greenwise lamb shoulder blade chops": {
       "originalName": "GreenWise Lamb Shoulder Blade Chops",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_lamb",
       "descriptionZh": "羊肉。羊排或羊肩肉，适合煎烤或慢炖；风味比牛猪肉更明显。",
       "authoredBy": "Codex",
@@ -1494,7 +1494,7 @@
     },
     "greenwise lean pork loin chops": {
       "originalName": "GreenWise Lean Pork Loin Chops",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_pork_chops",
       "descriptionZh": "猪排。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -1510,7 +1510,7 @@
     },
     "greenwise organic red or white seedless grapes": {
       "originalName": "GreenWise Organic Red or White Seedless Grapes",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_grapes",
       "descriptionZh": "葡萄。鲜葡萄，可直接吃；购买时注意是否无籽、果粒状态和每磅价格。",
       "authoredBy": "Codex",
@@ -1574,7 +1574,7 @@
     },
     "ground chuck": {
       "originalName": "Ground Chuck",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -1590,7 +1590,7 @@
     },
     "ground chuck burgers or slider burgers": {
       "originalName": "Ground Chuck Burgers or Slider Burgers",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_burgers",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -1638,7 +1638,7 @@
     },
     "hillshire farm meat smoked sausage": {
       "originalName": "Hillshire Farm Meat Smoked Sausage",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_sausage",
       "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
@@ -1654,7 +1654,7 @@
     },
     "home chef fried chicken": {
       "originalName": "Home Chef Fried Chicken",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_prepared_chicken",
       "descriptionZh": "熟制或裹粉鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
       "authoredBy": "Codex",
@@ -1686,7 +1686,7 @@
     },
     "hormel black label bacon": {
       "originalName": "Hormel Black Label Bacon",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_pork_bacon",
       "descriptionZh": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
@@ -1702,7 +1702,7 @@
     },
     "hormel pepperoni": {
       "originalName": "Hormel Pepperoni",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_pepperoni",
       "descriptionZh": "意式辣香肠薄片，通常用于披萨、三明治或零食拼盘；属于高盐熟制肉，不与普通鲜香肠或火腿冷切混比。",
       "authoredBy": "Codex",
@@ -1718,7 +1718,7 @@
     },
     "hot house cucumbers": {
       "originalName": "Hot House Cucumbers",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_cucumbers",
       "descriptionZh": "黄瓜。黄瓜，可生吃、凉拌、做沙拉或腌渍；大小和包装差异不另拆商品组。",
       "authoredBy": "Codex",
@@ -1766,7 +1766,7 @@
     },
     "j lohr seven oaks cabernet sauvignon wine": {
       "originalName": "J. Lohr Seven Oaks Cabernet Sauvignon Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "葡萄酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -1846,7 +1846,7 @@
     },
     "keynote cabernet sauvignon wine": {
       "originalName": "Keynote Cabernet Sauvignon Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "葡萄酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -1926,7 +1926,7 @@
     },
     "kroger or private selection bacon": {
       "originalName": "Kroger or Private Selection Bacon",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_pork_bacon",
       "descriptionZh": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
@@ -1974,7 +1974,7 @@
     },
     "kroger whole or baby bella mushrooms": {
       "originalName": "Kroger Whole or Baby Bella Mushrooms",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_mushrooms",
       "descriptionZh": "蘑菇。鲜蘑菇（白蘑菇或褐色 Baby Bella），可切片炒肉、煎烤、煮汤或做奶油意面；类似中国常见口蘑。",
       "authoredBy": "Codex",
@@ -2054,7 +2054,7 @@
     },
     "maison de madeleine brut wine": {
       "originalName": "Maison de Madeleine Brut Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "葡萄酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -2230,7 +2230,7 @@
     },
     "organic cauliflower or broccoli": {
       "originalName": "Organic Cauliflower or Broccoli",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_broccoli",
       "descriptionZh": "西兰花。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
       "authoredBy": "Codex",
@@ -2246,7 +2246,7 @@
     },
     "organic nectarines or peaches": {
       "originalName": "Organic Nectarines or Peaches",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_peaches",
       "descriptionZh": "桃或油桃。桃或油桃，成熟后可直接吃、做水果沙拉或甜点；油桃表皮较光滑，二者不应误写成李子。",
       "authoredBy": "Codex",
@@ -2262,7 +2262,7 @@
     },
     "organic plums": {
       "originalName": "Organic Plums",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_plums",
       "descriptionZh": "李子。李子，成熟后可直接吃、做水果沙拉或甜点；购买时注意软硬、表皮和成熟度。",
       "authoredBy": "Codex",
@@ -2374,7 +2374,7 @@
     },
     "persian limes": {
       "originalName": "Persian Limes",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_citrus",
       "descriptionZh": "柑橘与青柠。青柠，可挤汁调饮料、海鲜、沙拉或酱汁；通常按个或袋装销售。",
       "authoredBy": "Codex",
@@ -2454,7 +2454,7 @@
     },
     "private selection angus 80 lean ground chuck": {
       "originalName": "Private Selection Angus 80% Lean Ground Chuck",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -2470,7 +2470,7 @@
     },
     "private selection black forest ham": {
       "originalName": "Private Selection Black Forest Ham",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_ham_deli",
       "descriptionZh": "黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。",
       "authoredBy": "Codex",
@@ -2518,7 +2518,7 @@
     },
     "private selection gourmet potatoes": {
       "originalName": "Private Selection Gourmet Potatoes",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_potatoes",
       "descriptionZh": "新鲜土豆。新鲜土豆，可烤、炖、煎或做土豆泥；大、小、迷你或袋装只是规格差异，不因此拆成不同商品组。",
       "authoredBy": "Codex",
@@ -2582,7 +2582,7 @@
     },
     "publix chicken breast cutlets": {
       "originalName": "Publix Chicken Breast Cutlets",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_chicken_breast",
       "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
       "authoredBy": "Codex",
@@ -2598,7 +2598,7 @@
     },
     "publix chicken breast tenderloins boneless skinless": {
       "originalName": "Publix Chicken Breast Tenderloins, Boneless, Skinless",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_chicken_breast",
       "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
       "authoredBy": "Codex",
@@ -2614,7 +2614,7 @@
     },
     "publix chicken tender whole sub": {
       "originalName": "Publix Chicken Tender Whole Sub",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_chicken_sandwich",
       "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "authoredBy": "Codex",
@@ -2646,7 +2646,7 @@
     },
     "publix classic salad blend": {
       "originalName": "Publix Classic Salad Blend",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_prepared_salad",
       "descriptionZh": "预制沙拉。预制或混合沙拉菜，通常开袋后拌食；注意是否含酱料、配料包及保鲜期。",
       "authoredBy": "Codex",
@@ -2678,7 +2678,7 @@
     },
     "publix extra lean pork loin tenderloin": {
       "originalName": "Publix Extra Lean Pork Loin Tenderloin",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_pork_tenderloin",
       "descriptionZh": "猪里脊。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2710,7 +2710,7 @@
     },
     "publix gourmet beef meatballs": {
       "originalName": "Publix Gourmet Beef Meatballs",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_meatballs",
       "descriptionZh": "肉丸。肉类商品；请按原名确认动物种类、部位、是否带骨和是否熟制，再选择煎炒、炖或烤。",
       "authoredBy": "Codex",
@@ -2726,7 +2726,7 @@
     },
     "publix green beans": {
       "originalName": "Publix Green Beans",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_beans",
       "descriptionZh": "鲜豆类。四季豆或嫩豆角，可清炒、焯拌或炖煮；购买时注意是否已去筋、是否按磅计价。",
       "authoredBy": "Codex",
@@ -2742,7 +2742,7 @@
     },
     "publix ground pork": {
       "originalName": "Publix Ground Pork",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_pork",
       "descriptionZh": "猪肉末。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2774,7 +2774,7 @@
     },
     "publix idaho russet potatoes": {
       "originalName": "Publix Idaho Russet Potatoes",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_potatoes",
       "descriptionZh": "Russet 褐皮土豆。Russet 褐皮土豆，淀粉较多，适合烤土豆、炸薯条或做松软土豆泥；大小和包装不同仍属于同一种土豆比价组。",
       "authoredBy": "Codex",
@@ -2790,7 +2790,7 @@
     },
     "publix italian style pork meatballs": {
       "originalName": "Publix Italian Style Pork Meatballs",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_pork_meatballs",
       "descriptionZh": "猪肉丸。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2806,7 +2806,7 @@
     },
     "publix lemon pepper oven roasted chicken": {
       "originalName": "Publix Lemon Pepper Oven-Roasted Chicken",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_prepared_chicken",
       "descriptionZh": "熟制鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
       "authoredBy": "Codex",
@@ -2838,7 +2838,7 @@
     },
     "publix parmesan chicken breast bites": {
       "originalName": "Publix Parmesan Chicken Breast Bites",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_breaded_chicken",
       "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "authoredBy": "Codex",
@@ -2854,7 +2854,7 @@
     },
     "publix parmesan chicken breast cutlets": {
       "originalName": "Publix Parmesan Chicken Breast Cutlets",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_breaded_chicken",
       "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "authoredBy": "Codex",
@@ -2902,7 +2902,7 @@
     },
     "publix smoked pulled pork": {
       "originalName": "Publix Smoked Pulled Pork",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_pulled_pork",
       "descriptionZh": "手撕猪肉。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2918,7 +2918,7 @@
     },
     "publix smoked pulled pork meal": {
       "originalName": "Publix Smoked Pulled Pork Meal",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_pulled_pork",
       "descriptionZh": "手撕猪肉。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2934,7 +2934,7 @@
     },
     "publix southwest chicken tender wrap": {
       "originalName": "Publix Southwest Chicken Tender Wrap",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_chicken_sandwich",
       "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "authoredBy": "Codex",
@@ -2950,7 +2950,7 @@
     },
     "publix sweet italian sausage": {
       "originalName": "Publix Sweet Italian Sausage",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_sausage",
       "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
@@ -2966,7 +2966,7 @@
     },
     "publix sweet potatoes with butter": {
       "originalName": "Publix Sweet Potatoes With Butter",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_prepared_potatoes",
       "descriptionZh": "黄油调味红薯配菜。加黄油调味的红薯配菜，口感甜软，通常加热后食用；主体是红薯，不是乳制品。",
       "authoredBy": "Codex",
@@ -2982,7 +2982,7 @@
     },
     "publix top round roast beef": {
       "originalName": "Publix Top Round Roast Beef",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_roast",
       "descriptionZh": "整块烤牛肉。整块烤牛肉或牛腩类，适合慢烤、炖煮或切片；具体嫩度取决于部位。",
       "authoredBy": "Codex",
@@ -2998,7 +2998,7 @@
     },
     "publix tricolor peppers": {
       "originalName": "Publix Tricolor Peppers",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_peppers",
       "descriptionZh": "甜椒。甜椒或辣椒，可清炒、烤制、做沙拉或调味；具体辣度以原名和包装为准。",
       "authoredBy": "Codex",
@@ -3030,7 +3030,7 @@
     },
     "publix white mushrooms": {
       "originalName": "Publix White Mushrooms",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_mushrooms",
       "descriptionZh": "蘑菇。鲜蘑菇（白蘑菇或褐色 Baby Bella），可切片炒肉、煎烤、煮汤或做奶油意面；类似中国常见口蘑。",
       "authoredBy": "Codex",
@@ -3046,7 +3046,7 @@
     },
     "publix whole young chicken": {
       "originalName": "Publix Whole Young Chicken",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_whole_chicken",
       "descriptionZh": "整只嫩鸡。整只嫩鸡，可烤、炖汤、白切或拆分烹调；比较时应结合整鸡重量。",
       "authoredBy": "Codex",
@@ -3126,7 +3126,7 @@
     },
     "red green or black seedless grapes": {
       "originalName": "Red, Green or Black Seedless Grapes",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_grapes",
       "descriptionZh": "葡萄。鲜葡萄，可直接吃；购买时注意是否无籽、果粒状态和每磅价格。",
       "authoredBy": "Codex",
@@ -3142,7 +3142,7 @@
     },
     "red or white seedless grapes": {
       "originalName": "Red or White Seedless Grapes",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_grapes",
       "descriptionZh": "葡萄。鲜葡萄，可直接吃；购买时注意是否无籽、果粒状态和每磅价格。",
       "authoredBy": "Codex",
@@ -3158,7 +3158,7 @@
     },
     "red or white seedless grapes california grown": {
       "originalName": "Red or White Seedless Grapes California-Grown",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_grapes",
       "descriptionZh": "葡萄。鲜葡萄，可直接吃；购买时注意是否无籽、果粒状态和每磅价格。",
       "authoredBy": "Codex",
@@ -3174,7 +3174,7 @@
     },
     "red seedless grapes": {
       "originalName": "Red Seedless Grapes",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_grapes",
       "descriptionZh": "葡萄。鲜葡萄，可直接吃；购买时注意是否无籽、果粒状态和每磅价格。",
       "authoredBy": "Codex",
@@ -3222,7 +3222,7 @@
     },
     "rockit or kiku medium apples": {
       "originalName": "Rockit or Kiku Medium Apples",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_apples",
       "descriptionZh": "苹果。苹果，可直接吃、做沙拉、烘焙或煮果酱；品种名保留，但大小和袋装规格不另拆商品组。",
       "authoredBy": "Codex",
@@ -3398,7 +3398,7 @@
     },
     "simple truth organic 85 lean ground beef": {
       "originalName": "Simple Truth Organic 85% Lean Ground Beef",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -3414,7 +3414,7 @@
     },
     "simple truth organic blueberries": {
       "originalName": "Simple Truth Organic Blueberries",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_blueberries",
       "descriptionZh": "蓝莓。蓝莓，可直接吃、配酸奶燕麦或用于烘焙；小盒装商品比较时需同时看净重。",
       "authoredBy": "Codex",
@@ -3510,7 +3510,7 @@
     },
     "small red seedless watermelon": {
       "originalName": "Small Red Seedless Watermelon",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_watermelon",
       "descriptionZh": "西瓜。西瓜，可切块直接食用；整瓜和切块商品应结合重量及可食部分比较。",
       "authoredBy": "Codex",
@@ -3542,7 +3542,7 @@
     },
     "smithfield hometown original breakfast sausage": {
       "originalName": "Smithfield Hometown Original Breakfast Sausage",
-      "categoryId": "meat",
+      "categoryId": "deli_prepared",
       "comparisonGroup": "meat_sausage",
       "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
@@ -3590,7 +3590,7 @@
     },
     "springer mountain farms ground chicken breast": {
       "originalName": "Springer Mountain Farms Ground Chicken Breast",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_chicken",
       "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
       "authoredBy": "Codex",
@@ -3638,7 +3638,7 @@
     },
     "steakhouse elite signature ground beef": {
       "originalName": "Steakhouse Elite Signature Ground Beef",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_ground_beef",
       "descriptionZh": "牛肉末。牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。",
       "authoredBy": "Codex",
@@ -3670,7 +3670,7 @@
     },
     "strawberries": {
       "originalName": "Strawberries",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_strawberries",
       "descriptionZh": "草莓。草莓，可直接吃、配酸奶燕麦、做果酱或甜点；盒装商品比较时需同时看净重。",
       "authoredBy": "Codex",
@@ -3782,7 +3782,7 @@
     },
     "tomatoes on the vine": {
       "originalName": "Tomatoes on the Vine†",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_tomatoes",
       "descriptionZh": "番茄。番茄，可生吃、做沙拉、炒蛋、煮汤或熬酱；不同大小和包装仍按番茄归组。",
       "authoredBy": "Codex",
@@ -3846,7 +3846,7 @@
     },
     "tree ripened peaches or nectarines": {
       "originalName": "Tree-Ripened Peaches or Nectarines",
-      "categoryId": "produce",
+      "categoryId": "fruit",
       "comparisonGroup": "produce_peaches",
       "descriptionZh": "桃或油桃。桃或油桃，成熟后可直接吃、做水果沙拉或甜点；油桃表皮较光滑，二者不应误写成李子。",
       "authoredBy": "Codex",
@@ -3942,7 +3942,7 @@
     },
     "tyson frozen chicken": {
       "originalName": "Tyson Frozen Chicken",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_other",
       "descriptionZh": "其他肉类。肉类商品；请按原名确认动物种类、部位、是否带骨和是否熟制，再选择煎炒、炖或烤。",
       "authoredBy": "Codex",
@@ -3990,7 +3990,7 @@
     },
     "urgency cabernet sauvignon wine": {
       "originalName": "Urgency Cabernet Sauvignon Wine",
-      "categoryId": "drinks",
+      "categoryId": "alcohol",
       "comparisonGroup": "drinks_wine",
       "descriptionZh": "葡萄酒。酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
@@ -4022,7 +4022,7 @@
     },
     "vidalia sweet onions": {
       "originalName": "Vidalia Sweet Onions",
-      "categoryId": "produce",
+      "categoryId": "vegetables",
       "comparisonGroup": "produce_onions",
       "descriptionZh": "洋葱。洋葱，可炒、炖、烤或用于汤和酱汁打底；黄洋葱、白洋葱等保留原名但同属洋葱类。",
       "authoredBy": "Codex",
@@ -4086,7 +4086,7 @@
     },
     "whole boneless beef brisket": {
       "originalName": "Whole Boneless Beef Brisket",
-      "categoryId": "meat",
+      "categoryId": "fresh_meat",
       "comparisonGroup": "meat_beef_roast",
       "descriptionZh": "整块烤牛肉。整块烤牛肉或牛腩类，适合慢烤、炖煮或切片；具体嫩度取决于部位。",
       "authoredBy": "Codex",

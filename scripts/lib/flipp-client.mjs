@@ -234,12 +234,36 @@ function atlantaComparisonGroup(name, categoryId) {
   return rules[categoryId]?.find(([, pattern]) => pattern.test(text))?.[0] || `${categoryId}_other`;
 }
 
+const ATLANTA_VEGETABLE_GROUPS = new Set([
+  'produce_mushrooms', 'produce_potatoes', 'produce_salad', 'produce_tomatoes',
+  'produce_beans', 'produce_corn', 'produce_onions', 'produce_peppers',
+  'produce_cucumbers', 'produce_broccoli', 'produce_cauliflower',
+  'produce_cruciferous', 'produce_prepared_salad', 'produce_prepared_potatoes',
+]);
+const ATLANTA_PROCESSED_MEAT_GROUPS = new Set([
+  'meat_prepared_chicken', 'meat_breaded_chicken', 'meat_chicken_sandwich',
+  'meat_pork_meatballs', 'meat_pulled_pork', 'meat_pork_bacon',
+  'meat_turkey_bacon', 'meat_meatballs', 'meat_sausage', 'meat_pepperoni',
+  'meat_turkey_deli', 'meat_ham_deli', 'meat_sticks',
+]);
+
+export function refineAtlantaCategory(categoryId, comparisonGroup) {
+  if (categoryId === 'produce') {
+    if (comparisonGroup === 'produce_prepared_mixed' || comparisonGroup === 'produce_other') return 'produce_mixed';
+    return ATLANTA_VEGETABLE_GROUPS.has(comparisonGroup) ? 'vegetables' : 'fruit';
+  }
+  if (categoryId === 'meat') return ATLANTA_PROCESSED_MEAT_GROUPS.has(comparisonGroup) ? 'deli_prepared' : 'fresh_meat';
+  if (categoryId === 'drinks' && ['drinks_beer', 'drinks_wine'].includes(comparisonGroup)) return 'alcohol';
+  return categoryId;
+}
+
 export function classifyFlippItem(name) {
   const text = String(name || '');
   if (NON_GROCERY_PATTERN.test(text)) return null;
   const match = PRODUCT_RULES.find(([, pattern]) => pattern.test(text));
   if (!match) return null;
-  return { categoryId: match[0], comparisonGroup: atlantaComparisonGroup(text, match[0]), zhExplanation: match[2], evidenceBasis: 'original_name' };
+  const comparisonGroup = atlantaComparisonGroup(text, match[0]);
+  return { categoryId: refineAtlantaCategory(match[0], comparisonGroup), comparisonGroup, zhExplanation: match[2], evidenceBasis: 'original_name' };
 }
 
 function httpsUrl(value) {
@@ -290,7 +314,7 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
     const knowledgeKey = flippKnowledgeKey(name);
     const knowledge = productKnowledge?.entries?.[knowledgeKey];
     const category = knowledge?.categoryId && knowledge?.descriptionZh
-      ? { categoryId: knowledge.categoryId, comparisonGroup: knowledge.comparisonGroup, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' }
+      ? { categoryId: refineAtlantaCategory(knowledge.categoryId, knowledge.comparisonGroup), comparisonGroup: knowledge.comparisonGroup, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' }
       : classifyFlippItem(name);
     if (item.display_type !== 1 || !name || !Number.isFinite(price) || price <= 0 || !category) continue;
 

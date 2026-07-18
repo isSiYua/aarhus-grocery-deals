@@ -56,10 +56,10 @@ test('loads flyer items and validates its shape', async () => {
 });
 
 test('classifies grocery names before ambiguous words', () => {
-  assert.equal(classifyFlippItem('Kroger Whole or Baby Bella Mushrooms').categoryId, 'produce');
+  assert.equal(classifyFlippItem('Kroger Whole or Baby Bella Mushrooms').categoryId, 'vegetables');
   assert.equal(classifyFlippItem('Pringles Potato Crisps').categoryId, 'snacks');
   assert.equal(classifyFlippItem('Breyers Ice Cream').categoryId, 'frozen');
-  assert.equal(classifyFlippItem('Tyson Frozen Chicken').categoryId, 'meat');
+  assert.equal(classifyFlippItem('Tyson Frozen Chicken').categoryId, 'fresh_meat');
   assert.equal(classifyFlippItem('Apple Pie').categoryId, 'bakery');
 });
 
@@ -125,7 +125,7 @@ test('uses the complete Atlanta product name instead of misleading ingredient wo
   assert.match(croissants.zhExplanation, /黄油可颂/);
 
   const mushrooms = classifyFlippItem('Kroger Whole or Baby Bella Mushrooms');
-  assert.equal(mushrooms.categoryId, 'produce');
+  assert.equal(mushrooms.categoryId, 'vegetables');
   assert.match(mushrooms.zhExplanation, /鲜蘑菇/);
 });
 

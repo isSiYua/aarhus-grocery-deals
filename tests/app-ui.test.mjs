@@ -55,6 +55,14 @@ test('mobile chrome behaves like a reading app and has no visible handles', () =
   assert.match(styleSource, /\.bottom-nav\.collapsed \{ display: none; \}/);
 });
 
+test('store pages expose a center-tap category switcher without permanently covering products', () => {
+  assert.match(appSource, /store-category-float/);
+  assert.match(appSource, /state\.route\.view === 'store'.*setStoreCategoryNavigation\(opening\)/s);
+  assert.match(appSource, /function selectStoreCategory/);
+  assert.match(styleSource, /\.store-category-float \{ display: none; \}/);
+  assert.match(styleSource, /\.store-category-float\.open \{ opacity: 1; pointer-events: auto;/);
+});
+
 test('mobile category browsing supports a continuous vertical stream and aligned card turns', () => {
   assert.match(appSource, /function mobileCategoryReader/);
   assert.match(appSource, /groups\.flatMap/);

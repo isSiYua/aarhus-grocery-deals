@@ -10,22 +10,65 @@ const norm = value => String(value || '')
 
 export const AARHUS_CATEGORIES = [
   ['chicken', '🐔', '鸡肉与其他禽肉', '鸡胸、鸡腿、整鸡、火鸡和禽肉末分组比较。'],
-  ['pork', '🐷', '猪肉与香肠', '鲜猪肉、培根、肉肠和熟食分开比较。'],
+  ['pork_fresh', '🐷', '鲜猪肉', '猪里脊、猪排、肋排、肉末和整块猪肉分组比较。'],
+  ['sausages_deli', '🥓', '香肠、培根与肉类熟食', '香肠、培根、冷切和熟制肉食单独集中展示。'],
   ['beef', '🥩', '牛羊肉与肉末', '牛肉末、牛排、整块牛肉和羊肉分别比较。'],
   ['seafood', '🐟', '鱼虾海鲜', '区分三文鱼、白身鱼、虾和熟制海鲜。'],
-  ['eggs_dairy', '🥚', '鸡蛋与乳制品', '鸡蛋、牛奶、酸奶、奶酪和黄油分组显示。'],
+  ['eggs_milk', '🥚', '鸡蛋、牛奶与植物饮', '鸡蛋、牛奶、乳饮品和植物奶分组显示。'],
+  ['yoghurt_cream', '🥣', '酸奶、奶油与冷藏乳品', '酸奶、Skyr、奶油和乳制品任选集中展示。'],
+  ['cheese', '🧀', '奶酪', '硬质、软质、切片、刨丝和新鲜白奶酪保留原名差异。'],
+  ['butter_spreads', '🧈', '黄油与乳脂抹酱', '真黄油和混合抹酱按重量与原名比较。'],
   ['vegetables', '🥬', '蔬菜', '蘑菇、番茄、土豆、叶菜等按品种比较。'],
   ['fruit', '🍎', '水果', '按品种、重量或单件价格显示。'],
-  ['bread_grains', '🍚', '米面与面包', '大米、面条、意面、面包和烘焙主食。'],
-  ['frozen_ready', '🍕', '冷冻、冰品与方便餐', '冷冻主食、冰淇淋和即食餐分组显示。'],
-  ['breakfast', '🥣', '早餐、咖啡与抹酱', '麦片、燕麦、咖啡、果酱和花生酱。'],
-  ['pantry', '🧂', '调料、罐头与烹饪食材', '只包含酱料、食用油、香料、面粉和真正的罐头食品。'],
-  ['snacks', '🍫', '零食甜品', '薯片、坚果、饼干、糖果和巧克力。'],
-  ['household', '🧻', '家庭清洁与耗材', '垃圾袋、纸品、清洁剂和厨房耗材；不会再混进食品。'],
+  ['bread_bakery', '🍞', '面包与烘焙主食', '黑麦面包、法棍、小面包和其他烘焙主食。'],
+  ['rice_pasta', '🍚', '米面、意面与烘焙面粉', '大米、面条、意面、面粉和饼皮分组显示。'],
+  ['frozen_ready', '🍕', '冷冻食品与方便餐', '冷冻主食、披萨、饺子和即食餐分组显示。'],
+  ['ice_cream', '🍨', '冰淇淋与冰品', '冰淇淋、冰棒和其他冷冻甜品集中展示。'],
+  ['breakfast', '🥣', '麦片与早餐抹酱', '麦片、燕麦、果酱、蜂蜜和花生酱。'],
+  ['coffee_tea', '☕', '咖啡与茶', '咖啡豆、咖啡粉、速溶咖啡和茶单独展示。'],
+  ['pantry', '🧂', '调料、罐头与烹饪食材', '只包含酱料、食用油、香料、烘焙辅料和真正的罐头食品。'],
+  ['salty_snacks', '🥨', '咸味零食、坚果与果干', '薯片、爆米花、坚果和果干集中展示。'],
+  ['biscuits_cakes', '🍪', '饼干、蛋糕与甜点', '饼干、华夫、蛋糕和小甜点按原商品形态查看。'],
+  ['candy_chocolate', '🍫', '糖果与巧克力', '巧克力、糖果、焦糖和甜味棒集中展示。'],
+  ['household_cleaning', '🧼', '家庭清洁与洗衣', '清洁剂、洗衣和洗碗用品单独展示。'],
+  ['household_paper', '🧻', '纸品、袋类与厨房耗材', '纸品、垃圾袋、保鲜袋和厨房耗材；不会混进食品。'],
   ['baby', '🍼', '婴幼儿用品', '纸尿裤、婴儿棉片和无香护理用品。'],
   ['personal_care', '🧴', '个人护理', '洗发、沐浴、防晒和身体护理用品。'],
   ['drinks', '🥤', '指定无糖饮料', '按既定范围只保留 Coca-Cola Zero 与 Sprite Zero。'],
 ].map(([id, emoji, nameZh, descriptionZh]) => ({ id, emoji, nameZh, descriptionZh, color: '#315f51' }));
+
+const AARHUS_CATEGORY_SPLITS = {
+  pork: {
+    sausages: 'sausages_deli', bacon_deli: 'sausages_deli',
+    default: 'pork_fresh',
+  },
+  eggs_dairy: {
+    cheese: 'cheese', cheese_fresh: 'cheese', butter: 'butter_spreads',
+    yoghurt: 'yoghurt_cream', cream: 'yoghurt_cream', mixed_dairy: 'yoghurt_cream',
+    default: 'eggs_milk',
+  },
+  bread_grains: {
+    bread: 'bread_bakery', mixed_bakery: 'bread_bakery',
+    default: 'rice_pasta',
+  },
+  frozen_ready: { ice_cream: 'ice_cream', default: 'frozen_ready' },
+  breakfast: { coffee_tea: 'coffee_tea', default: 'breakfast' },
+  snacks: {
+    biscuits: 'biscuits_cakes', chocolate: 'candy_chocolate',
+    default: 'salty_snacks',
+  },
+  household: { cleaning: 'household_cleaning', default: 'household_paper' },
+};
+
+export function refineAarhusCategory(categoryId, comparisonGroup) {
+  const split = AARHUS_CATEGORY_SPLITS[categoryId];
+  return split?.[comparisonGroup] || split?.default || categoryId;
+}
+
+const classified = (categoryId, comparisonGroup) => ({
+  categoryId: refineAarhusCategory(categoryId, comparisonGroup),
+  comparisonGroup,
+});
 
 const group = (nameZh, noteZh, comparable = true) => ({ nameZh, noteZh, comparable });
 export const AARHUS_COMPARISON_GROUPS = {
@@ -435,25 +478,25 @@ export function classifyOffer(raw) {
   const text = norm(`${raw.heading || ''} ${raw.description || ''}`);
   if (!heading || isClearlyOutOfScope(raw)) return null;
   if (DRINK_WORDS.test(heading)) {
-    if (DRINK_ALLOWED.test(heading)) return { categoryId: 'drinks', comparisonGroup: 'zero_soda' };
+    if (DRINK_ALLOWED.test(heading)) return classified('drinks', 'zero_soda');
     // Dairy protein drinks and plant drinks are handled by explicit food rules.
     if (!/protein ?drik|proteinshake|yoghurt|kefir|cultura|soja|havre/.test(heading)) return null;
   }
   for (const [categoryId, comparisonGroup, regex] of PRODUCT_FORM_RULES) {
-    if (regex.test(heading)) return { categoryId, comparisonGroup };
+    if (regex.test(heading)) return classified(categoryId, comparisonGroup);
   }
   for (const [categoryId, comparisonGroup, regex] of HEADING_RULES) {
-    if (regex.test(heading)) return { categoryId, comparisonGroup };
+    if (regex.test(heading)) return classified(categoryId, comparisonGroup);
   }
   // Descriptions may clarify explicit frozen products or broad household bundles,
   // but never use package units alone as proof that something is food.
   if (/dybfrost/.test(text)) {
-    if (/groentsag/.test(text)) return { categoryId: 'frozen_ready', comparisonGroup: 'frozen_vegetables' };
-    if (/is\b|ispinde|isvafler/.test(text)) return { categoryId: 'frozen_ready', comparisonGroup: 'ice_cream' };
-    if (/mad|ret|kylling|pizza|brod/.test(text)) return { categoryId: 'frozen_ready', comparisonGroup: 'ready_meal' };
+    if (/groentsag/.test(text)) return classified('frozen_ready', 'frozen_vegetables');
+    if (/is\b|ispinde|isvafler/.test(text)) return classified('frozen_ready', 'ice_cream');
+    if (/mad|ret|kylling|pizza|brod/.test(text)) return classified('frozen_ready', 'ready_meal');
   }
   if (/affaldsposer|bagepapir|fryseposer|opvaskeborste|rengoringsmiddel/.test(text)) {
-    return { categoryId: 'household', comparisonGroup: /affald|fryseposer/.test(text) ? 'trash_bags' : 'cleaning' };
+    return classified('household', /affald|fryseposer/.test(text) ? 'trash_bags' : 'cleaning');
   }
   return null;
 }

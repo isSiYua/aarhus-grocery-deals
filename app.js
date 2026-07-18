@@ -99,8 +99,11 @@ const ATLANTA_STORES = [
 ];
 
 const ATLANTA_CATEGORY_LABELS = {
-  produce: ['🥬', '蔬菜水果'],
-  meat: ['🥩', '肉类熟食'],
+  vegetables: ['🥬', '蔬菜'],
+  fruit: ['🍎', '水果'],
+  produce_mixed: ['🥗', '果蔬组合'],
+  fresh_meat: ['🥩', '生鲜肉类'],
+  deli_prepared: ['🥓', '熟食、香肠与加工肉'],
   seafood: ['🐟', '鱼类海鲜'],
   dairy: ['🥛', '乳制品鸡蛋'],
   bakery: ['🍞', '面包烘焙'],
@@ -108,6 +111,7 @@ const ATLANTA_CATEGORY_LABELS = {
   pantry: ['🥫', '主食调味'],
   snacks: ['🍪', '零食甜品'],
   drinks: ['🥤', '饮料'],
+  alcohol: ['🍷', '啤酒与葡萄酒'],
   baby: ['🍼', '婴幼儿用品'],
   household: ['🧻', '家庭日用品'],
   personal: ['🧴', '个人护理'],
@@ -450,6 +454,27 @@ function toggleReadingChrome() {
   requestAnimationFrame(syncChromeLayout);
 }
 
+function setStoreCategoryNavigation(open) {
+  const navigation = document.querySelector('.store-category-float');
+  if (!navigation) return;
+  navigation.classList.toggle('open', open);
+  navigation.setAttribute('aria-hidden', String(!open));
+  if (!open) return;
+
+  const sections = [...document.querySelectorAll('.store-category-section')];
+  const current = [...sections].reverse().find(section => section.getBoundingClientRect().top <= innerHeight * .34) || sections[0];
+  navigation.querySelectorAll('.store-category-option').forEach(button => {
+    button.classList.toggle('active', button.dataset.categoryId === current?.dataset.categoryId);
+  });
+  navigation.querySelector('.store-category-option.active')?.scrollIntoView({ block: 'nearest' });
+}
+
+function selectStoreCategory(storeId, categoryId) {
+  setStoreCategoryNavigation(false);
+  if (!(state.chrome.topHidden && state.chrome.bottomHidden)) toggleReadingChrome();
+  document.getElementById(`store-${storeId}-${categoryId}`)?.scrollIntoView({ block: 'start', behavior: 'auto' });
+}
+
 function attachReadingChromeTap(node) {
   if (!isMobileReadingMode()) return;
   node.addEventListener('click', event => {
@@ -458,7 +483,9 @@ function attachReadingChromeTap(node) {
     const x = event.clientX;
     const y = event.clientY;
     if (x < innerWidth * .18 || x > innerWidth * .82 || y < innerHeight * .18 || y > innerHeight * .82) return;
+    const opening = state.chrome.topHidden && state.chrome.bottomHidden;
     toggleReadingChrome();
+    if (state.route.view === 'store') setStoreCategoryNavigation(opening);
   });
 }
 
@@ -1182,6 +1209,30 @@ function storeView(storeId) {
     const c = categoryById(id);
     return el('button', { class: 'chip', onClick: () => document.getElementById(`store-${store.id}-${id}`)?.scrollIntoView({ block: 'start' }) }, `${c?.emoji || '🛒'} ${c?.nameZh || id}`);
   }));
+  const categoryNavigation = offers.length ? el('aside', {
+    class: 'store-category-float',
+    'aria-label': '切换当前商店的大类',
+    'aria-hidden': 'true',
+  }, [
+    el('div', { class: 'store-category-float-head' }, [
+      el('div', {}, [el('strong', {}, '切换大类'), el('span', {}, `${store.name} · ${categoryIds.length} 类`)]),
+      el('button', { type: 'button', 'aria-label': '收起大类选择', onClick: () => setStoreCategoryNavigation(false) }, '×'),
+    ]),
+    el('div', { class: 'store-category-options' }, categoryIds.map(id => {
+      const category = categoryById(id);
+      const count = offers.filter(offer => offer.categoryId === id).length;
+      return el('button', {
+        class: 'store-category-option',
+        type: 'button',
+        'data-category-id': id,
+        onClick: () => selectStoreCategory(store.id, id),
+      }, [
+        el('span', {}, `${category?.emoji || '🛒'} ${category?.nameZh || id}`),
+        el('small', {}, `${count} 项`),
+      ]);
+    })),
+    el('p', { class: 'store-category-float-hint' }, '选择后自动定位；轻点页面中央也可收起'),
+  ]) : null;
   const selectedFlyer = !isAarhusLocation() ? state.atlantaData?.flyers?.find(flyer => flyer.storeId === store.id) : null;
   return el('main', { class: 'content', style: `--store-color:${store.color}` }, [
     el('section', { class: 'store-hero' }, [
@@ -1198,11 +1249,12 @@ function storeView(storeId) {
     ...categoryIds.map(id => {
       const c = categoryById(id);
       const list = offers.filter(o => o.categoryId === id);
-      return el('section', { id: `store-${store.id}-${id}`, class: 'group' }, [
+      return el('section', { id: `store-${store.id}-${id}`, class: 'group store-category-section', 'data-category-id': id }, [
         el('div', { class: 'group-head' }, [el('h3', {}, `${c?.emoji || ''} ${c?.nameZh || id}`), el('p', {}, `${list.length} 项`)]),
         ...groupOffers(list).map(([gid, group]) => renderGroup(gid, group)),
       ]);
     }),
+    categoryNavigation,
     offers.length ? null : el('div', { class: 'empty' }, '该商店目前没有可验证的结构化周促销商品。可以使用上方官方入口查看。'),
     footerNote(),
   ]);

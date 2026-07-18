@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T16:13:27.448Z",
+  "updatedAt": "2026-07-18T20:14:03.853Z",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦早餐小圆面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -18,7 +18,7 @@
     },
     "v1|3 stjernet paalaeg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -30,7 +30,7 @@
     },
     "v1|4 burgerboller eller 6 polsebrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "4 个汉堡面包或 6 个热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -54,7 +54,7 @@
     },
     "v1|a cherry blossom vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -66,7 +66,7 @@
     },
     "v1|a vaskekapsler eller vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣凝珠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -78,7 +78,7 @@
     },
     "v1|a vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -90,7 +90,7 @@
     },
     "v1|aalbaek salami eller postej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -150,7 +150,7 @@
     },
     "v1|ajax klorin eller vel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -162,7 +162,7 @@
     },
     "v1|ajax rengoringsmiddel eller domestos toiletrengoringsskum|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "马桶清洁剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -186,7 +186,7 @@
     },
     "v1|alesto bananchips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "香蕉片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -198,7 +198,7 @@
     },
     "v1|alesto californiske valnodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "核桃",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -210,7 +210,7 @@
     },
     "v1|alesto cashewnodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "腰果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -222,7 +222,7 @@
     },
     "v1|alesto chilenske svesker|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "西梅干",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -234,7 +234,7 @@
     },
     "v1|alesto frugt og noddeblanding|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "混合坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -246,7 +246,7 @@
     },
     "v1|alesto indbagte chilipeanuts|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "花生",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -258,7 +258,7 @@
     },
     "v1|alesto jordnodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "花生",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -270,7 +270,7 @@
     },
     "v1|alesto jumborosiner|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "葡萄干",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -282,7 +282,7 @@
     },
     "v1|alesto noddeblanding|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "混合坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -294,7 +294,7 @@
     },
     "v1|alesto noddemix|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "混合坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -306,7 +306,7 @@
     },
     "v1|alesto peanuts eller cashewnodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "腰果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -318,7 +318,7 @@
     },
     "v1|alesto peanuts i sprod dej|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "花生",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -330,7 +330,7 @@
     },
     "v1|alesto pistacienodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "开心果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -342,7 +342,7 @@
     },
     "v1|alesto spanske mandler|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "杏仁",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -354,7 +354,7 @@
     },
     "v1|alesto torrede tranebaer torret ananas eller mango|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "芒果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -402,7 +402,7 @@
     },
     "v1|ama flydende bagning eller stegning|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹脂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -414,7 +414,7 @@
     },
     "v1|amo mel eller bageblandinger|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -582,7 +582,7 @@
     },
     "v1|anglamark vaadservietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -594,7 +594,7 @@
     },
     "v1|anthon berg toms nestle eller marabou bar|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -606,7 +606,7 @@
     },
     "v1|antos graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -630,7 +630,7 @@
     },
     "v1|arla cultura kefir eller a38|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "开菲尔发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -642,7 +642,7 @@
     },
     "v1|arla cultura yoghurt eller drik|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -654,7 +654,7 @@
     },
     "v1|arla eller cheasy koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -666,7 +666,7 @@
     },
     "v1|arla kakaomaelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "巧克力牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -678,7 +678,7 @@
     },
     "v1|arla klovborg mellemlagret danbo 45|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -690,7 +690,7 @@
     },
     "v1|arla laktosefri friskost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "新鲜奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -702,7 +702,7 @@
     },
     "v1|arla laktosefri maelk eller piskeflode|mixed_dairy": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "mixed_dairy",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -714,7 +714,7 @@
     },
     "v1|arla laktosefri maelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "无乳糖牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -726,7 +726,7 @@
     },
     "v1|arla laktosefri piskeflode|cream": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -738,7 +738,7 @@
     },
     "v1|arla laktosefri smor|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -750,7 +750,7 @@
     },
     "v1|arla protein drik|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "蛋白乳饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -762,7 +762,7 @@
     },
     "v1|arla yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -774,7 +774,7 @@
     },
     "v1|at home marked|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -786,7 +786,7 @@
     },
     "v1|athena autentisk graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -798,7 +798,7 @@
     },
     "v1|athena graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -810,7 +810,7 @@
     },
     "v1|ave krainer polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "中欧烟熏香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -858,7 +858,7 @@
     },
     "v1|bacon cheddar griller|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -894,7 +894,7 @@
     },
     "v1|bagerens brod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -906,7 +906,7 @@
     },
     "v1|baguette|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "法棍面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -930,7 +930,7 @@
     },
     "v1|bakkedal okologisk smor|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -942,7 +942,7 @@
     },
     "v1|bakkedal smorbar|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -954,7 +954,7 @@
     },
     "v1|bananko chokobanan|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -966,7 +966,7 @@
     },
     "v1|bar marked|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -978,7 +978,7 @@
     },
     "v1|barebells bar|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1062,7 +1062,7 @@
     },
     "v1|belbake fodselsdagsboller|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦生日甜面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1074,7 +1074,7 @@
     },
     "v1|belbake pizzamel|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "披萨用 00 号面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1086,7 +1086,7 @@
     },
     "v1|belbake protein pandekagemix|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "煎饼或煎饼粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1110,7 +1110,7 @@
     },
     "v1|bellarom formalet kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "研磨咖啡粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1134,7 +1134,7 @@
     },
     "v1|bettini pasta|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1146,7 +1146,7 @@
     },
     "v1|bifa sandwich kiks med pistacie eller jordbaer|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1158,7 +1158,7 @@
     },
     "v1|biotex eller vanish|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1170,7 +1170,7 @@
     },
     "v1|biotex flydende vaskemiddel eller bamseline skyllemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1194,7 +1194,7 @@
     },
     "v1|bki formalet eller instant kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "速溶咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1230,7 +1230,7 @@
     },
     "v1|black coffee cirkel kaffe eller nescafe kapsler|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1278,7 +1278,7 @@
     },
     "v1|bon gelati gelatelli isvafler|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1302,7 +1302,7 @@
     },
     "v1|bornholmsk ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1314,7 +1314,7 @@
     },
     "v1|brioche sliders eller pretzel burgerboller|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "汉堡面包胚",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1362,7 +1362,7 @@
     },
     "v1|buko flodeost naturel eller pikant|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1374,7 +1374,7 @@
     },
     "v1|buko flodeost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1386,7 +1386,7 @@
     },
     "v1|buko reje eller skinkeost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "虾味或火腿味奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1398,7 +1398,7 @@
     },
     "v1|buko smelteost eller castello dessertost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "加工融化奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1410,7 +1410,7 @@
     },
     "v1|buko smoreost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1434,7 +1434,7 @@
     },
     "v1|butcher s nakkefilet|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1470,7 +1470,7 @@
     },
     "v1|cafe noir eller peter larsen kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1482,7 +1482,7 @@
     },
     "v1|cafe noir gevalia lavazza oro merrild kaffe eller instant|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1494,7 +1494,7 @@
     },
     "v1|californiske valnodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "核桃",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1518,7 +1518,7 @@
     },
     "v1|casa modena italiensk paalaeg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "意式冷切肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1530,7 +1530,7 @@
     },
     "v1|castello aged havarti eller gouda|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1542,7 +1542,7 @@
     },
     "v1|castello blaaskimmelost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "蓝纹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1554,7 +1554,7 @@
     },
     "v1|castello smorbar ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1566,7 +1566,7 @@
     },
     "v1|castus grinebidder eller frugtpaalaeg|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "水果条/水果片零食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1578,7 +1578,7 @@
     },
     "v1|cheasy eller klovborg skaereost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1590,7 +1590,7 @@
     },
     "v1|cheasy hytteost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1602,7 +1602,7 @@
     },
     "v1|cheasy ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1614,7 +1614,7 @@
     },
     "v1|cheasy skiveost eller dairy good hytteost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1626,7 +1626,7 @@
     },
     "v1|cheasy yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1674,7 +1674,7 @@
     },
     "v1|cirkel kaffe formalet eller nescafe instant kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "速溶咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1686,7 +1686,7 @@
     },
     "v1|citronella lys i glas|home_goods": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "home_goods",
       "labelZh": "商品（请核对原名）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1698,7 +1698,7 @@
     },
     "v1|citronella lys|home_goods": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "home_goods",
       "labelZh": "商品（请核对原名）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1710,7 +1710,7 @@
     },
     "v1|cloetta bars|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1722,7 +1722,7 @@
     },
     "v1|cocio iskaffe vanilje eller iskaffe espresso|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "冰咖啡饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1770,7 +1770,7 @@
     },
     "v1|combino farfalle gnocchi eller fusilli tricolore|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意式土豆团子",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1782,7 +1782,7 @@
     },
     "v1|combino fusilli penne rigate eller suppehorn|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意面或面条",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1794,7 +1794,7 @@
     },
     "v1|combino lasagneplader|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "千层面方便餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1806,7 +1806,7 @@
     },
     "v1|combino okologisk pasta|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1818,7 +1818,7 @@
     },
     "v1|combino pasta i bronzeform|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1830,7 +1830,7 @@
     },
     "v1|combino spaghetti|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利细面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1842,7 +1842,7 @@
     },
     "v1|coop affaldsposer eller skrald let mad affaldsposer|trash_bags": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "trash_bags",
       "labelZh": "垃圾袋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1878,7 +1878,7 @@
     },
     "v1|coop bacon|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1902,7 +1902,7 @@
     },
     "v1|coop canasta mix eller bagechokolade|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1914,7 +1914,7 @@
     },
     "v1|coop ciabatta baguette mini flutes hvidlogsbrod eller madbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "法棍面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1950,7 +1950,7 @@
     },
     "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1962,7 +1962,7 @@
     },
     "v1|coop flaeskesteg|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1974,7 +1974,7 @@
     },
     "v1|coop fuldkorn pitabrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "皮塔饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1986,7 +1986,7 @@
     },
     "v1|coop giant kokkenrulle|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1998,7 +1998,7 @@
     },
     "v1|coop grana padano|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "帕达诺/帕玛森硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2046,7 +2046,7 @@
     },
     "v1|coop hakket grisekod 4 7 eller 8 12|pork_minced": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_minced",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2070,7 +2070,7 @@
     },
     "v1|coop hele kaffebonner|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "整粒咖啡豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2082,7 +2082,7 @@
     },
     "v1|coop hele spegepolser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "萨拉米或风干香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2106,7 +2106,7 @@
     },
     "v1|coop is i baeger|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2130,7 +2130,7 @@
     },
     "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2154,7 +2154,7 @@
     },
     "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2202,7 +2202,7 @@
     },
     "v1|coop proteinbar eller nutramino wafer|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "蛋白棒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2214,7 +2214,7 @@
     },
     "v1|coop proteinshake|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "蛋白乳饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2226,7 +2226,7 @@
     },
     "v1|coop skagenslapper mollehjul eller hatting kanelsnegle|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "肉桂卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2238,7 +2238,7 @@
     },
     "v1|coop skagenslapper mollehjul haandvaerkere eller hatting kanelsnegle|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "肉桂卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2250,7 +2250,7 @@
     },
     "v1|coop skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2262,7 +2262,7 @@
     },
     "v1|coop skrabeaeg|eggs": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
       "labelZh": "平养鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2274,7 +2274,7 @@
     },
     "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "手撕猪肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2322,7 +2322,7 @@
     },
     "v1|cream s sandwich kiks eller toffypops|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2346,7 +2346,7 @@
     },
     "v1|cucina eller spiga life mel|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2358,7 +2358,7 @@
     },
     "v1|cultura a38|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "A38 丹麦酸牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2370,7 +2370,7 @@
     },
     "v1|cultura kefir|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "开菲尔发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2382,7 +2382,7 @@
     },
     "v1|cultura syrnet drikkeyoghurt eller yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "饮用酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2394,7 +2394,7 @@
     },
     "v1|dairy goood revet mozzarella|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "刨丝马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2454,7 +2454,7 @@
     },
     "v1|danone actimel danonino yoghurt eller drikkeyoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "饮用酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2706,7 +2706,7 @@
     },
     "v1|dava danske frilandsaeg|eggs": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
       "labelZh": "散养鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2718,7 +2718,7 @@
     },
     "v1|dava frilandsaeg|eggs": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
       "labelZh": "散养鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2730,7 +2730,7 @@
     },
     "v1|de cecco pasta|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2778,7 +2778,7 @@
     },
     "v1|deluxe brioche burgerboller|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "汉堡面包胚",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2802,7 +2802,7 @@
     },
     "v1|deluxe smor med havsalt|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2814,7 +2814,7 @@
     },
     "v1|demon hunters servietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2850,7 +2850,7 @@
     },
     "v1|den gronne slagter paalaeg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2874,7 +2874,7 @@
     },
     "v1|dessert skyr eller luftig skyr|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2898,7 +2898,7 @@
     },
     "v1|domacica smaakager|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2910,7 +2910,7 @@
     },
     "v1|donut med chokolade eller vaniljefyld|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "甜甜圈",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2922,7 +2922,7 @@
     },
     "v1|doritos|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2934,7 +2934,7 @@
     },
     "v1|double ispind|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2958,7 +2958,7 @@
     },
     "v1|dovgan blinys|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "面粉或饼皮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -2970,7 +2970,7 @@
     },
     "v1|dr oetker fromage|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3006,7 +3006,7 @@
     },
     "v1|dulano bacon i strimler|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根条",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3018,7 +3018,7 @@
     },
     "v1|dulano hamburgerryg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3030,7 +3030,7 @@
     },
     "v1|dulano salami|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "萨拉米或风干香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3054,7 +3054,7 @@
     },
     "v1|dun let skyllemiddel eller spray|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "衣物柔顺剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3066,7 +3066,7 @@
     },
     "v1|dunlet skyllemiddel eller a summer breeze flydende vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3090,7 +3090,7 @@
     },
     "v1|egelykke bacon i skiver|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3102,7 +3102,7 @@
     },
     "v1|egelykke smor|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3114,7 +3114,7 @@
     },
     "v1|elephant pretzels|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "椒盐脆饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3198,7 +3198,7 @@
     },
     "v1|faerdig pastaret|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3210,7 +3210,7 @@
     },
     "v1|fazer bar eller slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3234,7 +3234,7 @@
     },
     "v1|finton s kanelgifler|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "迷你肉桂卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3282,7 +3282,7 @@
     },
     "v1|flaesk i skiver|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "切片猪五花肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3294,7 +3294,7 @@
     },
     "v1|floralys kokkenrulle|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3306,7 +3306,7 @@
     },
     "v1|floralys toiletpapir|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3318,7 +3318,7 @@
     },
     "v1|floralys xxl kokkenrulle|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3330,7 +3330,7 @@
     },
     "v1|focaccia|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "佛卡夏面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3342,7 +3342,7 @@
     },
     "v1|focacciabrod buffalo burgerboller eller polsebrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "汉堡面包胚",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3366,7 +3366,7 @@
     },
     "v1|formalet kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "研磨咖啡粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3378,7 +3378,7 @@
     },
     "v1|formil basic flydende vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3402,7 +3402,7 @@
     },
     "v1|frankfurtere|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "法兰克福香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3498,7 +3498,7 @@
     },
     "v1|friland dansk hakket grisekod grise og oksekod 8 12 grillmedister eller koteletter|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3510,7 +3510,7 @@
     },
     "v1|frisk pasta|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3522,7 +3522,7 @@
     },
     "v1|friskbagt morgenbrod fra haandvaerksbageren|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3546,7 +3546,7 @@
     },
     "v1|frisko iskasse|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3558,7 +3558,7 @@
     },
     "v1|frokost favorit paalaeg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3594,7 +3594,7 @@
     },
     "v1|frysetorrede hindbaer|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "冻干水果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3606,7 +3606,7 @@
     },
     "v1|gaardschips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "咸味零食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3618,7 +3618,7 @@
     },
     "v1|galle jessen paalaegschokolade|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "面包用薄片巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3642,7 +3642,7 @@
     },
     "v1|gelatelli cookie is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3654,7 +3654,7 @@
     },
     "v1|gelatelli high protein isbaeger|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3666,7 +3666,7 @@
     },
     "v1|gelatelli is bidder|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3678,7 +3678,7 @@
     },
     "v1|gelatelli ispinde eller isvafler|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3690,7 +3690,7 @@
     },
     "v1|gelatelli jordbaer eller vaniljeis|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "草莓或香草冰淇淋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3702,7 +3702,7 @@
     },
     "v1|gelatelli mini isvafler|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3714,7 +3714,7 @@
     },
     "v1|gelatelli mochi|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3726,7 +3726,7 @@
     },
     "v1|gelatelli sandwichis|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3738,7 +3738,7 @@
     },
     "v1|gelato isbaeger|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3750,7 +3750,7 @@
     },
     "v1|gevalia cafe noir peter larsen kaffe eller illy|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3786,7 +3786,7 @@
     },
     "v1|godt papir|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "纸品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3798,7 +3798,7 @@
     },
     "v1|gol polser eller tulip bacon|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3810,7 +3810,7 @@
     },
     "v1|gol polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3822,7 +3822,7 @@
     },
     "v1|gouda eller cheddar i tern|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "高达或切达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3906,7 +3906,7 @@
     },
     "v1|gram slot koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3930,7 +3930,7 @@
     },
     "v1|grana padano eller castello haard ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "帕达诺/帕玛森硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3942,7 +3942,7 @@
     },
     "v1|grillmester grillpolser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3966,7 +3966,7 @@
     },
     "v1|grillmester marinerede nakkekoteletter|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪梅花肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3978,7 +3978,7 @@
     },
     "v1|grillmester marinerede spareribs|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3990,7 +3990,7 @@
     },
     "v1|grillmester oksemerguez eller grillfakler|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4002,7 +4002,7 @@
     },
     "v1|grillost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈罗米烧烤奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4062,7 +4062,7 @@
     },
     "v1|gronnelund skaereost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4122,7 +4122,7 @@
     },
     "v1|hakket grisekod koteletter herregaardskoteletter nakkekoteletter eller flaesk i skiver af dansk gris|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪梅花肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4182,7 +4182,7 @@
     },
     "v1|hansens is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4194,7 +4194,7 @@
     },
     "v1|haribo slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4206,7 +4206,7 @@
     },
     "v1|harpic bref eller domestos rengoringsmiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "家用清洁剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4290,7 +4290,7 @@
     },
     "v1|hatting brod eller kager|mixed_bakery": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "mixed_bakery",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4302,7 +4302,7 @@
     },
     "v1|hatting burgerboller eller hotdogbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "汉堡面包胚",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4362,7 +4362,7 @@
     },
     "v1|heaply chokolade eller skum|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4434,7 +4434,7 @@
     },
     "v1|hel ovnklar flaeskesteg|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4446,7 +4446,7 @@
     },
     "v1|helbonnemarked|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡或茶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4542,7 +4542,7 @@
     },
     "v1|hello sensitive vaadservietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4554,7 +4554,7 @@
     },
     "v1|herre griller med bacon|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4578,7 +4578,7 @@
     },
     "v1|hojer chorizo brunchpolse eller steff houlberg bacon|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4590,7 +4590,7 @@
     },
     "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4602,7 +4602,7 @@
     },
     "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "高达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4650,7 +4650,7 @@
     },
     "v1|husholdningsmarked|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4698,7 +4698,7 @@
     },
     "v1|irma formalet eller hele kaffebonner|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "整粒咖啡豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4722,7 +4722,7 @@
     },
     "v1|ismarked|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4746,7 +4746,7 @@
     },
     "v1|italiensk paalaeg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "意式冷切肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4758,7 +4758,7 @@
     },
     "v1|j d gross chokolade|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4794,7 +4794,7 @@
     },
     "v1|jensens pulled chicken eller spareribs|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4818,7 +4818,7 @@
     },
     "v1|jensens spareribs|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4830,7 +4830,7 @@
     },
     "v1|jordbaerkage|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "草莓蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4842,7 +4842,7 @@
     },
     "v1|jordbaertaerte eller othellolagkage|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "草莓挞",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4902,7 +4902,7 @@
     },
     "v1|kaergaarden okologisk smorbar eller arla oko okologisk smor|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4914,7 +4914,7 @@
     },
     "v1|kage eller kiksemarked|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4926,7 +4926,7 @@
     },
     "v1|kakaomaelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "巧克力牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5010,7 +5010,7 @@
     },
     "v1|kanel eller wienerstang|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "丹麦酥皮长条甜点",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5022,7 +5022,7 @@
     },
     "v1|kanelsnegl med glasur|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "肉桂卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5046,7 +5046,7 @@
     },
     "v1|karen volf all in one kiks|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5058,7 +5058,7 @@
     },
     "v1|karen volf kagemarked|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5070,7 +5070,7 @@
     },
     "v1|karen volf kiks eller kagemarked|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5082,7 +5082,7 @@
     },
     "v1|karen volf kiks eller smaakager|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5094,7 +5094,7 @@
     },
     "v1|karen volf snofler kage eller smaakager|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5106,7 +5106,7 @@
     },
     "v1|karolines kokken eller cheasy revet ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5118,7 +5118,7 @@
     },
     "v1|karolines kokken madlavningsflode|cream": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "cream",
       "labelZh": "烹饪奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5130,7 +5130,7 @@
     },
     "v1|karolines kokken piskeflode|cream": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5154,7 +5154,7 @@
     },
     "v1|katjes slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5202,7 +5202,7 @@
     },
     "v1|kettle cooked chips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5226,7 +5226,7 @@
     },
     "v1|kiks eller kage marked|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5238,7 +5238,7 @@
     },
     "v1|kiksemarked|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5250,7 +5250,7 @@
     },
     "v1|kims chips limited edition|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5262,7 +5262,7 @@
     },
     "v1|kims chips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5274,7 +5274,7 @@
     },
     "v1|kims nodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5286,7 +5286,7 @@
     },
     "v1|kinder snack|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5298,7 +5298,7 @@
     },
     "v1|kinder snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "咸味零食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5334,7 +5334,7 @@
     },
     "v1|klare saekke|trash_bags": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "trash_bags",
       "labelZh": "垃圾袋或保鲜袋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5346,7 +5346,7 @@
     },
     "v1|klorin eller cillit bang|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5358,7 +5358,7 @@
     },
     "v1|klovborg danbo skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5370,7 +5370,7 @@
     },
     "v1|klovborg danbo|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5382,7 +5382,7 @@
     },
     "v1|klovborg skaereost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5394,7 +5394,7 @@
     },
     "v1|klovborg skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5406,7 +5406,7 @@
     },
     "v1|klover koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5418,7 +5418,7 @@
     },
     "v1|klover naturel sodmaelksyoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5466,7 +5466,7 @@
     },
     "v1|knorr snackpot eller nudler|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "面条或方便面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5478,7 +5478,7 @@
     },
     "v1|kohberg brod salling cookies eller hasselnod biscuits|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5490,7 +5490,7 @@
     },
     "v1|kohberg brod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5502,7 +5502,7 @@
     },
     "v1|kohberg fastfoodbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5514,7 +5514,7 @@
     },
     "v1|kohberg hotdogbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5526,7 +5526,7 @@
     },
     "v1|kohberg rugbrod boller eller sandwichbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦黑麦面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5538,7 +5538,7 @@
     },
     "v1|koteletter tilsat lage hvidlog|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5550,7 +5550,7 @@
     },
     "v1|koteletter uden ben af dansk gris|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5562,7 +5562,7 @@
     },
     "v1|kramer s brod eller pandekagemix|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5574,7 +5574,7 @@
     },
     "v1|kramer s is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5586,7 +5586,7 @@
     },
     "v1|kramer s proteinbar|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "蛋白棒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5598,7 +5598,7 @@
     },
     "v1|krydrede kodboller eller hakket grisekod|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5610,7 +5610,7 @@
     },
     "v1|kuljanka aegnudler|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "鸡蛋面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5622,7 +5622,7 @@
     },
     "v1|kuljanka bockwurst|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "德式博克香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5658,7 +5658,7 @@
     },
     "v1|kuljanka chips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5670,7 +5670,7 @@
     },
     "v1|kuljanka farsbrod|prepared_meatballs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "prepared_meatballs",
       "labelZh": "肉糜烤肉卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5682,7 +5682,7 @@
     },
     "v1|kuljanka fast ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5694,7 +5694,7 @@
     },
     "v1|kuljanka fletbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5730,7 +5730,7 @@
     },
     "v1|kuljanka kindziuk skinke eller kabanossi|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5742,7 +5742,7 @@
     },
     "v1|kuljanka osteuropaeisk is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5754,7 +5754,7 @@
     },
     "v1|kuljanka pandekager|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "煎饼或煎饼粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5778,7 +5778,7 @@
     },
     "v1|kuljanka polsk krakauerpolse|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "中欧烟熏香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5790,7 +5790,7 @@
     },
     "v1|kuljanka roget polsk polse|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5814,7 +5814,7 @@
     },
     "v1|kuljanka schlesiske polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5826,7 +5826,7 @@
     },
     "v1|kuljanka sesambar|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "芝麻糖棒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5838,7 +5838,7 @@
     },
     "v1|kuljanka skinke|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5850,7 +5850,7 @@
     },
     "v1|kuljanka softcake|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5934,7 +5934,7 @@
     },
     "v1|l or eller peter larsen kaffe helbonner|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "整粒咖啡豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5946,7 +5946,7 @@
     },
     "v1|la campagna feta|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "菲达式白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5958,7 +5958,7 @@
     },
     "v1|la campagna pasta|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6018,7 +6018,7 @@
     },
     "v1|lambi classic papir|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "纸品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6030,7 +6030,7 @@
     },
     "v1|lambi premium toiletpapir kokkenrulle eller coop giant kokkenrulle|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6042,7 +6042,7 @@
     },
     "v1|lange laender brunchpolser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6054,7 +6054,7 @@
     },
     "v1|langelaender polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6090,7 +6090,7 @@
     },
     "v1|lavazza iskaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "冰咖啡饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6102,7 +6102,7 @@
     },
     "v1|lay s bugles|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6114,7 +6114,7 @@
     },
     "v1|lays chips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6126,7 +6126,7 @@
     },
     "v1|leksands knaekbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6138,7 +6138,7 @@
     },
     "v1|liba fladbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "扁面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6210,7 +6210,7 @@
     },
     "v1|lille morgenkage|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6222,7 +6222,7 @@
     },
     "v1|lillebror ostehaps eller coop flodehavarti|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6246,7 +6246,7 @@
     },
     "v1|logismose mini cookies|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6258,7 +6258,7 @@
     },
     "v1|logismose okologisk skyr|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6270,7 +6270,7 @@
     },
     "v1|logismose paalaegschokolade|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "面包用薄片巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6306,7 +6306,7 @@
     },
     "v1|lotus bishoff cookies|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6318,7 +6318,7 @@
     },
     "v1|lotus toiletpapir|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6330,7 +6330,7 @@
     },
     "v1|lu petit bastogne eller oreo|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6342,7 +6342,7 @@
     },
     "v1|lu prince kiks med chokoladecreme mcvitie s eller go ahead frugtkiks|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6354,7 +6354,7 @@
     },
     "v1|luksus jordbaerkage|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "草莓蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6414,7 +6414,7 @@
     },
     "v1|lupilu vaadservietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6426,7 +6426,7 @@
     },
     "v1|lurpak pisket smorbar eller kaergaarden krydret smor|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6438,7 +6438,7 @@
     },
     "v1|lurpak smor eller smorbar|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6450,7 +6450,7 @@
     },
     "v1|lurpak smor smorbar eller plantebaseret|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6462,7 +6462,7 @@
     },
     "v1|lyons toffypops|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6474,7 +6474,7 @@
     },
     "v1|m m s maltesers skittles milky way eller kinder marked|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6498,7 +6498,7 @@
     },
     "v1|madame butterfly pitabrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "皮塔饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6522,7 +6522,7 @@
     },
     "v1|madvaerket danbo eller samo|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6534,7 +6534,7 @@
     },
     "v1|madvaerket danbo eller samso skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6546,7 +6546,7 @@
     },
     "v1|madvaerket danbo med kommen|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6558,7 +6558,7 @@
     },
     "v1|madvaerket danbo skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6570,7 +6570,7 @@
     },
     "v1|madvaerket danbo|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6594,7 +6594,7 @@
     },
     "v1|madvaerket flaeskesteg|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6606,7 +6606,7 @@
     },
     "v1|madvaerket flodehavarti|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6618,7 +6618,7 @@
     },
     "v1|madvaerket fuldkornskrydderboller|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "全麦香料小面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6630,7 +6630,7 @@
     },
     "v1|madvaerket grillmeister kamkoteletter eller nakkekoteletter|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪梅花肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6642,7 +6642,7 @@
     },
     "v1|madvaerket grillpolser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6654,7 +6654,7 @@
     },
     "v1|madvaerket grisemorbrad med bimorbrad|pork_tenderloin": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_tenderloin",
       "labelZh": "猪里脊",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6666,7 +6666,7 @@
     },
     "v1|madvaerket grisemorbrad uden bimorbrad|pork_tenderloin": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_tenderloin",
       "labelZh": "猪里脊",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6714,7 +6714,7 @@
     },
     "v1|madvaerket hakket grisekod|pork_minced": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_minced",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6762,7 +6762,7 @@
     },
     "v1|madvaerket krydderboller|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6834,7 +6834,7 @@
     },
     "v1|madvaerket medister|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "丹麦粗猪肉香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6846,7 +6846,7 @@
     },
     "v1|madvaerket nakkekoteletter eller kamkoteletter|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪梅花肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6858,7 +6858,7 @@
     },
     "v1|madvaerket okologisk koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6870,7 +6870,7 @@
     },
     "v1|madvaerket okologisk smor|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6906,7 +6906,7 @@
     },
     "v1|madvaerket piskeflode|cream": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6918,7 +6918,7 @@
     },
     "v1|madvaerket porchetta|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "意式香草烤猪肉卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6954,7 +6954,7 @@
     },
     "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6966,7 +6966,7 @@
     },
     "v1|madvaerket schwarzbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "德式深色黑麦面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6978,7 +6978,7 @@
     },
     "v1|madvaerket skyr naturel eller vanilje|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6990,7 +6990,7 @@
     },
     "v1|madvaerket solsikkerugbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦黑麦面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7002,7 +7002,7 @@
     },
     "v1|madvaerket stegeflaesk i skiver|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "切片猪五花肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7026,7 +7026,7 @@
     },
     "v1|madvaerket yoghurt naturel|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7038,7 +7038,7 @@
     },
     "v1|madvaerket yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7062,7 +7062,7 @@
     },
     "v1|magnum 3 pk solero eller minecraft iskasse|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7074,7 +7074,7 @@
     },
     "v1|magnum is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7086,7 +7086,7 @@
     },
     "v1|magnum ispinde|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7098,7 +7098,7 @@
     },
     "v1|magnum minecraft eller solero iskasse|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7122,7 +7122,7 @@
     },
     "v1|majskiks med smag|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "玉米米饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7146,7 +7146,7 @@
     },
     "v1|malaco skippers mini eller polly|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7158,7 +7158,7 @@
     },
     "v1|malaco slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7170,7 +7170,7 @@
     },
     "v1|mammen danbo guld|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7182,7 +7182,7 @@
     },
     "v1|mammen havarti|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7194,7 +7194,7 @@
     },
     "v1|mammen hytteost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7206,7 +7206,7 @@
     },
     "v1|mammen okologisk hytteost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7218,7 +7218,7 @@
     },
     "v1|mammen ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7230,7 +7230,7 @@
     },
     "v1|mammen skaereost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7242,7 +7242,7 @@
     },
     "v1|mammen skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7290,7 +7290,7 @@
     },
     "v1|marabou eller toblerone|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7302,7 +7302,7 @@
     },
     "v1|marabou twist|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7350,7 +7350,7 @@
     },
     "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "意式香草烤猪肉卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7362,7 +7362,7 @@
     },
     "v1|mars eller snickers isbarer|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7374,7 +7374,7 @@
     },
     "v1|matilde kakao skummetmaelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "牛奶或乳饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7386,7 +7386,7 @@
     },
     "v1|matilde kakaomaelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "巧克力牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7398,7 +7398,7 @@
     },
     "v1|matilde milkshake eller kakaomaelk paa daase|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "巧克力牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7434,7 +7434,7 @@
     },
     "v1|mentos|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "曼妥思薄荷糖/水果糖",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7446,7 +7446,7 @@
     },
     "v1|merrild eller lavazza helbonner|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "整粒咖啡豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7470,7 +7470,7 @@
     },
     "v1|mex co tortilla wraps|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "墨西哥卷饼皮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7482,7 +7482,7 @@
     },
     "v1|mexitopping|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "墨西哥菜用刨丝奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7494,7 +7494,7 @@
     },
     "v1|middagsfrikadeller eller mini kodboller|prepared_meatballs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "prepared_meatballs",
       "labelZh": "丹麦肉丸饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7518,7 +7518,7 @@
     },
     "v1|milbona blaaskimmelost eller hvid og blaaskimmelost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "蓝纹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7530,7 +7530,7 @@
     },
     "v1|milbona flodeost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7542,7 +7542,7 @@
     },
     "v1|milbona gouda eller tilsiter|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "高达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7554,7 +7554,7 @@
     },
     "v1|milbona gouda skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "高达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7566,7 +7566,7 @@
     },
     "v1|milbona graesk feta|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "菲达式白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7578,7 +7578,7 @@
     },
     "v1|milbona graesk inspireret yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7590,7 +7590,7 @@
     },
     "v1|milbona graesk yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "希腊酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7602,7 +7602,7 @@
     },
     "v1|milbona high protein budding|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7614,7 +7614,7 @@
     },
     "v1|milbona high protein drik|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "蛋白乳饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7626,7 +7626,7 @@
     },
     "v1|milbona high protein frugtshots|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7638,7 +7638,7 @@
     },
     "v1|milbona high protein ricotta|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7650,7 +7650,7 @@
     },
     "v1|milbona high protein salatost|cheese_fresh": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese_fresh",
       "labelZh": "沙拉白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7662,7 +7662,7 @@
     },
     "v1|milbona high protein yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7674,7 +7674,7 @@
     },
     "v1|milbona hvid ost i blok|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "菲达式白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7686,7 +7686,7 @@
     },
     "v1|milbona hytteost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7698,7 +7698,7 @@
     },
     "v1|milbona kakaomaelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "巧克力牛奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7710,7 +7710,7 @@
     },
     "v1|milbona letsaltet smor eller smorbar|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7722,7 +7722,7 @@
     },
     "v1|milbona madlavningsjaevner med flode|cream": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "cream",
       "labelZh": "奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7734,7 +7734,7 @@
     },
     "v1|milbona minimozzarella|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7746,7 +7746,7 @@
     },
     "v1|milbona mozzarella light|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7758,7 +7758,7 @@
     },
     "v1|milbona mozzarella|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7770,7 +7770,7 @@
     },
     "v1|milbona revet mozzarella|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "刨丝马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7782,7 +7782,7 @@
     },
     "v1|milbona revet ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7794,7 +7794,7 @@
     },
     "v1|milbona skyr med frugt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7806,7 +7806,7 @@
     },
     "v1|milbona smelteost i skiver|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "加工融化奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7818,7 +7818,7 @@
     },
     "v1|milbona smoreost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7830,7 +7830,7 @@
     },
     "v1|milbona sodergaarden smorbar|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7842,7 +7842,7 @@
     },
     "v1|milbona tyrkisk inspireret yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7854,7 +7854,7 @@
     },
     "v1|milbona yoghurt naturel|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7866,7 +7866,7 @@
     },
     "v1|milkshakemix eller proteindrik med chokolade|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "蛋白乳饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7878,7 +7878,7 @@
     },
     "v1|mini cream cookies|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7890,7 +7890,7 @@
     },
     "v1|mini donuts|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "甜甜圈",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7914,7 +7914,7 @@
     },
     "v1|morbrad eller nakkefilet af gris|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "多款猪肉任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7926,7 +7926,7 @@
     },
     "v1|morgenkage|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7986,7 +7986,7 @@
     },
     "v1|nakke koteletter smokey bbq|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7998,7 +7998,7 @@
     },
     "v1|nakkefilet eller morbrad af dansk gris|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "多款猪肉任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8010,7 +8010,7 @@
     },
     "v1|naturli is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8034,7 +8034,7 @@
     },
     "v1|naturli okologisk smorbar eller blok|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "黄油或涂抹黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8046,7 +8046,7 @@
     },
     "v1|naturli retter spangsberg flodebolle is eller underground is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8058,7 +8058,7 @@
     },
     "v1|naturli soja eller havredrik|plant_drinks": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "plant_drinks",
       "labelZh": "燕麦饮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8178,7 +8178,7 @@
     },
     "v1|neophos maskinopvask|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗碗机洗涤剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8190,7 +8190,7 @@
     },
     "v1|nescafe instant kaffe gold eller original|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "速溶咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8202,7 +8202,7 @@
     },
     "v1|nescafe instant kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "速溶咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8214,7 +8214,7 @@
     },
     "v1|nestle eller marabou barer|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8250,7 +8250,7 @@
     },
     "v1|neutral vaskemiddel eller skyllemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8262,7 +8262,7 @@
     },
     "v1|neutral vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8310,7 +8310,7 @@
     },
     "v1|nordthy mini ris eller majskiks|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "大米",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8322,7 +8322,7 @@
     },
     "v1|nordthy noddemix eller elephant pretzels|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "椒盐脆饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8334,7 +8334,7 @@
     },
     "v1|nordthy slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8346,7 +8346,7 @@
     },
     "v1|norregade familieposer|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "家庭装混合糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8358,7 +8358,7 @@
     },
     "v1|norregade slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8382,7 +8382,7 @@
     },
     "v1|nostja filodej|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "菲洛薄酥皮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8394,7 +8394,7 @@
     },
     "v1|nostja kaymak|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8430,7 +8430,7 @@
     },
     "v1|nostja yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8442,7 +8442,7 @@
     },
     "v1|nut s amore nodder eller snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "咸味零食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8550,7 +8550,7 @@
     },
     "v1|ogo okologisk bornekiks|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8586,7 +8586,7 @@
     },
     "v1|ogo okologiske polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8646,7 +8646,7 @@
     },
     "v1|okologisk kaernemaelk|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "酪乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8658,7 +8658,7 @@
     },
     "v1|okologisk lifebrands majs snack sticks eller castus bars bidder|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "玉米",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8670,7 +8670,7 @@
     },
     "v1|okologisk piskeflode 38|cream": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "cream",
       "labelZh": "淡奶油/打发奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8682,7 +8682,7 @@
     },
     "v1|okologisk revet havarti|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈瓦蒂奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8706,7 +8706,7 @@
     },
     "v1|okologisk vaniljeis|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8730,7 +8730,7 @@
     },
     "v1|okologiske aeg|eggs": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
       "labelZh": "有机鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8742,7 +8742,7 @@
     },
     "v1|okologiske polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8778,7 +8778,7 @@
     },
     "v1|omo eller bamseline|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8790,7 +8790,7 @@
     },
     "v1|omo vaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗衣液或洗衣粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8802,7 +8802,7 @@
     },
     "v1|omo vaskepulver|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8814,7 +8814,7 @@
     },
     "v1|opvaskeborste|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8826,7 +8826,7 @@
     },
     "v1|opvaskemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗碗液",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8838,7 +8838,7 @@
     },
     "v1|ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8862,7 +8862,7 @@
     },
     "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8874,7 +8874,7 @@
     },
     "v1|paagen brod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8886,7 +8886,7 @@
     },
     "v1|paalaegsslagteren bacon i skiver|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8898,7 +8898,7 @@
     },
     "v1|paalaegsslagteren baconleverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8910,7 +8910,7 @@
     },
     "v1|paalaegsslagteren bacontern|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8922,7 +8922,7 @@
     },
     "v1|paalaegsslagteren fransk leverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8934,7 +8934,7 @@
     },
     "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8946,7 +8946,7 @@
     },
     "v1|paalaegsslagteren leverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8958,7 +8958,7 @@
     },
     "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8970,7 +8970,7 @@
     },
     "v1|paalaekker paalaeg baconleverpostej eller salami hapser|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8982,7 +8982,7 @@
     },
     "v1|paalaekker paalaeg salami hapser eller tulip postej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8994,7 +8994,7 @@
     },
     "v1|paalaekker rullepolse eller hamburgerryg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9030,7 +9030,7 @@
     },
     "v1|panda lakrids|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9066,7 +9066,7 @@
     },
     "v1|pastasauce majs eller kikaerte marked|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "玉米",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9078,7 +9078,7 @@
     },
     "v1|pasteis de nata|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "葡式蛋挞",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9090,7 +9090,7 @@
     },
     "v1|peanuts eller cashewnodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "腰果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9138,7 +9138,7 @@
     },
     "v1|peter larsen iskaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "冰咖啡饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9150,7 +9150,7 @@
     },
     "v1|peter larsen kaffe blanding 66 formalet kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "研磨咖啡粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9162,7 +9162,7 @@
     },
     "v1|peter larsen kaffe|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9174,7 +9174,7 @@
     },
     "v1|philadelphia flodeost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9186,7 +9186,7 @@
     },
     "v1|piatnica hytteost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9222,7 +9222,7 @@
     },
     "v1|plivit somun brod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9234,7 +9234,7 @@
     },
     "v1|plombir kefir|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "开菲尔发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9258,7 +9258,7 @@
     },
     "v1|polsemesteren hotdog eller grillpolser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9270,7 +9270,7 @@
     },
     "v1|popcorn|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "爆米花",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9282,7 +9282,7 @@
     },
     "v1|popz mikrobolgeovns popcorn 8 pak|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "微波炉爆米花",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9294,7 +9294,7 @@
     },
     "v1|popz popcorn 3 pak lay s bugles cheetos eller doritos chips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "爆米花",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9306,7 +9306,7 @@
     },
     "v1|premier is iskasse|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9318,7 +9318,7 @@
     },
     "v1|premier is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9366,7 +9366,7 @@
     },
     "v1|pringles chips|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9378,7 +9378,7 @@
     },
     "v1|protein lab protein brod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9390,7 +9390,7 @@
     },
     "v1|protein tortilla wraps|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "墨西哥卷饼皮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9402,7 +9402,7 @@
     },
     "v1|proteinbar|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "蛋白棒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9414,7 +9414,7 @@
     },
     "v1|puck ost eller taverna halloumi grillost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "哈罗米烧烤奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9426,7 +9426,7 @@
     },
     "v1|puck ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9438,7 +9438,7 @@
     },
     "v1|puck salatost|cheese_fresh": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese_fresh",
       "labelZh": "沙拉白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9450,7 +9450,7 @@
     },
     "v1|pulled pork|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "手撕猪肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9474,7 +9474,7 @@
     },
     "v1|quaker cruesli mork chokolade|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "早餐谷物或燕麦",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9486,7 +9486,7 @@
     },
     "v1|raa kamben med chimichurri eller mesquit|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋骨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9510,7 +9510,7 @@
     },
     "v1|rema 1000 bologna italiensk is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9522,7 +9522,7 @@
     },
     "v1|rema 1000 croissanter|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9534,7 +9534,7 @@
     },
     "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪里脊",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9606,7 +9606,7 @@
     },
     "v1|rema 1000 danske klassikere chokolade karamel vaffel|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9666,7 +9666,7 @@
     },
     "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9678,7 +9678,7 @@
     },
     "v1|rema 1000 frilandsgris xl spareribs|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9690,7 +9690,7 @@
     },
     "v1|rema 1000 frilandsgris|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排或猪肉片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9738,7 +9738,7 @@
     },
     "v1|rema 1000 hakket dansk grisekod 8 12 danske koteletter eller sommermedister|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9762,7 +9762,7 @@
     },
     "v1|rema 1000 hakket grise og kalvekod eller frilandsgris|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肉与小牛肉混合肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9786,7 +9786,7 @@
     },
     "v1|rema 1000 hvidlogsflutes|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "法棍面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9798,7 +9798,7 @@
     },
     "v1|rema 1000 is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9810,7 +9810,7 @@
     },
     "v1|rema 1000 kaffekapsler|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9822,7 +9822,7 @@
     },
     "v1|rema 1000 kageblanding|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9834,7 +9834,7 @@
     },
     "v1|rema 1000 kiks smaakager eller kokostoppe|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9894,7 +9894,7 @@
     },
     "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9918,7 +9918,7 @@
     },
     "v1|rema 1000 mazarintaerte traestammer eller romkugler|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9930,7 +9930,7 @@
     },
     "v1|rema 1000 noddemix eller frugtsnacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "混合坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9942,7 +9942,7 @@
     },
     "v1|rema 1000 ost i skiver|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9966,7 +9966,7 @@
     },
     "v1|rema 1000 popcorn flaeskesvaer eller snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "爆米花",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9978,7 +9978,7 @@
     },
     "v1|rema 1000 proteinbar|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "蛋白棒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10038,7 +10038,7 @@
     },
     "v1|rema 1000 saltkod|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10062,7 +10062,7 @@
     },
     "v1|rema 1000 skyllemiddel|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "衣物柔顺剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10110,7 +10110,7 @@
     },
     "v1|rema 1000 tex mex tortillas|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "墨西哥卷饼皮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10122,7 +10122,7 @@
     },
     "v1|rema 1000 tomatpure eller pastasauce|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "番茄膏或意面酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10134,7 +10134,7 @@
     },
     "v1|rema 1000 ultrasoft kokkenruller eller toiletpapir 4 lags|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10170,7 +10170,7 @@
     },
     "v1|renova textil toiletpapir|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10206,7 +10206,7 @@
     },
     "v1|ribbensteg|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "带皮猪肋烤肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10230,7 +10230,7 @@
     },
     "v1|riberhus danbo skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10242,7 +10242,7 @@
     },
     "v1|riberhus danbo|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10254,7 +10254,7 @@
     },
     "v1|riberhus ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10266,7 +10266,7 @@
     },
     "v1|riberhus skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10290,7 +10290,7 @@
     },
     "v1|risifrutti yoggi yoghurt eller arla protein budding eller mousse|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10302,7 +10302,7 @@
     },
     "v1|ritter sport|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10350,7 +10350,7 @@
     },
     "v1|rodalon|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10362,7 +10362,7 @@
     },
     "v1|rogede kamben|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋骨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10530,7 +10530,7 @@
     },
     "v1|salling fryse eller genluksposer|trash_bags": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "trash_bags",
       "labelZh": "密封保鲜袋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10542,7 +10542,7 @@
     },
     "v1|salling iskasse|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10578,7 +10578,7 @@
     },
     "v1|salling pasta fusilli|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10602,7 +10602,7 @@
     },
     "v1|salling princip brioche hotdogbrod pretzel style|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10638,7 +10638,7 @@
     },
     "v1|samyang eller nissin cup noodles|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "杯装方便面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10650,7 +10650,7 @@
     },
     "v1|samyang nongshim eller nissin kopnudler|pasta_noodles": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "pasta_noodles",
       "labelZh": "杯装方便面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10710,7 +10710,7 @@
     },
     "v1|schulstad brod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10722,7 +10722,7 @@
     },
     "v1|schulstad signaturbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10746,7 +10746,7 @@
     },
     "v1|secreto af gris|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排或猪肉片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10806,7 +10806,7 @@
     },
     "v1|servietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10818,7 +10818,7 @@
     },
     "v1|silvercrest paalaegsbokse|kitchen_tools": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "kitchen_tools",
       "labelZh": "商品（请核对原名）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10830,7 +10830,7 @@
     },
     "v1|silvercrest plastruller til vakuumpakker|kitchen_consumables": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "kitchen_consumables",
       "labelZh": "厨房耗材",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10842,7 +10842,7 @@
     },
     "v1|silvercrest saet med tomatknive|kitchen_tools": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "kitchen_tools",
       "labelZh": "番茄刀套装",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10878,7 +10878,7 @@
     },
     "v1|skrabeaeg m l|eggs": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
       "labelZh": "平养鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10890,7 +10890,7 @@
     },
     "v1|skrabeaeg|eggs": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
       "labelZh": "平养鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10902,7 +10902,7 @@
     },
     "v1|skrald let affaldsposer ekstra staerke med snorreluk|trash_bags": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "trash_bags",
       "labelZh": "垃圾袋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10914,7 +10914,7 @@
     },
     "v1|skyr|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10926,7 +10926,7 @@
     },
     "v1|slagter lampe frankfurter|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "法兰克福香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10938,7 +10938,7 @@
     },
     "v1|slagter lampe polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10950,7 +10950,7 @@
     },
     "v1|slagterens bbq kamben|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋骨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10962,7 +10962,7 @@
     },
     "v1|slagtermester andersen stor leverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10974,7 +10974,7 @@
     },
     "v1|slikaerter|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10986,7 +10986,7 @@
     },
     "v1|smaa morgenkager|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10998,7 +10998,7 @@
     },
     "v1|snickers mars twix is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11010,7 +11010,7 @@
     },
     "v1|softkerne eller solsikkerugbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦黑麦面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11022,7 +11022,7 @@
     },
     "v1|softkernerugbrod|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦黑麦面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11046,7 +11046,7 @@
     },
     "v1|sol mar chorizo grillpolser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "西班牙辣味香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11058,7 +11058,7 @@
     },
     "v1|sol mar chorizo sarta eller serrano|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "西班牙辣味香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11070,7 +11070,7 @@
     },
     "v1|sol mar churros eller mini churros|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "西班牙吉事果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11082,7 +11082,7 @@
     },
     "v1|sol mar flan med karamel|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11094,7 +11094,7 @@
     },
     "v1|sol mar friske macarons|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11106,7 +11106,7 @@
     },
     "v1|sol mar frugt fyldt med is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11154,7 +11154,7 @@
     },
     "v1|sol mar magdalenas|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "西班牙玛德琳小蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11166,7 +11166,7 @@
     },
     "v1|sol mar osteplatte eller manchego corado|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪拼盘",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11214,7 +11214,7 @@
     },
     "v1|sol mar serranoskinke|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11226,7 +11226,7 @@
     },
     "v1|sol mar skinke i skiver|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11250,7 +11250,7 @@
     },
     "v1|sol mar store solsikkekerner|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11262,7 +11262,7 @@
     },
     "v1|sol mar tortilla|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "墨西哥卷饼皮",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11298,7 +11298,7 @@
     },
     "v1|sondey kammerjunkere|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "丹麦脆小饼干",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11310,7 +11310,7 @@
     },
     "v1|spangsberg bolcher|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "硬糖",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11322,7 +11322,7 @@
     },
     "v1|spangsberg flodeboller|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力包裹蛋白霜甜点",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11334,7 +11334,7 @@
     },
     "v1|spangsberg is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11358,7 +11358,7 @@
     },
     "v1|spareribs pulled chicken eller pork|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11382,7 +11382,7 @@
     },
     "v1|starbucks kaffekapsler|coffee_tea": {
       "status": "active",
-      "categoryId": "breakfast",
+      "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "labelZh": "咖啡",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11394,7 +11394,7 @@
     },
     "v1|starbucks triple espresso protein drik med kaffe eller arla protein drik|milk": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "labelZh": "蛋白乳饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11406,7 +11406,7 @@
     },
     "v1|stay strong skyr eller koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11418,7 +11418,7 @@
     },
     "v1|steff houlberg brunchpolser eller bacon i skiver|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11442,7 +11442,7 @@
     },
     "v1|steff houlberg hotdog grill eller bayerske polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11454,7 +11454,7 @@
     },
     "v1|steff houlberg polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11466,7 +11466,7 @@
     },
     "v1|steff houlberg skinkestrimler|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11490,7 +11490,7 @@
     },
     "v1|stor morgenkage|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11502,7 +11502,7 @@
     },
     "v1|store koteletter tomat ramslog|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11526,7 +11526,7 @@
     },
     "v1|stryhn s leverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11538,7 +11538,7 @@
     },
     "v1|stryhns leverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11550,7 +11550,7 @@
     },
     "v1|stryhns postej eller roget medister|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11562,7 +11562,7 @@
     },
     "v1|stryhns postej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11586,7 +11586,7 @@
     },
     "v1|sun lolly frys selv is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11598,7 +11598,7 @@
     },
     "v1|sunshine delights torret frugt|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "果干",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11610,7 +11610,7 @@
     },
     "v1|surdejsbaguette|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "法棍面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11682,7 +11682,7 @@
     },
     "v1|taffel chips 12 eller party snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11694,7 +11694,7 @@
     },
     "v1|taffel chips 12|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11706,7 +11706,7 @@
     },
     "v1|taffel chips eller snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11718,7 +11718,7 @@
     },
     "v1|taffel nodder|nuts": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "labelZh": "坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11730,7 +11730,7 @@
     },
     "v1|taga bacondadler fuet snack sticks eller skiver|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11742,7 +11742,7 @@
     },
     "v1|taga chorizo eller casa modena salsiccia|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "西班牙辣味香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11754,7 +11754,7 @@
     },
     "v1|taga serrano|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11766,7 +11766,7 @@
     },
     "v1|tastino smorcroissanter|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "冷冻黄油可颂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11778,7 +11778,7 @@
     },
     "v1|them klovborg faetter kras eller danbo|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "丹麦 Danbo 奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11790,7 +11790,7 @@
     },
     "v1|them ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11802,7 +11802,7 @@
     },
     "v1|them revet ost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11814,7 +11814,7 @@
     },
     "v1|thise okologisk blue tapas eller skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11826,7 +11826,7 @@
     },
     "v1|thise okologisk burrata eller mozzarella|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11838,7 +11838,7 @@
     },
     "v1|thise okologisk graesk inspireret yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11850,7 +11850,7 @@
     },
     "v1|thise okologisk jerseymaelk creme fraiche eller fraiche|mixed_dairy": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "mixed_dairy",
       "labelZh": "酸奶油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11862,7 +11862,7 @@
     },
     "v1|thise okologisk kaernemaelk eller skyr med topping|mixed_dairy": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "mixed_dairy",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11874,7 +11874,7 @@
     },
     "v1|thise okologisk laktosefri koldskaal|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "丹麦冷甜酸奶汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11886,7 +11886,7 @@
     },
     "v1|thise okologisk skaereost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "块状切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11898,7 +11898,7 @@
     },
     "v1|thise okologisk skiveost|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11910,7 +11910,7 @@
     },
     "v1|thise okologisk yoghurt eller acido|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11934,7 +11934,7 @@
     },
     "v1|tjia hytteostsalat|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11958,7 +11958,7 @@
     },
     "v1|toffee pops|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11982,7 +11982,7 @@
     },
     "v1|toms eller malaco slikpose|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -11994,7 +11994,7 @@
     },
     "v1|toms marked|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12018,7 +12018,7 @@
     },
     "v1|traestamme|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或蛋糕",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12030,7 +12030,7 @@
     },
     "v1|trope frugt eller snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "咸味零食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12042,7 +12042,7 @@
     },
     "v1|trope frysetorret frugt|dried_fruit": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "dried_fruit",
       "labelZh": "冻干水果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12054,7 +12054,7 @@
     },
     "v1|trope snacks|chips": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "labelZh": "咸味零食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12066,7 +12066,7 @@
     },
     "v1|tulip bacon i skiver eller tern|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12078,7 +12078,7 @@
     },
     "v1|tulip bacon|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12090,7 +12090,7 @@
     },
     "v1|tulip baconleverpostej|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12102,7 +12102,7 @@
     },
     "v1|tulip frankfurtere|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "法兰克福香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12114,7 +12114,7 @@
     },
     "v1|tulip pulled eller spareribs|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12126,7 +12126,7 @@
     },
     "v1|tulip pulled pork eller spareribs|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "手撕猪肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12138,7 +12138,7 @@
     },
     "v1|tulip skiveskaaret bacon|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12150,7 +12150,7 @@
     },
     "v1|tulip spareribs|pork_ribs": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12186,7 +12186,7 @@
     },
     "v1|twister champagnebrus filur haribo eller minecraft is|ice_cream": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12210,7 +12210,7 @@
     },
     "v1|underground saltede karamel vafler 3 pak|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "饼干或华夫点心",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12222,7 +12222,7 @@
     },
     "v1|vaadservietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12234,7 +12234,7 @@
     },
     "v1|valsemollen gourmetsolsikkerugbrod eller koldhaevede brunchboller|bread": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "labelZh": "丹麦黑麦面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12246,7 +12246,7 @@
     },
     "v1|valsemollen mel|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12258,7 +12258,7 @@
     },
     "v1|valsemollen tipo 00 mel|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "披萨用 00 号面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12282,7 +12282,7 @@
     },
     "v1|varena kvarkbar|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶或发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12306,7 +12306,7 @@
     },
     "v1|vel domestos eller bref|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12342,7 +12342,7 @@
     },
     "v1|velsmag dansk ovnklar flaeskesteg|pork_roast": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12354,7 +12354,7 @@
     },
     "v1|velsmag danske koteletter|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12366,7 +12366,7 @@
     },
     "v1|velsmag hakket grise og kalvekod 8 12 nakkekoteletter eller dansk flaesk i skiver|pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
       "labelZh": "猪梅花肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12402,7 +12402,7 @@
     },
     "v1|velsmag marineret kotelet|pork_chop": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12438,7 +12438,7 @@
     },
     "v1|vita d or margarine|butter": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "labelZh": "人造黄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12450,7 +12450,7 @@
     },
     "v1|w5 maskinopvask|cleaning": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "labelZh": "洗碗机洗涤剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12462,7 +12462,7 @@
     },
     "v1|wasa runda biscuits pick up 4 pak eller salling chokolade sticks|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12474,7 +12474,7 @@
     },
     "v1|werthers original riesen eller mentos 3 pak|chocolate": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "labelZh": "曼妥思薄荷糖/水果糖",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12486,7 +12486,7 @@
     },
     "v1|windsor monstrede servietter|paper": {
       "status": "active",
-      "categoryId": "household",
+      "categoryId": "household_paper",
       "comparisonGroup": "paper",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12498,7 +12498,7 @@
     },
     "v1|xtra bacontern|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12522,7 +12522,7 @@
     },
     "v1|xtra hamburgerryg|bacon_deli": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "bacon_deli",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12534,7 +12534,7 @@
     },
     "v1|xtra ispinde eller isvafler|biscuits": {
       "status": "active",
-      "categoryId": "snacks",
+      "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12594,7 +12594,7 @@
     },
     "v1|xxl polser|sausages": {
       "status": "active",
-      "categoryId": "pork",
+      "categoryId": "sausages_deli",
       "comparisonGroup": "sausages",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12606,7 +12606,7 @@
     },
     "v1|yoggi yoghurt|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12618,7 +12618,7 @@
     },
     "v1|yopro proteindrikkeyoghurt eller activia kefirdrik|yoghurt": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "yoghurt_cream",
       "comparisonGroup": "yoghurt",
       "labelZh": "饮用酸奶",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12630,7 +12630,7 @@
     },
     "v1|zanetti burrata|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12642,7 +12642,7 @@
     },
     "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "帕达诺/帕玛森硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12654,7 +12654,7 @@
     },
     "v1|zanetti mozzarella|cheese": {
       "status": "active",
-      "categoryId": "eggs_dairy",
+      "categoryId": "cheese",
       "comparisonGroup": "cheese",
       "labelZh": "马苏里拉奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -12666,7 +12666,7 @@
     },
     "v1|zelected durum eller pizzamel|flour_baking": {
       "status": "active",
-      "categoryId": "bread_grains",
+      "categoryId": "rice_pasta",
       "comparisonGroup": "flour_baking",
       "labelZh": "披萨用 00 号面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
