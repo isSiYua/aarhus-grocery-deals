@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
 const appSource = await fs.readFile(new URL('../app.js', import.meta.url), 'utf8');
+const styleSource = await fs.readFile(new URL('../styles.css', import.meta.url), 'utf8');
 
 test('shopping list is local, store-filterable, and keeps completed items recoverable', () => {
   assert.match(appSource, /const SHOPPING_KEY = 'grocery-deals-shopping-v1'/);
@@ -42,4 +43,30 @@ test('manual refresh checks the active location data file and only replaces chan
   assert.match(appSource, /已取得新数据并更新/);
   assert.match(appSource, /刷新失败，仍显示现有数据/);
   assert.match(appSource, /aria-label': refresh\.status === 'checking' \? '正在检查更新' : '刷新并检查数据更新'/);
+});
+
+test('mobile chrome can be collapsed independently and remembers the preference', () => {
+  assert.match(appSource, /const CHROME_KEY = 'grocery-deals-mobile-chrome-v1'/);
+  assert.match(appSource, /function toggleChrome\(part\)/);
+  assert.match(appSource, /toggleChrome\('top'\)/);
+  assert.match(appSource, /toggleChrome\('bottom'\)/);
+  assert.match(appSource, /aria-expanded/);
+  assert.match(styleSource, /\.topbar\.collapsed/);
+  assert.match(styleSource, /\.bottom-nav\.collapsed/);
+});
+
+test('mobile category browsing keeps subcategory context and ignores vertical gestures', () => {
+  assert.match(appSource, /class: 'content category-content'/);
+  assert.match(appSource, /左右滑动切换整个大类/);
+  assert.match(appSource, /touchStartY/);
+  assert.match(appSource, /Math\.abs\(delta\) < Math\.abs\(verticalDelta\) \* 1\.35/);
+  assert.match(styleSource, /\.category-content \.group-head \{ position: sticky/);
+});
+
+test('mobile offer cards collapse secondary details and strongly mark global minima', () => {
+  assert.match(appSource, /function offerDetails/);
+  assert.match(appSource, /class: 'offer-details'/);
+  assert.match(appSource, /门店与来源/);
+  assert.match(styleSource, /\.offer-card\.best \{ border: 3px solid/);
+  assert.match(styleSource, /content: '🏆 ' attr\(data-best-label\)/);
 });

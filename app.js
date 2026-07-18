@@ -4,14 +4,18 @@ const state = {
   route: { view: 'home', id: null },
   search: '',
   touchStartX: null,
+  touchStartY: null,
+  touchStartedInControl: false,
   locationId: null,
   storeFilter: null,
   shopping: {},
+  chrome: { topHidden: false, bottomHidden: false },
   refresh: { status: 'idle', locationId: null, checkedAt: null, error: null },
 };
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
 const SHOPPING_KEY = 'grocery-deals-shopping-v1';
+const CHROME_KEY = 'grocery-deals-mobile-chrome-v1';
 const LOCATIONS = [
   {
     id: 'aarhus-v',
@@ -417,6 +421,39 @@ function setStoreFilter(storeId) {
   go(state.route.view, state.route.id, { q: state.search, store: storeId });
 }
 
+function saveChromePreference() {
+  localStorage.setItem(CHROME_KEY, JSON.stringify(state.chrome));
+}
+
+function syncChromeLayout() {
+  const root = document.getElementById('app');
+  const topbar = root?.querySelector('.topbar');
+  const bottom = root?.querySelector('.bottom-nav');
+  if (!root || !topbar || !bottom) return;
+  root.style.setProperty('--topbar-height', `${Math.ceil(topbar.getBoundingClientRect().height)}px`);
+  root.style.setProperty('--bottom-nav-height', `${Math.ceil(bottom.getBoundingClientRect().height)}px`);
+  root.classList.toggle('topbar-hidden', state.chrome.topHidden);
+  root.classList.toggle('bottom-nav-hidden', state.chrome.bottomHidden);
+}
+
+function toggleChrome(part) {
+  const key = part === 'top' ? 'topHidden' : 'bottomHidden';
+  state.chrome[key] = !state.chrome[key];
+  saveChromePreference();
+  const selector = part === 'top' ? '.topbar' : '.bottom-nav';
+  const bar = document.querySelector(selector);
+  if (!bar) return;
+  bar.classList.toggle('collapsed', state.chrome[key]);
+  const toggle = bar.querySelector('.chrome-toggle');
+  if (toggle) {
+    const hidden = state.chrome[key];
+    toggle.textContent = part === 'top' ? (hidden ? '⌄' : '⌃') : (hidden ? '⌃' : '⌄');
+    toggle.setAttribute('aria-label', `${hidden ? '展开' : '收起'}${part === 'top' ? '顶部标题栏' : '底部菜单栏'}`);
+    toggle.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+  }
+  requestAnimationFrame(syncChromeLayout);
+}
+
 function storeFilterBar(offers, title = '按商店筛选') {
   const stores = activeStores().filter(store => offers.some(offer => offer.storeId === store.id));
   if (stores.length < 2) return null;
@@ -454,27 +491,37 @@ function topbar() {
         : refresh.status === 'error'
           ? `刷新失败，仍显示现有数据 · ${refresh.error}`
           : null;
-  return el('header', { class: 'topbar' }, el('div', { class: 'topbar-row' }, [
-    el('div', { class: 'brand' }, [
-      el('div', { class: 'brand-mark' }, '菜'),
-      el('div', {}, [
-        el('h1', {}, '买菜口袋书'),
-        el('p', {}, `${location.label} · 促销数据 ${formatUpdated(sourceUpdatedAt)} · 中文内容 ${formatUpdated(contentUpdatedAt)}`),
-        refreshText ? el('p', { class: `refresh-state ${refresh.status}`, role: 'status' }, refreshText) : null,
+  const hidden = state.chrome.topHidden;
+  return el('header', { class: `topbar${hidden ? ' collapsed' : ''}` }, [
+    el('div', { class: 'topbar-row' }, [
+      el('div', { class: 'brand' }, [
+        el('div', { class: 'brand-mark' }, '菜'),
+        el('div', {}, [
+          el('h1', {}, '买菜口袋书'),
+          el('p', {}, `${location.label} · 促销数据 ${formatUpdated(sourceUpdatedAt)} · 中文内容 ${formatUpdated(contentUpdatedAt)}`),
+          refreshText ? el('p', { class: `refresh-state ${refresh.status}`, role: 'status' }, refreshText) : null,
+        ]),
+      ]),
+      el('div', { class: 'topbar-actions' }, [
+        el('button', {
+          class: `icon-btn refresh-btn${refresh.status === 'checking' ? ' checking' : ''}`,
+          'aria-label': refresh.status === 'checking' ? '正在检查更新' : '刷新并检查数据更新',
+          title: '刷新并检查数据更新',
+          disabled: refresh.status === 'checking' ? '' : null,
+          onClick: refreshActiveData,
+        }, '↻'),
+        el('button', { class: 'icon-btn', 'aria-label': '切换地点', onClick: () => go('locations') }, '◎'),
+        el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
       ]),
     ]),
-    el('div', { class: 'topbar-actions' }, [
-      el('button', {
-        class: `icon-btn refresh-btn${refresh.status === 'checking' ? ' checking' : ''}`,
-        'aria-label': refresh.status === 'checking' ? '正在检查更新' : '刷新并检查数据更新',
-        title: '刷新并检查数据更新',
-        disabled: refresh.status === 'checking' ? '' : null,
-        onClick: refreshActiveData,
-      }, '↻'),
-      el('button', { class: 'icon-btn', 'aria-label': '切换地点', onClick: () => go('locations') }, '◎'),
-      el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
-    ]),
-  ]));
+    el('button', {
+      class: 'chrome-toggle topbar-toggle',
+      type: 'button',
+      'aria-label': `${hidden ? '展开' : '收起'}顶部标题栏`,
+      'aria-expanded': hidden ? 'false' : 'true',
+      onClick: () => toggleChrome('top'),
+    }, hidden ? '⌄' : '⌃'),
+  ]);
 }
 
 function bottomNav() {
@@ -485,11 +532,21 @@ function bottomNav() {
     ['shopping', '✓', `清单${shoppingCount() ? ` ${shoppingCount()}` : ''}`],
     ['search', '⌕', '搜索'],
   ];
-  return el('nav', { class: 'bottom-nav', 'aria-label': '主导航' }, items.map(([view, icon, label]) =>
-    el('button', { class: state.route.view === view || (view === 'categories' && state.route.view === 'category') || (view === 'stores' && state.route.view === 'store') ? 'active' : '', onClick: () => go(view) }, [
-      el('span', {}, icon), label,
-    ])
-  ));
+  const hidden = state.chrome.bottomHidden;
+  return el('nav', { class: `bottom-nav${hidden ? ' collapsed' : ''}`, 'aria-label': '主导航' }, [
+    el('button', {
+      class: 'chrome-toggle bottom-nav-toggle',
+      type: 'button',
+      'aria-label': `${hidden ? '展开' : '收起'}底部菜单栏`,
+      'aria-expanded': hidden ? 'false' : 'true',
+      onClick: () => toggleChrome('bottom'),
+    }, hidden ? '⌃' : '⌄'),
+    el('div', { class: 'bottom-nav-items' }, items.map(([view, icon, label]) =>
+      el('button', { class: state.route.view === view || (view === 'categories' && state.route.view === 'category') || (view === 'stores' && state.route.view === 'store') ? 'active' : '', onClick: () => go(view) }, [
+        el('span', {}, icon), label,
+      ])
+    )),
+  ]);
 }
 
 function locationCard(location) {
@@ -689,12 +746,13 @@ function categoryView(categoryId) {
   const allOffers = currentOffers().filter(o => o.categoryId === category.id);
   const offers = filterOffersByStore(allOffers);
   const groups = groupOffers(offers);
-  const main = el('main', { class: 'content', style: `--page-color:${category.color}` }, [
+  const main = el('main', { class: 'content category-content', style: `--page-color:${category.color}` }, [
     el('section', { class: 'page-head' }, [
       el('div', { class: 'kicker' }, '商品分类'),
       el('h2', {}, `${category.emoji} ${category.nameZh}`),
       el('p', {}, category.descriptionZh),
       el('span', { class: 'page-counter' }, `第 ${index + 1} 类 / 共 ${cats.length} 类 · ${offers.length} 项${state.storeFilter ? '（已筛选）' : ''}`),
+      el('div', { class: 'swipe-hint' }, '← 左右滑动切换整个大类 →'),
     ]),
     storeFilterBar(allOffers),
     ...groups.map(([groupId, groupOffersList]) => renderGroup(groupId, groupOffersList)),
@@ -706,12 +764,20 @@ function categoryView(categoryId) {
 }
 
 function attachSwipe(node, cats, index) {
-  node.addEventListener('touchstart', e => { state.touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+  node.addEventListener('touchstart', e => {
+    state.touchStartX = e.changedTouches[0].clientX;
+    state.touchStartY = e.changedTouches[0].clientY;
+    state.touchStartedInControl = Boolean(e.target.closest('button, a, input, select, textarea, dialog, .chip-row'));
+  }, { passive: true });
   node.addEventListener('touchend', e => {
-    if (state.touchStartX === null) return;
+    if (state.touchStartX === null || state.touchStartY === null) return;
     const delta = e.changedTouches[0].clientX - state.touchStartX;
+    const verticalDelta = e.changedTouches[0].clientY - state.touchStartY;
+    const startedInControl = state.touchStartedInControl;
     state.touchStartX = null;
-    if (Math.abs(delta) < 70) return;
+    state.touchStartY = null;
+    state.touchStartedInControl = false;
+    if (startedInControl || Math.abs(delta) < 70 || Math.abs(delta) < Math.abs(verticalDelta) * 1.35) return;
     if (delta < 0 && index < cats.length - 1) go('category', cats[index + 1].id);
     if (delta > 0 && index > 0) go('category', cats[index - 1].id);
   }, { passive: true });
@@ -747,8 +813,11 @@ function compareOffers(a,b) {
 function renderGroup(groupId, offers) {
   const groups = activeComparisonGroups();
   const label = groups[groupId] || groups.other || { nameZh: '其他商品', noteZh: '这些商品的规格不一定完全相同。' };
-  return el('section', { class: 'group' }, [
-    el('div', { class: 'group-head' }, [el('h3', {}, label.nameZh), el('p', {}, label.noteZh)]),
+  return el('section', { class: 'group', id: `group-${groupId}` }, [
+    el('div', { class: 'group-head' }, [
+      el('div', {}, [el('h3', {}, label.nameZh), el('p', {}, label.noteZh)]),
+      el('span', { class: 'group-count' }, `${offers.length} 项`),
+    ]),
     el('div', { class: 'offer-list' }, offers.map(o => offerCard(o))),
   ]);
 }
@@ -813,6 +882,17 @@ function offerCard(o, options = {}) {
     ]) : null,
     el('div', { class: 'badges' }, [el('span', { class: `badge ${new Date(o.validFrom) > now() ? 'warning' : ''}` }, availabilityBadge(o)), ...badges]),
     shoppingControls(o, options.listView),
+    offerDetails(o, store),
+  ]);
+}
+
+function offerDetails(o, store) {
+  const desktop = globalThis.matchMedia?.('(min-width: 700px)').matches;
+  return el('details', { class: 'offer-details', open: desktop ? '' : null }, [
+    el('summary', {}, [
+      el('span', {}, `${formatDate(o.validFrom)}—${formatDate(o.validUntil)} · 门店与来源`),
+      el('span', { class: 'details-action' }, '展开'),
+    ]),
     el('div', { class: 'meta-grid' }, [
       el('div', { class: 'meta-line' }, [el('span', {}, '优惠期限'), el('strong', {}, `${formatDate(o.validFrom)}—${formatDate(o.validUntil)}`)]),
       el('div', { class: 'meta-line' }, [el('span', {}, '附近门店'), el('strong', {}, store?.shortAddress || '查看商店页')]),
@@ -1001,6 +1081,7 @@ function render({ preserveScroll = false } = {}) {
   else view = homeView();
   root.append(view, bottomNav());
   window.scrollTo({ top: preserveScroll ? scrollY : 0, behavior: 'auto' });
+  requestAnimationFrame(syncChromeLayout);
 }
 
 async function boot() {
@@ -1027,6 +1108,15 @@ async function boot() {
     } catch {
       state.shopping = {};
     }
+    try {
+      const savedChrome = JSON.parse(localStorage.getItem(CHROME_KEY) || '{}');
+      state.chrome = {
+        topHidden: Boolean(savedChrome?.topHidden),
+        bottomHidden: Boolean(savedChrome?.bottomHidden),
+      };
+    } catch {
+      state.chrome = { topHidden: false, bottomHidden: false };
+    }
     parseRoute();
     render();
   } catch (error) {
@@ -1037,4 +1127,5 @@ async function boot() {
   }
 }
 window.addEventListener('hashchange', () => { parseRoute(); render(); });
+window.addEventListener('resize', syncChromeLayout, { passive: true });
 boot();
