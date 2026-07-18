@@ -277,7 +277,10 @@ function openLowestModal(comparison) {
       el('article', { class: 'lowest-slide', style: `--store-color:${store?.color || '#315f51'}` }, [
         offer.imageUrl ? el('img', { src: offer.imageUrl, alt: offer.originalName, loading: 'eager', referrerpolicy: 'no-referrer' }) : null,
         el('span', { class: 'badge store' }, store?.name || offer.storeId),
-        el('h3', {}, offer.originalName),
+        el('h3', {}, offer.productNameZh || offer.originalName),
+        offer.productNameZh && offer.productNameZh !== offer.originalName
+          ? el('p', { class: 'original-product-name' }, offer.originalName)
+          : null,
         el('p', {}, offer.zhExplanation),
         el('div', { class: 'lowest-slide-price' }, [
           el('strong', {}, offerMoney(offer)),
@@ -327,7 +330,9 @@ async function copyOfferName(name, button) {
   }, 1600);
 }
 
-function offerTitle(name) {
+function offerTitle(offer) {
+  const name = offer.originalName;
+  const productNameZh = offer.productNameZh || name;
   const copyButton = el('button', {
     class: 'copy-name-btn',
     type: 'button',
@@ -335,7 +340,10 @@ function offerTitle(name) {
     'aria-label': `复制商品原名：${name}`,
   }, '复制');
   copyButton.addEventListener('click', () => copyOfferName(name, copyButton));
-  return el('div', { class: 'offer-title-row' }, [el('h4', {}, name), copyButton]);
+  return el('div', { class: 'offer-heading' }, [
+    el('div', { class: 'offer-title-row' }, [el('h4', {}, productNameZh), copyButton]),
+    productNameZh !== name ? el('p', { class: 'original-product-name' }, name) : null,
+  ]);
 }
 
 function parseRoute() {
@@ -384,12 +392,15 @@ function storeFilterBar(offers, title = '按商店筛选') {
 
 function topbar() {
   const location = activeLocation();
+  const metadata = activeData()?.metadata || {};
+  const sourceUpdatedAt = metadata.updatedAt || new Date().toISOString();
+  const contentUpdatedAt = metadata.contentUpdatedAt || sourceUpdatedAt;
   return el('header', { class: 'topbar' }, el('div', { class: 'topbar-row' }, [
     el('div', { class: 'brand' }, [
       el('div', { class: 'brand-mark' }, '菜'),
       el('div', {}, [
         el('h1', {}, '买菜口袋书'),
-        el('p', {}, `${location.label} · 更新于 ${formatUpdated(activeData()?.metadata?.updatedAt || new Date().toISOString())}`),
+        el('p', {}, `${location.label} · 促销数据 ${formatUpdated(sourceUpdatedAt)} · 中文内容 ${formatUpdated(contentUpdatedAt)}`),
       ]),
     ]),
     el('div', { class: 'topbar-actions' }, [
@@ -721,7 +732,7 @@ function offerCard(o, options = {}) {
     'data-best-label': best?.label || null,
   }, [
     o.imageUrl ? el('img', { class: 'offer-image', src: o.imageUrl, alt: o.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
-    offerTitle(o.originalName),
+    offerTitle(o),
     el('p', { class: 'zh-explanation' }, o.zhExplanation),
     el('div', { class: 'price-row' }, [el('span', { class: 'price' }, offerMoney(o)), el('span', { class: 'package' }, o.packageText || (o.currency === 'USD' ? '促销单标示价格' : '规格待确认'))]),
     o.unitPriceDisplay ? el('div', { class: 'unit-price' }, `单位价格：${o.unitPriceDisplay}`) : null,
@@ -834,7 +845,7 @@ function storeView(storeId) {
 function searchView() {
   const all = currentOffers();
   const query = state.search.trim().toLowerCase();
-  const allResults = !query ? [] : all.filter(o => [o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
+  const allResults = !query ? [] : all.filter(o => [o.productNameZh, o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
   const results = filterOffersByStore(allResults);
   const input = el('input', { class: 'search-input', value: state.search, placeholder: '输入中文、丹麦文或英文商品名……', type: 'search' });
   input.addEventListener('input', e => {

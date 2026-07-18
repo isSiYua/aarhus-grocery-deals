@@ -115,6 +115,7 @@ const next = {
     ...previous.metadata,
     mode: anySuccessfulStore ? 'live' : (previous.metadata.mode || 'demo'),
     updatedAt: nowIso,
+    contentUpdatedAt: nowIso,
     stale: failedStores.length > 0,
     failedStores,
     source: 'Tjek / eTilbudsavis public offer feed',

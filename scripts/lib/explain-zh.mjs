@@ -1,4 +1,5 @@
 const specific = [
+  [/tandpasta|tandbørster|tandborster|mundskyl|mundpleje/i, '口腔护理用品：tandpasta 是牙膏，tandbørste 是牙刷，mundskyl 是漱口水。按原名选择具体一种，不是洗发或身体护理产品。'],
   [/persille.*eller.*basilikum|basilikum.*eller.*persille/i, '这是欧芹或罗勒二选一的鲜香草促销。欧芹适合撒在土豆、汤和肉类上；罗勒适合意面、披萨、番茄和青酱。两者味道和用途不同，购买时要按盆栽标签确认。'],
   [/purløg|purlog/i, '细香葱，也叫西式香葱或虾夷葱，葱味比大葱温和。适合切碎撒在鸡蛋、土豆、汤、沙拉或奶油奶酪上；类似中国小香葱，但叶管更细。'],
   [/basilikum/i, '罗勒，叶片带清甜辛香，适合番茄、意面、披萨、沙拉或制作青酱。丹麦超市常见的是甜罗勒，与中国九层塔同属罗勒但香气通常更柔和。'],
@@ -37,6 +38,10 @@ const groupText = {
   chicken_breast: '鸡胸或鸡里脊，脂肪少，适合切片炒、煎或做咖喱；类似中国去骨鸡胸。',
   whole_chicken: '整只鸡，可烤、炖汤、白切或拆分烹调。',
   chicken_minced: '鸡肉末，可做肉丸、饺子馅、肉末炒饭或咖喱。',
+  chicken_wings: '鸡翅，适合烤箱、空气炸锅或烧烤；原味、辣味和裹粉款的调味与加热时间不同。',
+  chicken_breaded: '裹粉或熟制鸡肉小食，如爆米花鸡块、鸡块或鸡肉汉堡，通常复热后蘸酱食用；不是生鲜鸡肉部位。',
+  chicken_skewers: '鸡肉串，通常已经切块和调味，可煎、烤或烧烤；加热时应确保鸡肉中心熟透。',
+  chicken_mixed_offer: '这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。',
   chicken_other: '鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。',
   turkey_other: '火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。',
   pork_roast: '大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。',
@@ -48,6 +53,7 @@ const groupText = {
   bacon_deli: '培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。',
   prepared_meatballs: '肉丸、肉饼或肉卷类，可煎、烤、炖或复热；购买时按原名确认肉种和是否已经熟制。',
   pork_mixed_offer: '这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。',
+  deli_spreads: '冷藏三明治夹馅沙拉或抹酱，可能以虾、鸡肉、火腿或蔬菜拌蛋黄酱制成，可抹面包或夹三明治；具体配料以原名和包装为准。',
   beef_minced: '牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。',
   mixed_minced: '猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。',
   beef_steak: '牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。',
@@ -173,8 +179,11 @@ const flavor = text => {
 
 export function explainInChinese(raw, classification) {
   const text = `${raw.heading || ''} ${raw.description || ''}`;
-  for (const [pattern, explanation] of specific) {
-    if (pattern.test(text)) return `${explanation}${flavor(text)}`;
+  const mustUseGroupExplanation = /mixed|_market|_offer/.test(classification.comparisonGroup || '');
+  if (!mustUseGroupExplanation) {
+    for (const [pattern, explanation] of specific) {
+      if (pattern.test(text)) return `${explanation}${flavor(text)}`;
+    }
   }
   const explanation = groupText[classification.comparisonGroup];
   if (!explanation) throw new Error(`Missing Chinese explanation for ${classification.comparisonGroup}`);

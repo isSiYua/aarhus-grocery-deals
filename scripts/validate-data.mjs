@@ -15,7 +15,7 @@ const storeIds = new Set(data.stores.map(s => s.id));
 const categoryIds = new Set(data.categories.map(c => c.id));
 const ids = new Set();
 for (const [index, offer] of data.offers.entries()) {
-  for (const key of ['canonicalKey','storeId','originalName','zhExplanation','descriptionKey','descriptionSource','categoryId','comparisonGroup','price','validUntil']) {
+  for (const key of ['canonicalKey','storeId','originalName','productNameZh','zhExplanation','descriptionKey','descriptionSource','categoryId','comparisonGroup','price','validUntil']) {
     if (offer[key] === undefined || offer[key] === null || offer[key] === '') throw new Error(`Offer ${index} missing ${key}`);
   }
   if (ids.has(offer.canonicalKey)) throw new Error(`Duplicate canonicalKey: ${offer.canonicalKey}`);
@@ -24,15 +24,18 @@ for (const [index, offer] of data.offers.entries()) {
   if (!categoryIds.has(offer.categoryId)) throw new Error(`Unknown category ${offer.categoryId}`);
   if (!data.comparisonGroups[offer.comparisonGroup]) throw new Error(`Unknown comparison group ${offer.comparisonGroup}`);
   if (offer.categoryId === 'drinks' && !/coca[- ]?cola zero|coke zero|sprite zero/i.test(offer.originalName)) throw new Error(`Disallowed drink: ${offer.originalName}`);
-  if (!['codex_cache','rules_fallback'].includes(offer.descriptionSource)) throw new Error(`Invalid description source: ${offer.canonicalKey}`);
+  if (offer.descriptionSource !== 'codex_cache') throw new Error(`Published Aarhus description is not individually reviewed: ${offer.canonicalKey}`);
   const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
-  if (offer.descriptionSource === 'codex_cache' && ![descriptionCache.entries?.[offer.descriptionKey]?.descriptionZh, descriptionCache.entries?.[canonicalDescriptionKey]?.descriptionZh].includes(offer.zhExplanation)) throw new Error(`Codex description is not backed by cache: ${offer.canonicalKey}`);
+  const cachedDescription = descriptionCache.entries?.[offer.descriptionKey] || descriptionCache.entries?.[canonicalDescriptionKey];
+  if (!cachedDescription || cachedDescription.descriptionZh !== offer.zhExplanation || cachedDescription.productNameZh !== offer.productNameZh) throw new Error(`Codex description is not backed by per-product cache: ${offer.canonicalKey}`);
   if (!['unlocated','direct','verified'].includes(offer.sourceLocation?.status)) throw new Error(`Invalid source location status: ${offer.canonicalKey}`);
   if (offer.sourceLocation?.status === 'verified' && (!Number.isInteger(offer.sourceLocation.pageNumber) || offer.sourceLocation.pageNumber < 1)) throw new Error(`Invalid verified source location: ${offer.canonicalKey}`);
 }
 
-if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== 'zh-product-v2' || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
-if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== 'zh-product-v2' || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
+if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== 'zh-product-v3' || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
+if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== 'zh-product-v3' || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
+if (descriptionPending.count !== 0) throw new Error('Published Aarhus products still have descriptions pending Codex review');
+if (!data.metadata.contentUpdatedAt) throw new Error('Aarhus content update time is missing');
 const pendingKeys = new Set();
 for (const item of descriptionPending.items) {
   if (!item.descriptionKey || !item.originalName || !item.categoryId || !item.comparisonGroup) throw new Error('Incomplete pending description item');
@@ -60,7 +63,7 @@ for (const offer of data.offers) {
 const fruitVegetableText = data.offers.filter(offer => ['fruit','vegetables'].includes(offer.categoryId)).map(offer => offer.originalName).join(' | ');
 if (/citronella|\blys\b|rosé|chokobanan|salatost|tomatkniv|majskylling|hvidløgsflutes|long ribs|tomatkonserves/i.test(fruitVegetableText)) throw new Error('Non-produce item leaked into fruit or vegetables');
 
-if (!atlanta.metadata || !Array.isArray(atlanta.offers) || !Array.isArray(atlanta.flyers) || !Array.isArray(atlanta.categories) || !atlanta.comparisonGroups) throw new Error('Invalid Atlanta data shape');
+if (!atlanta.metadata || !atlanta.metadata.contentUpdatedAt || !Array.isArray(atlanta.offers) || !Array.isArray(atlanta.flyers) || !Array.isArray(atlanta.categories) || !atlanta.comparisonGroups) throw new Error('Invalid Atlanta data shape');
 const atlantaStoreIds = new Set(['kroger-howell-mill', 'publix-howell-mill', 'whole-foods-midtown', 'target-midtown', 'walmart-mlk']);
 const atlantaCategoryIds = new Set(atlanta.categories.map(category => category.id));
 const atlantaIds = new Set();
@@ -68,7 +71,7 @@ if (atlantaKnowledge.schemaVersion !== 1 || atlantaKnowledge.maintainedBy !== 'C
 const emptyGenericDescription = /^(蔬菜商品|水果商品|肉类或熟食优惠|常温食品或调料|冷冻食品或方便餐|乳制品或鸡蛋优惠|蔬菜水果类优惠|饮料优惠|鱼类或海鲜优惠|面包或烘焙食品优惠|冷冻食品优惠|主食、罐头或调味品优惠|零食或甜品优惠)/;
 for (const offer of data.offers) if (emptyGenericDescription.test(offer.zhExplanation)) throw new Error(`Generic Aarhus description is not publishable: ${offer.canonicalKey}`);
 for (const [index, offer] of atlanta.offers.entries()) {
-  for (const key of ['canonicalKey','storeId','originalName','zhExplanation','descriptionSource','productKnowledgeKey','categoryId','price','currency','validFrom','validUntil','sourceUrl','itemId']) {
+  for (const key of ['canonicalKey','storeId','originalName','productNameZh','zhExplanation','descriptionSource','productKnowledgeKey','categoryId','price','currency','validFrom','validUntil','sourceUrl','itemId']) {
     if (offer[key] === undefined || offer[key] === null || offer[key] === '') throw new Error(`Atlanta offer ${index} missing ${key}`);
   }
   if (atlantaIds.has(offer.canonicalKey)) throw new Error(`Duplicate Atlanta canonicalKey: ${offer.canonicalKey}`);
@@ -76,7 +79,7 @@ for (const [index, offer] of atlanta.offers.entries()) {
   if (!atlantaStoreIds.has(offer.storeId)) throw new Error(`Unknown Atlanta store ${offer.storeId}`);
   if (!atlantaCategoryIds.has(offer.categoryId) || !atlanta.comparisonGroups[offer.comparisonGroup]) throw new Error(`Invalid Atlanta category or comparison group: ${offer.canonicalKey}`);
   const knowledge = atlantaKnowledge.entries[offer.productKnowledgeKey];
-  if (offer.descriptionSource !== 'codex_product_knowledge' || !knowledge || knowledge.descriptionZh !== offer.zhExplanation || knowledge.categoryId !== offer.categoryId || knowledge.comparisonGroup !== offer.comparisonGroup) throw new Error(`Atlanta offer is not backed by Codex product knowledge: ${offer.canonicalKey}`);
+  if (offer.descriptionSource !== 'codex_product_knowledge' || !knowledge || knowledge.descriptionZh !== offer.zhExplanation || knowledge.productNameZh !== offer.productNameZh || knowledge.categoryId !== offer.categoryId || knowledge.comparisonGroup !== offer.comparisonGroup) throw new Error(`Atlanta offer is not backed by Codex product knowledge: ${offer.canonicalKey}`);
   if (emptyGenericDescription.test(offer.zhExplanation)) throw new Error(`Generic Atlanta description is not publishable: ${offer.canonicalKey}`);
   if (offer.currency !== 'USD' || !Number.isFinite(offer.price) || offer.price <= 0) throw new Error(`Invalid Atlanta price: ${offer.canonicalKey}`);
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${offer.flyerId}?postal_code=30318`;

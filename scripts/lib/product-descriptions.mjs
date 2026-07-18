@@ -4,7 +4,7 @@ import { normalizedText } from './taxonomy.mjs';
 import { explainInChinese } from './explain-zh.mjs';
 
 export const DESCRIPTION_SCHEMA_VERSION = 2;
-export const DESCRIPTION_SPEC_VERSION = 'zh-product-v2';
+export const DESCRIPTION_SPEC_VERSION = 'zh-product-v3';
 
 export function descriptionKeyFor(raw, classification) {
   const name = normalizedText(raw?.heading || raw?.originalName || '');
@@ -42,15 +42,17 @@ export function resolveProductDescription(raw, classification, cache = emptyDesc
   if (cached?.descriptionZh) {
     return {
       descriptionKey,
+      productNameZh: cached.productNameZh || null,
       zhExplanation: cached.descriptionZh,
       descriptionSource: 'codex_cache',
       descriptionAuthor: cached.authoredBy || 'Codex',
       descriptionVersion: cached.descriptionSpecVersion || cache.descriptionSpecVersion || null,
     };
   }
-  return {
-    descriptionKey,
-    zhExplanation: explainInChinese(raw, classification),
+    return {
+      descriptionKey,
+      productNameZh: null,
+      zhExplanation: explainInChinese(raw, classification),
     descriptionSource: 'rules_fallback',
   };
 }
@@ -120,6 +122,7 @@ export function applyDescriptionCacheToOffers(offers, cache) {
     return {
       ...offer,
       descriptionKey,
+      productNameZh: cached.productNameZh || offer.productNameZh || null,
       zhExplanation: cached.descriptionZh,
       descriptionSource: 'codex_cache',
       descriptionAuthor: cached.authoredBy || 'Codex',

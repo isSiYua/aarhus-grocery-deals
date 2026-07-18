@@ -74,7 +74,7 @@ test('uses product identity rather than flavour words or brand fragments', () =>
   assert.equal(classifyOffer({ heading:'AEG Vaskemaskine' }), null);
   assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
   assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'beef_steak');
-  assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'chicken_other');
+  assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'chicken_breaded');
   assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese');
   assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');
   assert.equal(classifyOffer({ heading:'Nordthy Mini ris- eller majskiks' }).comparisonGroup, 'biscuits');

@@ -1,4 +1,4 @@
-const CACHE = 'aarhus-grocery-v7';
+const CACHE = 'aarhus-grocery-v8';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', event => event.waitUntil(

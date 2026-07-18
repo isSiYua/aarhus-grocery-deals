@@ -17,7 +17,7 @@ let refreshed = 0;
 for (const offer of data.offers) {
   const key = flippKnowledgeKey(offer.originalName);
   const fixed = entries[key];
-  const manuallyReviewed = fixed?.reviewStatus === 'reviewed';
+  const manuallyReviewed = fixed?.reviewStatus === 'reviewed' || fixed?.reviewStatus === 'codex_name_and_description_reviewed';
   const classification = manuallyReviewed && fixed?.categoryId && fixed?.descriptionZh
     ? { categoryId: fixed.categoryId, comparisonGroup: fixed.comparisonGroup, zhExplanation: fixed.descriptionZh }
     : classifyFlippItem(offer.originalName);
@@ -41,6 +41,7 @@ for (const offer of data.offers) {
   entries[key] = entry;
   nextOffers.push({
     ...offer,
+    productNameZh: entry.productNameZh || offer.productNameZh || null,
     categoryId: entry.categoryId,
     comparisonGroup: entry.comparisonGroup || `${entry.categoryId}_other`,
     zhExplanation: entry.descriptionZh,
@@ -71,6 +72,7 @@ const knowledge = {
 data.offers = nextOffers.sort((a, b) => a.storeId.localeCompare(b.storeId) || a.categoryId.localeCompare(b.categoryId) || a.price - b.price);
 data.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
 data.metadata.productKnowledgeUpdatedAt = updatedAt;
+data.metadata.contentUpdatedAt = updatedAt;
 data.metadata.productKnowledgeEntries = Object.keys(compactEntries).length;
 
 await fs.writeFile(knowledgeUrl, `${JSON.stringify(knowledge, null, 2)}\n`);
