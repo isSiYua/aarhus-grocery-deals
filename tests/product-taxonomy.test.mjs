@@ -71,6 +71,8 @@ test('every published product has a repository-backed Chinese product name and n
     ['Morliny classic eller crispy hot wings', ['Morliny 原味或香辣脆皮鸡翅', 'chicken_wings', /2 kg 大包装鸡翅/]],
     ['Galle & Jessen pålægschokolade*', ['面包用薄片巧克力', 'chocolate', /不是肉类冷切/]],
     ['Torsdagssmørrebrød', ['丹麦开放式三明治', 'ready_meal', /开放式三明治/]],
+    ['Kalkunbrystfilet', ['火鸡胸肉', 'turkey_breast', /不是鸡胸肉/]],
+    ['Kalkununderlår', ['火鸡小腿', 'turkey_thigh', /不与火鸡胸肉比较/]],
   ]);
   for (const [originalName, [productNameZh, comparisonGroup, descriptionPattern]] of expected) {
     const offer = data.offers.find(item => item.originalName === originalName);
@@ -78,5 +80,22 @@ test('every published product has a repository-backed Chinese product name and n
     assert.equal(offer.productNameZh, productNameZh);
     assert.equal(offer.comparisonGroup, comparisonGroup);
     assert.match(offer.zhExplanation, descriptionPattern);
+  }
+});
+
+test('published comparison pools never mix turkey breasts with turkey legs or mixed offers', async () => {
+  const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
+  const turkeyBreasts = data.offers.filter(offer => /kalkunbryst|kalkunschnitz|kalkunstrimler/i.test(offer.originalName) && !/overlår/i.test(offer.originalName));
+  const turkeyLegs = data.offers.filter(offer => /kalkununderlår|kalkunoverlår/i.test(offer.originalName) && !/schnitzel/i.test(offer.originalName));
+  assert.ok(turkeyBreasts.length > 0);
+  assert.ok(turkeyLegs.length > 0);
+  for (const offer of turkeyBreasts) {
+    assert.equal(offer.comparisonGroup, 'turkey_breast', offer.originalName);
+    assert.doesNotMatch(offer.productNameZh, /^鸡胸肉/);
+  }
+  for (const offer of turkeyLegs) assert.equal(offer.comparisonGroup, 'turkey_thigh', offer.originalName);
+  assert.notEqual(turkeyBreasts[0].comparisonGroup, turkeyLegs[0].comparisonGroup);
+  for (const offer of data.offers) {
+    if (/mixed|_offer$/.test(offer.comparisonGroup)) assert.equal(data.comparisonGroups[offer.comparisonGroup].comparable, false, offer.originalName);
   }
 });

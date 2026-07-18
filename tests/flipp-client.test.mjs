@@ -70,6 +70,10 @@ test('uses product-level Atlanta comparison groups without splitting size varian
   assert.equal(classifyFlippItem('Publix White Mushrooms').comparisonGroup, 'produce_mushrooms');
   assert.equal(classifyFlippItem('GreenWise Chicken Drumsticks or Bone-In Thighs').comparisonGroup, 'meat_chicken_thigh');
   assert.equal(classifyFlippItem('Publix Whole Young Chicken').comparisonGroup, 'meat_whole_chicken');
+  assert.equal(classifyFlippItem('GreenWise Angus Ribeye Steak').comparisonGroup, 'meat_beef_ribeye');
+  assert.equal(classifyFlippItem('Boneless Top Sirloin Steak').comparisonGroup, 'meat_beef_sirloin');
+  assert.equal(classifyFlippItem('Fresh Broccoli Crowns').comparisonGroup, 'produce_broccoli');
+  assert.equal(classifyFlippItem('Fresh Cauliflower').comparisonGroup, 'produce_cauliflower');
   assert.equal(classifyFlippItem('Tree-Ripened Peaches or Nectarines').comparisonGroup, 'produce_peaches');
   assert.equal(classifyFlippItem("Kellogg's Mega Size Rice Krispies Treats").comparisonGroup, 'snacks_other');
   assert.equal(classifyFlippItem('Publix Ground Pork').comparisonGroup, 'meat_ground_pork');
@@ -77,6 +81,22 @@ test('uses product-level Atlanta comparison groups without splitting size varian
   for (const name of ['Publix Idaho Russet Potatoes', 'Small Red Seedless Watermelon', 'Publix Whole Young Chicken']) {
     const classification = classifyFlippItem(name);
     assert.ok(ATLANTA_COMPARISON_GROUPS[classification.comparisonGroup]);
+  }
+});
+
+test('Atlanta keeps turkey, pork deli, sausage, and prepared chicken in separate price pools', () => {
+  const expected = new Map([
+    ['Applegate Naturals Uncured Turkey Bacon', 'meat_turkey_bacon'],
+    ["Boar's Head Ovengold Roasted Turkey Breast", 'meat_turkey_deli'],
+    ['Private Selection Black Forest Ham', 'meat_ham_deli'],
+    ['Hormel Pepperoni', 'meat_pepperoni'],
+    ['Publix Sweet Italian Sausage', 'meat_sausage'],
+    ['Chomps Meat Sticks', 'meat_sticks'],
+    ['Publix Chicken Tender Whole Sub', 'meat_chicken_sandwich'],
+    ['Publix Parmesan Chicken Breast Bites', 'meat_breaded_chicken'],
+  ]);
+  for (const [name, comparisonGroup] of expected) {
+    assert.equal(classifyFlippItem(name).comparisonGroup, comparisonGroup, name);
   }
 });
 

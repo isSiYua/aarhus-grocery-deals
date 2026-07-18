@@ -5,7 +5,7 @@
     "stale": false,
     "failedStores": [],
     "source": "Tjek / eTilbudsavis public offer feed",
-    "contentUpdatedAt": "2026-07-18T14:31:15.982Z",
+    "contentUpdatedAt": "2026-07-18T16:13:27.448Z",
     "contentRevision": "codex-product-review-v3"
   },
   "stores": [
@@ -223,531 +223,758 @@
   "comparisonGroups": {
     "chicken_thigh": {
       "nameZh": "鸡腿肉",
-      "noteZh": "同为鸡腿部位时优先按公斤比较。"
+      "noteZh": "同为鸡腿部位时优先按公斤比较。",
+      "comparable": true
     },
     "chicken_breast": {
       "nameZh": "鸡胸肉",
-      "noteZh": "鸡胸与鸡里脊保留原名差异。"
+      "noteZh": "鸡胸与鸡里脊保留原名差异。",
+      "comparable": true
     },
     "whole_chicken": {
       "nameZh": "整鸡",
-      "noteZh": "按公斤比较整只鸡。"
+      "noteZh": "按公斤比较整只鸡。",
+      "comparable": true
     },
     "chicken_minced": {
       "nameZh": "鸡肉末",
-      "noteZh": "适合肉丸、饺子馅或炒肉末。"
+      "noteZh": "适合肉丸、饺子馅或炒肉末。",
+      "comparable": true
     },
     "chicken_wings": {
       "nameZh": "鸡翅",
-      "noteZh": "原味、腌制和裹粉鸡翅分开看口味，但同为鸡翅时优先按公斤比较。"
+      "noteZh": "原味、腌制和裹粉鸡翅分开看口味，但同为鸡翅时优先按公斤比较。",
+      "comparable": true
     },
     "chicken_breaded": {
       "nameZh": "裹粉鸡块与鸡肉小食",
-      "noteZh": "爆米花鸡块、鸡柳、鸡块和鸡肉汉堡属于加工鸡肉，不与生鲜鸡肉比价。"
+      "noteZh": "加工形态不同，只作同页参考，不计算全局最低价。",
+      "comparable": false
     },
     "chicken_skewers": {
       "nameZh": "鸡肉串",
-      "noteZh": "鸡肉串按腌料、串数和公斤价格参考。"
+      "noteZh": "鸡肉串按腌料、串数和公斤价格参考。",
+      "comparable": true
+    },
+    "chicken_sausages": {
+      "nameZh": "鸡肉香肠",
+      "noteZh": "配料和其他可选香肠差异较大，不计算全局最低价。",
+      "comparable": false
     },
     "chicken_mixed_offer": {
       "nameZh": "鸡肉多品项任选",
-      "noteZh": "跨鸡胸、鸡腿、鸡翅等部位的任选促销不参与单一部位最低价。"
+      "noteZh": "跨鸡胸、鸡腿、鸡翅等部位的任选促销不参与单一部位最低价。",
+      "comparable": false
     },
     "chicken_other": {
       "nameZh": "其他鸡肉",
-      "noteZh": "部位不同，单位价格仅作参考。"
+      "noteZh": "部位不同，不计算全局最低价。",
+      "comparable": false
     },
-    "turkey_other": {
-      "nameZh": "火鸡与其他禽肉",
-      "noteZh": "火鸡、童子鸡等按部位和单位价格参考。"
+    "turkey_breast": {
+      "nameZh": "火鸡胸肉",
+      "noteZh": "火鸡胸、胸肉薄片和胸肉条按公斤比较，不与火鸡腿混比。",
+      "comparable": true
+    },
+    "turkey_thigh": {
+      "nameZh": "火鸡腿肉",
+      "noteZh": "火鸡大腿和小腿保留带骨差异，不与火鸡胸混比。",
+      "comparable": true
+    },
+    "turkey_minced": {
+      "nameZh": "火鸡肉末",
+      "noteZh": "火鸡肉末只与同类肉末比较。",
+      "comparable": true
+    },
+    "turkey_processed": {
+      "nameZh": "火鸡肉饼与加工品",
+      "noteZh": "火鸡肉饼、蓝带肉排等加工形态不同，不计算全局最低价。",
+      "comparable": false
+    },
+    "turkey_mixed_offer": {
+      "nameZh": "火鸡多部位任选",
+      "noteZh": "跨火鸡胸、火鸡腿或加工形态的任选促销不计算全局最低价。",
+      "comparable": false
+    },
+    "poultry_deli_mixed": {
+      "nameZh": "禽肉冷切多品项任选",
+      "noteZh": "冷切、肝酱和火鸡培根等不同形态不计算全局最低价。",
+      "comparable": false
+    },
+    "other_poultry": {
+      "nameZh": "其他禽肉",
+      "noteZh": "童子鸡等与普通鸡肉、火鸡分开显示，不计算全局最低价。",
+      "comparable": false
     },
     "pork_roast": {
       "nameZh": "烤猪肉块",
-      "noteZh": "带皮、部位和骨头会影响可比性。"
+      "noteZh": "带皮、部位和骨头会影响可比性，不计算全局最低价。",
+      "comparable": false
     },
     "pork_tenderloin": {
       "nameZh": "猪里脊与猪菲力",
-      "noteZh": "整条猪里脊按公斤比较，腌制口味保留原名。"
+      "noteZh": "整条猪里脊按公斤比较，腌制口味保留原名。",
+      "comparable": true
     },
     "pork_ribs": {
       "nameZh": "猪肋排与猪肋骨",
-      "noteZh": "带骨比例、腌料和熟制状态会影响可比性。"
+      "noteZh": "带骨比例、腌料和熟制状态会影响可比性。",
+      "comparable": true
     },
     "pork_chop": {
       "nameZh": "猪排与猪肉片",
-      "noteZh": "按公斤初步比较。"
+      "noteZh": "猪颈排、里脊排和五花肉片部位不同，不计算全局最低价。",
+      "comparable": false
     },
     "pork_minced": {
       "nameZh": "猪肉末",
-      "noteZh": "按公斤比较。"
+      "noteZh": "按公斤比较。",
+      "comparable": true
     },
     "sausages": {
       "nameZh": "香肠与烤肠",
-      "noteZh": "烟熏、肉含量和调味可能不同。"
+      "noteZh": "肉种、烟熏和调味可能不同，不计算全局最低价。",
+      "comparable": false
     },
     "bacon_deli": {
       "nameZh": "培根与猪肉熟食",
-      "noteZh": "加工方式不同，单位价格仅作参考。"
+      "noteZh": "加工方式和肉品不同，不计算全局最低价。",
+      "comparable": false
     },
     "prepared_meatballs": {
       "nameZh": "肉丸与熟制肉饼",
-      "noteZh": "肉丸、肉饼和肉卷按肉种、熟制状态和重量参考。"
+      "noteZh": "肉丸、肉饼和肉卷形态不同，不计算全局最低价。",
+      "comparable": false
     },
     "pork_mixed_offer": {
       "nameZh": "猪肉多品项任选",
-      "noteZh": "跨肉末、猪排、香肠等形态的任选促销不参与单一部位最低价。"
+      "noteZh": "跨肉末、猪排、香肠等形态的任选促销不参与单一部位最低价。",
+      "comparable": false
     },
     "deli_spreads": {
       "nameZh": "三明治夹馅沙拉与抹酱",
-      "noteZh": "虾肉沙拉、鸡肉沙拉等冷藏抹酱按配料和重量参考，不与肉类冷切混比。"
+      "noteZh": "虾肉沙拉、鸡肉沙拉等冷藏抹酱按配料和重量参考，不与肉类冷切混比。",
+      "comparable": true
     },
     "beef_minced": {
       "nameZh": "牛肉末",
-      "noteZh": "脂肪比例不同会影响口感。"
+      "noteZh": "脂肪比例不同会影响口感。",
+      "comparable": true
     },
     "mixed_minced": {
-      "nameZh": "猪牛混合肉末",
-      "noteZh": "不与纯牛肉末混为一组。"
+      "nameZh": "混合肉末",
+      "noteZh": "猪、牛或小牛肉混合比例不同，不计算全局最低价。",
+      "comparable": false
+    },
+    "beef_ribeye": {
+      "nameZh": "肋眼与肉眼牛排",
+      "noteZh": "Ribeye 与 entrecôte 作为相近肋眼部位按公斤比较。",
+      "comparable": true
+    },
+    "beef_striploin": {
+      "nameZh": "外脊/西冷牛排",
+      "noteZh": "Striploin 外脊牛排单独按公斤比较。",
+      "comparable": true
+    },
+    "beef_flat_steak": {
+      "nameZh": "腹肉与薄切牛排",
+      "noteZh": "Flank/flat steak 单独按公斤比较。",
+      "comparable": true
+    },
+    "beef_rump_steak": {
+      "nameZh": "牛臀排",
+      "noteZh": "Rump 与 tyksteg 牛臀部位按公斤比较。",
+      "comparable": true
+    },
+    "beef_bone_steak": {
+      "nameZh": "带骨牛排",
+      "noteZh": "T-bone 与 Côte de Boeuf 等带骨牛排按公斤参考。",
+      "comparable": true
     },
     "beef_steak": {
-      "nameZh": "牛排与整块牛肉",
-      "noteZh": "不同部位差异较大。"
+      "nameZh": "其他牛排",
+      "noteZh": "未明确相同部位的牛排不计算全局最低价。",
+      "comparable": false
     },
     "beef_burgers": {
       "nameZh": "牛肉汉堡饼",
-      "noteZh": "按牛肉比例、脂肪比例和公斤价格比较。"
+      "noteZh": "按牛肉比例、脂肪比例和公斤价格比较。",
+      "comparable": true
     },
     "beef_diced": {
       "nameZh": "牛肉丁与牛肉条",
-      "noteZh": "切丁和切条可用于炒菜或炖煮，优先按公斤比较。"
+      "noteZh": "切丁和切条可用于炒菜或炖煮，优先按公斤比较。",
+      "comparable": true
     },
     "beef_roast": {
       "nameZh": "整块烤牛肉",
-      "noteZh": "臀肉、牛肩、牛臀尖等整块部位按公斤和用途参考。"
+      "noteZh": "臀肉、牛肩、牛臀尖等部位不同，不计算全局最低价。",
+      "comparable": false
     },
     "beef_deli": {
       "nameZh": "牛肉熟食",
-      "noteZh": "加工与调味不同。"
+      "noteZh": "加工与调味不同。",
+      "comparable": true
+    },
+    "beef_mixed_offer": {
+      "nameZh": "牛肉多部位任选",
+      "noteZh": "跨牛排、烤肉和其他部位的任选促销不计算全局最低价。",
+      "comparable": false
+    },
+    "mixed_meat_offer": {
+      "nameZh": "跨肉种多品项任选",
+      "noteZh": "猪、牛、小牛或鸡肉跨肉种任选，不能参与单一肉种最低价。",
+      "comparable": false
     },
     "lamb_other": {
       "nameZh": "羊肉",
-      "noteZh": "羊排、羊肩和羊腿按具体部位及公斤价格比较。"
+      "noteZh": "羊排、羊肩和羊腿按具体部位参考，不计算跨部位最低价。",
+      "comparable": false
+    },
+    "salmon_fresh": {
+      "nameZh": "生鲜三文鱼",
+      "noteZh": "生鲜或冷冻未熟制三文鱼柳按公斤比较。",
+      "comparable": true
+    },
+    "salmon_smoked": {
+      "nameZh": "烟熏与腌渍三文鱼",
+      "noteZh": "烟熏、热熏和 gravad 腌渍三文鱼与生鲜鱼柳分开比较。",
+      "comparable": true
     },
     "salmon": {
-      "nameZh": "三文鱼",
-      "noteZh": "鲜鱼、冷冻和烟熏产品会保留说明。"
+      "nameZh": "三文鱼（旧分类）",
+      "noteZh": "兼容旧记录，不计算全局最低价。",
+      "comparable": false
     },
     "shrimp": {
       "nameZh": "虾",
-      "noteZh": "熟虾与生虾用途不同。"
+      "noteZh": "熟虾与生虾用途不同。",
+      "comparable": true
     },
     "white_fish": {
       "nameZh": "白身鱼",
-      "noteZh": "不同鱼种保留原名。"
+      "noteZh": "不同鱼种保留原名，不计算跨鱼种最低价。",
+      "comparable": false
+    },
+    "seafood_mixed_offer": {
+      "nameZh": "鱼虾海鲜多品项任选",
+      "noteZh": "不同鱼种、虾或加工海鲜任选，不计算单一商品最低价。",
+      "comparable": false
     },
     "seafood_other": {
       "nameZh": "其他海鲜",
-      "noteZh": "贝类和加工海鲜不强行视作同一种。"
+      "noteZh": "贝类和加工海鲜不强行视作同一种，也不计算全局最低价。",
+      "comparable": false
     },
     "eggs": {
       "nameZh": "鸡蛋",
-      "noteZh": "优先按每枚价格比较。"
+      "noteZh": "优先按每枚价格比较。",
+      "comparable": true
     },
     "milk": {
       "nameZh": "牛奶与乳饮品",
-      "noteZh": "牛奶、可可奶和蛋白乳饮品按升比较。"
+      "noteZh": "普通牛奶、可可奶和蛋白饮品不同，不计算全局最低价。",
+      "comparable": false
     },
     "plant_drinks": {
       "nameZh": "植物奶",
-      "noteZh": "燕麦饮、豆奶等按升比较，不与牛奶混比。"
+      "noteZh": "燕麦饮、豆奶等按升比较，不与牛奶混比。",
+      "comparable": true
     },
     "cream": {
       "nameZh": "奶油与烹饪奶油",
-      "noteZh": "淡奶油、打发奶油和烹饪奶油按升比较，不与牛奶混比。"
+      "noteZh": "淡奶油、打发奶油和烹饪奶油按升比较，不与牛奶混比。",
+      "comparable": true
     },
     "mixed_dairy": {
       "nameZh": "乳制品任选",
-      "noteZh": "跨牛奶、奶油、酸奶或奶酪的任选促销不参与单一乳制品最低价。"
+      "noteZh": "跨牛奶、奶油、酸奶或奶酪的任选促销不参与单一乳制品最低价。",
+      "comparable": false
     },
     "yoghurt": {
       "nameZh": "酸奶与 Skyr",
-      "noteZh": "糖分、蛋白质和脂肪含量可能不同。"
+      "noteZh": "酸奶、Skyr、布丁和发酵乳形态不同，不计算全局最低价。",
+      "comparable": false
     },
     "cheese": {
       "nameZh": "奶酪",
-      "noteZh": "奶酪种类差异较大，单位价格只作辅助。"
+      "noteZh": "奶酪种类差异较大，不计算跨品种最低价。",
+      "comparable": false
     },
     "butter": {
       "nameZh": "黄油与抹酱",
-      "noteZh": "真黄油与混合抹酱保留原名。"
+      "noteZh": "真黄油与混合抹酱保留原名。",
+      "comparable": true
     },
     "mushrooms": {
       "nameZh": "蘑菇",
-      "noteZh": "只收录真正的食用蘑菇。"
+      "noteZh": "只收录真正的食用蘑菇。",
+      "comparable": true
     },
     "cauliflower": {
       "nameZh": "花椰菜",
-      "noteZh": "花椰菜单独按公斤或每颗比较。"
+      "noteZh": "花椰菜单独按公斤或每颗比较。",
+      "comparable": true
     },
     "broccoli": {
       "nameZh": "西兰花",
-      "noteZh": "西兰花单独按公斤或每颗比较。"
+      "noteZh": "西兰花单独按公斤或每颗比较。",
+      "comparable": true
     },
     "lettuce": {
       "nameZh": "生菜与沙拉叶",
-      "noteZh": "整颗生菜与袋装沙拉叶保留规格差异。"
+      "noteZh": "整颗生菜与袋装沙拉叶保留规格差异。",
+      "comparable": true
     },
     "spinach": {
       "nameZh": "菠菜",
-      "noteZh": "新鲜菠菜按包装重量比较。"
+      "noteZh": "新鲜菠菜按包装重量比较。",
+      "comparable": true
     },
     "chives": {
       "nameZh": "细香葱",
-      "noteZh": "Purløg 单独比较每盆、每把或包装价格。"
+      "noteZh": "Purløg 单独比较每盆、每把或包装价格。",
+      "comparable": true
     },
     "basil": {
       "nameZh": "罗勒",
-      "noteZh": "Basilikum 单独比较每盆、每把或包装价格。"
+      "noteZh": "Basilikum 单独比较每盆、每把或包装价格。",
+      "comparable": true
     },
     "parsley": {
       "nameZh": "欧芹",
-      "noteZh": "Persille 单独比较每盆、每把或包装价格。"
+      "noteZh": "Persille 单独比较每盆、每把或包装价格。",
+      "comparable": true
     },
     "mixed_fresh_herbs": {
       "nameZh": "鲜香草任选",
-      "noteZh": "欧芹、罗勒等跨品种任选不参与单一品种最低价。"
+      "noteZh": "欧芹、罗勒等跨品种任选不参与单一品种最低价。",
+      "comparable": false
     },
     "fresh_herbs": {
       "nameZh": "其他鲜香草",
-      "noteZh": "仅用于尚未确认具体品种的鲜香草。"
+      "noteZh": "仅用于尚未确认具体品种的鲜香草，不计算全局最低价。",
+      "comparable": false
     },
     "carrots": {
       "nameZh": "胡萝卜",
-      "noteZh": "带叶、去叶、大小和包装差异不另拆品种，优先按公斤比较。"
+      "noteZh": "带叶、去叶、大小和包装差异不另拆品种，优先按公斤比较。",
+      "comparable": true
     },
     "root_vegetables": {
       "nameZh": "其他根茎菜",
-      "noteZh": "甜菜根、芹菜根等按具体品种和公斤价格比较。"
+      "noteZh": "甜菜根、芹菜根等按具体品种和公斤价格比较。",
+      "comparable": true
     },
     "peppers": {
       "nameZh": "甜椒与辣椒",
-      "noteZh": "甜椒和辣椒保留辣度与包装差异。"
+      "noteZh": "甜椒和辣椒保留辣度与包装差异。",
+      "comparable": true
     },
     "peas": {
       "nameZh": "豌豆",
-      "noteZh": "新鲜、冷冻或带荚状态必须分别确认。"
+      "noteZh": "新鲜、冷冻或带荚状态必须分别确认。",
+      "comparable": true
     },
     "corn": {
       "nameZh": "玉米",
-      "noteZh": "鲜玉米棒与罐装玉米不混为一组。"
+      "noteZh": "鲜玉米棒与罐装玉米不混为一组。",
+      "comparable": true
     },
     "vegetable_mix": {
       "nameZh": "蔬菜组合",
-      "noteZh": "多种蔬菜混合包按用途、组成和重量参考。"
+      "noteZh": "多种蔬菜混合包按用途、组成和重量参考。",
+      "comparable": true
     },
     "mixed_produce": {
       "nameZh": "果蔬任选",
-      "noteZh": "跨品种任选促销不参与单一品种最低价。"
+      "noteZh": "跨品种任选促销不参与单一品种最低价。",
+      "comparable": false
     },
     "prepared_salad": {
       "nameZh": "预制沙拉",
-      "noteZh": "已拌制或切配沙拉按配料和包装比较。"
+      "noteZh": "已拌制或切配沙拉按配料和包装比较。",
+      "comparable": true
     },
     "potatoes_fresh": {
       "nameZh": "新鲜土豆",
-      "noteZh": "大、小、新土豆、烤土豆用土豆及不同包装仍属同组，优先按公斤比较。"
+      "noteZh": "大、小、新土豆、烤土豆用土豆及不同包装仍属同组，优先按公斤比较。",
+      "comparable": true
     },
     "potato_salad": {
       "nameZh": "土豆沙拉",
-      "noteZh": "冷藏调味土豆沙拉按重量比较。"
+      "noteZh": "冷藏调味土豆沙拉按重量比较。",
+      "comparable": true
     },
     "potato_sides": {
       "nameZh": "加工土豆配菜",
-      "noteZh": "薯角、薯饼、焗土豆等按形态和重量参考。"
+      "noteZh": "薯角、薯饼、焗土豆等按形态和重量参考。",
+      "comparable": true
     },
     "tomatoes": {
       "nameZh": "番茄",
-      "noteZh": "小番茄与普通番茄保留原名。"
+      "noteZh": "小番茄与普通番茄保留原名。",
+      "comparable": true
     },
     "cucumber": {
       "nameZh": "黄瓜",
-      "noteZh": "通常按每根或每公斤比较。"
+      "noteZh": "通常按每根或每公斤比较。",
+      "comparable": true
     },
     "potatoes": {
       "nameZh": "土豆（旧分类）",
-      "noteZh": "仅兼容旧缓存；新鲜整颗土豆统一归入“新鲜土豆”。"
+      "noteZh": "仅兼容旧缓存；新鲜整颗土豆统一归入“新鲜土豆”。",
+      "comparable": true
     },
     "cabbage": {
       "nameZh": "卷心菜与甘蓝",
-      "noteZh": "尖头甘蓝、白甘蓝等保留具体品种名称。"
+      "noteZh": "尖头甘蓝、白甘蓝等保留具体品种名称。",
+      "comparable": true
     },
     "onion_garlic": {
       "nameZh": "葱姜蒜与洋葱",
-      "noteZh": "按公斤或每包比较。"
+      "noteZh": "按公斤或每包比较。",
+      "comparable": true
     },
     "leafy_green": {
       "nameZh": "叶菜",
-      "noteZh": "包装重量和新鲜度很重要。"
+      "noteZh": "包装重量和新鲜度很重要。",
+      "comparable": true
     },
     "vegetables_other": {
       "nameZh": "其他蔬菜",
-      "noteZh": "按原名识别具体品种。"
+      "noteZh": "按原名识别具体品种，不计算跨品种最低价。",
+      "comparable": false
     },
     "apples_pears": {
       "nameZh": "苹果与梨",
-      "noteZh": "按公斤比较。"
+      "noteZh": "按公斤比较。",
+      "comparable": true
     },
     "apples": {
       "nameZh": "苹果",
-      "noteZh": "苹果按品种、等级和公斤价格比较。"
+      "noteZh": "苹果按品种、等级和公斤价格比较。",
+      "comparable": true
     },
     "pears": {
       "nameZh": "梨",
-      "noteZh": "梨按品种、等级和公斤价格比较。"
+      "noteZh": "梨按品种、等级和公斤价格比较。",
+      "comparable": true
     },
     "strawberries": {
       "nameZh": "草莓",
-      "noteZh": "草莓按产地、等级和公斤价格比较。"
+      "noteZh": "草莓按产地、等级和公斤价格比较。",
+      "comparable": true
     },
     "blueberries": {
       "nameZh": "蓝莓",
-      "noteZh": "蓝莓按包装重量和每公斤价格比较。"
+      "noteZh": "蓝莓按包装重量和每公斤价格比较。",
+      "comparable": true
     },
     "other_berries": {
       "nameZh": "其他莓果",
-      "noteZh": "黑加仑、覆盆子等按具体品种比较。"
+      "noteZh": "黑加仑、覆盆子等按具体品种比较。",
+      "comparable": true
     },
     "watermelon": {
       "nameZh": "西瓜",
-      "noteZh": "整颗、半颗和按公斤出售需区分。"
+      "noteZh": "整颗、半颗和按公斤出售需区分。",
+      "comparable": true
     },
     "melon": {
       "nameZh": "甜瓜",
-      "noteZh": "哈密瓜、网纹瓜等按品种和每颗/公斤比较。"
+      "noteZh": "哈密瓜、网纹瓜等按品种和每颗/公斤比较。",
+      "comparable": true
     },
     "grapes": {
       "nameZh": "葡萄",
-      "noteZh": "按是否无籽、颜色和公斤价格比较。"
+      "noteZh": "按是否无籽、颜色和公斤价格比较。",
+      "comparable": true
     },
     "apricots": {
       "nameZh": "杏",
-      "noteZh": "杏按包装重量和每公斤价格比较。"
+      "noteZh": "杏按包装重量和每公斤价格比较。",
+      "comparable": true
     },
     "plums": {
       "nameZh": "李子",
-      "noteZh": "李子按品种和每公斤价格比较。"
+      "noteZh": "李子按品种和每公斤价格比较。",
+      "comparable": true
     },
     "cherries": {
       "nameZh": "樱桃",
-      "noteZh": "樱桃按产地、包装和每公斤价格比较。"
+      "noteZh": "樱桃按产地、包装和每公斤价格比较。",
+      "comparable": true
     },
     "peaches_nectarines": {
       "nameZh": "桃与油桃",
-      "noteZh": "桃和油桃可同页查看，但保留具体品种。"
+      "noteZh": "桃和油桃可同页查看，但保留具体品种。",
+      "comparable": true
     },
     "mixed_stone_fruit": {
       "nameZh": "核果任选",
-      "noteZh": "桃、李、杏等任选促销不强行视作同一品种。"
+      "noteZh": "桃、李、杏等任选促销不强行视作同一品种。",
+      "comparable": false
     },
     "pineapple": {
       "nameZh": "菠萝",
-      "noteZh": "整颗与切片菠萝分开参考。"
+      "noteZh": "整颗与切片菠萝分开参考。",
+      "comparable": true
     },
     "mango": {
       "nameZh": "芒果",
-      "noteZh": "芒果按每颗或公斤价格比较。"
+      "noteZh": "芒果按每颗或公斤价格比较。",
+      "comparable": true
     },
     "avocado": {
       "nameZh": "牛油果",
-      "noteZh": "牛油果按成熟度、每颗或包装比较。"
+      "noteZh": "牛油果按成熟度、每颗或包装比较。",
+      "comparable": true
     },
     "prepared_fruit": {
       "nameZh": "切配水果",
-      "noteZh": "果切和水果拼盘按组成、重量和保鲜期参考。"
+      "noteZh": "果切和水果拼盘按组成、重量和保鲜期参考。",
+      "comparable": true
     },
     "mixed_fruit": {
       "nameZh": "水果任选",
-      "noteZh": "多种水果或莓果任选不参与单一品种最低价。"
+      "noteZh": "多种水果或莓果任选不参与单一品种最低价。",
+      "comparable": false
     },
     "canned_tomatoes": {
       "nameZh": "番茄罐头",
-      "noteZh": "切碎、整粒和调味番茄罐头按净重与用途比较。"
+      "noteZh": "切碎、整粒和调味番茄罐头按净重与用途比较。",
+      "comparable": true
     },
     "cheese_fresh": {
       "nameZh": "新鲜白奶酪",
-      "noteZh": "沙拉奶酪、白奶酪等按盐度和重量参考。"
+      "noteZh": "沙拉奶酪、白奶酪等按盐度和重量参考。",
+      "comparable": true
     },
     "home_goods": {
       "nameZh": "家居用品",
-      "noteZh": "蜡烛等非食品按用途、数量和规格比较。"
+      "noteZh": "蜡烛等非食品按用途、数量和规格比较。",
+      "comparable": true
     },
     "kitchen_tools": {
       "nameZh": "厨房工具",
-      "noteZh": "刀具等耐用品不参与食品单位价比较。"
+      "noteZh": "刀具等耐用品不参与食品单位价比较。",
+      "comparable": true
     },
     "stone_fruit": {
       "nameZh": "桃、油桃与李子",
-      "noteZh": "按公斤或每件比较。"
+      "noteZh": "按公斤或每件比较。",
+      "comparable": true
     },
     "berries": {
       "nameZh": "莓果",
-      "noteZh": "小包装优先看每公斤价格。"
+      "noteZh": "小包装优先看每公斤价格。",
+      "comparable": true
     },
     "tropical_fruit": {
       "nameZh": "热带水果",
-      "noteZh": "牛油果等常按每个出售。"
+      "noteZh": "牛油果等常按每个出售。",
+      "comparable": true
     },
     "melon_grapes_citrus": {
       "nameZh": "瓜果、葡萄与柑橘",
-      "noteZh": "按公斤或每件比较。"
+      "noteZh": "按公斤或每件比较。",
+      "comparable": true
     },
     "fruit_other": {
       "nameZh": "其他水果",
-      "noteZh": "品种和成熟度会影响价格。"
+      "noteZh": "品种和成熟度会影响价格，不计算跨品种最低价。",
+      "comparable": false
     },
     "bread": {
       "nameZh": "面包",
-      "noteZh": "黑麦、法棍和小面包用途不同。"
+      "noteZh": "黑麦、法棍、小面包和甜酥点用途不同，不计算全局最低价。",
+      "comparable": false
     },
     "mixed_bakery": {
       "nameZh": "烘焙多品项任选",
-      "noteZh": "跨面包、蛋糕和饼干的任选促销不参与单一烘焙品最低价。"
+      "noteZh": "跨面包、蛋糕和饼干的任选促销不参与单一烘焙品最低价。",
+      "comparable": false
     },
     "rice": {
       "nameZh": "大米",
-      "noteZh": "大包装通常单位价更低。"
+      "noteZh": "大包装通常单位价更低。",
+      "comparable": true
     },
     "pasta_noodles": {
       "nameZh": "意面、面条与泡面",
-      "noteZh": "产品差异较大，保留原名。"
+      "noteZh": "产品形态差异较大，不计算全局最低价。",
+      "comparable": false
     },
     "flour_baking": {
       "nameZh": "面粉与烘焙主食",
-      "noteZh": "区分面粉、饼皮和烘焙制品。"
+      "noteZh": "面粉、饼皮和烘焙制品不同，不计算全局最低价。",
+      "comparable": false
     },
     "pizza_snacks": {
       "nameZh": "披萨与披萨点心",
-      "noteZh": "口味和大小不同。"
+      "noteZh": "口味和大小不同。",
+      "comparable": true
     },
     "dumplings": {
       "nameZh": "饺子与冷冻点心",
-      "noteZh": "不同国家口味和烹调方式可能不同。"
+      "noteZh": "饺子、春卷和冷冻点心形态不同，不计算全局最低价。",
+      "comparable": false
     },
     "ready_meal": {
       "nameZh": "方便餐",
-      "noteZh": "按总价和规格参考。"
+      "noteZh": "不同菜品只按总价和规格参考，不计算全局最低价。",
+      "comparable": false
+    },
+    "plant_based_meat": {
+      "nameZh": "植物肉与素香肠",
+      "noteZh": "植物肉制品只与同类参考，不与猪肉或鸡肉混比。",
+      "comparable": true
     },
     "frozen_vegetables": {
       "nameZh": "冷冻蔬菜",
-      "noteZh": "优先按公斤比较。"
+      "noteZh": "优先按公斤比较。",
+      "comparable": true
     },
     "ice_cream": {
       "nameZh": "冰淇淋与冰品",
-      "noteZh": "容量、支数和类型不同。"
+      "noteZh": "容量、支数和类型不同。",
+      "comparable": true
     },
     "cereal": {
       "nameZh": "麦片与早餐谷物",
-      "noteZh": "糖分、坚果和水果含量可能不同。"
+      "noteZh": "糖分、坚果和水果含量可能不同。",
+      "comparable": true
     },
     "coffee_tea": {
       "nameZh": "咖啡与茶",
-      "noteZh": "咖啡豆、粉和速溶咖啡不完全可比。"
+      "noteZh": "咖啡、茶及冲泡形态不同，不计算全局最低价。",
+      "comparable": false
     },
     "spreads_jam": {
       "nameZh": "果酱与抹酱",
-      "noteZh": "甜度、坚果含量和用途不同。"
+      "noteZh": "甜度、坚果含量和用途不同，不计算全局最低价。",
+      "comparable": false
+    },
+    "mixed_grocery_offer": {
+      "nameZh": "跨类别食品任选",
+      "noteZh": "不同食品类别的任选促销不计算全局最低价。",
+      "comparable": false
     },
     "canned": {
       "nameZh": "罐头食品",
-      "noteZh": "适合长期保存和快速做饭。"
+      "noteZh": "不同罐头内容差异较大，不计算跨品种最低价。",
+      "comparable": false
     },
     "sauces": {
       "nameZh": "酱料",
-      "noteZh": "口味差异大，不只按单位价判断。"
+      "noteZh": "口味差异大，不计算跨酱料最低价。",
+      "comparable": false
     },
     "spices": {
       "nameZh": "香料与调味料",
-      "noteZh": "说明适合的烹调方式。"
+      "noteZh": "用途不同，不计算跨香料最低价。",
+      "comparable": false
     },
     "oil_vinegar": {
       "nameZh": "食用油与醋",
-      "noteZh": "按升比较，并区分烹调用途。"
+      "noteZh": "按升比较，并区分烹调用途。",
+      "comparable": true
     },
     "baking_ingredients": {
       "nameZh": "糖、面粉与烘焙原料",
-      "noteZh": "按公斤比较。"
+      "noteZh": "按公斤比较。",
+      "comparable": true
     },
     "pickled_vegetables": {
       "nameZh": "腌菜与橄榄",
-      "noteZh": "口味和沥干重量不同。"
+      "noteZh": "口味和沥干重量不同，不计算跨品种最低价。",
+      "comparable": false
     },
     "chips": {
       "nameZh": "薯片与咸味零食",
-      "noteZh": "多件价会明确标注。"
+      "noteZh": "多件价会明确标注。",
+      "comparable": true
     },
     "chocolate": {
       "nameZh": "巧克力与甜食",
-      "noteZh": "保留主要口味。"
+      "noteZh": "巧克力、糖果和甜味棒形态不同，不计算全局最低价。",
+      "comparable": false
     },
     "biscuits": {
       "nameZh": "饼干与蛋糕",
-      "noteZh": "包装和甜度不同。"
+      "noteZh": "饼干、蛋糕和华夫点心形态不同，不计算全局最低价。",
+      "comparable": false
     },
     "nuts": {
       "nameZh": "坚果",
-      "noteZh": "优先按公斤比较。"
+      "noteZh": "优先按公斤比较。",
+      "comparable": true
     },
     "dried_fruit": {
       "nameZh": "果干与冻干水果",
-      "noteZh": "不与新鲜水果混比，优先按公斤比较。"
+      "noteZh": "不与新鲜水果混比，优先按公斤比较。",
+      "comparable": true
     },
     "paper": {
       "nameZh": "纸品",
-      "noteZh": "优先看每卷或每件。"
+      "noteZh": "优先看每卷或每件。",
+      "comparable": true
     },
     "cleaning": {
       "nameZh": "清洁用品",
-      "noteZh": "区分清洁剂、洗碗和洗衣用品。"
+      "noteZh": "区分清洁剂、洗碗和洗衣用品。",
+      "comparable": true
     },
     "trash_bags": {
       "nameZh": "垃圾袋与保鲜袋",
-      "noteZh": "按只数、容量和厚度比较。"
+      "noteZh": "按只数、容量和厚度比较。",
+      "comparable": true
     },
     "kitchen_consumables": {
       "nameZh": "厨房耗材",
-      "noteZh": "烘焙纸、铝箔等按数量或长度比较。"
+      "noteZh": "烘焙纸、铝箔等按数量或长度比较。",
+      "comparable": true
     },
     "diapers": {
       "nameZh": "纸尿裤",
-      "noteZh": "按尺码和每片价格比较。"
+      "noteZh": "按尺码和每片价格比较。",
+      "comparable": true
     },
     "baby_care": {
       "nameZh": "婴儿护理",
-      "noteZh": "注意是否无香、适用年龄和包装数量。"
+      "noteZh": "注意是否无香、适用年龄和包装数量。",
+      "comparable": true
     },
     "baby_food": {
       "nameZh": "婴幼儿食品",
-      "noteZh": "注意适用月龄、糖分和配料。"
+      "noteZh": "注意适用月龄、糖分和配料。",
+      "comparable": true
     },
     "hair_body": {
       "nameZh": "洗发与身体护理",
-      "noteZh": "按容量和用途比较。"
+      "noteZh": "按容量和用途比较。",
+      "comparable": true
     },
     "sun_care": {
       "nameZh": "防晒用品",
-      "noteZh": "注意 SPF、适用人群和容量。"
+      "noteZh": "注意 SPF、适用人群和容量。",
+      "comparable": true
     },
     "hygiene": {
       "nameZh": "卫生护理用品",
-      "noteZh": "按用途、吸收量和包装数量比较。"
+      "noteZh": "按用途、吸收量和包装数量比较。",
+      "comparable": true
     },
     "supplements": {
       "nameZh": "营养补充剂",
-      "noteZh": "益生菌、纤维等按成分、剂量和包装数量比较，不与乳制品混比。"
+      "noteZh": "益生菌、纤维等按成分、剂量和包装数量比较，不与乳制品混比。",
+      "comparable": true
     },
     "zero_soda": {
       "nameZh": "Coca-Cola Zero / Sprite Zero",
-      "noteZh": "仅保留既定无糖饮料范围。"
+      "noteZh": "仅保留既定无糖饮料范围。",
+      "comparable": true
     }
   },
   "offers": [
@@ -1317,9 +1544,9 @@
       "storeId": "365",
       "originalName": "Xtra! tun eller Bonduelle majs",
       "originalDescription": "56-140 g. Kg-pris maks. 107,14. Frit valg. 1 stk.",
-      "zhExplanation": "金枪鱼罐头或鱼排。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
-      "categoryId": "seafood",
-      "comparisonGroup": "white_fish",
+      "zhExplanation": "金枪鱼罐头或鱼排。这是跨鱼罐头、蔬菜罐头或酱料等类别的任选促销；商品主体不同，不计算全局最低价。",
+      "categoryId": "pantry",
+      "comparisonGroup": "mixed_grocery_offer",
       "price": 6,
       "prePrice": null,
       "currency": "DKK",
@@ -1350,7 +1577,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|xtra tun eller bonduelle majs|white_fish",
+      "descriptionKey": "v1|xtra tun eller bonduelle majs|mixed_grocery_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -4357,9 +4584,9 @@
       "storeId": "365",
       "originalName": "Coop torpedo rejer, fiskepinde eller rejer",
       "originalDescription": "Dybfrost. 160-450 g. Kg-pris maks. 125,00. Frit valg. 1 stk.",
-      "zhExplanation": "裹粉蝴蝶虾。虾仁或小虾，可炒饭、炒面、煮汤或涮火锅；若标有 kogte 表示已熟，只需短暂加热。",
+      "zhExplanation": "裹粉蝴蝶虾。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "shrimp",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -4390,7 +4617,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|coop torpedo rejer fiskepinde eller rejer|shrimp",
+      "descriptionKey": "v1|coop torpedo rejer fiskepinde eller rejer|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -4761,9 +4988,9 @@
       "storeId": "365",
       "originalName": "Højer chorizo brunchpølser eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke. *Stjernemarkerede varer findes kun i begrænset antal og ikke i alle butikker",
-      "zhExplanation": "培根。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "培根。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 22,
       "prePrice": null,
       "currency": "DKK",
@@ -4794,7 +5021,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|hojer chorizo brunchpolser eller steff houlberg bacon|sausages",
+      "descriptionKey": "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -4812,9 +5039,9 @@
       "storeId": "365",
       "originalName": "Højer chorizo brunchpølse eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke",
-      "zhExplanation": "培根。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 22,
       "prePrice": null,
       "currency": "DKK",
@@ -4845,7 +5072,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|hojer chorizo brunchpolse eller steff houlberg bacon|sausages",
+      "descriptionKey": "v1|hojer chorizo brunchpolse eller steff houlberg bacon|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -5067,9 +5294,9 @@
       "storeId": "365",
       "originalName": "Coop pølsehorn eller focaccia med pepperoni",
       "originalDescription": "Dybfrost. 400-480 g. Kg-pris maks. 62,50. Frit valg. 1 pose.",
-      "zhExplanation": "佛卡夏面包。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
-      "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "zhExplanation": "佛卡夏面包。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
       "price": 25,
       "prePrice": null,
       "currency": "DKK",
@@ -5100,7 +5327,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|coop polsehorn eller focaccia med pepperoni|sausages",
+      "descriptionKey": "v1|coop polsehorn eller focaccia med pepperoni|ready_meal",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -5168,9 +5395,9 @@
       "storeId": "365",
       "originalName": "Coop hakket gris & kalv 4-7% eller 8-12%",
       "originalDescription": "400-500 g. Kg-pris maks. 72,50. Frit valg. 1 pakke",
-      "zhExplanation": "猪肉与小牛肉混合肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
-      "categoryId": "pork",
-      "comparisonGroup": "pork_minced",
+      "zhExplanation": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
+      "categoryId": "beef",
+      "comparisonGroup": "mixed_minced",
       "price": 29,
       "prePrice": null,
       "currency": "DKK",
@@ -5201,7 +5428,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|coop hakket gris kalv 4 7 eller 8 12|pork_minced",
+      "descriptionKey": "v1|coop hakket gris kalv 4 7 eller 8 12|mixed_minced",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -5371,11 +5598,11 @@
       "storeId": "365",
       "originalName": "Coop varmrøget-, røget laks eller rejer",
       "originalDescription": "100-170 g. Kg-pris maks. 300,00. Frit valg. 1 pakke",
-      "descriptionKey": "v1|coop varmroget roget laks eller rejer|salmon",
-      "zhExplanation": "热熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "descriptionKey": "v1|coop varmroget roget laks eller rejer|seafood_mixed_offer",
+      "zhExplanation": "热熏三文鱼。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。原名还显示：烟熏味。",
       "descriptionSource": "codex_cache",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 30,
       "prePrice": null,
       "currency": "DKK",
@@ -5523,9 +5750,9 @@
       "storeId": "365",
       "originalName": "Coop spareribs, pulled pork eller pulled chicken",
       "originalDescription": "Nyhed 350-500 g. Kg-pris maks. 91,43. Frit valg. 1 stk.",
-      "zhExplanation": "手撕猪肉。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "zhExplanation": "手撕猪肉。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 32,
       "prePrice": null,
       "currency": "DKK",
@@ -5556,7 +5783,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_ribs",
+      "descriptionKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -5828,9 +6055,9 @@
       "storeId": "365",
       "originalName": "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok",
       "originalDescription": "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
-      "zhExplanation": "猪肋排。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。原名还显示：蒜香。",
+      "zhExplanation": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：蒜香。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 39,
       "prePrice": null,
       "currency": "DKK",
@@ -5861,7 +6088,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_ribs",
+      "descriptionKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -5879,9 +6106,9 @@
       "storeId": "365",
       "originalName": "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit",
       "originalDescription": "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
-      "zhExplanation": "猪肋排。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。原名还显示：蒜香。",
+      "zhExplanation": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：蒜香。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 39,
       "prePrice": null,
       "currency": "DKK",
@@ -5912,7 +6139,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_ribs",
+      "descriptionKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -6133,9 +6360,9 @@
       "storeId": "365",
       "originalName": "Danske Egnsgårde kalve entrecote eller ribeye",
       "originalDescription": "200 g. Kg-pris 245,00. Frit valg. 1 stk.",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 49,
       "prePrice": null,
       "currency": "DKK",
@@ -6166,7 +6393,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|danske egnsgaarde kalve entrecote eller ribeye|beef_steak",
+      "descriptionKey": "v1|danske egnsgaarde kalve entrecote eller ribeye|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -6286,9 +6513,9 @@
       "storeId": "365",
       "originalName": "Xtra! kyllingelårmix eller Rose hakket kylling 3-7%",
       "originalDescription": "1000-1500 g. Kg-pris maks. 55,00. Frit valg. 1 pakke",
-      "zhExplanation": "整只鸡腿。鸡腿部位，肉嫩多汁，适合红烧、炖煮、烤或空气炸；类似中国常见鸡腿肉。",
+      "zhExplanation": "整只鸡腿。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "chicken_thigh",
+      "comparisonGroup": "chicken_mixed_offer",
       "price": 55,
       "prePrice": null,
       "currency": "DKK",
@@ -6319,7 +6546,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|xtra kyllingelaarmix eller rose hakket kylling 3 7|chicken_thigh",
+      "descriptionKey": "v1|xtra kyllingelaarmix eller rose hakket kylling 3 7|chicken_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -7868,7 +8095,7 @@
       "originalDescription": "SPOT 300 g. Pr. kg 163,33",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 49,
       "prePrice": null,
       "currency": "DKK",
@@ -7899,7 +8126,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|ferske laksestykker|salmon",
+      "descriptionKey": "v1|ferske laksestykker|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -8276,7 +8503,7 @@
       "originalDescription": "200 g. Pr. kg 325,00. Gælder kun med Netto+ appen. Pr. kg 275,00. PRIS",
       "zhExplanation": "热熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_smoked",
       "price": 65,
       "prePrice": null,
       "currency": "DKK",
@@ -8307,7 +8534,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|premieur varmroget laks|salmon",
+      "descriptionKey": "v1|premieur varmroget laks|salmon_smoked",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -10673,7 +10900,7 @@
       "originalDescription": "100 g. Pr. kg 350,00",
       "zhExplanation": "冷熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_smoked",
       "price": 35,
       "prePrice": null,
       "currency": "DKK",
@@ -10704,7 +10931,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|baadsmand koldroget eller gravad laks|salmon",
+      "descriptionKey": "v1|baadsmand koldroget eller gravad laks|salmon_smoked",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -10926,9 +11153,9 @@
       "storeId": "netto",
       "originalName": "Velsmag rib eyes",
       "originalDescription": "PRIS CHOK 360 g. Pr. kg 222,08 Modnet i min. 14 dage",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 79.95,
       "prePrice": null,
       "currency": "DKK",
@@ -10959,7 +11186,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|velsmag rib eyes|beef_steak",
+      "descriptionKey": "v1|velsmag rib eyes|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -11946,7 +12173,7 @@
       "originalDescription": "Pr. kg 149,90",
       "zhExplanation": "整片带皮三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 74.95,
       "prePrice": null,
       "currency": "DKK",
@@ -11977,7 +12204,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|havblaa hel laksefilet med skind|salmon",
+      "descriptionKey": "v1|havblaa hel laksefilet med skind|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -12504,9 +12731,9 @@
       "storeId": "lidl",
       "originalName": "PÅLÆGSSLAGTEREN Grill- og pande-, wiener- eller hotdogpølser",
       "originalDescription": "500-550 g / pk. Pr. kg maks. 49,90.",
-      "zhExplanation": "香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 24.95,
       "prePrice": null,
       "currency": "DKK",
@@ -12537,13 +12764,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|sausages",
+      "descriptionKey": "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "香肠",
+      "taxonomyLabelZh": "肉类冷切",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "香肠",
+      "productNameZh": "肉类冷切",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -12708,11 +12935,11 @@
       "storeId": "lidl",
       "originalName": "Røget eller gravad laks",
       "originalDescription": "100 g. Pr. kg 200,00 Spot¹",
-      "descriptionKey": "v1|roget eller gravad laks|salmon",
+      "descriptionKey": "v1|roget eller gravad laks|salmon_smoked",
       "zhExplanation": "烟熏或腌渍三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
       "descriptionSource": "codex_cache",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_smoked",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -12809,9 +13036,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket gris og kalv eller hakket gris",
       "originalDescription": "14-18 % fedt. 300 g. Pr. kg 50,00 Spot¹",
-      "zhExplanation": "猪肉与小牛肉混合肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
-      "categoryId": "pork",
-      "comparisonGroup": "pork_minced",
+      "zhExplanation": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
+      "categoryId": "beef",
+      "comparisonGroup": "mixed_minced",
       "price": 15,
       "prePrice": null,
       "currency": "DKK",
@@ -12842,7 +13069,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket hakket gris og kalv eller hakket gris|pork_minced",
+      "descriptionKey": "v1|madvaerket hakket gris og kalv eller hakket gris|mixed_minced",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -13163,9 +13390,9 @@
       "storeId": "lidl",
       "originalName": "JENSENS Pulled chicken eller spareribs",
       "originalDescription": "500 g. Pr. kg 90,00. 59,95",
-      "zhExplanation": "猪肋排。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "zhExplanation": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 45,
       "prePrice": 59.95,
       "currency": "DKK",
@@ -13196,7 +13423,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|jensens pulled chicken eller spareribs|pork_ribs",
+      "descriptionKey": "v1|jensens pulled chicken eller spareribs|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -13672,9 +13899,9 @@
       "storeId": "lidl",
       "originalName": "BUTCHER'S Rumpsteak eller entrecote",
       "originalDescription": "Pr. 250 g. Pr. kg 199,80",
-      "zhExplanation": "西冷肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "西冷肋眼牛排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 49.95,
       "prePrice": null,
       "currency": "DKK",
@@ -13705,7 +13932,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|butcher s rumpsteak eller entrecote|beef_steak",
+      "descriptionKey": "v1|butcher s rumpsteak eller entrecote|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -13774,9 +14001,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Kyllingevinger, -lårfilet, -underlår eller -overlår med ryg",
       "originalDescription": "400-800 g / pk. Pr. kg maks. 74,88",
-      "zhExplanation": "鸡翅。鸡翅，适合烤箱、空气炸锅或烧烤；原味、辣味和裹粉款的调味与加热时间不同。",
+      "zhExplanation": "鸡翅。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
+      "comparisonGroup": "chicken_mixed_offer",
       "price": 29.95,
       "prePrice": null,
       "currency": "DKK",
@@ -13807,7 +14034,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket kyllingevinger laarfilet underlaar eller overlaar med ryg|chicken_wings",
+      "descriptionKey": "v1|madvaerket kyllingevinger laarfilet underlaar eller overlaar med ryg|chicken_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -15453,9 +15680,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket grise- og kalvekød",
       "originalDescription": "8-12 % fedt. 800 g / pk. Pr. kg 56,19",
-      "zhExplanation": "猪肉与小牛肉混合肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
-      "categoryId": "pork",
-      "comparisonGroup": "pork_minced",
+      "zhExplanation": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
+      "categoryId": "beef",
+      "comparisonGroup": "mixed_minced",
       "price": 44.95,
       "prePrice": null,
       "currency": "DKK",
@@ -15486,7 +15713,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket hakket grise og kalvekod|pork_minced",
+      "descriptionKey": "v1|madvaerket hakket grise og kalvekod|mixed_minced",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -16419,9 +16646,9 @@
       "storeId": "lidl",
       "originalName": "SOL&MAR Chorizo sarta eller serrano",
       "originalDescription": "80-200 g. Pr. kg maks. 250,00 Spot¹",
-      "zhExplanation": "西班牙辣味香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "西班牙辣味香肠。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -16452,7 +16679,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|sol mar chorizo sarta eller serrano|sausages",
+      "descriptionKey": "v1|sol mar chorizo sarta eller serrano|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -16623,9 +16850,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Ribeyefilet",
       "originalDescription": "Dansk okse, modnet 12-14 dage. Pr. 1/2 kg.",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 99.95,
       "prePrice": null,
       "currency": "DKK",
@@ -16656,7 +16883,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket ribeyefilet|beef_steak",
+      "descriptionKey": "v1|madvaerket ribeyefilet|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -17033,7 +17260,7 @@
       "originalDescription": "Pr. 600 g. Pr. kg 166,58",
       "zhExplanation": "整片带皮三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 99.95,
       "prePrice": null,
       "currency": "DKK",
@@ -17064,7 +17291,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|havblaa hel laksefilet med skind|salmon",
+      "descriptionKey": "v1|havblaa hel laksefilet med skind|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -17388,9 +17615,9 @@
       "storeId": "lidl",
       "originalName": "VEMONDO Veganske pølser",
       "originalDescription": "200 g. Pr. kg 125,00 Spot¹",
-      "zhExplanation": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
-      "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "zhExplanation": "烧烤香肠。植物肉或素香肠，可煎、烤或夹面包；配料以豆类或植物蛋白为主，不与猪肉或鸡肉香肠混比。",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "plant_based_meat",
       "price": 25,
       "prePrice": null,
       "currency": "DKK",
@@ -17421,7 +17648,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|vemondo veganske polser|sausages",
+      "descriptionKey": "v1|vemondo veganske polser|plant_based_meat",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -18813,11 +19040,11 @@
       "storeId": "lidl",
       "originalName": "Okseribeye",
       "originalDescription": "150 g. Pr. kg 233,33 Spot¹ 35.-",
-      "descriptionKey": "v1|okseribeye|beef_steak",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "descriptionKey": "v1|okseribeye|beef_ribeye",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "descriptionSource": "codex_cache",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 35,
       "prePrice": null,
       "currency": "DKK",
@@ -19474,9 +19701,9 @@
       "storeId": "lidl",
       "originalName": "Kalkunbrystfilet",
       "originalDescription": "800 g / pk.",
-      "zhExplanation": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "火鸡胸肉，脂肪较少、肉块通常比鸡胸大，可切片快炒、煎烤或做咖喱；它不是鸡胸肉，也不与火鸡腿比较最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_breast",
       "price": 85.95,
       "prePrice": null,
       "currency": "DKK",
@@ -19507,13 +19734,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalkunbrystfilet|turkey_other",
+      "descriptionKey": "v1|kalkunbrystfilet|turkey_breast",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "鸡胸肉",
+      "taxonomyLabelZh": "火鸡胸肉",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "鸡胸肉",
+      "productNameZh": "火鸡胸肉",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -20746,7 +20973,7 @@
       "originalDescription": "4 x 125 g / pk. Pr. kg 179,90",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 89.95,
       "prePrice": null,
       "currency": "DKK",
@@ -20777,7 +21004,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|havblaa laksefileter|salmon",
+      "descriptionKey": "v1|havblaa laksefileter|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -20846,9 +21073,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Hakket grise- og kalvekød",
       "originalDescription": "4-7 % eller 8-12 % fedt. 400-500 g / pk. Pr. kg maks. 74,88",
-      "zhExplanation": "猪肉与小牛肉混合肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
-      "categoryId": "pork",
-      "comparisonGroup": "pork_minced",
+      "zhExplanation": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
+      "categoryId": "beef",
+      "comparisonGroup": "mixed_minced",
       "price": 29.95,
       "prePrice": null,
       "currency": "DKK",
@@ -20879,7 +21106,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket hakket grise og kalvekod|pork_minced",
+      "descriptionKey": "v1|madvaerket hakket grise og kalvekod|mixed_minced",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -21406,9 +21633,9 @@
       "storeId": "lidl",
       "originalName": "Kalkunbrystfilet",
       "originalDescription": "800 g. Pr. kg 93,75 Med Lidl Plus³ -12 %",
-      "zhExplanation": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "火鸡胸肉，脂肪较少、肉块通常比鸡胸大，可切片快炒、煎烤或做咖喱；它不是鸡胸肉，也不与火鸡腿比较最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_breast",
       "price": 75,
       "prePrice": null,
       "currency": "DKK",
@@ -21439,13 +21666,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalkunbrystfilet|turkey_other",
+      "descriptionKey": "v1|kalkunbrystfilet|turkey_breast",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "鸡胸肉",
+      "taxonomyLabelZh": "火鸡胸肉",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "鸡胸肉",
+      "productNameZh": "火鸡胸肉",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -22221,9 +22448,9 @@
       "storeId": "lidl",
       "originalName": "Pålækker Rullepølse eller hamburgerryg",
       "originalDescription": "90 g / pk.",
-      "zhExplanation": "烟熏猪里脊冷切。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 12.95,
       "prePrice": null,
       "currency": "DKK",
@@ -22254,7 +22481,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|paalaekker rullepolse eller hamburgerryg|sausages",
+      "descriptionKey": "v1|paalaekker rullepolse eller hamburgerryg|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -22527,9 +22754,9 @@
       "storeId": "lidl",
       "originalName": "PÅLÆGSSLAGTEREN Rullepølse, hamburgerryg eller røget rullepølse",
       "originalDescription": "140-150 g / pk. Pr. kg maks. 99,64",
-      "zhExplanation": "烟熏猪里脊冷切。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。原名还显示：烟熏味。",
+      "zhExplanation": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。原名还显示：烟熏味。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 13.95,
       "prePrice": null,
       "currency": "DKK",
@@ -22560,7 +22787,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|sausages",
+      "descriptionKey": "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -22680,9 +22907,9 @@
       "storeId": "lidl",
       "originalName": "Kalkunoverlår eller -schnitzel af brystfilet",
       "originalDescription": "500-1000 g / pk. Pr. kg maks. 95,90.",
-      "zhExplanation": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "这是火鸡大腿肉或火鸡胸肉薄片二选一的促销，两者部位、带骨比例和烹调时间不同，因此不参与单一部位最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_mixed_offer",
       "price": 47.95,
       "prePrice": null,
       "currency": "DKK",
@@ -22713,13 +22940,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalkunoverlaar eller schnitzel af brystfilet|turkey_other",
+      "descriptionKey": "v1|kalkunoverlaar eller schnitzel af brystfilet|turkey_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "鸡胸肉",
+      "taxonomyLabelZh": "火鸡大腿或火鸡胸薄片任选",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "鸡胸肉",
+      "productNameZh": "火鸡大腿或火鸡胸薄片任选",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -24209,7 +24436,7 @@
       "originalDescription": "300 g / pk. Pr. kg 183,17",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 54.95,
       "prePrice": null,
       "currency": "DKK",
@@ -24240,7 +24467,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|havblaa laksefilet med skind|salmon",
+      "descriptionKey": "v1|havblaa laksefilet med skind|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -24562,9 +24789,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Tykstegsbøffer",
       "originalDescription": "Af ungkvæg. 300 g / pk.",
-      "zhExplanation": "牛臀肉排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "牛臀肉排。牛臀排，肉质较瘦，适合煎烤或切片；不与肋眼牛排混比。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_rump_steak",
       "price": 59.95,
       "prePrice": null,
       "currency": "DKK",
@@ -24595,7 +24822,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket tykstegsboffer|beef_steak",
+      "descriptionKey": "v1|madvaerket tykstegsboffer|beef_rump_steak",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -24664,9 +24891,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Rullepølse, hamburgerryg eller sennepsskinke",
       "originalDescription": "80 g / pk. Pr. kg 186,88",
-      "zhExplanation": "烟熏猪里脊冷切。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 14.95,
       "prePrice": null,
       "currency": "DKK",
@@ -24697,7 +24924,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|sausages",
+      "descriptionKey": "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -26038,9 +26265,9 @@
       "storeId": "lidl",
       "originalName": "Hakket kalkunkød",
       "originalDescription": "500 g / pk. Pr. kg 55,90",
-      "zhExplanation": "火鸡肉末。火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。",
+      "zhExplanation": "火鸡肉末，可做肉丸、汉堡肉饼、饺子馅或肉酱；只与火鸡肉末同类比较。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_minced",
       "price": 27.95,
       "prePrice": null,
       "currency": "DKK",
@@ -26071,7 +26298,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|hakket kalkunkod|turkey_other",
+      "descriptionKey": "v1|hakket kalkunkod|turkey_minced",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -26397,7 +26624,7 @@
       "originalDescription": "225 g / pk. Pr. kg 195,33",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 43.95,
       "prePrice": null,
       "currency": "DKK",
@@ -26428,7 +26655,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|havblaa laksefileter|salmon",
+      "descriptionKey": "v1|havblaa laksefileter|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -26497,9 +26724,9 @@
       "storeId": "lidl",
       "originalName": "Cordon bleu af kalkun",
       "originalDescription": "300 g / pk. Pr. kg 83,17",
-      "zhExplanation": "火鸡蓝带肉排。火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。",
+      "zhExplanation": "火鸡蓝带肉排。火鸡肉饼、蓝带肉排等加工火鸡制品，调味和裹粉状态不同，不与生鲜火鸡部位混比。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_processed",
       "price": 24.95,
       "prePrice": null,
       "currency": "DKK",
@@ -26530,7 +26757,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|cordon bleu af kalkun|turkey_other",
+      "descriptionKey": "v1|cordon bleu af kalkun|turkey_processed",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -26548,7 +26775,7 @@
       "storeId": "lidl",
       "originalName": "BUTCHER'S Oksesteak med peberkant",
       "originalDescription": "Pr. 250 g. Pr. kg 159,80",
-      "zhExplanation": "牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "牛排。未明确为同一部位的其他牛排，只作价格参考，不计算全局最低价。",
       "categoryId": "beef",
       "comparisonGroup": "beef_steak",
       "price": 39.95,
@@ -27057,9 +27284,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Entrecote",
       "originalDescription": "4 x 175 g/pk. Pr. kg 182,79",
-      "zhExplanation": "西冷肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "西冷肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 127.95,
       "prePrice": null,
       "currency": "DKK",
@@ -27090,7 +27317,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket entrecote|beef_steak",
+      "descriptionKey": "v1|madvaerket entrecote|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -27159,9 +27386,9 @@
       "storeId": "lidl",
       "originalName": "MADVÆRKET Ribeyesteaks",
       "originalDescription": "Af ungkvæg. 2 x 180 g / pk. Pr. kg 222,08.",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 79.95,
       "prePrice": null,
       "currency": "DKK",
@@ -27192,7 +27419,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|madvaerket ribeyesteaks|beef_steak",
+      "descriptionKey": "v1|madvaerket ribeyesteaks|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -27820,9 +28047,9 @@
       "storeId": "lidl",
       "originalName": "SOL&MAR Blæksprutteringe eller chorizo-kroketter",
       "originalDescription": "500 g. Pr. kg 50,00 Spot¹",
-      "zhExplanation": "西班牙辣味香肠。其他海鲜；请按原名确认是贝类、鱿鱼还是加工海鲜，再决定煎炒或煮汤。",
+      "zhExplanation": "西班牙辣味香肠。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "seafood_other",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 25,
       "prePrice": null,
       "currency": "DKK",
@@ -27853,7 +28080,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_other",
+      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -29394,9 +29621,9 @@
       "storeId": "lidl",
       "originalName": "Kalkunstrimler af brystfilet",
       "originalDescription": "400 g / pk. Pr. kg 74,88",
-      "zhExplanation": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "火鸡胸肉薄片或肉条，适合快速煎炒、做咖喱或卷饼；商品主体是火鸡胸，不是鸡胸或火鸡腿。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_breast",
       "price": 29.95,
       "prePrice": null,
       "currency": "DKK",
@@ -29427,13 +29654,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalkunstrimler af brystfilet|turkey_other",
+      "descriptionKey": "v1|kalkunstrimler af brystfilet|turkey_breast",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "鸡胸肉",
+      "taxonomyLabelZh": "火鸡胸肉条",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "鸡胸肉",
+      "productNameZh": "火鸡胸肉条",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -30410,9 +30637,9 @@
       "storeId": "lidl",
       "originalName": "Kalkununderlår",
       "originalDescription": "900 g / pk.",
-      "zhExplanation": "火鸡小腿。火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。",
+      "zhExplanation": "火鸡小腿，通常带骨且个头比鸡小腿大，适合慢烤、炖煮或红烧；不与火鸡胸肉比较最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_thigh",
       "price": 44.95,
       "prePrice": null,
       "currency": "DKK",
@@ -30443,7 +30670,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalkununderlaar|turkey_other",
+      "descriptionKey": "v1|kalkununderlaar|turkey_thigh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -30971,9 +31198,9 @@
       "storeId": "lidl",
       "originalName": "SAGRA/BUTCHERS Butterfly- eller yellow poussin",
       "originalDescription": "Marineret eller frilands. 400-500 g. Pr. kg maks. 87,50 Spot¹",
-      "zhExplanation": "童子鸡。火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。",
+      "zhExplanation": "童子鸡。童子鸡或其他禽肉，与普通鸡肉和火鸡分开显示；具体部位与做法按原名确认。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "other_poultry",
       "price": 35,
       "prePrice": null,
       "currency": "DKK",
@@ -31004,7 +31231,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|sagra butchers butterfly eller yellow poussin|turkey_other",
+      "descriptionKey": "v1|sagra butchers butterfly eller yellow poussin|other_poultry",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -31073,9 +31300,9 @@
       "storeId": "lidl",
       "originalName": "Kalkunschnitzler af brystfilet",
       "originalDescription": "500 g. Pr. kg 95,90. Fast lav pris",
-      "zhExplanation": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+      "zhExplanation": "火鸡胸肉薄片或肉条，适合快速煎炒、做咖喱或卷饼；商品主体是火鸡胸，不是鸡胸或火鸡腿。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_breast",
       "price": 47.95,
       "prePrice": null,
       "currency": "DKK",
@@ -31106,13 +31333,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalkunschnitzler af brystfilet|turkey_other",
+      "descriptionKey": "v1|kalkunschnitzler af brystfilet|turkey_breast",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "鸡胸肉",
+      "taxonomyLabelZh": "火鸡胸薄片",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "鸡胸肉",
+      "productNameZh": "火鸡胸薄片",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -31175,9 +31402,9 @@
       "storeId": "lidl",
       "originalName": "GRILLMESTER Kalkunhakkebøffer",
       "originalDescription": "480 g / pk. Pr. kg 68,65",
-      "zhExplanation": "火鸡或其他禽肉。火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。",
+      "zhExplanation": "火鸡肉饼。火鸡肉饼、蓝带肉排等加工火鸡制品，调味和裹粉状态不同，不与生鲜火鸡部位混比。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "turkey_processed",
       "price": 32.95,
       "prePrice": null,
       "currency": "DKK",
@@ -31208,13 +31435,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|grillmester kalkunhakkeboffer|turkey_other",
+      "descriptionKey": "v1|grillmester kalkunhakkeboffer|turkey_processed",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "火鸡或其他禽肉",
+      "taxonomyLabelZh": "火鸡肉饼",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "火鸡或其他禽肉",
+      "productNameZh": "火鸡肉饼",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -32649,9 +32876,9 @@
       "storeId": "lidl",
       "originalName": "SILVERCREST Pålægsbokse",
       "originalDescription": "25 x 17 x 3,2 cm (L x B x H). 4-pak. Tåler maskinopvask. Spot²",
-      "zhExplanation": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
-      "categoryId": "pork",
-      "comparisonGroup": "bacon_deli",
+      "zhExplanation": "商品（请核对原名）。厨房工具，不是食品；购买时看材质、数量、用途和保养说明。",
+      "categoryId": "household",
+      "comparisonGroup": "kitchen_tools",
       "price": 30,
       "prePrice": null,
       "currency": "DKK",
@@ -32682,13 +32909,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|silvercrest paalaegsbokse|bacon_deli",
+      "descriptionKey": "v1|silvercrest paalaegsbokse|kitchen_tools",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "肉类冷切",
+      "taxonomyLabelZh": "商品（请核对原名）",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "肉类冷切",
+      "productNameZh": "商品（请核对原名）",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -32700,9 +32927,9 @@
       "storeId": "lidl",
       "originalName": "DANISH CROWN Ribsteaks",
       "originalDescription": "400 g. Pr. kg 87,50",
-      "zhExplanation": "牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 35,
       "prePrice": null,
       "currency": "DKK",
@@ -32733,13 +32960,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|danish crown ribsteaks|beef_steak",
+      "descriptionKey": "v1|danish crown ribsteaks|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "牛排",
+      "taxonomyLabelZh": "肋眼牛排",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "牛排",
+      "productNameZh": "肋眼牛排",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -33465,9 +33692,9 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg",
       "originalDescription": "Mørbrad fyldt med hvidløgsost, soltørrede tomater og svampe\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 44.95 pr. ½ kg\nPR. ½ KG\n59.90 pr. kg",
-      "zhExplanation": "猪里脊。丹麦式大块带皮猪肉，常烤至表皮酥脆；类似中国脆皮烧肉使用的猪肉块，也可切块红烧。原名还显示：蒜香。",
+      "zhExplanation": "猪里脊。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：蒜香。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_tenderloin",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 29.95,
       "prePrice": null,
       "currency": "DKK",
@@ -33498,7 +33725,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_tenderloin",
+      "descriptionKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -33567,9 +33794,9 @@
       "storeId": "rema",
       "originalName": "Steff Houlberg Brunchpølser eller bacon i skiver",
       "originalDescription": "300-350 g Partivare. Max. 66.67 pr. kg",
-      "zhExplanation": "培根片。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "培根片。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -33600,7 +33827,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|steff houlberg brunchpolser eller bacon i skiver|sausages",
+      "descriptionKey": "v1|steff houlberg brunchpolser eller bacon i skiver|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -34283,7 +34510,7 @@
       "originalDescription": "2 stk./225 g\nPartivare. 177.78 pr. kg",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 40,
       "prePrice": null,
       "currency": "DKK",
@@ -34314,7 +34541,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 danske laksefileter|salmon",
+      "descriptionKey": "v1|rema 1000 danske laksefileter|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -34535,9 +34762,9 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Vannameirejer, tunsteaks eller butterflyrejer",
       "originalDescription": "Dybfrost 150-225 g\nMax. 166.67 pr. kg",
-      "zhExplanation": "南美白虾。虾仁或小虾，可炒饭、炒面、煮汤或涮火锅；若标有 kogte 表示已熟，只需短暂加热。",
+      "zhExplanation": "南美白虾。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "seafood_other",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 25,
       "prePrice": null,
       "currency": "DKK",
@@ -34568,7 +34795,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_other",
+      "descriptionKey": "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -34586,9 +34813,9 @@
       "storeId": "rema",
       "originalName": "REMA 1000 SUPREME Striploin, ribeye eller rumpsteak",
       "originalDescription": "180 g\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 79.00 pr. stk.\n272.22 pr. kg",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 49,
       "prePrice": null,
       "currency": "DKK",
@@ -34619,7 +34846,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_steak",
+      "descriptionKey": "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -35095,11 +35322,11 @@
       "storeId": "rema",
       "originalName": "REMA 1000 wings, nuggets eller Kitchen Joy spyd",
       "originalDescription": "Dybfrost 240-750 g\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 39.95 pr. stk.\nMax. 104.17 pr. kg",
-      "descriptionKey": "v1|rema 1000 wings nuggets eller kitchen joy spyd|chicken_wings",
-      "zhExplanation": "调味鸡翅。鸡翅，适合烤箱、空气炸锅或烧烤；原味、辣味和裹粉款的调味与加热时间不同。",
+      "descriptionKey": "v1|rema 1000 wings nuggets eller kitchen joy spyd|chicken_mixed_offer",
+      "zhExplanation": "调味鸡翅。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。",
       "descriptionSource": "codex_cache",
       "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
+      "comparisonGroup": "chicken_mixed_offer",
       "price": 25,
       "prePrice": null,
       "currency": "DKK",
@@ -35400,9 +35627,9 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Havtaskefileter eller laksefilet",
       "originalDescription": "200-400 g\nPartivare. Max. 345.00 pr. kg",
-      "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
+      "zhExplanation": "三文鱼柳。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 69,
       "prePrice": null,
       "currency": "DKK",
@@ -35433,7 +35660,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 havtaskefileter eller laksefilet|salmon",
+      "descriptionKey": "v1|rema 1000 havtaskefileter eller laksefilet|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -35859,9 +36086,9 @@
       "storeId": "rema",
       "originalName": "Den Grønne Slagter Pålæg, postej eller kalkunbacon",
       "originalDescription": "70-250 g Max. 142.86 pr. kg",
-      "zhExplanation": "丹麦肝酱。火鸡或其他禽肉，味道通常比鸡肉略浓，可煎烤、炖煮或切片炒；按原名确认部位和是否带骨。",
+      "zhExplanation": "冷切、肝酱或火鸡培根任选。这是冷切肉、肝酱或火鸡培根等禽肉熟食任选；形态和配料不同，不计算全局最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "turkey_other",
+      "comparisonGroup": "poultry_deli_mixed",
       "price": 10,
       "prePrice": null,
       "currency": "DKK",
@@ -35892,13 +36119,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|den gronne slagter paalaeg postej eller kalkunbacon|turkey_other",
+      "descriptionKey": "v1|den gronne slagter paalaeg postej eller kalkunbacon|poultry_deli_mixed",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "丹麦肝酱",
+      "taxonomyLabelZh": "冷切、肝酱或火鸡培根任选",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "丹麦肝酱",
+      "productNameZh": "冷切、肝酱或火鸡培根任选",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -36930,9 +37157,9 @@
       "storeId": "rema",
       "originalName": "REMA 1000 SUPREME Striploin eller ribeye roast",
       "originalDescription": "Velegnet til helstegning eller til udskæring i store møre bøffer\n900-1200 g\nPr. stk.\nPartivare. Max. 332.22 pr. kg",
-      "zhExplanation": "肋眼牛排。整块烤牛肉部位，适合慢烤、炖煮或切片；嫩度和时间取决于牛肩、臀肉或其他具体部位。",
+      "zhExplanation": "肋眼牛排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_roast",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 299,
       "prePrice": null,
       "currency": "DKK",
@@ -36963,7 +37190,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_roast",
+      "descriptionKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -37032,9 +37259,9 @@
       "storeId": "rema",
       "originalName": "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ",
       "originalDescription": "PR. ½ KG Partivare 139.90 pr. kg",
-      "zhExplanation": "牛腹肉排。整块烤牛肉部位，适合慢烤、炖煮或切片；嫩度和时间取决于牛肩、臀肉或其他具体部位。原名还显示：蒜香、烧烤味。",
+      "zhExplanation": "牛腹肉排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。原名还显示：蒜香、烧烤味。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_roast",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 69.95,
       "prePrice": null,
       "currency": "DKK",
@@ -37065,7 +37292,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_roast",
+      "descriptionKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -37748,7 +37975,7 @@
       "originalDescription": "600 g\nPartivare. 165.00 pr. kg",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 99,
       "prePrice": null,
       "currency": "DKK",
@@ -37779,7 +38006,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 dansk laksefilet|salmon",
+      "descriptionKey": "v1|rema 1000 dansk laksefilet|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -39124,9 +39351,9 @@
       "storeId": "rema",
       "originalName": "Grillpølser i baconsvøb, kyllingepølser eller bratwurst",
       "originalDescription": "260-350 g\nMax. 76.92 pr. kg",
-      "zhExplanation": "鸡肉香肠。鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。",
+      "zhExplanation": "鸡肉香肠。鸡肉香肠，通常已调味，可煎、烤或夹面包；不与生鲜鸡胸、鸡腿或猪肉香肠混比。",
       "categoryId": "chicken",
-      "comparisonGroup": "chicken_other",
+      "comparisonGroup": "chicken_sausages",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -39157,7 +39384,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|chicken_other",
+      "descriptionKey": "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|chicken_sausages",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -39277,9 +39504,9 @@
       "storeId": "rema",
       "originalName": "BACON & CHEDDAR GRILLER",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG",
-      "zhExplanation": "培根。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 29,
       "prePrice": null,
       "currency": "DKK",
@@ -39310,7 +39537,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|bacon cheddar griller|sausages",
+      "descriptionKey": "v1|bacon cheddar griller|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -39636,7 +39863,7 @@
       "originalDescription": "100 g 290.00 pr. kg",
       "zhExplanation": "烟熏或腌渍三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_smoked",
       "price": 29,
       "prePrice": null,
       "currency": "DKK",
@@ -39667,7 +39894,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 roget eller gravad laks|salmon",
+      "descriptionKey": "v1|rema 1000 roget eller gravad laks|salmon_smoked",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -39787,9 +40014,9 @@
       "storeId": "rema",
       "originalName": "REMA 1000 Danske kalvesteaks eller højrebsbøffer",
       "originalDescription": "300-400 g\nMax. 230.00 pr. kg",
-      "zhExplanation": "小牛肉或小牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "小牛肉或小牛排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 69,
       "prePrice": null,
       "currency": "DKK",
@@ -39820,7 +40047,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rema 1000 danske kalvesteaks eller hojrebsboffer|beef_steak",
+      "descriptionKey": "v1|rema 1000 danske kalvesteaks eller hojrebsboffer|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -41470,9 +41697,9 @@
       "storeId": "rema",
       "originalName": "HERRE GRILLER MED BACON",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG",
-      "zhExplanation": "培根。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "bacon_deli",
       "price": 29,
       "prePrice": null,
       "currency": "DKK",
@@ -41503,7 +41730,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|herre griller med bacon|sausages",
+      "descriptionKey": "v1|herre griller med bacon|bacon_deli",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -42184,9 +42411,9 @@
       "storeId": "foetex",
       "originalName": "Entrecotes eller rib eyes",
       "originalDescription": "900-950 g. Pr. kg max. 165,56",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 149,
       "prePrice": null,
       "currency": "DKK",
@@ -42217,7 +42444,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|entrecotes eller rib eyes|beef_steak",
+      "descriptionKey": "v1|entrecotes eller rib eyes|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -42235,9 +42462,9 @@
       "storeId": "foetex",
       "originalName": "MesterHakket grise eller oksekød",
       "originalDescription": "MesterHakket er hakket, pakket og lagt i køledisken samme dag. Det kød, vi bruger, kommer fra danske dyr opdrættet hos de bedste danske landmænd. Derfor er det en klar favorit. Gris: 500-550 g. 9-15% fedt. Pr. kg op til 58,00 Okse: 400-450 g. 9-15% fedt. Pr. kg op 122,50 Pr. pk. 49,- Pr. pk. 29,-",
-      "zhExplanation": "猪肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
-      "categoryId": "pork",
-      "comparisonGroup": "pork_minced",
+      "zhExplanation": "猪肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
+      "categoryId": "beef",
+      "comparisonGroup": "mixed_minced",
       "price": 29,
       "prePrice": null,
       "currency": "DKK",
@@ -42268,7 +42495,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|mesterhakket grise eller oksekod|pork_minced",
+      "descriptionKey": "v1|mesterhakket grise eller oksekod|mixed_minced",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -42286,9 +42513,9 @@
       "storeId": "foetex",
       "originalName": "Nakkefilet eller mørbrad af dansk gris",
       "originalDescription": "1,65-2,2 kg. Pr. kg max. 66,06",
-      "zhExplanation": "烤猪肉块。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
+      "zhExplanation": "多款猪肉任选。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_roast",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 109,
       "prePrice": null,
       "currency": "DKK",
@@ -42319,13 +42546,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|nakkefilet eller morbrad af dansk gris|pork_roast",
+      "descriptionKey": "v1|nakkefilet eller morbrad af dansk gris|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "烤猪肉块",
+      "taxonomyLabelZh": "多款猪肉任选",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "烤猪肉块",
+      "productNameZh": "多款猪肉任选",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -42337,9 +42564,9 @@
       "storeId": "foetex",
       "originalName": "Roastbeef eller mignon af okse",
       "originalDescription": "600-900 g. Pr. kg max. 215,- Altid mørt LUDVIG",
-      "zhExplanation": "烤牛肉。整块烤牛肉部位，适合慢烤、炖煮或切片；嫩度和时间取决于牛肩、臀肉或其他具体部位。",
+      "zhExplanation": "烤牛肉。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_roast",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 129,
       "prePrice": null,
       "currency": "DKK",
@@ -42370,7 +42597,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|roastbeef eller mignon af okse|beef_roast",
+      "descriptionKey": "v1|roastbeef eller mignon af okse|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -42592,9 +42819,9 @@
       "storeId": "foetex",
       "originalName": "Kyllingelår, -spyd eller udbenede kyllingeoverlår",
       "originalDescription": "300-800 g. Pr. kg max. 100,-",
-      "zhExplanation": "鸡大腿肉。鸡腿部位，肉嫩多汁，适合红烧、炖煮、烤或空气炸；类似中国常见鸡腿肉。",
+      "zhExplanation": "鸡大腿肉。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。",
       "categoryId": "chicken",
-      "comparisonGroup": "chicken_thigh",
+      "comparisonGroup": "chicken_mixed_offer",
       "price": 30,
       "prePrice": null,
       "currency": "DKK",
@@ -42625,7 +42852,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|kyllingelaar spyd eller udbenede kyllingeoverlaar|chicken_thigh",
+      "descriptionKey": "v1|kyllingelaar spyd eller udbenede kyllingeoverlaar|chicken_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -42694,9 +42921,9 @@
       "storeId": "foetex",
       "originalName": "Gøl pølser eller Tulip bacon",
       "originalDescription": "300-500 g. Flere varianter. Pr. kg max. 100,- 30,-",
-      "zhExplanation": "培根。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "zhExplanation": "培根。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 30,
       "prePrice": null,
       "currency": "DKK",
@@ -42727,7 +42954,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|gol polser eller tulip bacon|sausages",
+      "descriptionKey": "v1|gol polser eller tulip bacon|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -42745,9 +42972,9 @@
       "storeId": "foetex",
       "originalName": "Spareribs, pulled chicken eller pork",
       "originalDescription": "300-400 g. Pr. kg max. 106,67 32,-",
-      "zhExplanation": "猪肋排。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "zhExplanation": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 32,
       "prePrice": null,
       "currency": "DKK",
@@ -42778,7 +43005,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|spareribs pulled chicken eller pork|pork_ribs",
+      "descriptionKey": "v1|spareribs pulled chicken eller pork|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -43102,9 +43329,9 @@
       "storeId": "foetex",
       "originalName": "Seafoodmix, vannamei, tunsteak eller -poke",
       "originalDescription": "150-300 g. Flere varianter. Pr. kg max. 193,33. Pr. kg max. 166,67. Gælder kun med føtex plus appen",
-      "zhExplanation": "金枪鱼排。其他海鲜；请按原名确认是贝类、鱿鱼还是加工海鲜，再决定煎炒或煮汤。",
+      "zhExplanation": "金枪鱼排。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "seafood_other",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 29,
       "prePrice": null,
       "currency": "DKK",
@@ -43135,7 +43362,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|seafoodmix vannamei tunsteak eller poke|seafood_other",
+      "descriptionKey": "v1|seafoodmix vannamei tunsteak eller poke|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -43204,9 +43431,9 @@
       "storeId": "foetex",
       "originalName": "Marinerede flanksteak",
       "originalDescription": "400-600 g. Chimichurri eller med rød hvidløg. Pr. kg max. 247,50 plus pris 89,- Pr. kg max. 222,50 Gælder kun med føtex plus appen",
-      "zhExplanation": "牛腹肉排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。原名还显示：蒜香。",
+      "zhExplanation": "牛腹肉排。Flank/flat steak 腹肉薄切牛排，肉味浓、纤维明显，适合快煎后逆纹切片。原名还显示：蒜香。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_flat_steak",
       "price": 99,
       "prePrice": null,
       "currency": "DKK",
@@ -43237,7 +43464,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|marinerede flanksteak|beef_steak",
+      "descriptionKey": "v1|marinerede flanksteak|beef_flat_steak",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -43663,9 +43890,9 @@
       "storeId": "foetex",
       "originalName": "Tunsteak, rejer eller Gambas pil pil",
       "originalDescription": "150-700 g. Flere varianter. Pr. kg max. 393,33",
-      "zhExplanation": "大虾。虾仁或小虾，可炒饭、炒面、煮汤或涮火锅；若标有 kogte 表示已熟，只需短暂加热。",
+      "zhExplanation": "大虾。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "seafood_other",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 59,
       "prePrice": null,
       "currency": "DKK",
@@ -43696,7 +43923,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|tunsteak rejer eller gambas pil pil|seafood_other",
+      "descriptionKey": "v1|tunsteak rejer eller gambas pil pil|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -43969,9 +44196,9 @@
       "storeId": "foetex",
       "originalName": "Salling tun, Mutti tomater eller pizzasauce",
       "originalDescription": "140 g Salling tun i vand eller olie, 210 g Mutti pizzasauce eller 400 g Mutti tomater. Flere varianter. Pr. kg max. 85,71",
-      "zhExplanation": "金枪鱼罐头或鱼排。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
-      "categoryId": "seafood",
-      "comparisonGroup": "white_fish",
+      "zhExplanation": "金枪鱼罐头或鱼排。这是跨鱼罐头、蔬菜罐头或酱料等类别的任选促销；商品主体不同，不计算全局最低价。",
+      "categoryId": "pantry",
+      "comparisonGroup": "mixed_grocery_offer",
       "price": 12,
       "prePrice": null,
       "currency": "DKK",
@@ -44002,7 +44229,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|salling tun mutti tomater eller pizzasauce|white_fish",
+      "descriptionKey": "v1|salling tun mutti tomater eller pizzasauce|mixed_grocery_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -44328,7 +44555,7 @@
       "originalDescription": "1,3-1,6 kg. Pr. kg max. 91,54",
       "zhExplanation": "带皮猪肋烤肉。丹麦式大块带皮猪肉，常烤至表皮酥脆；类似中国脆皮烧肉使用的猪肉块，也可切块红烧。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_roast",
       "price": 119,
       "prePrice": null,
       "currency": "DKK",
@@ -44359,7 +44586,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|ribbensteg|pork_ribs",
+      "descriptionKey": "v1|ribbensteg|pork_roast",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -44632,9 +44859,9 @@
       "storeId": "foetex",
       "originalName": "Skagenfood varmrøget laks eller fiskesalat",
       "originalDescription": "Smagfulde favoritter – klar til servering 125-175 g. Flere varianter. Pr. kg max. 279,60",
-      "zhExplanation": "热熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "zhExplanation": "热熏三文鱼。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 34.95,
       "prePrice": null,
       "currency": "DKK",
@@ -44665,7 +44892,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|skagenfood varmroget laks eller fiskesalat|salmon",
+      "descriptionKey": "v1|skagenfood varmroget laks eller fiskesalat|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -44785,9 +45012,9 @@
       "storeId": "foetex",
       "originalName": "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris",
       "originalDescription": "800-2800 g. Pr. kg max. 123,75",
-      "zhExplanation": "丹麦脆皮烤猪肉块。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "zhExplanation": "丹麦脆皮烤猪肉块。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "bacon_deli",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 99,
       "prePrice": null,
       "currency": "DKK",
@@ -44818,7 +45045,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|bacon_deli",
+      "descriptionKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -45144,7 +45371,7 @@
       "originalDescription": "400 g. Barbeque eller citronpeber. Pr. kg 187,50",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 75,
       "prePrice": null,
       "currency": "DKK",
@@ -45175,7 +45402,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|fiskedisken laksefilet|salmon",
+      "descriptionKey": "v1|fiskedisken laksefilet|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -45909,7 +46136,7 @@
       "originalDescription": "Smagfulde favoritter – klar til servering 130 g. Filet Royal eller long sliced. Pr. kg 384,23",
       "zhExplanation": "冷熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_smoked",
       "price": 49.95,
       "prePrice": null,
       "currency": "DKK",
@@ -45940,7 +46167,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|skagenfood koldroget laks|salmon",
+      "descriptionKey": "v1|skagenfood koldroget laks|salmon_smoked",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -46062,7 +46289,7 @@
       "originalDescription": "600 g. Pr. kg 165,-",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 99,
       "prePrice": null,
       "currency": "DKK",
@@ -46093,7 +46320,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|laksestykke|salmon",
+      "descriptionKey": "v1|laksestykke|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -46111,9 +46338,9 @@
       "storeId": "foetex",
       "originalName": "Sagyu T-bone eller Cote de Boeuf",
       "originalDescription": "450-500 g. Pr. kg max. 375,56",
-      "zhExplanation": "牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "带骨牛排。T-bone 或 Côte de Boeuf 等带骨牛排，适合煎烤；比较时需留意骨头重量。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_bone_steak",
       "price": 169,
       "prePrice": null,
       "currency": "DKK",
@@ -46144,13 +46371,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|sagyu t bone eller cote de boeuf|beef_steak",
+      "descriptionKey": "v1|sagyu t bone eller cote de boeuf|beef_bone_steak",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "牛排",
+      "taxonomyLabelZh": "带骨牛排",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "牛排",
+      "productNameZh": "带骨牛排",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -46417,9 +46644,9 @@
       "storeId": "foetex",
       "originalName": "Stryhns postej eller røget medister",
       "originalDescription": "275-400 g. Flere varianter. Pr. kg max. 80,-",
-      "zhExplanation": "丹麦肝酱。丹麦肉肠，通常咸香且多为猪肉；可煎、烤或夹面包，类似中国烤肠，但一般不如台式香肠甜。原名还显示：烟熏味。",
+      "zhExplanation": "丹麦肝酱。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：烟熏味。",
       "categoryId": "pork",
-      "comparisonGroup": "sausages",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 22,
       "prePrice": null,
       "currency": "DKK",
@@ -46450,7 +46677,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|stryhns postej eller roget medister|sausages",
+      "descriptionKey": "v1|stryhns postej eller roget medister|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -46723,7 +46950,7 @@
       "storeId": "foetex",
       "originalName": "Brystfilet med skind eller udbenet lår med skind af fransk majskylling",
       "originalDescription": "340-500 g. Pr. kg max. 161,76 Smagfuldt kyllingebryst med majskyllingens karakteristiske gule skind. Lårf i let af fransk majskyll in g som er perfekt til grill, airfryer eller stegning på panden i smør med hvidløgsfed og timiankviste. Vi har bibeholdt det smagfulde og delikate skind på lårfileten.",
-      "zhExplanation": "鸡胸肉。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。原名还显示：蒜香。",
+      "zhExplanation": "法国玉米饲养鸡。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。原名还显示：蒜香。",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_mixed_offer",
       "price": 55,
@@ -46760,9 +46987,9 @@
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "鸡胸肉",
+      "taxonomyLabelZh": "法国玉米饲养鸡",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "鸡胸肉",
+      "productNameZh": "法国玉米饲养鸡",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -48304,9 +48531,9 @@
       "storeId": "foetex",
       "originalName": "Dansk kalvemarked",
       "originalDescription": "300-450 g. 2 stk. Flere varianter. Pr. kg max. 263,33",
-      "zhExplanation": "小牛肉或小牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "小牛肉或小牛排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 79,
       "prePrice": null,
       "currency": "DKK",
@@ -48337,7 +48564,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|dansk kalvemarked|beef_steak",
+      "descriptionKey": "v1|dansk kalvemarked|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -48508,9 +48735,9 @@
       "storeId": "foetex",
       "originalName": "Dansk kylling snack pølser",
       "originalDescription": "340 g. Pr. kg 58,82",
-      "zhExplanation": "鸡肉零食香肠。鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。",
+      "zhExplanation": "鸡肉零食香肠。鸡肉香肠，通常已调味，可煎、烤或夹面包；不与生鲜鸡胸、鸡腿或猪肉香肠混比。",
       "categoryId": "chicken",
-      "comparisonGroup": "chicken_other",
+      "comparisonGroup": "chicken_sausages",
       "price": 20,
       "prePrice": null,
       "currency": "DKK",
@@ -48541,7 +48768,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|dansk kylling snack polser|chicken_other",
+      "descriptionKey": "v1|dansk kylling snack polser|chicken_sausages",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -48763,9 +48990,9 @@
       "storeId": "foetex",
       "originalName": "Grønlandske rejer, kold- eller varmrøget laks",
       "originalDescription": "salling Princip\n175-280 g. Flere varianter. Pr. kg max. 314,29",
-      "zhExplanation": "热熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "zhExplanation": "热熏三文鱼。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 55,
       "prePrice": null,
       "currency": "DKK",
@@ -48796,7 +49023,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|gronlandske rejer kold eller varmroget laks|salmon",
+      "descriptionKey": "v1|gronlandske rejer kold eller varmroget laks|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -50395,9 +50622,9 @@
       "storeId": "bilka",
       "originalName": "Mørbrad eller nakkefilet af gris",
       "originalDescription": "1,65-2,2 kg. Pr. kg max. 66.06\nFrit valg",
-      "zhExplanation": "烤猪肉块。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
+      "zhExplanation": "多款猪肉任选。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_roast",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 109,
       "prePrice": null,
       "currency": "DKK",
@@ -50428,13 +50655,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|morbrad eller nakkefilet af gris|pork_roast",
+      "descriptionKey": "v1|morbrad eller nakkefilet af gris|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "烤猪肉块",
+      "taxonomyLabelZh": "多款猪肉任选",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "烤猪肉块",
+      "productNameZh": "多款猪肉任选",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -50548,9 +50775,9 @@
       "storeId": "bilka",
       "originalName": "Salling ØKO økologiske røget laks, ørred, vannameirejer, Salling grønlandske rejer, ørred, krebsehaler, kold- eller varmrøget laks",
       "originalDescription": "100-200 g. Flere varianter. Pr. kg max. 390.- Frit valg 39.-",
-      "zhExplanation": "热熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "zhExplanation": "热熏三文鱼。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。原名还显示：烟熏味。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 39,
       "prePrice": null,
       "currency": "DKK",
@@ -50581,7 +50808,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|salling oko okologiske roget laks orred vannameirejer salling gronlandske rejer orred krebsehaler kold eller varmroget laks|salmon",
+      "descriptionKey": "v1|salling oko okologiske roget laks orred vannameirejer salling gronlandske rejer orred krebsehaler kold eller varmroget laks|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -51007,9 +51234,9 @@
       "storeId": "bilka",
       "originalName": "Striploin af okse",
       "originalDescription": "1,6-2,2 kg. Pr. kg max. 168.13 Pr. stk. 269.-",
-      "zhExplanation": "纽约客/外脊牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "纽约客/外脊牛排。Striploin 外脊/西冷牛排，适合煎烤后逆纹切片；不与肋眼或牛臀排混比。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_striploin",
       "price": 269,
       "prePrice": null,
       "currency": "DKK",
@@ -51040,7 +51267,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|striploin af okse|beef_steak",
+      "descriptionKey": "v1|striploin af okse|beef_striploin",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -51109,9 +51336,9 @@
       "storeId": "bilka",
       "originalName": "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris",
       "originalDescription": "1,4-1,8 kg. Pr. kg max. 63.57 FRIT VALG 89.-",
-      "zhExplanation": "意式香草烤猪肉卷。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。原名还显示：烟熏味。",
+      "zhExplanation": "意式香草烤猪肉卷。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：烟熏味。",
       "categoryId": "pork",
-      "comparisonGroup": "bacon_deli",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 89,
       "prePrice": null,
       "currency": "DKK",
@@ -51142,7 +51369,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|bacon_deli",
+      "descriptionKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -51313,9 +51540,9 @@
       "storeId": "bilka",
       "originalName": "Tulip pulled eller spareribs",
       "originalDescription": "a 450-500 g. Flere varianter. Pr. kg max. v/merkøb 98.89 2 pakker Pr. pk. op til 52,95",
-      "zhExplanation": "猪肋排。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "zhExplanation": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 89,
       "prePrice": null,
       "currency": "DKK",
@@ -51346,7 +51573,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|tulip pulled eller spareribs|pork_ribs",
+      "descriptionKey": "v1|tulip pulled eller spareribs|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -52384,9 +52611,9 @@
       "storeId": "bilka",
       "originalName": "Entrecotes eller rib eyes",
       "originalDescription": "600-650 g. Pr. kg max. 181.67 FRIT VALG 600-650 G",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 109,
       "prePrice": null,
       "currency": "DKK",
@@ -52417,7 +52644,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|entrecotes eller rib eyes|beef_steak",
+      "descriptionKey": "v1|entrecotes eller rib eyes|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -53149,9 +53376,9 @@
       "storeId": "bilka",
       "originalName": "Ribeyes eller entrecotes af dansk kalv",
       "originalDescription": "600-625 g. 4 stk. Pr. kg max. 248.33 Altid dansk Frit valg 149.-",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 149,
       "prePrice": null,
       "currency": "DKK",
@@ -53182,7 +53409,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|ribeyes eller entrecotes af dansk kalv|beef_steak",
+      "descriptionKey": "v1|ribeyes eller entrecotes af dansk kalv|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -53610,7 +53837,7 @@
       "originalDescription": "600 g. Pr. kg 181.67 Pr. stk.",
       "zhExplanation": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "salmon_fresh",
       "price": 109,
       "prePrice": null,
       "currency": "DKK",
@@ -53641,7 +53868,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|laksestykke|salmon",
+      "descriptionKey": "v1|laksestykke|salmon_fresh",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -54883,9 +55110,9 @@
       "storeId": "bilka",
       "originalName": "Mignon af oksetyksteg",
       "originalDescription": "600-900 g. Pr. kg max. 215.- PR. STK.",
-      "zhExplanation": "牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "牛臀排。牛臀排，肉质较瘦，适合煎烤或切片；不与肋眼牛排混比。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_rump_steak",
       "price": 129,
       "prePrice": null,
       "currency": "DKK",
@@ -54916,13 +55143,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|mignon af oksetyksteg|beef_steak",
+      "descriptionKey": "v1|mignon af oksetyksteg|beef_rump_steak",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "牛排",
+      "taxonomyLabelZh": "牛臀排",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "牛排",
+      "productNameZh": "牛臀排",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -55240,9 +55467,9 @@
       "storeId": "bilka",
       "originalName": "Chimichurri marineret flatsteak af kalv",
       "originalDescription": "300-500 g. Pr. kg max. 263.33 PR. STK. 79.-",
-      "zhExplanation": "牛腹肉排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "牛腹肉排。Flank/flat steak 腹肉薄切牛排，肉味浓、纤维明显，适合快煎后逆纹切片。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_flat_steak",
       "price": 79,
       "prePrice": null,
       "currency": "DKK",
@@ -55273,7 +55500,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|chimichurri marineret flatsteak af kalv|beef_steak",
+      "descriptionKey": "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -59259,9 +59486,9 @@
       "storeId": "kvickly",
       "originalName": "Tulip pulled pork eller spareribs",
       "originalDescription": "500 g. Kg-pris 90,00. Frit valg. 1 pakke.",
-      "zhExplanation": "手撕猪肉。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "zhExplanation": "手撕猪肉。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "categoryId": "pork",
-      "comparisonGroup": "pork_ribs",
+      "comparisonGroup": "pork_mixed_offer",
       "price": 45,
       "prePrice": null,
       "currency": "DKK",
@@ -59292,7 +59519,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|tulip pulled pork eller spareribs|pork_ribs",
+      "descriptionKey": "v1|tulip pulled pork eller spareribs|pork_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -59310,9 +59537,9 @@
       "storeId": "kvickly",
       "originalName": "Rossini laks eller Diskobay kutterrejer",
       "originalDescription": "Flere varianter. 90-230 g. Kg-pris maks. 544,44. Frit valg. 1 stk.",
-      "zhExplanation": "三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
+      "zhExplanation": "多款鱼虾海鲜任选。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
       "categoryId": "seafood",
-      "comparisonGroup": "salmon",
+      "comparisonGroup": "seafood_mixed_offer",
       "price": 49,
       "prePrice": null,
       "currency": "DKK",
@@ -59343,13 +59570,13 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|rossini laks eller diskobay kutterrejer|salmon",
+      "descriptionKey": "v1|rossini laks eller diskobay kutterrejer|seafood_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
-      "taxonomyLabelZh": "三文鱼",
+      "taxonomyLabelZh": "多款鱼虾海鲜任选",
       "taxonomyReasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "productNameZh": "三文鱼",
+      "productNameZh": "多款鱼虾海鲜任选",
       "descriptionAuthor": "Codex",
       "descriptionVersion": "zh-product-v3"
     },
@@ -59768,9 +59995,9 @@
       "storeId": "kvickly",
       "originalName": "Hakket grise- og kalvekød 8-12% eller hele kyllingelår",
       "originalDescription": "900-2000 g. Kg-pris maks. 76,67. Frit valg. 1 pakke. 900 g 2000 g",
-      "zhExplanation": "整只鸡腿。鸡腿部位，肉嫩多汁，适合红烧、炖煮、烤或空气炸；类似中国常见鸡腿肉。",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_thigh",
+      "zhExplanation": "整只鸡腿。这是猪、牛、小牛或鸡肉跨肉种任选；肉种、部位和用途不同，不计算全局最低价。",
+      "categoryId": "beef",
+      "comparisonGroup": "mixed_meat_offer",
       "price": 69,
       "prePrice": null,
       "currency": "DKK",
@@ -59801,7 +60028,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|hakket grise og kalvekod 8 12 eller hele kyllingelaar|chicken_thigh",
+      "descriptionKey": "v1|hakket grise og kalvekod 8 12 eller hele kyllingelaar|mixed_meat_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -59870,9 +60097,9 @@
       "storeId": "kvickly",
       "originalName": "Fredagsbøf entrecote eller ribeye",
       "originalDescription": "Kg-pris maks. 300,00. Frit valg. Pris",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 75,
       "prePrice": null,
       "currency": "DKK",
@@ -59903,7 +60130,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|fredagsbof entrecote eller ribeye|beef_steak",
+      "descriptionKey": "v1|fredagsbof entrecote eller ribeye|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -60022,9 +60249,9 @@
       "storeId": "kvickly",
       "originalName": "PremiuM roastbeef eller steak",
       "originalDescription": "Kg-pris 170,00. Frit valg. Pr. ½ kg",
-      "zhExplanation": "烤牛肉。整块烤牛肉部位，适合慢烤、炖煮或切片；嫩度和时间取决于牛肩、臀肉或其他具体部位。",
+      "zhExplanation": "烤牛肉。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_roast",
+      "comparisonGroup": "beef_mixed_offer",
       "price": 85,
       "prePrice": null,
       "currency": "DKK",
@@ -60055,7 +60282,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|premium roastbeef eller steak|beef_roast",
+      "descriptionKey": "v1|premium roastbeef eller steak|beef_mixed_offer",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",
@@ -60073,11 +60300,11 @@
       "storeId": "kvickly",
       "originalName": "Entrecote eller ribeye",
       "originalDescription": "Kg-pris 222,50. Frit valg. Pris",
-      "descriptionKey": "v1|entrecote eller ribeye|beef_steak",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "descriptionKey": "v1|entrecote eller ribeye|beef_ribeye",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "descriptionSource": "codex_cache",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 89,
       "prePrice": null,
       "currency": "DKK",
@@ -60225,9 +60452,9 @@
       "storeId": "kvickly",
       "originalName": "PremiuM ribeye",
       "originalDescription": "Kg-pris 272,50. Pris",
-      "zhExplanation": "肋眼牛排。牛排或整块牛肉，适合煎、烤或慢炖；具体嫩度取决于原名所示部位。",
+      "zhExplanation": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "comparisonGroup": "beef_ribeye",
       "price": 109,
       "prePrice": null,
       "currency": "DKK",
@@ -60258,7 +60485,7 @@
       "status": "active",
       "changeType": null,
       "priceDropAmount": null,
-      "descriptionKey": "v1|premium ribeye|beef_steak",
+      "descriptionKey": "v1|premium ribeye|beef_ribeye",
       "descriptionSource": "codex_cache",
       "taxonomySource": "codex_taxonomy",
       "taxonomyReviewStatus": "reviewed",

@@ -13,6 +13,41 @@ test('groups comparable chicken thighs', () => {
   assert.deepEqual(result, { categoryId:'chicken', comparisonGroup:'chicken_thigh' });
 });
 
+test('separates turkey species, body parts, mince, and processed products', () => {
+  const expected = new Map([
+    ['Kalkunbrystfilet', 'turkey_breast'],
+    ['Kalkunschnitzler af brystfilet', 'turkey_breast'],
+    ['Kalkunstrimler af brystfilet', 'turkey_breast'],
+    ['Kalkununderlår', 'turkey_thigh'],
+    ['Hakket kalkunkød', 'turkey_minced'],
+    ['GRILLMESTER Kalkunhakkebøffer', 'turkey_processed'],
+    ['Cordon bleu af kalkun', 'turkey_processed'],
+    ['Kalkunoverlår eller -schnitzel af brystfilet', 'turkey_mixed_offer'],
+  ]);
+  for (const [heading, comparisonGroup] of expected) {
+    assert.equal(classifyOffer({ heading }).comparisonGroup, comparisonGroup, heading);
+  }
+  assert.equal(AARHUS_COMPARISON_GROUPS.turkey_mixed_offer.comparable, false);
+});
+
+test('keeps cross-part and cross-species meat offers out of atomic lowest-price pools', () => {
+  const expected = new Map([
+    ['Xtra! kyllingelårmix eller Rose hakket kylling 3-7%', 'chicken_mixed_offer'],
+    ['Kyllingelår, -spyd eller udbenede kyllingeoverlår', 'chicken_mixed_offer'],
+    ['MADVÆRKET Kyllingevinger, -lårfilet, -underlår eller -overlår med ryg', 'chicken_mixed_offer'],
+    ['Hakket grise- og kalvekød 8-12% eller hele kyllingelår', 'mixed_meat_offer'],
+    ['REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg', 'pork_mixed_offer'],
+    ['PremiuM roastbeef eller steak', 'beef_mixed_offer'],
+    ['Coop varmrøget-, røget laks eller rejer', 'seafood_mixed_offer'],
+    ['Xtra! tun eller Bonduelle majs', 'mixed_grocery_offer'],
+  ]);
+  for (const [heading, comparisonGroup] of expected) {
+    const result = classifyOffer({ heading });
+    assert.equal(result.comparisonGroup, comparisonGroup, heading);
+    assert.equal(AARHUS_COMPARISON_GROUPS[comparisonGroup].comparable, false, heading);
+  }
+});
+
 test('keeps household and baby goods out of food categories', () => {
   assert.deepEqual(classifyOffer({ heading:'Skrald-let affaldsposer ekstra stærke med snøreluk' }), {
     categoryId:'household', comparisonGroup:'trash_bags',
@@ -78,7 +113,7 @@ test('uses product identity rather than flavour words or brand fragments', () =>
   assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese');
   assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');
   assert.equal(classifyOffer({ heading:'Nordthy Mini ris- eller majskiks' }).comparisonGroup, 'biscuits');
-  assert.equal(classifyOffer({ heading:'Skagenfood koldrøget laks' }).comparisonGroup, 'salmon');
+  assert.equal(classifyOffer({ heading:'Skagenfood koldrøget laks' }).comparisonGroup, 'salmon_smoked');
 });
 
 test('keeps size variants together but separates genuinely different potato forms', () => {
@@ -108,5 +143,5 @@ test('handles Danish compound words without classifying incidental fragments', (
   assert.equal(classifyOffer({ heading:'Wilfa kaffemaskine' }), null);
   assert.equal(classifyOffer({ heading:'Træstamme' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Merrild eller Lavazza helbønner' }).comparisonGroup, 'coffee_tea');
-  assert.equal(classifyOffer({ heading:'REMA 1000 Vannameirejer eller tunsteak' }).comparisonGroup, 'seafood_other');
+  assert.equal(classifyOffer({ heading:'REMA 1000 Vannameirejer eller tunsteak' }).comparisonGroup, 'seafood_mixed_offer');
 });

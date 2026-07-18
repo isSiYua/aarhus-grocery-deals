@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 
 import { explainInChinese } from './lib/explain-zh.mjs';
 import { classifyFlippItem, ATLANTA_COMPARISON_GROUPS, flippKnowledgeKey } from './lib/flipp-client.mjs';
-import { danishProductNameZh, englishProductNameZh, specificDanishDescription } from './lib/product-name-zh.mjs';
+import { danishProductNameZh, englishProductNameZh, specificDanishDescription, specificEnglishDescription } from './lib/product-name-zh.mjs';
 import { descriptionKeyFor, DESCRIPTION_SPEC_VERSION } from './lib/product-descriptions.mjs';
 import { AARHUS_COMPARISON_GROUPS, classifyOffer, isClearlyOutOfScope } from './lib/taxonomy.mjs';
 
@@ -120,7 +120,10 @@ for (const offer of atlanta.offers) {
     || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup, zhExplanation: offer.zhExplanation };
   const groupNameZh = ATLANTA_COMPARISON_GROUPS[classification.comparisonGroup]?.nameZh || null;
   const productNameZh = englishProductNameZh(offer.originalName, classification.comparisonGroup, groupNameZh);
-  const descriptionZh = existing?.reviewStatus === 'reviewed' && existing.descriptionZh
+  const exactDescription = specificEnglishDescription(offer.originalName);
+  const descriptionZh = exactDescription
+    ? exactDescription
+    : existing?.reviewStatus === 'reviewed' && existing.descriptionZh
     ? existing.descriptionZh
     : `${productNameZh}。${classification.zhExplanation || offer.zhExplanation}`;
   const entry = {
@@ -153,6 +156,7 @@ for (const offer of atlanta.offers) {
   });
 }
 atlanta.offers = nextAtlantaOffers;
+atlanta.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
 atlanta.metadata.contentUpdatedAt = now;
 atlanta.metadata.contentRevision = 'codex-product-review-v3';
 atlanta.metadata.productKnowledgeUpdatedAt = now;

@@ -8,9 +8,9 @@
     "source": "Flipp public weekly-ad feed",
     "sourceUrl": "https://flipp.com/",
     "disclaimerZh": "周促销按 30318 区域匹配；具体门店库存和会员条件以零售商为准。",
-    "productKnowledgeUpdatedAt": "2026-07-18T14:31:15.982Z",
+    "productKnowledgeUpdatedAt": "2026-07-18T16:13:27.448Z",
     "productKnowledgeEntries": 260,
-    "contentUpdatedAt": "2026-07-18T14:31:15.982Z",
+    "contentUpdatedAt": "2026-07-18T16:13:27.448Z",
     "contentRevision": "codex-product-review-v3"
   },
   "categories": [
@@ -109,391 +109,548 @@
   "comparisonGroups": {
     "produce_mushrooms": {
       "nameZh": "蘑菇",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_potatoes": {
       "nameZh": "土豆",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_salad": {
       "nameZh": "生菜与沙拉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_tomatoes": {
       "nameZh": "番茄",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_beans": {
       "nameZh": "鲜豆类",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_corn": {
       "nameZh": "鲜玉米",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_onions": {
       "nameZh": "洋葱",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_peppers": {
       "nameZh": "甜椒",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_cucumbers": {
       "nameZh": "黄瓜",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "produce_broccoli": {
+      "nameZh": "西兰花",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "produce_cauliflower": {
+      "nameZh": "花椰菜",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_cruciferous": {
-      "nameZh": "西兰花与花椰菜",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "nameZh": "十字花科蔬菜（旧分类）",
+      "noteZh": "兼容旧记录，不计算跨品种最低价。",
+      "comparable": false
     },
     "produce_grapes": {
       "nameZh": "葡萄",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_plums": {
       "nameZh": "李子",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_peaches": {
       "nameZh": "桃与油桃",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_strawberries": {
       "nameZh": "草莓",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_blueberries": {
       "nameZh": "蓝莓",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_apples": {
       "nameZh": "苹果",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_citrus": {
       "nameZh": "柑橘与青柠",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_avocado": {
       "nameZh": "牛油果",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_watermelon": {
       "nameZh": "西瓜",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_bananas": {
       "nameZh": "香蕉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_prepared_salad": {
       "nameZh": "预制沙拉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_prepared_fruit": {
       "nameZh": "切配水果",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_prepared_potatoes": {
       "nameZh": "预制土豆配菜",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "produce_prepared_mixed": {
       "nameZh": "果蔬混合加餐",
-      "noteZh": "组成不同，不参与单一果蔬最低价。"
+      "noteZh": "组成不同，不参与单一果蔬最低价。",
+      "comparable": false
     },
     "produce_other": {
       "nameZh": "其他果蔬",
-      "noteZh": "品种不同不直接比较最低价。"
+      "noteZh": "品种不同不直接比较最低价。",
+      "comparable": false
     },
     "meat_ground_beef": {
       "nameZh": "牛肉末与牛肉饼",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_beef_ribeye": {
+      "nameZh": "肋眼牛排",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_beef_sirloin": {
+      "nameZh": "西冷牛排",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_beef_steak": {
-      "nameZh": "牛排",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "nameZh": "其他牛排",
+      "noteZh": "部位不同，不计算全局最低价。",
+      "comparable": false
     },
     "meat_beef_roast": {
       "nameZh": "整块烤牛肉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "肩胛、后腿和胸肉部位不同，不计算全局最低价。",
+      "comparable": false
     },
     "meat_chicken_breast": {
       "nameZh": "鸡胸与鸡里脊",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_ground_chicken": {
       "nameZh": "鸡肉末",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_chicken_thigh": {
       "nameZh": "鸡腿肉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_whole_chicken": {
       "nameZh": "整鸡",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_prepared_chicken": {
-      "nameZh": "熟制与调味鸡肉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "nameZh": "熟制鸡肉",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_breaded_chicken": {
+      "nameZh": "裹粉鸡肉小食",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_chicken_sandwich": {
+      "nameZh": "鸡肉三明治与卷饼",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_ground_pork": {
       "nameZh": "猪肉末",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_pork_tenderloin": {
       "nameZh": "猪里脊",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_pork_chops": {
       "nameZh": "猪排",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_pork_meatballs": {
       "nameZh": "猪肉丸",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_pulled_pork": {
       "nameZh": "手撕猪肉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
-    "meat_bacon": {
-      "nameZh": "培根",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+    "meat_pork_bacon": {
+      "nameZh": "猪肉培根",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_turkey_bacon": {
+      "nameZh": "火鸡培根",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_beef_burgers": {
       "nameZh": "牛肉汉堡饼",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_meatballs": {
       "nameZh": "肉丸",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
-    "meat_sausage_deli": {
-      "nameZh": "香肠与肉类熟食",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+    "meat_sausage": {
+      "nameZh": "香肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_pepperoni": {
+      "nameZh": "意式辣香肠片",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_ham_deli": {
+      "nameZh": "火腿冷切",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_turkey_deli": {
+      "nameZh": "火鸡胸冷切",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "meat_sticks": {
+      "nameZh": "肉条零食",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_lamb": {
       "nameZh": "羊肉",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "meat_other": {
       "nameZh": "其他肉类",
-      "noteZh": "部位不同，价格只作参考。"
+      "noteZh": "部位不同，价格只作参考。",
+      "comparable": false
     },
     "seafood_salmon": {
       "nameZh": "三文鱼",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "seafood_salmon_burgers": {
       "nameZh": "三文鱼汉堡饼",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "seafood_shrimp": {
       "nameZh": "虾",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "seafood_tuna_fresh": {
-      "nameZh": "金枪鱼与剑鱼排",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "nameZh": "金枪鱼排",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "seafood_mixed_fish_steaks": {
+      "nameZh": "金枪鱼或剑鱼排任选",
+      "noteZh": "鱼种不同，不计算单一鱼种最低价。",
+      "comparable": false
     },
     "seafood_tuna_canned": {
       "nameZh": "金枪鱼罐头",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "seafood_other": {
       "nameZh": "其他海鲜",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "dairy_yogurt": {
       "nameZh": "酸奶",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "dairy_cheese": {
       "nameZh": "奶酪",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "dairy_prepared_cheese": {
       "nameZh": "裹粉奶酪小食",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "dairy_eggs": {
       "nameZh": "鸡蛋",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "dairy_other": {
       "nameZh": "其他乳制品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "bakery_bread": {
       "nameZh": "面包",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "bakery_cake": {
       "nameZh": "蛋糕与甜点",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "bakery_pie": {
       "nameZh": "派",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "bakery_cookies": {
       "nameZh": "饼干",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "bakery_croissants": {
       "nameZh": "可颂",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "bakery_other": {
       "nameZh": "其他烘焙",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "frozen_ice_cream": {
       "nameZh": "冰淇淋与冰棒",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "frozen_pizza": {
       "nameZh": "冷冻披萨",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "frozen_appetizers": {
       "nameZh": "冷冻点心",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "frozen_other": {
       "nameZh": "其他冷冻食品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "pantry_rice_pasta": {
       "nameZh": "米饭与意面",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pantry_cereal": {
       "nameZh": "早餐谷物",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pantry_beans": {
       "nameZh": "豆类罐头",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pantry_spreads": {
       "nameZh": "果酱与花生酱",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pantry_sugar": {
       "nameZh": "糖与糖浆",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pantry_other": {
       "nameZh": "其他常温食品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "snacks_savory": {
       "nameZh": "薯片与咸味零食",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "snacks_candy": {
       "nameZh": "糖果与巧克力",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "snacks_bars": {
       "nameZh": "能量棒与蛋白棒",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "snacks_other": {
       "nameZh": "其他零食",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "drinks_coffee_tea": {
       "nameZh": "咖啡与茶",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_water": {
       "nameZh": "饮用水与气泡水",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_enhancer": {
       "nameZh": "饮水调味液",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_juice": {
       "nameZh": "果汁与果汁饮料",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_soft": {
       "nameZh": "软饮与运动饮料",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_beer": {
       "nameZh": "啤酒",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_wine": {
       "nameZh": "葡萄酒",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "drinks_other": {
       "nameZh": "其他饮料",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "household_laundry": {
       "nameZh": "洗衣用品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "household_dishwasher": {
       "nameZh": "洗碗机用品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "household_paper": {
       "nameZh": "纸品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "household_other": {
       "nameZh": "其他家庭用品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "personal_oral": {
       "nameZh": "口腔护理",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "personal_hair": {
       "nameZh": "头发护理",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "personal_body": {
       "nameZh": "身体与剃刮护理",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "personal_other": {
       "nameZh": "其他个人护理",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "baby_diapers": {
       "nameZh": "纸尿裤",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "baby_food": {
       "nameZh": "婴幼儿食品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "baby_other": {
       "nameZh": "其他婴幼儿用品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     },
     "pet_cat": {
       "nameZh": "猫粮与猫零食",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pet_dog": {
       "nameZh": "狗粮与狗零食",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
     },
     "pet_other": {
       "nameZh": "其他宠物用品",
-      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。"
+      "noteZh": "品种不同，不计算全局最低价。",
+      "comparable": false
     }
   },
   "flyers": [
@@ -1515,9 +1672,9 @@
       "storeId": "kroger-howell-mill",
       "originalName": "Hillshire Farm Meat Smoked Sausage",
       "brand": "Hillshire Farm",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_sausage",
       "price": 2.99,
       "currency": "USD",
       "validFrom": "2026-07-18T00:00:00-04:00",
@@ -1547,16 +1704,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529212/1783380496/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "香肠"
     },
     {
       "canonicalKey": "flipp|kroger-howell-mill|1024873056",
       "storeId": "kroger-howell-mill",
       "originalName": "Kroger or Private Selection Bacon",
       "brand": "Kroger | Private Selection",
-      "zhExplanation": "培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_bacon",
+      "comparisonGroup": "meat_pork_bacon",
       "price": 3.79,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -1586,7 +1743,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426528942/1783380484/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "培根"
+      "productNameZh": "猪肉培根"
     },
     {
       "canonicalKey": "flipp|kroger-howell-mill|1024873140",
@@ -1632,9 +1789,9 @@
       "storeId": "kroger-howell-mill",
       "originalName": "Hormel Pepperoni",
       "brand": "Hormel",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "意式辣香肠薄片，通常用于披萨、三明治或零食拼盘；属于高盐熟制肉，不与普通鲜香肠或火腿冷切混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_pepperoni",
       "price": 4.49,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -1664,7 +1821,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529237/1783380488/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "意式辣香肠片"
     },
     {
       "canonicalKey": "flipp|kroger-howell-mill|1024874484",
@@ -1788,9 +1945,9 @@
       "storeId": "kroger-howell-mill",
       "originalName": "Private Selection Black Forest Ham",
       "brand": "Private Selection",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_ham_deli",
       "price": 7.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -1820,16 +1977,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529341/1783380492/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "火腿冷切"
     },
     {
       "canonicalKey": "flipp|kroger-howell-mill|1024873923",
       "storeId": "kroger-howell-mill",
       "originalName": "Chomps Meat Sticks",
       "brand": "Chomps",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "调味肉条零食，可直接食用；需按包装确认肉种、辣度和单条重量，不与香肠或冷切火腿混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_sticks",
       "price": 16.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -1859,7 +2016,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529235/1783380487/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "肉条零食"
     },
     {
       "canonicalKey": "flipp|kroger-howell-mill|1024875648",
@@ -2687,7 +2844,7 @@
       "brand": null,
       "zhExplanation": "牛排。金枪鱼或剑鱼；鲜鱼排适合煎烤，罐装金枪鱼可拌沙拉或夹三明治。",
       "categoryId": "seafood",
-      "comparisonGroup": "seafood_tuna_fresh",
+      "comparisonGroup": "seafood_mixed_fish_steaks",
       "price": 8.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -4167,7 +4324,7 @@
       "storeId": "publix-howell-mill",
       "originalName": "Snapple Tea",
       "brand": "Snapple",
-      "zhExplanation": "苹果。咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
+      "zhExplanation": "茶。咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
       "categoryId": "drinks",
       "comparisonGroup": "drinks_coffee_tea",
       "price": 3.99,
@@ -4199,7 +4356,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426753079/1783514886/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "苹果"
+      "productNameZh": "茶"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025405525",
@@ -5610,9 +5767,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Applegate Naturals Uncured Turkey Bacon",
       "brand": "Applegate Naturals",
-      "zhExplanation": "苹果。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_bacon",
+      "comparisonGroup": "meat_turkey_bacon",
       "price": 5.49,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -5642,16 +5799,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752959/1783514879/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "苹果"
+      "productNameZh": "火鸡培根"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025320662",
       "storeId": "publix-howell-mill",
       "originalName": "Publix Sweet Italian Sausage",
       "brand": "Publix",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_sausage",
       "price": 5.69,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -5681,7 +5838,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824421/1783514886/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "香肠"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025406218",
@@ -5766,9 +5923,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Publix Southwest Chicken Tender Wrap",
       "brand": "Publix",
-      "zhExplanation": "熟制或裹粉鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
+      "zhExplanation": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
+      "comparisonGroup": "meat_chicken_sandwich",
       "price": 6.49,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -5798,16 +5955,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750112/1783514855/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "熟制或裹粉鸡肉"
+      "productNameZh": "鸡肉三明治或卷饼"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025390279",
       "storeId": "publix-howell-mill",
       "originalName": "Hormel Black Label Bacon",
       "brand": "Hormel",
-      "zhExplanation": "培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_bacon",
+      "comparisonGroup": "meat_pork_bacon",
       "price": 6.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -5837,14 +5994,14 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748680/1783514838/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "培根"
+      "productNameZh": "猪肉培根"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025393113",
       "storeId": "publix-howell-mill",
       "originalName": "Publix Lemon Pepper Oven-Roasted Chicken",
       "brand": "Publix",
-      "zhExplanation": "熟制与调味鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
+      "zhExplanation": "熟制鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
       "categoryId": "meat",
       "comparisonGroup": "meat_prepared_chicken",
       "price": 7.59,
@@ -5876,7 +6033,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750108/1783514854/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "熟制与调味鸡肉"
+      "productNameZh": "熟制鸡肉"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025314701",
@@ -5961,9 +6118,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Publix Parmesan Chicken Breast Cutlets",
       "brand": "Publix",
-      "zhExplanation": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
+      "zhExplanation": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
+      "comparisonGroup": "meat_breaded_chicken",
       "price": 7.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -5993,16 +6150,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748738/1783514840/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "鸡胸肉"
+      "productNameZh": "帕玛森裹粉鸡肉"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025390752",
       "storeId": "publix-howell-mill",
       "originalName": "Publix Parmesan Chicken Breast Bites",
       "brand": "Publix",
-      "zhExplanation": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
+      "zhExplanation": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
+      "comparisonGroup": "meat_breaded_chicken",
       "price": 7.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6032,16 +6189,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748890/1783514845/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "鸡胸肉"
+      "productNameZh": "帕玛森裹粉鸡肉"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025400250",
       "storeId": "publix-howell-mill",
       "originalName": "Smithfield Hometown Original Breakfast Sausage",
       "brand": "Smithfield",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_sausage",
       "price": 8,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6071,7 +6228,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752979/1783514880/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "香肠"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025392761",
@@ -6195,9 +6352,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Publix Chicken Tender Whole Sub",
       "brand": "Publix",
-      "zhExplanation": "熟制或裹粉鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
+      "zhExplanation": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
+      "comparisonGroup": "meat_chicken_sandwich",
       "price": 8.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6227,7 +6384,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745509/1783514793/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "熟制或裹粉鸡肉"
+      "productNameZh": "鸡肉三明治或卷饼"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025389936",
@@ -6431,7 +6588,7 @@
       "brand": null,
       "zhExplanation": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_beef_steak",
+      "comparisonGroup": "meat_beef_sirloin",
       "price": 10.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6585,9 +6742,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Boar's Head Ovengold Roasted Turkey Breast",
       "brand": "Boar's Head",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_turkey_deli",
       "price": 13.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6617,16 +6774,16 @@
         "imageUrl": "https://f.wishabi.net/page_items/426825057/1783514862/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "烤火鸡胸冷切"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025392713",
       "storeId": "publix-howell-mill",
       "originalName": "Boar's Head® Ovengold Roasted Turkey Breast",
       "brand": "Boar's Head",
-      "zhExplanation": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "zhExplanation": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
+      "comparisonGroup": "meat_turkey_deli",
       "price": 13.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6656,7 +6813,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823429/1783514858/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "香肠与肉类熟食"
+      "productNameZh": "烤火鸡胸冷切"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025318423",
@@ -6665,7 +6822,7 @@
       "brand": "GreenWise",
       "zhExplanation": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_beef_steak",
+      "comparisonGroup": "meat_beef_ribeye",
       "price": 18.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -6704,7 +6861,7 @@
       "brand": "GreenWise",
       "zhExplanation": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "categoryId": "meat",
-      "comparisonGroup": "meat_beef_steak",
+      "comparisonGroup": "meat_beef_ribeye",
       "price": 21.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -7872,9 +8029,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Broccoli or Cauliflower",
       "brand": null,
-      "zhExplanation": "西兰花与花椰菜。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
+      "zhExplanation": "西兰花。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
       "categoryId": "produce",
-      "comparisonGroup": "produce_cruciferous",
+      "comparisonGroup": "produce_broccoli",
       "price": 6,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -7904,7 +8061,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476658/1784097232/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "西兰花与花椰菜"
+      "productNameZh": "西兰花"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1025318427",
@@ -7950,9 +8107,9 @@
       "storeId": "publix-howell-mill",
       "originalName": "Organic Cauliflower or Broccoli",
       "brand": null,
-      "zhExplanation": "西兰花与花椰菜。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
+      "zhExplanation": "西兰花。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
       "categoryId": "produce",
-      "comparisonGroup": "produce_cruciferous",
+      "comparisonGroup": "produce_broccoli",
       "price": 7,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -7982,7 +8139,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476757/1784097236/extra_large.jpg",
         "imageReviewed": false
       },
-      "productNameZh": "西兰花与花椰菜"
+      "productNameZh": "西兰花"
     },
     {
       "canonicalKey": "flipp|publix-howell-mill|1026813011",

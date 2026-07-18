@@ -32,6 +32,36 @@ for (const [index, offer] of data.offers.entries()) {
   if (offer.sourceLocation?.status === 'verified' && (!Number.isInteger(offer.sourceLocation.pageNumber) || offer.sourceLocation.pageNumber < 1)) throw new Error(`Invalid verified source location: ${offer.canonicalKey}`);
 }
 
+for (const [groupId, definition] of Object.entries(data.comparisonGroups)) {
+  if (typeof definition.comparable !== 'boolean') throw new Error(`Aarhus comparison group missing comparable policy: ${groupId}`);
+  if (/mixed|_offer$|(?:^|_)other$/.test(groupId) && definition.comparable !== false) throw new Error(`Broad Aarhus group must not calculate a global minimum: ${groupId}`);
+}
+
+const aarhusExpectedGroups = [
+  [/kalkunbryst|kalkunschnitz|kalkunstrimler/i, 'turkey_breast', /overlår/i],
+  [/kalkununderlår/i, 'turkey_thigh'],
+  [/hakket kalkun/i, 'turkey_minced'],
+  [/kalkunhakkebøf|cordon bleu af kalkun/i, 'turkey_processed'],
+];
+for (const offer of data.offers) {
+  if (/kalkun/i.test(offer.originalName) && /^鸡胸肉/.test(offer.productNameZh)) throw new Error(`Turkey mislabeled as chicken breast: ${offer.originalName}`);
+  for (const [pattern, expectedGroup, exclusion] of aarhusExpectedGroups) {
+    if (pattern.test(offer.originalName) && !exclusion?.test(offer.originalName) && offer.comparisonGroup !== expectedGroup) throw new Error(`Wrong atomic comparison group for ${offer.originalName}: expected ${expectedGroup}, got ${offer.comparisonGroup}`);
+  }
+}
+
+const mixedOfferPatterns = [
+  /kalkunoverlår.*schnitzel/i,
+  /kyllingelårmix.*hakket kylling|kyllingelår.*spyd|kyllingevinger.*lårfilet|wings.*nuggets.*spyd/i,
+  /hakket grise.*kalve.*kyllingelår/i,
+  /spareribs.*pulled|pulled.*spareribs|mørbrad.*nakkefilet|grisemørbrad.*ribbensteg/i,
+  /laks.*(?:rejer|ørred|krebsehaler|havtaske|fiskesalat)|(?:rejer|ørred|krebsehaler|havtaske|fiskesalat).*laks|rejer.*(?:tun|fiskepinde)|(?:tun|fiskepinde).*rejer/i,
+  /tun.*(?:majs|tomater|pizzasauce)|(?:majs|tomater|pizzasauce).*tun/i,
+];
+for (const offer of data.offers) {
+  if (mixedOfferPatterns.some(pattern => pattern.test(offer.originalName)) && data.comparisonGroups[offer.comparisonGroup].comparable !== false) throw new Error(`Mixed offer entered a lowest-price pool: ${offer.originalName} -> ${offer.comparisonGroup}`);
+}
+
 if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== 'zh-product-v3' || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
 if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== 'zh-product-v3' || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
 if (descriptionPending.count !== 0) throw new Error('Published Aarhus products still have descriptions pending Codex review');
@@ -89,6 +119,23 @@ for (const [index, offer] of atlanta.offers.entries()) {
   if (offer.sourceLocation?.status !== 'direct') throw new Error(`Invalid Atlanta source status: ${offer.canonicalKey}`);
   if (offer.sourceLocation.pageNumber !== null) throw new Error(`Atlanta page number must not be inferred: ${offer.canonicalKey}`);
   if (offer.sourceLocation.deepLink !== offer.sourceUrl || offer.sourceLocation.method !== 'flipp-item-id') throw new Error(`Atlanta direct source missing exact item link: ${offer.canonicalKey}`);
+}
+for (const [groupId, definition] of Object.entries(atlanta.comparisonGroups)) {
+  if (typeof definition.comparable !== 'boolean') throw new Error(`Atlanta comparison group missing comparable policy: ${groupId}`);
+  if (/mixed|(?:^|_)other$/.test(groupId) && definition.comparable !== false) throw new Error(`Broad Atlanta group must not calculate a global minimum: ${groupId}`);
+}
+const atlantaExpectedGroups = new Map([
+  ['Applegate Naturals Uncured Turkey Bacon', 'meat_turkey_bacon'],
+  ["Boar's Head Ovengold Roasted Turkey Breast", 'meat_turkey_deli'],
+  ['Private Selection Black Forest Ham', 'meat_ham_deli'],
+  ['Hormel Pepperoni', 'meat_pepperoni'],
+  ['Publix Sweet Italian Sausage', 'meat_sausage'],
+  ['Publix Chicken Tender Whole Sub', 'meat_chicken_sandwich'],
+]);
+for (const [name, expectedGroup] of atlantaExpectedGroups) {
+  const matches = atlanta.offers.filter(offer => offer.originalName.replace('®', '') === name);
+  if (!matches.length) throw new Error(`Missing Atlanta comparison audit product: ${name}`);
+  for (const offer of matches) if (offer.comparisonGroup !== expectedGroup) throw new Error(`Wrong Atlanta comparison group for ${name}: ${offer.comparisonGroup}`);
 }
 for (const flyer of atlanta.flyers) {
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${flyer.id}?postal_code=30318`;

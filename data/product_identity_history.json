@@ -4630,6 +4630,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|baadsmand koldroget eller gravad laks|salmon_smoked": {
+      "stableProductKey": "v1|baadsmand koldroget eller gravad laks|salmon_smoked",
+      "canonicalNames": [
+        "Bådsmand koldrøget eller gravad laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_smoked"
+      ],
+      "stores": [
+        "netto"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-24T21:59:59+0000",
+      "offerIds": {
+        "xrRpsKkFjPpFor3MYuQcp": {
+          "sourceOfferId": "xrRpsKkFjPpFor3MYuQcp",
+          "stores": [
+            "netto"
+          ],
+          "catalogIds": [
+            "xg_2XUk5"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=0c8bfe61d6c1a0a92cf86adc8c5f0e5b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&x1r=0.67&x2r=0.985&y1r=0.4&y2r=0.68"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=0c8bfe61d6c1a0a92cf86adc8c5f0e5b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&x1r=0.67&x2r=0.985&y1r=0.4&y2r=0.68": {
+          "offerIds": [
+            "xrRpsKkFjPpFor3MYuQcp"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|bacon cheddar griller|bacon_deli": {
       "stableProductKey": "v1|bacon cheddar griller|bacon_deli",
       "canonicalNames": [
@@ -8413,6 +8463,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|butcher s rumpsteak eller entrecote|beef_mixed_offer": {
+      "stableProductKey": "v1|butcher s rumpsteak eller entrecote|beef_mixed_offer",
+      "canonicalNames": [
+        "BUTCHER'S Rumpsteak eller entrecote"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "kgPJrP4z1sb_dMz5BdjFD": {
+          "sourceOfferId": "kgPJrP4z1sb_dMz5BdjFD",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=62c34f63c023547ae8a490c96749792f&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0148&x2r=0.5103&y1r=0.7067&y2r=0.9451"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=62c34f63c023547ae8a490c96749792f&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0148&x2r=0.5103&y1r=0.7067&y2r=0.9451": {
+          "offerIds": [
+            "kgPJrP4z1sb_dMz5BdjFD"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|butcher s rumpsteak eller entrecote|beef_steak": {
       "stableProductKey": "v1|butcher s rumpsteak eller entrecote|beef_steak",
       "canonicalNames": [
@@ -9555,6 +9655,56 @@
           ],
           "validPeriods": [
             "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak": {
+      "stableProductKey": "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak",
+      "canonicalNames": [
+        "Chimichurri marineret flatsteak af kalv"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_flat_steak"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "QInkumpQO15G5Iw9AfxXr": {
+          "sourceOfferId": "QInkumpQO15G5Iw9AfxXr",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=37e9834395b1c3d06b228ef950804794&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.03&x2r=0.37&y1r=0.03&y2r=0.47"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=37e9834395b1c3d06b228ef950804794&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.03&x2r=0.37&y1r=0.03&y2r=0.47": {
+          "offerIds": [
+            "QInkumpQO15G5Iw9AfxXr"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
           ]
         }
       },
@@ -11296,6 +11446,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer": {
+      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer",
+      "canonicalNames": [
+        "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "C9zcs-O540aFAIrKyJRH_": {
+          "sourceOfferId": "C9zcs-O540aFAIrKyJRH_",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969": {
+          "offerIds": [
+            "C9zcs-O540aFAIrKyJRH_"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_ribs": {
       "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_ribs",
       "canonicalNames": [
@@ -11687,6 +11887,56 @@
           ],
           "validPeriods": [
             "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|coop hakket gris kalv 4 7 eller 8 12|mixed_minced": {
+      "stableProductKey": "v1|coop hakket gris kalv 4 7 eller 8 12|mixed_minced",
+      "canonicalNames": [
+        "Coop hakket gris & kalv 4-7% eller 8-12%"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "mixed_minced"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "vQtYa5KdYpRcyuHWKFIEX": {
+          "sourceOfferId": "vQtYa5KdYpRcyuHWKFIEX",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=9f0366ed751717a98dcefbaed031af35&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff670cd490524c27fbd2faa5815b102de"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=9f0366ed751717a98dcefbaed031af35&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff670cd490524c27fbd2faa5815b102de": {
+          "offerIds": [
+            "vQtYa5KdYpRcyuHWKFIEX"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
         }
       },
@@ -12497,6 +12747,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer": {
+      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer",
+      "canonicalNames": [
+        "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "88feXYDBZiJoooowf1cZJ": {
+          "sourceOfferId": "88feXYDBZiJoooowf1cZJ",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9": {
+          "offerIds": [
+            "88feXYDBZiJoooowf1cZJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_ribs": {
       "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_ribs",
       "canonicalNames": [
@@ -12707,6 +13007,56 @@
       ],
       "comparisonGroups": [
         "bread"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "opxlme371taLVQkysrmvI": {
+          "sourceOfferId": "opxlme371taLVQkysrmvI",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=875745a50fc7dbdfb008fed14c535e57&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-10.webp&x1r=0.33&x2r=0.64&y1r=0.34&y2r=0.66"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=875745a50fc7dbdfb008fed14c535e57&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-10.webp&x1r=0.33&x2r=0.64&y1r=0.34&y2r=0.66": {
+          "offerIds": [
+            "opxlme371taLVQkysrmvI"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|coop polsehorn eller focaccia med pepperoni|ready_meal": {
+      "stableProductKey": "v1|coop polsehorn eller focaccia med pepperoni|ready_meal",
+      "canonicalNames": [
+        "Coop pølsehorn eller focaccia med pepperoni"
+      ],
+      "categoryIds": [
+        "frozen_ready"
+      ],
+      "comparisonGroups": [
+        "ready_meal"
       ],
       "stores": [
         "365"
@@ -13147,6 +13497,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer": {
+      "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer",
+      "canonicalNames": [
+        "Coop spareribs, pulled pork eller pulled chicken"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "qW3UIcA5tGt2OfFAziDR5": {
+          "sourceOfferId": "qW3UIcA5tGt2OfFAziDR5",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84": {
+          "offerIds": [
+            "qW3UIcA5tGt2OfFAziDR5"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|coop spareribs pulled pork eller pulled chicken|pork_ribs": {
       "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_ribs",
       "canonicalNames": [
@@ -13234,6 +13634,56 @@
         "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84": {
           "offerIds": [
             "qW3UIcA5tGt2OfFAziDR5"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|coop torpedo rejer fiskepinde eller rejer|seafood_mixed_offer": {
+      "stableProductKey": "v1|coop torpedo rejer fiskepinde eller rejer|seafood_mixed_offer",
+      "canonicalNames": [
+        "Coop torpedo rejer, fiskepinde eller rejer"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "VLPSBaXnEfP99icoO253j": {
+          "sourceOfferId": "VLPSBaXnEfP99icoO253j",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=92521610595e65556c5806d254460aee&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fddd9ca65ecea45581373fa7b967130c2"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=92521610595e65556c5806d254460aee&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fddd9ca65ecea45581373fa7b967130c2": {
+          "offerIds": [
+            "VLPSBaXnEfP99icoO253j"
           ],
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
@@ -13347,6 +13797,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|coop varmroget roget laks eller rejer|seafood_mixed_offer": {
+      "stableProductKey": "v1|coop varmroget roget laks eller rejer|seafood_mixed_offer",
+      "canonicalNames": [
+        "Coop varmrøget-, røget laks eller rejer"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:48:55.799Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "X7gqnG_dkrPiH59_2wgQG": {
+          "sourceOfferId": "X7gqnG_dkrPiH59_2wgQG",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=73fb859aba63a42c8c3c367ca0aa904a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6baad958e3f3b2c3bae9106f85830cd5"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=73fb859aba63a42c8c3c367ca0aa904a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6baad958e3f3b2c3bae9106f85830cd5": {
+          "offerIds": [
+            "X7gqnG_dkrPiH59_2wgQG"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|cordon bleu af kalkun|chicken_other": {
       "stableProductKey": "v1|cordon bleu af kalkun|chicken_other",
       "canonicalNames": [
@@ -13407,6 +13907,56 @@
       ],
       "comparisonGroups": [
         "turkey_other"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "h4aamJ6zwOw3ud3QTxF9K": {
+          "sourceOfferId": "h4aamJ6zwOw3ud3QTxF9K",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=1cfd7e6d2fb06af503972b5f6a2febd9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.5049&x2r=0.9893&y1r=0.0198&y2r=0.2433"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=1cfd7e6d2fb06af503972b5f6a2febd9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.5049&x2r=0.9893&y1r=0.0198&y2r=0.2433": {
+          "offerIds": [
+            "h4aamJ6zwOw3ud3QTxF9K"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|cordon bleu af kalkun|turkey_processed": {
+      "stableProductKey": "v1|cordon bleu af kalkun|turkey_processed",
+      "canonicalNames": [
+        "Cordon bleu af kalkun"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_processed"
       ],
       "stores": [
         "lidl"
@@ -14039,6 +14589,56 @@
       "evidence": {
         "distinctSourceOfferIdCount": 2,
         "sameNameSeenWithDifferentSourceIds": true,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|danish crown ribsteaks|beef_ribeye": {
+      "stableProductKey": "v1|danish crown ribsteaks|beef_ribeye",
+      "canonicalNames": [
+        "DANISH CROWN Ribsteaks"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "ISAhHZNhWmxgSTVQVBSKC": {
+          "sourceOfferId": "ISAhHZNhWmxgSTVQVBSKC",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=bbd393065869b4d448b6931bdb002716&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&x1r=0.015&x2r=0.493&y1r=0.165&y2r=0.499"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=bbd393065869b4d448b6931bdb002716&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&x1r=0.015&x2r=0.493&y1r=0.165&y2r=0.499": {
+          "offerIds": [
+            "ISAhHZNhWmxgSTVQVBSKC"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -14746,6 +15346,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|dansk kalvemarked|beef_mixed_offer": {
+      "stableProductKey": "v1|dansk kalvemarked|beef_mixed_offer",
+      "canonicalNames": [
+        "Dansk kalvemarked"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "nNphymKUpoSDUyiPkXSlh": {
+          "sourceOfferId": "nNphymKUpoSDUyiPkXSlh",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d71f3b3458686d0ea460748fb6ab9fcb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&x1r=0.02&x2r=0.52&y1r=0.72&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d71f3b3458686d0ea460748fb6ab9fcb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&x1r=0.02&x2r=0.52&y1r=0.72&y2r=0.96": {
+          "offerIds": [
+            "nNphymKUpoSDUyiPkXSlh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|dansk kalvemarked|beef_steak": {
       "stableProductKey": "v1|dansk kalvemarked|beef_steak",
       "canonicalNames": [
@@ -14806,6 +15456,56 @@
       ],
       "comparisonGroups": [
         "chicken_other"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "hA5ds0sXQUidtyJC3iB95": {
+          "sourceOfferId": "hA5ds0sXQUidtyJC3iB95",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d447ee4bf5184732771afbf0cc17e9c0&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-18.webp&x1r=0.26&x2r=0.51&y1r=0.71&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d447ee4bf5184732771afbf0cc17e9c0&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-18.webp&x1r=0.26&x2r=0.51&y1r=0.71&y2r=0.96": {
+          "offerIds": [
+            "hA5ds0sXQUidtyJC3iB95"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|dansk kylling snack polser|chicken_sausages": {
+      "stableProductKey": "v1|dansk kylling snack polser|chicken_sausages",
+      "canonicalNames": [
+        "Dansk kylling snack pølser"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "chicken_sausages"
       ],
       "stores": [
         "foetex"
@@ -15390,6 +16090,56 @@
           ],
           "validPeriods": [
             "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|danske egnsgaarde kalve entrecote eller ribeye|beef_ribeye": {
+      "stableProductKey": "v1|danske egnsgaarde kalve entrecote eller ribeye|beef_ribeye",
+      "canonicalNames": [
+        "Danske Egnsgårde kalve entrecote eller ribeye"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "u84QZqjfEuzDTWEbbKd_J": {
+          "sourceOfferId": "u84QZqjfEuzDTWEbbKd_J",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=4468757a81e3b20dfd13beb3c598ac67&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6f582e197c32a108086fb4c04c0a3f55%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F546202d309024811ca0d845b096f5f75"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=4468757a81e3b20dfd13beb3c598ac67&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6f582e197c32a108086fb4c04c0a3f55%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F546202d309024811ca0d845b096f5f75": {
+          "offerIds": [
+            "u84QZqjfEuzDTWEbbKd_J"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
         }
       },
@@ -16695,6 +17445,56 @@
       "evidence": {
         "distinctSourceOfferIdCount": 2,
         "sameNameSeenWithDifferentSourceIds": true,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|den gronne slagter paalaeg postej eller kalkunbacon|poultry_deli_mixed": {
+      "stableProductKey": "v1|den gronne slagter paalaeg postej eller kalkunbacon|poultry_deli_mixed",
+      "canonicalNames": [
+        "Den Grønne Slagter Pålæg, postej eller kalkunbacon"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "poultry_deli_mixed"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "EPXuQcmcp4rmuOsq7qWYG": {
+          "sourceOfferId": "EPXuQcmcp4rmuOsq7qWYG",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d89b5e90393a8a63f6cf294696aa6a08&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-22.webp&x1r=0.51&x2r=0.98&y1r=0.46&y2r=0.89"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d89b5e90393a8a63f6cf294696aa6a08&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-22.webp&x1r=0.51&x2r=0.98&y1r=0.46&y2r=0.89": {
+          "offerIds": [
+            "EPXuQcmcp4rmuOsq7qWYG"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -18344,6 +19144,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|entrecote eller ribeye|beef_ribeye": {
+      "stableProductKey": "v1|entrecote eller ribeye|beef_ribeye",
+      "canonicalNames": [
+        "Entrecote eller ribeye"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:48:55.799Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "3hkH4LYwAg4FWoahrqQO0": {
+          "sourceOfferId": "3hkH4LYwAg4FWoahrqQO0",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "AY2BWM5m"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=8117bc136c8b8b63bb3f3ad66e7e529e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F20a88b8da2b6a92dcd57e23dc75c2691"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=8117bc136c8b8b63bb3f3ad66e7e529e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F20a88b8da2b6a92dcd57e23dc75c2691": {
+          "offerIds": [
+            "3hkH4LYwAg4FWoahrqQO0"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|entrecote eller ribeye|beef_steak": {
       "stableProductKey": "v1|entrecote eller ribeye|beef_steak",
       "canonicalNames": [
@@ -18390,6 +19240,80 @@
       "evidence": {
         "distinctSourceOfferIdCount": 1,
         "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|entrecotes eller rib eyes|beef_ribeye": {
+      "stableProductKey": "v1|entrecotes eller rib eyes|beef_ribeye",
+      "canonicalNames": [
+        "Entrecotes eller rib eyes"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "bilka",
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "empdMPRNs3z8o-3LWP7pt": {
+          "sourceOfferId": "empdMPRNs3z8o-3LWP7pt",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=977567eab77284cbeddb9813fafaeffc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-2.webp&x1r=0.66&x2r=0.976&y1r=0.582&y2r=0.958"
+          ]
+        },
+        "evAYzAHq03IynWLteZVLZ": {
+          "sourceOfferId": "evAYzAHq03IynWLteZVLZ",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=5817c1fde9d46212b502755d44e1ffa2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&x1r=0.74&x2r=0.98&y1r=0.47&y2r=0.72"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=5817c1fde9d46212b502755d44e1ffa2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&x1r=0.74&x2r=0.98&y1r=0.47&y2r=0.72": {
+          "offerIds": [
+            "evAYzAHq03IynWLteZVLZ"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=977567eab77284cbeddb9813fafaeffc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-2.webp&x1r=0.66&x2r=0.976&y1r=0.582&y2r=0.958": {
+          "offerIds": [
+            "empdMPRNs3z8o-3LWP7pt"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -18618,6 +19542,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|ferske laksestykker|salmon_fresh": {
+      "stableProductKey": "v1|ferske laksestykker|salmon_fresh",
+      "canonicalNames": [
+        "Ferske laksestykker"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
+      ],
+      "stores": [
+        "netto"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-24T21:59:59+0000",
+      "offerIds": {
+        "w4QexhBq9wA4CKymJHTOi": {
+          "sourceOfferId": "w4QexhBq9wA4CKymJHTOi",
+          "stores": [
+            "netto"
+          ],
+          "catalogIds": [
+            "xg_2XUk5"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=c8137ffcb762f622076ddd24efe8e9ce&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-5.webp&x1r=0.01&x2r=0.32&y1r=0.43&y2r=0.68"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=c8137ffcb762f622076ddd24efe8e9ce&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-5.webp&x1r=0.01&x2r=0.32&y1r=0.43&y2r=0.68": {
+          "offerIds": [
+            "w4QexhBq9wA4CKymJHTOi"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|finton s kanelgifler|biscuits": {
       "stableProductKey": "v1|finton s kanelgifler|biscuits",
       "canonicalNames": [
@@ -18728,6 +19702,56 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "91u6GyNOK0dRZXRnftg_M": {
+          "sourceOfferId": "91u6GyNOK0dRZXRnftg_M",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=8846a4e5aed168230b516eddf6d2d1cb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.285&x2r=0.575&y1r=0.015&y2r=0.265"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=8846a4e5aed168230b516eddf6d2d1cb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.285&x2r=0.575&y1r=0.015&y2r=0.265": {
+          "offerIds": [
+            "91u6GyNOK0dRZXRnftg_M"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|fiskedisken laksefilet|salmon_fresh": {
+      "stableProductKey": "v1|fiskedisken laksefilet|salmon_fresh",
+      "canonicalNames": [
+        "Fiskedisken laksefilet"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
       ],
       "stores": [
         "foetex"
@@ -19780,6 +20804,56 @@
           ],
           "validPeriods": [
             "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|fredagsbof entrecote eller ribeye|beef_ribeye": {
+      "stableProductKey": "v1|fredagsbof entrecote eller ribeye|beef_ribeye",
+      "canonicalNames": [
+        "Fredagsbøf entrecote eller ribeye"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "4ZRxgMuqi2bsWrjOOWN9X": {
+          "sourceOfferId": "4ZRxgMuqi2bsWrjOOWN9X",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "AY2BWM5m"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=830c91a7f174ff303d02241989de4ce7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F70c2815a4c5ac27f983b3dc9f1dfc102"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=830c91a7f174ff303d02241989de4ce7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F70c2815a4c5ac27f983b3dc9f1dfc102": {
+          "offerIds": [
+            "4ZRxgMuqi2bsWrjOOWN9X"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
           ]
         }
       },
@@ -21715,6 +22789,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|gol polser eller tulip bacon|pork_mixed_offer": {
+      "stableProductKey": "v1|gol polser eller tulip bacon|pork_mixed_offer",
+      "canonicalNames": [
+        "Gøl pølser eller Tulip bacon"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "Vn6g45TyHQC1kFmedNt8F": {
+          "sourceOfferId": "Vn6g45TyHQC1kFmedNt8F",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2dc018d5561b377fed8e47646659bad3&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.27&x2r=0.96&y1r=0.26&y2r=0.94"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2dc018d5561b377fed8e47646659bad3&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.27&x2r=0.96&y1r=0.26&y2r=0.94": {
+          "offerIds": [
+            "Vn6g45TyHQC1kFmedNt8F"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|gol polser eller tulip bacon|sausages": {
       "stableProductKey": "v1|gol polser eller tulip bacon|sausages",
       "canonicalNames": [
@@ -22666,6 +23790,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|grillmester kalkunhakkeboffer|turkey_processed": {
+      "stableProductKey": "v1|grillmester kalkunhakkeboffer|turkey_processed",
+      "canonicalNames": [
+        "GRILLMESTER Kalkunhakkebøffer"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_processed"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "OWWi4NiSdfdiS4XAis4vv": {
+          "sourceOfferId": "OWWi4NiSdfdiS4XAis4vv",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=4dc2553e41a610139b33f71365a04ee7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.5155&x2r=0.9905&y1r=0.4684&y2r=0.7114"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=4dc2553e41a610139b33f71365a04ee7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.5155&x2r=0.9905&y1r=0.4684&y2r=0.7114": {
+          "offerIds": [
+            "OWWi4NiSdfdiS4XAis4vv"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|grillmester marinerede nakkekoteletter|pork_chop": {
       "stableProductKey": "v1|grillmester marinerede nakkekoteletter|pork_chop",
       "canonicalNames": [
@@ -23016,6 +24190,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|chicken_sausages": {
+      "stableProductKey": "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|chicken_sausages",
+      "canonicalNames": [
+        "Grillpølser i baconsvøb, kyllingepølser eller bratwurst"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "chicken_sausages"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "Y8P5S4NyEN_RqDZGA-k5a": {
+          "sourceOfferId": "Y8P5S4NyEN_RqDZGA-k5a",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=26091abb02c7c8d8980c3ae996999868&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&x1r=0.49&x2r=0.983&y1r=0.725&y2r=1"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=26091abb02c7c8d8980c3ae996999868&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&x1r=0.49&x2r=0.983&y1r=0.725&y2r=1": {
+          "offerIds": [
+            "Y8P5S4NyEN_RqDZGA-k5a"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|gron honningmelon piel de sapo|melon": {
       "stableProductKey": "v1|gron honningmelon piel de sapo|melon",
       "canonicalNames": [
@@ -23126,6 +24350,56 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "M6E_fOggZfrhV-BPRIi4e": {
+          "sourceOfferId": "M6E_fOggZfrhV-BPRIi4e",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=24d0a2de6ab2b5a5a173c84079b4814d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-3.webp&x1r=0.491&x2r=0.978&y1r=0.576&y2r=0.957"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=24d0a2de6ab2b5a5a173c84079b4814d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-3.webp&x1r=0.491&x2r=0.978&y1r=0.576&y2r=0.957": {
+          "offerIds": [
+            "M6E_fOggZfrhV-BPRIi4e"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|gronlandske rejer kold eller varmroget laks|seafood_mixed_offer": {
+      "stableProductKey": "v1|gronlandske rejer kold eller varmroget laks|seafood_mixed_offer",
+      "canonicalNames": [
+        "Grønlandske rejer, kold- eller varmrøget laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -23667,6 +24941,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|hakket grise og kalvekod 8 12 eller hele kyllingelaar|mixed_meat_offer": {
+      "stableProductKey": "v1|hakket grise og kalvekod 8 12 eller hele kyllingelaar|mixed_meat_offer",
+      "canonicalNames": [
+        "Hakket grise- og kalvekød 8-12% eller hele kyllingelår"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "mixed_meat_offer"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "vJF0osR7XvpaP3dy6nY1N": {
+          "sourceOfferId": "vJF0osR7XvpaP3dy6nY1N",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "uw0HW5Gt"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6ddb81a9243579a6d23838245d9b1b3c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-40.webp&x1r=0.582&x2r=0.963&y1r=0.383&y2r=0.617"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=6ddb81a9243579a6d23838245d9b1b3c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-40.webp&x1r=0.582&x2r=0.963&y1r=0.383&y2r=0.617": {
+          "offerIds": [
+            "vJF0osR7XvpaP3dy6nY1N"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|hakket grisekod koteletter herregaardskoteletter nakkekoteletter eller flaesk i skiver af dansk gris|pork_chop": {
       "stableProductKey": "v1|hakket grisekod koteletter herregaardskoteletter nakkekoteletter eller flaesk i skiver af dansk gris|pork_chop",
       "canonicalNames": [
@@ -23757,6 +25081,56 @@
           ],
           "validPeriods": [
             "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|hakket kalkunkod|turkey_minced": {
+      "stableProductKey": "v1|hakket kalkunkod|turkey_minced",
+      "canonicalNames": [
+        "Hakket kalkunkød"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_minced"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "sqmCzJid22brUO8a-EkB6": {
+          "sourceOfferId": "sqmCzJid22brUO8a-EkB6",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=38484b9065fb2495320cc7b24ac87696&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.4974&x2r=0.9911&y1r=0.2483&y2r=0.4609"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=38484b9065fb2495320cc7b24ac87696&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.4974&x2r=0.9911&y1r=0.2483&y2r=0.4609": {
+          "offerIds": [
+            "sqmCzJid22brUO8a-EkB6"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
           ]
         }
       },
@@ -25068,6 +26442,79 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|havblaa hel laksefilet med skind|salmon_fresh": {
+      "stableProductKey": "v1|havblaa hel laksefilet med skind|salmon_fresh",
+      "canonicalNames": [
+        "HAVBLÅ Hel laksefilet med skind"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "bSvKp8q98t7KMYFnYXX6x": {
+          "sourceOfferId": "bSvKp8q98t7KMYFnYXX6x",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=692e302254ecd11d574b92895aae160f&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.4838&x2r=0.9917&y1r=0.1486&y2r=0.4613"
+          ]
+        },
+        "y_AyN38KN_Lulz46m6UsN": {
+          "sourceOfferId": "y_AyN38KN_Lulz46m6UsN",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d3a8b709a2760a9fa5d817793204377a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.4986&x2r=0.9923&y1r=0.7171&y2r=0.9469"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=692e302254ecd11d574b92895aae160f&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.4838&x2r=0.9917&y1r=0.1486&y2r=0.4613": {
+          "offerIds": [
+            "bSvKp8q98t7KMYFnYXX6x"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=d3a8b709a2760a9fa5d817793204377a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.4986&x2r=0.9923&y1r=0.7171&y2r=0.9469": {
+          "offerIds": [
+            "y_AyN38KN_Lulz46m6UsN"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|havblaa laksefilet med skind|salmon": {
       "stableProductKey": "v1|havblaa laksefilet med skind|salmon",
       "canonicalNames": [
@@ -25118,6 +26565,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|havblaa laksefilet med skind|salmon_fresh": {
+      "stableProductKey": "v1|havblaa laksefilet med skind|salmon_fresh",
+      "canonicalNames": [
+        "HAVBLÅ Laksefilet med skind"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "zoje-rlit5RuCccqhLfEl": {
+          "sourceOfferId": "zoje-rlit5RuCccqhLfEl",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=51a21caa7a0d3dd718ef0818ca2b3767&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.4997&x2r=0.9875&y1r=0.4717&y2r=0.7116"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=51a21caa7a0d3dd718ef0818ca2b3767&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.4997&x2r=0.9875&y1r=0.4717&y2r=0.7116": {
+          "offerIds": [
+            "zoje-rlit5RuCccqhLfEl"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|havblaa laksefileter|salmon": {
       "stableProductKey": "v1|havblaa laksefileter|salmon",
       "canonicalNames": [
@@ -25128,6 +26625,79 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "5EgNnlPzGeLWMmhm0Lwti": {
+          "sourceOfferId": "5EgNnlPzGeLWMmhm0Lwti",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=3d625c1a05201bb15e90489456d40408&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.0068&x2r=0.4763&y1r=0.1317&y2r=0.4571"
+          ]
+        },
+        "YKdSWT7ooWk5_65te-hgS": {
+          "sourceOfferId": "YKdSWT7ooWk5_65te-hgS",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=674613e1754e12916d46ad8a0b609981&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.0128&x2r=0.506&y1r=0.7148&y2r=0.9465"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=3d625c1a05201bb15e90489456d40408&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.0068&x2r=0.4763&y1r=0.1317&y2r=0.4571": {
+          "offerIds": [
+            "5EgNnlPzGeLWMmhm0Lwti"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=674613e1754e12916d46ad8a0b609981&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-10.webp&x1r=0.0128&x2r=0.506&y1r=0.7148&y2r=0.9465": {
+          "offerIds": [
+            "YKdSWT7ooWk5_65te-hgS"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|havblaa laksefileter|salmon_fresh": {
+      "stableProductKey": "v1|havblaa laksefileter|salmon_fresh",
+      "canonicalNames": [
+        "HAVBLÅ Laksefileter"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
       ],
       "stores": [
         "lidl"
@@ -26416,6 +27986,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer": {
+      "stableProductKey": "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer",
+      "canonicalNames": [
+        "Højer chorizo brunchpølser eller Steff Houlberg bacon*"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "cjwGbKf9zXb9eClXv19Yi": {
+          "sourceOfferId": "cjwGbKf9zXb9eClXv19Yi",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=a4fed081b9138423860ed5b67c449640&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-8.webp&x1r=0&x2r=1&y1r=0.68&y2r=0.98"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=a4fed081b9138423860ed5b67c449640&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-8.webp&x1r=0&x2r=1&y1r=0.68&y2r=0.98": {
+          "offerIds": [
+            "cjwGbKf9zXb9eClXv19Yi"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|hojer chorizo brunchpolser eller steff houlberg bacon|sausages": {
       "stableProductKey": "v1|hojer chorizo brunchpolser eller steff houlberg bacon|sausages",
       "canonicalNames": [
@@ -27615,6 +29235,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|jensens pulled chicken eller spareribs|pork_mixed_offer": {
+      "stableProductKey": "v1|jensens pulled chicken eller spareribs|pork_mixed_offer",
+      "canonicalNames": [
+        "JENSENS Pulled chicken eller spareribs"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "6wMDblxkT669yqPhl1g7O": {
+          "sourceOfferId": "6wMDblxkT669yqPhl1g7O",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "1-7wVdKu"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94": {
+          "offerIds": [
+            "6wMDblxkT669yqPhl1g7O"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|jensens pulled chicken eller spareribs|pork_ribs": {
       "stableProductKey": "v1|jensens pulled chicken eller spareribs|pork_ribs",
       "canonicalNames": [
@@ -28761,6 +30431,79 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|kalkunbrystfilet|turkey_breast": {
+      "stableProductKey": "v1|kalkunbrystfilet|turkey_breast",
+      "canonicalNames": [
+        "Kalkunbrystfilet"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_breast"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "hz2WucuIbd6IwfhqGKwAE": {
+          "sourceOfferId": "hz2WucuIbd6IwfhqGKwAE",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "1-7wVdKu"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=b926685e28aa63a2aa1d93c67b742ad6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-4.webp&x1r=0.5&x2r=0.99&y1r=0.5&y2r=0.73"
+          ]
+        },
+        "zEhsBENTSee-ueS0ETQa6": {
+          "sourceOfferId": "zEhsBENTSee-ueS0ETQa6",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d156e46c228b24d3c8a10e44b0cfd706&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.5147&x2r=0.9923&y1r=0.7175&y2r=0.9452"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=b926685e28aa63a2aa1d93c67b742ad6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-4.webp&x1r=0.5&x2r=0.99&y1r=0.5&y2r=0.73": {
+          "offerIds": [
+            "hz2WucuIbd6IwfhqGKwAE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=d156e46c228b24d3c8a10e44b0cfd706&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.5147&x2r=0.9923&y1r=0.7175&y2r=0.9452": {
+          "offerIds": [
+            "zEhsBENTSee-ueS0ETQa6"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|kalkunbrystfilet|turkey_other": {
       "stableProductKey": "v1|kalkunbrystfilet|turkey_other",
       "canonicalNames": [
@@ -28844,6 +30587,56 @@
       ],
       "comparisonGroups": [
         "chicken_breast"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "f9t2HcTqWBRb7tArsvHuv": {
+          "sourceOfferId": "f9t2HcTqWBRb7tArsvHuv",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=72d15e2e3a4a359ab6f11d3d0ecaa35c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.0056&x2r=0.5098&y1r=0.7102&y2r=0.9461"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=72d15e2e3a4a359ab6f11d3d0ecaa35c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.0056&x2r=0.5098&y1r=0.7102&y2r=0.9461": {
+          "offerIds": [
+            "f9t2HcTqWBRb7tArsvHuv"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|kalkunoverlaar eller schnitzel af brystfilet|turkey_mixed_offer": {
+      "stableProductKey": "v1|kalkunoverlaar eller schnitzel af brystfilet|turkey_mixed_offer",
+      "canonicalNames": [
+        "Kalkunoverlår eller -schnitzel af brystfilet"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_mixed_offer"
       ],
       "stores": [
         "lidl"
@@ -28984,6 +30777,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|kalkunschnitzler af brystfilet|turkey_breast": {
+      "stableProductKey": "v1|kalkunschnitzler af brystfilet|turkey_breast",
+      "canonicalNames": [
+        "Kalkunschnitzler af brystfilet"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_breast"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "8a2Uoo_ifsNYVB25n8LaZ": {
+          "sourceOfferId": "8a2Uoo_ifsNYVB25n8LaZ",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d23d65d11e8cc0be9e9a4dc3f6f54a0c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-3.webp&x1r=0.015&x2r=0.49&y1r=0.69&y2r=0.95"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d23d65d11e8cc0be9e9a4dc3f6f54a0c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-3.webp&x1r=0.015&x2r=0.49&y1r=0.69&y2r=0.95": {
+          "offerIds": [
+            "8a2Uoo_ifsNYVB25n8LaZ"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|kalkunschnitzler af brystfilet|turkey_other": {
       "stableProductKey": "v1|kalkunschnitzler af brystfilet|turkey_other",
       "canonicalNames": [
@@ -29044,6 +30887,56 @@
       ],
       "comparisonGroups": [
         "chicken_breast"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "na6fp5MfsSGQ6qCF4G8pF": {
+          "sourceOfferId": "na6fp5MfsSGQ6qCF4G8pF",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=20a73d684b66499aa21b706f193b977d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.0074&x2r=0.504&y1r=0.1039&y2r=0.4635"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=20a73d684b66499aa21b706f193b977d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.0074&x2r=0.504&y1r=0.1039&y2r=0.4635": {
+          "offerIds": [
+            "na6fp5MfsSGQ6qCF4G8pF"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|kalkunstrimler af brystfilet|turkey_breast": {
+      "stableProductKey": "v1|kalkunstrimler af brystfilet|turkey_breast",
+      "canonicalNames": [
+        "Kalkunstrimler af brystfilet"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_breast"
       ],
       "stores": [
         "lidl"
@@ -29174,6 +31067,106 @@
           ],
           "validPeriods": [
             "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|kalkununderlaar|turkey_thigh": {
+      "stableProductKey": "v1|kalkununderlaar|turkey_thigh",
+      "canonicalNames": [
+        "Kalkununderlår"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "turkey_thigh"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "PoZnSfQPeSseG_9RNQm74": {
+          "sourceOfferId": "PoZnSfQPeSseG_9RNQm74",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=ec0e9a7abb4c7f2ffa2d494321391d68&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.0262&x2r=0.5073&y1r=0.4691&y2r=0.7104"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=ec0e9a7abb4c7f2ffa2d494321391d68&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&x1r=0.0262&x2r=0.5073&y1r=0.4691&y2r=0.7104": {
+          "offerIds": [
+            "PoZnSfQPeSseG_9RNQm74"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer": {
+      "stableProductKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer",
+      "canonicalNames": [
+        "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "DDPfydxp3Pug8Ar-o3XjR": {
+          "sourceOfferId": "DDPfydxp3Pug8Ar-o3XjR",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=75fd860a983ac2c19a4b10381a14558b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&x1r=0.03&x2r=1&y1r=0&y2r=0.63"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=75fd860a983ac2c19a4b10381a14558b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&x1r=0.03&x2r=1&y1r=0&y2r=0.63": {
+          "offerIds": [
+            "DDPfydxp3Pug8Ar-o3XjR"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
           ]
         }
       },
@@ -33887,6 +35880,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|kyllingelaar spyd eller udbenede kyllingeoverlaar|chicken_mixed_offer": {
+      "stableProductKey": "v1|kyllingelaar spyd eller udbenede kyllingeoverlaar|chicken_mixed_offer",
+      "canonicalNames": [
+        "Kyllingelår, -spyd eller udbenede kyllingeoverlår"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "chicken_mixed_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "XZCylujpWOiNpBm-ziw1d": {
+          "sourceOfferId": "XZCylujpWOiNpBm-ziw1d",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=fae9701e23589263da6e8bb783f0cc6e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.484&x2r=1&y1r=0.152&y2r=0.57"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=fae9701e23589263da6e8bb783f0cc6e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.484&x2r=1&y1r=0.152&y2r=0.57": {
+          "offerIds": [
+            "XZCylujpWOiNpBm-ziw1d"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|kyllingelaar spyd eller udbenede kyllingeoverlaar|chicken_thigh": {
       "stableProductKey": "v1|kyllingelaar spyd eller udbenede kyllingeoverlaar|chicken_thigh",
       "canonicalNames": [
@@ -34545,6 +36588,80 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "bilka",
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "TqTEv6X1ZCHbdosnESUlh": {
+          "sourceOfferId": "TqTEv6X1ZCHbdosnESUlh",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6a208ef58d6f7529363a87ddfe8aca82&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&x1r=0.584&x2r=0.771&y1r=0.619&y2r=0.978"
+          ]
+        },
+        "TZf5xySn7Oj0wEy7DejvN": {
+          "sourceOfferId": "TZf5xySn7Oj0wEy7DejvN",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=b247e3b5f48d5197ddba267645b7d350&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.275&x2r=0.985&y1r=0.265&y2r=0.715"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=6a208ef58d6f7529363a87ddfe8aca82&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&x1r=0.584&x2r=0.771&y1r=0.619&y2r=0.978": {
+          "offerIds": [
+            "TqTEv6X1ZCHbdosnESUlh"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=b247e3b5f48d5197ddba267645b7d350&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.275&x2r=0.985&y1r=0.265&y2r=0.715": {
+          "offerIds": [
+            "TZf5xySn7Oj0wEy7DejvN"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|laksestykke|salmon_fresh": {
+      "stableProductKey": "v1|laksestykke|salmon_fresh",
+      "canonicalNames": [
+        "Laksestykke"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
       ],
       "stores": [
         "bilka",
@@ -37713,6 +39830,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|madvaerket entrecote|beef_ribeye": {
+      "stableProductKey": "v1|madvaerket entrecote|beef_ribeye",
+      "canonicalNames": [
+        "MADVÆRKET Entrecote"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "6kCFe6FaURFtLthwsQ2pi": {
+          "sourceOfferId": "6kCFe6FaURFtLthwsQ2pi",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d39506050bcc3a9345440e3c07855a73&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.5122&x2r=0.9991&y1r=0.4604&y2r=0.9426"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d39506050bcc3a9345440e3c07855a73&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.5122&x2r=0.9991&y1r=0.4604&y2r=0.9426": {
+          "offerIds": [
+            "6kCFe6FaURFtLthwsQ2pi"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|madvaerket entrecote|beef_steak": {
       "stableProductKey": "v1|madvaerket entrecote|beef_steak",
       "canonicalNames": [
@@ -38336,6 +40503,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|madvaerket hakket gris og kalv eller hakket gris|mixed_minced": {
+      "stableProductKey": "v1|madvaerket hakket gris og kalv eller hakket gris|mixed_minced",
+      "canonicalNames": [
+        "MADVÆRKET Hakket gris og kalv eller hakket gris"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "mixed_minced"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "T2Gd671iM7Ws4tm71copu": {
+          "sourceOfferId": "T2Gd671iM7Ws4tm71copu",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "1-7wVdKu"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=5a377a48ab1062a23b2fec0fb16904a3&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-17.webp&x1r=0.015&x2r=0.495&y1r=0.265&y2r=0.495"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=5a377a48ab1062a23b2fec0fb16904a3&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-17.webp&x1r=0.015&x2r=0.495&y1r=0.265&y2r=0.495": {
+          "offerIds": [
+            "T2Gd671iM7Ws4tm71copu"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|madvaerket hakket gris og kalv eller hakket gris|pork_minced": {
       "stableProductKey": "v1|madvaerket hakket gris og kalv eller hakket gris|pork_minced",
       "canonicalNames": [
@@ -38382,6 +40599,79 @@
       "evidence": {
         "distinctSourceOfferIdCount": 1,
         "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|madvaerket hakket grise og kalvekod|mixed_minced": {
+      "stableProductKey": "v1|madvaerket hakket grise og kalvekod|mixed_minced",
+      "canonicalNames": [
+        "MADVÆRKET Hakket grise- og kalvekød"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "mixed_minced"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "KO2Zy0Qt4goj-BxZw3iZ-": {
+          "sourceOfferId": "KO2Zy0Qt4goj-BxZw3iZ-",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=83d9a464e64d253c88264b22254f6f61&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-8.webp&x1r=0.4816&x2r=0.9922&y1r=0.4674&y2r=0.7098"
+          ]
+        },
+        "usE3VbrGMfcmewYKtH-15": {
+          "sourceOfferId": "usE3VbrGMfcmewYKtH-15",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=3b856d960d331b807d35522b51db086a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-8.webp&x1r=0.1743&x2r=0.9529&y1r=0.1049&y2r=0.4568"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=3b856d960d331b807d35522b51db086a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-8.webp&x1r=0.1743&x2r=0.9529&y1r=0.1049&y2r=0.4568": {
+          "offerIds": [
+            "usE3VbrGMfcmewYKtH-15"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=83d9a464e64d253c88264b22254f6f61&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-8.webp&x1r=0.4816&x2r=0.9922&y1r=0.4674&y2r=0.7098": {
+          "offerIds": [
+            "KO2Zy0Qt4goj-BxZw3iZ-"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -39340,6 +41630,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|madvaerket kyllingevinger laarfilet underlaar eller overlaar med ryg|chicken_mixed_offer": {
+      "stableProductKey": "v1|madvaerket kyllingevinger laarfilet underlaar eller overlaar med ryg|chicken_mixed_offer",
+      "canonicalNames": [
+        "MADVÆRKET Kyllingevinger, -lårfilet, -underlår eller -overlår med ryg"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "chicken_mixed_offer"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "XscKSzBMnq2xx9YnjERRj": {
+          "sourceOfferId": "XscKSzBMnq2xx9YnjERRj",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2063f981fa34cba06c352962104695a2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&x1r=0.0094&x2r=0.5218&y1r=0.4598&y2r=0.9461"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2063f981fa34cba06c352962104695a2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&x1r=0.0094&x2r=0.5218&y1r=0.4598&y2r=0.9461": {
+          "offerIds": [
+            "XscKSzBMnq2xx9YnjERRj"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|madvaerket kyllingevinger laarfilet underlaar eller overlaar med ryg|chicken_other": {
       "stableProductKey": "v1|madvaerket kyllingevinger laarfilet underlaar eller overlaar med ryg|chicken_other",
       "canonicalNames": [
@@ -40082,6 +42422,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|madvaerket ribeyefilet|beef_ribeye": {
+      "stableProductKey": "v1|madvaerket ribeyefilet|beef_ribeye",
+      "canonicalNames": [
+        "MADVÆRKET Ribeyefilet"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "boMuq3oXcyGGmNh-9rplS": {
+          "sourceOfferId": "boMuq3oXcyGGmNh-9rplS",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=bba918990cf219fb834d9ee018fe5d14&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0107&x2r=0.4801&y1r=0.0761&y2r=0.4609"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=bba918990cf219fb834d9ee018fe5d14&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0107&x2r=0.4801&y1r=0.0761&y2r=0.4609": {
+          "offerIds": [
+            "boMuq3oXcyGGmNh-9rplS"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|madvaerket ribeyefilet|beef_steak": {
       "stableProductKey": "v1|madvaerket ribeyefilet|beef_steak",
       "canonicalNames": [
@@ -40119,6 +42509,56 @@
         "https://image-transformer-api.tjek.com/?s=bba918990cf219fb834d9ee018fe5d14&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0107&x2r=0.4801&y1r=0.0761&y2r=0.4609": {
           "offerIds": [
             "boMuq3oXcyGGmNh-9rplS"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|madvaerket ribeyesteaks|beef_ribeye": {
+      "stableProductKey": "v1|madvaerket ribeyesteaks|beef_ribeye",
+      "canonicalNames": [
+        "MADVÆRKET Ribeyesteaks"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "ubmHkgV6Y382vAczOaQSf": {
+          "sourceOfferId": "ubmHkgV6Y382vAczOaQSf",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=72f3993acaac880caae8b3dcb63bc798&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.4934&x2r=0.9809&y1r=0.1033&y2r=0.4561"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=72f3993acaac880caae8b3dcb63bc798&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.4934&x2r=0.9809&y1r=0.1033&y2r=0.4561": {
+          "offerIds": [
+            "ubmHkgV6Y382vAczOaQSf"
           ],
           "validPeriods": [
             "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
@@ -40542,6 +42982,56 @@
         "https://image-transformer-api.tjek.com/?s=c30636a1bb213678bf0810165e51fea8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&x1r=0.4914&x2r=0.9935&y1r=0.0459&y2r=0.4624": {
           "offerIds": [
             "rF4s7_mzz8dsPhX6h2E_x"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|madvaerket tykstegsboffer|beef_rump_steak": {
+      "stableProductKey": "v1|madvaerket tykstegsboffer|beef_rump_steak",
+      "canonicalNames": [
+        "MADVÆRKET Tykstegsbøffer"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_rump_steak"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "qsXadeF3Ja9gTl4gHGPBj": {
+          "sourceOfferId": "qsXadeF3Ja9gTl4gHGPBj",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=a49718f521279ba9a1bf29f6d429d3f4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&x1r=0.4944&x2r=0.9945&y1r=0.7117&y2r=0.9465"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=a49718f521279ba9a1bf29f6d429d3f4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&x1r=0.4944&x2r=0.9945&y1r=0.7117&y2r=0.9465": {
+          "offerIds": [
+            "qsXadeF3Ja9gTl4gHGPBj"
           ],
           "validPeriods": [
             "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
@@ -42424,6 +44914,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|marinerede flanksteak|beef_flat_steak": {
+      "stableProductKey": "v1|marinerede flanksteak|beef_flat_steak",
+      "canonicalNames": [
+        "Marinerede flanksteak"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_flat_steak"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "XMl27sECgiviGnMT3BbJn": {
+          "sourceOfferId": "XMl27sECgiviGnMT3BbJn",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=f5197cd8fea955e5672d79ef676f4685&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.38&x2r=0.7&y1r=0.7&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=f5197cd8fea955e5672d79ef676f4685&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.38&x2r=0.7&y1r=0.7&y2r=0.96": {
+          "offerIds": [
+            "XMl27sECgiviGnMT3BbJn"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|marinerede flanksteak|beef_steak": {
       "stableProductKey": "v1|marinerede flanksteak|beef_steak",
       "canonicalNames": [
@@ -42534,6 +45074,56 @@
       ],
       "comparisonGroups": [
         "pork_chop"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "GDrMzGx7hGx-u_svsr22E": {
+          "sourceOfferId": "GDrMzGx7hGx-u_svsr22E",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6295cf84e81b3b3167d453f0862454ca&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=6295cf84e81b3b3167d453f0862454ca&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47": {
+          "offerIds": [
+            "GDrMzGx7hGx-u_svsr22E"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer": {
+      "stableProductKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer",
+      "canonicalNames": [
+        "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
       ],
       "stores": [
         "bilka"
@@ -43125,6 +45715,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|mesterhakket grise eller oksekod|mixed_minced": {
+      "stableProductKey": "v1|mesterhakket grise eller oksekod|mixed_minced",
+      "canonicalNames": [
+        "MesterHakket grise eller oksekød"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "mixed_minced"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "HssOBhIibCOHsfAXeIv_g": {
+          "sourceOfferId": "HssOBhIibCOHsfAXeIv_g",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=aa3e49a5e02e110bf23be22ecc5ea428&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-9.webp&x1r=0.03&x2r=0.97&y1r=0.13&y2r=0.42"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=aa3e49a5e02e110bf23be22ecc5ea428&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-9.webp&x1r=0.03&x2r=0.97&y1r=0.13&y2r=0.42": {
+          "offerIds": [
+            "HssOBhIibCOHsfAXeIv_g"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|mesterhakket grise eller oksekod|pork_minced": {
       "stableProductKey": "v1|mesterhakket grise eller oksekod|pork_minced",
       "canonicalNames": [
@@ -43362,6 +46002,56 @@
         "https://image-transformer-api.tjek.com/?s=0289981b1b09867d7e0dd3a50acd18aa&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&x1r=0.256&x2r=0.485&y1r=0.326&y2r=0.609": {
           "offerIds": [
             "wgxh3uBh0agKEkvAVduqI"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|mignon af oksetyksteg|beef_rump_steak": {
+      "stableProductKey": "v1|mignon af oksetyksteg|beef_rump_steak",
+      "canonicalNames": [
+        "Mignon af oksetyksteg"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_rump_steak"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "4aOKkvYrPIHzYF95m6FR6": {
+          "sourceOfferId": "4aOKkvYrPIHzYF95m6FR6",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=14c544d1304283c86d0f0b23f5a92575&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&x1r=0&x2r=0.515&y1r=0.019&y2r=0.323"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=14c544d1304283c86d0f0b23f5a92575&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&x1r=0&x2r=0.515&y1r=0.019&y2r=0.323": {
+          "offerIds": [
+            "4aOKkvYrPIHzYF95m6FR6"
           ],
           "validPeriods": [
             "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
@@ -45736,6 +48426,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|morbrad eller nakkefilet af gris|pork_mixed_offer": {
+      "stableProductKey": "v1|morbrad eller nakkefilet af gris|pork_mixed_offer",
+      "canonicalNames": [
+        "Mørbrad eller nakkefilet af gris"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "nCOqpS_fjq-MCE0A0iR5c": {
+          "sourceOfferId": "nCOqpS_fjq-MCE0A0iR5c",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=37dfaefb7374686403231e1d4389f329&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-9.webp&x1r=0.022&x2r=0.339&y1r=0.638&y2r=0.957"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=37dfaefb7374686403231e1d4389f329&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-9.webp&x1r=0.022&x2r=0.339&y1r=0.638&y2r=0.957": {
+          "offerIds": [
+            "nCOqpS_fjq-MCE0A0iR5c"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|morbrad eller nakkefilet af gris|pork_roast": {
       "stableProductKey": "v1|morbrad eller nakkefilet af gris|pork_roast",
       "canonicalNames": [
@@ -46198,6 +48938,56 @@
       ],
       "comparisonGroups": [
         "pork_chop"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "1KLK4YtVRzBwayGotG4gF": {
+          "sourceOfferId": "1KLK4YtVRzBwayGotG4gF",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=7782cb31163387467d5c94c4072dd710&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-4.webp&x1r=0.33&x2r=0.945&y1r=0.468&y2r=0.725"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=7782cb31163387467d5c94c4072dd710&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-4.webp&x1r=0.33&x2r=0.945&y1r=0.468&y2r=0.725": {
+          "offerIds": [
+            "1KLK4YtVRzBwayGotG4gF"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|nakkefilet eller morbrad af dansk gris|pork_mixed_offer": {
+      "stableProductKey": "v1|nakkefilet eller morbrad af dansk gris|pork_mixed_offer",
+      "canonicalNames": [
+        "Nakkefilet eller mørbrad af dansk gris"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -50491,6 +53281,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|okseribeye|beef_ribeye": {
+      "stableProductKey": "v1|okseribeye|beef_ribeye",
+      "canonicalNames": [
+        "Okseribeye"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:48:55.799Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "CPWV4syxFSwGQCj6QPmXx": {
+          "sourceOfferId": "CPWV4syxFSwGQCj6QPmXx",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "1-7wVdKu"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=7e76d0f8fb9f510bc59463aaa7a46454&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-4.webp&x1r=0.02&x2r=0.48&y1r=0.16&y2r=0.49"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=7e76d0f8fb9f510bc59463aaa7a46454&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-4.webp&x1r=0.02&x2r=0.48&y1r=0.16&y2r=0.49": {
+          "offerIds": [
+            "CPWV4syxFSwGQCj6QPmXx"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|okseribeye|beef_steak": {
       "stableProductKey": "v1|okseribeye|beef_steak",
       "canonicalNames": [
@@ -50924,6 +53764,56 @@
       ],
       "comparisonGroups": [
         "bacon_deli"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "v-DUQ9GXkQNNBZZWl6G2h": {
+          "sourceOfferId": "v-DUQ9GXkQNNBZZWl6G2h",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2adc3114ccfbb11844ce94acaa00f213&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2adc3114ccfbb11844ce94acaa00f213&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958": {
+          "offerIds": [
+            "v-DUQ9GXkQNNBZZWl6G2h"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer": {
+      "stableProductKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer",
+      "canonicalNames": [
+        "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -53634,6 +56524,106 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|premieur varmroget laks|salmon_smoked": {
+      "stableProductKey": "v1|premieur varmroget laks|salmon_smoked",
+      "canonicalNames": [
+        "Premieur varmrøget laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_smoked"
+      ],
+      "stores": [
+        "netto"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-24T21:59:59+0000",
+      "offerIds": {
+        "4M8RIGOj9TjnKihf_n9kP": {
+          "sourceOfferId": "4M8RIGOj9TjnKihf_n9kP",
+          "stores": [
+            "netto"
+          ],
+          "catalogIds": [
+            "xg_2XUk5"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=63f4b48d32267b4a83934326b8e44deb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&x1r=0.015&x2r=0.54&y1r=0.16&y2r=0.42"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=63f4b48d32267b4a83934326b8e44deb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&x1r=0.015&x2r=0.54&y1r=0.16&y2r=0.42": {
+          "offerIds": [
+            "4M8RIGOj9TjnKihf_n9kP"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|premium ribeye|beef_ribeye": {
+      "stableProductKey": "v1|premium ribeye|beef_ribeye",
+      "canonicalNames": [
+        "PremiuM ribeye"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "GdxfFApOtnG9pliL-mive": {
+          "sourceOfferId": "GdxfFApOtnG9pliL-mive",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "AY2BWM5m"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=a5752fb6264604029821eda9a9b8276e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fce4e4a4bb46b772b08f0a281078a27a1"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=a5752fb6264604029821eda9a9b8276e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fce4e4a4bb46b772b08f0a281078a27a1": {
+          "offerIds": [
+            "GdxfFApOtnG9pliL-mive"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|premium ribeye|beef_steak": {
       "stableProductKey": "v1|premium ribeye|beef_steak",
       "canonicalNames": [
@@ -53671,6 +56661,56 @@
         "https://image-transformer-api.tjek.com/?s=a5752fb6264604029821eda9a9b8276e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fce4e4a4bb46b772b08f0a281078a27a1": {
           "offerIds": [
             "GdxfFApOtnG9pliL-mive"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|premium roastbeef eller steak|beef_mixed_offer": {
+      "stableProductKey": "v1|premium roastbeef eller steak|beef_mixed_offer",
+      "canonicalNames": [
+        "PremiuM roastbeef eller steak"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "HVX-UGs7c2mVNJxZ36bk4": {
+          "sourceOfferId": "HVX-UGs7c2mVNJxZ36bk4",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "uw0HW5Gt"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=07a99d70f56104cb1437563fe66583b4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-18.webp&x1r=0.4&x2r=0.97&y1r=0.54&y2r=0.74"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=07a99d70f56104cb1437563fe66583b4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-18.webp&x1r=0.4&x2r=0.97&y1r=0.54&y2r=0.74": {
+          "offerIds": [
+            "HVX-UGs7c2mVNJxZ36bk4"
           ],
           "validPeriods": [
             "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
@@ -54785,6 +57825,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "zcDfXxOfBjH0b8NaZIfF_": {
+          "sourceOfferId": "zcDfXxOfBjH0b8NaZIfF_",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "UwjGOlW-"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=9caaceb1dc82e14e31c5fedf188f76db&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=9caaceb1dc82e14e31c5fedf188f76db&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665": {
+          "offerIds": [
+            "zcDfXxOfBjH0b8NaZIfF_"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_roast": {
       "stableProductKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_roast",
       "canonicalNames": [
@@ -55031,6 +58121,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|rema 1000 dansk laksefilet|salmon_fresh": {
+      "stableProductKey": "v1|rema 1000 dansk laksefilet|salmon_fresh",
+      "canonicalNames": [
+        "REMA 1000 Dansk laksefilet"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "kWqsWchkz_bV0YnW59T9z": {
+          "sourceOfferId": "kWqsWchkz_bV0YnW59T9z",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=555d3fdef5d70e2a0709096ed96cbc27&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&x1r=0.036&x2r=0.52&y1r=0.475&y2r=0.655"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=555d3fdef5d70e2a0709096ed96cbc27&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&x1r=0.036&x2r=0.52&y1r=0.475&y2r=0.655": {
+          "offerIds": [
+            "kWqsWchkz_bV0YnW59T9z"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|rema 1000 dansk rodfiskfilet kullerloins eller rodspaettefileter|white_fish": {
       "stableProductKey": "v1|rema 1000 dansk rodfiskfilet kullerloins eller rodspaettefileter|white_fish",
       "canonicalNames": [
@@ -55121,6 +58261,56 @@
           ],
           "validPeriods": [
             "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|rema 1000 danske kalvesteaks eller hojrebsboffer|beef_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 danske kalvesteaks eller hojrebsboffer|beef_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 Danske kalvesteaks eller højrebsbøffer"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "MVIlslHkXrQjJFPDW-c9D": {
+          "sourceOfferId": "MVIlslHkXrQjJFPDW-c9D",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=f2d718e12fb22456729912786001f9dc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-8.webp&x1r=0.035&x2r=0.495&y1r=0.575&y2r=0.775"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=f2d718e12fb22456729912786001f9dc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-8.webp&x1r=0.035&x2r=0.495&y1r=0.575&y2r=0.775": {
+          "offerIds": [
+            "MVIlslHkXrQjJFPDW-c9D"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ]
         }
       },
@@ -55291,6 +58481,56 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "3JxDvp5x1ZO94gL8_MKAf": {
+          "sourceOfferId": "3JxDvp5x1ZO94gL8_MKAf",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2f84b090249d7e20894d0f5f29996f09&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&x1r=0&x2r=0.52&y1r=0.567&y2r=0.73"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2f84b090249d7e20894d0f5f29996f09&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&x1r=0&x2r=0.52&y1r=0.567&y2r=0.73": {
+          "offerIds": [
+            "3JxDvp5x1ZO94gL8_MKAf"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|rema 1000 danske laksefileter|salmon_fresh": {
+      "stableProductKey": "v1|rema 1000 danske laksefileter|salmon_fresh",
+      "canonicalNames": [
+        "REMA 1000 Danske laksefileter"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_fresh"
       ],
       "stores": [
         "rema"
@@ -56294,6 +59534,56 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "yGcCZlH2YQ4-IW7-E6HZH": {
+          "sourceOfferId": "yGcCZlH2YQ4-IW7-E6HZH",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "UwjGOlW-"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=b41d3f644c836a2821d0e5deb44327b2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-5.webp&x1r=0&x2r=1&y1r=0&y2r=0.468"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=b41d3f644c836a2821d0e5deb44327b2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-5.webp&x1r=0&x2r=1&y1r=0&y2r=0.468": {
+          "offerIds": [
+            "yGcCZlH2YQ4-IW7-E6HZH"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|rema 1000 havtaskefileter eller laksefilet|seafood_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 havtaskefileter eller laksefilet|seafood_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 Havtaskefileter eller laksefilet"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
       ],
       "stores": [
         "rema"
@@ -57510,6 +60800,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|rema 1000 roget eller gravad laks|salmon_smoked": {
+      "stableProductKey": "v1|rema 1000 roget eller gravad laks|salmon_smoked",
+      "canonicalNames": [
+        "REMA 1000 Røget eller gravad laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_smoked"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "sjOrY7yLX-M-NmdDUUdVn": {
+          "sourceOfferId": "sjOrY7yLX-M-NmdDUUdVn",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d912fedc0032e9e74f733af46cce4fba&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-3.webp&x1r=0.66&x2r=0.96&y1r=0.73&y2r=0.99"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d912fedc0032e9e74f733af46cce4fba&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-3.webp&x1r=0.66&x2r=0.96&y1r=0.73&y2r=0.99": {
+          "offerIds": [
+            "sjOrY7yLX-M-NmdDUUdVn"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|rema 1000 rokkedahl fritgaaende hel kylling|whole_chicken": {
       "stableProductKey": "v1|rema 1000 rokkedahl fritgaaende hel kylling|whole_chicken",
       "canonicalNames": [
@@ -58010,6 +61350,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|rema 1000 supreme striploin eller ribeye roast|beef_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 SUPREME Striploin eller ribeye roast"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "ONplGMvceKDP0icpmnRid": {
+          "sourceOfferId": "ONplGMvceKDP0icpmnRid",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "UwjGOlW-"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=a6f30b43edf4669692e454f107a215a6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&x1r=0.49&x2r=1&y1r=0.52&y2r=1"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=a6f30b43edf4669692e454f107a215a6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&x1r=0.49&x2r=1&y1r=0.52&y2r=1": {
+          "offerIds": [
+            "ONplGMvceKDP0icpmnRid"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|rema 1000 supreme striploin eller ribeye roast|beef_roast": {
       "stableProductKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_roast",
       "canonicalNames": [
@@ -58097,6 +61487,56 @@
         "https://image-transformer-api.tjek.com/?s=a6f30b43edf4669692e454f107a215a6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&x1r=0.49&x2r=1&y1r=0.52&y2r=1": {
           "offerIds": [
             "ONplGMvceKDP0icpmnRid"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 supreme striploin ribeye eller rumpsteak|beef_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 SUPREME Striploin, ribeye eller rumpsteak"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "5Rk9C5_5zPgS5JmQecO6p": {
+          "sourceOfferId": "5Rk9C5_5zPgS5JmQecO6p",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "UwjGOlW-"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=fd8a762e7798d445ee55b31eb6e6234b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&x1r=0&x2r=0.5&y1r=0.07&y2r=0.69"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=fd8a762e7798d445ee55b31eb6e6234b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&x1r=0&x2r=0.5&y1r=0.07&y2r=0.69": {
+          "offerIds": [
+            "5Rk9C5_5zPgS5JmQecO6p"
           ],
           "validPeriods": [
             "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
@@ -58360,6 +61800,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 Vannameirejer, tunsteaks eller butterflyrejer"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "nDWgXHz5DxeTlEG7t-9Jh": {
+          "sourceOfferId": "nDWgXHz5DxeTlEG7t-9Jh",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=a028a06c1ce46047aca44526de323581&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-11.webp&x1r=0&x2r=0.48&y1r=0.47&y2r=0.74"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=a028a06c1ce46047aca44526de323581&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-11.webp&x1r=0&x2r=0.48&y1r=0.47&y2r=0.74": {
+          "offerIds": [
+            "nDWgXHz5DxeTlEG7t-9Jh"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_other": {
       "stableProductKey": "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_other",
       "canonicalNames": [
@@ -58450,6 +61940,56 @@
           ],
           "validPeriods": [
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|rema 1000 wings nuggets eller kitchen joy spyd|chicken_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 wings nuggets eller kitchen joy spyd|chicken_mixed_offer",
+      "canonicalNames": [
+        "REMA 1000 wings, nuggets eller Kitchen Joy spyd"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "chicken_mixed_offer"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:48:55.799Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "6GZ5XJ2JfIB3kMUwfcoGx": {
+          "sourceOfferId": "6GZ5XJ2JfIB3kMUwfcoGx",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "souTv7Dv"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=03d45343c01f8c87c389909e61cd27fb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-1.webp&x1r=0&x2r=0.89&y1r=0.485&y2r=1"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=03d45343c01f8c87c389909e61cd27fb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-1.webp&x1r=0&x2r=0.89&y1r=0.485&y2r=1": {
+          "offerIds": [
+            "6GZ5XJ2JfIB3kMUwfcoGx"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
           ]
         }
       },
@@ -59111,6 +62651,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|ribeyes eller entrecotes af dansk kalv|beef_ribeye": {
+      "stableProductKey": "v1|ribeyes eller entrecotes af dansk kalv|beef_ribeye",
+      "canonicalNames": [
+        "Ribeyes eller entrecotes af dansk kalv"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "uXW_8MpLNkJdixVeJGZ2I": {
+          "sourceOfferId": "uXW_8MpLNkJdixVeJGZ2I",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=c05a69c91d52a3f9c07b2e842b21a22e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.35&x2r=0.65&y1r=0.47&y2r=0.74"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=c05a69c91d52a3f9c07b2e842b21a22e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.35&x2r=0.65&y1r=0.47&y2r=0.74": {
+          "offerIds": [
+            "uXW_8MpLNkJdixVeJGZ2I"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|ribeyes eller entrecotes af dansk kalv|beef_steak": {
       "stableProductKey": "v1|ribeyes eller entrecotes af dansk kalv|beef_steak",
       "canonicalNames": [
@@ -59248,6 +62838,56 @@
         "https://image-transformer-api.tjek.com/?s=1da63462f4de0665691a7e729323bda1&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-47.webp&x1r=0.014&x2r=0.314&y1r=0.408&y2r=0.652": {
           "offerIds": [
             "K2d7zuXbRxmTcHUxRTCsq"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|roastbeef eller mignon af okse|beef_mixed_offer": {
+      "stableProductKey": "v1|roastbeef eller mignon af okse|beef_mixed_offer",
+      "canonicalNames": [
+        "Roastbeef eller mignon af okse"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_mixed_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "wQ33DiBXdWoYwOmf3is15": {
+          "sourceOfferId": "wQ33DiBXdWoYwOmf3is15",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=87e6f1f8caa31181bf242e537f49a677&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.7&x2r=0.99&y1r=0.7&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=87e6f1f8caa31181bf242e537f49a677&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.7&x2r=0.99&y1r=0.7&y2r=0.96": {
+          "offerIds": [
+            "wQ33DiBXdWoYwOmf3is15"
           ],
           "validPeriods": [
             "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
@@ -59721,6 +63361,56 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:48:55.799Z",
+      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
+      "offerIds": {
+        "Gi2WPz7qIucWyYO2r7V7o": {
+          "sourceOfferId": "Gi2WPz7qIucWyYO2r7V7o",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "1-7wVdKu"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=8a50d2942ca4d46542cddf09709bcdb8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&x1r=0.01&x2r=0.49&y1r=0.12&y2r=0.51"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=8a50d2942ca4d46542cddf09709bcdb8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&x1r=0.01&x2r=0.49&y1r=0.12&y2r=0.51": {
+          "offerIds": [
+            "Gi2WPz7qIucWyYO2r7V7o"
+          ],
+          "validPeriods": [
+            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|roget eller gravad laks|salmon_smoked": {
+      "stableProductKey": "v1|roget eller gravad laks|salmon_smoked",
+      "canonicalNames": [
+        "Røget eller gravad laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_smoked"
       ],
       "stores": [
         "lidl"
@@ -60311,6 +64001,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|rossini laks eller diskobay kutterrejer|seafood_mixed_offer": {
+      "stableProductKey": "v1|rossini laks eller diskobay kutterrejer|seafood_mixed_offer",
+      "canonicalNames": [
+        "Rossini laks eller Diskobay kutterrejer"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "UZopV5TsfO16ZBNMy_ADS": {
+          "sourceOfferId": "UZopV5TsfO16ZBNMy_ADS",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "AY2BWM5m"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=64abaaed145a9ba43a48239d29c0cce2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fd6fa68ed7f187aa92157100e07945097"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=64abaaed145a9ba43a48239d29c0cce2&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fd6fa68ed7f187aa92157100e07945097": {
+          "offerIds": [
+            "UZopV5TsfO16ZBNMy_ADS"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|saeby makrel|white_fish": {
       "stableProductKey": "v1|saeby makrel|white_fish",
       "canonicalNames": [
@@ -60361,6 +64101,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|sagra butchers butterfly eller yellow poussin|other_poultry": {
+      "stableProductKey": "v1|sagra butchers butterfly eller yellow poussin|other_poultry",
+      "canonicalNames": [
+        "SAGRA/BUTCHERS Butterfly- eller yellow poussin"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "other_poultry"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "pySbVpC1mIISi6QSwFi2t": {
+          "sourceOfferId": "pySbVpC1mIISi6QSwFi2t",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=15cecf46236049523e08bfa1cddb40f6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&x1r=0.512&x2r=0.985&y1r=0.009&y2r=0.292"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=15cecf46236049523e08bfa1cddb40f6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&x1r=0.512&x2r=0.985&y1r=0.009&y2r=0.292": {
+          "offerIds": [
+            "pySbVpC1mIISi6QSwFi2t"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|sagra butchers butterfly eller yellow poussin|turkey_other": {
       "stableProductKey": "v1|sagra butchers butterfly eller yellow poussin|turkey_other",
       "canonicalNames": [
@@ -60401,6 +64191,56 @@
           ],
           "validPeriods": [
             "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|sagyu t bone eller cote de boeuf|beef_bone_steak": {
+      "stableProductKey": "v1|sagyu t bone eller cote de boeuf|beef_bone_steak",
+      "canonicalNames": [
+        "Sagyu T-bone eller Cote de Boeuf"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_bone_steak"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "y76R5eSZpmk2_p7p8l9WA": {
+          "sourceOfferId": "y76R5eSZpmk2_p7p8l9WA",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=4a1457885ad58aa3c566c4a489c9b6ed&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.28&x2r=0.99&y1r=0.02&y2r=0.7"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=4a1457885ad58aa3c566c4a489c9b6ed&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.28&x2r=0.99&y1r=0.02&y2r=0.7": {
+          "offerIds": [
+            "y76R5eSZpmk2_p7p8l9WA"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
           ]
         }
       },
@@ -60812,6 +64652,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|salling oko okologiske roget laks orred vannameirejer salling gronlandske rejer orred krebsehaler kold eller varmroget laks|seafood_mixed_offer": {
+      "stableProductKey": "v1|salling oko okologiske roget laks orred vannameirejer salling gronlandske rejer orred krebsehaler kold eller varmroget laks|seafood_mixed_offer",
+      "canonicalNames": [
+        "Salling ØKO økologiske røget laks, ørred, vannameirejer, Salling grønlandske rejer, ørred, krebsehaler, kold- eller varmrøget laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "SBZNFUxr1e_7_N94TURTq": {
+          "sourceOfferId": "SBZNFUxr1e_7_N94TURTq",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=5d88c321e325e3b7fa1298b4efe9894a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.02&x2r=0.34&y1r=0.74&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=5d88c321e325e3b7fa1298b4efe9894a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.02&x2r=0.34&y1r=0.74&y2r=0.96": {
+          "offerIds": [
+            "SBZNFUxr1e_7_N94TURTq"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|salling pasta fusilli|pasta_noodles": {
       "stableProductKey": "v1|salling pasta fusilli|pasta_noodles",
       "canonicalNames": [
@@ -61050,6 +64940,56 @@
         "https://image-transformer-api.tjek.com/?s=d5dc74c2bc40b29b20a91add24cc3d6b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-2.webp&x1r=0.65&x2r=0.99&y1r=0.16&y2r=0.56": {
           "offerIds": [
             "C6aWVmuKXcI5nLyJ4_oVp"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|salling tun mutti tomater eller pizzasauce|mixed_grocery_offer": {
+      "stableProductKey": "v1|salling tun mutti tomater eller pizzasauce|mixed_grocery_offer",
+      "canonicalNames": [
+        "Salling tun, Mutti tomater eller pizzasauce"
+      ],
+      "categoryIds": [
+        "pantry"
+      ],
+      "comparisonGroups": [
+        "mixed_grocery_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "otgSGhOO_zLgeIEub-nG2": {
+          "sourceOfferId": "otgSGhOO_zLgeIEub-nG2",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=36d0609f8205af51a52662588e7b094d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-48.webp&x1r=0.027&x2r=0.316&y1r=0.704&y2r=0.957"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=36d0609f8205af51a52662588e7b094d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-48.webp&x1r=0.027&x2r=0.316&y1r=0.704&y2r=0.957": {
+          "offerIds": [
+            "otgSGhOO_zLgeIEub-nG2"
           ],
           "validPeriods": [
             "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
@@ -61638,6 +65578,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|seafoodmix vannamei tunsteak eller poke|seafood_mixed_offer": {
+      "stableProductKey": "v1|seafoodmix vannamei tunsteak eller poke|seafood_mixed_offer",
+      "canonicalNames": [
+        "Seafoodmix, vannamei, tunsteak eller -poke"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "nxcqmprO5dYWiAGfbKM5R": {
+          "sourceOfferId": "nxcqmprO5dYWiAGfbKM5R",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=92d8bcb30616fe2657331cabf8eaed4c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.585&x2r=0.985&y1r=0.015&y2r=0.265"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=92d8bcb30616fe2657331cabf8eaed4c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.585&x2r=0.985&y1r=0.015&y2r=0.265": {
+          "offerIds": [
+            "nxcqmprO5dYWiAGfbKM5R"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|seafoodmix vannamei tunsteak eller poke|seafood_other": {
       "stableProductKey": "v1|seafoodmix vannamei tunsteak eller poke|seafood_other",
       "canonicalNames": [
@@ -62138,6 +66128,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|silvercrest paalaegsbokse|kitchen_tools": {
+      "stableProductKey": "v1|silvercrest paalaegsbokse|kitchen_tools",
+      "canonicalNames": [
+        "SILVERCREST Pålægsbokse"
+      ],
+      "categoryIds": [
+        "household"
+      ],
+      "comparisonGroups": [
+        "kitchen_tools"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "a8lxJdCYIKbVtfdBS-g_9": {
+          "sourceOfferId": "a8lxJdCYIKbVtfdBS-g_9",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=d93edfa57fb9cb79773e62960cd65341&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-23.webp&x1r=0.5&x2r=0.98&y1r=0.28&y2r=0.5"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=d93edfa57fb9cb79773e62960cd65341&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-23.webp&x1r=0.5&x2r=0.98&y1r=0.28&y2r=0.5": {
+          "offerIds": [
+            "a8lxJdCYIKbVtfdBS-g_9"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|silvercrest plastruller til vakuumpakker|kitchen_consumables": {
       "stableProductKey": "v1|silvercrest plastruller til vakuumpakker|kitchen_consumables",
       "canonicalNames": [
@@ -62390,6 +66430,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|skagenfood koldroget laks|salmon_smoked": {
+      "stableProductKey": "v1|skagenfood koldroget laks|salmon_smoked",
+      "canonicalNames": [
+        "Skagenfood koldrøget laks"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "salmon_smoked"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "SLdxgXIQPcnOVJ551McIS": {
+          "sourceOfferId": "SLdxgXIQPcnOVJ551McIS",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6a30c70830bce4907ecb709a44e27745&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-10.webp&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.97"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=6a30c70830bce4907ecb709a44e27745&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-10.webp&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.97": {
+          "offerIds": [
+            "SLdxgXIQPcnOVJ551McIS"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|skagenfood varmroget laks eller fiskesalat|biscuits": {
       "stableProductKey": "v1|skagenfood varmroget laks eller fiskesalat|biscuits",
       "canonicalNames": [
@@ -62450,6 +66540,56 @@
       ],
       "comparisonGroups": [
         "salmon"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "h-K7Hj4G06GHX-Dn8szso": {
+          "sourceOfferId": "h-K7Hj4G06GHX-Dn8szso",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2bf4b72a62ee0a84dbe7a6b550696fa6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-10.webp&x1r=0.04&x2r=0.51&y1r=0.75&y2r=0.97"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2bf4b72a62ee0a84dbe7a6b550696fa6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-10.webp&x1r=0.04&x2r=0.51&y1r=0.75&y2r=0.97": {
+          "offerIds": [
+            "h-K7Hj4G06GHX-Dn8szso"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|skagenfood varmroget laks eller fiskesalat|seafood_mixed_offer": {
+      "stableProductKey": "v1|skagenfood varmroget laks eller fiskesalat|seafood_mixed_offer",
+      "canonicalNames": [
+        "Skagenfood varmrøget laks eller fiskesalat"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -63274,6 +67414,56 @@
       ],
       "comparisonGroups": [
         "sausages"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "rtT1djCqN5pNRFqpxuF1D": {
+          "sourceOfferId": "rtT1djCqN5pNRFqpxuF1D",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=c93c484c26b178aae52cb4d31ef51ff6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-9.webp&x1r=0.012&x2r=0.655&y1r=0.496&y2r=0.709"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=c93c484c26b178aae52cb4d31ef51ff6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-9.webp&x1r=0.012&x2r=0.655&y1r=0.496&y2r=0.709": {
+          "offerIds": [
+            "rtT1djCqN5pNRFqpxuF1D"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_mixed_offer": {
+      "stableProductKey": "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_mixed_offer",
+      "canonicalNames": [
+        "SOL&MAR Blæksprutteringe eller chorizo-kroketter"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
       ],
       "stores": [
         "lidl"
@@ -65010,6 +69200,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|spareribs pulled chicken eller pork|pork_mixed_offer": {
+      "stableProductKey": "v1|spareribs pulled chicken eller pork|pork_mixed_offer",
+      "canonicalNames": [
+        "Spareribs, pulled chicken eller pork"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "rK9ta-3wTfAD1TY595OMB": {
+          "sourceOfferId": "rK9ta-3wTfAD1TY595OMB",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26": {
+          "offerIds": [
+            "rK9ta-3wTfAD1TY595OMB"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|spareribs pulled chicken eller pork|pork_ribs": {
       "stableProductKey": "v1|spareribs pulled chicken eller pork|pork_ribs",
       "canonicalNames": [
@@ -65421,6 +69661,56 @@
       ],
       "comparisonGroups": [
         "bacon_deli"
+      ],
+      "stores": [
+        "rema"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "PZAJS0FGmlx3E2tlTNiRj": {
+          "sourceOfferId": "PZAJS0FGmlx3E2tlTNiRj",
+          "stores": [
+            "rema"
+          ],
+          "catalogIds": [
+            "LoE4C3LU"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=f068a31c06fb9bc2458d74b0856fa089&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-3.webp&x1r=0.51&x2r=0.96&y1r=0.46&y2r=0.74"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=f068a31c06fb9bc2458d74b0856fa089&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-3.webp&x1r=0.51&x2r=0.96&y1r=0.46&y2r=0.74": {
+          "offerIds": [
+            "PZAJS0FGmlx3E2tlTNiRj"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|steff houlberg brunchpolser eller bacon i skiver|pork_mixed_offer": {
+      "stableProductKey": "v1|steff houlberg brunchpolser eller bacon i skiver|pork_mixed_offer",
+      "canonicalNames": [
+        "Steff Houlberg Brunchpølser eller bacon i skiver"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
       ],
       "stores": [
         "rema"
@@ -65936,6 +70226,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|striploin af okse|beef_striploin": {
+      "stableProductKey": "v1|striploin af okse|beef_striploin",
+      "canonicalNames": [
+        "Striploin af okse"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_striploin"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "mc-o3yXBiovnpWoQ_zBYc": {
+          "sourceOfferId": "mc-o3yXBiovnpWoQ_zBYc",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=715cf5ee3bf659557e0dbb3ec8673934&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.65&x2r=0.98&y1r=0.47&y2r=0.74"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=715cf5ee3bf659557e0dbb3ec8673934&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.65&x2r=0.98&y1r=0.47&y2r=0.74": {
+          "offerIds": [
+            "mc-o3yXBiovnpWoQ_zBYc"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|stryhn s leverpostej|bacon_deli": {
       "stableProductKey": "v1|stryhn s leverpostej|bacon_deli",
       "canonicalNames": [
@@ -66093,6 +70433,56 @@
       ],
       "comparisonGroups": [
         "bacon_deli"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "_WGz2cR9ne1QtBBkObdFQ": {
+          "sourceOfferId": "_WGz2cR9ne1QtBBkObdFQ",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=b2e04f48a5d21f001341c93e2a949b3b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&x1r=0.01&x2r=0.3&y1r=0.67&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=b2e04f48a5d21f001341c93e2a949b3b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&x1r=0.01&x2r=0.3&y1r=0.67&y2r=0.96": {
+          "offerIds": [
+            "_WGz2cR9ne1QtBBkObdFQ"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|stryhns postej eller roget medister|pork_mixed_offer": {
+      "stableProductKey": "v1|stryhns postej eller roget medister|pork_mixed_offer",
+      "canonicalNames": [
+        "Stryhns postej eller røget medister"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -69102,6 +73492,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|tulip pulled eller spareribs|pork_mixed_offer": {
+      "stableProductKey": "v1|tulip pulled eller spareribs|pork_mixed_offer",
+      "canonicalNames": [
+        "Tulip pulled eller spareribs"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
+      ],
+      "stores": [
+        "bilka"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "68sqMpjT-k2piRAREQO_s": {
+          "sourceOfferId": "68sqMpjT-k2piRAREQO_s",
+          "stores": [
+            "bilka"
+          ],
+          "catalogIds": [
+            "-qfHcWJb"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329": {
+          "offerIds": [
+            "68sqMpjT-k2piRAREQO_s"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|tulip pulled eller spareribs|pork_ribs": {
       "stableProductKey": "v1|tulip pulled eller spareribs|pork_ribs",
       "canonicalNames": [
@@ -69212,6 +73652,56 @@
       ],
       "comparisonGroups": [
         "other_berries"
+      ],
+      "stores": [
+        "kvickly"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
+      "offerIds": {
+        "atZL4er1NEanI6bx0J-Sp": {
+          "sourceOfferId": "atZL4er1NEanI6bx0J-Sp",
+          "stores": [
+            "kvickly"
+          ],
+          "catalogIds": [
+            "uw0HW5Gt"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992": {
+          "offerIds": [
+            "atZL4er1NEanI6bx0J-Sp"
+          ],
+          "validPeriods": [
+            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|tulip pulled pork eller spareribs|pork_mixed_offer": {
+      "stableProductKey": "v1|tulip pulled pork eller spareribs|pork_mixed_offer",
+      "canonicalNames": [
+        "Tulip pulled pork eller spareribs"
+      ],
+      "categoryIds": [
+        "pork"
+      ],
+      "comparisonGroups": [
+        "pork_mixed_offer"
       ],
       "stores": [
         "kvickly"
@@ -69562,6 +74052,56 @@
       ],
       "comparisonGroups": [
         "beef_steak"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
+      "offerIds": {
+        "dMZtd7YDw4RcbzmL0mXmq": {
+          "sourceOfferId": "dMZtd7YDw4RcbzmL0mXmq",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=881e9597b76375698d29761c09acf79e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-18.webp&x1r=0.49&x2r=0.78&y1r=0.71&y2r=0.96"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=881e9597b76375698d29761c09acf79e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-18.webp&x1r=0.49&x2r=0.78&y1r=0.71&y2r=0.96": {
+          "offerIds": [
+            "dMZtd7YDw4RcbzmL0mXmq"
+          ],
+          "validPeriods": [
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|tunsteak rejer eller gambas pil pil|seafood_mixed_offer": {
+      "stableProductKey": "v1|tunsteak rejer eller gambas pil pil|seafood_mixed_offer",
+      "canonicalNames": [
+        "Tunsteak, rejer eller Gambas pil pil"
+      ],
+      "categoryIds": [
+        "seafood"
+      ],
+      "comparisonGroups": [
+        "seafood_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -70927,6 +75467,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|velsmag rib eyes|beef_ribeye": {
+      "stableProductKey": "v1|velsmag rib eyes|beef_ribeye",
+      "canonicalNames": [
+        "Velsmag rib eyes"
+      ],
+      "categoryIds": [
+        "beef"
+      ],
+      "comparisonGroups": [
+        "beef_ribeye"
+      ],
+      "stores": [
+        "netto"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-24T21:59:59+0000",
+      "offerIds": {
+        "wVQpMyqHrUx5K1EH6iNAw": {
+          "sourceOfferId": "wVQpMyqHrUx5K1EH6iNAw",
+          "stores": [
+            "netto"
+          ],
+          "catalogIds": [
+            "xg_2XUk5"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=9c11405322cb63a9c1f8fdf92d24a522&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-5.webp&x1r=0.64&x2r=0.99&y1r=0.43&y2r=0.68"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=9c11405322cb63a9c1f8fdf92d24a522&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-5.webp&x1r=0.64&x2r=0.99&y1r=0.43&y2r=0.68": {
+          "offerIds": [
+            "wVQpMyqHrUx5K1EH6iNAw"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|velsmag rib eyes|beef_steak": {
       "stableProductKey": "v1|velsmag rib eyes|beef_steak",
       "canonicalNames": [
@@ -70967,6 +75557,56 @@
           ],
           "validPeriods": [
             "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|vemondo veganske polser|plant_based_meat": {
+      "stableProductKey": "v1|vemondo veganske polser|plant_based_meat",
+      "canonicalNames": [
+        "VEMONDO Veganske pølser"
+      ],
+      "categoryIds": [
+        "frozen_ready"
+      ],
+      "comparisonGroups": [
+        "plant_based_meat"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "slKcOj3IlAMJsm1SRCMpL": {
+          "sourceOfferId": "slKcOj3IlAMJsm1SRCMpL",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=e964daaf6422a401dc90b550c4eeb750&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.73&y2r=0.955"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=e964daaf6422a401dc90b550c4eeb750&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.73&y2r=0.955": {
+          "offerIds": [
+            "slKcOj3IlAMJsm1SRCMpL"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ]
         }
       },
@@ -71651,6 +76291,56 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|xtra kyllingelaarmix eller rose hakket kylling 3 7|chicken_mixed_offer": {
+      "stableProductKey": "v1|xtra kyllingelaarmix eller rose hakket kylling 3 7|chicken_mixed_offer",
+      "canonicalNames": [
+        "Xtra! kyllingelårmix eller Rose hakket kylling 3-7%"
+      ],
+      "categoryIds": [
+        "chicken"
+      ],
+      "comparisonGroups": [
+        "chicken_mixed_offer"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "5GJflCH7mVsMcxQ24qcDv": {
+          "sourceOfferId": "5GJflCH7mVsMcxQ24qcDv",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=9d31af36ca66f9463a09934049b45fe5&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F527318e3f925887f002dc1013c1a54bc"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=9d31af36ca66f9463a09934049b45fe5&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F527318e3f925887f002dc1013c1a54bc": {
+          "offerIds": [
+            "5GJflCH7mVsMcxQ24qcDv"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|xtra kyllingelaarmix eller rose hakket kylling 3 7|chicken_thigh": {
       "stableProductKey": "v1|xtra kyllingelaarmix eller rose hakket kylling 3 7|chicken_thigh",
       "canonicalNames": [
@@ -71761,6 +76451,56 @@
       ],
       "comparisonGroups": [
         "canned"
+      ],
+      "stores": [
+        "365"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
+      "offerIds": {
+        "hE_ek7tzsHw4TIvnVML0s": {
+          "sourceOfferId": "hE_ek7tzsHw4TIvnVML0s",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=c1dc08bfee5a49241707777eab996928&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&x1r=0.038&x2r=0.339&y1r=0.341&y2r=0.658"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=c1dc08bfee5a49241707777eab996928&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&x1r=0.038&x2r=0.339&y1r=0.341&y2r=0.658": {
+          "offerIds": [
+            "hE_ek7tzsHw4TIvnVML0s"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|xtra tun eller bonduelle majs|mixed_grocery_offer": {
+      "stableProductKey": "v1|xtra tun eller bonduelle majs|mixed_grocery_offer",
+      "canonicalNames": [
+        "Xtra! tun eller Bonduelle majs"
+      ],
+      "categoryIds": [
+        "pantry"
+      ],
+      "comparisonGroups": [
+        "mixed_grocery_offer"
       ],
       "stores": [
         "365"

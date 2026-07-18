@@ -235,6 +235,8 @@ function filterOffersByStore(offers) {
 const offerPeriod = offer => new Date(offer.validFrom) > now() ? 'upcoming' : 'current';
 
 function globalPriceComparison(offer) {
+  const groupDefinition = activeComparisonGroups()?.[offer.comparisonGroup];
+  if (!groupDefinition || groupDefinition.comparable === false || /(?:^|_)other$|mixed|_offer$/.test(offer.comparisonGroup)) return null;
   const period = offerPeriod(offer);
   const candidates = currentOffers().filter(candidate =>
     candidate.comparisonGroup === offer.comparisonGroup &&

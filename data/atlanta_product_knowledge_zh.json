@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T14:31:15.982Z",
+  "updatedAt": "2026-07-18T16:13:27.448Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its complete English name; image review is tracked separately.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -18,7 +18,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747949/1783514834/extra_large.jpg"
       },
       "productNameZh": "啤酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "12 pack kona brewing co beer": {
       "originalName": "12-Pack Kona Brewing Co. Beer",
@@ -34,7 +34,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747946/1783514833/extra_large.jpg"
       },
       "productNameZh": "啤酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "12 pack pacifico clara beer": {
       "originalName": "12-Pack Pacifico Clara Beer",
@@ -50,7 +50,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747453/1783514826/extra_large.jpg"
       },
       "productNameZh": "啤酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "12 pack sierra nevada brewing co beer": {
       "originalName": "12-Pack Sierra Nevada Brewing Co. Beer",
@@ -66,7 +66,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822143/1783514851/extra_large.jpg"
       },
       "productNameZh": "啤酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "15 pack miller lite beer": {
       "originalName": "15-Pack Miller Lite Beer",
@@ -82,7 +82,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747944/1783514832/extra_large.jpg"
       },
       "productNameZh": "啤酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "2 lb strawberries": {
       "originalName": "2 lb Strawberries",
@@ -98,7 +98,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426528925/1783380483/extra_large.jpg"
       },
       "productNameZh": "草莓",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "24 pack michelob ultra beer": {
       "originalName": "24-Pack Michelob Ultra Beer",
@@ -114,7 +114,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747614/1783514826/extra_large.jpg"
       },
       "productNameZh": "啤酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "8 in cookies and cream sprinkle explosion cake": {
       "originalName": "8-in Cookies and Cream Sprinkle Explosion Cake",
@@ -130,7 +130,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749851/1783514850/extra_large.jpg"
       },
       "productNameZh": "饼干",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "all free clear laundry detergent": {
       "originalName": "all Free & Clear Laundry Detergent",
@@ -146,7 +146,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529355/1783380490/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "angel food cake": {
       "originalName": "Angel Food Cake",
@@ -162,7 +162,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529331/1783380484/extra_large.jpg"
       },
       "productNameZh": "蛋糕",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "annie s organic cheddar moana mac cheese": {
       "originalName": "Annie's Organic Cheddar Moana mac & cheese.",
@@ -178,7 +178,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391338/1782378410/extra_large.jpg"
       },
       "productNameZh": "切达奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "apple pie": {
       "originalName": "Apple Pie",
@@ -194,13 +194,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529327/1783380491/extra_large.jpg"
       },
       "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "applegate naturals uncured turkey bacon": {
       "originalName": "Applegate Naturals Uncured Turkey Bacon",
       "categoryId": "meat",
-      "comparisonGroup": "meat_bacon",
-      "descriptionZh": "苹果。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_turkey_bacon",
+      "descriptionZh": "火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -209,8 +209,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426752959/1783514879/extra_large.jpg"
       },
-      "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "火鸡培根",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "arm hammer essentials hand soap": {
       "originalName": "Arm & Hammer Essentials Hand Soap",
@@ -226,7 +226,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426751570/1783514863/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "arm hammer plus oxiclean 200 oz liquid laundry detergent": {
       "originalName": "Arm & Hammer Plus OxiClean 200-oz. liquid laundry detergent",
@@ -242,7 +242,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391500/1782378412/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "athena club 4 ct 5 blade razor refills": {
       "originalName": "Athena Club 4-ct. 5-blade razor refills.",
@@ -258,7 +258,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391382/1782378410/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "athena club 8 oz glossy shave oil": {
       "originalName": "Athena Club 8-oz. glossy shave oil.",
@@ -274,7 +274,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391372/1782378408/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "athena club women s 5 blade reusable razor kit": {
       "originalName": "Athena Club women's 5-blade reusable razor kit.",
@@ -290,7 +290,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391375/1782378408/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bai beverage": {
       "originalName": "Bai Beverage",
@@ -306,7 +306,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426544036/1783380493/extra_large.jpg"
       },
       "productNameZh": "软饮与运动饮料",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "barebells protein bar": {
       "originalName": "Barebells Protein Bar",
@@ -322,7 +322,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426828031/1783514876/extra_large.jpg"
       },
       "productNameZh": "能量棒与蛋白棒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "barilla pasta": {
       "originalName": "Barilla Pasta",
@@ -338,7 +338,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529236/1783380488/extra_large.jpg"
       },
       "productNameZh": "米饭与意面",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bimbo white bread": {
       "originalName": "Bimbo White Bread",
@@ -354,7 +354,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426753017/1783514882/extra_large.jpg"
       },
       "productNameZh": "面包",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "black or red plums": {
       "originalName": "Black or Red Plums",
@@ -370,7 +370,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749088/1783514841/extra_large.jpg"
       },
       "productNameZh": "李子",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "blue buffalo delectables 12 ct variety pack wet dog food": {
       "originalName": "Blue Buffalo Delectables 12 Ct Variety Pack Wet Dog Food",
@@ -386,7 +386,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391427/1782378413/extra_large.jpg"
       },
       "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "blue buffalo nudges grillers 5 oz dog treats": {
       "originalName": "Blue Buffalo Nudges Grillers 5-oz. dog treats.",
@@ -402,7 +402,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391421/1782378410/extra_large.jpg"
       },
       "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "blue buffalo tasteful 5 lb dry cat food": {
       "originalName": "Blue Buffalo Tasteful 5-lb. dry cat food.",
@@ -418,7 +418,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391431/1782378415/extra_large.jpg"
       },
       "productNameZh": "猫粮与猫零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bluehouse atlantic salmon fillets": {
       "originalName": "Bluehouse Atlantic Salmon Fillets",
@@ -434,13 +434,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748122/1783514825/extra_large.jpg"
       },
       "productNameZh": "三文鱼",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "boar s head ovengold roasted turkey breast": {
       "originalName": "Boar's Head® Ovengold Roasted Turkey Breast",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_turkey_deli",
+      "descriptionZh": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -449,8 +449,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426823429/1783514858/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "烤火鸡胸冷切",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "boar s head vermont cheddar cheese yellow or white": {
       "originalName": "Boar's Head Vermont Cheddar Cheese, Yellow or White",
@@ -466,7 +466,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823446/1783514859/extra_large.jpg"
       },
       "productNameZh": "切达奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "boneless chuck roast": {
       "originalName": "Boneless Chuck Roast",
@@ -482,12 +482,12 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748549/1783514841/extra_large.jpg"
       },
       "productNameZh": "整块烤牛肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "boneless top sirloin steak": {
       "originalName": "Boneless Top Sirloin Steak",
       "categoryId": "meat",
-      "comparisonGroup": "meat_beef_steak",
+      "comparisonGroup": "meat_beef_sirloin",
       "descriptionZh": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -498,7 +498,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745750/1783514799/extra_large.jpg"
       },
       "productNameZh": "牛排",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bota box pinot grigio wine": {
       "originalName": "BOTA BOX PINOT GRIGIO WINE",
@@ -514,7 +514,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747825/1783514829/extra_large.jpg"
       },
       "productNameZh": "葡萄酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bota box wine": {
       "originalName": "Bota Box Wine",
@@ -530,7 +530,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822748/1783514839/extra_large.jpg"
       },
       "productNameZh": "葡萄酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bottom round roast": {
       "originalName": "Bottom Round Roast",
@@ -546,7 +546,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822144/1783514852/extra_large.jpg"
       },
       "productNameZh": "整块烤牛肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bounty 12 pk select a size triple roll paper towels": {
       "originalName": "BOUNTY 12-pk. select-a-size triple-roll paper towels.",
@@ -562,7 +562,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968514/1783654559/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "breyers ice cream": {
       "originalName": "Breyers Ice Cream",
@@ -578,7 +578,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529229/1783380483/extra_large.jpg"
       },
       "productNameZh": "冰淇淋",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "brightroom 2 2 bushel flexible laundry hamper": {
       "originalName": "Brightroom 2.2-bushel flexible laundry hamper",
@@ -594,13 +594,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391617/1782378415/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "broccoli or cauliflower": {
       "originalName": "Broccoli or Cauliflower",
       "categoryId": "produce",
-      "comparisonGroup": "produce_cruciferous",
-      "descriptionZh": "西兰花与花椰菜。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
+      "comparisonGroup": "produce_broccoli",
+      "descriptionZh": "西兰花。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -609,8 +609,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/427476658/1784097232/extra_large.jpg"
       },
-      "productNameZh": "西兰花与花椰菜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "西兰花",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bubly 8 pk sparkling water": {
       "originalName": "bubly 8-pk. sparkling water",
@@ -626,7 +626,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391477/1782378410/extra_large.jpg"
       },
       "productNameZh": "饮用水或气泡水",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bulk sweet corn": {
       "originalName": "Bulk Sweet Corn†",
@@ -642,7 +642,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476772/1784097236/extra_large.jpg"
       },
       "productNameZh": "鲜玉米",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bush s best beans": {
       "originalName": "Bush's Best Beans†",
@@ -658,7 +658,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750014/1783514856/extra_large.jpg"
       },
       "productNameZh": "豆类罐头",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "california red or black plums": {
       "originalName": "California Red or Black Plums",
@@ -674,7 +674,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529328/1783380492/extra_large.jpg"
       },
       "productNameZh": "李子",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "campari tomatoes": {
       "originalName": "Campari Tomatoes",
@@ -690,7 +690,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427478731/1784097242/extra_large.jpg"
       },
       "productNameZh": "番茄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "capri sun flavored with other natural flavor juice drink blend 10 pouches for school lunches and on the go hydration fruit punch all natural ingredients 6 fl oz": {
       "originalName": "Capri Sun Flavored with Other Natural Flavor Juice Drink Blend, 10 Pouches, for School Lunches and On-the-Go Hydration, Fruit Punch, All Natural Ingredients, 6 fl oz",
@@ -706,7 +706,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669950/1784222243/extra_large.jpg"
       },
       "productNameZh": "果汁",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "cascade dishwasher detergent": {
       "originalName": "Cascade Dishwasher Detergent",
@@ -722,7 +722,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750163/1783514853/extra_large.jpg"
       },
       "productNameZh": "洗碗机用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "charmin bathroom tissue": {
       "originalName": "Charmin Bathroom Tissue",
@@ -738,7 +738,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426751885/1783514870/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "charmin ultra soft 12 pk mega xl roll toilet paper": {
       "originalName": "Charmin Ultra Soft 12-pk. mega-XL roll toilet paper.",
@@ -754,7 +754,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968517/1783654561/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "chobani greek yogurt": {
       "originalName": "Chobani Greek Yogurt",
@@ -770,13 +770,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822934/1783514874/extra_large.jpg"
       },
       "productNameZh": "希腊酸奶",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "chomps meat sticks": {
       "originalName": "Chomps Meat Sticks",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_sticks",
+      "descriptionZh": "调味肉条零食，可直接食用；需按包装确认肉种、辣度和单条重量，不与香肠或冷切火腿混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -785,8 +785,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426529235/1783380487/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "肉条零食",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "coca cola fountain drink": {
       "originalName": "Coca-Cola Fountain Drink",
@@ -802,7 +802,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823409/1783514857/extra_large.jpg"
       },
       "productNameZh": "软饮与运动饮料",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "colgate total toothpaste": {
       "originalName": "Colgate Total Toothpaste",
@@ -818,7 +818,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426827050/1783514875/extra_large.jpg"
       },
       "productNameZh": "口腔护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "covergirl 0 28 oz clean fresh yummy lip oil stick": {
       "originalName": "Covergirl 0.28-oz. Clean Fresh Yummy lip oil stick",
@@ -834,7 +834,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426967942/1783654554/extra_large.jpg"
       },
       "productNameZh": "其他个人护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "crest 3d white toothpaste": {
       "originalName": "Crest 3D White Toothpaste",
@@ -850,7 +850,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426755661/1783514868/extra_large.jpg"
       },
       "productNameZh": "口腔护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "crunch pak apple slices": {
       "originalName": "Crunch Pak Apple Slices",
@@ -866,7 +866,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824273/1783514852/extra_large.jpg"
       },
       "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "crunch pak snack featuring bluey with fresh sliced peeled apples pretzels and cheese 2 5oz tray": {
       "originalName": "Crunch Pak Snack Featuring Bluey with Fresh Sliced Peeled Apples, Pretzels, and Cheese, 2.5oz Tray",
@@ -882,7 +882,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669954/1784222246/extra_large.jpg"
       },
       "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "cuban bread": {
       "originalName": "Cuban Bread",
@@ -898,7 +898,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750052/1783514857/extra_large.jpg"
       },
       "productNameZh": "面包",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "cupcake vineyards prosecco or moscato d asti wine": {
       "originalName": "Cupcake Vineyards Prosecco or Moscato D'Asti Wine",
@@ -914,7 +914,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822743/1783514838/extra_large.jpg"
       },
       "productNameZh": "蛋糕",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "cupcake vineyards sauvignon blanc wine": {
       "originalName": "Cupcake Vineyards Sauvignon Blanc Wine",
@@ -930,7 +930,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822736/1783514837/extra_large.jpg"
       },
       "productNameZh": "蛋糕",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dave s killer bread organic bread": {
       "originalName": "Dave's Killer Bread Organic Bread",
@@ -946,7 +946,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529353/1783380488/extra_large.jpg"
       },
       "productNameZh": "面包",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dole fruit cups": {
       "originalName": "Dole Fruit Cups",
@@ -962,7 +962,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426754929/1783514879/extra_large.jpg"
       },
       "productNameZh": "切配水果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dole salad kits": {
       "originalName": "Dole Salad Kits",
@@ -978,7 +978,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529326/1783380490/extra_large.jpg"
       },
       "productNameZh": "预制沙拉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "don pancho tortilla chips": {
       "originalName": "Don Pancho Tortilla Chips",
@@ -994,7 +994,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749748/1783514853/extra_large.jpg"
       },
       "productNameZh": "薯片或咸味脆片",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "doritos tortilla chips": {
       "originalName": "Doritos Tortilla Chips",
@@ -1010,7 +1010,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750478/1783514856/extra_large.jpg"
       },
       "productNameZh": "薯片或咸味脆片",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dot s pretzels": {
       "originalName": "Dot's Pretzels",
@@ -1026,7 +1026,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529356/1783380490/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dove 30 6 oz antibacterial body wash": {
       "originalName": "Dove 30.6-oz. antibacterial body wash.",
@@ -1042,7 +1042,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391410/1782378410/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dove body wash": {
       "originalName": "Dove Body Wash",
@@ -1058,7 +1058,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529233/1783380486/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "dove shampoo or conditioner": {
       "originalName": "Dove Shampoo or Conditioner",
@@ -1074,7 +1074,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529347/1783380488/extra_large.jpg"
       },
       "productNameZh": "头发护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "e l f 1 oz gloss mode treatment hair oil": {
       "originalName": "e.l.f. 1-oz. Gloss Mode Treatment hair oil.",
@@ -1090,7 +1090,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426967955/1783654557/extra_large.jpg"
       },
       "productNameZh": "头发护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "finish powerball ultimate quantum 70 ct dishwasher detergent tabs": {
       "originalName": "Finish Powerball Ultimate Quantum 70 ct. dishwasher detergent tabs.",
@@ -1106,7 +1106,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968511/1783654558/extra_large.jpg"
       },
       "productNameZh": "洗碗机用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "folgers coffee": {
       "originalName": "Folgers Coffee",
@@ -1122,7 +1122,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426528890/1783380480/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "freschetta pizza": {
       "originalName": "Freschetta Pizza",
@@ -1138,7 +1138,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426528992/1783380486/extra_large.jpg"
       },
       "productNameZh": "冷冻披萨",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "fresh banana each": {
       "originalName": "Fresh Banana, Each",
@@ -1154,7 +1154,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669948/1784222242/extra_large.jpg"
       },
       "productNameZh": "香蕉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "frito lay simply nkd no dyes no artificial flavors variety pack snack mix 9 625 oz 10 pack": {
       "originalName": "Frito Lay Simply NKD No Dyes No Artificial Flavors Variety pack Snack Mix, 9.625 oz (10 pack)",
@@ -1170,7 +1170,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669952/1784222244/extra_large.jpg"
       },
       "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "frosted sugar cookies": {
       "originalName": "Frosted Sugar Cookies",
@@ -1186,7 +1186,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749838/1783514848/extra_large.jpg"
       },
       "productNameZh": "饼干",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "gain plus liquid laundry detergent now with odor defense oxi moonlight breeze scent 99 fl oz 75 loads": {
       "originalName": "Gain Plus Liquid Laundry Detergent, Now with Odor Defense + OXI, Moonlight Breeze Scent, 99 fl oz, 75 Loads",
@@ -1202,7 +1202,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669654/1784222238/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "general mills cereal": {
       "originalName": "General Mills Cereal",
@@ -1218,7 +1218,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529332/1783380485/extra_large.jpg"
       },
       "productNameZh": "早餐谷物",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "general mills giant size cereal": {
       "originalName": "General Mills Giant Size Cereal",
@@ -1234,7 +1234,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529227/1783380482/extra_large.jpg"
       },
       "productNameZh": "早餐谷物",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "ghirardelli chocolate squares": {
       "originalName": "Ghirardelli Chocolate Squares",
@@ -1250,7 +1250,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529398/1783380488/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "gillette labs body intimate men s razor": {
       "originalName": "Gillette Labs Body + Intimate men's razor.",
@@ -1266,7 +1266,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391407/1782378408/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "glade plugins 5 pk scented oil air freshener refills": {
       "originalName": "Glade Plugins 5-pk. scented oil air freshener refills.",
@@ -1282,7 +1282,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968519/1783654563/extra_large.jpg"
       },
       "productNameZh": "其他家庭用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "great value 100 whole wheat round top bread 20 oz": {
       "originalName": "Great Value 100% Whole Wheat Round Top Bread, 20 oz",
@@ -1298,7 +1298,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669940/1784222238/extra_large.jpg"
       },
       "productNameZh": "面包",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "great value colby monterey jack cheese snack 9 oz bag 12 cheese sticks": {
       "originalName": "Great Value Colby & Monterey Jack Cheese Snack, 9 oz Bag, 12 Cheese Sticks",
@@ -1314,7 +1314,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669946/1784222241/extra_large.jpg"
       },
       "productNameZh": "奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "great value concord grape jelly 18 oz": {
       "originalName": "Great Value Concord Grape Jelly, 18 oz",
@@ -1330,7 +1330,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669944/1784222240/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "great value natural no stir creamy peanut butter 16 oz": {
       "originalName": "Great Value Natural No Stir Creamy Peanut Butter, 16 oz",
@@ -1346,7 +1346,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427669942/1784222239/extra_large.jpg"
       },
       "productNameZh": "果酱与花生酱",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "green avocados": {
       "originalName": "Green Avocados",
@@ -1362,7 +1362,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476704/1784097234/extra_large.jpg"
       },
       "productNameZh": "牛油果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise 92 lean ground beef": {
       "originalName": "GreenWise 92% Lean Ground Beef",
@@ -1378,7 +1378,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822247/1783514855/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise 92 lean ground beef burgers": {
       "originalName": "GreenWise 92% Lean Ground Beef Burgers",
@@ -1394,12 +1394,12 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822276/1783514856/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise angus ribeye steak": {
       "originalName": "GreenWise Angus Ribeye Steak",
       "categoryId": "meat",
-      "comparisonGroup": "meat_beef_steak",
+      "comparisonGroup": "meat_beef_ribeye",
       "descriptionZh": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1410,12 +1410,12 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748784/1783514841/extra_large.jpg"
       },
       "productNameZh": "牛排",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise angus ribeye steak boneless": {
       "originalName": "GreenWise Angus Ribeye Steak Boneless",
       "categoryId": "meat",
-      "comparisonGroup": "meat_beef_steak",
+      "comparisonGroup": "meat_beef_ribeye",
       "descriptionZh": "牛排。牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1426,7 +1426,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823731/1783514853/extra_large.jpg"
       },
       "productNameZh": "牛排",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise boneless skinless chicken breast": {
       "originalName": "GreenWise Boneless Skinless Chicken Breast",
@@ -1442,7 +1442,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748660/1783514837/extra_large.jpg"
       },
       "productNameZh": "鸡胸肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise chicken drumsticks or bone in thighs": {
       "originalName": "GreenWise Chicken Drumsticks or Bone-In Thighs",
@@ -1458,7 +1458,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748826/1783514843/extra_large.jpg"
       },
       "productNameZh": "鸡腿肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise lamb round bone shoulder chops": {
       "originalName": "GreenWise Lamb Round Bone Shoulder Chops",
@@ -1474,7 +1474,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822218/1783514855/extra_large.jpg"
       },
       "productNameZh": "羊肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise lamb shoulder blade chops": {
       "originalName": "GreenWise Lamb Shoulder Blade Chops",
@@ -1490,7 +1490,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822189/1783514854/extra_large.jpg"
       },
       "productNameZh": "羊肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise lean pork loin chops": {
       "originalName": "GreenWise Lean Pork Loin Chops",
@@ -1506,7 +1506,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748803/1783514842/extra_large.jpg"
       },
       "productNameZh": "猪排",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise organic red or white seedless grapes": {
       "originalName": "GreenWise Organic Red or White Seedless Grapes",
@@ -1522,7 +1522,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823567/1783514847/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise organic tea": {
       "originalName": "GreenWise Organic Tea",
@@ -1538,7 +1538,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749939/1783514854/extra_large.jpg"
       },
       "productNameZh": "茶",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise snow crab clusters": {
       "originalName": "GreenWise Snow Crab Clusters",
@@ -1554,7 +1554,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748152/1783514825/extra_large.jpg"
       },
       "productNameZh": "其他海鲜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "greenwise sockeye salmon fillets": {
       "originalName": "GreenWise Sockeye Salmon Fillets†",
@@ -1570,7 +1570,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748499/1783514834/extra_large.jpg"
       },
       "productNameZh": "三文鱼",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "ground chuck": {
       "originalName": "Ground Chuck",
@@ -1586,7 +1586,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745874/1783514800/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "ground chuck burgers or slider burgers": {
       "originalName": "Ground Chuck Burgers or Slider Burgers",
@@ -1602,7 +1602,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745908/1783514800/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "halo top light ice cream": {
       "originalName": "Halo Top Light Ice Cream",
@@ -1618,7 +1618,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529357/1783380491/extra_large.jpg"
       },
       "productNameZh": "冰淇淋",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "haribo gummi candy": {
       "originalName": "Haribo Gummi Candy",
@@ -1634,13 +1634,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529399/1783380489/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "hillshire farm meat smoked sausage": {
       "originalName": "Hillshire Farm Meat Smoked Sausage",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_sausage",
+      "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -1649,8 +1649,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426529212/1783380496/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "香肠",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "home chef fried chicken": {
       "originalName": "Home Chef Fried Chicken",
@@ -1666,7 +1666,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529321/1783380486/extra_large.jpg"
       },
       "productNameZh": "熟制或裹粉鸡肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "honey bourbon salmon burgers": {
       "originalName": "Honey Bourbon Salmon Burgers",
@@ -1682,13 +1682,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752556/1783514878/extra_large.jpg"
       },
       "productNameZh": "三文鱼汉堡饼",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "hormel black label bacon": {
       "originalName": "Hormel Black Label Bacon",
       "categoryId": "meat",
-      "comparisonGroup": "meat_bacon",
-      "descriptionZh": "培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_pork_bacon",
+      "descriptionZh": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -1697,14 +1697,14 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426748680/1783514838/extra_large.jpg"
       },
-      "productNameZh": "培根",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "猪肉培根",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "hormel pepperoni": {
       "originalName": "Hormel Pepperoni",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_pepperoni",
+      "descriptionZh": "意式辣香肠薄片，通常用于披萨、三明治或零食拼盘；属于高盐熟制肉，不与普通鲜香肠或火腿冷切混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -1713,8 +1713,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426529237/1783380488/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "意式辣香肠片",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "hot house cucumbers": {
       "originalName": "Hot House Cucumbers",
@@ -1730,7 +1730,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427478733/1784097243/extra_large.jpg"
       },
       "productNameZh": "黄瓜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "huggies little movers 120 diaper pack": {
       "originalName": "Huggies Little Movers 120-diaper pack.",
@@ -1746,7 +1746,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425581065/1782378408/extra_large.jpg"
       },
       "productNameZh": "纸尿裤",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "iams dry cat food": {
       "originalName": "Iams Dry Cat Food",
@@ -1762,7 +1762,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529343/1783380484/extra_large.jpg"
       },
       "productNameZh": "猫粮与猫零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "j lohr seven oaks cabernet sauvignon wine": {
       "originalName": "J. Lohr Seven Oaks Cabernet Sauvignon Wine",
@@ -1778,7 +1778,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747398/1783514819/extra_large.jpg"
       },
       "productNameZh": "葡萄酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kellogg s giant size cereal": {
       "originalName": "Kellogg's Giant Size Cereal",
@@ -1794,7 +1794,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529008/1783380486/extra_large.jpg"
       },
       "productNameZh": "早餐谷物",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kellogg s mega size rice krispies treats": {
       "originalName": "Kellogg's Mega Size Rice Krispies Treats",
@@ -1810,7 +1810,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426544045/1783380499/extra_large.jpg"
       },
       "productNameZh": "派",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kendamil infant oatmeal": {
       "originalName": "Kendamil Infant Oatmeal",
@@ -1826,7 +1826,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752200/1783514875/extra_large.jpg"
       },
       "productNameZh": "婴幼儿食品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "keurig donut shop k cup coffee": {
       "originalName": "KEURIG Donut Shop K-Cup Coffee",
@@ -1842,7 +1842,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752999/1783514881/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "keynote cabernet sauvignon wine": {
       "originalName": "Keynote Cabernet Sauvignon Wine",
@@ -1858,7 +1858,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747426/1783514822/extra_large.jpg"
       },
       "productNameZh": "葡萄酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kleenex ultra soft 4 pk 480 ct facial tissue": {
       "originalName": "Kleenex Ultra Soft 4-pk. 480-ct. facial tissue.",
@@ -1874,7 +1874,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391499/1782378411/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kraft shredded cheese": {
       "originalName": "Kraft Shredded Cheese",
@@ -1890,7 +1890,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748704/1783514839/extra_large.jpg"
       },
       "productNameZh": "奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kroger coffee pods": {
       "originalName": "Kroger Coffee Pods",
@@ -1906,7 +1906,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529246/1783380483/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kroger jumbo ez peel shrimp": {
       "originalName": "Kroger Jumbo EZ Peel Shrimp",
@@ -1922,13 +1922,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529320/1783380485/extra_large.jpg"
       },
       "productNameZh": "虾",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kroger or private selection bacon": {
       "originalName": "Kroger or Private Selection Bacon",
       "categoryId": "meat",
-      "comparisonGroup": "meat_bacon",
-      "descriptionZh": "培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_pork_bacon",
+      "descriptionZh": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -1937,8 +1937,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426528942/1783380484/extra_large.jpg"
       },
-      "productNameZh": "培根",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "猪肉培根",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kroger purified water": {
       "originalName": "Kroger Purified Water",
@@ -1954,7 +1954,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529414/1783380490/extra_large.jpg"
       },
       "productNameZh": "饮用水或气泡水",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kroger soft strong bath tissue": {
       "originalName": "Kroger Soft & Strong Bath Tissue",
@@ -1970,7 +1970,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529041/1783380488/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "kroger whole or baby bella mushrooms": {
       "originalName": "Kroger Whole or Baby Bella Mushrooms",
@@ -1986,7 +1986,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529324/1783380489/extra_large.jpg"
       },
       "productNameZh": "蘑菇",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "larabar the original fruit nut bar": {
       "originalName": "Lärabar The Original Fruit & Nut Bar",
@@ -2002,7 +2002,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752449/1783514873/extra_large.jpg"
       },
       "productNameZh": "能量棒与蛋白棒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "lay s potato or kettle cooked potato chips": {
       "originalName": "Lay's Potato or Kettle Cooked Potato Chips",
@@ -2018,7 +2018,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529340/1783380491/extra_large.jpg"
       },
       "productNameZh": "薯片或咸味脆片",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "lobster tails": {
       "originalName": "Lobster Tails",
@@ -2034,7 +2034,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748241/1783514827/extra_large.jpg"
       },
       "productNameZh": "其他海鲜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "mahatma jasmine rice": {
       "originalName": "Mahatma Jasmine Rice",
@@ -2050,7 +2050,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752346/1783514869/extra_large.jpg"
       },
       "productNameZh": "米饭与意面",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "maison de madeleine brut wine": {
       "originalName": "Maison de Madeleine Brut Wine",
@@ -2066,7 +2066,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747943/1783514832/extra_large.jpg"
       },
       "productNameZh": "葡萄酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "milk bone dc studios supergirl krypto 3 7 oz dog treats": {
       "originalName": "Milk-Bone DC Studios Supergirl Krypto 3.7-oz. dog treats",
@@ -2082,7 +2082,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391426/1782378412/extra_large.jpg"
       },
       "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "mini fresh fruit tarts": {
       "originalName": "Mini Fresh Fruit Tarts",
@@ -2098,7 +2098,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749845/1783514849/extra_large.jpg"
       },
       "productNameZh": "蛋糕与甜点",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "nabisco family size snack crackers": {
       "originalName": "Nabisco Family Size Snack Crackers",
@@ -2114,7 +2114,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529349/1783380485/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "native 1 oz dry shampoo": {
       "originalName": "Native 1-oz. dry shampoo.",
@@ -2130,7 +2130,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426967958/1783654558/extra_large.jpg"
       },
       "productNameZh": "头发护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "native 18 oz cashmere rain body wash": {
       "originalName": "Native 18-oz. cashmere & rain body wash.",
@@ -2146,7 +2146,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391406/1782378407/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "nerds or spree candy": {
       "originalName": "Nerds or Spree Candy",
@@ -2162,7 +2162,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529403/1783380491/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "nerds or trolli candy": {
       "originalName": "Nerds or Trolli Candy",
@@ -2178,7 +2178,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529397/1783380487/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "noosa finest yoghurt": {
       "originalName": "Noosa Finest Yoghurt",
@@ -2194,7 +2194,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426822961/1783514875/extra_large.jpg"
       },
       "productNameZh": "酸奶",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "noosa yoghurt": {
       "originalName": "Noosa Yoghurt",
@@ -2210,7 +2210,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529362/1783380486/extra_large.jpg"
       },
       "productNameZh": "酸奶",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "oreo cakesters ritz bits ritz crackers or newtons": {
       "originalName": "Oreo Cakesters, Ritz Bits , Ritz Crackers, or Newtons",
@@ -2226,13 +2226,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750829/1783514873/extra_large.jpg"
       },
       "productNameZh": "蛋糕",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "organic cauliflower or broccoli": {
       "originalName": "Organic Cauliflower or Broccoli",
       "categoryId": "produce",
-      "comparisonGroup": "produce_cruciferous",
-      "descriptionZh": "西兰花与花椰菜。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
+      "comparisonGroup": "produce_broccoli",
+      "descriptionZh": "西兰花。西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2241,8 +2241,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/427476757/1784097236/extra_large.jpg"
       },
-      "productNameZh": "西兰花与花椰菜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "西兰花",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "organic nectarines or peaches": {
       "originalName": "Organic Nectarines or Peaches",
@@ -2258,7 +2258,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823556/1783514846/extra_large.jpg"
       },
       "productNameZh": "桃或油桃",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "organic plums": {
       "originalName": "Organic Plums",
@@ -2274,7 +2274,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749052/1783514839/extra_large.jpg"
       },
       "productNameZh": "李子",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "outshine fruit bars": {
       "originalName": "Outshine Fruit Bars",
@@ -2290,7 +2290,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529226/1783380481/extra_large.jpg"
       },
       "productNameZh": "冰淇淋与冰棒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "p f chang s home menu mini egg rolls dumplings or rice": {
       "originalName": "P.F. Chang's Home Menu Mini Egg Rolls, Dumplings, or Rice",
@@ -2306,7 +2306,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823049/1783514878/extra_large.jpg"
       },
       "productNameZh": "鸡蛋",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "pampers amore 108 diapers": {
       "originalName": "Pampers Amore 108-diapers",
@@ -2322,7 +2322,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425581066/1782378409/extra_large.jpg"
       },
       "productNameZh": "纸尿裤",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "peet s coffee": {
       "originalName": "Peet's Coffee",
@@ -2338,7 +2338,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529338/1783380489/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "pepperidge farm goldfish": {
       "originalName": "Pepperidge Farm Goldfish",
@@ -2354,7 +2354,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529337/1783380488/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "pepperidge farm goldfish baked snack crackers": {
       "originalName": "Pepperidge Farm Goldfish Baked Snack Crackers",
@@ -2370,7 +2370,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752498/1783514875/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "persian limes": {
       "originalName": "Persian Limes",
@@ -2386,7 +2386,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476858/1784097240/extra_large.jpg"
       },
       "productNameZh": "柑橘与青柠",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "pete gerry s eggs": {
       "originalName": "Pete & Gerry's Eggs",
@@ -2402,7 +2402,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426753039/1783514884/extra_large.jpg"
       },
       "productNameZh": "鸡蛋",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "post cereal": {
       "originalName": "Post Cereal",
@@ -2418,7 +2418,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529350/1783380486/extra_large.jpg"
       },
       "productNameZh": "早餐谷物",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "powerade sports drink": {
       "originalName": "Powerade Sports Drink",
@@ -2434,7 +2434,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752395/1783514871/extra_large.jpg"
       },
       "productNameZh": "软饮与运动饮料",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "pringles potato crisps": {
       "originalName": "Pringles Potato Crisps",
@@ -2450,7 +2450,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426755767/1783514880/extra_large.jpg"
       },
       "productNameZh": "薯片或咸味脆片",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection angus 80 lean ground chuck": {
       "originalName": "Private Selection Angus 80% Lean Ground Chuck",
@@ -2466,13 +2466,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529329/1783380492/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection black forest ham": {
       "originalName": "Private Selection Black Forest Ham",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_ham_deli",
+      "descriptionZh": "黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2481,8 +2481,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426529341/1783380492/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "火腿冷切",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection cedar plank salmon": {
       "originalName": "Private Selection Cedar Plank Salmon",
@@ -2498,7 +2498,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529385/1783380488/extra_large.jpg"
       },
       "productNameZh": "三文鱼",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection fresh baked butter croissants": {
       "originalName": "Private Selection Fresh Baked Butter Croissants",
@@ -2514,7 +2514,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529323/1783380488/extra_large.jpg"
       },
       "productNameZh": "可颂",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection gourmet potatoes": {
       "originalName": "Private Selection Gourmet Potatoes",
@@ -2530,7 +2530,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529073/1783380489/extra_large.jpg"
       },
       "productNameZh": "新鲜土豆",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection ice cream": {
       "originalName": "Private Selection Ice Cream",
@@ -2546,7 +2546,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529049/1783380488/extra_large.jpg"
       },
       "productNameZh": "冰淇淋",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "private selection seafood": {
       "originalName": "Private Selection Seafood",
@@ -2562,7 +2562,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529386/1783380489/extra_large.jpg"
       },
       "productNameZh": "其他海鲜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix breaded mozzarella cheese sticks": {
       "originalName": "Publix Breaded Mozzarella Cheese Sticks",
@@ -2578,7 +2578,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752296/1783514872/extra_large.jpg"
       },
       "productNameZh": "马苏里拉奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix chicken breast cutlets": {
       "originalName": "Publix Chicken Breast Cutlets",
@@ -2594,7 +2594,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748468/1783514833/extra_large.jpg"
       },
       "productNameZh": "鸡胸肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix chicken breast tenderloins boneless skinless": {
       "originalName": "Publix Chicken Breast Tenderloins, Boneless, Skinless",
@@ -2610,13 +2610,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748521/1783514835/extra_large.jpg"
       },
       "productNameZh": "鸡胸肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix chicken tender whole sub": {
       "originalName": "Publix Chicken Tender Whole Sub",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
-      "descriptionZh": "熟制或裹粉鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
+      "comparisonGroup": "meat_chicken_sandwich",
+      "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2625,8 +2625,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426745509/1783514793/extra_large.jpg"
       },
-      "productNameZh": "熟制或裹粉鸡肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "鸡肉三明治或卷饼",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix chocolate peanut butter cookie pudding": {
       "originalName": "Publix Chocolate Peanut Butter Cookie Pudding",
@@ -2642,7 +2642,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750122/1783514856/extra_large.jpg"
       },
       "productNameZh": "饼干",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix classic salad blend": {
       "originalName": "Publix Classic Salad Blend",
@@ -2658,7 +2658,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752905/1783514882/extra_large.jpg"
       },
       "productNameZh": "预制沙拉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix dishwasher detergent pacs": {
       "originalName": "Publix Dishwasher Detergent Pacs",
@@ -2674,7 +2674,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752874/1783514876/extra_large.jpg"
       },
       "productNameZh": "洗碗机用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix extra lean pork loin tenderloin": {
       "originalName": "Publix Extra Lean Pork Loin Tenderloin",
@@ -2690,7 +2690,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750035/1783514849/extra_large.jpg"
       },
       "productNameZh": "猪里脊",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix frozen bread toast breadsticks or knots bogo": {
       "originalName": "Publix Frozen Bread, Toast, Breadsticks, or Knots Bogo*",
@@ -2706,7 +2706,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823005/1783514877/extra_large.jpg"
       },
       "productNameZh": "面包",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix gourmet beef meatballs": {
       "originalName": "Publix Gourmet Beef Meatballs",
@@ -2722,7 +2722,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752114/1783514871/extra_large.jpg"
       },
       "productNameZh": "肉丸",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix green beans": {
       "originalName": "Publix Green Beans",
@@ -2738,7 +2738,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476839/1784097239/extra_large.jpg"
       },
       "productNameZh": "鲜豆类",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix ground pork": {
       "originalName": "Publix Ground Pork",
@@ -2754,7 +2754,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750037/1783514850/extra_large.jpg"
       },
       "productNameZh": "猪肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix ice cream": {
       "originalName": "Publix Ice Cream",
@@ -2770,7 +2770,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752279/1783514866/extra_large.jpg"
       },
       "productNameZh": "冰淇淋",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix idaho russet potatoes": {
       "originalName": "Publix Idaho Russet Potatoes",
@@ -2786,7 +2786,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752925/1783514878/extra_large.jpg"
       },
       "productNameZh": "Russet 褐皮土豆",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix italian style pork meatballs": {
       "originalName": "Publix Italian Style Pork Meatballs",
@@ -2802,13 +2802,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823190/1783514885/extra_large.jpg"
       },
       "productNameZh": "猪肉丸",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix lemon pepper oven roasted chicken": {
       "originalName": "Publix Lemon Pepper Oven-Roasted Chicken",
       "categoryId": "meat",
       "comparisonGroup": "meat_prepared_chicken",
-      "descriptionZh": "熟制与调味鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
+      "descriptionZh": "熟制鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2817,8 +2817,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426750108/1783514854/extra_large.jpg"
       },
-      "productNameZh": "熟制与调味鸡肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "熟制鸡肉",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix maple syrup": {
       "originalName": "Publix Maple Syrup",
@@ -2834,13 +2834,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747336/1783514823/extra_large.jpg"
       },
       "productNameZh": "糖与糖浆",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix parmesan chicken breast bites": {
       "originalName": "Publix Parmesan Chicken Breast Bites",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
-      "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
+      "comparisonGroup": "meat_breaded_chicken",
+      "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2849,14 +2849,14 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426748890/1783514845/extra_large.jpg"
       },
-      "productNameZh": "鸡胸肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "帕玛森裹粉鸡肉",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix parmesan chicken breast cutlets": {
       "originalName": "Publix Parmesan Chicken Breast Cutlets",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
-      "descriptionZh": "鸡胸肉。鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。",
+      "comparisonGroup": "meat_breaded_chicken",
+      "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2865,8 +2865,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426748738/1783514840/extra_large.jpg"
       },
-      "productNameZh": "鸡胸肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "帕玛森裹粉鸡肉",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix premium ground coffee": {
       "originalName": "Publix Premium Ground Coffee†",
@@ -2882,7 +2882,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749892/1783514856/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix shredded cheese": {
       "originalName": "Publix Shredded Cheese",
@@ -2898,7 +2898,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748761/1783514841/extra_large.jpg"
       },
       "productNameZh": "奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix smoked pulled pork": {
       "originalName": "Publix Smoked Pulled Pork",
@@ -2914,7 +2914,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823483/1783514860/extra_large.jpg"
       },
       "productNameZh": "手撕猪肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix smoked pulled pork meal": {
       "originalName": "Publix Smoked Pulled Pork Meal",
@@ -2930,13 +2930,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823463/1783514860/extra_large.jpg"
       },
       "productNameZh": "手撕猪肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix southwest chicken tender wrap": {
       "originalName": "Publix Southwest Chicken Tender Wrap",
       "categoryId": "meat",
-      "comparisonGroup": "meat_prepared_chicken",
-      "descriptionZh": "熟制或裹粉鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
+      "comparisonGroup": "meat_chicken_sandwich",
+      "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2945,14 +2945,14 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426750112/1783514855/extra_large.jpg"
       },
-      "productNameZh": "熟制或裹粉鸡肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "鸡肉三明治或卷饼",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix sweet italian sausage": {
       "originalName": "Publix Sweet Italian Sausage",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_sausage",
+      "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2961,8 +2961,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426824421/1783514886/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "香肠",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix sweet potatoes with butter": {
       "originalName": "Publix Sweet Potatoes With Butter",
@@ -2978,7 +2978,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823706/1783514851/extra_large.jpg"
       },
       "productNameZh": "黄油调味红薯配菜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix top round roast beef": {
       "originalName": "Publix Top Round Roast Beef",
@@ -2994,7 +2994,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824424/1783514887/extra_large.jpg"
       },
       "productNameZh": "整块烤牛肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix tricolor peppers": {
       "originalName": "Publix Tricolor Peppers",
@@ -3010,7 +3010,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427478732/1784097243/extra_large.jpg"
       },
       "productNameZh": "甜椒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix water enhancer": {
       "originalName": "Publix Water Enhancer",
@@ -3026,7 +3026,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752292/1783514871/extra_large.jpg"
       },
       "productNameZh": "饮水调味液",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix white mushrooms": {
       "originalName": "Publix White Mushrooms",
@@ -3042,7 +3042,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752867/1783514873/extra_large.jpg"
       },
       "productNameZh": "蘑菇",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "publix whole young chicken": {
       "originalName": "Publix Whole Young Chicken",
@@ -3058,7 +3058,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426753096/1783514886/extra_large.jpg"
       },
       "productNameZh": "整只嫩鸡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "puffs facial tissue": {
       "originalName": "Puffs Facial Tissue",
@@ -3074,7 +3074,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426755177/1783514879/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "purina friskies extra gravy chunky 24 ct variety pack wet cat food": {
       "originalName": "Purina friskies extra gravy chunky 24-ct. variety pack wet cat food.",
@@ -3090,7 +3090,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391424/1782378412/extra_large.jpg"
       },
       "productNameZh": "猫粮与猫零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "quilted northern bath tissue": {
       "originalName": "Quilted Northern Bath Tissue",
@@ -3106,7 +3106,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529253/1783380483/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "ranch style beans": {
       "originalName": "Ranch Style Beans",
@@ -3122,7 +3122,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426544043/1783380498/extra_large.jpg"
       },
       "productNameZh": "豆类罐头",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "red green or black seedless grapes": {
       "originalName": "Red, Green or Black Seedless Grapes",
@@ -3138,7 +3138,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529113/1783380491/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "red or white seedless grapes": {
       "originalName": "Red or White Seedless Grapes",
@@ -3154,7 +3154,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824267/1783514851/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "red or white seedless grapes california grown": {
       "originalName": "Red or White Seedless Grapes California-Grown",
@@ -3170,7 +3170,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749147/1783514843/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "red seedless grapes": {
       "originalName": "Red Seedless Grapes",
@@ -3186,7 +3186,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824593/1783514851/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "rice a roni or pasta roni": {
       "originalName": "Rice-A-Roni or Pasta Roni",
@@ -3202,7 +3202,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529360/1783380494/extra_large.jpg"
       },
       "productNameZh": "米饭与意面",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "ricola 40 ct lemon lime mint dry mouth relief lozenges": {
       "originalName": "Ricola 40 ct. lemon, lime & mint dry-mouth-relief lozenges",
@@ -3218,7 +3218,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391396/1782378409/extra_large.jpg"
       },
       "productNameZh": "其他个人护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "rockit or kiku medium apples": {
       "originalName": "Rockit or Kiku Medium Apples",
@@ -3234,7 +3234,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823573/1783514848/extra_large.jpg"
       },
       "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "sale bubbl r 6 pk sparkling water": {
       "originalName": "SALE BUBBL'R 6-pk. sparkling water.",
@@ -3250,7 +3250,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391485/1782378411/extra_large.jpg"
       },
       "productNameZh": "饮用水或气泡水",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "sale select lay s lay s kettle simply smartfood cantina snacks": {
       "originalName": "Sale Select Lay's, Lay's Kettle, Simply, Smartfood & Cantina snacks",
@@ -3266,7 +3266,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391562/1782378416/extra_large.jpg"
       },
       "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "sargento cheese": {
       "originalName": "Sargento Cheese",
@@ -3282,7 +3282,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529300/1783380490/extra_large.jpg"
       },
       "productNameZh": "奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "sargento cheese slices": {
       "originalName": "Sargento Cheese Slices",
@@ -3298,7 +3298,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426753034/1783514883/extra_large.jpg"
       },
       "productNameZh": "奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "secret clinical 2 6 oz women s antiperspirant deodorant": {
       "originalName": "Secret Clinical 2.6-oz. women's antiperspirant deodorant",
@@ -3314,7 +3314,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391411/1782378411/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "select cheez it snacks": {
       "originalName": "Select Cheez-It snacks",
@@ -3330,7 +3330,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391558/1782378415/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "select frito lay party size snacks dips": {
       "originalName": "Select Frito-Lay party-size snacks & dips",
@@ -3346,7 +3346,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391551/1782378412/extra_large.jpg"
       },
       "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "select pepsi mountain dew more 12 pk soda": {
       "originalName": "Select Pepsi, Mountain Dew & more 12-pk. soda",
@@ -3362,7 +3362,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391469/1782378409/extra_large.jpg"
       },
       "productNameZh": "软饮与运动饮料",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "select takis variety pack snacks": {
       "originalName": "Select Takis variety pack snacks",
@@ -3378,7 +3378,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391554/1782378413/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "sensodyne 4 oz extra whitening toothpaste": {
       "originalName": "Sensodyne 4-oz. extra whitening toothpaste.",
@@ -3394,7 +3394,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391408/1782378409/extra_large.jpg"
       },
       "productNameZh": "口腔护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "simple truth organic 85 lean ground beef": {
       "originalName": "Simple Truth Organic 85% Lean Ground Beef",
@@ -3410,7 +3410,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529365/1783380488/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "simple truth organic blueberries": {
       "originalName": "Simple Truth Organic Blueberries",
@@ -3426,7 +3426,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529325/1783380489/extra_large.jpg"
       },
       "productNameZh": "蓝莓",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "simple truth organic tortilla chips": {
       "originalName": "Simple Truth Organic Tortilla Chips",
@@ -3442,7 +3442,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529369/1783380491/extra_large.jpg"
       },
       "productNameZh": "薯片或咸味脆片",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "skinnypop popcorn": {
       "originalName": "Skinnypop Popcorn",
@@ -3458,7 +3458,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529364/1783380487/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "small apple pie": {
       "originalName": "Small Apple Pie",
@@ -3474,7 +3474,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749871/1783514853/extra_large.jpg"
       },
       "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "small dutch apple pie": {
       "originalName": "Small Dutch Apple Pie",
@@ -3490,7 +3490,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749885/1783514855/extra_large.jpg"
       },
       "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "small guava pie": {
       "originalName": "Small Guava Pie",
@@ -3506,7 +3506,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749865/1783514852/extra_large.jpg"
       },
       "productNameZh": "派",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "small red seedless watermelon": {
       "originalName": "Small Red Seedless Watermelon",
@@ -3522,7 +3522,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749040/1783514839/extra_large.jpg"
       },
       "productNameZh": "西瓜",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "smartway sugar": {
       "originalName": "Smartway Sugar",
@@ -3538,13 +3538,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529090/1783380490/extra_large.jpg"
       },
       "productNameZh": "糖与糖浆",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "smithfield hometown original breakfast sausage": {
       "originalName": "Smithfield Hometown Original Breakfast Sausage",
       "categoryId": "meat",
-      "comparisonGroup": "meat_sausage_deli",
-      "descriptionZh": "香肠与肉类熟食。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "comparisonGroup": "meat_sausage",
+      "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -3553,8 +3553,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426752979/1783514880/extra_large.jpg"
       },
-      "productNameZh": "香肠与肉类熟食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "香肠",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "snacks": {
       "originalName": "Snacks",
@@ -3570,13 +3570,13 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391267/1782378403/extra_large.jpg"
       },
       "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "snapple tea": {
       "originalName": "Snapple Tea",
       "categoryId": "drinks",
       "comparisonGroup": "drinks_coffee_tea",
-      "descriptionZh": "苹果。咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
+      "descriptionZh": "茶。咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -3585,8 +3585,8 @@
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426753079/1783514886/extra_large.jpg"
       },
-      "productNameZh": "苹果",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "productNameZh": "茶",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "springer mountain farms ground chicken breast": {
       "originalName": "Springer Mountain Farms Ground Chicken Breast",
@@ -3602,7 +3602,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752202/1783514876/extra_large.jpg"
       },
       "productNameZh": "鸡胸肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "starbucks coffee": {
       "originalName": "Starbucks Coffee",
@@ -3618,7 +3618,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529231/1783380484/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "starkist wild caught light tuna": {
       "originalName": "Starkist Wild Caught Light Tuna",
@@ -3634,7 +3634,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426755770/1783514880/extra_large.jpg"
       },
       "productNameZh": "金枪鱼或剑鱼排",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "steakhouse elite signature ground beef": {
       "originalName": "Steakhouse Elite Signature Ground Beef",
@@ -3650,7 +3650,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752135/1783514872/extra_large.jpg"
       },
       "productNameZh": "牛肉末",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "stok cold brew coffee": {
       "originalName": "Stok Cold Brew Coffee",
@@ -3666,7 +3666,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750998/1783514858/extra_large.jpg"
       },
       "productNameZh": "咖啡",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "strawberries": {
       "originalName": "Strawberries",
@@ -3682,7 +3682,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823585/1783514849/extra_large.jpg"
       },
       "productNameZh": "草莓",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "the good crisp company potato crisps": {
       "originalName": "The Good Crisp Company Potato Crisps",
@@ -3698,7 +3698,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823389/1783514857/extra_large.jpg"
       },
       "productNameZh": "薯片或咸味脆片",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "the original bourbon marinated salmon": {
       "originalName": "The Original Bourbon Marinated Salmon",
@@ -3714,7 +3714,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748369/1783514830/extra_large.jpg"
       },
       "productNameZh": "三文鱼",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tide free gentle 132 oz liquid laundry detergent": {
       "originalName": "Tide Free & Gentle 132-oz. liquid laundry detergent",
@@ -3730,7 +3730,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968507/1783654556/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tide or gain laundry detergent": {
       "originalName": "Tide or Gain Laundry Detergent",
@@ -3746,7 +3746,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426751848/1783514870/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tide original 125 oz liquid laundry detergent": {
       "originalName": "Tide Original 125-oz. liquid laundry detergent",
@@ -3762,7 +3762,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968505/1783654555/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tide power pods oxi boost 45 ct laundry detergent pods": {
       "originalName": "Tide Power Pods Oxi Boost 45-ct. laundry detergent pods.",
@@ -3778,7 +3778,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391402/1782378412/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tomatoes on the vine": {
       "originalName": "Tomatoes on the Vine†",
@@ -3794,7 +3794,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427478730/1784097241/extra_large.jpg"
       },
       "productNameZh": "番茄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tootsie candy": {
       "originalName": "Tootsie Candy",
@@ -3810,7 +3810,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529405/1783380492/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tootsie theater box candy": {
       "originalName": "Tootsie Theater Box Candy",
@@ -3826,7 +3826,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529406/1783380493/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tree hut x lisa frank 18 oz sugar sky shea sugar body scrub": {
       "originalName": "Tree Hut x Lisa Frank 18-oz. Sugar Sky shea sugar body scrub",
@@ -3842,7 +3842,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391362/1782378412/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tree ripened peaches or nectarines": {
       "originalName": "Tree-Ripened Peaches or Nectarines",
@@ -3858,7 +3858,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749122/1783514843/extra_large.jpg"
       },
       "productNameZh": "桃或油桃",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "trolli candy": {
       "originalName": "Trolli Candy",
@@ -3874,7 +3874,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529400/1783380489/extra_large.jpg"
       },
       "productNameZh": "糖果或巧克力",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tropicana pure 100 premium orange juice": {
       "originalName": "Tropicana Pure 100% Premium Orange Juice",
@@ -3890,7 +3890,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/427476644/1784097231/extra_large.jpg"
       },
       "productNameZh": "果汁",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "try with firehook crackers": {
       "originalName": "Try With Firehook Crackers",
@@ -3906,7 +3906,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823520/1783514862/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "try with publix havarti cheese": {
       "originalName": "Try With Publix Havarti Cheese",
@@ -3922,12 +3922,12 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823194/1783514886/extra_large.jpg"
       },
       "productNameZh": "奶酪",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tuna or swordfish steaks": {
       "originalName": "Tuna or Swordfish Steaks",
       "categoryId": "seafood",
-      "comparisonGroup": "seafood_tuna_fresh",
+      "comparisonGroup": "seafood_mixed_fish_steaks",
       "descriptionZh": "牛排。金枪鱼或剑鱼；鲜鱼排适合煎烤，罐装金枪鱼可拌沙拉或夹三明治。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3938,7 +3938,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529387/1783380490/extra_large.jpg"
       },
       "productNameZh": "牛排",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tyson frozen chicken": {
       "originalName": "Tyson Frozen Chicken",
@@ -3954,7 +3954,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529334/1783380486/extra_large.jpg"
       },
       "productNameZh": "其他肉类",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "up up 6 pk triple roll paper towels": {
       "originalName": "up&up 6-pk. triple-roll paper towels.",
@@ -3970,7 +3970,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391501/1782378413/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "up uptm ultra soft 4 pk limited edition facial tissue": {
       "originalName": "up&up™ ultra soft 4-pk. limited-edition facial tissue.",
@@ -3986,7 +3986,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426968509/1783654557/extra_large.jpg"
       },
       "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "urgency cabernet sauvignon wine": {
       "originalName": "Urgency Cabernet Sauvignon Wine",
@@ -4002,7 +4002,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426747391/1783514818/extra_large.jpg"
       },
       "productNameZh": "葡萄酒",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "van camp s pork and beans": {
       "originalName": "Van Camp's Pork and Beans",
@@ -4018,7 +4018,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426544044/1783380498/extra_large.jpg"
       },
       "productNameZh": "豆类罐头",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "vidalia sweet onions": {
       "originalName": "Vidalia Sweet Onions",
@@ -4034,7 +4034,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745556/1783514794/extra_large.jpg"
       },
       "productNameZh": "洋葱",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "welch s concord grape jam or jelly": {
       "originalName": "Welch's Concord Grape Jam or Jelly",
@@ -4050,7 +4050,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824090/1783514868/extra_large.jpg"
       },
       "productNameZh": "葡萄",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "white shrimp": {
       "originalName": "White Shrimp",
@@ -4066,7 +4066,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748095/1783514824/extra_large.jpg"
       },
       "productNameZh": "虾",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "white shrimp peeled deveined": {
       "originalName": "White Shrimp, Peeled & Deveined,",
@@ -4082,7 +4082,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748401/1783514832/extra_large.jpg"
       },
       "productNameZh": "虾",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "whole boneless beef brisket": {
       "originalName": "Whole Boneless Beef Brisket",
@@ -4098,7 +4098,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529025/1783380487/extra_large.jpg"
       },
       "productNameZh": "整块烤牛肉",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "yoplait yogurt": {
       "originalName": "Yoplait Yogurt",
@@ -4114,7 +4114,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529352/1783380487/extra_large.jpg"
       },
       "productNameZh": "酸奶",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "zuke s acadia 6 oz mini naturals dog treats": {
       "originalName": "Zuke's Acadia 6-oz. mini naturals dog treats.",
@@ -4130,7 +4130,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391416/1782378407/extra_large.jpg"
       },
       "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "zuke s sequoia 6 oz trail mix dog treats": {
       "originalName": "Zuke's Sequoia 6-oz. trail mix dog treats",
@@ -4146,7 +4146,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391422/1782378410/extra_large.jpg"
       },
       "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "zuke s shenandoah 6 oz adventure sticks dog treats": {
       "originalName": "Zuke's Shenandoah 6-oz. adventure sticks dog treats",
@@ -4162,7 +4162,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/425391420/1782378409/extra_large.jpg"
       },
       "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T14:31:15.982Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
     }
   }
 }

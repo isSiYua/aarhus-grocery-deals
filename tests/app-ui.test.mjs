@@ -23,6 +23,7 @@ test('global price comparison separates current/upcoming minima and exposes all 
   assert.match(appSource, /function openLowestModal/);
   assert.match(appSource, /查看 \$\{comparison\.bestOffers\.length\} 个最低商品/);
   assert.match(appSource, /filterOffersByStore\(allOffers\)/);
+  assert.match(appSource, /groupDefinition\.comparable === false/);
 });
 
 test('home integrates upcoming offers into normal categories instead of recommendation strips', () => {

@@ -64,8 +64,19 @@ const DANISH_TITLES = [
   title(/kyllingespyd/, '调味鸡肉串'),
   title(/kyllingevinger/, '鸡翅'),
   title(/hot ?wings|buffalo wings|\bwings\b/, '调味鸡翅'),
+  title(/kalkunoverlaar.*schnitzel.*bryst/, '火鸡大腿或火鸡胸薄片任选'),
+  title(/paalaeg.*postej.*kalkunbacon/, '冷切、肝酱或火鸡培根任选'),
+  title(/kalkunhakkebof/, '火鸡肉饼'),
+  title(/cordon bleu.*kalkun/, '火鸡蓝带肉排'),
+  title(/kalkunbryst/, '火鸡胸肉'),
+  title(/kalkunoverlaar/, '火鸡大腿'),
+  title(/kalkununderlaar/, '火鸡小腿'),
+  title(/kalkunschnitz/, '火鸡胸薄片'),
+  title(/kalkunstrimler/, '火鸡胸肉条'),
+  title(/hakket kalkun/, '火鸡肉末'),
+  title(/poussin/, '童子鸡'),
   title(/kyllingebryst.*inderfilet|inderfilet.*kylling/, '鸡胸肉或鸡里脊'),
-  title(/kyllingebryst|brystfilet/, '鸡胸肉'),
+  title(/kyllingebryst/, '鸡胸肉'),
   title(/kyllingeoverlaar|udbenede.*overlaar/, '鸡大腿肉'),
   title(/kyllingeunderlaar/, '鸡小腿'),
   title(/kyllingelaar|hele.*laar/, '整只鸡腿'),
@@ -75,15 +86,6 @@ const DANISH_TITLES = [
   title(/fransk majskylling/, '法国玉米饲养鸡'),
   title(/kylling snack polser/, '鸡肉零食香肠'),
   title(/kyllingepolser/, '鸡肉香肠'),
-  title(/cordon bleu.*kalkun/, '火鸡蓝带肉排'),
-  title(/kalkunbryst/, '火鸡胸肉'),
-  title(/kalkunoverlaar/, '火鸡大腿'),
-  title(/kalkununderlaar/, '火鸡小腿'),
-  title(/kalkunschnitz/, '火鸡胸薄片'),
-  title(/kalkunstrimler/, '火鸡胸肉条'),
-  title(/hakket kalkun/, '火鸡肉末'),
-  title(/poussin/, '童子鸡'),
-
   title(/grisemorbrad|moerbrad.*gris/, '猪里脊'),
   title(/flaeskesteg|ovnklar.*steg/, '丹麦脆皮烤猪肉块'),
   title(/ribbensteg/, '带皮猪肋烤肉'),
@@ -412,13 +414,14 @@ const DANISH_TITLES = [
 
 const GROUP_DEFAULTS = {
   chicken_thigh: '鸡腿肉', chicken_breast: '鸡胸肉', whole_chicken: '整只鸡', chicken_minced: '鸡肉末',
-  chicken_wings: '鸡翅', chicken_breaded: '裹粉鸡肉小食', chicken_skewers: '鸡肉串', chicken_mixed_offer: '多款鸡肉任选', chicken_other: '鸡肉商品', turkey_other: '火鸡或其他禽肉',
+  chicken_wings: '鸡翅', chicken_breaded: '裹粉鸡肉小食', chicken_skewers: '鸡肉串', chicken_sausages: '鸡肉香肠', chicken_mixed_offer: '多款鸡肉任选', chicken_other: '鸡肉商品',
+  turkey_breast: '火鸡胸肉', turkey_thigh: '火鸡腿肉', turkey_minced: '火鸡肉末', turkey_processed: '火鸡加工肉品', turkey_mixed_offer: '多款火鸡部位任选', poultry_deli_mixed: '禽肉冷切多品项任选', other_poultry: '其他禽肉',
   pork_roast: '烤猪肉块', pork_tenderloin: '猪里脊', pork_ribs: '猪肋排', pork_chop: '猪排或猪肉片', pork_minced: '猪肉末', sausages: '香肠', bacon_deli: '肉类冷切', prepared_meatballs: '肉丸或肉糜制品', pork_mixed_offer: '多款猪肉任选', deli_spreads: '三明治夹馅沙拉/抹酱',
-  beef_minced: '牛肉末', mixed_minced: '混合肉末', beef_steak: '牛排', beef_burgers: '牛肉汉堡饼', beef_diced: '牛肉丁或牛肉条', beef_roast: '整块烤牛肉', beef_deli: '牛肉熟食', lamb_other: '羊肉',
-  salmon: '三文鱼', shrimp: '虾', white_fish: '鱼类商品', seafood_other: '多款海鲜或加工海鲜', eggs: '鸡蛋', milk: '牛奶或乳饮料', plant_drinks: '植物奶', cream: '奶油', mixed_dairy: '多款乳制品任选', yoghurt: '酸奶或发酵乳', cheese: '奶酪', butter: '黄油或涂抹脂',
+  beef_minced: '牛肉末', mixed_minced: '混合肉末', beef_ribeye: '肋眼牛排', beef_striploin: '外脊牛排', beef_flat_steak: '腹肉薄切牛排', beef_rump_steak: '牛臀排', beef_bone_steak: '带骨牛排', beef_steak: '其他牛排', beef_burgers: '牛肉汉堡饼', beef_diced: '牛肉丁或牛肉条', beef_roast: '整块烤牛肉', beef_deli: '牛肉熟食', beef_mixed_offer: '多款牛肉部位任选', mixed_meat_offer: '跨肉种多品项任选', lamb_other: '羊肉',
+  salmon_fresh: '生鲜三文鱼', salmon_smoked: '烟熏或腌渍三文鱼', salmon: '三文鱼', shrimp: '虾', white_fish: '鱼类商品', seafood_mixed_offer: '多款鱼虾海鲜任选', seafood_other: '多款海鲜或加工海鲜', eggs: '鸡蛋', milk: '牛奶或乳饮料', plant_drinks: '植物奶', cream: '奶油', mixed_dairy: '多款乳制品任选', yoghurt: '酸奶或发酵乳', cheese: '奶酪', butter: '黄油或涂抹脂',
   mushrooms: '蘑菇', cauliflower: '花椰菜', broccoli: '西兰花', lettuce: '生菜', spinach: '菠菜', chives: '细香葱', basil: '罗勒', parsley: '欧芹', mixed_fresh_herbs: '多款鲜香草任选', fresh_herbs: '鲜香草', carrots: '胡萝卜', root_vegetables: '根茎蔬菜', peppers: '甜椒或辣椒', peas: '豌豆', corn: '玉米', vegetable_mix: '蔬菜组合', mixed_produce: '多款果蔬任选', prepared_salad: '预制沙拉', potatoes_fresh: '新鲜土豆', potato_salad: '土豆沙拉', potato_sides: '加工土豆配菜', tomatoes: '番茄', cucumber: '黄瓜', cabbage: '卷心菜', onion_garlic: '葱姜蒜或洋葱', leafy_green: '叶菜', vegetables_other: '其他蔬菜',
   apples: '苹果', pears: '梨', strawberries: '草莓', blueberries: '蓝莓', other_berries: '莓果', watermelon: '西瓜', melon: '甜瓜', grapes: '葡萄', apricots: '杏', plums: '李子', cherries: '樱桃', peaches_nectarines: '桃或油桃', mixed_stone_fruit: '多款核果任选', pineapple: '菠萝', mango: '芒果', avocado: '牛油果', prepared_fruit: '切配水果', mixed_fruit: '多款水果任选',
-  bread: '面包', mixed_bakery: '多款烘焙食品任选', rice: '大米', pasta_noodles: '意面或面条', flour_baking: '面粉或饼皮', pizza_snacks: '披萨', dumplings: '冷冻饺子或春卷', ready_meal: '预制方便餐', frozen_vegetables: '冷冻蔬菜', ice_cream: '冰淇淋或冰品', cereal: '早餐谷物', coffee_tea: '咖啡或茶', spreads_jam: '果酱、蜂蜜或抹酱', canned: '罐头食品', sauces: '酱料', spices: '香料或调味料', oil_vinegar: '食用油或醋', baking_ingredients: '烘焙原料', pickled_vegetables: '腌菜或橄榄', chips: '咸味零食', chocolate: '巧克力或糖果', biscuits: '饼干或蛋糕', nuts: '坚果', dried_fruit: '果干',
+  bread: '面包', mixed_bakery: '多款烘焙食品任选', rice: '大米', pasta_noodles: '意面或面条', flour_baking: '面粉或饼皮', pizza_snacks: '披萨', dumplings: '冷冻饺子或春卷', ready_meal: '预制方便餐', plant_based_meat: '植物肉或素香肠', frozen_vegetables: '冷冻蔬菜', ice_cream: '冰淇淋或冰品', cereal: '早餐谷物', coffee_tea: '咖啡或茶', spreads_jam: '果酱、蜂蜜或抹酱', mixed_grocery_offer: '跨类别食品任选', canned: '罐头食品', sauces: '酱料', spices: '香料或调味料', oil_vinegar: '食用油或醋', baking_ingredients: '烘焙原料', pickled_vegetables: '腌菜或橄榄', chips: '咸味零食', chocolate: '巧克力或糖果', biscuits: '饼干或蛋糕', nuts: '坚果', dried_fruit: '果干',
   paper: '纸品', cleaning: '清洁用品', trash_bags: '垃圾袋或保鲜袋', kitchen_consumables: '厨房耗材', diapers: '纸尿裤', baby_care: '婴儿护理用品', baby_food: '婴幼儿食品', hair_body: '个人洗护用品', sun_care: '防晒用品', hygiene: '卫生护理用品', supplements: '营养补充剂', zero_soda: '无糖可乐或雪碧',
 };
 
@@ -427,6 +430,11 @@ const SPECIFIC_DESCRIPTIONS = [
   [/4 burgerboller.*6 polsebrod/, '这是 4 个汉堡面包或 6 个热狗面包二选一的促销，可夹汉堡肉、香肠或其他馅料；商品主体是面包，不是香肠。'],
   [/kyllingepopcorn/, '爆米花鸡块，是一口大小的裹粉鸡肉块；这款配甜辣蘸酱，并由熟食柜热售。可直接食用或按门店说明复热，类似中国常见盐酥鸡块，不是玉米爆米花。'],
   [/morliny.*classic.*crispy hot wings/, 'Morliny 冷冻鸡翅，有原味和香辣脆皮两种。适合烤箱或空气炸锅充分加热；这是 2 kg 大包装鸡翅，不是普通未调味鸡肉块。'],
+  [/kalkunoverlaar.*schnitzel.*bryst/, '这是火鸡大腿肉或火鸡胸肉薄片二选一的促销，两者部位、带骨比例和烹调时间不同，因此不参与单一部位最低价。'],
+  [/kalkunbrystfilet/, '火鸡胸肉，脂肪较少、肉块通常比鸡胸大，可切片快炒、煎烤或做咖喱；它不是鸡胸肉，也不与火鸡腿比较最低价。'],
+  [/kalkunschnitz|kalkunstrimler/, '火鸡胸肉薄片或肉条，适合快速煎炒、做咖喱或卷饼；商品主体是火鸡胸，不是鸡胸或火鸡腿。'],
+  [/kalkununderlaar/, '火鸡小腿，通常带骨且个头比鸡小腿大，适合慢烤、炖煮或红烧；不与火鸡胸肉比较最低价。'],
+  [/hakket kalkun/, '火鸡肉末，可做肉丸、汉堡肉饼、饺子馅或肉酱；只与火鸡肉末同类比较。'],
   [/paalaegschokolade/, '丹麦面包用薄片巧克力，通常把薄巧克力片直接铺在面包上吃；不是肉类冷切。'],
   [/frugtpaalaeg|grinebidder/, '压制水果条或水果片零食，可直接食用；丹麦语 frugtpålæg 虽含 pålæg，但这里不是肉类冷切。'],
   [/rejeost|skinkeost/, '虾味或火腿味涂抹奶酪，可抹面包、饼干或做三明治；商品主体是奶酪，不是虾或火腿冷切。'],
@@ -451,10 +459,10 @@ export function specificDanishDescription(originalName) {
 
 const ENGLISH_TITLES = [
   title(/russet potatoes?/, 'Russet 褐皮土豆'), title(/sweet potatoes?.*butter/, '黄油调味红薯配菜'), title(/potatoes?/, '新鲜土豆'),
-  title(/peaches?.*nectarines?|nectarines?.*peaches?/, '桃或油桃'), title(/plums?/, '李子'), title(/strawberries?/, '草莓'), title(/blueberries?/, '蓝莓'), title(/watermelon/, '西瓜'), title(/avocados?/, '牛油果'), title(/bananas?/, '香蕉'), title(/apples?/, '苹果'), title(/grapes?/, '葡萄'),
-  title(/whole young chicken/, '整只嫩鸡'), title(/chicken breasts?|chicken cutlets?/, '鸡胸肉'), title(/chicken thighs?|drumsticks?/, '鸡腿肉'), title(/ground chicken/, '鸡肉末'), title(/fried chicken|chicken tenders?|chicken bites?/, '熟制或裹粉鸡肉'),
+  title(/peaches?.*nectarines?|nectarines?.*peaches?/, '桃或油桃'), title(/plums?/, '李子'), title(/strawberries?/, '草莓'), title(/blueberries?/, '蓝莓'), title(/watermelon/, '西瓜'), title(/avocados?/, '牛油果'), title(/bananas?/, '香蕉'), title(/\bapples?\b/, '苹果'), title(/grapes?/, '葡萄'),
+  title(/whole young chicken/, '整只嫩鸡'), title(/chicken.*(?:sub|wrap)|(?:sub|wrap).*chicken/, '鸡肉三明治或卷饼'), title(/parmesan chicken|chicken bites?/, '帕玛森裹粉鸡肉'), title(/chicken breasts?|chicken cutlets?/, '鸡胸肉'), title(/chicken thighs?|drumsticks?/, '鸡腿肉'), title(/ground chicken/, '鸡肉末'), title(/fried chicken|chicken tenders?/, '熟制或裹粉鸡肉'),
   title(/ground beef|ground chuck/, '牛肉末'), title(/beef burgers?/, '牛肉汉堡饼'), title(/ribeye|sirloin|steak/, '牛排'), title(/beef roast|chuck roast|brisket/, '整块烤牛肉'),
-  title(/ground pork/, '猪肉末'), title(/pork tenderloin/, '猪里脊'), title(/pork chops?/, '猪排'), title(/pork meatballs?/, '猪肉丸'), title(/pulled pork/, '手撕猪肉'), title(/bacon/, '培根'),
+  title(/ground pork/, '猪肉末'), title(/pork tenderloin/, '猪里脊'), title(/pork chops?/, '猪排'), title(/pork meatballs?/, '猪肉丸'), title(/pulled pork/, '手撕猪肉'), title(/turkey bacon/, '火鸡培根'), title(/turkey breast/, '烤火鸡胸冷切'), title(/pepperoni/, '意式辣香肠片'), title(/black forest ham|\bham\b/, '火腿冷切'), title(/meat sticks?/, '肉条零食'), title(/sausage/, '香肠'), title(/bacon/, '猪肉培根'),
   title(/salmon burgers?/, '三文鱼汉堡饼'), title(/salmon|sockeye/, '三文鱼'), title(/shrimp|prawns?/, '虾'), title(/tuna.*canned|canned tuna/, '金枪鱼罐头'), title(/tuna|swordfish/, '金枪鱼或剑鱼排'),
   title(/greek yogurt/, '希腊酸奶'), title(/yogurt|yoghurt/, '酸奶'), title(/mozzarella/, '马苏里拉奶酪'), title(/cheddar/, '切达奶酪'), title(/cheese/, '奶酪'), title(/eggs?/, '鸡蛋'),
   title(/croissants?/, '可颂'), title(/bagels?/, '贝果'), title(/bread/, '面包'), title(/cookies?/, '饼干'), title(/cake/, '蛋糕'), title(/pie/, '派'),
@@ -467,4 +475,20 @@ export function englishProductNameZh(originalName, comparisonGroup, groupNameZh 
   const text = normalize(originalName);
   for (const [pattern, nameZh] of ENGLISH_TITLES) if (pattern.test(text)) return nameZh;
   return groupNameZh || GROUP_DEFAULTS[comparisonGroup] || '商品（请核对英文原名）';
+}
+
+const SPECIFIC_ENGLISH_DESCRIPTIONS = [
+  [/turkey bacon/, '火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。'],
+  [/ovengold roasted turkey breast/, '烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。'],
+  [/black forest ham/, '黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。'],
+  [/pepperoni/, '意式辣香肠薄片，通常用于披萨、三明治或零食拼盘；属于高盐熟制肉，不与普通鲜香肠或火腿冷切混比。'],
+  [/meat sticks?/, '调味肉条零食，可直接食用；需按包装确认肉种、辣度和单条重量，不与香肠或冷切火腿混比。'],
+  [/chicken.*(?:sub|wrap)|(?:sub|wrap).*chicken/, '鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。'],
+  [/parmesan chicken/, '帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。'],
+];
+
+export function specificEnglishDescription(originalName) {
+  const text = normalize(originalName);
+  for (const [pattern, descriptionZh] of SPECIFIC_ENGLISH_DESCRIPTIONS) if (pattern.test(text)) return descriptionZh;
+  return null;
 }
