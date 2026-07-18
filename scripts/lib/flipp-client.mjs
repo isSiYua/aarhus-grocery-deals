@@ -93,6 +93,23 @@ export function buildFlippFlyerUrl(flyerId, { postalCode, locationSlug }) {
   return `https://flipp.com/en-us/${location}/flyer/${id}?postal_code=${postal}`;
 }
 
+export function buildFlippItemUrl(itemId, flyer, { postalCode, locationSlug }) {
+  const id = Number(itemId);
+  const postal = String(postalCode || '').trim();
+  const location = String(locationSlug || '').trim().toLowerCase();
+  const itemSlug = `${flyer?.merchant || ''}-${flyer?.name || ''}`
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  if (!Number.isInteger(id) || id < 1) throw new Error('Flipp item URL requires a positive item ID');
+  if (!/^\d{5}$/.test(postal)) throw new Error('Flipp item URL requires a 5-digit postal code');
+  if (!/^[a-z0-9-]+$/.test(location)) throw new Error('Flipp item URL requires a safe location slug');
+  if (!itemSlug) throw new Error('Flipp item URL requires flyer merchant and name');
+  return `https://flipp.com/en-us/${location}/item/${id}-${itemSlug}?postal_code=${postal}`;
+}
+
 export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode, locationSlug }) {
   const flyerUrl = buildFlippFlyerUrl(flyer.id, { postalCode, locationSlug });
   const deduped = new Map();
@@ -104,9 +121,10 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
     if (item.display_type !== 1 || !name || !Number.isFinite(price) || price <= 0 || !category) continue;
 
     // Retailer campaign URLs in print_id/ttm_url frequently land on a generic
-    // promotion instead of this flyer item. The flyer ID is the only stable,
-    // exact source identity exposed by the public feed.
+    // promotion. Flipp's item ID opens the matching offer card directly while
+    // the location slug and postal code keep the route pinned to Atlanta.
     const retailerUrl = httpsUrl(item.ttm_url) || httpsUrl(item.print_id);
+    const itemUrl = buildFlippItemUrl(item.id, flyer, { postalCode, locationSlug });
     const key = `${normalized(name)}|${price}|${item.valid_from || flyer.valid_from}|${item.valid_to || flyer.valid_to}`;
     if (deduped.has(key)) continue;
 
@@ -125,18 +143,19 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
       lastSeenAt: seenAt,
       status: 'current',
       imageUrl: httpsUrl(item.cutout_image_url),
-      sourceUrl: flyerUrl,
+      sourceUrl: itemUrl,
       retailerUrl,
       flyerUrl,
       flyerId: flyer.id,
       flyerName: flyer.name,
+      itemId: Number(item.id),
       sourceLocation: {
-        status: 'unlocated',
+        status: 'direct',
         pageNumber: null,
-        positionLabel: null,
-        deepLink: null,
-        verifiedAt: null,
-        method: null,
+        positionLabel: 'Flipp 商品卡片',
+        deepLink: itemUrl,
+        verifiedAt: seenAt,
+        method: 'flipp-item-id',
       },
     });
   }

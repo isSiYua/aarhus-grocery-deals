@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   buildFlippFlyerUrl,
+  buildFlippItemUrl,
   chooseCurrentFlyer,
   fetchFlyerItems,
   fetchFlyers,
@@ -13,6 +14,13 @@ test('builds a location-pinned Atlanta flyer URL that cannot fall back to Aarhus
   assert.equal(
     buildFlippFlyerUrl(8021698, { postalCode: '30318', locationSlug: 'atlanta-ga' }),
     'https://flipp.com/en-us/atlanta-ga/flyer/8021698?postal_code=30318',
+  );
+});
+
+test('builds a location-pinned Flipp item URL that opens the exact offer card', () => {
+  assert.equal(
+    buildFlippItemUrl(1025400151, { merchant: 'Publix', name: 'Weekly Ad' }, { postalCode: '30318', locationSlug: 'atlanta-ga' }),
+    'https://flipp.com/en-us/atlanta-ga/item/1025400151-publix-weekly-ad?postal_code=30318',
   );
 });
 
@@ -54,8 +62,8 @@ test('classifies grocery names before ambiguous words', () => {
   assert.equal(classifyFlippItem('Apple Pie').categoryId, 'bakery');
 });
 
-test('normalizes real priced groceries, removes duplicates, and uses the exact flyer instead of a generic retailer campaign', () => {
-  const flyer = { id: 123, name: 'Weekly Ad', valid_from: '2026-07-15', valid_to: '2026-07-21' };
+test('normalizes real priced groceries, removes duplicates, and uses the exact Flipp item instead of a generic retailer campaign', () => {
+  const flyer = { id: 123, merchant: 'Kroger', name: 'Weekly Ad', valid_from: '2026-07-15', valid_to: '2026-07-21' };
   const items = [
     { id: 1, display_type: 1, name: 'Tyson Frozen Chicken', price: '6.99', valid_from: '2026-07-15', valid_to: '2026-07-21', ttm_url: 'http://retailer.example/item/1' },
     { id: 2, display_type: 1, name: 'Tyson Frozen Chicken', price: '6.99', valid_from: '2026-07-15', valid_to: '2026-07-21' },
@@ -71,9 +79,11 @@ test('normalizes real priced groceries, removes duplicates, and uses the exact f
   });
   assert.equal(offers.length, 1);
   assert.equal(offers[0].price, 6.99);
-  assert.equal(offers[0].sourceLocation.status, 'unlocated');
+  assert.equal(offers[0].sourceLocation.status, 'direct');
   assert.equal(offers[0].sourceLocation.pageNumber, null);
-  assert.equal(offers[0].sourceLocation.deepLink, null);
-  assert.equal(offers[0].sourceUrl, 'https://flipp.com/en-us/atlanta-ga/flyer/123?postal_code=30318');
+  assert.equal(offers[0].itemId, 1);
+  assert.equal(offers[0].sourceLocation.deepLink, 'https://flipp.com/en-us/atlanta-ga/item/1-kroger-weekly-ad?postal_code=30318');
+  assert.equal(offers[0].sourceUrl, 'https://flipp.com/en-us/atlanta-ga/item/1-kroger-weekly-ad?postal_code=30318');
+  assert.equal(offers[0].flyerUrl, 'https://flipp.com/en-us/atlanta-ga/flyer/123?postal_code=30318');
   assert.equal(offers[0].retailerUrl, 'https://retailer.example/item/1');
 });

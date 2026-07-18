@@ -5,9 +5,12 @@ const state = {
   search: '',
   touchStartX: null,
   locationId: null,
+  storeFilter: null,
+  shopping: {},
 };
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
+const SHOPPING_KEY = 'grocery-deals-shopping-v1';
 const LOCATIONS = [
   {
     id: 'aarhus-v',
@@ -153,6 +156,71 @@ const availabilityBadge = o => new Date(o.validFrom) > now() ? `下期开始 ${f
 const storeById = id => activeStores().find(s => s.id === id);
 const categoryById = id => activeCategories().find(c => c.id === id);
 const offerMoney = offer => offer.currency === 'USD' ? usd(offer.price) : money(offer.price);
+const locationShopping = () => state.shopping[state.locationId] || {};
+const shoppingEntry = offer => locationShopping()[offer.canonicalKey] || null;
+const shoppingCount = () => Object.values(locationShopping()).filter(entry => entry.status === 'wanted').length;
+
+function saveShopping() {
+  localStorage.setItem(SHOPPING_KEY, JSON.stringify(state.shopping));
+}
+
+function setShoppingStatus(offer, status) {
+  const entries = { ...locationShopping() };
+  if (!status) delete entries[offer.canonicalKey];
+  else entries[offer.canonicalKey] = {
+    status,
+    addedAt: entries[offer.canonicalKey]?.addedAt || new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    originalName: offer.originalName,
+    storeId: offer.storeId,
+  };
+  state.shopping = { ...state.shopping, [state.locationId]: entries };
+  saveShopping();
+  render({ preserveScroll: true });
+}
+
+function filterOffersByStore(offers) {
+  return state.storeFilter ? offers.filter(offer => offer.storeId === state.storeFilter) : offers;
+}
+
+function globalPriceComparison(offer) {
+  const candidates = currentOffers().filter(candidate =>
+    candidate.comparisonGroup === offer.comparisonGroup &&
+    candidate.currency === offer.currency &&
+    candidate.status !== 'unconfirmed'
+  );
+  const unitCandidates = candidates.filter(candidate => Number.isFinite(candidate.unitPriceValue));
+  const useUnit = unitCandidates.length > 0;
+  const comparable = useUnit ? unitCandidates : candidates.filter(candidate => Number.isFinite(candidate.price));
+  if (!comparable.length || (useUnit && !Number.isFinite(offer.unitPriceValue))) return null;
+  const metric = candidate => useUnit ? candidate.unitPriceValue : candidate.price;
+  const minimum = Math.min(...comparable.map(metric));
+  const value = metric(offer);
+  const tolerance = Math.max(0.000001, Math.abs(minimum) * 0.000001);
+  if (!Number.isFinite(value)) return null;
+  const difference = Math.max(0, value - minimum);
+  const isBest = difference <= tolerance;
+  const ties = comparable.filter(candidate => Math.abs(metric(candidate) - minimum) <= tolerance).length;
+  return {
+    isBest,
+    label: useUnit ? '全局最低单位价' : '全局最低标价',
+    ties,
+    difference,
+    basis: useUnit ? 'unit' : 'price',
+  };
+}
+
+function priceGapText(offer, comparison) {
+  if (!comparison) return null;
+  if (comparison.isBest) return comparison.ties > 1 ? `与全局最低相同 · ${comparison.ties} 项并列` : '当前为全局最低';
+  if (comparison.basis === 'unit') {
+    const unitLabel = String(offer.unitPriceDisplay || '').replace(/^\s*[\d.,]+\s*/, '') || (offer.currency === 'USD' ? 'USD/单位' : 'DKK/单位');
+    return `比全局最低贵 ${comparison.difference.toFixed(2)} ${unitLabel}`;
+  }
+  return offer.currency === 'USD'
+    ? `比全局最低贵 $${comparison.difference.toFixed(2)}`
+    : `比全局最低贵 ${comparison.difference.toFixed(2)} DKK`;
+}
 
 async function copyOfferName(name, button) {
   const resetLabel = '复制';
@@ -195,12 +263,43 @@ function parseRoute() {
   state.route.view = params.get('view') || 'home';
   state.route.id = params.get('id');
   state.search = params.get('q') || '';
+  const requestedStore = params.get('store');
+  state.storeFilter = activeStores().some(store => store.id === requestedStore) ? requestedStore : null;
 }
 function go(view, id = null, extra = {}) {
   const p = new URLSearchParams({ view });
   if (id) p.set('id', id);
-  Object.entries(extra).forEach(([k, v]) => v && p.set(k, v));
+  if (!Object.hasOwn(extra, 'store') && state.storeFilter && ['home', 'categories', 'category', 'shopping', 'search'].includes(view)) {
+    p.set('store', state.storeFilter);
+  }
+  Object.entries(extra).forEach(([k, v]) => v !== null && v !== undefined && v !== '' && p.set(k, v));
   location.hash = p.toString();
+}
+
+function setStoreFilter(storeId) {
+  go(state.route.view, state.route.id, { q: state.search, store: storeId });
+}
+
+function storeFilterBar(offers, title = '按商店筛选') {
+  const stores = activeStores().filter(store => offers.some(offer => offer.storeId === store.id));
+  if (stores.length < 2) return null;
+  return el('section', { class: 'store-filter-panel', 'aria-label': title }, [
+    el('div', { class: 'filter-label' }, [
+      el('strong', {}, title),
+      el('span', {}, state.storeFilter ? `${storeById(state.storeFilter)?.name || state.storeFilter} · ${filterOffersByStore(offers).length} 项` : `全部商店 · ${offers.length} 项`),
+    ]),
+    el('div', { class: 'chip-row store-filter-row' }, [
+      el('button', { class: `chip${state.storeFilter ? '' : ' active'}`, onClick: () => setStoreFilter(null) }, `全部 ${offers.length}`),
+      ...stores.map(store => {
+        const count = offers.filter(offer => offer.storeId === store.id).length;
+        return el('button', {
+          class: `chip store-filter-chip${state.storeFilter === store.id ? ' active' : ''}`,
+          style: `--store-color:${store.color}`,
+          onClick: () => setStoreFilter(store.id),
+        }, `${store.name} ${count}`);
+      }),
+    ]),
+  ]);
 }
 
 function topbar() {
@@ -225,6 +324,7 @@ function bottomNav() {
     ['home', '⌂', '首页'],
     ['categories', '▤', '分类'],
     ['stores', '⌖', '商店'],
+    ['shopping', '✓', `清单${shoppingCount() ? ` ${shoppingCount()}` : ''}`],
     ['search', '⌕', '搜索'],
   ];
   return el('nav', { class: 'bottom-nav', 'aria-label': '主导航' }, items.map(([view, icon, label]) =>
@@ -286,30 +386,7 @@ function atlantaStatusBanner() {
 }
 
 function atlantaOfferCard(offer) {
-  const store = ATLANTA_STORES.find(item => item.id === offer.storeId);
-  const category = ATLANTA_CATEGORY_LABELS[offer.categoryId] || ['🛒', '其他'];
-  const direct = offer.sourceLocation?.status === 'direct' && offer.sourceLocation.deepLink;
-  return el('article', { class: 'offer-card atlanta-offer-card' }, [
-    offer.imageUrl ? el('img', { class: 'offer-image', src: offer.imageUrl, alt: offer.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
-    el('div', { class: 'badges atlanta-offer-badges' }, [
-      el('span', { class: 'badge store', style: `--store-color:${store?.color || '#315f51'}` }, store?.name || offer.storeId),
-      el('span', { class: 'badge' }, `${category[0]} ${category[1]}`),
-      offer.status === 'unconfirmed' ? el('span', { class: 'badge warning' }, '等待重新确认') : null,
-    ]),
-    el('h4', {}, offer.originalName),
-    el('p', { class: 'zh-explanation' }, `${offer.zhExplanation}${offer.brand ? ` 品牌：${offer.brand}。` : ''}`),
-    el('div', { class: 'price-row' }, [el('span', { class: 'price' }, usd(offer.price)), el('span', { class: 'package' }, '促销单标示价格')]),
-    el('div', { class: 'meta-grid' }, [
-      el('div', { class: 'meta-line' }, [el('span', {}, '优惠期限'), el('strong', {}, `${formatDate(offer.validFrom)}—${formatDate(offer.validUntil)}`)]),
-      el('div', { class: 'meta-line' }, [el('span', {}, '区域'), el('strong', {}, '30318 · 约 10 km 购物圈')]),
-      el('div', { class: 'meta-line' }, [el('span', {}, '来源状态'), el('strong', {}, direct ? '零售商商品链接' : '整本周促销单')]),
-    ]),
-    el('div', { class: `source-block ${direct ? 'direct' : 'unlocated'}` }, [
-      el('div', { class: 'source-heading' }, [el('strong', {}, direct ? '商品优惠入口' : '来源'), el('span', { class: 'source-status' }, direct ? '直达链接' : '尚未定位')]),
-      el('p', {}, direct ? '来源提供零售商商品链接，但没有可靠促销单页码。' : '商品来自当前周促销 feed；数据源未提供可靠页码，因此不猜测页码。'),
-      el('a', { class: 'source-link secondary', href: offer.sourceUrl, target: '_blank', rel: 'noopener noreferrer' }, direct ? '打开商品优惠 ↗' : '打开来源促销单 ↗'),
-    ]),
-  ]);
+  return offerCard(offer);
 }
 
 function atlantaHomeView() {
@@ -389,9 +466,10 @@ function statusBanner() {
 }
 
 function homeView() {
-  const offers = currentOffers();
-  const nowOffers = purchasableNow();
-  const nextOffers = upcomingOffers();
+  const allOffers = currentOffers();
+  const offers = filterOffersByStore(allOffers);
+  const nowOffers = offers.filter(o => new Date(o.validFrom) <= now() && new Date(o.validUntil) >= now());
+  const nextOffers = offers.filter(o => new Date(o.validFrom) > now());
   const changed = offers.filter(o => o.changeType === 'new' || o.changeType === 'price_drop').length;
   const expiring = nowOffers.filter(o => {
     const days = (new Date(o.validUntil) - now()) / 86400000;
@@ -433,7 +511,7 @@ function homeView() {
   )) : el('div', { class: 'empty compact' }, '目前没有已录入的下一期优惠。');
 
   const catTitle = sectionTitle('像口袋书一样翻类别', '每页一个大类，页内比较同类商品');
-  const catGrid = el('div', { class: 'quick-grid' }, visibleCategories().map(c => {
+  const catGrid = el('div', { class: 'quick-grid' }, visibleCategories(offers).map(c => {
     const count = offers.filter(o => o.categoryId === c.id).length;
     return el('button', { class: 'quick-card', onClick: () => go('category', c.id) }, [
       el('span', { class: 'emoji' }, c.emoji),
@@ -442,14 +520,14 @@ function homeView() {
     ]);
   }));
 
-  return el('main', { class: 'content' }, [statusBanner(), hero, quickTitle, quickGrid, nextTitle, nextGrid, catTitle, catGrid, footerNote()]);
+  return el('main', { class: 'content' }, [statusBanner(), hero, storeFilterBar(allOffers, '先选准备去的商店'), quickTitle, quickGrid, nextTitle, nextGrid, catTitle, catGrid, footerNote()]);
 }
 
 function sectionTitle(title, subtitle) {
   return el('div', { class: 'section-title' }, el('div', {}, [el('h2', {}, title), el('p', {}, subtitle)]));
 }
-function visibleCategories() {
-  const ids = new Set(currentOffers().map(o => o.categoryId));
+function visibleCategories(offers = currentOffers()) {
+  const ids = new Set(offers.map(o => o.categoryId));
   return activeCategories().filter(c => ids.has(c.id));
 }
 
@@ -474,15 +552,17 @@ function categoryView(categoryId) {
   const cats = visibleCategories();
   const index = Math.max(0, cats.findIndex(c => c.id === categoryId));
   const category = cats[index] || cats[0];
-  const offers = currentOffers().filter(o => o.categoryId === category.id);
+  const allOffers = currentOffers().filter(o => o.categoryId === category.id);
+  const offers = filterOffersByStore(allOffers);
   const groups = groupOffers(offers);
   const main = el('main', { class: 'content', style: `--page-color:${category.color}` }, [
     el('section', { class: 'page-head' }, [
       el('div', { class: 'kicker' }, '商品分类'),
       el('h2', {}, `${category.emoji} ${category.nameZh}`),
       el('p', {}, category.descriptionZh),
-      el('span', { class: 'page-counter' }, `第 ${index + 1} 类 / 共 ${cats.length} 类 · ${offers.length} 项`),
+      el('span', { class: 'page-counter' }, `第 ${index + 1} 类 / 共 ${cats.length} 类 · ${offers.length} 项${state.storeFilter ? '（已筛选）' : ''}`),
     ]),
+    storeFilterBar(allOffers),
     ...groups.map(([groupId, groupOffersList]) => renderGroup(groupId, groupOffersList)),
     pager(cats, index),
     footerNote(),
@@ -535,12 +615,40 @@ function renderGroup(groupId, offers) {
   const label = groups[groupId] || groups.other || { nameZh: '其他商品', noteZh: '这些商品的规格不一定完全相同。' };
   return el('section', { class: 'group' }, [
     el('div', { class: 'group-head' }, [el('h3', {}, label.nameZh), el('p', {}, label.noteZh)]),
-    el('div', { class: 'offer-list' }, offers.map((o, i) => offerCard(o, i === 0 && Number.isFinite(o.unitPriceValue)))),
+    el('div', { class: 'offer-list' }, offers.map(o => offerCard(o))),
   ]);
 }
 
-function offerCard(o, best) {
+function shoppingControls(o, listView = false) {
+  const entry = shoppingEntry(o);
+  if (listView) {
+    return el('div', { class: 'shopping-actions' }, [
+      el('button', {
+        class: 'shopping-btn primary',
+        type: 'button',
+        onClick: () => setShoppingStatus(o, entry?.status === 'done' ? 'wanted' : 'done'),
+      }, entry?.status === 'done' ? '↺ 还要买' : '✓ 标记已买到'),
+      el('button', { class: 'shopping-btn', type: 'button', onClick: () => setShoppingStatus(o, null) }, '移出清单'),
+    ]);
+  }
+  const label = entry?.status === 'done'
+    ? '✓ 已买到 · 点击恢复'
+    : entry?.status === 'wanted'
+      ? '✓ 已加入清单 · 点击移出'
+      : '＋ 加入购物清单';
+  return el('button', {
+    class: `shopping-toggle${entry ? ' selected' : ''}${entry?.status === 'done' ? ' done' : ''}`,
+    type: 'button',
+    'aria-pressed': entry ? 'true' : 'false',
+    onClick: () => setShoppingStatus(o, entry?.status === 'wanted' ? null : 'wanted'),
+  }, label);
+}
+
+function offerCard(o, options = {}) {
   const store = storeById(o.storeId);
+  const entry = shoppingEntry(o);
+  const comparison = globalPriceComparison(o);
+  const best = comparison?.isBest ? comparison : null;
   const badges = [
     el('span', { class: 'badge store', style: `--store-color:${store?.color || '#315f51'}` }, store?.name || o.storeId),
   ];
@@ -549,13 +657,21 @@ function offerCard(o, best) {
   if (o.changeType === 'new') badges.push(el('span', { class: 'badge' }, '新增'));
   if (o.changeType === 'price_drop') badges.push(el('span', { class: 'badge' }, `降价 ${o.priceDropAmount || ''}`.trim()));
   if (o.status === 'unconfirmed') badges.push(el('span', { class: 'badge warning' }, '等待重新确认'));
-  return el('article', { class: `offer-card${best ? ' best' : ''}` }, [
+  if (best?.ties > 1) badges.push(el('span', { class: 'badge best-tie' }, `${best.ties} 项并列最低`));
+  if (entry?.status === 'wanted') badges.push(el('span', { class: 'badge selected-badge' }, '购物清单中'));
+  if (entry?.status === 'done') badges.push(el('span', { class: 'badge done-badge' }, '已买到'));
+  return el('article', {
+    class: `offer-card${best ? ' best' : ''}${entry?.status === 'wanted' ? ' selected-offer' : ''}${entry?.status === 'done' ? ' completed-offer' : ''}`,
+    'data-best-label': best?.label || null,
+  }, [
     o.imageUrl ? el('img', { class: 'offer-image', src: o.imageUrl, alt: o.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
     offerTitle(o.originalName),
     el('p', { class: 'zh-explanation' }, o.zhExplanation),
     el('div', { class: 'price-row' }, [el('span', { class: 'price' }, offerMoney(o)), el('span', { class: 'package' }, o.packageText || (o.currency === 'USD' ? '促销单标示价格' : '规格待确认'))]),
     o.unitPriceDisplay ? el('div', { class: 'unit-price' }, `单位价格：${o.unitPriceDisplay}`) : null,
+    comparison ? el('div', { class: `price-gap${comparison.isBest ? ' best-gap' : ''}` }, priceGapText(o, comparison)) : null,
     el('div', { class: 'badges' }, [el('span', { class: `badge ${new Date(o.validFrom) > now() ? 'warning' : ''}` }, availabilityBadge(o)), ...badges]),
+    shoppingControls(o, options.listView),
     el('div', { class: 'meta-grid' }, [
       el('div', { class: 'meta-line' }, [el('span', {}, '优惠期限'), el('strong', {}, `${formatDate(o.validFrom)}—${formatDate(o.validUntil)}`)]),
       el('div', { class: 'meta-line' }, [el('span', {}, '附近门店'), el('strong', {}, store?.shortAddress || '查看商店页')]),
@@ -655,12 +771,14 @@ function storeView(storeId) {
 function searchView() {
   const all = currentOffers();
   const query = state.search.trim().toLowerCase();
-  const results = !query ? [] : all.filter(o => [o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
+  const allResults = !query ? [] : all.filter(o => [o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
+  const results = filterOffersByStore(allResults);
   const input = el('input', { class: 'search-input', value: state.search, placeholder: '输入中文、丹麦文或英文商品名……', type: 'search' });
   input.addEventListener('input', e => {
     state.search = e.target.value;
     const p = new URLSearchParams({ view: 'search' });
     if (state.search) p.set('q', state.search);
+    if (state.storeFilter) p.set('store', state.storeFilter);
     history.replaceState(null, '', `#${p}`);
     render();
     requestAnimationFrame(() => {
@@ -670,8 +788,53 @@ function searchView() {
   });
   return el('main', { class: 'content' }, [
     el('div', { class: 'search-panel' }, [input, el('p', { class: 'search-hint' }, '同时搜索商品原名、中文解释、商店名称。中文解释不会折叠。')]),
-    query ? sectionTitle(`找到 ${results.length} 项`, '有可靠单位价格时优先按单位价格，否则按标示价格排列') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
-    query ? el('div', { class: 'offer-list' }, results.sort(compareOffers).map((o, i) => offerCard(o, false))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
+    query ? storeFilterBar(allResults) : null,
+    query ? sectionTitle(`找到 ${results.length} 项`, '最低价按全部商店计算；切换商店后仍保留全局最低提示') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
+    query ? el('div', { class: 'offer-list' }, [...results].sort(compareOffers).map(o => offerCard(o))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
+    footerNote(),
+  ]);
+}
+
+function shoppingListView() {
+  const entries = locationShopping();
+  const allOffers = currentOffers().filter(offer => entries[offer.canonicalKey]);
+  const visibleOffers = filterOffersByStore(allOffers);
+  const wanted = visibleOffers.filter(offer => entries[offer.canonicalKey]?.status === 'wanted');
+  const completed = visibleOffers.filter(offer => entries[offer.canonicalKey]?.status === 'done');
+  const unavailableCount = Object.keys(entries).length - allOffers.length;
+
+  const renderByStore = offers => activeStores().flatMap(store => {
+    const storeOffers = offers.filter(offer => offer.storeId === store.id).sort(compareOffers);
+    if (!storeOffers.length) return [];
+    return [el('section', { class: 'shopping-store-section', style: `--store-color:${store.color}` }, [
+      el('div', { class: 'shopping-store-head' }, [
+        el('div', {}, [el('h3', {}, store.name), el('p', {}, `${store.shortAddress} · ${storeOffers.length} 项`)]),
+        el('button', { class: 'chip', onClick: () => go('store', store.id) }, '查看该店'),
+      ]),
+      el('div', { class: 'offer-list' }, storeOffers.map(offer => offerCard(offer, { listView: true }))),
+    ])];
+  });
+
+  const completedSection = completed.length ? el('details', { class: 'completed-list' }, [
+    el('summary', {}, `已买到 ${completed.length} 项 · 点击展开或恢复`),
+    el('p', { class: 'completed-help' }, '已买到的商品不会删除，只会置灰并收在这里；需要再买时点“还要买”。'),
+    ...renderByStore(completed),
+  ]) : null;
+
+  return el('main', { class: 'content shopping-view' }, [
+    el('section', { class: 'hero shopping-hero' }, [
+      el('h2', {}, '我的购物清单'),
+      el('p', {}, '先按商店规划路线，再逐项打勾。清单只保存在这台设备的浏览器中，不会上传。'),
+      el('div', { class: 'hero-meta' }, [
+        el('span', { class: 'hero-pill' }, `${wanted.length} 项待购买`),
+        el('span', { class: 'hero-pill' }, `${completed.length} 项已买到`),
+      ]),
+    ]),
+    storeFilterBar(allOffers, '只看准备去的商店'),
+    unavailableCount > 0 ? el('div', { class: 'status-banner' }, `${unavailableCount} 项旧优惠已不在本期数据中，暂不显示；不会影响当前清单。`) : null,
+    sectionTitle(`${wanted.length} 项待购买`, wanted.length ? '已按商店分组；商品上的最低价仍按全部商店计算' : '浏览商品时点击“加入购物清单”'),
+    ...(wanted.length ? renderByStore(wanted) : [el('div', { class: 'empty' }, '清单还是空的。去分类、商店或搜索页面选择想买的商品吧。')]),
+    completedSection,
     footerNote(),
   ]);
 }
@@ -681,7 +844,8 @@ function footerNote() {
   return el('p', { class: 'footer-note' }, activeData()?.metadata?.disclaimerZh || defaultText);
 }
 
-function render() {
+function render({ preserveScroll = false } = {}) {
+  const scrollY = window.scrollY;
   const root = document.getElementById('app');
   root.replaceChildren(topbar());
   let view;
@@ -690,10 +854,11 @@ function render() {
   else if (state.route.view === 'category') view = categoryView(state.route.id);
   else if (state.route.view === 'stores') view = storesView();
   else if (state.route.view === 'store') view = storeView(state.route.id);
+  else if (state.route.view === 'shopping') view = shoppingListView();
   else if (state.route.view === 'search') view = searchView();
   else view = homeView();
   root.append(view, bottomNav());
-  window.scrollTo({ top: 0, behavior: 'auto' });
+  window.scrollTo({ top: preserveScroll ? scrollY : 0, behavior: 'auto' });
 }
 
 async function boot() {
@@ -714,6 +879,12 @@ async function boot() {
     }
     const savedLocation = localStorage.getItem(LOCATION_KEY);
     state.locationId = LOCATIONS.some(location => location.id === savedLocation) ? savedLocation : LOCATIONS[0].id;
+    try {
+      const savedShopping = JSON.parse(localStorage.getItem(SHOPPING_KEY) || '{}');
+      state.shopping = savedShopping && typeof savedShopping === 'object' && !Array.isArray(savedShopping) ? savedShopping : {};
+    } catch {
+      state.shopping = {};
+    }
     parseRoute();
     render();
   } catch (error) {
