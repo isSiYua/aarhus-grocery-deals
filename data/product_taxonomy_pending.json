@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-18T13:22:23.653Z",
-  "count": 958,
+  "generatedAt": "2026-07-18T13:49:52.565Z",
+  "count": 952,
   "items": [
     {
       "descriptionKey": "v1|10 friskbagte rundstykker|bread",
@@ -25,11 +25,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-6.webp&w=1000&x1r=0.013&x2r=0.548&y1r=0.016&y2r=0.485&s=69bcc8163a08fb51c8a8c797d186119b"
     },
     {
-      "descriptionKey": "v1|4 burgerboller eller 6 polsebrod|bread",
+      "descriptionKey": "v1|4 burgerboller eller 6 polsebrod|sausages",
       "originalName": "4 burgerboller eller 6 pølsebrød",
       "originalDescription": "Frit valg",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "sausages",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-13.webp&w=1000&x1r=0.58&x2r=0.98&y1r=0.25&y2r=0.49&s=0f87b9cd4fe47cf437c06fc7dabc13fd"
@@ -83,46 +83,6 @@
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&w=1000&x1r=0.032&x2r=0.346&y1r=0.038&y2r=0.329&s=4eae0eceade006f1e0574ca0c1f14995"
-    },
-    {
-      "descriptionKey": "v1|aeg induktionskogeplade|eggs",
-      "originalName": "AEG Induktionskogeplade",
-      "originalDescription": "Model: TI84IB10FB • Antal induktionszoner: 4 Fleksible kogezoner Kogesensor Normalpris 8999.- Årets billigste pris* i Bilka *Der er tale om den laveste pris i Bilka i perioden 1/1-2026 - 17/7-2026. Tilbuddet gælder til og med d. 23/7-2026. SPAR 5100.-",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "eggs",
-      "currentReviewStatus": "pending_codex_review",
-      "storeId": "bilka",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsBtvBbmk%2Fp-23.webp&w=1000&x1r=0.35&x2r=0.65&y1r=0.6&y2r=0.94&s=c1fd42a9677f0260e4f1dc06f885ec06"
-    },
-    {
-      "descriptionKey": "v1|aeg kondenstorretumbler|eggs",
-      "originalName": "AEG Kondenstørretumbler",
-      "originalDescription": "Model: TR832W85W Tørrekapacitet: 8 kg Varmepumpeteknologi Sensorstyret Normalpris 10999.- Årets billigste pris* i Bilka *Der er tale om den laveste pris i Bilka i perioden 1/1-2026 - 17/7-2026. Tilbuddet gælder til og med d. 23/7-2026. SPAR 6000.- Samt fragt 99,-",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "eggs",
-      "currentReviewStatus": "pending_codex_review",
-      "storeId": "bilka",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsBtvBbmk%2Fp-23.webp&w=1000&x1r=0.03&x2r=0.64&y1r=0.15&y2r=0.58&s=607c82c93c69e85e9b2f203f71d45899"
-    },
-    {
-      "descriptionKey": "v1|aeg ovn|eggs",
-      "originalName": "AEG Ovn",
-      "originalDescription": "Model: TR6PB531SB • Ovnrum netto: 72 liter Pyrolytisk selvrens 6000 SenceCook Indbygget Wi-Fi Normalpris 11999.- Årets billigste pris* i Bilka *Der er tale om den laveste pris i Bilka i perioden 1/1-2026 - 17/7-2026. Tilbuddet gælder til og med d. 23/7-2026. SPAR 7200.-",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "eggs",
-      "currentReviewStatus": "pending_codex_review",
-      "storeId": "bilka",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsBtvBbmk%2Fp-23.webp&w=1000&x1r=0.03&x2r=0.34&y1r=0.6&y2r=0.94&s=f8d55c43366cb1d276b5529d0904691a"
-    },
-    {
-      "descriptionKey": "v1|aeg vaskemaskine|eggs",
-      "originalName": "AEG Vaskemaskine",
-      "originalDescription": "Model: LR732G86W • Vaskekapacitet: 8 kg Dampfunktion MixLoad 69 min-program Normalpris 9999.- Årets billigste pris* i Bilka *Der er tale om den laveste pris i Bilka i perioden 1/1-2026 - 17/7-2026. Tilbuddet gælder til og med d. 23/7-2026. SPAR 6200.-",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "eggs",
-      "currentReviewStatus": "pending_codex_review",
-      "storeId": "bilka",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsBtvBbmk%2Fp-23.webp&w=1000&x1r=0.66&x2r=0.97&y1r=0.6&y2r=0.94&s=44feb32a2f3301dbc0dabbb30a88152b"
     },
     {
       "descriptionKey": "v1|aftersun sorbet eller lotion|sun_care",
@@ -385,11 +345,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-22.webp&w=1000&x1r=0.333&x2r=0.669&y1r=0.672&y2r=0.968&s=43958956b0ae1b2436f320fc97eafe71"
     },
     {
-      "descriptionKey": "v1|anglamark vaadservietter|baby_care",
+      "descriptionKey": "v1|anglamark vaadservietter|paper",
       "originalName": "Änglamark vådservietter",
       "originalDescription": "72 stk. Stk.-pris 0,10. 1 pakke.",
-      "currentCategoryId": "baby",
-      "currentComparisonGroup": "baby_care",
+      "currentCategoryId": "household",
+      "currentComparisonGroup": "paper",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.29&y2r=0.56&s=a17a58662a24d5ddd7f386592ea561dc"
@@ -485,11 +445,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F06edf79f9259819d3f25ff5c25d4ce42&w=1000&s=98936d56a2d3257b63a5ac24269f12a1"
     },
     {
-      "descriptionKey": "v1|arla laktosefri maelk eller piskeflode|milk",
+      "descriptionKey": "v1|arla laktosefri maelk eller piskeflode|mixed_dairy",
       "originalName": "Arla laktosefri mælk eller piskefløde",
       "originalDescription": "250-1000 ml. Literpris maks. 60,00. Frit valg. 1 stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "mixed_dairy",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff1bbd1e64db0ed232bf1c68569750b94&w=1000&s=a42e84be171fc26ad69c23a57468143a"
@@ -505,11 +465,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-22.webp&w=1000&x1r=0.038&x2r=0.441&y1r=0.466&y2r=0.967&s=b325856dbfb8aa85c5e519eec8c5258e"
     },
     {
-      "descriptionKey": "v1|arla laktosefri piskeflode|milk",
+      "descriptionKey": "v1|arla laktosefri piskeflode|cream",
       "originalName": "Arla laktosefri piskefløde",
       "originalDescription": "250 ml. Literpris 60,00. 1 stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cream",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-22.webp&w=1000&x1r=0.224&x2r=0.58&y1r=0.03&y2r=0.35&s=75f1a7333faf047c6d74cbfeb58431cd"
@@ -915,31 +875,31 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-20.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.101&y2r=0.399&s=2b44b09a4e7c314409ec4b37999c936f"
     },
     {
-      "descriptionKey": "v1|brystfilet med skind eller udbenet laar med skind af fransk majskylling|chicken_breast",
+      "descriptionKey": "v1|brystfilet med skind eller udbenet laar med skind af fransk majskylling|chicken_other",
       "originalName": "Brystfilet med skind eller udbenet lår med skind af fransk majskylling",
       "originalDescription": "340-500 g. Pr. kg max. 161,76 Smagfuldt kyllingebryst med majskyllingens karakteristiske gule skind. Lårf i let af fransk majskyll in g som er perfekt til grill, airfryer eller stegning på panden i smør med hvidløgsfed og timiankviste. Vi har bibeholdt det smagfulde og delikate skind på lårfileten.",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "chicken_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-11.webp&w=1000&x1r=0.046&x2r=0.957&y1r=0.672&y2r=0.956&s=7b1be8e7222abe167b2ccf51442c6655"
     },
     {
-      "descriptionKey": "v1|buko flodeost naturel eller pikant|milk",
+      "descriptionKey": "v1|buko flodeost naturel eller pikant|cheese",
       "originalName": "BUKO Flødeost naturel eller pikant",
       "originalDescription": "200 g / stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.4979&x2r=0.9926&y1r=0.7081&y2r=0.9474&s=a64ab2fff952a97d2a408a46d44d861c"
     },
     {
-      "descriptionKey": "v1|buko flodeost|milk",
+      "descriptionKey": "v1|buko flodeost|cheese",
       "originalName": "Buko flødeost",
       "originalDescription": "150-200 g. Pr. kg max. 66,67",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-2.webp&w=1000&x1r=0.01&x2r=0.33&y1r=0.16&y2r=0.56&s=822664134b211bc7fb68ffd84950d607"
@@ -965,11 +925,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-38.webp&w=1000&x1r=0.505&x2r=0.722&y1r=0.225&y2r=0.495&s=849e9109acfa99fa638a16263aca4c9a"
     },
     {
-      "descriptionKey": "v1|buko smoreost|biscuits",
+      "descriptionKey": "v1|buko smoreost|cheese",
       "originalName": "Buko smøreost",
       "originalDescription": "200 g. Kg-pris 75,00. Frit valg. 1 stk.",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "biscuits",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F064408388a3c33be4857b38e49a6bacd&w=1000&s=f3bde665bf7c4dd2626a272d4a200d39"
@@ -985,21 +945,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-10.webp&w=1000&x1r=0.3&x2r=0.76&y1r=0.2&y2r=0.66&s=ef85a35bef4343a62bd131a8880e847b"
     },
     {
-      "descriptionKey": "v1|butcher s nakkefilet|pork_chop",
+      "descriptionKey": "v1|butcher s nakkefilet|pork_roast",
       "originalName": "BUTCHER’S Nakkefilet",
       "originalDescription": "",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&w=1000&x1r=0.4983&x2r=0.9957&y1r=0.712&y2r=0.9465&s=5f96d7d7598adba01ffe61296811aa03"
     },
     {
-      "descriptionKey": "v1|butcher s oksesteak med peberkant|spices",
+      "descriptionKey": "v1|butcher s oksesteak med peberkant|beef_steak",
       "originalName": "BUTCHER'S Oksesteak med peberkant",
       "originalDescription": "Pr. 250 g. Pr. kg 159,80",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "beef",
+      "currentComparisonGroup": "beef_steak",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&w=1000&x1r=0.0067&x2r=0.5118&y1r=0.4627&y2r=0.7076&s=9543c2f20f6b76a7ea3b36355acf5097"
@@ -1125,11 +1085,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrR1wWdCy%2Fp-22.webp&w=1000&x1r=0.4732&x2r=0.9959&y1r=0.7021&y2r=0.9469&s=855244a7fefa28409f00967480d4bc5d"
     },
     {
-      "descriptionKey": "v1|cheasy skiveost eller dairy good hytteost|yoghurt",
+      "descriptionKey": "v1|cheasy skiveost eller dairy good hytteost|cheese",
       "originalName": "Cheasy skiveost eller Dairy good hytteost",
       "originalDescription": "200-450 g. Flere varianter. Pr. kg max. 110,-",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "yoghurt",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-18.webp&w=1000&x1r=0.01&x2r=0.28&y1r=0.328&y2r=0.724&s=251c0769d580647c11cf80661158add2"
@@ -1163,16 +1123,6 @@
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&w=1000&x1r=0.03&x2r=0.37&y1r=0.03&y2r=0.47&s=37e9834395b1c3d06b228ef950804794"
-    },
-    {
-      "descriptionKey": "v1|cien badevaegt af glas|hair_body",
-      "originalName": "CIEN Badevægt af glas",
-      "originalDescription": "Maks. 180 kg. Spot²",
-      "currentCategoryId": "personal_care",
-      "currentComparisonGroup": "hair_body",
-      "currentReviewStatus": "pending_codex_review",
-      "storeId": "lidl",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-10.webp&w=1000&x1r=0.52&x2r=0.98&y1r=0.28&y2r=0.495&s=0500e2e29ba6acd19c088b6138915079"
     },
     {
       "descriptionKey": "v1|cirkel kaffe formalet eller nescafe instant kaffe|coffee_tea",
@@ -1235,21 +1185,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-28.webp&w=1000&x1r=0.5001&x2r=0.954&y1r=0.0409&y2r=0.4601&s=d193fcead1f86b26927f0a820fa201d0"
     },
     {
-      "descriptionKey": "v1|combino fusilli penne rigate eller suppehorn|ready_meal",
+      "descriptionKey": "v1|combino fusilli penne rigate eller suppehorn|pasta_noodles",
       "originalName": "COMBINO Fusilli, penne rigate eller suppehorn",
       "originalDescription": "500 g / pk. Pr. kg. 11,90.",
-      "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "ready_meal",
+      "currentCategoryId": "bread_grains",
+      "currentComparisonGroup": "pasta_noodles",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-28.webp&w=1000&x1r=0.0094&x2r=0.5148&y1r=0.0396&y2r=0.4605&s=0b8064893a0152f0fd4a99605a9cd3cd"
     },
     {
-      "descriptionKey": "v1|combino lasagneplader|ready_meal",
+      "descriptionKey": "v1|combino lasagneplader|pasta_noodles",
       "originalName": "COMBINO Lasagneplader",
       "originalDescription": "500 g / pk. Pr. kg 19,90.",
-      "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "ready_meal",
+      "currentCategoryId": "bread_grains",
+      "currentComparisonGroup": "pasta_noodles",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-28.webp&w=1000&x1r=0.4975&x2r=0.9921&y1r=0.4697&y2r=0.7097&s=c5e232f05a8c111a38c4458db141ff37"
@@ -1475,11 +1425,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fa6041f8985c4684696affcadd4c31c1f&w=1000&s=73784f1131fe7ea9baa86c164a3c8c94"
     },
     {
-      "descriptionKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|chocolate",
+      "descriptionKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|pork_chop",
       "originalName": "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit",
       "originalDescription": "325-350 g. Kg-pris maks. 104,62. Frit valg. 1 pakke",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chocolate",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "pork_chop",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4ab40ae7dca12ff03f76ee07c6f29069&w=1000&s=8b2d3fe2ed13447021ca4292655faafd"
@@ -1495,11 +1445,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-3.webp&w=1000&x1r=0.13&x2r=0.94&y1r=0.34&y2r=0.54&s=3c141ecaf4860e3b172699f22c7bdb27"
     },
     {
-      "descriptionKey": "v1|coop marineret lammeculotte|beef_steak",
+      "descriptionKey": "v1|coop marineret lammeculotte|lamb_other",
       "originalName": "Coop marineret lammeculotte",
       "originalDescription": "300-400 g. Kg-pris maks. 196,67. 1 stk.",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "lamb_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-4.webp&w=1000&x1r=0.5&x2r=1&y1r=0.345&y2r=0.664&s=144e59048ee8e88b78dfaff59b5ff1dc"
@@ -1515,11 +1465,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-14.webp&w=1000&x1r=0.49&x2r=0.99&y1r=0.126&y2r=0.372&s=51dc623569744274309088d4900739de"
     },
     {
-      "descriptionKey": "v1|coop polsehorn eller focaccia med pepperoni|bread",
+      "descriptionKey": "v1|coop polsehorn eller focaccia med pepperoni|sausages",
       "originalName": "Coop pølsehorn eller focaccia med pepperoni",
       "originalDescription": "Dybfrost. 400-480 g. Kg-pris maks. 62,50. Frit valg. 1 pose.",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "sausages",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-10.webp&w=1000&x1r=0.33&x2r=0.64&y1r=0.34&y2r=0.66&s=875745a50fc7dbdfb008fed14c535e57"
@@ -1585,11 +1535,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd107227d663daadce5bec101965f2a77&w=1000&s=1c2dfb4d351e209acb1a2fbc2bed8725"
     },
     {
-      "descriptionKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_roast",
+      "descriptionKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_ribs",
       "originalName": "Coop spareribs, pulled pork eller pulled chicken",
       "originalDescription": "Nyhed 350-500 g. Kg-pris maks. 91,43. Frit valg. 1 stk.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84&s=0681b74636f987dc2726d4821fc9c12a"
@@ -1775,11 +1725,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-6.webp&w=1000&x1r=0.5&x2r=1&y1r=0.42&y2r=0.67&s=0caef2a15379d8f473b8c07a8c1ff041"
     },
     {
-      "descriptionKey": "v1|dansk kalv culotte eller tyndsteg|beef_steak",
+      "descriptionKey": "v1|dansk kalv culotte eller tyndsteg|beef_roast",
       "originalName": "Dansk Kalv culotte eller tyndsteg",
       "originalDescription": "Kg-pris 190,00. Frit valg. Pris pr. ½ kg.",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fb06b3c260e47bf004251d480fe7d1450&w=1000&s=86286a95fb60a308b4a6d08be8c4834d"
@@ -1895,11 +1845,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&w=1000&x1r=0.312&x2r=0.495&y1r=0.17&y2r=0.498&s=eff225412f27fb7f225385061d02790d"
     },
     {
-      "descriptionKey": "v1|deluxe smor med havsalt|spices",
+      "descriptionKey": "v1|deluxe smor med havsalt|butter",
       "originalName": "DELUXE Smør med havsalt",
       "originalDescription": "Fra Camargue. 250 g / stk. Pr. kg 59,80.",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "butter",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-23.webp&w=1000&x1r=0.4975&x2r=0.987&y1r=0.4674&y2r=0.709&s=ac74fba8f6ae1604914c069258633672"
@@ -1985,11 +1935,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-29.webp&w=1000&x1r=0&x2r=0.49&y1r=0&y2r=0.28&s=31a8cffe5a31bd7ba1ae54ef3d4ae59b"
     },
     {
-      "descriptionKey": "v1|donut med chokolade eller vaniljefyld|chocolate",
+      "descriptionKey": "v1|donut med chokolade eller vaniljefyld|biscuits",
       "originalName": "Donut med chokolade eller vaniljefyld",
       "originalDescription": "56-67 g. Pr. kg maks. 89,29",
       "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chocolate",
+      "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-6.webp&w=1000&x1r=0.0117&x2r=0.527&y1r=0.1307&y2r=0.4952&s=1e7602c4f90278e112482bda1ed289dd"
@@ -2335,11 +2285,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&w=1000&x1r=0.01&x2r=0.28&y1r=0.01&y2r=0.25&s=af63a72502b52cee43e137c029b6ba49"
     },
     {
-      "descriptionKey": "v1|focacciabrod buffalo burgerboller eller polsebrod|bread",
+      "descriptionKey": "v1|focacciabrod buffalo burgerboller eller polsebrod|sausages",
       "originalName": "Focacciabrød, buffalo burgerboller eller pølsebrød*",
       "originalDescription": "Stk.-pris maks. 25,00. Frit valg. 1 pose.",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "sausages",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-21.webp&w=1000&x1r=0.015&x2r=0.655&y1r=0.015&y2r=0.285&s=1f79d6544a26affd6930091179fb3bbc"
@@ -2445,11 +2395,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-19.webp&w=1000&x1r=0.436&x2r=0.942&y1r=0.161&y2r=0.654&s=33d0a8a523773d0e2210d6ec7f47d26b"
     },
     {
-      "descriptionKey": "v1|friland dansk hakket grisekod grise og oksekod 8 12 grillmedister eller koteletter|pork_chop",
+      "descriptionKey": "v1|friland dansk hakket grisekod grise og oksekod 8 12 grillmedister eller koteletter|pork_mixed_offer",
       "originalName": "Friland dansk hakket grisekød, grise- og oksekød 8-12%, grillmedister eller koteletter",
       "originalDescription": "Økologisk 300-350 g Max. 130.00 pr. kg Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 49.95 pr. stk.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_mixed_offer",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-17.webp&w=1000&x1r=0.426&x2r=0.977&y1r=0.703&y2r=0.994&s=6fbe852d01828c905916703fbabad98c"
@@ -2535,11 +2485,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F756c2834a4912f759f8ef08013a8b59d&w=1000&s=b363be7b0a7c0aa2a7eb44a1041c8d71"
     },
     {
-      "descriptionKey": "v1|galle jessen paalaegschokolade|chocolate",
+      "descriptionKey": "v1|galle jessen paalaegschokolade|bacon_deli",
       "originalName": "Galle & Jessen pålægschokolade*",
       "originalDescription": "324 g. Kg-pris 154,32. Frit valg. 1 pakke",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chocolate",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F482deeaf44fd3aa7e26acf4be9e84f89&w=1000&s=7131bd7808bbb2aab8e77db1fea64b72"
@@ -2685,11 +2635,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-1.webp&w=1000&x1r=0.48&x2r=0.725&y1r=0.468&y2r=0.781&s=054ec4dd7d0fe4960b5e8ff6d59e6ae3"
     },
     {
-      "descriptionKey": "v1|gol polser eller tulip bacon|sausages",
+      "descriptionKey": "v1|gol polser eller tulip bacon|bacon_deli",
       "originalName": "Gøl pølser eller Tulip bacon",
       "originalDescription": "300-500 g. Flere varianter. Pr. kg max. 100,- 30,-",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&w=1000&x1r=0.27&x2r=0.96&y1r=0.26&y2r=0.94&s=2dc018d5561b377fed8e47646659bad3"
@@ -2765,11 +2715,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-15.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.47&y2r=0.73&s=77e319c1a2f343ebfca6330f622571c1"
     },
     {
-      "descriptionKey": "v1|gram slot pommes frites eller kartofler|frozen_vegetables",
+      "descriptionKey": "v1|gram slot pommes frites eller kartofler|potato_sides",
       "originalName": "Gram Slot Pommes frites eller kartofler",
       "originalDescription": "Økologisk Dybfrost 600 g 23.33 pr. kg Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 17.95 pr. stk.",
       "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "frozen_vegetables",
+      "currentComparisonGroup": "potato_sides",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-17.webp&w=1000&x1r=0.457&x2r=0.963&y1r=0.076&y2r=0.702&s=7cdaa04052b4d67ae53560d9f690e7a7"
@@ -2815,11 +2765,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-17.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.265&y2r=0.495&s=96d8a530de3887c0c9346f775316c01b"
     },
     {
-      "descriptionKey": "v1|grillmester marinerede spareribs|pork_roast",
+      "descriptionKey": "v1|grillmester marinerede spareribs|pork_ribs",
       "originalName": "GRILLMESTER Marinerede spareribs",
       "originalDescription": "Pr. kg 58,00 Med Lidl Plus³ -27 % Pr. 1/2 kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&w=1000&x1r=0.019&x2r=0.31&y1r=0.373&y2r=0.72&s=c55fd2149fb99130fb5e56a4e4c1115e"
@@ -2855,11 +2805,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&w=1000&x1r=0.49&x2r=0.983&y1r=0.725&y2r=1&s=26091abb02c7c8d8980c3ae996999868"
     },
     {
-      "descriptionKey": "v1|gron honningmelon piel de sapo|spreads_jam",
+      "descriptionKey": "v1|gron honningmelon piel de sapo|melon",
       "originalName": "Grøn honningmelon Piel de Sapo",
       "originalDescription": "Klasse 1.\nPr. stk. 20,00",
-      "currentCategoryId": "breakfast",
-      "currentComparisonGroup": "spreads_jam",
+      "currentCategoryId": "fruit",
+      "currentComparisonGroup": "melon",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-3.webp&w=1000&x1r=0&x2r=0.52&y1r=0.02&y2r=0.495&s=eede4f2b7df77d1679cd9f403abedcb0"
@@ -2905,11 +2855,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-40.webp&w=1000&x1r=0.582&x2r=0.963&y1r=0.383&y2r=0.617&s=6ddb81a9243579a6d23838245d9b1b3c"
     },
     {
-      "descriptionKey": "v1|hakket grisekod koteletter herregaardskoteletter nakkekoteletter eller flaesk i skiver af dansk gris|pork_chop",
+      "descriptionKey": "v1|hakket grisekod koteletter herregaardskoteletter nakkekoteletter eller flaesk i skiver af dansk gris|pork_mixed_offer",
       "originalName": "Hakket grisekød, koteletter, herregårdskoteletter, nakkekoteletter eller flæsk i skiver af dansk gris",
       "originalDescription": "750-1000 g. Flere varianter. Pr. kg max. 65,33 900 g 1 kg. 8-12% fedt",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_mixed_offer",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-1.webp&w=1000&x1r=0.02&x2r=0.39&y1r=0.64&y2r=0.91&s=a86a3646d8a502fe23f6e9b594c99f56"
@@ -2945,11 +2895,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-14.webp&w=1000&x1r=0.02&x2r=0.32&y1r=0.38&y2r=0.72&s=825982fc8580f436d0ff81f331d5cae4"
     },
     {
-      "descriptionKey": "v1|hamburger af oksekod|beef_steak",
+      "descriptionKey": "v1|hamburger af oksekod|beef_burgers",
       "originalName": "Hamburger af oksekød",
       "originalDescription": "1120 g. Pr. kg 106,25 Spot¹",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_burgers",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&w=1000&x1r=0.014&x2r=0.298&y1r=0.041&y2r=0.498&s=a35c6d318002d6f34a02d62736a9f30c"
@@ -2985,21 +2935,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F7619703024108f423a9d30b7cbf3d00e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fd6781c1a521b78f26ea931f7bffc4a18%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F716fc8fcc64514e8c6f4e51c48b6fa8b&w=1000&s=2511fd12c89550eed685b8b5a963124d"
     },
     {
-      "descriptionKey": "v1|harvest basket bolgeskaarne pommes frites|frozen_vegetables",
+      "descriptionKey": "v1|harvest basket bolgeskaarne pommes frites|potato_sides",
       "originalName": "HARVEST BASKET Bølgeskårne pommes frites",
       "originalDescription": "Dybfrost, 1 kg / ps. Pr. kg 9,95",
       "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "frozen_vegetables",
+      "currentComparisonGroup": "potato_sides",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FNRACYntJ%2Fp-32.webp&w=1000&x1r=0&x2r=0.4961&y1r=0.1139&y2r=0.4624&s=a772bb456f05ea734a5a4ad6f4574535"
     },
     {
-      "descriptionKey": "v1|harvest basket pommes frites|frozen_vegetables",
+      "descriptionKey": "v1|harvest basket pommes frites|potato_sides",
       "originalName": "HARVEST BASKET Pommes frites",
       "originalDescription": "600-1000 g / ps. Pr. kg maks. 19,92",
       "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "frozen_vegetables",
+      "currentComparisonGroup": "potato_sides",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FNRACYntJ%2Fp-32.webp&w=1000&x1r=0.504&x2r=0.992&y1r=0.4651&y2r=0.7138&s=dbe04b08e51c45928a09c68e4628baea"
@@ -3015,11 +2965,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-3.webp&w=1000&x1r=0.734&x2r=0.967&y1r=0.187&y2r=0.435&s=0a6b686a0fa31c9f98ff10bab9fdc7cd"
     },
     {
-      "descriptionKey": "v1|hatting brod eller kager|bread",
+      "descriptionKey": "v1|hatting brod eller kager|mixed_bakery",
       "originalName": "Hatting brød eller kager",
       "originalDescription": "320-438 g. Flere varianter. Pr. kg max. 50.- FRIT VALG",
       "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentComparisonGroup": "mixed_bakery",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.32&x2r=1&y1r=0&y2r=0.6&s=6d49c2a634f41539eb95ea4a4761bd61"
@@ -3225,11 +3175,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-18.webp&w=1000&x1r=0.01&x2r=0.525&y1r=0.032&y2r=0.545&s=6d292c303d730876419432b1cb3a265b"
     },
     {
-      "descriptionKey": "v1|hello sensitive vaadservietter|baby_care",
+      "descriptionKey": "v1|hello sensitive vaadservietter|paper",
       "originalName": "Hello Sensitive vådservietter",
       "originalDescription": "0% Parfume Hello Sensitive vådservietter 100 stk. Pr. stk. 0,09",
-      "currentCategoryId": "baby",
-      "currentComparisonGroup": "baby_care",
+      "currentCategoryId": "household",
+      "currentComparisonGroup": "paper",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "netto",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-19.webp&w=1000&x1r=0.025&x2r=0.32&y1r=0.355&y2r=0.58&s=e59a3e82cd7d4ccbd889b3d8f59f0d5f"
@@ -3245,31 +3195,31 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-18.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.28&y2r=0.49&s=1b2557819e96c5532ffe4f7477e958e4"
     },
     {
-      "descriptionKey": "v1|hojer chorizo brunchpolse eller steff houlberg bacon|sausages",
+      "descriptionKey": "v1|hojer chorizo brunchpolse eller steff houlberg bacon|bacon_deli",
       "originalName": "Højer chorizo brunchpølse eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1a1d92c46a09c09409b924402860c573&w=1000&s=8295460e7a525ab997ffb6207ba92b0e"
     },
     {
-      "descriptionKey": "v1|hojer chorizo brunchpolser eller steff houlberg bacon|sausages",
+      "descriptionKey": "v1|hojer chorizo brunchpolser eller steff houlberg bacon|bacon_deli",
       "originalName": "Højer chorizo brunchpølser eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke. *Stjernemarkerede varer findes kun i begrænset antal og ikke i alle butikker",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-8.webp&w=1000&x1r=0&x2r=1&y1r=0.68&y2r=0.98&s=a4fed081b9138423860ed5b67c449640"
     },
     {
-      "descriptionKey": "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|spices",
+      "descriptionKey": "v1|hong blaahvid landana chili gouda president saint morgon eller le brie gourmet|cheese",
       "originalName": "Høng Blåhvid, Landana chili gouda, Président Saint Morgon eller Le Brie Gourmet",
       "originalDescription": "200 g 100.00 pr. kg",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-2.webp&w=1000&x1r=0.11&x2r=0.98&y1r=0.004&y2r=0.534&s=2de71e60019d4df81fcaeda7d48d12ac"
@@ -3285,11 +3235,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-6.webp&w=1000&x1r=0.02&x2r=0.44&y1r=0.7&y2r=1&s=103e0a2ace7b1636466bf199010b11dc"
     },
     {
-      "descriptionKey": "v1|honningmelon eller kantalupmelon|spreads_jam",
+      "descriptionKey": "v1|honningmelon eller kantalupmelon|melon",
       "originalName": "Honningmelon eller kantalupmelon",
       "originalDescription": "Klasse 1. Pr. stk. 15,00",
-      "currentCategoryId": "breakfast",
-      "currentComparisonGroup": "spreads_jam",
+      "currentCategoryId": "fruit",
+      "currentComparisonGroup": "melon",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-1.webp&w=1000&x1r=0.01&x2r=0.35&y1r=0.18&y2r=0.41&s=88a15c13c86032c3aa237094c0c64b4b"
@@ -3315,11 +3265,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-52.webp&w=1000&x1r=0.02&x2r=0.69&y1r=0.02&y2r=0.475&s=e981bd4510f5a918bf403d645705f95b"
     },
     {
-      "descriptionKey": "v1|husk kosttilskud eller maelkesyrebakterier|milk",
+      "descriptionKey": "v1|husk kosttilskud eller maelkesyrebakterier|supplements",
       "originalName": "HUSK kosttilskud eller mælkesyrebakterier",
       "originalDescription": "150-450 g. eller 225 stk. Flere varianter. Pr. stk. 0.57 /pr. kg max. 860.- Frit valg 129.-",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "supplements",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-34.webp&w=1000&x1r=0.51&x2r=0.725&y1r=0.02&y2r=0.335&s=73c51e989fca0252457e098e8c61496c"
@@ -3405,11 +3355,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F9b2f9fae4a6549d039ee4d19d76e98e6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F540e41f87dbab6ec372295637791bea3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F6d2a7947d49a1ae0fcf03db7644f70b2&w=1000&s=693bbb39c2bbfc1a3130b8ceaf85ebd6"
     },
     {
-      "descriptionKey": "v1|jensens pulled chicken eller spareribs|pork_roast",
+      "descriptionKey": "v1|jensens pulled chicken eller spareribs|pork_ribs",
       "originalName": "JENSENS Pulled chicken eller spareribs",
       "originalDescription": "500 g. Pr. kg 90,00. 59,95",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&w=1000&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94&s=8fe7e877020ce838c16b274f879c1a54"
@@ -3425,11 +3375,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-13.webp&w=1000&x1r=0.012&x2r=0.321&y1r=0.404&y2r=0.682&s=e1d2c8b5dcce5ec6594623d9dd33da22"
     },
     {
-      "descriptionKey": "v1|jensens spareribs|pork_roast",
+      "descriptionKey": "v1|jensens spareribs|pork_ribs",
       "originalName": "Jensens spareribs",
       "originalDescription": "Dybfrost 1200 g 65.83 pr. kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FgWY3dd9p%2Fp-4.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.057&y2r=0.658&s=dba699f468f153d5dc65f2ffc24ee9a8"
@@ -3445,11 +3395,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-13.webp&w=1000&x1r=0.58&x2r=0.98&y1r=0.02&y2r=0.25&s=7405477a4dc4552cdd4ccd9a589a3fab"
     },
     {
-      "descriptionKey": "v1|jordbaertaerte eller othellolagkage|ready_meal",
+      "descriptionKey": "v1|jordbaertaerte eller othellolagkage|biscuits",
       "originalName": "Jordbærtærte eller Othellolagkage",
       "originalDescription": "BAGEREN Vores Othellolagkage er ægte håndværk lavet fra bunden af vores egne dygtige bagere. De er lavet med linsedejsbunde, vores egen særlige opskrift på flødecreme, hindbærmarmelade og bagerens egne makroner.",
-      "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "ready_meal",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-37.webp&w=1000&x1r=0.01&x2r=0.68&y1r=0.01&y2r=0.69&s=2bfa28dd3bc3c596f573f1db47576979"
@@ -3525,41 +3475,41 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-15.webp&w=1000&x1r=0.48&x2r=0.98&y1r=0.714&y2r=0.944&s=88992719c169b994ddb4ca5dfd684a23"
     },
     {
-      "descriptionKey": "v1|kalkunbrystfilet|chicken_breast",
+      "descriptionKey": "v1|kalkunbrystfilet|turkey_other",
       "originalName": "Kalkunbrystfilet",
       "originalDescription": "800 g / pk.",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "turkey_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&w=1000&x1r=0.5147&x2r=0.9923&y1r=0.7175&y2r=0.9452&s=d156e46c228b24d3c8a10e44b0cfd706"
     },
     {
-      "descriptionKey": "v1|kalkunoverlaar eller schnitzel af brystfilet|chicken_breast",
+      "descriptionKey": "v1|kalkunoverlaar eller schnitzel af brystfilet|turkey_other",
       "originalName": "Kalkunoverlår eller -schnitzel af brystfilet",
       "originalDescription": "500-1000 g / pk. Pr. kg maks. 95,90.",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "turkey_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&w=1000&x1r=0.0056&x2r=0.5098&y1r=0.7102&y2r=0.9461&s=72d15e2e3a4a359ab6f11d3d0ecaa35c"
     },
     {
-      "descriptionKey": "v1|kalkunschnitzler af brystfilet|chicken_breast",
+      "descriptionKey": "v1|kalkunschnitzler af brystfilet|turkey_other",
       "originalName": "Kalkunschnitzler af brystfilet",
       "originalDescription": "500 g. Pr. kg 95,90. Fast lav pris",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "turkey_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-3.webp&w=1000&x1r=0.015&x2r=0.49&y1r=0.69&y2r=0.95&s=d23d65d11e8cc0be9e9a4dc3f6f54a0c"
     },
     {
-      "descriptionKey": "v1|kalkunstrimler af brystfilet|chicken_breast",
+      "descriptionKey": "v1|kalkunstrimler af brystfilet|turkey_other",
       "originalName": "Kalkunstrimler af brystfilet",
       "originalDescription": "400 g / pk. Pr. kg 74,88",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "turkey_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&w=1000&x1r=0.0074&x2r=0.504&y1r=0.1039&y2r=0.4635&s=20a73d684b66499aa21b706f193b977d"
@@ -3575,11 +3525,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&w=1000&x1r=0.0262&x2r=0.5073&y1r=0.4691&y2r=0.7104&s=ec0e9a7abb4c7f2ffa2d494321391d68"
     },
     {
-      "descriptionKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_steak",
+      "descriptionKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_roast",
       "originalName": "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ",
       "originalDescription": "PR. ½ KG Partivare 139.90 pr. kg",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&w=1000&x1r=0.03&x2r=1&y1r=0&y2r=0.63&s=75fd860a983ac2c19a4b10381a14558b"
@@ -3665,21 +3615,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F680b2b87e78c3b3ff03c4f142a526be8%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F442325046aafa7c4473b1c9725a9274c&w=1000&s=cc8ce7925d4d988a051c93d1b95e29e3"
     },
     {
-      "descriptionKey": "v1|karolines kokken madlavningsflode|milk",
+      "descriptionKey": "v1|karolines kokken madlavningsflode|cream",
       "originalName": "KAROLINES KØKKEN Madlavningsfløde",
       "originalDescription": "15 % fedt. 500 ml / stk. Pr. liter. 29,90.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cream",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-15.webp&w=1000&x1r=0.5111&x2r=0.9951&y1r=0.7111&y2r=0.9462&s=0891be9c91de5a33231af04e96cec3fb"
     },
     {
-      "descriptionKey": "v1|karolines kokken piskeflode|milk",
+      "descriptionKey": "v1|karolines kokken piskeflode|cream",
       "originalName": "KAROLINES KØKKEN Piskefløde",
       "originalDescription": "500 ml. Pr. l 30,00 Maks. 3 stk. pr. kunde pr. dag. Med Lidl Plus³ Pr. l 24,00",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cream",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&w=1000&x1r=0.322&x2r=0.655&y1r=0.236&y2r=0.72&s=ea3618a750739ca96af2e76bebcfef81"
@@ -3895,11 +3845,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-2.webp&w=1000&x1r=0&x2r=0.371&y1r=0.018&y2r=0.368&s=f0aca0ffb8fd0c437e8f2476004c0f35"
     },
     {
-      "descriptionKey": "v1|klover naturel sodmaelksyoghurt|milk",
+      "descriptionKey": "v1|klover naturel sodmaelksyoghurt|yoghurt",
       "originalName": "Kløver naturel sødmælksyoghurt",
       "originalDescription": "1 liter. Pr. stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "yoghurt",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-10.webp&w=1000&x1r=0.05&x2r=0.38&y1r=0.3&y2r=0.6&s=26ef082a859952c1f4014af646dc56f6"
@@ -3945,11 +3895,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&w=1000&x1r=0.041&x2r=0.339&y1r=0.063&y2r=0.324&s=860d99c00672bfc0c932124456d5bed4"
     },
     {
-      "descriptionKey": "v1|kohberg brod salling cookies eller hasselnod biscuits|bread",
+      "descriptionKey": "v1|kohberg brod salling cookies eller hasselnod biscuits|mixed_bakery",
       "originalName": "Kohberg brød, Salling cookies eller hasselnød biscuits",
       "originalDescription": "320-1000 g. Udvalgte varianter. Pr. kg max. 100.- FRIT VALG",
       "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentComparisonGroup": "mixed_bakery",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-13.webp&w=1000&x1r=0.58&x2r=0.98&y1r=0.49&y2r=0.95&s=bff2bf3c369567bcf0912e1c413c0522"
@@ -4015,11 +3965,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-1.webp&w=1000&x1r=0.72&x2r=0.984&y1r=0.468&y2r=0.781&s=c4d99459b98b056bc5df487582a8580c"
     },
     {
-      "descriptionKey": "v1|kramer s brod eller pandekagemix|bread",
+      "descriptionKey": "v1|kramer s brod eller pandekagemix|biscuits",
       "originalName": "Kramer's brød- eller pandekagemix",
       "originalDescription": "300-500 g\nMax. 116.67 pr. kg",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-16.webp&w=1000&x1r=0.029&x2r=0.528&y1r=0.435&y2r=0.658&s=2e4a776b957c01062cbb4ec0ca6f611c"
@@ -4045,11 +3995,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-16.webp&w=1000&x1r=0.038&x2r=0.95&y1r=0.165&y2r=0.435&s=1652ceb2e755fbef46ba514947d251a3"
     },
     {
-      "descriptionKey": "v1|krydrede kodboller eller hakket grisekod|bread",
+      "descriptionKey": "v1|krydrede kodboller eller hakket grisekod|pork_mixed_offer",
       "originalName": "Krydrede kødboller eller hakket grisekød",
       "originalDescription": "1,2-2 kg. Hakket grisekød 8-12% fedt. Pr. kg max. 65.83 FRIT VALG 1,2 kg 2 kg",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "pork_mixed_offer",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-2.webp&w=1000&x1r=0.303&x2r=0.646&y1r=0.582&y2r=0.958&s=789f347191509cc7b872a48c2886988a"
@@ -4105,11 +4055,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-28.webp&w=1000&x1r=0.35&x2r=0.66&y1r=0.04&y2r=0.28&s=7a4e3504eb24e55454c7f72594c0cdd5"
     },
     {
-      "descriptionKey": "v1|kuljanka farsbrod|bread",
+      "descriptionKey": "v1|kuljanka farsbrod|prepared_meatballs",
       "originalName": "KULJANKA Farsbrød",
       "originalDescription": "500 g.",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "prepared_meatballs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-26.webp&w=1000&x1r=0.3602&x2r=0.9989&y1r=0.7232&y2r=0.9433&s=164c9d5b0d6863ddc03bd4779979d6e8"
@@ -4225,11 +4175,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-25.webp&w=1000&x1r=0.34&x2r=0.65&y1r=0.22&y2r=0.49&s=28405b48353eb970c53f08a814b3ad55"
     },
     {
-      "descriptionKey": "v1|kuljanka sesambar|spices",
+      "descriptionKey": "v1|kuljanka sesambar|chocolate",
       "originalName": "KULJANKA Sesambar",
       "originalDescription": "3 x 27 g. Pr. kg 74,07 Spot¹",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-28.webp&w=1000&x1r=0&x2r=0.35&y1r=0.032&y2r=0.28&s=25307185cbcc9fe7f43483c5b64ebdd5"
@@ -4295,11 +4245,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&w=1000&x1r=0.484&x2r=1&y1r=0.152&y2r=0.57&s=fae9701e23589263da6e8bb783f0cc6e"
     },
     {
-      "descriptionKey": "v1|kyllingepopcorn|chips",
+      "descriptionKey": "v1|kyllingepopcorn|chicken_other",
       "originalName": "Kyllingepopcorn",
       "originalDescription": "Små panerede kyllingesnacks. Dyp dem i den medfølgende sweet chili sauce. Findes på Delikatessens varmeplade hver dag. Pr. bakke",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chips",
+      "currentCategoryId": "chicken",
+      "currentComparisonGroup": "chicken_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&w=1000&x1r=0.778&x2r=0.978&y1r=0.619&y2r=0.978&s=0c379a121f2d47b8614311ddf91efbb9"
@@ -4555,11 +4505,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-28.webp&w=1000&x1r=0.645&x2r=0.948&y1r=0.045&y2r=0.237&s=480ef42884dde4e52262d320505b5804"
     },
     {
-      "descriptionKey": "v1|lillebror ostehaps eller coop flodehavarti|milk",
+      "descriptionKey": "v1|lillebror ostehaps eller coop flodehavarti|cheese",
       "originalName": "Lillebror ostehaps eller Coop flødehavarti",
       "originalDescription": "324-400 g. Kg-pris maks. 89,51. Frit valg. 1 pakke/stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-12.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.35&y2r=0.66&s=43e9bc19cd21d580dd6541cc753763c0"
@@ -4595,11 +4545,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-9.webp&w=1000&x1r=0.01&x2r=0.38&y1r=0.53&y2r=0.9&s=753fc9c3c1f9fe2a7259b6fe5abd4a1d"
     },
     {
-      "descriptionKey": "v1|logismose paalaegschokolade|chocolate",
+      "descriptionKey": "v1|logismose paalaegschokolade|bacon_deli",
       "originalName": "Løgismose pålægschokolade",
       "originalDescription": "EKSTRA TYKKE SKIVER 112 g. Lys eller mørk. Pr. kg 357,14",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chocolate",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "netto",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-15.webp&w=1000&x1r=0&x2r=0.55&y1r=0.735&y2r=0.97&s=fa07a963f05ca0c4e73fa8eca71842f3"
@@ -4705,11 +4655,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-31.webp&w=1000&x1r=0.0074&x2r=0.4982&y1r=0.4658&y2r=0.7065&s=7de0efe031e81ae4f4fb6295aa7c0d78"
     },
     {
-      "descriptionKey": "v1|lupilu vaadservietter|baby_care",
+      "descriptionKey": "v1|lupilu vaadservietter|paper",
       "originalName": "LUPILU Vådservietter",
       "originalDescription": "Aloe vera eller sensitive. Plastikfri.72 stk. Pr. stk. 0,09",
-      "currentCategoryId": "baby",
-      "currentComparisonGroup": "baby_care",
+      "currentCategoryId": "household",
+      "currentComparisonGroup": "paper",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-27.webp&w=1000&x1r=0.5837&x2r=0.9989&y1r=0.7222&y2r=0.9423&s=9396c3daea250906eefeff1394f24050"
@@ -4785,11 +4735,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-20.webp&w=1000&x1r=0.01&x2r=0.57&y1r=0.67&y2r=1&s=c683c36f8290a512055295e0db4bff2a"
     },
     {
-      "descriptionKey": "v1|madvaerket burgerboffer af oksekod|beef_steak",
+      "descriptionKey": "v1|madvaerket burgerboffer af oksekod|beef_burgers",
       "originalName": "MADVÆRKET Burgerbøffer af oksekød",
       "originalDescription": "Maks. 20 % fedt.",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_burgers",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&w=1000&x1r=0.4999&x2r=0.9722&y1r=0.1191&y2r=0.4577&s=a127fe711b207b27daa9e9b949856363"
@@ -4865,11 +4815,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&w=1000&x1r=0.0091&x2r=0.4984&y1r=0.4685&y2r=0.7081&s=48342f0fcfea8e72b4c0af5342c24d0b"
     },
     {
-      "descriptionKey": "v1|madvaerket flodehavarti|milk",
+      "descriptionKey": "v1|madvaerket flodehavarti|cheese",
       "originalName": "MADVÆRKET Flødehavarti",
       "originalDescription": "Fast lav pris. Gælder fra 7.5. Mild 60+. 400 g / stk. Pr. kg 74,88.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.4797&x2r=0.9978&y1r=0.0636&y2r=0.4638&s=903bb43fb821039bd0ea63df4434a9d3"
@@ -4905,21 +4855,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0.12&y2r=0.485&s=707da79977e5247c8471d5f81f981e96"
     },
     {
-      "descriptionKey": "v1|madvaerket grisemorbrad med bimorbrad|pork_chop",
+      "descriptionKey": "v1|madvaerket grisemorbrad med bimorbrad|pork_tenderloin",
       "originalName": "MADVÆRKET Grisemørbrad med bimørbrad",
       "originalDescription": "Pr. kg 79,90.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_tenderloin",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&w=1000&x1r=0.0094&x2r=0.5053&y1r=0.7124&y2r=0.9469&s=e010d9c516bf7aae37f66a32a84b8e43"
     },
     {
-      "descriptionKey": "v1|madvaerket grisemorbrad uden bimorbrad|pork_chop",
+      "descriptionKey": "v1|madvaerket grisemorbrad uden bimorbrad|pork_tenderloin",
       "originalName": "MADVÆRKET Grisemørbrad uden bimørbrad",
       "originalDescription": "Pr. kg 78,00 Pr. 1/2 kg Spot¹",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_tenderloin",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&w=1000&x1r=0.511&x2r=0.985&y1r=0.25&y2r=0.499&s=b3c7a7daef0971851bb57b9e3e61a96e"
@@ -5005,21 +4955,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-29.webp&w=1000&x1r=0.0128&x2r=0.5062&y1r=0.4687&y2r=0.7085&s=66293f2db354e0803e25aade31e6e652"
     },
     {
-      "descriptionKey": "v1|madvaerket kyllingebrystfilet eller hele laar med ryg|chicken_breast",
+      "descriptionKey": "v1|madvaerket kyllingebrystfilet eller hele laar med ryg|chicken_other",
       "originalName": "MADVÆRKET Kyllingebrystfilet eller hele -lår med ryg",
       "originalDescription": "1000-1600 g / pk. Pr. kg maks. 64,95",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "chicken_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&w=1000&x1r=0.5111&x2r=0.9964&y1r=0.4574&y2r=0.9444&s=ddeefcda8e074aebbd2f2532efd12253"
     },
     {
-      "descriptionKey": "v1|madvaerket kyllingebrystfilet eller laarmix|chicken_breast",
+      "descriptionKey": "v1|madvaerket kyllingebrystfilet eller laarmix|chicken_other",
       "originalName": "MADVÆRKET Kyllingebrystfilet eller -lårmix",
       "originalDescription": "Med BBQ. 325-800 g / pk. Pr. kg maks. 101,38.",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "chicken_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&w=1000&x1r=0.4981&x2r=0.9891&y1r=0.0689&y2r=0.4605&s=15aa1d727467cb2054406ce1f58db794"
@@ -5105,31 +5055,31 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-27.webp&w=1000&x1r=0.0101&x2r=0.5032&y1r=0.4697&y2r=0.709&s=c600d942faf54304685898395d980f10"
     },
     {
-      "descriptionKey": "v1|madvaerket oksekod i tern eller strimler|beef_steak",
+      "descriptionKey": "v1|madvaerket oksekod i tern eller strimler|beef_diced",
       "originalName": "MADVÆRKET Oksekød i tern eller strimler",
       "originalDescription": "300 g / pk. Pr. kg 149,83",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_diced",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&w=1000&x1r=0.0095&x2r=0.4978&y1r=0.4616&y2r=0.9452&s=9605dd0e5c78d513bfcdff3c1e50905c"
     },
     {
-      "descriptionKey": "v1|madvaerket piskeflode|milk",
+      "descriptionKey": "v1|madvaerket piskeflode|cream",
       "originalName": "MADVÆRKET Piskefløde",
       "originalDescription": "36 % fedt. 500 ml / stk. Pr. liter. Fast. 29,90.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cream",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-15.webp&w=1000&x1r=0.4835&x2r=0.9864&y1r=0.0558&y2r=0.4587&s=f7dac41f98b06a84377d14d7b0f4eef8"
     },
     {
-      "descriptionKey": "v1|madvaerket porchetta|pork_chop",
+      "descriptionKey": "v1|madvaerket porchetta|pork_roast",
       "originalName": "MADVÆRKET Porchetta",
       "originalDescription": "80 g / pk.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&w=1000&x1r=0.4993&x2r=0.9898&y1r=0.7094&y2r=0.947&s=4193ed2d75e3b6c32d292ddf9823e4c6"
@@ -5155,11 +5105,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&w=1000&x1r=0.4934&x2r=0.9809&y1r=0.1033&y2r=0.4561&s=72f3993acaac880caae8b3dcb63bc798"
     },
     {
-      "descriptionKey": "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|sauces",
+      "descriptionKey": "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|bacon_deli",
       "originalName": "MADVÆRKET Rullepølse, hamburgerryg eller sennepsskinke",
       "originalDescription": "80 g / pk. Pr. kg 186,88",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "sauces",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&w=1000&x1r=0.0158&x2r=0.5085&y1r=0.7115&y2r=0.9463&s=de12ae711034bf259af9af80cf121b34"
@@ -5235,11 +5185,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-14.webp&w=1000&x1r=0.493&x2r=0.9928&y1r=0.0727&y2r=0.4617&s=a429167c2991c9fbdf4980cf1b2bcab1"
     },
     {
-      "descriptionKey": "v1|maelkesyrebakterier|milk",
+      "descriptionKey": "v1|maelkesyrebakterier|supplements",
       "originalName": "Mælkesyrebakterier",
       "originalDescription": "G. 30 stk. Daily eller immun. Pr. stk. 2.- Salling Mælkesyrebakterier Daily er dit daglige kosttilskud med levende mælkesyrebakterier og zink, som bidrager til en normal omsætning af kulhydrater, proteiner og fedt samt til et normalt syre-base-stofskifte. Frit valg",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "supplements",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-32.webp&w=1000&x1r=0.45&x2r=0.99&y1r=0.6&y2r=0.97&s=ff7d100d1716479c48185a81aef4db80"
@@ -5445,11 +5395,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&w=1000&x1r=0.38&x2r=0.7&y1r=0.7&y2r=0.96&s=f5197cd8fea955e5672d79ef676f4685"
     },
     {
-      "descriptionKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_chop",
+      "descriptionKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|bacon_deli",
       "originalName": "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris",
       "originalDescription": "1,4-1,8 kg. Pr. kg max. 63.57 FRIT VALG 89.-",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&w=1000&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47&s=6295cf84e81b3b3167d453f0862454ca"
@@ -5485,11 +5435,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-3.webp&w=1000&x1r=0.02&x2r=0.88&y1r=0.02&y2r=0.53&s=c660c84a71b142e7026ecd831b927a6c"
     },
     {
-      "descriptionKey": "v1|matilde milkshake eller kakaomaelk paa daase|canned",
+      "descriptionKey": "v1|matilde milkshake eller kakaomaelk paa daase|milk",
       "originalName": "Matilde milkshake eller kakaomælk på dåse",
       "originalDescription": "200-250 ml. Flere varianter. Pr. liter max. 35,-",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "canned",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "milk",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-23.webp&w=1000&x1r=0.024&x2r=0.259&y1r=0.022&y2r=0.247&s=f4f47afa6c4460f2b5cf6d867e68e30a"
@@ -5515,11 +5465,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-5.webp&w=1000&x1r=0.508&x2r=0.985&y1r=0.505&y2r=0.725&s=c4c0e3a01997ea363b0534ac4296a7bd"
     },
     {
-      "descriptionKey": "v1|merrild eller lavazza helbonner|canned",
+      "descriptionKey": "v1|merrild eller lavazza helbonner|coffee_tea",
       "originalName": "Merrild eller Lavazza helbønner",
       "originalDescription": "1 kg. Flere varianter.",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "canned",
+      "currentCategoryId": "breakfast",
+      "currentComparisonGroup": "coffee_tea",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-46.webp&w=1000&x1r=0.5&x2r=0.97&y1r=0.72&y2r=0.95&s=29a663bf233413640c7eb2a15975bc87"
@@ -5555,11 +5505,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fccca4105877525a33047132481c50961&w=1000&s=2d117c031e664b3be223b18d438763b4"
     },
     {
-      "descriptionKey": "v1|middagsfrikadeller eller mini kodboller|bread",
+      "descriptionKey": "v1|middagsfrikadeller eller mini kodboller|prepared_meatballs",
       "originalName": "Middagsfrikadeller eller mini kødboller",
       "originalDescription": "500-600 g. Pr. kg max. 78.- Frit valg",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "prepared_meatballs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&w=1000&x1r=0.256&x2r=0.485&y1r=0.326&y2r=0.609&s=0289981b1b09867d7e0dd3a50acd18aa"
@@ -5585,11 +5535,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-19.webp&w=1000&x1r=0.0129&x2r=0.5055&y1r=0.7086&y2r=0.947&s=48d051982a6a017e735228b5d47e806d"
     },
     {
-      "descriptionKey": "v1|milbona flodeost|milk",
+      "descriptionKey": "v1|milbona flodeost|cheese",
       "originalName": "MILBONA Flødeost",
       "originalDescription": "300 g / pk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.0156&x2r=0.5058&y1r=0.7125&y2r=0.9468&s=94b67fb87f8f6a4df3669f04bc0eddd0"
@@ -5725,21 +5675,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-33.webp&w=1000&x1r=0.0239&x2r=0.6949&y1r=0.0123&y2r=0.4699&s=e175be30d2a96340bfa529a45b7487f0"
     },
     {
-      "descriptionKey": "v1|milbona letsaltet smor eller smorbar|spices",
+      "descriptionKey": "v1|milbona letsaltet smor eller smorbar|butter",
       "originalName": "MILBONA Letsaltet smør eller smørbar",
       "originalDescription": "200-250 g / stk. Pr. kg maks. 49,75",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "butter",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-23.webp&w=1000&x1r=0.0286&x2r=0.959&y1r=0.1585&y2r=0.4561&s=31c7e55d988f55576cb015f669fb10e0"
     },
     {
-      "descriptionKey": "v1|milbona madlavningsjaevner med flode|milk",
+      "descriptionKey": "v1|milbona madlavningsjaevner med flode|cream",
       "originalName": "MILBONA Madlavningsjævner med fløde",
       "originalDescription": "7-15 % fedt. 250 ml / stk. Pr. liter. 31,80.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cream",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-15.webp&w=1000&x1r=0.5155&x2r=0.9846&y1r=0.4678&y2r=0.7081&s=6026f04ef770019cae84385352a628cf"
@@ -5815,11 +5765,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&w=1000&x1r=0.51&x2r=0.985&y1r=0.505&y2r=0.725&s=98fa2935994e160a0dea817700d59d2c"
     },
     {
-      "descriptionKey": "v1|milbona smoreost|biscuits",
+      "descriptionKey": "v1|milbona smoreost|cheese",
       "originalName": "MILBONA Smøreost",
       "originalDescription": "200 g / stk. Flere varianter.",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "biscuits",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.0084&x2r=0.4931&y1r=0.465&y2r=0.7082&s=2c1f8646442e3373da0937778d9a1c62"
@@ -5855,11 +5805,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-14.webp&w=1000&x1r=0.0125&x2r=0.5005&y1r=0.4707&y2r=0.7077&s=eee974d177718210f53db8a166bd1a5c"
     },
     {
-      "descriptionKey": "v1|milkshakemix eller proteindrik med chokolade|chocolate",
+      "descriptionKey": "v1|milkshakemix eller proteindrik med chokolade|milk",
       "originalName": "Milkshakemix eller proteindrik med chokolade",
       "originalDescription": "1 l. Pr. l 22,00 Spot¹",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chocolate",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "milk",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-6.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.72&y2r=0.96&s=23602b7a89671e5338bbf60523479ea4"
@@ -5895,11 +5845,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsBtvBbmk%2Fp-31.webp&w=1000&x1r=0.03&x2r=0.26&y1r=0.714&y2r=0.96&s=3f27bafb87473c56479a2367d11ca1b9"
     },
     {
-      "descriptionKey": "v1|morbrad eller nakkefilet af gris|pork_chop",
+      "descriptionKey": "v1|morbrad eller nakkefilet af gris|pork_roast",
       "originalName": "Mørbrad eller nakkefilet af gris",
       "originalDescription": "1,65-2,2 kg. Pr. kg max. 66.06\nFrit valg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-9.webp&w=1000&x1r=0.022&x2r=0.339&y1r=0.638&y2r=0.957&s=37dfaefb7374686403231e1d4389f329"
@@ -5955,11 +5905,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-18.webp&w=1000&x1r=0.51&x2r=0.94&y1r=0.27&y2r=0.48&s=cc34be0aaeccdb0d80a1e70f4b471d76"
     },
     {
-      "descriptionKey": "v1|nakkefilet eller morbrad af dansk gris|pork_chop",
+      "descriptionKey": "v1|nakkefilet eller morbrad af dansk gris|pork_roast",
       "originalName": "Nakkefilet eller mørbrad af dansk gris",
       "originalDescription": "1,65-2,2 kg. Pr. kg max. 66,06",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-4.webp&w=1000&x1r=0.33&x2r=0.945&y1r=0.468&y2r=0.725&s=7782cb31163387467d5c94c4072dd710"
@@ -6005,11 +5955,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.01&y2r=0.22&s=0ec4cf5d5a6db2b3c8e3b20b2e7396e9"
     },
     {
-      "descriptionKey": "v1|naturli soja eller havredrik|sauces",
+      "descriptionKey": "v1|naturli soja eller havredrik|plant_drinks",
       "originalName": "NATURLI' Soja- eller havredrik",
       "originalDescription": "1 liter. Pr. liter 12,00 Spot¹",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "sauces",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "plant_drinks",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0.49&y2r=0.73&s=a2d9c2f4d163687a0d980460dbba5672"
@@ -6025,11 +5975,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&w=1000&x1r=0.494&x2r=0.982&y1r=0.732&y2r=0.95&s=04ec3bd5329a854698f12d2fdb172beb"
     },
     {
-      "descriptionKey": "v1|nautica skagensalat|biscuits",
+      "descriptionKey": "v1|nautica skagensalat|seafood_other",
       "originalName": "NAUTICA Skagensalat",
       "originalDescription": "400 g. Pr. kg 62,50 Med Lidl Plus³",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "biscuits",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "seafood_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-2.webp&w=1000&x1r=0.015&x2r=0.465&y1r=0.174&y2r=0.496&s=9817c6df911835a5f2dc944eb6fc05ae"
@@ -6175,11 +6125,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FPQ9nP0_I%2Fp-29.webp&w=1000&x1r=0&x2r=1&y1r=0&y2r=1&s=d7b2a03c27295e97d750c4616e35f048"
     },
     {
-      "descriptionKey": "v1|nordthy mini ris eller majskiks|rice",
+      "descriptionKey": "v1|nordthy mini ris eller majskiks|biscuits",
       "originalName": "Nordthy Mini ris- eller majskiks",
       "originalDescription": "60-75 g Partivare. Max. 166.67 pr. kg",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "rice",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-14.webp&w=1000&x1r=0.015&x2r=0.49&y1r=0.735&y2r=0.995&s=dee0188c548f21160742cc7b3704968a"
@@ -6395,11 +6345,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2c9eab232d9b21b7a26f6cbbd52cc9c9&w=1000&s=660923bc9c51252c55d4575f1f150107"
     },
     {
-      "descriptionKey": "v1|okologisk piskeflode 38|milk",
+      "descriptionKey": "v1|okologisk piskeflode 38|cream",
       "originalName": "Økologisk piskefløde 38%",
       "originalDescription": "250 ml. Pr. liter 60.- Pr. stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cream",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-27.webp&w=1000&x1r=0.58&x2r=0.82&y1r=0.41&y2r=0.61&s=5a4a0bd5fe367408882a3a27f763c7c9"
@@ -6465,11 +6415,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-15.webp&w=1000&x1r=0.26&x2r=0.51&y1r=0.01&y2r=0.3&s=65529aac3196c19ad20178ee298ebf6e"
     },
     {
-      "descriptionKey": "v1|okse eller kalveculotte|beef_steak",
+      "descriptionKey": "v1|okse eller kalveculotte|beef_roast",
       "originalName": "Okse- eller kalveculotte",
       "originalDescription": "Pr. kg 159,90 Pr. 1/2 kg",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&w=1000&x1r=0&x2r=0.74&y1r=0.26&y2r=0.72&s=7fdc4905734a8bdea85ed6f71aeb90c5"
@@ -6555,11 +6505,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-26.webp&w=1000&x1r=0.0141&x2r=0.5049&y1r=0.7074&y2r=0.9462&s=a6d9fa67dc4fc14ec2bdcfe2c2b71760"
     },
     {
-      "descriptionKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_roast",
+      "descriptionKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|bacon_deli",
       "originalName": "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris",
       "originalDescription": "800-2800 g. Pr. kg max. 123,75",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&w=1000&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958&s=2adc3114ccfbb11844ce94acaa00f213"
@@ -6615,11 +6565,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-13.webp&w=1000&x1r=0.0068&x2r=0.4508&y1r=0.1256&y2r=0.4596&s=f273c36c4235c4656e2366873397ce52"
     },
     {
-      "descriptionKey": "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|sausages",
+      "descriptionKey": "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|bacon_deli",
       "originalName": "PÅLÆGSSLAGTEREN Grill- og pande-, wiener- eller hotdogpølser",
       "originalDescription": "500-550 g / pk. Pr. kg maks. 49,90.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.0156&x2r=0.5027&y1r=0.7122&y2r=0.9463&s=fad178afae5962da2a24b87aa9bcb86b"
@@ -6635,11 +6585,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-2.webp&w=1000&x1r=0.015&x2r=0.485&y1r=0.728&y2r=0.942&s=edd20f13cf84252013257579d764537b"
     },
     {
-      "descriptionKey": "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|sausages",
+      "descriptionKey": "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|bacon_deli",
       "originalName": "PÅLÆGSSLAGTEREN Rullepølse, hamburgerryg eller røget rullepølse",
       "originalDescription": "140-150 g / pk. Pr. kg maks. 99,64",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&w=1000&x1r=0.0209&x2r=0.6353&y1r=0.1167&y2r=0.4549&s=3be04f0260a1ec0d6ea4135fb6aac330"
@@ -6665,11 +6615,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&w=1000&x1r=0.69&x2r=0.99&y1r=0.01&y2r=0.27&s=cb4f38e2188240489775842b18914238"
     },
     {
-      "descriptionKey": "v1|paalaekker rullepolse eller hamburgerryg|sausages",
+      "descriptionKey": "v1|paalaekker rullepolse eller hamburgerryg|bacon_deli",
       "originalName": "Pålækker Rullepølse eller hamburgerryg",
       "originalDescription": "90 g / pk.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&w=1000&x1r=0.008&x2r=0.4973&y1r=0.4664&y2r=0.7083&s=09ec919b3dc234d2a7c8619aaed06bba"
@@ -6705,11 +6655,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-37.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.5&y2r=0.72&s=c4702dead5e5543469024b486d2eacd0"
     },
     {
-      "descriptionKey": "v1|panini med skinke og ost|bacon_deli",
+      "descriptionKey": "v1|panini med skinke og ost|ready_meal",
       "originalName": "Panini med skinke og ost",
       "originalDescription": "160 g. Pr. kg 62,50",
-      "currentCategoryId": "pork",
-      "currentComparisonGroup": "bacon_deli",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-6.webp&w=1000&x1r=0.5036&x2r=0.9989&y1r=0.1258&y2r=0.4952&s=cca18a65c4f241e2a9aba8f533f76b66"
@@ -6755,11 +6705,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-14.webp&w=1000&x1r=0.33&x2r=0.68&y1r=0.72&y2r=0.95&s=b711ebc984c651b287de1b649062c5c0"
     },
     {
-      "descriptionKey": "v1|peka flodekartofler|milk",
+      "descriptionKey": "v1|peka flodekartofler|potato_sides",
       "originalName": "Peka flødekartofler",
       "originalDescription": "700 g. Kg-pris 31,43. 1 stk.",
-      "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "potato_sides",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-19.webp&w=1000&x1r=0.353&x2r=0.701&y1r=0.686&y2r=0.962&s=04ea88780d8d7d6fe131ee5761850afb"
@@ -6805,11 +6755,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-39.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.19&y2r=0.71&s=3302d9314ced4f671a84a42eeb6af8cf"
     },
     {
-      "descriptionKey": "v1|philadelphia flodeost|milk",
+      "descriptionKey": "v1|philadelphia flodeost|cheese",
       "originalName": "PHILADELPHIA Flødeost",
       "originalDescription": "Original eller hvidløg og urter.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "cheese",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-17.webp&w=1000&x1r=0.5062&x2r=0.9926&y1r=0.0826&y2r=0.4561&s=29da0b5dc3ffa42d19e239a24c4d2a41"
@@ -6945,11 +6895,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fce4e4a4bb46b772b08f0a281078a27a1&w=1000&s=a5752fb6264604029821eda9a9b8276e"
     },
     {
-      "descriptionKey": "v1|premium roastbeef eller steak|beef_steak",
+      "descriptionKey": "v1|premium roastbeef eller steak|beef_roast",
       "originalName": "PremiuM roastbeef eller steak",
       "originalDescription": "Kg-pris 170,00. Frit valg. Pr. ½ kg",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-18.webp&w=1000&x1r=0.4&x2r=0.97&y1r=0.54&y2r=0.74&s=07a99d70f56104cb1437563fe66583b4"
@@ -7035,21 +6985,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-27.webp&w=1000&x1r=0.4986&x2r=0.9949&y1r=0.7085&y2r=0.9471&s=ee9a399db81c7d4d796a8abc492fc4b4"
     },
     {
-      "descriptionKey": "v1|raa kamben med chimichurri eller mesquit|pork_chop",
+      "descriptionKey": "v1|raa kamben med chimichurri eller mesquit|pork_ribs",
       "originalName": "Rå kamben med Chimichurri eller Mesquit",
       "originalDescription": "1,4-1,7 kg. Pr. kg max. 49.29 Frit valg 69.-",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&w=1000&x1r=0.03&x2r=0.35&y1r=0.47&y2r=0.74&s=a3f2dcab3ae25da290e721a957be257b"
     },
     {
-      "descriptionKey": "v1|rema 1000 bolgeskaarne pommes frites|frozen_vegetables",
+      "descriptionKey": "v1|rema 1000 bolgeskaarne pommes frites|potato_sides",
       "originalName": "REMA 1000 Bølgeskårne pommes frites",
       "originalDescription": "Dybfrost\n1000 g",
       "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "frozen_vegetables",
+      "currentComparisonGroup": "potato_sides",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-1.webp&w=1000&x1r=0.013&x2r=0.894&y1r=0.01&y2r=0.481&s=900537847f3e2e38789931eedcce7e97"
@@ -7075,11 +7025,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-2.webp&w=1000&x1r=0.031&x2r=0.492&y1r=0.474&y2r=0.732&s=ca7912a28a1d5877f3aec70b42d6856f"
     },
     {
-      "descriptionKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_roast",
+      "descriptionKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_tenderloin",
       "originalName": "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg",
       "originalDescription": "Mørbrad fyldt med hvidløgsost, soltørrede tomater og svampe\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 44.95 pr. ½ kg\nPR. ½ KG\n59.90 pr. kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_tenderloin",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&w=1000&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665&s=9caaceb1dc82e14e31c5fedf188f76db"
@@ -7175,21 +7125,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&w=1000&x1r=0.515&x2r=0.958&y1r=0.475&y2r=0.73&s=20869424c3e47676b614680d69ea9e55"
     },
     {
-      "descriptionKey": "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|pork_roast",
+      "descriptionKey": "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|bacon_deli",
       "originalName": "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ",
       "originalDescription": "700-1200 g\nPr. stk.\nMax. 112.86 pr. kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&w=1000&x1r=0.49&x2r=0.983&y1r=0.442&y2r=0.756&s=fa76665eef8e31da41d5885c70767f77"
     },
     {
-      "descriptionKey": "v1|rema 1000 frilandsgris xl spareribs|pork_roast",
+      "descriptionKey": "v1|rema 1000 frilandsgris xl spareribs|pork_ribs",
       "originalName": "REMA 1000 Frilandsgris XL spareribs",
       "originalDescription": "Findes på køl\n1000 g\nPartivare",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&w=1000&x1r=0.011&x2r=0.506&y1r=0.726&y2r=1&s=0cf1fd7128efa2f244ce5f425f5d7986"
@@ -7215,11 +7165,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-25.webp&w=1000&x1r=0&x2r=0.907&y1r=0.002&y2r=0.522&s=914e800033ba5f46fac55927c1dff568"
     },
     {
-      "descriptionKey": "v1|rema 1000 hakket dansk grisekod 8 12 danske koteletter eller sommermedister|pork_chop",
+      "descriptionKey": "v1|rema 1000 hakket dansk grisekod 8 12 danske koteletter eller sommermedister|pork_mixed_offer",
       "originalName": "REMA 1000 Hakket dansk grisekød 8-12%, danske koteletter eller sommermedister",
       "originalDescription": "400-500 g Max. 50.00 pr. kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_mixed_offer",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-22.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.01&y2r=0.46&s=3ae0bb40ab676ebb80b7d6e75dad0d2f"
@@ -7235,11 +7185,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-7.webp&w=1000&x1r=0.5&x2r=0.983&y1r=0.511&y2r=0.776&s=3bc042fa1f3f257a5173eb7cf6dbfa05"
     },
     {
-      "descriptionKey": "v1|rema 1000 hakket grise og kalvekod eller frilandsgris|pork_chop",
+      "descriptionKey": "v1|rema 1000 hakket grise og kalvekod eller frilandsgris|pork_mixed_offer",
       "originalName": "REMA 1000 Hakket grise- og kalvekød eller Frilandsgris",
       "originalDescription": "250-500 g\nMax. 116.00 pr. kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_mixed_offer",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&w=1000&x1r=0.505&x2r=0.984&y1r=0.363&y2r=0.672&s=cb3ca99dfcc98c00d06b207e6305369d"
@@ -7325,11 +7275,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-10.webp&w=1000&x1r=0.5&x2r=1&y1r=0.48&y2r=0.74&s=68e0afe85c04cf45fec6643026136dac"
     },
     {
-      "descriptionKey": "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|hair_body",
+      "descriptionKey": "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper",
       "originalName": "REMA 1000 Lommeletter med balsam eller ansigtsservietter",
       "originalDescription": "60-100 stk.\nNYHED\nMax. 0.08 pr. stk.",
-      "currentCategoryId": "personal_care",
-      "currentComparisonGroup": "hair_body",
+      "currentCategoryId": "household",
+      "currentComparisonGroup": "paper",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-21.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.67&y2r=0.99&s=72b9d352f29b4b80656c35f0c6285798"
@@ -7345,11 +7295,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-11.webp&w=1000&x1r=0.51&x2r=1&y1r=0.47&y2r=0.74&s=93dcad906fd480f6d2e82c30a4bd7cd9"
     },
     {
-      "descriptionKey": "v1|rema 1000 mazarintaerte traestammer eller romkugler|ready_meal",
+      "descriptionKey": "v1|rema 1000 mazarintaerte traestammer eller romkugler|biscuits",
       "originalName": "REMA 1000 Mazarintærte, træstammer eller romkugler",
       "originalDescription": "200-275 g Max. 60.00 pr. kg",
-      "currentCategoryId": "frozen_ready",
-      "currentComparisonGroup": "ready_meal",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-18.webp&w=1000&x1r=0.57&x2r=0.98&y1r=0.36&y2r=0.68&s=138e2974a6ba87c91389e6215af89190"
@@ -7435,21 +7385,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&w=1000&x1r=0.505&x2r=0.984&y1r=0.672&y2r=0.993&s=b51cbebbe876d95220dfb275c28c6766"
     },
     {
-      "descriptionKey": "v1|rema 1000 rokkedahl fritgaaende kylling kyllingebrystfilet eller hele laar|chicken_breast",
+      "descriptionKey": "v1|rema 1000 rokkedahl fritgaaende kylling kyllingebrystfilet eller hele laar|chicken_other",
       "originalName": "REMA 1000 Rokkedahl Fritgående kylling Kyllingebrystfilet eller hele lår",
       "originalDescription": "Bedre Dyrevelfærd\nANBEFALET AF DYRENES BESKYTTELSE\n180-320 g/475-620 g\nMax. 194.44 pr. kg",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "chicken_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&w=1000&x1r=0.016&x2r=0.505&y1r=0.672&y2r=0.993&s=3031acd9743029c60e153fa22c167315"
     },
     {
-      "descriptionKey": "v1|rema 1000 saltkod|spices",
+      "descriptionKey": "v1|rema 1000 saltkod|bacon_deli",
       "originalName": "REMA 1000 Saltkød",
       "originalDescription": "100 g 150.00 pr. kg",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-8.webp&w=1000&x1r=0.024&x2r=0.399&y1r=0.375&y2r=0.698&s=8eec2a051c98ff4d92ef3264a3836b6c"
@@ -7475,21 +7425,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-21.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.67&y2r=0.99&s=0a9fd9bf4ddab7b6c12a35d3fbea8664"
     },
     {
-      "descriptionKey": "v1|rema 1000 supreme culotte|beef_steak",
+      "descriptionKey": "v1|rema 1000 supreme culotte|beef_roast",
       "originalName": "REMA 1000 SUPREME Culotte",
       "originalDescription": "PR. ½ KG\nPartivare. 239.90 pr. kg",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&w=1000&x1r=0&x2r=0.51&y1r=0.66&y2r=1&s=807ad3896b2c5705af6d8e536a7e9cf3"
     },
     {
-      "descriptionKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_steak",
+      "descriptionKey": "v1|rema 1000 supreme striploin eller ribeye roast|beef_roast",
       "originalName": "REMA 1000 SUPREME Striploin eller ribeye roast",
       "originalDescription": "Velegnet til helstegning eller til udskæring i store møre bøffer\n900-1200 g\nPr. stk.\nPartivare. Max. 332.22 pr. kg",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-2.webp&w=1000&x1r=0.49&x2r=1&y1r=0.52&y2r=1&s=a6f30b43edf4669692e454f107a215a6"
@@ -7535,11 +7485,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-21.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.36&y2r=0.69&s=6beae25d56e12d0bb30401467e8b7aca"
     },
     {
-      "descriptionKey": "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|beef_steak",
+      "descriptionKey": "v1|rema 1000 vannameirejer tunsteaks eller butterflyrejer|seafood_other",
       "originalName": "REMA 1000 Vannameirejer, tunsteaks eller butterflyrejer",
       "originalDescription": "Dybfrost 150-225 g\nMax. 166.67 pr. kg",
-      "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "seafood_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-11.webp&w=1000&x1r=0&x2r=0.48&y1r=0.47&y2r=0.74&s=a028a06c1ce46047aca44526de323581"
@@ -7585,11 +7535,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-6.webp&w=1000&x1r=0.518&x2r=0.96&y1r=0.228&y2r=0.645&s=c53791dea863c7887fe482bd2f55ef6c"
     },
     {
-      "descriptionKey": "v1|ribbensteg|pork_roast",
+      "descriptionKey": "v1|ribbensteg|pork_ribs",
       "originalName": "Ribbensteg",
       "originalDescription": "1,3-1,6 kg. Pr. kg max. 91,54",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&w=1000&x1r=0.74&x2r=0.98&y1r=0.28&y2r=0.46&s=90fdf70ed40338ef42d4170290278b08"
@@ -7665,31 +7615,31 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-47.webp&w=1000&x1r=0.014&x2r=0.314&y1r=0.408&y2r=0.652&s=1da63462f4de0665691a7e729323bda1"
     },
     {
-      "descriptionKey": "v1|roastbeef eller mignon af okse|beef_steak",
+      "descriptionKey": "v1|roastbeef eller mignon af okse|beef_roast",
       "originalName": "Roastbeef eller mignon af okse",
       "originalDescription": "600-900 g. Pr. kg max. 215,- Altid mørt LUDVIG",
       "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentComparisonGroup": "beef_roast",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&w=1000&x1r=0.7&x2r=0.99&y1r=0.7&y2r=0.96&s=87e6f1f8caa31181bf242e537f49a677"
     },
     {
-      "descriptionKey": "v1|rod peber|spices",
+      "descriptionKey": "v1|rod peber|peppers",
       "originalName": "Rød peber",
       "originalDescription": "Udenlandsk, kl. I. Stk-pris 6,00. 1 stk.",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "peppers",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F45dbdaf03b08f943b7f9e854e3216e5a&w=1000&s=d935a2bc04da49cecc56f7d354674599"
     },
     {
-      "descriptionKey": "v1|rod snackpeber|spices",
+      "descriptionKey": "v1|rod snackpeber|peppers",
       "originalName": "Rød snackpeber",
       "originalDescription": "Klasse 1. 500 g. Pr. kg 32,00 Med Lidl Plus³ Pr. kg 28,00",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "spices",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "peppers",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-15.webp&w=1000&x1r=0.014&x2r=0.495&y1r=0.485&y2r=0.728&s=b1375ff1ed39eedc5f9b4ceaa9033292"
@@ -7705,11 +7655,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-26.webp&w=1000&x1r=0.685&x2r=0.985&y1r=0.495&y2r=0.715&s=12b4da47ab6c5cc07788bed196def4a1"
     },
     {
-      "descriptionKey": "v1|rogede kamben|pork_chop",
+      "descriptionKey": "v1|rogede kamben|pork_ribs",
       "originalName": "Røgede kamben",
       "originalDescription": "a 1,1-1,3 kg. Pr. kg max. v/merkøb 102,27 2 BAKKER PR. BAKKE 135.-",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-15.webp&w=1000&x1r=0.48&x2r=0.97&y1r=0.61&y2r=0.93&s=cbcb150d56d9ab07f84a637309b14419"
@@ -7765,11 +7715,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-19.webp&w=1000&x1r=0&x2r=0.49&y1r=0.05&y2r=0.49&s=ff072d9dcd8361f7b2a338b2537ad8b1"
     },
     {
-      "descriptionKey": "v1|rose kyllingebrystfilet inderfilet eller hakket kyllingekod|chicken_breast",
+      "descriptionKey": "v1|rose kyllingebrystfilet inderfilet eller hakket kyllingekod|chicken_other",
       "originalName": "Rose kyllingebrystfilet, -inderfilet eller hakket kyllingekød",
       "originalDescription": "600-800 g. Hakket kyllingekød med 7-10% fedt. Pr. kg max. 83,33",
       "currentCategoryId": "chicken",
-      "currentComparisonGroup": "chicken_breast",
+      "currentComparisonGroup": "chicken_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&w=1000&x1r=0.015&x2r=0.465&y1r=0.515&y2r=0.955&s=881b55ad5e6696f84c732cc8d602e16c"
@@ -7905,11 +7855,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-2.webp&w=1000&x1r=0.65&x2r=0.99&y1r=0.16&y2r=0.56&s=d5dc74c2bc40b29b20a91add24cc3d6b"
     },
     {
-      "descriptionKey": "v1|salling tun mutti tomater eller pizzasauce|sauces",
+      "descriptionKey": "v1|salling tun mutti tomater eller pizzasauce|white_fish",
       "originalName": "Salling tun, Mutti tomater eller pizzasauce",
       "originalDescription": "140 g Salling tun i vand eller olie, 210 g Mutti pizzasauce eller 400 g Mutti tomater. Flere varianter. Pr. kg max. 85,71",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "sauces",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "white_fish",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-48.webp&w=1000&x1r=0.027&x2r=0.316&y1r=0.704&y2r=0.957&s=36d0609f8205af51a52662588e7b094d"
@@ -7995,11 +7945,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F4a80505909936801daf1602e2b2eb967&w=1000&s=6793e30b2f3535eb59b3f0bf0b643ee8"
     },
     {
-      "descriptionKey": "v1|seafoodmix vannamei tunsteak eller poke|beef_steak",
+      "descriptionKey": "v1|seafoodmix vannamei tunsteak eller poke|seafood_other",
       "originalName": "Seafoodmix, vannamei, tunsteak eller -poke",
       "originalDescription": "150-300 g. Flere varianter. Pr. kg max. 193,33. Pr. kg max. 166,67. Gælder kun med føtex plus appen",
-      "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "seafood_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&w=1000&x1r=0.585&x2r=0.985&y1r=0.015&y2r=0.265&s=92d8bcb30616fe2657331cabf8eaed4c"
@@ -8085,21 +8035,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-19.webp&w=1000&x1r=0.505&x2r=0.981&y1r=0.334&y2r=0.612&s=8eacbb8e1b49ad5f69a636e11561a013"
     },
     {
-      "descriptionKey": "v1|skagenfood koldroget laks|biscuits",
+      "descriptionKey": "v1|skagenfood koldroget laks|salmon",
       "originalName": "Skagenfood koldrøget laks",
       "originalDescription": "Smagfulde favoritter – klar til servering 130 g. Filet Royal eller long sliced. Pr. kg 384,23",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "biscuits",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "salmon",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-10.webp&w=1000&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.97&s=6a30c70830bce4907ecb709a44e27745"
     },
     {
-      "descriptionKey": "v1|skagenfood varmroget laks eller fiskesalat|biscuits",
+      "descriptionKey": "v1|skagenfood varmroget laks eller fiskesalat|salmon",
       "originalName": "Skagenfood varmrøget laks eller fiskesalat",
       "originalDescription": "Smagfulde favoritter – klar til servering 125-175 g. Flere varianter. Pr. kg max. 279,60",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "biscuits",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "salmon",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-10.webp&w=1000&x1r=0.04&x2r=0.51&y1r=0.75&y2r=0.97&s=2bf4b72a62ee0a84dbe7a6b550696fa6"
@@ -8165,11 +8115,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FgWY3dd9p%2Fp-4.webp&w=1000&x1r=0.02&x2r=0.485&y1r=0.443&y2r=0.729&s=cdc84ff6eebbf452db903f531d711925"
     },
     {
-      "descriptionKey": "v1|slagterens bbq kamben|pork_chop",
+      "descriptionKey": "v1|slagterens bbq kamben|pork_ribs",
       "originalName": "Slagterens bbq kamben",
       "originalDescription": "Pr. ½ kg\nKg-pris 110,00.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&w=1000&x1r=0&x2r=0.649&y1r=0&y2r=0.369&s=3761e22a7a08908abb0ed9b199be7d23"
@@ -8245,11 +8195,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-36.webp&w=1000&x1r=0.142&x2r=0.392&y1r=0.79&y2r=0.956&s=9741f2ce8feaffaab26dd44ada74f43f"
     },
     {
-      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizo kroketter|sausages",
+      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_other",
       "originalName": "SOL&MAR Blæksprutteringe eller chorizo-kroketter",
       "originalDescription": "500 g. Pr. kg 50,00 Spot¹",
-      "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "seafood_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-9.webp&w=1000&x1r=0.012&x2r=0.655&y1r=0.496&y2r=0.709&s=c93c484c26b178aae52cb4d31ef51ff6"
@@ -8265,11 +8215,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-9.webp&w=1000&x1r=0.012&x2r=0.355&y1r=0.716&y2r=0.939&s=acebf4e47265f93c58feac061ee24687"
     },
     {
-      "descriptionKey": "v1|sol mar chorizo sarta eller serrano|sausages",
+      "descriptionKey": "v1|sol mar chorizo sarta eller serrano|bacon_deli",
       "originalName": "SOL&MAR Chorizo sarta eller serrano",
       "originalDescription": "80-200 g. Pr. kg maks. 250,00 Spot¹",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-8.webp&w=1000&x1r=0.35&x2r=0.66&y1r=0.505&y2r=0.945&s=80358ffa9abddd08dfe4c757d7d3b38c"
@@ -8485,11 +8435,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe92d5720cee84b6f78ac74f8c76a6e01&w=1000&s=19c6959b1ae6548ee54e49b65df78603"
     },
     {
-      "descriptionKey": "v1|spangsberg flodeboller|bread",
+      "descriptionKey": "v1|spangsberg flodeboller|chocolate",
       "originalName": "SPANGSBERG Flødeboller",
       "originalDescription": "124 g. Pr. kg 201,61 Spot¹",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-5.webp&w=1000&x1r=0.015&x2r=0.492&y1r=0.505&y2r=0.725&s=ac0e504d4ec341a6e11e01e0442c6b1a"
@@ -8515,11 +8465,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-34.webp&w=1000&x1r=0&x2r=0.999&y1r=0&y2r=0.421&s=c360a53e9bcfd652a5eab8582a17db38"
     },
     {
-      "descriptionKey": "v1|spareribs pulled chicken eller pork|pork_roast",
+      "descriptionKey": "v1|spareribs pulled chicken eller pork|pork_ribs",
       "originalName": "Spareribs, pulled chicken eller pork",
       "originalDescription": "300-400 g. Pr. kg max. 106,67 32,-",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&w=1000&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26&s=e197a7bbb8263b1ec0ac61bd2f77f587"
@@ -8535,11 +8485,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-32.webp&w=1000&x1r=0.031&x2r=0.974&y1r=0.385&y2r=0.978&s=caea5b148c53804de5e0d67f271e74f7"
     },
     {
-      "descriptionKey": "v1|starbucks triple espresso protein drik med kaffe eller arla protein drik|coffee_tea",
+      "descriptionKey": "v1|starbucks triple espresso protein drik med kaffe eller arla protein drik|milk",
       "originalName": "Starbucks Triple Espresso, Protein drik med kaffe eller Arla Protein drik",
       "originalDescription": "300-500 ml. Flere varianter. Pr. liter max. 50,-",
-      "currentCategoryId": "breakfast",
-      "currentComparisonGroup": "coffee_tea",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "milk",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-23.webp&w=1000&x1r=0.024&x2r=0.457&y1r=0.491&y2r=0.942&s=628b79f5b88b14fd1183af1a59c8009c"
@@ -8555,11 +8505,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-5.webp&w=1000&x1r=0&x2r=0.499&y1r=0.728&y2r=1&s=cdc82fb03c710db6896dff31050686b9"
     },
     {
-      "descriptionKey": "v1|steff houlberg brunchpolser eller bacon i skiver|sausages",
+      "descriptionKey": "v1|steff houlberg brunchpolser eller bacon i skiver|bacon_deli",
       "originalName": "Steff Houlberg Brunchpølser eller bacon i skiver",
       "originalDescription": "300-350 g Partivare. Max. 66.67 pr. kg",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-3.webp&w=1000&x1r=0.51&x2r=0.96&y1r=0.46&y2r=0.74&s=f068a31c06fb9bc2458d74b0856fa089"
@@ -8655,11 +8605,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-11.webp&w=1000&x1r=0.038&x2r=0.49&y1r=0.083&y2r=0.334&s=e25c7f831ecc524ce4cb7bc8b28268ce"
     },
     {
-      "descriptionKey": "v1|stryhns postej eller roget medister|sausages",
+      "descriptionKey": "v1|stryhns postej eller roget medister|bacon_deli",
       "originalName": "Stryhns postej eller røget medister",
       "originalDescription": "275-400 g. Flere varianter. Pr. kg max. 80,-",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "sausages",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&w=1000&x1r=0.01&x2r=0.3&y1r=0.67&y2r=0.96&s=b2e04f48a5d21f001341c93e2a949b3b"
@@ -8795,11 +8745,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-14.webp&w=1000&x1r=0.3346&x2r=1&y1r=0.6865&y2r=0.9654&s=f2ccd93f76aa6f17cb381c57c26a3ffe"
     },
     {
-      "descriptionKey": "v1|taga bacondadler fuet snack sticks eller skiver|chips",
+      "descriptionKey": "v1|taga bacondadler fuet snack sticks eller skiver|bacon_deli",
       "originalName": "Taga bacondadler, fuet snack sticks eller skiver",
       "originalDescription": "60-75 g Max. 250.00 pr. kg",
-      "currentCategoryId": "snacks",
-      "currentComparisonGroup": "chips",
+      "currentCategoryId": "pork",
+      "currentComparisonGroup": "bacon_deli",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-9.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.468&y2r=0.735&s=5dbde2036e70ac59cd9b853c0ffd8e79"
@@ -8825,11 +8775,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-9.webp&w=1000&x1r=0.532&x2r=1&y1r=0.467&y2r=0.746&s=f6139672cb7c269b305f1a2383f9f673"
     },
     {
-      "descriptionKey": "v1|tastino smorcroissanter|bread",
+      "descriptionKey": "v1|tastino smorcroissanter|butter",
       "originalName": "TASTINO Smørcroissanter",
       "originalDescription": "Dybfrost 360 g. Pr. kg 55,56",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "butter",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-2.webp&w=1000&x1r=0.324&x2r=0.643&y1r=0.505&y2r=0.718&s=a692c314c6e197367de13ab287f8fa25"
@@ -8895,21 +8845,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-10.webp&w=1000&x1r=0.045&x2r=0.355&y1r=0.45&y2r=0.69&s=1ea39cb107dd0b034365b9419932c2b6"
     },
     {
-      "descriptionKey": "v1|thise okologisk jerseymaelk creme fraiche eller fraiche|milk",
+      "descriptionKey": "v1|thise okologisk jerseymaelk creme fraiche eller fraiche|mixed_dairy",
       "originalName": "Thise økologisk jerseymælk, creme fraiche eller fraiche",
       "originalDescription": "1 liter/400 g. Literpris 15,00/Kg-pris 37,50. Frit valg. 1 stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "mixed_dairy",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F52e00e41e1d5c9d13de6c961081c383e&w=1000&s=66eaf343240f5555b161a6c7013fb30a"
     },
     {
-      "descriptionKey": "v1|thise okologisk kaernemaelk eller skyr med topping|milk",
+      "descriptionKey": "v1|thise okologisk kaernemaelk eller skyr med topping|mixed_dairy",
       "originalName": "Thise økologisk kærnemælk eller skyr med topping",
       "originalDescription": "1 liter/160 g. Literpris 13,00/Kg-pris 81,25. Frit valg. 1 stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "mixed_dairy",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-10.webp&w=1000&x1r=0.045&x2r=0.52&y1r=0.69&y2r=0.97&s=fc27d1b55fa429cc98e6882fc3531d3e"
@@ -9015,21 +8965,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-47.webp&w=1000&x1r=0.508&x2r=0.735&y1r=0.018&y2r=0.25&s=7d2a5bb23a4b65adf08e971d1847d0e7"
     },
     {
-      "descriptionKey": "v1|torsdagssmorrebrod|bread",
+      "descriptionKey": "v1|torsdagssmorrebrod|butter",
       "originalName": "Torsdagssmørrebrød",
       "originalDescription": "TORSDAG Flere varianter. Stk.-pris 29,00. Frit valg. 1 stk. Udvalget kan variere fra butik til butik.",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "eggs_dairy",
+      "currentComparisonGroup": "butter",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-20.webp&w=1000&x1r=0.013&x2r=0.526&y1r=0.013&y2r=0.413&s=c0047f0089dfcc9742709d20985cb524"
     },
     {
-      "descriptionKey": "v1|traestamme|bread",
+      "descriptionKey": "v1|traestamme|biscuits",
       "originalName": "Træstamme",
       "originalDescription": "BAGEREN Pr. stk. 20,- 2 stk.",
-      "currentCategoryId": "bread_grains",
-      "currentComparisonGroup": "bread",
+      "currentCategoryId": "snacks",
+      "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-37.webp&w=1000&x1r=0.01&x2r=0.34&y1r=0.71&y2r=0.96&s=0a04a0bbcc60c34d2c8b5e71f6df2f2a"
@@ -9105,21 +9055,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-1.webp&w=1000&x1r=0.49&x2r=0.99&y1r=0.14&y2r=0.56&s=338cf30db0e25dd68f58dc7addb05575"
     },
     {
-      "descriptionKey": "v1|tulip pulled eller spareribs|pork_roast",
+      "descriptionKey": "v1|tulip pulled eller spareribs|pork_ribs",
       "originalName": "Tulip pulled eller spareribs",
       "originalDescription": "a 450-500 g. Flere varianter. Pr. kg max. v/merkøb 98.89 2 pakker Pr. pk. op til 52,95",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&w=1000&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329&s=e462f7d66ddb5c4887135d6ae505a3fc"
     },
     {
-      "descriptionKey": "v1|tulip pulled pork eller spareribs|pork_roast",
+      "descriptionKey": "v1|tulip pulled pork eller spareribs|pork_ribs",
       "originalName": "Tulip pulled pork eller spareribs",
       "originalDescription": "500 g. Kg-pris 90,00. Frit valg. 1 pakke.",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "kvickly",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&w=1000&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992&s=94725ef5a390e8b4fe878cff8de5b62a"
@@ -9135,21 +9085,21 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.4988&x2r=0.9948&y1r=0.47&y2r=0.7098&s=219bc921217b757f7aec77e2a9105ca1"
     },
     {
-      "descriptionKey": "v1|tulip spareribs|pork_roast",
+      "descriptionKey": "v1|tulip spareribs|pork_ribs",
       "originalName": "Tulip Spareribs",
       "originalDescription": "500 g. Pr. kg 78,00",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_roast",
+      "currentComparisonGroup": "pork_ribs",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "netto",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-13.webp&w=1000&x1r=0.665&x2r=0.985&y1r=0.685&y2r=0.971&s=4652508f80a78d4a9af1ed461581bc22"
     },
     {
-      "descriptionKey": "v1|tunsteak rejer eller gambas pil pil|beef_steak",
+      "descriptionKey": "v1|tunsteak rejer eller gambas pil pil|seafood_other",
       "originalName": "Tunsteak, rejer eller Gambas pil pil",
       "originalDescription": "150-700 g. Flere varianter. Pr. kg max. 393,33",
-      "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_steak",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "seafood_other",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "foetex",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-18.webp&w=1000&x1r=0.49&x2r=0.78&y1r=0.71&y2r=0.96&s=881e9597b76375698d29761c09acf79e"
@@ -9185,11 +9135,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-10.webp&w=1000&x1r=0&x2r=0.5&y1r=0.47&y2r=1&s=b360043beb30cf0834314fd147db0156"
     },
     {
-      "descriptionKey": "v1|vaadservietter|baby_care",
+      "descriptionKey": "v1|vaadservietter|paper",
       "originalName": "Vådservietter",
       "originalDescription": "16 pakker a 100 stk. Pr. stk. 1.49\nPr. kasse",
-      "currentCategoryId": "baby",
-      "currentComparisonGroup": "baby_care",
+      "currentCategoryId": "household",
+      "currentComparisonGroup": "paper",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "bilka",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-9.webp&w=1000&x1r=0.661&x2r=0.978&y1r=0.313&y2r=0.651&s=2eaef6442c5d76bc7b588a2c38b523b5"
@@ -9295,11 +9245,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-8.webp&w=1000&x1r=0&x2r=0.634&y1r=0.776&y2r=1&s=8f521656fc5e687dfa42eed1d6a0f0d7"
     },
     {
-      "descriptionKey": "v1|velsmag hakket grise og kalvekod 8 12 nakkekoteletter eller dansk flaesk i skiver|pork_chop",
+      "descriptionKey": "v1|velsmag hakket grise og kalvekod 8 12 nakkekoteletter eller dansk flaesk i skiver|pork_mixed_offer",
       "originalName": "Velsmag hakket grise- og kalvekød 8-12%, nakkekoteletter eller dansk flæsk i skiver",
       "originalDescription": "SPOT 400-500 g. Pr. kg max. 74,88 PRIS CHOK",
       "currentCategoryId": "pork",
-      "currentComparisonGroup": "pork_chop",
+      "currentComparisonGroup": "pork_mixed_offer",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "netto",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-5.webp&w=1000&x1r=0.54&x2r=0.99&y1r=0.01&y2r=0.43&s=8d88f5bbaad3d5e41b91b8cd5703d590"
@@ -9395,16 +9345,6 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-26.webp&w=1000&x1r=0.05&x2r=0.44&y1r=0.575&y2r=0.765&s=e8ac685bc8198c1aa3751ab9e3804f8b"
     },
     {
-      "descriptionKey": "v1|wilfa performance compact kaffemaskine|coffee_tea",
-      "originalName": "Wilfa Performance Compact kaffemaskine",
-      "originalDescription": "• Model: CM8B-A100 • 1600 Watt • Automatisk drypstop • 1 liters aftagelig vandtank for nem pfyldning og rengring. Fredag d. 17/7 - torsdag d. 30/7. Normalpris 1599.- SPAR 600.- wilfa",
-      "currentCategoryId": "breakfast",
-      "currentComparisonGroup": "coffee_tea",
-      "currentReviewStatus": "pending_codex_review",
-      "storeId": "bilka",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsBtvBbmk%2Fp-40.webp&w=1000&x1r=0.512&x2r=0.735&y1r=0.024&y2r=0.384&s=ded4df5b8e023a9d30190873cb3e3cc6"
-    },
-    {
       "descriptionKey": "v1|windsor monstrede servietter|paper",
       "originalName": "Windsor mønstrede servietter",
       "originalDescription": "20 stk. 33x33 cm. Flere varianter.",
@@ -9485,11 +9425,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F9a74ef565da0f87989d20a33e5c12773%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F267a1d1cdfbe758e48cfd0600fa3dba1&w=1000&s=1b2e7225a0ed91dfce6a4e5808e8c90b"
     },
     {
-      "descriptionKey": "v1|xtra tun eller bonduelle majs|canned",
+      "descriptionKey": "v1|xtra tun eller bonduelle majs|white_fish",
       "originalName": "Xtra! tun eller Bonduelle majs",
       "originalDescription": "56-140 g. Kg-pris maks. 107,14. Frit valg. 1 stk.",
-      "currentCategoryId": "pantry",
-      "currentComparisonGroup": "canned",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "white_fish",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&w=1000&x1r=0.038&x2r=0.339&y1r=0.341&y2r=0.658&s=c1dc08bfee5a49241707777eab996928"
@@ -9515,11 +9455,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-38.webp&w=1000&x1r=0.282&x2r=0.485&y1r=0.665&y2r=0.955&s=a654d278a400067b825debf6530b6d26"
     },
     {
-      "descriptionKey": "v1|yopro proteindrikkeyoghurt eller activia kefirdrik|milk",
+      "descriptionKey": "v1|yopro proteindrikkeyoghurt eller activia kefirdrik|yoghurt",
       "originalName": "Yopro proteindrikkeyoghurt eller Activia kefirdrik",
       "originalDescription": "300 g/280 ml. Kg-pris 40,00/Literpris 42,86. Frit valg. 1 stk.",
       "currentCategoryId": "eggs_dairy",
-      "currentComparisonGroup": "milk",
+      "currentComparisonGroup": "yoghurt",
       "currentReviewStatus": "pending_codex_review",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-12.webp&w=1000&x1r=0.51&x2r=0.97&y1r=0.35&y2r=0.66&s=d69c09538bbf7524b65563faf6bf7957"

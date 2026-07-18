@@ -68,3 +68,45 @@ test('product form wins over ingredient and flavour words', () => {
   assert.equal(classifyOffer({ heading:'Acer bærbar skærm' }), null);
   assert.equal(classifyOffer({ heading:'Prosonic soundbar' }), null);
 });
+
+test('uses product identity rather than flavour words or brand fragments', () => {
+  assert.equal(classifyOffer({ heading:'AEG Ovn' }), null);
+  assert.equal(classifyOffer({ heading:'AEG Vaskemaskine' }), null);
+  assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
+  assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'beef_steak');
+  assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'chicken_other');
+  assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese');
+  assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');
+  assert.equal(classifyOffer({ heading:'Nordthy Mini ris- eller majskiks' }).comparisonGroup, 'biscuits');
+  assert.equal(classifyOffer({ heading:'Skagenfood koldrøget laks' }).comparisonGroup, 'salmon');
+});
+
+test('keeps size variants together but separates genuinely different potato forms', () => {
+  for (const heading of ['Små kartofler', 'Store kartofler', 'Nye danske kartofler', 'Bagekartofler']) {
+    assert.deepEqual(classifyOffer({ heading }), {
+      categoryId: 'vegetables', comparisonGroup: 'potatoes_fresh',
+    });
+  }
+  assert.equal(classifyOffer({ heading:'CHEF SELECT Kartoffelsalat' }).comparisonGroup, 'potato_salad');
+  assert.equal(classifyOffer({ heading:'HARVEST BASKET Pommes frites' }).comparisonGroup, 'potato_sides');
+  assert.equal(classifyOffer({ heading:'Peka flødekartofler' }).comparisonGroup, 'potato_sides');
+});
+
+test('splits actual species while keeping presentation variants together', () => {
+  assert.equal(classifyOffer({ heading:'Purløg' }).comparisonGroup, 'chives');
+  assert.equal(classifyOffer({ heading:'Basilikum' }).comparisonGroup, 'basil');
+  assert.equal(classifyOffer({ heading:'Økologisk persille' }).comparisonGroup, 'parsley');
+  assert.equal(classifyOffer({ heading:'Gulerødder med top' }).comparisonGroup, 'carrots');
+  assert.equal(classifyOffer({ heading:'Små gulerødder 500 g' }).comparisonGroup, 'carrots');
+  assert.equal(classifyOffer({ heading:'Broccoli' }).comparisonGroup, 'broccoli');
+  assert.equal(classifyOffer({ heading:'Blomkål' }).comparisonGroup, 'cauliflower');
+  assert.equal(classifyOffer({ heading:'Dansk spidskål' }).comparisonGroup, 'cabbage');
+});
+
+test('handles Danish compound words without classifying incidental fragments', () => {
+  assert.equal(classifyOffer({ heading:'Lambi Premium toiletpapir' }).comparisonGroup, 'paper');
+  assert.equal(classifyOffer({ heading:'Wilfa kaffemaskine' }), null);
+  assert.equal(classifyOffer({ heading:'Træstamme' }).comparisonGroup, 'biscuits');
+  assert.equal(classifyOffer({ heading:'Merrild eller Lavazza helbønner' }).comparisonGroup, 'coffee_tea');
+  assert.equal(classifyOffer({ heading:'REMA 1000 Vannameirejer eller tunsteak' }).comparisonGroup, 'seafood_other');
+});

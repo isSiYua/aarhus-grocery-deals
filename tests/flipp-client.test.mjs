@@ -7,6 +7,7 @@ import {
   fetchFlyerItems,
   fetchFlyers,
   classifyFlippItem,
+  ATLANTA_COMPARISON_GROUPS,
   normalizeFlippItems,
 } from '../scripts/lib/flipp-client.mjs';
 
@@ -60,6 +61,37 @@ test('classifies grocery names before ambiguous words', () => {
   assert.equal(classifyFlippItem('Breyers Ice Cream').categoryId, 'frozen');
   assert.equal(classifyFlippItem('Tyson Frozen Chicken').categoryId, 'meat');
   assert.equal(classifyFlippItem('Apple Pie').categoryId, 'bakery');
+});
+
+test('uses product-level Atlanta comparison groups without splitting size variants', () => {
+  assert.equal(classifyFlippItem('Publix Idaho Russet Potatoes').comparisonGroup, 'produce_potatoes');
+  assert.equal(classifyFlippItem('Private Selection Gourmet Potatoes').comparisonGroup, 'produce_potatoes');
+  assert.equal(classifyFlippItem('Small Red Seedless Watermelon').comparisonGroup, 'produce_watermelon');
+  assert.equal(classifyFlippItem('Publix White Mushrooms').comparisonGroup, 'produce_mushrooms');
+  assert.equal(classifyFlippItem('GreenWise Chicken Drumsticks or Bone-In Thighs').comparisonGroup, 'meat_chicken_thigh');
+  assert.equal(classifyFlippItem('Publix Whole Young Chicken').comparisonGroup, 'meat_whole_chicken');
+  assert.equal(classifyFlippItem('Tree-Ripened Peaches or Nectarines').comparisonGroup, 'produce_peaches');
+  assert.equal(classifyFlippItem("Kellogg's Mega Size Rice Krispies Treats").comparisonGroup, 'snacks_other');
+  assert.equal(classifyFlippItem('Publix Ground Pork').comparisonGroup, 'meat_ground_pork');
+  assert.equal(classifyFlippItem('Publix Smoked Pulled Pork').comparisonGroup, 'meat_pulled_pork');
+  for (const name of ['Publix Idaho Russet Potatoes', 'Small Red Seedless Watermelon', 'Publix Whole Young Chicken']) {
+    const classification = classifyFlippItem(name);
+    assert.ok(ATLANTA_COMPARISON_GROUPS[classification.comparisonGroup]);
+  }
+});
+
+test('keeps comparison grouping broader than the product-specific Chinese explanation', () => {
+  const russet = classifyFlippItem('Publix Idaho Russet Potatoes');
+  const gourmet = classifyFlippItem('Private Selection Gourmet Potatoes');
+  assert.equal(russet.comparisonGroup, gourmet.comparisonGroup);
+  assert.match(russet.zhExplanation, /Russet 褐皮土豆/);
+  assert.doesNotMatch(gourmet.zhExplanation, /Russet/);
+  assert.match(gourmet.zhExplanation, /大小|规格/);
+
+  const peaches = classifyFlippItem('Tree-Ripened Peaches or Nectarines');
+  assert.match(peaches.zhExplanation, /桃或油桃/);
+  assert.doesNotMatch(peaches.zhExplanation, /^李子/);
+  assert.match(classifyFlippItem('Organic Plums').zhExplanation, /^李子/);
 });
 
 test('uses the complete Atlanta product name instead of misleading ingredient words', () => {

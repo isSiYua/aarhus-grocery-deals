@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { buildFlippFlyerUrl, chooseCurrentFlyer, fetchFlyerItems, fetchFlyers, normalizeFlippItems } from './lib/flipp-client.mjs';
+import { ATLANTA_COMPARISON_GROUPS, buildFlippFlyerUrl, chooseCurrentFlyer, fetchFlyerItems, fetchFlyers, normalizeFlippItems } from './lib/flipp-client.mjs';
 import { loadAtlantaProductKnowledge } from './lib/flipp-product-knowledge.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -34,11 +34,6 @@ const ATLANTA_CATEGORIES = [
   ['pet', '宠物用品', '🐾', '#76614B', '宠物食品、零食和日常用品。'],
 ].map(([id, nameZh, emoji, color, descriptionZh]) => ({ id, nameZh, emoji, color, descriptionZh }));
 
-const ATLANTA_COMPARISON_GROUPS = Object.fromEntries(ATLANTA_CATEGORIES.map(category => [
-  category.id,
-  { nameZh: category.nameZh, noteZh: '当前 feed 没有可靠统一规格时按标示价格排列，不把不同包装误判为单位价格最低。' },
-]));
-ATLANTA_COMPARISON_GROUPS.other = { nameZh: '其他商品', noteZh: '规格差异较大，不直接比较单位价格。' };
 
 async function loadPrevious() {
   try {

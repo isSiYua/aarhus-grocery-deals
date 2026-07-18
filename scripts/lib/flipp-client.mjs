@@ -78,6 +78,7 @@ const PRODUCT_RULES = [
 
   ['pantry', /\bpork and beans\b/i, '美式番茄酱汁猪肉焗豆罐头，主要是熟豆类，带少量猪肉调味；可加热配面包、米饭或烧烤，不是生猪肉。'],
   ['pantry', /\b(mac\s*(?:&|and)\s*cheese|macaroni.*cheese)\b/i, '芝士通心粉，是常温盒装主食，煮熟面后拌入芝士酱；类似奶酪味方便意面。'],
+  ['snacks', /\b(rice krispies treats?|cookie pudding)\b/i, '甜味谷物棒或布丁类零食，可直接食用；虽然名称含米、花生酱或饼干，但不是大米或早餐抹酱。'],
   ['pantry', /\b(peanut butter|grape (?:jam|jelly)|jam|jelly)\b/i, '花生酱或果酱，可抹面包、搭配早餐或用于烘焙；这是常温抹酱，不是新鲜水果或乳制品。'],
   ['snacks', /\b(fruit\s*(?:&|and)\s*nut bar|protein bar)\b/i, '水果坚果棒或蛋白棒，开袋即食，适合随身加餐；比较时看净重、蛋白质与含糖量。'],
   ['drinks', /\b(capri[ -]?sun|juice drink blend|fruit punch)\b/i, '果汁风味饮料，通常为便携小袋装，可冷藏后直接饮用；不是新鲜水果，应查看果汁含量和添加糖。'],
@@ -109,16 +110,32 @@ const PRODUCT_RULES = [
 
   ['produce', /\b(mushrooms?|bella)\b/i, '鲜蘑菇（白蘑菇或褐色 Baby Bella），可切片炒肉、煎烤、煮汤或做奶油意面；类似中国常见口蘑。'],
   ['produce', /\bcarrots?\b/i, '胡萝卜，可清炒、炖肉、烤制、煮汤或生吃；类似中国常见胡萝卜。'],
-  ['produce', /\b(green beans?|peas?)\b/i, '鲜豆类蔬菜，可清炒、焯拌、炖煮或作配菜；按原名确认是四季豆还是豌豆。'],
-  ['produce', /\b(broccoli|cauliflower)\b/i, '西兰花或花椰菜，可清炒、焯拌、烤制或煮汤；购买时按图片和原名确认具体一种。'],
+  ['produce', /\bgreen beans?\b/i, '四季豆或嫩豆角，可清炒、焯拌或炖煮；购买时注意是否已去筋、是否按磅计价。'],
+  ['produce', /\bpeas?\b/i, '豌豆，可清炒、焯煮、做汤或作为配菜；这里按豌豆本身归类，不与四季豆混为一种。'],
+  ['produce', /\bbroccoli\b/i, '西兰花，可清炒、焯拌、烤制或煮汤；类似中国常见西兰花。'],
+  ['produce', /\bcauliflower\b/i, '花椰菜（菜花），可清炒、焯拌、烤制或做低碳“菜花米”；不与西兰花混为一种。'],
   ['produce', /\b(corn|sweet corn)\b/i, '鲜玉米，可水煮、烧烤或剥粒炒菜；整根和散装商品应按重量或根数比较。'],
-  ['produce', /\b(potatoes?|russet)\b/i, '土豆，可烤、炖、炸或做土豆泥；Russet 是淀粉较多、适合烤制和土豆泥的品种。'],
-  ['produce', /\b(salad|lettuce|spinach)\b/i, '生菜或预制沙拉菜，可直接拌沙拉、夹三明治或快速清炒；预制款需注意酱料与保鲜期。'],
-  ['produce', /\b(tomatoes?|peppers?|cucumbers?|onions?)\b/i, '新鲜蔬菜，可用于沙拉、清炒、烤制或炖菜；请按原名确认是番茄、彩椒、黄瓜还是洋葱。'],
-  ['produce', /\b(strawberries|blueberries|berries)\b/i, '新鲜莓果，可直接吃、配酸奶燕麦、做果酱或烘焙；小盒装应结合净重比较。'],
+  ['produce', /\brusset potatoes?\b|\bpotatoes?.*russet\b/i, 'Russet 褐皮土豆，淀粉较多，适合烤土豆、炸薯条或做松软土豆泥；大小和包装不同仍属于同一种土豆比价组。'],
+  ['produce', /\bpotatoes?\b/i, '新鲜土豆，可烤、炖、煎或做土豆泥；大、小、迷你或袋装只是规格差异，不因此拆成不同商品组。'],
+  ['produce', /\bspinach\b/i, '菠菜，可清炒、焯拌、煮汤或加入沙拉；嫩叶菠菜也可直接生食。'],
+  ['produce', /\blettuce\b/i, '生菜，可直接做沙拉、夹三明治或快炒；不同叶型仍属于生菜，但不与菠菜混类。'],
+  ['produce', /\bsalad\b/i, '预制或混合沙拉菜，通常开袋后拌食；注意是否含酱料、配料包及保鲜期。'],
+  ['produce', /\btomatoes?\b/i, '番茄，可生吃、做沙拉、炒蛋、煮汤或熬酱；不同大小和包装仍按番茄归组。'],
+  ['produce', /\bpeppers?\b/i, '甜椒或辣椒，可清炒、烤制、做沙拉或调味；具体辣度以原名和包装为准。'],
+  ['produce', /\bcucumbers?\b/i, '黄瓜，可生吃、凉拌、做沙拉或腌渍；大小和包装差异不另拆商品组。'],
+  ['produce', /\bonions?\b/i, '洋葱，可炒、炖、烤或用于汤和酱汁打底；黄洋葱、白洋葱等保留原名但同属洋葱类。'],
+  ['produce', /\bstrawberries\b/i, '草莓，可直接吃、配酸奶燕麦、做果酱或甜点；盒装商品比较时需同时看净重。'],
+  ['produce', /\bblueberries\b/i, '蓝莓，可直接吃、配酸奶燕麦或用于烘焙；小盒装商品比较时需同时看净重。'],
+  ['produce', /\bberries\b/i, '莓果商品，可直接吃、配酸奶燕麦或用于烘焙；原名未明确品种时需结合图片确认。'],
   ['produce', /\b(grapes?)\b/i, '鲜葡萄，可直接吃；购买时注意是否无籽、果粒状态和每磅价格。'],
-  ['produce', /\b(plums?|peaches|nectarines)\b/i, '李子、桃或油桃，成熟后可直接吃、做水果沙拉或甜点；注意软硬和成熟度。'],
-  ['produce', /\b(apples?|banana|avocados?|limes?|watermelon|fruit cups?|fresh fruit)\b/i, '新鲜或切配水果，可直接食用；购买时按原名确认品种，并结合个数、净重和成熟度。'],
+  ['produce', /\bplums?\b/i, '李子，成熟后可直接吃、做水果沙拉或甜点；购买时注意软硬、表皮和成熟度。'],
+  ['produce', /\b(peaches|nectarines)\b/i, '桃或油桃，成熟后可直接吃、做水果沙拉或甜点；油桃表皮较光滑，二者不应误写成李子。'],
+  ['produce', /\bapples?\b/i, '苹果，可直接吃、做沙拉、烘焙或煮果酱；品种名保留，但大小和袋装规格不另拆商品组。'],
+  ['produce', /\bbananas?\b/i, '香蕉，可直接吃、配早餐、做奶昔或烘焙香蕉面包；购买时留意成熟度和计价单位。'],
+  ['produce', /\bavocados?\b/i, '牛油果（鳄梨），可直接拌沙拉、抹面包或做鳄梨酱；购买时注意软硬和成熟度。'],
+  ['produce', /\blimes?\b/i, '青柠，可挤汁调饮料、海鲜、沙拉或酱汁；通常按个或袋装销售。'],
+  ['produce', /\bwatermelon\b/i, '西瓜，可切块直接食用；整瓜和切块商品应结合重量及可食部分比较。'],
+  ['produce', /\b(fruit cups?|fresh fruit)\b/i, '切配水果杯或水果拼盘，开盒即食；属于预制水果，不与单一整果直接比价。'],
   ['produce', /\b(produce|fruits?|vegetables?)\b/i, '果蔬商品；原名未提供更细品种时，应结合商品图片确认具体果蔬，不能与不同品种直接比价。'],
 
   ['dairy', /\bgreek yogurt|yogurt|yoghurt|noosa|chobani|yoplait\b/i, '酸奶；Greek Yogurt 是质地更稠、蛋白质通常更高的希腊式酸奶，可直接吃或搭配水果燕麦。'],
@@ -143,12 +160,83 @@ const PRODUCT_RULES = [
   ['drinks', /\b(coffee|k-cup|tea|cold brew)\b/i, '咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。'],
 ];
 
+const atlantaGroup = (nameZh, noteZh = '同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。') => ({ nameZh, noteZh });
+export const ATLANTA_COMPARISON_GROUPS = {
+  produce_mushrooms: atlantaGroup('蘑菇'), produce_potatoes: atlantaGroup('土豆'), produce_salad: atlantaGroup('生菜与沙拉'),
+  produce_tomatoes: atlantaGroup('番茄'), produce_beans: atlantaGroup('鲜豆类'), produce_corn: atlantaGroup('鲜玉米'),
+  produce_onions: atlantaGroup('洋葱'), produce_peppers: atlantaGroup('甜椒'), produce_cucumbers: atlantaGroup('黄瓜'),
+  produce_cruciferous: atlantaGroup('西兰花与花椰菜'), produce_grapes: atlantaGroup('葡萄'), produce_plums: atlantaGroup('李子'),
+  produce_peaches: atlantaGroup('桃与油桃'), produce_strawberries: atlantaGroup('草莓'), produce_blueberries: atlantaGroup('蓝莓'),
+  produce_apples: atlantaGroup('苹果'), produce_citrus: atlantaGroup('柑橘与青柠'), produce_avocado: atlantaGroup('牛油果'),
+  produce_watermelon: atlantaGroup('西瓜'), produce_bananas: atlantaGroup('香蕉'),
+  produce_prepared_salad: atlantaGroup('预制沙拉'), produce_prepared_fruit: atlantaGroup('切配水果'),
+  produce_prepared_potatoes: atlantaGroup('预制土豆配菜'), produce_prepared_mixed: atlantaGroup('果蔬混合加餐', '组成不同，不参与单一果蔬最低价。'),
+  produce_other: atlantaGroup('其他果蔬', '品种不同不直接比较最低价。'),
+  meat_ground_beef: atlantaGroup('牛肉末与牛肉饼'), meat_beef_steak: atlantaGroup('牛排'), meat_beef_roast: atlantaGroup('整块烤牛肉'),
+  meat_chicken_breast: atlantaGroup('鸡胸与鸡里脊'), meat_ground_chicken: atlantaGroup('鸡肉末'), meat_chicken_thigh: atlantaGroup('鸡腿肉'), meat_whole_chicken: atlantaGroup('整鸡'),
+  meat_prepared_chicken: atlantaGroup('熟制与调味鸡肉'), meat_ground_pork: atlantaGroup('猪肉末'), meat_pork_tenderloin: atlantaGroup('猪里脊'), meat_pork_chops: atlantaGroup('猪排'),
+  meat_pork_meatballs: atlantaGroup('猪肉丸'), meat_pulled_pork: atlantaGroup('手撕猪肉'), meat_bacon: atlantaGroup('培根'),
+  meat_beef_burgers: atlantaGroup('牛肉汉堡饼'), meat_meatballs: atlantaGroup('肉丸'), meat_sausage_deli: atlantaGroup('香肠与肉类熟食'),
+  meat_lamb: atlantaGroup('羊肉'), meat_other: atlantaGroup('其他肉类', '部位不同，价格只作参考。'),
+  seafood_salmon: atlantaGroup('三文鱼'), seafood_salmon_burgers: atlantaGroup('三文鱼汉堡饼'), seafood_shrimp: atlantaGroup('虾'),
+  seafood_tuna_fresh: atlantaGroup('金枪鱼与剑鱼排'), seafood_tuna_canned: atlantaGroup('金枪鱼罐头'), seafood_other: atlantaGroup('其他海鲜'),
+  dairy_yogurt: atlantaGroup('酸奶'), dairy_cheese: atlantaGroup('奶酪'), dairy_prepared_cheese: atlantaGroup('裹粉奶酪小食'), dairy_eggs: atlantaGroup('鸡蛋'), dairy_other: atlantaGroup('其他乳制品'),
+  bakery_bread: atlantaGroup('面包'), bakery_cake: atlantaGroup('蛋糕与甜点'), bakery_pie: atlantaGroup('派'), bakery_cookies: atlantaGroup('饼干'),
+  bakery_croissants: atlantaGroup('可颂'), bakery_other: atlantaGroup('其他烘焙'),
+  frozen_ice_cream: atlantaGroup('冰淇淋与冰棒'), frozen_pizza: atlantaGroup('冷冻披萨'), frozen_appetizers: atlantaGroup('冷冻点心'), frozen_other: atlantaGroup('其他冷冻食品'),
+  pantry_rice_pasta: atlantaGroup('米饭与意面'), pantry_cereal: atlantaGroup('早餐谷物'), pantry_beans: atlantaGroup('豆类罐头'),
+  pantry_spreads: atlantaGroup('果酱与花生酱'), pantry_sugar: atlantaGroup('糖与糖浆'), pantry_other: atlantaGroup('其他常温食品'),
+  snacks_savory: atlantaGroup('薯片与咸味零食'), snacks_candy: atlantaGroup('糖果与巧克力'), snacks_bars: atlantaGroup('能量棒与蛋白棒'), snacks_other: atlantaGroup('其他零食'),
+  drinks_coffee_tea: atlantaGroup('咖啡与茶'), drinks_water: atlantaGroup('饮用水与气泡水'), drinks_enhancer: atlantaGroup('饮水调味液'), drinks_juice: atlantaGroup('果汁与果汁饮料'),
+  drinks_soft: atlantaGroup('软饮与运动饮料'), drinks_beer: atlantaGroup('啤酒'), drinks_wine: atlantaGroup('葡萄酒'), drinks_other: atlantaGroup('其他饮料'),
+  household_laundry: atlantaGroup('洗衣用品'), household_dishwasher: atlantaGroup('洗碗机用品'), household_paper: atlantaGroup('纸品'), household_other: atlantaGroup('其他家庭用品'),
+  personal_oral: atlantaGroup('口腔护理'), personal_hair: atlantaGroup('头发护理'), personal_body: atlantaGroup('身体与剃刮护理'), personal_other: atlantaGroup('其他个人护理'),
+  baby_diapers: atlantaGroup('纸尿裤'), baby_food: atlantaGroup('婴幼儿食品'), baby_other: atlantaGroup('其他婴幼儿用品'),
+  pet_cat: atlantaGroup('猫粮与猫零食'), pet_dog: atlantaGroup('狗粮与狗零食'), pet_other: atlantaGroup('其他宠物用品'),
+};
+
+function atlantaComparisonGroup(name, categoryId) {
+  const text = String(name || '').toLowerCase();
+  const rules = {
+    produce: [
+      ['produce_prepared_mixed', /snack featuring/], ['produce_prepared_potatoes', /sweet potatoes? with butter/],
+      ['produce_prepared_salad', /salad kits?|salad blend/], ['produce_prepared_fruit', /fruit cups?|apple slices/],
+      ['produce_mushrooms', /mushrooms?|bella/], ['produce_potatoes', /potatoes?|russet/], ['produce_salad', /salad|lettuce|spinach/],
+      ['produce_tomatoes', /tomatoes?/], ['produce_beans', /green beans?|\bpeas?\b/], ['produce_corn', /corn/], ['produce_onions', /onions?/],
+      ['produce_peppers', /peppers?/], ['produce_cucumbers', /cucumbers?/], ['produce_cruciferous', /broccoli|cauliflower/],
+      ['produce_grapes', /grapes?/], ['produce_plums', /plums?/], ['produce_peaches', /peaches|nectarines/],
+      ['produce_strawberries', /strawberries/], ['produce_blueberries', /blueberries/], ['produce_apples', /apples?/],
+      ['produce_citrus', /limes?|lemons?|oranges?/], ['produce_avocado', /avocados?/], ['produce_watermelon', /watermelon/], ['produce_bananas', /banana/],
+    ],
+    meat: [
+      ['meat_beef_burgers', /beef burgers?|slider burgers?/], ['meat_ground_beef', /ground (?:beef|chuck)/], ['meat_beef_steak', /steak|ribeye|sirloin/],
+      ['meat_beef_roast', /brisket|beef roast|chuck roast|round roast|roast beef/], ['meat_prepared_chicken', /fried chicken|oven-roasted chicken|chicken tender|chicken bites?|chicken wrap|chicken sub|parmesan chicken/],
+      ['meat_ground_chicken', /ground chicken/], ['meat_chicken_breast', /chicken breast|chicken cutlets?|chicken tenderloins?/],
+      ['meat_chicken_thigh', /chicken drumsticks?|chicken thighs?/], ['meat_whole_chicken', /whole young chicken/],
+      ['meat_bacon', /bacon/], ['meat_ground_pork', /ground pork/], ['meat_pork_tenderloin', /pork loin tenderloin/], ['meat_pork_chops', /pork loin chops?/], ['meat_pork_meatballs', /pork meatballs?/], ['meat_pulled_pork', /pulled pork/],
+      ['meat_meatballs', /beef meatballs?|gourmet beef meatballs?/], ['meat_lamb', /lamb/], ['meat_sausage_deli', /sausage|pepperoni|ham|turkey breast|meat sticks?/],
+    ],
+    seafood: [['seafood_salmon_burgers', /salmon burgers?/], ['seafood_salmon', /salmon|sockeye/], ['seafood_shrimp', /shrimp|prawns?/], ['seafood_tuna_canned', /starkist|canned tuna/], ['seafood_tuna_fresh', /tuna|swordfish/]],
+    dairy: [['dairy_yogurt', /yogurt|yoghurt|noosa|chobani|yoplait/], ['dairy_prepared_cheese', /breaded mozzarella/], ['dairy_cheese', /cheese|cheddar|havarti|mozzarella/], ['dairy_eggs', /eggs?/]],
+    bakery: [['bakery_croissants', /croissants?/], ['bakery_pie', /pie/], ['bakery_cake', /cake|tarts?/], ['bakery_cookies', /cookies?/], ['bakery_bread', /bread|toast|breadsticks?|knots?/]],
+    frozen: [['frozen_ice_cream', /ice cream|fruit bars?|popsicles?/], ['frozen_pizza', /pizza/], ['frozen_appetizers', /egg rolls?|dumplings?/]],
+    pantry: [['pantry_rice_pasta', /rice|pasta|mac.*cheese/], ['pantry_cereal', /cereal|oatmeal|rice krispies/], ['pantry_beans', /beans?/], ['pantry_spreads', /peanut butter|jam|jelly/], ['pantry_sugar', /sugar|syrup/]],
+    snacks: [['snacks_bars', /protein bar|fruit.*nut bar/], ['snacks_other', /oreo cakesters.*ritz|snack mix|cookie pudding|rice krispies treats?/], ['snacks_savory', /chips?|crisps?|pretzels?|crackers?|goldfish|popcorn|cheez-it|takis/], ['snacks_candy', /candy|chocolate|gummi|nerds|trolli|tootsie/]],
+    drinks: [['drinks_beer', /beer/], ['drinks_wine', /wine|prosecco|moscato|cabernet|pinot|sauvignon/], ['drinks_coffee_tea', /coffee|k-cup|tea|cold brew/], ['drinks_enhancer', /water enhancer/], ['drinks_water', /water|bubly|bubbl'r/], ['drinks_juice', /juice|fruit punch|capri/], ['drinks_soft', /soda|sports drink|fountain drink|powerade|beverage/]],
+    household: [['household_laundry', /laundry|tide|gain|oxi ?clean/], ['household_dishwasher', /dishwasher|powerball/], ['household_paper', /tissue|paper towels?|kleenex|puffs|charmin/]],
+    personal: [['personal_oral', /toothpaste|sensodyne|colgate|crest/], ['personal_hair', /shampoo|conditioner|hair oil/], ['personal_body', /body wash|hand soap|body scrub|shave|razor|deodorant|antiperspirant/]],
+    baby: [['baby_diapers', /diapers?|pampers|huggies/], ['baby_food', /oatmeal|baby food|formula/]],
+    pet: [['pet_cat', /cat/], ['pet_dog', /dog/]],
+  };
+  return rules[categoryId]?.find(([, pattern]) => pattern.test(text))?.[0] || `${categoryId}_other`;
+}
+
 export function classifyFlippItem(name) {
   const text = String(name || '');
   if (NON_GROCERY_PATTERN.test(text)) return null;
   const match = PRODUCT_RULES.find(([, pattern]) => pattern.test(text));
   if (!match) return null;
-  return { categoryId: match[0], zhExplanation: match[2], evidenceBasis: 'original_name' };
+  return { categoryId: match[0], comparisonGroup: atlantaComparisonGroup(text, match[0]), zhExplanation: match[2], evidenceBasis: 'original_name' };
 }
 
 function httpsUrl(value) {
@@ -199,7 +287,7 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
     const knowledgeKey = flippKnowledgeKey(name);
     const knowledge = productKnowledge?.entries?.[knowledgeKey];
     const category = knowledge?.categoryId && knowledge?.descriptionZh
-      ? { categoryId: knowledge.categoryId, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' }
+      ? { categoryId: knowledge.categoryId, comparisonGroup: knowledge.comparisonGroup, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' }
       : classifyFlippItem(name);
     if (item.display_type !== 1 || !name || !Number.isFinite(price) || price <= 0 || !category) continue;
 
@@ -226,7 +314,7 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
         imageReviewed: Boolean(knowledge?.imageReviewed),
       },
       categoryId: category.categoryId,
-      comparisonGroup: category.categoryId,
+      comparisonGroup: category.comparisonGroup || `${category.categoryId}_other`,
       price,
       currency: 'USD',
       validFrom: item.valid_from || flyer.valid_from,

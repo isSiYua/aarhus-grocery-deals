@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { classifyFlippItem, flippKnowledgeKey } from './lib/flipp-client.mjs';
+import { ATLANTA_COMPARISON_GROUPS, classifyFlippItem, flippKnowledgeKey } from './lib/flipp-client.mjs';
 import { emptyAtlantaProductKnowledge, loadAtlantaProductKnowledge } from './lib/flipp-product-knowledge.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -19,7 +19,7 @@ for (const offer of data.offers) {
   const fixed = entries[key];
   const manuallyReviewed = fixed?.reviewStatus === 'reviewed';
   const classification = manuallyReviewed && fixed?.categoryId && fixed?.descriptionZh
-    ? { categoryId: fixed.categoryId, zhExplanation: fixed.descriptionZh }
+    ? { categoryId: fixed.categoryId, comparisonGroup: fixed.comparisonGroup, zhExplanation: fixed.descriptionZh }
     : classifyFlippItem(offer.originalName);
   if (!classification) {
     removed += 1;
@@ -28,7 +28,7 @@ for (const offer of data.offers) {
   const entry = manuallyReviewed ? fixed : {
     originalName: offer.originalName,
     categoryId: classification.categoryId,
-    comparisonGroup: classification.categoryId,
+    comparisonGroup: classification.comparisonGroup || `${classification.categoryId}_other`,
     descriptionZh: classification.zhExplanation,
     authoredBy: 'Codex',
     reviewStatus: 'name_reviewed_image_pending',
@@ -42,7 +42,7 @@ for (const offer of data.offers) {
   nextOffers.push({
     ...offer,
     categoryId: entry.categoryId,
-    comparisonGroup: entry.comparisonGroup,
+    comparisonGroup: entry.comparisonGroup || `${entry.categoryId}_other`,
     zhExplanation: entry.descriptionZh,
     descriptionSource: 'codex_product_knowledge',
     descriptionAuthor: entry.authoredBy || 'Codex',
@@ -69,6 +69,7 @@ const knowledge = {
   entries: compactEntries,
 };
 data.offers = nextOffers.sort((a, b) => a.storeId.localeCompare(b.storeId) || a.categoryId.localeCompare(b.categoryId) || a.price - b.price);
+data.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
 data.metadata.productKnowledgeUpdatedAt = updatedAt;
 data.metadata.productKnowledgeEntries = Object.keys(compactEntries).length;
 

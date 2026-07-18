@@ -74,9 +74,9 @@ for (const [index, offer] of atlanta.offers.entries()) {
   if (atlantaIds.has(offer.canonicalKey)) throw new Error(`Duplicate Atlanta canonicalKey: ${offer.canonicalKey}`);
   atlantaIds.add(offer.canonicalKey);
   if (!atlantaStoreIds.has(offer.storeId)) throw new Error(`Unknown Atlanta store ${offer.storeId}`);
-  if (!atlantaCategoryIds.has(offer.categoryId) || offer.comparisonGroup !== offer.categoryId) throw new Error(`Invalid Atlanta category: ${offer.canonicalKey}`);
+  if (!atlantaCategoryIds.has(offer.categoryId) || !atlanta.comparisonGroups[offer.comparisonGroup]) throw new Error(`Invalid Atlanta category or comparison group: ${offer.canonicalKey}`);
   const knowledge = atlantaKnowledge.entries[offer.productKnowledgeKey];
-  if (offer.descriptionSource !== 'codex_product_knowledge' || !knowledge || knowledge.descriptionZh !== offer.zhExplanation || knowledge.categoryId !== offer.categoryId) throw new Error(`Atlanta offer is not backed by Codex product knowledge: ${offer.canonicalKey}`);
+  if (offer.descriptionSource !== 'codex_product_knowledge' || !knowledge || knowledge.descriptionZh !== offer.zhExplanation || knowledge.categoryId !== offer.categoryId || knowledge.comparisonGroup !== offer.comparisonGroup) throw new Error(`Atlanta offer is not backed by Codex product knowledge: ${offer.canonicalKey}`);
   if (emptyGenericDescription.test(offer.zhExplanation)) throw new Error(`Generic Atlanta description is not publishable: ${offer.canonicalKey}`);
   if (offer.currency !== 'USD' || !Number.isFinite(offer.price) || offer.price <= 0) throw new Error(`Invalid Atlanta price: ${offer.canonicalKey}`);
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${offer.flyerId}?postal_code=30318`;

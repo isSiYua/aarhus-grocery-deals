@@ -14,6 +14,7 @@
     "descriptions:sync": "node scripts/queue-product-descriptions.mjs",
     "identities:update": "node scripts/update-product-identities.mjs",
     "taxonomy:sync": "node scripts/sync-product-taxonomy.mjs",
+    "taxonomy:reconcile": "node scripts/reconcile-pending-taxonomy.mjs",
     "atlanta-knowledge:sync": "node scripts/sync-atlanta-product-knowledge.mjs"
   },
   "engines": {
