@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "promptVersion": "zh-product-v1",
-  "generatedAt": "2026-07-18T11:47:06.598Z",
-  "count": 1065,
+  "generatedAt": "2026-07-18T11:48:55.799Z",
+  "count": 1066,
   "items": [
     {
       "descriptionKey": "v1|10 friskbagte rundstykker|bread",
@@ -649,7 +649,7 @@
       "descriptionKey": "v1|anglamark okologiske grontsager|vegetables_other",
       "originalName": "Änglamark økologiske grøntsager",
       "sampleDescriptions": [
-        "Dybfrost. 300-450 g. Kg-pris maks. 43,33. Frit valg. 1 pose"
+        "Dybfrost. 300-450 g. Kg-pris maks. 43,33. Frit valg. 1 pose."
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "vegetables_other",
@@ -862,7 +862,7 @@
       "descriptionKey": "v1|arla laktosefri smor|butter",
       "originalName": "Arla laktosefri smør",
       "sampleDescriptions": [
-        "250 g. Kg-pris 116,00. 1 pakke"
+        "250 g. Kg-pris 116,00. 1 pakke."
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "butter",
@@ -955,7 +955,7 @@
       "descriptionKey": "v1|axa musli granola eller quaker crusli|cereal",
       "originalName": "Axa müsli, granola eller Quaker crüsli",
       "sampleDescriptions": [
-        "450-750 g. Kg-pris maks. 62,22. Frit valg. 1 pakke"
+        "450-750 g. Kg-pris maks. 62,22. Frit valg. 1 pakke."
       ],
       "categoryId": "breakfast",
       "comparisonGroup": "cereal",
@@ -1307,7 +1307,7 @@
       "descriptionKey": "v1|bifa sandwich kiks med pistacie eller jordbaer|biscuits",
       "originalName": "Bifa sandwich kiks med pistacie eller jordbær*",
       "sampleDescriptions": [
-        "500 g. Kg-pris 40,00. Frit valg. 1 pakke."
+        "500 g. Kg-pris 40,00. Frit valg. 1 pakke"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "biscuits",
@@ -1437,7 +1437,7 @@
       "descriptionKey": "v1|blommetomater|tomatoes",
       "originalName": "Blommetomater",
       "sampleDescriptions": [
-        "Klasse 1. 500 g."
+        "Klasse 1. 500 g. Pr. kg 20,00 Med Lidl Plus³ Pr. kg 16,00"
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "tomatoes",
@@ -2166,7 +2166,7 @@
       "descriptionKey": "v1|coop danske aerter fra torup bakkegaard|vegetables_other",
       "originalName": "Coop danske ærter fra Torup Bakkegård",
       "sampleDescriptions": [
-        "Danmark, kl. I. 500 g. Kg-pris 36,00. 1 bakke"
+        "Danmark, kl. I. 500 g. Kg-pris 36,00. 1 bakke."
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "vegetables_other",
@@ -2179,7 +2179,7 @@
       "descriptionKey": "v1|coop danske tomater fra regnemark|tomatoes",
       "originalName": "Coop danske tomater fra Regnemark",
       "sampleDescriptions": [
-        "Danmark, kl. I. 500 g. Kg-pris 32,00. 1 bakke. Det kræver lidt mere at være tomat i Coop Når du sætter tænderne i en saftig tomat fra Gartneriet Regnemark i Coop-serien, så nyd smagen. Og send så også lige en kærlig tanke til humlebierne. For uden dem ville du ikke have nogen tomat at bide i. Hver sæson arbejder op til 20.000 flittige humlebier i drivhusene. Her bestøver humlebierne helt naturligt tomatblomsterne, så du kan få danske tomater fra tidligt forår til sent efterår."
+        "Danmark, kl. I. 500 g. Kg-pris 32,00. 1 bakke"
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "tomatoes",
@@ -2229,9 +2229,9 @@
     },
     {
       "descriptionKey": "v1|coop giant kokkenrulle|paper",
-      "originalName": "Coop giant køkkenrulle",
+      "originalName": "Coop giant køkkenrulle*",
       "sampleDescriptions": [
-        "799 g. Kg-pris 25,03. 1 stk."
+        "799 g. Kg-pris 40,00. 1 stk."
       ],
       "categoryId": "household",
       "comparisonGroup": "paper",
@@ -2390,7 +2390,7 @@
       "descriptionKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|chocolate",
       "originalName": "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit",
       "sampleDescriptions": [
-        "325-350 g. Kg-pris maks 104,62. Frit valg. 1 pakke."
+        "325-350 g. Kg-pris maks. 104,62. Frit valg. 1 pakke"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "chocolate",
@@ -2572,7 +2572,7 @@
       "descriptionKey": "v1|coop varmroget roget laks eller rejer|salmon",
       "originalName": "Coop varmrøget-, røget laks eller rejer",
       "sampleDescriptions": [
-        "100-170 g. Kg-pris maks. 300,00. Frit valg. 1 pakke."
+        "100-170 g. Kg-pris maks. 300,00. Frit valg. 1 pakke"
       ],
       "categoryId": "seafood",
       "comparisonGroup": "salmon",
@@ -2612,7 +2612,7 @@
       "originalName": "CROWNFIELD Mysli",
       "sampleDescriptions": [
         "Med frugt eller frugt og nødder. 750 g / pk. Pr. kg",
-        "Med frugt eller frugt og nødder. 750 g. Pr. kg 33,33\nMed Lidl Plus³ -16%"
+        "Med frugt eller frugt og nødder. 750 g. Pr. kg 33,33"
       ],
       "categoryId": "breakfast",
       "comparisonGroup": "cereal",
@@ -3270,7 +3270,7 @@
       "descriptionKey": "v1|double ispind|ice_cream",
       "originalName": "DOUBLE Ispind",
       "sampleDescriptions": [
-        "4 x 90 ml.\nPr. liter 136,11"
+        "4 x 90 ml. Pr. liter 136,11 Dybfrost Spot¹"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ice_cream",
@@ -3374,7 +3374,7 @@
       "descriptionKey": "v1|dulano salami|bacon_deli",
       "originalName": "DULANO Salami",
       "sampleDescriptions": [
-        "Af kalkun og kylling. 80 g. Pr. kg 125,00 Med Lidl Plus³ -22%"
+        "Af kalkun og kylling. 80 g. Pr. kg 125,00 Med Lidl Plus³"
       ],
       "categoryId": "pork",
       "comparisonGroup": "bacon_deli",
@@ -3387,7 +3387,7 @@
       "descriptionKey": "v1|dumara vandmelon xxl|melon_grapes_citrus",
       "originalName": "Dumara vandmelon XXL",
       "sampleDescriptions": [
-        "Det betaler sig.\nKlasse 1.\nPr. stk. 79,00"
+        "Klasse 1. Pr. stk. 79,00"
       ],
       "categoryId": "fruit",
       "comparisonGroup": "melon_grapes_citrus",
@@ -3533,7 +3533,7 @@
       "descriptionKey": "v1|entrecote eller ribeye|beef_steak",
       "originalName": "Entrecote eller ribeye",
       "sampleDescriptions": [
-        "Kg-pris 222,50. Frit valg. 2 stk./400 g"
+        "Kg-pris 222,50. Frit valg. Pris"
       ],
       "categoryId": "beef",
       "comparisonGroup": "beef_steak",
@@ -3849,7 +3849,7 @@
       "descriptionKey": "v1|friends body 3 pak|hair_body",
       "originalName": "Friends body 3-pak*",
       "sampleDescriptions": [
-        "FRIENDS. Bomuld. Str. 50/56-86/92. Frit valg. 1 pakke. 3-pak"
+        "Bomuld. Str. 50/56-86/92. Frit valg. Pr. pakke"
       ],
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
@@ -3951,7 +3951,7 @@
     },
     {
       "descriptionKey": "v1|frokost favorit paalaeg|bacon_deli",
-      "originalName": "Frokost favorit pålæg",
+      "originalName": "Frokost favorit pålæg*",
       "sampleDescriptions": [
         "70-100 g. Kg-pris maks. 171,43. Frit valg. 1 stk."
       ],
@@ -4005,7 +4005,7 @@
       "descriptionKey": "v1|gaardschips|chips",
       "originalName": "Gårdschips*",
       "sampleDescriptions": [
-        "Flere varianter. 150 g. Kg-pris 80,00. Frit valg. 1 pose."
+        "Flere varianter. 150 g. Kg-pris 80,00. Frit valg. 1 pose"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "chips",
@@ -4085,7 +4085,7 @@
       "descriptionKey": "v1|gelatelli ispinde eller isvafler|ice_cream",
       "originalName": "GELATELLI Ispinde eller isvafler",
       "sampleDescriptions": [
-        "360-450 ml. Pr. liter maks. 69,44 Dybfrost"
+        "360-450 ml. Pr. liter maks. 69,44\nDybfrost\n-24 %"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ice_cream",
@@ -4427,7 +4427,7 @@
       "descriptionKey": "v1|grillmester oksemerguez eller grillfakler|sausages",
       "originalName": "GRILLMESTER Oksemerguez eller grillfakler",
       "sampleDescriptions": [
-        "Spot¹ 360-420 g. Pr. kg maks. 92,86"
+        "360-420 g. Pr. kg maks. 92,86 Spot¹"
       ],
       "categoryId": "pork",
       "comparisonGroup": "sausages",
@@ -4873,19 +4873,30 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|heinz tomatketchup eller sauce|sauces",
-      "originalName": "Heinz tomatketchup eller sauce*",
+      "descriptionKey": "v1|heinz tomat ketchup eller sauce|sauces",
+      "originalName": "Heinz tomat-ketchup eller sauce",
       "sampleDescriptions": [
-        "Flere varianter. 395-570 g./220 ml. Kg-pris maks. 43,04 g./Literpris 77,27. Frit valg. Medlemspris",
+        "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. MÅNEDENS Medlems KØB JULI Bliv Coop Medlem og få del i de eksklusive medlemsfordele nu Gælder fra 1. juli til og med 31. juli, så længe lager haves. Medlemsrabat op til 12,95 Pris ikke-medlem op til 29,95"
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "sauces",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|heinz tomatketchup eller sauce|sauces",
+      "originalName": "Heinz tomatketchup eller sauce",
+      "sampleDescriptions": [
         "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. Begrænset parti. Medlemsrabat op til 22,95 Pris ikke-medlem op til 39,95"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "sauces",
       "stores": [
-        "365",
         "kvickly"
       ],
-      "occurrences": 2
+      "occurrences": 1
     },
     {
       "descriptionKey": "v1|hel kylling|whole_chicken",
@@ -4958,7 +4969,7 @@
       "descriptionKey": "v1|hellmann s mayonnaise|sauces",
       "originalName": "HELLMANN'S Mayonnaise",
       "sampleDescriptions": [
-        "Spot¹ 250 g. Pr. kg 60,00"
+        "250 g. Pr. kg 60,00. Spot¹"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "sauces",
@@ -5549,7 +5560,7 @@
       "descriptionKey": "v1|kanel eller wienerstang|sausages",
       "originalName": "Kanel- eller wienerstang*",
       "sampleDescriptions": [
-        "Stk.-pris 39,00. Frit valg. 1 stk."
+        "Stk-pris 39,00. Frit valg. 1 stk."
       ],
       "categoryId": "pork",
       "comparisonGroup": "sausages",
@@ -5562,8 +5573,8 @@
       "descriptionKey": "v1|kanelsnegl med glasur|bread",
       "originalName": "Kanelsnegl med glasur",
       "sampleDescriptions": [
-        "76 g. Pr. kg 65,79 Pris uden Lidl Plus 6,00 pr. stk. Friskbagt bake off hver dag Med Lidl Plus³",
-        "Friskbagt bake off hver dag"
+        "Friskbagt bake off hver dag 76 g. Pr. kg 65,79 Pris uden Lidl Plus 6,00 pr. stk. Med Lidl Plus³",
+        "76 g. Pr. kg 65,79"
       ],
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
@@ -5576,7 +5587,7 @@
       "descriptionKey": "v1|kania ristede log|onion_garlic",
       "originalName": "KANIA Ristede løg",
       "sampleDescriptions": [
-        "200 g. Pr. kg 40,00"
+        "200 g. Pr. kg 40,00."
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "onion_garlic",
@@ -5654,7 +5665,7 @@
       "descriptionKey": "v1|karolines kokken eller cheasy revet ost|cheese",
       "originalName": "Karolines Køkken eller Cheasy revet ost",
       "sampleDescriptions": [
-        "150 g. Kg-pris 120,00. Frit valg. 1 pose. Begrænset parti."
+        "Begrænset parti. 150 g. Kg-pris 120,00. Frit valg. 1 pose"
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "cheese",
@@ -5721,7 +5732,7 @@
       "descriptionKey": "v1|kellogg s morgenmad|cereal",
       "originalName": "Kellogg's morgenmad",
       "sampleDescriptions": [
-        "205-450 g\nMax. 121.95 pr. kg"
+        "205-450 g Max. 121.95 pr. kg"
       ],
       "categoryId": "breakfast",
       "comparisonGroup": "cereal",
@@ -5841,7 +5852,7 @@
       "descriptionKey": "v1|kims nodder|nuts",
       "originalName": "Kims nødder",
       "sampleDescriptions": [
-        "Flere varianter. 97-128 g. Kg-pris maks. 185,57. Frit valg. 1 pose."
+        "Flere varianter. 97-128 g. Kg-pris maks. 185,57. Frit valg. 1 pose"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "nuts",
@@ -5917,7 +5928,7 @@
     },
     {
       "descriptionKey": "v1|klorin eller cillit bang|cleaning",
-      "originalName": "Klorin eller Cillit Bang",
+      "originalName": "Klorin eller Cillit Bang*",
       "sampleDescriptions": [
         "500-750 ml. Literpris maks. 44,00. Frit valg. 1 stk."
       ],
@@ -6101,7 +6112,7 @@
       "descriptionKey": "v1|kohberg hotdogbrod|bread",
       "originalName": "KOHBERG Hotdogbrød",
       "sampleDescriptions": [
-        "-24 % 360 g. Pr. kg 41,67"
+        "360 g. Pr. kg 41,67. -24 %"
       ],
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
@@ -6205,7 +6216,7 @@
       "descriptionKey": "v1|kuljanka aegnudler|pasta_noodles",
       "originalName": "KULJANKA Ægnudler",
       "sampleDescriptions": [
-        "250 g.\nPr. kg 48,00\nSpot¹"
+        "250 g. Pr. kg 48,00 Spot¹"
       ],
       "categoryId": "bread_grains",
       "comparisonGroup": "pasta_noodles",
@@ -6218,7 +6229,7 @@
       "descriptionKey": "v1|kuljanka bockwurst|sausages",
       "originalName": "KULJANKA Bockwurst",
       "sampleDescriptions": [
-        "1 kg. Pr. kg 55,00 Spot¹"
+        "1 kg. Pr. kg 55,00. Spot¹"
       ],
       "categoryId": "pork",
       "comparisonGroup": "sausages",
@@ -6231,7 +6242,7 @@
       "descriptionKey": "v1|kuljanka bonner|canned",
       "originalName": "KULJANKA Bønner",
       "sampleDescriptions": [
-        "Dybfrost 450 g. Pr. kg 44,44 Spot¹"
+        "Spot¹ Dybfrost 450 g. Pr. kg 44,44"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "canned",
@@ -6244,7 +6255,7 @@
       "descriptionKey": "v1|kuljanka borsjtj rodbedesuppe|ready_meal",
       "originalName": "KULJANKA Borsjtj rødbedesuppe",
       "sampleDescriptions": [
-        "Dybfrost 450 g. Pr. kg 17,78 Spot¹"
+        "Spot¹ Dybfrost 450 g. Pr. kg 17,78"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
@@ -6309,7 +6320,7 @@
       "descriptionKey": "v1|kuljanka hvidkaalssalat|leafy_green",
       "originalName": "KULJANKA Hvidkålssalat",
       "sampleDescriptions": [
-        "410 g. Pr. kg 36,58 Spot¹"
+        "Spot¹ 410 g. Pr. kg 36,58"
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "leafy_green",
@@ -6322,7 +6333,7 @@
       "descriptionKey": "v1|kuljanka kartoffel dumplings|dumplings",
       "originalName": "KULJANKA Kartoffel-dumplings",
       "sampleDescriptions": [
-        "Dybfrost\n1 kg.\nPr. kg 29,00\nSpot¹"
+        "1 kg. Pr. kg 29,00 Dybfrost Spot¹"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "dumplings",
@@ -6335,7 +6346,7 @@
       "descriptionKey": "v1|kuljanka kindziuk skinke eller kabanossi|bacon_deli",
       "originalName": "KULJANKA Kindziuk skinke eller kabanossi",
       "sampleDescriptions": [
-        "100-120 g. Pr. kg maks. 150,00 Spot¹"
+        "100-120 g. Pr. kg maks. 150,00. Spot¹"
       ],
       "categoryId": "pork",
       "comparisonGroup": "bacon_deli",
@@ -6348,7 +6359,7 @@
       "descriptionKey": "v1|kuljanka osteuropaeisk is|ice_cream",
       "originalName": "KULJANKA Østeuropæisk is",
       "sampleDescriptions": [
-        "Dybfrost 6 x 120 ml. Pr. liter 54,17 Spot¹"
+        "6 x 120 ml. Pr. liter 54,17 Spot¹ Dybfrost"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ice_cream",
@@ -6478,7 +6489,7 @@
       "descriptionKey": "v1|kuljanka syltede agurker|pickled_vegetables",
       "originalName": "KULJANKA Syltede agurker",
       "sampleDescriptions": [
-        "860 g. Pr. kg 13,95 Spot¹"
+        "Spot¹ 860 g. Pr. kg 13,95"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "pickled_vegetables",
@@ -6491,7 +6502,7 @@
       "descriptionKey": "v1|kuljanka universelt krydderi|spices",
       "originalName": "KULJANKA Universelt krydderi",
       "sampleDescriptions": [
-        "1000 g. Pr. kg 25,00 Spot¹"
+        "Spot¹ 1000 g. Pr. kg 25,00"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "spices",
@@ -6544,7 +6555,7 @@
       "originalName": "Kyllingespyd",
       "sampleDescriptions": [
         "Dybfrost. 300 g. Kg-pris 83,33. Frit valg. 1 pakke.",
-        "Dybfrost. 300 g. Kg-pris 93,33. Frit valg. 1 pakke"
+        "Dybfrost. 300 g. Kg-pris 93,33. Frit valg. 1 pakke."
       ],
       "categoryId": "chicken",
       "comparisonGroup": "chicken_other",
@@ -7118,7 +7129,7 @@
       "descriptionKey": "v1|lurpak smor eller smorbar|butter",
       "originalName": "Lurpak smør eller smørbar",
       "sampleDescriptions": [
-        "200 g. Kg-pris 110,00. Frit valg. 1 pakke",
+        "200 g. Kg-pris 110,00. Frit valg. 1 pakke.",
         "200 g / stk. Pr. kg 99,75"
       ],
       "categoryId": "eggs_dairy",
@@ -7251,7 +7262,7 @@
       "originalName": "MADVÆRKET Danbo skiveost",
       "sampleDescriptions": [
         "Lagret 45+ eller. ekstralagret 45+. 200 g / pk. Pr. kg 99,75.",
-        "Mellemlagret 45+. Med eller uden kommen. 300 g. Pr. kg 73,33\nMed Lidl Plus³"
+        "Mellemlagret 45+. Med eller uden kommen. 300 g. Pr. kg 73,33 Med Lidl Plus³"
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "cheese",
@@ -7825,7 +7836,7 @@
       "descriptionKey": "v1|magnum is|ice_cream",
       "originalName": "Magnum is",
       "sampleDescriptions": [
-        "3-pak Dybfrost. Flere varianter. 255-300 ml. Literpris maks. 101,96. Frit valg. 1 pakke."
+        "Dybfrost. Flere varianter. 255-300 ml. Literpris maks. 101,96. Frit valg. 1 pakke"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ice_cream",
@@ -7838,7 +7849,7 @@
       "descriptionKey": "v1|magnum ispinde|ice_cream",
       "originalName": "MAGNUM Ispinde",
       "sampleDescriptions": [
-        "8 x 100 ml. Pr. liter 86,25 Dybfrost Spot¹"
+        "8 x 100 ml. Pr. liter 86,25\nDybfrost\nSpot¹"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ice_cream",
@@ -7877,7 +7888,7 @@
       "descriptionKey": "v1|majskiks med smag|biscuits",
       "originalName": "Majskiks med smag*",
       "sampleDescriptions": [
-        "125 g. Kg-pris 96,00. Frit valg. 1 pakke."
+        "125 g. Kg-pris 96,00. Frit valg. 1 pakke"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "biscuits",
@@ -8614,7 +8625,7 @@
       "descriptionKey": "v1|milbona skyr med frugt|yoghurt",
       "originalName": "MILBONA Skyr med frugt",
       "sampleDescriptions": [
-        "Flere varianter.\n500 g. Pr. kg 30,00"
+        "Flere varianter. 500 g. Pr. kg 30,00"
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
@@ -8681,7 +8692,7 @@
       "descriptionKey": "v1|milbona yoghurt naturel|yoghurt",
       "originalName": "MILBONA Yoghurt naturel",
       "sampleDescriptions": [
-        "3,5 % fedt. 500 g / stk. Pr. kg 11,90"
+        "0,1-1,5 % fedt. 500 g / stk. Pr. kg 11,90."
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
@@ -8928,7 +8939,7 @@
       "descriptionKey": "v1|nautica skagensalat|biscuits",
       "originalName": "NAUTICA Skagensalat",
       "sampleDescriptions": [
-        "400 g. Pr. kg 62,50 Med Lidl Plus³ -21%"
+        "400 g. Pr. kg 62,50 Med Lidl Plus³"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "biscuits",
@@ -9072,7 +9083,7 @@
       "descriptionKey": "v1|nestle eller marabou barer|chocolate",
       "originalName": "Nestlé eller Marabou barer",
       "sampleDescriptions": [
-        "Flere varianter. 38-56 g Kg-pris maks. 263,16. Frit valg. 1 pakke."
+        "Flere varianter. 38-56 g. Kg-pris maks. 263,16. Frit valg. 1 pakke"
       ],
       "categoryId": "snacks",
       "comparisonGroup": "chocolate",
@@ -9675,7 +9686,7 @@
       "descriptionKey": "v1|okseribeye|beef_steak",
       "originalName": "Okseribeye",
       "sampleDescriptions": [
-        "150 g. Pr. kg 233,33 Spot¹"
+        "150 g. Pr. kg 233,33 Spot¹ 35.-"
       ],
       "categoryId": "beef",
       "comparisonGroup": "beef_steak",
@@ -9793,7 +9804,7 @@
       "descriptionKey": "v1|paagen brod|bread",
       "originalName": "Pågen brød",
       "sampleDescriptions": [
-        "420-900 g. Kg-pris maks. 33,33. Frit valg. 1 pakke.",
+        "420-900 g. Kg-pris maks. 33,33. Frit valg. 1 pakke",
         "420-900 g. Kg-pris maks. 52,38. Frit valg. 1 pakke"
       ],
       "categoryId": "bread_grains",
@@ -10135,7 +10146,7 @@
       "descriptionKey": "v1|piatnica hytteost|yoghurt",
       "originalName": "PIATNICA Hytteost",
       "sampleDescriptions": [
-        "200 g. Pr. kg 50,00 Spot¹"
+        "Spot¹ 200 g. Pr. kg 50,00"
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
@@ -10161,7 +10172,7 @@
       "descriptionKey": "v1|pink lady aebler|apples_pears",
       "originalName": "Pink Lady æbler",
       "sampleDescriptions": [
-        "Udenlandske, kl.I. 8 stk. Stk-pris 2,50. 1 bakke"
+        "Udenlandske, kl.I. 8 stk. Stk.-pris 2,50. 1 bakke."
       ],
       "categoryId": "fruit",
       "comparisonGroup": "apples_pears",
@@ -10187,7 +10198,7 @@
       "descriptionKey": "v1|plombir kefir|yoghurt",
       "originalName": "PLOMBIR Kefir",
       "sampleDescriptions": [
-        "1,8 % fedt. 1 kg. Pr. kg 18,00 Spot¹"
+        "Spot¹ 1,8 % fedt. 1 kg. Pr. kg 18,00"
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "yoghurt",
@@ -10480,7 +10491,7 @@
       "descriptionKey": "v1|rema 1000 bolgeskaarne pommes frites|frozen_vegetables",
       "originalName": "REMA 1000 Bølgeskårne pommes frites",
       "sampleDescriptions": [
-        "Dybfrost 1000 g"
+        "Dybfrost\n1000 g"
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "frozen_vegetables",
@@ -11198,7 +11209,7 @@
       "descriptionKey": "v1|rema 1000 wings nuggets eller kitchen joy spyd|chicken_other",
       "originalName": "REMA 1000 wings, nuggets eller Kitchen Joy spyd",
       "sampleDescriptions": [
-        "Dybfrost 240-750 g Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 39.95 pr. stk. Max. 104.17 pr. kg"
+        "Dybfrost 240-750 g\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 39.95 pr. stk.\nMax. 104.17 pr. kg"
       ],
       "categoryId": "chicken",
       "comparisonGroup": "chicken_other",
@@ -11393,7 +11404,7 @@
       "descriptionKey": "v1|rod snackpeber|spices",
       "originalName": "Rød snackpeber",
       "sampleDescriptions": [
-        "Klasse 1. 500 g. Pr. kg 32,00"
+        "Klasse 1. 500 g. Pr. kg 32,00 Med Lidl Plus³ Pr. kg 28,00"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "spices",
@@ -11458,7 +11469,7 @@
       "descriptionKey": "v1|rose hakket kylling|chicken_minced",
       "originalName": "ROSE Hakket kylling",
       "sampleDescriptions": [
-        "Spot¹ 7-10 % fedt. 700 g. Pr. kg 55,71"
+        "7-10 % fedt. 700 g. Pr. kg 55,71 Spot¹"
       ],
       "categoryId": "chicken",
       "comparisonGroup": "chicken_minced",
@@ -11770,7 +11781,7 @@
       "descriptionKey": "v1|santa maria bbq sauce|sauces",
       "originalName": "SANTA MARIA BBQ-sauce",
       "sampleDescriptions": [
-        "325-345 g. Pr. kg maks. 61,54 Spot¹"
+        "325-345 g. Pr. kg maks. 61,54\nSpot¹"
       ],
       "categoryId": "pantry",
       "comparisonGroup": "sauces",
@@ -11993,7 +12004,7 @@
       "descriptionKey": "v1|skrabeaeg|eggs",
       "originalName": "Skrabeæg",
       "sampleDescriptions": [
-        "10 stk.\nPr. stk. 1,50\nMaks. 3 bk. pr. kunde pr. dag.\nSpot¹"
+        "10 stk. Pr. stk. 1,50 Maks. 3 bk. pr. kunde pr. dag. Spot¹"
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "eggs",
@@ -12621,7 +12632,7 @@
       "descriptionKey": "v1|steff houlberg polser|sausages",
       "originalName": "Steff Houlberg pølser*",
       "sampleDescriptions": [
-        "700-875 g. Kg-pris maks. 70,00. Frit valg. 1 pakke. Stor pakke",
+        "700-875 g. Kg-pris maks. 70,00. Frit valg. 1 pakke",
         "350-400 g. Hotdog- eller grillpølser. Pr. kg max. 71,43"
       ],
       "categoryId": "pork",
@@ -12636,7 +12647,7 @@
       "descriptionKey": "v1|steff houlberg skinkestrimler|bacon_deli",
       "originalName": "Steff Houlberg skinkestrimler",
       "sampleDescriptions": [
-        "175 g. Kg-pris 91,43. 1 pakke"
+        "175 g. Kg-pris 91,43. 1 pakke."
       ],
       "categoryId": "pork",
       "comparisonGroup": "bacon_deli",
@@ -12713,7 +12724,7 @@
     },
     {
       "descriptionKey": "v1|stryhns leverpostej|bacon_deli",
-      "originalName": "Stryhns leverpostej*",
+      "originalName": "Stryhns leverpostej",
       "sampleDescriptions": [
         "275 g. Kg-pris 58,18. Frit valg. 1 stk.",
         "400 g. Kg-pris 55,00. Frit valg. 1 stk."
@@ -12964,7 +12975,7 @@
       "descriptionKey": "v1|tastino smorcroissanter|bread",
       "originalName": "TASTINO Smørcroissanter",
       "sampleDescriptions": [
-        "360 g. Pr. kg 55,56 Dybfrost -33%"
+        "Dybfrost 360 g. Pr. kg 55,56"
       ],
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
@@ -13016,7 +13027,7 @@
       "descriptionKey": "v1|thise okologisk blue tapas eller skiveost|cheese",
       "originalName": "Thise økologisk blue, tapas- eller skiveost",
       "sampleDescriptions": [
-        "150-180 g. Kg-pris maks. 166,67. Frit valg. 1 stk. Begrænset parti."
+        "Begrænset parti. 150-180 g. Kg-pris maks. 166,67. Frit valg. 1 stk."
       ],
       "categoryId": "eggs_dairy",
       "comparisonGroup": "cheese",
@@ -13228,8 +13239,8 @@
       "descriptionKey": "v1|torsdagssmorrebrod|bread",
       "originalName": "Torsdagssmørrebrød",
       "sampleDescriptions": [
-        "Flere varianter. Stk-pris 29,00. Frit valg. 1 stk.",
-        "TORSDAG Flere varianter. Stk.-pris 29,00. Frit valg. 1 stk. Udvalget kan variere fra butik til butik."
+        "TORSDAG Flere varianter. Stk.-pris 29,00. Frit valg. 1 stk. Udvalget kan variere fra butik til butik.",
+        "Flere varianter. Stk-pris 29,00. Frit valg. 1 stk."
       ],
       "categoryId": "bread_grains",
       "comparisonGroup": "bread",
@@ -13489,7 +13500,7 @@
     },
     {
       "descriptionKey": "v1|valsemollen mel|flour_baking",
-      "originalName": "Valsemøllen mel",
+      "originalName": "Valsemøllen mel*",
       "sampleDescriptions": [
         "100-2000 g. Kg-pris maks. 150,00. Frit valg. 1 stk."
       ],
