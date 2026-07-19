@@ -1,7 +1,60 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-19T12:04:10.823Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-07-19T12:07:38.580Z",
+  "count": 4,
+  "items": [
+    {
+      "descriptionKey": "v1|donut ferskner|biscuits",
+      "originalName": "Donut ferskner",
+      "sampleDescriptions": [
+        "Udenlanske 450 g Pr. bakke 22.22 pr. kg"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "rema"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lammemarked|lamb_other",
+      "originalName": "Lammemarked",
+      "sampleDescriptions": [
+        "175-340 g. Flere varianter. Pr. kg max. 428,57"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "foetex"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|livol 10 vitaminer mineraler|supplements",
+      "originalName": "Livol+10% vitaminer/ mineraler",
+      "sampleDescriptions": [
+        "165-385 stk. Flere varianter. Pr. stk. max. 1.05 Frit valg 79.-"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "supplements",
+      "stores": [
+        "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|salsiccia griller|sausages",
+      "originalName": "SALSICCIA GRILLER",
+      "sampleDescriptions": [
+        "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG"
+      ],
+      "categoryId": "sausages_deli",
+      "comparisonGroup": "sausages",
+      "stores": [
+        "rema"
+      ],
+      "occurrences": 1
+    }
+  ]
 }
