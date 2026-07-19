@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-19T07:21:21.170Z",
+  "updatedAt": "2026-07-19T12:04:06.000Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
@@ -1032,8 +1032,8 @@
       }
     },
     "v1|arla laktosefri friskost|cheese_cottage_ricotta": {
-      "productNameZh": "新鲜奶油奶酪",
-      "descriptionZh": "新鲜奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Arla 无乳糖鲜奶酪",
+      "descriptionZh": "无乳糖鲜奶酪，质地轻盈、味道清爽。抹面包或混入水果当早餐吃。适合乳糖不耐受人群。",
       "originalName": "Arla laktosefri friskost*",
       "originalDescription": "200 g. Kg-pris 75,00. 1 stk.",
       "categoryId": "cheese",
@@ -1041,7 +1041,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1248,8 +1248,8 @@
       }
     },
     "v1|baadsmand fiskefrikadeller eller roget makrelfilet|white_fish": {
-      "productNameZh": "丹麦肉丸饼",
-      "descriptionZh": "丹麦肉丸饼。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。原名还显示：烟熏味。",
+      "productNameZh": "鱼饼或烟熏鲭鱼",
+      "descriptionZh": "鱼饼用平底锅煎两面金黄，配面包或土豆；烟熏鲭鱼已熟，切片放面包上直接吃，挤柠檬汁。",
       "originalName": "Bådsmand fiskefrikadeller eller røget makrelfilet",
       "originalDescription": "100-280 g. Pr. kg max. 220,00",
       "categoryId": "seafood",
@@ -1257,7 +1257,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:04:06.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1266,8 +1266,8 @@
       }
     },
     "v1|baadsmand koldroget eller gravad laks|salmon_smoked": {
-      "productNameZh": "冷熏三文鱼",
-      "descriptionZh": "冷熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "productNameZh": "冷熏或腌渍三文鱼",
+      "descriptionZh": "冷熏（koldrøget）或腌渍（gravad）三文鱼，生食级。切成薄片放黑面包上，加莳萝和柠檬汁直接吃。丹麦人常配芥末莳萝酱。",
       "originalName": "Bådsmand koldrøget eller gravad laks",
       "originalDescription": "100 g. Pr. kg 350,00",
       "categoryId": "seafood",
@@ -1275,7 +1275,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:04:06.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1752,8 +1752,8 @@
       }
     },
     "v1|biotex flydende vaskemiddel eller bamseline skyllemiddel|cleaning": {
-      "productNameZh": "洗衣液或洗衣粉",
-      "descriptionZh": "洗衣液或洗衣粉。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
+      "productNameZh": "BioTex 洗衣液或柔顺剂",
+      "descriptionZh": "BioTex 洗衣液（去渍力强，适合日常衣物）或 Bamseline 柔顺剂（让衣物柔软蓬松，有清新香味）。按洗衣机抽屉标识倒入。",
       "originalName": "BioTex flydende vaskemiddel eller Bamseline skyllemiddel",
       "originalDescription": "Vaskemiddel 750 ml. eller skyllemiddel 925 ml. 14 vaske/925 ml. Pris pr. vask 1,71./ Literpris 25,95. Frit valg. 1 stk.",
       "categoryId": "household_cleaning",
@@ -1761,7 +1761,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2040,8 +2040,8 @@
       }
     },
     "v1|buko flodeost naturel eller pikant|cheese_spreadable": {
-      "productNameZh": "奶油奶酪",
-      "descriptionZh": "奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Buko 原味或辣味奶油奶酪",
+      "descriptionZh": "Buko 奶油奶酪，原味（naturel）或微辣（pikant）。抹面包直接吃，或做奶油酱底。辣味版带一点红椒粉的微辛。",
       "originalName": "BUKO Flødeost naturel eller pikant",
       "originalDescription": "200 g / stk.",
       "categoryId": "cheese",
@@ -2049,7 +2049,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2112,8 +2112,8 @@
       }
     },
     "v1|buko smoreost|cheese_spreadable": {
-      "productNameZh": "涂抹奶酪",
-      "descriptionZh": "涂抹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Buko 涂抹奶酪",
+      "descriptionZh": "Buko 涂抹奶酪，质地柔软，直接抹在黑面包或吐司上吃。丹麦早餐经典，也可以拌入热意面增加奶香。",
       "originalName": "Buko smøreost",
       "originalDescription": "200 g. Kg-pris 75,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
@@ -2121,7 +2121,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2976,8 +2976,8 @@
       }
     },
     "v1|coop giant kokkenrulle|paper": {
-      "productNameZh": "厨房纸",
-      "descriptionZh": "厨房纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "productNameZh": "Coop Giant 厨房纸",
+      "descriptionZh": "Coop Giant 大卷厨房纸，吸水吸油力强。擦台面、吸肉表面水分、垫油炸食物均可。",
       "originalName": "Coop giant køkkenrulle*",
       "originalDescription": "799 g. Kg-pris 40,00. 1 stk.",
       "categoryId": "household_paper",
@@ -2985,7 +2985,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2994,8 +2994,8 @@
       }
     },
     "v1|coop grana padano|cheese_aged_hard": {
-      "productNameZh": "帕达诺/帕玛森硬质奶酪",
-      "descriptionZh": "帕达诺/帕玛森硬质奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Grana Padano 硬质奶酪",
+      "descriptionZh": "Grana Padano 是意大利经典硬质奶酪，类似帕玛森但更温和。刨碎撒在意面、沙拉或 risotto 上；也可切小块配红酒直接吃。",
       "originalName": "Coop Grana Padano",
       "originalDescription": "150 g. Kg-pris 166,67. Grana Padano er naturligt laktosefri som de fleste andre hårde oste af parmesantypen, da den indeholder mindre end 0,01 gram laktose pr. 100 g. 1 stk.",
       "categoryId": "cheese",
@@ -3003,7 +3003,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3066,8 +3066,8 @@
       }
     },
     "v1|coop hakket grisekod 4 7 eller 8 12|pork_minced": {
-      "productNameZh": "猪肉末",
-      "descriptionZh": "猪肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
+      "productNameZh": "猪肉末（不同肥瘦比）",
+      "descriptionZh": "猪肉末，4-7% 或 8-12% 脂肪含量任选。肥一点的（8-12%）做饺子馅、狮子头多汁；瘦的（4-7%）做肉丸或炒肉末。",
       "originalName": "Coop hakket grisekød 4-7% eller 8-12%",
       "originalDescription": "400-500 g. Kg-pris maks. 72,50. Frit valg. 1 pakke",
       "categoryId": "minced_meat",
@@ -3075,7 +3075,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3228,8 +3228,8 @@
       }
     },
     "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer": {
-      "productNameZh": "猪肋排",
-      "descriptionZh": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：蒜香。",
+      "productNameZh": "烧烤猪肋排/猪里脊卷",
+      "descriptionZh": "烧烤风味猪肋排或猪里脊卷任选。肋排已调味，直接烤或煎；猪里脊卷切片煎或整条烤。",
       "originalName": "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok",
       "originalDescription": "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
       "categoryId": "pork_fresh",
@@ -3237,7 +3237,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3246,8 +3246,8 @@
       }
     },
     "v1|coop marineret lammeculotte|lamb_other": {
-      "productNameZh": "牛臀尖烤肉",
-      "descriptionZh": "牛臀尖烤肉。羊肉商品，可煎烤或慢炖；羊排、羊肩和羊腿的嫩度及烹调时间不同，应按原名部位选择。",
+      "productNameZh": "腌制羊臀肉",
+      "descriptionZh": "腌制羊臀肉，已调味。烤箱慢烤至中等熟度，切片配薄荷酱或孜然。",
       "originalName": "Coop marineret lammeculotte",
       "originalDescription": "300-400 g. Kg-pris maks. 196,67. 1 stk.",
       "categoryId": "beef",
@@ -3255,7 +3255,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3372,8 +3372,8 @@
       }
     },
     "v1|coop skiveost|cheese_sliced": {
-      "productNameZh": "切片奶酪",
-      "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Coop 切片奶酪",
+      "descriptionZh": "丹麦切片奶酪，夹三明治或放面包上放进烤箱烤至融化。类似中国超市的芝士片，但通常奶味更浓。",
       "originalName": "Coop skiveost",
       "originalDescription": "200-300 g. Kg-pris maks. 100,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
@@ -3381,7 +3381,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3408,8 +3408,8 @@
       }
     },
     "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer": {
-      "productNameZh": "手撕猪肉",
-      "descriptionZh": "手撕猪肉。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "productNameZh": "猪肋排/手撕猪肉/手撕鸡肉",
+      "descriptionZh": "猪肋排、手撕猪肉或手撕鸡肉任选。肋排烤箱慢烤后刷 BBQ 酱；手撕肉已熟，加热后夹面包或配饭。",
       "originalName": "Coop spareribs, pulled pork eller pulled chicken",
       "originalDescription": "Nyhed 350-500 g. Kg-pris maks. 91,43. Frit valg. 1 stk.",
       "categoryId": "pork_fresh",
@@ -3417,7 +3417,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3426,8 +3426,8 @@
       }
     },
     "v1|coop torpedo rejer fiskepinde eller rejer|seafood_mixed_offer": {
-      "productNameZh": "裹粉蝴蝶虾",
-      "descriptionZh": "裹粉蝴蝶虾。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
+      "productNameZh": "裹粉蝴蝶虾/炸鱼条/虾仁",
+      "descriptionZh": "裹粉蝴蝶虾、炸鱼条（fiskepinde）或虾仁任选，均为冷冻预裹粉产品。用烤箱或空气炸锅加热至酥脆，蘸塔塔酱或甜辣酱吃。",
       "originalName": "Coop torpedo rejer, fiskepinde eller rejer",
       "originalDescription": "Dybfrost. 160-450 g. Kg-pris maks. 125,00. Frit valg. 1 stk.",
       "categoryId": "seafood",
@@ -3435,7 +3435,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3444,8 +3444,8 @@
       }
     },
     "v1|coop varmroget roget laks eller rejer|seafood_mixed_offer": {
-      "productNameZh": "热熏三文鱼",
-      "descriptionZh": "热熏三文鱼。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。原名还显示：烟熏味。",
+      "productNameZh": "热熏三文鱼/烟熏三文鱼/虾",
+      "descriptionZh": "热熏三文鱼切片面包上吃；烟熏三文鱼薄片冷食；虾仁解冻即食或炒菜。均为即食或快熟海鲜。",
       "originalName": "Coop varmrøget-, røget laks eller rejer",
       "originalDescription": "100-170 g. Kg-pris maks. 300,00. Frit valg. 1 pakke",
       "categoryId": "seafood",
@@ -3453,7 +3453,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4056,8 +4056,8 @@
       }
     },
     "v1|dava danske frilandsaeg|eggs": {
-      "productNameZh": "散养鸡蛋",
-      "descriptionZh": "散养鸡蛋。鸡蛋，可煎、炒、蒸或用于烘焙；类似中国超市常见盒装鸡蛋。",
+      "productNameZh": "丹麦散养鸡蛋",
+      "descriptionZh": "丹麦散养鸡蛋（frilandsæg）。蛋黄颜色深、味道浓郁。水煮蘸酱油、番茄炒蛋、蛋花汤均可。丹麦人早餐水煮后蘸盐吃。",
       "originalName": "Dava danske frilandsæg",
       "originalDescription": "8 stk. Str. M/L. Pr. stk. 3,00",
       "categoryId": "eggs_milk",
@@ -4065,7 +4065,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4740,8 +4740,8 @@
       }
     },
     "v1|elvital shampoo eller balsam|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Elvital 洗发水或护发素",
+      "descriptionZh": "欧莱雅 Elvital 系列，针对不同发质有修复、染后护色、丰盈等版本。洗发后搭配同系列护发素效果更佳。按包装选择适合自己发质的款式。",
       "originalName": "Elvital shampoo eller balsam*",
       "originalDescription": "300-400 ml. Literpris maks. 100,00. Frit valg. 1 stk.",
       "categoryId": "personal_care",
@@ -4749,7 +4749,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4830,8 +4830,8 @@
       }
     },
     "v1|ferske laksestykker|salmon_fresh": {
-      "productNameZh": "三文鱼柳",
-      "descriptionZh": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
+      "productNameZh": "三文鱼块",
+      "descriptionZh": "新鲜三文鱼块。中式做法：切厚片煎至皮脆肉嫩，撒黑胡椒和海盐；或切丁做三文鱼炒饭；也可用照烧汁煎。避免煎全熟变柴。",
       "originalName": "Ferske laksestykker",
       "originalDescription": "SPOT 300 g. Pr. kg 163,33",
       "categoryId": "seafood",
@@ -4839,7 +4839,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4866,8 +4866,8 @@
       }
     },
     "v1|fiske eller skaldyrsmarked|seafood_other": {
-      "productNameZh": "多款鱼类或海鲜任选",
-      "descriptionZh": "多款鱼类或海鲜任选。其他海鲜；请按原名确认是贝类、鱿鱼还是加工海鲜，再决定煎炒或煮汤。",
+      "productNameZh": "鱼类海鲜任选",
+      "descriptionZh": "鱼类或海鲜混合促销。常见有贝类、鱿鱼等：贝类可蒜蓉蒸或辣炒；鱿鱼切圈爆炒或烧烤。",
       "originalName": "Fiske- eller skaldyrsmarked",
       "originalDescription": "200-500 g. Flere varianter. Pr. kg max. 145.- Frit valg",
       "categoryId": "seafood",
@@ -4875,7 +4875,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4902,8 +4902,8 @@
       }
     },
     "v1|fiskemarked|seafood_other": {
-      "productNameZh": "多款鱼类或海鲜任选",
-      "descriptionZh": "多款鱼类或海鲜任选。其他海鲜；请按原名确认是贝类、鱿鱼还是加工海鲜，再决定煎炒或煮汤。",
+      "productNameZh": "鱼类任选",
+      "descriptionZh": "鱼类混合促销。根据实际品种：白身鱼清蒸或煎；油脂多的鱼红烧或烤。",
       "originalName": "Fiskemarked",
       "originalDescription": "Dybfrost. 200-540 g. Kg-pris maks. 275,00. Frit valg. 1 stk.",
       "categoryId": "seafood",
@@ -4911,7 +4911,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5119,7 +5119,7 @@
     },
     "v1|fransk hotdog|ready_meal": {
       "productNameZh": "法式热狗",
-      "descriptionZh": "法式热狗（Fransk hotdog），在长形热狗面包中夹入香肠并挤上酱料，烤箱加热后食用。",
+      "descriptionZh": "法式热狗。挖空法棍面包塞入香肠，挤酱料。烤箱加热后外脆内热。丹麦加油站经典快餐。",
       "originalName": "Fransk hotdog",
       "originalDescription": "... den perfekte snack Vælg mellem GRILLPØLSE • 77% kød GRILLPØLSE MED OST • 74% kød • 7% cheddar ost GRILLPØLSE MED CHORIZO • 79% kød • Spansk chorizo 2 STK. Stort udvalg af dressinger",
       "categoryId": "frozen_ready",
@@ -5127,7 +5127,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-19T07:21:21.170Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5442,8 +5442,8 @@
       }
     },
     "v1|garnier micellar water eller triple active ansigtscreme|hair_body": {
-      "productNameZh": "面部护肤品",
-      "descriptionZh": "面部护肤品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Garnier 卸妆水或面霜",
+      "descriptionZh": "Garnier 卸妆水（适合日常卸妆清洁）或 Triple Active 面霜（适合中性至干性皮肤保湿）。均为平价药妆店畅销款。",
       "originalName": "Garnier Micellar water eller Triple Active ansigtscreme*",
       "originalDescription": "50-400 ml. Literpris maks. 780,00. Frit valg. 1 stk.",
       "categoryId": "personal_care",
@@ -5451,7 +5451,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5749,7 +5749,7 @@
     },
     "v1|graasten eller coop kartoffelsalat|potato_salad": {
       "productNameZh": "土豆沙拉",
-      "descriptionZh": "土豆沙拉。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
+      "descriptionZh": "丹麦土豆沙拉，以蛋黄酱和酸奶为底，加洋葱、酸黄瓜碎调味。冷藏后直接吃，丹麦烧烤和圣诞午餐必备配菜。",
       "originalName": "Graasten eller Coop kartoffelsalat",
       "originalDescription": "800 g. Kg-pris 35,00. Frit valg. 1 stk.",
       "categoryId": "vegetables",
@@ -5757,7 +5757,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5766,8 +5766,8 @@
       }
     },
     "v1|graasten fastfood dressing|sauces": {
-      "productNameZh": "沙拉酱",
-      "descriptionZh": "沙拉酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "快餐沙拉酱",
+      "descriptionZh": "丹麦快餐店风格的沙拉酱，带一点酸黄瓜和芥末味，类似麦当劳汉堡里的酱。淋在汉堡、热狗或薯条上，也可做土豆沙拉。",
       "originalName": "Graasten fastfood dressing",
       "originalDescription": "Flere varianter. 425 g. Kg-pris 40,00. Frit valg. 1 stk.",
       "categoryId": "pantry",
@@ -5775,7 +5775,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5892,8 +5892,8 @@
       }
     },
     "v1|grana padano eller castello haard ost|cheese_aged_hard": {
-      "productNameZh": "帕达诺/帕玛森硬质奶酪",
-      "descriptionZh": "帕达诺/帕玛森硬质奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Grana Padano 或 Castello 硬质奶酪",
+      "descriptionZh": "Grana Padano（意式刨丝奶酪）或 Castello 硬质奶酪任选。前者撒意面，后者切片配面包或水果吃。",
       "originalName": "Grana Padano eller Castello hård ost",
       "originalDescription": "150-200 g. Flere varianter. Pr. kg max. 200.- FRIT VALG",
       "categoryId": "cheese",
@@ -5901,7 +5901,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6612,8 +6612,8 @@
       }
     },
     "v1|heinz tomatketchup eller sauce|sauces": {
-      "productNameZh": "番茄酱或烹调酱",
-      "descriptionZh": "番茄酱或烹调酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "亨氏番茄酱或调味酱",
+      "descriptionZh": "亨氏番茄酱（经典美式酸甜味），蘸薯条、做糖醋汁、配煎蛋均可。sauce 系列如烧烤酱、咖喱酱等不同口味任选。",
       "originalName": "Heinz tomatketchup eller sauce",
       "originalDescription": "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. Begrænset parti. Medlemsrabat op til 22,95 Pris ikke-medlem op til 39,95",
       "categoryId": "pantry",
@@ -6621,7 +6621,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6810,8 +6810,8 @@
       }
     },
     "v1|hello sensitive vaadservietter|paper": {
-      "productNameZh": "湿巾",
-      "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "productNameZh": "Hello Sensitive 敏感肌湿巾",
+      "descriptionZh": "Hello Sensitive 无香精敏感肌湿巾。含芦荟和维生素 E，温和清洁不刺激。适合婴儿和过敏性皮肤。",
       "originalName": "Hello Sensitive vådservietter",
       "originalDescription": "0% Parfume Hello Sensitive vådservietter 100 stk. Pr. stk. 0,09",
       "categoryId": "household_paper",
@@ -6819,7 +6819,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6882,8 +6882,8 @@
       }
     },
     "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer": {
-      "productNameZh": "培根",
-      "descriptionZh": "培根。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "productNameZh": "西班牙辣肠/早午餐肠/培根",
+      "descriptionZh": "Højer 西班牙辣味香肠（chorizo）、早午餐肠或 Steff Houlberg 培根任选。chorizo 切片煎或炒菜提香；brunch 肠煎烤配面包；培根煎脆做早餐。",
       "originalName": "Højer chorizo brunchpølser eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke. *Stjernemarkerede varer findes kun i begrænset antal og ikke i alle butikker",
       "categoryId": "pork_fresh",
@@ -6891,7 +6891,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7314,8 +7314,8 @@
       }
     },
     "v1|k salat paalaegssalat|deli_spreads": {
-      "productNameZh": "三明治夹馅沙拉/抹酱",
-      "descriptionZh": "三明治夹馅沙拉/抹酱。冷藏三明治夹馅沙拉或抹酱，可能以虾、鸡肉、火腿或蔬菜拌蛋黄酱制成，可抹面包或夹三明治；具体配料以原名和包装为准。",
+      "productNameZh": "三明治夹馅沙拉",
+      "descriptionZh": "丹麦三明治夹馅沙拉（pålægssalat），通常以蛋黄酱为基底，混合虾仁、火腿、鸡肉或蔬菜碎。直接厚抹在黑面包上做开口三明治。不同口味有虾、鸡蛋、火腿等。",
       "originalName": "K-Salat pålægssalat",
       "originalDescription": "Flere varianter. 100-150 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -7323,7 +7323,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8016,8 +8016,8 @@
       }
     },
     "v1|klorin eller cillit bang|cleaning": {
-      "productNameZh": "清洁用品",
-      "descriptionZh": "清洁用品。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
+      "productNameZh": "Klorin 或 Cillit Bang 清洁剂",
+      "descriptionZh": "Klorin 漂白消毒剂（适合卫生间和厨房台面），Cillit Bang 强力去污剂（适合浴室水垢和油污）。均为丹麦家庭常备清洁用品。",
       "originalName": "Klorin eller Cillit Bang*",
       "originalDescription": "500-750 ml. Literpris maks. 44,00. Frit valg. 1 stk.",
       "categoryId": "household_cleaning",
@@ -8025,7 +8025,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8142,8 +8142,8 @@
       }
     },
     "v1|knorr bouillon eller fond|spices": {
-      "productNameZh": "高汤块或浓缩高汤",
-      "descriptionZh": "高汤块或浓缩高汤。香料或调味料，用于炒菜、腌肉、烧烤或炖煮；用量通常较少。",
+      "productNameZh": "Knorr 高汤块或浓缩高汤",
+      "descriptionZh": "Knorr 高汤块（固体的，丢进水里溶解就是鸡汤/牛肉汤底）或浓缩高汤（液体的）。炒菜、煮汤、下面条时加一块/一勺，立刻有高汤鲜味。中式烹饪必备替代品。",
       "originalName": "Knorr Bouillon eller fond",
       "originalDescription": "100-112 g Max. 120.00 pr. kg",
       "categoryId": "pantry",
@@ -8151,7 +8151,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8916,8 +8916,8 @@
       }
     },
     "v1|la campagna feta|cheese_feta_white": {
-      "productNameZh": "菲达式白奶酪",
-      "descriptionZh": "菲达式白奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "菲达奶酪",
+      "descriptionZh": "菲达（Feta）希腊羊奶白奶酪，咸味明显、质地易碎。捏碎撒在希腊沙拉上，配橄榄、番茄和黄瓜，淋橄榄油吃。",
       "originalName": "La Campagna feta",
       "originalDescription": "200 g. pr. kg 99,75",
       "categoryId": "cheese",
@@ -8925,7 +8925,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -9331,7 +9331,7 @@
     },
     "v1|lillebror ostehaps eller coop flodehavarti|cheese_danish_table": {
       "productNameZh": "哈瓦蒂奶酪",
-      "descriptionZh": "哈瓦蒂奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "descriptionZh": "哈瓦蒂（Havarti）是丹麦特产半软奶酪，奶味浓郁、微酸。切片直接吃或夹三明治。奶油版（flødehavarti）更柔滑。",
       "originalName": "Lillebror ostehaps eller Coop flødehavarti",
       "originalDescription": "324-400 g. Kg-pris maks. 89,51. Frit valg. 1 pakke/stk.",
       "categoryId": "cheese",
@@ -9339,7 +9339,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -9834,8 +9834,8 @@
       }
     },
     "v1|madvaerket danbo skiveost|cheese_sliced": {
-      "productNameZh": "丹麦 Danbo 奶酪",
-      "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Danbo 切片奶酪",
+      "descriptionZh": "Danbo 是丹麦最常见的半硬质奶酪，奶味温和。切片夹三明治、做烤芝士三明治（toast）最适合。",
       "originalName": "MADVÆRKET Danbo skiveost",
       "originalDescription": "Lagret 45+ eller. ekstralagret 45+. 200 g / pk. Pr. kg 99,75.",
       "categoryId": "cheese",
@@ -9843,7 +9843,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10464,8 +10464,8 @@
       }
     },
     "v1|madvaerket skyr naturel eller vanilje|yoghurt": {
-      "productNameZh": "Skyr 高蛋白发酵乳",
-      "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
+      "productNameZh": "冰岛酸奶原味或香草",
+      "descriptionZh": "冰岛酸奶（Skyr），比普通酸奶更浓稠、蛋白质更高。原味拌蜂蜜水果当早餐；香草味直接吃。高蛋白低脂。",
       "originalName": "MADVÆRKET Skyr naturel eller vanilje",
       "originalDescription": "1000 g / stk. Pr. kg 19,95",
       "categoryId": "yoghurt",
@@ -10473,7 +10473,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10842,8 +10842,8 @@
       }
     },
     "v1|mammen skaereost|cheese_danish_table": {
-      "productNameZh": "块状切片奶酪",
-      "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Mammen 块状奶酪",
+      "descriptionZh": "Mammen 丹麦经典奶酪，口感温和、不刺激。切片做三明治或放面包上直接吃。",
       "originalName": "Mammen skæreost",
       "originalDescription": "STORT STYKKE 900-1100 g. Pr. kg max. 83,33",
       "categoryId": "cheese",
@@ -10851,7 +10851,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10878,8 +10878,8 @@
       }
     },
     "v1|mamone sesam|spices": {
-      "productNameZh": "芝麻",
-      "descriptionZh": "芝麻。香料或调味料，用于炒菜、腌肉、烧烤或炖煮；用量通常较少。",
+      "productNameZh": "Mamone 芝麻",
+      "descriptionZh": "芝麻粒。中式用途：炒菜出锅前撒一把增香；做凉拌菜的香油底；烘焙面包表面装饰。也可干锅炒香后碾碎做蘸料。",
       "originalName": "Mamone sesam",
       "originalDescription": "150 g. Pr. kg 47,47 Normalpris 14,25 Max. 6 stk. pr. kunde pr. dag til 7,12 SPAR 7,13",
       "categoryId": "pantry",
@@ -10887,7 +10887,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11220,8 +11220,8 @@
       }
     },
     "v1|mexitopping|cheese_grated": {
-      "productNameZh": "墨西哥菜用刨丝奶酪",
-      "descriptionZh": "墨西哥菜用刨丝奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "墨西哥菜刨丝奶酪",
+      "descriptionZh": "墨西哥菜专用刨丝奶酪混合（含车达和马苏里拉），撒在 taco、卷饼或玉米片上，进烤箱烤化做 nachos。",
       "originalName": "Mexitopping*",
       "originalDescription": "175 g. Kg-pris 68,57. 1 pose",
       "categoryId": "cheese",
@@ -11229,7 +11229,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11508,8 +11508,8 @@
       }
     },
     "v1|milbona hvid ost i blok|cheese_feta_white": {
-      "productNameZh": "菲达式白奶酪",
-      "descriptionZh": "菲达式白奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "MILBONA 白奶酪块",
+      "descriptionZh": "白奶酪块，类似希腊菲达。切丁撒在沙拉或意面上，咸味提鲜。也可煎至表面焦黄做热沙拉。",
       "originalName": "MILBONA Hvid ost i blok",
       "originalDescription": "250 g / stk. Pr. kg",
       "categoryId": "cheese",
@@ -11517,7 +11517,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11526,8 +11526,8 @@
       }
     },
     "v1|milbona hytteost|cheese_cottage_ricotta": {
-      "productNameZh": "茅屋奶酪",
-      "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "MILBONA 茅屋奶酪",
+      "descriptionZh": "茅屋奶酪，颗粒状、清爽低脂。混入水果蜂蜜当早餐；或拌入沙拉替代沙拉酱。健身人群高蛋白首选。",
       "originalName": "MILBONA Hytteost",
       "originalDescription": "300 g / stk. Pr. kg 33,17",
       "categoryId": "cheese",
@@ -11535,7 +11535,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11634,8 +11634,8 @@
       }
     },
     "v1|milbona mozzarella|cheese_mozzarella_burrata": {
-      "productNameZh": "马苏里拉奶酪",
-      "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "MILBONA 马苏里拉",
+      "descriptionZh": "马苏里拉奶酪。披萨必用，高温烤化拉丝；也可切片夹三明治或做焗饭。",
       "originalName": "MILBONA Mozzarella",
       "originalDescription": "125 g / stk.",
       "categoryId": "cheese",
@@ -11643,7 +11643,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11652,8 +11652,8 @@
       }
     },
     "v1|milbona revet mozzarella|cheese_grated": {
-      "productNameZh": "刨丝马苏里拉奶酪",
-      "descriptionZh": "刨丝马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "刨丝马苏里拉",
+      "descriptionZh": "刨丝马苏里拉奶酪，做披萨用。均匀撒在披萨饼底上，烤箱高温烤至融化拉丝。也可撒在意面上焗烤。",
       "originalName": "MILBONA Revet mozzarella",
       "originalDescription": "250 g / ps.",
       "categoryId": "cheese",
@@ -11661,7 +11661,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11670,8 +11670,8 @@
       }
     },
     "v1|milbona revet ost|cheese_grated": {
-      "productNameZh": "奶酪",
-      "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "刨丝混合奶酪",
+      "descriptionZh": "刨丝奶酪混合。撒在 pizza、焗饭或意面上进烤箱融化成金黄奶盖。",
       "originalName": "MILBONA Revet ost",
       "originalDescription": "250 g / ps. Pr. kg 79,80",
       "categoryId": "cheese",
@@ -11679,7 +11679,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12138,8 +12138,8 @@
       }
     },
     "v1|navito gronlandske eller vannameirejer|shrimp": {
-      "productNameZh": "南美白虾",
-      "descriptionZh": "南美白虾。虾仁或小虾，可炒饭、炒面、煮汤或涮火锅；若标有 kogte 表示已熟，只需短暂加热。",
+      "productNameZh": "格陵兰虾或南美白虾",
+      "descriptionZh": "格陵兰虾或白虾。中式做法：白灼后蘸姜醋汁最鲜；也可去壳做虾仁滑蛋、虾仁炒西兰花；kogte 表示已熟，只需复热。",
       "originalName": "Navito grønlandske eller vannameirejer",
       "originalDescription": "SPOT Dyb-frost 200 g. Pr. kg 125,00",
       "categoryId": "seafood",
@@ -12147,7 +12147,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12372,8 +12372,8 @@
       }
     },
     "v1|neutral vaskemiddel eller skyllemiddel|cleaning": {
-      "productNameZh": "洗衣液或洗衣粉",
-      "descriptionZh": "洗衣液或洗衣粉。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
+      "productNameZh": "Neutral 无香洗衣液或柔顺剂",
+      "descriptionZh": "Neutral 无香洗衣产品，专为敏感皮肤设计，无香精色素。丹麦过敏哮喘协会认证。婴儿衣物也适用。",
       "originalName": "Neutral vaskemiddel eller skyllemiddel",
       "originalDescription": "1,26 kg vaskepulver, 700ml vaskemiddel eller 1000 ml skyllemiddel. Pr. vask max. 2,07 29:- SPOT",
       "categoryId": "household_cleaning",
@@ -12381,7 +12381,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12876,8 +12876,8 @@
       }
     },
     "v1|ogo okologiske polser|sausages": {
-      "productNameZh": "烧烤香肠",
-      "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "productNameZh": "有机香肠",
+      "descriptionZh": "ØGO 有机香肠。煎或烤均可。有机猪肉制成，肉味纯，丹麦人常配土豆沙拉和芥末。",
       "originalName": "ØGO økologiske pølser",
       "originalDescription": "220-240 g. Pr. kg max. 136,36",
       "categoryId": "sausages_deli",
@@ -12885,7 +12885,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13344,8 +13344,8 @@
       }
     },
     "v1|paalaegsslagteren baconleverpostej|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "培根肝酱",
+      "descriptionZh": "丹麦肝酱加培根碎。吃法：厚抹黑面包上，放几片腌甜菜根或煎蘑菇。冷吃或烤箱烤热至表面微焦。丹麦国民午餐。",
       "originalName": "PÅLÆGSSLAGTEREN Baconleverpostej",
       "originalDescription": "350 g / pk. Pr. kg. 34,14.",
       "categoryId": "sausages_deli",
@@ -13353,7 +13353,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13380,8 +13380,8 @@
       }
     },
     "v1|paalaegsslagteren fransk leverpostej|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "法式肝酱",
+      "descriptionZh": "法式风格肝酱，口感更细滑，通常有白兰地或香料调味。抹在烤面包片上直接吃，配一点酸黄瓜解腻。",
       "originalName": "PÅLÆGSSLAGTEREN Fransk leverpostej",
       "originalDescription": "200 g / pk. Pr. kg. 39,75",
       "categoryId": "sausages_deli",
@@ -13389,7 +13389,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13417,7 +13417,7 @@
     },
     "v1|paalaegsslagteren leverpostej|bacon_deli": {
       "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "descriptionZh": "丹麦肝酱（leverpostej），猪肝制成、口感细腻。厚抹黑面包上，放腌甜菜根、煎蘑菇和培根碎。冷吃或烤箱微烤表面。",
       "originalName": "PÅLÆGSSLAGTEREN Leverpostej",
       "originalDescription": "500 g. Pr. kg 24,00 Med Lidl Plus³",
       "categoryId": "sausages_deli",
@@ -13425,7 +13425,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13452,8 +13452,8 @@
       }
     },
     "v1|paalaekker paalaeg baconleverpostej eller salami hapser|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "培根肝酱或萨拉米小食",
+      "descriptionZh": "培根肝酱抹面包吃；萨拉米小食（salami-hapser）是迷你萨拉米肠，直接当零食或配啤酒。丹麦冷切任选。",
       "originalName": "Pålækker pålæg, baconleverpostej eller salami-hapser",
       "originalDescription": "Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 15.95 pr. stk.\n50-200 g\nMax. 200.00 pr. kg",
       "categoryId": "sausages_deli",
@@ -13461,7 +13461,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13524,8 +13524,8 @@
       }
     },
     "v1|palmolive pantene krops eller haarpleje|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Palmolive 或 Pantene 洗护",
+      "descriptionZh": "Palmolive 沐浴露（牛奶、椰子、橄榄等香型）或 Pantene 洗发护发（主打顺滑修复）。丹麦超市最常见平价洗护组合。",
       "originalName": "Palmolive, Pantene krops- eller hårpleje",
       "originalDescription": "50-300 ml. Pr. liter max. 240,00",
       "categoryId": "personal_care",
@@ -13533,7 +13533,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13758,8 +13758,8 @@
       }
     },
     "v1|philadelphia flodeost|cheese_spreadable": {
-      "productNameZh": "奶油奶酪",
-      "descriptionZh": "奶油奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。原名还显示：蒜香。",
+      "productNameZh": "Philadelphia 奶油奶酪",
+      "descriptionZh": "费城奶油奶酪。抹贝果（bagel）或面包吃最经典；也可做芝士蛋糕、奶油蘑菇酱，或拌入意面。蒜香版直接抹面包更香。",
       "originalName": "PHILADELPHIA Flødeost",
       "originalDescription": "Original eller hvidløg og urter.",
       "categoryId": "cheese",
@@ -13767,7 +13767,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13795,7 +13795,7 @@
     },
     "v1|piccardo savore ekstra jomfruolivenolie|oil_vinegar": {
       "productNameZh": "特级初榨橄榄油",
-      "descriptionZh": "特级初榨橄榄油。食用油或醋，可炒菜、凉拌、煎炸或调沙拉；高温用途需按油种判断。",
+      "descriptionZh": "特级初榨橄榄油（ekstra jomfruolivenolie）。适合凉拌、蘸面包、淋在沙拉上。不适合高温爆炒（烟点低），中小火煎炒可以。",
       "originalName": "Piccardo & Savoré ekstra jomfruolivenolie",
       "originalDescription": "750 ml.\nPr. liter 92,00",
       "categoryId": "pantry",
@@ -13803,7 +13803,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13884,8 +13884,8 @@
       }
     },
     "v1|polsemesteren hotdog eller grillpolser|sausages": {
-      "productNameZh": "烧烤香肠",
-      "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "productNameZh": "热狗肠或烧烤肠",
+      "descriptionZh": "热狗肠或烧烤肠。丹麦热狗（pølse）用水煮或煎热，夹面包加 remoulade 酱、脆洋葱、酸黄瓜。烧烤肠炭烤最香。",
       "originalName": "Pølsemesteren hotdog- eller grillpølser",
       "originalDescription": "450-500 g. Pr. kg max. 62,11",
       "categoryId": "sausages_deli",
@@ -13893,7 +13893,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13993,7 +13993,7 @@
     },
     "v1|premieur varmroget laks|salmon_smoked": {
       "productNameZh": "热熏三文鱼",
-      "descriptionZh": "热熏三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "descriptionZh": "热熏三文鱼（varmrøget），已经充分熏熟。肉质温热、松散。可以直接吃、撕碎拌沙拉、或放在炒蛋上。也可微波炉短时回温。",
       "originalName": "Premieur varmrøget laks",
       "originalDescription": "200 g. Pr. kg 325,00. Gælder kun med Netto+ appen. Pr. kg 275,00. PRIS",
       "categoryId": "seafood",
@@ -14001,7 +14001,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -14154,8 +14154,8 @@
       }
     },
     "v1|puck salatost|cheese_feta_white": {
-      "productNameZh": "沙拉白奶酪",
-      "descriptionZh": "沙拉白奶酪。新鲜白奶酪或沙拉奶酪，常切块拌沙拉、夹面包或烘烤；盐度和口感以品种为准。",
+      "productNameZh": "Puck 沙拉白奶酪",
+      "descriptionZh": "沙拉白奶酪，咸味适中。切小块拌入沙拉，或放面包上配番茄片吃。中东和北欧沙拉常用。",
       "originalName": "PUCK Salatost",
       "originalDescription": "200 g / stk. Pr. kg 74,75",
       "categoryId": "cheese",
@@ -14163,7 +14163,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15001,7 +15001,7 @@
     },
     "v1|rema 1000 roget eller gravad laks|salmon_smoked": {
       "productNameZh": "烟熏或腌渍三文鱼",
-      "descriptionZh": "烟熏或腌渍三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "descriptionZh": "烟熏或腌渍三文鱼任选。冷食切片放面包上吃，配柠檬和莳萝酱；热熏版可撕碎做意面或炒蛋。",
       "originalName": "REMA 1000 Røget eller gravad laks",
       "originalDescription": "100 g 290.00 pr. kg",
       "categoryId": "seafood",
@@ -15009,7 +15009,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15396,8 +15396,8 @@
       }
     },
     "v1|riberhus skiveost|cheese_sliced": {
-      "productNameZh": "切片奶酪",
-      "descriptionZh": "切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Riberhus 切片奶酪",
+      "descriptionZh": "Riberhus 是丹麦经典奶酪品牌。切片直接夹面包吃，或放热汉堡上让它自然融化。",
       "originalName": "Riberhus skiveost",
       "originalDescription": "240 g. Pr. kg 91,67",
       "categoryId": "cheese",
@@ -15405,7 +15405,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15559,7 +15559,7 @@
     },
     "v1|roget eller gravad laks|salmon_smoked": {
       "productNameZh": "烟熏或腌渍三文鱼",
-      "descriptionZh": "烟熏或腌渍三文鱼。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "descriptionZh": "烟熏或腌渍三文鱼任选。冷熏版薄片配面包；腌渍版（gravad）用糖盐莳萝腌制，切片生食。均直接吃无需烹饪。",
       "originalName": "Røget eller gravad laks",
       "originalDescription": "100 g. Pr. kg 200,00 Spot¹",
       "categoryId": "seafood",
@@ -15567,7 +15567,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:04:06.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15703,7 +15703,7 @@
     },
     "v1|saeby makrel|white_fish": {
       "productNameZh": "鲭鱼",
-      "descriptionZh": "鲭鱼。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
+      "descriptionZh": "鲭鱼（Makrel），肉质紧实、油脂适中。中式做法：干煎或红烧最香，也可切块后加姜丝清蒸，出锅淋蒸鱼豉油。",
       "originalName": "Sæby makrel",
       "originalDescription": "3-pak. 375 g. Kg-pris 120,00. 1 pakke.",
       "categoryId": "seafood",
@@ -15711,7 +15711,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16044,8 +16044,8 @@
       }
     },
     "v1|santa maria krydderi|spices": {
-      "productNameZh": "混合香料",
-      "descriptionZh": "混合香料。香料或调味料，用于炒菜、腌肉、烧烤或炖煮；用量通常较少。",
+      "productNameZh": "Santa Maria 混合香辛料",
+      "descriptionZh": "Santa Maria 是丹麦最大香料品牌。混合香料有 taco 调味、烤肉 rub、意大利混合香草等。按包装用途选择，撒在肉上煎或烤。",
       "originalName": "Santa Maria krydderi",
       "originalDescription": "71-148 g\nMax. 281.69 pr. kg",
       "categoryId": "pantry",
@@ -16053,7 +16053,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16440,8 +16440,8 @@
       }
     },
     "v1|slagtermester andersen stor leverpostej|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "大号丹麦肝酱",
+      "descriptionZh": "丹麦传统肝酱，大包装家庭装。厚抹黑面包吃，经典搭配：腌甜菜根 + 煎蘑菇 + 培根碎。可冷食或烤箱加热。",
       "originalName": "Slagtermester Andersen Stor leverpostej",
       "originalDescription": "400 g 30.00 pr. kg",
       "categoryId": "sausages_deli",
@@ -16449,7 +16449,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16548,8 +16548,8 @@
       }
     },
     "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_mixed_offer": {
-      "productNameZh": "西班牙辣味香肠",
-      "descriptionZh": "西班牙辣味香肠。这是不同鱼种、虾或加工海鲜任选促销；可食比例和用途不同，不计算单一海鲜最低价。",
+      "productNameZh": "鱿鱼圈或西班牙辣肠炸丸子",
+      "descriptionZh": "裹粉鱿鱼圈或西班牙辣肠炸丸子（chorizo-kroketter）。油炸或空气炸锅加热至金黄酥脆，蘸蒜泥蛋黄酱（aioli）或番茄酱。西班牙经典下酒菜。",
       "originalName": "SOL&MAR Blæksprutteringe eller chorizo-kroketter",
       "originalDescription": "500 g. Pr. kg 50,00 Spot¹",
       "categoryId": "seafood",
@@ -16557,7 +16557,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16674,8 +16674,8 @@
       }
     },
     "v1|sol mar hele sardiner|white_fish": {
-      "productNameZh": "沙丁鱼",
-      "descriptionZh": "沙丁鱼。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
+      "productNameZh": "整条沙丁鱼",
+      "descriptionZh": "整条沙丁鱼。中式做法：拍干淀粉后煎至酥脆，撒椒盐吃；或加豆豉、蒜蓉蒸。",
       "originalName": "SOL&MAR Hele sardiner",
       "originalDescription": "1 kg. Pr. kg 39,00 Dybfrost Spot¹",
       "categoryId": "seafood",
@@ -16683,7 +16683,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16693,7 +16693,7 @@
     },
     "v1|sol mar kaemperejer|shrimp": {
       "productNameZh": "大虾",
-      "descriptionZh": "大虾。虾仁或小虾，可炒饭、炒面、煮汤或涮火锅；若标有 kogte 表示已熟，只需短暂加热。",
+      "descriptionZh": "大虾（kæmperejer）。中式做法：开背去虾线，蒜蓉粉丝蒸或椒盐煎。个头大，适合做主菜。",
       "originalName": "SOL&MAR Kæmperejer",
       "originalDescription": "Dybfrost\n250 g.\nPr. kg 156,00\nSpot¹",
       "categoryId": "seafood",
@@ -16701,7 +16701,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16854,8 +16854,8 @@
       }
     },
     "v1|sol mar spansk ekstra jomfruolivenolie|oil_vinegar": {
-      "productNameZh": "特级初榨橄榄油",
-      "descriptionZh": "特级初榨橄榄油。食用油或醋，可炒菜、凉拌、煎炸或调沙拉；高温用途需按油种判断。",
+      "productNameZh": "西班牙特级初榨橄榄油",
+      "descriptionZh": "西班牙特级初榨橄榄油。果香明显，蘸面包、拌沙拉、淋意面均佳。不要大火爆炒，中小火煎可以。",
       "originalName": "SOL&MAR Spansk ekstra jomfruolivenolie",
       "originalDescription": "750 ml.\nPr. l 78,67\nSpot¹",
       "categoryId": "pantry",
@@ -16863,7 +16863,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:04:06.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16908,8 +16908,8 @@
       }
     },
     "v1|sol mar vannamei rejer|shrimp": {
-      "productNameZh": "虾",
-      "descriptionZh": "虾。虾仁或小虾，可炒饭、炒面、煮汤或涮火锅；若标有 kogte 表示已熟，只需短暂加热。",
+      "productNameZh": "南美白虾",
+      "descriptionZh": "白虾，中式百搭。大虾白灼、油焖；小虾仁炒蛋、炒饭、包饺子。",
       "originalName": "SOL&MAR Vannamei-rejer",
       "originalDescription": "Dybfrost\n800 g.\nPr. kg 98,75\nSpot¹",
       "categoryId": "seafood",
@@ -16917,7 +16917,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17178,8 +17178,8 @@
       }
     },
     "v1|steff houlberg polser|sausages": {
-      "productNameZh": "烧烤香肠",
-      "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "productNameZh": "Steff Houlberg 香肠",
+      "descriptionZh": "Steff Houlberg 品牌烧烤肠。煎、烤或水煮后夹热狗面包，挤番茄酱、芥末和脆洋葱碎，就是丹麦经典 hotdog。",
       "originalName": "Steff Houlberg pølser*",
       "originalDescription": "700-875 g. Kg-pris maks. 70,00. Frit valg. 1 pakke",
       "categoryId": "sausages_deli",
@@ -17187,7 +17187,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17286,8 +17286,8 @@
       }
     },
     "v1|stryhn s leverpostej|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "Stryhn's 丹麦肝酱",
+      "descriptionZh": "Stryhn's 是丹麦最经典的肝酱品牌。细腻绵密口感，直接抹面包。烤箱加热后表面微焦更香。丹麦人几乎每天都吃。",
       "originalName": "STRYHN’S Leverpostej",
       "originalDescription": "Grovhakket eller fransk. 200 g / pk. Pr. kg. 64,75",
       "categoryId": "sausages_deli",
@@ -17295,7 +17295,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17304,8 +17304,8 @@
       }
     },
     "v1|stryhns leverpostej|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "Stryhns 肝酱",
+      "descriptionZh": "Stryhns 肝酱，丹麦国民品牌。抹黑面包，配腌甜菜根吃。可在上面放煎蘑菇和培根碎提升口感。",
       "originalName": "Stryhns leverpostej",
       "originalDescription": "275 g. Kg-pris 58,18. Frit valg. 1 stk.",
       "categoryId": "sausages_deli",
@@ -17313,7 +17313,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17736,8 +17736,8 @@
       }
     },
     "v1|thise okologisk burrata eller mozzarella|cheese_mozzarella_burrata": {
-      "productNameZh": "马苏里拉奶酪",
-      "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Burrata 或马苏里拉",
+      "descriptionZh": "Burrata 是马苏里拉的升级版，外层是奶酪皮，内芯是奶油和奶酪丝。整个放在沙拉上切开让奶油流出；或配烤番茄和面包。",
       "originalName": "Thise økologisk burrata eller mozzarella*",
       "originalDescription": "100-125 g. Kg-pris 240,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
@@ -17745,7 +17745,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17826,8 +17826,8 @@
       }
     },
     "v1|thise okologisk skaereost|cheese_danish_table": {
-      "productNameZh": "块状切片奶酪",
-      "descriptionZh": "块状切片奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Thise 有机切片奶酪",
+      "descriptionZh": "Thise 有机半硬质奶酪。可夹三明治或切块当零食直接吃。丹麦人早餐通常放面包上。",
       "originalName": "Thise økologisk skæreost",
       "originalDescription": "Flere varianter. Min. 432 g. Kg-pris maks. 104,17. Frit valg. 1 stk.",
       "categoryId": "cheese",
@@ -17835,7 +17835,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17881,7 +17881,7 @@
     },
     "v1|thorfisk torskefileter|white_fish": {
       "productNameZh": "鳕鱼柳",
-      "descriptionZh": "鳕鱼柳。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
+      "descriptionZh": "鳕鱼柳，肉质雪白细嫩。中式做法：解冻吸干，盐和料酒稍腌，裹薄淀粉煎至两面金黄；或清蒸后淋蒸鱼豉油。不宜久煮。",
       "originalName": "THORFISK Torskefileter",
       "originalDescription": "225 g / pk. Pr. kg 222,00.",
       "categoryId": "seafood",
@@ -17889,7 +17889,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:04:06.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17898,8 +17898,8 @@
       }
     },
     "v1|tjia hytteostsalat|cheese_cottage_ricotta": {
-      "productNameZh": "茅屋奶酪",
-      "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "茅屋奶酪沙拉",
+      "descriptionZh": "茅屋奶酪（hytteost）拌沙拉，已经调好味。抹在面包上直接吃，或者当蘸料搭配蔬菜条。高蛋白低脂。",
       "originalName": "Tjia hytteostsalat",
       "originalDescription": "175 g. Pr. kg 68,57",
       "categoryId": "cheese",
@@ -17907,7 +17907,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -18132,8 +18132,8 @@
       }
     },
     "v1|tulip baconleverpostej|bacon_deli": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+      "productNameZh": "Tulip 培根肝酱",
+      "descriptionZh": "Tulip 培根肝酱，加培根碎的口感更丰富。厚抹黑面包上，放腌甜菜根吃。加热后培根碎更香脆。",
       "originalName": "TULIP Baconleverpostej",
       "originalDescription": "200 g / pk. Pr. kg 49,75.",
       "categoryId": "sausages_deli",
@@ -18141,7 +18141,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:03:12.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -18960,8 +18960,8 @@
       }
     },
     "v1|zanetti grana padano parmigiano reggiano eller pecorino romano|cheese_aged_hard": {
-      "productNameZh": "帕达诺/帕玛森硬质奶酪",
-      "descriptionZh": "帕达诺/帕玛森硬质奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "意式硬质奶酪三选一",
+      "descriptionZh": "Grana Padano（温和坚果味）、Parmigiano Reggiano（浓郁结晶口感）或 Pecorino（羊奶咸香）任选。刨碎撒意面上；或切块配蜂蜜和坚果吃。",
       "originalName": "Zanetti Grana Padano, Parmigiano Reggiano eller Pecorino Romano",
       "originalDescription": "150-200 g. Flere varianter. Pr. kg max. 300,-",
       "categoryId": "cheese",
@@ -18969,7 +18969,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -18978,8 +18978,8 @@
       }
     },
     "v1|zanetti mozzarella|cheese_mozzarella_burrata": {
-      "productNameZh": "马苏里拉奶酪",
-      "descriptionZh": "马苏里拉奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "productNameZh": "Zanetti 马苏里拉",
+      "descriptionZh": "马苏里拉奶酪，半软、奶味清甜。做 Margherita 披萨经典；也可切片配番茄和罗勒做 Caprese 沙拉，淋橄榄油和黑醋。",
       "originalName": "Zanetti mozzarella",
       "originalDescription": "125 g. Pr. kg 104,00",
       "categoryId": "cheese",
@@ -18987,7 +18987,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
