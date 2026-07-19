@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-18T21:30:30.383Z",
-  "count": 6,
+  "generatedAt": "2026-07-19T06:52:40.845Z",
+  "count": 4,
   "items": [
     {
       "descriptionKey": "v1|donut ferskner|biscuits",
@@ -14,19 +14,6 @@
       "comparisonGroup": "biscuits",
       "stores": [
         "rema"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|hugo hollunder lime rose hyldeblomst lime vandmelon eller spritz|watermelon",
-      "originalName": "Hugo Hollunder-lime rosé, hyldeblomst-lime, vandmelon eller spritz",
-      "sampleDescriptions": [
-        "7,3 % alc. 75 cl. Pr. liter 33,33 -37 %"
-      ],
-      "categoryId": "fruit",
-      "comparisonGroup": "watermelon",
-      "stores": [
-        "lidl"
       ],
       "occurrences": 1
     },
@@ -53,19 +40,6 @@
       "comparisonGroup": "supplements",
       "stores": [
         "bilka"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|nostja miniruller eller ostesnegle|dumplings",
-      "originalName": "NOSTJA Miniruller eller ostesnegle",
-      "sampleDescriptions": [
-        "Global smag, lokal nydelse Dybfrost 1 kg. Pr. kg 35,00 Spot¹"
-      ],
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "dumplings",
-      "stores": [
-        "lidl"
       ],
       "occurrences": 1
     },

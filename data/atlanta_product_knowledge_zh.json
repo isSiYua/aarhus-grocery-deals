@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T21:30:38.693Z",
+  "updatedAt": "2026-07-19T06:52:45.362Z",
   "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -164,21 +164,31 @@
       "productNameZh": "蛋糕",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "annie s organic cheddar moana mac cheese": {
-      "originalName": "Annie's Organic Cheddar Moana mac & cheese.",
-      "categoryId": "pantry",
-      "comparisonGroup": "pantry_rice_pasta",
-      "descriptionZh": "切达奶酪。芝士通心粉，是常温盒装主食，煮熟面后拌入芝士酱；类似奶酪味方便意面。",
+    "angel soft 32 pk mega roll toilet paper": {
+      "originalName": "Angel Soft 32-pk. mega-roll toilet paper.",
+      "categoryId": "household",
+      "comparisonGroup": "household_other",
+      "descriptionZh": "卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391338/1782378410/extra_large.jpg"
-      },
-      "productNameZh": "切达奶酪",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/427648347/1784214242/extra_large.jpg"
+      }
+    },
+    "animal love 5 lb dry dog food": {
+      "originalName": "Animal Love 5-lb. dry dog food",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362585/1783109318/extra_large.jpg"
+      }
     },
     "apple pie": {
       "originalName": "Apple Pie",
@@ -195,6 +205,32 @@
       },
       "productNameZh": "苹果",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "apple watch se 3": {
+      "originalName": "Apple Watch® SE 3",
+      "categoryId": "fruit",
+      "comparisonGroup": "produce_apples",
+      "descriptionZh": "苹果，可直接吃、做沙拉、烘焙或煮果酱；品种名保留，但大小和袋装规格不另拆商品组。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648423/1784214243/extra_large.jpg"
+      }
+    },
+    "apple watch series 11": {
+      "originalName": "Apple Watch® Series 11",
+      "categoryId": "fruit",
+      "comparisonGroup": "produce_apples",
+      "descriptionZh": "苹果，可直接吃、做沙拉、烘焙或煮果酱；品种名保留，但大小和袋装规格不另拆商品组。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648422/1784214242/extra_large.jpg"
+      }
     },
     "applegate naturals uncured turkey bacon": {
       "originalName": "Applegate Naturals Uncured Turkey Bacon",
@@ -224,70 +260,6 @@
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426751570/1783514863/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "arm hammer plus oxiclean 200 oz liquid laundry detergent": {
-      "originalName": "Arm & Hammer Plus OxiClean 200-oz. liquid laundry detergent",
-      "categoryId": "household",
-      "comparisonGroup": "household_laundry",
-      "descriptionZh": "洗衣用品。洗衣液或洗衣凝珠，用于机洗衣物；不是食品，应按洗衣量和包装说明投放。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391500/1782378412/extra_large.jpg"
-      },
-      "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "athena club 4 ct 5 blade razor refills": {
-      "originalName": "Athena Club 4-ct. 5-blade razor refills.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391382/1782378410/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "athena club 8 oz glossy shave oil": {
-      "originalName": "Athena Club 8-oz. glossy shave oil.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391372/1782378408/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "athena club women s 5 blade reusable razor kit": {
-      "originalName": "Athena Club women's 5-blade reusable razor kit.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391375/1782378408/extra_large.jpg"
       },
       "productNameZh": "身体与剃刮护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
@@ -340,6 +312,32 @@
       "productNameZh": "米饭与意面",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "batiste 3 81 oz vanilla hair souffle dry shampoo": {
+      "originalName": "Batiste 3.81-oz. vanilla hair souffle dry shampoo.",
+      "categoryId": "personal",
+      "comparisonGroup": "personal_hair",
+      "descriptionZh": "个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648356/1784214242/extra_large.jpg"
+      }
+    },
+    "billie ice sparkle reusable razor starter kit": {
+      "originalName": "Billie Ice Sparkle reusable razor starter kit.",
+      "categoryId": "personal",
+      "comparisonGroup": "personal_body",
+      "descriptionZh": "个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648359/1784214244/extra_large.jpg"
+      }
+    },
     "bimbo white bread": {
       "originalName": "Bimbo White Bread",
       "categoryId": "bakery",
@@ -370,54 +368,6 @@
         "imageUrl": "https://f.wishabi.net/page_items/426749088/1783514841/extra_large.jpg"
       },
       "productNameZh": "李子",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "blue buffalo delectables 12 ct variety pack wet dog food": {
-      "originalName": "Blue Buffalo Delectables 12 Ct Variety Pack Wet Dog Food",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_dog",
-      "descriptionZh": "狗粮与狗零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391427/1782378413/extra_large.jpg"
-      },
-      "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "blue buffalo nudges grillers 5 oz dog treats": {
-      "originalName": "Blue Buffalo Nudges Grillers 5-oz. dog treats.",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_dog",
-      "descriptionZh": "狗粮与狗零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391421/1782378410/extra_large.jpg"
-      },
-      "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "blue buffalo tasteful 5 lb dry cat food": {
-      "originalName": "Blue Buffalo Tasteful 5-lb. dry cat food.",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_cat",
-      "descriptionZh": "猫粮与猫零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391431/1782378415/extra_large.jpg"
-      },
-      "productNameZh": "猫粮与猫零食",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "bluehouse atlantic salmon fillets": {
@@ -548,21 +498,18 @@
       "productNameZh": "整块烤牛肉",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "bounty 12 pk select a size triple roll paper towels": {
-      "originalName": "BOUNTY 12-pk. select-a-size triple-roll paper towels.",
+    "bounty 6 pk select a size triple roll paper towels": {
+      "originalName": "BOUNTY 6-pk. select-a-size triple-roll paper towels.",
       "categoryId": "household",
       "comparisonGroup": "household_paper",
-      "descriptionZh": "纸品。厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
+      "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968514/1783654559/extra_large.jpg"
-      },
-      "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/427648345/1784214246/extra_large.jpg"
+      }
     },
     "bounty paper towels": {
       "originalName": "Bounty Paper Towels",
@@ -625,22 +572,6 @@
       "productNameZh": "西兰花",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "bubly 8 pk sparkling water": {
-      "originalName": "bubly 8-pk. sparkling water",
-      "categoryId": "drinks",
-      "comparisonGroup": "drinks_water",
-      "descriptionZh": "饮用水或气泡水。软饮、气泡水、运动饮料或饮水调味液；请按原名确认是否含糖、是否含咖啡因和包装数量。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391477/1782378410/extra_large.jpg"
-      },
-      "productNameZh": "饮用水或气泡水",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
     "bulk sweet corn": {
       "originalName": "Bulk Sweet Corn†",
       "categoryId": "vegetables",
@@ -656,6 +587,19 @@
       },
       "productNameZh": "鲜玉米",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "bumbum 114 ct luxury skincare diapers": {
+      "originalName": "bumbum 114 ct. luxury skincare diapers.",
+      "categoryId": "baby",
+      "comparisonGroup": "baby_diapers",
+      "descriptionZh": "婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426383621/1783109316/extra_large.jpg"
+      }
     },
     "bush s best beans": {
       "originalName": "Bush's Best Beans†",
@@ -737,6 +681,19 @@
       "productNameZh": "洗碗机用品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "cat jack kids t shirts": {
+      "originalName": "Cat & Jack kids T-shirts",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_cat",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362526/1783109314/extra_large.jpg"
+      }
+    },
     "charmin bathroom tissue": {
       "originalName": "Charmin Bathroom Tissue",
       "categoryId": "household",
@@ -753,21 +710,31 @@
       "productNameZh": "纸品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "charmin ultra soft 12 pk mega xl roll toilet paper": {
-      "originalName": "Charmin Ultra Soft 12-pk. mega-XL roll toilet paper.",
+    "charmin ultra strong 12 pk mega xl roll toilet paper": {
+      "originalName": "Charmin Ultra Strong 12-pk. mega-XL roll toilet paper.",
       "categoryId": "household",
       "comparisonGroup": "household_paper",
-      "descriptionZh": "纸品。卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
+      "descriptionZh": "卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968517/1783654561/extra_large.jpg"
-      },
-      "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/427648308/1784214241/extra_large.jpg"
+      }
+    },
+    "chobani flip 20g protein single serve greek yogurt": {
+      "originalName": "Chobani Flip & 20g Protein single-serve Greek yogurt",
+      "categoryId": "yoghurt",
+      "comparisonGroup": "dairy_yogurt",
+      "descriptionZh": "酸奶；Greek Yogurt 是质地更稠、蛋白质通常更高的希腊式酸奶，可直接吃或搭配水果燕麦。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648288/1784214243/extra_large.jpg"
+      }
     },
     "chobani greek yogurt": {
       "originalName": "Chobani Greek Yogurt",
@@ -833,22 +800,6 @@
       "productNameZh": "口腔护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "covergirl 0 28 oz clean fresh yummy lip oil stick": {
-      "originalName": "Covergirl 0.28-oz. Clean Fresh Yummy lip oil stick",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_other",
-      "descriptionZh": "其他个人护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426967942/1783654554/extra_large.jpg"
-      },
-      "productNameZh": "其他个人护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
     "crest 3d white or pro health mouthwash or rinse": {
       "originalName": "Crest 3D White or Pro-Health Mouthwash or Rinse",
       "categoryId": "personal",
@@ -877,19 +828,6 @@
       },
       "productNameZh": "口腔护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "crest 3d whitestrips sensitive 14 pk teeth whitening kit": {
-      "originalName": "Crest 3D Whitestrips Sensitive 14-pk. teeth whitening kit.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_oral",
-      "descriptionZh": "牙膏，用于日常口腔清洁；按含氟量、敏感牙或美白需求选择。",
-      "authoredBy": "Codex",
-      "reviewStatus": "name_reviewed_image_pending",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391412/1782378412/extra_large.jpg"
-      }
     },
     "crunch pak apple slices": {
       "originalName": "Crunch Pak Apple Slices",
@@ -971,6 +909,19 @@
       "productNameZh": "蛋糕",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "dasani 24 pk purified water": {
+      "originalName": "Dasani 24-pk. purified water",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_water",
+      "descriptionZh": "软饮、气泡水、运动饮料或饮水调味液；请按原名确认是否含糖、是否含咖啡因和包装数量。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362900/1783109330/extra_large.jpg"
+      }
+    },
     "dave s killer bread organic bread": {
       "originalName": "Dave's Killer Bread Organic Bread",
       "categoryId": "bakery",
@@ -1048,6 +999,19 @@
       "productNameZh": "薯片或咸味脆片",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "donna s recipe sweet potato pie 6 oz extra creamy hair cream": {
+      "originalName": "Donna's Recipe Sweet Potato Pie 6-oz. extra creamy hair cream.",
+      "categoryId": "bakery",
+      "comparisonGroup": "bakery_pie",
+      "descriptionZh": "水果派，是带酥皮或派皮的烘焙甜点；可直接吃或稍加热，不应按新鲜水果比较。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362620/1783109317/extra_large.jpg"
+      }
+    },
     "doritos tortilla chips": {
       "originalName": "Doritos Tortilla Chips",
       "categoryId": "snacks",
@@ -1080,21 +1044,18 @@
       "productNameZh": "薯片与咸味零食",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "dove 30 6 oz antibacterial body wash": {
-      "originalName": "Dove 30.6-oz. antibacterial body wash.",
+    "dove advanced care 2 6 oz antiperspirant deodorant": {
+      "originalName": "Dove Advanced Care 2.6-oz. antiperspirant & deodorant",
       "categoryId": "personal",
       "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
+      "descriptionZh": "个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391410/1782378410/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362627/1783109321/extra_large.jpg"
+      }
     },
     "dove body wash": {
       "originalName": "Dove Body Wash",
@@ -1128,37 +1089,31 @@
       "productNameZh": "头发护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "e l f 1 oz gloss mode treatment hair oil": {
-      "originalName": "e.l.f. 1-oz. Gloss Mode Treatment hair oil.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_hair",
-      "descriptionZh": "头发护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
+    "dunkin 22 ct single serve coffee pods": {
+      "originalName": "Dunkin' 22 ct. single-serve coffee pods",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_coffee_tea",
+      "descriptionZh": "咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426967955/1783654557/extra_large.jpg"
-      },
-      "productNameZh": "头发护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/427648280/1784214242/extra_large.jpg"
+      }
     },
-    "finish powerball ultimate quantum 70 ct dishwasher detergent tabs": {
-      "originalName": "Finish Powerball Ultimate Quantum 70 ct. dishwasher detergent tabs.",
-      "categoryId": "household",
-      "comparisonGroup": "household_dishwasher",
-      "descriptionZh": "洗碗机用品。洗碗机专用洗涤块或洗涤剂；不能当作手洗洗洁精使用，也必须远离食品。",
+    "each select california roots 750ml wine": {
+      "originalName": "Each, Select California Roots 750mL wine.",
+      "categoryId": "alcohol",
+      "comparisonGroup": "drinks_wine",
+      "descriptionZh": "酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968511/1783654558/extra_large.jpg"
-      },
-      "productNameZh": "洗碗机用品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362852/1783109325/extra_large.jpg"
+      }
     },
     "folgers coffee": {
       "originalName": "Folgers Coffee",
@@ -1191,6 +1146,19 @@
       },
       "productNameZh": "冷冻披萨",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "fresh avocado": {
+      "originalName": "Fresh avocado.",
+      "categoryId": "fruit",
+      "comparisonGroup": "produce_avocado",
+      "descriptionZh": "牛油果（鳄梨），可直接拌沙拉、抹面包或做鳄梨酱；购买时注意软硬和成熟度。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362942/1783109326/extra_large.jpg"
+      }
     },
     "fresh banana each": {
       "originalName": "Fresh Banana, Each",
@@ -1304,38 +1272,6 @@
       "productNameZh": "糖果或巧克力",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "gillette labs body intimate men s razor": {
-      "originalName": "Gillette Labs Body + Intimate men's razor.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391407/1782378408/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "glade plugins 5 pk scented oil air freshener refills": {
-      "originalName": "Glade Plugins 5-pk. scented oil air freshener refills.",
-      "categoryId": "household",
-      "comparisonGroup": "household_other",
-      "descriptionZh": "其他家庭用品。家庭日用品；请按原名确认是空气清新剂还是洗衣篮，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968519/1783654563/extra_large.jpg"
-      },
-      "productNameZh": "其他家庭用品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
     "glazed mini croissants": {
       "originalName": "Glazed Mini Croissants†",
       "categoryId": "bakery",
@@ -1347,6 +1283,45 @@
       "evidence": {
         "originalNameReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426749878/1783514854/extra_large.jpg"
+      }
+    },
+    "good gather 52 oz pulp free orange juice": {
+      "originalName": "Good & Gather 52-oz. pulp-free orange juice.",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_juice",
+      "descriptionZh": "果汁或果汁饮料，可冷藏后直接饮用；“juice drink” 通常不是 100% 果汁，应查看含糖量。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648333/1784214245/extra_large.jpg"
+      }
+    },
+    "good gathertm 40 oz antioxidant frozen fruit blend": {
+      "originalName": "Good & Gather™ 40-oz. antioxidant frozen fruit blend.",
+      "categoryId": "produce_mixed",
+      "comparisonGroup": "produce_other",
+      "descriptionZh": "果蔬商品；原名未提供更细品种时，应结合商品图片确认具体果蔬，不能与不同品种直接比价。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648329/1784214241/extra_large.jpg"
+      }
+    },
+    "good gathertm 52 oz ultra filtered milk": {
+      "originalName": "Good & Gather™ 52-oz. ultra-filtered milk.",
+      "categoryId": "dairy",
+      "comparisonGroup": "dairy_other",
+      "descriptionZh": "牛奶、黄油或奶油类乳制品；请按原名确认具体形态，再用于饮用、抹面包、煎制或烘焙。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648262/1784214237/extra_large.jpg"
       }
     },
     "great value 100 whole wheat round top bread 20 oz": {
@@ -1746,6 +1721,19 @@
       "productNameZh": "熟制或裹粉鸡肉",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "honest kids 8 pk organic juice drinks": {
+      "originalName": "Honest Kids 8-pk. organic juice drinks",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_juice",
+      "descriptionZh": "果汁或果汁饮料，可冷藏后直接饮用；“juice drink” 通常不是 100% 果汁，应查看含糖量。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362794/1783109326/extra_large.jpg"
+      }
+    },
     "honey bourbon salmon burgers": {
       "originalName": "Honey Bourbon Salmon Burgers",
       "categoryId": "seafood",
@@ -1761,6 +1749,19 @@
       },
       "productNameZh": "三文鱼汉堡饼",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "hooray house golf clubs dog toy": {
+      "originalName": "Hooray House golf clubs dog toy",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362591/1783109321/extra_large.jpg"
+      }
     },
     "hormel black label bacon": {
       "originalName": "Hormel Black Label Bacon",
@@ -1810,21 +1811,18 @@
       "productNameZh": "黄瓜",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "huggies little movers 120 diaper pack": {
-      "originalName": "Huggies Little Movers 120-diaper pack.",
+    "huggies little snugglers 96 ct diapers": {
+      "originalName": "Huggies Little Snugglers 96-ct. diapers.",
       "categoryId": "baby",
       "comparisonGroup": "baby_diapers",
-      "descriptionZh": "纸尿裤。婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
+      "descriptionZh": "婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425581065/1782378408/extra_large.jpg"
-      },
-      "productNameZh": "纸尿裤",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362578/1783109315/extra_large.jpg"
+      }
     },
     "iams dry cat food": {
       "originalName": "Iams Dry Cat Food",
@@ -1841,6 +1839,19 @@
       },
       "productNameZh": "猫粮与猫零食",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "iams proactive health 18 ct 3 93 oz variety pack wet dog food": {
+      "originalName": "IAMS Proactive Health 18-ct, 3.93-oz. variety pack wet dog food.",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362600/1783109323/extra_large.jpg"
+      }
     },
     "j lohr seven oaks cabernet sauvignon wine": {
       "originalName": "J. Lohr Seven Oaks Cabernet Sauvignon Wine",
@@ -1922,6 +1933,19 @@
       "productNameZh": "咖啡",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "keurig k supreme single serve k cup coffeemaker": {
+      "originalName": "Keurig K-Supreme single-serve K-cup coffeemaker",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_coffee_tea",
+      "descriptionZh": "咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426363003/1783099114/extra_large.jpg"
+      }
+    },
     "keynote cabernet sauvignon wine": {
       "originalName": "Keynote Cabernet Sauvignon Wine",
       "categoryId": "alcohol",
@@ -1938,21 +1962,44 @@
       "productNameZh": "葡萄酒",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "kleenex ultra soft 4 pk 480 ct facial tissue": {
-      "originalName": "Kleenex Ultra Soft 4-pk. 480-ct. facial tissue.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
-      "descriptionZh": "纸品。抽取式面巾纸；适合日常清洁和擤鼻涕，比较时看盒数与总抽数。",
+    "kindfulltm rawhide free peanut butter flavored dog treat sticks": {
+      "originalName": "Kindfull™ rawhide-free peanut butter flavored dog treat sticks",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391499/1782378411/extra_large.jpg"
-      },
-      "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362586/1783109319/extra_large.jpg"
+      }
+    },
+    "kleenex ultra soft 6 pk facial tissue": {
+      "originalName": "Kleenex Ultra Soft 6-pk. facial tissue.",
+      "categoryId": "household",
+      "comparisonGroup": "household_paper",
+      "descriptionZh": "抽取式面巾纸；适合日常清洁和擤鼻涕，比较时看盒数与总抽数。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648348/1784214243/extra_large.jpg"
+      }
+    },
+    "kraft original 5 pk mac cheese": {
+      "originalName": "Kraft original 5-pk. mac & cheese.",
+      "categoryId": "pantry",
+      "comparisonGroup": "pantry_rice_pasta",
+      "descriptionZh": "芝士通心粉，是常温盒装主食，煮熟面后拌入芝士酱；类似奶酪味方便意面。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362748/1783109320/extra_large.jpg"
+      }
     },
     "kraft shredded cheese": {
       "originalName": "Kraft Shredded Cheese",
@@ -2146,21 +2193,18 @@
       "productNameZh": "葡萄酒",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "milk bone dc studios supergirl krypto 3 7 oz dog treats": {
-      "originalName": "Milk-Bone DC Studios Supergirl Krypto 3.7-oz. dog treats",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_dog",
-      "descriptionZh": "狗粮与狗零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+    "millie moon 120 ct luxury diapers": {
+      "originalName": "Millie Moon 120 ct. luxury diapers.",
+      "categoryId": "baby",
+      "comparisonGroup": "baby_diapers",
+      "descriptionZh": "婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391426/1782378412/extra_large.jpg"
-      },
-      "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426383622/1783109317/extra_large.jpg"
+      }
     },
     "mini fresh fruit tarts": {
       "originalName": "Mini Fresh Fruit Tarts",
@@ -2178,6 +2222,58 @@
       "productNameZh": "蛋糕与甜点",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "monster jam chomping megalodon rc vehicle": {
+      "originalName": "Monster Jam Chomping Megalodon RC vehicle",
+      "categoryId": "pantry",
+      "comparisonGroup": "pantry_spreads",
+      "descriptionZh": "花生酱或果酱，可抹面包、搭配早餐或用于烘焙；这是常温抹酱，不是新鲜水果或乳制品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648382/1784214247/extra_large.jpg"
+      }
+    },
+    "monster jam sparkle smash remote vehicle": {
+      "originalName": "Monster Jam Sparkle Smash Remote Vehicle",
+      "categoryId": "pantry",
+      "comparisonGroup": "pantry_spreads",
+      "descriptionZh": "花生酱或果酱，可抹面包、搭配早餐或用于烘焙；这是常温抹酱，不是新鲜水果或乳制品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648383/1784214248/extra_large.jpg"
+      }
+    },
+    "monster jam speed chargers play set": {
+      "originalName": "Monster Jam Speed Chargers play set",
+      "categoryId": "pantry",
+      "comparisonGroup": "pantry_spreads",
+      "descriptionZh": "花生酱或果酱，可抹面包、搭配早餐或用于烘焙；这是常温抹酱，不是新鲜水果或乳制品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648381/1784214245/extra_large.jpg"
+      }
+    },
+    "moon juice magnesi om": {
+      "originalName": "Moon Juice Magnesi-Om",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_juice",
+      "descriptionZh": "果汁或果汁饮料，可冷藏后直接饮用；“juice drink” 通常不是 100% 果汁，应查看含糖量。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648358/1784214243/extra_large.jpg"
+      }
+    },
     "nabisco family size snack crackers": {
       "originalName": "Nabisco Family Size Snack Crackers",
       "categoryId": "snacks",
@@ -2192,38 +2288,6 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529349/1783380485/extra_large.jpg"
       },
       "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "native 1 oz dry shampoo": {
-      "originalName": "Native 1-oz. dry shampoo.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_hair",
-      "descriptionZh": "头发护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426967958/1783654558/extra_large.jpg"
-      },
-      "productNameZh": "头发护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "native 18 oz cashmere rain body wash": {
-      "originalName": "Native 18-oz. cashmere & rain body wash.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391406/1782378407/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "nerds or spree candy": {
@@ -2289,19 +2353,6 @@
       },
       "productNameZh": "酸奶",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "old spice legacy men s antiperspirant spray": {
-      "originalName": "Old Spice Legacy men's antiperspirant spray",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "name_reviewed_image_pending",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391409/1782378410/extra_large.jpg"
-      }
     },
     "oreo cakesters ritz bits ritz crackers or newtons": {
       "originalName": "Oreo Cakesters, Ritz Bits , Ritz Crackers, or Newtons",
@@ -2383,6 +2434,19 @@
       "productNameZh": "冰淇淋与冰棒",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
+    "oxiclean white revive 5 lb laundry whitener stain remover powder": {
+      "originalName": "OxiClean White Revive 5-lb. laundry whitener & stain remover powder.",
+      "categoryId": "household",
+      "comparisonGroup": "household_laundry",
+      "descriptionZh": "洗衣液或洗衣凝珠，用于机洗衣物；不是食品，应按洗衣量和包装说明投放。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648352/1784214247/extra_large.jpg"
+      }
+    },
     "p f chang s home menu mini egg rolls dumplings or rice": {
       "originalName": "P.F. Chang's Home Menu Mini Egg Rolls, Dumplings, or Rice",
       "categoryId": "frozen",
@@ -2398,35 +2462,6 @@
       },
       "productNameZh": "鸡蛋",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "pampers amore 108 diapers": {
-      "originalName": "Pampers Amore 108-diapers",
-      "categoryId": "baby",
-      "comparisonGroup": "baby_diapers",
-      "descriptionZh": "纸尿裤。婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425581066/1782378409/extra_large.jpg"
-      },
-      "productNameZh": "纸尿裤",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "parasol rashshield protection 52 diapers": {
-      "originalName": "Parasol RashShield® Protection 52-diapers",
-      "categoryId": "baby",
-      "comparisonGroup": "baby_diapers",
-      "descriptionZh": "婴儿纸尿裤；应按体重、尺码、吸收需求和每片价格选择。",
-      "authoredBy": "Codex",
-      "reviewStatus": "name_reviewed_image_pending",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425581064/1782378407/extra_large.jpg"
-      }
     },
     "peet s coffee": {
       "originalName": "Peet's Coffee",
@@ -3193,21 +3228,18 @@
       "productNameZh": "纸品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "purina friskies extra gravy chunky 24 ct variety pack wet cat food": {
-      "originalName": "Purina friskies extra gravy chunky 24-ct. variety pack wet cat food.",
+    "purina fancy feast 30 ct 3 oz variety pack wet cat food": {
+      "originalName": "Purina Fancy Feast 30-ct. 3-oz. variety pack wet cat food",
       "categoryId": "pet",
       "comparisonGroup": "pet_cat",
-      "descriptionZh": "猫粮与猫零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391424/1782378412/extra_large.jpg"
-      },
-      "productNameZh": "猫粮与猫零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362597/1783109322/extra_large.jpg"
+      }
     },
     "quilted northern bath tissue": {
       "originalName": "Quilted Northern Bath Tissue",
@@ -3224,6 +3256,19 @@
       },
       "productNameZh": "纸品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "rachael ray nutrish 13 lb dry dog food": {
+      "originalName": "Rachael Ray Nutrish 13-lb. dry dog food.",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362584/1783109317/extra_large.jpg"
+      }
     },
     "ranch style beans": {
       "originalName": "Ranch Style Beans",
@@ -3321,22 +3366,6 @@
       "productNameZh": "米饭与意面",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "ricola 40 ct lemon lime mint dry mouth relief lozenges": {
-      "originalName": "Ricola 40 ct. lemon, lime & mint dry-mouth-relief lozenges",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_other",
-      "descriptionZh": "其他个人护理。含片或润喉糖，用于缓解口干或咽喉不适；应按包装用量使用，不是新鲜水果。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391396/1782378409/extra_large.jpg"
-      },
-      "productNameZh": "其他个人护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
     "rockit or kiku medium apples": {
       "originalName": "Rockit or Kiku Medium Apples",
       "categoryId": "fruit",
@@ -3353,37 +3382,18 @@
       "productNameZh": "苹果",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "sale bubbl r 6 pk sparkling water": {
-      "originalName": "SALE BUBBL'R 6-pk. sparkling water.",
-      "categoryId": "drinks",
-      "comparisonGroup": "drinks_water",
-      "descriptionZh": "饮用水或气泡水。软饮、气泡水、运动饮料或饮水调味液；请按原名确认是否含糖、是否含咖啡因和包装数量。",
+    "sale select oscar mayer deli fresh lunch meat": {
+      "originalName": "Sale Select Oscar Mayer Deli Fresh lunch meat",
+      "categoryId": "fresh_meat",
+      "comparisonGroup": "meat_other",
+      "descriptionZh": "肉类商品；请按原名确认动物种类、部位、是否带骨和是否熟制，再选择煎炒、炖或烤。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391485/1782378411/extra_large.jpg"
-      },
-      "productNameZh": "饮用水或气泡水",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "sale select lay s lay s kettle simply smartfood cantina snacks": {
-      "originalName": "Sale Select Lay's, Lay's Kettle, Simply, Smartfood & Cantina snacks",
-      "categoryId": "snacks",
-      "comparisonGroup": "snacks_other",
-      "descriptionZh": "其他零食。综合零食或能量棒，可随身即食；应按原名确认是坚果棒、蛋白棒还是混合零食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391562/1782378416/extra_large.jpg"
-      },
-      "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362838/1783109325/extra_large.jpg"
+      }
     },
     "sargento cheese": {
       "originalName": "Sargento Cheese",
@@ -3417,53 +3427,148 @@
       "productNameZh": "奶酪",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "secret clinical 2 6 oz women s antiperspirant deodorant": {
-      "originalName": "Secret Clinical 2.6-oz. women's antiperspirant deodorant",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
+    "select 12 pk craft beer": {
+      "originalName": "Select 12-pk. craft beer.",
+      "categoryId": "alcohol",
+      "comparisonGroup": "drinks_beer",
+      "descriptionZh": "酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391411/1782378411/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362948/1783109331/extra_large.jpg"
+      }
     },
-    "select cheez it snacks": {
-      "originalName": "Select Cheez-It snacks",
-      "categoryId": "snacks",
-      "comparisonGroup": "snacks_savory",
-      "descriptionZh": "薯片与咸味零食。咸味脆零食，如薯片、脆饼或椒盐卷饼，开袋即食；比较时看口味和包装净重。",
+    "select ben jerry s ice cream frozen treats": {
+      "originalName": "Select Ben & Jerry's ice cream & frozen treats",
+      "categoryId": "frozen",
+      "comparisonGroup": "frozen_ice_cream",
+      "descriptionZh": "冰淇淋，冷冻甜品，开盒即食；比较时需同时看容量、乳脂和口味。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391558/1782378415/extra_large.jpg"
-      },
-      "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/427648328/1784214240/extra_large.jpg"
+      }
     },
-    "select frito lay party size snacks dips": {
-      "originalName": "Select Frito-Lay party-size snacks & dips",
+    "select chomps meat sticks": {
+      "originalName": "Select Chomps meat sticks",
+      "categoryId": "deli_prepared",
+      "comparisonGroup": "meat_sticks",
+      "descriptionZh": "香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648330/1784214241/extra_large.jpg"
+      }
+    },
+    "select dave s killer bread bagels": {
+      "originalName": "Select Dave's Killer Bread bagels",
+      "categoryId": "bakery",
+      "comparisonGroup": "bakery_bread",
+      "descriptionZh": "面包或烘焙点心，可作早餐或甜点；购买时按原名确认口味、是否夹馅和包装大小。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362840/1783109326/extra_large.jpg"
+      }
+    },
+    "select doritos cheetos lay s baked more snacks dips": {
+      "originalName": "Select Doritos, Cheetos, Lay's Baked & more snacks & dips",
       "categoryId": "snacks",
       "comparisonGroup": "snacks_other",
-      "descriptionZh": "其他零食。综合零食或能量棒，可随身即食；应按原名确认是坚果棒、蛋白棒还是混合零食。",
+      "descriptionZh": "综合零食或能量棒，可随身即食；应按原名确认是坚果棒、蛋白棒还是混合零食。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391551/1782378412/extra_large.jpg"
-      },
-      "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362941/1783109326/extra_large.jpg"
+      }
+    },
+    "select dunkin bagged coffee": {
+      "originalName": "Select Dunkin' bagged coffee",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_coffee_tea",
+      "descriptionZh": "咖啡或茶；咖啡豆/粉需冲煮，K-Cup 需胶囊机，冷萃咖啡通常可直接冷饮。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648272/1784214240/extra_large.jpg"
+      }
+    },
+    "select general mills family size cereal": {
+      "originalName": "Select General Mills family-size cereal",
+      "categoryId": "pantry",
+      "comparisonGroup": "pantry_cereal",
+      "descriptionZh": "早餐谷物或燕麦片，通常加牛奶或酸奶食用；注意含糖量与包装净重。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648284/1784214242/extra_large.jpg"
+      }
+    },
+    "select good gathertm bagged salad kits": {
+      "originalName": "Select Good & Gather™ bagged salad kits",
+      "categoryId": "vegetables",
+      "comparisonGroup": "produce_prepared_salad",
+      "descriptionZh": "预制或混合沙拉菜，通常开袋后拌食；注意是否含酱料、配料包及保鲜期。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362779/1783109324/extra_large.jpg"
+      }
+    },
+    "select izzio sourdough bread": {
+      "originalName": "Select Izzio sourdough bread",
+      "categoryId": "bakery",
+      "comparisonGroup": "bakery_bread",
+      "descriptionZh": "面包或烘焙点心，可作早餐或甜点；购买时按原名确认口味、是否夹馅和包装大小。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362834/1783109324/extra_large.jpg"
+      }
+    },
+    "select kim crawford 750ml wine": {
+      "originalName": "Select Kim Crawford 750mL wine",
+      "categoryId": "alcohol",
+      "comparisonGroup": "drinks_wine",
+      "descriptionZh": "酒精饮料，仅供达到当地法定饮酒年龄者；请按原名确认啤酒或葡萄酒类型与包装数量。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362870/1783109329/extra_large.jpg"
+      }
+    },
+    "select kodiak muffin power cups": {
+      "originalName": "Select Kodiak muffin power cups",
+      "categoryId": "bakery",
+      "comparisonGroup": "bakery_other",
+      "descriptionZh": "面包或烘焙点心，可作早餐或甜点；购买时按原名确认口味、是否夹馅和包装大小。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648276/1784214241/extra_large.jpg"
+      }
     },
     "select pepsi mountain dew more 12 pk soda": {
       "originalName": "Select Pepsi, Mountain Dew & more 12-pk. soda",
@@ -3481,37 +3586,70 @@
       "productNameZh": "软饮与运动饮料",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "select takis variety pack snacks": {
-      "originalName": "Select Takis variety pack snacks",
-      "categoryId": "snacks",
-      "comparisonGroup": "snacks_savory",
-      "descriptionZh": "薯片与咸味零食。咸味脆零食，如薯片、脆饼或椒盐卷饼，开袋即食；比较时看口味和包装净重。",
+    "select sargento cheese snacks balanced breaks": {
+      "originalName": "Select Sargento cheese snacks & Balanced Breaks",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_portioned",
+      "descriptionZh": "奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391554/1782378413/extra_large.jpg"
-      },
-      "productNameZh": "薯片与咸味零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362781/1783109325/extra_large.jpg"
+      }
     },
-    "sensodyne 4 oz extra whitening toothpaste": {
-      "originalName": "Sensodyne 4-oz. extra whitening toothpaste.",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_oral",
-      "descriptionZh": "口腔护理。牙膏，用于日常口腔清洁；按含氟量、敏感牙或美白需求选择。",
+    "select starkist tuna pouches": {
+      "originalName": "Select StarKist tuna pouches",
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_tuna_canned",
+      "descriptionZh": "金枪鱼或剑鱼；鲜鱼排适合煎烤，罐装金枪鱼可拌沙拉或夹三明治。",
       "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
+      "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391408/1782378409/extra_large.jpg"
-      },
-      "productNameZh": "口腔护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+        "imageUrl": "https://f.wishabi.net/page_items/426362940/1783109325/extra_large.jpg"
+      }
+    },
+    "select wood river creamery cheese": {
+      "originalName": "Select Wood River Creamery cheese",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_table",
+      "descriptionZh": "奶酪；切片款适合三明治，刨丝款适合焗烤，奶酪棒可作零食，具体风味按原名品种确认。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362836/1783109325/extra_large.jpg"
+      }
+    },
+    "seventh generation free clear 90 oz liquid laundry detergent": {
+      "originalName": "Seventh Generation Free & Clear 90-oz. liquid laundry detergent.",
+      "categoryId": "household",
+      "comparisonGroup": "household_laundry",
+      "descriptionZh": "洗衣液或洗衣凝珠，用于机洗衣物；不是食品，应按洗衣量和包装说明投放。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648316/1784214246/extra_large.jpg"
+      }
+    },
+    "silk 64 oz almond milk": {
+      "originalName": "Silk 64-oz. almond milk",
+      "categoryId": "dairy",
+      "comparisonGroup": "dairy_other",
+      "descriptionZh": "牛奶、黄油或奶油类乳制品；请按原名确认具体形态，再用于饮用、抹面包、煎制或烘焙。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648266/1784214238/extra_large.jpg"
+      }
     },
     "simple truth organic 85 lean ground beef": {
       "originalName": "Simple Truth Organic 85% Lean Ground Beef",
@@ -3576,6 +3714,19 @@
       },
       "productNameZh": "薯片与咸味零食",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "skippy 40 oz peanut butter": {
+      "originalName": "Skippy 40-oz. peanut butter.",
+      "categoryId": "pantry",
+      "comparisonGroup": "pantry_spreads",
+      "descriptionZh": "花生酱或果酱，可抹面包、搭配早餐或用于烘焙；这是常温抹酱，不是新鲜水果或乳制品。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362939/1783109325/extra_large.jpg"
+      }
     },
     "small apple pie": {
       "originalName": "Small Apple Pie",
@@ -3673,22 +3824,6 @@
       "productNameZh": "香肠",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "snacks": {
-      "originalName": "Snacks",
-      "categoryId": "snacks",
-      "comparisonGroup": "snacks_other",
-      "descriptionZh": "其他零食。综合零食或能量棒，可随身即食；应按原名确认是坚果棒、蛋白棒还是混合零食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391267/1782378403/extra_large.jpg"
-      },
-      "productNameZh": "其他零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
     "snapple tea": {
       "originalName": "Snapple Tea",
       "categoryId": "drinks",
@@ -3720,6 +3855,32 @@
       },
       "productNameZh": "鸡胸肉",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "springland 20 oz flip travel dog water bottle": {
+      "originalName": "Springland 20-oz. flip travel dog water bottle",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362590/1783109320/extra_large.jpg"
+      }
+    },
+    "springland freeze your own dog treat bowl": {
+      "originalName": "Springland freeze-your-own dog treat bowl.",
+      "categoryId": "pet",
+      "comparisonGroup": "pet_dog",
+      "descriptionZh": "宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362580/1783109315/extra_large.jpg"
+      }
     },
     "starbucks coffee": {
       "originalName": "Starbucks Coffee",
@@ -3846,22 +4007,6 @@
       "productNameZh": "三文鱼",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "tide free gentle 132 oz liquid laundry detergent": {
-      "originalName": "Tide Free & Gentle 132-oz. liquid laundry detergent",
-      "categoryId": "household",
-      "comparisonGroup": "household_laundry",
-      "descriptionZh": "洗衣用品。洗衣液或洗衣凝珠，用于机洗衣物；不是食品，应按洗衣量和包装说明投放。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968507/1783654556/extra_large.jpg"
-      },
-      "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
     "tide or gain laundry detergent": {
       "originalName": "Tide or Gain Laundry Detergent",
       "categoryId": "household",
@@ -3874,38 +4019,6 @@
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426751848/1783514870/extra_large.jpg"
-      },
-      "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "tide original 125 oz liquid laundry detergent": {
-      "originalName": "Tide Original 125-oz. liquid laundry detergent",
-      "categoryId": "household",
-      "comparisonGroup": "household_laundry",
-      "descriptionZh": "洗衣用品。洗衣液或洗衣凝珠，用于机洗衣物；不是食品，应按洗衣量和包装说明投放。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968505/1783654555/extra_large.jpg"
-      },
-      "productNameZh": "洗衣用品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "tide power pods oxi boost 45 ct laundry detergent pods": {
-      "originalName": "Tide Power Pods Oxi Boost 45-ct. laundry detergent pods.",
-      "categoryId": "household",
-      "comparisonGroup": "household_laundry",
-      "descriptionZh": "洗衣用品。洗衣液或洗衣凝珠，用于机洗衣物；不是食品，应按洗衣量和包装说明投放。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391402/1782378412/extra_large.jpg"
       },
       "productNameZh": "洗衣用品",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
@@ -3970,22 +4083,6 @@
         "originalNameReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/426822692/1783514804/extra_large.jpg"
       }
-    },
-    "tree hut x lisa frank 18 oz sugar sky shea sugar body scrub": {
-      "originalName": "Tree Hut x Lisa Frank 18-oz. Sugar Sky shea sugar body scrub",
-      "categoryId": "personal",
-      "comparisonGroup": "personal_body",
-      "descriptionZh": "身体与剃刮护理。个人洗护用品；请按原名确认是清洁、剃刮、除味还是护发产品，不是食品。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391362/1782378412/extra_large.jpg"
-      },
-      "productNameZh": "身体与剃刮护理",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "tree ripened peaches or nectarines": {
       "originalName": "Tree-Ripened Peaches or Nectarines",
@@ -4099,50 +4196,18 @@
       "productNameZh": "其他肉类",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "up up 6 pk triple roll paper towels": {
-      "originalName": "up&up 6-pk. triple-roll paper towels.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
-      "descriptionZh": "纸品。厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391501/1782378413/extra_large.jpg"
-      },
-      "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "up up soft strong 18 pk toilet paper": {
-      "originalName": "up&up soft & strong 18-pk. toilet paper.",
-      "categoryId": "household",
-      "comparisonGroup": "household_other",
-      "descriptionZh": "卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
+    "up uptm 108 ct cherry ice mini nicotine lozenges": {
+      "originalName": "up&up™ 108 ct. cherry ice mini nicotine lozenges",
+      "categoryId": "personal",
+      "comparisonGroup": "personal_other",
+      "descriptionZh": "含片或润喉糖，用于缓解口干或咽喉不适；应按包装用量使用，不是新鲜水果。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425581281/1782378414/extra_large.jpg"
+        "imageUrl": "https://f.wishabi.net/page_items/427648354/1784214240/extra_large.jpg"
       }
-    },
-    "up uptm ultra soft 4 pk limited edition facial tissue": {
-      "originalName": "up&up™ ultra soft 4-pk. limited-edition facial tissue.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
-      "descriptionZh": "纸品。抽取式面巾纸；适合日常清洁和擤鼻涕，比较时看盒数与总抽数。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/426968509/1783654557/extra_large.jpg"
-      },
-      "productNameZh": "纸品",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
     "urgency cabernet sauvignon wine": {
       "originalName": "Urgency Cabernet Sauvignon Wine",
@@ -4191,6 +4256,32 @@
       },
       "productNameZh": "洋葱",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "viva signature cloth 6 pk triple roll paper towels": {
+      "originalName": "Viva Signature Cloth 6-pk. triple-roll paper towels.",
+      "categoryId": "household",
+      "comparisonGroup": "household_paper",
+      "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/427648349/1784214244/extra_large.jpg"
+      }
+    },
+    "waterloo 8 pk sparkling water": {
+      "originalName": "Waterloo 8-pk. sparkling water",
+      "categoryId": "drinks",
+      "comparisonGroup": "drinks_water",
+      "descriptionZh": "软饮、气泡水、运动饮料或饮水调味液；请按原名确认是否含糖、是否含咖啡因和包装数量。",
+      "authoredBy": "Codex",
+      "reviewStatus": "name_reviewed_image_pending",
+      "imageReviewed": false,
+      "evidence": {
+        "originalNameReviewed": true,
+        "imageUrl": "https://f.wishabi.net/page_items/426362814/1783109327/extra_large.jpg"
+      }
     },
     "welch s concord grape jam or jelly": {
       "originalName": "Welch's Concord Grape Jam or Jelly",
@@ -4270,54 +4361,6 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529352/1783380487/extra_large.jpg"
       },
       "productNameZh": "酸奶",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "zuke s acadia 6 oz mini naturals dog treats": {
-      "originalName": "Zuke's Acadia 6-oz. mini naturals dog treats.",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_dog",
-      "descriptionZh": "狗粮与狗零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391416/1782378407/extra_large.jpg"
-      },
-      "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "zuke s sequoia 6 oz trail mix dog treats": {
-      "originalName": "Zuke's Sequoia 6-oz. trail mix dog treats",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_dog",
-      "descriptionZh": "狗粮与狗零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391422/1782378410/extra_large.jpg"
-      },
-      "productNameZh": "狗粮与狗零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
-    },
-    "zuke s shenandoah 6 oz adventure sticks dog treats": {
-      "originalName": "Zuke's Shenandoah 6-oz. adventure sticks dog treats",
-      "categoryId": "pet",
-      "comparisonGroup": "pet_dog",
-      "descriptionZh": "狗粮与狗零食。宠物食品或零食；请按原名确认适用犬猫、口味、净重和喂食量，不是人食。",
-      "authoredBy": "Codex",
-      "reviewStatus": "codex_name_and_description_reviewed",
-      "imageReviewed": false,
-      "evidence": {
-        "originalNameReviewed": true,
-        "originalDescriptionReviewed": true,
-        "imageUrl": "https://f.wishabi.net/page_items/425391420/1782378409/extra_large.jpg"
-      },
-      "productNameZh": "狗粮与狗零食",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     }
   }
