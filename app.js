@@ -1269,18 +1269,17 @@ function searchView() {
   const allResults = !query ? [] : all.filter(o => [o.productNameZh, o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
   const results = filterOffersByStore(allResults);
   const input = el('input', { class: 'search-input', value: state.search, placeholder: '输入中文、丹麦文或英文商品名……', type: 'search' });
+  let timer;
   input.addEventListener('input', e => {
     state.search = e.target.value;
     const p = new URLSearchParams({ view: 'search' });
     if (state.search) p.set('q', state.search);
     if (state.storeFilter) p.set('store', state.storeFilter);
     history.replaceState(null, '', `#${p}`);
-    render();
-    requestAnimationFrame(() => {
-      const again = document.querySelector('.search-input');
-      if (again) { again.focus(); again.setSelectionRange(state.search.length, state.search.length); }
-    });
+    clearTimeout(timer);
+    timer = setTimeout(render, 280);
   });
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') { clearTimeout(timer); render(); } });
   return el('main', { class: 'content' }, [
     el('div', { class: 'search-panel' }, [input, el('p', { class: 'search-hint' }, '同时搜索商品原名、中文解释、商店名称。中文解释不会折叠。')]),
     query ? storeFilterBar(allResults) : null,
