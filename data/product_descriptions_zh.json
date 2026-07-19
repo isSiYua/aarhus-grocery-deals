@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T21:05:48.557Z",
+  "updatedAt": "2026-07-19T07:21:21.170Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
@@ -258,8 +258,8 @@
       }
     },
     "v1|al fez blue dragon go tan eller patak s|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "亚洲或印度咖喱酱料套装",
+      "descriptionZh": "亚洲或印度咖喱酱料套装。Al’Fez（摩洛哥风味）、Blue Dragon（亚洲风味）、Go-Tan（亚洲风味）或 Patak’s（印度风味）品牌的酱料、腌料或烹饪套装，搭配肉类或蔬菜烹制。",
       "originalName": "Al’Fez, Blue Dragon, Go-Tan eller Patak’s",
       "originalDescription": "11-500 g/ 150-500 ml. Flere varianter. Pr. kg max. 2727,27 /pr. liter max. 200,-",
       "categoryId": "frozen_ready",
@@ -267,7 +267,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -654,8 +654,8 @@
       }
     },
     "v1|andoni pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "Andoni 冷冻披萨",
+      "descriptionZh": "Andoni 品牌冷冻披萨，薄底或厚底比萨饼，烤箱或空气炸锅烤制后食用。",
       "originalName": "Andoni pizza",
       "originalDescription": "SPOT Dyb-frost 330-390 g. Pr. kg max. 57,58",
       "categoryId": "frozen_ready",
@@ -663,7 +663,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2796,8 +2796,8 @@
       }
     },
     "v1|coop asiatisk marked|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "亚洲风味速食餐",
+      "descriptionZh": "亚洲风味速食餐，含酱料包和配菜的亚洲风味套餐，通常加热后即可食用。原名 asiatisk marked 指亚洲风味速食系列，不是生鲜食材。",
       "originalName": "Coop asiatisk marked",
       "originalDescription": "Flere varianter. 14-500 g./150-495 ml. Kg-pris maks. 1000,00./Literpris maks. 93,33. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -2805,7 +2805,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2833,7 +2833,7 @@
     },
     "v1|coop biksemad chicken tandoori eller bami goreng|ready_meal": {
       "productNameZh": "丹麦土豆肉丁杂烩",
-      "descriptionZh": "丹麦土豆肉丁杂烩。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "descriptionZh": "丹麦土豆肉丁（biksemad）、印度烤鸡（chicken tandoori）或印尼炒面（bami goreng），三种方便餐任选其一，加热即食。",
       "originalName": "Coop biksemad, chicken tandoori eller bami goreng",
       "originalDescription": "Dybfrost. 400-500 g. Kg-pris maks. 50,00. Frit valg. 1 pose",
       "categoryId": "frozen_ready",
@@ -2841,7 +2841,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3012,8 +3012,8 @@
       }
     },
     "v1|coop grande eller ristorante pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "Coop Grande 或 Ristorante 冷冻披萨",
+      "descriptionZh": "Coop Grande 或 Ristorante 品牌冷冻披萨，意式风味比萨饼，烤箱加热后食用。",
       "originalName": "Coop Grande eller Ristorante pizza",
       "originalDescription": "Dybfrost. 570-680 g. Kg-pris maks. 61,40. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -3021,7 +3021,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3174,8 +3174,8 @@
       }
     },
     "v1|coop italiana eller deep pan pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "Coop Italiana 或 Deep Pan 冷冻披萨",
+      "descriptionZh": "Coop Italiana 或 Deep Pan 品牌冷冻披萨，厚底或经典比萨饼，烤箱加热后食用。",
       "originalName": "Coop Italiana eller Deep pan pizza",
       "originalDescription": "Dybfrost. Flere varianter. 300-435 g. Kg-pris maks. 80,00. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -3183,7 +3183,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3282,8 +3282,8 @@
       }
     },
     "v1|coop polsehorn eller focaccia med pepperoni|ready_meal": {
-      "productNameZh": "佛卡夏面包",
-      "descriptionZh": "佛卡夏面包。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "香肠卷或意式辣肠佛卡夏",
+      "descriptionZh": "香肠卷（pølsehorn）或意大利辣肠佛卡夏（focaccia med pepperoni），烤箱加热后食用。pølsehorn 是丹麦传统酥皮香肠包。",
       "originalName": "Coop pølsehorn eller focaccia med pepperoni",
       "originalDescription": "Dybfrost. 400-480 g. Kg-pris maks. 62,50. Frit valg. 1 pose.",
       "categoryId": "frozen_ready",
@@ -3291,7 +3291,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4146,8 +4146,8 @@
       }
     },
     "v1|deli pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "熟食区新鲜披萨",
+      "descriptionZh": "熟食区新鲜披萨（Deli pizza），超市面包房或熟食柜现做披萨，直接烘烤后食用。",
       "originalName": "Deli pizza",
       "originalDescription": "550 g. Kg-pris maks. 100,00. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -4155,7 +4155,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4470,8 +4470,8 @@
       }
     },
     "v1|dr oetker suprema pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "Dr. Oetker Suprema 冷冻披萨",
+      "descriptionZh": "Dr. Oetker Suprema 品牌冷冻披萨，经典德式比萨饼，烤箱加热后外脆内软。",
       "originalName": "Dr. Oetker Suprema pizza",
       "originalDescription": "487-520 g. Pr. kg max. 100,62",
       "categoryId": "frozen_ready",
@@ -4479,7 +4479,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5028,8 +5028,8 @@
       }
     },
     "v1|food collective familleret|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Food Collective 家庭号预制菜",
+      "descriptionZh": "Food Collective 品牌家庭号预制菜（familleret），大份量冷冻套餐，适合全家食用。",
       "originalName": "Food Collective familleret*",
       "originalDescription": "800-950 g. Kg-pris maks. 36,84. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -5037,7 +5037,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5119,7 +5119,7 @@
     },
     "v1|fransk hotdog|ready_meal": {
       "productNameZh": "法式热狗",
-      "descriptionZh": "法式热狗。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "descriptionZh": "法式热狗（Fransk hotdog），在长形热狗面包中夹入香肠并挤上酱料，烤箱加热后食用。",
       "originalName": "Fransk hotdog",
       "originalDescription": "... den perfekte snack Vælg mellem GRILLPØLSE • 77% kød GRILLPØLSE MED OST • 74% kød • 7% cheddar ost GRILLPØLSE MED CHORIZO • 79% kød • Spansk chorizo 2 STK. Stort udvalg af dressinger",
       "categoryId": "frozen_ready",
@@ -5127,7 +5127,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5370,8 +5370,8 @@
       }
     },
     "v1|frostmarked|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "冷冻方便餐",
+      "descriptionZh": "冷冻方便餐（frostmarked），已预先烹制的冷冻餐食，用烤箱或微波炉加热后即可食用。",
       "originalName": "Frostmarked",
       "originalDescription": "300-400 g. Flere varianter. Pr. kg max. 130,- plus pris Pr. kg max. 116,67 Gælder kun med føtex plus appen",
       "categoryId": "frozen_ready",
@@ -5379,7 +5379,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7098,8 +7098,8 @@
       }
     },
     "v1|italiamo pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "Italiamo 冷冻披萨",
+      "descriptionZh": "Italiamo 品牌冷冻披萨，意大利风味比萨饼，烤箱或空气炸锅烤制后食用。",
       "originalName": "ITALIAMO Pizza",
       "originalDescription": "346-400 g / stk. Pr. kg maks. 63,44",
       "categoryId": "frozen_ready",
@@ -7107,7 +7107,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7962,8 +7962,8 @@
       }
     },
     "v1|kitchen joy pollo alla siciliana faerdigret|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Kitchen Joy 西西里风味鸡肉饭",
+      "descriptionZh": "Kitchen Joy 品牌西西里风味鸡肉预制菜（Pollo Alla Siciliana），意式番茄香草鸡肉搭配配菜，微波炉加热即食。",
       "originalName": "Kitchen Joy Pollo Alla Siciliana færdigret",
       "originalDescription": "Nøglehulsmærket middelhavsinspireret færdigret med bygkerner, tomatsovs, aubergine og kylling. 400 g. Pr. kg 87,38",
       "categoryId": "frozen_ready",
@@ -7971,7 +7971,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7980,8 +7980,8 @@
       }
     },
     "v1|kitchen joy polpette con orzotto faerdigret|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Kitchen Joy 大麦炖肉丸",
+      "descriptionZh": "Kitchen Joy 品牌意式肉丸大麦饭（Polpette Con Orzotto），肉丸搭配大麦和蔬菜的预制菜，微波炉加热即食。",
       "originalName": "Kitchen Joy Polpette Con Orzotto færdigret",
       "originalDescription": "Nøglehulsmærket middelhavsinspireret færdigret med tomatsovs, bulgur, bønner og kyllingekødboller. 400 g. Pr. kg 87,38",
       "categoryId": "frozen_ready",
@@ -7989,7 +7989,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8160,8 +8160,8 @@
       }
     },
     "v1|knorr dinner kit|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Knorr 方便餐料理包",
+      "descriptionZh": "Knorr 品牌方便餐料理包，含酱料或调味料的快手晚餐套装，通常搭配肉类或意面加热烹制。",
       "originalName": "Knorr dinner kit",
       "originalDescription": "198-321 g. Flere varianter. Pr. kg max. 101,01",
       "categoryId": "frozen_ready",
@@ -8169,7 +8169,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11958,8 +11958,8 @@
       }
     },
     "v1|naemt to og server|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "解冻即食方便餐",
+      "descriptionZh": "解冻即食方便餐（Næmt tø og server，意为方便解冻后上桌），冷冻预制菜，加热后食用。",
       "originalName": "Næmt tø og server",
       "originalDescription": "SPOT Dyb-frost 320-400 g. Pr. kg max. 78,13",
       "categoryId": "frozen_ready",
@@ -11967,7 +11967,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12030,8 +12030,8 @@
       }
     },
     "v1|naturli middagskomponenter|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Naturli’ 植物基晚餐组件",
+      "descriptionZh": "Naturli’ 品牌植物基晚餐组件，素食植物蛋白制品，通常为肉末替代品或素肉饼形式，煎或烤后食用。",
       "originalName": "Naturli’ middagskomponenter",
       "originalDescription": "180-350 g. Flere varianter. Pr. kg max. 177,78",
       "categoryId": "frozen_ready",
@@ -12039,7 +12039,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12444,8 +12444,8 @@
       }
     },
     "v1|noglehulsret|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
+      "productNameZh": "Nøglehulsmærket 健康方便餐",
+      "descriptionZh": "Nøglehulsmærket（钥匙孔标志）认证健康方便餐，符合丹麦低糖、低脂、高纤维标准，通常为冷藏或冷冻预制菜。",
       "originalName": "Nøglehulsret",
       "originalDescription": "Få færdigretter med Nøglehullet. Mexicansk risret med kylling og fuldkornsris. Laks med pestovendte kartofler og grøntsager. Kyllingespyd med pestovendte kartofler og grøntsager. Pr. stk. 49,-",
       "categoryId": "frozen_ready",
@@ -12453,7 +12453,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12606,8 +12606,8 @@
       }
     },
     "v1|nostja kroatisk gryderet|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "克罗地亚风味炖菜",
+      "descriptionZh": "NOSTJA 品牌克罗地亚风味炖菜（gryderet），传统巴尔干风格的肉类炖菜，通常搭配面包或土豆食用。",
       "originalName": "NOSTJA Kroatisk gryderet",
       "originalDescription": "850 ml. Pr. liter 29,41 Spot¹",
       "categoryId": "frozen_ready",
@@ -12615,7 +12615,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13560,8 +13560,8 @@
       }
     },
     "v1|panini med skinke og ost|ready_meal": {
-      "productNameZh": "奶酪",
-      "descriptionZh": "奶酪。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "火腿芝士帕尼尼",
+      "descriptionZh": "火腿芝士帕尼尼（Panini med skinke og ost），意式热压三明治，内含火腿和芝士，用烤箱或帕尼尼机加热后外脆内软。",
       "originalName": "Panini med skinke og ost",
       "originalDescription": "160 g. Pr. kg 62,50",
       "categoryId": "frozen_ready",
@@ -13569,7 +13569,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13686,8 +13686,8 @@
       }
     },
     "v1|perfect season okologisk crispy falafel|ready_meal": {
-      "productNameZh": "炸鹰嘴豆丸",
-      "descriptionZh": "炸鹰嘴豆丸。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "有机脆炸鹰嘴豆丸",
+      "descriptionZh": "Perfect Season 品牌有机脆炸鹰嘴豆丸（crispy falafel），植物蛋白基中东小吃，烤箱或空气炸锅加热后外脆内软，可搭配皮塔饼和酱汁。",
       "originalName": "Perfect Season økologisk crispy falafel",
       "originalDescription": "285 g. Pr. kg 87,72",
       "categoryId": "frozen_ready",
@@ -13695,7 +13695,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13867,7 +13867,7 @@
     },
     "v1|pokebowl|ready_meal": {
       "productNameZh": "夏威夷风味盖饭碗",
-      "descriptionZh": "夏威夷风味盖饭碗。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "descriptionZh": "夏威夷风味盖饭碗（Poke Bowl），以米饭打底、搭配生鱼片、牛油果、蔬菜和酱汁的夏威夷传统盖饭；超市版通常为冷藏便当盒。",
       "originalName": "Pokebowl",
       "originalDescription": "Delikatessen pokebowls - nemt, hurtigt og lækkert. Vælg mellem koldrøget laks eller tempurarejer.",
       "categoryId": "frozen_ready",
@@ -13875,7 +13875,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -14820,8 +14820,8 @@
       }
     },
     "v1|rema 1000 lasagne lasagnette risret ris og karry eller carbonara|ready_meal": {
-      "productNameZh": "千层面方便餐",
-      "descriptionZh": "千层面方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "千层面或烩饭方便餐",
+      "descriptionZh": "REMA 1000 品牌千层面（lasagne）、小千层面（lasagnette）、炒饭、咖喱饭（ris og karry）或卡邦拿意面（carbonara），多种方便餐任选其一。",
       "originalName": "REMA 1000 Lasagne, lasagnette, risret, ris og karry eller carbonara",
       "originalDescription": "180-335 g",
       "categoryId": "frozen_ready",
@@ -14829,7 +14829,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -14856,8 +14856,8 @@
       }
     },
     "v1|rema 1000 madtaerte eller daloon ruller|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "丹麦酥皮派或春卷",
+      "descriptionZh": "丹麦酥皮派（madtærte）或 Daloon 品牌春卷，均为冷冻即食食品，用烤箱或空气炸锅加热后食用。",
       "originalName": "REMA 1000 madtærte eller Daloon ruller",
       "originalDescription": "Dybfrost 400-800 g\nMax. 62.50 pr. kg",
       "categoryId": "frozen_ready",
@@ -14865,7 +14865,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15774,8 +15774,8 @@
       }
     },
     "v1|salling eller michelle kristensen faerdigret i glas|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Salling 或 Michelle Kristensen 玻璃罐预制菜",
+      "descriptionZh": "Salling 或 Michelle Kristensen 品牌玻璃罐装预制菜（færdigret i glas），开盖后微波炉加热即可食用，通常为意面、沙拉或炖菜类。",
       "originalName": "Salling eller Michelle Kristensen færdigret i glas",
       "originalDescription": "Pr. gl. op til 65,99 2 glas a 625 g. Flere varianter. Pr. kg v/merkøb 79,20",
       "categoryId": "frozen_ready",
@@ -15783,7 +15783,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15918,8 +15918,8 @@
       }
     },
     "v1|salling stenovnsbagt pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "Salling 石炉烘焙冷冻披萨",
+      "descriptionZh": "Salling 品牌石炉烘焙冷冻披萨（stenovnsbagt pizza），薄底石烤风格，烤箱加热后食用。",
       "originalName": "salling Stenovnsbagt pizza",
       "originalDescription": "330-395 g. Flere varianter. Pr. kg max. 54,55",
       "categoryId": "frozen_ready",
@@ -15927,7 +15927,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15990,8 +15990,8 @@
       }
     },
     "v1|san marco deep pan pizza|pizza_snacks": {
-      "productNameZh": "冷冻或即食披萨",
-      "descriptionZh": "冷冻或即食披萨。披萨或披萨点心，通常用烤箱或空气炸锅加热；类似冷冻披萨。",
+      "productNameZh": "San Marco 厚底冷冻披萨",
+      "descriptionZh": "San Marco 品牌厚底冷冻披萨（deep pan pizza），美式厚底风格，烤箱烤制后食用。",
       "originalName": "San Marco Deep pan pizza",
       "originalDescription": "Dybfrost 468-484 g Max. 42.74 pr. kg",
       "categoryId": "frozen_ready",
@@ -15999,7 +15999,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16008,8 +16008,8 @@
       }
     },
     "v1|santa maria asiatisk marked|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Santa Maria 亚洲风味速食",
+      "descriptionZh": "Santa Maria 品牌亚洲风味速食套餐，含酱料包和配菜，通常搭配鸡肉或虾仁烹制。",
       "originalName": "Santa Maria asiatisk marked",
       "originalDescription": "Begrænset parti. Flere varianter. 110-200 g./200 ml. Kg-pris maks. 145,45/Literpris 80,00. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
@@ -16017,7 +16017,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16134,8 +16134,8 @@
       }
     },
     "v1|select go sushi|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "SELECT&GO 即食寿司",
+      "descriptionZh": "SELECT&GO 品牌即食寿司，超市冷藏寿司便当盒，含多种握寿司或卷寿司，开盒即食。",
       "originalName": "SELECT & GO Sushi",
       "originalDescription": "460 g. Pr. kg 106,52",
       "categoryId": "frozen_ready",
@@ -16143,7 +16143,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16764,8 +16764,8 @@
       }
     },
     "v1|sol mar paella|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "西班牙海鲜饭（Paella）",
+      "descriptionZh": "SOL&MAR 品牌西班牙海鲜饭（Paella），西班牙风味藏红花米饭，含海鲜或肉类配料，冷冻即食版用烤箱或微波炉加热。",
       "originalName": "SOL&MAR Paella",
       "originalDescription": "454-750 g. Pr. kg maks. 66,08 Dybfrost Spot¹",
       "categoryId": "frozen_ready",
@@ -16773,7 +16773,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16782,8 +16782,8 @@
       }
     },
     "v1|sol mar paellasaet|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "西班牙海鲜饭套装",
+      "descriptionZh": "SOL&MAR 品牌西班牙海鲜饭套装（Paellasæt），含米、酱料和配料的 DIY 套装，按包装说明烹制即可。",
       "originalName": "SOL&MAR Paellasæt",
       "originalDescription": "Pr. stk. 139,00\nSpot¹",
       "categoryId": "frozen_ready",
@@ -16791,7 +16791,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17142,8 +17142,8 @@
       }
     },
     "v1|steff houlberg faerdigret eller protein lab faerdigret|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "Steff Houlberg 或 Protein Lab 预制菜",
+      "descriptionZh": "Steff Houlberg 或 Protein Lab 品牌预制菜（færdigret），高蛋白方便餐食，用微波炉或烤箱加热即可。",
       "originalName": "Steff Houlberg færdigret eller Protein Lab færdigret",
       "originalDescription": "370-450 g. Flere varianter. Pr. kg max. 102,70",
       "categoryId": "frozen_ready",
@@ -17151,7 +17151,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17430,8 +17430,8 @@
       }
     },
     "v1|sushi|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "寿司",
+      "descriptionZh": "寿司，醋饭搭配生鱼片或其他配料的日本料理；超市版通常为冷藏即食盒装寿司，开盒即食。",
       "originalName": "Sushi",
       "originalDescription": "SELECT & GO 460 g. Pr. kg 106,52 49.-",
       "categoryId": "frozen_ready",
@@ -17439,7 +17439,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17916,8 +17916,8 @@
       }
     },
     "v1|to go marked|ready_meal": {
-      "productNameZh": "预制方便餐",
-      "descriptionZh": "预制方便餐。方便餐或预制菜，通常加热即可食用；请按包装确认用烤箱、微波炉还是平底锅。",
+      "productNameZh": "即取即走方便食品",
+      "descriptionZh": "即取即走方便食品（To-go marked），超市冷藏柜中的快手餐食或小食，加热或直接食用。",
       "originalName": "To-go marked",
       "originalDescription": "27-150 g/180-250 ml. Flere varianter. Pr. kg max. 222,22 /pr. liter max. 33,33",
       "categoryId": "frozen_ready",
@@ -17925,7 +17925,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T07:21:21.170Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
