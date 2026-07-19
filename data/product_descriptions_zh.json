@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-19T12:04:06.000Z",
+  "updatedAt": "2026-07-19T12:24:20.000Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
@@ -79,7 +79,7 @@
     },
     "v1|a cherry blossom vaskemiddel|cleaning": {
       "productNameZh": "洗衣液或洗衣粉",
-      "descriptionZh": "洗衣液或洗衣粉。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
+      "descriptionZh": "A+ 樱花洗衣液，花香型。倒进洗衣机主洗格，按瓶身用量指示。A+ 是丹麦超市常见平价日化品牌。",
       "originalName": "A+ Cherry Blossom vaskemiddel",
       "originalDescription": "3,18 l. Pr. l 21,70",
       "categoryId": "household_cleaning",
@@ -87,7 +87,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -97,7 +97,7 @@
     },
     "v1|a vaskekapsler eller vaskemiddel|cleaning": {
       "productNameZh": "洗衣凝珠",
-      "descriptionZh": "洗衣凝珠。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
+      "descriptionZh": "A+ 洗衣凝珠或洗衣液。凝珠直接丢进洗衣机滚筒里（不用倒进洗涤剂格），遇水即溶。比液体更方便不沾手。",
       "originalName": "A+ vaskekapsler eller vaskemiddel",
       "originalDescription": "20 stk./1350 ml 20-30 vaske\nPartivare. Max. 2.45 pr. vask",
       "categoryId": "household_cleaning",
@@ -105,7 +105,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -115,7 +115,7 @@
     },
     "v1|a vaskemiddel|cleaning": {
       "productNameZh": "洗衣液或洗衣粉",
-      "descriptionZh": "洗衣液或洗衣粉。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
+      "descriptionZh": "A+ 洗衣液。倒进洗衣机主洗格用。丹麦超市常见的基础洗衣品牌，去污力可靠。",
       "originalName": "A+ vaskemiddel",
       "originalDescription": "1,35 liter flydende eller 20 stk. kapsler. Flere varianter. Pr. vask max. 2,45",
       "categoryId": "household_cleaning",
@@ -123,7 +123,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -924,8 +924,8 @@
       }
     },
     "v1|anua azelaic acid 10 hyaluron redness soothing serum|hair_body": {
-      "productNameZh": "面部护肤品",
-      "descriptionZh": "面部护肤品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Anua 壬二酸透明质酸修红精华",
+      "descriptionZh": "Anua 是韩国平价护肤品牌。这款含 10% 壬二酸 + 透明质酸，主打褪红、控油、平滑痘肌。洁面后取少量涂抹，后续叠加面霜。",
       "originalName": "Anua Azelaic Acid 10 Hyaluron Redness Soothing serum",
       "originalDescription": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum er en beroligende serum, ideel til sensitiv eller uren hud. Den reducerer rødme og giver en glød i huden. Serummet er fri for parfume og er velegnet til daglig brug. 30 ml. Pr. liter 6633,33",
       "categoryId": "personal_care",
@@ -933,7 +933,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1213,7 +1213,7 @@
     },
     "v1|ave krainer polser|sausages": {
       "productNameZh": "中欧烟熏香肠",
-      "descriptionZh": "中欧烟熏香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "descriptionZh": "Krainer 中欧烟熏香肠（斯洛文尼亚风味），蒜香和烟熏味明显，肉质偏粗。切片冷吃做冷切拼盘，或煎热配酸菜和芥末。",
       "originalName": "AVE Krainer-pølser",
       "originalDescription": "240 g. Pr. kg 120,83 Spot¹",
       "categoryId": "sausages_deli",
@@ -1221,7 +1221,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1374,8 +1374,8 @@
       }
     },
     "v1|bahncke dressing|sauces": {
-      "productNameZh": "沙拉酱",
-      "descriptionZh": "沙拉酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Bähncke 沙拉酱",
+      "descriptionZh": "Bähncke 是丹麦经典酱料品牌。沙拉酱（dressing）拌生菜沙拉、土豆沙拉、意面沙拉均可。口味有法式、千岛、酸奶等。",
       "originalName": "BÄHNCKE Dressing",
       "originalDescription": "380-425 g. Pr. kg maks. 39,47 Spot¹",
       "categoryId": "pantry",
@@ -1383,7 +1383,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1518,8 +1518,8 @@
       }
     },
     "v1|batiste torshampoo|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Batiste 免洗干发喷雾",
+      "descriptionZh": "Batiste 是英国 No.1 干发喷雾品牌。头发油了喷在发根，等几分钟后用手或梳子抓匀，立刻蓬松不出油。适合没时间洗头的早晨。经典原味、樱花、热带等香型。",
       "originalName": "Batiste tørshampoo",
       "originalDescription": "PLUS PRIS FRIT VALG Pr. liter 145.- GÆLDER KUN MED BILKA PLUS APPEN 200 ml. Flere varianter. Pr. liter 160.-",
       "categoryId": "personal_care",
@@ -1527,7 +1527,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1537,7 +1537,7 @@
     },
     "v1|bearnaisesauce|sauces": {
       "productNameZh": "贝阿恩酱",
-      "descriptionZh": "贝阿恩酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "descriptionZh": "贝阿恩酱（Béarnaise），法餐五大母酱之一，蛋黄黄油为底加龙蒿和红葱头调味。最经典搭配：浇在煎牛排上。也可配烤三文鱼或芦笋。",
       "originalName": "Bearnaisesauce",
       "originalDescription": "K-SALAT 325 g. Pr. kg 46,15 -28 %",
       "categoryId": "pantry",
@@ -1545,7 +1545,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -1554,8 +1554,8 @@
       }
     },
     "v1|beauvais ketchup bahncke dressing eller ketchup|sauces": {
-      "productNameZh": "番茄酱",
-      "descriptionZh": "番茄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Beauvais 番茄酱或 Bähncke 沙拉酱",
+      "descriptionZh": "Beauvais 番茄酱酸甜适中配薯条热狗；Bähncke 沙拉酱拌沙拉。丹麦两大国民酱料品牌任选。",
       "originalName": "Beauvais ketchup, Bähncke dressing eller ketchup",
       "originalDescription": "380-500 g Partivare. Max. 47.37 pr. kg",
       "categoryId": "pantry",
@@ -1563,7 +1563,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2004,8 +2004,8 @@
       }
     },
     "v1|bruno banani deodorant eller aussie haarpleje|hair_body": {
-      "productNameZh": "止汗除味剂",
-      "descriptionZh": "止汗除味剂。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Bruno Banani 止汗露或 Aussie 洗护任选",
+      "descriptionZh": "Bruno Banani 走年轻时尚香水路线，止汗露香味偏果香/花香；Aussie 洗护主打澳洲植物配方，三分钟奇迹发膜是明星产品，适合干枯受损发质。",
       "originalName": "Bruno Banani deodorant eller Aussie hårpleje",
       "originalDescription": "150-300 ml. Pr. liter max. 260,00",
       "categoryId": "personal_care",
@@ -2013,7 +2013,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:03.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -2383,7 +2383,7 @@
     },
     "v1|cheasy hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
-      "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "descriptionZh": "茅屋奶酪（hytteost），颗粒状低脂高蛋白。拌水果蜂蜜当早餐、抹面包或拌入沙拉代替沙拉酱。健身餐首选。",
       "originalName": "CHEASY Hytteost",
       "originalDescription": "500 g. Pr. kg 40,00 Spot¹",
       "categoryId": "cheese",
@@ -2391,7 +2391,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -3121,7 +3121,7 @@
     },
     "v1|coop hele spegepolser|sausages": {
       "productNameZh": "萨拉米或风干香肠",
-      "descriptionZh": "萨拉米或风干香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "descriptionZh": "风干萨拉米肠（spegepølse），像意大利 salami 但北欧做法。切片直接冷吃配面包和奶酪，不用加热。",
       "originalName": "Coop hele spegepølser",
       "originalDescription": "300 g. Kg-pris 106,67. Frit valg. 1 stk.",
       "categoryId": "sausages_deli",
@@ -3129,7 +3129,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4326,8 +4326,8 @@
       }
     },
     "v1|dolmio eller ben s sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Dolmio 或 Ben's 意面酱",
+      "descriptionZh": "Dolmio 意面酱倒进炒好的肉末里搅匀就是 Bolognese；Ben's Original 有甜辣亚洲、奶油蘑菇等口味。煮好意面拌入即可，不用自己调酱。",
       "originalName": "Dolmio eller Ben's sauce",
       "originalDescription": "390-450 g.\nPr. kg max. 51,28\n+ PRIS 17:-\nPr. kg max. 43,59\nGælder kun med Netto+ appen",
       "categoryId": "pantry",
@@ -4335,7 +4335,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4416,8 +4416,8 @@
       }
     },
     "v1|dove all over body deodorant|hair_body": {
-      "productNameZh": "止汗除味剂",
-      "descriptionZh": "止汗除味剂。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "多芬全身止汗露",
+      "descriptionZh": "多芬（Dove）止汗露含 1/4 滋润乳液，不像普通止汗露那么刺激腋下皮肤。用后 48 小时防汗，经典原味最温和。滚珠或喷雾装任选。",
       "originalName": "Dove all over body deodorant",
       "originalDescription": "75-150 ml. Flere varianter. Pr. liter max. 506.67 Frit valg",
       "categoryId": "personal_care",
@@ -4425,7 +4425,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4488,8 +4488,8 @@
       }
     },
     "v1|dressing elller mayonnaise|sauces": {
-      "productNameZh": "蛋黄酱",
-      "descriptionZh": "蛋黄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "沙拉酱或蛋黄酱",
+      "descriptionZh": "沙拉酱（dressing）拌生菜沙拉，蛋黄酱（mayonnaise）抹三明治、拌土豆沙拉或蘸薯条。",
       "originalName": "Dressing elller mayonnaise",
       "originalDescription": "Salling Princip dressinger lavet på basis af dansk koldpresset rapsolie. salling Princip. 220 g/250 ml. Pr. liter 112,- /pr. kg 127,27",
       "categoryId": "pantry",
@@ -4497,7 +4497,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4614,8 +4614,8 @@
       }
     },
     "v1|eco care haar eller hudpleje|hair_body": {
-      "productNameZh": "面部护肤品",
-      "descriptionZh": "面部护肤品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Eco Care 洗护或护肤",
+      "descriptionZh": "Eco Care 丹麦本土环保品牌，成分天然无 SLS 和 parabens。洗发沐浴和身体乳均适合敏感肌。北欧 Ecolabel 认证。",
       "originalName": "Eco Care hår- eller hudpleje",
       "originalDescription": "500 ml håndsæbe. Flere varianter. Pr. liter 50.-",
       "categoryId": "personal_care",
@@ -4623,7 +4623,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:03.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4686,8 +4686,8 @@
       }
     },
     "v1|elizabeth arden eight hour hudpleje|hair_body": {
-      "productNameZh": "面部护肤品",
-      "descriptionZh": "面部护肤品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Elizabeth Arden 八小时保湿霜",
+      "descriptionZh": "伊丽莎白雅顿明星产品，1950 年代配方至今未变。万能膏——当润唇膏、护手霜、身体乳、烫伤晒后修复都可以。质地偏厚重，少量即可。",
       "originalName": "Elizabeth Arden eight hour hudpleje",
       "originalDescription": "75 ml intensive moisturizing hand treatment eller 1 stk. lip protection stick. Pr. liter 1266,67",
       "categoryId": "personal_care",
@@ -4695,7 +4695,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4704,8 +4704,8 @@
       }
     },
     "v1|elizabeth arden green hudpleje|hair_body": {
-      "productNameZh": "面部护肤品",
-      "descriptionZh": "面部护肤品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Elizabeth Arden 绿茶系列护肤品",
+      "descriptionZh": "伊丽莎白雅顿绿茶系列，含绿茶提取物抗氧化。包括身体乳、沐浴露和淡香水，香味清新不浓，夏天用很舒服。",
       "originalName": "Elizabeth Arden green hudpleje",
       "originalDescription": "100 ml lavender edt eller 500 ml honey drops body creme. Pr. liter max. 1380.-",
       "categoryId": "personal_care",
@@ -4713,7 +4713,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -4722,8 +4722,8 @@
       }
     },
     "v1|elvital eller head shoulders shampoo eller balsam|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "欧莱雅 Elvital 或海飞丝洗发护发任选",
+      "descriptionZh": "欧莱雅 Elvital 根据不同发质分修复、丰盈、染后护色等系列；海飞丝主打去屑止痒。根据自己发质和需求选对应版本。",
       "originalName": "Elvital eller Head&Shoulders shampoo eller balsam",
       "originalDescription": "200-250 ml. Flere varianter. Pr. liter max. 125,-",
       "categoryId": "personal_care",
@@ -4731,7 +4731,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5101,7 +5101,7 @@
     },
     "v1|frankfurtere|sausages": {
       "productNameZh": "法兰克福香肠",
-      "descriptionZh": "法兰克福香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "descriptionZh": "法兰克福香肠，像粗版热狗肠。水煮 3-5 分钟加热即可。夹面包做热狗，配芥末酱和 ketchup。",
       "originalName": "Frankfurtere",
       "originalDescription": "a 500-600 g. Flere varianter. Pr. kg max. v/merkøb 89.- 2 BAKKER PR. BAKKE 49,95",
       "categoryId": "sausages_deli",
@@ -5109,7 +5109,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5190,8 +5190,8 @@
       }
     },
     "v1|friends body 3 pak|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Friends 三层卫生纸",
+      "descriptionZh": "Friends 三层卫生纸。纸质柔软厚实不掉屑，三层压花设计。注意这个不是洗发或身体产品（原名 body 易误解）。",
       "originalName": "Friends body 3-pak*",
       "originalDescription": "Bomuld. Str. 50/56-86/92. Frit valg. Pr. pakke",
       "categoryId": "personal_care",
@@ -5199,7 +5199,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5640,8 +5640,8 @@
       }
     },
     "v1|gliss shampoo eller balsam|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Gliss 洗发水或护发素",
+      "descriptionZh": "Gliss（施华蔻旗下）主打液态角蛋白修护技术。根据不同需求有：黄色（修复分叉）、黑色（极致修护）、粉色（染后护色）、紫色（丰盈蓬松）。选对颜色就是选对功能。",
       "originalName": "Gliss shampoo eller balsam",
       "originalDescription": "200-250 ml\nMax. 80.00 pr. liter",
       "categoryId": "personal_care",
@@ -5649,7 +5649,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5713,7 +5713,7 @@
     },
     "v1|gol polser|sausages": {
       "productNameZh": "烧烤香肠",
-      "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "descriptionZh": "Gøl 丹麦知名香肠品牌，肉含量高、烟熏工艺传统。煎烤或水煮后夹面包或配土豆沙拉。",
       "originalName": "Gøl pølser",
       "originalDescription": "420-500 g. Kg-pris maks. 69,05. Frit valg. 1 pakke. Begrænset parti. Ugens køb",
       "categoryId": "sausages_deli",
@@ -5721,7 +5721,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5802,8 +5802,8 @@
       }
     },
     "v1|graasten ketchup remoulade eller sennep|sauces": {
-      "productNameZh": "番茄酱",
-      "descriptionZh": "番茄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Graasten 番茄酱/remoulade/芥末酱",
+      "descriptionZh": "番茄酱蘸薯条；remoulade 是丹麦特有酸甜腌黄瓜酱，配炸鱼排和热狗必用；芥末酱（sennep）配香肠。丹麦人餐桌上三件套。",
       "originalName": "Graasten ketchup, remoulade eller sennep*",
       "originalDescription": "800 g. Kg-pris 25,00. Frit valg. 1 stk.",
       "categoryId": "pantry",
@@ -5811,7 +5811,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5838,8 +5838,8 @@
       }
     },
     "v1|graasten remoulade eller mayonnaise|sauces": {
-      "productNameZh": "蛋黄酱",
-      "descriptionZh": "蛋黄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Graasten Remoulade 或蛋黄酱",
+      "descriptionZh": "Remoulade 是丹麦国民酱——酸甜口味，含腌黄瓜碎和咖喱粉，配炸鱼、热狗、 roastbeef 三明治。蛋黄酱配薯条和土豆沙拉。",
       "originalName": "Graasten remoulade eller mayonnaise",
       "originalDescription": "375 g. Kg-pris 40,00. Frit valg. 1 stk.",
       "categoryId": "pantry",
@@ -5847,7 +5847,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5911,7 +5911,7 @@
     },
     "v1|grillmester grillpolser|sausages": {
       "productNameZh": "烧烤香肠",
-      "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。原名还显示：偏辣。",
+      "descriptionZh": "烧烤大师烧烤肠。炭火烤至表皮微焦是正宗吃法。直接吃、蘸芥末或夹面包做热狗。丹麦夏天烧烤必备。",
       "originalName": "GRILLMESTER Grillpølser",
       "originalDescription": "Med cheddar og jalapenos eller chili. 320 g. Pr. kg 78,13",
       "categoryId": "sausages_deli",
@@ -5919,7 +5919,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -5983,7 +5983,7 @@
     },
     "v1|grillmester oksemerguez eller grillfakler|sausages": {
       "productNameZh": "香肠",
-      "descriptionZh": "香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
+      "descriptionZh": "Merguez 是北非辣味羊肉/牛肉肠，孜然和辣椒味突出；grillfakler 是细长烧烤肠串。均适合炭烤或煎。",
       "originalName": "GRILLMESTER Oksemerguez eller grillfakler",
       "originalDescription": "360-420 g. Pr. kg maks. 92,86 Spot¹",
       "categoryId": "sausages_deli",
@@ -5991,7 +5991,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6558,8 +6558,8 @@
       }
     },
     "v1|heinz ketchup eller mayonnaise|sauces": {
-      "productNameZh": "番茄酱",
-      "descriptionZh": "番茄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "亨氏番茄酱或蛋黄酱",
+      "descriptionZh": "亨氏番茄酱酸甜经典，蘸薯条炸鸡；蛋黄酱抹三明治拌沙拉。全球最畅销的两个调味酱。",
       "originalName": "Heinz ketchup eller mayonnaise",
       "originalDescription": "400-500 ml/395-700 g Partivare. Max. 50.00 pr. liter/Max. 50.63 pr. kg",
       "categoryId": "pantry",
@@ -6567,7 +6567,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6576,8 +6576,8 @@
       }
     },
     "v1|heinz ketchup|sauces": {
-      "productNameZh": "番茄酱",
-      "descriptionZh": "番茄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "亨氏番茄酱",
+      "descriptionZh": "亨氏番茄酱，酸甜均衡的经典美式口味。蘸薯条、炸鸡、热狗；也可以加生抽和醋调成糖醋汁做糖醋里脊。",
       "originalName": "HEINZ Ketchup",
       "originalDescription": "1,17 l. Pr. l 24,79 Spot¹",
       "categoryId": "pantry",
@@ -6585,7 +6585,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6702,8 +6702,8 @@
       }
     },
     "v1|hellmann s mayonnaise eller maille dijon sennep|sauces": {
-      "productNameZh": "蛋黄酱",
-      "descriptionZh": "蛋黄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Hellmann's 蛋黄酱或 Maille 第戎芥末",
+      "descriptionZh": "Hellmann's 全球 No.1 蛋黄酱品牌，拌沙拉抹三明治；Maille 第戎芥末（法国老牌），配烤牛肉、做沙拉汁或蘸香肠。",
       "originalName": "Hellmann’s mayonnaise eller Maille dijon sennep",
       "originalDescription": "250-430 ml/210-400 g. Pr. liter max. 112,- /pr. kg max. 133,33",
       "categoryId": "pantry",
@@ -6711,7 +6711,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6720,8 +6720,8 @@
       }
     },
     "v1|hellmann s mayonnaise|sauces": {
-      "productNameZh": "蛋黄酱",
-      "descriptionZh": "蛋黄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Hellmann's 蛋黄酱",
+      "descriptionZh": "Hellmann's 蛋黄酱，全球最畅销。奶味浓郁、酸度柔和。抹三明治、拌土豆沙拉、蘸薯条、做鸡排酱底都行。",
       "originalName": "HELLMANN'S Mayonnaise",
       "originalDescription": "250 g. Pr. kg 60,00. Spot¹",
       "categoryId": "pantry",
@@ -6729,7 +6729,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6738,8 +6738,8 @@
       }
     },
     "v1|hello sensitive 2i1 shampoo bad|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Hello Sensitive 二合一洗发沐浴露",
+      "descriptionZh": "Hello Sensitive 无香精二合一，从头到脚一瓶搞定。专为敏感肌和婴儿设计，北欧过敏哮喘协会认证。温和清洁不刺激眼睛。",
       "originalName": "Hello Sensitive 2i1 shampoo & bad",
       "originalDescription": "0% Parfume Hello Sensitive 2i1 shampoo & bad 250 ml. Pr. liter 48,00",
       "categoryId": "personal_care",
@@ -6747,7 +6747,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -6954,8 +6954,8 @@
       }
     },
     "v1|hugo boss lacoste eller van gils deodorant|hair_body": {
-      "productNameZh": "止汗除味剂",
-      "descriptionZh": "止汗除味剂。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Hugo Boss/Lacoste/Van Gils 男士止汗露",
+      "descriptionZh": "三个品牌男士止汗露任选。Hugo Boss 香味偏木质调稳重风，Lacoste 运动休闲风清爽型。喷雾或滚珠，48 小时防汗。",
       "originalName": "Hugo Boss, Lacoste eller Van Gils deodorant",
       "originalDescription": "75-150 ml. Flere varianter. Pr. liter max. 1186,67",
       "categoryId": "personal_care",
@@ -6963,7 +6963,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7170,8 +7170,8 @@
       }
     },
     "v1|jensens kokken sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Jensens Køkken 烹调用酱",
+      "descriptionZh": "Jensens Køkken 丹麦肉酱/意面酱品牌。直接拌意面或用微波炉和肉末一起加热就是快手 Bolognese。",
       "originalName": "Jensens Køkken sauce",
       "originalDescription": "350 ml. Literpris 57,14. Frit valg. 1 stk.",
       "categoryId": "pantry",
@@ -7179,7 +7179,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7206,8 +7206,8 @@
       }
     },
     "v1|jensens sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Jensens 酱料",
+      "descriptionZh": "Jensens 丹麦食品品牌。包括意面肉酱、烧烤酱、咖喱酱等。加热后直接拌面或配肉吃。",
       "originalName": "Jensens Sauce",
       "originalDescription": "250 ml. Bearnaise eller favorit. Pr. liter 60,00",
       "categoryId": "pantry",
@@ -7215,7 +7215,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7818,8 +7818,8 @@
       }
     },
     "v1|kikkoman soya sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "万字酱油",
+      "descriptionZh": "Kikkoman（万字）日本酱油，和生抽类似但偏甜。可用做凉拌、蘸生鱼片、炒饭、照烧鸡腿。丹麦超市最常见的亚洲酱油。",
       "originalName": "Kikkoman soya sauce",
       "originalDescription": "500 ml. Literpris 100,00/ Kg-pris 132,16. 1 stk.",
       "categoryId": "pantry",
@@ -7827,7 +7827,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8952,8 +8952,8 @@
       }
     },
     "v1|la campagna pizzasauce|sauces": {
-      "productNameZh": "酱料",
-      "descriptionZh": "酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "La Campagna 披萨酱",
+      "descriptionZh": "意式披萨酱底，番茄和香草调味。直接涂在披萨饼底上，铺奶酪和配料进烤箱。",
       "originalName": "La Campagna pizzasauce",
       "originalDescription": "390 g. Pr. kg 17,15 Normalpris 13,39 Max. 6 stk. pr. kunde pr. dag til 6,69 SPAR 6,70",
       "categoryId": "pantry",
@@ -8961,7 +8961,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8970,8 +8970,8 @@
       }
     },
     "v1|la campagna spicy hummus|sauces": {
-      "productNameZh": "鹰嘴豆泥",
-      "descriptionZh": "鹰嘴豆泥。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。原名还显示：偏辣。",
+      "productNameZh": "La Campagna 辣味鹰嘴豆泥",
+      "descriptionZh": "中东鹰嘴豆泥（hummus）加辣椒调味。蘸蔬菜条、皮塔饼或玉米片吃。",
       "originalName": "La Campagna spicy hummus",
       "originalDescription": "175 g. Pr. kg 57,14",
       "categoryId": "pantry",
@@ -8979,7 +8979,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -9096,8 +9096,8 @@
       }
     },
     "v1|lash sensational body mascara|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "美宝莲 Lash Sensational 睫毛膏",
+      "descriptionZh": "美宝莲 Lash Sensational 纤长卷翘睫毛膏。弧形刷头贴合眼型，根根分明不结块。Body 是产品线名称不是身体用品。",
       "originalName": "Lash Sensational body mascara",
       "originalDescription": "9,75 ml. Normalpris 109, Pr. liter 8384,62 Spar 27,25 Ikke alle varianter føres i alle butikker.",
       "categoryId": "personal_care",
@@ -9105,7 +9105,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -9114,8 +9114,8 @@
       }
     },
     "v1|lash sensational sky high mascara eller tinted primer|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "美宝莲 Sky High 睫毛膏或打底膏",
+      "descriptionZh": "美宝莲 Lash Sensational Sky High 纤长睫毛膏，主打超长效果。tinted primer 是带色打底膏，先涂打底再涂睫毛膏效果加倍。",
       "originalName": "Lash Sensational Sky High mascara eller tinted primer",
       "originalDescription": "7,2 ml. Normalpris 129,- Pr. liter 13437,50 Spar 32,25",
       "categoryId": "personal_care",
@@ -9123,7 +9123,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -9420,8 +9420,8 @@
       }
     },
     "v1|logismose pesto hummus eller haydari|sauces": {
-      "productNameZh": "青酱",
-      "descriptionZh": "青酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Løgismose 青酱/鹰嘴豆泥/土耳其酸奶酱",
+      "descriptionZh": "青酱拌意面；鹰嘴豆泥蘸蔬菜；haydari 土耳其蒜味酸奶酱配烤肉。Løgismose 丹麦精品食材品牌。",
       "originalName": "Løgismose pesto, hummus eller haydari",
       "originalDescription": "150-200 g. Pr. kg max. 133,33",
       "categoryId": "pantry",
@@ -9429,7 +9429,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -9564,8 +9564,8 @@
       }
     },
     "v1|lupilu body|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "LUPILU 身体护理",
+      "descriptionZh": "LUPILU 是 Lidl 自有品牌。身体乳质地轻薄好吸收，沐浴露温和不干。适合日常使用，性价比高。",
       "originalName": "LUPILU Body",
       "originalDescription": "Super Pris\n3-pak. 100 % økologisk bomuld. 62/68–86/92.\nSpot²",
       "categoryId": "personal_care",
@@ -9573,7 +9573,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:03.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10789,7 +10789,7 @@
     },
     "v1|mammen hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
-      "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "descriptionZh": "Mammen 茅屋奶酪，丹麦乳品老牌。颗粒分明，清爽低脂。直接抹面包或混入水果吃。",
       "originalName": "MAMMEN Hytteost",
       "originalDescription": "1,5-4 % fedt. 450 g / stk. Pr. kg 37,67",
       "categoryId": "cheese",
@@ -10797,7 +10797,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10807,7 +10807,7 @@
     },
     "v1|mammen okologisk hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
-      "descriptionZh": "茅屋奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "descriptionZh": "Mammen 有机茅屋奶酪。有机牛奶制成，高蛋白低脂。健身后吃或当早餐。",
       "originalName": "MAMMEN Økologisk hytteost",
       "originalDescription": "4 % fedt. 200 g / stk. Pr. kg 54,75",
       "categoryId": "cheese",
@@ -10815,7 +10815,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11112,8 +11112,8 @@
       }
     },
     "v1|medicube pdrn pink peptide serum|hair_body": {
-      "productNameZh": "面部护肤品",
-      "descriptionZh": "面部护肤品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Medicube PDRN 粉红胜肽精华",
+      "descriptionZh": "Medicube 韩国医美护肤品牌。PDRN（三文鱼 DNA 提取物）主打修护屏障、提亮肤色。粉色胜肽精华适合暗沉肌和初老肌。洁面后在水和面霜之间使用。",
       "originalName": "Medicube pdrn pink peptide serum",
       "originalDescription": "30 ml. Pr. liter 5633,33",
       "categoryId": "personal_care",
@@ -11121,7 +11121,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11455,7 +11455,7 @@
     },
     "v1|milbona high protein ricotta|cheese_cottage_ricotta": {
       "productNameZh": "奶酪",
-      "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
+      "descriptionZh": "高蛋白 Ricotta。比茅屋奶酪更细腻，奶味淡。可抹面包、拌意面（如 spinach ricotta ravioli 的馅料）或做 cheesecake。",
       "originalName": "MILBONA High Protein ricotta",
       "originalDescription": "250 g. Pr. kg 60,00 Spot¹",
       "categoryId": "cheese",
@@ -11463,7 +11463,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11850,8 +11850,8 @@
       }
     },
     "v1|monday moisture shampoo eller balsam|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Monday Moisture 保湿洗发水或护发素",
+      "descriptionZh": "Monday Haircare 新西兰网红品牌，粉色 Moisture 系列主打深层保湿。含椰子油和乳木果油，适合干枯毛躁发质。包装颜值高，香味像高级香水。",
       "originalName": "Monday moisture shampoo eller balsam",
       "originalDescription": "F.eks. 50 ml. Normalpris 12.- Pr. liter 204.- Frit valg SPAR 1.80",
       "categoryId": "personal_care",
@@ -11859,7 +11859,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11922,8 +11922,8 @@
       }
     },
     "v1|mutti tomater eller pizzasauce|sauces": {
-      "productNameZh": "番茄",
-      "descriptionZh": "番茄。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Mutti 番茄罐头或披萨酱",
+      "descriptionZh": "Mutti 意大利 No.1 番茄品牌。去皮整番茄做意面酱底；披萨酱已调味直接涂饼底。意大利家庭厨房标配。",
       "originalName": "Mutti tomater eller pizzasauce",
       "originalDescription": "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-",
       "categoryId": "pantry",
@@ -11931,7 +11931,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12246,8 +12246,8 @@
       }
     },
     "v1|nemt gront teriyaki sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Nemt & Grønt 照烧酱",
+      "descriptionZh": "日式照烧酱，甜咸口。淋在煎三文鱼或鸡腿肉上，或做照烧炒蔬菜。已调味，直接使用。",
       "originalName": "Nemt & Grønt Teriyaki sauce",
       "originalDescription": "40 g\n125.00 pr. kg",
       "categoryId": "pantry",
@@ -12255,7 +12255,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12354,8 +12354,8 @@
       }
     },
     "v1|neutral krops eller haarpleje|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Neutral 无香洗护或身体乳",
+      "descriptionZh": "Neutral 北欧敏感肌首选品牌，无香精、无色素、无 parabens。沐浴露、洗发水和身体乳均为极简配方，丹麦过敏哮喘协会认证。婴儿和大人都可用。",
       "originalName": "Neutral krops- eller hårpleje",
       "originalDescription": "Flere varianter. 75-250 ml./2 x 100 g. Literpris maks. 266,67./Kg-pris 100,00. Frit valg. 1 stk.",
       "categoryId": "personal_care",
@@ -12363,7 +12363,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:03.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12408,8 +12408,8 @@
       }
     },
     "v1|nivea deo showergel eller labello laebepomade|hair_body": {
-      "productNameZh": "个人洗护用品",
-      "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "妮维雅止汗露/沐浴露/Labello 润唇膏任选",
+      "descriptionZh": "妮维雅沐浴露（经典蓝罐同款香味）、止汗露（珍珠美白/黑白配系列）或 Labello 润唇膏（经典蓝色管）任选。德国平价护肤三件套。",
       "originalName": "Nivea deo, showergel eller Labello læbepomade",
       "originalDescription": "50-250 ml/1 stk.\nPartivare Max. 300.00 pr. liter/15 pr. stk.",
       "categoryId": "personal_care",
@@ -12417,7 +12417,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -12786,8 +12786,8 @@
       }
     },
     "v1|odense marcipan dessert sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Odense Marcipan 甜点酱",
+      "descriptionZh": "丹麦杏仁膏品牌出的甜点酱，巧克力或焦糖等口味。淋在冰淇淋、蛋糕或煎饼上。直接开瓶使用。",
       "originalName": "Odense Marcipan dessert sauce",
       "originalDescription": "175 g. Flere varianter. Pr. kg 142.86 Frit valg",
       "categoryId": "pantry",
@@ -12795,7 +12795,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -13506,8 +13506,8 @@
       }
     },
     "v1|paco rabanne deodorant|hair_body": {
-      "productNameZh": "止汗除味剂",
-      "descriptionZh": "止汗除味剂。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Paco Rabanne 止汗露",
+      "descriptionZh": "法国奢侈香水品牌 Paco Rabanne 止汗露。经典款 1 Million（金色）是甜烟草+皮革调，Invictus（银色）是海洋清新调。香味持久，一瓶止汗+香水。",
       "originalName": "Paco Rabanne deodorant",
       "originalDescription": "75-150 ml roll-on eller deospray. Flere varianter. Pr. liter max. 2386.67",
       "categoryId": "personal_care",
@@ -13515,7 +13515,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -14982,8 +14982,8 @@
       }
     },
     "v1|rema 1000 rod eller gron pesto|sauces": {
-      "productNameZh": "青酱",
-      "descriptionZh": "青酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "REMA 1000 红或绿青酱",
+      "descriptionZh": "红青酱（番茄干底）配意面和烤蔬菜；绿青酱（罗勒底）拌意面、抹三明治、做烤鸡蘸酱。冷藏即用，不用加热。",
       "originalName": "REMA 1000 Rød eller grøn pesto",
       "originalDescription": "130 g 53.85 pr. kg",
       "categoryId": "pantry",
@@ -14991,7 +14991,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15072,8 +15072,8 @@
       }
     },
     "v1|rema 1000 shampoo balsam eller shower gel|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "REMA 1000 自有品牌洗护",
+      "descriptionZh": "REMA 1000 超市自产洗发水/护发素/沐浴露。基础清洁功能，无特殊功效性成分，适合不挑剔的日常使用。比大牌便宜很多。",
       "originalName": "REMA 1000 Shampoo, balsam eller shower gel",
       "originalDescription": "500 ml 20.00 pr. liter",
       "categoryId": "personal_care",
@@ -15081,7 +15081,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15270,8 +15270,8 @@
       }
     },
     "v1|rexona deodorant eller dove deodorant haandsaebe|hair_body": {
-      "productNameZh": "止汗除味剂",
-      "descriptionZh": "止汗除味剂。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Rexona 或 Dove 止汗露/洗手液",
+      "descriptionZh": "Rexona 主打运动级防汗；Dove 止汗露含润肤乳不刺激，洗手液温和不干。丹麦超市的两大主流止汗品牌。",
       "originalName": "Rexona deodorant eller Dove deodorant/ håndsæbe",
       "originalDescription": "Flere varianter. 150-250 ml. Literpris maks. 106,67. Frit valg. 1 stk.",
       "categoryId": "personal_care",
@@ -15279,7 +15279,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:03.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15288,8 +15288,8 @@
       }
     },
     "v1|rexona deodorant eller neutral haandsaebe|hair_body": {
-      "productNameZh": "止汗除味剂",
-      "descriptionZh": "止汗除味剂。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Rexona 止汗露或 Neutral 洗手液",
+      "descriptionZh": "Rexona 运动止汗露（48 小时长效）或 Neutral 无香洗手液（敏感肌适用）。前者防汗力强，后者极温和。",
       "originalName": "Rexona deodorant eller Neutral håndsæbe",
       "originalDescription": "50-250 ml. Flere varianter. Pr. liter max. 280.-",
       "categoryId": "personal_care",
@@ -15297,7 +15297,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:03.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -15828,8 +15828,8 @@
       }
     },
     "v1|salling ketchup|sauces": {
-      "productNameZh": "番茄酱",
-      "descriptionZh": "番茄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Salling 番茄酱",
+      "descriptionZh": "Salling 自产番茄酱，标准酸甜口味。蘸薯条、热狗或做菜调味。比亨氏便宜，味道接近。",
       "originalName": "salling Ketchup",
       "originalDescription": "Mindre sukker 500-560 g. Konventionel eller uden tilsat sukker. Pr. kg max. 30,- Frit valg Avisen gælder hele juli måned side 13",
       "categoryId": "pantry",
@@ -15837,7 +15837,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16026,8 +16026,8 @@
       }
     },
     "v1|santa maria bbq sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。原名还显示：烧烤味。",
+      "productNameZh": "Santa Maria 烧烤酱",
+      "descriptionZh": "美式烧烤酱，烟熏甜味。刷在烤肋排、烤鸡翅上；也可做汉堡酱底或蘸洋葱圈。丹麦 BBQ 季节标配。",
       "originalName": "SANTA MARIA BBQ-sauce",
       "originalDescription": "325-345 g. Pr. kg maks. 61,54\nSpot¹",
       "categoryId": "pantry",
@@ -16035,7 +16035,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -16800,8 +16800,8 @@
       }
     },
     "v1|sol mar piri piri sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "SOL&MAR Piri-Piri 辣酱",
+      "descriptionZh": "Piri-piri 葡萄牙/非洲风味辣椒酱，带蒜和柠檬味。刷烤鸡上做葡式烤鸡。",
       "originalName": "SOL&MAR Piri piri-sauce",
       "originalDescription": "195 ml. Pr. l 30,77 Spot¹",
       "categoryId": "pantry",
@@ -16809,7 +16809,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17358,8 +17358,8 @@
       }
     },
     "v1|stuhr shampoo eller balsam|hair_body": {
-      "productNameZh": "洗发水或护发素",
-      "descriptionZh": "洗发水或护发素。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
+      "productNameZh": "Stuhr 洗发水或护发素",
+      "descriptionZh": "Stuhr 丹麦本土中高端洗护品牌，主打天然植物成分和北欧简约设计。根据不同系列有保湿修护、控油清爽、染后护色等选择。质感比开架品牌好一个档次。",
       "originalName": "Stuhr shampoo eller balsam",
       "originalDescription": "750-1000 ml. Flere varianter. Pr. liter max. 158,67",
       "categoryId": "personal_care",
@@ -17367,7 +17367,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17448,8 +17448,8 @@
       }
     },
     "v1|svanso dressing aioli eller pesto|sauces": {
-      "productNameZh": "沙拉酱",
-      "descriptionZh": "沙拉酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Svansø 沙拉酱/蒜泥蛋黄酱/青酱",
+      "descriptionZh": "丹麦餐饮酱料品牌。沙拉酱拌生菜；aioli（蒜泥蛋黄酱）蘸薯条海鲜；pesto（青酱）拌意面。酒店餐厅常用。",
       "originalName": "Svansø dressing, aioli eller pesto",
       "originalDescription": "300 ml/130-320 g\nPartivare. 53.33 pr. liter/Max. 123.08 pr. kg",
       "categoryId": "pantry",
@@ -17457,7 +17457,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17466,8 +17466,8 @@
       }
     },
     "v1|svanso sauce mayo eller dressing|sauces": {
-      "productNameZh": "沙拉酱",
-      "descriptionZh": "沙拉酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Svansø 酱料/蛋黄酱/沙拉酱",
+      "descriptionZh": "Svansø 多种酱料任选。蛋黄酱拌沙拉抹三明治；沙拉酱做生菜沙拉。丹麦餐饮渠道品牌，品质高于超市自有。",
       "originalName": "Svansø sauce, mayo eller dressing",
       "originalDescription": "210-400 g Partivare. Max. 71.43 pr. kg",
       "categoryId": "pantry",
@@ -17475,7 +17475,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:23:33.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -17502,8 +17502,8 @@
       }
     },
     "v1|sweet baby ray s bbq sauce|sauces": {
-      "productNameZh": "烹调酱料",
-      "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。原名还显示：烧烤味。",
+      "productNameZh": "Sweet Baby Ray's 烧烤酱",
+      "descriptionZh": "美国 No.1 烧烤酱，甜味突出烟熏味适中。刷烤肋排、蘸炸鸡。",
       "originalName": "Sweet Baby Ray's BBQ-sauce",
       "originalDescription": "510 g Partivare. 58.82 pr. kg",
       "categoryId": "pantry",
@@ -17511,7 +17511,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -19032,8 +19032,8 @@
       }
     },
     "v1|zelected sauce aioli eller ketchup|sauces": {
-      "productNameZh": "番茄酱",
-      "descriptionZh": "番茄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Zelected 酱料/蒜泥蛋黄酱/番茄酱",
+      "descriptionZh": "丹麦有机酱料品牌。aioli 蘸海鲜，番茄酱配热狗。",
       "originalName": "Zelected sauce, aioli eller ketchup",
       "originalDescription": "260-280 g Partivare. Max. 57.69 pr. kg",
       "categoryId": "pantry",
@@ -19041,7 +19041,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
-      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "reviewedAt": "2026-07-19T12:24:20.000Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
