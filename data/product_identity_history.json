@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T12:30:14.161Z",
+  "updatedAt": "2026-07-19T17:05:56.820Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -23548,6 +23548,7 @@
     "v1|garnier micellar water eller triple active ansigtscreme|hair_body": {
       "stableProductKey": "v1|garnier micellar water eller triple active ansigtscreme|hair_body",
       "canonicalNames": [
+        "Garnier Micellar water eller Triple Active ansigtscreme",
         "Garnier Micellar water eller Triple Active ansigtscreme*"
       ],
       "categoryIds": [
@@ -23562,6 +23563,21 @@
       "firstSeenAt": "2026-07-18T11:15:00.061Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "4qCyBc-1V36EDivYvfUwE": {
+          "sourceOfferId": "4qCyBc-1V36EDivYvfUwE",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=da33acf2f753c311e990778ec7525294&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-24.webp&x1r=0.02&x2r=0.5&y1r=0.67&y2r=0.97"
+          ]
+        },
         "aY3qRcCDh-nQP3o7hzuMR": {
           "sourceOfferId": "aY3qRcCDh-nQP3o7hzuMR",
           "stores": [
@@ -23586,11 +23602,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=da33acf2f753c311e990778ec7525294&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-24.webp&x1r=0.02&x2r=0.5&y1r=0.67&y2r=0.97": {
+          "offerIds": [
+            "4qCyBc-1V36EDivYvfUwE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
