@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T12:07:38.580Z",
+  "updatedAt": "2026-07-19T12:30:14.161Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -7714,12 +7714,21 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=79fa44012ccb5a4d5ef34120966eb73c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.655&y1r=0.73&y2r=0.955"
+            "https://image-transformer-api.tjek.com/?s=79fa44012ccb5a4d5ef34120966eb73c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.655&y1r=0.73&y2r=0.955",
+            "https://image-transformer-api.tjek.com/?s=d03c67242207f9edf70fe9ec402bdccc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.015&x2r=0.655&y1r=0.722&y2r=0.955"
           ]
         }
       },
       "imageReferences": {
         "https://image-transformer-api.tjek.com/?s=79fa44012ccb5a4d5ef34120966eb73c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.655&y1r=0.73&y2r=0.955": {
+          "offerIds": [
+            "TOGg4aCeWrWMoSVbra90l"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=d03c67242207f9edf70fe9ec402bdccc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.015&x2r=0.655&y1r=0.722&y2r=0.955": {
           "offerIds": [
             "TOGg4aCeWrWMoSVbra90l"
           ],
@@ -8980,11 +8989,20 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2170af2885945f62d6b6c7ab5c96dd66&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.02&x2r=0.485&y1r=0.73&y2r=0.955",
             "https://image-transformer-api.tjek.com/?s=7d13ffc6ff76d9048c8bb8a3eecaf75d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.02&x2r=0.485&y1r=0.73&y2r=0.955"
           ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2170af2885945f62d6b6c7ab5c96dd66&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.02&x2r=0.485&y1r=0.73&y2r=0.955": {
+          "offerIds": [
+            "tjr2-S2V3gd5h3lM_ygWm"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=5f96d7d7598adba01ffe61296811aa03&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&x1r=0.4983&x2r=0.9957&y1r=0.712&y2r=0.9465": {
           "offerIds": [
             "K02s1StdPXToMmiMfxe7J"
@@ -15377,9 +15395,32 @@
           "imageReferences": [
             "https://image-transformer-api.tjek.com/?s=b9b1186920ce79474b794916aa0747c0&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.29&y2r=0.56"
           ]
+        },
+        "QbuwJ-BuVkNzBjSyB0aP3": {
+          "sourceOfferId": "QbuwJ-BuVkNzBjSyB0aP3",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=37c9298384121d59b1778d0606ae3b78&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4531eb5fa9299073692c51f7d42f19a8%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1e1b82ef9d74f5b3374f497e691aa5d3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F602bdd910606759483e6b3d3d1bf061f"
+          ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=37c9298384121d59b1778d0606ae3b78&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4531eb5fa9299073692c51f7d42f19a8%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1e1b82ef9d74f5b3374f497e691aa5d3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F602bdd910606759483e6b3d3d1bf061f": {
+          "offerIds": [
+            "QbuwJ-BuVkNzBjSyB0aP3"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=b9b1186920ce79474b794916aa0747c0&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.29&y2r=0.56": {
           "offerIds": [
             "bxM3MjPSqzlTKztLaaLLb"
@@ -15390,8 +15431,8 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -23583,11 +23624,20 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=bf29a777264bed3056f88afa9cf938df&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.015&x2r=0.325&y1r=0.54&y2r=0.725",
             "https://image-transformer-api.tjek.com/?s=ddac5368cb402f133169a51e6099ad77&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.325&y1r=0.54&y2r=0.725"
           ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=bf29a777264bed3056f88afa9cf938df&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.015&x2r=0.325&y1r=0.54&y2r=0.725": {
+          "offerIds": [
+            "iKw5qvSLqGXwUIdsxU-TY"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=ddac5368cb402f133169a51e6099ad77&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.325&y1r=0.54&y2r=0.725": {
           "offerIds": [
             "iKw5qvSLqGXwUIdsxU-TY"
@@ -23683,12 +23733,21 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=4fc5410ca27e44a8cd95c83dd7b28c02&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.66&x2r=0.985&y1r=0.706&y2r=0.955"
+            "https://image-transformer-api.tjek.com/?s=4fc5410ca27e44a8cd95c83dd7b28c02&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.66&x2r=0.985&y1r=0.706&y2r=0.955",
+            "https://image-transformer-api.tjek.com/?s=f8d91b37dd4127f80f9eb8e7677d0d21&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.66&x2r=0.985&y1r=0.706&y2r=0.955"
           ]
         }
       },
       "imageReferences": {
         "https://image-transformer-api.tjek.com/?s=4fc5410ca27e44a8cd95c83dd7b28c02&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.66&x2r=0.985&y1r=0.706&y2r=0.955": {
+          "offerIds": [
+            "mAIKO2GfWYGEUbjLMbbbX"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=f8d91b37dd4127f80f9eb8e7677d0d21&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.66&x2r=0.985&y1r=0.706&y2r=0.955": {
           "offerIds": [
             "mAIKO2GfWYGEUbjLMbbbX"
           ],
@@ -23856,12 +23915,21 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=073bd489003adade712a208063626458&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.66&x2r=0.985&y1r=0.505&y2r=0.725"
+            "https://image-transformer-api.tjek.com/?s=073bd489003adade712a208063626458&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.66&x2r=0.985&y1r=0.505&y2r=0.725",
+            "https://image-transformer-api.tjek.com/?s=6657ab441fc6ab7a5406574e32337f3d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.66&x2r=0.985&y1r=0.505&y2r=0.725"
           ]
         }
       },
       "imageReferences": {
         "https://image-transformer-api.tjek.com/?s=073bd489003adade712a208063626458&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.66&x2r=0.985&y1r=0.505&y2r=0.725": {
+          "offerIds": [
+            "hRmK5BHx14CkiM_bScpP1"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=6657ab441fc6ab7a5406574e32337f3d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.66&x2r=0.985&y1r=0.505&y2r=0.725": {
           "offerIds": [
             "hRmK5BHx14CkiM_bScpP1"
           ],
@@ -24029,11 +24097,20 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=2c7e785195e8f5a83fd07000403a4727&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.33&x2r=0.655&y1r=0.54&y2r=0.725",
             "https://image-transformer-api.tjek.com/?s=9abf7cdc984536a1296f09bad0e1cc83&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.33&x2r=0.655&y1r=0.54&y2r=0.725"
           ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=2c7e785195e8f5a83fd07000403a4727&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.33&x2r=0.655&y1r=0.54&y2r=0.725": {
+          "offerIds": [
+            "HX1N3e0kdK0Po_BCYZtct"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=9abf7cdc984536a1296f09bad0e1cc83&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.33&x2r=0.655&y1r=0.54&y2r=0.725": {
           "offerIds": [
             "HX1N3e0kdK0Po_BCYZtct"
@@ -25401,12 +25478,21 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=95a462145e2b72937d83eeb9f8e453af&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.5&y2r=0.725"
+            "https://image-transformer-api.tjek.com/?s=95a462145e2b72937d83eeb9f8e453af&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.5&y2r=0.725",
+            "https://image-transformer-api.tjek.com/?s=ad46e2673d9e8eb4414388ea1da7fbe4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.51&x2r=0.98&y1r=0.5&y2r=0.725"
           ]
         }
       },
       "imageReferences": {
         "https://image-transformer-api.tjek.com/?s=95a462145e2b72937d83eeb9f8e453af&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.5&y2r=0.725": {
+          "offerIds": [
+            "Cav9WJ9Erjj5x5bjHeuz8"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=ad46e2673d9e8eb4414388ea1da7fbe4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.51&x2r=0.98&y1r=0.5&y2r=0.725": {
           "offerIds": [
             "Cav9WJ9Erjj5x5bjHeuz8"
           ],
@@ -28650,12 +28736,21 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=2c0647664a2bd9ae941ca48e9f8eb3c9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.02&x2r=0.485&y1r=0.5&y2r=0.725"
+            "https://image-transformer-api.tjek.com/?s=2c0647664a2bd9ae941ca48e9f8eb3c9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.02&x2r=0.485&y1r=0.5&y2r=0.725",
+            "https://image-transformer-api.tjek.com/?s=5ba4dd3a89ac22494be88fb86af3f050&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.02&x2r=0.485&y1r=0.5&y2r=0.725"
           ]
         }
       },
       "imageReferences": {
         "https://image-transformer-api.tjek.com/?s=2c0647664a2bd9ae941ca48e9f8eb3c9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.02&x2r=0.485&y1r=0.5&y2r=0.725": {
+          "offerIds": [
+            "wMeXz11Fe6UfEUkgAO0UW"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=5ba4dd3a89ac22494be88fb86af3f050&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.02&x2r=0.485&y1r=0.5&y2r=0.725": {
           "offerIds": [
             "wMeXz11Fe6UfEUkgAO0UW"
           ],
@@ -31884,11 +31979,20 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6f8393a3bd80655e14158ff5c9aeccb7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.02&x2r=0.485&y1r=0.075&y2r=0.495",
             "https://image-transformer-api.tjek.com/?s=8c63a656f52acf7ed7f79e27b562d949&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.02&x2r=0.485&y1r=0.075&y2r=0.495"
           ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=6f8393a3bd80655e14158ff5c9aeccb7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.02&x2r=0.485&y1r=0.075&y2r=0.495": {
+          "offerIds": [
+            "rJzJBFGvrOOLng5_xHTHC"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=8c63a656f52acf7ed7f79e27b562d949&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.02&x2r=0.485&y1r=0.075&y2r=0.495": {
           "offerIds": [
             "rJzJBFGvrOOLng5_xHTHC"
@@ -35293,6 +35397,7 @@
     "v1|klorin eller cillit bang|cleaning": {
       "stableProductKey": "v1|klorin eller cillit bang|cleaning",
       "canonicalNames": [
+        "Klorin eller Cillit Bang",
         "Klorin eller Cillit Bang*"
       ],
       "categoryIds": [
@@ -35307,6 +35412,21 @@
       "firstSeenAt": "2026-07-18T11:48:55.799Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "rB50VcSAI7TYwM2T6jcp4": {
+          "sourceOfferId": "rB50VcSAI7TYwM2T6jcp4",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=7cc92d0e097ed934ca2154bc5563eaa3&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-24.webp&x1r=0.492&x2r=0.98&y1r=0.34&y2r=0.67"
+          ]
+        },
         "XtFbPkLbP-GKrPGq7vlR9": {
           "sourceOfferId": "XtFbPkLbP-GKrPGq7vlR9",
           "stores": [
@@ -35324,6 +35444,14 @@
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=7cc92d0e097ed934ca2154bc5563eaa3&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-24.webp&x1r=0.492&x2r=0.98&y1r=0.34&y2r=0.67": {
+          "offerIds": [
+            "rB50VcSAI7TYwM2T6jcp4"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=a307cc0e6da82b4e7d80616ad2c2d3bb&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fae6d7eb3b4a322c5bb5d1610f0c97597": {
           "offerIds": [
             "XtFbPkLbP-GKrPGq7vlR9"
@@ -35334,8 +35462,8 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -40692,6 +40820,21 @@
       "firstSeenAt": "2026-07-18T11:48:55.799Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "RAXESrLGCYvTjLKFmAqrU": {
+          "sourceOfferId": "RAXESrLGCYvTjLKFmAqrU",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=5cff3f16590a468f29116024c3d66e23&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F49dfdb1e5cfc736fb9cb141468469ffe"
+          ]
+        },
         "vQzJS0p6Hh8pnVYd7PeVn": {
           "sourceOfferId": "vQzJS0p6Hh8pnVYd7PeVn",
           "stores": [
@@ -40716,11 +40859,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=5cff3f16590a468f29116024c3d66e23&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F49dfdb1e5cfc736fb9cb141468469ffe": {
+          "offerIds": [
+            "RAXESrLGCYvTjLKFmAqrU"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -71148,12 +71299,21 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=b34205daa9eb9cc20e5d06b457583a43&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.52&x2r=0.98&y1r=0.075&y2r=0.495"
+            "https://image-transformer-api.tjek.com/?s=b34205daa9eb9cc20e5d06b457583a43&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.52&x2r=0.98&y1r=0.075&y2r=0.495",
+            "https://image-transformer-api.tjek.com/?s=d7c0c1ec71252f0022472a73efbc0b00&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.52&x2r=0.98&y1r=0.075&y2r=0.495"
           ]
         }
       },
       "imageReferences": {
         "https://image-transformer-api.tjek.com/?s=b34205daa9eb9cc20e5d06b457583a43&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.52&x2r=0.98&y1r=0.075&y2r=0.495": {
+          "offerIds": [
+            "O_6qJpYj4stCmI4C4xx2D"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=d7c0c1ec71252f0022472a73efbc0b00&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.52&x2r=0.98&y1r=0.075&y2r=0.495": {
           "offerIds": [
             "O_6qJpYj4stCmI4C4xx2D"
           ],
@@ -80255,11 +80415,20 @@
             "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=130439a893676ecd500b6b70c66cdf8d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.51&x2r=0.98&y1r=0.73&y2r=0.955",
             "https://image-transformer-api.tjek.com/?s=e964daaf6422a401dc90b550c4eeb750&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.73&y2r=0.955"
           ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=130439a893676ecd500b6b70c66cdf8d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-5.webp&x1r=0.51&x2r=0.98&y1r=0.73&y2r=0.955": {
+          "offerIds": [
+            "slKcOj3IlAMJsm1SRCMpL"
+          ],
+          "validPeriods": [
+            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=e964daaf6422a401dc90b550c4eeb750&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&x1r=0.51&x2r=0.98&y1r=0.73&y2r=0.955": {
           "offerIds": [
             "slKcOj3IlAMJsm1SRCMpL"
