@@ -1344,6 +1344,11 @@ function render({ preserveScroll = false } = {}) {
   const scrollY = window.scrollY;
   const root = document.getElementById('app');
   root.classList.toggle('mobile-reading-mode', isMobileReadingMode());
+  // Keep chrome (topbar + bottom-nav) always visible on listing/search/home views;
+  // only the category reader uses hidden chrome for immersive swiping.
+  if (state.route.view !== 'category') {
+    state.chrome = { topHidden: false, bottomHidden: false };
+  }
   root.replaceChildren(topbar());
   let view;
   if (state.route.view === 'locations') view = locationsView();
