@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T17:05:56.820Z",
+  "updatedAt": "2026-07-20T05:05:15.055Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -12008,6 +12008,21 @@
       "firstSeenAt": "2026-07-18T11:48:55.799Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "AvWahGlpbt5Xlc-z-FbFE": {
+          "sourceOfferId": "AvWahGlpbt5Xlc-z-FbFE",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=704e06e889353933a3d04fb0f24b8986&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2793af985a61c014c3c96347fca96a33"
+          ]
+        },
         "n__yYLLG1z6sZnR8nK3iR": {
           "sourceOfferId": "n__yYLLG1z6sZnR8nK3iR",
           "stores": [
@@ -12032,11 +12047,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=704e06e889353933a3d04fb0f24b8986&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2793af985a61c014c3c96347fca96a33": {
+          "offerIds": [
+            "AvWahGlpbt5Xlc-z-FbFE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -12878,6 +12901,21 @@
       "firstSeenAt": "2026-07-18T11:15:00.061Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "Ho2XNX5oOZhbWTOszfjxz": {
+          "sourceOfferId": "Ho2XNX5oOZhbWTOszfjxz",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=a0d504b9821deb475fafe173a0aa2cab&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-4.webp&x1r=0&x2r=0.5&y1r=0.664&y2r=1"
+          ]
+        },
         "vQtYa5KdYpRcyuHWKFIEX": {
           "sourceOfferId": "vQtYa5KdYpRcyuHWKFIEX",
           "stores": [
@@ -12902,11 +12940,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=a0d504b9821deb475fafe173a0aa2cab&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-4.webp&x1r=0&x2r=0.5&y1r=0.664&y2r=1": {
+          "offerIds": [
+            "Ho2XNX5oOZhbWTOszfjxz"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -14812,6 +14858,21 @@
       "firstSeenAt": "2026-07-18T11:15:00.061Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "dqgS6ZXzPeCFOHDwI7Dud": {
+          "sourceOfferId": "dqgS6ZXzPeCFOHDwI7Dud",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=e351b318aa05d2ef27f0ab4c4fff8b30&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-10.webp&x1r=0.51&x2r=0.97&y1r=0.67&y2r=0.97"
+          ]
+        },
         "VLPSBaXnEfP99icoO253j": {
           "sourceOfferId": "VLPSBaXnEfP99icoO253j",
           "stores": [
@@ -14836,11 +14897,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=e351b318aa05d2ef27f0ab4c4fff8b30&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-10.webp&x1r=0.51&x2r=0.97&y1r=0.67&y2r=0.97": {
+          "offerIds": [
+            "dqgS6ZXzPeCFOHDwI7Dud"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -33830,9 +33899,32 @@
           "imageReferences": [
             "https://image-transformer-api.tjek.com/?s=6e728b5040535f5d5f13fc8a1a3e1fa6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a06799d4b1cc0b3b150f4667a38809d"
           ]
+        },
+        "UrX0Mpzd9WRWAjWetfPOY": {
+          "sourceOfferId": "UrX0Mpzd9WRWAjWetfPOY",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6cfd49cc399fa97fef48b5de20797e6e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-21.webp&x1r=0.038&x2r=0.491&y1r=0.054&y2r=0.334"
+          ]
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=6cfd49cc399fa97fef48b5de20797e6e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-21.webp&x1r=0.038&x2r=0.491&y1r=0.054&y2r=0.334": {
+          "offerIds": [
+            "UrX0Mpzd9WRWAjWetfPOY"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=6e728b5040535f5d5f13fc8a1a3e1fa6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a06799d4b1cc0b3b150f4667a38809d": {
           "offerIds": [
             "8Ip3qFZ_chOkRtdFIOxWi"
@@ -33843,8 +33935,8 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -35995,7 +36087,8 @@
     "v1|knorr snackpot eller nudler|pasta_noodles": {
       "stableProductKey": "v1|knorr snackpot eller nudler|pasta_noodles",
       "canonicalNames": [
-        "Knorr snackpot eller nudler"
+        "Knorr snackpot eller nudler",
+        "Knorr snackpot eller nudler*"
       ],
       "categoryIds": [
         "rice_pasta"
@@ -36009,6 +36102,21 @@
       "firstSeenAt": "2026-07-18T11:15:00.061Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "p8L2LztgIwGg7kPIG1hy2": {
+          "sourceOfferId": "p8L2LztgIwGg7kPIG1hy2",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "SR-ErQtE"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=5eee2dc92f78fc3626368bc81c0211d7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F69e4b40d506feb171552cb59549c9443"
+          ]
+        },
         "tED9DQp3r3VLQjLr2_9pz": {
           "sourceOfferId": "tED9DQp3r3VLQjLr2_9pz",
           "stores": [
@@ -36026,6 +36134,14 @@
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=5eee2dc92f78fc3626368bc81c0211d7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F69e4b40d506feb171552cb59549c9443": {
+          "offerIds": [
+            "p8L2LztgIwGg7kPIG1hy2"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=860d99c00672bfc0c932124456d5bed4&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&x1r=0.041&x2r=0.339&y1r=0.063&y2r=0.324": {
           "offerIds": [
             "tED9DQp3r3VLQjLr2_9pz"
@@ -36036,8 +36152,8 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -71275,6 +71391,21 @@
           "imageReferences": [
             "https://image-transformer-api.tjek.com/?s=13c7195d53d8b6f349d37d53a427c9da&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb66ef64afbf88967c32a0f70a12fc2fd"
           ]
+        },
+        "PwE1CI24Cen63c-m3HDwz": {
+          "sourceOfferId": "PwE1CI24Cen63c-m3HDwz",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=9981d6ab6b720566ed1c01efaba8ec1d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-12.webp&x1r=0.03&x2r=0.97&y1r=0.67&y2r=0.99"
+          ]
         }
       },
       "imageReferences": {
@@ -71285,11 +71416,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=9981d6ab6b720566ed1c01efaba8ec1d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-12.webp&x1r=0.03&x2r=0.97&y1r=0.67&y2r=0.99": {
+          "offerIds": [
+            "PwE1CI24Cen63c-m3HDwz"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
