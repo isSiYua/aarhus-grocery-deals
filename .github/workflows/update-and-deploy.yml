@@ -3,10 +3,10 @@ name: Update deals and deploy
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC. Run both possible Copenhagen 03:30 slots, then
+    # GitHub cron uses UTC. Run both possible Copenhagen 03:00 slots, then
     # keep only the one matching the current Europe/Copenhagen UTC offset.
-    - cron: '30 1 * * *'
-    - cron: '30 2 * * *'
+    - cron: '0 1 * * *'
+    - cron: '0 2 * * *'
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
     outputs:
       should_run: ${{ steps.schedule_gate.outputs.should_run }}
     steps:
-      - name: Select the Copenhagen 03:30 schedule
+      - name: Select the Copenhagen 03:00 schedule
         id: schedule_gate
         shell: bash
         run: |
@@ -34,8 +34,8 @@ jobs:
 
           copenhagen_offset="$(TZ=Europe/Copenhagen date +%z)"
           scheduled_cron="${{ github.event.schedule }}"
-          if [[ "$copenhagen_offset" == "+0200" && "$scheduled_cron" == "30 1 * * *" ]] || \
-             [[ "$copenhagen_offset" == "+0100" && "$scheduled_cron" == "30 2 * * *" ]]; then
+          if [[ "$copenhagen_offset" == "+0200" && "$scheduled_cron" == "0 1 * * *" ]] || \
+             [[ "$copenhagen_offset" == "+0100" && "$scheduled_cron" == "0 2 * * *" ]]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_run=false" >> "$GITHUB_OUTPUT"

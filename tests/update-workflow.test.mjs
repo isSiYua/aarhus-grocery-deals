@@ -8,8 +8,9 @@ test('daily fallback refreshes and deploys without Codex or OpenAI credentials',
   const workflow = await fs.readFile(workflowUrl, 'utf8');
 
   assert.match(workflow, /name: Update deals and deploy/);
-  assert.match(workflow, /cron: '30 1 \* \* \*'/);
-  assert.match(workflow, /cron: '30 2 \* \* \*'/);
+  assert.match(workflow, /cron: '0 1 \* \* \*'/);
+  assert.match(workflow, /cron: '0 2 \* \* \*'/);
+  assert.match(workflow, /Copenhagen 03:00/);
   assert.match(workflow, /npm run update:fallback/);
   assert.match(workflow, /npm test/);
   assert.match(workflow, /npm run audit:taxonomy/);

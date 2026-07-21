@@ -1,6 +1,6 @@
 # Agent-neutral deal update playbook
 
-No Codex quota, OpenAI key, or model API is required for the scheduled refresh. GitHub Actions runs the same repository code every day at Copenhagen 03:30. This playbook is the fallback for any local agent or human maintainer.
+No Codex quota, OpenAI key, or model API is required for the scheduled refresh. GitHub Actions runs the same repository code every day at Copenhagen 03:00. This playbook is the fallback for any local agent or human maintainer.
 
 ## Routine refresh
 
