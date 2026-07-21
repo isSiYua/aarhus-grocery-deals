@@ -1,9 +1,359 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-20T05:05:15.055Z",
-  "count": 4,
+  "generatedAt": "2026-07-21T04:45:58.967Z",
+  "count": 78,
   "items": [
+    {
+      "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
+      "originalName": "Ajax rengøring eller Bref toiletblokke*",
+      "originalDescription": "750-1000 ml./100 stk./50 g. Literpris maks. 29,33/Pr. stk. 0,22./Kg-pris 440,00. Frit valg. 1 stk.",
+      "currentCategoryId": "household_cleaning",
+      "currentComparisonGroup": "cleaning",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9aa36b86b002c05aaca14aeb08e625ee%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb2422feb6d95ea2acea7a278d2ddb119%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4494589ce2039747342a0d7445cc3d31%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83514f0027cba5f1be68ed5b627cdee7%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9eb2627d3e7317705d1fbc12d041ad00&w=1000&s=7d18949f8cbabefb01607304ae30c6a7"
+    },
+    {
+      "descriptionKey": "v1|amanda yellowfin tun|white_fish",
+      "originalName": "Amanda yellowfin tun*",
+      "originalDescription": "105 g. Kg-pris 114,29. Frit valg. 1 stk.",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "white_fish",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe6ad544bbe56550f52f1cc10258b17aa%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F04309667b991c03257f11ef894293ac4&w=1000&s=27ef2c7ed680978d6cb48f91254ac2b9"
+    },
+    {
+      "descriptionKey": "v1|anglamark okologisk focacciabrod med tomat|bread",
+      "originalName": "Änglamark økologisk focacciabrød med tomat",
+      "originalDescription": "Dybfrost. 295 g. Kg-pris 44,07. 1 stk.",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb58f59c048f3f1cdd6decc8f214e0a7e&w=1000&s=23fb52be217a452df5ca936432f787fb"
+    },
+    {
+      "descriptionKey": "v1|anglamark okologisk pizza|pizza_snacks",
+      "originalName": "Änglamark økologisk pizza",
+      "originalDescription": "Dybfrost. 370-430 g. Kg-pris maks. 75,68. Frit valg. 1 stk.",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "pizza_snacks",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb72392b027710ed0cd959cef10f01b1c%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7909ea29c8a53ef5017b113cecd7e13c&w=1000&s=feab9a4cc87ff5328f74c4418594c362"
+    },
+    {
+      "descriptionKey": "v1|anglamark okologisk roget laks|salmon_smoked",
+      "originalName": "Änglamark økologisk røget laks*",
+      "originalDescription": "100 g. Kg-pris 390,00. 1 stk.",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "salmon_smoked",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0d09f640909129e88accec2df53fa0dc&w=1000&s=6a350db7470edd738496845e7f02e1bc"
+    },
+    {
+      "descriptionKey": "v1|anglamark okologiske gulerodder fra lammefjordspakkeriet|lamb_other",
+      "originalName": "Änglamark økologiske gulerødder fra Lammefjordspakkeriet",
+      "originalDescription": "Danmark, kl. I. 1 kg. Kg-pris 12,00. 1 pose",
+      "currentCategoryId": "beef",
+      "currentComparisonGroup": "lamb_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed5c8a360363ae3f219d38e4d16b1bc6&w=1000&s=bb5ac4df651b829b95a39727dc773d08"
+    },
+    {
+      "descriptionKey": "v1|anglamark okologiske kartofler eller brod|bread",
+      "originalName": "Änglamark økologiske kartofler eller brød",
+      "originalDescription": "Dybfrost. 420-500 g. Kg-pris maks. 30,00. Frit valg. 1 pose",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcbfb74859097db58e4d9de18e4b3093a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc94fde1e1087e047cab9356ea9d3773d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed0510a7c69b47acb0d401db6052aea1&w=1000&s=59046e742cc15bb80862fd09e91b56e3"
+    },
+    {
+      "descriptionKey": "v1|anglamark okologiske smaa sprode gulerodder fra gl estrup|carrots",
+      "originalName": "Änglamark økologiske små sprøde gulerødder fra Gl. Estrup",
+      "originalDescription": "Danmark, kl. I. 250 g. Kg-pris 32,00. 1 pose",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "carrots",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F446cb85a926ba4ce62489a9934041e54&w=1000&s=c1fa63661fbf942c442a2563314cd393"
+    },
+    {
+      "descriptionKey": "v1|aussie haarpleje|hair_body",
+      "originalName": "Aussie hårpleje",
+      "originalDescription": "200-300 ml. Literpris maks. 175,00. Frit valg. 1 stk.",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F21875ddd5b298b67b56f5f04e5b1e12a&w=1000&s=d92dd1b7e8190d999b50a8fe8ff40b7f"
+    },
+    {
+      "descriptionKey": "v1|brema frisk pappardelle eller tagliatelle pasta|pasta_noodles",
+      "originalName": "Brema frisk pappardelle eller tagliatelle pasta*",
+      "originalDescription": "250 g. Kg-pris 40,00. Frit valg. 1 pakke",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3b2ed3805b0e983a3612423c0a594e06%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2fd51735b0573c72a3b31d75a77f1556&w=1000&s=b4e9ebc2dbffdb02b4e7f606268b7e9b"
+    },
+    {
+      "descriptionKey": "v1|burger boost original smoky twist eller hakket oksekod 8 12|chocolate",
+      "originalName": "Burger Boost original, smoky twist eller hakket oksekød 8-12%",
+      "originalDescription": "300-400 g. Kg-pris maks. 130,00. Frit valg. 1 pakke",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faff3cfef168cb7dddb847751dc6aa61d&w=1000&s=91fe7ea1ea6b4cb5e9773e9c42df58bb"
+    },
+    {
+      "descriptionKey": "v1|castello haard ost|cheese_other",
+      "originalName": "Castello hård ost",
+      "originalDescription": "150-200 g. Flere varianter. Pr. kg max. 150.-",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "bilka",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwK6aSR1z%2Fp-4.webp&w=1000&x1r=0.5013&x2r=0.788&y1r=0.2107&y2r=0.5721&s=685f038ba6b80115066acd6a1b08d6a3"
+    },
+    {
+      "descriptionKey": "v1|chrisco hundesnacks|chips",
+      "originalName": "Chrisco hundesnacks*",
+      "originalDescription": "80-105 g. Kg-pris maks. 187,50. Frit valg. 1 stk.",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "chips",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F618884d0d8485fe8170b79bf357eb6d0%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faf6fc1187fe4f11df2969de202b4c496%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0e73f78ac46bd5ce90fa06a3745dfbd0%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd0f047e1a9a1a6a5b9ecb0bfd73a06be&w=1000&s=3ce929f17a2e9d6c2d8d46293008f53a"
+    },
+    {
+      "descriptionKey": "v1|coop bacon i skiver eller tern|bacon_deli",
+      "originalName": "Coop bacon i skiver eller tern*",
+      "originalDescription": "140-150 g. Kg-pris maks. 100,00. Frit valg. 1 pakke",
+      "currentCategoryId": "sausages_deli",
+      "currentComparisonGroup": "bacon_deli",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fff1fc22a210eeb56c1eb0bbd854543ec&w=1000&s=98825d833403d40006bda61a740aa8ac"
+    },
+    {
+      "descriptionKey": "v1|coop bbq koteletter|pork_chop",
+      "originalName": "Coop bbq koteletter",
+      "originalDescription": "1000 g. Kg-pris 69,00. 1 pakke",
+      "currentCategoryId": "pork_fresh",
+      "currentComparisonGroup": "pork_chop",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a6a5e0e654077b0450a698833f7ad80&w=1000&s=39900ca828246a9c3f0bbda0a7039b38"
+    },
+    {
+      "descriptionKey": "v1|coop cevapcici frikadeller hakket grisekod 4 7 eller xtra hakket kylling 7 10|chicken_minced",
+      "originalName": "Coop cevapcici, frikadeller, hakket grisekød 4-7% eller Xtra! hakket kylling 7-10%",
+      "originalDescription": "300-450 g. Kg-pris maks. 96,67. Frit valg. 1 pakke",
+      "currentCategoryId": "minced_meat",
+      "currentComparisonGroup": "chicken_minced",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6273273f5a35571429eaa864b139b909%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd3018d5ea91189d781b9ac7d44fcf89a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe60815eefd43f0f58139ed3921e66567%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3b3b20aa0f577cfd3b6b1bf356070cf3&w=1000&s=0d0acb49c9b59de95b9fb5d97175be35"
+    },
+    {
+      "descriptionKey": "v1|coop dansk piskeflode eller arla laktosefri piskeflode|cream",
+      "originalName": "Coop dansk piskefløde eller Arla laktosefri piskefløde",
+      "originalDescription": "250 ml. Literpris 48,00. Frit valg. 1 stk.",
+      "currentCategoryId": "cream_cold_dairy",
+      "currentComparisonGroup": "cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6cec5342a44fc36c0382e351a2404041%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1e7e0bbf5b7ef54605f4305dfcb884a5&w=1000&s=67375fb0d755402fa0f63887e3643d27"
+    },
+    {
+      "descriptionKey": "v1|coop dressing|sauces",
+      "originalName": "Coop dressing",
+      "originalDescription": "Flere varianter. 400 ml. Literpris 35,00. Frit valg. 1 stk.",
+      "currentCategoryId": "pantry",
+      "currentComparisonGroup": "sauces",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2023897121b29e7f14bc3ab266ed3e6f&w=1000&s=6ebacd1f126de00785fa30e7c9623ec5"
+    },
+    {
+      "descriptionKey": "v1|coop faerdigret|ready_meal",
+      "originalName": "Coop færdigret",
+      "originalDescription": "Dybfrost. 300 g. Kg-pris 50,00. Frit valg. 1 pakke",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fea27870a24553b95c97aa16ef93611e1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F08e4eae95d29092daa5900e3194682b4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7351a81b08d9fddea5d461114f862bca&w=1000&s=6cf5621bd8ebbc55ead00addac208a15"
+    },
+    {
+      "descriptionKey": "v1|coop flydende vaskemiddel|cleaning",
+      "originalName": "Coop flydende vaskemiddel",
+      "originalDescription": "25 vaske/1000 ml. Pr. vask 0,80. Frit valg. 1 stk.",
+      "currentCategoryId": "household_cleaning",
+      "currentComparisonGroup": "cleaning",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdad382091013e39cf014c5002ae508ac%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F65ef2469fedc00bfb2d9906f9242d350&w=1000&s=31ed1321bf4ba412cc73007e81b59560"
+    },
+    {
+      "descriptionKey": "v1|coop hakket grisekod 8 12|pork_minced",
+      "originalName": "Coop hakket grisekød 8-12%",
+      "originalDescription": "500 g. Kg-pris 48,00. 1 pakke",
+      "currentCategoryId": "minced_meat",
+      "currentComparisonGroup": "pork_minced",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faaa567aa056a574ec1d14acdcb75d42d&w=1000&s=1105095b06d6f34526b5720f97d8f1b9"
+    },
+    {
+      "descriptionKey": "v1|coop iskaffe|coffee_tea",
+      "originalName": "Coop iskaffe",
+      "originalDescription": "1 liter. Literpris 12,00. Frit valg. 1 stk.",
+      "currentCategoryId": "coffee_tea",
+      "currentComparisonGroup": "coffee_tea",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faae02327f68e3bb252dc87ea3eebad72%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb4cb2d3aa3bf23cc2266415dc6b48791&w=1000&s=f613f60fe3fe1ef8699ef58c0429e7e4"
+    },
+    {
+      "descriptionKey": "v1|coop kyllingeunder overlaar eller xtra kyllingelaarfilet|chicken_thigh",
+      "originalName": "Coop kyllingeunder-, overlår eller Xtra! kyllingelårfilet",
+      "originalDescription": "400-800 g. Kg-pris maks. 72,50. Frit valg. 1 pakke",
+      "currentCategoryId": "chicken",
+      "currentComparisonGroup": "chicken_thigh",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F87958936e2559cf850be655e9e6054a4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F27f74e239f03d9c7b8cc0c15c712dd3e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1fafb1b84b394c485175b63feec88b2b&w=1000&s=c0b4cc58966adcb5fa8819a8060a92fd"
+    },
+    {
+      "descriptionKey": "v1|coop mandler|nuts",
+      "originalName": "Coop mandler*",
+      "originalDescription": "400 g. Kg-pris 97,50. 1 pose",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "nuts",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93f88655d48d9fbddef2c504f44b671f&w=1000&s=f86c02f5d0b689f205f8ed7d0855f87e"
+    },
+    {
+      "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|beef_flat_steak",
+      "originalName": "Coop marineret flanksteak med oregano og hvidløg",
+      "originalDescription": "Kg-pris 220,00. Pris pr. ½ kg.",
+      "currentCategoryId": "beef",
+      "currentComparisonGroup": "beef_flat_steak",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc3e22659cc9aa44b88829b2fc8d7745b&w=1000&s=7f61fd8222397cc8f4b750510e68cbf1"
+    },
+    {
+      "descriptionKey": "v1|coop mascarpone burrata eller maxi mozzarella|cheese_mozzarella_burrata",
+      "originalName": "Coop mascarpone, burrata eller maxi mozzarella",
+      "originalDescription": "125-250 g. Kg-pris maks. 152,00. Frit valg. 1 stk.",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_mozzarella_burrata",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbe91508a19dbc64aa5a73ed530271ad9&w=1000&s=a4437af961818e2096182b8dccf3d736"
+    },
+    {
+      "descriptionKey": "v1|coop pesto|sauces",
+      "originalName": "Coop pesto*",
+      "originalDescription": "190 g. Kg-pris maks. 52,63. Frit valg. 1 glas",
+      "currentCategoryId": "pantry",
+      "currentComparisonGroup": "sauces",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F159d829b43a7830f73f3bb1f8784a42a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F214f636bbac2a2499b15a2c72961f03c&w=1000&s=c8eb131fff33d012037d306b563d2091"
+    },
+    {
+      "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|beef_ribeye",
+      "originalName": "Coop ribsteak bbq med lakrids/chili eller firepit",
+      "originalDescription": "325 g. Kg-pris 107,69. Frit valg. 1 pakke",
+      "currentCategoryId": "beef",
+      "currentComparisonGroup": "beef_ribeye",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbbb8ed0d935afb11e15dfff58faf8372%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F458bb2d8105122130b05b36815743a81&w=1000&s=94ff2cd12228c59d068d29278f771aa9"
+    },
+    {
+      "descriptionKey": "v1|coop ricotta eller formaggio revet ost|cheese_grated",
+      "originalName": "Coop ricotta eller formaggio revet ost",
+      "originalDescription": "100-250 g. Kg-pris maks. 120,00. Frit valg. 1 stk./pose",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_grated",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fde9938b0841e47aa69e495c829b1a289&w=1000&s=b5cdf7994e7232b77086f2748607b1f7"
+    },
+    {
+      "descriptionKey": "v1|coop romkugler traestammer eller mazarintaerte|biscuits",
+      "originalName": "Coop romkugler, træstammer eller mazarintærte",
+      "originalDescription": "200-275 g. Kg-pris maks. 60,00. Frit valg. 1 pakke",
+      "currentCategoryId": "biscuits_cakes",
+      "currentComparisonGroup": "biscuits",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8268907c0b56f23693a604e9bf17651e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5f901969cba7b155a1088f9ebd5348b6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F24bf2ce147589ac312f846688cc3f11c&w=1000&s=609a1f2e2a374c914049e875d61a0d87"
+    },
+    {
+      "descriptionKey": "v1|coop tortilla|flour_baking",
+      "originalName": "Coop tortilla",
+      "originalDescription": "370 g. Kg-pris 28,13. 1 stk.",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "flour_baking",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2258f7c5e5d890d110bffd7503530828&w=1000&s=ab27f1c65ff9776d50abb0cd08bb6fac"
+    },
+    {
+      "descriptionKey": "v1|dan cake maaner roulader eller mazarintaerte|biscuits",
+      "originalName": "Dan Cake måner, roulader eller mazarintærte*",
+      "originalDescription": "Flere varianter. 275-350 g. Kg-pris maks. 50,00. Frit valg. 1 pakke",
+      "currentCategoryId": "biscuits_cakes",
+      "currentComparisonGroup": "biscuits",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc30d2ec91ecd5f89e335f74e2327da90%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F10e5b044ba9fdfc7b0318c8335512051%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F06fa5995eecedfa03a3fe64873112075%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe5b66dd81429230f9aa29f31619bde6c%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F407209f7ef6c726e2555703b0ac127e7&w=1000&s=c496938418c22d1f9fcf78f4d82947fd"
+    },
+    {
+      "descriptionKey": "v1|danpo tempura nuggets eller coop cordon bleu|chicken_breaded",
+      "originalName": "Danpo tempura nuggets eller Coop cordon bleu",
+      "originalDescription": "Dybfrost. 500-750 g. Kg-pris maks. 70,00. Frit valg. 1 pose",
+      "currentCategoryId": "chicken",
+      "currentComparisonGroup": "chicken_breaded",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd69a3756f7fa3dd7d1a789d069c6d46e&w=1000&s=51b1c38756bd464c5700d38108fbc142"
+    },
+    {
+      "descriptionKey": "v1|dansk icebergsalat fra maansson|lettuce",
+      "originalName": "Dansk icebergsalat fra Månsson",
+      "originalDescription": "Danmark, kl. I. Stk-pris 10,00. 1 stk.",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "lettuce",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F80654b76eef373214a6ca0b7bfdeedaf&w=1000&s=045b177b6d6d9cc3b0af68c982d2d783"
+    },
+    {
+      "descriptionKey": "v1|dansk spidskaal fra torup bakkegaard eller birkemosegaard|cabbage",
+      "originalName": "Dansk spidskål fra Torup Bakkegård eller Birkemosegaard",
+      "originalDescription": "Danmark, kl. I. Stk-pris 12,00. 1 stk.",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "cabbage",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8a0ffc1ac09f973dc0c8b745609d993c&w=1000&s=d28fd456e82e38a671a2cff52036301b"
+    },
     {
       "descriptionKey": "v1|donut ferskner|biscuits",
       "originalName": "Donut ferskner",
@@ -13,6 +363,156 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-24.webp&w=1000&x1r=0&x2r=1&y1r=0.5&y2r=1&s=485e332b70127373aed837d5e6de48bc"
+    },
+    {
+      "descriptionKey": "v1|dueholm okologiske aeg|eggs",
+      "originalName": "Dueholm økologiske æg",
+      "originalDescription": "Str. L. 4 stk. Stk-pris 4,00. 1 bakke",
+      "currentCategoryId": "eggs_milk",
+      "currentComparisonGroup": "eggs",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2759c48c95dd9a8728edb09ec63866ca&w=1000&s=1f01dd3485ec48bef84d2467be9df6d5"
+    },
+    {
+      "descriptionKey": "v1|friland okologisk paalaeg eller postej|bacon_deli",
+      "originalName": "Friland økologisk pålæg eller postej*",
+      "originalDescription": "70-200 g. Kg-pris maks. 214,29. Frit valg. 1 stk.",
+      "currentCategoryId": "sausages_deli",
+      "currentComparisonGroup": "bacon_deli",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fca44f6e1f8b1ba2934cdf16f7010d6f3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F79039bd46bca1c0d323695a56edfa541%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F660f8ef3a972a98413e778903bad667e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F779205a5c3ac5343f35bc78a461d7a18&w=1000&s=cee09c8f8c6b414d24cb1afcb816d3a4"
+    },
+    {
+      "descriptionKey": "v1|gaardlykke hel spegepolse|sausages",
+      "originalName": "Gårdlykke hel spegepølse*",
+      "originalDescription": "220 g. Kg-pris 113,64. Frit valg. 1 stk.",
+      "currentCategoryId": "sausages_deli",
+      "currentComparisonGroup": "sausages",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa48aa42bb8102c4e025231e6c0b6ce19&w=1000&s=4f9b20f0bba35e3e0d361374d3094aeb"
+    },
+    {
+      "descriptionKey": "v1|galia eller honningmelon|melon",
+      "originalName": "Galia eller honningmelon",
+      "originalDescription": "Udenlandske, kl. I. Stk-pris 18,00. Frit valg. 1 stk.",
+      "currentCategoryId": "fruit",
+      "currentComparisonGroup": "melon",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5bb52b12215ff82638bc76f05cf28566%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0307017f0cd2ee61e58aab4b3c66a68b&w=1000&s=b39ce4e4068062195e57b408baeb84f0"
+    },
+    {
+      "descriptionKey": "v1|glyngore fiske eller laksefars|salmon_fresh",
+      "originalName": "Glyngøre fiske- eller laksefars",
+      "originalDescription": "400 g. Kg-pris 72,50. Frit valg. 1 pakke",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "salmon_fresh",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F56e0db74439455b66b6e921f3f16e3f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1179730a4b876575e6286b844a1626d5&w=1000&s=5ffd603e22c1a7268e616b1542644941"
+    },
+    {
+      "descriptionKey": "v1|glyngore lakseportioner|salmon_fresh",
+      "originalName": "Glyngøre lakseportioner",
+      "originalDescription": "225 g. Kg-pris 191,11. 1 pakke",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "salmon_fresh",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F480bd2a7e43fe0276a2db00a215bc6ee&w=1000&s=86663de988ce4bb65d6d230de3e1e09a"
+    },
+    {
+      "descriptionKey": "v1|go tan sriracha sauce eller hot chili mayonnaise|ready_meal",
+      "originalName": "Go-Tan Sriracha Sauce eller hot chili mayonnaise*",
+      "originalDescription": "215 g. Kg-pris 93,02. Frit valg. 1 stk.",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9b78f11f492bc44c784bda0c7f549b32%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F249bc3becc8595e8cdde4ced9fa0d6c3&w=1000&s=8fb4528f3763a80e44834601b9e811c1"
+    },
+    {
+      "descriptionKey": "v1|graasten eller k salat kartoffelsalat|potato_salad",
+      "originalName": "Graasten eller K-salat kartoffelsalat*",
+      "originalDescription": "800 g. Kg-pris maks. 35,00. Frit valg. 1 stk.",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "potato_salad",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff354db163bdd86c8c284dbf140ddcdbe&w=1000&s=89683287dde11305be5495c839e173c7"
+    },
+    {
+      "descriptionKey": "v1|grana padano|cheese_aged_hard",
+      "originalName": "Grana Padano",
+      "originalDescription": "200 g. Pr. kg 150.-",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_aged_hard",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "bilka",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwK6aSR1z%2Fp-4.webp&w=1000&x1r=0.7064&x2r=0.9867&y1r=0.2121&y2r=0.5791&s=26e5bb013a933903663c195764d3a9bf"
+    },
+    {
+      "descriptionKey": "v1|irma mix tomater fra regnemark|tomatoes",
+      "originalName": "Irma mix tomater fra Regnemark",
+      "originalDescription": "Danmark, kl. I. 200 g. Kg-pris 90,00. 1 bakke",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "tomatoes",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcb7186a8696f8adf2d74a334cdbecaa8&w=1000&s=fa616355c8aa163944670f40c1c628ac"
+    },
+    {
+      "descriptionKey": "v1|kaergaarden smorbar|butter",
+      "originalName": "Kærgården smørbar",
+      "originalDescription": "200 g. Kg-pris 90,00. 1 pakke",
+      "currentCategoryId": "butter_spreads",
+      "currentComparisonGroup": "butter",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F05f2e473c4b0e401a99c63fad36c42dd&w=1000&s=7458b365a6397611c5f9b4945b26d5b6"
+    },
+    {
+      "descriptionKey": "v1|karolines kokken fraiche med smag eller creme fraiche|cream",
+      "originalName": "Karolines Køkken fraiche med smag eller creme fraiche",
+      "originalDescription": "200-250 g. Kg-pris maks. 60,00. Frit valg. 1 stk.",
+      "currentCategoryId": "cream_cold_dairy",
+      "currentComparisonGroup": "cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa1247d0c87e42ebc082979afdf6abcda%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7d4203bbd097dcb13007a00836b1829d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3f187ec9798ef4bbd77b63f3319d38b1&w=1000&s=403147027057680b7089ed32610a325b"
+    },
+    {
+      "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
+      "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
+      "originalDescription": "Flere varianter. 330-400 g. Kg-pris maks. 45,45. Frit valg. 1 pakke",
+      "currentCategoryId": "butter_spreads",
+      "currentComparisonGroup": "butter",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb6a7a1b6ad43af665862c83ae96c6869&w=1000&s=9119687cd05da592c27329a28901dd12"
+    },
+    {
+      "descriptionKey": "v1|kolios graesk yoghurt|yoghurt",
+      "originalName": "Kolios græsk yoghurt",
+      "originalDescription": "1 kg. Kg-pris 25,00. Frit valg. 1 stk.",
+      "currentCategoryId": "yoghurt",
+      "currentComparisonGroup": "yoghurt",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2fe416707f0a22a3e92e760da483b85b%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa74c15f4330f6ef209de437d35fb4abb&w=1000&s=b25f7ad97bee46692c0dae80afd6622a"
+    },
+    {
+      "descriptionKey": "v1|lambi classic toiletpapir eller kokkenrulle|paper",
+      "originalName": "Lambi Classic toiletpapir eller køkkenrulle *",
+      "originalDescription": "4-8 rl. 484-745 g. Kg-pris maks. 41,32. Frit valg. 1 pakke.",
+      "currentCategoryId": "household_paper",
+      "currentComparisonGroup": "paper",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd972229c6948107e619dd6fc1945f9d5%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F00ae1adb101d12d6b55a4d0d191ed527&w=1000&s=0b26f68030dbee382304893f5ade3260"
     },
     {
       "descriptionKey": "v1|lammemarked|lamb_other",
@@ -35,6 +535,116 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-34.webp&w=1000&x1r=0.51&x2r=0.725&y1r=0.345&y2r=0.635&s=f27b3e767a54ff905709055ba488c076"
     },
     {
+      "descriptionKey": "v1|m m s maltesers daim drage eller kvikk lunsj|chocolate",
+      "originalName": "M&M's, Maltesers, Daim Dragé eller Kvikk Lunsj*",
+      "originalDescription": "93-150 g. Kg-pris maks. 301,08. Frit valg. 1 pose",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fba2e692fdcf592b34b960953e2e85bfa&w=1000&s=45fe9bcd4854c48d0eaff76a8ebf0b35"
+    },
+    {
+      "descriptionKey": "v1|mammen skaereost eller danablu|cheese_danish_table",
+      "originalName": "Mammen skæreost eller Danablu*",
+      "originalDescription": "Min. 300 g. Kg-pris maks. 100,00. Frit valg. 1 stk.",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_danish_table",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F05965b3302e03c70169bfd3ae322aa90%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa8a25cd5269501511b0f6ef0be253101%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa989811ac8ed447705edb3bf441fa9f3&w=1000&s=a334edfade441ebb13d38f2347017aba"
+    },
+    {
+      "descriptionKey": "v1|matilde milkshake eller kakaomaelk|milk",
+      "originalName": "Matilde milkshake eller kakaomælk",
+      "originalDescription": "200-250 ml. Literpris maks. 35,00. Frit valg. 1 stk.",
+      "currentCategoryId": "eggs_milk",
+      "currentComparisonGroup": "milk",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ffaf74a6720f1adce412196bd3e73f5df%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83b5d5b9b1622c695b2c4c0b32427295%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F80c6a49ab13c01c1423e69e5d1f4da38%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa51e37a6f4a8ec3814df0d0ee7bc4d8f&w=1000&s=c2cd96f22201902b906338245d5b8dd8"
+    },
+    {
+      "descriptionKey": "v1|monini classico eller delicato olivenolie|oil_vinegar",
+      "originalName": "Monini classico eller delicato olivenolie*",
+      "originalDescription": "500 ml. Literpris 130,00. Frit valg. 1 stk.",
+      "currentCategoryId": "pantry",
+      "currentComparisonGroup": "oil_vinegar",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1f07b3f60e802bf1cc170b0a3824abbd%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff8fd1a853e24c7f1e6401a5d64a92cb2&w=1000&s=a871f62d88dfc643395e45c36039438a"
+    },
+    {
+      "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
+      "originalName": "Nescafe iskaffe*",
+      "originalDescription": "250 ml. Literpris 48,00. Frit valg. 1 dåse",
+      "currentCategoryId": "coffee_tea",
+      "currentComparisonGroup": "coffee_tea",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F521e7422e7eeb393750b9cdc9eb4dc3a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F33d8fe96dc40b54b3621220cbc91c3c3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1d773b6277a58d1644b9c2344df39a6b&w=1000&s=5eb927c5ff2784d9c2028d7ab15068a4"
+    },
+    {
+      "descriptionKey": "v1|nivea deodorant eller shower|hair_body",
+      "originalName": "Nivea deodorant eller shower*",
+      "originalDescription": "50-250 ml. Literpris maks. 300,00. Frit valg. 1 stk.",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff03b992aaf91548bda9e02deced2a2e6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F82d35553097d698f248ffc2c59aa015a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdcd3e3f513081e04d1c16aa3413b0480%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F03f3cd65ed22f543bb3a3da4b3ded6c4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7ec549e26db7730ae643769338d8d8c9&w=1000&s=73ca746b50402a129566543dca08ccb6"
+    },
+    {
+      "descriptionKey": "v1|nutramino wafer eller coop proteinbar|chocolate",
+      "originalName": "Nutramino wafer eller Coop proteinbar*",
+      "originalDescription": "39-50 g. Kg-pris maks. 256,41. Frit valg. 1 stk.",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8c3e2e98ae71d3d9da45afdb23c803e2%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fca9a814625b68625ac27d924f912c833%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa8cfadba3ea64e06b05a489896f68ee5%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff7c44e03c79bc3fa3aea342d2f72b6d9&w=1000&s=abbac28bd6eef0910e33bd61fd07a21c"
+    },
+    {
+      "descriptionKey": "v1|nye danske kartofler fra storohage|potatoes_fresh",
+      "originalName": "Nye danske kartofler fra Storøhage",
+      "originalDescription": "Danmark, kl. I. 1,5 kg. Kg-pris 13,33. 1 pose",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "potatoes_fresh",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0105809cb389ce0d69c5602eb3217a7c&w=1000&s=3bfae688237dc5874cc72d29e2fc1cc0"
+    },
+    {
+      "descriptionKey": "v1|pomi tomatkonserves|canned_tomatoes",
+      "originalName": "Pomi tomatkonserves*",
+      "originalDescription": "200-400 g. Kg-pris maks. 50,00. Frit valg. 1 stk.",
+      "currentCategoryId": "pantry",
+      "currentComparisonGroup": "canned_tomatoes",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83465f0e40bf4627364e5c98a9bece91&w=1000&s=946fa36feca9ef202cadf962a5d425b6"
+    },
+    {
+      "descriptionKey": "v1|rahbek indbagt fisk|seafood_other",
+      "originalName": "Rahbek indbagt fisk",
+      "originalDescription": "Dybfrost. 250 g. Kg-pris 66,37. Frit valg. 1 pakke",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "seafood_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93573585e8b74b51597b0bff56b6cba1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8abda8d15f97ea38a281757acb175c09&w=1000&s=a725d2313da38c25f517b4944111eb98"
+    },
+    {
+      "descriptionKey": "v1|rose kyllingetopping|chicken_other",
+      "originalName": "Rose kyllingetopping",
+      "originalDescription": "Flere varianter. 150 g. Kg-pris 106,67. 1 stk.",
+      "currentCategoryId": "chicken",
+      "currentComparisonGroup": "chicken_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9a72f8d80d8714c3ca699cd45544b1f4&w=1000&s=46ac11edf2b5ec2b5b95e3b0b7329ffe"
+    },
+    {
       "descriptionKey": "v1|salsiccia griller|sausages",
       "originalName": "SALSICCIA GRILLER",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG",
@@ -43,6 +653,136 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "rema",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-18.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.52&y2r=0.73&s=e6078d903eea1d1d9da924b4d224f7d8"
+    },
+    {
+      "descriptionKey": "v1|taffel chips eller nodder|chips",
+      "originalName": "Taffel chips eller nødder*",
+      "originalDescription": "90-175 g. Kg-pris maks. 155,56. Frit valg. 1 pose",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "chips",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3895a31c1ea070ca91cc5707b66db9eb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcc80f334e4b1ba5110dded76bba08c8e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff372ef24c42b1510675f3a7913711358%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93349d82f916db86be6cb88de92838d6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc11487ee691aa20bd4c8b0050b4f7545&w=1000&s=eb5638880c95807f532ce0bc0d1c7fa0"
+    },
+    {
+      "descriptionKey": "v1|taquitos|ice_cream",
+      "originalName": "Taquitos",
+      "originalDescription": "Dybfrost. 240 g. Kg-pris 104,17. 1 pakke",
+      "currentCategoryId": "ice_cream",
+      "currentComparisonGroup": "ice_cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fea92b21f7f6b788860d546b1d642a4ad&w=1000&s=528979f5aaca699972104ff7d354b507"
+    },
+    {
+      "descriptionKey": "v1|thise okologisk skyr|yoghurt",
+      "originalName": "Thise økologisk skyr*",
+      "originalDescription": "1 kg. Kg-pris 29,00. Frit valg. 1 stk.",
+      "currentCategoryId": "yoghurt",
+      "currentComparisonGroup": "yoghurt",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F767ae5b0f08c8ea393d9abfee0ec822f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed2942b2b787ed957602316c97a71482%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6461f93ee7b73031ba5df09215b8bc0e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cdc2f9ab96856657a0af1f7694dbfae&w=1000&s=510bfb259223984c5827e8ea1abb0ab1"
+    },
+    {
+      "descriptionKey": "v1|toms guldkarameller eller kaempe skildpadder 3 pak|chocolate",
+      "originalName": "Toms Guldkarameller eller Kæmpe Skildpadder 3-pak",
+      "originalDescription": "Flere varianter. 84-100 g. Kg-pris maks. 178,57. Frit valg. 1 stk",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc6cc272da56055874a907515b5a910dc&w=1000&s=909c13c046b060ced6718383cb8c6fc6"
+    },
+    {
+      "descriptionKey": "v1|toms slikpose|chocolate",
+      "originalName": "Toms slikpose*",
+      "originalDescription": "Flere varianter. 375 g. Kg-pris 93,33. Frit valg. 1 pose",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5f55373b24f45f38ab753cb0cc50111f&w=1000&s=a6ed1e06c2a091ecd442c41d19c3b257"
+    },
+    {
+      "descriptionKey": "v1|tresemme shampoo eller balsam|hair_body",
+      "originalName": "Tresemme shampoo eller balsam*",
+      "originalDescription": "685 ml. Literpris 58,39. Frit valg. 1 stk.",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a8f3617702083e2dd2060c19fe68e6c&w=1000&s=bb0562b572c30164e3d6ba57308ec310"
+    },
+    {
+      "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|pork_mixed_offer",
+      "originalName": "Tulip pulled pork, pulled chicken eller spareribs*",
+      "originalDescription": "450-500 g. Kg-pris maks. 86,67. Frit valg. 1 pakke",
+      "currentCategoryId": "pork_fresh",
+      "currentComparisonGroup": "pork_mixed_offer",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc09b3685be33565a26343c1aa4084af3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9e3293995a161365c485e56b521dbed6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F34f2d9ac81b570f0a983d5b3c3590612&w=1000&s=bb9722f5d23c077309d301a9fbb7f0a4"
+    },
+    {
+      "descriptionKey": "v1|wasa knaekbrod|bread",
+      "originalName": "Wasa knækbrød*",
+      "originalDescription": "Flere varianter. 110-275 g. Kg-pris maks. 90,91. Frit valg. 1 pakke",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3967089503ee667bd0d969f31033dc43%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5da87ab88dad1662813cf80db3671b09%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb410e0600c258e10eb09d6cca2caf920%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2b711028fc182168b50a9f8e149dbab6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F43059d26fb438a7d9cef689a7db5c37b&w=1000&s=df924cc52acfd6c92547ff89079e8902"
+    },
+    {
+      "descriptionKey": "v1|xtra hvidlogsbaguette|bread",
+      "originalName": "Xtra! hvidløgsbaguette",
+      "originalDescription": "Dybfrost. 350 g. Kg-pris 28,57. 1 pakke",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fadcef8028b6af47da9656b24ef720780&w=1000&s=0841557d587bac88301d927ef32a62ee"
+    },
+    {
+      "descriptionKey": "v1|xtra kalamata oliven|pickled_vegetables",
+      "originalName": "Xtra! kalamata oliven*",
+      "originalDescription": "145 g. Kg-pris 82,76. 1 glas",
+      "currentCategoryId": "pantry",
+      "currentComparisonGroup": "pickled_vegetables",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Feaf26b454ce277905f42de4f3b134aff&w=1000&s=0380463f5905bf3782b4f64472806ea6"
+    },
+    {
+      "descriptionKey": "v1|xtra kyllingebryst med lage|chicken_breast",
+      "originalName": "Xtra! kyllingebryst med lage",
+      "originalDescription": "800 g. Kg-pris 73,75. 1 pakke",
+      "currentCategoryId": "chicken",
+      "currentComparisonGroup": "chicken_breast",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa89faaf61e835e261f87306f8f5a33a8&w=1000&s=bdb4928ec510568f028aee10f35e2fe3"
+    },
+    {
+      "descriptionKey": "v1|yum yum nudler|pasta_noodles",
+      "originalName": "Yum Yum nudler*",
+      "originalDescription": "360 g. Kg-pris 88,89. Frit valg. 1 pakke",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6761d7d9a13a38f9a29dec4370a8b048&w=1000&s=fd90a3cfe9aa402ae7b3c92c009fb869"
+    },
+    {
+      "descriptionKey": "v1|zendium mundpleje|hair_body",
+      "originalName": "Zendium mundpleje*",
+      "originalDescription": "2 x 50 ml. Literpris 290,00. Frit valg. 1 stk.",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F047effa7c9fa539dfa8edde9a99af314&w=1000&s=a7d887672fe7277336ddaed8cdf02213"
     }
   ]
 }

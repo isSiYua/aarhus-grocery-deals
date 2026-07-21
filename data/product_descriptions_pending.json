@@ -1,9 +1,464 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-20T05:05:15.055Z",
-  "count": 4,
+  "generatedAt": "2026-07-21T04:45:58.967Z",
+  "count": 78,
   "items": [
+    {
+      "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
+      "originalName": "Ajax rengøring eller Bref toiletblokke*",
+      "sampleDescriptions": [
+        "750-1000 ml./100 stk./50 g. Literpris maks. 29,33/Pr. stk. 0,22./Kg-pris 440,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|amanda yellowfin tun|white_fish",
+      "originalName": "Amanda yellowfin tun*",
+      "sampleDescriptions": [
+        "105 g. Kg-pris 114,29. Frit valg. 1 stk."
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "white_fish",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|anglamark okologisk focacciabrod med tomat|bread",
+      "originalName": "Änglamark økologisk focacciabrød med tomat",
+      "sampleDescriptions": [
+        "Dybfrost. 295 g. Kg-pris 44,07. 1 stk."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|anglamark okologisk pizza|pizza_snacks",
+      "originalName": "Änglamark økologisk pizza",
+      "sampleDescriptions": [
+        "Dybfrost. 370-430 g. Kg-pris maks. 75,68. Frit valg. 1 stk."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|anglamark okologisk roget laks|salmon_smoked",
+      "originalName": "Änglamark økologisk røget laks*",
+      "sampleDescriptions": [
+        "100 g. Kg-pris 390,00. 1 stk."
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|anglamark okologiske gulerodder fra lammefjordspakkeriet|lamb_other",
+      "originalName": "Änglamark økologiske gulerødder fra Lammefjordspakkeriet",
+      "sampleDescriptions": [
+        "Danmark, kl. I. 1 kg. Kg-pris 12,00. 1 pose"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|anglamark okologiske kartofler eller brod|bread",
+      "originalName": "Änglamark økologiske kartofler eller brød",
+      "sampleDescriptions": [
+        "Dybfrost. 420-500 g. Kg-pris maks. 30,00. Frit valg. 1 pose"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|anglamark okologiske smaa sprode gulerodder fra gl estrup|carrots",
+      "originalName": "Änglamark økologiske små sprøde gulerødder fra Gl. Estrup",
+      "sampleDescriptions": [
+        "Danmark, kl. I. 250 g. Kg-pris 32,00. 1 pose"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "carrots",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|aussie haarpleje|hair_body",
+      "originalName": "Aussie hårpleje",
+      "sampleDescriptions": [
+        "200-300 ml. Literpris maks. 175,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|brema frisk pappardelle eller tagliatelle pasta|pasta_noodles",
+      "originalName": "Brema frisk pappardelle eller tagliatelle pasta*",
+      "sampleDescriptions": [
+        "250 g. Kg-pris 40,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|burger boost original smoky twist eller hakket oksekod 8 12|chocolate",
+      "originalName": "Burger Boost original, smoky twist eller hakket oksekød 8-12%",
+      "sampleDescriptions": [
+        "300-400 g. Kg-pris maks. 130,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|castello haard ost|cheese_other",
+      "originalName": "Castello hård ost",
+      "sampleDescriptions": [
+        "150-200 g. Flere varianter. Pr. kg max. 150.-"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "stores": [
+        "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|chrisco hundesnacks|chips",
+      "originalName": "Chrisco hundesnacks*",
+      "sampleDescriptions": [
+        "80-105 g. Kg-pris maks. 187,50. Frit valg. 1 stk."
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop bacon i skiver eller tern|bacon_deli",
+      "originalName": "Coop bacon i skiver eller tern*",
+      "sampleDescriptions": [
+        "140-150 g. Kg-pris maks. 100,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "sausages_deli",
+      "comparisonGroup": "bacon_deli",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop bbq koteletter|pork_chop",
+      "originalName": "Coop bbq koteletter",
+      "sampleDescriptions": [
+        "1000 g. Kg-pris 69,00. 1 pakke"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_chop",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop cevapcici frikadeller hakket grisekod 4 7 eller xtra hakket kylling 7 10|chicken_minced",
+      "originalName": "Coop cevapcici, frikadeller, hakket grisekød 4-7% eller Xtra! hakket kylling 7-10%",
+      "sampleDescriptions": [
+        "300-450 g. Kg-pris maks. 96,67. Frit valg. 1 pakke"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "chicken_minced",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop dansk piskeflode eller arla laktosefri piskeflode|cream",
+      "originalName": "Coop dansk piskefløde eller Arla laktosefri piskefløde",
+      "sampleDescriptions": [
+        "250 ml. Literpris 48,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop dressing|sauces",
+      "originalName": "Coop dressing",
+      "sampleDescriptions": [
+        "Flere varianter. 400 ml. Literpris 35,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "sauces",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop faerdigret|ready_meal",
+      "originalName": "Coop færdigret",
+      "sampleDescriptions": [
+        "Dybfrost. 300 g. Kg-pris 50,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop flydende vaskemiddel|cleaning",
+      "originalName": "Coop flydende vaskemiddel",
+      "sampleDescriptions": [
+        "25 vaske/1000 ml. Pr. vask 0,80. Frit valg. 1 stk."
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop hakket grisekod 8 12|pork_minced",
+      "originalName": "Coop hakket grisekød 8-12%",
+      "sampleDescriptions": [
+        "500 g. Kg-pris 48,00. 1 pakke"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "pork_minced",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop iskaffe|coffee_tea",
+      "originalName": "Coop iskaffe",
+      "sampleDescriptions": [
+        "1 liter. Literpris 12,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop kyllingeunder overlaar eller xtra kyllingelaarfilet|chicken_thigh",
+      "originalName": "Coop kyllingeunder-, overlår eller Xtra! kyllingelårfilet",
+      "sampleDescriptions": [
+        "400-800 g. Kg-pris maks. 72,50. Frit valg. 1 pakke"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_thigh",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop mandler|nuts",
+      "originalName": "Coop mandler*",
+      "sampleDescriptions": [
+        "400 g. Kg-pris 97,50. 1 pose"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|beef_flat_steak",
+      "originalName": "Coop marineret flanksteak med oregano og hvidløg",
+      "sampleDescriptions": [
+        "Kg-pris 220,00. Pris pr. ½ kg."
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_flat_steak",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop mascarpone burrata eller maxi mozzarella|cheese_mozzarella_burrata",
+      "originalName": "Coop mascarpone, burrata eller maxi mozzarella",
+      "sampleDescriptions": [
+        "125-250 g. Kg-pris maks. 152,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop pesto|sauces",
+      "originalName": "Coop pesto*",
+      "sampleDescriptions": [
+        "190 g. Kg-pris maks. 52,63. Frit valg. 1 glas"
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "sauces",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|beef_ribeye",
+      "originalName": "Coop ribsteak bbq med lakrids/chili eller firepit",
+      "sampleDescriptions": [
+        "325 g. Kg-pris 107,69. Frit valg. 1 pakke"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop ricotta eller formaggio revet ost|cheese_grated",
+      "originalName": "Coop ricotta eller formaggio revet ost",
+      "sampleDescriptions": [
+        "100-250 g. Kg-pris maks. 120,00. Frit valg. 1 stk./pose"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop romkugler traestammer eller mazarintaerte|biscuits",
+      "originalName": "Coop romkugler, træstammer eller mazarintærte",
+      "sampleDescriptions": [
+        "200-275 g. Kg-pris maks. 60,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop tortilla|flour_baking",
+      "originalName": "Coop tortilla",
+      "sampleDescriptions": [
+        "370 g. Kg-pris 28,13. 1 stk."
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "flour_baking",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dan cake maaner roulader eller mazarintaerte|biscuits",
+      "originalName": "Dan Cake måner, roulader eller mazarintærte*",
+      "sampleDescriptions": [
+        "Flere varianter. 275-350 g. Kg-pris maks. 50,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|danpo tempura nuggets eller coop cordon bleu|chicken_breaded",
+      "originalName": "Danpo tempura nuggets eller Coop cordon bleu",
+      "sampleDescriptions": [
+        "Dybfrost. 500-750 g. Kg-pris maks. 70,00. Frit valg. 1 pose"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breaded",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk icebergsalat fra maansson|lettuce",
+      "originalName": "Dansk icebergsalat fra Månsson",
+      "sampleDescriptions": [
+        "Danmark, kl. I. Stk-pris 10,00. 1 stk."
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "lettuce",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk spidskaal fra torup bakkegaard eller birkemosegaard|cabbage",
+      "originalName": "Dansk spidskål fra Torup Bakkegård eller Birkemosegaard",
+      "sampleDescriptions": [
+        "Danmark, kl. I. Stk-pris 12,00. 1 stk."
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "cabbage",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
     {
       "descriptionKey": "v1|donut ferskner|biscuits",
       "originalName": "Donut ferskner",
@@ -14,6 +469,201 @@
       "comparisonGroup": "biscuits",
       "stores": [
         "rema"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dueholm okologiske aeg|eggs",
+      "originalName": "Dueholm økologiske æg",
+      "sampleDescriptions": [
+        "Str. L. 4 stk. Stk-pris 4,00. 1 bakke"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "eggs",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|friland okologisk paalaeg eller postej|bacon_deli",
+      "originalName": "Friland økologisk pålæg eller postej*",
+      "sampleDescriptions": [
+        "70-200 g. Kg-pris maks. 214,29. Frit valg. 1 stk."
+      ],
+      "categoryId": "sausages_deli",
+      "comparisonGroup": "bacon_deli",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gaardlykke hel spegepolse|sausages",
+      "originalName": "Gårdlykke hel spegepølse*",
+      "sampleDescriptions": [
+        "220 g. Kg-pris 113,64. Frit valg. 1 stk."
+      ],
+      "categoryId": "sausages_deli",
+      "comparisonGroup": "sausages",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|galia eller honningmelon|melon",
+      "originalName": "Galia eller honningmelon",
+      "sampleDescriptions": [
+        "Udenlandske, kl. I. Stk-pris 18,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "melon",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|glyngore fiske eller laksefars|salmon_fresh",
+      "originalName": "Glyngøre fiske- eller laksefars",
+      "sampleDescriptions": [
+        "400 g. Kg-pris 72,50. Frit valg. 1 pakke"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|glyngore lakseportioner|salmon_fresh",
+      "originalName": "Glyngøre lakseportioner",
+      "sampleDescriptions": [
+        "225 g. Kg-pris 191,11. 1 pakke"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|go tan sriracha sauce eller hot chili mayonnaise|ready_meal",
+      "originalName": "Go-Tan Sriracha Sauce eller hot chili mayonnaise*",
+      "sampleDescriptions": [
+        "215 g. Kg-pris 93,02. Frit valg. 1 stk."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|graasten eller k salat kartoffelsalat|potato_salad",
+      "originalName": "Graasten eller K-salat kartoffelsalat*",
+      "sampleDescriptions": [
+        "800 g. Kg-pris maks. 35,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "potato_salad",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|grana padano|cheese_aged_hard",
+      "originalName": "Grana Padano",
+      "sampleDescriptions": [
+        "200 g. Pr. kg 150.-"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_aged_hard",
+      "stores": [
+        "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|irma mix tomater fra regnemark|tomatoes",
+      "originalName": "Irma mix tomater fra Regnemark",
+      "sampleDescriptions": [
+        "Danmark, kl. I. 200 g. Kg-pris 90,00. 1 bakke"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "tomatoes",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kaergaarden smorbar|butter",
+      "originalName": "Kærgården smørbar",
+      "sampleDescriptions": [
+        "200 g. Kg-pris 90,00. 1 pakke"
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|karolines kokken fraiche med smag eller creme fraiche|cream",
+      "originalName": "Karolines Køkken fraiche med smag eller creme fraiche",
+      "sampleDescriptions": [
+        "200-250 g. Kg-pris maks. 60,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
+      "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
+      "sampleDescriptions": [
+        "Flere varianter. 330-400 g. Kg-pris maks. 45,45. Frit valg. 1 pakke"
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kolios graesk yoghurt|yoghurt",
+      "originalName": "Kolios græsk yoghurt",
+      "sampleDescriptions": [
+        "1 kg. Kg-pris 25,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lambi classic toiletpapir eller kokkenrulle|paper",
+      "originalName": "Lambi Classic toiletpapir eller køkkenrulle *",
+      "sampleDescriptions": [
+        "4-8 rl. 484-745 g. Kg-pris maks. 41,32. Frit valg. 1 pakke."
+      ],
+      "categoryId": "household_paper",
+      "comparisonGroup": "paper",
+      "stores": [
+        "365"
       ],
       "occurrences": 1
     },
@@ -44,6 +694,149 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|m m s maltesers daim drage eller kvikk lunsj|chocolate",
+      "originalName": "M&M's, Maltesers, Daim Dragé eller Kvikk Lunsj*",
+      "sampleDescriptions": [
+        "93-150 g. Kg-pris maks. 301,08. Frit valg. 1 pose"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mammen skaereost eller danablu|cheese_danish_table",
+      "originalName": "Mammen skæreost eller Danablu*",
+      "sampleDescriptions": [
+        "Min. 300 g. Kg-pris maks. 100,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_danish_table",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|matilde milkshake eller kakaomaelk|milk",
+      "originalName": "Matilde milkshake eller kakaomælk",
+      "sampleDescriptions": [
+        "200-250 ml. Literpris maks. 35,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|monini classico eller delicato olivenolie|oil_vinegar",
+      "originalName": "Monini classico eller delicato olivenolie*",
+      "sampleDescriptions": [
+        "500 ml. Literpris 130,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "oil_vinegar",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
+      "originalName": "Nescafe iskaffe*",
+      "sampleDescriptions": [
+        "250 ml. Literpris 48,00. Frit valg. 1 dåse"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nivea deodorant eller shower|hair_body",
+      "originalName": "Nivea deodorant eller shower*",
+      "sampleDescriptions": [
+        "50-250 ml. Literpris maks. 300,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nutramino wafer eller coop proteinbar|chocolate",
+      "originalName": "Nutramino wafer eller Coop proteinbar*",
+      "sampleDescriptions": [
+        "39-50 g. Kg-pris maks. 256,41. Frit valg. 1 stk."
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nye danske kartofler fra storohage|potatoes_fresh",
+      "originalName": "Nye danske kartofler fra Storøhage",
+      "sampleDescriptions": [
+        "Danmark, kl. I. 1,5 kg. Kg-pris 13,33. 1 pose"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "potatoes_fresh",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|pomi tomatkonserves|canned_tomatoes",
+      "originalName": "Pomi tomatkonserves*",
+      "sampleDescriptions": [
+        "200-400 g. Kg-pris maks. 50,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "canned_tomatoes",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rahbek indbagt fisk|seafood_other",
+      "originalName": "Rahbek indbagt fisk",
+      "sampleDescriptions": [
+        "Dybfrost. 250 g. Kg-pris 66,37. Frit valg. 1 pakke"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_other",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rose kyllingetopping|chicken_other",
+      "originalName": "Rose kyllingetopping",
+      "sampleDescriptions": [
+        "Flere varianter. 150 g. Kg-pris 106,67. 1 stk."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|salsiccia griller|sausages",
       "originalName": "SALSICCIA GRILLER",
       "sampleDescriptions": [
@@ -53,6 +846,175 @@
       "comparisonGroup": "sausages",
       "stores": [
         "rema"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|taffel chips eller nodder|chips",
+      "originalName": "Taffel chips eller nødder*",
+      "sampleDescriptions": [
+        "90-175 g. Kg-pris maks. 155,56. Frit valg. 1 pose"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|taquitos|ice_cream",
+      "originalName": "Taquitos",
+      "sampleDescriptions": [
+        "Dybfrost. 240 g. Kg-pris 104,17. 1 pakke"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|thise okologisk skyr|yoghurt",
+      "originalName": "Thise økologisk skyr*",
+      "sampleDescriptions": [
+        "1 kg. Kg-pris 29,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|toms guldkarameller eller kaempe skildpadder 3 pak|chocolate",
+      "originalName": "Toms Guldkarameller eller Kæmpe Skildpadder 3-pak",
+      "sampleDescriptions": [
+        "Flere varianter. 84-100 g. Kg-pris maks. 178,57. Frit valg. 1 stk"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|toms slikpose|chocolate",
+      "originalName": "Toms slikpose*",
+      "sampleDescriptions": [
+        "Flere varianter. 375 g. Kg-pris 93,33. Frit valg. 1 pose"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|tresemme shampoo eller balsam|hair_body",
+      "originalName": "Tresemme shampoo eller balsam*",
+      "sampleDescriptions": [
+        "685 ml. Literpris 58,39. Frit valg. 1 stk."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|pork_mixed_offer",
+      "originalName": "Tulip pulled pork, pulled chicken eller spareribs*",
+      "sampleDescriptions": [
+        "450-500 g. Kg-pris maks. 86,67. Frit valg. 1 pakke"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|wasa knaekbrod|bread",
+      "originalName": "Wasa knækbrød*",
+      "sampleDescriptions": [
+        "Flere varianter. 110-275 g. Kg-pris maks. 90,91. Frit valg. 1 pakke"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|xtra hvidlogsbaguette|bread",
+      "originalName": "Xtra! hvidløgsbaguette",
+      "sampleDescriptions": [
+        "Dybfrost. 350 g. Kg-pris 28,57. 1 pakke"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|xtra kalamata oliven|pickled_vegetables",
+      "originalName": "Xtra! kalamata oliven*",
+      "sampleDescriptions": [
+        "145 g. Kg-pris 82,76. 1 glas"
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "pickled_vegetables",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|xtra kyllingebryst med lage|chicken_breast",
+      "originalName": "Xtra! kyllingebryst med lage",
+      "sampleDescriptions": [
+        "800 g. Kg-pris 73,75. 1 pakke"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breast",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|yum yum nudler|pasta_noodles",
+      "originalName": "Yum Yum nudler*",
+      "sampleDescriptions": [
+        "360 g. Kg-pris 88,89. Frit valg. 1 pakke"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|zendium mundpleje|hair_body",
+      "originalName": "Zendium mundpleje*",
+      "sampleDescriptions": [
+        "2 x 50 ml. Literpris 290,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "365"
       ],
       "occurrences": 1
     }
