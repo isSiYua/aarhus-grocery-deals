@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-21T04:45:58.967Z",
-  "count": 78,
+  "generatedAt": "2026-07-21T23:06:15.046Z",
+  "count": 83,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -564,6 +564,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|godt papir|paper_other",
+      "originalName": "Godt papir",
+      "sampleDescriptions": [
+        "5 PAKKER 50.- PR. PAKKE 14,95 a 6 rl. toiletpapir eller 3 rl. køkkenrulle. Pr. kg max. v/merkøb 25.06"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_other",
+      "stores": [
+        "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|graasten eller k salat kartoffelsalat|potato_salad",
       "originalName": "Graasten eller K-salat kartoffelsalat*",
       "sampleDescriptions": [
@@ -655,6 +668,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|lambi classic papir|paper_other",
+      "originalName": "Lambi Classic papir",
+      "sampleDescriptions": [
+        "4 rl. køkkenrulle eller 8 rl. toiletpapir. Pr. kg max. 39,26"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_other",
+      "stores": [
+        "foetex"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|lambi classic toiletpapir eller kokkenrulle|paper_mixed_offer",
       "originalName": "Lambi Classic toiletpapir eller køkkenrulle *",
       "sampleDescriptions": [
@@ -742,6 +768,19 @@
       "comparisonGroup": "oil_olive",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
+      "originalName": "Mutti tomater eller pizzasauce",
+      "sampleDescriptions": [
+        "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_pizza",
+      "stores": [
+        "bilka"
       ],
       "occurrences": 1
     },
@@ -850,6 +889,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizokroketter|sausage_chorizo",
+      "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
+      "sampleDescriptions": [
+        "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|taffel chips eller nodder|chips",
       "originalName": "Taffel chips eller nødder*",
       "sampleDescriptions": [
@@ -924,6 +976,19 @@
       "comparisonGroup": "hair_body",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|tulip bacon|bacon_other",
+      "originalName": "Tulip bacon",
+      "sampleDescriptions": [
+        "300 g. Skiver eller tern. Pr. kg 106.67 Frit valg"
+      ],
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
+      "stores": [
+        "bilka"
       ],
       "occurrences": 1
     },

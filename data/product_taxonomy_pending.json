@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-21T04:45:58.967Z",
-  "count": 78,
+  "generatedAt": "2026-07-21T23:06:15.046Z",
+  "count": 80,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -575,6 +575,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1f07b3f60e802bf1cc170b0a3824abbd%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff8fd1a853e24c7f1e6401a5d64a92cb2&w=1000&s=a871f62d88dfc643395e45c36039438a"
     },
     {
+      "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
+      "originalName": "Mutti tomater eller pizzasauce",
+      "originalDescription": "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_pizza",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "bilka",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.58&y2r=0.76&s=3e7bbaff99cb6f335e60eb18b33386bd"
+    },
+    {
       "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
       "originalName": "Nescafe iskaffe*",
       "originalDescription": "250 ml. Literpris 48,00. Frit valg. 1 dåse",
@@ -655,6 +665,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-18.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.52&y2r=0.73&s=e6078d903eea1d1d9da924b4d224f7d8"
     },
     {
+      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizokroketter|sausage_chorizo",
+      "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
+      "originalDescription": "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost",
+      "currentCategoryId": "sausages",
+      "currentComparisonGroup": "sausage_chorizo",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.66&y1r=0.5&y2r=0.72&s=22d9f3c29b2c6db57446a983698010f5"
+    },
+    {
       "descriptionKey": "v1|taffel chips eller nodder|chips",
       "originalName": "Taffel chips eller nødder*",
       "originalDescription": "90-175 g. Kg-pris maks. 155,56. Frit valg. 1 pose",
@@ -682,7 +702,7 @@
       "currentComparisonGroup": "yoghurt",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F767ae5b0f08c8ea393d9abfee0ec822f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed2942b2b787ed957602316c97a71482%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6461f93ee7b73031ba5df09215b8bc0e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cdc2f9ab96856657a0af1f7694dbfae&w=1000&s=510bfb259223984c5827e8ea1abb0ab1"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8595aeacf5d9825ea2d05821e057382d&w=1000&s=5149eec427986fd9a8036a3cb7893655"
     },
     {
       "descriptionKey": "v1|toms guldkarameller eller kaempe skildpadder 3 pak|chocolate",

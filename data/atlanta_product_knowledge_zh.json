@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-21T23:04:44.933Z",
+  "updatedAt": "2026-07-21T23:06:22.968Z",
   "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -166,8 +166,8 @@
     },
     "angel soft 32 pk mega roll toilet paper": {
       "originalName": "Angel Soft 32-pk. mega-roll toilet paper.",
-      "categoryId": "household",
-      "comparisonGroup": "household_other",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "descriptionZh": "卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
