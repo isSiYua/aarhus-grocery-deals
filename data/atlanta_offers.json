@@ -9,7 +9,7 @@
     "sourceUrl": "https://flipp.com/",
     "disclaimerZh": "周促销按 30318 区域匹配；具体门店库存和会员条件以零售商为准。",
     "productKnowledgeUpdatedAt": "2026-07-21T04:46:05.775Z",
-    "contentUpdatedAt": "2026-07-21T04:46:05.775Z",
+    "contentUpdatedAt": "2026-07-21T23:04:44.933Z",
     "productKnowledgeEntries": 285,
     "fallbackMode": "reviewed-cache-only",
     "withheldPendingReview": 68
@@ -37,18 +37,46 @@
       "descriptionZh": "无法归入单一品种的果蔬组合和混合加餐。"
     },
     {
-      "id": "fresh_meat",
-      "nameZh": "生鲜肉类",
-      "emoji": "🥩",
-      "color": "#74423C",
-      "descriptionZh": "鸡、牛、猪和羊的生鲜部位按商品原名保留。"
-    },
-    {
       "id": "minced_meat",
       "nameZh": "肉末",
       "emoji": "🥟",
       "color": "#7A4A3A",
       "descriptionZh": "牛肉末、鸡肉末和猪肉末集中分组比较。"
+    },
+    {
+      "id": "bacon",
+      "nameZh": "培根",
+      "emoji": "🥓",
+      "color": "#8A5140",
+      "descriptionZh": "猪肉培根片和火鸡培根片分开显示。"
+    },
+    {
+      "id": "sausages",
+      "nameZh": "香肠",
+      "emoji": "🌭",
+      "color": "#8A5140",
+      "descriptionZh": "按肉种和香肠类型细分。"
+    },
+    {
+      "id": "deli_meat",
+      "nameZh": "冷切与肉片",
+      "emoji": "🥪",
+      "color": "#8A5140",
+      "descriptionZh": "冷切肉和肉片按肉种与形态显示。"
+    },
+    {
+      "id": "prepared_meat",
+      "nameZh": "肉类制成品",
+      "emoji": "🍖",
+      "color": "#8A5140",
+      "descriptionZh": "熟制、裹粉和肉丸等肉制品。"
+    },
+    {
+      "id": "fresh_meat",
+      "nameZh": "生鲜肉类",
+      "emoji": "🥩",
+      "color": "#74423C",
+      "descriptionZh": "鸡、牛、猪和羊的生鲜部位按商品原名保留。"
     },
     {
       "id": "deli_prepared",
@@ -75,8 +103,8 @@
       "id": "cheese",
       "nameZh": "奶酪",
       "emoji": "🧀",
-      "color": "#91702A",
-      "descriptionZh": "切片、刨丝、分装和块状奶酪按形态显示。"
+      "color": "#A26F2D",
+      "descriptionZh": "切片、刨丝、奶酪棒、餐桌奶酪和奶酪小食按形态分组。"
     },
     {
       "id": "dairy",
@@ -98,6 +126,34 @@
       "emoji": "🧊",
       "color": "#815187",
       "descriptionZh": "冷冻主食、披萨、冰淇淋和其他冷冻食品。"
+    },
+    {
+      "id": "potato_products",
+      "nameZh": "土豆制成品",
+      "emoji": "🍟",
+      "color": "#7A673A",
+      "descriptionZh": "薯条、薯角、薯饼和土豆泥分别比较。"
+    },
+    {
+      "id": "sauces_condiments",
+      "nameZh": "酱料与佐料",
+      "emoji": "🥫",
+      "color": "#8A5A24",
+      "descriptionZh": "不同酱料分开显示。"
+    },
+    {
+      "id": "cooking_oils",
+      "nameZh": "食用油",
+      "emoji": "🫒",
+      "color": "#8A6F24",
+      "descriptionZh": "不同油种分开显示。"
+    },
+    {
+      "id": "canned_pickled",
+      "nameZh": "罐头与腌渍食品",
+      "emoji": "🫙",
+      "color": "#7A602A",
+      "descriptionZh": "罐头和腌渍食品分开显示。"
     },
     {
       "id": "pantry",
@@ -140,6 +196,13 @@
       "emoji": "🧻",
       "color": "#546875",
       "descriptionZh": "纸品、清洁、洗衣和厨房日用品。"
+    },
+    {
+      "id": "paper_products",
+      "nameZh": "生活纸品",
+      "emoji": "🧻",
+      "color": "#546875",
+      "descriptionZh": "卫生纸、厨房纸、面巾纸和餐巾纸分开。"
     },
     {
       "id": "personal",
@@ -287,6 +350,31 @@
       "noteZh": "组成不同，不参与单一果蔬最低价。",
       "comparable": false
     },
+    "potato_fries": {
+      "nameZh": "薯条",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "potato_wedges": {
+      "nameZh": "薯角",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "potato_hash_browns": {
+      "nameZh": "薯饼",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "potato_mash": {
+      "nameZh": "土豆泥",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "potato_prepared_other": {
+      "nameZh": "其他土豆制成品",
+      "noteZh": "形态不同，不计算最低价。",
+      "comparable": false
+    },
     "produce_other": {
       "nameZh": "其他果蔬",
       "noteZh": "品种不同不直接比较最低价。",
@@ -386,6 +474,61 @@
       "nameZh": "火鸡培根",
       "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
       "comparable": true
+    },
+    "bacon_pork_sliced": {
+      "nameZh": "猪肉培根片",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "bacon_turkey_sliced": {
+      "nameZh": "火鸡培根片",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "bacon_other": {
+      "nameZh": "其他培根",
+      "noteZh": "形态不明确，不计算最低价。",
+      "comparable": false
+    },
+    "sausage_frankfurter": {
+      "nameZh": "法兰克福与热狗肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_chicken": {
+      "nameZh": "鸡肉肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_beef": {
+      "nameZh": "牛肉肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_pork": {
+      "nameZh": "猪肉肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_bacon": {
+      "nameZh": "培根肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_breakfast": {
+      "nameZh": "早餐肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_chorizo": {
+      "nameZh": "Chorizo 香肠",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sausage_other": {
+      "nameZh": "其他香肠",
+      "noteZh": "肉种不明确，不计算最低价。",
+      "comparable": false
     },
     "meat_beef_burgers": {
       "nameZh": "牛肉汉堡饼",
@@ -597,6 +740,66 @@
       "noteZh": "品种不同，不计算全局最低价。",
       "comparable": false
     },
+    "sauce_ketchup": {
+      "nameZh": "番茄酱",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sauce_mayonnaise": {
+      "nameZh": "蛋黄酱",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sauce_mustard": {
+      "nameZh": "芥末酱",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sauce_bbq": {
+      "nameZh": "烧烤酱",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sauce_satay": {
+      "nameZh": "沙茶与 Satay 酱",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "sauce_other": {
+      "nameZh": "其他酱料",
+      "noteZh": "类型不同，不计算最低价。",
+      "comparable": false
+    },
+    "oil_olive": {
+      "nameZh": "橄榄油",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "oil_canola": {
+      "nameZh": "菜籽油",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "oil_other": {
+      "nameZh": "其他食用油",
+      "noteZh": "油种不明确，不计算最低价。",
+      "comparable": false
+    },
+    "canned_tomatoes": {
+      "nameZh": "番茄罐头",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "canned_beans": {
+      "nameZh": "豆类罐头",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "pickled_vegetables": {
+      "nameZh": "腌菜与橄榄",
+      "noteZh": "品种不同，不计算最低价。",
+      "comparable": false
+    },
     "snacks_savory": {
       "nameZh": "薯片与咸味零食",
       "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
@@ -671,6 +874,31 @@
       "nameZh": "纸品",
       "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
       "comparable": true
+    },
+    "paper_toilet": {
+      "nameZh": "卫生纸",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "paper_kitchen": {
+      "nameZh": "厨房纸",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "paper_facial": {
+      "nameZh": "手帕纸与面巾纸",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "paper_napkins": {
+      "nameZh": "餐巾纸",
+      "noteZh": "同一商品主体归组；尺寸和包装保留原名，价格比较仍需结合净重。",
+      "comparable": true
+    },
+    "paper_other": {
+      "nameZh": "其他纸品",
+      "noteZh": "类型不明确，不计算最低价。",
+      "comparable": false
     },
     "household_other": {
       "nameZh": "其他家庭用品",
@@ -1016,8 +1244,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529212/1783380496/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_sausage",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "price": 2.99,
       "currency": "USD",
       "validFrom": "2026-07-18T00:00:00-04:00",
@@ -1055,8 +1283,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426528942/1783380484/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_pork_bacon",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "price": 3.79,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -1094,7 +1322,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529237/1783380488/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_pepperoni",
       "price": 4.49,
       "currency": "USD",
@@ -1133,7 +1361,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529321/1783380486/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_prepared_chicken",
       "price": 5,
       "currency": "USD",
@@ -1172,7 +1400,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529341/1783380492/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_ham_deli",
       "price": 7.99,
       "currency": "USD",
@@ -1211,7 +1439,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529235/1783380487/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_sticks",
       "price": 16.99,
       "currency": "USD",
@@ -1991,8 +2219,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529253/1783380483/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "price": 6.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -2030,8 +2258,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529041/1783380488/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "price": 9.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -4799,8 +5027,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752959/1783514879/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_turkey_bacon",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_turkey_sliced",
       "price": 5.49,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -4838,8 +5066,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426824421/1783514886/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_sausage",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_pork",
       "price": 5.69,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -4877,7 +5105,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823190/1783514885/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_pork_meatballs",
       "price": 5.69,
       "currency": "USD",
@@ -4916,7 +5144,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750112/1783514855/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_chicken_sandwich",
       "price": 6.49,
       "currency": "USD",
@@ -4955,8 +5183,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748680/1783514838/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_pork_bacon",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "price": 6.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -4994,7 +5222,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750108/1783514854/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_prepared_chicken",
       "price": 7.59,
       "currency": "USD",
@@ -5033,7 +5261,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748738/1783514840/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_breaded_chicken",
       "price": 7.99,
       "currency": "USD",
@@ -5072,7 +5300,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748890/1783514845/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_breaded_chicken",
       "price": 7.99,
       "currency": "USD",
@@ -5111,8 +5339,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752979/1783514880/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_sausage",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_breakfast",
       "price": 8,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -5150,7 +5378,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823483/1783514860/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_pulled_pork",
       "price": 8.49,
       "currency": "USD",
@@ -5189,7 +5417,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823463/1783514860/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_pulled_pork",
       "price": 8.49,
       "currency": "USD",
@@ -5228,7 +5456,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745509/1783514793/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_chicken_sandwich",
       "price": 8.99,
       "currency": "USD",
@@ -5267,7 +5495,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752114/1783514871/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_meatballs",
       "price": 8.99,
       "currency": "USD",
@@ -5306,7 +5534,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426825057/1783514862/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_turkey_deli",
       "price": 13.99,
       "currency": "USD",
@@ -5345,7 +5573,7 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823429/1783514858/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_turkey_deli",
       "price": 13.99,
       "currency": "USD",
@@ -7100,8 +7328,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426755177/1783514879/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_facial",
       "price": 2,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -7217,8 +7445,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426751885/1783514870/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "price": 19.99,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",
@@ -8894,8 +9122,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823706/1783514851/extra_large.jpg",
         "imageReviewed": false
       },
-      "categoryId": "vegetables",
-      "comparisonGroup": "produce_prepared_potatoes",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_prepared_other",
       "price": 6.49,
       "currency": "USD",
       "validFrom": "2026-07-15T00:00:00-04:00",

@@ -120,11 +120,11 @@ test('automatically separates Atlanta mince, yoghurt, and cheese forms', () => {
 
 test('Atlanta keeps turkey, pork deli, sausage, and prepared chicken in separate price pools', () => {
   const expected = new Map([
-    ['Applegate Naturals Uncured Turkey Bacon', 'meat_turkey_bacon'],
+    ['Applegate Naturals Uncured Turkey Bacon', 'bacon_turkey_sliced'],
     ["Boar's Head Ovengold Roasted Turkey Breast", 'meat_turkey_deli'],
     ['Private Selection Black Forest Ham', 'meat_ham_deli'],
     ['Hormel Pepperoni', 'meat_pepperoni'],
-    ['Publix Sweet Italian Sausage', 'meat_sausage'],
+    ['Publix Sweet Italian Sausage', 'sausage_pork'],
     ['Chomps Meat Sticks', 'meat_sticks'],
     ['Publix Chicken Tender Whole Sub', 'meat_chicken_sandwich'],
     ['Publix Parmesan Chicken Breast Bites', 'meat_breaded_chicken'],
@@ -150,7 +150,7 @@ test('keeps comparison grouping broader than the product-specific Chinese explan
 
 test('uses the complete Atlanta product name instead of misleading ingredient words', () => {
   const beans = classifyFlippItem("Van Camp's Pork and Beans");
-  assert.equal(beans.categoryId, 'pantry');
+  assert.equal(beans.categoryId, 'canned_pickled');
   assert.match(beans.zhExplanation, /猪肉焗豆罐头/);
   assert.doesNotMatch(beans.zhExplanation, /^肉类/);
 

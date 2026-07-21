@@ -12,7 +12,11 @@ export const AARHUS_CATEGORIES = [
   ['chicken', '🐔', '鸡肉与其他禽肉', '鸡胸、鸡腿、整鸡、火鸡部位和禽肉加工品分组比较。'],
   ['minced_meat', '🥟', '肉末与混合肉末', '鸡肉末、火鸡肉末、猪肉末、牛肉末和猪牛混合肉末集中分组比较。'],
   ['pork_fresh', '🐷', '鲜猪肉', '猪里脊、猪排、肋排和整块猪肉分组比较。'],
-  ['sausages_deli', '🥓', '香肠、培根与肉类熟食', '香肠、培根、冷切和熟制肉食单独集中展示。'],
+  ['liver_pate', '🍞', '肝酱与肉酱', 'Leverpostej 等肝酱单独展示，不再混入培根或冷切。'],
+  ['bacon', '🥓', '培根', '培根片与培根丁分开；培根肠归入香肠。'],
+  ['sausages', '🌭', '香肠', '按鸡肉、牛肉、猪肉、培根、法兰克福和其他明确类型细分。'],
+  ['deli_meat', '🥪', '冷切与肉片', '火腿、鸡肉片、牛肉片、萨拉米等按肉种和形态分开。'],
+  ['prepared_meat', '🍖', '肉类制成品', '裹粉肉、肉丸、肉饼和其他制成品按肉种与形态细分。'],
   ['beef', '🥩', '牛羊肉与牛排', '牛排、整块牛肉、牛肉丁和羊肉分别比较。'],
   ['seafood', '🐟', '鱼虾海鲜', '区分三文鱼、白身鱼、虾和熟制海鲜。'],
   ['eggs_milk', '🥚', '鸡蛋、牛奶与植物饮', '鸡蛋、牛奶、乳饮品和植物奶分组显示。'],
@@ -21,6 +25,7 @@ export const AARHUS_CATEGORIES = [
   ['cheese', '🧀', '奶酪', '硬质、软质、切片、刨丝和新鲜白奶酪保留原名差异。'],
   ['butter_spreads', '🧈', '黄油与乳脂抹酱', '真黄油和混合抹酱按重量与原名比较。'],
   ['vegetables', '🥬', '蔬菜', '蘑菇、番茄、土豆、叶菜等按品种比较。'],
+  ['potato_products', '🍟', '土豆制成品', '薯条、薯角、薯饼、焗土豆和土豆沙拉各自比较。'],
   ['fruit', '🍎', '水果', '按品种、重量或单件价格显示。'],
   ['bread_bakery', '🍞', '面包与烘焙主食', '黑麦面包、法棍、小面包和其他烘焙主食。'],
   ['rice_pasta', '🍚', '米面、意面与烘焙面粉', '大米、面条、意面、面粉和饼皮分组显示。'],
@@ -28,12 +33,16 @@ export const AARHUS_CATEGORIES = [
   ['ice_cream', '🍨', '冰淇淋与冰品', '冰淇淋、冰棒和其他冷冻甜品集中展示。'],
   ['breakfast', '🥣', '麦片与早餐抹酱', '麦片、燕麦、果酱、蜂蜜和花生酱。'],
   ['coffee_tea', '☕', '咖啡与茶', '咖啡豆、咖啡粉、速溶咖啡和茶单独展示。'],
-  ['pantry', '🧂', '调料、罐头与烹饪食材', '只包含酱料、食用油、香料、烘焙辅料和真正的罐头食品。'],
+  ['sauces_condiments', '🥫', '酱料与佐料', '番茄酱、蛋黄酱、芥末、酱油等各归其类；混合组合不比价。'],
+  ['cooking_oils', '🫒', '食用油与醋', '橄榄油、菜籽油、葵花籽油和醋分开比较。'],
+  ['canned_pickled', '🫙', '罐头与腌渍食品', '番茄罐头单列；腌黄瓜、橄榄等集中浏览但不跨品种比价。'],
+  ['pantry', '🧂', '香料与烹饪食材', '香料、烘焙辅料和其他常温烹饪食材。'],
   ['salty_snacks', '🥨', '咸味零食、坚果与果干', '薯片、爆米花、坚果和果干集中展示。'],
   ['biscuits_cakes', '🍪', '饼干、蛋糕与甜点', '饼干、华夫、蛋糕和小甜点按原商品形态查看。'],
   ['candy_chocolate', '🍫', '糖果与巧克力', '巧克力、糖果、焦糖和甜味棒集中展示。'],
   ['household_cleaning', '🧼', '家庭清洁与洗衣', '清洁剂、洗衣和洗碗用品单独展示。'],
-  ['household_paper', '🧻', '纸品、袋类与厨房耗材', '纸品、垃圾袋、保鲜袋和厨房耗材；不会混进食品。'],
+  ['paper_products', '🧻', '生活纸品', '卫生纸、厨房纸、手帕纸、餐巾纸和湿巾各自显示。'],
+  ['household_paper', '🗑️', '袋类与厨房耗材', '垃圾袋、保鲜袋和厨房耗材；不会混进食品或生活纸品。'],
   ['baby', '🍼', '婴幼儿用品', '纸尿裤、婴儿棉片和无香护理用品。'],
   ['personal_care', '🧴', '个人护理', '洗发、沐浴、防晒和身体护理用品。'],
   ['drinks', '🥤', '指定无糖饮料', '按既定范围只保留 Coca-Cola Zero 与 Sprite Zero。'],
@@ -80,9 +89,153 @@ const CHEESE_GROUP_PATTERNS = [
 
 export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') {
   const name = norm(originalName);
+  const mixedChoice = /eller|marked|mix/.test(name);
   // If ribeye/entrecôte is one of the explicitly purchasable choices, the
   // offer is useful in the ribeye aisle and its price is valid for that choice.
   if (comparisonGroup === 'beef_mixed_offer' && /rib ?eye|entrecote/.test(name)) return 'beef_ribeye';
+  // Product form takes precedence over a stale broad/fine cache group. These
+  // checks intentionally work regardless of the previous taxonomy so a known
+  // product is corrected again when it reappears in a later flyer.
+  if (/paalaegssalat/.test(name)) return 'deli_spreads';
+  if (/(?:chorizo.*eller.*serrano|serrano.*eller.*chorizo)/.test(name)) return 'deli_mixed_offer';
+  if (/leverpostej|lever pate|baconleverpostej|\bpostej\b/.test(name)) {
+    if (mixedChoice && /bacon|kalkunbacon|paalaeg|skinke|salami/.test(name)) return 'deli_mixed_offer';
+    return 'liver_pate';
+  }
+  if (/bacon/.test(name)) {
+    if (/polse|poelse|chorizo|griller|frankfurter|wiener/.test(name)) {
+      if (mixedChoice && /(?:bacon.*eller|eller.*bacon)/.test(name)) return 'sausage_mixed_offer';
+      return 'sausage_bacon';
+    }
+    if (mixedChoice && /paalaeg|skinke|salami|leverpostej|postej/.test(name)) return 'deli_mixed_offer';
+    if (/(?:skiver.*eller.*tern|tern.*eller.*skiver)/.test(name)) return 'bacon_mixed_offer';
+    if (/tern|strimler|stykker/.test(name)) return 'bacon_pieces';
+    if (/skiver|skiveskaaret|sliced/.test(name)) return 'bacon_sliced';
+    return 'bacon_other';
+  }
+  if (/(?:hot ?dog.*eller.*grill|grill.*eller.*hot ?dog)/.test(name)) return 'sausage_mixed_offer';
+  if (/frankfurter|wiener|hot ?dog/.test(name)) return 'sausage_frankfurter';
+  if (/chorizo/.test(name)) return 'sausage_chorizo';
+  if (/spegepolse/.test(name)) return 'sausage_other';
+  if (/\bpaalaeg\b/.test(name) && !/kalkun|kylling|okse|skinke|hamburgerryg|rullepolse|salami|serrano/.test(name)) return 'deli_mixed_offer';
+  if (/^(?:liver_pate|bacon_|sausage_|deli_)/.test(comparisonGroup) && mixedChoice) {
+    if (/bacon/.test(name) && /polse|poelse|chorizo|griller/.test(name)) return 'sausage_mixed_offer';
+    if (/leverpostej|\bpostej\b|bacon|salami|skinke|hamburgerryg|rullepolse|paalaeg/.test(name)) return 'deli_mixed_offer';
+  }
+  if (comparisonGroup.startsWith('sauce_') && comparisonGroup !== 'sauce_mixed_offer') {
+    const kinds = [/ketchup/, /mayonnaise|mayo/, /remoulade/, /sennep|mustard/, /soja|soya|soy sauce/, /teriyaki/, /barbecue|bbq/, /piri|chili|sriracha/, /pesto/, /dressing/, /hummus|haydari|aioli|dip/]
+      .filter(pattern => pattern.test(name)).length;
+    if (kinds > 1 || /saucepakke|saucemix|ketchup.*eller.*sauce/.test(name)) return 'sauce_mixed_offer';
+  }
+  if (comparisonGroup.startsWith('paper_') && comparisonGroup !== 'paper_mixed_offer') {
+    const kinds = [/toiletpapir|toilet paper|charmin/, /kokkenrulle|paper towel/, /lommetorklaeder|facial tissue|kleenex|puffs/, /servietter|napkins/, /vaadservietter|wet wipes/]
+      .filter(pattern => pattern.test(name)).length;
+    if (kinds > 1) return 'paper_mixed_offer';
+  }
+  if (['bacon_deli', 'sausages', 'chicken_sausages', 'poultry_deli_mixed'].includes(comparisonGroup)) {
+    if (/eller|marked|mix/.test(name) && /bacon/.test(name)) return /polse|poelse|chorizo|griller/.test(name) ? 'sausage_mixed_offer' : 'deli_mixed_offer';
+    if (/eller|marked|mix/.test(name) && /leverpostej|\bpostej\b/.test(name)) return 'deli_mixed_offer';
+    if (/eller|marked|mix/.test(name) && /(leverpostej|\bpostej\b|bacon|salami|skinke|hamburgerryg|rullepolse|paalaeg).*(?:leverpostej|\bpostej\b|bacon|salami|skinke|hamburgerryg|rullepolse|paalaeg)/.test(name)) return 'deli_mixed_offer';
+    if (/leverpostej|lever pate|baconleverpostej|\bpostej\b/.test(name)) return 'liver_pate';
+    if (/rullepolse|skinke|hamburgerryg|paalaeg|salami|serrano|spegepolse/.test(name)) {
+      if (/eller|marked|mix/.test(name)) return 'deli_mixed_offer';
+      if (/kalkun|turkey/.test(name)) return 'deli_turkey_sliced';
+      if (/kylling|chicken/.test(name)) return 'deli_chicken_sliced';
+      if (/okse|beef/.test(name)) return 'deli_beef_sliced';
+      if (/salami|serrano|spegepolse/.test(name)) return 'deli_cured_sliced';
+      return 'deli_pork_sliced';
+    }
+    if (/eller|marked|mix/.test(name) && /bacon/.test(name) && /polse|poelse|chorizo|griller/.test(name)) return 'sausage_mixed_offer';
+    if (/(?:bacon.*(?:polse|poelse|griller)|(?:polse|poelse|griller).*bacon)/.test(name)) return 'sausage_bacon';
+    if (/frankfurter|wiener|hot ?dog/.test(name)) return 'sausage_frankfurter';
+    if (/chorizo/.test(name)) return 'sausage_chorizo';
+    if (/kylling.*(?:polse|poelse)|(?:polse|poelse).*kylling/.test(name)) return 'sausage_chicken';
+    if (/okse.*(?:polse|poelse)|(?:polse|poelse).*okse/.test(name)) return 'sausage_beef';
+    if (comparisonGroup === 'sausages' || /polse|poelse|medister|bockwurst|krakauer|krainer|merguez|griller/.test(name)) {
+      if (/eller|mix|marked/.test(name)) return 'sausage_mixed_offer';
+      if (/medister|svin|gris|bayersk|bratwurst/.test(name)) return 'sausage_pork';
+      return 'sausage_other';
+    }
+    if (/bacon/.test(name)) {
+      if (/tern|strimler|stykker/.test(name)) return 'bacon_pieces';
+      if (/skiver|skiveskaaret|sliced/.test(name)) return 'bacon_sliced';
+      return 'bacon_other';
+    }
+    if (/kalkun|turkey/.test(name)) return 'deli_turkey_sliced';
+    if (/kylling|chicken/.test(name)) return 'deli_chicken_sliced';
+    if (/okse|beef/.test(name)) return 'deli_beef_sliced';
+    if (/salami|serrano|spegepolse/.test(name)) return 'deli_cured_sliced';
+    if (/skinke|hamburgerryg|rullepolse|saltkod/.test(name)) return 'deli_pork_sliced';
+    return 'deli_mixed_offer';
+  }
+  if (comparisonGroup === 'prepared_meatballs') {
+    if (/kylling/.test(name)) return 'prepared_chicken_meatballs';
+    if (/okse/.test(name)) return 'prepared_beef_meatballs';
+    if (/gris|svin/.test(name)) return 'prepared_pork_meatballs';
+    return 'prepared_mixed_meat';
+  }
+  if (comparisonGroup === 'chicken_breaded') return 'prepared_chicken_breaded';
+  if (comparisonGroup === 'turkey_processed') return 'prepared_turkey';
+  if (comparisonGroup === 'potato_salad') return 'potato_salad';
+  if (comparisonGroup === 'potato_sides') {
+    if (/pommes frites|french fries|\bfries\b/.test(name)) return 'potato_fries';
+    if (/kartoffelbaade|wedges/.test(name)) return 'potato_wedges';
+    if (/rosti|hash brown/.test(name)) return 'potato_hash_browns';
+    if (/kroket/.test(name)) return 'potato_croquettes';
+    if (/gratin|flodekartof/.test(name)) return 'potato_gratin';
+    if (/mos|mash/.test(name)) return 'potato_mash';
+    return 'potato_mixed_offer';
+  }
+  if (comparisonGroup === 'sauces' || comparisonGroup === 'sauce_other') {
+    const sauceKinds = [/ketchup/, /mayonnaise|mayo/, /remoulade/, /sennep|mustard/, /soja|soya|soy sauce/, /teriyaki/, /barbecue|bbq/, /piri|chili|sriracha/, /pesto/, /dressing/, /hummus|haydari|aioli|dip/]
+      .filter(pattern => pattern.test(name)).length;
+    if (sauceKinds > 1 || /saucepakke|saucemix|ketchup.*eller.*sauce/.test(name)) return 'sauce_mixed_offer';
+    if (/ketchup/.test(name)) return 'sauce_ketchup';
+    if (/satay|sate|jordnoddesauce|peanut sauce/.test(name)) return 'sauce_satay';
+    if (/pizzasauce/.test(name)) return 'sauce_pizza';
+    if (/pastasauce/.test(name)) return 'sauce_pasta';
+    if (/tomatsauce|tomato sauce/.test(name)) return 'sauce_tomato';
+    if (/mayonnaise|mayo/.test(name)) return 'sauce_mayonnaise';
+    if (/remoulade/.test(name)) return 'sauce_remoulade';
+    if (/sennep|mustard/.test(name)) return 'sauce_mustard';
+    if (/soja|soya|soy sauce/.test(name)) return 'sauce_soy';
+    if (/teriyaki/.test(name)) return 'sauce_teriyaki';
+    if (/barbecue|bbq/.test(name)) return 'sauce_bbq';
+    if (/piri|chili|sriracha|hot sauce/.test(name)) return 'sauce_chili';
+    if (/pesto/.test(name)) return 'sauce_pesto';
+    if (/dressing/.test(name)) return 'sauce_dressing';
+    if (/hummus|haydari|aioli|dip/.test(name)) return 'sauce_dip';
+    return 'sauce_other';
+  }
+  if (comparisonGroup === 'oil_vinegar') {
+    if (/olivenolie|olive oil/.test(name)) return 'oil_olive';
+    if (/rapsolie|rapeseed|canola/.test(name)) return 'oil_rapeseed';
+    if (/solsikkeolie|sunflower/.test(name)) return 'oil_sunflower';
+    if (/friture|frying oil/.test(name)) return 'oil_frying';
+    if (/eddike|vinegar/.test(name)) return 'vinegar';
+    return 'oil_other';
+  }
+  if (comparisonGroup === 'canned') {
+    if (/hakkede tomater|tomatkonserves|canned tomatoes/.test(name)) return 'canned_tomatoes';
+    if (/kikaerter|bonner|beans|chickpeas/.test(name)) return 'canned_beans';
+    if (/kokosmaelk|coconut milk/.test(name)) return 'canned_coconut_milk';
+    return 'canned_other';
+  }
+  if (comparisonGroup === 'paper') {
+    const paperKinds = [/toiletpapir|toilet paper|charmin/, /kokkenrulle|paper towel/, /lommetorklaeder|facial tissue|kleenex|puffs/, /servietter|napkins/, /vaadservietter|wet wipes/]
+      .filter(pattern => pattern.test(name)).length;
+    if (paperKinds > 1) return 'paper_mixed_offer';
+    if (/toiletpapir|toilet paper|charmin/.test(name)) return 'paper_toilet';
+    if (/kokkenrulle|paper towel/.test(name)) return 'paper_kitchen';
+    if (/lommetorklaeder|facial tissue|kleenex|puffs/.test(name)) return 'paper_facial';
+    if (/servietter|napkins/.test(name)) return 'paper_napkins';
+    if (/vaadservietter|wet wipes/.test(name)) return 'paper_wet_wipes';
+    return 'paper_other';
+  }
+  if (comparisonGroup === 'pasta_noodles' && /pastasauce/.test(name)) {
+    return /eller|marked|majs|kikaert/.test(name) ? 'mixed_grocery_offer' : 'sauce_pasta';
+  }
+  if (comparisonGroup === 'sauce_pizza' && /(?:tomat|majs|tun).*(?:eller|marked).*pizzasauce/.test(name)) return 'mixed_grocery_offer';
   if (!['cheese', 'cheese_fresh'].includes(comparisonGroup)) return comparisonGroup;
   return CHEESE_GROUP_PATTERNS.find(([, pattern]) => pattern.test(name))?.[0] || 'cheese_other';
 }
@@ -92,6 +245,16 @@ export function refineAarhusCategory(categoryId, comparisonGroup) {
   if (comparisonGroup === 'yoghurt') return 'yoghurt';
   if (['cream', 'mixed_dairy'].includes(comparisonGroup)) return 'cream_cold_dairy';
   if (comparisonGroup.startsWith('cheese_')) return 'cheese';
+  if (comparisonGroup === 'liver_pate') return 'liver_pate';
+  if (comparisonGroup.startsWith('bacon_')) return 'bacon';
+  if (comparisonGroup.startsWith('sausage_')) return 'sausages';
+  if (comparisonGroup.startsWith('deli_') || ['beef_deli', 'deli_spreads'].includes(comparisonGroup)) return 'deli_meat';
+  if (comparisonGroup.startsWith('prepared_') || ['chicken_skewers'].includes(comparisonGroup)) return 'prepared_meat';
+  if (comparisonGroup.startsWith('potato_') && comparisonGroup !== 'potatoes_fresh') return 'potato_products';
+  if (comparisonGroup.startsWith('sauce_')) return 'sauces_condiments';
+  if (comparisonGroup.startsWith('oil_') || comparisonGroup === 'vinegar') return 'cooking_oils';
+  if (comparisonGroup.startsWith('canned_') || comparisonGroup === 'pickled_vegetables') return 'canned_pickled';
+  if (comparisonGroup.startsWith('paper_')) return 'paper_products';
   const split = AARHUS_CATEGORY_SPLITS[categoryId];
   return split?.[comparisonGroup] || split?.default || categoryId;
 }
@@ -128,6 +291,31 @@ export const AARHUS_COMPARISON_GROUPS = {
   pork_ribs: group('猪肋排与猪肋骨', '带骨比例、腌料和熟制状态会影响可比性。'),
   pork_chop: group('猪排与猪肉片', '猪颈排、里脊排和五花肉片部位不同，不计算全局最低价。', false),
   pork_minced: group('猪肉末', '按公斤比较。'),
+  liver_pate: group('肝酱', 'Leverpostej 等肝酱只与同类按重量比较。'),
+  bacon_sliced: group('培根片', '切片培根按公斤比较；不与培根肠或其他肉片混比。'),
+  bacon_pieces: group('培根丁与培根条', '用于炒菜的培根丁、短条按公斤比较。'),
+  bacon_other: group('其他培根', '规格或形态不明确，不计算最低价。', false),
+  bacon_mixed_offer: group('培根片或培根丁任选', '切片与切丁用途不同，任选促销不计算最低价。', false),
+  sausage_frankfurter: group('法兰克福、维也纳与热狗肠', '同类热狗肠按公斤比较。'),
+  sausage_chorizo: group('Chorizo 香肠', '西班牙辣味香肠单独比较。'),
+  sausage_chicken: group('鸡肉肠', '鸡肉香肠只与鸡肉香肠比较。'),
+  sausage_beef: group('牛肉肠', '牛肉香肠只与牛肉香肠比较。'),
+  sausage_pork: group('猪肉肠', '明确为猪肉的香肠按公斤比较。'),
+  sausage_bacon: group('培根肠', '含培根的香肠归香肠，不与培根片混比。'),
+  sausage_other: group('其他香肠', '肉种或形态不明确，不计算最低价。', false),
+  sausage_mixed_offer: group('多种香肠任选', '跨香肠类型的组合或任选不计算最低价。', false),
+  deli_pork_sliced: group('猪肉冷切与火腿片', '猪肉冷切按重量比较，不与培根片混比。'),
+  deli_chicken_sliced: group('鸡肉冷切片', '鸡肉冷切片按重量比较。'),
+  deli_turkey_sliced: group('火鸡冷切片', '火鸡冷切片按重量比较。'),
+  deli_beef_sliced: group('牛肉冷切片', '牛肉冷切片按重量比较。'),
+  deli_cured_sliced: group('萨拉米与风干肉片', '腌制肉片按具体肉种和原名参考。'),
+  deli_mixed_offer: group('冷切多品项任选', '不同肉种或形态的冷切组合不计算最低价。', false),
+  prepared_chicken_breaded: group('裹粉鸡肉制品', '鸡块、爆米花鸡等按制成形态查看，不跨形态比价。', false),
+  prepared_chicken_meatballs: group('鸡肉丸', '鸡肉丸按公斤比较。'),
+  prepared_beef_meatballs: group('牛肉丸', '牛肉丸按公斤比较。'),
+  prepared_pork_meatballs: group('猪肉丸', '猪肉丸按公斤比较。'),
+  prepared_turkey: group('火鸡制成品', '火鸡肉饼和裹馅制品形态不同，不计算最低价。', false),
+  prepared_mixed_meat: group('混合肉制成品', '肉种或形态混合，不计算最低价。', false),
   sausages: group('香肠与烤肠', '肉种、烟熏和调味可能不同，不计算全局最低价。', false),
   bacon_deli: group('培根与猪肉熟食', '加工方式和肉品不同，不计算全局最低价。', false),
   prepared_meatballs: group('肉丸与熟制肉饼', '肉丸、肉饼和肉卷形态不同，不计算全局最低价。', false),
@@ -196,6 +384,13 @@ export const AARHUS_COMPARISON_GROUPS = {
   potatoes_fresh: group('新鲜土豆', '大、小、新土豆、烤土豆用土豆及不同包装仍属同组，优先按公斤比较。'),
   potato_salad: group('土豆沙拉', '冷藏调味土豆沙拉按重量比较。'),
   potato_sides: group('加工土豆配菜', '薯角、薯饼、焗土豆等按形态和重量参考。'),
+  potato_fries: group('薯条', '薯条只与薯条按公斤比较。'),
+  potato_wedges: group('薯角', '薯角只与薯角按公斤比较。'),
+  potato_hash_browns: group('薯饼与 Rösti', '薯饼不与薯条混比。'),
+  potato_croquettes: group('土豆可乐饼', '土豆可乐饼按公斤比较。'),
+  potato_gratin: group('焗土豆与奶油土豆', '焗土豆只与同类冷藏或冷冻配菜比较。'),
+  potato_mash: group('土豆泥', '土豆泥按重量比较。'),
+  potato_mixed_offer: group('其他土豆制成品', '形态不明确或组合装不计算最低价。', false),
   tomatoes: group('番茄', '小番茄与普通番茄保留原名。'),
   cucumber: group('黄瓜', '通常按每根或每公斤比较。'),
   potatoes: group('土豆（旧分类）', '仅兼容旧缓存；新鲜整颗土豆统一归入“新鲜土豆”。'),
@@ -248,8 +443,34 @@ export const AARHUS_COMPARISON_GROUPS = {
   mixed_grocery_offer: group('跨类别食品任选', '不同食品类别的任选促销不计算全局最低价。', false),
   canned: group('罐头食品', '不同罐头内容差异较大，不计算跨品种最低价。', false),
   sauces: group('酱料', '口味差异大，不计算跨酱料最低价。', false),
+  sauce_ketchup: group('番茄酱', '番茄酱按升或公斤比较。'),
+  sauce_satay: group('沙茶与 Satay 酱', '花生或沙茶风味酱单独比较。'),
+  sauce_pizza: group('披萨酱', '披萨酱单独比较。'),
+  sauce_pasta: group('意面酱', '意面酱单独比较。'),
+  sauce_tomato: group('番茄调味酱', '普通番茄调味酱单独比较，不与 ketchup 混比。'),
+  sauce_mayonnaise: group('蛋黄酱', '蛋黄酱单独比较。'),
+  sauce_remoulade: group('Remoulade 酱', '丹麦 remoulade 单独比较。'),
+  sauce_mustard: group('芥末酱', '芥末酱单独比较。'),
+  sauce_soy: group('酱油', '酱油单独比较。'),
+  sauce_teriyaki: group('照烧酱', '照烧酱单独比较。'),
+  sauce_bbq: group('烧烤酱', '烧烤酱单独比较。'),
+  sauce_chili: group('辣椒酱', '辣椒酱按辣度保留原名。'),
+  sauce_pesto: group('Pesto 青酱', 'Pesto 单独比较。'),
+  sauce_dressing: group('沙拉酱汁', '沙拉 dressing 按具体口味参考。'),
+  sauce_dip: group('蘸酱与抹酱', 'Hummus、haydari 和 aioli 保留具体品种。', false),
+  sauce_other: group('其他酱料', '类型不明确，不计算最低价。', false),
+  sauce_mixed_offer: group('多种酱料组合', '组合或任选酱料不计算最低价。', false),
   spices: group('香料与调味料', '用途不同，不计算跨香料最低价。', false),
   oil_vinegar: group('食用油与醋', '按升比较，并区分烹调用途。'),
+  oil_olive: group('橄榄油', '橄榄油按升比较。'),
+  oil_rapeseed: group('菜籽油', '菜籽油按升比较。'),
+  oil_sunflower: group('葵花籽油', '葵花籽油按升比较。'),
+  oil_frying: group('煎炸用油', '煎炸用油按升比较。'),
+  oil_other: group('其他食用油', '油种不明确，不计算最低价。', false),
+  vinegar: group('醋', '醋按具体品种和容量参考。'),
+  canned_beans: group('豆类罐头', '同类豆罐头按净重比较。'),
+  canned_coconut_milk: group('椰奶罐头', '椰奶按容量比较。'),
+  canned_other: group('其他罐头', '内容物不同，不计算最低价。', false),
   baking_ingredients: group('糖、面粉与烘焙原料', '按公斤比较。'),
   pickled_vegetables: group('腌菜与橄榄', '口味和沥干重量不同，不计算跨品种最低价。', false),
   chips: group('薯片与咸味零食', '多件价会明确标注。'),
@@ -258,6 +479,13 @@ export const AARHUS_COMPARISON_GROUPS = {
   nuts: group('坚果', '优先按公斤比较。'),
   dried_fruit: group('果干与冻干水果', '不与新鲜水果混比，优先按公斤比较。'),
   paper: group('纸品', '优先看每卷或每件。'),
+  paper_toilet: group('卫生纸', '卫生纸按卷数、层数和每卷价格参考。'),
+  paper_kitchen: group('厨房纸', '厨房纸按卷数和张数参考。'),
+  paper_facial: group('手帕纸与面巾纸', '面巾纸按盒数和抽数参考。'),
+  paper_napkins: group('餐巾纸', '餐巾纸按张数和规格参考。'),
+  paper_wet_wipes: group('湿巾', '湿巾按用途和片数参考。'),
+  paper_other: group('其他纸品', '类型不明确，不计算最低价。', false),
+  paper_mixed_offer: group('多种生活纸品组合', '卫生纸、厨房纸或面巾纸组合不计算最低价。', false),
   cleaning: group('清洁用品', '区分清洁剂、洗碗和洗衣用品。'),
   trash_bags: group('垃圾袋与保鲜袋', '按只数、容量和厚度比较。'),
   kitchen_consumables: group('厨房耗材', '烘焙纸、铝箔等按数量或长度比较。'),

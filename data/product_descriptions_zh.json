@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-19T12:24:20.000Z",
+  "updatedAt": "2026-07-21T23:04:44.933Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
@@ -23,13 +23,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-36.webp&w=1000&x1r=0&x2r=1&y1r=0&y2r=0.804&s=26c0c564ca11539046d188bcdb63e05e"
       }
     },
-    "v1|3 stjernet paalaeg|bacon_deli": {
+    "v1|3 stjernet paalaeg|deli_mixed_offer": {
       "productNameZh": "三明治冷切或抹酱",
       "descriptionZh": "三明治冷切或抹酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "3-Stjernet pålæg",
       "originalDescription": "70-90 g. Kg-pris maks. 171,43. Frit valg. 1 pakke. Begrænset parti.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -117,7 +117,7 @@
       "productNameZh": "洗衣液或洗衣粉",
       "descriptionZh": "A+ 洗衣液。倒进洗衣机主洗格用。丹麦超市常见的基础洗衣品牌，去污力可靠。",
       "originalName": "A+ vaskemiddel",
-      "originalDescription": "1,35 liter flydende eller 20 stk. kapsler. Flere varianter. Pr. vask max. 2,45",
+      "originalDescription": "A+ flydende vaskemiddel. Flere varianter. 10-15 vaske. Pris pr. vask maks. 2,90. Frit valg. 1 stk.",
       "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "authoredBy": "Codex",
@@ -131,13 +131,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-4.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.19&y2r=0.56&s=64b7b32df4fe201acb3ac4d33bdaedc3"
       }
     },
-    "v1|aalbaek salami eller postej|bacon_deli": {
+    "v1|aalbaek salami eller postej|deli_mixed_offer": {
       "productNameZh": "丹麦肝酱",
       "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Aalbæk salami eller postej",
       "originalDescription": "60-200 g. Flere varianter. Pr. kg max. 250.- Frit valg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -261,7 +261,7 @@
       "productNameZh": "亚洲或印度咖喱酱料套装",
       "descriptionZh": "亚洲或印度咖喱酱料套装。Al’Fez（摩洛哥风味）、Blue Dragon（亚洲风味）、Go-Tan（亚洲风味）或 Patak’s（印度风味）品牌的酱料、腌料或烹饪套装，搭配肉类或蔬菜烹制。",
       "originalName": "Al’Fez, Blue Dragon, Go-Tan eller Patak’s",
-      "originalDescription": "11-500 g/ 150-500 ml. Flere varianter. Pr. kg max. 2727,27 /pr. liter max. 200,-",
+      "originalDescription": "11-500 g/150-500 ml. Flere varianter. Pr. kg max. 2545.45 / pr. liter max. 186.67 Frit valg 28.-",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
       "authoredBy": "Codex",
@@ -550,7 +550,7 @@
       "descriptionZh": "橄榄。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "Alexos eller Antos oliven",
       "originalDescription": "100-180 g\nMax. 180.00 pr. kg",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -693,7 +693,7 @@
       "productNameZh": "婴幼儿辅食",
       "descriptionZh": "婴幼儿辅食。婴幼儿辅食、果泥或米糊；类似中国袋装果泥和婴儿粥，购买时按月龄、糖分和配料选择。",
       "originalName": "Änglamark økologisk babymad på glas*",
-      "originalDescription": "190-210 g. Kg-pris maks. 63,16. Frit valg. 1 glas.",
+      "originalDescription": "Økologiske hverdagsretter til små smagsløg\nNår din baby begynder at udforske nye smage, er det rart at kunne give dem noget, der både er økologisk og minder om de retter, familien selv nyder. Derfor har vi skabt Änglamark Færdigretter – en serie af milde, økologiske måltider på glas til babyer fra 6 til 12 måneder.\n190-210 g. Kg-pris maks. 63,16. Frit valg. 1 glas.",
       "categoryId": "baby",
       "comparisonGroup": "baby_food",
       "authoredBy": "Codex",
@@ -819,7 +819,7 @@
       "productNameZh": "其他蔬菜",
       "descriptionZh": "其他蔬菜。蔬菜商品，可用于清炒、炖煮、烤制或配菜；具体品种以原名为准。",
       "originalName": "Änglamark økologiske grøntsager",
-      "originalDescription": "Dybfrost. 300-450 g. Kg-pris maks. 43,33. Frit valg. 1 pose.",
+      "originalDescription": "Dybfrost. 300-450 g. Kg-pris maks. 43,33. Frit valg. 1 pose",
       "categoryId": "vegetables",
       "comparisonGroup": "vegetables_other",
       "authoredBy": "Codex",
@@ -855,7 +855,7 @@
       "productNameZh": "婴儿护理用品",
       "descriptionZh": "婴儿护理用品。促销包含清洁海绵布或婴儿棉片两种可选商品。前者用于擦拭台面，后者用于婴儿清洁护理；购买时需按包装原名确认，不是食品。",
       "originalName": "Änglamark skumklude eller babypads*",
-      "originalDescription": "40-50 stk. Stk.-pris maks. 0,25. Frit valg. 1 stk.",
+      "originalDescription": "40-50 stk. Stk-pris maks. 0,25. Frit valg. 1 stk.",
       "categoryId": "baby",
       "comparisonGroup": "baby_care",
       "authoredBy": "Codex",
@@ -869,13 +869,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-22.webp&w=1000&x1r=0.333&x2r=0.669&y1r=0.672&y2r=0.968&s=43958956b0ae1b2436f320fc97eafe71"
       }
     },
-    "v1|anglamark vaadservietter|paper": {
+    "v1|anglamark vaadservietter|paper_mixed_offer": {
       "productNameZh": "湿巾",
       "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Änglamark vådservietter",
-      "originalDescription": "72 stk. Stk.-pris 0,10. 1 pakke.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "originalDescription": "72 stk. Stk.-pris 0,11. 1 pakke.",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -981,7 +981,7 @@
       "productNameZh": "丹麦冷甜酸奶汤",
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "Arla eller Cheasy koldskål",
-      "originalDescription": "1 liter.",
+      "originalDescription": "1 liter. Flere varianter. FRIT VALG",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -1017,7 +1017,7 @@
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Arla Klovborg® Mellemlagret Danbo 45+",
-      "originalDescription": "Arla Klovborg® Til enhver smag. Osten, alle kan mødes om. 553g. Pr. kg. 97,65",
+      "originalDescription": "Arla Klovborg® Til enhver smag. Osten, alle kan mødes om. 240g. Pr. kg. 100,-",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
@@ -1125,7 +1125,7 @@
       "productNameZh": "蛋白乳饮料",
       "descriptionZh": "蛋白乳饮料。牛奶、可可奶或蛋白乳饮品；可直接饮用，也可搭配咖啡、麦片或用于烹饪。",
       "originalName": "Arla Protein drik",
-      "originalDescription": "500 ml. Pr. liter 18,00",
+      "originalDescription": "500 ml. Pr. liter 24.- Frit valg",
       "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "authoredBy": "Codex",
@@ -1211,13 +1211,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-38.webp&w=1000&x1r=0.025&x2r=0.268&y1r=0.688&y2r=0.955&s=dc17371f83e048c00ea9f8d55612ccb1"
       }
     },
-    "v1|ave krainer polser|sausages": {
+    "v1|ave krainer polser|sausage_other": {
       "productNameZh": "中欧烟熏香肠",
       "descriptionZh": "Krainer 中欧烟熏香肠（斯洛文尼亚风味），蒜香和烟熏味明显，肉质偏粗。切片冷吃做冷切拼盘，或煎热配酸菜和芥末。",
       "originalName": "AVE Krainer-pølser",
       "originalDescription": "240 g. Pr. kg 120,83 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1233,7 +1233,7 @@
       "productNameZh": "早餐谷物或燕麦",
       "descriptionZh": "早餐谷物或燕麦。麦片、燕麦或格兰诺拉，通常加牛奶/酸奶作早餐；类似中国即食燕麦或混合谷物麦片。",
       "originalName": "Axa müsli, granola eller Quaker crüsli",
-      "originalDescription": "450-750 g. Kg-pris maks. 62,22. Frit valg. 1 pakke.",
+      "originalDescription": "450-750 g. Kg-pris maks. 62,22. Frit valg. 1 pakke",
       "categoryId": "breakfast",
       "comparisonGroup": "cereal",
       "authoredBy": "Codex",
@@ -1283,13 +1283,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&w=1000&x1r=0.67&x2r=0.985&y1r=0.4&y2r=0.68&s=0c8bfe61d6c1a0a92cf86adc8c5f0e5b"
       }
     },
-    "v1|bacon cheddar griller|bacon_deli": {
+    "v1|bacon cheddar griller|sausage_bacon": {
       "productNameZh": "培根",
       "descriptionZh": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "BACON & CHEDDAR GRILLER",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_bacon",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1373,13 +1373,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&w=1000&x1r=0.007&x2r=0.404&y1r=0.502&y2r=0.72&s=d5869b92b5beed1e7c469686a277cda9"
       }
     },
-    "v1|bahncke dressing|sauces": {
+    "v1|bahncke dressing|sauce_dressing": {
       "productNameZh": "Bähncke 沙拉酱",
       "descriptionZh": "Bähncke 是丹麦经典酱料品牌。沙拉酱（dressing）拌生菜沙拉、土豆沙拉、意面沙拉均可。口味有法式、千岛、酸奶等。",
       "originalName": "BÄHNCKE Dressing",
       "originalDescription": "380-425 g. Pr. kg maks. 39,47 Spot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dressing",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1486,7 +1486,7 @@
       "descriptionZh": "橄榄。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "Barral Sorte oliven",
       "originalDescription": "230 g 95.65 pr. kg",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1535,13 +1535,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-33.webp&w=1000&x1r=0.42&x2r=0.65&y1r=0.59&y2r=0.86&s=e4dd4124a4855b7179dac49b316d06e0"
       }
     },
-    "v1|bearnaisesauce|sauces": {
+    "v1|bearnaisesauce|sauce_other": {
       "productNameZh": "贝阿恩酱",
       "descriptionZh": "贝阿恩酱（Béarnaise），法餐五大母酱之一，蛋黄黄油为底加龙蒿和红葱头调味。最经典搭配：浇在煎牛排上。也可配烤三文鱼或芦笋。",
       "originalName": "Bearnaisesauce",
       "originalDescription": "K-SALAT 325 g. Pr. kg 46,15 -28 %",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1553,13 +1553,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-4.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.5&y2r=0.73&s=e79fe325fe9588fa90a69b496aedd810"
       }
     },
-    "v1|beauvais ketchup bahncke dressing eller ketchup|sauces": {
+    "v1|beauvais ketchup bahncke dressing eller ketchup|sauce_mixed_offer": {
       "productNameZh": "Beauvais 番茄酱或 Bähncke 沙拉酱",
       "descriptionZh": "Beauvais 番茄酱酸甜适中配薯条热狗；Bähncke 沙拉酱拌沙拉。丹麦两大国民酱料品牌任选。",
       "originalName": "Beauvais ketchup, Bähncke dressing eller ketchup",
       "originalDescription": "380-500 g Partivare. Max. 47.37 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1571,13 +1571,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-10.webp&w=1000&x1r=0&x2r=1&y1r=0&y2r=0.48&s=53ca438153759c01ba3ea2e605bb2518"
       }
     },
-    "v1|beauvais tomatketchup|sauces": {
+    "v1|beauvais tomatketchup|sauce_ketchup": {
       "productNameZh": "番茄",
       "descriptionZh": "番茄。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
       "originalName": "Beauvais tomatketchup",
       "originalDescription": "PR. STK. 12.- 500 g. Pr. kg 24.-",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1679,13 +1679,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3j48zkCa%2Fp-1.webp&w=1000&x1r=0.02&x2r=0.33&y1r=0.72&y2r=0.95&s=fd2eeb87eda967f2a7fabdadf9fb2fc3"
       }
     },
-    "v1|ben s sauce eller dolmio intensify|sauces": {
+    "v1|ben s sauce eller dolmio intensify|sauce_other": {
       "productNameZh": "烹调酱料",
       "descriptionZh": "烹调酱料。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
       "originalName": "Ben´s sauce eller Dolmio intensify*",
       "originalDescription": "390-450 g. Kg-pris maks. 46,15. Frit valg. 1 stk.",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1719,7 +1719,7 @@
       "productNameZh": "饼干或华夫点心",
       "descriptionZh": "饼干或华夫点心。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Bifa sandwich kiks med pistacie eller jordbær*",
-      "originalDescription": "500 g. Kg-pris 40,00. Frit valg. 1 pakke",
+      "originalDescription": "500 g. Kg-pris 40,00. Frit valg. 1 pakke.",
       "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
@@ -1936,7 +1936,7 @@
       "descriptionZh": "玉米。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "Bonduelle majs eller Beauvais survarer",
       "originalDescription": "280-580 g. Flere varianter. Pr. kg max. 85,71",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2150,8 +2150,8 @@
     "v1|butcher s nakkefilet|pork_roast": {
       "productNameZh": "烤猪肉块",
       "descriptionZh": "烤猪肉块。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
-      "originalName": "BUTCHER’S Nakkefilet",
-      "originalDescription": "",
+      "originalName": "BUTCHER'S Nakkefilet",
+      "originalDescription": "Pr. 1/2 kg Pr. kg 59,90",
       "categoryId": "pork_fresh",
       "comparisonGroup": "pork_roast",
       "authoredBy": "Codex",
@@ -2273,13 +2273,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-3.webp&w=1000&x1r=0.34&x2r=0.65&y1r=0.73&y2r=0.99&s=49ac6b8281ad4f90cf822f5d76031ea3"
       }
     },
-    "v1|casa modena italiensk paalaeg|bacon_deli": {
+    "v1|casa modena italiensk paalaeg|deli_mixed_offer": {
       "productNameZh": "意式冷切肉",
       "descriptionZh": "意式冷切肉。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Casa Modena Italiensk pålæg",
       "originalDescription": "MEGET MERE TAPAS! 70-120 g Max. 171.43 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2384,8 +2384,8 @@
     "v1|cheasy hytteost|cheese_cottage_ricotta": {
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "茅屋奶酪（hytteost），颗粒状低脂高蛋白。拌水果蜂蜜当早餐、抹面包或拌入沙拉代替沙拉酱。健身餐首选。",
-      "originalName": "CHEASY Hytteost",
-      "originalDescription": "500 g. Pr. kg 40,00 Spot¹",
+      "originalName": "Cheasy hytteost",
+      "originalDescription": "500 g. Kg-pris 48,00. 1 stk.",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
@@ -2458,7 +2458,7 @@
       "descriptionZh": "土豆沙拉。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "CHEF SELECT Kartoffelsalat",
       "originalDescription": "1000 g. Pr. kg 20,00. Med Lidl Plus³ -15 %",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2471,13 +2471,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&w=1000&x1r=0.51&x2r=0.975&y1r=0.27&y2r=0.485&s=769afd1245f2f8c7a6735be974bc3cdc"
       }
     },
-    "v1|chef select kyllingeburger eller nuggets|chicken_breaded": {
+    "v1|chef select kyllingeburger eller nuggets|prepared_chicken_breaded": {
       "productNameZh": "鸡肉汉堡饼或鸡块",
       "descriptionZh": "鸡肉汉堡饼或鸡块。裹粉或熟制鸡肉小食，如爆米花鸡块、鸡块或鸡肉汉堡，通常复热后蘸酱食用；不是生鲜鸡肉部位。",
       "originalName": "CHEF SELECT Kyllingeburger eller -nuggets",
       "originalDescription": "500-750 g. Pr. kg maks. 70,00 Dybfrost",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breaded",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2510,8 +2510,8 @@
     "v1|cirkel kaffe formalet eller nescafe instant kaffe|coffee_tea": {
       "productNameZh": "速溶咖啡",
       "descriptionZh": "速溶咖啡。咖啡或茶饮原料；咖啡豆需研磨，咖啡粉可冲煮，速溶款可直接加热水。",
-      "originalName": "Cirkel Kaffe formalet eller Nescafe instant kaffe*",
-      "originalDescription": "Flere varianter. 95-500 g. Kg-pris maks. 578,95. Frit valg. 1 pakke/glas",
+      "originalName": "Cirkel Kaffe formalet eller Nescafé instant kaffe*",
+      "originalDescription": "Flere varianter. 95-500 g. Kg-pris maks. 578,95. Frit valg. 1 pakke/glas.",
       "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "authoredBy": "Codex",
@@ -2813,13 +2813,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9365dbf95e4eca977999bf91dda9598c&w=1000&s=11ff4ebf0251cb96134c6f5837390a3f"
       }
     },
-    "v1|coop bacon|bacon_deli": {
+    "v1|coop bacon|bacon_other": {
       "productNameZh": "培根",
       "descriptionZh": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Coop bacon",
       "originalDescription": "3 x 100 g. Kg-pris 96,67. 1 pakke. 3-pak",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2835,7 +2835,7 @@
       "productNameZh": "丹麦土豆肉丁杂烩",
       "descriptionZh": "丹麦土豆肉丁（biksemad）、印度烤鸡（chicken tandoori）或印尼炒面（bami goreng），三种方便餐任选其一，加热即食。",
       "originalName": "Coop biksemad, chicken tandoori eller bami goreng",
-      "originalDescription": "Dybfrost. 400-500 g. Kg-pris maks. 50,00. Frit valg. 1 pose",
+      "originalDescription": "Dybfrost. 400-500 g. Kg-pris maks. 50,00. Frit valg. 1 pose.",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
       "authoredBy": "Codex",
@@ -2907,7 +2907,7 @@
       "productNameZh": "番茄",
       "descriptionZh": "番茄。番茄，可生吃、炒蛋、煮汤或做酱；小番茄通常更适合直接吃。",
       "originalName": "Coop danske tomater fra Regnemark",
-      "originalDescription": "Danmark, kl. I. 500 g. Kg-pris 32,00. 1 bakke",
+      "originalDescription": "Danmark, kl. I. 500 g. Kg-pris 32,00. 1 bakke. Det kræver lidt mere at være tomat i Coop Når du sætter tænderne i en saftig tomat fra Gartneriet Regnemark i Coop-serien, så nyd smagen. Og send så også lige en kærlig tanke til humlebierne. For uden dem ville du ikke have nogen tomat at bide i. Hver sæson arbejder op til 20.000 flittige humlebier i drivhusene. Her bestøver humlebierne helt naturligt tomatblomsterne, så du kan få danske tomater fra tidligt forår til sent efterår.",
       "categoryId": "vegetables",
       "comparisonGroup": "tomatoes",
       "authoredBy": "Codex",
@@ -2975,13 +2975,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-25.webp&w=1000&x1r=0.518&x2r=0.907&y1r=0.236&y2r=0.635&s=146e0268f9629dac69bddbcc5e424630"
       }
     },
-    "v1|coop giant kokkenrulle|paper": {
+    "v1|coop giant kokkenrulle|paper_kitchen": {
       "productNameZh": "Coop Giant 厨房纸",
       "descriptionZh": "Coop Giant 大卷厨房纸，吸水吸油力强。擦台面、吸肉表面水分、垫油炸食物均可。",
       "originalName": "Coop giant køkkenrulle*",
       "originalDescription": "799 g. Kg-pris 40,00. 1 stk.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3087,7 +3087,7 @@
       "productNameZh": "牛肉末",
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "Coop hakket oksekød 14-18%",
-      "originalDescription": "KØD TIL HVERDAG OG WEEKEND 400 g. Kg-pris 92,50. 1 pakke.",
+      "originalDescription": "400 g. Kg-pris 94,88. 1 pakke",
       "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
@@ -3104,8 +3104,8 @@
     "v1|coop hele kaffebonner|coffee_tea": {
       "productNameZh": "整粒咖啡豆",
       "descriptionZh": "整粒咖啡豆。咖啡或茶饮原料；咖啡豆需研磨，咖啡粉可冲煮，速溶款可直接加热水。",
-      "originalName": "Coop hele kaffebønner",
-      "originalDescription": "Flere varianter. 1000 g. Kg-pris 119,00. Frit valg. 1 pakke.",
+      "originalName": "COOP hele kaffebønner",
+      "originalDescription": "Flere varianter. 1000 g. Kg-pris 119,00. Frit valg. 1 pakke",
       "categoryId": "coffee_tea",
       "comparisonGroup": "coffee_tea",
       "authoredBy": "Codex",
@@ -3119,13 +3119,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-14.webp&w=1000&x1r=0.01&x2r=0.5&y1r=0.374&y2r=0.964&s=e476b593a0c95ef8a7259dcaa52326c7"
       }
     },
-    "v1|coop hele spegepolser|sausages": {
+    "v1|coop hele spegepolser|sausage_other": {
       "productNameZh": "萨拉米或风干香肠",
       "descriptionZh": "风干萨拉米肠（spegepølse），像意大利 salami 但北欧做法。切片直接冷吃配面包和奶酪，不用加热。",
       "originalName": "Coop hele spegepølser",
       "originalDescription": "300 g. Kg-pris 106,67. Frit valg. 1 stk.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3195,7 +3195,7 @@
       "productNameZh": "猪排",
       "descriptionZh": "猪排。猪排或猪里脊类，适合煎、烤、切片炒或做糖醋猪排。原名还显示：烧烤味。",
       "originalName": "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit",
-      "originalDescription": "325-350 g. Kg-pris maks. 104,62. Frit valg. 1 pakke",
+      "originalDescription": "325-350 g. Kg-pris maks 104,62. Frit valg. 1 pakke.",
       "categoryId": "pork_fresh",
       "comparisonGroup": "pork_chop",
       "authoredBy": "Codex",
@@ -3321,7 +3321,7 @@
       "productNameZh": "蛋白乳饮料",
       "descriptionZh": "蛋白乳饮料。牛奶、可可奶或蛋白乳饮品；可直接饮用，也可搭配咖啡、麦片或用于烹饪。",
       "originalName": "Coop proteinshake*",
-      "originalDescription": "500 g. Kg-pris 30,00. Frit valg. 1 stk.",
+      "originalDescription": "50 g protein 500 g. Kg-pris 30,00. Frit valg. 1 stk.",
       "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "authoredBy": "Codex",
@@ -3357,7 +3357,7 @@
       "productNameZh": "肉桂卷",
       "descriptionZh": "肉桂卷。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Coop skagenslapper, møllehjul, håndværkere eller Hatting kanelsnegle",
-      "originalDescription": "Dybfrost. 300-600 g. Kg-pris maks. 50,00. Frit valg. 1 stk.",
+      "originalDescription": "Dybfrost. 300-600 g. Kg-pris maks. 50,00. Frit valg. 1 pose",
       "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "authoredBy": "Codex",
@@ -3447,7 +3447,7 @@
       "productNameZh": "热熏三文鱼/烟熏三文鱼/虾",
       "descriptionZh": "热熏三文鱼切片面包上吃；烟熏三文鱼薄片冷食；虾仁解冻即食或炒菜。均为即食或快熟海鲜。",
       "originalName": "Coop varmrøget-, røget laks eller rejer",
-      "originalDescription": "100-170 g. Kg-pris maks. 300,00. Frit valg. 1 pakke",
+      "originalDescription": "100-170 g. Kg-pris maks. 300,00. Frit valg. 1 pakke.",
       "categoryId": "seafood",
       "comparisonGroup": "seafood_mixed_offer",
       "authoredBy": "Codex",
@@ -3461,13 +3461,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6baad958e3f3b2c3bae9106f85830cd5&w=1000&s=73fb859aba63a42c8c3c367ca0aa904a"
       }
     },
-    "v1|cordon bleu af kalkun|turkey_processed": {
+    "v1|cordon bleu af kalkun|prepared_turkey": {
       "productNameZh": "火鸡蓝带肉排",
       "descriptionZh": "火鸡蓝带肉排。火鸡肉饼、蓝带肉排等加工火鸡制品，调味和裹粉状态不同，不与生鲜火鸡部位混比。",
       "originalName": "Cordon bleu af kalkun",
       "originalDescription": "300 g / pk. Pr. kg 83,17",
-      "categoryId": "chicken",
-      "comparisonGroup": "turkey_processed",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_turkey",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3645,7 +3645,7 @@
       "productNameZh": "牛肉末",
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "DANISH CROWN Hakket oksekød med 35 % grøntsager",
-      "originalDescription": "400 g / pk.",
+      "originalDescription": "400 g / pk. Pr. kg 74,88. Fast lav pris",
       "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
@@ -3839,13 +3839,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.52&y1r=0.72&y2r=0.96&s=d71f3b3458686d0ea460748fb6ab9fcb"
       }
     },
-    "v1|dansk kylling snack polser|chicken_sausages": {
+    "v1|dansk kylling snack polser|sausage_chicken": {
       "productNameZh": "鸡肉零食香肠",
       "descriptionZh": "鸡肉零食香肠。鸡肉香肠，通常已调味，可煎、烤或夹面包；不与生鲜鸡胸、鸡腿或猪肉香肠混比。",
       "originalName": "Dansk kylling snack pølser",
       "originalDescription": "340 g. Pr. kg 58,82",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chicken",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4005,7 +4005,7 @@
       "productNameZh": "草莓",
       "descriptionZh": "草莓。草莓，可直接吃、配酸奶、做蛋糕或果酱；购买时注意成熟度和包装损伤。",
       "originalName": "Danske jordbær",
-      "originalDescription": "350 g. Danmark.",
+      "originalDescription": "Klasse 1. 350 g. Pr. kg 57,14",
       "categoryId": "fruit",
       "comparisonGroup": "strawberries",
       "authoredBy": "Codex",
@@ -4113,7 +4113,7 @@
       "productNameZh": "鸡胸肉或鸡里脊",
       "descriptionZh": "鸡胸肉或鸡里脊。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
       "originalName": "De Danske Familiegårde kyllingebrystfilet eller -inderfilet",
-      "originalDescription": "800 g. Pr. kg 111,25",
+      "originalDescription": "800 g. Pr. kg 123.75 Frit valg Bedre Dyrevelfærd",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "authoredBy": "Codex",
@@ -4181,13 +4181,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&w=1000&x1r=0.312&x2r=0.495&y1r=0.17&y2r=0.498&s=eff225412f27fb7f225385061d02790d"
       }
     },
-    "v1|deluxe kartoffelgratin|potato_sides": {
+    "v1|deluxe kartoffelgratin|potato_gratin": {
       "productNameZh": "奶油焗土豆",
       "descriptionZh": "奶油焗土豆。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "DELUXE Kartoffelgratin",
       "originalDescription": "Dybfrost 400 g / pk. Pr. kg 74,88",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_gratin",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4217,13 +4217,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-23.webp&w=1000&x1r=0.4975&x2r=0.987&y1r=0.4674&y2r=0.709&s=ac74fba8f6ae1604914c069258633672"
       }
     },
-    "v1|demon hunters servietter|paper": {
+    "v1|demon hunters servietter|paper_napkins": {
       "productNameZh": "餐巾纸",
       "descriptionZh": "餐巾纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Demon hunters servietter",
       "originalDescription": "20 stk. 33x33 cm. Normalpris 30,- Spar 6,-",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4238,8 +4238,8 @@
     "v1|den gamle fabrik marmelade|spreads_jam": {
       "productNameZh": "果酱",
       "descriptionZh": "果酱。果酱、蜂蜜或坚果抹酱，可抹面包、配酸奶或用于烘焙；类似中国常见花生酱和果酱。",
-      "originalName": "Den Gamle Fabrik Marmelade",
-      "originalDescription": "270 g\nPartivare. 55.56 pr. kg",
+      "originalName": "Den Gamle Fabrik marmelade",
+      "originalDescription": "350-425 g. Flere varianter. Pr. kg max. 85,71",
       "categoryId": "breakfast",
       "comparisonGroup": "spreads_jam",
       "authoredBy": "Codex",
@@ -4253,13 +4253,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-2.webp&w=1000&x1r=0.031&x2r=0.492&y1r=0.732&y2r=0.99&s=419927957a6e0b7a2295d12371d3aea9"
       }
     },
-    "v1|den gronne slagter paalaeg postej eller kalkunbacon|poultry_deli_mixed": {
+    "v1|den gronne slagter paalaeg postej eller kalkunbacon|deli_mixed_offer": {
       "productNameZh": "冷切、肝酱或火鸡培根任选",
       "descriptionZh": "冷切、肝酱或火鸡培根任选。这是冷切肉、肝酱或火鸡培根等禽肉熟食任选；形态和配料不同，不计算全局最低价。",
       "originalName": "Den Grønne Slagter Pålæg, postej eller kalkunbacon",
       "originalDescription": "70-250 g Max. 142.86 pr. kg",
-      "categoryId": "chicken",
-      "comparisonGroup": "poultry_deli_mixed",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4271,13 +4271,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-22.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.46&y2r=0.89&s=d89b5e90393a8a63f6cf294696aa6a08"
       }
     },
-    "v1|den gronne slagter paalaeg|bacon_deli": {
+    "v1|den gronne slagter paalaeg|deli_mixed_offer": {
       "productNameZh": "三明治冷切或抹酱",
       "descriptionZh": "三明治冷切或抹酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Den Grønne Slagter pålæg",
       "originalDescription": "80-100 g. Pr. kg max. 150,00",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4325,13 +4325,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7e0bf89b1e19cdb567007064801a12b5&w=1000&s=e3c331d911575695450cd7f8e98cde40"
       }
     },
-    "v1|dolmio eller ben s sauce|sauces": {
+    "v1|dolmio eller ben s sauce|sauce_other": {
       "productNameZh": "Dolmio 或 Ben's 意面酱",
       "descriptionZh": "Dolmio 意面酱倒进炒好的肉末里搅匀就是 Bolognese；Ben's Original 有甜辣亚洲、奶油蘑菇等口味。煮好意面拌入即可，不用自己调酱。",
       "originalName": "Dolmio eller Ben's sauce",
       "originalDescription": "390-450 g.\nPr. kg max. 51,28\n+ PRIS 17:-\nPr. kg max. 43,59\nGælder kun med Netto+ appen",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4365,7 +4365,7 @@
       "productNameZh": "甜甜圈",
       "descriptionZh": "甜甜圈。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Donut med chokolade eller vaniljefyld",
-      "originalDescription": "56-67 g. Pr. kg maks. 89,29",
+      "originalDescription": "56-67 g. Pr. kg maks. 89,29 Pris uden Lidl Plus 6,00 pr. stk. Med Lidl Plus³",
       "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
@@ -4487,13 +4487,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-15.webp&w=1000&x1r=0.73&x2r=0.99&y1r=0.01&y2r=0.3&s=303ada6d196613fc276b3bbdceb7dfe0"
       }
     },
-    "v1|dressing elller mayonnaise|sauces": {
+    "v1|dressing elller mayonnaise|sauce_mixed_offer": {
       "productNameZh": "沙拉酱或蛋黄酱",
       "descriptionZh": "沙拉酱（dressing）拌生菜沙拉，蛋黄酱（mayonnaise）抹三明治、拌土豆沙拉或蘸薯条。",
       "originalName": "Dressing elller mayonnaise",
       "originalDescription": "Salling Princip dressinger lavet på basis af dansk koldpresset rapsolie. salling Princip. 220 g/250 ml. Pr. liter 112,- /pr. kg 127,27",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4505,13 +4505,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-34.webp&w=1000&x1r=0.02&x2r=0.46&y1r=0.29&y2r=0.64&s=004f6f387e0922840a0ad3e85cec1863"
       }
     },
-    "v1|dulano bacon i strimler|bacon_deli": {
+    "v1|dulano bacon i strimler|bacon_pieces": {
       "productNameZh": "培根条",
       "descriptionZh": "培根条。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "DULANO Bacon i strimler",
       "originalDescription": "2 x 125 g / pk. Pr. kg 79,80.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_pieces",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4523,13 +4523,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.0111&x2r=0.4987&y1r=0.4684&y2r=0.7074&s=02f38e7604fcf5fe424673068d1ac272"
       }
     },
-    "v1|dulano hamburgerryg|bacon_deli": {
+    "v1|dulano hamburgerryg|deli_pork_sliced": {
       "productNameZh": "烟熏猪里脊冷切",
       "descriptionZh": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "DULANO Hamburgerryg",
       "originalDescription": "150 g / pk.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4541,13 +4541,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&w=1000&x1r=0.4958&x2r=0.9898&y1r=0.4702&y2r=0.7079&s=bbb7381e8654c90eda95ca1710520d0d"
       }
     },
-    "v1|dulano salami|bacon_deli": {
+    "v1|dulano salami|deli_cured_sliced": {
       "productNameZh": "萨拉米或风干香肠",
       "descriptionZh": "萨拉米或风干香肠。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "DULANO Salami",
       "originalDescription": "Af kalkun og kylling. 80 g. Pr. kg 125,00 Med Lidl Plus³",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_cured_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4617,7 +4617,7 @@
       "productNameZh": "Eco Care 洗护或护肤",
       "descriptionZh": "Eco Care 丹麦本土环保品牌，成分天然无 SLS 和 parabens。洗发沐浴和身体乳均适合敏感肌。北欧 Ecolabel 认证。",
       "originalName": "Eco Care hår- eller hudpleje",
-      "originalDescription": "500 ml håndsæbe. Flere varianter. Pr. liter 50.-",
+      "originalDescription": "380-1000 ml shampoo, balsam eller body wash. Flere varianter. Pr. liter max. 118.42",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
       "authoredBy": "Codex",
@@ -4631,13 +4631,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-33.webp&w=1000&x1r=0.038&x2r=0.308&y1r=0.444&y2r=0.88&s=1481a75fae48483a2e168602411b8b5c"
       }
     },
-    "v1|egelykke bacon i skiver|bacon_deli": {
+    "v1|egelykke bacon i skiver|bacon_sliced": {
       "productNameZh": "培根片",
       "descriptionZh": "培根片。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Egelykke bacon i skiver",
       "originalDescription": "Egelykke bacon 2 x 150 g. Pr. kg 66,50",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4742,8 +4742,8 @@
     "v1|elvital shampoo eller balsam|hair_body": {
       "productNameZh": "Elvital 洗发水或护发素",
       "descriptionZh": "欧莱雅 Elvital 系列，针对不同发质有修复、染后护色、丰盈等版本。洗发后搭配同系列护发素效果更佳。按包装选择适合自己发质的款式。",
-      "originalName": "Elvital shampoo eller balsam*",
-      "originalDescription": "300-400 ml. Literpris maks. 100,00. Frit valg. 1 stk.",
+      "originalName": "Elvital shampoo eller balsam",
+      "originalDescription": "200-250 ml. Literpris maks. 135,00. Frit valg. 1 stk.",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
       "authoredBy": "Codex",
@@ -4779,7 +4779,7 @@
       "productNameZh": "肋眼牛排",
       "descriptionZh": "肋眼牛排。肋眼或 entrecôte 牛排，油花较多，适合高温煎烤；相近肋眼部位单独比较。",
       "originalName": "Entrecotes eller rib eyes",
-      "originalDescription": "900-950 g. Pr. kg max. 165,56",
+      "originalDescription": "600-650 g. Pr. kg max. 181.67 FRIT VALG 600-650 G",
       "categoryId": "beef",
       "comparisonGroup": "beef_ribeye",
       "authoredBy": "Codex",
@@ -4937,13 +4937,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-14.webp&w=1000&x1r=0.005&x2r=0.26&y1r=0.334&y2r=0.609&s=2fccedf714fcd11f1cc8d84b3851acb9"
       }
     },
-    "v1|floralys kokkenrulle|paper": {
+    "v1|floralys kokkenrulle|paper_kitchen": {
       "productNameZh": "厨房纸",
       "descriptionZh": "厨房纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "FLORALYS Køkkenrulle",
       "originalDescription": "3-lags. 4 ruller / pk. 712 g / pk. Pr. kg 25,21.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4955,13 +4955,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-30.webp&w=1000&x1r=0.0087&x2r=0.4986&y1r=0.4674&y2r=0.7105&s=ec6fe64fa823a8a86fc0559472b83132"
       }
     },
-    "v1|floralys toiletpapir|paper": {
+    "v1|floralys toiletpapir|paper_toilet": {
       "productNameZh": "卫生纸",
       "descriptionZh": "卫生纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "FLORALYS Toiletpapir",
-      "originalDescription": "4-lags. 10 ruller / pk. 1417 g / pk. Pr. kg 27,88",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "originalDescription": "2-lags. 8 ruller / pk. 734 g / pk. Pr. kg 24,45.",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -4973,13 +4973,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-30.webp&w=1000&x1r=0.013&x2r=0.5024&y1r=0.717&y2r=0.9469&s=b3ed42d8a9e0d1eb523145d8adecbc29"
       }
     },
-    "v1|floralys xxl kokkenrulle|paper": {
+    "v1|floralys xxl kokkenrulle|paper_kitchen": {
       "productNameZh": "厨房纸",
       "descriptionZh": "厨房纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "FLORALYS XXL køkkenrulle",
       "originalDescription": "3-lags. 4 ruller. 1464 g. Pr. kg 30,73 Spot¹",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5099,13 +5099,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-15.webp&w=1000&x1r=0.014&x2r=0.495&y1r=0.728&y2r=0.955&s=ab5fb8f8689ab7b8681a51649e4110f3"
       }
     },
-    "v1|frankfurtere|sausages": {
+    "v1|frankfurtere|sausage_frankfurter": {
       "productNameZh": "法兰克福香肠",
       "descriptionZh": "法兰克福香肠，像粗版热狗肠。水煮 3-5 分钟加热即可。夹面包做热狗，配芥末酱和 ketchup。",
       "originalName": "Frankfurtere",
       "originalDescription": "a 500-600 g. Flere varianter. Pr. kg max. v/merkøb 89.- 2 BAKKER PR. BAKKE 49,95",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5117,13 +5117,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-15.webp&w=1000&x1r=0.02&x2r=0.58&y1r=0.28&y2r=0.58&s=3fe3f1d76d226f8a1901875cb369fec3"
       }
     },
-    "v1|fransk hotdog|ready_meal": {
+    "v1|fransk hotdog|sausage_frankfurter": {
       "productNameZh": "法式热狗",
       "descriptionZh": "法式热狗。挖空法棍面包塞入香肠，挤酱料。烤箱加热后外脆内热。丹麦加油站经典快餐。",
       "originalName": "Fransk hotdog",
       "originalDescription": "... den perfekte snack Vælg mellem GRILLPØLSE • 77% kød GRILLPØLSE MED OST • 74% kød • 7% cheddar ost GRILLPØLSE MED CHORIZO • 79% kød • Spansk chorizo 2 STK. Stort udvalg af dressinger",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "ready_meal",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5333,13 +5333,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-1.webp&w=1000&x1r=0.03&x2r=0.39&y1r=0.44&y2r=0.66&s=6fabce8b9a881628cb51827872fa21b3"
       }
     },
-    "v1|frokost favorit paalaeg|bacon_deli": {
+    "v1|frokost favorit paalaeg|deli_mixed_offer": {
       "productNameZh": "三明治冷切或抹酱",
       "descriptionZh": "三明治冷切或抹酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Frokost favorit pålæg*",
       "originalDescription": "70-100 g. Kg-pris maks. 171,43. Frit valg. 1 stk.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5409,7 +5409,7 @@
       "productNameZh": "咸味零食",
       "descriptionZh": "咸味零食。咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
       "originalName": "Gårdschips*",
-      "originalDescription": "Flere varianter. 150 g. Kg-pris 80,00. Frit valg. 1 pose",
+      "originalDescription": "Flere varianter. 150 g. Kg-pris 80,00. Frit valg. 1 pose.",
       "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "authoredBy": "Codex",
@@ -5643,7 +5643,7 @@
       "productNameZh": "Gliss 洗发水或护发素",
       "descriptionZh": "Gliss（施华蔻旗下）主打液态角蛋白修护技术。根据不同需求有：黄色（修复分叉）、黑色（极致修护）、粉色（染后护色）、紫色（丰盈蓬松）。选对颜色就是选对功能。",
       "originalName": "Gliss shampoo eller balsam",
-      "originalDescription": "200-250 ml\nMax. 80.00 pr. liter",
+      "originalDescription": "200-250 ml. Flere varianter. Pr. liter max. 75.-",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
       "authoredBy": "Codex",
@@ -5675,13 +5675,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-10.webp&w=1000&x1r=0.01&x2r=0.44&y1r=0.01&y2r=0.39&s=25d3ee583c46b7a8110e2c3ba31e5853"
       }
     },
-    "v1|godt papir|paper": {
+    "v1|godt papir|paper_mixed_offer": {
       "productNameZh": "纸品",
       "descriptionZh": "纸品。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Godt papir",
       "originalDescription": "5 PAKKER 50.- PR. PAKKE 14,95 a 6 rl. toiletpapir eller 3 rl. køkkenrulle. Pr. kg max. v/merkøb 25.06",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5693,13 +5693,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-1.webp&w=1000&x1r=0.48&x2r=0.725&y1r=0.468&y2r=0.781&s=054ec4dd7d0fe4960b5e8ff6d59e6ae3"
       }
     },
-    "v1|gol polser eller tulip bacon|pork_mixed_offer": {
+    "v1|gol polser eller tulip bacon|sausage_mixed_offer": {
       "productNameZh": "培根",
       "descriptionZh": "培根。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "originalName": "Gøl pølser eller Tulip bacon",
       "originalDescription": "300-500 g. Flere varianter. Pr. kg max. 100,- 30,-",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5711,13 +5711,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&w=1000&x1r=0.27&x2r=0.96&y1r=0.26&y2r=0.94&s=2dc018d5561b377fed8e47646659bad3"
       }
     },
-    "v1|gol polser|sausages": {
+    "v1|gol polser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "Gøl 丹麦知名香肠品牌，肉含量高、烟熏工艺传统。煎烤或水煮后夹面包或配土豆沙拉。",
       "originalName": "Gøl pølser",
       "originalDescription": "420-500 g. Kg-pris maks. 69,05. Frit valg. 1 pakke. Begrænset parti. Ugens køb",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5752,7 +5752,7 @@
       "descriptionZh": "丹麦土豆沙拉，以蛋黄酱和酸奶为底，加洋葱、酸黄瓜碎调味。冷藏后直接吃，丹麦烧烤和圣诞午餐必备配菜。",
       "originalName": "Graasten eller Coop kartoffelsalat",
       "originalDescription": "800 g. Kg-pris 35,00. Frit valg. 1 stk.",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -5765,13 +5765,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F2202c9ddcf60d486428f6b468dd25121&w=1000&s=be9046f9ef3083320def492d95d0ebbf"
       }
     },
-    "v1|graasten fastfood dressing|sauces": {
+    "v1|graasten fastfood dressing|sauce_dressing": {
       "productNameZh": "快餐沙拉酱",
       "descriptionZh": "丹麦快餐店风格的沙拉酱，带一点酸黄瓜和芥末味，类似麦当劳汉堡里的酱。淋在汉堡、热狗或薯条上，也可做土豆沙拉。",
       "originalName": "Graasten fastfood dressing",
       "originalDescription": "Flere varianter. 425 g. Kg-pris 40,00. Frit valg. 1 stk.",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dressing",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5787,8 +5787,8 @@
       "productNameZh": "土豆沙拉",
       "descriptionZh": "土豆沙拉。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "Graasten kartoffelsalat",
-      "originalDescription": "400 g. Flere varianter. Pr. kg 67,50 27,- plus pris 25,- Pr. kg DKK 62,50 Gælder kun med føtex plus appen",
-      "categoryId": "vegetables",
+      "originalDescription": "400 g. Flere varianter. Pr. kg 62.50 Frit valg",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -5801,13 +5801,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&w=1000&x1r=0.02&x2r=0.28&y1r=0.015&y2r=0.44&s=69432084a011960ed4402eff6d863d0d"
       }
     },
-    "v1|graasten ketchup remoulade eller sennep|sauces": {
+    "v1|graasten ketchup remoulade eller sennep|sauce_mixed_offer": {
       "productNameZh": "Graasten 番茄酱/remoulade/芥末酱",
       "descriptionZh": "番茄酱蘸薯条；remoulade 是丹麦特有酸甜腌黄瓜酱，配炸鱼排和热狗必用；芥末酱（sennep）配香肠。丹麦人餐桌上三件套。",
-      "originalName": "Graasten ketchup, remoulade eller sennep*",
+      "originalName": "Graasten ketchup, remoulade eller sennep",
       "originalDescription": "800 g. Kg-pris 25,00. Frit valg. 1 stk.",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5824,7 +5824,7 @@
       "descriptionZh": "三明治夹馅沙拉/抹酱。冷藏三明治夹馅沙拉或抹酱，可能以虾、鸡肉、火腿或蔬菜拌蛋黄酱制成，可抹面包或夹三明治；具体配料以原名和包装为准。",
       "originalName": "Graasten pålægssalat",
       "originalDescription": "120 g. Kg-pris 83,33. Frit valg. 1 stk. Begrænset parti.",
-      "categoryId": "frozen_ready",
+      "categoryId": "deli_meat",
       "comparisonGroup": "deli_spreads",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -5837,13 +5837,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fby0vmoRy%2Fp-14.webp&w=1000&x1r=0.054&x2r=0.592&y1r=0.25&y2r=0.748&s=988fadfff35d5d15521339c5fe8d5682"
       }
     },
-    "v1|graasten remoulade eller mayonnaise|sauces": {
+    "v1|graasten remoulade eller mayonnaise|sauce_mixed_offer": {
       "productNameZh": "Graasten Remoulade 或蛋黄酱",
       "descriptionZh": "Remoulade 是丹麦国民酱——酸甜口味，含腌黄瓜碎和咖喱粉，配炸鱼、热狗、 roastbeef 三明治。蛋黄酱配薯条和土豆沙拉。",
       "originalName": "Graasten remoulade eller mayonnaise",
       "originalDescription": "375 g. Kg-pris 40,00. Frit valg. 1 stk.",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5873,13 +5873,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-15.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.47&y2r=0.73&s=77e319c1a2f343ebfca6330f622571c1"
       }
     },
-    "v1|gram slot pommes frites eller kartofler|potato_sides": {
+    "v1|gram slot pommes frites eller kartofler|potato_fries": {
       "productNameZh": "新鲜土豆",
       "descriptionZh": "新鲜土豆。加工土豆配菜，如薯角、薯饼或焗土豆，通常需烤箱或空气炸锅加热。",
       "originalName": "Gram Slot Pommes frites eller kartofler",
       "originalDescription": "Økologisk Dybfrost 600 g 23.33 pr. kg Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 17.95 pr. stk.",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5909,13 +5909,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-4.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.212&y2r=0.572&s=efea3a4d0446170be7760f0bc95f37e5"
       }
     },
-    "v1|grillmester grillpolser|sausages": {
+    "v1|grillmester grillpolser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤大师烧烤肠。炭火烤至表皮微焦是正宗吃法。直接吃、蘸芥末或夹面包做热狗。丹麦夏天烧烤必备。",
       "originalName": "GRILLMESTER Grillpølser",
       "originalDescription": "Med cheddar og jalapenos eller chili. 320 g. Pr. kg 78,13",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5927,13 +5927,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.5&y2r=0.725&s=95a462145e2b72937d83eeb9f8e453af"
       }
     },
-    "v1|grillmester kalkunhakkeboffer|turkey_processed": {
+    "v1|grillmester kalkunhakkeboffer|prepared_turkey": {
       "productNameZh": "火鸡肉饼",
       "descriptionZh": "火鸡肉饼。火鸡肉饼、蓝带肉排等加工火鸡制品，调味和裹粉状态不同，不与生鲜火鸡部位混比。",
       "originalName": "GRILLMESTER Kalkunhakkebøffer",
       "originalDescription": "480 g / pk. Pr. kg 68,65",
-      "categoryId": "chicken",
-      "comparisonGroup": "turkey_processed",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_turkey",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5981,13 +5981,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&w=1000&x1r=0.019&x2r=0.31&y1r=0.373&y2r=0.72&s=c55fd2149fb99130fb5e56a4e4c1115e"
       }
     },
-    "v1|grillmester oksemerguez eller grillfakler|sausages": {
+    "v1|grillmester oksemerguez eller grillfakler|sausage_mixed_offer": {
       "productNameZh": "香肠",
       "descriptionZh": "Merguez 是北非辣味羊肉/牛肉肠，孜然和辣椒味突出；grillfakler 是细长烧烤肠串。均适合炭烤或煎。",
       "originalName": "GRILLMESTER Oksemerguez eller grillfakler",
       "originalDescription": "360-420 g. Pr. kg maks. 92,86 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6017,13 +6017,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&w=1000&x1r=0.02&x2r=0.25&y1r=0.709&y2r=0.965&s=33ac08d75d7a6e7426c4c07962eb2038"
       }
     },
-    "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|chicken_sausages": {
+    "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|sausage_mixed_offer": {
       "productNameZh": "鸡肉香肠",
       "descriptionZh": "鸡肉香肠。鸡肉香肠，通常已调味，可煎、烤或夹面包；不与生鲜鸡胸、鸡腿或猪肉香肠混比。",
       "originalName": "Grillpølser i baconsvøb, kyllingepølser eller bratwurst",
       "originalDescription": "260-350 g\nMax. 76.92 pr. kg",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6111,7 +6111,7 @@
       "productNameZh": "其他蔬菜",
       "descriptionZh": "其他蔬菜。蔬菜商品，可用于清炒、炖煮、烤制或配菜；具体品种以原名为准。",
       "originalName": "Grøntsager",
-      "originalDescription": "70-750 g. Flere varianter. Pr. kg max. 200,-",
+      "originalDescription": "70-900 g. Flere varianter. Pr. kg max. 142.86 FRIT VALG",
       "categoryId": "vegetables",
       "comparisonGroup": "vegetables_other",
       "authoredBy": "Codex",
@@ -6237,7 +6237,7 @@
       "productNameZh": "牛肉末",
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "Hakket oksekød",
-      "originalDescription": "MADVÆRKET 14-18 % fedt. 350 g. Pr. kg 91,43 Maks. 3 pk. pr. kunde pr. dag. Med Lidl Plus³ Pr. kg 82,86",
+      "originalDescription": "1,1 kg. 14-18% fedt. Pr. kg 90.- PR. BAKKE",
       "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
@@ -6323,13 +6323,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F7619703024108f423a9d30b7cbf3d00e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fd6781c1a521b78f26ea931f7bffc4a18%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F716fc8fcc64514e8c6f4e51c48b6fa8b&w=1000&s=2511fd12c89550eed685b8b5a963124d"
       }
     },
-    "v1|harvest baket kartoffelkroketter|potato_sides": {
+    "v1|harvest baket kartoffelkroketter|potato_croquettes": {
       "productNameZh": "土豆可乐饼",
       "descriptionZh": "土豆可乐饼。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "HARVEST BAKET Kartoffelkroketter",
       "originalDescription": "Med fyld. 600 g. Pr. kg 31,67 Med Lidl Plus³ Dybfrost",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_croquettes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6341,13 +6341,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBAa5mmo2%2Fp-38.webp&w=1000&x1r=0&x2r=0.48&y1r=0.71&y2r=0.95&s=0fcc01090dce6732c7ba05efbecccaf8"
       }
     },
-    "v1|harvest basket bolgeskaarne pommes frites|potato_sides": {
+    "v1|harvest basket bolgeskaarne pommes frites|potato_fries": {
       "productNameZh": "冷冻薯条",
       "descriptionZh": "冷冻薯条。加工土豆配菜，如薯角、薯饼或焗土豆，通常需烤箱或空气炸锅加热。",
       "originalName": "HARVEST BASKET Bølgeskårne pommes frites",
       "originalDescription": "Dybfrost, 1 kg / ps. Pr. kg 9,95",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6359,13 +6359,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FNRACYntJ%2Fp-32.webp&w=1000&x1r=0&x2r=0.4961&y1r=0.1139&y2r=0.4624&s=a772bb456f05ea734a5a4ad6f4574535"
       }
     },
-    "v1|harvest basket kartoffelbaade|potato_sides": {
+    "v1|harvest basket kartoffelbaade|potato_wedges": {
       "productNameZh": "冷冻薯角",
       "descriptionZh": "冷冻薯角。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "HARVEST BASKET Kartoffelbåde",
       "originalDescription": "750 g / ps. Pr. kg 18,60",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_wedges",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6377,13 +6377,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FNRACYntJ%2Fp-32.webp&w=1000&x1r=0&x2r=0.3435&y1r=0.7095&y2r=0.9533&s=efc0635ca92187262b1b58f7f2327045"
       }
     },
-    "v1|harvest basket kartoffelrosti|potato_sides": {
+    "v1|harvest basket kartoffelrosti|potato_hash_browns": {
       "productNameZh": "瑞士土豆饼",
       "descriptionZh": "瑞士土豆饼。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "HARVEST BASKET Kartoffelrøsti",
       "originalDescription": "800 g / ps. Pr. kg 23,69",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_hash_browns",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6395,13 +6395,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FNRACYntJ%2Fp-32.webp&w=1000&x1r=0.3196&x2r=0.6796&y1r=0.7031&y2r=0.9471&s=d1313019913bf8bfb3cb80e784d0e478"
       }
     },
-    "v1|harvest basket pommes frites|potato_sides": {
+    "v1|harvest basket pommes frites|potato_fries": {
       "productNameZh": "冷冻薯条",
       "descriptionZh": "冷冻薯条。加工土豆配菜，如薯角、薯饼或焗土豆，通常需烤箱或空气炸锅加热。",
       "originalName": "HARVEST BASKET Pommes frites",
-      "originalDescription": "600-1000 g / ps. Pr. kg maks. 19,92",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "originalDescription": "2 kg / ps. Pr. kg 9,98",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6418,7 +6418,7 @@
       "descriptionZh": "腌红洋葱。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "Harvest Best syltede rødløg",
       "originalDescription": "180 g. Pr. kg 111,11",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -6449,13 +6449,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.32&x2r=1&y1r=0&y2r=0.6&s=6d49c2a634f41539eb95ea4a4761bd61"
       }
     },
-    "v1|hatting burgerboller eller hotdogbrod|bread": {
+    "v1|hatting burgerboller eller hotdogbrod|sausage_frankfurter": {
       "productNameZh": "汉堡面包胚",
       "descriptionZh": "汉堡面包胚。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Hatting Burgerboller eller hotdogbrød",
       "originalDescription": "250-324 g\nMax. 60.00 pr. kg",
-      "categoryId": "bread_bakery",
-      "comparisonGroup": "bread",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6489,7 +6489,7 @@
       "productNameZh": "整片带皮三文鱼柳",
       "descriptionZh": "整片带皮三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "originalName": "HAVBLÅ Hel laksefilet med skind",
-      "originalDescription": "Pr. kg 149,90",
+      "originalDescription": "Pr. 600 g. Pr. kg 166,58",
       "categoryId": "seafood",
       "comparisonGroup": "salmon_fresh",
       "authoredBy": "Codex",
@@ -6525,7 +6525,7 @@
       "productNameZh": "三文鱼柳",
       "descriptionZh": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "originalName": "HAVBLÅ Laksefileter",
-      "originalDescription": "4 x 125 g / pk. Pr. kg 179,90",
+      "originalDescription": "225 g / pk. Pr. kg 195,33",
       "categoryId": "seafood",
       "comparisonGroup": "salmon_fresh",
       "authoredBy": "Codex",
@@ -6557,13 +6557,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8nphpyDk%2Fp-19.webp&w=1000&x1r=0.016&x2r=0.49&y1r=0.485&y2r=0.99&s=9bc3e246370443abb8fc162f7b010add"
       }
     },
-    "v1|heinz ketchup eller mayonnaise|sauces": {
+    "v1|heinz ketchup eller mayonnaise|sauce_mixed_offer": {
       "productNameZh": "亨氏番茄酱或蛋黄酱",
       "descriptionZh": "亨氏番茄酱酸甜经典，蘸薯条炸鸡；蛋黄酱抹三明治拌沙拉。全球最畅销的两个调味酱。",
       "originalName": "Heinz ketchup eller mayonnaise",
       "originalDescription": "400-500 ml/395-700 g Partivare. Max. 50.00 pr. liter/Max. 50.63 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6575,13 +6575,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-4.webp&w=1000&x1r=0.12&x2r=0.96&y1r=0.015&y2r=0.52&s=9ed7774443c7018b83cba0d2af955f5a"
       }
     },
-    "v1|heinz ketchup|sauces": {
+    "v1|heinz ketchup|sauce_ketchup": {
       "productNameZh": "亨氏番茄酱",
       "descriptionZh": "亨氏番茄酱，酸甜均衡的经典美式口味。蘸薯条、炸鸡、热狗；也可以加生抽和醋调成糖醋汁做糖醋里脊。",
       "originalName": "HEINZ Ketchup",
       "originalDescription": "1,17 l. Pr. l 24,79 Spot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6593,13 +6593,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&w=1000&x1r=0.02&x2r=0.485&y1r=0.5&y2r=0.725&s=2c0647664a2bd9ae941ca48e9f8eb3c9"
       }
     },
-    "v1|heinz tomat ketchup eller sauce|sauces": {
+    "v1|heinz tomat ketchup eller sauce|sauce_mixed_offer": {
       "productNameZh": "番茄酱或烹调酱",
       "descriptionZh": "番茄酱或烹调酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
       "originalName": "Heinz tomat-ketchup eller sauce",
       "originalDescription": "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. MÅNEDENS Medlems KØB JULI Bliv Coop Medlem og få del i de eksklusive medlemsfordele nu Gælder fra 1. juli til og med 31. juli, så længe lager haves. Medlemsrabat op til 12,95 Pris ikke-medlem op til 29,95",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6611,13 +6611,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&w=1000&x1r=0.037&x2r=0.962&y1r=0.675&y2r=0.962&s=09053182d65835cdbc949b0bc49d7134"
       }
     },
-    "v1|heinz tomatketchup eller sauce|sauces": {
+    "v1|heinz tomatketchup eller sauce|sauce_mixed_offer": {
       "productNameZh": "亨氏番茄酱或调味酱",
       "descriptionZh": "亨氏番茄酱（经典美式酸甜味），蘸薯条、做糖醋汁、配煎蛋均可。sauce 系列如烧烤酱、咖喱酱等不同口味任选。",
       "originalName": "Heinz tomatketchup eller sauce",
       "originalDescription": "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. Begrænset parti. Medlemsrabat op til 22,95 Pris ikke-medlem op til 39,95",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6687,7 +6687,7 @@
       "productNameZh": "整只鸡腿",
       "descriptionZh": "整只鸡腿。鸡腿部位，肉嫩多汁，适合红烧、炖煮、烤或空气炸；类似中国常见鸡腿肉。",
       "originalName": "Hele danske kyllingelår eller -overlår",
-      "originalDescription": "1,25 kg. Pr. kg 28,-",
+      "originalDescription": "1,25 kg. Pr. kg 28.- Frit valg salling DYBFROST Bedre Dyrevelfærd",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_thigh",
       "authoredBy": "Codex",
@@ -6701,13 +6701,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&w=1000&x1r=0.015&x2r=0.275&y1r=0.265&y2r=0.515&s=524c1a401b523cebab925cf35b758ab2"
       }
     },
-    "v1|hellmann s mayonnaise eller maille dijon sennep|sauces": {
+    "v1|hellmann s mayonnaise eller maille dijon sennep|sauce_mixed_offer": {
       "productNameZh": "Hellmann's 蛋黄酱或 Maille 第戎芥末",
       "descriptionZh": "Hellmann's 全球 No.1 蛋黄酱品牌，拌沙拉抹三明治；Maille 第戎芥末（法国老牌），配烤牛肉、做沙拉汁或蘸香肠。",
       "originalName": "Hellmann’s mayonnaise eller Maille dijon sennep",
       "originalDescription": "250-430 ml/210-400 g. Pr. liter max. 112,- /pr. kg max. 133,33",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6719,13 +6719,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-46.webp&w=1000&x1r=0.05&x2r=0.5&y1r=0.02&y2r=0.26&s=a2d6f27bcc01ae6aabc16efc585023e5"
       }
     },
-    "v1|hellmann s mayonnaise|sauces": {
+    "v1|hellmann s mayonnaise|sauce_mayonnaise": {
       "productNameZh": "Hellmann's 蛋黄酱",
       "descriptionZh": "Hellmann's 蛋黄酱，全球最畅销。奶味浓郁、酸度柔和。抹三明治、拌土豆沙拉、蘸薯条、做鸡排酱底都行。",
       "originalName": "HELLMANN'S Mayonnaise",
       "originalDescription": "250 g. Pr. kg 60,00. Spot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mayonnaise",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6809,13 +6809,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-18.webp&w=1000&x1r=0.01&x2r=0.525&y1r=0.032&y2r=0.545&s=6d292c303d730876419432b1cb3a265b"
       }
     },
-    "v1|hello sensitive vaadservietter|paper": {
+    "v1|hello sensitive vaadservietter|paper_mixed_offer": {
       "productNameZh": "Hello Sensitive 敏感肌湿巾",
       "descriptionZh": "Hello Sensitive 无香精敏感肌湿巾。含芦荟和维生素 E，温和清洁不刺激。适合婴儿和过敏性皮肤。",
       "originalName": "Hello Sensitive vådservietter",
       "originalDescription": "0% Parfume Hello Sensitive vådservietter 100 stk. Pr. stk. 0,09",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6827,13 +6827,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-19.webp&w=1000&x1r=0.025&x2r=0.32&y1r=0.355&y2r=0.58&s=e59a3e82cd7d4ccbd889b3d8f59f0d5f"
       }
     },
-    "v1|herre griller med bacon|bacon_deli": {
+    "v1|herre griller med bacon|sausage_bacon": {
       "productNameZh": "培根",
       "descriptionZh": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "HERRE GRILLER MED BACON",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_bacon",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6863,13 +6863,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-20.webp&w=1000&x1r=0.54&x2r=0.99&y1r=0.74&y2r=1&s=8f2d6b67648121d991e72ac74f9d774b"
       }
     },
-    "v1|hojer chorizo brunchpolse eller steff houlberg bacon|bacon_deli": {
+    "v1|hojer chorizo brunchpolse eller steff houlberg bacon|sausage_mixed_offer": {
       "productNameZh": "培根",
       "descriptionZh": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Højer chorizo brunchpølse eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6881,13 +6881,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1a1d92c46a09c09409b924402860c573&w=1000&s=8295460e7a525ab997ffb6207ba92b0e"
       }
     },
-    "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer": {
+    "v1|hojer chorizo brunchpolser eller steff houlberg bacon|sausage_mixed_offer": {
       "productNameZh": "西班牙辣肠/早午餐肠/培根",
       "descriptionZh": "Højer 西班牙辣味香肠（chorizo）、早午餐肠或 Steff Houlberg 培根任选。chorizo 切片煎或炒菜提香；brunch 肠煎烤配面包；培根煎脆做早餐。",
       "originalName": "Højer chorizo brunchpølser eller Steff Houlberg bacon*",
       "originalDescription": "200-250 g. Kg-pris maks. 110,00. Frit valg. 1 pakke. *Stjernemarkerede varer findes kun i begrænset antal og ikke i alle butikker",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6992,8 +6992,8 @@
     "v1|husk kosttilskud eller maelkesyrebakterier|supplements": {
       "productNameZh": "益生菌或营养补充剂",
       "descriptionZh": "益生菌或营养补充剂。营养补充剂，如益生菌、膳食纤维或维生素；按成分、每日剂量和适用人群选择，不是普通食品或乳制品。",
-      "originalName": "HUSK kosttilskud eller mælkesyrebakterier",
-      "originalDescription": "150-450 g. eller 225 stk. Flere varianter. Pr. stk. 0.57 /pr. kg max. 860.- Frit valg 129.-",
+      "originalName": "Husk kosttilskud eller mælkesyrebakterier",
+      "originalDescription": "C. 150-450 g eller 225 stk. Pr. stk. 0.51 /pr. kg max. 766.67 Frit valg",
       "categoryId": "personal_care",
       "comparisonGroup": "supplements",
       "authoredBy": "Codex",
@@ -7115,13 +7115,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FNRACYntJ%2Fp-32.webp&w=1000&x1r=0.0097&x2r=0.5003&y1r=0.4672&y2r=0.7219&s=d44bc9f8aa6366be4191aadf946f9ee2"
       }
     },
-    "v1|italiensk paalaeg|bacon_deli": {
+    "v1|italiensk paalaeg|deli_mixed_offer": {
       "productNameZh": "意式冷切肉",
       "descriptionZh": "意式冷切肉。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Italiensk pålæg",
       "originalDescription": "50-70 g. Kg-pris maks. 280,00. Frit valg. 1 pakke.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7169,13 +7169,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-34.webp&w=1000&x1r=0.02&x2r=0.46&y1r=0.65&y2r=0.95&s=aa4e14ca74a333fbcb0b67ccb15c7d59"
       }
     },
-    "v1|jensens kokken sauce|sauces": {
+    "v1|jensens kokken sauce|sauce_other": {
       "productNameZh": "Jensens Køkken 烹调用酱",
       "descriptionZh": "Jensens Køkken 丹麦肉酱/意面酱品牌。直接拌意面或用微波炉和肉末一起加热就是快手 Bolognese。",
       "originalName": "Jensens Køkken sauce",
       "originalDescription": "350 ml. Literpris 57,14. Frit valg. 1 stk.",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7205,13 +7205,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&w=1000&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94&s=8fe7e877020ce838c16b274f879c1a54"
       }
     },
-    "v1|jensens sauce|sauces": {
+    "v1|jensens sauce|sauce_other": {
       "productNameZh": "Jensens 酱料",
       "descriptionZh": "Jensens 丹麦食品品牌。包括意面肉酱、烧烤酱、咖喱酱等。加热后直接拌面或配肉吃。",
-      "originalName": "Jensens Sauce",
-      "originalDescription": "250 ml. Bearnaise eller favorit. Pr. liter 60,00",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "originalName": "Jensens sauce",
+      "originalDescription": "250-350 ml. Flere varianter. Pr. liter max. 68,-",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7277,13 +7277,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-37.webp&w=1000&x1r=0.01&x2r=0.68&y1r=0.01&y2r=0.69&s=2bfa28dd3bc3c596f573f1db47576979"
       }
     },
-    "v1|k salat bearnaisesauce|sauces": {
+    "v1|k salat bearnaisesauce|sauce_other": {
       "productNameZh": "贝阿恩酱",
       "descriptionZh": "贝阿恩酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
       "originalName": "K-SALAT Bearnaisesauce",
       "originalDescription": "325 g. Pr. kg 46,15",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7295,13 +7295,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBAa5mmo2%2Fp-38.webp&w=1000&x1r=0&x2r=0.48&y1r=0.49&y2r=0.72&s=0f34217284b46ac052aba82fa730e957"
       }
     },
-    "v1|k salat mayonnaise eller remoulade|sauces": {
+    "v1|k salat mayonnaise eller remoulade|sauce_mixed_offer": {
       "productNameZh": "蛋黄酱",
       "descriptionZh": "蛋黄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
       "originalName": "K-SALAT Mayonnaise eller remoulade",
       "originalDescription": "375 g. Pr. kg 40,00 Spot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7317,8 +7317,8 @@
       "productNameZh": "三明治夹馅沙拉",
       "descriptionZh": "丹麦三明治夹馅沙拉（pålægssalat），通常以蛋黄酱为基底，混合虾仁、火腿、鸡肉或蔬菜碎。直接厚抹在黑面包上做开口三明治。不同口味有虾、鸡蛋、火腿等。",
       "originalName": "K-Salat pålægssalat",
-      "originalDescription": "Flere varianter. 100-150 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
-      "categoryId": "frozen_ready",
+      "originalDescription": "100-150 g. Flere varianter. Pr. kg max. 140,-",
+      "categoryId": "deli_meat",
       "comparisonGroup": "deli_spreads",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -7511,13 +7511,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&w=1000&x1r=0.03&x2r=1&y1r=0&y2r=0.63&s=75fd860a983ac2c19a4b10381a14558b"
       }
     },
-    "v1|kanel eller wienerstang|biscuits": {
+    "v1|kanel eller wienerstang|sausage_frankfurter": {
       "productNameZh": "丹麦酥皮长条甜点",
       "descriptionZh": "丹麦酥皮长条甜点。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Kanel- eller wienerstang*",
       "originalDescription": "Stk-pris 39,00. Frit valg. 1 stk.",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7709,13 +7709,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&w=1000&x1r=0.322&x2r=0.655&y1r=0.236&y2r=0.72&s=ea3618a750739ca96af2e76bebcfef81"
       }
     },
-    "v1|kartoffelkroketter|potato_sides": {
+    "v1|kartoffelkroketter|potato_croquettes": {
       "productNameZh": "土豆可乐饼",
       "descriptionZh": "土豆可乐饼。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "Kartoffelkroketter",
       "originalDescription": "HARVEST BAKET Med fyld. 600 g. Pr. kg 31,67 Dybfrost Med Lidl Plus³",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_croquettes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7730,8 +7730,8 @@
     "v1|katjes slikpose|chocolate": {
       "productNameZh": "糖果",
       "descriptionZh": "糖果。巧克力、糖果或甜味棒，开袋即食；注意主要口味和单包/多包规格。",
-      "originalName": "Katjes slikpose*",
-      "originalDescription": "160-175 g. Kg-pris maks. 112,50. Frit valg. 1 pose",
+      "originalName": "Katjes slikpose",
+      "originalDescription": "75-80 g. Pr. kg max. 133,33 10:- SPOT",
       "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "authoredBy": "Codex",
@@ -7748,8 +7748,8 @@
     "v1|kellogg s morgenmad|cereal": {
       "productNameZh": "早餐谷物或燕麦",
       "descriptionZh": "早餐谷物或燕麦。麦片、燕麦或格兰诺拉，通常加牛奶/酸奶作早餐；类似中国即食燕麦或混合谷物麦片。",
-      "originalName": "Kellogg's morgenmad",
-      "originalDescription": "205-450 g Max. 121.95 pr. kg",
+      "originalName": "Kellogg's morgenmad*",
+      "originalDescription": "330-450 g. Kg-pris maks. 90,91. Frit valg. 1 pakke",
       "categoryId": "breakfast",
       "comparisonGroup": "cereal",
       "authoredBy": "Codex",
@@ -7785,7 +7785,7 @@
       "productNameZh": "西瓜",
       "descriptionZh": "西瓜。西瓜，通常切开直接吃；整颗价格还要结合重量和成熟度判断。",
       "originalName": "Kernefattig vandmelon",
-      "originalDescription": "Udenlandsk, kl. I. Stk.-pris 20,00. 1 stk.",
+      "originalDescription": "Udenlandsk, kl. I. Stk-pris 20,00. 1 stk.",
       "categoryId": "fruit",
       "comparisonGroup": "watermelon",
       "authoredBy": "Codex",
@@ -7817,13 +7817,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-12.webp&w=1000&x1r=0.021&x2r=0.444&y1r=0.685&y2r=0.997&s=fda8bc8d691b7e5ba02b3563cd7a6b33"
       }
     },
-    "v1|kikkoman soya sauce|sauces": {
+    "v1|kikkoman soya sauce|sauce_soy": {
       "productNameZh": "万字酱油",
       "descriptionZh": "Kikkoman（万字）日本酱油，和生抽类似但偏甜。可用做凉拌、蘸生鱼片、炒饭、照烧鸡腿。丹麦超市最常见的亚洲酱油。",
       "originalName": "Kikkoman soya sauce",
       "originalDescription": "500 ml. Literpris 100,00/ Kg-pris 132,16. 1 stk.",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_soy",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7874,8 +7874,8 @@
     "v1|kims chips limited edition|chips": {
       "productNameZh": "薯片或玉米脆片",
       "descriptionZh": "薯片或玉米脆片。咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
-      "originalName": "Kims chips - Limited edition*",
-      "originalDescription": "Flere varianter. 90-170 g. Kg-pris 106,67. Frit valg. 1 pose",
+      "originalName": "Kims chips - Limited Edition*",
+      "originalDescription": "Nyhed Flere varianter. 90-170 g. Kg-pris 106,67. Frit valg. 1 pose.",
       "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "authoredBy": "Codex",
@@ -7892,8 +7892,8 @@
     "v1|kims chips|chips": {
       "productNameZh": "薯片或玉米脆片",
       "descriptionZh": "薯片或玉米脆片。咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
-      "originalName": "KIMS Chips",
-      "originalDescription": "130-160 g. Pr. kg maks. 92,31 Spot¹",
+      "originalName": "Kims chips",
+      "originalDescription": "Flere varianter. 125-160 g. Kg-pris maks. 112,00. Frit valg. 1 pose. Begrænset parti.",
       "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "authoredBy": "Codex",
@@ -8267,13 +8267,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-1.webp&w=1000&x1r=0.38&x2r=0.97&y1r=0.03&y2r=0.24&s=2f87a66a58e2c2061e6b6db918cc5bb7"
       }
     },
-    "v1|kohberg hotdogbrod|bread": {
+    "v1|kohberg hotdogbrod|sausage_frankfurter": {
       "productNameZh": "热狗面包",
       "descriptionZh": "热狗面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "KOHBERG Hotdogbrød",
       "originalDescription": "360 g. Pr. kg 41,67. -24 %",
-      "categoryId": "bread_bakery",
-      "comparisonGroup": "bread",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8429,13 +8429,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-26.webp&w=1000&x1r=0.005&x2r=0.33&y1r=0.495&y2r=0.725&s=3c6b795594536550ff32f5ea012efcec"
       }
     },
-    "v1|kuljanka bockwurst|sausages": {
+    "v1|kuljanka bockwurst|sausage_other": {
       "productNameZh": "德式博克香肠",
       "descriptionZh": "德式博克香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "KULJANKA Bockwurst",
       "originalDescription": "1 kg. Pr. kg 55,00. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8447,13 +8447,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-25.webp&w=1000&x1r=0.65&x2r=0.98&y1r=0.18&y2r=0.49&s=b27b6871235f4f73b32a2fe12da704f1"
       }
     },
-    "v1|kuljanka bonner|canned": {
+    "v1|kuljanka bonner|canned_beans": {
       "productNameZh": "豆类罐头",
       "descriptionZh": "豆类罐头。罐头或常温包装食品，可快速做汤、炖菜、沙拉或配饭；类似中国常见豆类、番茄或鱼罐头。",
       "originalName": "KULJANKA Bønner",
       "originalDescription": "Spot¹ Dybfrost 450 g. Pr. kg 44,44",
-      "categoryId": "pantry",
-      "comparisonGroup": "canned",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_beans",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8501,13 +8501,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-28.webp&w=1000&x1r=0.35&x2r=0.66&y1r=0.04&y2r=0.28&s=7a4e3504eb24e55454c7f72594c0cdd5"
       }
     },
-    "v1|kuljanka farsbrod|prepared_meatballs": {
+    "v1|kuljanka farsbrod|prepared_mixed_meat": {
       "productNameZh": "肉糜烤肉卷",
       "descriptionZh": "肉糜烤肉卷。肉丸、肉饼或肉卷类，可煎、烤、炖或复热；购买时按原名确认肉种和是否已经熟制。",
       "originalName": "KULJANKA Farsbrød",
       "originalDescription": "500 g.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "prepared_meatballs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8560,7 +8560,7 @@
       "descriptionZh": "卷心菜沙拉。预制或切配沙拉，可直接食用或简单拌制；配料、酱汁和保鲜期以包装为准。",
       "originalName": "KULJANKA Hvidkålssalat",
       "originalDescription": "Spot¹ 410 g. Pr. kg 36,58",
-      "categoryId": "vegetables",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8591,13 +8591,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-26.webp&w=1000&x1r=0.33&x2r=0.655&y1r=0.495&y2r=0.725&s=2283e943089c37b3224aa4bb28e574f9"
       }
     },
-    "v1|kuljanka kindziuk skinke eller kabanossi|bacon_deli": {
+    "v1|kuljanka kindziuk skinke eller kabanossi|deli_mixed_offer": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "KULJANKA Kindziuk skinke eller kabanossi",
       "originalDescription": "100-120 g. Pr. kg maks. 150,00. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8663,13 +8663,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-26.webp&w=1000&x1r=0.005&x2r=0.51&y1r=0.048&y2r=0.485&s=f47c563f36b06e8a607267b08cb5aadd"
       }
     },
-    "v1|kuljanka polsk krakauerpolse|sausages": {
+    "v1|kuljanka polsk krakauerpolse|sausage_other": {
       "productNameZh": "中欧烟熏香肠",
       "descriptionZh": "中欧烟熏香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "KULJANKA Polsk krakauerpølse",
       "originalDescription": "80 g. Pr. kg 125,00. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8681,13 +8681,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-25.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.5&y2r=0.72&s=afa37216f3471e0e5e318d7df3651279"
       }
     },
-    "v1|kuljanka roget polsk polse|sausages": {
+    "v1|kuljanka roget polsk polse|sausage_other": {
       "productNameZh": "香肠",
       "descriptionZh": "香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。原名还显示：烟熏味。",
       "originalName": "KULJANKA Røget polsk pølse",
       "originalDescription": "230 g. Pr. kg 126,09. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8704,7 +8704,7 @@
       "descriptionZh": "德式酸菜。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "KULJANKA Sauerkraut",
       "originalDescription": "Spot¹ 800 g. Pr. kg 15,00",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8717,13 +8717,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-27.webp&w=1000&x1r=0.015&x2r=0.34&y1r=0.21&y2r=0.49&s=c06b1493dd80ca7097ddb520e06a7e2d"
       }
     },
-    "v1|kuljanka schlesiske polser|sausages": {
+    "v1|kuljanka schlesiske polser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "KULJANKA Schlesiske pølser",
       "originalDescription": "600 g. Pr. kg 81,67. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8753,13 +8753,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-28.webp&w=1000&x1r=0&x2r=0.35&y1r=0.032&y2r=0.28&s=25307185cbcc9fe7f43483c5b64ebdd5"
       }
     },
-    "v1|kuljanka skinke|bacon_deli": {
+    "v1|kuljanka skinke|deli_pork_sliced": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "KULJANKA Skinke",
       "originalDescription": "1 kg. Pr. kg 89,00. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8794,7 +8794,7 @@
       "descriptionZh": "黄瓜。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "KULJANKA Syltede agurker",
       "originalDescription": "Spot¹ 860 g. Pr. kg 13,95",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8861,13 +8861,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&w=1000&x1r=0.484&x2r=1&y1r=0.152&y2r=0.57&s=fae9701e23589263da6e8bb783f0cc6e"
       }
     },
-    "v1|kyllingepopcorn|chicken_breaded": {
+    "v1|kyllingepopcorn|prepared_chicken_breaded": {
       "productNameZh": "爆米花鸡块（裹粉小鸡块）",
       "descriptionZh": "爆米花鸡块，是一口大小的裹粉鸡肉块；这款配甜辣蘸酱，并由熟食柜热售。可直接食用或按门店说明复热，类似中国常见盐酥鸡块，不是玉米爆米花。",
       "originalName": "Kyllingepopcorn",
       "originalDescription": "Små panerede kyllingesnacks. Dyp dem i den medfølgende sweet chili sauce. Findes på Delikatessens varmeplade hver dag. Pr. bakke",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breaded",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8883,8 +8883,8 @@
       "productNameZh": "调味鸡肉串",
       "descriptionZh": "调味鸡肉串。鸡肉串，通常已经切块和调味，可煎、烤或烧烤；加热时应确保鸡肉中心熟透。",
       "originalName": "Kyllingespyd",
-      "originalDescription": "Dybfrost. 300 g. Kg-pris 83,33. Frit valg. 1 pakke.",
-      "categoryId": "chicken",
+      "originalDescription": "Dybfrost. 300 g. Kg-pris 93,33. Frit valg. 1 pakke.",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "chicken_skewers",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -8951,13 +8951,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-8.webp&w=1000&x1r=0.3&x2r=0.697&y1r=0.165&y2r=0.553&s=43e07f58f3e8f6e8a6cc9a8d4d6e3ae3"
       }
     },
-    "v1|la campagna pizzasauce|sauces": {
+    "v1|la campagna pizzasauce|sauce_pizza": {
       "productNameZh": "La Campagna 披萨酱",
       "descriptionZh": "意式披萨酱底，番茄和香草调味。直接涂在披萨饼底上，铺奶酪和配料进烤箱。",
       "originalName": "La Campagna pizzasauce",
       "originalDescription": "390 g. Pr. kg 17,15 Normalpris 13,39 Max. 6 stk. pr. kunde pr. dag til 6,69 SPAR 6,70",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_pizza",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8969,13 +8969,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-10.webp&w=1000&x1r=0.43&x2r=1&y1r=0.6&y2r=1&s=db5f52df54a320241b57cc966383020e"
       }
     },
-    "v1|la campagna spicy hummus|sauces": {
+    "v1|la campagna spicy hummus|sauce_dip": {
       "productNameZh": "La Campagna 辣味鹰嘴豆泥",
       "descriptionZh": "中东鹰嘴豆泥（hummus）加辣椒调味。蘸蔬菜条、皮塔饼或玉米片吃。",
       "originalName": "La Campagna spicy hummus",
       "originalDescription": "175 g. Pr. kg 57,14",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dip",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8987,13 +8987,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-3.webp&w=1000&x1r=0.734&x2r=0.967&y1r=0.468&y2r=0.714&s=6721a2a06da099e7ea90f172f126d0c9"
       }
     },
-    "v1|la campagna tomater harvest best bonner eller kikaerter|canned": {
+    "v1|la campagna tomater harvest best bonner eller kikaerter|canned_beans": {
       "productNameZh": "番茄",
       "descriptionZh": "番茄。罐头或常温包装食品，可快速做汤、炖菜、沙拉或配饭；类似中国常见豆类、番茄或鱼罐头。",
       "originalName": "La Campagna tomater, Harvest Best bønner eller kikærter",
       "originalDescription": "240-420 g. Pr. kg max. 20,83",
-      "categoryId": "pantry",
-      "comparisonGroup": "canned",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_beans",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9009,7 +9009,7 @@
       "productNameZh": "三文鱼柳",
       "descriptionZh": "三文鱼柳。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。",
       "originalName": "Laksestykke",
-      "originalDescription": "600 g. Pr. kg 165,-",
+      "originalDescription": "600 g. Pr. kg 181.67 Pr. stk.",
       "categoryId": "seafood",
       "comparisonGroup": "salmon_fresh",
       "authoredBy": "Codex",
@@ -9023,13 +9023,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&w=1000&x1r=0.275&x2r=0.985&y1r=0.265&y2r=0.715&s=b247e3b5f48d5197ddba267645b7d350"
       }
     },
-    "v1|lambi classic papir|paper": {
+    "v1|lambi classic papir|paper_mixed_offer": {
       "productNameZh": "纸品",
       "descriptionZh": "纸品。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Lambi Classic papir",
       "originalDescription": "4 rl. køkkenrulle eller 8 rl. toiletpapir. Pr. kg max. 39,26",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9041,13 +9041,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-1.webp&w=1000&x1r=0.03&x2r=0.39&y1r=0.23&y2r=0.45&s=67cc58379ba01cd494f8d2dd078501ae"
       }
     },
-    "v1|lambi premium toiletpapir kokkenrulle eller coop giant kokkenrulle|paper": {
+    "v1|lambi premium toiletpapir kokkenrulle eller coop giant kokkenrulle|paper_mixed_offer": {
       "productNameZh": "卫生纸",
       "descriptionZh": "卫生纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Lambi Premium toiletpapir/ køkkenrulle eller Coop giant køkkenrulle",
       "originalDescription": "484-745 g. Kg-pris maks. 26,77. Frit valg. 1 pakke/stk. Begrænset parti.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9059,13 +9059,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-7.webp&w=1000&x1r=0.01&x2r=0.98&y1r=0&y2r=0.52&s=c5b78f58425d0a230c703c6ab6d6c08c"
       }
     },
-    "v1|lange laender brunchpolser|sausages": {
+    "v1|lange laender brunchpolser|sausage_other": {
       "productNameZh": "香肠",
       "descriptionZh": "香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "LANGE LÆNDER Brunchpølser",
       "originalDescription": "300 g. Pr. kg 66,67 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9077,13 +9077,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-2.webp&w=1000&x1r=0.015&x2r=0.324&y1r=0.505&y2r=0.718&s=6c1f186b83f3ef86d43f7560c06ffdeb"
       }
     },
-    "v1|langelaender polser|sausages": {
+    "v1|langelaender polser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
-      "originalName": "LANGELÆNDER Pølser",
-      "originalDescription": "1220-1250 g. Pr. kg maks. 64,75. Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "originalName": "Langelænder pølser",
+      "originalDescription": "325-360 g. Flere varianter. Pr. kg max. 61.54\nFrit valg",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9206,8 +9206,8 @@
     "v1|liba fladbrod|bread": {
       "productNameZh": "扁面包",
       "descriptionZh": "扁面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
-      "originalName": "Liba fladbrød",
-      "originalDescription": "340 g. pr. kg 29,26",
+      "originalName": "LIBA Fladbrød",
+      "originalDescription": "340 g / pk. Pr. kg 29,26.",
       "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "authoredBy": "Codex",
@@ -9225,7 +9225,7 @@
       "productNameZh": "婴儿纸尿裤/拉拉裤",
       "descriptionZh": "婴儿纸尿裤/拉拉裤。婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
       "originalName": "Libero Comfort bleer*",
-      "originalDescription": "22-30 stk. Stk-pris maks. 2,28. Frit valg. 1 pakke.",
+      "originalDescription": "22-30 stk. Stk.pris maks. 2,28. Frit valg. 1 pakke.",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "authoredBy": "Codex",
@@ -9260,8 +9260,8 @@
     "v1|libero touch bleer|diapers": {
       "productNameZh": "婴儿纸尿裤/拉拉裤",
       "descriptionZh": "婴儿纸尿裤/拉拉裤。婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
-      "originalName": "Libero Touch bleer",
-      "originalDescription": "30-33 stk. Pr. stk. max. 2,63",
+      "originalName": "Libero touch bleer",
+      "originalDescription": "Flere varianter. 24-40 stk. Stk-pris maks. 3,71. Frit valg. 1 pk.",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "authoredBy": "Codex",
@@ -9419,13 +9419,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-15.webp&w=1000&x1r=0&x2r=0.55&y1r=0.735&y2r=0.97&s=fa07a963f05ca0c4e73fa8eca71842f3"
       }
     },
-    "v1|logismose pesto hummus eller haydari|sauces": {
+    "v1|logismose pesto hummus eller haydari|sauce_mixed_offer": {
       "productNameZh": "Løgismose 青酱/鹰嘴豆泥/土耳其酸奶酱",
       "descriptionZh": "青酱拌意面；鹰嘴豆泥蘸蔬菜；haydari 土耳其蒜味酸奶酱配烤肉。Løgismose 丹麦精品食材品牌。",
       "originalName": "Løgismose pesto, hummus eller haydari",
       "originalDescription": "150-200 g. Pr. kg max. 133,33",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9473,13 +9473,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-14.webp&w=1000&x1r=0.4939&x2r=1&y1r=0.1706&y2r=0.3995&s=faaf4b1eda8d114069fe4ae51a15a0d3"
       }
     },
-    "v1|lotus toiletpapir|paper": {
+    "v1|lotus toiletpapir|paper_toilet": {
       "productNameZh": "卫生纸",
       "descriptionZh": "卫生纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "LOTUS Toiletpapir",
       "originalDescription": "3-lags. 16 ruller. 1470 g. Pr. kg 26,51 Spot¹",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9549,7 +9549,7 @@
       "productNameZh": "婴儿纸尿裤/拉拉裤",
       "descriptionZh": "婴儿纸尿裤/拉拉裤。婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
       "originalName": "LUPILU Bleer",
-      "originalDescription": "Str. 3,4,5 eller 6. 64-92 stk. / pk. Pr. stk. maks. 1,25.",
+      "originalDescription": "Str. 3, 4, 5 eller 6. 64-92 stk. Pr. stk. maks. 1,25 Fast lav pris",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "authoredBy": "Codex",
@@ -9585,7 +9585,7 @@
       "productNameZh": "婴儿纸尿裤/拉拉裤",
       "descriptionZh": "婴儿纸尿裤/拉拉裤。婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
       "originalName": "LUPILU Buksebleer",
-      "originalDescription": "Str. 4, 5 eller 7. 36-44 stk. Pr. stk. maks. 1,50 Fast lav pris",
+      "originalDescription": "Gælder fra 8.5. Fast lav pris. Str. 4-7. 36-44 stk. / pk. Pr. stk. maks. 1,50.",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "authoredBy": "Codex",
@@ -9603,7 +9603,7 @@
       "productNameZh": "婴儿纸尿裤/拉拉裤",
       "descriptionZh": "婴儿纸尿裤/拉拉裤。婴儿纸尿裤或拉拉裤；购买时按体重、尺码和每片价格选择。",
       "originalName": "LUPILU Premium bleer",
-      "originalDescription": "Gælder fra 8.5. Fast lav pris. Str. 1. 24 stk. / pk. Pr. stk. 0,71.",
+      "originalDescription": "Str. 2. 42 stk. Pr. stk. 0,71 Fast lav pris",
       "categoryId": "baby",
       "comparisonGroup": "diapers",
       "authoredBy": "Codex",
@@ -9617,13 +9617,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-31.webp&w=1000&x1r=0.0074&x2r=0.4982&y1r=0.4658&y2r=0.7065&s=7de0efe031e81ae4f4fb6295aa7c0d78"
       }
     },
-    "v1|lupilu vaadservietter|paper": {
+    "v1|lupilu vaadservietter|paper_mixed_offer": {
       "productNameZh": "湿巾",
       "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "LUPILU Vådservietter",
-      "originalDescription": "Aloe vera eller sensitive. Plastikfri.72 stk. Pr. stk. 0,09",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "originalDescription": "Aloe vera eller sensitive. Plastikfri. 72 stk. Pr. stk. 0,09 Pris uden Lidl Plus 9,95 pr. pk. Med Lidl Plus³",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9656,8 +9656,8 @@
     "v1|lurpak smor eller smorbar|butter": {
       "productNameZh": "黄油或涂抹黄油",
       "descriptionZh": "黄油或涂抹黄油。黄油或可涂抹混合脂，适合抹面包、煎制和烘焙；类似中国常见有盐/无盐黄油。",
-      "originalName": "Lurpak smør eller smørbar",
-      "originalDescription": "200 g. Kg-pris 110,00. Frit valg. 1 pakke.",
+      "originalName": "LURPAK Smør eller smørbar",
+      "originalDescription": "200 g / stk. Pr. kg 99,75",
       "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "authoredBy": "Codex",
@@ -9855,7 +9855,7 @@
       "productNameZh": "丹麦 Danbo 奶酪",
       "descriptionZh": "丹麦 Danbo 奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MADVÆRKET Danbo",
-      "originalDescription": "Lagret 45+. 510-624 g / stk. Pr. kg maks. 97,94.",
+      "originalDescription": "Ekstra ekstralagret 45+. 486-594 g / stk. Pr. kg maks. 123,35.",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
@@ -9959,13 +9959,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-3.webp&w=1000&x1r=0.015&x2r=0.49&y1r=0.01&y2r=0.26&s=bd2cf394f4557f2d0388bb0a87222d4b"
       }
     },
-    "v1|madvaerket grillpolser|sausages": {
+    "v1|madvaerket grillpolser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "MADVÆRKET Grillpølser",
       "originalDescription": "Af gris eller kylling. 280-320 g. Pr. kg maks. 89,29. Vores Madværket ostegriller er udnævnt af Testkøkkenet som testvinder 2026.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10053,7 +10053,7 @@
       "productNameZh": "猪肉与小牛肉混合肉末",
       "descriptionZh": "猪肉与小牛肉混合肉末。猪牛混合肉末，油脂和风味比纯牛肉末更明显，适合肉丸、饺子馅或肉酱。",
       "originalName": "MADVÆRKET Hakket grise- og kalvekød",
-      "originalDescription": "8-12 % fedt. 800 g / pk. Pr. kg 56,19",
+      "originalDescription": "4-7 % eller 8-12 % fedt. 400-500 g / pk. Pr. kg maks. 74,88",
       "categoryId": "minced_meat",
       "comparisonGroup": "mixed_minced",
       "authoredBy": "Codex",
@@ -10071,7 +10071,7 @@
       "productNameZh": "猪肉末",
       "descriptionZh": "猪肉末。猪肉末，可做肉丸、饺子馅、麻婆豆腐肉末或肉酱。",
       "originalName": "MADVÆRKET Hakket grisekød",
-      "originalDescription": "8-12 % fedt. 800 g / pk. Pr. kg 47,44.",
+      "originalDescription": "8-12 % fedt. 500 g / pk. Pr. kg 49,90",
       "categoryId": "minced_meat",
       "comparisonGroup": "pork_minced",
       "authoredBy": "Codex",
@@ -10107,7 +10107,7 @@
       "productNameZh": "牛肉末",
       "descriptionZh": "牛肉末。牛肉末，可做肉末菜、汉堡肉、牛肉丸或番茄肉酱。",
       "originalName": "MADVÆRKET Hakket oksekød",
-      "originalDescription": "14-18 % fedt. 800 g / pk.",
+      "originalDescription": "8-12 % fedt. 400 g / pk. Pr. kg 99,88",
       "categoryId": "minced_meat",
       "comparisonGroup": "beef_minced",
       "authoredBy": "Codex",
@@ -10196,8 +10196,8 @@
     "v1|madvaerket kyllingebrystfilet|chicken_breast": {
       "productNameZh": "鸡胸肉",
       "descriptionZh": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
-      "originalName": "MADVÆRKET Kyllingebrystfilet",
-      "originalDescription": "450 g / pk. Pr. kg. 77,67.",
+      "originalName": "MADVÆRKET. Kyllingebrystfilet",
+      "originalDescription": "Uden vand. 650 g / pk. Pr. kg 83,00.",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "authoredBy": "Codex",
@@ -10215,7 +10215,7 @@
       "productNameZh": "鸡胸肉",
       "descriptionZh": "鸡胸肉。鸡胸或鸡里脊，脂肪少，适合切片炒、煎或做咖喱；类似中国去骨鸡胸。",
       "originalName": "MADVÆRKET Kyllingeinderfilet",
-      "originalDescription": "650 g / pk. Pr. kg 76,85.",
+      "originalDescription": "350 g / pk. Pr. kg 85,57.",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "authoredBy": "Codex",
@@ -10247,13 +10247,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&w=1000&x1r=0.0094&x2r=0.5218&y1r=0.4598&y2r=0.9461&s=2063f981fa34cba06c352962104695a2"
       }
     },
-    "v1|madvaerket medister|sausages": {
+    "v1|madvaerket medister|sausage_pork": {
       "productNameZh": "丹麦粗猪肉香肠",
       "descriptionZh": "丹麦粗猪肉香肠。丹麦肉肠，通常咸香且多为猪肉；可煎、烤或夹面包，类似中国烤肠，但一般不如台式香肠甜。",
       "originalName": "MADVÆRKET Medister",
       "originalDescription": "500 g / pk. Pr. kg 49,90",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_pork",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10287,7 +10287,7 @@
       "productNameZh": "丹麦冷甜酸奶汤",
       "descriptionZh": "丹麦冷甜酸奶汤。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MADVÆRKET Økologisk koldskål",
-      "originalDescription": "1 kg. Pr. kg 16,95 Fast lav pris",
+      "originalDescription": "Citron & vanilje",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -10427,13 +10427,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&w=1000&x1r=0.4934&x2r=0.9809&y1r=0.1033&y2r=0.4561&s=72f3993acaac880caae8b3dcb63bc798"
       }
     },
-    "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|bacon_deli": {
+    "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|deli_mixed_offer": {
       "productNameZh": "烟熏猪里脊冷切",
       "descriptionZh": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "MADVÆRKET Rullepølse, hamburgerryg eller sennepsskinke",
       "originalDescription": "80 g / pk. Pr. kg 186,88",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10467,7 +10467,7 @@
       "productNameZh": "冰岛酸奶原味或香草",
       "descriptionZh": "冰岛酸奶（Skyr），比普通酸奶更浓稠、蛋白质更高。原味拌蜂蜜水果当早餐；香草味直接吃。高蛋白低脂。",
       "originalName": "MADVÆRKET Skyr naturel eller vanilje",
-      "originalDescription": "1000 g / stk. Pr. kg 19,95",
+      "originalDescription": "1000 g. Pr. kg 19,95 Fast lav pris",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -10539,7 +10539,7 @@
       "productNameZh": "酸奶",
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MADVÆRKET Yoghurt naturel",
-      "originalDescription": "1,5-3,5 % fedt. 1000 g / stk.",
+      "originalDescription": "1,5-3,5 % fedt. 1000 g. Pr. kg 9,95 Fast lav pris",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -10683,7 +10683,7 @@
       "productNameZh": "玉米米饼",
       "descriptionZh": "玉米米饼。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Majskiks med smag*",
-      "originalDescription": "125 g. Kg-pris 96,00. Frit valg. 1 pakke",
+      "originalDescription": "125 g. Kg-pris 96,00. Frit valg. 1 pakke.",
       "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
@@ -10791,7 +10791,7 @@
       "productNameZh": "茅屋奶酪",
       "descriptionZh": "Mammen 茅屋奶酪，丹麦乳品老牌。颗粒分明，清爽低脂。直接抹面包或混入水果吃。",
       "originalName": "MAMMEN Hytteost",
-      "originalDescription": "1,5-4 % fedt. 450 g / stk. Pr. kg 37,67",
+      "originalDescription": "1,5-4 % fedt. 200 g / stk. Pr. kg 44,75",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
@@ -10917,7 +10917,7 @@
       "productNameZh": "芒果",
       "descriptionZh": "芒果。芒果，成熟后可直接吃、做甜品、果昔或沙拉；购买时注意软硬和成熟度。",
       "originalName": "Mango",
-      "originalDescription": "Udenlandsk, kl. I. Stk.-pris 10,00. 1 stk.",
+      "originalDescription": "Udenlandsk, kl. I. Stk-pris 10,00. 1 stk.",
       "categoryId": "fruit",
       "comparisonGroup": "mango",
       "authoredBy": "Codex",
@@ -11134,7 +11134,7 @@
       "descriptionZh": "菠萝。切配水果或水果拼盘，开盒即可食用；应注意组成、净重和较短的保鲜期。",
       "originalName": "Melonmix, frugtmix eller ananas i skiver",
       "originalDescription": "Pr. bakke. 500 g. Pr. kg 80,-",
-      "categoryId": "fruit",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_fruit",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11237,13 +11237,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fccca4105877525a33047132481c50961&w=1000&s=2d117c031e664b3be223b18d438763b4"
       }
     },
-    "v1|middagsfrikadeller eller mini kodboller|prepared_meatballs": {
+    "v1|middagsfrikadeller eller mini kodboller|prepared_mixed_meat": {
       "productNameZh": "丹麦肉丸饼",
       "descriptionZh": "丹麦肉丸饼。肉丸、肉饼或肉卷类，可煎、烤、炖或复热；购买时按原名确认肉种和是否已经熟制。",
       "originalName": "Middagsfrikadeller eller mini kødboller",
       "originalDescription": "500-600 g. Pr. kg max. 78.- Frit valg",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "prepared_meatballs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11529,7 +11529,7 @@
       "productNameZh": "MILBONA 茅屋奶酪",
       "descriptionZh": "茅屋奶酪，颗粒状、清爽低脂。混入水果蜂蜜当早餐；或拌入沙拉替代沙拉酱。健身人群高蛋白首选。",
       "originalName": "MILBONA Hytteost",
-      "originalDescription": "300 g / stk. Pr. kg 33,17",
+      "originalDescription": "200 g. Pr. kg 34,75 Fast lav pris",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_cottage_ricotta",
       "authoredBy": "Codex",
@@ -11547,7 +11547,7 @@
       "productNameZh": "巧克力牛奶",
       "descriptionZh": "巧克力牛奶。牛奶、可可奶或蛋白乳饮品；可直接饮用，也可搭配咖啡、麦片或用于烹饪。",
       "originalName": "MILBONA Kakaomælk",
-      "originalDescription": "1 liter / stk. Pr. liter 9,95.",
+      "originalDescription": "1 l. Pr. l 9,95 Fast lav pris",
       "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
       "authoredBy": "Codex",
@@ -11655,7 +11655,7 @@
       "productNameZh": "刨丝马苏里拉",
       "descriptionZh": "刨丝马苏里拉奶酪，做披萨用。均匀撒在披萨饼底上，烤箱高温烤至融化拉丝。也可撒在意面上焗烤。",
       "originalName": "MILBONA Revet mozzarella",
-      "originalDescription": "250 g / ps.",
+      "originalDescription": "500 g / ps. Pr. kg 59,90",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_grated",
       "authoredBy": "Codex",
@@ -11709,7 +11709,7 @@
       "productNameZh": "加工融化奶酪",
       "descriptionZh": "加工融化奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "MILBONA Smelteost i skiver",
-      "originalDescription": "200 g. Pr. kg 50,00 -28 ﹪ 13,95",
+      "originalDescription": "200 g. Pr. kg 50,00",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_sliced",
       "authoredBy": "Codex",
@@ -11726,8 +11726,8 @@
     "v1|milbona smoreost|cheese_spreadable": {
       "productNameZh": "涂抹奶酪",
       "descriptionZh": "涂抹奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
-      "originalName": "MILBONA Smøreost",
-      "originalDescription": "200 g / stk. Flere varianter.",
+      "originalName": "Milbona Smøreost",
+      "originalDescription": "150 g / stk.",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_spreadable",
       "authoredBy": "Codex",
@@ -11763,7 +11763,7 @@
       "productNameZh": "酸奶",
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA Tyrkisk-inspireret yoghurt",
-      "originalDescription": "10 % fedt. 1000 g. Pr. kg 24,95 Fast lav pris",
+      "originalDescription": "10 % fedt. 1000 g / stk. Pr. kg 24,95.",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -11921,13 +11921,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&w=1000&x1r=0.475&x2r=0.985&y1r=0.715&y2r=0.955&s=9abb29e39839750a3c1742a3ec34b9ce"
       }
     },
-    "v1|mutti tomater eller pizzasauce|sauces": {
+    "v1|mutti tomater eller pizzasauce|mixed_grocery_offer": {
       "productNameZh": "Mutti 番茄罐头或披萨酱",
       "descriptionZh": "Mutti 意大利 No.1 番茄品牌。去皮整番茄做意面酱底；披萨酱已调味直接涂饼底。意大利家庭厨房标配。",
       "originalName": "Mutti tomater eller pizzasauce",
       "originalDescription": "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "mixed_grocery_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11944,7 +11944,7 @@
       "descriptionZh": "番茄罐头。罐装番茄，可做番茄汤、意面酱、炖肉或火锅汤底；类似中国常见番茄罐头。",
       "originalName": "Mutti tomatkonserves",
       "originalDescription": "400 g. Kg-pris 25,00. Frit valg. 1 stk.",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "canned_tomatoes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -12195,7 +12195,7 @@
       "productNameZh": "油桃",
       "descriptionZh": "油桃。油桃，表皮光滑、果肉酸甜，可直接吃或切块拌酸奶；类似中国油桃。",
       "originalName": "Nektariner",
-      "originalDescription": "Klasse 1. Pr. stk. 2,00",
+      "originalDescription": "Klasse 1. 500 g. Pr. kg 20,00",
       "categoryId": "fruit",
       "comparisonGroup": "peaches_nectarines",
       "authoredBy": "Codex",
@@ -12245,13 +12245,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-7.webp&w=1000&x1r=0.632&x2r=0.963&y1r=0.293&y2r=0.428&s=98472bea28e14f0aea9bdf192240b60f"
       }
     },
-    "v1|nemt gront teriyaki sauce|sauces": {
+    "v1|nemt gront teriyaki sauce|sauce_teriyaki": {
       "productNameZh": "Nemt & Grønt 照烧酱",
       "descriptionZh": "日式照烧酱，甜咸口。淋在煎三文鱼或鸡腿肉上，或做照烧炒蔬菜。已调味，直接使用。",
       "originalName": "Nemt & Grønt Teriyaki sauce",
       "originalDescription": "40 g\n125.00 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_teriyaki",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -12556,7 +12556,7 @@
       "descriptionZh": "巴尔干烤椒酱。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "NOSTJA Ajvar",
       "originalDescription": "350 g. Pr. kg 42,86 Spot¹",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -12628,7 +12628,7 @@
       "descriptionZh": "巴尔干烤椒酱。腌菜、橄榄或蔬菜酱，可作开胃小菜、披萨配料或搭配肉类；类似中国泡菜、酸菜或罐装橄榄。",
       "originalName": "NOSTJA Pindur",
       "originalDescription": "540 g. Pr. kg 64,81 Spot¹",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -12735,7 +12735,7 @@
       "productNameZh": "新季小土豆",
       "descriptionZh": "新季小土豆。新鲜整颗土豆，可炒、炖、烤或做土豆泥；大、小、新土豆和烘烤用土豆不另拆类别，但口感仍应看具体品种。",
       "originalName": "Nye danske kartofler",
-      "originalDescription": "Klasse 1. 1,5 kg. Pr. kg 10,00",
+      "originalDescription": "Løsvægt. Danmark. Pr. kg 9.50 Pr. 100 g",
       "categoryId": "vegetables",
       "comparisonGroup": "potatoes_fresh",
       "authoredBy": "Codex",
@@ -12785,13 +12785,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-9.webp&w=1000&x1r=0&x2r=0.505&y1r=0.746&y2r=1&s=8afee2764307e75b8212dba90fbcb648"
       }
     },
-    "v1|odense marcipan dessert sauce|sauces": {
+    "v1|odense marcipan dessert sauce|sauce_other": {
       "productNameZh": "Odense Marcipan 甜点酱",
       "descriptionZh": "丹麦杏仁膏品牌出的甜点酱，巧克力或焦糖等口味。淋在冰淇淋、蛋糕或煎饼上。直接开瓶使用。",
       "originalName": "Odense Marcipan dessert sauce",
       "originalDescription": "175 g. Flere varianter. Pr. kg 142.86 Frit valg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -12875,13 +12875,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-9.webp&w=1000&x1r=0.56&x2r=0.97&y1r=0.73&y2r=0.91&s=ccfced4331b57938c7b2c129de25408e"
       }
     },
-    "v1|ogo okologiske polser|sausages": {
+    "v1|ogo okologiske polser|sausage_other": {
       "productNameZh": "有机香肠",
       "descriptionZh": "ØGO 有机香肠。煎或烤均可。有机猪肉制成，肉味纯，丹麦人常配土豆沙拉和芥末。",
       "originalName": "ØGO økologiske pølser",
       "originalDescription": "220-240 g. Pr. kg max. 136,36",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -12951,7 +12951,7 @@
       "productNameZh": "尖头卷心菜",
       "descriptionZh": "尖头卷心菜。卷心菜或甘蓝类，适合清炒、凉拌、炖煮或做卷菜；西兰花和花椰菜会另外分类。",
       "originalName": "Økologisk dansk spidskål",
-      "originalDescription": "Pr. stk. Danmark.",
+      "originalDescription": "salling ØKO Danmark. Pr. stk.",
       "categoryId": "vegetables",
       "comparisonGroup": "cabbage",
       "authoredBy": "Codex",
@@ -13109,13 +13109,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-27.webp&w=1000&x1r=0.496&x2r=0.756&y1r=0.04&y2r=0.25&s=36a11bb973562b9534ad4e29295ea63d"
       }
     },
-    "v1|okologiske polser|sausages": {
+    "v1|okologiske polser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "Økologiske pølser",
       "originalDescription": "200-240 g. Flere varianter. Pr. kg max. 175,-",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13275,7 +13275,7 @@
       "productNameZh": "早餐谷物",
       "descriptionZh": "早餐谷物。麦片、燕麦或格兰诺拉，通常加牛奶/酸奶作早餐；类似中国即食燕麦或混合谷物麦片。",
       "originalName": "OTA Solgryn",
-      "originalDescription": "700 g / pk. Pr. kg. 18,50.",
+      "originalDescription": "700 g. Pr. kg 18,50 Fast lav pris",
       "categoryId": "breakfast",
       "comparisonGroup": "cereal",
       "authoredBy": "Codex",
@@ -13311,7 +13311,7 @@
       "productNameZh": "面包",
       "descriptionZh": "面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Pågen brød",
-      "originalDescription": "420-900 g. Kg-pris maks. 33,33. Frit valg. 1 pakke",
+      "originalDescription": "420-900 g. Kg-pris maks. 52,38. Frit valg. 1 pakke",
       "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "authoredBy": "Codex",
@@ -13325,13 +13325,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fceb3384907316af131596f4716dab426&w=1000&s=1628d15405f69ad5d2c41c38569ed5ad"
       }
     },
-    "v1|paalaegsslagteren bacon i skiver|bacon_deli": {
+    "v1|paalaegsslagteren bacon i skiver|bacon_sliced": {
       "productNameZh": "培根片",
       "descriptionZh": "培根片。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "PÅLÆGSSLAGTEREN Bacon i skiver",
       "originalDescription": "2 x 150 g / pk. Pr. kg 66,50.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13343,13 +13343,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.4824&x2r=0.9295&y1r=0.0895&y2r=0.4573&s=e9294ef12c31b76eda03fb2bf1c1d304"
       }
     },
-    "v1|paalaegsslagteren baconleverpostej|bacon_deli": {
+    "v1|paalaegsslagteren baconleverpostej|liver_pate": {
       "productNameZh": "培根肝酱",
       "descriptionZh": "丹麦肝酱加培根碎。吃法：厚抹黑面包上，放几片腌甜菜根或煎蘑菇。冷吃或烤箱烤热至表面微焦。丹麦国民午餐。",
       "originalName": "PÅLÆGSSLAGTEREN Baconleverpostej",
       "originalDescription": "350 g / pk. Pr. kg. 34,14.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13361,13 +13361,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-13.webp&w=1000&x1r=0.0083&x2r=0.499&y1r=0.4662&y2r=0.7071&s=28814757f87a56527256dfc09c840e8a"
       }
     },
-    "v1|paalaegsslagteren bacontern|bacon_deli": {
+    "v1|paalaegsslagteren bacontern|bacon_pieces": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "PÅLÆGSSLAGTEREN Bacontern",
       "originalDescription": "2 x 100 g / pk. Pr. kg 64,75.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_pieces",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13379,13 +13379,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.0094&x2r=0.4651&y1r=0.0945&y2r=0.4623&s=3019b0017f780cfc3471a01d157ca96e"
       }
     },
-    "v1|paalaegsslagteren fransk leverpostej|bacon_deli": {
+    "v1|paalaegsslagteren fransk leverpostej|liver_pate": {
       "productNameZh": "法式肝酱",
       "descriptionZh": "法式风格肝酱，口感更细滑，通常有白兰地或香料调味。抹在烤面包片上直接吃，配一点酸黄瓜解腻。",
       "originalName": "PÅLÆGSSLAGTEREN Fransk leverpostej",
       "originalDescription": "200 g / pk. Pr. kg. 39,75",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13397,13 +13397,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-13.webp&w=1000&x1r=0.0068&x2r=0.4508&y1r=0.1256&y2r=0.4596&s=f273c36c4235c4656e2366873397ce52"
       }
     },
-    "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|bacon_deli": {
+    "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|sausage_mixed_offer": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "PÅLÆGSSLAGTEREN Grill- og pande-, wiener- eller hotdogpølser",
       "originalDescription": "500-550 g / pk. Pr. kg maks. 49,90.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13415,13 +13415,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.0156&x2r=0.5027&y1r=0.7122&y2r=0.9463&s=fad178afae5962da2a24b87aa9bcb86b"
       }
     },
-    "v1|paalaegsslagteren leverpostej|bacon_deli": {
+    "v1|paalaegsslagteren leverpostej|liver_pate": {
       "productNameZh": "丹麦肝酱",
       "descriptionZh": "丹麦肝酱（leverpostej），猪肝制成、口感细腻。厚抹黑面包上，放腌甜菜根、煎蘑菇和培根碎。冷吃或烤箱微烤表面。",
       "originalName": "PÅLÆGSSLAGTEREN Leverpostej",
-      "originalDescription": "500 g. Pr. kg 24,00 Med Lidl Plus³",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "originalDescription": "500 g / pk. Pr. kg. 27,90.",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13433,13 +13433,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-2.webp&w=1000&x1r=0.015&x2r=0.485&y1r=0.728&y2r=0.942&s=edd20f13cf84252013257579d764537b"
       }
     },
-    "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|bacon_deli": {
+    "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|deli_mixed_offer": {
       "productNameZh": "烟熏猪里脊冷切",
       "descriptionZh": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。原名还显示：烟熏味。",
       "originalName": "PÅLÆGSSLAGTEREN Rullepølse, hamburgerryg eller røget rullepølse",
       "originalDescription": "140-150 g / pk. Pr. kg maks. 99,64",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13451,13 +13451,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&w=1000&x1r=0.0209&x2r=0.6353&y1r=0.1167&y2r=0.4549&s=3be04f0260a1ec0d6ea4135fb6aac330"
       }
     },
-    "v1|paalaekker paalaeg baconleverpostej eller salami hapser|bacon_deli": {
+    "v1|paalaekker paalaeg baconleverpostej eller salami hapser|deli_mixed_offer": {
       "productNameZh": "培根肝酱或萨拉米小食",
       "descriptionZh": "培根肝酱抹面包吃；萨拉米小食（salami-hapser）是迷你萨拉米肠，直接当零食或配啤酒。丹麦冷切任选。",
       "originalName": "Pålækker pålæg, baconleverpostej eller salami-hapser",
       "originalDescription": "Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 15.95 pr. stk.\n50-200 g\nMax. 200.00 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13469,13 +13469,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-22.webp&w=1000&x1r=0.02&x2r=0.98&y1r=0.64&y2r=0.89&s=89957ea4266a9e62b9c3a151fc7c7606"
       }
     },
-    "v1|paalaekker paalaeg salami hapser eller tulip postej|bacon_deli": {
+    "v1|paalaekker paalaeg salami hapser eller tulip postej|deli_mixed_offer": {
       "productNameZh": "丹麦肝酱",
       "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Pålækker pålæg, salami-hapser eller Tulip postej",
       "originalDescription": "50-200 g. Flere varianter. Pr. kg max. 240,-",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13487,13 +13487,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&w=1000&x1r=0.69&x2r=0.99&y1r=0.01&y2r=0.27&s=cb4f38e2188240489775842b18914238"
       }
     },
-    "v1|paalaekker rullepolse eller hamburgerryg|bacon_deli": {
+    "v1|paalaekker rullepolse eller hamburgerryg|deli_mixed_offer": {
       "productNameZh": "烟熏猪里脊冷切",
       "descriptionZh": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Pålækker Rullepølse eller hamburgerryg",
       "originalDescription": "90 g / pk.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13563,7 +13563,7 @@
       "productNameZh": "火腿芝士帕尼尼",
       "descriptionZh": "火腿芝士帕尼尼（Panini med skinke og ost），意式热压三明治，内含火腿和芝士，用烤箱或帕尼尼机加热后外脆内软。",
       "originalName": "Panini med skinke og ost",
-      "originalDescription": "160 g. Pr. kg 62,50",
+      "originalDescription": "160 g. Pr. kg 62,50 Pris uden Lidl Plus 12,00 pr. stk. Med Lidl Plus³",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
       "authoredBy": "Codex",
@@ -13595,13 +13595,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&w=1000&x1r=0.347&x2r=0.651&y1r=0.063&y2r=0.325&s=06db48e9a7f84275d22506c107289e6f"
       }
     },
-    "v1|pastasauce majs eller kikaerte marked|pasta_noodles": {
+    "v1|pastasauce majs eller kikaerte marked|mixed_grocery_offer": {
       "productNameZh": "玉米",
       "descriptionZh": "玉米。意面、面条或粉丝，适合拌酱、炒面或煮汤；类似中国挂面、米粉或方便面。",
       "originalName": "Pastasauce, majs eller kikærte marked",
       "originalDescription": "340-450 g Dolmio, Salling Princip, Heinz, Mutti, Ben’s eller Urtekram sauce eller 280-420 g Bonduelle majs eller kikærter. Flere varianter. Pr. kg max. 85.71 Frit valg 24.- PLUS PRIS FRIT VALG 22.- Pr. kg max. 78.57 GÆLDER KUN MED BILKA PLUS APPEN",
       "categoryId": "rice_pasta",
-      "comparisonGroup": "pasta_noodles",
+      "comparisonGroup": "mixed_grocery_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13649,13 +13649,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-14.webp&w=1000&x1r=0.33&x2r=0.68&y1r=0.72&y2r=0.95&s=b711ebc984c651b287de1b649062c5c0"
       }
     },
-    "v1|peka flodekartofler|potato_sides": {
+    "v1|peka flodekartofler|potato_gratin": {
       "productNameZh": "奶油焗土豆",
       "descriptionZh": "奶油焗土豆。加工土豆配菜，如薯角、薯饼或焗土豆，通常需烤箱或空气炸锅加热。",
       "originalName": "Peka flødekartofler",
       "originalDescription": "700 g. Kg-pris 31,43. 1 stk.",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_gratin",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13667,13 +13667,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-19.webp&w=1000&x1r=0.353&x2r=0.701&y1r=0.686&y2r=0.962&s=04ea88780d8d7d6fe131ee5761850afb"
       }
     },
-    "v1|peka kartofler|potato_sides": {
+    "v1|peka kartofler|potato_mixed_offer": {
       "productNameZh": "新鲜土豆",
       "descriptionZh": "新鲜土豆。加工土豆配菜，如薯角、薯饼或焗土豆，通常需烤箱或空气炸锅加热。",
       "originalName": "Peka kartofler",
       "originalDescription": "a 450-700 g. Flere varianter. Pr. kg max. v/merkøb 44.44 2 pakker Pr. pk. op til 26,99",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13793,13 +13793,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-27.webp&w=1000&x1r=0.67&x2r=0.985&y1r=0.495&y2r=0.725&s=a74e496c1899772da891497704d7ae19"
       }
     },
-    "v1|piccardo savore ekstra jomfruolivenolie|oil_vinegar": {
+    "v1|piccardo savore ekstra jomfruolivenolie|oil_olive": {
       "productNameZh": "特级初榨橄榄油",
       "descriptionZh": "特级初榨橄榄油（ekstra jomfruolivenolie）。适合凉拌、蘸面包、淋在沙拉上。不适合高温爆炒（烟点低），中小火煎炒可以。",
       "originalName": "Piccardo & Savoré ekstra jomfruolivenolie",
       "originalDescription": "750 ml.\nPr. liter 92,00",
-      "categoryId": "pantry",
-      "comparisonGroup": "oil_vinegar",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13815,7 +13815,7 @@
       "productNameZh": "Pink Lady 苹果",
       "descriptionZh": "Pink Lady 苹果。苹果，可直接吃、烤制或做甜点；甜度、酸度和脆度取决于品种。",
       "originalName": "Pink Lady æbler",
-      "originalDescription": "Udenlandske, kl.I. 8 stk. Stk.-pris 2,50. 1 bakke.",
+      "originalDescription": "Udenlandske, kl.I. 8 stk. Stk-pris 2,50. 1 bakke",
       "categoryId": "fruit",
       "comparisonGroup": "apples",
       "authoredBy": "Codex",
@@ -13883,13 +13883,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&w=1000&x1r=0.01&x2r=0.68&y1r=0.01&y2r=0.66&s=a7e79153cf62cdb0b2d0b478ef1b4974"
       }
     },
-    "v1|polsemesteren hotdog eller grillpolser|sausages": {
+    "v1|polsemesteren hotdog eller grillpolser|sausage_mixed_offer": {
       "productNameZh": "热狗肠或烧烤肠",
       "descriptionZh": "热狗肠或烧烤肠。丹麦热狗（pølse）用水煮或煎热，夹面包加 remoulade 酱、脆洋葱、酸黄瓜。烧烤肠炭烤最香。",
       "originalName": "Pølsemesteren hotdog- eller grillpølser",
       "originalDescription": "450-500 g. Pr. kg max. 62,11",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14049,7 +14049,7 @@
       "productNameZh": "薯片或玉米脆片",
       "descriptionZh": "薯片或玉米脆片。咸味零食，开袋即食；类似中国薯片或玉米脆，注意口味和包装大小。",
       "originalName": "Pringles chips",
-      "originalDescription": "165 g.\nPr. kg 90,91",
+      "originalDescription": "160-165 g. Flere varianter. Pr. kg max. 93.75 FRIT VALG",
       "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "authoredBy": "Codex",
@@ -14139,7 +14139,7 @@
       "productNameZh": "奶酪",
       "descriptionZh": "奶酪。奶酪，可夹面包、焗烤、做披萨或沙拉；味道从清淡到浓郁，以原名品种为准。",
       "originalName": "Puck ost",
-      "originalDescription": "500 g. Pr. kg 60,- 30,- plus pris 25,- Pr. kg 50,- Gælder kun med føtex plus appen",
+      "originalDescription": "500 g. Pr. kg 40.- PR. STK.",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_other",
       "authoredBy": "Codex",
@@ -14243,13 +14243,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&w=1000&x1r=0.03&x2r=0.35&y1r=0.47&y2r=0.74&s=a3f2dcab3ae25da290e721a957be257b"
       }
     },
-    "v1|rema 1000 bolgeskaarne pommes frites|potato_sides": {
+    "v1|rema 1000 bolgeskaarne pommes frites|potato_fries": {
       "productNameZh": "冷冻薯条",
       "descriptionZh": "冷冻薯条。加工土豆配菜，如薯角、薯饼或焗土豆，通常需烤箱或空气炸锅加热。",
       "originalName": "REMA 1000 Bølgeskårne pommes frites",
       "originalDescription": "Dybfrost\n1000 g",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14319,7 +14319,7 @@
       "productNameZh": "鸡肉商品",
       "descriptionZh": "鸡肉商品。鸡肉商品；请按原名确认部位和是否熟制，可用于炒、炖、煎或烤。",
       "originalName": "REMA 1000 Dansk kylling",
-      "originalDescription": "Bedre Dyrevelfærd\n230-600 g\nMax. 126.09 pr. kg",
+      "originalDescription": "325-825 g\nMax. 89.23 pr. kg",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_other",
       "authoredBy": "Codex",
@@ -14464,7 +14464,7 @@
       "descriptionZh": "土豆沙拉。土豆，可炒土豆丝、炖肉、烤制或做土豆泥；丹麦品种有偏粉糯和偏蜡质两类。",
       "originalName": "REMA 1000 eller Flensted kartoffelsalat",
       "originalDescription": "800-1000 g Max. 25.00 pr. kg",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -14495,13 +14495,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&w=1000&x1r=0.515&x2r=0.958&y1r=0.475&y2r=0.73&s=20869424c3e47676b614680d69ea9e55"
       }
     },
-    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|bacon_deli": {
+    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|deli_mixed_offer": {
       "productNameZh": "丹麦脆皮烤猪肉块",
       "descriptionZh": "丹麦脆皮烤猪肉块。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。原名还显示：烧烤味。",
       "originalName": "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ",
       "originalDescription": "700-1200 g\nPr. stk.\nMax. 112.86 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14837,13 +14837,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-10.webp&w=1000&x1r=0.5&x2r=1&y1r=0.48&y2r=0.74&s=68e0afe85c04cf45fec6643026136dac"
       }
     },
-    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper": {
+    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_napkins": {
       "productNameZh": "餐巾纸",
       "descriptionZh": "餐巾纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "REMA 1000 Lommeletter med balsam eller ansigtsservietter",
       "originalDescription": "60-100 stk.\nNYHED\nMax. 0.08 pr. stk.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14981,13 +14981,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-19.webp&w=1000&x1r=0.039&x2r=0.388&y1r=0.247&y2r=0.524&s=8c5e73f456ab86f48ad3e69cad9d6cfe"
       }
     },
-    "v1|rema 1000 rod eller gron pesto|sauces": {
+    "v1|rema 1000 rod eller gron pesto|sauce_pesto": {
       "productNameZh": "REMA 1000 红或绿青酱",
       "descriptionZh": "红青酱（番茄干底）配意面和烤蔬菜；绿青酱（罗勒底）拌意面、抹三明治、做烤鸡蘸酱。冷藏即用，不用加热。",
       "originalName": "REMA 1000 Rød eller grøn pesto",
       "originalDescription": "130 g 53.85 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_pesto",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15053,13 +15053,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&w=1000&x1r=0.016&x2r=0.505&y1r=0.672&y2r=0.993&s=3031acd9743029c60e153fa22c167315"
       }
     },
-    "v1|rema 1000 saltkod|bacon_deli": {
+    "v1|rema 1000 saltkod|deli_pork_sliced": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "REMA 1000 Saltkød",
       "originalDescription": "100 g 150.00 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15179,13 +15179,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-10.webp&w=1000&x1r=0.44&x2r=0.99&y1r=0.01&y2r=0.69&s=c17804c9a644fbdecffdd6d5234ea906"
       }
     },
-    "v1|rema 1000 tomatpure eller pastasauce|pasta_noodles": {
+    "v1|rema 1000 tomatpure eller pastasauce|mixed_grocery_offer": {
       "productNameZh": "番茄膏或意面酱",
       "descriptionZh": "番茄膏或意面酱。意面、面条或粉丝，适合拌酱、炒面或煮汤；类似中国挂面、米粉或方便面。",
       "originalName": "REMA 1000 Tomatpuré eller pastasauce",
       "originalDescription": "Økologisk 200-400 g\nMax. 60.00 pr. kg",
       "categoryId": "rice_pasta",
-      "comparisonGroup": "pasta_noodles",
+      "comparisonGroup": "mixed_grocery_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15197,13 +15197,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-20.webp&w=1000&x1r=0.56&x2r=0.97&y1r=0.05&y2r=0.34&s=5f06a64b40de080753cad7d79b08e98d"
       }
     },
-    "v1|rema 1000 ultrasoft kokkenruller eller toiletpapir 4 lags|paper": {
+    "v1|rema 1000 ultrasoft kokkenruller eller toiletpapir 4 lags|paper_mixed_offer": {
       "productNameZh": "卫生纸",
       "descriptionZh": "卫生纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "REMA 1000 ultrasoft køkkenruller eller toiletpapir 4-lags",
       "originalDescription": "4 rl./740 g 6 rl./768 g\nMax. 27.03 pr. kg",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15251,13 +15251,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsouTv7Dv%2Fp-1.webp&w=1000&x1r=0&x2r=0.89&y1r=0.485&y2r=1&s=03d45343c01f8c87c389909e61cd27fb"
       }
     },
-    "v1|renova textil toiletpapir|paper": {
+    "v1|renova textil toiletpapir|paper_toilet": {
       "productNameZh": "卫生纸",
       "descriptionZh": "卫生纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Renova Textil toiletpapir",
       "originalDescription": "Renova textil toiletpapir er fremstillet af genanvendte tekstiler og andre naturlige fibre. Forvandler hverdagsskjorter og denim til blødt og stærkt toiletpapir. 6 rl. Pr. kg 35,56",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15760,7 +15760,7 @@
       "descriptionZh": "预制沙拉。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
       "originalName": "Salatbowls",
       "originalDescription": "Vores salatbowls indeholder sprøde elementer, farverige grøntsager og lækre toppings. Varmrøget laks, paneret kylling eller falafel.",
-      "categoryId": "vegetables",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -15827,13 +15827,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-2.webp&w=1000&x1r=0.025&x2r=0.26&y1r=0.395&y2r=0.715&s=20788326eedf79165b7b2f3d19163da5"
       }
     },
-    "v1|salling ketchup|sauces": {
+    "v1|salling ketchup|sauce_ketchup": {
       "productNameZh": "Salling 番茄酱",
       "descriptionZh": "Salling 自产番茄酱，标准酸甜口味。蘸薯条、热狗或做菜调味。比亨氏便宜，味道接近。",
       "originalName": "salling Ketchup",
       "originalDescription": "Mindre sukker 500-560 g. Konventionel eller uden tilsat sukker. Pr. kg max. 30,- Frit valg Avisen gælder hele juli måned side 13",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15899,13 +15899,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZARSfP-V%2Fp-4.webp&w=1000&x1r=0&x2r=0.493&y1r=0.091&y2r=0.571&s=f480d219a665b726d70fb00f71d95f9b"
       }
     },
-    "v1|salling princip brioche hotdogbrod pretzel style|bread": {
+    "v1|salling princip brioche hotdogbrod pretzel style|sausage_frankfurter": {
       "productNameZh": "热狗面包",
       "descriptionZh": "热狗面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Salling Princip brioche hotdogbrød pretzel style",
       "originalDescription": "400 g. Pr. kg 70,00",
-      "categoryId": "bread_bakery",
-      "comparisonGroup": "bread",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16025,13 +16025,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Ff0119a9f7d7fc2b0c15a617b626f9c11&w=1000&s=bd6fdbebb5aae637e39703f184673900"
       }
     },
-    "v1|santa maria bbq sauce|sauces": {
+    "v1|santa maria bbq sauce|sauce_bbq": {
       "productNameZh": "Santa Maria 烧烤酱",
       "descriptionZh": "美式烧烤酱，烟熏甜味。刷在烤肋排、烤鸡翅上；也可做汉堡酱底或蘸洋葱圈。丹麦 BBQ 季节标配。",
       "originalName": "SANTA MARIA BBQ-sauce",
       "originalDescription": "325-345 g. Pr. kg maks. 61,54\nSpot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_bbq",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16205,13 +16205,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-21.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.35&y2r=0.68&s=6788b58dbc55bec06b40eb863b4ebb40"
       }
     },
-    "v1|servietter|paper": {
+    "v1|servietter|paper_napkins": {
       "productNameZh": "餐巾纸",
       "descriptionZh": "餐巾纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Servietter",
       "originalDescription": "20 stk. 33x33 cm. Flere varianter.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16385,13 +16385,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb66ef64afbf88967c32a0f70a12fc2fd&w=1000&s=13c7195d53d8b6f349d37d53a427c9da"
       }
     },
-    "v1|slagter lampe frankfurter|sausages": {
+    "v1|slagter lampe frankfurter|sausage_frankfurter": {
       "productNameZh": "法兰克福香肠",
       "descriptionZh": "法兰克福香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "SLAGTER LAMPE Frankfurter",
       "originalDescription": "300-320 g. Pr. kg maks. 96,67 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16403,13 +16403,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-4.webp&w=1000&x1r=0.52&x2r=0.98&y1r=0.075&y2r=0.495&s=b34205daa9eb9cc20e5d06b457583a43"
       }
     },
-    "v1|slagter lampe polser|sausages": {
+    "v1|slagter lampe polser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "Slagter Lampe Pølser",
       "originalDescription": "320 g 62.50 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16439,13 +16439,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&w=1000&x1r=0&x2r=0.649&y1r=0&y2r=0.369&s=3761e22a7a08908abb0ed9b199be7d23"
       }
     },
-    "v1|slagtermester andersen stor leverpostej|bacon_deli": {
+    "v1|slagtermester andersen stor leverpostej|liver_pate": {
       "productNameZh": "大号丹麦肝酱",
       "descriptionZh": "丹麦传统肝酱，大包装家庭装。厚抹黑面包吃，经典搭配：腌甜菜根 + 煎蘑菇 + 培根碎。可冷食或烤箱加热。",
       "originalName": "Slagtermester Andersen Stor leverpostej",
       "originalDescription": "400 g 30.00 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16533,7 +16533,7 @@
       "productNameZh": "丹麦黑麦面包",
       "descriptionZh": "丹麦黑麦面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Softkernerugbrød",
-      "originalDescription": "Pr. stk.",
+      "originalDescription": "Pris ved køb af 10 friskbagte rundstykker Max 3 stk. til denne pris. Pr. stk.",
       "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "authoredBy": "Codex",
@@ -16547,13 +16547,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-36.webp&w=1000&x1r=0.142&x2r=0.392&y1r=0.79&y2r=0.956&s=9741f2ce8feaffaab26dd44ada74f43f"
       }
     },
-    "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_mixed_offer": {
+    "v1|sol mar blaeksprutteringe eller chorizo kroketter|sausage_chorizo": {
       "productNameZh": "鱿鱼圈或西班牙辣肠炸丸子",
       "descriptionZh": "裹粉鱿鱼圈或西班牙辣肠炸丸子（chorizo-kroketter）。油炸或空气炸锅加热至金黄酥脆，蘸蒜泥蛋黄酱（aioli）或番茄酱。西班牙经典下酒菜。",
       "originalName": "SOL&MAR Blæksprutteringe eller chorizo-kroketter",
       "originalDescription": "500 g. Pr. kg 50,00 Spot¹",
-      "categoryId": "seafood",
-      "comparisonGroup": "seafood_mixed_offer",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16565,13 +16565,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-9.webp&w=1000&x1r=0.012&x2r=0.655&y1r=0.496&y2r=0.709&s=c93c484c26b178aae52cb4d31ef51ff6"
       }
     },
-    "v1|sol mar chorizo grillpolser|sausages": {
+    "v1|sol mar chorizo grillpolser|sausage_chorizo": {
       "productNameZh": "西班牙辣味香肠",
       "descriptionZh": "西班牙辣味香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "SOL&MAR Chorizo-grillpølser",
       "originalDescription": "300 g. Pr. kg 100,00 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16583,13 +16583,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-9.webp&w=1000&x1r=0.012&x2r=0.355&y1r=0.716&y2r=0.939&s=acebf4e47265f93c58feac061ee24687"
       }
     },
-    "v1|sol mar chorizo sarta eller serrano|bacon_deli": {
+    "v1|sol mar chorizo sarta eller serrano|deli_mixed_offer": {
       "productNameZh": "西班牙辣味香肠",
       "descriptionZh": "西班牙辣味香肠。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "SOL&MAR Chorizo sarta eller serrano",
       "originalDescription": "80-200 g. Pr. kg maks. 250,00 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16799,13 +16799,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-10.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.72&y2r=0.94&s=931b9d10df7b02f3b7d53268d91f5334"
       }
     },
-    "v1|sol mar piri piri sauce|sauces": {
+    "v1|sol mar piri piri sauce|sauce_chili": {
       "productNameZh": "SOL&MAR Piri-Piri 辣酱",
       "descriptionZh": "Piri-piri 葡萄牙/非洲风味辣椒酱，带蒜和柠檬味。刷烤鸡上做葡式烤鸡。",
       "originalName": "SOL&MAR Piri piri-sauce",
       "originalDescription": "195 ml. Pr. l 30,77 Spot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_chili",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16817,13 +16817,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-8.webp&w=1000&x1r=0.04&x2r=0.33&y1r=0.51&y2r=0.72&s=09711013570d2ecce2818b0ee3fc1240"
       }
     },
-    "v1|sol mar serranoskinke|bacon_deli": {
+    "v1|sol mar serranoskinke|deli_cured_sliced": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "SOL&MAR Serranoskinke",
       "originalDescription": "240 g. Pr. kg 187,50 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_cured_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16835,13 +16835,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-8.webp&w=1000&x1r=0.515&x2r=0.985&y1r=0.24&y2r=0.5&s=10fa1194961af2ab9cdb9d490aa5e1d9"
       }
     },
-    "v1|sol mar skinke i skiver|bacon_deli": {
+    "v1|sol mar skinke i skiver|deli_pork_sliced": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "SOL&MAR Skinke i skiver",
       "originalDescription": "150 g. Pr. kg 166,67 Spot¹",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16853,13 +16853,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-8.webp&w=1000&x1r=0.015&x2r=0.505&y1r=0.24&y2r=0.5&s=cd1ace2c76b0d69d2ed835187d6cb7e0"
       }
     },
-    "v1|sol mar spansk ekstra jomfruolivenolie|oil_vinegar": {
+    "v1|sol mar spansk ekstra jomfruolivenolie|oil_olive": {
       "productNameZh": "西班牙特级初榨橄榄油",
       "descriptionZh": "西班牙特级初榨橄榄油。果香明显，蘸面包、拌沙拉、淋意面均佳。不要大火爆炒，中小火煎可以。",
       "originalName": "SOL&MAR Spansk ekstra jomfruolivenolie",
       "originalDescription": "750 ml.\nPr. l 78,67\nSpot¹",
-      "categoryId": "pantry",
-      "comparisonGroup": "oil_vinegar",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16947,7 +16947,7 @@
       "productNameZh": "丹麦脆小饼干",
       "descriptionZh": "丹麦脆小饼干。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "SONDEY Kammerjunkere",
-      "originalDescription": "300 g. Pr. kg 23,16",
+      "originalDescription": "Vores Sondey kammerjunkere er udnævnt som testvinder 2025 af B.T.",
       "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
@@ -17123,13 +17123,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-5.webp&w=1000&x1r=0&x2r=0.499&y1r=0.728&y2r=1&s=cdc82fb03c710db6896dff31050686b9"
       }
     },
-    "v1|steff houlberg brunchpolser eller bacon i skiver|pork_mixed_offer": {
+    "v1|steff houlberg brunchpolser eller bacon i skiver|sausage_mixed_offer": {
       "productNameZh": "培根片",
       "descriptionZh": "培根片。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
       "originalName": "Steff Houlberg Brunchpølser eller bacon i skiver",
       "originalDescription": "300-350 g Partivare. Max. 66.67 pr. kg",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17159,13 +17159,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-48.webp&w=1000&x1r=0.274&x2r=0.725&y1r=0.245&y2r=0.713&s=6e994f5bbe26f3549fd756e128a8e2dc"
       }
     },
-    "v1|steff houlberg hotdog grill eller bayerske polser|sausages": {
+    "v1|steff houlberg hotdog grill eller bayerske polser|sausage_frankfurter": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "STEFF HOULBERG Hotdog-, grill- eller bayerske pølser",
       "originalDescription": "375-400 g / pk. Pr. kg maks. 66,53.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17177,13 +17177,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-11.webp&w=1000&x1r=0.4965&x2r=0.9955&y1r=0.7104&y2r=0.9463&s=61c53bdb2d537b726a859e0dda7271c6"
       }
     },
-    "v1|steff houlberg polser|sausages": {
+    "v1|steff houlberg polser|sausage_other": {
       "productNameZh": "Steff Houlberg 香肠",
       "descriptionZh": "Steff Houlberg 品牌烧烤肠。煎、烤或水煮后夹热狗面包，挤番茄酱、芥末和脆洋葱碎，就是丹麦经典 hotdog。",
       "originalName": "Steff Houlberg pølser*",
-      "originalDescription": "700-875 g. Kg-pris maks. 70,00. Frit valg. 1 pakke",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "originalDescription": "700-875 g. Kg-pris maks. 70,00. Frit valg. 1 pakke. Stor pakke",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17195,13 +17195,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7529a1298a97788cb870b8b41d8274d7&w=1000&s=dda0128f996ba4e1d6aa5bbd01b39271"
       }
     },
-    "v1|steff houlberg skinkestrimler|bacon_deli": {
+    "v1|steff houlberg skinkestrimler|deli_pork_sliced": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Steff Houlberg skinkestrimler",
-      "originalDescription": "175 g. Kg-pris 91,43. 1 pakke.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "originalDescription": "175 g. Kg-pris 91,43. 1 pakke",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17285,13 +17285,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&w=1000&x1r=0.65&x2r=0.98&y1r=0.47&y2r=0.74&s=715cf5ee3bf659557e0dbb3ec8673934"
       }
     },
-    "v1|stryhn s leverpostej|bacon_deli": {
+    "v1|stryhn s leverpostej|liver_pate": {
       "productNameZh": "Stryhn's 丹麦肝酱",
       "descriptionZh": "Stryhn's 是丹麦最经典的肝酱品牌。细腻绵密口感，直接抹面包。烤箱加热后表面微焦更香。丹麦人几乎每天都吃。",
       "originalName": "STRYHN’S Leverpostej",
-      "originalDescription": "Grovhakket eller fransk. 200 g / pk. Pr. kg. 64,75",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "originalDescription": "Grovhakket eller fransk. 400 g / pk. Pr. kg. 59,88",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17303,13 +17303,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-13.webp&w=1000&x1r=0.0128&x2r=0.5039&y1r=0.7107&y2r=0.9463&s=87a4cf0ab208c83ff956d2fabadc094c"
       }
     },
-    "v1|stryhns leverpostej|bacon_deli": {
+    "v1|stryhns leverpostej|liver_pate": {
       "productNameZh": "Stryhns 肝酱",
       "descriptionZh": "Stryhns 肝酱，丹麦国民品牌。抹黑面包，配腌甜菜根吃。可在上面放煎蘑菇和培根碎提升口感。",
       "originalName": "Stryhns leverpostej",
-      "originalDescription": "275 g. Kg-pris 58,18. Frit valg. 1 stk.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "originalDescription": "400 g. Kg-pris 55,00. Frit valg. 1 stk.",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17321,13 +17321,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-11.webp&w=1000&x1r=0.038&x2r=0.49&y1r=0.083&y2r=0.334&s=e25c7f831ecc524ce4cb7bc8b28268ce"
       }
     },
-    "v1|stryhns postej eller roget medister|pork_mixed_offer": {
+    "v1|stryhns postej eller roget medister|liver_pate": {
       "productNameZh": "丹麦肝酱",
       "descriptionZh": "丹麦肝酱。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：烟熏味。",
       "originalName": "Stryhns postej eller røget medister",
       "originalDescription": "275-400 g. Flere varianter. Pr. kg max. 80,-",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17339,13 +17339,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-22.webp&w=1000&x1r=0.01&x2r=0.3&y1r=0.67&y2r=0.96&s=b2e04f48a5d21f001341c93e2a949b3b"
       }
     },
-    "v1|stryhns postej|bacon_deli": {
+    "v1|stryhns postej|liver_pate": {
       "productNameZh": "丹麦肝酱",
       "descriptionZh": "丹麦肝酱。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Stryhns postej",
       "originalDescription": "275-400 g. Pr. kg max. 80,00",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17447,13 +17447,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-4.webp&w=1000&x1r=0.5&x2r=0.99&y1r=0.01&y2r=0.49&s=b30190721b7f0ccf5b879afba4093314"
       }
     },
-    "v1|svanso dressing aioli eller pesto|sauces": {
+    "v1|svanso dressing aioli eller pesto|sauce_mixed_offer": {
       "productNameZh": "Svansø 沙拉酱/蒜泥蛋黄酱/青酱",
       "descriptionZh": "丹麦餐饮酱料品牌。沙拉酱拌生菜；aioli（蒜泥蛋黄酱）蘸薯条海鲜；pesto（青酱）拌意面。酒店餐厅常用。",
       "originalName": "Svansø dressing, aioli eller pesto",
       "originalDescription": "300 ml/130-320 g\nPartivare. 53.33 pr. liter/Max. 123.08 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17465,13 +17465,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-5.webp&w=1000&x1r=0.036&x2r=0.475&y1r=0.722&y2r=0.991&s=5c410c6f4a1a00065f9fb30964ffe668"
       }
     },
-    "v1|svanso sauce mayo eller dressing|sauces": {
+    "v1|svanso sauce mayo eller dressing|sauce_mixed_offer": {
       "productNameZh": "Svansø 酱料/蛋黄酱/沙拉酱",
       "descriptionZh": "Svansø 多种酱料任选。蛋黄酱拌沙拉抹三明治；沙拉酱做生菜沙拉。丹麦餐饮渠道品牌，品质高于超市自有。",
       "originalName": "Svansø sauce, mayo eller dressing",
       "originalDescription": "210-400 g Partivare. Max. 71.43 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17501,13 +17501,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-3.webp&w=1000&x1r=0.48&x2r=1&y1r=0.495&y2r=0.715&s=16468824e2c4feb0343e1cd0efabec2f"
       }
     },
-    "v1|sweet baby ray s bbq sauce|sauces": {
+    "v1|sweet baby ray s bbq sauce|sauce_bbq": {
       "productNameZh": "Sweet Baby Ray's 烧烤酱",
       "descriptionZh": "美国 No.1 烧烤酱，甜味突出烟熏味适中。刷烤肋排、蘸炸鸡。",
       "originalName": "Sweet Baby Ray's BBQ-sauce",
       "originalDescription": "510 g Partivare. 58.82 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_bbq",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17591,13 +17591,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-14.webp&w=1000&x1r=0.3346&x2r=1&y1r=0.6865&y2r=0.9654&s=f2ccd93f76aa6f17cb381c57c26a3ffe"
       }
     },
-    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_deli": {
+    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_sliced": {
       "productNameZh": "培根片",
       "descriptionZh": "培根片。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Taga bacondadler, fuet snack sticks eller skiver",
       "originalDescription": "60-75 g Max. 250.00 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17609,13 +17609,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-9.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.468&y2r=0.735&s=5dbde2036e70ac59cd9b853c0ffd8e79"
       }
     },
-    "v1|taga chorizo eller casa modena salsiccia|sausages": {
+    "v1|taga chorizo eller casa modena salsiccia|sausage_chorizo": {
       "productNameZh": "西班牙辣味香肠",
       "descriptionZh": "西班牙辣味香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "Taga chorizo eller Casa Modena salsiccia",
       "originalDescription": "200 g 100.00 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17627,13 +17627,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FgWY3dd9p%2Fp-4.webp&w=1000&x1r=0.02&x2r=0.485&y1r=0.729&y2r=0.992&s=99c8cdf363b97548c77bc0b59da7b217"
       }
     },
-    "v1|taga serrano|bacon_deli": {
+    "v1|taga serrano|deli_cured_sliced": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Taga serrano",
       "originalDescription": "60 g 166.67 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_cured_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17739,7 +17739,7 @@
       "productNameZh": "Burrata 或马苏里拉",
       "descriptionZh": "Burrata 是马苏里拉的升级版，外层是奶酪皮，内芯是奶油和奶酪丝。整个放在沙拉上切开让奶油流出；或配烤番茄和面包。",
       "originalName": "Thise økologisk burrata eller mozzarella*",
-      "originalDescription": "100-125 g. Kg-pris 240,00. Frit valg. 1 stk.",
+      "originalDescription": "Thise mozzarella og burrata er produceret efter italiensk håndværk og af økologisk jerseymælk fra Thises landmænd i skøn forening. 100-125 g. Kg-pris 240,00. Frit valg. 1 stk.",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_mozzarella_burrata",
       "authoredBy": "Codex",
@@ -17829,7 +17829,7 @@
       "productNameZh": "Thise 有机切片奶酪",
       "descriptionZh": "Thise 有机半硬质奶酪。可夹三明治或切块当零食直接吃。丹麦人早餐通常放面包上。",
       "originalName": "Thise økologisk skæreost",
-      "originalDescription": "Flere varianter. Min. 432 g. Kg-pris maks. 104,17. Frit valg. 1 stk.",
+      "originalDescription": "Flere varianter. Min. 432 g. Kg-pris maks. 127,31. Frit valg. 1 stk.",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_danish_table",
       "authoredBy": "Codex",
@@ -17918,8 +17918,8 @@
     "v1|to go marked|ready_meal": {
       "productNameZh": "即取即走方便食品",
       "descriptionZh": "即取即走方便食品（To-go marked），超市冷藏柜中的快手餐食或小食，加热或直接食用。",
-      "originalName": "To-go marked",
-      "originalDescription": "27-150 g/180-250 ml. Flere varianter. Pr. kg max. 222,22 /pr. liter max. 33,33",
+      "originalName": "To go marked",
+      "originalDescription": "27-150 g/180-250 ml. Flere varianter. Pr. kg max. 222.22 /pr. liter max. 33.33 Frit valg",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
       "authoredBy": "Codex",
@@ -18009,7 +18009,7 @@
       "productNameZh": "丹麦开放式三明治",
       "descriptionZh": "丹麦开放式三明治，在一片面包上放肉、鱼、蛋或沙拉等配料，通常作为午餐直接食用；名称中的 smørrebrød 不是黄油商品。",
       "originalName": "Torsdagssmørrebrød",
-      "originalDescription": "TORSDAG Flere varianter. Stk.-pris 29,00. Frit valg. 1 stk. Udvalget kan variere fra butik til butik.",
+      "originalDescription": "Flere varianter. Stk-pris 29,00. Frit valg. 1 stk.",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
       "authoredBy": "Codex",
@@ -18095,13 +18095,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-14.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.458&y2r=0.74&s=2e89022844cca1e249b6eef49afcd153"
       }
     },
-    "v1|tulip bacon i skiver eller tern|bacon_deli": {
+    "v1|tulip bacon i skiver eller tern|bacon_mixed_offer": {
       "productNameZh": "培根片",
       "descriptionZh": "培根片。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "TULIP Bacon i skiver eller tern",
       "originalDescription": "300 g. Pr. kg 66,67 Maks. 6 pk. pr. kunde pr. dag. Spot¹ 3-pak 2-pak",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18113,13 +18113,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-1.webp&w=1000&x1r=0.65&x2r=0.99&y1r=0.18&y2r=0.72&s=4f248bd2a6f8d52646dfa571566def29"
       }
     },
-    "v1|tulip bacon|bacon_deli": {
+    "v1|tulip bacon|bacon_mixed_offer": {
       "productNameZh": "培根",
       "descriptionZh": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Tulip bacon",
       "originalDescription": "300 g. Skiver eller tern. Pr. kg 106.67 Frit valg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18131,13 +18131,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&w=1000&x1r=0.344&x2r=0.638&y1r=0.046&y2r=0.329&s=9e05ac48ee5ba9adf5259f51924b1e59"
       }
     },
-    "v1|tulip baconleverpostej|bacon_deli": {
+    "v1|tulip baconleverpostej|liver_pate": {
       "productNameZh": "Tulip 培根肝酱",
       "descriptionZh": "Tulip 培根肝酱，加培根碎的口感更丰富。厚抹黑面包上，放腌甜菜根吃。加热后培根碎更香脆。",
       "originalName": "TULIP Baconleverpostej",
       "originalDescription": "200 g / pk. Pr. kg 49,75.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18149,13 +18149,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-13.webp&w=1000&x1r=0.4999&x2r=0.987&y1r=0.4675&y2r=0.7083&s=88b54bdde7f40a9657bdd99b97511c66"
       }
     },
-    "v1|tulip frankfurtere|sausages": {
+    "v1|tulip frankfurtere|sausage_frankfurter": {
       "productNameZh": "法兰克福香肠",
       "descriptionZh": "法兰克福香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "Tulip frankfurtere",
       "originalDescription": "320 g Ved køb af flere end 6 stk. pr. variant pr. dag er prisen 25.00 pr. stk. Partivare. 46.88 pr. kg",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18203,13 +18203,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&w=1000&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992&s=94725ef5a390e8b4fe878cff8de5b62a"
       }
     },
-    "v1|tulip skiveskaaret bacon|bacon_deli": {
+    "v1|tulip skiveskaaret bacon|bacon_sliced": {
       "productNameZh": "培根",
       "descriptionZh": "培根。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "TULIP Skiveskåret bacon",
       "originalDescription": "3 x 125 g / pk. Pr. kg 93,20.",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18297,7 +18297,7 @@
       "productNameZh": "鸡大腿肉",
       "descriptionZh": "鸡大腿肉。鸡腿部位，肉嫩多汁，适合红烧、炖煮、烤或空气炸；类似中国常见鸡腿肉。",
       "originalName": "Udbenede kyllingeoverlår",
-      "originalDescription": "400 g. Pr. kg 75,-",
+      "originalDescription": "1,2 kg. Pr. kg 70.83\nPr. bakke",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_thigh",
       "authoredBy": "Codex",
@@ -18329,13 +18329,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-10.webp&w=1000&x1r=0&x2r=0.5&y1r=0.47&y2r=1&s=b360043beb30cf0834314fd147db0156"
       }
     },
-    "v1|vaadservietter|paper": {
+    "v1|vaadservietter|paper_mixed_offer": {
       "productNameZh": "湿巾",
       "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Vådservietter",
       "originalDescription": "16 pakker a 100 stk. Pr. stk. 1.49\nPr. kasse",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18725,13 +18725,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-26.webp&w=1000&x1r=0.05&x2r=0.44&y1r=0.575&y2r=0.765&s=e8ac685bc8198c1aa3751ab9e3804f8b"
       }
     },
-    "v1|windsor monstrede servietter|paper": {
+    "v1|windsor monstrede servietter|paper_napkins": {
       "productNameZh": "餐巾纸",
       "descriptionZh": "餐巾纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
       "originalName": "Windsor mønstrede servietter",
       "originalDescription": "20 stk. 33x33 cm. Flere varianter.",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18743,13 +18743,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-8.webp&w=1000&x1r=0.222&x2r=0.5&y1r=0.24&y2r=0.58&s=450e848ccf41f412e872e2b778b83914"
       }
     },
-    "v1|xtra bacontern|bacon_deli": {
+    "v1|xtra bacontern|bacon_pieces": {
       "productNameZh": "肉类冷切",
       "descriptionZh": "肉类冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Xtra! bacontern",
       "originalDescription": "200 g. Kg-pris 64,75 1 pakke. Fast lav pris Før 14,95",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_pieces",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18779,13 +18779,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F3b3b20aa0f577cfd3b6b1bf356070cf3&w=1000&s=45a085f0f222b886f09ae29453210e89"
       }
     },
-    "v1|xtra hamburgerryg|bacon_deli": {
+    "v1|xtra hamburgerryg|deli_pork_sliced": {
       "productNameZh": "烟熏猪里脊冷切",
       "descriptionZh": "烟熏猪里脊冷切。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
       "originalName": "Xtra! hamburgerryg",
       "originalDescription": "150 g. Kg-pris 93,00. 1 pakke. Fast lav pris Før 15,50",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18819,7 +18819,7 @@
       "productNameZh": "鸡胸肉或鸡里脊",
       "descriptionZh": "鸡胸肉或鸡里脊。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
       "originalName": "Xtra! kyllingebryst eller -inderfilet",
-      "originalDescription": "600 g. Kg-pris 81,67. Frit valg. 1 pakke.",
+      "originalDescription": "600 g. Kg-pris. 98,33. Frit valg. 1 pakke.",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_breast",
       "authoredBy": "Codex",
@@ -18887,13 +18887,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&w=1000&x1r=0.038&x2r=0.339&y1r=0.341&y2r=0.658&s=c1dc08bfee5a49241707777eab996928"
       }
     },
-    "v1|xxl polser|sausages": {
+    "v1|xxl polser|sausage_other": {
       "productNameZh": "烧烤香肠",
       "descriptionZh": "烧烤香肠。肉肠类，可煎、烤或夹面包；类似中国烤肠，但通常更咸、甜味更低。",
       "originalName": "XXL pølser",
       "originalDescription": "2 kg. Flere varianter. Pr. kg 49.50 FRIT VALG 2 KG",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -19013,13 +19013,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-20.webp&w=1000&x1r=0.01&x2r=0.56&y1r=0.05&y2r=0.71&s=58fe7b98c1ec534a62e16a3be2bb4939"
       }
     },
-    "v1|zelected ekstra jomfruolivenolie|oil_vinegar": {
+    "v1|zelected ekstra jomfruolivenolie|oil_olive": {
       "productNameZh": "特级初榨橄榄油",
       "descriptionZh": "特级初榨橄榄油。食用油或醋，可炒菜、凉拌、煎炸或调沙拉；高温用途需按油种判断。",
       "originalName": "Zelected Ekstra jomfruolivenolie",
       "originalDescription": "500 ml\nPartivare. 100.00 pr. liter",
-      "categoryId": "pantry",
-      "comparisonGroup": "oil_vinegar",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -19031,13 +19031,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-11.webp&w=1000&x1r=0.02&x2r=0.42&y1r=0.474&y2r=0.75&s=2c2a8e18512663699e764c7f1dde7893"
       }
     },
-    "v1|zelected sauce aioli eller ketchup|sauces": {
+    "v1|zelected sauce aioli eller ketchup|sauce_mixed_offer": {
       "productNameZh": "Zelected 酱料/蒜泥蛋黄酱/番茄酱",
       "descriptionZh": "丹麦有机酱料品牌。aioli 蘸海鲜，番茄酱配热狗。",
       "originalName": "Zelected sauce, aioli eller ketchup",
       "originalDescription": "260-280 g Partivare. Max. 57.69 pr. kg",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -19047,6 +19047,24 @@
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-10.webp&w=1000&x1r=0.01&x2r=0.44&y1r=0.69&y2r=0.99&s=3ffb163c7fea8ffa49feae376b3513a5"
+      }
+    },
+    "v1|steff houlberg polser|sausage_mixed_offer": {
+      "productNameZh": "Steff Houlberg 香肠",
+      "descriptionZh": "Steff Houlberg 品牌烧烤肠。煎、烤或水煮后夹热狗面包，挤番茄酱、芥末和脆洋葱碎，就是丹麦经典 hotdog。",
+      "originalName": "Steff Houlberg pølser",
+      "originalDescription": "350-400 g. Hotdog- eller grillpølser. Pr. kg max. 71,43",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "authoredBy": "Codex",
+      "reviewStatus": "codex_name_and_description_reviewed",
+      "descriptionSpecVersion": "zh-product-v3",
+      "reviewedAt": "2026-07-19T12:02:11.000Z",
+      "evidence": {
+        "originalNameReviewed": true,
+        "originalDescriptionReviewed": true,
+        "offerImageReviewed": false,
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7529a1298a97788cb870b8b41d8274d7&w=1000&s=dda0128f996ba4e1d6aa5bbd01b39271"
       }
     }
   }

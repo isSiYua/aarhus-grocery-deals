@@ -11,7 +11,10 @@ test('shopping list is local, store-filterable, and keeps completed items recove
   assert.match(appSource, /offer\.productKey \|\| offer\.canonicalKey/);
   assert.match(appSource, /\['shopping', '✓'/);
   assert.match(appSource, /还要买/);
-  assert.match(appSource, /details', \{ class: 'completed-list'/);
+  assert.match(appSource, /completedListOpen: false/);
+  assert.match(appSource, /open: state\.completedListOpen/);
+  assert.match(appSource, /onToggle: event => \{ state\.completedListOpen = event\.currentTarget\.open; \}/);
+  assert.match(appSource, /nextView === 'shopping' && previousView !== 'shopping'/);
   assert.match(appSource, /storeFilterBar\(allOffers, '只看准备去的商店'\)/);
 });
 
@@ -25,6 +28,9 @@ test('global price comparison separates current/upcoming minima and exposes all 
   assert.match(appSource, /查看 \$\{comparison\.bestOffers\.length\} 个最低商品/);
   assert.match(appSource, /filterOffersByStore\(allOffers\)/);
   assert.match(appSource, /groupDefinition\.comparable === false/);
+  assert.match(appSource, /candidate\.unitPriceUnit === unit/);
+  assert.match(appSource, /function comparableSortValue/);
+  assert.match(appSource, /\(\?:\\\/kg\|\\\/L\)\$/);
 });
 
 test('home integrates upcoming offers into normal categories instead of recommendation strips', () => {

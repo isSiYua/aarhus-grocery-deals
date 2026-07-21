@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { explainInChinese } from '../scripts/lib/explain-zh.mjs';
-import { AARHUS_COMPARISON_GROUPS, classifyOffer } from '../scripts/lib/taxonomy.mjs';
+import { AARHUS_COMPARISON_GROUPS, classifyOffer, refineAarhusComparisonGroup } from '../scripts/lib/taxonomy.mjs';
 
 test('keeps Coca-Cola Zero but excludes ordinary soda', () => {
   assert.equal(classifyOffer({ heading:'Coca-Cola Zero 6 x 1,5 L' }).categoryId, 'drinks');
@@ -20,8 +20,8 @@ test('separates turkey species, body parts, mince, and processed products', () =
     ['Kalkunstrimler af brystfilet', 'turkey_breast'],
     ['Kalkununderlår', 'turkey_thigh'],
     ['Hakket kalkunkød', 'turkey_minced'],
-    ['GRILLMESTER Kalkunhakkebøffer', 'turkey_processed'],
-    ['Cordon bleu af kalkun', 'turkey_processed'],
+    ['GRILLMESTER Kalkunhakkebøffer', 'prepared_turkey'],
+    ['Cordon bleu af kalkun', 'prepared_turkey'],
     ['Kalkunoverlår eller -schnitzel af brystfilet', 'turkey_mixed_offer'],
   ]);
   for (const [heading, comparisonGroup] of expected) {
@@ -76,8 +76,8 @@ test('does not treat package units as proof that an item is food', () => {
 
 test('splits breakfast and real pantry goods into specific groups', () => {
   assert.equal(classifyOffer({ heading:'Müsli med nødder 750 g' }).comparisonGroup, 'cereal');
-  assert.equal(classifyOffer({ heading:'Hakkede tomater på dåse 400 g' }).comparisonGroup, 'canned');
-  assert.equal(classifyOffer({ heading:'Olivenolie 1 L' }).comparisonGroup, 'oil_vinegar');
+  assert.equal(classifyOffer({ heading:'Hakkede tomater på dåse 400 g' }).comparisonGroup, 'canned_tomatoes');
+  assert.equal(classifyOffer({ heading:'Olivenolie 1 L' }).comparisonGroup, 'oil_olive');
 });
 
 test('every comparison group has a useful Chinese explanation', () => {
@@ -94,7 +94,7 @@ test('product form wins over ingredient and flavour words', () => {
   assert.equal(classifyOffer({ heading:'Bifa sandwich kiks med jordbær' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'ALESTO Bananchips' }).comparisonGroup, 'chips');
   assert.equal(classifyOffer({ heading:'Frysetørrede hindbær' }).comparisonGroup, 'dried_fruit');
-  assert.equal(classifyOffer({ heading:'Tomatsauce med basilikum' }).comparisonGroup, 'sauces');
+  assert.equal(classifyOffer({ heading:'Tomatsauce med basilikum' }).comparisonGroup, 'sauce_tomato');
   assert.equal(classifyOffer({ heading:'Nutella, Dumle karamel eller Marianne' }).comparisonGroup, 'spreads_jam');
   assert.equal(classifyOffer({ heading:'Danone Actimel eller yoghurt' }).comparisonGroup, 'yoghurt');
   assert.equal(classifyOffer({ heading:'Pizzamel 1 kg' }).comparisonGroup, 'flour_baking');
@@ -109,7 +109,7 @@ test('uses product identity rather than flavour words or brand fragments', () =>
   assert.equal(classifyOffer({ heading:'AEG Vaskemaskine' }), null);
   assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
   assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'beef_steak');
-  assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'chicken_breaded');
+  assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'prepared_chicken_breaded');
   assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese_spreadable');
   assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');
   assert.equal(classifyOffer({ heading:'Nordthy Mini ris- eller majskiks' }).comparisonGroup, 'biscuits');
@@ -123,8 +123,8 @@ test('keeps size variants together but separates genuinely different potato form
     });
   }
   assert.equal(classifyOffer({ heading:'CHEF SELECT Kartoffelsalat' }).comparisonGroup, 'potato_salad');
-  assert.equal(classifyOffer({ heading:'HARVEST BASKET Pommes frites' }).comparisonGroup, 'potato_sides');
-  assert.equal(classifyOffer({ heading:'Peka flødekartofler' }).comparisonGroup, 'potato_sides');
+  assert.equal(classifyOffer({ heading:'HARVEST BASKET Pommes frites' }).comparisonGroup, 'potato_fries');
+  assert.equal(classifyOffer({ heading:'Peka flødekartofler' }).comparisonGroup, 'potato_gratin');
 });
 
 test('splits actual species while keeping presentation variants together', () => {
@@ -139,7 +139,7 @@ test('splits actual species while keeping presentation variants together', () =>
 });
 
 test('handles Danish compound words without classifying incidental fragments', () => {
-  assert.equal(classifyOffer({ heading:'Lambi Premium toiletpapir' }).comparisonGroup, 'paper');
+  assert.equal(classifyOffer({ heading:'Lambi Premium toiletpapir' }).comparisonGroup, 'paper_toilet');
   assert.equal(classifyOffer({ heading:'Wilfa kaffemaskine' }), null);
   assert.equal(classifyOffer({ heading:'Træstamme' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Merrild eller Lavazza helbønner' }).comparisonGroup, 'coffee_tea');
@@ -152,7 +152,35 @@ test('splits overloaded parent categories into practical shopping aisles', () =>
   assert.equal(classifyOffer({ heading:'Merrild helbønner' }).categoryId, 'coffee_tea');
   assert.equal(classifyOffer({ heading:'Marabou chokolade' }).categoryId, 'candy_chocolate');
   assert.equal(classifyOffer({ heading:'Oreo cookies' }).categoryId, 'biscuits_cakes');
-  assert.equal(classifyOffer({ heading:'Bacon i skiver' }).categoryId, 'sausages_deli');
+  assert.equal(classifyOffer({ heading:'Bacon i skiver' }).categoryId, 'bacon');
+});
+
+test('separates liver pate, bacon, sausages, sauces, oils, paper and potato forms', () => {
+  const expected = new Map([
+    ['Stryhns leverpostej', ['liver_pate', 'liver_pate']],
+    ['Tulip bacon i skiver', ['bacon', 'bacon_sliced']],
+    ['Xtra bacontern', ['bacon', 'bacon_pieces']],
+    ['Bacon & cheddar griller', ['sausages', 'sausage_bacon']],
+    ['Kyllingepølser', ['sausages', 'sausage_chicken']],
+    ['Frankfurter', ['sausages', 'sausage_frankfurter']],
+    ['Ketchup', ['sauces_condiments', 'sauce_ketchup']],
+    ['Mayonnaise', ['sauces_condiments', 'sauce_mayonnaise']],
+    ['Rapsolie', ['cooking_oils', 'oil_rapeseed']],
+    ['Køkkenrulle', ['paper_products', 'paper_kitchen']],
+    ['Lommetørklæder', ['paper_products', 'paper_facial']],
+    ['Kartoffelrösti', ['potato_products', 'potato_hash_browns']],
+  ]);
+  for (const [heading, [categoryId, comparisonGroup]] of expected) {
+    assert.deepEqual(classifyOffer({ heading }), { categoryId, comparisonGroup }, heading);
+  }
+  assert.notEqual(classifyOffer({ heading:'Pommes frites' }).comparisonGroup, classifyOffer({ heading:'Kartoffelrösti' }).comparisonGroup);
+  assert.equal(classifyOffer({ heading:'K-SALAT Mayonnaise eller remoulade' }).comparisonGroup, 'sauce_mixed_offer');
+  assert.equal(classifyOffer({ heading:'Kikkoman soya sauce' }).comparisonGroup, 'sauce_soy');
+  assert.equal(classifyOffer({ heading:'Toiletpapir eller køkkenrulle' }).comparisonGroup, 'paper_mixed_offer');
+  assert.equal(classifyOffer({ heading:'Rullepølse, hamburgerryg eller sennepsskinke' }).comparisonGroup, 'deli_mixed_offer');
+  assert.equal(classifyOffer({ heading:'Tomatpuré eller pastasauce' }).comparisonGroup, 'mixed_grocery_offer');
+  assert.equal(refineAarhusComparisonGroup('bacon_other', 'Tulip bacon 300 g. Skiver eller tern'), 'bacon_mixed_offer');
+  assert.equal(refineAarhusComparisonGroup('sausage_other', 'Steff Houlberg pølser. Hotdog- eller grillpølser'), 'sausage_mixed_offer');
 });
 
 test('automatically separates mince, yoghurt, cold dairy, and cheese forms', () => {

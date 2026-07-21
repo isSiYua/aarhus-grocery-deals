@@ -9,6 +9,7 @@ const state = {
   locationId: null,
   storeFilter: null,
   shopping: {},
+  completedListOpen: false,
   chrome: { topHidden: false, bottomHidden: false },
   reader: { categoryId: null, storeFilter: null, index: 0 },
   readerTransitioning: false,
@@ -104,6 +105,10 @@ const ATLANTA_CATEGORY_LABELS = {
   produce_mixed: ['🥗', '果蔬组合'],
   fresh_meat: ['🥩', '生鲜肉类'],
   minced_meat: ['🥟', '肉末'],
+  bacon: ['🥓', '培根'],
+  sausages: ['🌭', '香肠'],
+  deli_meat: ['🥪', '冷切与肉片'],
+  prepared_meat: ['🍖', '肉类制成品'],
   deli_prepared: ['🥓', '熟食、香肠与加工肉'],
   seafood: ['🐟', '鱼类海鲜'],
   yoghurt: ['🥣', '酸奶'],
@@ -111,12 +116,17 @@ const ATLANTA_CATEGORY_LABELS = {
   dairy: ['🥛', '牛奶、奶油与鸡蛋'],
   bakery: ['🍞', '面包烘焙'],
   frozen: ['🧊', '冷冻食品'],
+  potato_products: ['🍟', '土豆制成品'],
+  sauces_condiments: ['🥫', '酱料与佐料'],
+  cooking_oils: ['🫒', '食用油'],
+  canned_pickled: ['🫙', '罐头与腌渍食品'],
   pantry: ['🥫', '主食调味'],
   snacks: ['🍪', '零食甜品'],
   drinks: ['🥤', '饮料'],
   alcohol: ['🍷', '啤酒与葡萄酒'],
   baby: ['🍼', '婴幼儿用品'],
   household: ['🧻', '家庭日用品'],
+  paper_products: ['🧻', '生活纸品'],
   personal: ['🧴', '个人护理'],
   pet: ['🐾', '宠物用品'],
 };
@@ -254,18 +264,20 @@ const offerPeriod = offer => new Date(offer.validFrom) > now() ? 'upcoming' : 'c
 function globalPriceComparison(offer) {
   const groupDefinition = activeComparisonGroups()?.[offer.comparisonGroup];
   if (!groupDefinition || groupDefinition.comparable === false || /(?:^|_)other$|mixed|_offer$/.test(offer.comparisonGroup)) return null;
+  const unit = String(offer.unitPriceUnit || '');
+  if (!Number.isFinite(offer.unitPriceValue) || !/(?:\/kg|\/L)$/.test(unit)) return null;
   const period = offerPeriod(offer);
   const candidates = currentOffers().filter(candidate =>
     candidate.comparisonGroup === offer.comparisonGroup &&
     candidate.currency === offer.currency &&
+    candidate.unitPriceUnit === unit &&
+    Number.isFinite(candidate.unitPriceValue) &&
     candidate.status !== 'unconfirmed' &&
     offerPeriod(candidate) === period
   );
-  const unitCandidates = candidates.filter(candidate => Number.isFinite(candidate.unitPriceValue));
-  const useUnit = unitCandidates.length > 0;
-  const comparable = useUnit ? unitCandidates : candidates.filter(candidate => Number.isFinite(candidate.price));
-  if (!comparable.length || (useUnit && !Number.isFinite(offer.unitPriceValue))) return null;
-  const metric = candidate => useUnit ? candidate.unitPriceValue : candidate.price;
+  const comparable = candidates;
+  if (!comparable.length) return null;
+  const metric = candidate => candidate.unitPriceValue;
   const minimum = Math.min(...comparable.map(metric));
   const value = metric(offer);
   const tolerance = Math.max(0.000001, Math.abs(minimum) * 0.000001);
@@ -278,9 +290,10 @@ function globalPriceComparison(offer) {
     const currentCandidates = currentOffers().filter(candidate =>
       candidate.comparisonGroup === offer.comparisonGroup &&
       candidate.currency === offer.currency &&
+      candidate.unitPriceUnit === unit &&
       candidate.status !== 'unconfirmed' &&
       offerPeriod(candidate) === 'current' &&
-      Number.isFinite(useUnit ? candidate.unitPriceValue : candidate.price)
+      Number.isFinite(candidate.unitPriceValue)
     );
     if (currentCandidates.length) currentMinimum = Math.min(...currentCandidates.map(metric));
   }
@@ -289,12 +302,12 @@ function globalPriceComparison(offer) {
   return {
     isBest,
     label: period === 'upcoming'
-      ? `${futureBetter ? '下期新低' : '下期最低'}${useUnit ? '单位价' : '标价'}`
-      : `本期全局最低${useUnit ? '单位价' : '标价'}`,
+      ? `${futureBetter ? '下期新低' : '下期最低'}单位价`
+      : '本期全局最低单位价',
     ties: bestOffers.length,
     bestOffers,
     difference,
-    basis: useUnit ? 'unit' : 'price',
+    basis: 'unit',
     period,
     futureBetter,
     futureSaving,
@@ -414,7 +427,10 @@ function offerTitle(offer) {
 
 function parseRoute() {
   const params = new URLSearchParams(location.hash.replace(/^#/, ''));
-  state.route.view = params.get('view') || 'home';
+  const previousView = state.route.view;
+  const nextView = params.get('view') || 'home';
+  if (nextView === 'shopping' && previousView !== 'shopping') state.completedListOpen = false;
+  state.route.view = nextView;
   state.route.id = params.get('id');
   state.search = params.get('q') || '';
   const requestedStore = params.get('store');
@@ -1048,14 +1064,19 @@ function groupOffers(offers) {
     map.get(key).push(o);
   });
   return [...map.entries()].map(([key, values]) => [key, values.sort(compareOffers)]).sort((a,b) => {
-    const av = a[1][0]?.unitPriceValue ?? Infinity;
-    const bv = b[1][0]?.unitPriceValue ?? Infinity;
+    const av = comparableSortValue(a[1][0]);
+    const bv = comparableSortValue(b[1][0]);
     return av - bv;
   });
 }
+function comparableSortValue(offer) {
+  return Number.isFinite(offer?.unitPriceValue) && /(?:\/kg|\/L)$/.test(String(offer?.unitPriceUnit || ''))
+    ? offer.unitPriceValue
+    : Infinity;
+}
 function compareOffers(a,b) {
-  const au = Number.isFinite(a.unitPriceValue) ? a.unitPriceValue : Infinity;
-  const bu = Number.isFinite(b.unitPriceValue) ? b.unitPriceValue : Infinity;
+  const au = comparableSortValue(a);
+  const bu = comparableSortValue(b);
   if (au !== bu) return au - bu;
   return (a.price ?? Infinity) - (b.price ?? Infinity);
 }
@@ -1307,7 +1328,11 @@ function shoppingListView() {
     ])];
   });
 
-  const completedSection = completed.length ? el('details', { class: 'completed-list' }, [
+  const completedSection = completed.length ? el('details', {
+    class: 'completed-list',
+    open: state.completedListOpen ? '' : null,
+    onToggle: event => { state.completedListOpen = event.currentTarget.open; },
+  }, [
     el('summary', {}, `已买到 ${completed.length} 项 · 点击展开或恢复`),
     el('p', { class: 'completed-help' }, '已买到的商品不会删除，只会置灰并收在这里；需要再买时点“还要买”。'),
     ...renderByStore(completed),

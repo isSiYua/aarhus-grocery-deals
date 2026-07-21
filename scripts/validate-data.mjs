@@ -50,13 +50,28 @@ const aarhusExpectedGroups = [
   [/kalkunbryst|kalkunschnitz|kalkunstrimler/i, 'turkey_breast', /overlår/i],
   [/kalkununderlår/i, 'turkey_thigh'],
   [/hakket kalkun/i, 'turkey_minced'],
-  [/kalkunhakkebøf|cordon bleu af kalkun/i, 'turkey_processed'],
+  [/kalkunhakkebøf|cordon bleu af kalkun/i, 'prepared_turkey'],
 ];
 for (const offer of data.offers) {
   if (/kalkun/i.test(offer.originalName) && /^鸡胸肉/.test(offer.productNameZh)) throw new Error(`Turkey mislabeled as chicken breast: ${offer.originalName}`);
   if (/rib ?eye|entrec[oô]te/i.test(offer.originalName) && offer.comparisonGroup !== 'beef_ribeye') throw new Error(`Ribeye choice is outside the ribeye aisle: ${offer.originalName}`);
   for (const [pattern, expectedGroup, exclusion] of aarhusExpectedGroups) {
     if (pattern.test(offer.originalName) && !exclusion?.test(offer.originalName) && offer.comparisonGroup !== expectedGroup) throw new Error(`Wrong atomic comparison group for ${offer.originalName}: expected ${expectedGroup}, got ${offer.comparisonGroup}`);
+  }
+}
+
+const fineGroupChecks = [
+  [/leverpostej/i, 'liver_pate', /eller|marked|mix/i],
+  [/bacon.*(?:i skiver|skiveskåret)/i, 'bacon_sliced', /eller|marked|mix|leverpostej/i],
+  [/bacontern|bacon i strimler/i, 'bacon_pieces', /eller|marked|mix/i],
+  [/pommes frites/i, 'potato_fries'],
+  [/kartoffelrösti/i, 'potato_hash_browns'],
+  [/toiletpapir/i, 'paper_toilet', /eller|\/.*køkkenrulle/i],
+  [/køkkenrulle/i, 'paper_kitchen', /eller|\/.*toiletpapir/i],
+];
+for (const offer of data.offers) {
+  for (const [pattern, expectedGroup, exclusion] of fineGroupChecks) {
+    if (pattern.test(offer.originalName) && !exclusion?.test(offer.originalName) && offer.comparisonGroup !== expectedGroup) throw new Error(`Wrong fine comparison group for ${offer.originalName}: expected ${expectedGroup}, got ${offer.comparisonGroup}`);
   }
 }
 
@@ -135,11 +150,11 @@ for (const [groupId, definition] of Object.entries(atlanta.comparisonGroups)) {
   if (/mixed|(?:^|_)other$/.test(groupId) && definition.comparable !== false) throw new Error(`Broad Atlanta group must not calculate a global minimum: ${groupId}`);
 }
 const atlantaExpectedGroups = new Map([
-  ['Applegate Naturals Uncured Turkey Bacon', 'meat_turkey_bacon'],
+  ['Applegate Naturals Uncured Turkey Bacon', 'bacon_turkey_sliced'],
   ["Boar's Head Ovengold Roasted Turkey Breast", 'meat_turkey_deli'],
   ['Private Selection Black Forest Ham', 'meat_ham_deli'],
   ['Hormel Pepperoni', 'meat_pepperoni'],
-  ['Publix Sweet Italian Sausage', 'meat_sausage'],
+  ['Publix Sweet Italian Sausage', 'sausage_pork'],
   ['Publix Chicken Tender Whole Sub', 'meat_chicken_sandwich'],
 ]);
 for (const [name, expectedGroup] of atlantaExpectedGroups) {

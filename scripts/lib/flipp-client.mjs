@@ -171,12 +171,15 @@ export const ATLANTA_COMPARISON_GROUPS = {
   produce_watermelon: atlantaGroup('西瓜'), produce_bananas: atlantaGroup('香蕉'),
   produce_prepared_salad: atlantaGroup('预制沙拉'), produce_prepared_fruit: atlantaGroup('切配水果'),
   produce_prepared_potatoes: atlantaGroup('预制土豆配菜'), produce_prepared_mixed: atlantaGroup('果蔬混合加餐', '组成不同，不参与单一果蔬最低价。', false),
+  potato_fries: atlantaGroup('薯条'), potato_wedges: atlantaGroup('薯角'), potato_hash_browns: atlantaGroup('薯饼'), potato_mash: atlantaGroup('土豆泥'), potato_prepared_other: atlantaGroup('其他土豆制成品', '形态不同，不计算最低价。', false),
   produce_other: atlantaGroup('其他果蔬', '品种不同不直接比较最低价。', false),
   meat_ground_beef: atlantaGroup('牛肉末与牛肉饼'), meat_beef_ribeye: atlantaGroup('肋眼牛排'), meat_beef_sirloin: atlantaGroup('西冷牛排'), meat_beef_steak: atlantaGroup('其他牛排', '部位不同，不计算全局最低价。', false), meat_beef_roast: atlantaGroup('整块烤牛肉', '肩胛、后腿和胸肉部位不同，不计算全局最低价。', false),
   meat_chicken_breast: atlantaGroup('鸡胸与鸡里脊'), meat_ground_chicken: atlantaGroup('鸡肉末'), meat_chicken_thigh: atlantaGroup('鸡腿肉'), meat_whole_chicken: atlantaGroup('整鸡'),
   meat_prepared_chicken: atlantaGroup('熟制鸡肉'), meat_breaded_chicken: atlantaGroup('裹粉鸡肉小食'), meat_chicken_sandwich: atlantaGroup('鸡肉三明治与卷饼'),
   meat_ground_pork: atlantaGroup('猪肉末'), meat_pork_tenderloin: atlantaGroup('猪里脊'), meat_pork_chops: atlantaGroup('猪排'),
   meat_pork_meatballs: atlantaGroup('猪肉丸'), meat_pulled_pork: atlantaGroup('手撕猪肉'), meat_pork_bacon: atlantaGroup('猪肉培根'), meat_turkey_bacon: atlantaGroup('火鸡培根'),
+  bacon_pork_sliced: atlantaGroup('猪肉培根片'), bacon_turkey_sliced: atlantaGroup('火鸡培根片'), bacon_other: atlantaGroup('其他培根', '形态不明确，不计算最低价。', false),
+  sausage_frankfurter: atlantaGroup('法兰克福与热狗肠'), sausage_chicken: atlantaGroup('鸡肉肠'), sausage_beef: atlantaGroup('牛肉肠'), sausage_pork: atlantaGroup('猪肉肠'), sausage_bacon: atlantaGroup('培根肠'), sausage_breakfast: atlantaGroup('早餐肠'), sausage_chorizo: atlantaGroup('Chorizo 香肠'), sausage_other: atlantaGroup('其他香肠', '肉种不明确，不计算最低价。', false),
   meat_beef_burgers: atlantaGroup('牛肉汉堡饼'), meat_meatballs: atlantaGroup('肉丸'), meat_sausage: atlantaGroup('香肠'), meat_pepperoni: atlantaGroup('意式辣香肠片'),
   meat_ham_deli: atlantaGroup('火腿冷切'), meat_turkey_deli: atlantaGroup('火鸡胸冷切'), meat_sticks: atlantaGroup('肉条零食'),
   meat_lamb: atlantaGroup('羊肉'), meat_other: atlantaGroup('其他肉类', '部位不同，价格只作参考。', false),
@@ -190,10 +193,15 @@ export const ATLANTA_COMPARISON_GROUPS = {
   frozen_ice_cream: atlantaGroup('冰淇淋与冰棒'), frozen_pizza: atlantaGroup('冷冻披萨'), frozen_appetizers: atlantaGroup('冷冻点心'), frozen_other: atlantaGroup('其他冷冻食品', '品种不同，不计算全局最低价。', false),
   pantry_rice_pasta: atlantaGroup('米饭与意面'), pantry_cereal: atlantaGroup('早餐谷物'), pantry_beans: atlantaGroup('豆类罐头'),
   pantry_spreads: atlantaGroup('果酱与花生酱'), pantry_sugar: atlantaGroup('糖与糖浆'), pantry_other: atlantaGroup('其他常温食品', '品种不同，不计算全局最低价。', false),
+  sauce_ketchup: atlantaGroup('番茄酱'), sauce_mayonnaise: atlantaGroup('蛋黄酱'), sauce_mustard: atlantaGroup('芥末酱'), sauce_bbq: atlantaGroup('烧烤酱'), sauce_satay: atlantaGroup('沙茶与 Satay 酱'), sauce_other: atlantaGroup('其他酱料', '类型不同，不计算最低价。', false),
+  oil_olive: atlantaGroup('橄榄油'), oil_canola: atlantaGroup('菜籽油'), oil_other: atlantaGroup('其他食用油', '油种不明确，不计算最低价。', false),
+  canned_tomatoes: atlantaGroup('番茄罐头'), canned_beans: atlantaGroup('豆类罐头'), pickled_vegetables: atlantaGroup('腌菜与橄榄', '品种不同，不计算最低价。', false),
   snacks_savory: atlantaGroup('薯片与咸味零食'), snacks_candy: atlantaGroup('糖果与巧克力'), snacks_bars: atlantaGroup('能量棒与蛋白棒'), snacks_other: atlantaGroup('其他零食', '品种不同，不计算全局最低价。', false),
   drinks_coffee_tea: atlantaGroup('咖啡与茶'), drinks_water: atlantaGroup('饮用水与气泡水'), drinks_enhancer: atlantaGroup('饮水调味液'), drinks_juice: atlantaGroup('果汁与果汁饮料'),
   drinks_soft: atlantaGroup('软饮与运动饮料'), drinks_beer: atlantaGroup('啤酒'), drinks_wine: atlantaGroup('葡萄酒'), drinks_other: atlantaGroup('其他饮料', '品种不同，不计算全局最低价。', false),
-  household_laundry: atlantaGroup('洗衣用品'), household_dishwasher: atlantaGroup('洗碗机用品'), household_paper: atlantaGroup('纸品'), household_other: atlantaGroup('其他家庭用品', '品种不同，不计算全局最低价。', false),
+  household_laundry: atlantaGroup('洗衣用品'), household_dishwasher: atlantaGroup('洗碗机用品'), household_paper: atlantaGroup('纸品'),
+  paper_toilet: atlantaGroup('卫生纸'), paper_kitchen: atlantaGroup('厨房纸'), paper_facial: atlantaGroup('手帕纸与面巾纸'), paper_napkins: atlantaGroup('餐巾纸'), paper_other: atlantaGroup('其他纸品', '类型不明确，不计算最低价。', false),
+  household_other: atlantaGroup('其他家庭用品', '品种不同，不计算全局最低价。', false),
   personal_oral: atlantaGroup('口腔护理'), personal_hair: atlantaGroup('头发护理'), personal_body: atlantaGroup('身体与剃刮护理'), personal_other: atlantaGroup('其他个人护理', '品种不同，不计算全局最低价。', false),
   baby_diapers: atlantaGroup('纸尿裤'), baby_food: atlantaGroup('婴幼儿食品'), baby_other: atlantaGroup('其他婴幼儿用品', '品种不同，不计算全局最低价。', false),
   pet_cat: atlantaGroup('猫粮与猫零食'), pet_dog: atlantaGroup('狗粮与狗零食'), pet_other: atlantaGroup('其他宠物用品', '品种不同，不计算全局最低价。', false),
@@ -203,7 +211,7 @@ function atlantaComparisonGroup(name, categoryId) {
   const text = String(name || '').toLowerCase();
   const rules = {
     produce: [
-      ['produce_prepared_mixed', /snack featuring/], ['produce_prepared_potatoes', /sweet potatoes? with butter/],
+      ['produce_prepared_mixed', /snack featuring/], ['produce_prepared_potatoes', /sweet potatoes? with butter|french fries|hash browns?|potato wedges?|mashed potatoes?/],
       ['produce_prepared_salad', /salad kits?|salad blend/], ['produce_prepared_fruit', /fruit cups?|apple slices/],
       ['produce_mushrooms', /mushrooms?|bella/], ['produce_potatoes', /potatoes?|russet/], ['produce_salad', /salad|lettuce|spinach/],
       ['produce_tomatoes', /tomatoes?/], ['produce_beans', /green beans?|\bpeas?\b/], ['produce_corn', /corn/], ['produce_onions', /onions?/],
@@ -225,10 +233,10 @@ function atlantaComparisonGroup(name, categoryId) {
     dairy: [['dairy_yogurt', /yogurt|yoghurt|noosa|chobani|yoplait/], ['dairy_prepared_cheese', /breaded mozzarella/], ['dairy_cheese', /cheese|cheddar|havarti|mozzarella/], ['dairy_eggs', /eggs?/]],
     bakery: [['bakery_croissants', /croissants?/], ['bakery_pie', /pie/], ['bakery_cake', /cake|tarts?/], ['bakery_cookies', /cookies?/], ['bakery_bread', /bread|toast|breadsticks?|knots?/]],
     frozen: [['frozen_ice_cream', /ice cream|fruit bars?|popsicles?/], ['frozen_pizza', /pizza/], ['frozen_appetizers', /egg rolls?|dumplings?/]],
-    pantry: [['pantry_rice_pasta', /rice|pasta|mac.*cheese/], ['pantry_cereal', /cereal|oatmeal|rice krispies/], ['pantry_beans', /beans?/], ['pantry_spreads', /peanut butter|jam|jelly/], ['pantry_sugar', /sugar|syrup/]],
+    pantry: [['sauce_ketchup', /ketchup/], ['sauce_mayonnaise', /mayonnaise|\bmayo\b/], ['sauce_mustard', /mustard/], ['sauce_bbq', /barbecue|bbq sauce/], ['sauce_satay', /satay|peanut sauce/], ['oil_olive', /olive oil/], ['oil_canola', /canola|rapeseed oil/], ['canned_tomatoes', /canned tomatoes?|tomato sauce/], ['canned_beans', /beans?/], ['pickled_vegetables', /pickles?|olives?/], ['pantry_rice_pasta', /rice|pasta|mac.*cheese/], ['pantry_cereal', /cereal|oatmeal|rice krispies/], ['pantry_spreads', /peanut butter|jam|jelly/], ['pantry_sugar', /sugar|syrup/]],
     snacks: [['snacks_bars', /protein bar|fruit.*nut bar/], ['snacks_other', /oreo cakesters.*ritz|snack mix|cookie pudding|rice krispies treats?/], ['snacks_savory', /chips?|crisps?|pretzels?|crackers?|goldfish|popcorn|cheez-it|takis/], ['snacks_candy', /candy|chocolate|gummi|nerds|trolli|tootsie/]],
     drinks: [['drinks_beer', /beer/], ['drinks_wine', /wine|prosecco|moscato|cabernet|pinot|sauvignon/], ['drinks_coffee_tea', /coffee|k-cup|tea|cold brew/], ['drinks_enhancer', /water enhancer/], ['drinks_water', /water|bubly|bubbl'r/], ['drinks_juice', /juice|fruit punch|capri/], ['drinks_soft', /soda|sports drink|fountain drink|powerade|beverage/]],
-    household: [['household_laundry', /laundry|tide|gain|oxi ?clean/], ['household_dishwasher', /dishwasher|powerball/], ['household_paper', /tissue|paper towels?|kleenex|puffs|charmin/]],
+    household: [['household_laundry', /laundry|tide|gain|oxi ?clean/], ['household_dishwasher', /dishwasher|powerball/], ['paper_toilet', /toilet paper|bath tissue|bathroom tissue|charmin/], ['paper_kitchen', /paper towels?/], ['paper_facial', /facial tissue|kleenex|puffs/], ['paper_napkins', /napkins?/]],
     personal: [['personal_oral', /toothpaste|sensodyne|colgate|crest/], ['personal_hair', /shampoo|conditioner|hair oil/], ['personal_body', /body wash|hand soap|body scrub|shave|razor|deodorant|antiperspirant/]],
     baby: [['baby_diapers', /diapers?|pampers|huggies/], ['baby_food', /oatmeal|baby food|formula/]],
     pet: [['pet_cat', /cat/], ['pet_dog', /dog/]],
@@ -251,9 +259,46 @@ const ATLANTA_PROCESSED_MEAT_GROUPS = new Set([
 const ATLANTA_MINCED_MEAT_GROUPS = new Set(['meat_ground_beef', 'meat_ground_chicken', 'meat_ground_pork']);
 
 export function refineAtlantaComparisonGroup(comparisonGroup, originalName = '') {
+  const name = String(originalName || '').toLowerCase();
+  if (comparisonGroup === 'produce_prepared_potatoes') {
+    if (/french fries|\bfries\b/.test(name)) return 'potato_fries';
+    if (/wedges?/.test(name)) return 'potato_wedges';
+    if (/hash browns?/.test(name)) return 'potato_hash_browns';
+    if (/mashed potatoes?/.test(name)) return 'potato_mash';
+    return 'potato_prepared_other';
+  }
+  if (comparisonGroup === 'meat_pork_bacon') return /slices?|strip/.test(name) ? 'bacon_pork_sliced' : 'bacon_other';
+  if (comparisonGroup === 'meat_turkey_bacon') return 'bacon_turkey_sliced';
+  if (comparisonGroup === 'meat_sausage') {
+    if (/bacon/.test(name)) return 'sausage_bacon';
+    if (/frankfurter|hot ?dog|wiener/.test(name)) return 'sausage_frankfurter';
+    if (/chorizo/.test(name)) return 'sausage_chorizo';
+    if (/breakfast/.test(name)) return 'sausage_breakfast';
+    if (/chicken|turkey/.test(name)) return 'sausage_chicken';
+    if (/beef/.test(name)) return 'sausage_beef';
+    if (/pork|italian/.test(name)) return 'sausage_pork';
+    return 'sausage_other';
+  }
+  if (comparisonGroup === 'household_paper') {
+    if (/toilet paper|bath tissue|bathroom tissue|charmin/.test(name)) return 'paper_toilet';
+    if (/paper towels?/.test(name)) return 'paper_kitchen';
+    if (/facial tissue|kleenex|puffs/.test(name)) return 'paper_facial';
+    if (/napkins?/.test(name)) return 'paper_napkins';
+    return 'paper_other';
+  }
+  if (comparisonGroup === 'pantry_other') {
+    if (/ketchup/.test(name)) return 'sauce_ketchup';
+    if (/mayonnaise|\bmayo\b/.test(name)) return 'sauce_mayonnaise';
+    if (/mustard/.test(name)) return 'sauce_mustard';
+    if (/barbecue|bbq/.test(name)) return 'sauce_bbq';
+    if (/satay|peanut sauce/.test(name)) return 'sauce_satay';
+    if (/olive oil/.test(name)) return 'oil_olive';
+    if (/canola|rapeseed oil/.test(name)) return 'oil_canola';
+    if (/tomato/.test(name) && /can|sauce/.test(name)) return 'canned_tomatoes';
+    if (/pickles?|olives?/.test(name)) return 'pickled_vegetables';
+  }
   if (comparisonGroup === 'dairy_prepared_cheese') return 'cheese_prepared';
   if (comparisonGroup !== 'dairy_cheese') return comparisonGroup;
-  const name = String(originalName || '').toLowerCase();
   if (/shredded|grated/.test(name)) return 'cheese_grated';
   if (/slices?/.test(name)) return 'cheese_sliced';
   if (/sticks?|snack/.test(name)) return 'cheese_portioned';
@@ -264,6 +309,15 @@ export function refineAtlantaCategory(categoryId, comparisonGroup) {
   if (ATLANTA_MINCED_MEAT_GROUPS.has(comparisonGroup)) return 'minced_meat';
   if (comparisonGroup === 'dairy_yogurt') return 'yoghurt';
   if (comparisonGroup.startsWith('cheese_')) return 'cheese';
+  if (comparisonGroup.startsWith('bacon_')) return 'bacon';
+  if (comparisonGroup.startsWith('sausage_')) return 'sausages';
+  if (['meat_turkey_deli', 'meat_ham_deli', 'meat_pepperoni', 'meat_sticks'].includes(comparisonGroup)) return 'deli_meat';
+  if (['meat_prepared_chicken', 'meat_breaded_chicken', 'meat_chicken_sandwich', 'meat_pork_meatballs', 'meat_pulled_pork', 'meat_meatballs'].includes(comparisonGroup)) return 'prepared_meat';
+  if (comparisonGroup.startsWith('potato_')) return 'potato_products';
+  if (comparisonGroup.startsWith('sauce_')) return 'sauces_condiments';
+  if (comparisonGroup.startsWith('oil_')) return 'cooking_oils';
+  if (comparisonGroup.startsWith('canned_') || comparisonGroup === 'pickled_vegetables') return 'canned_pickled';
+  if (comparisonGroup.startsWith('paper_')) return 'paper_products';
   if (categoryId === 'produce') {
     if (comparisonGroup === 'produce_prepared_mixed' || comparisonGroup === 'produce_other') return 'produce_mixed';
     return ATLANTA_VEGETABLE_GROUPS.has(comparisonGroup) ? 'vegetables' : 'fruit';

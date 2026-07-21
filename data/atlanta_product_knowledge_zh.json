@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-21T04:46:05.775Z",
+  "updatedAt": "2026-07-21T23:04:44.933Z",
   "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -234,8 +234,8 @@
     },
     "applegate naturals uncured turkey bacon": {
       "originalName": "Applegate Naturals Uncured Turkey Bacon",
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_turkey_bacon",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_turkey_sliced",
       "descriptionZh": "火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -388,7 +388,7 @@
     },
     "boar s head ovengold roasted turkey breast": {
       "originalName": "Boar's Head® Ovengold Roasted Turkey Breast",
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_turkey_deli",
       "descriptionZh": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。",
       "authoredBy": "Codex",
@@ -500,8 +500,8 @@
     },
     "bounty 6 pk select a size triple roll paper towels": {
       "originalName": "BOUNTY 6-pk. select-a-size triple-roll paper towels.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
@@ -513,8 +513,8 @@
     },
     "bounty paper towels": {
       "originalName": "Bounty Paper Towels",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
@@ -696,8 +696,8 @@
     },
     "charmin bathroom tissue": {
       "originalName": "Charmin Bathroom Tissue",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "descriptionZh": "纸品。卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -712,8 +712,8 @@
     },
     "charmin ultra strong 12 pk mega xl roll toilet paper": {
       "originalName": "Charmin Ultra Strong 12-pk. mega-XL roll toilet paper.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "descriptionZh": "卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
@@ -754,7 +754,7 @@
     },
     "chomps meat sticks": {
       "originalName": "Chomps Meat Sticks",
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_sticks",
       "descriptionZh": "调味肉条零食，可直接食用；需按包装确认肉种、辣度和单条重量，不与香肠或冷切火腿混比。",
       "authoredBy": "Codex",
@@ -1691,8 +1691,8 @@
     },
     "hillshire farm meat smoked sausage": {
       "originalName": "Hillshire Farm Meat Smoked Sausage",
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_sausage",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1707,7 +1707,7 @@
     },
     "home chef fried chicken": {
       "originalName": "Home Chef Fried Chicken",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_prepared_chicken",
       "descriptionZh": "熟制或裹粉鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
       "authoredBy": "Codex",
@@ -1765,8 +1765,8 @@
     },
     "hormel black label bacon": {
       "originalName": "Hormel Black Label Bacon",
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_pork_bacon",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "descriptionZh": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -1781,7 +1781,7 @@
     },
     "hormel pepperoni": {
       "originalName": "Hormel Pepperoni",
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_pepperoni",
       "descriptionZh": "意式辣香肠薄片，通常用于披萨、三明治或零食拼盘；属于高盐熟制肉，不与普通鲜香肠或火腿冷切混比。",
       "authoredBy": "Codex",
@@ -1977,8 +1977,8 @@
     },
     "kleenex ultra soft 6 pk facial tissue": {
       "originalName": "Kleenex Ultra Soft 6-pk. facial tissue.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_facial",
       "descriptionZh": "抽取式面巾纸；适合日常清洁和擤鼻涕，比较时看盒数与总抽数。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
@@ -2051,8 +2051,8 @@
     },
     "kroger or private selection bacon": {
       "originalName": "Kroger or Private Selection Bacon",
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_pork_bacon",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "descriptionZh": "猪肉培根。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2083,8 +2083,8 @@
     },
     "kroger soft strong bath tissue": {
       "originalName": "Kroger Soft & Strong Bath Tissue",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "descriptionZh": "纸品。卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -2609,7 +2609,7 @@
     },
     "private selection black forest ham": {
       "originalName": "Private Selection Black Forest Ham",
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_ham_deli",
       "descriptionZh": "黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。",
       "authoredBy": "Codex",
@@ -2753,7 +2753,7 @@
     },
     "publix chicken tender whole sub": {
       "originalName": "Publix Chicken Tender Whole Sub",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_chicken_sandwich",
       "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "authoredBy": "Codex",
@@ -2849,7 +2849,7 @@
     },
     "publix gourmet beef meatballs": {
       "originalName": "Publix Gourmet Beef Meatballs",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_meatballs",
       "descriptionZh": "肉丸。肉类商品；请按原名确认动物种类、部位、是否带骨和是否熟制，再选择煎炒、炖或烤。",
       "authoredBy": "Codex",
@@ -2929,7 +2929,7 @@
     },
     "publix italian style pork meatballs": {
       "originalName": "Publix Italian Style Pork Meatballs",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_pork_meatballs",
       "descriptionZh": "猪肉丸。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -2945,7 +2945,7 @@
     },
     "publix lemon pepper oven roasted chicken": {
       "originalName": "Publix Lemon Pepper Oven-Roasted Chicken",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_prepared_chicken",
       "descriptionZh": "熟制鸡肉。已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。",
       "authoredBy": "Codex",
@@ -2977,7 +2977,7 @@
     },
     "publix parmesan chicken breast bites": {
       "originalName": "Publix Parmesan Chicken Breast Bites",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_breaded_chicken",
       "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "authoredBy": "Codex",
@@ -2993,7 +2993,7 @@
     },
     "publix parmesan chicken breast cutlets": {
       "originalName": "Publix Parmesan Chicken Breast Cutlets",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_breaded_chicken",
       "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
       "authoredBy": "Codex",
@@ -3041,7 +3041,7 @@
     },
     "publix smoked pulled pork": {
       "originalName": "Publix Smoked Pulled Pork",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_pulled_pork",
       "descriptionZh": "手撕猪肉。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -3057,7 +3057,7 @@
     },
     "publix smoked pulled pork meal": {
       "originalName": "Publix Smoked Pulled Pork Meal",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_pulled_pork",
       "descriptionZh": "手撕猪肉。猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。",
       "authoredBy": "Codex",
@@ -3073,7 +3073,7 @@
     },
     "publix southwest chicken tender wrap": {
       "originalName": "Publix Southwest Chicken Tender Wrap",
-      "categoryId": "deli_prepared",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "meat_chicken_sandwich",
       "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
       "authoredBy": "Codex",
@@ -3089,8 +3089,8 @@
     },
     "publix sweet italian sausage": {
       "originalName": "Publix Sweet Italian Sausage",
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_sausage",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_pork",
       "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3105,8 +3105,8 @@
     },
     "publix sweet potatoes with butter": {
       "originalName": "Publix Sweet Potatoes With Butter",
-      "categoryId": "vegetables",
-      "comparisonGroup": "produce_prepared_potatoes",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_prepared_other",
       "descriptionZh": "黄油调味红薯配菜。加黄油调味的红薯配菜，口感甜软，通常加热后食用；主体是红薯，不是乳制品。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3153,8 +3153,8 @@
     },
     "publix ultra paper towels": {
       "originalName": "Publix Ultra Paper Towels",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
@@ -3214,8 +3214,8 @@
     },
     "puffs facial tissue": {
       "originalName": "Puffs Facial Tissue",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_facial",
       "descriptionZh": "纸品。抽取式面巾纸；适合日常清洁和擤鼻涕，比较时看盒数与总抽数。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3243,8 +3243,8 @@
     },
     "quilted northern bath tissue": {
       "originalName": "Quilted Northern Bath Tissue",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "descriptionZh": "纸品。卫生纸；比较时除总价外还要看卷数、层数和每卷长度。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -3455,7 +3455,7 @@
     },
     "select chomps meat sticks": {
       "originalName": "Select Chomps meat sticks",
-      "categoryId": "deli_prepared",
+      "categoryId": "deli_meat",
       "comparisonGroup": "meat_sticks",
       "descriptionZh": "香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
@@ -3810,8 +3810,8 @@
     },
     "smithfield hometown original breakfast sausage": {
       "originalName": "Smithfield Hometown Original Breakfast Sausage",
-      "categoryId": "deli_prepared",
-      "comparisonGroup": "meat_sausage",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_breakfast",
       "descriptionZh": "香肠。香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -4259,8 +4259,8 @@
     },
     "viva signature cloth 6 pk triple roll paper towels": {
       "originalName": "Viva Signature Cloth 6-pk. triple-roll paper towels.",
-      "categoryId": "household",
-      "comparisonGroup": "household_paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "descriptionZh": "厨房纸巾，可吸油吸水和擦拭台面；比较时看卷数、尺寸与每卷张数。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",

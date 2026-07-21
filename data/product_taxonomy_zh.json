@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-18T21:05:48.557Z",
+  "updatedAt": "2026-07-21T23:04:44.933Z",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
       "status": "active",
@@ -16,10 +16,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|3 stjernet paalaeg|bacon_deli": {
+    "v1|3 stjernet paalaeg|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "3-Stjernet pålæg",
@@ -88,10 +88,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|aalbaek salami eller postej|bacon_deli": {
+    "v1|aalbaek salami eller postej|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Aalbæk salami eller postej",
@@ -176,7 +176,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "亚洲或印度咖喱酱料套装",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Al’Fez, Blue Dragon, Go-Tan eller Patak’s",
       "authoredBy": "Codex",
@@ -366,7 +366,7 @@
     },
     "v1|alexos eller antos oliven|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "橄榄",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -440,7 +440,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "Andoni 冷冻披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Andoni pizza",
       "authoredBy": "Codex",
@@ -580,10 +580,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|anglamark vaadservietter|paper": {
+    "v1|anglamark vaadservietter|paper_mixed_offer": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Änglamark vådservietter",
@@ -620,7 +620,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "面部护肤品",
+      "labelZh": "Anua 壬二酸透明质酸修红精华",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Anua Azelaic Acid 10 Hyaluron Redness Soothing serum",
       "authoredBy": "Codex",
@@ -692,7 +692,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_cottage_ricotta",
-      "labelZh": "新鲜奶油奶酪",
+      "labelZh": "Arla 无乳糖鲜奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Arla laktosefri friskost*",
       "authoredBy": "Codex",
@@ -808,10 +808,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|ave krainer polser|sausages": {
+    "v1|ave krainer polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "中欧烟熏香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "AVE Krainer-pølser",
@@ -836,7 +836,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "white_fish",
-      "labelZh": "丹麦肉丸饼",
+      "labelZh": "鱼饼或烟熏鲭鱼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Bådsmand fiskefrikadeller eller røget makrelfilet",
       "authoredBy": "Codex",
@@ -848,7 +848,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "salmon_smoked",
-      "labelZh": "冷熏三文鱼",
+      "labelZh": "冷熏或腌渍三文鱼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Bådsmand koldrøget eller gravad laks",
       "authoredBy": "Codex",
@@ -856,10 +856,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|bacon cheddar griller|bacon_deli": {
+    "v1|bacon cheddar griller|sausage_bacon": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_bacon",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BACON & CHEDDAR GRILLER",
@@ -916,11 +916,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|bahncke dressing|sauces": {
+    "v1|bahncke dressing|sauce_dressing": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "沙拉酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dressing",
+      "labelZh": "Bähncke 沙拉酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BÄHNCKE Dressing",
       "authoredBy": "Codex",
@@ -990,7 +990,7 @@
     },
     "v1|barral sorte oliven|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "橄榄",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1016,7 +1016,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "Batiste 免洗干发喷雾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Batiste tørshampoo",
       "authoredBy": "Codex",
@@ -1024,10 +1024,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|bearnaisesauce|sauces": {
+    "v1|bearnaisesauce|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "labelZh": "贝阿恩酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Bearnaisesauce",
@@ -1036,11 +1036,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|beauvais ketchup bahncke dressing eller ketchup|sauces": {
+    "v1|beauvais ketchup bahncke dressing eller ketchup|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "番茄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "Beauvais 番茄酱或 Bähncke 沙拉酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Beauvais ketchup, Bähncke dressing eller ketchup",
       "authoredBy": "Codex",
@@ -1048,10 +1048,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|beauvais tomatketchup|sauces": {
+    "v1|beauvais tomatketchup|sauce_ketchup": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
       "labelZh": "番茄",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Beauvais tomatketchup",
@@ -1120,10 +1120,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|ben s sauce eller dolmio intensify|sauces": {
+    "v1|ben s sauce eller dolmio intensify|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "labelZh": "烹调酱料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Ben´s sauce eller Dolmio intensify*",
@@ -1172,7 +1172,7 @@
       "status": "active",
       "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
-      "labelZh": "洗衣液或洗衣粉",
+      "labelZh": "BioTex 洗衣液或柔顺剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BioTex flydende vaskemiddel eller Bamseline skyllemiddel",
       "authoredBy": "Codex",
@@ -1290,7 +1290,7 @@
     },
     "v1|bonduelle majs eller beauvais survarer|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "玉米",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1340,7 +1340,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "止汗除味剂",
+      "labelZh": "Bruno Banani 止汗露或 Aussie 洗护任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Bruno Banani deodorant eller Aussie hårpleje",
       "authoredBy": "Codex",
@@ -1364,7 +1364,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_spreadable",
-      "labelZh": "奶油奶酪",
+      "labelZh": "Buko 原味或辣味奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BUKO Flødeost naturel eller pikant",
       "authoredBy": "Codex",
@@ -1412,7 +1412,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_spreadable",
-      "labelZh": "涂抹奶酪",
+      "labelZh": "Buko 涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Buko smøreost",
       "authoredBy": "Codex",
@@ -1516,10 +1516,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|casa modena italiensk paalaeg|bacon_deli": {
+    "v1|casa modena italiensk paalaeg|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "意式冷切肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Casa Modena Italiensk pålæg",
@@ -1594,7 +1594,7 @@
       "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "CHEASY Hytteost",
+      "originalName": "Cheasy hytteost",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -1638,7 +1638,7 @@
     },
     "v1|chef select kartoffelsalat|potato_salad": {
       "status": "active",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "labelZh": "土豆沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -1648,10 +1648,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|chef select kyllingeburger eller nuggets|chicken_breaded": {
+    "v1|chef select kyllingeburger eller nuggets|prepared_chicken_breaded": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breaded",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
       "labelZh": "鸡肉汉堡饼或鸡块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "CHEF SELECT Kyllingeburger eller -nuggets",
@@ -1868,7 +1868,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "亚洲风味速食餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop asiatisk marked",
       "authoredBy": "Codex",
@@ -1876,10 +1876,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop bacon|bacon_deli": {
+    "v1|coop bacon|bacon_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop bacon",
@@ -1984,11 +1984,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop giant kokkenrulle|paper": {
+    "v1|coop giant kokkenrulle|paper_kitchen": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
-      "labelZh": "厨房纸",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
+      "labelZh": "Coop Giant 厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop giant køkkenrulle*",
       "authoredBy": "Codex",
@@ -2000,7 +2000,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_aged_hard",
-      "labelZh": "帕达诺/帕玛森硬质奶酪",
+      "labelZh": "Grana Padano 硬质奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop Grana Padano",
       "authoredBy": "Codex",
@@ -2012,7 +2012,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "Coop Grande 或 Ristorante 冷冻披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop Grande eller Ristorante pizza",
       "authoredBy": "Codex",
@@ -2048,7 +2048,7 @@
       "status": "active",
       "categoryId": "minced_meat",
       "comparisonGroup": "pork_minced",
-      "labelZh": "猪肉末",
+      "labelZh": "猪肉末（不同肥瘦比）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop hakket grisekød 4-7% eller 8-12%",
       "authoredBy": "Codex",
@@ -2080,10 +2080,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop hele spegepolser|sausages": {
+    "v1|coop hele spegepolser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "萨拉米或风干香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop hele spegepølser",
@@ -2120,7 +2120,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "Coop Italiana 或 Deep Pan 冷冻披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop Italiana eller Deep pan pizza",
       "authoredBy": "Codex",
@@ -2156,7 +2156,7 @@
       "status": "active",
       "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
-      "labelZh": "猪肋排",
+      "labelZh": "烧烤猪肋排/猪里脊卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok",
       "authoredBy": "Codex",
@@ -2168,7 +2168,7 @@
       "status": "active",
       "categoryId": "beef",
       "comparisonGroup": "lamb_other",
-      "labelZh": "牛臀尖烤肉",
+      "labelZh": "腌制羊臀肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop marineret lammeculotte",
       "authoredBy": "Codex",
@@ -2192,7 +2192,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "佛卡夏面包",
+      "labelZh": "香肠卷或意式辣肠佛卡夏",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop pølsehorn eller focaccia med pepperoni",
       "authoredBy": "Codex",
@@ -2252,7 +2252,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_sliced",
-      "labelZh": "切片奶酪",
+      "labelZh": "Coop 切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop skiveost",
       "authoredBy": "Codex",
@@ -2276,7 +2276,7 @@
       "status": "active",
       "categoryId": "pork_fresh",
       "comparisonGroup": "pork_mixed_offer",
-      "labelZh": "手撕猪肉",
+      "labelZh": "猪肋排/手撕猪肉/手撕鸡肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop spareribs, pulled pork eller pulled chicken",
       "authoredBy": "Codex",
@@ -2288,7 +2288,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "seafood_mixed_offer",
-      "labelZh": "裹粉蝴蝶虾",
+      "labelZh": "裹粉蝴蝶虾/炸鱼条/虾仁",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop torpedo rejer, fiskepinde eller rejer",
       "authoredBy": "Codex",
@@ -2300,7 +2300,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "seafood_mixed_offer",
-      "labelZh": "热熏三文鱼",
+      "labelZh": "热熏三文鱼/烟熏三文鱼/虾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop varmrøget-, røget laks eller rejer",
       "authoredBy": "Codex",
@@ -2308,10 +2308,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|cordon bleu af kalkun|turkey_processed": {
+    "v1|cordon bleu af kalkun|prepared_turkey": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "turkey_processed",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_turkey",
       "labelZh": "火鸡蓝带肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Cordon bleu af kalkun",
@@ -2560,10 +2560,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dansk kylling snack polser|chicken_sausages": {
+    "v1|dansk kylling snack polser|sausage_chicken": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chicken",
       "labelZh": "鸡肉零食香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dansk kylling snack pølser",
@@ -2648,7 +2648,7 @@
       "status": "active",
       "categoryId": "beef",
       "comparisonGroup": "beef_ribeye",
-      "labelZh": "小牛肋眼或 entrecôte 牛排",
+      "labelZh": "肋眼牛排",
       "reasonZh": "两个可选名称都属于肋眼附近的牛排部位，按肋眼小类比较。",
       "originalName": "Danske Egnsgårde kalve entrecote eller ribeye",
       "authoredBy": "Codex",
@@ -2708,7 +2708,7 @@
       "status": "active",
       "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
-      "labelZh": "散养鸡蛋",
+      "labelZh": "丹麦散养鸡蛋",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dava danske frilandsæg",
       "authoredBy": "Codex",
@@ -2768,7 +2768,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "熟食区新鲜披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Deli pizza",
       "authoredBy": "Codex",
@@ -2788,10 +2788,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|deluxe kartoffelgratin|potato_sides": {
+    "v1|deluxe kartoffelgratin|potato_gratin": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_gratin",
       "labelZh": "奶油焗土豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "DELUXE Kartoffelgratin",
@@ -2812,10 +2812,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|demon hunters servietter|paper": {
+    "v1|demon hunters servietter|paper_napkins": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Demon hunters servietter",
@@ -2836,10 +2836,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|den gronne slagter paalaeg postej eller kalkunbacon|poultry_deli_mixed": {
+    "v1|den gronne slagter paalaeg postej eller kalkunbacon|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "poultry_deli_mixed",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "冷切、肝酱或火鸡培根任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Den Grønne Slagter Pålæg, postej eller kalkunbacon",
@@ -2848,10 +2848,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|den gronne slagter paalaeg|bacon_deli": {
+    "v1|den gronne slagter paalaeg|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Den Grønne Slagter pålæg",
@@ -2884,11 +2884,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dolmio eller ben s sauce|sauces": {
+    "v1|dolmio eller ben s sauce|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "labelZh": "Dolmio 或 Ben's 意面酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dolmio eller Ben's sauce",
       "authoredBy": "Codex",
@@ -2948,7 +2948,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "止汗除味剂",
+      "labelZh": "多芬全身止汗露",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dove all over body deodorant",
       "authoredBy": "Codex",
@@ -2984,7 +2984,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "Dr. Oetker Suprema 冷冻披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dr. Oetker Suprema pizza",
       "authoredBy": "Codex",
@@ -2992,11 +2992,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dressing elller mayonnaise|sauces": {
+    "v1|dressing elller mayonnaise|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "蛋黄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "沙拉酱或蛋黄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Dressing elller mayonnaise",
       "authoredBy": "Codex",
@@ -3004,10 +3004,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dulano bacon i strimler|bacon_deli": {
+    "v1|dulano bacon i strimler|bacon_pieces": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_pieces",
       "labelZh": "培根条",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "DULANO Bacon i strimler",
@@ -3016,10 +3016,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dulano hamburgerryg|bacon_deli": {
+    "v1|dulano hamburgerryg|deli_pork_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "DULANO Hamburgerryg",
@@ -3028,10 +3028,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|dulano salami|bacon_deli": {
+    "v1|dulano salami|deli_cured_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_cured_sliced",
       "labelZh": "萨拉米或风干香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "DULANO Salami",
@@ -3080,7 +3080,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "面部护肤品",
+      "labelZh": "Eco Care 洗护或护肤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Eco Care hår- eller hudpleje",
       "authoredBy": "Codex",
@@ -3088,10 +3088,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|egelykke bacon i skiver|bacon_deli": {
+    "v1|egelykke bacon i skiver|bacon_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Egelykke bacon i skiver",
@@ -3128,7 +3128,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "面部护肤品",
+      "labelZh": "Elizabeth Arden 八小时保湿霜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Elizabeth Arden eight hour hudpleje",
       "authoredBy": "Codex",
@@ -3140,7 +3140,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "面部护肤品",
+      "labelZh": "Elizabeth Arden 绿茶系列护肤品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Elizabeth Arden green hudpleje",
       "authoredBy": "Codex",
@@ -3152,7 +3152,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "欧莱雅 Elvital 或海飞丝洗发护发任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Elvital eller Head&Shoulders shampoo eller balsam",
       "authoredBy": "Codex",
@@ -3164,7 +3164,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "Elvital 洗发水或护发素",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Elvital shampoo eller balsam",
       "authoredBy": "Codex",
@@ -3224,7 +3224,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "salmon_fresh",
-      "labelZh": "三文鱼柳",
+      "labelZh": "三文鱼块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Ferske laksestykker",
       "authoredBy": "Codex",
@@ -3248,7 +3248,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "seafood_other",
-      "labelZh": "多款鱼类或海鲜任选",
+      "labelZh": "鱼类海鲜任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Fiske- eller skaldyrsmarked",
       "authoredBy": "Codex",
@@ -3272,7 +3272,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "seafood_other",
-      "labelZh": "多款鱼类或海鲜任选",
+      "labelZh": "鱼类任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Fiskemarked",
       "authoredBy": "Codex",
@@ -3292,10 +3292,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|floralys kokkenrulle|paper": {
+    "v1|floralys kokkenrulle|paper_kitchen": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "labelZh": "厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "FLORALYS Køkkenrulle",
@@ -3304,10 +3304,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|floralys toiletpapir|paper": {
+    "v1|floralys toiletpapir|paper_toilet": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "FLORALYS Toiletpapir",
@@ -3316,10 +3316,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|floralys xxl kokkenrulle|paper": {
+    "v1|floralys xxl kokkenrulle|paper_kitchen": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
       "labelZh": "厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "FLORALYS XXL køkkenrulle",
@@ -3356,7 +3356,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Food Collective 家庭号预制菜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Food Collective familleret*",
       "authoredBy": "Codex",
@@ -3400,10 +3400,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|frankfurtere|sausages": {
+    "v1|frankfurtere|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "法兰克福香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Frankfurtere",
@@ -3412,10 +3412,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|fransk hotdog|ready_meal": {
+    "v1|fransk hotdog|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "ready_meal",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "法式热狗",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Fransk hotdog",
@@ -3464,7 +3464,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "Friends 三层卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Friends body 3-pak*",
       "authoredBy": "Codex",
@@ -3556,10 +3556,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|frokost favorit paalaeg|bacon_deli": {
+    "v1|frokost favorit paalaeg|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Frokost favorit pålæg*",
@@ -3584,7 +3584,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "冷冻方便餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Frostmarked",
       "authoredBy": "Codex",
@@ -3622,7 +3622,7 @@
       "comparisonGroup": "chocolate",
       "labelZh": "面包用薄片巧克力",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "GALLE & JESSEN Pålægschokolade",
+      "originalName": "Galle & Jessen pålægschokolade*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -3632,7 +3632,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "面部护肤品",
+      "labelZh": "Garnier 卸妆水或面霜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Garnier Micellar water eller Triple Active ansigtscreme*",
       "authoredBy": "Codex",
@@ -3764,7 +3764,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "Gliss 洗发水或护发素",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Gliss shampoo eller balsam",
       "authoredBy": "Codex",
@@ -3784,10 +3784,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|godt papir|paper": {
+    "v1|godt papir|paper_other": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_other",
       "labelZh": "纸品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Godt papir",
@@ -3796,10 +3796,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gol polser eller tulip bacon|pork_mixed_offer": {
+    "v1|gol polser eller tulip bacon|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Gøl pølser eller Tulip bacon",
@@ -3808,10 +3808,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gol polser|sausages": {
+    "v1|gol polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Gøl pølser",
@@ -3834,7 +3834,7 @@
     },
     "v1|graasten eller coop kartoffelsalat|potato_salad": {
       "status": "active",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "labelZh": "土豆沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3844,11 +3844,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|graasten fastfood dressing|sauces": {
+    "v1|graasten fastfood dressing|sauce_dressing": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "沙拉酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dressing",
+      "labelZh": "快餐沙拉酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Graasten fastfood dressing",
       "authoredBy": "Codex",
@@ -3858,7 +3858,7 @@
     },
     "v1|graasten kartoffelsalat|potato_salad": {
       "status": "active",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "labelZh": "土豆沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3868,13 +3868,13 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|graasten ketchup remoulade eller sennep|sauces": {
+    "v1|graasten ketchup remoulade eller sennep|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "番茄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "Graasten 番茄酱/remoulade/芥末酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Graasten ketchup, remoulade eller sennep*",
+      "originalName": "Graasten ketchup, remoulade eller sennep",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -3882,7 +3882,7 @@
     },
     "v1|graasten paalaegssalat|deli_spreads": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "deli_meat",
       "comparisonGroup": "deli_spreads",
       "labelZh": "三明治夹馅沙拉/抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -3892,11 +3892,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|graasten remoulade eller mayonnaise|sauces": {
+    "v1|graasten remoulade eller mayonnaise|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "蛋黄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "Graasten Remoulade 或蛋黄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Graasten remoulade eller mayonnaise",
       "authoredBy": "Codex",
@@ -3916,10 +3916,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gram slot pommes frites eller kartofler|potato_sides": {
+    "v1|gram slot pommes frites eller kartofler|potato_fries": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "labelZh": "新鲜土豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Gram Slot Pommes frites eller kartofler",
@@ -3940,10 +3940,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grillmester grillpolser|sausages": {
+    "v1|grillmester grillpolser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "GRILLMESTER Grillpølser",
@@ -3952,10 +3952,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grillmester kalkunhakkeboffer|turkey_processed": {
+    "v1|grillmester kalkunhakkeboffer|prepared_turkey": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "turkey_processed",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_turkey",
       "labelZh": "火鸡肉饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "GRILLMESTER Kalkunhakkebøffer",
@@ -3988,10 +3988,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grillmester oksemerguez eller grillfakler|sausages": {
+    "v1|grillmester oksemerguez eller grillfakler|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "labelZh": "香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "GRILLMESTER Oksemerguez eller grillfakler",
@@ -4012,10 +4012,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|chicken_sausages": {
+    "v1|grillpolser i baconsvob kyllingepolser eller bratwurst|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "labelZh": "鸡肉香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Grillpølser i baconsvøb, kyllingepølser eller bratwurst",
@@ -4216,10 +4216,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|harvest baket kartoffelkroketter|potato_sides": {
+    "v1|harvest baket kartoffelkroketter|potato_croquettes": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_croquettes",
       "labelZh": "土豆可乐饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HARVEST BAKET Kartoffelkroketter",
@@ -4228,10 +4228,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|harvest basket bolgeskaarne pommes frites|potato_sides": {
+    "v1|harvest basket bolgeskaarne pommes frites|potato_fries": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "labelZh": "冷冻薯条",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HARVEST BASKET Bølgeskårne pommes frites",
@@ -4240,10 +4240,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|harvest basket kartoffelbaade|potato_sides": {
+    "v1|harvest basket kartoffelbaade|potato_wedges": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_wedges",
       "labelZh": "冷冻薯角",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HARVEST BASKET Kartoffelbåde",
@@ -4252,10 +4252,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|harvest basket kartoffelrosti|potato_sides": {
+    "v1|harvest basket kartoffelrosti|potato_hash_browns": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_hash_browns",
       "labelZh": "瑞士土豆饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HARVEST BASKET Kartoffelrøsti",
@@ -4264,10 +4264,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|harvest basket pommes frites|potato_sides": {
+    "v1|harvest basket pommes frites|potato_fries": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "labelZh": "冷冻薯条",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HARVEST BASKET Pommes frites",
@@ -4278,7 +4278,7 @@
     },
     "v1|harvest best syltede rodlog|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "腌红洋葱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -4300,10 +4300,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hatting burgerboller eller hotdogbrod|bread": {
+    "v1|hatting burgerboller eller hotdogbrod|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "bread_bakery",
-      "comparisonGroup": "bread",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "汉堡面包胚",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hatting Burgerboller eller hotdogbrød",
@@ -4372,10 +4372,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|heinz ketchup eller mayonnaise|sauces": {
+    "v1|heinz ketchup eller mayonnaise|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "labelZh": "番茄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Heinz ketchup eller mayonnaise",
@@ -4384,11 +4384,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|heinz ketchup|sauces": {
+    "v1|heinz ketchup|sauce_ketchup": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "番茄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
+      "labelZh": "亨氏番茄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HEINZ Ketchup",
       "authoredBy": "Codex",
@@ -4396,10 +4396,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|heinz tomat ketchup eller sauce|sauces": {
+    "v1|heinz tomat ketchup eller sauce|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "labelZh": "番茄酱或烹调酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Heinz tomat-ketchup eller sauce",
@@ -4408,11 +4408,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|heinz tomatketchup eller sauce|sauces": {
+    "v1|heinz tomatketchup eller sauce|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "番茄酱或烹调酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "亨氏番茄酱或调味酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Heinz tomatketchup eller sauce",
       "authoredBy": "Codex",
@@ -4468,11 +4468,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hellmann s mayonnaise eller maille dijon sennep|sauces": {
+    "v1|hellmann s mayonnaise eller maille dijon sennep|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "蛋黄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "Hellmann's 蛋黄酱或 Maille 第戎芥末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hellmann’s mayonnaise eller Maille dijon sennep",
       "authoredBy": "Codex",
@@ -4480,10 +4480,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hellmann s mayonnaise|sauces": {
+    "v1|hellmann s mayonnaise|sauce_mayonnaise": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mayonnaise",
       "labelZh": "蛋黄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HELLMANN'S Mayonnaise",
@@ -4496,7 +4496,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "Hello Sensitive 二合一洗发沐浴露",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hello Sensitive 2i1 shampoo & bad",
       "authoredBy": "Codex",
@@ -4540,11 +4540,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hello sensitive vaadservietter|paper": {
+    "v1|hello sensitive vaadservietter|paper_mixed_offer": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
-      "labelZh": "湿巾",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "labelZh": "Hello Sensitive 敏感肌湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hello Sensitive vådservietter",
       "authoredBy": "Codex",
@@ -4552,10 +4552,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|herre griller med bacon|bacon_deli": {
+    "v1|herre griller med bacon|sausage_bacon": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_bacon",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "HERRE GRILLER MED BACON",
@@ -4576,10 +4576,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hojer chorizo brunchpolse eller steff houlberg bacon|bacon_deli": {
+    "v1|hojer chorizo brunchpolse eller steff houlberg bacon|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Højer chorizo brunchpølse eller Steff Houlberg bacon*",
@@ -4588,11 +4588,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hojer chorizo brunchpolser eller steff houlberg bacon|pork_mixed_offer": {
+    "v1|hojer chorizo brunchpolser eller steff houlberg bacon|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
-      "labelZh": "培根",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "labelZh": "西班牙辣肠/早午餐肠/培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Højer chorizo brunchpølser eller Steff Houlberg bacon*",
       "authoredBy": "Codex",
@@ -4640,7 +4640,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "止汗除味剂",
+      "labelZh": "Hugo Boss/Lacoste/Van Gils 男士止汗露",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hugo Boss, Lacoste eller Van Gils deodorant",
       "authoredBy": "Codex",
@@ -4736,7 +4736,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "Italiamo 冷冻披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ITALIAMO Pizza",
       "authoredBy": "Codex",
@@ -4744,10 +4744,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|italiensk paalaeg|bacon_deli": {
+    "v1|italiensk paalaeg|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "意式冷切肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Italiensk pålæg",
@@ -4780,11 +4780,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|jensens kokken sauce|sauces": {
+    "v1|jensens kokken sauce|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "labelZh": "Jensens Køkken 烹调用酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Jensens Køkken sauce",
       "authoredBy": "Codex",
@@ -4804,11 +4804,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|jensens sauce|sauces": {
+    "v1|jensens sauce|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "labelZh": "Jensens 酱料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Jensens sauce",
       "authoredBy": "Codex",
@@ -4852,10 +4852,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|k salat bearnaisesauce|sauces": {
+    "v1|k salat bearnaisesauce|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
       "labelZh": "贝阿恩酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "K-SALAT Bearnaisesauce",
@@ -4864,10 +4864,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|k salat mayonnaise eller remoulade|sauces": {
+    "v1|k salat mayonnaise eller remoulade|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "labelZh": "蛋黄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "K-SALAT Mayonnaise eller remoulade",
@@ -4878,9 +4878,9 @@
     },
     "v1|k salat paalaegssalat|deli_spreads": {
       "status": "active",
-      "categoryId": "frozen_ready",
+      "categoryId": "deli_meat",
       "comparisonGroup": "deli_spreads",
-      "labelZh": "三明治夹馅沙拉/抹酱",
+      "labelZh": "三明治夹馅沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "K-Salat pålægssalat",
       "authoredBy": "Codex",
@@ -5008,10 +5008,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kanel eller wienerstang|biscuits": {
+    "v1|kanel eller wienerstang|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "丹麦酥皮长条甜点",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kanel- eller wienerstang*",
@@ -5140,10 +5140,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kartoffelkroketter|potato_sides": {
+    "v1|kartoffelkroketter|potato_croquettes": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_croquettes",
       "labelZh": "土豆可乐饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kartoffelkroketter",
@@ -5170,7 +5170,7 @@
       "comparisonGroup": "cereal",
       "labelZh": "早餐谷物或燕麦",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Kellogg's morgenmad",
+      "originalName": "Kellogg's morgenmad*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -5212,11 +5212,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kikkoman soya sauce|sauces": {
+    "v1|kikkoman soya sauce|sauce_soy": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_soy",
+      "labelZh": "万字酱油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kikkoman soya sauce",
       "authoredBy": "Codex",
@@ -5312,7 +5312,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Kitchen Joy 西西里风味鸡肉饭",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kitchen Joy Pollo Alla Siciliana færdigret",
       "authoredBy": "Codex",
@@ -5324,7 +5324,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Kitchen Joy 大麦炖肉丸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kitchen Joy Polpette Con Orzotto færdigret",
       "authoredBy": "Codex",
@@ -5348,7 +5348,7 @@
       "status": "active",
       "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
-      "labelZh": "清洁用品",
+      "labelZh": "Klorin 或 Cillit Bang 清洁剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Klorin eller Cillit Bang*",
       "authoredBy": "Codex",
@@ -5432,7 +5432,7 @@
       "status": "active",
       "categoryId": "pantry",
       "comparisonGroup": "spices",
-      "labelZh": "高汤块或浓缩高汤",
+      "labelZh": "Knorr 高汤块或浓缩高汤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Knorr Bouillon eller fond",
       "authoredBy": "Codex",
@@ -5444,7 +5444,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Knorr 方便餐料理包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Knorr dinner kit",
       "authoredBy": "Codex",
@@ -5512,10 +5512,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kohberg hotdogbrod|bread": {
+    "v1|kohberg hotdogbrod|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "bread_bakery",
-      "comparisonGroup": "bread",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KOHBERG Hotdogbrød",
@@ -5620,10 +5620,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka bockwurst|sausages": {
+    "v1|kuljanka bockwurst|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "德式博克香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Bockwurst",
@@ -5632,10 +5632,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka bonner|canned": {
+    "v1|kuljanka bonner|canned_beans": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "canned",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_beans",
       "labelZh": "豆类罐头",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Bønner",
@@ -5668,10 +5668,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka farsbrod|prepared_meatballs": {
+    "v1|kuljanka farsbrod|prepared_mixed_meat": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "prepared_meatballs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
       "labelZh": "肉糜烤肉卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Farsbrød",
@@ -5706,7 +5706,7 @@
     },
     "v1|kuljanka hvidkaalssalat|prepared_salad": {
       "status": "active",
-      "categoryId": "vegetables",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_salad",
       "labelZh": "卷心菜沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5728,10 +5728,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka kindziuk skinke eller kabanossi|bacon_deli": {
+    "v1|kuljanka kindziuk skinke eller kabanossi|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Kindziuk skinke eller kabanossi",
@@ -5776,10 +5776,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka polsk krakauerpolse|sausages": {
+    "v1|kuljanka polsk krakauerpolse|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "中欧烟熏香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Polsk krakauerpølse",
@@ -5788,10 +5788,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka roget polsk polse|sausages": {
+    "v1|kuljanka roget polsk polse|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Røget polsk pølse",
@@ -5802,7 +5802,7 @@
     },
     "v1|kuljanka sauerkraut|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "德式酸菜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5812,10 +5812,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka schlesiske polser|sausages": {
+    "v1|kuljanka schlesiske polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Schlesiske pølser",
@@ -5836,10 +5836,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kuljanka skinke|bacon_deli": {
+    "v1|kuljanka skinke|deli_pork_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KULJANKA Skinke",
@@ -5862,7 +5862,7 @@
     },
     "v1|kuljanka syltede agurker|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "黄瓜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5908,10 +5908,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kyllingepopcorn|chicken_breaded": {
+    "v1|kyllingepopcorn|prepared_chicken_breaded": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breaded",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
       "labelZh": "爆米花鸡块（裹粉小鸡块）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kyllingepopcorn",
@@ -5922,7 +5922,7 @@
     },
     "v1|kyllingespyd|chicken_skewers": {
       "status": "active",
-      "categoryId": "chicken",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "chicken_skewers",
       "labelZh": "调味鸡肉串",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -5948,7 +5948,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_feta_white",
-      "labelZh": "菲达式白奶酪",
+      "labelZh": "菲达奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "La Campagna feta",
       "authoredBy": "Codex",
@@ -5968,11 +5968,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|la campagna pizzasauce|sauces": {
+    "v1|la campagna pizzasauce|sauce_pizza": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_pizza",
+      "labelZh": "La Campagna 披萨酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "La Campagna pizzasauce",
       "authoredBy": "Codex",
@@ -5980,11 +5980,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|la campagna spicy hummus|sauces": {
+    "v1|la campagna spicy hummus|sauce_dip": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "鹰嘴豆泥",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dip",
+      "labelZh": "La Campagna 辣味鹰嘴豆泥",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "La Campagna spicy hummus",
       "authoredBy": "Codex",
@@ -5992,10 +5992,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|la campagna tomater harvest best bonner eller kikaerter|canned": {
+    "v1|la campagna tomater harvest best bonner eller kikaerter|canned_beans": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "canned",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_beans",
       "labelZh": "番茄",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "La Campagna tomater, Harvest Best bønner eller kikærter",
@@ -6016,10 +6016,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lambi classic papir|paper": {
+    "v1|lambi classic papir|paper_other": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_other",
       "labelZh": "纸品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Lambi Classic papir",
@@ -6028,10 +6028,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lambi premium toiletpapir kokkenrulle eller coop giant kokkenrulle|paper": {
+    "v1|lambi premium toiletpapir kokkenrulle eller coop giant kokkenrulle|paper_mixed_offer": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Lambi Premium toiletpapir/ køkkenrulle eller Coop giant køkkenrulle",
@@ -6040,10 +6040,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lange laender brunchpolser|sausages": {
+    "v1|lange laender brunchpolser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LANGE LÆNDER Brunchpølser",
@@ -6052,10 +6052,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|langelaender polser|sausages": {
+    "v1|langelaender polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Langelænder pølser",
@@ -6068,7 +6068,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "美宝莲 Lash Sensational 睫毛膏",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Lash Sensational body mascara",
       "authoredBy": "Codex",
@@ -6080,7 +6080,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "美宝莲 Sky High 睫毛膏或打底膏",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Lash Sensational Sky High mascara eller tinted primer",
       "authoredBy": "Codex",
@@ -6280,11 +6280,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|logismose pesto hummus eller haydari|sauces": {
+    "v1|logismose pesto hummus eller haydari|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "青酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "Løgismose 青酱/鹰嘴豆泥/土耳其酸奶酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Løgismose pesto, hummus eller haydari",
       "authoredBy": "Codex",
@@ -6316,10 +6316,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lotus toiletpapir|paper": {
+    "v1|lotus toiletpapir|paper_toilet": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LOTUS Toiletpapir",
@@ -6380,7 +6380,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "LUPILU 身体护理",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Body",
       "authoredBy": "Codex",
@@ -6412,10 +6412,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lupilu vaadservietter|paper": {
+    "v1|lupilu vaadservietter|paper_mixed_offer": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Vådservietter",
@@ -6560,7 +6560,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_sliced",
-      "labelZh": "丹麦 Danbo 奶酪",
+      "labelZh": "Danbo 切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Danbo skiveost",
       "authoredBy": "Codex",
@@ -6640,10 +6640,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket grillpolser|sausages": {
+    "v1|madvaerket grillpolser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Grillpølser",
@@ -6802,7 +6802,7 @@
       "comparisonGroup": "chicken_breast",
       "labelZh": "鸡胸肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "MADVÆRKET Kyllingebrystfilet",
+      "originalName": "MADVÆRKET. Kyllingebrystfilet",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -6832,10 +6832,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket medister|sausages": {
+    "v1|madvaerket medister|sausage_pork": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_pork",
       "labelZh": "丹麦粗猪肉香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Medister",
@@ -6952,10 +6952,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|bacon_deli": {
+    "v1|madvaerket rullepolse hamburgerryg eller sennepsskinke|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Rullepølse, hamburgerryg eller sennepsskinke",
@@ -6980,7 +6980,7 @@
       "status": "active",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
-      "labelZh": "Skyr 高蛋白发酵乳",
+      "labelZh": "冰岛酸奶原味或香草",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Skyr naturel eller vanilje",
       "authoredBy": "Codex",
@@ -7232,7 +7232,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_danish_table",
-      "labelZh": "块状切片奶酪",
+      "labelZh": "Mammen 块状奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mammen skæreost",
       "authoredBy": "Codex",
@@ -7256,7 +7256,7 @@
       "status": "active",
       "categoryId": "pantry",
       "comparisonGroup": "spices",
-      "labelZh": "芝麻",
+      "labelZh": "Mamone 芝麻",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mamone sesam",
       "authoredBy": "Codex",
@@ -7412,7 +7412,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "面部护肤品",
+      "labelZh": "Medicube PDRN 粉红胜肽精华",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Medicube pdrn pink peptide serum",
       "authoredBy": "Codex",
@@ -7422,7 +7422,7 @@
     },
     "v1|melonmix frugtmix eller ananas i skiver|prepared_fruit": {
       "status": "active",
-      "categoryId": "fruit",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_fruit",
       "labelZh": "菠萝",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7484,7 +7484,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_grated",
-      "labelZh": "墨西哥菜用刨丝奶酪",
+      "labelZh": "墨西哥菜刨丝奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mexitopping*",
       "authoredBy": "Codex",
@@ -7492,10 +7492,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|middagsfrikadeller eller mini kodboller|prepared_meatballs": {
+    "v1|middagsfrikadeller eller mini kodboller|prepared_mixed_meat": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "prepared_meatballs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
       "labelZh": "丹麦肉丸饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Middagsfrikadeller eller mini kødboller",
@@ -7676,7 +7676,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_feta_white",
-      "labelZh": "菲达式白奶酪",
+      "labelZh": "MILBONA 白奶酪块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Hvid ost i blok",
       "authoredBy": "Codex",
@@ -7688,7 +7688,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_cottage_ricotta",
-      "labelZh": "茅屋奶酪",
+      "labelZh": "MILBONA 茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Hytteost",
       "authoredBy": "Codex",
@@ -7760,7 +7760,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_mozzarella_burrata",
-      "labelZh": "马苏里拉奶酪",
+      "labelZh": "MILBONA 马苏里拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Mozzarella",
       "authoredBy": "Codex",
@@ -7772,7 +7772,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_grated",
-      "labelZh": "刨丝马苏里拉奶酪",
+      "labelZh": "刨丝马苏里拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Revet mozzarella",
       "authoredBy": "Codex",
@@ -7784,7 +7784,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_grated",
-      "labelZh": "奶酪",
+      "labelZh": "刨丝混合奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MILBONA Revet ost",
       "authoredBy": "Codex",
@@ -7904,7 +7904,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "Monday Moisture 保湿洗发水或护发素",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Monday moisture shampoo eller balsam",
       "authoredBy": "Codex",
@@ -7948,11 +7948,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|mutti tomater eller pizzasauce|sauces": {
+    "v1|mutti tomater eller pizzasauce|mixed_grocery_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "番茄",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "mixed_grocery_offer",
+      "labelZh": "Mutti 番茄罐头或披萨酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Mutti tomater eller pizzasauce",
       "authoredBy": "Codex",
@@ -7962,7 +7962,7 @@
     },
     "v1|mutti tomatkonserves|canned_tomatoes": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "canned_tomatoes",
       "labelZh": "番茄罐头",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -7976,7 +7976,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "解冻即食方便餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Næmt tø og server",
       "authoredBy": "Codex",
@@ -8024,7 +8024,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Naturli’ 植物基晚餐组件",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Naturli’ middagskomponenter",
       "authoredBy": "Codex",
@@ -8096,7 +8096,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "shrimp",
-      "labelZh": "南美白虾",
+      "labelZh": "格陵兰虾或南美白虾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Navito grønlandske eller vannameirejer",
       "authoredBy": "Codex",
@@ -8164,11 +8164,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|nemt gront teriyaki sauce|sauces": {
+    "v1|nemt gront teriyaki sauce|sauce_teriyaki": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_teriyaki",
+      "labelZh": "Nemt & Grønt 照烧酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Nemt & Grønt Teriyaki sauce",
       "authoredBy": "Codex",
@@ -8240,7 +8240,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "Neutral 无香洗护或身体乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Neutral krops- eller hårpleje",
       "authoredBy": "Codex",
@@ -8252,7 +8252,7 @@
       "status": "active",
       "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
-      "labelZh": "洗衣液或洗衣粉",
+      "labelZh": "Neutral 无香洗衣液或柔顺剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Neutral vaskemiddel eller skyllemiddel",
       "authoredBy": "Codex",
@@ -8276,7 +8276,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "妮维雅止汗露/沐浴露/Labello 润唇膏任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Nivea deo, showergel eller Labello læbepomade",
       "authoredBy": "Codex",
@@ -8300,7 +8300,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Nøglehulsmærket 健康方便餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Nøglehulsret",
       "authoredBy": "Codex",
@@ -8370,7 +8370,7 @@
     },
     "v1|nostja ajvar|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "巴尔干烤椒酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8418,7 +8418,7 @@
     },
     "v1|nostja pindur|pickled_vegetables": {
       "status": "active",
-      "categoryId": "pantry",
+      "categoryId": "canned_pickled",
       "comparisonGroup": "pickled_vegetables",
       "labelZh": "巴尔干烤椒酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -8458,7 +8458,7 @@
       "comparisonGroup": "spreads_jam",
       "labelZh": "榛子巧克力酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Nutella & Go, Dumle karamel eller Marianne*",
+      "originalName": "Nutella & go, Dumle karamel eller Marianne*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8524,11 +8524,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|odense marcipan dessert sauce|sauces": {
+    "v1|odense marcipan dessert sauce|sauce_other": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "labelZh": "Odense Marcipan 甜点酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Odense Marcipan dessert sauce",
       "authoredBy": "Codex",
@@ -8584,11 +8584,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|ogo okologiske polser|sausages": {
+    "v1|ogo okologiske polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
-      "labelZh": "烧烤香肠",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "labelZh": "有机香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ØGO økologiske pølser",
       "authoredBy": "Codex",
@@ -8740,10 +8740,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|okologiske polser|sausages": {
+    "v1|okologiske polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Økologiske pølser",
@@ -8884,10 +8884,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren bacon i skiver|bacon_deli": {
+    "v1|paalaegsslagteren bacon i skiver|bacon_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Bacon i skiver",
@@ -8896,11 +8896,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren baconleverpostej|bacon_deli": {
+    "v1|paalaegsslagteren baconleverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
-      "labelZh": "丹麦肝酱",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
+      "labelZh": "培根肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Baconleverpostej",
       "authoredBy": "Codex",
@@ -8908,10 +8908,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren bacontern|bacon_deli": {
+    "v1|paalaegsslagteren bacontern|bacon_pieces": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_pieces",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Bacontern",
@@ -8920,11 +8920,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren fransk leverpostej|bacon_deli": {
+    "v1|paalaegsslagteren fransk leverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
-      "labelZh": "丹麦肝酱",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
+      "labelZh": "法式肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Fransk leverpostej",
       "authoredBy": "Codex",
@@ -8932,10 +8932,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|bacon_deli": {
+    "v1|paalaegsslagteren grill og pande wiener eller hotdogpolser|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Grill- og pande-, wiener- eller hotdogpølser",
@@ -8944,10 +8944,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren leverpostej|bacon_deli": {
+    "v1|paalaegsslagteren leverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Leverpostej",
@@ -8956,10 +8956,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|bacon_deli": {
+    "v1|paalaegsslagteren rullepolse hamburgerryg eller roget rullepolse|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PÅLÆGSSLAGTEREN Rullepølse, hamburgerryg eller røget rullepølse",
@@ -8968,10 +8968,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaekker paalaeg baconleverpostej eller salami hapser|bacon_deli": {
+    "v1|paalaekker paalaeg baconleverpostej eller salami hapser|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Pålækker pålæg, baconleverpostej eller salami-hapser",
@@ -8980,10 +8980,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaekker paalaeg salami hapser eller tulip postej|bacon_deli": {
+    "v1|paalaekker paalaeg salami hapser eller tulip postej|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Pålækker pålæg, salami-hapser eller Tulip postej",
@@ -8992,10 +8992,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|paalaekker rullepolse eller hamburgerryg|bacon_deli": {
+    "v1|paalaekker rullepolse eller hamburgerryg|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Pålækker Rullepølse eller hamburgerryg",
@@ -9008,7 +9008,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "止汗除味剂",
+      "labelZh": "Paco Rabanne 止汗露",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Paco Rabanne deodorant",
       "authoredBy": "Codex",
@@ -9020,7 +9020,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "个人洗护用品",
+      "labelZh": "Palmolive 或 Pantene 洗护",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Palmolive, Pantene krops- eller hårpleje",
       "authoredBy": "Codex",
@@ -9044,7 +9044,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "奶酪",
+      "labelZh": "火腿芝士帕尼尼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Panini med skinke og ost",
       "authoredBy": "Codex",
@@ -9064,10 +9064,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|pastasauce majs eller kikaerte marked|pasta_noodles": {
+    "v1|pastasauce majs eller kikaerte marked|mixed_grocery_offer": {
       "status": "active",
       "categoryId": "rice_pasta",
-      "comparisonGroup": "pasta_noodles",
+      "comparisonGroup": "mixed_grocery_offer",
       "labelZh": "玉米",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Pastasauce, majs eller kikærte marked",
@@ -9100,10 +9100,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|peka flodekartofler|potato_sides": {
+    "v1|peka flodekartofler|potato_gratin": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_gratin",
       "labelZh": "奶油焗土豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Peka flødekartofler",
@@ -9112,10 +9112,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|peka kartofler|potato_sides": {
+    "v1|peka kartofler|potato_mixed_offer": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_mixed_offer",
       "labelZh": "新鲜土豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Peka kartofler",
@@ -9128,7 +9128,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "炸鹰嘴豆丸",
+      "labelZh": "有机脆炸鹰嘴豆丸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Perfect Season økologisk crispy falafel",
       "authoredBy": "Codex",
@@ -9176,7 +9176,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_spreadable",
-      "labelZh": "奶油奶酪",
+      "labelZh": "Philadelphia 奶油奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PHILADELPHIA Flødeost",
       "authoredBy": "Codex",
@@ -9196,10 +9196,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|piccardo savore ekstra jomfruolivenolie|oil_vinegar": {
+    "v1|piccardo savore ekstra jomfruolivenolie|oil_olive": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "oil_vinegar",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
       "labelZh": "特级初榨橄榄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Piccardo & Savoré ekstra jomfruolivenolie",
@@ -9256,11 +9256,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|polsemesteren hotdog eller grillpolser|sausages": {
+    "v1|polsemesteren hotdog eller grillpolser|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
-      "labelZh": "烧烤香肠",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "labelZh": "热狗肠或烧烤肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Pølsemesteren hotdog- eller grillpølser",
       "authoredBy": "Codex",
@@ -9440,7 +9440,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_feta_white",
-      "labelZh": "沙拉白奶酪",
+      "labelZh": "Puck 沙拉白奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "PUCK Salatost",
       "authoredBy": "Codex",
@@ -9496,10 +9496,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 bolgeskaarne pommes frites|potato_sides": {
+    "v1|rema 1000 bolgeskaarne pommes frites|potato_fries": {
       "status": "active",
-      "categoryId": "frozen_ready",
-      "comparisonGroup": "potato_sides",
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_fries",
       "labelZh": "冷冻薯条",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Bølgeskårne pommes frites",
@@ -9642,7 +9642,7 @@
     },
     "v1|rema 1000 eller flensted kartoffelsalat|potato_salad": {
       "status": "active",
-      "categoryId": "vegetables",
+      "categoryId": "potato_products",
       "comparisonGroup": "potato_salad",
       "labelZh": "土豆沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -9664,10 +9664,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|bacon_deli": {
+    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ",
@@ -9884,7 +9884,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "千层面方便餐",
+      "labelZh": "千层面或烩饭方便餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Lasagne, lasagnette, risret, ris og karry eller carbonara",
       "authoredBy": "Codex",
@@ -9892,10 +9892,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper": {
+    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_napkins": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Lommeletter med balsam eller ansigtsservietter",
@@ -9908,7 +9908,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "丹麦酥皮派或春卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 madtærte eller Daloon ruller",
       "authoredBy": "Codex",
@@ -9988,10 +9988,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 rod eller gron pesto|sauces": {
+    "v1|rema 1000 rod eller gron pesto|sauce_pesto": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_pesto",
       "labelZh": "青酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Rød eller grøn pesto",
@@ -10036,10 +10036,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 saltkod|bacon_deli": {
+    "v1|rema 1000 saltkod|deli_pork_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Saltkød",
@@ -10120,10 +10120,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 tomatpure eller pastasauce|pasta_noodles": {
+    "v1|rema 1000 tomatpure eller pastasauce|mixed_grocery_offer": {
       "status": "active",
       "categoryId": "rice_pasta",
-      "comparisonGroup": "pasta_noodles",
+      "comparisonGroup": "mixed_grocery_offer",
       "labelZh": "番茄膏或意面酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Tomatpuré eller pastasauce",
@@ -10132,10 +10132,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 ultrasoft kokkenruller eller toiletpapir 4 lags|paper": {
+    "v1|rema 1000 ultrasoft kokkenruller eller toiletpapir 4 lags|paper_mixed_offer": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 ultrasoft køkkenruller eller toiletpapir 4-lags",
@@ -10168,10 +10168,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|renova textil toiletpapir|paper": {
+    "v1|renova textil toiletpapir|paper_toilet": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Renova Textil toiletpapir",
@@ -10184,7 +10184,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "止汗除味剂",
+      "labelZh": "Rexona 或 Dove 止汗露/洗手液",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Rexona deodorant eller Dove deodorant/ håndsæbe",
       "authoredBy": "Codex",
@@ -10196,7 +10196,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "止汗除味剂",
+      "labelZh": "Rexona 止汗露或 Neutral 洗手液",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Rexona deodorant eller Neutral håndsæbe",
       "authoredBy": "Codex",
@@ -10268,7 +10268,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_sliced",
-      "labelZh": "切片奶酪",
+      "labelZh": "Riberhus 切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Riberhus skiveost",
       "authoredBy": "Codex",
@@ -10506,7 +10506,7 @@
     },
     "v1|salatbowls|prepared_salad": {
       "status": "active",
-      "categoryId": "vegetables",
+      "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_salad",
       "labelZh": "预制沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -10520,7 +10520,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Salling 或 Michelle Kristensen 玻璃罐预制菜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Salling eller Michelle Kristensen færdigret i glas",
       "authoredBy": "Codex",
@@ -10552,11 +10552,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|salling ketchup|sauces": {
+    "v1|salling ketchup|sauce_ketchup": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "番茄酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
+      "labelZh": "Salling 番茄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "salling Ketchup",
       "authoredBy": "Codex",
@@ -10600,10 +10600,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|salling princip brioche hotdogbrod pretzel style|bread": {
+    "v1|salling princip brioche hotdogbrod pretzel style|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "bread_bakery",
-      "comparisonGroup": "bread",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Salling Princip brioche hotdogbrød pretzel style",
@@ -10616,7 +10616,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "pizza_snacks",
-      "labelZh": "冷冻或即食披萨",
+      "labelZh": "Salling 石炉烘焙冷冻披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "salling Stenovnsbagt pizza",
       "authoredBy": "Codex",
@@ -10676,7 +10676,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Santa Maria 亚洲风味速食",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Santa Maria asiatisk marked",
       "authoredBy": "Codex",
@@ -10684,10 +10684,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|santa maria bbq sauce|sauces": {
+    "v1|santa maria bbq sauce|sauce_bbq": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_bbq",
       "labelZh": "烹调酱料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SANTA MARIA BBQ-sauce",
@@ -10700,7 +10700,7 @@
       "status": "active",
       "categoryId": "pantry",
       "comparisonGroup": "spices",
-      "labelZh": "混合香料",
+      "labelZh": "Santa Maria 混合香辛料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Santa Maria krydderi",
       "authoredBy": "Codex",
@@ -10804,10 +10804,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|servietter|paper": {
+    "v1|servietter|paper_napkins": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Servietter",
@@ -10924,10 +10924,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|slagter lampe frankfurter|sausages": {
+    "v1|slagter lampe frankfurter|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "法兰克福香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SLAGTER LAMPE Frankfurter",
@@ -10936,10 +10936,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|slagter lampe polser|sausages": {
+    "v1|slagter lampe polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Slagter Lampe Pølser",
@@ -10960,10 +10960,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|slagtermester andersen stor leverpostej|bacon_deli": {
+    "v1|slagtermester andersen stor leverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Slagtermester Andersen Stor leverpostej",
@@ -11032,11 +11032,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar blaeksprutteringe eller chorizo kroketter|seafood_mixed_offer": {
+    "v1|sol mar blaeksprutteringe eller chorizo kroketter|sausage_chorizo": {
       "status": "active",
-      "categoryId": "seafood",
-      "comparisonGroup": "seafood_mixed_offer",
-      "labelZh": "西班牙辣味香肠",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "labelZh": "鱿鱼圈或西班牙辣肠炸丸子",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Blæksprutteringe eller chorizo-kroketter",
       "authoredBy": "Codex",
@@ -11044,10 +11044,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar chorizo grillpolser|sausages": {
+    "v1|sol mar chorizo grillpolser|sausage_chorizo": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
       "labelZh": "西班牙辣味香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Chorizo-grillpølser",
@@ -11056,10 +11056,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar chorizo sarta eller serrano|bacon_deli": {
+    "v1|sol mar chorizo sarta eller serrano|deli_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "labelZh": "西班牙辣味香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Chorizo sarta eller serrano",
@@ -11120,7 +11120,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "white_fish",
-      "labelZh": "沙丁鱼",
+      "labelZh": "整条沙丁鱼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Hele sardiner",
       "authoredBy": "Codex",
@@ -11180,7 +11180,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "西班牙海鲜饭（Paella）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Paella",
       "authoredBy": "Codex",
@@ -11192,7 +11192,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "西班牙海鲜饭套装",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Paellasæt",
       "authoredBy": "Codex",
@@ -11200,11 +11200,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar piri piri sauce|sauces": {
+    "v1|sol mar piri piri sauce|sauce_chili": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "烹调酱料",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_chili",
+      "labelZh": "SOL&MAR Piri-Piri 辣酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Piri piri-sauce",
       "authoredBy": "Codex",
@@ -11212,10 +11212,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar serranoskinke|bacon_deli": {
+    "v1|sol mar serranoskinke|deli_cured_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_cured_sliced",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Serranoskinke",
@@ -11224,10 +11224,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar skinke i skiver|bacon_deli": {
+    "v1|sol mar skinke i skiver|deli_pork_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Skinke i skiver",
@@ -11236,11 +11236,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar spansk ekstra jomfruolivenolie|oil_vinegar": {
+    "v1|sol mar spansk ekstra jomfruolivenolie|oil_olive": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "oil_vinegar",
-      "labelZh": "特级初榨橄榄油",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
+      "labelZh": "西班牙特级初榨橄榄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Spansk ekstra jomfruolivenolie",
       "authoredBy": "Codex",
@@ -11276,7 +11276,7 @@
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "shrimp",
-      "labelZh": "虾",
+      "labelZh": "南美白虾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Vannamei-rejer",
       "authoredBy": "Codex",
@@ -11416,10 +11416,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|steff houlberg brunchpolser eller bacon i skiver|pork_mixed_offer": {
+    "v1|steff houlberg brunchpolser eller bacon i skiver|sausage_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Steff Houlberg Brunchpølser eller bacon i skiver",
@@ -11432,7 +11432,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "Steff Houlberg 或 Protein Lab 预制菜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Steff Houlberg færdigret eller Protein Lab færdigret",
       "authoredBy": "Codex",
@@ -11440,10 +11440,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|steff houlberg hotdog grill eller bayerske polser|sausages": {
+    "v1|steff houlberg hotdog grill eller bayerske polser|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "STEFF HOULBERG Hotdog-, grill- eller bayerske pølser",
@@ -11452,22 +11452,22 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|steff houlberg polser|sausages": {
+    "v1|steff houlberg polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
-      "labelZh": "烧烤香肠",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "labelZh": "Steff Houlberg 香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Steff Houlberg pølser",
+      "originalName": "Steff Houlberg pølser*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|steff houlberg skinkestrimler|bacon_deli": {
+    "v1|steff houlberg skinkestrimler|deli_pork_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Steff Houlberg skinkestrimler",
@@ -11524,11 +11524,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|stryhn s leverpostej|bacon_deli": {
+    "v1|stryhn s leverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
-      "labelZh": "丹麦肝酱",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
+      "labelZh": "Stryhn's 丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "STRYHN’S Leverpostej",
       "authoredBy": "Codex",
@@ -11536,11 +11536,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|stryhns leverpostej|bacon_deli": {
+    "v1|stryhns leverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
-      "labelZh": "丹麦肝酱",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
+      "labelZh": "Stryhns 肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Stryhns leverpostej",
       "authoredBy": "Codex",
@@ -11548,10 +11548,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|stryhns postej eller roget medister|pork_mixed_offer": {
+    "v1|stryhns postej eller roget medister|liver_pate": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Stryhns postej eller røget medister",
@@ -11560,10 +11560,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|stryhns postej|bacon_deli": {
+    "v1|stryhns postej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Stryhns postej",
@@ -11576,7 +11576,7 @@
       "status": "active",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
-      "labelZh": "洗发水或护发素",
+      "labelZh": "Stuhr 洗发水或护发素",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Stuhr shampoo eller balsam",
       "authoredBy": "Codex",
@@ -11632,11 +11632,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|svanso dressing aioli eller pesto|sauces": {
+    "v1|svanso dressing aioli eller pesto|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
-      "labelZh": "沙拉酱",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "labelZh": "Svansø 沙拉酱/蒜泥蛋黄酱/青酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Svansø dressing, aioli eller pesto",
       "authoredBy": "Codex",
@@ -11644,10 +11644,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|svanso sauce mayo eller dressing|sauces": {
+    "v1|svanso sauce mayo eller dressing|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "labelZh": "沙拉酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Svansø sauce, mayo eller dressing",
@@ -11668,10 +11668,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sweet baby ray s bbq sauce|sauces": {
+    "v1|sweet baby ray s bbq sauce|sauce_bbq": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_bbq",
       "labelZh": "烹调酱料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Sweet Baby Ray's BBQ-sauce",
@@ -11728,10 +11728,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_deli": {
+    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Taga bacondadler, fuet snack sticks eller skiver",
@@ -11740,10 +11740,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|taga chorizo eller casa modena salsiccia|sausages": {
+    "v1|taga chorizo eller casa modena salsiccia|sausage_chorizo": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
       "labelZh": "西班牙辣味香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Taga chorizo eller Casa Modena salsiccia",
@@ -11752,10 +11752,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|taga serrano|bacon_deli": {
+    "v1|taga serrano|deli_cured_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_cured_sliced",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Taga serrano",
@@ -11828,7 +11828,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_mozzarella_burrata",
-      "labelZh": "马苏里拉奶酪",
+      "labelZh": "Burrata 或马苏里拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Thise økologisk burrata eller mozzarella*",
       "authoredBy": "Codex",
@@ -11888,7 +11888,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_danish_table",
-      "labelZh": "块状切片奶酪",
+      "labelZh": "Thise 有机切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Thise økologisk skæreost",
       "authoredBy": "Codex",
@@ -11936,7 +11936,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_cottage_ricotta",
-      "labelZh": "茅屋奶酪",
+      "labelZh": "茅屋奶酪沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tjia hytteostsalat",
       "authoredBy": "Codex",
@@ -11948,7 +11948,7 @@
       "status": "active",
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
-      "labelZh": "预制方便餐",
+      "labelZh": "即取即走方便食品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "To go marked",
       "authoredBy": "Codex",
@@ -12064,10 +12064,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip bacon i skiver eller tern|bacon_deli": {
+    "v1|tulip bacon i skiver eller tern|bacon_mixed_offer": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_mixed_offer",
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "TULIP Bacon i skiver eller tern",
@@ -12076,10 +12076,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip bacon|bacon_deli": {
+    "v1|tulip bacon|bacon_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tulip bacon",
@@ -12088,11 +12088,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip baconleverpostej|bacon_deli": {
+    "v1|tulip baconleverpostej|liver_pate": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
-      "labelZh": "丹麦肝酱",
+      "categoryId": "liver_pate",
+      "comparisonGroup": "liver_pate",
+      "labelZh": "Tulip 培根肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "TULIP Baconleverpostej",
       "authoredBy": "Codex",
@@ -12100,10 +12100,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip frankfurtere|sausages": {
+    "v1|tulip frankfurtere|sausage_frankfurter": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_frankfurter",
       "labelZh": "法兰克福香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tulip frankfurtere",
@@ -12136,10 +12136,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip skiveskaaret bacon|bacon_deli": {
+    "v1|tulip skiveskaaret bacon|bacon_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
       "labelZh": "培根",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "TULIP Skiveskåret bacon",
@@ -12220,10 +12220,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|vaadservietter|paper": {
+    "v1|vaadservietter|paper_mixed_offer": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Vådservietter",
@@ -12484,10 +12484,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|windsor monstrede servietter|paper": {
+    "v1|windsor monstrede servietter|paper_napkins": {
       "status": "active",
-      "categoryId": "household_paper",
-      "comparisonGroup": "paper",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_napkins",
       "labelZh": "餐巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Windsor mønstrede servietter",
@@ -12496,10 +12496,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|xtra bacontern|bacon_deli": {
+    "v1|xtra bacontern|bacon_pieces": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_pieces",
       "labelZh": "肉类冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Xtra! bacontern",
@@ -12520,10 +12520,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|xtra hamburgerryg|bacon_deli": {
+    "v1|xtra hamburgerryg|deli_pork_sliced": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "bacon_deli",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_pork_sliced",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Xtra! hamburgerryg",
@@ -12592,10 +12592,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|xxl polser|sausages": {
+    "v1|xxl polser|sausage_other": {
       "status": "active",
-      "categoryId": "sausages_deli",
-      "comparisonGroup": "sausages",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
       "labelZh": "烧烤香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "XXL pølser",
@@ -12644,7 +12644,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_aged_hard",
-      "labelZh": "帕达诺/帕玛森硬质奶酪",
+      "labelZh": "意式硬质奶酪三选一",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zanetti Grana Padano, Parmigiano Reggiano eller Pecorino Romano",
       "authoredBy": "Codex",
@@ -12656,7 +12656,7 @@
       "status": "active",
       "categoryId": "cheese",
       "comparisonGroup": "cheese_mozzarella_burrata",
-      "labelZh": "马苏里拉奶酪",
+      "labelZh": "Zanetti 马苏里拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zanetti mozzarella",
       "authoredBy": "Codex",
@@ -12676,10 +12676,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|zelected ekstra jomfruolivenolie|oil_vinegar": {
+    "v1|zelected ekstra jomfruolivenolie|oil_olive": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "oil_vinegar",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
       "labelZh": "特级初榨橄榄油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zelected Ekstra jomfruolivenolie",
@@ -12688,13 +12688,61 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|zelected sauce aioli eller ketchup|sauces": {
+    "v1|zelected sauce aioli eller ketchup|sauce_mixed_offer": {
       "status": "active",
-      "categoryId": "pantry",
-      "comparisonGroup": "sauces",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
       "labelZh": "番茄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zelected sauce, aioli eller ketchup",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "v1|steff houlberg polser|sausage_mixed_offer": {
+      "status": "active",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "labelZh": "Steff Houlberg 香肠",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Steff Houlberg pølser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "v1|lambi classic papir|paper_mixed_offer": {
+      "status": "active",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "labelZh": "纸品",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Lambi Classic papir",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "v1|godt papir|paper_mixed_offer": {
+      "status": "active",
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "labelZh": "纸品",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Godt papir",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "v1|tulip bacon|bacon_mixed_offer": {
+      "status": "active",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_mixed_offer",
+      "labelZh": "培根",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Tulip bacon",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
