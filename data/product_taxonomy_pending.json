@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-21T23:06:15.046Z",
-  "count": 79,
+  "generatedAt": "2026-07-21T23:44:41.687Z",
+  "count": 82,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -12,7 +12,7 @@
       "currentComparisonGroup": "cleaning",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9aa36b86b002c05aaca14aeb08e625ee%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb2422feb6d95ea2acea7a278d2ddb119%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4494589ce2039747342a0d7445cc3d31%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83514f0027cba5f1be68ed5b627cdee7%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9eb2627d3e7317705d1fbc12d041ad00&w=1000&s=7d18949f8cbabefb01607304ae30c6a7"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcf5bdb60b78180c10c1cfd30eace97ac&w=1000&s=63909042f94de06adc412bfe8474ce6d"
     },
     {
       "descriptionKey": "v1|amanda yellowfin tun|white_fish",
@@ -72,7 +72,7 @@
       "currentComparisonGroup": "bread",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcbfb74859097db58e4d9de18e4b3093a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc94fde1e1087e047cab9356ea9d3773d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed0510a7c69b47acb0d401db6052aea1&w=1000&s=59046e742cc15bb80862fd09e91b56e3"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1c8ce58d78f6f4a43822cb0d4e1823ed&w=1000&s=406fc0ce5c4ca43a26412a1e607e9855"
     },
     {
       "descriptionKey": "v1|anglamark okologiske smaa sprode gulerodder fra gl estrup|carrots",
@@ -202,7 +202,7 @@
       "currentComparisonGroup": "cleaning",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdad382091013e39cf014c5002ae508ac%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F65ef2469fedc00bfb2d9906f9242d350&w=1000&s=31ed1321bf4ba412cc73007e81b59560"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F345ff17bc8dc01dbdec647cbe2502cfb&w=1000&s=bae6ecccce5abc8f8b5f20cde618d9de"
     },
     {
       "descriptionKey": "v1|coop hakket grisekod 8 12|pork_minced",
@@ -232,7 +232,7 @@
       "currentComparisonGroup": "chicken_thigh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F87958936e2559cf850be655e9e6054a4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F27f74e239f03d9c7b8cc0c15c712dd3e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1fafb1b84b394c485175b63feec88b2b&w=1000&s=c0b4cc58966adcb5fa8819a8060a92fd"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F18c429d3e4029ebdef90c6acb12e6fbf&w=1000&s=5cb61d119d4828e41b3c8a911e1e5a62"
     },
     {
       "descriptionKey": "v1|coop mandler|nuts",
@@ -412,7 +412,7 @@
       "currentComparisonGroup": "salmon_fresh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F56e0db74439455b66b6e921f3f16e3f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1179730a4b876575e6286b844a1626d5&w=1000&s=5ffd603e22c1a7268e616b1542644941"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F57e698c15d2876f89d54e474b9e45824&w=1000&s=0ccbb1f52b2e0c424e0ee3d5d8941388"
     },
     {
       "descriptionKey": "v1|glyngore lakseportioner|salmon_fresh",
@@ -462,7 +462,7 @@
       "currentComparisonGroup": "tomatoes",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcb7186a8696f8adf2d74a334cdbecaa8&w=1000&s=fa616355c8aa163944670f40c1c628ac"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6470896cfc014f17aaab69f697ad3703&w=1000&s=197bdf3cc7f1a00cd8a9e3a63265f4e5"
     },
     {
       "descriptionKey": "v1|kaergaarden smorbar|butter",
@@ -575,6 +575,26 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1f07b3f60e802bf1cc170b0a3824abbd%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff8fd1a853e24c7f1e6401a5d64a92cb2&w=1000&s=a871f62d88dfc643395e45c36039438a"
     },
     {
+      "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
+      "originalName": "Mutti tomater eller pizzasauce",
+      "originalDescription": "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_pizza",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "bilka",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.58&y2r=0.76&s=3e7bbaff99cb6f335e60eb18b33386bd"
+    },
+    {
+      "descriptionKey": "v1|nektariner ferskner blommer eller abrikoser|apricots",
+      "originalName": "Nektariner, ferskner, blommer eller abrikoser",
+      "originalDescription": "salling Princip\n6-8 stk. Udenlandske. Pr. stk. max. 4,17",
+      "currentCategoryId": "fruit",
+      "currentComparisonGroup": "apricots",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "foetex",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-3.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.576&y2r=0.957&s=8126ffc3ee3a5ec855a0973f92929031"
+    },
+    {
       "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
       "originalName": "Nescafe iskaffe*",
       "originalDescription": "250 ml. Literpris 48,00. Frit valg. 1 dåse",
@@ -612,7 +632,7 @@
       "currentComparisonGroup": "potatoes_fresh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0105809cb389ce0d69c5602eb3217a7c&w=1000&s=3bfae688237dc5874cc72d29e2fc1cc0"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8cb4d4d44f7a2ab54a978f0e990bc55d&w=1000&s=980da88b6aba440ea6232ccdc30e8072"
     },
     {
       "descriptionKey": "v1|pomi tomatkonserves|canned_tomatoes",
@@ -663,6 +683,16 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "lidl",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.66&y1r=0.5&y2r=0.72&s=22d9f3c29b2c6db57446a983698010f5"
+    },
+    {
+      "descriptionKey": "v1|sol mar chorizogrillpolser|sausage_chorizo",
+      "originalName": "SOL&MAR Chorizogrillpølser",
+      "originalDescription": "300 g.\nPr. kg 100,00\nSpot¹",
+      "currentCategoryId": "sausages",
+      "currentComparisonGroup": "sausage_chorizo",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.714&y2r=0.932&s=9be5ca76ba40077004b8c24f71a0050f"
     },
     {
       "descriptionKey": "v1|taffel chips eller nodder|chips",

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-21T23:06:15.046Z",
-  "count": 82,
+  "generatedAt": "2026-07-21T23:44:41.687Z",
+  "count": 88,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -733,6 +733,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|madvaerket kyllingebrystfilet eller laarmix|chicken_mixed_offer",
+      "originalName": "MADVÆRKET Kyllingebrystfilet eller -lårmix",
+      "sampleDescriptions": [
+        "Med BBQ. 325-800 g / pk. Pr. kg maks. 101,38."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_mixed_offer",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|mammen skaereost eller danablu|cheese_danish_table",
       "originalName": "Mammen skæreost eller Danablu*",
       "sampleDescriptions": [
@@ -742,6 +755,19 @@
       "comparisonGroup": "cheese_danish_table",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marinerede flanksteak|beef_flat_steak",
+      "originalName": "Marinerede flanksteak",
+      "sampleDescriptions": [
+        "400-600 g. Chimichurri eller med rød hvidløg. Pr. kg max. 247,50 plus pris 89,- Pr. kg max. 222,50 Gælder kun med føtex plus appen"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_flat_steak",
+      "stores": [
+        "foetex"
       ],
       "occurrences": 1
     },
@@ -768,6 +794,32 @@
       "comparisonGroup": "oil_olive",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
+      "originalName": "Mutti tomater eller pizzasauce",
+      "sampleDescriptions": [
+        "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_pizza",
+      "stores": [
+        "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nektariner ferskner blommer eller abrikoser|apricots",
+      "originalName": "Nektariner, ferskner, blommer eller abrikoser",
+      "sampleDescriptions": [
+        "salling Princip\n6-8 stk. Udenlandske. Pr. stk. max. 4,17"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "apricots",
+      "stores": [
+        "foetex"
       ],
       "occurrences": 1
     },
@@ -863,6 +915,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|sagra butchers butterfly eller yellow poussin|other_poultry",
+      "originalName": "SAGRA/BUTCHERS Butterfly- eller yellow poussin",
+      "sampleDescriptions": [
+        "Marineret eller frilands. 400-500 g. Pr. kg maks. 87,50 Spot¹"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "other_poultry",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|salsiccia griller|sausage_other",
       "originalName": "SALSICCIA GRILLER",
       "sampleDescriptions": [
@@ -880,6 +945,19 @@
       "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
       "sampleDescriptions": [
         "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sol mar chorizogrillpolser|sausage_chorizo",
+      "originalName": "SOL&MAR Chorizogrillpølser",
+      "sampleDescriptions": [
+        "300 g.\nPr. kg 100,00\nSpot¹"
       ],
       "categoryId": "sausages",
       "comparisonGroup": "sausage_chorizo",
