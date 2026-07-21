@@ -53,6 +53,9 @@ jobs:
       - name: Run regression tests
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm test
+      - name: Audit human-readable categories and descriptions
+        if: steps.schedule_gate.outputs.should_run == 'true'
+        run: npm run audit:taxonomy
       - name: Validate refreshed data
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm run validate

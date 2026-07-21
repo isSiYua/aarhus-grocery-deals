@@ -8,6 +8,8 @@
     "update": "node scripts/update-data.mjs && node scripts/update-atlanta-data.mjs && node scripts/sync-atlanta-product-knowledge.mjs && node scripts/update-product-identities.mjs",
     "update:fallback": "npm run update && node scripts/prepare-fallback-data.mjs",
     "validate": "node scripts/validate-data.mjs",
+    "audit:taxonomy": "node scripts/audit-human-taxonomy.mjs",
+    "check": "npm test && npm run audit:taxonomy && npm run validate",
     "test": "node --test",
     "serve": "python3 -m http.server 8080",
     "locate": "node scripts/apply-source-locators.mjs",
@@ -16,6 +18,7 @@
     "identities:update": "node scripts/update-product-identities.mjs",
     "taxonomy:sync": "node scripts/sync-product-taxonomy.mjs",
     "taxonomy:reconcile": "node scripts/reconcile-pending-taxonomy.mjs",
+    "taxonomy:migrate": "node scripts/migrate-category-splits.mjs && node scripts/update-product-identities.mjs",
     "atlanta-knowledge:sync": "node scripts/sync-atlanta-product-knowledge.mjs",
     "review:products": "node scripts/codex-review-current-products.mjs && node scripts/update-product-identities.mjs"
   },

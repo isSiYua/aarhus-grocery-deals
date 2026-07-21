@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 import { ATLANTA_COMPARISON_GROUPS, refineAtlantaCategory, refineAtlantaComparisonGroup } from './lib/flipp-client.mjs';
+import { explainComparisonGroupInChinese } from './lib/explain-zh.mjs';
 import { repairPublishedPackage } from './lib/normalize.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, normalizedText, refineAarhusCategory, refineAarhusComparisonGroup } from './lib/taxonomy.mjs';
 
@@ -8,6 +9,41 @@ const read = async path => JSON.parse(await fs.readFile(new URL(`../${path}`, im
 const write = async (path, value) => fs.writeFile(new URL(`../${path}`, import.meta.url), `${JSON.stringify(value, null, 2)}\n`);
 const now = new Date().toISOString();
 const descriptionKey = (name, comparisonGroup) => `v1|${normalizedText(name)}|${comparisonGroup}`;
+const reviewOverrides = (await read('data/product_review_overrides_zh.json')).entries;
+const GROUPS_REQUIRING_FORM_EXPLANATION = new Set([
+  'prepared_poultry_mixed_offer',
+  'prepared_pork_marinated',
+  'prepared_pork_cooked',
+  'prepared_pork_mixed_offer',
+  'prepared_beef_marinated',
+  'prepared_lamb_marinated',
+]);
+
+function applyAarhusReviewOverride(record, name = record.originalName) {
+  const override = reviewOverrides[normalizedText(name)];
+  if (!override) return record;
+  if (override.status === 'excluded') {
+    return {
+      ...record,
+      status: 'excluded',
+      reasonZh: override.reasonZh,
+      categoryId: 'excluded',
+      comparisonGroup: 'excluded_drink',
+      ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, 'excluded_drink') } : {}),
+    };
+  }
+  const next = {
+    ...record,
+    categoryId: override.categoryId,
+    comparisonGroup: override.comparisonGroup,
+    ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, override.comparisonGroup) } : {}),
+  };
+  if ('productNameZh' in record) next.productNameZh = override.productNameZh;
+  if ('labelZh' in record) next.labelZh = override.productNameZh;
+  if ('zhExplanation' in record) next.zhExplanation = override.descriptionZh;
+  if ('descriptionZh' in record) next.descriptionZh = override.descriptionZh;
+  return next;
+}
 
 function refineAarhusRecord(record, name = record.originalName) {
   // The flyer description is essential for generic names such as "pålæg":
@@ -16,12 +52,19 @@ function refineAarhusRecord(record, name = record.originalName) {
   // reviewed textual evidence available on the record.
   const classificationText = [name, record.originalDescription].filter(Boolean).join(' ');
   const comparisonGroup = refineAarhusComparisonGroup(record.comparisonGroup, classificationText);
-  return {
+  const migrated = {
     ...record,
     categoryId: refineAarhusCategory(record.categoryId, comparisonGroup),
     comparisonGroup,
     ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, comparisonGroup) } : {}),
   };
+  if ((comparisonGroup !== record.comparisonGroup || GROUPS_REQUIRING_FORM_EXPLANATION.has(comparisonGroup)) && 'zhExplanation' in record) {
+    migrated.zhExplanation = `${record.productNameZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`;
+  }
+  if ((comparisonGroup !== record.comparisonGroup || GROUPS_REQUIRING_FORM_EXPLANATION.has(comparisonGroup)) && 'descriptionZh' in record) {
+    migrated.descriptionZh = `${record.productNameZh || record.labelZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`;
+  }
+  return applyAarhusReviewOverride(migrated, name);
 }
 
 function migrateKnowledgeEntries(entries) {
@@ -86,7 +129,9 @@ const atlantaCategories = [
 const aarhus = await read('data/current_offers.json');
 aarhus.categories = AARHUS_CATEGORIES;
 aarhus.comparisonGroups = AARHUS_COMPARISON_GROUPS;
-aarhus.offers = aarhus.offers.map(offer => repairPublishedPackage(refineAarhusRecord(offer)));
+aarhus.offers = aarhus.offers
+  .map(offer => repairPublishedPackage(refineAarhusRecord(offer)))
+  .filter(offer => offer.categoryId !== 'excluded' && offer.comparisonGroup !== 'excluded_drink');
 aarhus.metadata.contentUpdatedAt = now;
 await write('data/current_offers.json', aarhus);
 
@@ -129,7 +174,10 @@ descriptions.updatedAt = now;
 await write('data/product_descriptions_zh.json', descriptions);
 
 const descriptionPending = await read('data/product_descriptions_pending.json');
-descriptionPending.items = descriptionPending.items.map(item => refineAarhusRecord(item));
+descriptionPending.items = descriptionPending.items
+  .map(item => refineAarhusRecord(item))
+  .filter(item => item.status !== 'excluded' && !descriptions.entries[item.descriptionKey]);
+descriptionPending.count = descriptionPending.items.length;
 await write('data/product_descriptions_pending.json', descriptionPending);
 
 const taxonomyPending = await read('data/product_taxonomy_pending.json');
@@ -141,7 +189,9 @@ taxonomyPending.items = taxonomyPending.items.map(item => {
     currentCategoryId: refineAarhusCategory(item.currentCategoryId, currentComparisonGroup),
     currentComparisonGroup,
   };
-});
+}).filter(item => reviewOverrides[normalizedText(item.originalName)]?.status !== 'excluded'
+  && !taxonomy.entries[item.descriptionKey]);
+taxonomyPending.count = taxonomyPending.items.length;
 await write('data/product_taxonomy_pending.json', taxonomyPending);
 
 const identityHistory = await read('data/product_identity_history.json');
@@ -150,6 +200,7 @@ for (const [oldKey, product] of Object.entries(identityHistory.products)) {
   const name = product.canonicalNames?.[0] || oldKey.split('|')[1];
   const oldPrimaryGroup = oldKey.split('|').at(-1);
   const primaryGroup = refineAarhusComparisonGroup(oldPrimaryGroup, name);
+  if (primaryGroup === 'excluded_drink' || reviewOverrides[normalizedText(name)]?.status === 'excluded') continue;
   const groups = [...new Set((product.comparisonGroups || [oldPrimaryGroup]).map(group => refineAarhusComparisonGroup(group, name)))];
   const categories = new Set();
   for (const categoryId of product.categoryIds || []) {
@@ -158,11 +209,15 @@ for (const [oldKey, product] of Object.entries(identityHistory.products)) {
   const newKey = descriptionKey(name, primaryGroup);
   const existing = migratedProducts[newKey];
   migratedProducts[newKey] = {
-    ...(existing || {}),
     ...product,
+    ...(existing || {}),
     stableProductKey: newKey,
-    categoryIds: [...new Set([...(existing?.categoryIds || []), ...categories])],
-    comparisonGroups: [...new Set([...(existing?.comparisonGroups || []), ...groups])],
+    canonicalNames: [...new Set([...(existing?.canonicalNames || []), ...(product.canonicalNames || [])])],
+    categoryIds: [...new Set([...(existing?.categoryIds || []), ...(product.categoryIds || []), ...categories])],
+    comparisonGroups: [...new Set([...(existing?.comparisonGroups || []), ...(product.comparisonGroups || []), ...groups])],
+    stores: [...new Set([...(existing?.stores || []), ...(product.stores || [])])],
+    offerIds: { ...(existing?.offerIds || {}), ...(product.offerIds || {}) },
+    imageReferences: { ...(existing?.imageReferences || {}), ...(product.imageReferences || {}) },
   };
 }
 // A newly refreshed offer can contain stronger evidence (for example
@@ -210,8 +265,9 @@ identityHistory.products = migratedProducts;
 identityHistory.updatedAt = now;
 await write('data/product_identity_history.json', identityHistory);
 
-const history = await read('data/history.json');
-for (let index = 0; index < history.length; index += 1) history[index] = repairPublishedPackage(refineAarhusRecord(history[index]));
+const history = (await read('data/history.json'))
+  .map(record => repairPublishedPackage(refineAarhusRecord(record)))
+  .filter(record => record.categoryId !== 'excluded' && record.comparisonGroup !== 'excluded_drink');
 await write('data/history.json', history);
 
 const atlanta = await read('data/atlanta_offers.json');

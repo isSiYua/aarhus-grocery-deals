@@ -222,11 +222,23 @@ Object.assign(groupText, {
   deli_cured_sliced: '萨拉米、塞拉诺等腌制或风干肉片，通常冷食，味道较咸。',
   deli_mixed_offer: '不同肉种或不同形态的冷切任选；不能作为同一种肉片比较最低价。',
   prepared_chicken_breaded: '裹粉鸡肉制品，如鸡块或爆米花鸡，通常需烤箱、空气炸锅或平底锅复热。',
+  prepared_chicken_wings_seasoned: '调味冷冻鸡翅，已经带辣味、烧烤味或其他腌料，通常直接放入烤箱或空气炸锅加热；不是未调味生鸡翅。',
+  prepared_chicken_wings_breaded: '裹粉脆皮鸡翅，外层有面衣，通常用烤箱或空气炸锅复热；不与普通调味鸡翅或生鸡翅混比。',
+  prepared_chicken_wings_mixed_offer: '普通调味鸡翅或裹粉脆皮鸡翅任选；两种形态的配料和可食比例不同，不计算统一最低价。',
+  prepared_chicken_breast_marinated: '已经腌制并带明确口味的鸡胸肉，可直接煎、烤或空气炸；不与未调味生鸡胸比较最低价。',
+  prepared_beef_burgers: '已调味并压成形的牛肉汉堡饼，可煎或烧烤后夹面包；不与散装牛肉末或牛排混比。',
+  prepared_poultry_mixed_offer: '未调味禽肉和腌制禽肉任选，准备方式不同；按实际包装选择，不计算统一最低价。',
+  prepared_pork_marinated: '已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。',
+  prepared_pork_cooked: '已经慢煮或熟制的猪肉，如手撕猪肉，加热后可夹面包、配饭或做卷饼。',
+  prepared_pork_mixed_offer: '腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。',
+  prepared_beef_marinated: '已经腌制或带明确调味的牛肉，可直接煎烤；不与未调味生牛排或整块牛肉混比。',
+  prepared_lamb_marinated: '已经腌制调味的羊肉，可直接煎烤；不与未调味生羊肉混比。',
   prepared_chicken_meatballs: '鸡肉丸，可煎、烤、炖或加入汤和意面。',
   prepared_beef_meatballs: '牛肉丸，可煎、烤、炖或搭配番茄酱汁。',
   prepared_pork_meatballs: '猪肉丸，可煎、烤、炖或加入汤菜，也可搭配米饭和面条。',
   prepared_turkey: '火鸡肉饼或其他火鸡制成品；按包装确认是否裹粉、夹馅以及加热方式。',
   prepared_mixed_meat: '混合肉制成品；肉种和形态不完全相同，需按原名确认。',
+  fish_mince: '调味鱼肉糜或鱼滑，可煎成鱼饼、做鱼丸或加入汤中；不是整片鱼柳。',
   potato_fries: '薯条，通常需油炸、烤箱或空气炸锅加热；只与薯条比较，不与薯饼混比。',
   potato_wedges: '薯角，带较厚土豆肉，通常烤制或空气炸；不与细薯条混比。',
   potato_hash_browns: '薯饼或 Rösti，是刨丝或碎土豆压成的饼，适合煎烤；不与薯条混比。',
@@ -289,4 +301,10 @@ export function explainInChinese(raw, classification) {
   const explanation = groupText[classification.comparisonGroup];
   if (!explanation) throw new Error(`Missing Chinese explanation for ${classification.comparisonGroup}`);
   return `${explanation}${flavor(text)}`;
+}
+
+export function explainComparisonGroupInChinese(comparisonGroup) {
+  const explanation = groupText[comparisonGroup];
+  if (!explanation) throw new Error(`Missing Chinese explanation for ${comparisonGroup}`);
+  return explanation;
 }

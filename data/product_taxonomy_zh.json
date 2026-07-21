@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-21T23:04:44.933Z",
+  "updatedAt": "2026-07-21T23:41:01.953Z",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
       "status": "active",
@@ -580,11 +580,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|anglamark vaadservietter|paper_mixed_offer": {
+    "v1|anglamark vaadservietter|paper_wet_wipes": {
       "status": "active",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
-      "labelZh": "湿巾",
+      "comparisonGroup": "paper_wet_wipes",
+      "labelZh": "Änglamark 湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Änglamark vådservietter",
       "authoredBy": "Codex",
@@ -832,11 +832,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|baadsmand fiskefrikadeller eller roget makrelfilet|white_fish": {
+    "v1|baadsmand fiskefrikadeller eller roget makrelfilet|seafood_mixed_offer": {
       "status": "active",
       "categoryId": "seafood",
-      "comparisonGroup": "white_fish",
-      "labelZh": "鱼饼或烟熏鲭鱼",
+      "comparisonGroup": "seafood_mixed_offer",
+      "labelZh": "Bådsmand 鱼饼或烟熏鲭鱼柳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Bådsmand fiskefrikadeller eller røget makrelfilet",
       "authoredBy": "Codex",
@@ -1052,7 +1052,7 @@
       "status": "active",
       "categoryId": "sauces_condiments",
       "comparisonGroup": "sauce_ketchup",
-      "labelZh": "番茄",
+      "labelZh": "Beauvais 番茄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Beauvais tomatketchup",
       "authoredBy": "Codex",
@@ -1276,10 +1276,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|bon gelati gelatelli isvafler|biscuits": {
+    "v1|bon gelati gelatelli isvafler|ice_cream": {
       "status": "active",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BON GELATI/GELATELLI Isvafler",
@@ -1444,10 +1444,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|butcher s oksesteak med peberkant|beef_steak": {
+    "v1|butcher s oksesteak med peberkant|prepared_beef_marinated": {
       "status": "active",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "labelZh": "牛排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "BUTCHER'S Oksesteak med peberkant",
@@ -1660,10 +1660,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak": {
+    "v1|chimichurri marineret flatsteak af kalv|prepared_beef_marinated": {
       "status": "active",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_flat_steak",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "labelZh": "牛腹肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Chimichurri marineret flatsteak af kalv",
@@ -1948,10 +1948,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer": {
+    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit",
@@ -2128,10 +2128,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|pork_chop": {
+    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit",
@@ -2152,10 +2152,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer": {
+    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "烧烤猪肋排/猪里脊卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok",
@@ -2164,10 +2164,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop marineret lammeculotte|lamb_other": {
+    "v1|coop marineret lammeculotte|prepared_lamb_marinated": {
       "status": "active",
-      "categoryId": "beef",
-      "comparisonGroup": "lamb_other",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_lamb_marinated",
       "labelZh": "腌制羊臀肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop marineret lammeculotte",
@@ -2272,10 +2272,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer": {
+    "v1|coop spareribs pulled pork eller pulled chicken|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "猪肋排/手撕猪肉/手撕鸡肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Coop spareribs, pulled pork eller pulled chicken",
@@ -3412,10 +3412,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|fransk hotdog|sausage_frankfurter": {
+    "v1|fransk hotdog|ready_meal": {
       "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
       "labelZh": "法式热狗",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Fransk hotdog",
@@ -3676,10 +3676,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gelatelli ispinde eller isvafler|biscuits": {
+    "v1|gelatelli ispinde eller isvafler|ice_cream": {
       "status": "active",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "GELATELLI Ispinde eller isvafler",
@@ -3700,10 +3700,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|gelatelli mini isvafler|biscuits": {
+    "v1|gelatelli mini isvafler|ice_cream": {
       "status": "active",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "GELATELLI Mini-isvafler",
@@ -3976,10 +3976,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|grillmester marinerede spareribs|pork_ribs": {
+    "v1|grillmester marinerede spareribs|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "GRILLMESTER Marinerede spareribs",
@@ -4168,10 +4168,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hamburger af oksekod|beef_burgers": {
+    "v1|hamburger af oksekod|prepared_beef_burgers": {
       "status": "active",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_burgers",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_burgers",
       "labelZh": "牛肉汉堡饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hamburger af oksekød",
@@ -4300,10 +4300,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hatting burgerboller eller hotdogbrod|sausage_frankfurter": {
+    "v1|hatting burgerboller eller hotdogbrod|bread": {
       "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
       "labelZh": "汉堡面包胚",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hatting Burgerboller eller hotdogbrød",
@@ -4432,10 +4432,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hel ovnklar flaeskesteg|pork_roast": {
+    "v1|hel ovnklar flaeskesteg|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hel ovnklar flæskesteg",
@@ -4540,11 +4540,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|hello sensitive vaadservietter|paper_mixed_offer": {
+    "v1|hello sensitive vaadservietter|paper_wet_wipes": {
       "status": "active",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
-      "labelZh": "Hello Sensitive 敏感肌湿巾",
+      "comparisonGroup": "paper_wet_wipes",
+      "labelZh": "Hello Sensitive 无香敏感肌湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Hello Sensitive vådservietter",
       "authoredBy": "Codex",
@@ -4792,10 +4792,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|jensens pulled chicken eller spareribs|pork_mixed_offer": {
+    "v1|jensens pulled chicken eller spareribs|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "JENSENS Pulled chicken eller spareribs",
@@ -4868,7 +4868,7 @@
       "status": "active",
       "categoryId": "sauces_condiments",
       "comparisonGroup": "sauce_mixed_offer",
-      "labelZh": "蛋黄酱",
+      "labelZh": "K-SALAT 蛋黄酱或丹麦酸黄瓜蛋黄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "K-SALAT Mayonnaise eller remoulade",
       "authoredBy": "Codex",
@@ -4996,10 +4996,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer": {
+    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|prepared_beef_marinated": {
       "status": "active",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "labelZh": "牛腹肉排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ",
@@ -5008,10 +5008,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kanel eller wienerstang|sausage_frankfurter": {
+    "v1|kanel eller wienerstang|biscuits": {
       "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
       "labelZh": "丹麦酥皮长条甜点",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kanel- eller wienerstang*",
@@ -5512,10 +5512,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|kohberg hotdogbrod|sausage_frankfurter": {
+    "v1|kohberg hotdogbrod|bread": {
       "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
       "labelZh": "热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KOHBERG Hotdogbrød",
@@ -5536,10 +5536,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|koteletter tilsat lage hvidlog|pork_chop": {
+    "v1|koteletter tilsat lage hvidlog|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "KOTELETTER TILSAT LAGE HVIDLØG",
@@ -5596,10 +5596,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|krydrede kodboller eller hakket grisekod|pork_mixed_offer": {
+    "v1|krydrede kodboller eller hakket grisekod|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "猪肉末",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Krydrede kødboller eller hakket grisekød",
@@ -5706,7 +5706,7 @@
     },
     "v1|kuljanka hvidkaalssalat|prepared_salad": {
       "status": "active",
-      "categoryId": "prepared_meat",
+      "categoryId": "frozen_ready",
       "comparisonGroup": "prepared_salad",
       "labelZh": "卷心菜沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
@@ -6232,11 +6232,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|logismose marineret kyllingebryst|chicken_breast": {
+    "v1|logismose marineret kyllingebryst|prepared_chicken_breast_marinated": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breast",
-      "labelZh": "鸡胸肉",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "labelZh": "Løgismose 柠檬百里香腌制鸡胸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Løgismose marineret kyllingebryst",
       "authoredBy": "Codex",
@@ -6412,11 +6412,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|lupilu vaadservietter|paper_mixed_offer": {
+    "v1|lupilu vaadservietter|paper_wet_wipes": {
       "status": "active",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
-      "labelZh": "湿巾",
+      "comparisonGroup": "paper_wet_wipes",
+      "labelZh": "LUPILU 婴儿湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Vådservietter",
       "authoredBy": "Codex",
@@ -6508,11 +6508,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket burgerboffer af oksekod|beef_burgers": {
+    "v1|madvaerket burgerboffer af oksekod|prepared_beef_burgers": {
       "status": "active",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_burgers",
-      "labelZh": "牛肉汉堡饼",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_burgers",
+      "labelZh": "MADVÆRKET 牛肉汉堡饼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Burgerbøffer af oksekød",
       "authoredBy": "Codex",
@@ -6916,10 +6916,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|madvaerket porchetta|pork_roast": {
+    "v1|madvaerket porchetta|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "意式香草烤猪肉卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "MADVÆRKET Porchetta",
@@ -7348,10 +7348,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer": {
+    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "意式香草烤猪肉卷",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris",
@@ -7422,9 +7422,9 @@
     },
     "v1|melonmix frugtmix eller ananas i skiver|prepared_fruit": {
       "status": "active",
-      "categoryId": "prepared_meat",
+      "categoryId": "fruit",
       "comparisonGroup": "prepared_fruit",
-      "labelZh": "菠萝",
+      "labelZh": "切配蜜瓜、水果拼盘或菠萝片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Melonmix, frugtmix eller ananas i skiver",
       "authoredBy": "Codex",
@@ -7936,11 +7936,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|morliny classic eller crispy hot wings|chicken_wings": {
+    "v1|morliny classic eller crispy hot wings|prepared_chicken_wings_mixed_offer": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
-      "labelZh": "Morliny 原味或香辣脆皮鸡翅",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_mixed_offer",
+      "labelZh": "Morliny 原味热辣或裹粉脆皮鸡翅",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Morliny classic eller crispy hot wings",
       "authoredBy": "Codex",
@@ -7984,10 +7984,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|nakke koteletter smokey bbq|pork_chop": {
+    "v1|nakke koteletter smokey bbq|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "NAKKE KOTELETTER SMOKEY BBQ",
@@ -8116,11 +8116,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|nektariner ferskner blommer eller abrikoser|apricots": {
+    "v1|nektariner ferskner blommer eller abrikoser|mixed_fruit": {
       "status": "active",
       "categoryId": "fruit",
-      "comparisonGroup": "apricots",
-      "labelZh": "油桃",
+      "comparisonGroup": "mixed_fruit",
+      "labelZh": "油桃、桃、李子或杏任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Nektariner, ferskner, blommer eller abrikoser",
       "authoredBy": "Codex",
@@ -8860,10 +8860,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer": {
+    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris",
@@ -9448,10 +9448,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|pulled pork|pork_roast": {
+    "v1|pulled pork|prepared_pork_cooked": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
       "labelZh": "手撕猪肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Pulled pork",
@@ -9484,10 +9484,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|raa kamben med chimichurri eller mesquit|pork_ribs": {
+    "v1|raa kamben med chimichurri eller mesquit|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪肋骨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Rå kamben med Chimichurri eller Mesquit",
@@ -9532,10 +9532,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer": {
+    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "猪里脊",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg",
@@ -9652,11 +9652,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 fiskefars|white_fish": {
+    "v1|rema 1000 fiskefars|fish_mince": {
       "status": "active",
       "categoryId": "seafood",
-      "comparisonGroup": "white_fish",
-      "labelZh": "调味鱼肉糜",
+      "comparisonGroup": "fish_mince",
+      "labelZh": "REMA 1000 调味鱼肉糜",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Fiskefars",
       "authoredBy": "Codex",
@@ -9664,10 +9664,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|deli_mixed_offer": {
+    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "deli_meat",
-      "comparisonGroup": "deli_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ",
@@ -9892,11 +9892,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_napkins": {
+    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_facial": {
       "status": "active",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_napkins",
-      "labelZh": "餐巾纸",
+      "comparisonGroup": "paper_facial",
+      "labelZh": "REMA 1000 润肤手帕纸或面巾纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "REMA 1000 Lommeletter med balsam eller ansigtsservietter",
       "authoredBy": "Codex",
@@ -10216,12 +10216,12 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|ribena solbaer|other_berries": {
-      "status": "active",
-      "categoryId": "fruit",
-      "comparisonGroup": "other_berries",
+    "v1|ribena solbaer|excluded_drink": {
+      "status": "excluded",
+      "categoryId": "excluded",
+      "comparisonGroup": "excluded_drink",
       "labelZh": "黑加仑",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "reasonZh": "黑加仑浓缩果汁饮料不在当前饮料收录范围内，不能作为新鲜莓果展示。",
       "originalName": "Ribena solbær",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
@@ -10360,10 +10360,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rogede kamben|pork_ribs": {
+    "v1|rogede kamben|prepared_pork_cooked": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
       "labelZh": "猪肋骨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Røgede kamben",
@@ -10384,11 +10384,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|rose buffalo wings|chicken_wings": {
+    "v1|rose buffalo wings|prepared_chicken_wings_seasoned": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
-      "labelZh": "调味鸡翅",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
+      "labelZh": "ROSE 水牛城辣味鸡翅",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ROSE Buffalo Wings",
       "authoredBy": "Codex",
@@ -10506,9 +10506,9 @@
     },
     "v1|salatbowls|prepared_salad": {
       "status": "active",
-      "categoryId": "prepared_meat",
+      "categoryId": "frozen_ready",
       "comparisonGroup": "prepared_salad",
-      "labelZh": "预制沙拉",
+      "labelZh": "即食沙拉碗",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Salatbowls",
       "authoredBy": "Codex",
@@ -10600,10 +10600,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|salling princip brioche hotdogbrod pretzel style|sausage_frankfurter": {
+    "v1|salling princip brioche hotdogbrod pretzel style|bread": {
       "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
       "labelZh": "热狗面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Salling Princip brioche hotdogbrød pretzel style",
@@ -10948,10 +10948,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|slagterens bbq kamben|pork_ribs": {
+    "v1|slagterens bbq kamben|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪肋骨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Slagterens bbq kamben",
@@ -11140,11 +11140,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|sol mar kyllingevinger|chicken_wings": {
+    "v1|sol mar kyllingevinger|prepared_chicken_wings_seasoned": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
-      "labelZh": "鸡翅",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
+      "labelZh": "SOL&MAR Piri 香辣调味鸡翅",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "SOL&MAR Kyllingevinger",
       "authoredBy": "Codex",
@@ -11356,10 +11356,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|spareribs pulled chicken eller pork|pork_mixed_offer": {
+    "v1|spareribs pulled chicken eller pork|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Spareribs, pulled chicken eller pork",
@@ -11500,10 +11500,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|store koteletter tomat ramslog|pork_chop": {
+    "v1|store koteletter tomat ramslog|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "STORE KOTELETTER TOMAT & RAMSLØG",
@@ -11548,11 +11548,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|stryhns postej eller roget medister|liver_pate": {
+    "v1|stryhns postej eller roget medister|prepared_mixed_meat": {
       "status": "active",
-      "categoryId": "liver_pate",
-      "comparisonGroup": "liver_pate",
-      "labelZh": "丹麦肝酱",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "labelZh": "Stryhns 肝酱或烟熏 Medister 香肠",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Stryhns postej eller røget medister",
       "authoredBy": "Codex",
@@ -11728,11 +11728,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_sliced": {
+    "v1|taga bacondadler fuet snack sticks eller skiver|prepared_mixed_meat": {
       "status": "active",
-      "categoryId": "bacon",
-      "comparisonGroup": "bacon_sliced",
-      "labelZh": "培根片",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "labelZh": "Taga 培根枣、Fuet 肉棒或肉片任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Taga bacondadler, fuet snack sticks eller skiver",
       "authoredBy": "Codex",
@@ -12112,10 +12112,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip pulled eller spareribs|pork_mixed_offer": {
+    "v1|tulip pulled eller spareribs|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tulip pulled eller spareribs",
@@ -12124,10 +12124,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip pulled pork eller spareribs|pork_mixed_offer": {
+    "v1|tulip pulled pork eller spareribs|prepared_pork_mixed_offer": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "labelZh": "手撕猪肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tulip pulled pork eller spareribs",
@@ -12220,10 +12220,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|vaadservietter|paper_mixed_offer": {
+    "v1|vaadservietter|paper_wet_wipes": {
       "status": "active",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
+      "comparisonGroup": "paper_wet_wipes",
       "labelZh": "湿巾",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Vådservietter",
@@ -12340,10 +12340,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|velsmag dansk ovnklar flaeskesteg|pork_roast": {
+    "v1|velsmag dansk ovnklar flaeskesteg|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "丹麦脆皮烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Velsmag dansk ovnklar flæskesteg",
@@ -12400,10 +12400,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|velsmag marineret kotelet|pork_chop": {
+    "v1|velsmag marineret kotelet|prepared_pork_marinated": {
       "status": "active",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "labelZh": "猪排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Velsmag marineret kotelet",
@@ -12532,10 +12532,10 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|xtra ispinde eller isvafler|biscuits": {
+    "v1|xtra ispinde eller isvafler|ice_cream": {
       "status": "active",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Xtra! ispinde eller isvafler",
@@ -12568,11 +12568,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|chicken_breast": {
+    "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|prepared_chicken_breast_marinated": {
       "status": "active",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breast",
-      "labelZh": "鸡胸肉",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "labelZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Xtra! marineret kyllingebryst med citron/rosmarin eller bbq",
       "authoredBy": "Codex",
@@ -12736,13 +12736,37 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-18T16:13:27.448Z"
     },
-    "v1|tulip bacon|bacon_mixed_offer": {
+    "v1|madvaerket kyllingebrystfilet eller laarmix|prepared_chicken_breast_marinated": {
       "status": "active",
-      "categoryId": "bacon",
-      "comparisonGroup": "bacon_mixed_offer",
-      "labelZh": "培根",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "labelZh": "鸡胸肉或鸡腿肉任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Tulip bacon",
+      "originalName": "MADVÆRKET Kyllingebrystfilet eller -lårmix",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "v1|sagra butchers butterfly eller yellow poussin|prepared_poultry_mixed_offer": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_poultry_mixed_offer",
+      "labelZh": "童子鸡",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "SAGRA/BUTCHERS Butterfly- eller yellow poussin",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-18T16:13:27.448Z"
+    },
+    "v1|marinerede flanksteak|prepared_beef_marinated": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
+      "labelZh": "牛腹肉排",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Marinerede flanksteak",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",

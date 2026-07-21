@@ -13,6 +13,43 @@ test('groups comparable chicken thighs', () => {
   assert.deepEqual(result, { categoryId:'chicken', comparisonGroup:'chicken_thigh' });
 });
 
+test('keeps prepared chicken and formed beef products out of raw meat aisles', () => {
+  const expected = new Map([
+    ['SOL&MAR Kyllingevinger', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
+    ['ROSE Buffalo Wings', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
+    ['Morliny classic eller crispy hot wings', ['prepared_meat', 'prepared_chicken_wings_mixed_offer']],
+    ['Løgismose marineret kyllingebryst', ['prepared_meat', 'prepared_chicken_breast_marinated']],
+    ['MADVÆRKET Burgerbøffer af oksekød', ['prepared_meat', 'prepared_beef_burgers']],
+  ]);
+  for (const [heading, [categoryId, comparisonGroup]] of expected) {
+    assert.deepEqual(classifyOffer({ heading }), { categoryId, comparisonGroup }, heading);
+  }
+  assert.equal(AARHUS_COMPARISON_GROUPS.prepared_chicken_wings_mixed_offer.comparable, false);
+});
+
+test('keeps clearly marinated or cooked pork, beef, and lamb out of fresh meat aisles', () => {
+  const expected = new Map([
+    ['Velsmag marineret kotelet', 'prepared_pork_marinated'],
+    ['Pulled pork', 'prepared_pork_cooked'],
+    ['Tulip pulled pork eller spareribs', 'prepared_pork_mixed_offer'],
+    ['Marinerede flanksteak med chimichurri', 'prepared_beef_marinated'],
+    ['Coop marineret lammeculotte', 'prepared_lamb_marinated'],
+  ]);
+  for (const [heading, comparisonGroup] of expected) {
+    const result = classifyOffer({ heading });
+    assert.equal(result.categoryId, 'prepared_meat', heading);
+    assert.equal(result.comparisonGroup, comparisonGroup, heading);
+  }
+});
+
+test('uses product form before incidental meat, fish, fruit, and paper words', () => {
+  assert.deepEqual(classifyOffer({ heading:'REMA 1000 Fiskefars' }), { categoryId:'seafood', comparisonGroup:'fish_mince' });
+  assert.equal(classifyOffer({ heading:'Ribena solbær' }), null);
+  assert.deepEqual(classifyOffer({ heading:'LUPILU Vådservietter' }), { categoryId:'paper_products', comparisonGroup:'paper_wet_wipes' });
+  assert.deepEqual(classifyOffer({ heading:'REMA 1000 Lommeletter eller ansigtsservietter' }), { categoryId:'paper_products', comparisonGroup:'paper_facial' });
+  assert.equal(classifyOffer({ heading:'Hatting Burgerboller eller hotdogbrød' }).categoryId, 'bread_bakery');
+});
+
 test('separates turkey species, body parts, mince, and processed products', () => {
   const expected = new Map([
     ['Kalkunbrystfilet', 'turkey_breast'],
@@ -36,7 +73,7 @@ test('keeps cross-part and cross-species meat offers out of atomic lowest-price 
     ['Kyllingelår, -spyd eller udbenede kyllingeoverlår', 'chicken_mixed_offer'],
     ['MADVÆRKET Kyllingevinger, -lårfilet, -underlår eller -overlår med ryg', 'chicken_mixed_offer'],
     ['Hakket grise- og kalvekød 8-12% eller hele kyllingelår', 'mixed_meat_offer'],
-    ['REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg', 'pork_mixed_offer'],
+    ['REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg', 'prepared_pork_mixed_offer'],
     ['PremiuM roastbeef eller steak', 'beef_mixed_offer'],
     ['Coop varmrøget-, røget laks eller rejer', 'seafood_mixed_offer'],
     ['Xtra! tun eller Bonduelle majs', 'mixed_grocery_offer'],
@@ -108,7 +145,7 @@ test('uses product identity rather than flavour words or brand fragments', () =>
   assert.equal(classifyOffer({ heading:'AEG Ovn' }), null);
   assert.equal(classifyOffer({ heading:'AEG Vaskemaskine' }), null);
   assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
-  assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'beef_steak');
+  assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'prepared_beef_marinated');
   assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'prepared_chicken_breaded');
   assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese_spreadable');
   assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');

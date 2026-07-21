@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
+  "entries": {
+    "sol mar kyllingevinger": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
+      "productNameZh": "SOL&MAR Piri 香辣调味鸡翅",
+      "descriptionZh": "SOL&MAR 冷冻调味鸡翅，包装图显示为 Piri 香辣风味。适合烤箱或空气炸锅充分加热；这是已经调味的制成品，不是未调味生鸡翅。"
+    },
+    "rose buffalo wings": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
+      "productNameZh": "ROSE 水牛城辣味鸡翅",
+      "descriptionZh": "ROSE 冷冻水牛城辣味鸡翅，已经腌制调味，可用烤箱或空气炸锅充分加热。它属于调味鸡肉制成品，不与未调味生鸡翅比较。"
+    },
+    "morliny classic eller crispy hot wings": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_mixed_offer",
+      "productNameZh": "Morliny 原味热辣或裹粉脆皮鸡翅",
+      "descriptionZh": "Morliny 冷冻鸡翅，可选普通热辣款或带面衣的脆皮款。两者都适合烤箱或空气炸锅复热，但裹粉比例不同，因此不计算统一最低单价，也不与生鸡翅混比。"
+    },
+    "logismose marineret kyllingebryst": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "productNameZh": "Løgismose 柠檬百里香腌制鸡胸",
+      "descriptionZh": "已经用柠檬和百里香腌好的鸡胸肉，可直接平底锅煎或烧烤。它带调味和腌料，不与原味生鸡胸比较最低价。"
+    },
+    "xtra marineret kyllingebryst med citron rosmarin eller bbq": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "productNameZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
+      "descriptionZh": "已经腌制的鸡胸肉，可选柠檬迷迭香味或烧烤味，适合煎、烤或空气炸。因为带腌料和明确口味，所以不与未调味生鸡胸混比。"
+    },
+    "madvaerket burgerboffer af oksekod": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_burgers",
+      "productNameZh": "MADVÆRKET 牛肉汉堡饼",
+      "descriptionZh": "已经压成形的牛肉汉堡饼，脂肪含量最高 20%，可平底锅煎或烧烤后夹汉堡面包。它是成型肉制品，不与散装牛肉末或牛排比较。"
+    },
+    "hamburger af oksekod": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_burgers",
+      "productNameZh": "牛肉汉堡饼",
+      "descriptionZh": "已经压成形的牛肉汉堡饼，可平底锅煎或烧烤后夹面包。它属于成型牛肉制品，不与散装牛肉末或整块牛排比较。"
+    },
+    "baadsmand fiskefrikadeller eller roget makrelfilet": {
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "productNameZh": "Bådsmand 鱼饼或烟熏鲭鱼柳",
+      "descriptionZh": "可选煎食的鱼饼或已经烟熏的鲭鱼柳。两种商品的形态、含鱼比例和吃法不同，因此只作任选促销展示，不计算统一最低价。"
+    },
+    "rema 1000 fiskefars": {
+      "categoryId": "seafood",
+      "comparisonGroup": "fish_mince",
+      "productNameZh": "REMA 1000 调味鱼肉糜",
+      "descriptionZh": "调味鱼肉糜，类似可做鱼丸或鱼饼的鱼滑。可分成小饼煎熟、做鱼丸或加入汤中；它不是整片鱼柳。"
+    },
+    "salatbowls": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "prepared_salad",
+      "productNameZh": "即食沙拉碗",
+      "descriptionZh": "开盒即可拌食的沙拉碗，含爽脆蔬菜、配料和酱汁，可选热熏三文鱼、裹粉鸡肉或炸鹰嘴豆丸版本。不同主料任选，不按肉类最低价比较。"
+    },
+    "melonmix frugtmix eller ananas i skiver": {
+      "categoryId": "fruit",
+      "comparisonGroup": "prepared_fruit",
+      "productNameZh": "切配蜜瓜、水果拼盘或菠萝片",
+      "descriptionZh": "已经洗切装盒的水果，可选蜜瓜拼盘、混合水果或菠萝片，开盒即可吃。应按实际组合、净重和保鲜期选择。"
+    },
+    "nektariner ferskner blommer eller abrikoser": {
+      "categoryId": "fruit",
+      "comparisonGroup": "mixed_fruit",
+      "productNameZh": "油桃、桃、李子或杏任选",
+      "descriptionZh": "油桃、桃子、李子或杏四种核果任选。品种、果核比例和大小不同，因此按实际购买的水果和每件价格参考，不计算单一品种最低价。"
+    },
+    "taga bacondadler fuet snack sticks eller skiver": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Taga 培根枣、Fuet 肉棒或肉片任选",
+      "descriptionZh": "可选培根包枣、Fuet 风干肉零食棒或切片，三者形态和配料明显不同。它是混合肉制品任选，不属于单纯培根片，也不计算统一最低价。"
+    },
+    "stryhns postej eller roget medister": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Stryhns 肝酱或烟熏 Medister 香肠",
+      "descriptionZh": "可选抹面包用的丹麦肝酱，或需要加热食用的烟熏 Medister 猪肉香肠。两者用途和形态不同，不属于单一肝酱促销，也不计算统一最低价。"
+    },
+    "beauvais tomatketchup": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_ketchup",
+      "productNameZh": "Beauvais 番茄酱",
+      "descriptionZh": "酸甜口味的番茄蘸酱，可配薯条、汉堡、香肠或煎蛋，也可用于调糖醋汁。它是番茄酱，不是新鲜番茄。"
+    },
+    "k salat mayonnaise eller remoulade": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "productNameZh": "K-SALAT 蛋黄酱或丹麦酸黄瓜蛋黄酱",
+      "descriptionZh": "可选普通蛋黄酱，或含酸黄瓜、香料的丹麦 remoulade 酱。前者适合拌沙拉和三明治，后者常配炸鱼、薯条或热狗；两种酱不计算统一最低价。"
+    },
+    "anglamark vaadservietter": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_wet_wipes",
+      "productNameZh": "Änglamark 湿巾",
+      "descriptionZh": "一次性湿巾，用于擦拭皮肤或日常清洁。购买时应看总片数，并按包装确认是否无香、敏感肌适用或属于婴儿湿巾。"
+    },
+    "hello sensitive vaadservietter": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_wet_wipes",
+      "productNameZh": "Hello Sensitive 无香敏感肌湿巾",
+      "descriptionZh": "不含香精的敏感肌湿巾，适合温和擦拭皮肤。它按片数比较，不与卫生纸、厨房纸或餐巾纸混比。"
+    },
+    "lupilu vaadservietter": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_wet_wipes",
+      "productNameZh": "LUPILU 婴儿湿巾",
+      "descriptionZh": "塑料纤维无添加的婴儿湿巾，可选芦荟或敏感肌版本，用于换尿布和温和清洁皮肤。按每包片数比较，不与干纸巾混比。"
+    },
+    "vaadservietter": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_wet_wipes",
+      "productNameZh": "湿巾",
+      "descriptionZh": "一次性湿巾，用于擦拭皮肤或表面。购买时需确认每包片数、用途，以及是否含香精或消毒成分。"
+    },
+    "rema 1000 lommeletter med balsam eller ansigtsservietter": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_facial",
+      "productNameZh": "REMA 1000 润肤手帕纸或面巾纸",
+      "descriptionZh": "可选含润肤成分的便携手帕纸或日常面巾纸，用于擤鼻涕和擦脸。应按总张数与包装形式比较，不属于餐巾纸。"
+    },
+    "ribena solbaer": {
+      "status": "excluded",
+      "reasonZh": "黑加仑浓缩果汁饮料不在当前饮料收录范围内，不能作为新鲜莓果展示。"
+    }
+  }
+}

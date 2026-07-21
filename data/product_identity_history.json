@@ -176,56 +176,6 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|4 burgerboller eller 6 polsebrod|sausage_mixed_offer": {
-      "stableProductKey": "v1|4 burgerboller eller 6 polsebrod|sausage_mixed_offer",
-      "canonicalNames": [
-        "4 burgerboller eller 6 pølsebrød"
-      ],
-      "categoryIds": [
-        "sausages"
-      ],
-      "comparisonGroups": [
-        "sausage_mixed_offer"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "kHtfiL2J2T1kjCqPNSvxm": {
-          "sourceOfferId": "kHtfiL2J2T1kjCqPNSvxm",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=0f87b9cd4fe47cf437c06fc7dabc13fd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-13.webp&x1r=0.58&x2r=0.98&y1r=0.25&y2r=0.49"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=0f87b9cd4fe47cf437c06fc7dabc13fd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-13.webp&x1r=0.58&x2r=0.98&y1r=0.25&y2r=0.49": {
-          "offerIds": [
-            "kHtfiL2J2T1kjCqPNSvxm"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|7 morgen eller funny morgenmad|cereal": {
       "stableProductKey": "v1|7 morgen eller funny morgenmad|cereal",
       "canonicalNames": [
@@ -4064,92 +4014,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|anglamark vaadservietter|baby_care": {
-      "stableProductKey": "v1|anglamark vaadservietter|baby_care",
+    "v1|anglamark vaadservietter|paper_wet_wipes": {
+      "stableProductKey": "v1|anglamark vaadservietter|paper_wet_wipes",
       "canonicalNames": [
         "Änglamark vådservietter"
       ],
       "categoryIds": [
-        "baby"
-      ],
-      "comparisonGroups": [
-        "baby_care"
-      ],
-      "stores": [
-        "365",
-        "kvickly"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "0nCsioII_Y6pQpDujznsR": {
-          "sourceOfferId": "0nCsioII_Y6pQpDujznsR",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=a17a58662a24d5ddd7f386592ea561dc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.5&x2r=0.98&y1r=0.29&y2r=0.56"
-          ]
-        },
-        "hRiyvgl-oEujdq8dKaDtO": {
-          "sourceOfferId": "hRiyvgl-oEujdq8dKaDtO",
-          "stores": [
-            "kvickly"
-          ],
-          "catalogIds": [
-            "uw0HW5Gt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=74dead71230521fcc64490f079e82444&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-13.webp&x1r=0.479&x2r=0.98&y1r=0.674&y2r=0.957"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=74dead71230521fcc64490f079e82444&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-13.webp&x1r=0.479&x2r=0.98&y1r=0.674&y2r=0.957": {
-          "offerIds": [
-            "hRiyvgl-oEujdq8dKaDtO"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        },
-        "https://image-transformer-api.tjek.com/?s=a17a58662a24d5ddd7f386592ea561dc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.5&x2r=0.98&y1r=0.29&y2r=0.56": {
-          "offerIds": [
-            "0nCsioII_Y6pQpDujznsR"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 2,
-        "sameNameSeenWithDifferentSourceIds": true,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|anglamark vaadservietter|paper_mixed_offer": {
-      "stableProductKey": "v1|anglamark vaadservietter|paper_mixed_offer",
-      "canonicalNames": [
-        "Änglamark vådservietter"
-      ],
-      "categoryIds": [
-        "baby",
         "paper_products"
       ],
       "comparisonGroups": [
-        "baby_care",
-        "paper_mixed_offer"
+        "paper_wet_wipes"
       ],
       "stores": [
         "365",
@@ -5529,8 +5403,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|baadsmand fiskefrikadeller eller roget makrelfilet|white_fish": {
-      "stableProductKey": "v1|baadsmand fiskefrikadeller eller roget makrelfilet|white_fish",
+    "v1|baadsmand fiskefrikadeller eller roget makrelfilet|seafood_mixed_offer": {
+      "stableProductKey": "v1|baadsmand fiskefrikadeller eller roget makrelfilet|seafood_mixed_offer",
       "canonicalNames": [
         "Bådsmand fiskefrikadeller eller røget makrelfilet"
       ],
@@ -5538,7 +5412,7 @@
         "seafood"
       ],
       "comparisonGroups": [
-        "white_fish"
+        "seafood_mixed_offer"
       ],
       "stores": [
         "netto"
@@ -8244,16 +8118,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|bon gelati gelatelli isvafler|biscuits": {
-      "stableProductKey": "v1|bon gelati gelatelli isvafler|biscuits",
+    "v1|bon gelati gelatelli isvafler|ice_cream": {
+      "stableProductKey": "v1|bon gelati gelatelli isvafler|ice_cream",
       "canonicalNames": [
         "BON GELATI/GELATELLI Isvafler"
       ],
       "categoryIds": [
-        "biscuits_cakes"
+        "ice_cream"
       ],
       "comparisonGroups": [
-        "biscuits"
+        "ice_cream"
       ],
       "stores": [
         "lidl"
@@ -8288,56 +8162,6 @@
           ]
         },
         "https://image-transformer-api.tjek.com/?s=d03c67242207f9edf70fe9ec402bdccc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-6.webp&x1r=0.015&x2r=0.655&y1r=0.722&y2r=0.955": {
-          "offerIds": [
-            "TOGg4aCeWrWMoSVbra90l"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|bon gelati gelatelli isvafler|ice_cream": {
-      "stableProductKey": "v1|bon gelati gelatelli isvafler|ice_cream",
-      "canonicalNames": [
-        "BON GELATI/GELATELLI Isvafler"
-      ],
-      "categoryIds": [
-        "ice_cream"
-      ],
-      "comparisonGroups": [
-        "ice_cream"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "TOGg4aCeWrWMoSVbra90l": {
-          "sourceOfferId": "TOGg4aCeWrWMoSVbra90l",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=79fa44012ccb5a4d5ef34120966eb73c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.655&y1r=0.73&y2r=0.955"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=79fa44012ccb5a4d5ef34120966eb73c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&x1r=0.015&x2r=0.655&y1r=0.73&y2r=0.955": {
           "offerIds": [
             "TOGg4aCeWrWMoSVbra90l"
           ],
@@ -9717,66 +9541,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|butcher s oksesteak med peberkant|beef_steak": {
-      "stableProductKey": "v1|butcher s oksesteak med peberkant|beef_steak",
+    "v1|butcher s oksesteak med peberkant|prepared_beef_marinated": {
+      "stableProductKey": "v1|butcher s oksesteak med peberkant|prepared_beef_marinated",
       "canonicalNames": [
         "BUTCHER'S Oksesteak med peberkant"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_steak"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
-      "offerIds": {
-        "JXp1d_3uwcBWZylvp6NTv": {
-          "sourceOfferId": "JXp1d_3uwcBWZylvp6NTv",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "Oatr0g1G"
-          ],
-          "validPeriods": [
-            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=9543c2f20f6b76a7ea3b36355acf5097&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0067&x2r=0.5118&y1r=0.4627&y2r=0.7076"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=9543c2f20f6b76a7ea3b36355acf5097&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-7.webp&x1r=0.0067&x2r=0.5118&y1r=0.4627&y2r=0.7076": {
-          "offerIds": [
-            "JXp1d_3uwcBWZylvp6NTv"
-          ],
-          "validPeriods": [
-            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|butcher s oksesteak med peberkant|spices": {
-      "stableProductKey": "v1|butcher s oksesteak med peberkant|spices",
-      "canonicalNames": [
-        "BUTCHER'S Oksesteak med peberkant"
-      ],
-      "categoryIds": [
-        "pantry"
-      ],
-      "comparisonGroups": [
-        "spices"
+        "prepared_beef_marinated"
       ],
       "stores": [
         "lidl"
@@ -11122,9 +10896,11 @@
         "CHEF SELECT Kyllingeburger eller -nuggets"
       ],
       "categoryIds": [
+        "chicken",
         "prepared_meat"
       ],
       "comparisonGroups": [
+        "chicken_other",
         "prepared_chicken_breaded"
       ],
       "stores": [
@@ -11175,66 +10951,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak": {
-      "stableProductKey": "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak",
+    "v1|chimichurri marineret flatsteak af kalv|prepared_beef_marinated": {
+      "stableProductKey": "v1|chimichurri marineret flatsteak af kalv|prepared_beef_marinated",
       "canonicalNames": [
         "Chimichurri marineret flatsteak af kalv"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_flat_steak"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "QInkumpQO15G5Iw9AfxXr": {
-          "sourceOfferId": "QInkumpQO15G5Iw9AfxXr",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=37e9834395b1c3d06b228ef950804794&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.03&x2r=0.37&y1r=0.03&y2r=0.47"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=37e9834395b1c3d06b228ef950804794&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.03&x2r=0.37&y1r=0.03&y2r=0.47": {
-          "offerIds": [
-            "QInkumpQO15G5Iw9AfxXr"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|chimichurri marineret flatsteak af kalv|beef_steak": {
-      "stableProductKey": "v1|chimichurri marineret flatsteak af kalv|beef_steak",
-      "canonicalNames": [
-        "Chimichurri marineret flatsteak af kalv"
-      ],
-      "categoryIds": [
-        "beef"
-      ],
-      "comparisonGroups": [
-        "beef_steak"
+        "prepared_beef_marinated"
       ],
       "stores": [
         "bilka"
@@ -12672,16 +12398,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop bbq koteletter|pork_chop": {
-      "stableProductKey": "v1|coop bbq koteletter|pork_chop",
+    "v1|coop bbq koteletter|prepared_pork_marinated": {
+      "stableProductKey": "v1|coop bbq koteletter|prepared_pork_marinated",
       "canonicalNames": [
         "Coop bbq koteletter"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "365"
@@ -13315,221 +13041,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|onion_garlic": {
-      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|onion_garlic",
+    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|prepared_pork_marinated": {
+      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|prepared_pork_marinated",
       "canonicalNames": [
         "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
       ],
       "categoryIds": [
-        "pork_fresh",
-        "vegetables"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "onion_garlic",
-        "pork_chop"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "C9zcs-O540aFAIrKyJRH_": {
-          "sourceOfferId": "C9zcs-O540aFAIrKyJRH_",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969": {
-          "offerIds": [
-            "C9zcs-O540aFAIrKyJRH_"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|other_berries": {
-      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|other_berries",
-      "canonicalNames": [
-        "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
-      ],
-      "categoryIds": [
-        "fruit"
-      ],
-      "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "C9zcs-O540aFAIrKyJRH_": {
-          "sourceOfferId": "C9zcs-O540aFAIrKyJRH_",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969": {
-          "offerIds": [
-            "C9zcs-O540aFAIrKyJRH_"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_chop": {
-      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_chop",
-      "canonicalNames": [
-        "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "C9zcs-O540aFAIrKyJRH_": {
-          "sourceOfferId": "C9zcs-O540aFAIrKyJRH_",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969": {
-          "offerIds": [
-            "C9zcs-O540aFAIrKyJRH_"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer": {
-      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer",
-      "canonicalNames": [
-        "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
-      ],
-      "categoryIds": [
-        "pork_fresh",
-        "vegetables"
-      ],
-      "comparisonGroups": [
-        "onion_garlic",
-        "pork_chop",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "C9zcs-O540aFAIrKyJRH_": {
-          "sourceOfferId": "C9zcs-O540aFAIrKyJRH_",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=09e96aaf69eed9252bf7b9ed541d597c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLQS8R1Hh%2Fp-5.webp&x1r=0.494&x2r=1&y1r=0.334&y2r=0.969": {
-          "offerIds": [
-            "C9zcs-O540aFAIrKyJRH_"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_ribs": {
-      "stableProductKey": "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_ribs",
-      "canonicalNames": [
-        "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "365"
@@ -14756,116 +14277,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|chocolate": {
-      "stableProductKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|chocolate",
+    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|prepared_pork_marinated": {
+      "stableProductKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|prepared_pork_marinated",
       "canonicalNames": [
         "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit"
       ],
       "categoryIds": [
-        "candy_chocolate"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "chocolate"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:48:55.799Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "2_Xo4oClZyxeNDv8WGRRN": {
-          "sourceOfferId": "2_Xo4oClZyxeNDv8WGRRN",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "SR-ErQtE"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=8b2d3fe2ed13447021ca4292655faafd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4ab40ae7dca12ff03f76ee07c6f29069"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=8b2d3fe2ed13447021ca4292655faafd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4ab40ae7dca12ff03f76ee07c6f29069": {
-          "offerIds": [
-            "2_Xo4oClZyxeNDv8WGRRN"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|other_berries": {
-      "stableProductKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|other_berries",
-      "canonicalNames": [
-        "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit"
-      ],
-      "categoryIds": [
-        "fruit"
-      ],
-      "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:48:55.799Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "2_Xo4oClZyxeNDv8WGRRN": {
-          "sourceOfferId": "2_Xo4oClZyxeNDv8WGRRN",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "SR-ErQtE"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=8b2d3fe2ed13447021ca4292655faafd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4ab40ae7dca12ff03f76ee07c6f29069"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=8b2d3fe2ed13447021ca4292655faafd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4ab40ae7dca12ff03f76ee07c6f29069": {
-          "offerIds": [
-            "2_Xo4oClZyxeNDv8WGRRN"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|pork_chop": {
-      "stableProductKey": "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|pork_chop",
-      "canonicalNames": [
-        "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "365"
@@ -15029,221 +14450,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|onion_garlic": {
-      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|onion_garlic",
+    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|prepared_pork_marinated": {
+      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|prepared_pork_marinated",
       "canonicalNames": [
         "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
       ],
       "categoryIds": [
-        "pork_fresh",
-        "vegetables"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "onion_garlic",
-        "pork_chop"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "88feXYDBZiJoooowf1cZJ": {
-          "sourceOfferId": "88feXYDBZiJoooowf1cZJ",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "SR-ErQtE"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9": {
-          "offerIds": [
-            "88feXYDBZiJoooowf1cZJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|other_berries": {
-      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|other_berries",
-      "canonicalNames": [
-        "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
-      ],
-      "categoryIds": [
-        "fruit"
-      ],
-      "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "88feXYDBZiJoooowf1cZJ": {
-          "sourceOfferId": "88feXYDBZiJoooowf1cZJ",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "SR-ErQtE"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9": {
-          "offerIds": [
-            "88feXYDBZiJoooowf1cZJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_chop": {
-      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_chop",
-      "canonicalNames": [
-        "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "88feXYDBZiJoooowf1cZJ": {
-          "sourceOfferId": "88feXYDBZiJoooowf1cZJ",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "SR-ErQtE"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9": {
-          "offerIds": [
-            "88feXYDBZiJoooowf1cZJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer": {
-      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer",
-      "canonicalNames": [
-        "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
-      ],
-      "categoryIds": [
-        "pork_fresh",
-        "vegetables"
-      ],
-      "comparisonGroups": [
-        "onion_garlic",
-        "pork_chop",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "88feXYDBZiJoooowf1cZJ": {
-          "sourceOfferId": "88feXYDBZiJoooowf1cZJ",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "SR-ErQtE"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=c7f9659a5c1e8ab8b292cd7a72660d29&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9": {
-          "offerIds": [
-            "88feXYDBZiJoooowf1cZJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_ribs": {
-      "stableProductKey": "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_ribs",
-      "canonicalNames": [
-        "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "365"
@@ -15334,16 +14550,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop marineret flanksteak med oregano og hvidlog|beef_flat_steak": {
-      "stableProductKey": "v1|coop marineret flanksteak med oregano og hvidlog|beef_flat_steak",
+    "v1|coop marineret flanksteak med oregano og hvidlog|prepared_beef_marinated": {
+      "stableProductKey": "v1|coop marineret flanksteak med oregano og hvidlog|prepared_beef_marinated",
       "canonicalNames": [
         "Coop marineret flanksteak med oregano og hvidløg"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_flat_steak"
+        "prepared_beef_marinated"
       ],
       "stores": [
         "365"
@@ -15384,66 +14600,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop marineret lammeculotte|beef_steak": {
-      "stableProductKey": "v1|coop marineret lammeculotte|beef_steak",
+    "v1|coop marineret lammeculotte|prepared_lamb_marinated": {
+      "stableProductKey": "v1|coop marineret lammeculotte|prepared_lamb_marinated",
       "canonicalNames": [
         "Coop marineret lammeculotte"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_steak"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "seAjpcWFPcAr3RXdCQhg2": {
-          "sourceOfferId": "seAjpcWFPcAr3RXdCQhg2",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=144e59048ee8e88b78dfaff59b5ff1dc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-4.webp&x1r=0.5&x2r=1&y1r=0.345&y2r=0.664"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=144e59048ee8e88b78dfaff59b5ff1dc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-4.webp&x1r=0.5&x2r=1&y1r=0.345&y2r=0.664": {
-          "offerIds": [
-            "seAjpcWFPcAr3RXdCQhg2"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop marineret lammeculotte|lamb_other": {
-      "stableProductKey": "v1|coop marineret lammeculotte|lamb_other",
-      "canonicalNames": [
-        "Coop marineret lammeculotte"
-      ],
-      "categoryIds": [
-        "beef"
-      ],
-      "comparisonGroups": [
-        "lamb_other"
+        "prepared_lamb_marinated"
       ],
       "stores": [
         "365"
@@ -15955,16 +15121,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop ribsteak bbq med lakrids chili eller firepit|beef_ribeye": {
-      "stableProductKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|beef_ribeye",
+    "v1|coop ribsteak bbq med lakrids chili eller firepit|prepared_pork_marinated": {
+      "stableProductKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|prepared_pork_marinated",
       "canonicalNames": [
         "Coop ribsteak bbq med lakrids/chili eller firepit"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_ribeye"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "365"
@@ -16376,168 +15542,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|coop spareribs pulled pork eller pulled chicken|other_berries": {
-      "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|other_berries",
+    "v1|coop spareribs pulled pork eller pulled chicken|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Coop spareribs, pulled pork eller pulled chicken"
       ],
       "categoryIds": [
-        "fruit"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "qW3UIcA5tGt2OfFAziDR5": {
-          "sourceOfferId": "qW3UIcA5tGt2OfFAziDR5",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84": {
-          "offerIds": [
-            "qW3UIcA5tGt2OfFAziDR5"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer": {
-      "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer",
-      "canonicalNames": [
-        "Coop spareribs, pulled pork eller pulled chicken"
-      ],
-      "categoryIds": [
-        "fruit",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "other_berries",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "qW3UIcA5tGt2OfFAziDR5": {
-          "sourceOfferId": "qW3UIcA5tGt2OfFAziDR5",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84": {
-          "offerIds": [
-            "qW3UIcA5tGt2OfFAziDR5"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop spareribs pulled pork eller pulled chicken|pork_ribs": {
-      "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_ribs",
-      "canonicalNames": [
-        "Coop spareribs, pulled pork eller pulled chicken"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "qW3UIcA5tGt2OfFAziDR5": {
-          "sourceOfferId": "qW3UIcA5tGt2OfFAziDR5",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=0681b74636f987dc2726d4821fc9c12a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-2.webp&x1r=0.02&x2r=0.49&y1r=0.57&y2r=0.84": {
-          "offerIds": [
-            "qW3UIcA5tGt2OfFAziDR5"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|coop spareribs pulled pork eller pulled chicken|pork_roast": {
-      "stableProductKey": "v1|coop spareribs pulled pork eller pulled chicken|pork_roast",
-      "canonicalNames": [
-        "Coop spareribs, pulled pork eller pulled chicken"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "365"
@@ -23940,56 +22954,6 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|focacciabrod buffalo burgerboller eller polsebrod|sausage_mixed_offer": {
-      "stableProductKey": "v1|focacciabrod buffalo burgerboller eller polsebrod|sausage_mixed_offer",
-      "canonicalNames": [
-        "Focacciabrød, buffalo burgerboller eller pølsebrød*"
-      ],
-      "categoryIds": [
-        "sausages"
-      ],
-      "comparisonGroups": [
-        "sausage_mixed_offer"
-      ],
-      "stores": [
-        "kvickly"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "n7hdCt0qHOeBDUIygfWV8": {
-          "sourceOfferId": "n7hdCt0qHOeBDUIygfWV8",
-          "stores": [
-            "kvickly"
-          ],
-          "catalogIds": [
-            "uw0HW5Gt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=1f79d6544a26affd6930091179fb3bbc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-21.webp&x1r=0.015&x2r=0.655&y1r=0.015&y2r=0.285"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=1f79d6544a26affd6930091179fb3bbc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-21.webp&x1r=0.015&x2r=0.655&y1r=0.015&y2r=0.285": {
-          "offerIds": [
-            "n7hdCt0qHOeBDUIygfWV8"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|food collective familleret|ready_meal": {
       "stableProductKey": "v1|food collective familleret|ready_meal",
       "canonicalNames": [
@@ -24346,16 +23310,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|fransk hotdog|sausage_frankfurter": {
-      "stableProductKey": "v1|fransk hotdog|sausage_frankfurter",
+    "v1|fransk hotdog|ready_meal": {
+      "stableProductKey": "v1|fransk hotdog|ready_meal",
       "canonicalNames": [
         "Fransk hotdog"
       ],
       "categoryIds": [
-        "sausages"
+        "frozen_ready"
       ],
       "comparisonGroups": [
-        "sausage_frankfurter"
+        "ready_meal"
       ],
       "stores": [
         "bilka"
@@ -25894,6 +24858,22 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=969c1047eaa55de035f4b6fafff456fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FBAa5mmo2%2Fp-37.webp&x1r=0.02&x2r=0.48&y1r=0.5&y2r=0.72": {
+          "offerIds": [
+            "mdcGpJEyT_t36F1aP31Yj"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-18T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=bddf576502c7864b73a7caac945802f7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-9.webp&x1r=0.038&x2r=0.49&y1r=0.675&y2r=0.967": {
+          "offerIds": [
+            "JmRi-jlqpFURpt3VeCtDz"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
@@ -26200,16 +25180,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|gelatelli ispinde eller isvafler|biscuits": {
-      "stableProductKey": "v1|gelatelli ispinde eller isvafler|biscuits",
+    "v1|gelatelli ispinde eller isvafler|ice_cream": {
+      "stableProductKey": "v1|gelatelli ispinde eller isvafler|ice_cream",
       "canonicalNames": [
         "GELATELLI Ispinde eller isvafler"
       ],
       "categoryIds": [
-        "biscuits_cakes"
+        "ice_cream"
       ],
       "comparisonGroups": [
-        "biscuits"
+        "ice_cream"
       ],
       "stores": [
         "lidl"
@@ -26273,56 +25253,6 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|gelatelli ispinde eller isvafler|ice_cream": {
-      "stableProductKey": "v1|gelatelli ispinde eller isvafler|ice_cream",
-      "canonicalNames": [
-        "GELATELLI Ispinde eller isvafler"
-      ],
-      "categoryIds": [
-        "ice_cream"
-      ],
-      "comparisonGroups": [
-        "ice_cream"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:48:55.799Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "jcCV45z_6f6DInqu-B6j5": {
-          "sourceOfferId": "jcCV45z_6f6DInqu-B6j5",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=a2343239e43319a1bc7be7bd162f3e1e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-19.webp&x1r=0.5&x2r=1&y1r=0.5&y2r=0.95"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=a2343239e43319a1bc7be7bd162f3e1e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-19.webp&x1r=0.5&x2r=1&y1r=0.5&y2r=0.95": {
-          "offerIds": [
-            "jcCV45z_6f6DInqu-B6j5"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|gelatelli jordbaer eller vaniljeis|ice_cream": {
       "stableProductKey": "v1|gelatelli jordbaer eller vaniljeis|ice_cream",
       "canonicalNames": [
@@ -26382,16 +25312,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|gelatelli mini isvafler|biscuits": {
-      "stableProductKey": "v1|gelatelli mini isvafler|biscuits",
+    "v1|gelatelli mini isvafler|ice_cream": {
+      "stableProductKey": "v1|gelatelli mini isvafler|ice_cream",
       "canonicalNames": [
         "GELATELLI Mini-isvafler"
       ],
       "categoryIds": [
-        "biscuits_cakes"
+        "ice_cream"
       ],
       "comparisonGroups": [
-        "biscuits"
+        "ice_cream"
       ],
       "stores": [
         "lidl"
@@ -26451,56 +25381,6 @@
       "evidence": {
         "distinctSourceOfferIdCount": 2,
         "sameNameSeenWithDifferentSourceIds": true,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|gelatelli mini isvafler|ice_cream": {
-      "stableProductKey": "v1|gelatelli mini isvafler|ice_cream",
-      "canonicalNames": [
-        "GELATELLI Mini-isvafler"
-      ],
-      "categoryIds": [
-        "ice_cream"
-      ],
-      "comparisonGroups": [
-        "ice_cream"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "w4K0f6sWigyavru3vATrc": {
-          "sourceOfferId": "w4K0f6sWigyavru3vATrc",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=224d0008be7e16316357646272998c9d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-19.webp&x1r=0&x2r=0.49&y1r=0.72&y2r=0.95"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=224d0008be7e16316357646272998c9d&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-19.webp&x1r=0&x2r=0.49&y1r=0.72&y2r=0.95": {
-          "offerIds": [
-            "w4K0f6sWigyavru3vATrc"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -28329,118 +27209,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|grillmester marinerede spareribs|other_berries": {
-      "stableProductKey": "v1|grillmester marinerede spareribs|other_berries",
+    "v1|grillmester marinerede spareribs|prepared_pork_marinated": {
+      "stableProductKey": "v1|grillmester marinerede spareribs|prepared_pork_marinated",
       "canonicalNames": [
         "GRILLMESTER Marinerede spareribs"
       ],
       "categoryIds": [
-        "fruit"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "tsu18n9g2aWFl8XECJ7Jz": {
-          "sourceOfferId": "tsu18n9g2aWFl8XECJ7Jz",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=c55fd2149fb99130fb5e56a4e4c1115e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&x1r=0.019&x2r=0.31&y1r=0.373&y2r=0.72"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=c55fd2149fb99130fb5e56a4e4c1115e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&x1r=0.019&x2r=0.31&y1r=0.373&y2r=0.72": {
-          "offerIds": [
-            "tsu18n9g2aWFl8XECJ7Jz"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|grillmester marinerede spareribs|pork_ribs": {
-      "stableProductKey": "v1|grillmester marinerede spareribs|pork_ribs",
-      "canonicalNames": [
-        "GRILLMESTER Marinerede spareribs"
-      ],
-      "categoryIds": [
-        "fruit",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "other_berries",
-        "pork_ribs"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "tsu18n9g2aWFl8XECJ7Jz": {
-          "sourceOfferId": "tsu18n9g2aWFl8XECJ7Jz",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=c55fd2149fb99130fb5e56a4e4c1115e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&x1r=0.019&x2r=0.31&y1r=0.373&y2r=0.72"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=c55fd2149fb99130fb5e56a4e4c1115e&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&x1r=0.019&x2r=0.31&y1r=0.373&y2r=0.72": {
-          "offerIds": [
-            "tsu18n9g2aWFl8XECJ7Jz"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|grillmester marinerede spareribs|pork_roast": {
-      "stableProductKey": "v1|grillmester marinerede spareribs|pork_roast",
-      "canonicalNames": [
-        "GRILLMESTER Marinerede spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "lidl"
@@ -29742,16 +28520,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|hamburger af oksekod|beef_burgers": {
-      "stableProductKey": "v1|hamburger af oksekod|beef_burgers",
+    "v1|hamburger af oksekod|prepared_beef_burgers": {
+      "stableProductKey": "v1|hamburger af oksekod|prepared_beef_burgers",
       "canonicalNames": [
         "Hamburger af oksekød"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_burgers"
+        "prepared_beef_burgers"
       ],
       "stores": [
         "lidl"
@@ -29786,7 +28564,6 @@
             "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=6b660070776ef705580b0dad957cab9a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-37.webp&x1r=0.014&x2r=0.298&y1r=0.041&y2r=0.498",
             "https://image-transformer-api.tjek.com/?s=a35c6d318002d6f34a02d62736a9f30c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&x1r=0.014&x2r=0.298&y1r=0.041&y2r=0.498"
           ]
         }
@@ -29820,56 +28597,6 @@
       "evidence": {
         "distinctSourceOfferIdCount": 2,
         "sameNameSeenWithDifferentSourceIds": true,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|hamburger af oksekod|beef_steak": {
-      "stableProductKey": "v1|hamburger af oksekod|beef_steak",
-      "canonicalNames": [
-        "Hamburger af oksekød"
-      ],
-      "categoryIds": [
-        "beef"
-      ],
-      "comparisonGroups": [
-        "beef_steak"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "mn_YR2Kr9IXmx5gj6CfV0": {
-          "sourceOfferId": "mn_YR2Kr9IXmx5gj6CfV0",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=a35c6d318002d6f34a02d62736a9f30c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&x1r=0.014&x2r=0.298&y1r=0.041&y2r=0.498"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=a35c6d318002d6f34a02d62736a9f30c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&x1r=0.014&x2r=0.298&y1r=0.041&y2r=0.498": {
-          "offerIds": [
-            "mn_YR2Kr9IXmx5gj6CfV0"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -30734,16 +29461,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|hatting burgerboller eller hotdogbrod|sausage_frankfurter": {
-      "stableProductKey": "v1|hatting burgerboller eller hotdogbrod|sausage_frankfurter",
+    "v1|hatting burgerboller eller hotdogbrod|bread": {
+      "stableProductKey": "v1|hatting burgerboller eller hotdogbrod|bread",
       "canonicalNames": [
         "Hatting Burgerboller eller hotdogbrød"
       ],
       "categoryIds": [
-        "sausages"
+        "bread_bakery"
       ],
       "comparisonGroups": [
-        "sausage_frankfurter"
+        "bread"
       ],
       "stores": [
         "rema"
@@ -31618,16 +30345,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|hel ovnklar flaeskesteg|pork_roast": {
-      "stableProductKey": "v1|hel ovnklar flaeskesteg|pork_roast",
+    "v1|hel ovnklar flaeskesteg|prepared_pork_marinated": {
+      "stableProductKey": "v1|hel ovnklar flaeskesteg|prepared_pork_marinated",
       "canonicalNames": [
         "Hel ovnklar flæskesteg"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "bilka"
@@ -32149,68 +30876,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|hello sensitive vaadservietter|baby_care": {
-      "stableProductKey": "v1|hello sensitive vaadservietter|baby_care",
+    "v1|hello sensitive vaadservietter|paper_wet_wipes": {
+      "stableProductKey": "v1|hello sensitive vaadservietter|paper_wet_wipes",
       "canonicalNames": [
         "Hello Sensitive vådservietter"
       ],
       "categoryIds": [
-        "baby"
-      ],
-      "comparisonGroups": [
-        "baby_care"
-      ],
-      "stores": [
-        "netto"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-24T21:59:59+0000",
-      "offerIds": {
-        "fPcHxg0yacuuW2_pK3BtY": {
-          "sourceOfferId": "fPcHxg0yacuuW2_pK3BtY",
-          "stores": [
-            "netto"
-          ],
-          "catalogIds": [
-            "xg_2XUk5"
-          ],
-          "validPeriods": [
-            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e59a3e82cd7d4ccbd889b3d8f59f0d5f&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-19.webp&x1r=0.025&x2r=0.32&y1r=0.355&y2r=0.58"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e59a3e82cd7d4ccbd889b3d8f59f0d5f&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-19.webp&x1r=0.025&x2r=0.32&y1r=0.355&y2r=0.58": {
-          "offerIds": [
-            "fPcHxg0yacuuW2_pK3BtY"
-          ],
-          "validPeriods": [
-            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|hello sensitive vaadservietter|paper_mixed_offer": {
-      "stableProductKey": "v1|hello sensitive vaadservietter|paper_mixed_offer",
-      "canonicalNames": [
-        "Hello Sensitive vådservietter"
-      ],
-      "categoryIds": [
-        "baby",
         "paper_products"
       ],
       "comparisonGroups": [
-        "baby_care",
-        "paper_mixed_offer"
+        "paper_wet_wipes"
       ],
       "stores": [
         "netto"
@@ -33840,66 +32515,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|jensens pulled chicken eller spareribs|other_berries": {
-      "stableProductKey": "v1|jensens pulled chicken eller spareribs|other_berries",
+    "v1|jensens pulled chicken eller spareribs|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|jensens pulled chicken eller spareribs|prepared_pork_mixed_offer",
       "canonicalNames": [
         "JENSENS Pulled chicken eller spareribs"
       ],
       "categoryIds": [
-        "fruit"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "6wMDblxkT669yqPhl1g7O": {
-          "sourceOfferId": "6wMDblxkT669yqPhl1g7O",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94": {
-          "offerIds": [
-            "6wMDblxkT669yqPhl1g7O"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|jensens pulled chicken eller spareribs|pork_mixed_offer": {
-      "stableProductKey": "v1|jensens pulled chicken eller spareribs|pork_mixed_offer",
-      "canonicalNames": [
-        "JENSENS Pulled chicken eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_mixed_offer"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "lidl"
@@ -33959,106 +32584,6 @@
       "evidence": {
         "distinctSourceOfferIdCount": 2,
         "sameNameSeenWithDifferentSourceIds": true,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|jensens pulled chicken eller spareribs|pork_ribs": {
-      "stableProductKey": "v1|jensens pulled chicken eller spareribs|pork_ribs",
-      "canonicalNames": [
-        "JENSENS Pulled chicken eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "6wMDblxkT669yqPhl1g7O": {
-          "sourceOfferId": "6wMDblxkT669yqPhl1g7O",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94": {
-          "offerIds": [
-            "6wMDblxkT669yqPhl1g7O"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|jensens pulled chicken eller spareribs|pork_roast": {
-      "stableProductKey": "v1|jensens pulled chicken eller spareribs|pork_roast",
-      "canonicalNames": [
-        "JENSENS Pulled chicken eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "6wMDblxkT669yqPhl1g7O": {
-          "sourceOfferId": "6wMDblxkT669yqPhl1g7O",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=8fe7e877020ce838c16b274f879c1a54&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-18.webp&x1r=0.695&x2r=0.975&y1r=0.52&y2r=0.94": {
-          "offerIds": [
-            "6wMDblxkT669yqPhl1g7O"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -35882,16 +34407,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer": {
-      "stableProductKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer",
+    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|prepared_beef_marinated": {
+      "stableProductKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|prepared_beef_marinated",
       "canonicalNames": [
         "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_mixed_offer"
+        "prepared_beef_marinated"
       ],
       "stores": [
         "rema"
@@ -35941,116 +34466,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_roast": {
-      "stableProductKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_roast",
-      "canonicalNames": [
-        "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ"
-      ],
-      "categoryIds": [
-        "beef"
-      ],
-      "comparisonGroups": [
-        "beef_roast"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "DDPfydxp3Pug8Ar-o3XjR": {
-          "sourceOfferId": "DDPfydxp3Pug8Ar-o3XjR",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "LoE4C3LU"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=75fd860a983ac2c19a4b10381a14558b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&x1r=0.03&x2r=1&y1r=0&y2r=0.63"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=75fd860a983ac2c19a4b10381a14558b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&x1r=0.03&x2r=1&y1r=0&y2r=0.63": {
-          "offerIds": [
-            "DDPfydxp3Pug8Ar-o3XjR"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_steak": {
-      "stableProductKey": "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_steak",
-      "canonicalNames": [
-        "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ"
-      ],
-      "categoryIds": [
-        "beef"
-      ],
-      "comparisonGroups": [
-        "beef_steak"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "DDPfydxp3Pug8Ar-o3XjR": {
-          "sourceOfferId": "DDPfydxp3Pug8Ar-o3XjR",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "LoE4C3LU"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=75fd860a983ac2c19a4b10381a14558b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&x1r=0.03&x2r=1&y1r=0&y2r=0.63"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=75fd860a983ac2c19a4b10381a14558b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&x1r=0.03&x2r=1&y1r=0&y2r=0.63": {
-          "offerIds": [
-            "DDPfydxp3Pug8Ar-o3XjR"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|kanel eller wienerstang|sausage_frankfurter": {
-      "stableProductKey": "v1|kanel eller wienerstang|sausage_frankfurter",
+    "v1|kanel eller wienerstang|biscuits": {
+      "stableProductKey": "v1|kanel eller wienerstang|biscuits",
       "canonicalNames": [
         "Kanel- eller wienerstang*"
       ],
       "categoryIds": [
-        "sausages"
+        "biscuits_cakes"
       ],
       "comparisonGroups": [
-        "sausage_frankfurter"
+        "biscuits"
       ],
       "stores": [
         "kvickly"
@@ -39084,16 +37509,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|kohberg hotdogbrod|sausage_frankfurter": {
-      "stableProductKey": "v1|kohberg hotdogbrod|sausage_frankfurter",
+    "v1|kohberg hotdogbrod|bread": {
+      "stableProductKey": "v1|kohberg hotdogbrod|bread",
       "canonicalNames": [
         "KOHBERG Hotdogbrød"
       ],
       "categoryIds": [
-        "sausages"
+        "bread_bakery"
       ],
       "comparisonGroups": [
-        "sausage_frankfurter"
+        "bread"
       ],
       "stores": [
         "lidl"
@@ -39307,16 +37732,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|koteletter tilsat lage hvidlog|pork_chop": {
-      "stableProductKey": "v1|koteletter tilsat lage hvidlog|pork_chop",
+    "v1|koteletter tilsat lage hvidlog|prepared_pork_marinated": {
+      "stableProductKey": "v1|koteletter tilsat lage hvidlog|prepared_pork_marinated",
       "canonicalNames": [
         "KOTELETTER TILSAT LAGE HVIDLØG"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "rema"
@@ -39625,68 +38050,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|krydrede kodboller eller hakket grisekod|bread": {
-      "stableProductKey": "v1|krydrede kodboller eller hakket grisekod|bread",
+    "v1|krydrede kodboller eller hakket grisekod|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|krydrede kodboller eller hakket grisekod|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Krydrede kødboller eller hakket grisekød"
       ],
       "categoryIds": [
-        "bread_bakery"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "bread"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "X6MSkTndYF22QBJo_uGvi": {
-          "sourceOfferId": "X6MSkTndYF22QBJo_uGvi",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=789f347191509cc7b872a48c2886988a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-2.webp&x1r=0.303&x2r=0.646&y1r=0.582&y2r=0.958"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=789f347191509cc7b872a48c2886988a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-2.webp&x1r=0.303&x2r=0.646&y1r=0.582&y2r=0.958": {
-          "offerIds": [
-            "X6MSkTndYF22QBJo_uGvi"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|krydrede kodboller eller hakket grisekod|pork_mixed_offer": {
-      "stableProductKey": "v1|krydrede kodboller eller hakket grisekod|pork_mixed_offer",
-      "canonicalNames": [
-        "Krydrede kødboller eller hakket grisekød"
-      ],
-      "categoryIds": [
-        "bread_bakery",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "bread",
-        "pork_mixed_offer"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "bilka"
@@ -40338,115 +38711,13 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|kuljanka hvidkaalssalat|cabbage": {
-      "stableProductKey": "v1|kuljanka hvidkaalssalat|cabbage",
-      "canonicalNames": [
-        "KULJANKA Hvidkålssalat"
-      ],
-      "categoryIds": [
-        "vegetables"
-      ],
-      "comparisonGroups": [
-        "cabbage"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:48:55.799Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "Bl6s39BRxQAqQ0qPAQVYk": {
-          "sourceOfferId": "Bl6s39BRxQAqQ0qPAQVYk",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=67ec27ed23ff92f76d882ed4f109c93c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-27.webp&x1r=0.34&x2r=0.66&y1r=0.21&y2r=0.49"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=67ec27ed23ff92f76d882ed4f109c93c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-27.webp&x1r=0.34&x2r=0.66&y1r=0.21&y2r=0.49": {
-          "offerIds": [
-            "Bl6s39BRxQAqQ0qPAQVYk"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|kuljanka hvidkaalssalat|leafy_green": {
-      "stableProductKey": "v1|kuljanka hvidkaalssalat|leafy_green",
-      "canonicalNames": [
-        "KULJANKA Hvidkålssalat"
-      ],
-      "categoryIds": [
-        "vegetables",
-        "prepared_meat"
-      ],
-      "comparisonGroups": [
-        "leafy_green",
-        "prepared_salad"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:48:55.799Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "Bl6s39BRxQAqQ0qPAQVYk": {
-          "sourceOfferId": "Bl6s39BRxQAqQ0qPAQVYk",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "1-7wVdKu"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=67ec27ed23ff92f76d882ed4f109c93c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-27.webp&x1r=0.34&x2r=0.66&y1r=0.21&y2r=0.49"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=67ec27ed23ff92f76d882ed4f109c93c&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-27.webp&x1r=0.34&x2r=0.66&y1r=0.21&y2r=0.49": {
-          "offerIds": [
-            "Bl6s39BRxQAqQ0qPAQVYk"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|kuljanka hvidkaalssalat|prepared_salad": {
       "stableProductKey": "v1|kuljanka hvidkaalssalat|prepared_salad",
       "canonicalNames": [
         "KULJANKA Hvidkålssalat"
       ],
       "categoryIds": [
-        "prepared_meat"
+        "frozen_ready"
       ],
       "comparisonGroups": [
         "prepared_salad"
@@ -41841,9 +40112,11 @@
         "Kyllingepopcorn"
       ],
       "categoryIds": [
+        "chicken",
         "prepared_meat"
       ],
       "comparisonGroups": [
+        "chicken_other",
         "prepared_chicken_breaded"
       ],
       "stores": [
@@ -44045,16 +42318,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|logismose marineret kyllingebryst|chicken_breast": {
-      "stableProductKey": "v1|logismose marineret kyllingebryst|chicken_breast",
+    "v1|logismose marineret kyllingebryst|prepared_chicken_breast_marinated": {
+      "stableProductKey": "v1|logismose marineret kyllingebryst|prepared_chicken_breast_marinated",
       "canonicalNames": [
         "Løgismose marineret kyllingebryst"
       ],
       "categoryIds": [
-        "chicken"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "chicken_breast"
+        "prepared_chicken_breast_marinated"
       ],
       "stores": [
         "netto"
@@ -45163,91 +43436,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|lupilu vaadservietter|baby_care": {
-      "stableProductKey": "v1|lupilu vaadservietter|baby_care",
+    "v1|lupilu vaadservietter|paper_wet_wipes": {
+      "stableProductKey": "v1|lupilu vaadservietter|paper_wet_wipes",
       "canonicalNames": [
         "LUPILU Vådservietter"
       ],
       "categoryIds": [
-        "baby"
-      ],
-      "comparisonGroups": [
-        "baby_care"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "pkGPHheO4gzvUFJ2v2HRK": {
-          "sourceOfferId": "pkGPHheO4gzvUFJ2v2HRK",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=9396c3daea250906eefeff1394f24050&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-27.webp&x1r=0.5837&x2r=0.9989&y1r=0.7222&y2r=0.9423"
-          ]
-        },
-        "UZ1jILHLiROJ0hLbbb0DT": {
-          "sourceOfferId": "UZ1jILHLiROJ0hLbbb0DT",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=4f5ddcaa8a110ee2ca5eaa66e932dcd8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-27.webp&x1r=0.585&x2r=0.985&y1r=0.725&y2r=0.945"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=4f5ddcaa8a110ee2ca5eaa66e932dcd8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-27.webp&x1r=0.585&x2r=0.985&y1r=0.725&y2r=0.945": {
-          "offerIds": [
-            "UZ1jILHLiROJ0hLbbb0DT"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        },
-        "https://image-transformer-api.tjek.com/?s=9396c3daea250906eefeff1394f24050&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-27.webp&x1r=0.5837&x2r=0.9989&y1r=0.7222&y2r=0.9423": {
-          "offerIds": [
-            "pkGPHheO4gzvUFJ2v2HRK"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 2,
-        "sameNameSeenWithDifferentSourceIds": true,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|lupilu vaadservietter|paper_mixed_offer": {
-      "stableProductKey": "v1|lupilu vaadservietter|paper_mixed_offer",
-      "canonicalNames": [
-        "LUPILU Vådservietter"
-      ],
-      "categoryIds": [
-        "baby",
         "paper_products"
       ],
       "comparisonGroups": [
-        "baby_care",
-        "paper_mixed_offer"
+        "paper_wet_wipes"
       ],
       "stores": [
         "lidl"
@@ -45786,66 +43984,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket burgerboffer af oksekod|beef_burgers": {
-      "stableProductKey": "v1|madvaerket burgerboffer af oksekod|beef_burgers",
+    "v1|madvaerket burgerboffer af oksekod|prepared_beef_burgers": {
+      "stableProductKey": "v1|madvaerket burgerboffer af oksekod|prepared_beef_burgers",
       "canonicalNames": [
         "MADVÆRKET Burgerbøffer af oksekød"
       ],
       "categoryIds": [
-        "beef"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "beef_burgers"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
-      "offerIds": {
-        "AocW6honQVmldNh3Q4lOf": {
-          "sourceOfferId": "AocW6honQVmldNh3Q4lOf",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "Oatr0g1G"
-          ],
-          "validPeriods": [
-            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=a127fe711b207b27daa9e9b949856363&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&x1r=0.4999&x2r=0.9722&y1r=0.1191&y2r=0.4577"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=a127fe711b207b27daa9e9b949856363&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-6.webp&x1r=0.4999&x2r=0.9722&y1r=0.1191&y2r=0.4577": {
-          "offerIds": [
-            "AocW6honQVmldNh3Q4lOf"
-          ],
-          "validPeriods": [
-            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|madvaerket burgerboffer af oksekod|beef_steak": {
-      "stableProductKey": "v1|madvaerket burgerboffer af oksekod|beef_steak",
-      "canonicalNames": [
-        "MADVÆRKET Burgerbøffer af oksekød"
-      ],
-      "categoryIds": [
-        "beef"
-      ],
-      "comparisonGroups": [
-        "beef_steak"
+        "prepared_beef_burgers"
       ],
       "stores": [
         "lidl"
@@ -47926,6 +46074,58 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|madvaerket kyllingebrystfilet eller laarmix|prepared_chicken_breast_marinated": {
+      "stableProductKey": "v1|madvaerket kyllingebrystfilet eller laarmix|prepared_chicken_breast_marinated",
+      "canonicalNames": [
+        "MADVÆRKET Kyllingebrystfilet eller -lårmix"
+      ],
+      "categoryIds": [
+        "chicken",
+        "prepared_meat"
+      ],
+      "comparisonGroups": [
+        "chicken_breast",
+        "prepared_chicken_breast_marinated"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
+      "offerIds": {
+        "vylIJ4CZnYHLkMyK60g66": {
+          "sourceOfferId": "vylIJ4CZnYHLkMyK60g66",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "Oatr0g1G"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=15aa1d727467cb2054406ce1f58db794&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&x1r=0.4981&x2r=0.9891&y1r=0.0689&y2r=0.4605"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=15aa1d727467cb2054406ce1f58db794&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&x1r=0.4981&x2r=0.9891&y1r=0.0689&y2r=0.4605": {
+          "offerIds": [
+            "vylIJ4CZnYHLkMyK60g66"
+          ],
+          "validPeriods": [
+            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|madvaerket kyllingebrystfilet|chicken_breast": {
       "stableProductKey": "v1|madvaerket kyllingebrystfilet|chicken_breast",
       "canonicalNames": [
@@ -48889,67 +47089,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|madvaerket porchetta|pork_chop": {
-      "stableProductKey": "v1|madvaerket porchetta|pork_chop",
+    "v1|madvaerket porchetta|prepared_pork_marinated": {
+      "stableProductKey": "v1|madvaerket porchetta|prepared_pork_marinated",
       "canonicalNames": [
         "MADVÆRKET Porchetta"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-12-31T22:59:59+0000",
-      "offerIds": {
-        "vodFcxXG3WaZk0n_ScuP-": {
-          "sourceOfferId": "vodFcxXG3WaZk0n_ScuP-",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "Oatr0g1G"
-          ],
-          "validPeriods": [
-            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=4193ed2d75e3b6c32d292ddf9823e4c6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&x1r=0.4993&x2r=0.9898&y1r=0.7094&y2r=0.947"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=4193ed2d75e3b6c32d292ddf9823e4c6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-12.webp&x1r=0.4993&x2r=0.9898&y1r=0.7094&y2r=0.947": {
-          "offerIds": [
-            "vodFcxXG3WaZk0n_ScuP-"
-          ],
-          "validPeriods": [
-            "2026-05-02T22:00:00+0000|2026-12-31T22:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|madvaerket porchetta|pork_roast": {
-      "stableProductKey": "v1|madvaerket porchetta|pork_roast",
-      "canonicalNames": [
-        "MADVÆRKET Porchetta"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop",
-        "pork_roast"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "lidl"
@@ -51839,46 +49988,48 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|deli_mixed_offer": {
-      "stableProductKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|deli_mixed_offer",
+    "v1|marinerede flanksteak|prepared_beef_marinated": {
+      "stableProductKey": "v1|marinerede flanksteak|prepared_beef_marinated",
       "canonicalNames": [
-        "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
+        "Marinerede flanksteak"
       ],
       "categoryIds": [
-        "deli_meat"
+        "beef",
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "deli_mixed_offer"
+        "beef_flat_steak",
+        "prepared_beef_marinated"
       ],
       "stores": [
-        "bilka"
+        "foetex"
       ],
       "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
       "offerIds": {
-        "GDrMzGx7hGx-u_svsr22E": {
-          "sourceOfferId": "GDrMzGx7hGx-u_svsr22E",
+        "XMl27sECgiviGnMT3BbJn": {
+          "sourceOfferId": "XMl27sECgiviGnMT3BbJn",
           "stores": [
-            "bilka"
+            "foetex"
           ],
           "catalogIds": [
-            "-qfHcWJb"
+            "H4X1Lcfh"
           ],
           "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
           ],
           "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=6295cf84e81b3b3167d453f0862454ca&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47"
+            "https://image-transformer-api.tjek.com/?s=f5197cd8fea955e5672d79ef676f4685&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.38&x2r=0.7&y1r=0.7&y2r=0.96"
           ]
         }
       },
       "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=6295cf84e81b3b3167d453f0862454ca&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47": {
+        "https://image-transformer-api.tjek.com/?s=f5197cd8fea955e5672d79ef676f4685&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&x1r=0.38&x2r=0.7&y1r=0.7&y2r=0.96": {
           "offerIds": [
-            "GDrMzGx7hGx-u_svsr22E"
+            "XMl27sECgiviGnMT3BbJn"
           ],
           "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
+            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
           ]
         }
       },
@@ -51889,68 +50040,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_chop": {
-      "stableProductKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_chop",
+    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "GDrMzGx7hGx-u_svsr22E": {
-          "sourceOfferId": "GDrMzGx7hGx-u_svsr22E",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=6295cf84e81b3b3167d453f0862454ca&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=6295cf84e81b3b3167d453f0862454ca&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.37&x2r=0.98&y1r=0.03&y2r=0.47": {
-          "offerIds": [
-            "GDrMzGx7hGx-u_svsr22E"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer": {
-      "stableProductKey": "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer",
-      "canonicalNames": [
-        "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris"
-      ],
-      "categoryIds": [
-        "deli_meat",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "deli_mixed_offer",
-        "pork_mixed_offer"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "bilka"
@@ -52444,62 +50543,10 @@
         "Melonmix, frugtmix eller ananas i skiver"
       ],
       "categoryIds": [
-        "prepared_meat"
-      ],
-      "comparisonGroups": [
-        "prepared_fruit"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "ToJXAYfO1HcexH_Qnikph": {
-          "sourceOfferId": "ToJXAYfO1HcexH_Qnikph",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=67f5e18b6289d146d097659c26d4c086&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-19.webp&x1r=0.73&x2r=0.97&y1r=0.34&y2r=0.59"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=67f5e18b6289d146d097659c26d4c086&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-19.webp&x1r=0.73&x2r=0.97&y1r=0.34&y2r=0.59": {
-          "offerIds": [
-            "ToJXAYfO1HcexH_Qnikph"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|melonmix frugtmix eller ananas i skiver|tropical_fruit": {
-      "stableProductKey": "v1|melonmix frugtmix eller ananas i skiver|tropical_fruit",
-      "canonicalNames": [
-        "Melonmix, frugtmix eller ananas i skiver"
-      ],
-      "categoryIds": [
-        "prepared_meat",
         "fruit"
       ],
       "comparisonGroups": [
-        "prepared_fruit",
-        "tropical_fruit"
+        "prepared_fruit"
       ],
       "stores": [
         "foetex"
@@ -55909,67 +53956,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|morliny classic eller crispy hot wings|chicken_other": {
-      "stableProductKey": "v1|morliny classic eller crispy hot wings|chicken_other",
+    "v1|morliny classic eller crispy hot wings|prepared_chicken_wings_mixed_offer": {
+      "stableProductKey": "v1|morliny classic eller crispy hot wings|prepared_chicken_wings_mixed_offer",
       "canonicalNames": [
         "Morliny classic eller crispy hot wings"
       ],
       "categoryIds": [
-        "chicken"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "chicken_other"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "q9kyXmPYzwTgi86dqI84k": {
-          "sourceOfferId": "q9kyXmPYzwTgi86dqI84k",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=9abb29e39839750a3c1742a3ec34b9ce&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.475&x2r=0.985&y1r=0.715&y2r=0.955"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=9abb29e39839750a3c1742a3ec34b9ce&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-20.webp&x1r=0.475&x2r=0.985&y1r=0.715&y2r=0.955": {
-          "offerIds": [
-            "q9kyXmPYzwTgi86dqI84k"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|morliny classic eller crispy hot wings|chicken_wings": {
-      "stableProductKey": "v1|morliny classic eller crispy hot wings|chicken_wings",
-      "canonicalNames": [
-        "Morliny classic eller crispy hot wings"
-      ],
-      "categoryIds": [
-        "chicken"
-      ],
-      "comparisonGroups": [
-        "chicken_other",
-        "chicken_wings"
+        "prepared_chicken_wings_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -56020,56 +54016,6 @@
       ],
       "comparisonGroups": [
         "mixed_grocery_offer"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "DhlX65sgj2OwPQUt8appA": {
-          "sourceOfferId": "DhlX65sgj2OwPQUt8appA",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=3e7bbaff99cb6f335e60eb18b33386bd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&x1r=0.34&x2r=0.66&y1r=0.58&y2r=0.76"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=3e7bbaff99cb6f335e60eb18b33386bd&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&x1r=0.34&x2r=0.66&y1r=0.58&y2r=0.76": {
-          "offerIds": [
-            "DhlX65sgj2OwPQUt8appA"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|mutti tomater eller pizzasauce|sauce_pizza": {
-      "stableProductKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
-      "canonicalNames": [
-        "Mutti tomater eller pizzasauce"
-      ],
-      "categoryIds": [
-        "sauces_condiments"
-      ],
-      "comparisonGroups": [
-        "sauce_pizza"
       ],
       "stores": [
         "bilka"
@@ -56287,16 +54233,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|nakke koteletter smokey bbq|pork_chop": {
-      "stableProductKey": "v1|nakke koteletter smokey bbq|pork_chop",
+    "v1|nakke koteletter smokey bbq|prepared_pork_marinated": {
+      "stableProductKey": "v1|nakke koteletter smokey bbq|prepared_pork_marinated",
       "canonicalNames": [
         "NAKKE KOTELETTER SMOKEY BBQ"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "rema"
@@ -57218,6 +55164,57 @@
       ],
       "comparisonGroups": [
         "apricots"
+      ],
+      "stores": [
+        "foetex"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
+      "offerIds": {
+        "bcsdSZTPUfIafdExs6X1W": {
+          "sourceOfferId": "bcsdSZTPUfIafdExs6X1W",
+          "stores": [
+            "foetex"
+          ],
+          "catalogIds": [
+            "H4X1Lcfh"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=8126ffc3ee3a5ec855a0973f92929031&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-3.webp&x1r=0.02&x2r=0.48&y1r=0.576&y2r=0.957"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=8126ffc3ee3a5ec855a0973f92929031&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FGuyVWzDi%2Fp-3.webp&x1r=0.02&x2r=0.48&y1r=0.576&y2r=0.957": {
+          "offerIds": [
+            "bcsdSZTPUfIafdExs6X1W"
+          ],
+          "validPeriods": [
+            "2026-06-25T22:00:00+0000|2026-07-23T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
+    "v1|nektariner ferskner blommer eller abrikoser|mixed_fruit": {
+      "stableProductKey": "v1|nektariner ferskner blommer eller abrikoser|mixed_fruit",
+      "canonicalNames": [
+        "Nektariner, ferskner, blommer eller abrikoser"
+      ],
+      "categoryIds": [
+        "fruit"
+      ],
+      "comparisonGroups": [
+        "apricots",
+        "mixed_fruit"
       ],
       "stores": [
         "foetex"
@@ -61829,118 +59826,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|deli_mixed_offer": {
-      "stableProductKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|deli_mixed_offer",
+    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
       ],
       "categoryIds": [
-        "deli_meat"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "deli_mixed_offer"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "v-DUQ9GXkQNNBZZWl6G2h": {
-          "sourceOfferId": "v-DUQ9GXkQNNBZZWl6G2h",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=2adc3114ccfbb11844ce94acaa00f213&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=2adc3114ccfbb11844ce94acaa00f213&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958": {
-          "offerIds": [
-            "v-DUQ9GXkQNNBZZWl6G2h"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer": {
-      "stableProductKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer",
-      "canonicalNames": [
-        "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
-      ],
-      "categoryIds": [
-        "deli_meat",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "deli_mixed_offer",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "v-DUQ9GXkQNNBZZWl6G2h": {
-          "sourceOfferId": "v-DUQ9GXkQNNBZZWl6G2h",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=2adc3114ccfbb11844ce94acaa00f213&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=2adc3114ccfbb11844ce94acaa00f213&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-3.webp&x1r=0.476&x2r=1&y1r=0.552&y2r=0.958": {
-          "offerIds": [
-            "v-DUQ9GXkQNNBZZWl6G2h"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_roast": {
-      "stableProductKey": "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_roast",
-      "canonicalNames": [
-        "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -62935,10 +60830,12 @@
         "Panini med skinke og ost"
       ],
       "categoryIds": [
+        "cheese",
         "deli_meat",
         "frozen_ready"
       ],
       "comparisonGroups": [
+        "cheese_other",
         "deli_pork_sliced",
         "ready_meal"
       ],
@@ -65554,16 +63451,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|pulled pork|pork_roast": {
-      "stableProductKey": "v1|pulled pork|pork_roast",
+    "v1|pulled pork|prepared_pork_cooked": {
+      "stableProductKey": "v1|pulled pork|prepared_pork_cooked",
       "canonicalNames": [
         "Pulled pork"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_cooked"
       ],
       "stores": [
         "bilka"
@@ -65755,67 +63652,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|raa kamben med chimichurri eller mesquit|pork_chop": {
-      "stableProductKey": "v1|raa kamben med chimichurri eller mesquit|pork_chop",
+    "v1|raa kamben med chimichurri eller mesquit|prepared_pork_marinated": {
+      "stableProductKey": "v1|raa kamben med chimichurri eller mesquit|prepared_pork_marinated",
       "canonicalNames": [
         "Rå kamben med Chimichurri eller Mesquit"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "zWoCKjsdcInzWbuVPjYuO": {
-          "sourceOfferId": "zWoCKjsdcInzWbuVPjYuO",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=a3f2dcab3ae25da290e721a957be257b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.03&x2r=0.35&y1r=0.47&y2r=0.74"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=a3f2dcab3ae25da290e721a957be257b&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-11.webp&x1r=0.03&x2r=0.35&y1r=0.47&y2r=0.74": {
-          "offerIds": [
-            "zWoCKjsdcInzWbuVPjYuO"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|raa kamben med chimichurri eller mesquit|pork_ribs": {
-      "stableProductKey": "v1|raa kamben med chimichurri eller mesquit|pork_ribs",
-      "canonicalNames": [
-        "Rå kamben med Chimichurri eller Mesquit"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop",
-        "pork_ribs"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "bilka"
@@ -66129,116 +63975,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer": {
-      "stableProductKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer",
+    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|prepared_pork_mixed_offer",
       "canonicalNames": [
         "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "zcDfXxOfBjH0b8NaZIfF_": {
-          "sourceOfferId": "zcDfXxOfBjH0b8NaZIfF_",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "UwjGOlW-"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=9caaceb1dc82e14e31c5fedf188f76db&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=9caaceb1dc82e14e31c5fedf188f76db&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665": {
-          "offerIds": [
-            "zcDfXxOfBjH0b8NaZIfF_"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_roast": {
-      "stableProductKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_roast",
-      "canonicalNames": [
-        "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-18T21:59:59+0000",
-      "offerIds": {
-        "zcDfXxOfBjH0b8NaZIfF_": {
-          "sourceOfferId": "zcDfXxOfBjH0b8NaZIfF_",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "UwjGOlW-"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=9caaceb1dc82e14e31c5fedf188f76db&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=9caaceb1dc82e14e31c5fedf188f76db&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FUwjGOlW-%2Fp-3.webp&x1r=0.016&x2r=0.492&y1r=0.021&y2r=0.665": {
-          "offerIds": [
-            "zcDfXxOfBjH0b8NaZIfF_"
-          ],
-          "validPeriods": [
-            "2026-07-11T22:00:00+0000|2026-07-18T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_tenderloin": {
-      "stableProductKey": "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_tenderloin",
-      "canonicalNames": [
-        "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_tenderloin"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "rema"
@@ -66979,8 +64725,8 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 fiskefars|white_fish": {
-      "stableProductKey": "v1|rema 1000 fiskefars|white_fish",
+    "v1|rema 1000 fiskefars|fish_mince": {
+      "stableProductKey": "v1|rema 1000 fiskefars|fish_mince",
       "canonicalNames": [
         "REMA 1000 Fiskefars"
       ],
@@ -66988,7 +64734,7 @@
         "seafood"
       ],
       "comparisonGroups": [
-        "white_fish"
+        "fish_mince"
       ],
       "stores": [
         "rema"
@@ -67029,66 +64775,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|deli_mixed_offer": {
-      "stableProductKey": "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|deli_mixed_offer",
+    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|prepared_pork_mixed_offer",
       "canonicalNames": [
         "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ"
       ],
       "categoryIds": [
-        "deli_meat"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "deli_mixed_offer"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "HZDWVgdt6WR3pKwZCgq55": {
-          "sourceOfferId": "HZDWVgdt6WR3pKwZCgq55",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "LoE4C3LU"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=fa76665eef8e31da41d5885c70767f77&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&x1r=0.49&x2r=0.983&y1r=0.442&y2r=0.756"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=fa76665eef8e31da41d5885c70767f77&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-4.webp&x1r=0.49&x2r=0.983&y1r=0.442&y2r=0.756": {
-          "offerIds": [
-            "HZDWVgdt6WR3pKwZCgq55"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|pork_roast": {
-      "stableProductKey": "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|pork_roast",
-      "canonicalNames": [
-        "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "rema"
@@ -68512,68 +66208,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|hair_body": {
-      "stableProductKey": "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|hair_body",
+    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_facial": {
+      "stableProductKey": "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_facial",
       "canonicalNames": [
         "REMA 1000 Lommeletter med balsam eller ansigtsservietter"
       ],
       "categoryIds": [
-        "personal_care"
+        "paper_products"
       ],
       "comparisonGroups": [
-        "hair_body"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "yelRkHsaHxEfvcDyqEVSI": {
-          "sourceOfferId": "yelRkHsaHxEfvcDyqEVSI",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "LoE4C3LU"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=72b9d352f29b4b80656c35f0c6285798&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-21.webp&x1r=0.5&x2r=0.98&y1r=0.67&y2r=0.99"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=72b9d352f29b4b80656c35f0c6285798&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-21.webp&x1r=0.5&x2r=0.98&y1r=0.67&y2r=0.99": {
-          "offerIds": [
-            "yelRkHsaHxEfvcDyqEVSI"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_napkins": {
-      "stableProductKey": "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_napkins",
-      "canonicalNames": [
-        "REMA 1000 Lommeletter med balsam eller ansigtsservietter"
-      ],
-      "categoryIds": [
-        "paper_products",
-        "personal_care"
-      ],
-      "comparisonGroups": [
-        "hair_body",
-        "paper_napkins"
+        "paper_facial"
       ],
       "stores": [
         "rema"
@@ -70668,117 +68312,6 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|ribena solbaer|berries": {
-      "stableProductKey": "v1|ribena solbaer|berries",
-      "canonicalNames": [
-        "Ribena solbær"
-      ],
-      "categoryIds": [
-        "fruit"
-      ],
-      "comparisonGroups": [
-        "berries",
-        "other_berries"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "Tiu_WmQhk810ycThKeqZ_": {
-          "sourceOfferId": "Tiu_WmQhk810ycThKeqZ_",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "LoE4C3LU"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e58364f1f3f0817a7fbf9921d6474472&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&x1r=0.44&x2r=0.97&y1r=0.745&y2r=0.99"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e58364f1f3f0817a7fbf9921d6474472&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&x1r=0.44&x2r=0.97&y1r=0.745&y2r=0.99": {
-          "offerIds": [
-            "Tiu_WmQhk810ycThKeqZ_"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|ribena solbaer|other_berries": {
-      "stableProductKey": "v1|ribena solbaer|other_berries",
-      "canonicalNames": [
-        "Ribena solbær"
-      ],
-      "categoryIds": [
-        "fruit"
-      ],
-      "comparisonGroups": [
-        "berries",
-        "other_berries"
-      ],
-      "stores": [
-        "rema"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "Tiu_WmQhk810ycThKeqZ_": {
-          "sourceOfferId": "Tiu_WmQhk810ycThKeqZ_",
-          "stores": [
-            "rema"
-          ],
-          "catalogIds": [
-            "LoE4C3LU"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=a8c6e3a6c51b01f859773b7cb0c13ba8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&x1r=0.44&x2r=0.97&y1r=0.721&y2r=0.99",
-            "https://image-transformer-api.tjek.com/?s=e58364f1f3f0817a7fbf9921d6474472&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&x1r=0.44&x2r=0.97&y1r=0.745&y2r=0.99"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=a8c6e3a6c51b01f859773b7cb0c13ba8&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&x1r=0.44&x2r=0.97&y1r=0.721&y2r=0.99": {
-          "offerIds": [
-            "Tiu_WmQhk810ycThKeqZ_"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        },
-        "https://image-transformer-api.tjek.com/?s=e58364f1f3f0817a7fbf9921d6474472&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&x1r=0.44&x2r=0.97&y1r=0.745&y2r=0.99": {
-          "offerIds": [
-            "Tiu_WmQhk810ycThKeqZ_"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|riberhus danbo skiveost|cheese_sliced": {
       "stableProductKey": "v1|riberhus danbo skiveost|cheese_sliced",
       "canonicalNames": [
@@ -71612,67 +69145,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rogede kamben|pork_chop": {
-      "stableProductKey": "v1|rogede kamben|pork_chop",
+    "v1|rogede kamben|prepared_pork_cooked": {
+      "stableProductKey": "v1|rogede kamben|prepared_pork_cooked",
       "canonicalNames": [
         "Røgede kamben"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "qazgpCkG2oRongVn__EZR": {
-          "sourceOfferId": "qazgpCkG2oRongVn__EZR",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=cbcb150d56d9ab07f84a637309b14419&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-15.webp&x1r=0.48&x2r=0.97&y1r=0.61&y2r=0.93"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=cbcb150d56d9ab07f84a637309b14419&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-15.webp&x1r=0.48&x2r=0.97&y1r=0.61&y2r=0.93": {
-          "offerIds": [
-            "qazgpCkG2oRongVn__EZR"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|rogede kamben|pork_ribs": {
-      "stableProductKey": "v1|rogede kamben|pork_ribs",
-      "canonicalNames": [
-        "Røgede kamben"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop",
-        "pork_ribs"
+        "prepared_pork_cooked"
       ],
       "stores": [
         "bilka"
@@ -71836,67 +69318,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|rose buffalo wings|chicken_other": {
-      "stableProductKey": "v1|rose buffalo wings|chicken_other",
+    "v1|rose buffalo wings|prepared_chicken_wings_seasoned": {
+      "stableProductKey": "v1|rose buffalo wings|prepared_chicken_wings_seasoned",
       "canonicalNames": [
         "ROSE Buffalo Wings"
       ],
       "categoryIds": [
-        "chicken"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "chicken_other"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "MjHoDMlMsXI0VoRYiib8f": {
-          "sourceOfferId": "MjHoDMlMsXI0VoRYiib8f",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=10e1fc5cc290b8b6000586b4f1c0e920&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&x1r=0.02&x2r=0.485&y1r=0.505&y2r=0.725"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=10e1fc5cc290b8b6000586b4f1c0e920&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&x1r=0.02&x2r=0.485&y1r=0.505&y2r=0.725": {
-          "offerIds": [
-            "MjHoDMlMsXI0VoRYiib8f"
-          ],
-          "validPeriods": [
-            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|rose buffalo wings|chicken_wings": {
-      "stableProductKey": "v1|rose buffalo wings|chicken_wings",
-      "canonicalNames": [
-        "ROSE Buffalo Wings"
-      ],
-      "categoryIds": [
-        "chicken"
-      ],
-      "comparisonGroups": [
-        "chicken_other",
-        "chicken_wings"
+        "prepared_chicken_wings_seasoned"
       ],
       "stores": [
         "lidl"
@@ -72686,6 +70117,67 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
+    "v1|sagra butchers butterfly eller yellow poussin|prepared_poultry_mixed_offer": {
+      "stableProductKey": "v1|sagra butchers butterfly eller yellow poussin|prepared_poultry_mixed_offer",
+      "canonicalNames": [
+        "SAGRA/BUTCHERS Butterfly- eller yellow poussin"
+      ],
+      "categoryIds": [
+        "chicken",
+        "prepared_meat"
+      ],
+      "comparisonGroups": [
+        "other_poultry",
+        "prepared_poultry_mixed_offer"
+      ],
+      "stores": [
+        "lidl"
+      ],
+      "firstSeenAt": "2026-07-18T11:15:00.061Z",
+      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
+      "offerIds": {
+        "pySbVpC1mIISi6QSwFi2t": {
+          "sourceOfferId": "pySbVpC1mIISi6QSwFi2t",
+          "stores": [
+            "lidl"
+          ],
+          "catalogIds": [
+            "RKr3XPJa"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=15cecf46236049523e08bfa1cddb40f6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&x1r=0.512&x2r=0.985&y1r=0.009&y2r=0.292",
+            "https://image-transformer-api.tjek.com/?s=25f01d82f1f0f1bc3a52d4b3d6b7aae7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-36.webp&x1r=0.512&x2r=0.985&y1r=0.009&y2r=0.292"
+          ]
+        }
+      },
+      "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=15cecf46236049523e08bfa1cddb40f6&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-35.webp&x1r=0.512&x2r=0.985&y1r=0.009&y2r=0.292": {
+          "offerIds": [
+            "pySbVpC1mIISi6QSwFi2t"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        },
+        "https://image-transformer-api.tjek.com/?s=25f01d82f1f0f1bc3a52d4b3d6b7aae7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-36.webp&x1r=0.512&x2r=0.985&y1r=0.009&y2r=0.292": {
+          "offerIds": [
+            "pySbVpC1mIISi6QSwFi2t"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-25T21:59:59+0000"
+          ]
+        }
+      },
+      "evidence": {
+        "distinctSourceOfferIdCount": 1,
+        "sameNameSeenWithDifferentSourceIds": false,
+        "repeatedSourceIdsAcrossPromotionPeriods": [],
+        "exactImageReferencesSharedAcrossSourceIds": []
+      }
+    },
     "v1|sagra butchers butterfly eller yellow poussin|turkey_other": {
       "stableProductKey": "v1|sagra butchers butterfly eller yellow poussin|turkey_other",
       "canonicalNames": [
@@ -72836,69 +70328,15 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|salatbowls|leafy_green": {
-      "stableProductKey": "v1|salatbowls|leafy_green",
-      "canonicalNames": [
-        "Salatbowls"
-      ],
-      "categoryIds": [
-        "vegetables",
-        "prepared_meat"
-      ],
-      "comparisonGroups": [
-        "leafy_green",
-        "prepared_salad"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "8P8e85n3CV8MB5zWK6pfw": {
-          "sourceOfferId": "8P8e85n3CV8MB5zWK6pfw",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=25a3bb5be53b14e5b6b235658f84fbac&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-30.webp&x1r=0.165&x2r=0.957&y1r=0.485&y2r=0.963"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=25a3bb5be53b14e5b6b235658f84fbac&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-30.webp&x1r=0.165&x2r=0.957&y1r=0.485&y2r=0.963": {
-          "offerIds": [
-            "8P8e85n3CV8MB5zWK6pfw"
-          ],
-          "validPeriods": [
-            "2026-06-25T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|salatbowls|prepared_salad": {
       "stableProductKey": "v1|salatbowls|prepared_salad",
       "canonicalNames": [
         "Salatbowls"
       ],
       "categoryIds": [
-        "prepared_meat",
-        "vegetables"
+        "frozen_ready"
       ],
       "comparisonGroups": [
-        "leafy_green",
         "prepared_salad"
       ],
       "stores": [
@@ -73392,16 +70830,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|salling princip brioche hotdogbrod pretzel style|sausage_frankfurter": {
-      "stableProductKey": "v1|salling princip brioche hotdogbrod pretzel style|sausage_frankfurter",
+    "v1|salling princip brioche hotdogbrod pretzel style|bread": {
+      "stableProductKey": "v1|salling princip brioche hotdogbrod pretzel style|bread",
       "canonicalNames": [
         "Salling Princip brioche hotdogbrød pretzel style"
       ],
       "categoryIds": [
-        "sausages"
+        "bread_bakery"
       ],
       "comparisonGroups": [
-        "sausage_frankfurter"
+        "bread"
       ],
       "stores": [
         "netto"
@@ -75615,67 +73053,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|slagterens bbq kamben|pork_chop": {
-      "stableProductKey": "v1|slagterens bbq kamben|pork_chop",
+    "v1|slagterens bbq kamben|prepared_pork_marinated": {
+      "stableProductKey": "v1|slagterens bbq kamben|prepared_pork_marinated",
       "canonicalNames": [
         "Slagterens bbq kamben"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
-      ],
-      "stores": [
-        "kvickly"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "i14rlw88D8OC5IIJZjSpL": {
-          "sourceOfferId": "i14rlw88D8OC5IIJZjSpL",
-          "stores": [
-            "kvickly"
-          ],
-          "catalogIds": [
-            "uw0HW5Gt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=3761e22a7a08908abb0ed9b199be7d23&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0&x2r=0.649&y1r=0&y2r=0.369"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=3761e22a7a08908abb0ed9b199be7d23&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0&x2r=0.649&y1r=0&y2r=0.369": {
-          "offerIds": [
-            "i14rlw88D8OC5IIJZjSpL"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|slagterens bbq kamben|pork_ribs": {
-      "stableProductKey": "v1|slagterens bbq kamben|pork_ribs",
-      "canonicalNames": [
-        "Slagterens bbq kamben"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_chop",
-        "pork_ribs"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "kvickly"
@@ -76758,67 +74145,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|sol mar kyllingevinger|chicken_other": {
-      "stableProductKey": "v1|sol mar kyllingevinger|chicken_other",
+    "v1|sol mar kyllingevinger|prepared_chicken_wings_seasoned": {
+      "stableProductKey": "v1|sol mar kyllingevinger|prepared_chicken_wings_seasoned",
       "canonicalNames": [
         "SOL&MAR Kyllingevinger"
       ],
       "categoryIds": [
-        "chicken"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "chicken_other"
-      ],
-      "stores": [
-        "lidl"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-25T21:59:59+0000",
-      "offerIds": {
-        "5tJXMJsUuA9vONamxTYFT": {
-          "sourceOfferId": "5tJXMJsUuA9vONamxTYFT",
-          "stores": [
-            "lidl"
-          ],
-          "catalogIds": [
-            "RKr3XPJa"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=4e1b2b61dc95ae81096b1f6f4ab1e5a7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-10.webp&x1r=0.01&x2r=0.48&y1r=0.72&y2r=0.94"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=4e1b2b61dc95ae81096b1f6f4ab1e5a7&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-10.webp&x1r=0.01&x2r=0.48&y1r=0.72&y2r=0.94": {
-          "offerIds": [
-            "5tJXMJsUuA9vONamxTYFT"
-          ],
-          "validPeriods": [
-            "2026-07-18T22:00:00+0000|2026-07-25T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|sol mar kyllingevinger|chicken_wings": {
-      "stableProductKey": "v1|sol mar kyllingevinger|chicken_wings",
-      "canonicalNames": [
-        "SOL&MAR Kyllingevinger"
-      ],
-      "categoryIds": [
-        "chicken"
-      ],
-      "comparisonGroups": [
-        "chicken_other",
-        "chicken_wings"
+        "prepared_chicken_wings_seasoned"
       ],
       "stores": [
         "lidl"
@@ -78041,168 +75377,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|spareribs pulled chicken eller pork|other_berries": {
-      "stableProductKey": "v1|spareribs pulled chicken eller pork|other_berries",
+    "v1|spareribs pulled chicken eller pork|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|spareribs pulled chicken eller pork|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Spareribs, pulled chicken eller pork"
       ],
       "categoryIds": [
-        "fruit"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "other_berries"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "rK9ta-3wTfAD1TY595OMB": {
-          "sourceOfferId": "rK9ta-3wTfAD1TY595OMB",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26": {
-          "offerIds": [
-            "rK9ta-3wTfAD1TY595OMB"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|spareribs pulled chicken eller pork|pork_mixed_offer": {
-      "stableProductKey": "v1|spareribs pulled chicken eller pork|pork_mixed_offer",
-      "canonicalNames": [
-        "Spareribs, pulled chicken eller pork"
-      ],
-      "categoryIds": [
-        "fruit",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "other_berries",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "rK9ta-3wTfAD1TY595OMB": {
-          "sourceOfferId": "rK9ta-3wTfAD1TY595OMB",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26": {
-          "offerIds": [
-            "rK9ta-3wTfAD1TY595OMB"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|spareribs pulled chicken eller pork|pork_ribs": {
-      "stableProductKey": "v1|spareribs pulled chicken eller pork|pork_ribs",
-      "canonicalNames": [
-        "Spareribs, pulled chicken eller pork"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
-      ],
-      "stores": [
-        "foetex"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-31T21:59:59+0000",
-      "offerIds": {
-        "rK9ta-3wTfAD1TY595OMB": {
-          "sourceOfferId": "rK9ta-3wTfAD1TY595OMB",
-          "stores": [
-            "foetex"
-          ],
-          "catalogIds": [
-            "H4X1Lcfh"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e197a7bbb8263b1ec0ac61bd2f77f587&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-6.webp&x1r=0.61&x2r=0.98&y1r=0.02&y2r=0.26": {
-          "offerIds": [
-            "rK9ta-3wTfAD1TY595OMB"
-          ],
-          "validPeriods": [
-            "2026-06-30T22:00:00+0000|2026-07-31T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|spareribs pulled chicken eller pork|pork_roast": {
-      "stableProductKey": "v1|spareribs pulled chicken eller pork|pork_roast",
-      "canonicalNames": [
-        "Spareribs, pulled chicken eller pork"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "foetex"
@@ -78805,8 +75989,9 @@
         "sausages"
       ],
       "comparisonGroups": [
-        "sausage_other",
-        "sausage_mixed_offer"
+        "sausage_frankfurter",
+        "sausage_mixed_offer",
+        "sausage_other"
       ],
       "stores": [
         "365",
@@ -78828,6 +76013,21 @@
           ],
           "imageReferences": [
             "https://image-transformer-api.tjek.com/?s=cbaade7e16302a9471a7c97d3487831a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-3.webp&x1r=0.25&x2r=0.484&y1r=0.187&y2r=0.435"
+          ]
+        },
+        "1n-PZ4QpKLj6ZyaBKCODS": {
+          "sourceOfferId": "1n-PZ4QpKLj6ZyaBKCODS",
+          "stores": [
+            "netto"
+          ],
+          "catalogIds": [
+            "xg_2XUk5"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=16bc01decc50b05edc7fe29b830db66a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&x1r=0.34&x2r=0.66&y1r=0.69&y2r=0.97"
           ]
         },
         "Q2kej_QIoO1tK2y5FqyIm": {
@@ -78862,6 +76062,14 @@
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=16bc01decc50b05edc7fe29b830db66a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-12.webp&x1r=0.34&x2r=0.66&y1r=0.69&y2r=0.97": {
+          "offerIds": [
+            "1n-PZ4QpKLj6ZyaBKCODS"
+          ],
+          "validPeriods": [
+            "2026-07-17T22:00:00+0000|2026-07-24T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=cbaade7e16302a9471a7c97d3487831a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-3.webp&x1r=0.25&x2r=0.484&y1r=0.187&y2r=0.435": {
           "offerIds": [
             "-wZBG15U1fpTEbsV3qurQ"
@@ -78888,7 +76096,7 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 3,
+        "distinctSourceOfferIdCount": 4,
         "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
@@ -78904,6 +76112,7 @@
         "sausages"
       ],
       "comparisonGroups": [
+        "sausage_frankfurter",
         "sausage_other"
       ],
       "stores": [
@@ -79188,16 +76397,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|store koteletter tomat ramslog|pork_chop": {
-      "stableProductKey": "v1|store koteletter tomat ramslog|pork_chop",
+    "v1|store koteletter tomat ramslog|prepared_pork_marinated": {
+      "stableProductKey": "v1|store koteletter tomat ramslog|prepared_pork_marinated",
       "canonicalNames": [
         "STORE KOTELETTER TOMAT & RAMSLØG"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "rema"
@@ -79510,16 +76719,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|stryhns postej eller roget medister|liver_pate": {
-      "stableProductKey": "v1|stryhns postej eller roget medister|liver_pate",
+    "v1|stryhns postej eller roget medister|prepared_mixed_meat": {
+      "stableProductKey": "v1|stryhns postej eller roget medister|prepared_mixed_meat",
       "canonicalNames": [
         "Stryhns postej eller røget medister"
       ],
       "categoryIds": [
-        "liver_pate"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "liver_pate"
+        "prepared_mixed_meat"
       ],
       "stores": [
         "foetex"
@@ -80384,16 +77593,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_sliced": {
-      "stableProductKey": "v1|taga bacondadler fuet snack sticks eller skiver|bacon_sliced",
+    "v1|taga bacondadler fuet snack sticks eller skiver|prepared_mixed_meat": {
+      "stableProductKey": "v1|taga bacondadler fuet snack sticks eller skiver|prepared_mixed_meat",
       "canonicalNames": [
         "Taga bacondadler, fuet snack sticks eller skiver"
       ],
       "categoryIds": [
-        "bacon"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "bacon_sliced"
+        "prepared_mixed_meat"
       ],
       "stores": [
         "rema"
@@ -82737,57 +79946,6 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|tulip bacon|bacon_mixed_offer": {
-      "stableProductKey": "v1|tulip bacon|bacon_mixed_offer",
-      "canonicalNames": [
-        "Tulip bacon"
-      ],
-      "categoryIds": [
-        "bacon"
-      ],
-      "comparisonGroups": [
-        "bacon_other",
-        "bacon_mixed_offer"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "_wHJjUu6SrSIGgGdBtg36": {
-          "sourceOfferId": "_wHJjUu6SrSIGgGdBtg36",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=9e05ac48ee5ba9adf5259f51924b1e59&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.344&x2r=0.638&y1r=0.046&y2r=0.329"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=9e05ac48ee5ba9adf5259f51924b1e59&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.344&x2r=0.638&y1r=0.046&y2r=0.329": {
-          "offerIds": [
-            "_wHJjUu6SrSIGgGdBtg36"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
     "v1|tulip bacon|bacon_other": {
       "stableProductKey": "v1|tulip bacon|bacon_other",
       "canonicalNames": [
@@ -82938,16 +80096,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|tulip pulled eller spareribs|other_berries": {
-      "stableProductKey": "v1|tulip pulled eller spareribs|other_berries",
+    "v1|tulip pulled eller spareribs|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|tulip pulled eller spareribs|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Tulip pulled eller spareribs"
       ],
       "categoryIds": [
-        "fruit"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "other_berries"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "bilka"
@@ -82988,168 +80146,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|tulip pulled eller spareribs|pork_mixed_offer": {
-      "stableProductKey": "v1|tulip pulled eller spareribs|pork_mixed_offer",
-      "canonicalNames": [
-        "Tulip pulled eller spareribs"
-      ],
-      "categoryIds": [
-        "fruit",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "other_berries",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "68sqMpjT-k2piRAREQO_s": {
-          "sourceOfferId": "68sqMpjT-k2piRAREQO_s",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329": {
-          "offerIds": [
-            "68sqMpjT-k2piRAREQO_s"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|tulip pulled eller spareribs|pork_ribs": {
-      "stableProductKey": "v1|tulip pulled eller spareribs|pork_ribs",
-      "canonicalNames": [
-        "Tulip pulled eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "68sqMpjT-k2piRAREQO_s": {
-          "sourceOfferId": "68sqMpjT-k2piRAREQO_s",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329": {
-          "offerIds": [
-            "68sqMpjT-k2piRAREQO_s"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|tulip pulled eller spareribs|pork_roast": {
-      "stableProductKey": "v1|tulip pulled eller spareribs|pork_roast",
-      "canonicalNames": [
-        "Tulip pulled eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "68sqMpjT-k2piRAREQO_s": {
-          "sourceOfferId": "68sqMpjT-k2piRAREQO_s",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=e462f7d66ddb5c4887135d6ae505a3fc&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329": {
-          "offerIds": [
-            "68sqMpjT-k2piRAREQO_s"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|tulip pulled pork eller spareribs|other_berries": {
-      "stableProductKey": "v1|tulip pulled pork eller spareribs|other_berries",
+    "v1|tulip pulled pork eller spareribs|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|tulip pulled pork eller spareribs|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Tulip pulled pork eller spareribs"
       ],
       "categoryIds": [
-        "fruit"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "other_berries"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "kvickly"
@@ -83190,168 +80196,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|tulip pulled pork eller spareribs|pork_mixed_offer": {
-      "stableProductKey": "v1|tulip pulled pork eller spareribs|pork_mixed_offer",
-      "canonicalNames": [
-        "Tulip pulled pork eller spareribs"
-      ],
-      "categoryIds": [
-        "fruit",
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "other_berries",
-        "pork_mixed_offer"
-      ],
-      "stores": [
-        "kvickly"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "atZL4er1NEanI6bx0J-Sp": {
-          "sourceOfferId": "atZL4er1NEanI6bx0J-Sp",
-          "stores": [
-            "kvickly"
-          ],
-          "catalogIds": [
-            "uw0HW5Gt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992": {
-          "offerIds": [
-            "atZL4er1NEanI6bx0J-Sp"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|tulip pulled pork eller spareribs|pork_ribs": {
-      "stableProductKey": "v1|tulip pulled pork eller spareribs|pork_ribs",
-      "canonicalNames": [
-        "Tulip pulled pork eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_ribs"
-      ],
-      "stores": [
-        "kvickly"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "atZL4er1NEanI6bx0J-Sp": {
-          "sourceOfferId": "atZL4er1NEanI6bx0J-Sp",
-          "stores": [
-            "kvickly"
-          ],
-          "catalogIds": [
-            "uw0HW5Gt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992": {
-          "offerIds": [
-            "atZL4er1NEanI6bx0J-Sp"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|tulip pulled pork eller spareribs|pork_roast": {
-      "stableProductKey": "v1|tulip pulled pork eller spareribs|pork_roast",
-      "canonicalNames": [
-        "Tulip pulled pork eller spareribs"
-      ],
-      "categoryIds": [
-        "pork_fresh"
-      ],
-      "comparisonGroups": [
-        "pork_roast"
-      ],
-      "stores": [
-        "kvickly"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-30T21:59:59+0000",
-      "offerIds": {
-        "atZL4er1NEanI6bx0J-Sp": {
-          "sourceOfferId": "atZL4er1NEanI6bx0J-Sp",
-          "stores": [
-            "kvickly"
-          ],
-          "catalogIds": [
-            "uw0HW5Gt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=94725ef5a390e8b4fe878cff8de5b62a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-2.webp&x1r=0.609&x2r=0.985&y1r=0.655&y2r=0.992": {
-          "offerIds": [
-            "atZL4er1NEanI6bx0J-Sp"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-30T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|tulip pulled pork pulled chicken eller spareribs|pork_mixed_offer": {
-      "stableProductKey": "v1|tulip pulled pork pulled chicken eller spareribs|pork_mixed_offer",
+    "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer": {
+      "stableProductKey": "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer",
       "canonicalNames": [
         "Tulip pulled pork, pulled chicken eller spareribs*"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_mixed_offer"
+        "prepared_pork_mixed_offer"
       ],
       "stores": [
         "365"
@@ -84068,68 +80922,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|vaadservietter|baby_care": {
-      "stableProductKey": "v1|vaadservietter|baby_care",
+    "v1|vaadservietter|paper_wet_wipes": {
+      "stableProductKey": "v1|vaadservietter|paper_wet_wipes",
       "canonicalNames": [
         "Vådservietter"
       ],
       "categoryIds": [
-        "baby"
-      ],
-      "comparisonGroups": [
-        "baby_care"
-      ],
-      "stores": [
-        "bilka"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-23T21:59:59+0000",
-      "offerIds": {
-        "k-uLfBPQLGs7F63Uqdtqt": {
-          "sourceOfferId": "k-uLfBPQLGs7F63Uqdtqt",
-          "stores": [
-            "bilka"
-          ],
-          "catalogIds": [
-            "-qfHcWJb"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=2eaef6442c5d76bc7b588a2c38b523b5&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-9.webp&x1r=0.661&x2r=0.978&y1r=0.313&y2r=0.651"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=2eaef6442c5d76bc7b588a2c38b523b5&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-9.webp&x1r=0.661&x2r=0.978&y1r=0.313&y2r=0.651": {
-          "offerIds": [
-            "k-uLfBPQLGs7F63Uqdtqt"
-          ],
-          "validPeriods": [
-            "2026-07-16T22:00:00+0000|2026-07-23T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|vaadservietter|paper_mixed_offer": {
-      "stableProductKey": "v1|vaadservietter|paper_mixed_offer",
-      "canonicalNames": [
-        "Vådservietter"
-      ],
-      "categoryIds": [
-        "baby",
         "paper_products"
       ],
       "comparisonGroups": [
-        "baby_care",
-        "paper_mixed_offer"
+        "paper_wet_wipes"
       ],
       "stores": [
         "bilka"
@@ -84791,16 +81593,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|velsmag dansk ovnklar flaeskesteg|pork_roast": {
-      "stableProductKey": "v1|velsmag dansk ovnklar flaeskesteg|pork_roast",
+    "v1|velsmag dansk ovnklar flaeskesteg|prepared_pork_marinated": {
+      "stableProductKey": "v1|velsmag dansk ovnklar flaeskesteg|prepared_pork_marinated",
       "canonicalNames": [
         "Velsmag dansk ovnklar flæskesteg"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_roast"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "netto"
@@ -85092,16 +81894,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|velsmag marineret kotelet|pork_chop": {
-      "stableProductKey": "v1|velsmag marineret kotelet|pork_chop",
+    "v1|velsmag marineret kotelet|prepared_pork_marinated": {
+      "stableProductKey": "v1|velsmag marineret kotelet|prepared_pork_marinated",
       "canonicalNames": [
         "Velsmag marineret kotelet"
       ],
       "categoryIds": [
-        "pork_fresh"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "pork_chop"
+        "prepared_pork_marinated"
       ],
       "stores": [
         "netto"
@@ -85910,17 +82712,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|xtra ispinde eller isvafler|biscuits": {
-      "stableProductKey": "v1|xtra ispinde eller isvafler|biscuits",
+    "v1|xtra ispinde eller isvafler|ice_cream": {
+      "stableProductKey": "v1|xtra ispinde eller isvafler|ice_cream",
       "canonicalNames": [
-        "Xtra! ispinde eller isvafler",
-        "Xtra! ispinde eller isvafler*"
+        "Xtra! ispinde eller isvafler"
       ],
       "categoryIds": [
-        "biscuits_cakes"
+        "ice_cream"
       ],
       "comparisonGroups": [
-        "biscuits"
+        "ice_cream"
       ],
       "stores": [
         "365"
@@ -85980,56 +82781,6 @@
       "evidence": {
         "distinctSourceOfferIdCount": 2,
         "sameNameSeenWithDifferentSourceIds": true,
-        "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
-      }
-    },
-    "v1|xtra ispinde eller isvafler|ice_cream": {
-      "stableProductKey": "v1|xtra ispinde eller isvafler|ice_cream",
-      "canonicalNames": [
-        "Xtra! ispinde eller isvafler"
-      ],
-      "categoryIds": [
-        "ice_cream"
-      ],
-      "comparisonGroups": [
-        "ice_cream"
-      ],
-      "stores": [
-        "365"
-      ],
-      "firstSeenAt": "2026-07-18T11:15:00.061Z",
-      "lastPromotionEnd": "2026-07-22T21:59:59+0000",
-      "offerIds": {
-        "h_zq1jzBjwBO5jcwjO8_Z": {
-          "sourceOfferId": "h_zq1jzBjwBO5jcwjO8_Z",
-          "stores": [
-            "365"
-          ],
-          "catalogIds": [
-            "du5PQdPJ"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ],
-          "imageReferences": [
-            "https://image-transformer-api.tjek.com/?s=ca550047fe8956057811c21e79c9de59&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-1.webp&x1r=0.51&x2r=0.98&y1r=0.4&y2r=0.68"
-          ]
-        }
-      },
-      "imageReferences": {
-        "https://image-transformer-api.tjek.com/?s=ca550047fe8956057811c21e79c9de59&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-1.webp&x1r=0.51&x2r=0.98&y1r=0.4&y2r=0.68": {
-          "offerIds": [
-            "h_zq1jzBjwBO5jcwjO8_Z"
-          ],
-          "validPeriods": [
-            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
-          ]
-        }
-      },
-      "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -86354,16 +83105,16 @@
         "exactImageReferencesSharedAcrossSourceIds": []
       }
     },
-    "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|chicken_breast": {
-      "stableProductKey": "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|chicken_breast",
+    "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|prepared_chicken_breast_marinated": {
+      "stableProductKey": "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|prepared_chicken_breast_marinated",
       "canonicalNames": [
         "Xtra! marineret kyllingebryst med citron/rosmarin eller bbq"
       ],
       "categoryIds": [
-        "chicken"
+        "prepared_meat"
       ],
       "comparisonGroups": [
-        "chicken_breast"
+        "prepared_chicken_breast_marinated"
       ],
       "stores": [
         "kvickly"

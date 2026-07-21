@@ -12,6 +12,7 @@ test('daily fallback refreshes and deploys without Codex or OpenAI credentials',
   assert.match(workflow, /cron: '30 2 \* \* \*'/);
   assert.match(workflow, /npm run update:fallback/);
   assert.match(workflow, /npm test/);
+  assert.match(workflow, /npm run audit:taxonomy/);
   assert.match(workflow, /npm run validate/);
   assert.match(workflow, /actions\/deploy-pages@v4/);
   assert.doesNotMatch(workflow, /OPENAI_API_KEY|CODEX_ACCESS_TOKEN|npm run review:products/);

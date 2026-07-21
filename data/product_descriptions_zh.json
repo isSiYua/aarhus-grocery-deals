@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-21T23:04:44.933Z",
+  "updatedAt": "2026-07-21T23:41:01.953Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
@@ -477,7 +477,7 @@
       "productNameZh": "花生",
       "descriptionZh": "花生。坚果，可直接吃、拌麦片或用于烘焙；注意是否加盐、调味或带壳。",
       "originalName": "ALESTO Peanuts i sprød dej",
-      "originalDescription": "200 g. Pr. kg 75,00 -24 % 19,95",
+      "originalDescription": "200 g. Pr. kg 75,00",
       "categoryId": "salty_snacks",
       "comparisonGroup": "nuts",
       "authoredBy": "Codex",
@@ -869,13 +869,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-22.webp&w=1000&x1r=0.333&x2r=0.669&y1r=0.672&y2r=0.968&s=43958956b0ae1b2436f320fc97eafe71"
       }
     },
-    "v1|anglamark vaadservietter|paper_mixed_offer": {
-      "productNameZh": "湿巾",
-      "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+    "v1|anglamark vaadservietter|paper_wet_wipes": {
+      "productNameZh": "Änglamark 湿巾",
+      "descriptionZh": "一次性湿巾，用于擦拭皮肤或日常清洁。购买时应看总片数，并按包装确认是否无香、敏感肌适用或属于婴儿湿巾。",
       "originalName": "Änglamark vådservietter",
       "originalDescription": "72 stk. Stk.-pris 0,11. 1 pakke.",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
+      "comparisonGroup": "paper_wet_wipes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1247,13 +1247,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-7.webp&w=1000&x1r=0.05&x2r=0.966&y1r=0.67&y2r=0.958&s=ac1d10c1798737ca932398adf4e840a7"
       }
     },
-    "v1|baadsmand fiskefrikadeller eller roget makrelfilet|white_fish": {
-      "productNameZh": "鱼饼或烟熏鲭鱼",
-      "descriptionZh": "鱼饼用平底锅煎两面金黄，配面包或土豆；烟熏鲭鱼已熟，切片放面包上直接吃，挤柠檬汁。",
+    "v1|baadsmand fiskefrikadeller eller roget makrelfilet|seafood_mixed_offer": {
+      "productNameZh": "Bådsmand 鱼饼或烟熏鲭鱼柳",
+      "descriptionZh": "可选煎食的鱼饼或已经烟熏的鲭鱼柳。两种商品的形态、含鱼比例和吃法不同，因此只作任选促销展示，不计算统一最低价。",
       "originalName": "Bådsmand fiskefrikadeller eller røget makrelfilet",
       "originalDescription": "100-280 g. Pr. kg max. 220,00",
       "categoryId": "seafood",
-      "comparisonGroup": "white_fish",
+      "comparisonGroup": "seafood_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -1572,8 +1572,8 @@
       }
     },
     "v1|beauvais tomatketchup|sauce_ketchup": {
-      "productNameZh": "番茄",
-      "descriptionZh": "番茄。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "Beauvais 番茄酱",
+      "descriptionZh": "酸甜口味的番茄蘸酱，可配薯条、汉堡、香肠或煎蛋，也可用于调糖醋汁。它是番茄酱，不是新鲜番茄。",
       "originalName": "Beauvais tomatketchup",
       "originalDescription": "PR. STK. 12.- 500 g. Pr. kg 24.-",
       "categoryId": "sauces_condiments",
@@ -1913,13 +1913,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-15.webp&w=1000&x1r=0.505&x2r=0.986&y1r=0.485&y2r=0.728&s=8d04740941c11e93fd9ab858c664789b"
       }
     },
-    "v1|bon gelati gelatelli isvafler|biscuits": {
+    "v1|bon gelati gelatelli isvafler|ice_cream": {
       "productNameZh": "冰淇淋或冰品",
       "descriptionZh": "冰淇淋或冰品。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "BON GELATI/GELATELLI Isvafler",
       "originalDescription": "Dybfrost 6 x 120 ml. Pr. l 27,78 Med Lidl Plus³ -33% 29,95",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2165,13 +2165,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-9.webp&w=1000&x1r=0.4983&x2r=0.9957&y1r=0.712&y2r=0.9465&s=5f96d7d7598adba01ffe61296811aa03"
       }
     },
-    "v1|butcher s oksesteak med peberkant|beef_steak": {
+    "v1|butcher s oksesteak med peberkant|prepared_beef_marinated": {
       "productNameZh": "牛排",
-      "descriptionZh": "牛排。未明确为同一部位的其他牛排，只作价格参考，不计算全局最低价。",
+      "descriptionZh": "牛排。已经腌制或带明确调味的牛肉，可直接煎烤；不与未调味生牛排或整块牛肉混比。",
       "originalName": "BUTCHER'S Oksesteak med peberkant",
       "originalDescription": "Pr. 250 g. Pr. kg 159,80",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_steak",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2489,13 +2489,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-36.webp&w=1000&x1r=0.025&x2r=0.985&y1r=0.735&y2r=0.945&s=f36b398408c9762980246a45d419bd65"
       }
     },
-    "v1|chimichurri marineret flatsteak af kalv|beef_flat_steak": {
+    "v1|chimichurri marineret flatsteak af kalv|prepared_beef_marinated": {
       "productNameZh": "牛腹肉排",
-      "descriptionZh": "牛腹肉排。Flank/flat steak 腹肉薄切牛排，肉味浓、纤维明显，适合快煎后逆纹切片。",
+      "descriptionZh": "牛腹肉排。已经腌制或带明确调味的牛肉，可直接煎烤；不与未调味生牛排或整块牛肉混比。",
       "originalName": "Chimichurri marineret flatsteak af kalv",
       "originalDescription": "300-500 g. Pr. kg max. 263.33 PR. STK. 79.-",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_flat_steak",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -2921,13 +2921,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff57f5440b9070d26be3cb3462bc3f5c6&w=1000&s=9cbbdab0df93bf1984288ab95ad1b51d"
       }
     },
-    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|pork_mixed_offer": {
+    "v1|coop filet a la morbrad med gyros hvidlog eller hvidlog artiskok eller coop long ribs firepit|prepared_pork_marinated": {
       "productNameZh": "猪肋排",
-      "descriptionZh": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：蒜香。",
+      "descriptionZh": "猪肋排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Coop filet a la mørbrad med gyros/hvidløg eller hvidløg/artiskok eller Coop long ribs firepit",
       "originalDescription": "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3191,13 +3191,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2Fa6041f8985c4684696affcadd4c31c1f&w=1000&s=73784f1131fe7ea9baa86c164a3c8c94"
       }
     },
-    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|pork_chop": {
+    "v1|coop koteletter med paprika ribsteak med bbq lakrids eller firepit|prepared_pork_marinated": {
       "productNameZh": "猪排",
-      "descriptionZh": "猪排。猪排或猪里脊类，适合煎、烤、切片炒或做糖醋猪排。原名还显示：烧烤味。",
+      "descriptionZh": "猪排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Coop koteletter med paprika, ribsteak med bbq/lakrids eller firepit",
       "originalDescription": "325-350 g. Kg-pris maks 104,62. Frit valg. 1 pakke.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3227,13 +3227,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-3.webp&w=1000&x1r=0.13&x2r=0.94&y1r=0.34&y2r=0.54&s=3c141ecaf4860e3b172699f22c7bdb27"
       }
     },
-    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|pork_mixed_offer": {
+    "v1|coop long ribs firepit eller filet a la morbrad gyros hvidlog eller hvidlog artiskok|prepared_pork_marinated": {
       "productNameZh": "烧烤猪肋排/猪里脊卷",
-      "descriptionZh": "烧烤风味猪肋排或猪里脊卷任选。肋排已调味，直接烤或煎；猪里脊卷切片煎或整条烤。",
+      "descriptionZh": "烧烤猪肋排/猪里脊卷。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Coop long ribs firepit eller filet a la mørbrad - gyros/hvidløg eller hvidløg/artiskok",
       "originalDescription": "325-475 g. Kg-pris maks. 120,00. Frit valg. 1 stk.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3245,13 +3245,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F554ff4eda88995441de9d0d9735d33e9&w=1000&s=c7f9659a5c1e8ab8b292cd7a72660d29"
       }
     },
-    "v1|coop marineret lammeculotte|lamb_other": {
+    "v1|coop marineret lammeculotte|prepared_lamb_marinated": {
       "productNameZh": "腌制羊臀肉",
-      "descriptionZh": "腌制羊臀肉，已调味。烤箱慢烤至中等熟度，切片配薄荷酱或孜然。",
+      "descriptionZh": "腌制羊臀肉。已经腌制调味的羊肉，可直接煎烤；不与未调味生羊肉混比。",
       "originalName": "Coop marineret lammeculotte",
       "originalDescription": "300-400 g. Kg-pris maks. 196,67. 1 stk.",
-      "categoryId": "beef",
-      "comparisonGroup": "lamb_other",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_lamb_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3407,13 +3407,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd107227d663daadce5bec101965f2a77&w=1000&s=1c2dfb4d351e209acb1a2fbc2bed8725"
       }
     },
-    "v1|coop spareribs pulled pork eller pulled chicken|pork_mixed_offer": {
+    "v1|coop spareribs pulled pork eller pulled chicken|prepared_pork_mixed_offer": {
       "productNameZh": "猪肋排/手撕猪肉/手撕鸡肉",
-      "descriptionZh": "猪肋排、手撕猪肉或手撕鸡肉任选。肋排烤箱慢烤后刷 BBQ 酱；手撕肉已熟，加热后夹面包或配饭。",
+      "descriptionZh": "猪肋排/手撕猪肉/手撕鸡肉。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Coop spareribs, pulled pork eller pulled chicken",
       "originalDescription": "Nyhed 350-500 g. Kg-pris maks. 91,43. Frit valg. 1 stk.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -3717,7 +3717,7 @@
       "productNameZh": "鸡小腿",
       "descriptionZh": "鸡小腿。鸡腿部位，肉嫩多汁，适合红烧、炖煮、烤或空气炸；类似中国常见鸡腿肉。",
       "originalName": "DANPO Kyllingeunderlår eller -overlår",
-      "originalDescription": "300-400 g. Pr. kg maks. 50,00. Spot¹",
+      "originalDescription": "300-400 g. Pr. kg maks. 50,00",
       "categoryId": "chicken",
       "comparisonGroup": "chicken_thigh",
       "authoredBy": "Codex",
@@ -5117,13 +5117,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-15.webp&w=1000&x1r=0.02&x2r=0.58&y1r=0.28&y2r=0.58&s=3fe3f1d76d226f8a1901875cb369fec3"
       }
     },
-    "v1|fransk hotdog|sausage_frankfurter": {
+    "v1|fransk hotdog|ready_meal": {
       "productNameZh": "法式热狗",
       "descriptionZh": "法式热狗。挖空法棍面包塞入香肠，挤酱料。烤箱加热后外脆内热。丹麦加油站经典快餐。",
       "originalName": "Fransk hotdog",
       "originalDescription": "... den perfekte snack Vælg mellem GRILLPØLSE • 77% kød GRILLPØLSE MED OST • 74% kød • 7% cheddar ost GRILLPØLSE MED CHORIZO • 79% kød • Spansk chorizo 2 STK. Stort udvalg af dressinger",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5463,7 +5463,7 @@
       "productNameZh": "冰淇淋或冰品",
       "descriptionZh": "冰淇淋或冰品。冰淇淋、冰棒或甜筒，开袋即食；比较时应同时看容量或支数。",
       "originalName": "GELATELLI Cookie-is",
-      "originalDescription": "Dybfrost 4 x 95 ml. Pr. l 65,79",
+      "originalDescription": "4 x 95 ml. Pr. l 65,79 Dybfrost",
       "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "authoredBy": "Codex",
@@ -5513,13 +5513,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&w=1000&x1r=0.66&x2r=0.985&y1r=0.706&y2r=0.955&s=4fc5410ca27e44a8cd95c83dd7b28c02"
       }
     },
-    "v1|gelatelli ispinde eller isvafler|biscuits": {
+    "v1|gelatelli ispinde eller isvafler|ice_cream": {
       "productNameZh": "冰淇淋或冰品",
       "descriptionZh": "冰淇淋或冰品。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "GELATELLI Ispinde eller isvafler",
       "originalDescription": "360-450 ml. Pr. liter maks. 69,44\nDybfrost\n-24 %",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5549,13 +5549,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-5.webp&w=1000&x1r=0.66&x2r=0.985&y1r=0.505&y2r=0.725&s=073bd489003adade712a208063626458"
       }
     },
-    "v1|gelatelli mini isvafler|biscuits": {
+    "v1|gelatelli mini isvafler|ice_cream": {
       "productNameZh": "冰淇淋或冰品",
       "descriptionZh": "冰淇淋或冰品。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "GELATELLI Mini-isvafler",
       "originalDescription": "10 x 25 ml. Pr. liter 80,00\nDybfrost",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -5963,13 +5963,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-17.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.265&y2r=0.495&s=96d8a530de3887c0c9346f775316c01b"
       }
     },
-    "v1|grillmester marinerede spareribs|pork_ribs": {
+    "v1|grillmester marinerede spareribs|prepared_pork_marinated": {
       "productNameZh": "猪肋排",
-      "descriptionZh": "猪肋排。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "descriptionZh": "猪肋排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "GRILLMESTER Marinerede spareribs",
       "originalDescription": "Pr. kg 58,00 Med Lidl Plus³ -27 % Pr. 1/2 kg",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6251,13 +6251,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F1-7wVdKu%2Fp-14.webp&w=1000&x1r=0.02&x2r=0.32&y1r=0.38&y2r=0.72&s=825982fc8580f436d0ff81f331d5cae4"
       }
     },
-    "v1|hamburger af oksekod|beef_burgers": {
+    "v1|hamburger af oksekod|prepared_beef_burgers": {
       "productNameZh": "牛肉汉堡饼",
-      "descriptionZh": "牛肉汉堡饼。牛肉汉堡饼，可平底锅煎或烧烤后夹面包；应留意牛肉比例、脂肪比例和单片重量。",
+      "descriptionZh": "已经压成形的牛肉汉堡饼，可平底锅煎或烧烤后夹面包。它属于成型牛肉制品，不与散装牛肉末或整块牛排比较。",
       "originalName": "Hamburger af oksekød",
-      "originalDescription": "1120 g. Pr. kg 106,25 Spot¹",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_burgers",
+      "originalDescription": "1120 g. Pr. kg 106,25 Spot ¹",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_burgers",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6449,13 +6449,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.32&x2r=1&y1r=0&y2r=0.6&s=6d49c2a634f41539eb95ea4a4761bd61"
       }
     },
-    "v1|hatting burgerboller eller hotdogbrod|sausage_frankfurter": {
+    "v1|hatting burgerboller eller hotdogbrod|bread": {
       "productNameZh": "汉堡面包胚",
       "descriptionZh": "汉堡面包胚。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Hatting Burgerboller eller hotdogbrød",
       "originalDescription": "250-324 g\nMax. 60.00 pr. kg",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6647,13 +6647,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&w=1000&x1r=0.04&x2r=0.343&y1r=0.648&y2r=0.941&s=024c87bcc8da39814b24fb34eced3154"
       }
     },
-    "v1|hel ovnklar flaeskesteg|pork_roast": {
+    "v1|hel ovnklar flaeskesteg|prepared_pork_marinated": {
       "productNameZh": "丹麦脆皮烤猪肉块",
-      "descriptionZh": "丹麦脆皮烤猪肉块。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
+      "descriptionZh": "丹麦脆皮烤猪肉块。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Hel ovnklar flæskesteg",
       "originalDescription": "4,2-5,2 kg. Pr. kg max. 35.48",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -6809,13 +6809,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-18.webp&w=1000&x1r=0.01&x2r=0.525&y1r=0.032&y2r=0.545&s=6d292c303d730876419432b1cb3a265b"
       }
     },
-    "v1|hello sensitive vaadservietter|paper_mixed_offer": {
-      "productNameZh": "Hello Sensitive 敏感肌湿巾",
-      "descriptionZh": "Hello Sensitive 无香精敏感肌湿巾。含芦荟和维生素 E，温和清洁不刺激。适合婴儿和过敏性皮肤。",
+    "v1|hello sensitive vaadservietter|paper_wet_wipes": {
+      "productNameZh": "Hello Sensitive 无香敏感肌湿巾",
+      "descriptionZh": "不含香精的敏感肌湿巾，适合温和擦拭皮肤。它按片数比较，不与卫生纸、厨房纸或餐巾纸混比。",
       "originalName": "Hello Sensitive vådservietter",
       "originalDescription": "0% Parfume Hello Sensitive vådservietter 100 stk. Pr. stk. 0,09",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
+      "comparisonGroup": "paper_wet_wipes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7137,7 +7137,7 @@
       "productNameZh": "巧克力",
       "descriptionZh": "巧克力。巧克力、糖果或甜味棒，开袋即食；注意主要口味和单包/多包规格。",
       "originalName": "J. D. GROSS Chokolade",
-      "originalDescription": "125 g. Pr. kg 160,00 Med Lidl Plus³",
+      "originalDescription": "125 g. Pr. kg 160,00 Med Lidl Plus³ -28%",
       "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "authoredBy": "Codex",
@@ -7187,13 +7187,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F9b2f9fae4a6549d039ee4d19d76e98e6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F540e41f87dbab6ec372295637791bea3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2Fc1edq%2F6d2a7947d49a1ae0fcf03db7644f70b2&w=1000&s=693bbb39c2bbfc1a3130b8ceaf85ebd6"
       }
     },
-    "v1|jensens pulled chicken eller spareribs|pork_mixed_offer": {
+    "v1|jensens pulled chicken eller spareribs|prepared_pork_mixed_offer": {
       "productNameZh": "猪肋排",
-      "descriptionZh": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "descriptionZh": "猪肋排。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "JENSENS Pulled chicken eller spareribs",
       "originalDescription": "500 g. Pr. kg 90,00. 59,95",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7296,8 +7296,8 @@
       }
     },
     "v1|k salat mayonnaise eller remoulade|sauce_mixed_offer": {
-      "productNameZh": "蛋黄酱",
-      "descriptionZh": "蛋黄酱。酱料或蘸酱，可拌沙拉、意面、三明治或腌肉；咸甜辣程度以原名为准。",
+      "productNameZh": "K-SALAT 蛋黄酱或丹麦酸黄瓜蛋黄酱",
+      "descriptionZh": "可选普通蛋黄酱，或含酸黄瓜、香料的丹麦 remoulade 酱。前者适合拌沙拉和三明治，后者常配炸鱼、薯条或热狗；两种酱不计算统一最低价。",
       "originalName": "K-SALAT Mayonnaise eller remoulade",
       "originalDescription": "375 g. Pr. kg 40,00 Spot¹",
       "categoryId": "sauces_condiments",
@@ -7493,13 +7493,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-4.webp&w=1000&x1r=0.0262&x2r=0.5073&y1r=0.4691&y2r=0.7104&s=ec0e9a7abb4c7f2ffa2d494321391d68"
       }
     },
-    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|beef_mixed_offer": {
+    "v1|kalveculotte eller danske kalveflatsteaks med hvidlog eller bbq|prepared_beef_marinated": {
       "productNameZh": "牛腹肉排",
-      "descriptionZh": "牛腹肉排。这是牛排、烤肉或其他牛肉部位任选；嫩度和用途不同，不计算单一部位最低价。原名还显示：蒜香、烧烤味。",
+      "descriptionZh": "牛腹肉排。已经腌制或带明确调味的牛肉，可直接煎烤；不与未调味生牛排或整块牛肉混比。",
       "originalName": "Kalveculotte eller danske kalveflatsteaks med hvidløg eller BBQ",
       "originalDescription": "PR. ½ KG Partivare 139.90 pr. kg",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7511,13 +7511,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&w=1000&x1r=0.03&x2r=1&y1r=0&y2r=0.63&s=75fd860a983ac2c19a4b10381a14558b"
       }
     },
-    "v1|kanel eller wienerstang|sausage_frankfurter": {
+    "v1|kanel eller wienerstang|biscuits": {
       "productNameZh": "丹麦酥皮长条甜点",
       "descriptionZh": "丹麦酥皮长条甜点。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Kanel- eller wienerstang*",
       "originalDescription": "Stk-pris 39,00. Frit valg. 1 stk.",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -7695,7 +7695,7 @@
       "productNameZh": "淡奶油/打发奶油",
       "descriptionZh": "淡奶油/打发奶油。淡奶油、打发奶油或烹饪奶油；适合打发、烘焙、浓汤和奶油酱，不是普通饮用牛奶。",
       "originalName": "KAROLINES KØKKEN Piskefløde",
-      "originalDescription": "500 ml. Pr. l 30,00 Maks. 3 stk. pr. kunde pr. dag. Med Lidl Plus³ Pr. l 24,00",
+      "originalDescription": "500 ml. Pr. l 30,00 Maks. 3 stk. pr. kunde pr. dag.\nPr. l 24,00\nMed Lidl Plus³",
       "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
       "authoredBy": "Codex",
@@ -8267,13 +8267,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-1.webp&w=1000&x1r=0.38&x2r=0.97&y1r=0.03&y2r=0.24&s=2f87a66a58e2c2061e6b6db918cc5bb7"
       }
     },
-    "v1|kohberg hotdogbrod|sausage_frankfurter": {
+    "v1|kohberg hotdogbrod|bread": {
       "productNameZh": "热狗面包",
       "descriptionZh": "热狗面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "KOHBERG Hotdogbrød",
       "originalDescription": "360 g. Pr. kg 41,67. -24 %",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8303,13 +8303,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-1.webp&w=1000&x1r=0.612&x2r=0.985&y1r=0.176&y2r=0.72&s=3e88fa1ffd9abea5bc05fa780b0abc81"
       }
     },
-    "v1|koteletter tilsat lage hvidlog|pork_chop": {
+    "v1|koteletter tilsat lage hvidlog|prepared_pork_marinated": {
       "productNameZh": "猪排",
-      "descriptionZh": "猪排。猪排或猪里脊类，适合煎、烤、切片炒或做糖醋猪排。原名还显示：蒜香。",
+      "descriptionZh": "猪排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "KOTELETTER TILSAT LAGE HVIDLØG",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN FRIT VALG",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8393,13 +8393,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-16.webp&w=1000&x1r=0.038&x2r=0.95&y1r=0.165&y2r=0.435&s=1652ceb2e755fbef46ba514947d251a3"
       }
     },
-    "v1|krydrede kodboller eller hakket grisekod|pork_mixed_offer": {
+    "v1|krydrede kodboller eller hakket grisekod|prepared_pork_mixed_offer": {
       "productNameZh": "猪肉末",
-      "descriptionZh": "猪肉末。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "descriptionZh": "猪肉末。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Krydrede kødboller eller hakket grisekød",
       "originalDescription": "1,2-2 kg. Hakket grisekød 8-12% fedt. Pr. kg max. 65.83 FRIT VALG 1,2 kg 2 kg",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -8560,7 +8560,7 @@
       "descriptionZh": "卷心菜沙拉。预制或切配沙拉，可直接食用或简单拌制；配料、酱汁和保鲜期以包装为准。",
       "originalName": "KULJANKA Hvidkålssalat",
       "originalDescription": "Spot¹ 410 g. Pr. kg 36,58",
-      "categoryId": "prepared_meat",
+      "categoryId": "frozen_ready",
       "comparisonGroup": "prepared_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -9347,13 +9347,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-12.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.35&y2r=0.66&s=43e9bc19cd21d580dd6541cc753763c0"
       }
     },
-    "v1|logismose marineret kyllingebryst|chicken_breast": {
-      "productNameZh": "鸡胸肉",
-      "descriptionZh": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。",
+    "v1|logismose marineret kyllingebryst|prepared_chicken_breast_marinated": {
+      "productNameZh": "Løgismose 柠檬百里香腌制鸡胸",
+      "descriptionZh": "已经用柠檬和百里香腌好的鸡胸肉，可直接平底锅煎或烧烤。它带调味和腌料，不与原味生鸡胸比较最低价。",
       "originalName": "Løgismose marineret kyllingebryst",
       "originalDescription": "Fri fransk fugl Kyllingebryst fra Løgismose, hvor kyllingen har levet det gode, frie liv i Sydfrankrig, hvor den primært har spist majs som foder. Derfor har den både smag, saft og tre hjerters dyrevelfærd og en anbefaling fra Dyrenes Beskyttelse. Vi har marineret den i citron og timian for dig, så den er lige til at smide på panden eller grillen. Bon appétit. Stort udvalg i Netto 140 g. Pr. kg 250,00 Prisen gælder hele juli",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9387,7 +9387,7 @@
       "productNameZh": "Skyr 高蛋白发酵乳",
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "Løgismose økologisk skyr",
-      "originalDescription": "SPOT 800 g. Pr. kg 31,25 + PRIS 20:- Pr. kg 25,00 Gælder kun med Netto+ appen",
+      "originalDescription": "800 g. Pr. kg 31,25 PRIS 20 Pr. kg 25,00 Gælder kun med Netto+ appen",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -9617,13 +9617,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-31.webp&w=1000&x1r=0.0074&x2r=0.4982&y1r=0.4658&y2r=0.7065&s=7de0efe031e81ae4f4fb6295aa7c0d78"
       }
     },
-    "v1|lupilu vaadservietter|paper_mixed_offer": {
-      "productNameZh": "湿巾",
-      "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+    "v1|lupilu vaadservietter|paper_wet_wipes": {
+      "productNameZh": "LUPILU 婴儿湿巾",
+      "descriptionZh": "塑料纤维无添加的婴儿湿巾，可选芦荟或敏感肌版本，用于换尿布和温和清洁皮肤。按每包片数比较，不与干纸巾混比。",
       "originalName": "LUPILU Vådservietter",
       "originalDescription": "Aloe vera eller sensitive. Plastikfri. 72 stk. Pr. stk. 0,09 Pris uden Lidl Plus 9,95 pr. pk. Med Lidl Plus³",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
+      "comparisonGroup": "paper_wet_wipes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -9761,13 +9761,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-20.webp&w=1000&x1r=0.01&x2r=0.57&y1r=0.67&y2r=1&s=c683c36f8290a512055295e0db4bff2a"
       }
     },
-    "v1|madvaerket burgerboffer af oksekod|beef_burgers": {
-      "productNameZh": "牛肉汉堡饼",
-      "descriptionZh": "牛肉汉堡饼。牛肉汉堡饼，可平底锅煎或烧烤后夹面包；应留意牛肉比例、脂肪比例和单片重量。",
+    "v1|madvaerket burgerboffer af oksekod|prepared_beef_burgers": {
+      "productNameZh": "MADVÆRKET 牛肉汉堡饼",
+      "descriptionZh": "已经压成形的牛肉汉堡饼，脂肪含量最高 20%，可平底锅煎或烧烤后夹汉堡面包。它是成型肉制品，不与散装牛肉末或牛排比较。",
       "originalName": "MADVÆRKET Burgerbøffer af oksekød",
       "originalDescription": "Maks. 20 % fedt.",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_burgers",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_burgers",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10175,13 +10175,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-3.webp&w=1000&x1r=0.5111&x2r=0.9964&y1r=0.4574&y2r=0.9444&s=ddeefcda8e074aebbd2f2532efd12253"
       }
     },
-    "v1|madvaerket kyllingebrystfilet eller laarmix|chicken_mixed_offer": {
+    "v1|madvaerket kyllingebrystfilet eller laarmix|prepared_chicken_breast_marinated": {
       "productNameZh": "鸡胸肉或鸡腿肉任选",
       "descriptionZh": "鸡胸肉或鸡腿肉任选。这是跨鸡胸、鸡腿、鸡翅等部位或加工形态的鸡肉任选促销；用途不同，不能当作同一种鸡肉比较最低价。原名还显示：烧烤味。",
       "originalName": "MADVÆRKET Kyllingebrystfilet eller -lårmix",
       "originalDescription": "Med BBQ. 325-800 g / pk. Pr. kg maks. 101,38.",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -10373,13 +10373,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-15.webp&w=1000&x1r=0.4835&x2r=0.9864&y1r=0.0558&y2r=0.4587&s=f7dac41f98b06a84377d14d7b0f4eef8"
       }
     },
-    "v1|madvaerket porchetta|pork_roast": {
+    "v1|madvaerket porchetta|prepared_pork_marinated": {
       "productNameZh": "意式香草烤猪肉卷",
-      "descriptionZh": "意式香草烤猪肉卷。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
+      "descriptionZh": "意式香草烤猪肉卷。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "MADVÆRKET Porchetta",
       "originalDescription": "80 g / pk.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11003,13 +11003,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-13.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.28&y2r=0.51&s=f33a531ca9501ec0444dbecb403ac043"
       }
     },
-    "v1|marinerede flanksteak|beef_flat_steak": {
+    "v1|marinerede flanksteak|prepared_beef_marinated": {
       "productNameZh": "牛腹肉排",
-      "descriptionZh": "牛腹肉排。Flank/flat steak 腹肉薄切牛排，肉味浓、纤维明显，适合快煎后逆纹切片。原名还显示：蒜香。",
+      "descriptionZh": "牛腹肉排。已经腌制或带明确调味的牛肉，可直接煎烤；不与未调味生牛排或整块牛肉混比。",
       "originalName": "Marinerede flanksteak",
       "originalDescription": "400-600 g. Chimichurri eller med rød hvidløg. Pr. kg max. 247,50 plus pris 89,- Pr. kg max. 222,50 Gælder kun med føtex plus appen",
-      "categoryId": "beef",
-      "comparisonGroup": "beef_flat_steak",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11021,13 +11021,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-7.webp&w=1000&x1r=0.38&x2r=0.7&y1r=0.7&y2r=0.96&s=f5197cd8fea955e5672d79ef676f4685"
       }
     },
-    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|pork_mixed_offer": {
+    "v1|marineret kamfilet porchetta eller roget hamburgerryg af dansk gris|prepared_pork_mixed_offer": {
       "productNameZh": "意式香草烤猪肉卷",
-      "descriptionZh": "意式香草烤猪肉卷。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：烟熏味。",
+      "descriptionZh": "意式香草烤猪肉卷。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Marineret kamfilet, porchetta eller røget hamburgerryg af dansk gris",
       "originalDescription": "1,4-1,8 kg. Pr. kg max. 63.57 FRIT VALG 89.-",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11130,11 +11130,11 @@
       }
     },
     "v1|melonmix frugtmix eller ananas i skiver|prepared_fruit": {
-      "productNameZh": "菠萝",
-      "descriptionZh": "菠萝。切配水果或水果拼盘，开盒即可食用；应注意组成、净重和较短的保鲜期。",
+      "productNameZh": "切配蜜瓜、水果拼盘或菠萝片",
+      "descriptionZh": "已经洗切装盒的水果，可选蜜瓜拼盘、混合水果或菠萝片，开盒即可吃。应按实际组合、净重和保鲜期选择。",
       "originalName": "Melonmix, frugtmix eller ananas i skiver",
       "originalDescription": "Pr. bakke. 500 g. Pr. kg 80,-",
-      "categoryId": "prepared_meat",
+      "categoryId": "fruit",
       "comparisonGroup": "prepared_fruit",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -11903,13 +11903,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-36.webp&w=1000&x1r=0.596&x2r=0.856&y1r=0.79&y2r=0.956&s=c1813cd342b625a87c86cebf0dc4ccaa"
       }
     },
-    "v1|morliny classic eller crispy hot wings|chicken_wings": {
-      "productNameZh": "Morliny 原味或香辣脆皮鸡翅",
-      "descriptionZh": "Morliny 冷冻鸡翅，有原味和香辣脆皮两种。适合烤箱或空气炸锅充分加热；这是 2 kg 大包装鸡翅，不是普通未调味鸡肉块。",
+    "v1|morliny classic eller crispy hot wings|prepared_chicken_wings_mixed_offer": {
+      "productNameZh": "Morliny 原味热辣或裹粉脆皮鸡翅",
+      "descriptionZh": "Morliny 冷冻鸡翅，可选普通热辣款或带面衣的脆皮款。两者都适合烤箱或空气炸锅复热，但裹粉比例不同，因此不计算统一最低单价，也不与生鸡翅混比。",
       "originalName": "Morliny classic eller crispy hot wings",
       "originalDescription": "2 kg. Pr. kg 34,50",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -11975,13 +11975,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-13.webp&w=1000&x1r=0.344&x2r=0.648&y1r=0.692&y2r=0.971&s=7d67008925d6d05e5418887dd172eab0"
       }
     },
-    "v1|nakke koteletter smokey bbq|pork_chop": {
+    "v1|nakke koteletter smokey bbq|prepared_pork_marinated": {
       "productNameZh": "猪排",
-      "descriptionZh": "猪排。猪排或猪里脊类，适合煎、烤、切片炒或做糖醋猪排。原名还显示：烧烤味。",
+      "descriptionZh": "猪排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "NAKKE KOTELETTER SMOKEY BBQ",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN 300g FRIT VALG",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -12173,13 +12173,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-1.webp&w=1000&x1r=0.01&x2r=0.51&y1r=0.14&y2r=0.56&s=8c724d99cb4dd58efcce47f7e5b65153"
       }
     },
-    "v1|nektariner ferskner blommer eller abrikoser|apricots": {
-      "productNameZh": "油桃",
-      "descriptionZh": "油桃。油桃，表皮光滑、果肉酸甜，可直接吃或切块拌酸奶；类似中国油桃。",
+    "v1|nektariner ferskner blommer eller abrikoser|mixed_fruit": {
+      "productNameZh": "油桃、桃、李子或杏任选",
+      "descriptionZh": "油桃、桃子、李子或杏四种核果任选。品种、果核比例和大小不同，因此按实际购买的水果和每件价格参考，不计算单一品种最低价。",
       "originalName": "Nektariner, ferskner, blommer eller abrikoser",
       "originalDescription": "salling Princip\n6-8 stk. Udenlandske. Pr. stk. max. 4,17",
       "categoryId": "fruit",
-      "comparisonGroup": "apricots",
+      "comparisonGroup": "mixed_fruit",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -13289,13 +13289,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-26.webp&w=1000&x1r=0.0141&x2r=0.5049&y1r=0.7074&y2r=0.9462&s=a6d9fa67dc4fc14ec2bdcfe2c2b71760"
       }
     },
-    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|pork_mixed_offer": {
+    "v1|ovnklar flaeskesteg marineret kamfilet eller skinkeculotte af gris|prepared_pork_mixed_offer": {
       "productNameZh": "丹麦脆皮烤猪肉块",
-      "descriptionZh": "丹麦脆皮烤猪肉块。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "descriptionZh": "丹麦脆皮烤猪肉块。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Ovnklar flæskesteg, marineret kamfilet eller -skinkeculotte af gris",
       "originalDescription": "800-2800 g. Pr. kg max. 123,75",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14171,13 +14171,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-18.webp&w=1000&x1r=0.4903&x2r=0.9873&y1r=0.0728&y2r=0.4619&s=f5bd2949d6717a5338a73836ab848903"
       }
     },
-    "v1|pulled pork|pork_roast": {
+    "v1|pulled pork|prepared_pork_cooked": {
       "productNameZh": "手撕猪肉",
-      "descriptionZh": "手撕猪肉。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
+      "descriptionZh": "手撕猪肉。已经慢煮或熟制的猪肉，如手撕猪肉，加热后可夹面包、配饭或做卷饼。",
       "originalName": "Pulled pork",
       "originalDescription": "PR. BAKKE 800-1200 g. Pr. kg max. 111.25",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14225,13 +14225,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fe-sT2zrs%2Fp-27.webp&w=1000&x1r=0.4986&x2r=0.9949&y1r=0.7085&y2r=0.9471&s=ee9a399db81c7d4d796a8abc492fc4b4"
       }
     },
-    "v1|raa kamben med chimichurri eller mesquit|pork_ribs": {
+    "v1|raa kamben med chimichurri eller mesquit|prepared_pork_marinated": {
       "productNameZh": "猪肋骨",
-      "descriptionZh": "猪肋骨。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "descriptionZh": "猪肋骨。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Rå kamben med Chimichurri eller Mesquit",
       "originalDescription": "1,4-1,7 kg. Pr. kg max. 49.29 Frit valg 69.-",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14297,13 +14297,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-2.webp&w=1000&x1r=0.031&x2r=0.492&y1r=0.474&y2r=0.732&s=ca7912a28a1d5877f3aec70b42d6856f"
       }
     },
-    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|pork_mixed_offer": {
+    "v1|rema 1000 dansk grisemorbrad eller ovnklar ribbensteg|prepared_pork_mixed_offer": {
       "productNameZh": "猪里脊",
-      "descriptionZh": "猪里脊。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：蒜香。",
+      "descriptionZh": "猪里脊。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "REMA 1000 Dansk grisemørbrad eller ovnklar ribbensteg",
       "originalDescription": "Mørbrad fyldt med hvidløgsost, soltørrede tomater og svampe\nVed køb af flere end 6 stk. pr. variant pr. dag er prisen op til 44.95 pr. ½ kg\nPR. ½ KG\n59.90 pr. kg",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14477,13 +14477,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FgWY3dd9p%2Fp-4.webp&w=1000&x1r=0.5&x2r=0.98&y1r=0.658&y2r=0.992&s=81f0d9e161ea0e46a1bb013dbe34a0b4"
       }
     },
-    "v1|rema 1000 fiskefars|white_fish": {
-      "productNameZh": "调味鱼肉糜",
-      "descriptionZh": "调味鱼肉糜。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
+    "v1|rema 1000 fiskefars|fish_mince": {
+      "productNameZh": "REMA 1000 调味鱼肉糜",
+      "descriptionZh": "调味鱼肉糜，类似可做鱼丸或鱼饼的鱼滑。可分成小饼煎熟、做鱼丸或加入汤中；它不是整片鱼柳。",
       "originalName": "REMA 1000 Fiskefars",
       "originalDescription": "400 g\n75.00 pr. kg",
       "categoryId": "seafood",
-      "comparisonGroup": "white_fish",
+      "comparisonGroup": "fish_mince",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14495,13 +14495,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-6.webp&w=1000&x1r=0.515&x2r=0.958&y1r=0.475&y2r=0.73&s=20869424c3e47676b614680d69ea9e55"
       }
     },
-    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|deli_mixed_offer": {
+    "v1|rema 1000 frilandsgris skinkeculotte eller flaeskesteg med bbq|prepared_pork_mixed_offer": {
       "productNameZh": "丹麦脆皮烤猪肉块",
-      "descriptionZh": "丹麦脆皮烤猪肉块。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。原名还显示：烧烤味。",
+      "descriptionZh": "丹麦脆皮烤猪肉块。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "REMA 1000 Frilandsgris Skinkeculotte eller flæskesteg med BBQ",
       "originalDescription": "700-1200 g\nPr. stk.\nMax. 112.86 pr. kg",
-      "categoryId": "deli_meat",
-      "comparisonGroup": "deli_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -14837,13 +14837,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-10.webp&w=1000&x1r=0.5&x2r=1&y1r=0.48&y2r=0.74&s=68e0afe85c04cf45fec6643026136dac"
       }
     },
-    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_napkins": {
-      "productNameZh": "餐巾纸",
-      "descriptionZh": "餐巾纸。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+    "v1|rema 1000 lommeletter med balsam eller ansigtsservietter|paper_facial": {
+      "productNameZh": "REMA 1000 润肤手帕纸或面巾纸",
+      "descriptionZh": "可选含润肤成分的便携手帕纸或日常面巾纸，用于擤鼻涕和擦脸。应按总张数与包装形式比较，不属于餐巾纸。",
       "originalName": "REMA 1000 Lommeletter med balsam eller ansigtsservietter",
       "originalDescription": "60-100 stk.\nNYHED\nMax. 0.08 pr. stk.",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_napkins",
+      "comparisonGroup": "paper_facial",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15323,13 +15323,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&w=1000&x1r=0.74&x2r=0.98&y1r=0.28&y2r=0.46&s=90fdf70ed40338ef42d4170290278b08"
       }
     },
-    "v1|ribena solbaer|other_berries": {
+    "v1|ribena solbaer|excluded_drink": {
       "productNameZh": "黑加仑",
       "descriptionZh": "黑加仑。其他莓果，可直接吃、做果酱、甜点或搭配酸奶；具体酸甜度按品种判断。",
       "originalName": "Ribena solbær",
       "originalDescription": "BLANDINGSFORHOLD 1:5. 85 cl. Ex. pant. 4.90 pr. færdigblandet liter",
-      "categoryId": "fruit",
-      "comparisonGroup": "other_berries",
+      "categoryId": "excluded",
+      "comparisonGroup": "excluded_drink",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15339,7 +15339,9 @@
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-13.webp&w=1000&x1r=0.44&x2r=0.97&y1r=0.745&y2r=0.99&s=e58364f1f3f0817a7fbf9921d6474472"
-      }
+      },
+      "status": "excluded",
+      "reasonZh": "黑加仑浓缩果汁饮料不在当前饮料收录范围内，不能作为新鲜莓果展示。"
     },
     "v1|riberhus danbo skiveost|cheese_sliced": {
       "productNameZh": "丹麦 Danbo 奶酪",
@@ -15539,13 +15541,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-26.webp&w=1000&x1r=0.685&x2r=0.985&y1r=0.495&y2r=0.715&s=12b4da47ab6c5cc07788bed196def4a1"
       }
     },
-    "v1|rogede kamben|pork_ribs": {
+    "v1|rogede kamben|prepared_pork_cooked": {
       "productNameZh": "猪肋骨",
-      "descriptionZh": "猪肋骨。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。",
+      "descriptionZh": "猪肋骨。已经慢煮或熟制的猪肉，如手撕猪肉，加热后可夹面包、配饭或做卷饼。",
       "originalName": "Røgede kamben",
       "originalDescription": "a 1,1-1,3 kg. Pr. kg max. v/merkøb 102,27 2 BAKKER PR. BAKKE 135.-",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15575,13 +15577,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FP2ly9UjU%2Fp-20.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0.12&y2r=0.51&s=8a50d2942ca4d46542cddf09709bcdb8"
       }
     },
-    "v1|rose buffalo wings|chicken_wings": {
-      "productNameZh": "调味鸡翅",
-      "descriptionZh": "调味鸡翅。鸡翅，适合烤箱、空气炸锅或烧烤；原味、辣味和裹粉款的调味与加热时间不同。",
+    "v1|rose buffalo wings|prepared_chicken_wings_seasoned": {
+      "productNameZh": "ROSE 水牛城辣味鸡翅",
+      "descriptionZh": "ROSE 冷冻水牛城辣味鸡翅，已经腌制调味，可用烤箱或空气炸锅充分加热。它属于调味鸡肉制成品，不与未调味生鸡翅比较。",
       "originalName": "ROSE Buffalo Wings",
       "originalDescription": "1800 g. Pr. kg 43,89 Dybfrost Spot¹",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15719,13 +15721,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-11.webp&w=1000&x1r=0.038&x2r=0.49&y1r=0.38&y2r=0.667&s=d1b1432dadb1ab18500c4a05c4342d1e"
       }
     },
-    "v1|sagra butchers butterfly eller yellow poussin|other_poultry": {
+    "v1|sagra butchers butterfly eller yellow poussin|prepared_poultry_mixed_offer": {
       "productNameZh": "童子鸡",
-      "descriptionZh": "童子鸡。童子鸡或其他禽肉，与普通鸡肉和火鸡分开显示；具体部位与做法按原名确认。",
+      "descriptionZh": "童子鸡。未调味禽肉和腌制禽肉任选，准备方式不同；按实际包装选择，不计算统一最低价。",
       "originalName": "SAGRA/BUTCHERS Butterfly- eller yellow poussin",
       "originalDescription": "Marineret eller frilands. 400-500 g. Pr. kg maks. 87,50 Spot¹",
-      "categoryId": "chicken",
-      "comparisonGroup": "other_poultry",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_poultry_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -15756,11 +15758,11 @@
       }
     },
     "v1|salatbowls|prepared_salad": {
-      "productNameZh": "预制沙拉",
-      "descriptionZh": "预制沙拉。三文鱼，脂肪较丰富，可煎、烤或做奶油焗鱼；若原名有 røget 则是烟熏三文鱼，类似中国超市的即食烟熏鱼片。原名还显示：烟熏味。",
+      "productNameZh": "即食沙拉碗",
+      "descriptionZh": "开盒即可拌食的沙拉碗，含爽脆蔬菜、配料和酱汁，可选热熏三文鱼、裹粉鸡肉或炸鹰嘴豆丸版本。不同主料任选，不按肉类最低价比较。",
       "originalName": "Salatbowls",
       "originalDescription": "Vores salatbowls indeholder sprøde elementer, farverige grøntsager og lækre toppings. Varmrøget laks, paneret kylling eller falafel.",
-      "categoryId": "prepared_meat",
+      "categoryId": "frozen_ready",
       "comparisonGroup": "prepared_salad",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
@@ -15899,13 +15901,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FZARSfP-V%2Fp-4.webp&w=1000&x1r=0&x2r=0.493&y1r=0.091&y2r=0.571&s=f480d219a665b726d70fb00f71d95f9b"
       }
     },
-    "v1|salling princip brioche hotdogbrod pretzel style|sausage_frankfurter": {
+    "v1|salling princip brioche hotdogbrod pretzel style|bread": {
       "productNameZh": "热狗面包",
       "descriptionZh": "热狗面包。面包类，可做早餐、三明治或搭配汤；黑麦面包通常比中国软面包更扎实、不甜。",
       "originalName": "Salling Princip brioche hotdogbrød pretzel style",
       "originalDescription": "400 g. Pr. kg 70,00",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_frankfurter",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16421,13 +16423,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FgWY3dd9p%2Fp-4.webp&w=1000&x1r=0.02&x2r=0.485&y1r=0.443&y2r=0.729&s=cdc84ff6eebbf452db903f531d711925"
       }
     },
-    "v1|slagterens bbq kamben|pork_ribs": {
+    "v1|slagterens bbq kamben|prepared_pork_marinated": {
       "productNameZh": "猪肋骨",
-      "descriptionZh": "猪肋骨。猪肋排或猪肋骨，适合红烧、慢烤或烧烤；比较时要留意带骨比例和是否已经腌制。原名还显示：烧烤味。",
+      "descriptionZh": "猪肋骨。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Slagterens bbq kamben",
       "originalDescription": "Pr. ½ kg\nKg-pris 110,00.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_ribs",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -16695,7 +16697,7 @@
       "productNameZh": "大虾",
       "descriptionZh": "大虾（kæmperejer）。中式做法：开背去虾线，蒜蓉粉丝蒸或椒盐煎。个头大，适合做主菜。",
       "originalName": "SOL&MAR Kæmperejer",
-      "originalDescription": "Dybfrost\n250 g.\nPr. kg 156,00\nSpot¹",
+      "originalDescription": "Dybfrost 250 g. Pr. kg 156,00 Spot¹",
       "categoryId": "seafood",
       "comparisonGroup": "shrimp",
       "authoredBy": "Codex",
@@ -16709,13 +16711,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FRKr3XPJa%2Fp-10.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.25&y2r=0.49&s=af5d9f146ed3043556d9e400306032d4"
       }
     },
-    "v1|sol mar kyllingevinger|chicken_wings": {
-      "productNameZh": "鸡翅",
-      "descriptionZh": "鸡翅。鸡翅，适合烤箱、空气炸锅或烧烤；原味、辣味和裹粉款的调味与加热时间不同。",
+    "v1|sol mar kyllingevinger|prepared_chicken_wings_seasoned": {
+      "productNameZh": "SOL&MAR Piri 香辣调味鸡翅",
+      "descriptionZh": "SOL&MAR 冷冻调味鸡翅，包装图显示为 Piri 香辣风味。适合烤箱或空气炸锅充分加热；这是已经调味的制成品，不是未调味生鸡翅。",
       "originalName": "SOL&MAR Kyllingevinger",
       "originalDescription": "Dybfrost\n750 g.\nPr. kg 52,00\nSpot¹",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17033,13 +17035,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-34.webp&w=1000&x1r=0&x2r=0.999&y1r=0&y2r=0.421&s=c360a53e9bcfd652a5eab8582a17db38"
       }
     },
-    "v1|spareribs pulled chicken eller pork|pork_mixed_offer": {
+    "v1|spareribs pulled chicken eller pork|prepared_pork_mixed_offer": {
       "productNameZh": "猪肋排",
-      "descriptionZh": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "descriptionZh": "猪肋排。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Spareribs, pulled chicken eller pork",
       "originalDescription": "300-400 g. Pr. kg max. 106,67 32,-",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17249,13 +17251,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-28.webp&w=1000&x1r=0.645&x2r=0.968&y1r=0.372&y2r=0.474&s=b9159ad410e70e33b19c556c06bbd94a"
       }
     },
-    "v1|store koteletter tomat ramslog|pork_chop": {
+    "v1|store koteletter tomat ramslog|prepared_pork_marinated": {
       "productNameZh": "猪排",
-      "descriptionZh": "猪排。猪排或猪里脊类，适合煎、烤、切片炒或做糖醋猪排。",
+      "descriptionZh": "猪排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "STORE KOTELETTER TOMAT & RAMSLØG",
       "originalDescription": "REMA 1000 PERFEKT TIL GRILLEN 300g FRIT VALG",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17321,13 +17323,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-11.webp&w=1000&x1r=0.038&x2r=0.49&y1r=0.083&y2r=0.334&s=e25c7f831ecc524ce4cb7bc8b28268ce"
       }
     },
-    "v1|stryhns postej eller roget medister|liver_pate": {
-      "productNameZh": "丹麦肝酱",
-      "descriptionZh": "丹麦肝酱。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。原名还显示：烟熏味。",
+    "v1|stryhns postej eller roget medister|prepared_mixed_meat": {
+      "productNameZh": "Stryhns 肝酱或烟熏 Medister 香肠",
+      "descriptionZh": "可选抹面包用的丹麦肝酱，或需要加热食用的烟熏 Medister 猪肉香肠。两者用途和形态不同，不属于单一肝酱促销，也不计算统一最低价。",
       "originalName": "Stryhns postej eller røget medister",
       "originalDescription": "275-400 g. Flere varianter. Pr. kg max. 80,-",
-      "categoryId": "liver_pate",
-      "comparisonGroup": "liver_pate",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -17591,13 +17593,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-14.webp&w=1000&x1r=0.3346&x2r=1&y1r=0.6865&y2r=0.9654&s=f2ccd93f76aa6f17cb381c57c26a3ffe"
       }
     },
-    "v1|taga bacondadler fuet snack sticks eller skiver|bacon_sliced": {
-      "productNameZh": "培根片",
-      "descriptionZh": "培根片。培根、火腿或猪肉熟食，通常已腌制、味道较咸，可夹面包、炒菜或早餐煎食。",
+    "v1|taga bacondadler fuet snack sticks eller skiver|prepared_mixed_meat": {
+      "productNameZh": "Taga 培根枣、Fuet 肉棒或肉片任选",
+      "descriptionZh": "可选培根包枣、Fuet 风干肉零食棒或切片，三者形态和配料明显不同。它是混合肉制品任选，不属于单纯培根片，也不计算统一最低价。",
       "originalName": "Taga bacondadler, fuet snack sticks eller skiver",
       "originalDescription": "60-75 g Max. 250.00 pr. kg",
-      "categoryId": "bacon",
-      "comparisonGroup": "bacon_sliced",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18167,13 +18169,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-1.webp&w=1000&x1r=0.49&x2r=0.99&y1r=0.14&y2r=0.56&s=338cf30db0e25dd68f58dc7addb05575"
       }
     },
-    "v1|tulip pulled eller spareribs|pork_mixed_offer": {
+    "v1|tulip pulled eller spareribs|prepared_pork_mixed_offer": {
       "productNameZh": "猪肋排",
-      "descriptionZh": "猪肋排。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "descriptionZh": "猪肋排。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Tulip pulled eller spareribs",
       "originalDescription": "a 450-500 g. Flere varianter. Pr. kg max. v/merkøb 98.89 2 pakker Pr. pk. op til 52,95",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18185,13 +18187,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-qfHcWJb%2Fp-12.webp&w=1000&x1r=0.655&x2r=0.957&y1r=0.046&y2r=0.329&s=e462f7d66ddb5c4887135d6ae505a3fc"
       }
     },
-    "v1|tulip pulled pork eller spareribs|pork_mixed_offer": {
+    "v1|tulip pulled pork eller spareribs|prepared_pork_mixed_offer": {
       "productNameZh": "手撕猪肉",
-      "descriptionZh": "手撕猪肉。这是跨猪肉末、猪排、香肠等形态的任选促销；做法和可食比例不同，不能当作同一部位比较最低价。",
+      "descriptionZh": "手撕猪肉。腌制、熟制、烟熏或不同形态的猪肉制成品任选；用途不同，不计算统一最低价。",
       "originalName": "Tulip pulled pork eller spareribs",
       "originalDescription": "500 g. Kg-pris 90,00. Frit valg. 1 pakke.",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18329,13 +18331,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-10.webp&w=1000&x1r=0&x2r=0.5&y1r=0.47&y2r=1&s=b360043beb30cf0834314fd147db0156"
       }
     },
-    "v1|vaadservietter|paper_mixed_offer": {
+    "v1|vaadservietter|paper_wet_wipes": {
       "productNameZh": "湿巾",
-      "descriptionZh": "湿巾。卫生纸、厨房纸或餐巾纸；比较时除总价外还要看卷数、层数和长度。",
+      "descriptionZh": "一次性湿巾，用于擦拭皮肤或表面。购买时需确认每包片数、用途，以及是否含香精或消毒成分。",
       "originalName": "Vådservietter",
       "originalDescription": "16 pakker a 100 stk. Pr. stk. 1.49\nPr. kasse",
       "categoryId": "paper_products",
-      "comparisonGroup": "paper_mixed_offer",
+      "comparisonGroup": "paper_wet_wipes",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18509,13 +18511,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-8.webp&w=1000&x1r=0&x2r=0.634&y1r=0.537&y2r=0.755&s=33588d3d9eb490906313d1cafc7864f6"
       }
     },
-    "v1|velsmag dansk ovnklar flaeskesteg|pork_roast": {
+    "v1|velsmag dansk ovnklar flaeskesteg|prepared_pork_marinated": {
       "productNameZh": "丹麦脆皮烤猪肉块",
-      "descriptionZh": "丹麦脆皮烤猪肉块。大块猪肉或排骨类，适合烤、炖或红烧；类似中国排骨、梅花肉或烧肉用肉块。",
+      "descriptionZh": "丹麦脆皮烤猪肉块。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Velsmag dansk ovnklar flæskesteg",
       "originalDescription": "Uden ben.\nPr. kg 39,90\nPR. 1/2 KG",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_roast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18599,13 +18601,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fxg_2XUk5%2Fp-8.webp&w=1000&x1r=0&x2r=0.374&y1r=0.252&y2r=0.553&s=0a243d41a4f5d3e2802347eef79b1f75"
       }
     },
-    "v1|velsmag marineret kotelet|pork_chop": {
+    "v1|velsmag marineret kotelet|prepared_pork_marinated": {
       "productNameZh": "猪排",
-      "descriptionZh": "猪排。猪排或猪里脊类，适合煎、烤、切片炒或做糖醋猪排。",
+      "descriptionZh": "猪排。已经腌制或带烧烤、香草等口味的猪肉，可直接煎烤；不与未调味生猪肉混比。",
       "originalName": "Velsmag marineret kotelet",
       "originalDescription": "110 g.\nPr. kg 90,91",
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18797,13 +18799,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-3.webp&w=1000&x1r=0.15&x2r=0.91&y1r=0.56&y2r=0.76&s=15ee99c54b602bf0fd910e32e92effa2"
       }
     },
-    "v1|xtra ispinde eller isvafler|biscuits": {
+    "v1|xtra ispinde eller isvafler|ice_cream": {
       "productNameZh": "冰淇淋或冰品",
       "descriptionZh": "冰淇淋或冰品。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Xtra! ispinde eller isvafler",
       "originalDescription": "Dybfrost. 300-360 ml. Literpris maks. 33,33. Frit valg. 1 pakke.",
-      "categoryId": "biscuits_cakes",
-      "comparisonGroup": "biscuits",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",
@@ -18851,13 +18853,13 @@
         "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F527318e3f925887f002dc1013c1a54bc&w=1000&s=9d31af36ca66f9463a09934049b45fe5"
       }
     },
-    "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|chicken_breast": {
-      "productNameZh": "鸡胸肉",
-      "descriptionZh": "鸡胸肉。鸡胸肉，脂肪少、味道清淡，适合切片快炒、咖喱、煎制或空气炸锅；与中国常见去骨鸡胸相同，避免久煮变柴。原名还显示：烧烤味。",
+    "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|prepared_chicken_breast_marinated": {
+      "productNameZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
+      "descriptionZh": "已经腌制的鸡胸肉，可选柠檬迷迭香味或烧烤味，适合煎、烤或空气炸。因为带腌料和明确口味，所以不与未调味生鸡胸混比。",
       "originalName": "Xtra! marineret kyllingebryst med citron/rosmarin eller bbq",
       "originalDescription": "375 g. Kg-pris 104,00. Frit valg. 1 pakke",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_breast",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",

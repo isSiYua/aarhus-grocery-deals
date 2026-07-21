@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
   "generatedAt": "2026-07-21T23:06:15.046Z",
-  "count": 83,
+  "count": 82,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -187,13 +187,13 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|coop bbq koteletter|pork_chop",
+      "descriptionKey": "v1|coop bbq koteletter|prepared_pork_marinated",
       "originalName": "Coop bbq koteletter",
       "sampleDescriptions": [
         "1000 g. Kg-pris 69,00. 1 pakke"
       ],
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_chop",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "stores": [
         "365"
       ],
@@ -317,13 +317,13 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|beef_flat_steak",
+      "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|prepared_beef_marinated",
       "originalName": "Coop marineret flanksteak med oregano og hvidløg",
       "sampleDescriptions": [
         "Kg-pris 220,00. Pris pr. ½ kg."
       ],
-      "categoryId": "beef",
-      "comparisonGroup": "beef_flat_steak",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
       "stores": [
         "365"
       ],
@@ -356,13 +356,13 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|beef_ribeye",
+      "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|prepared_pork_marinated",
       "originalName": "Coop ribsteak bbq med lakrids/chili eller firepit",
       "sampleDescriptions": [
         "325 g. Kg-pris 107,69. Frit valg. 1 pakke"
       ],
-      "categoryId": "beef",
-      "comparisonGroup": "beef_ribeye",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
       "stores": [
         "365"
       ],
@@ -772,19 +772,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
-      "originalName": "Mutti tomater eller pizzasauce",
-      "sampleDescriptions": [
-        "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-"
-      ],
-      "categoryId": "sauces_condiments",
-      "comparisonGroup": "sauce_pizza",
-      "stores": [
-        "bilka"
-      ],
-      "occurrences": 1
-    },
-    {
       "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
       "originalName": "Nescafe iskaffe*",
       "sampleDescriptions": [
@@ -993,13 +980,13 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|pork_mixed_offer",
+      "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer",
       "originalName": "Tulip pulled pork, pulled chicken eller spareribs*",
       "sampleDescriptions": [
         "450-500 g. Kg-pris maks. 86,67. Frit valg. 1 pakke"
       ],
-      "categoryId": "pork_fresh",
-      "comparisonGroup": "pork_mixed_offer",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
       "stores": [
         "365"
       ],

@@ -9,7 +9,7 @@
     "sourceUrl": "https://flipp.com/",
     "disclaimerZh": "周促销按 30318 区域匹配；具体门店库存和会员条件以零售商为准。",
     "productKnowledgeUpdatedAt": "2026-07-21T23:06:22.968Z",
-    "contentUpdatedAt": "2026-07-21T23:06:22.968Z",
+    "contentUpdatedAt": "2026-07-21T23:41:01.953Z",
     "productKnowledgeEntries": 285,
     "fallbackMode": "reviewed-cache-only",
     "withheldPendingReview": 68
@@ -37,13 +37,6 @@
       "descriptionZh": "无法归入单一品种的果蔬组合和混合加餐。"
     },
     {
-      "id": "fresh_meat",
-      "nameZh": "生鲜肉类",
-      "emoji": "🥩",
-      "color": "#74423C",
-      "descriptionZh": "鸡、牛、猪和羊的生鲜部位按商品原名保留。"
-    },
-    {
       "id": "minced_meat",
       "nameZh": "肉末",
       "emoji": "🥟",
@@ -62,21 +55,28 @@
       "nameZh": "香肠",
       "emoji": "🌭",
       "color": "#8A5140",
-      "descriptionZh": "按鸡肉、牛肉、猪肉、培根和法兰克福等类型细分。"
+      "descriptionZh": "按肉种和香肠类型细分。"
     },
     {
       "id": "deli_meat",
       "nameZh": "冷切与肉片",
       "emoji": "🥪",
       "color": "#8A5140",
-      "descriptionZh": "火腿、火鸡片、pepperoni 和肉条按形态显示。"
+      "descriptionZh": "冷切肉和肉片按肉种与形态显示。"
     },
     {
       "id": "prepared_meat",
       "nameZh": "肉类制成品",
       "emoji": "🍖",
       "color": "#8A5140",
-      "descriptionZh": "熟制、裹粉、肉丸和三明治类肉制品。"
+      "descriptionZh": "熟制、裹粉和肉丸等肉制品。"
+    },
+    {
+      "id": "fresh_meat",
+      "nameZh": "生鲜肉类",
+      "emoji": "🥩",
+      "color": "#74423C",
+      "descriptionZh": "鸡、牛、猪和羊的生鲜部位按商品原名保留。"
     },
     {
       "id": "deli_prepared",
@@ -103,8 +103,8 @@
       "id": "cheese",
       "nameZh": "奶酪",
       "emoji": "🧀",
-      "color": "#91702A",
-      "descriptionZh": "切片、刨丝、分装和块状奶酪按形态显示。"
+      "color": "#A26F2D",
+      "descriptionZh": "切片、刨丝、奶酪棒、餐桌奶酪和奶酪小食按形态分组。"
     },
     {
       "id": "dairy",
@@ -139,21 +139,21 @@
       "nameZh": "酱料与佐料",
       "emoji": "🥫",
       "color": "#8A5A24",
-      "descriptionZh": "番茄酱、蛋黄酱、芥末和其他酱料分开。"
+      "descriptionZh": "不同酱料分开显示。"
     },
     {
       "id": "cooking_oils",
       "nameZh": "食用油",
       "emoji": "🫒",
       "color": "#8A6F24",
-      "descriptionZh": "橄榄油、菜籽油和其他食用油分开。"
+      "descriptionZh": "不同油种分开显示。"
     },
     {
       "id": "canned_pickled",
       "nameZh": "罐头与腌渍食品",
       "emoji": "🫙",
       "color": "#7A602A",
-      "descriptionZh": "番茄罐头、豆罐头和腌菜分别显示。"
+      "descriptionZh": "罐头和腌渍食品分开显示。"
     },
     {
       "id": "pantry",

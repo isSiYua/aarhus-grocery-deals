@@ -9,24 +9,24 @@ const norm = value => String(value || '')
   .trim();
 
 export const AARHUS_CATEGORIES = [
-  ['chicken', '🐔', '鸡肉与其他禽肉', '鸡胸、鸡腿、整鸡、火鸡部位和禽肉加工品分组比较。'],
+  ['vegetables', '🥬', '蔬菜', '蘑菇、番茄、土豆、叶菜等按品种比较。'],
+  ['fruit', '🍎', '水果', '按品种、重量或单件价格显示。'],
+  ['chicken', '🐔', '鸡肉与其他禽肉', '鸡胸、鸡腿、整鸡和未调味禽肉部位分组比较。'],
   ['minced_meat', '🥟', '肉末与混合肉末', '鸡肉末、火鸡肉末、猪肉末、牛肉末和猪牛混合肉末集中分组比较。'],
   ['pork_fresh', '🐷', '鲜猪肉', '猪里脊、猪排、肋排和整块猪肉分组比较。'],
+  ['beef', '🥩', '牛羊肉与牛排', '牛排、整块牛肉、牛肉丁和羊肉分别比较。'],
+  ['seafood', '🐟', '鱼虾海鲜', '区分三文鱼、白身鱼、虾和熟制海鲜。'],
+  ['prepared_meat', '🍖', '肉类制成品', '调味、熟制、裹粉、肉丸和肉饼按肉种与形态细分。'],
   ['liver_pate', '🍞', '肝酱与肉酱', 'Leverpostej 等肝酱单独展示，不再混入培根或冷切。'],
   ['bacon', '🥓', '培根', '培根片与培根丁分开；培根肠归入香肠。'],
   ['sausages', '🌭', '香肠', '按鸡肉、牛肉、猪肉、培根、法兰克福和其他明确类型细分。'],
   ['deli_meat', '🥪', '冷切与肉片', '火腿、鸡肉片、牛肉片、萨拉米等按肉种和形态分开。'],
-  ['prepared_meat', '🍖', '肉类制成品', '裹粉肉、肉丸、肉饼和其他制成品按肉种与形态细分。'],
-  ['beef', '🥩', '牛羊肉与牛排', '牛排、整块牛肉、牛肉丁和羊肉分别比较。'],
-  ['seafood', '🐟', '鱼虾海鲜', '区分三文鱼、白身鱼、虾和熟制海鲜。'],
   ['eggs_milk', '🥚', '鸡蛋、牛奶与植物饮', '鸡蛋、牛奶、乳饮品和植物奶分组显示。'],
   ['yoghurt', '🥣', '酸奶与 Skyr', '酸奶、Skyr、布丁和发酵乳集中展示。'],
   ['cream_cold_dairy', '🥛', '奶油与其他冷藏乳品', '淡奶油、烹饪奶油和跨乳品任选促销集中展示。'],
   ['cheese', '🧀', '奶酪', '硬质、软质、切片、刨丝和新鲜白奶酪保留原名差异。'],
   ['butter_spreads', '🧈', '黄油与乳脂抹酱', '真黄油和混合抹酱按重量与原名比较。'],
-  ['vegetables', '🥬', '蔬菜', '蘑菇、番茄、土豆、叶菜等按品种比较。'],
   ['potato_products', '🍟', '土豆制成品', '薯条、薯角、薯饼、焗土豆和土豆沙拉各自比较。'],
-  ['fruit', '🍎', '水果', '按品种、重量或单件价格显示。'],
   ['bread_bakery', '🍞', '面包与烘焙主食', '黑麦面包、法棍、小面包和其他烘焙主食。'],
   ['rice_pasta', '🍚', '米面、意面与烘焙面粉', '大米、面条、意面、面粉和饼皮分组显示。'],
   ['frozen_ready', '🍕', '冷冻食品与方便餐', '冷冻主食、披萨、饺子和即食餐分组显示。'],
@@ -90,6 +90,36 @@ const CHEESE_GROUP_PATTERNS = [
 export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') {
   const name = norm(originalName);
   const mixedChoice = /eller|marked|mix/.test(name);
+  // Non-meat product forms must win before incidental words such as hotdog,
+  // bacon or Wiener can send bread and pastries into a meat aisle.
+  if (/ispind|isvafler|isvaffel/.test(name)) return 'ice_cream';
+  if (/hotdogbrod|polsebrod|burgerboller/.test(name)) return 'bread';
+  if (/wienerstang|kanelstang/.test(name)) return 'biscuits';
+  if (/fransk hotdog/.test(name)) return 'ready_meal';
+  if (/ribena|solbaer.*(?:saft|drik)|(?:saft|drik).*solbaer/.test(name)) return 'excluded_drink';
+  if (/nektarin.*fersken.*blomme.*abrikos/.test(name)) return 'mixed_fruit';
+  if (/taga.*bacondadler.*fuet|bacondadler.*fuet/.test(name)) return 'prepared_mixed_meat';
+  if (/(?:postej|leverpostej).*(?:eller).*medister|medister.*(?:eller).*(?:postej|leverpostej)/.test(name)) return 'prepared_mixed_meat';
+  if (/salatbowls|hvidkaalssalat/.test(name)) return 'prepared_salad';
+  if (/melonmix|frugtmix|ananas i skiver/.test(name)) return 'prepared_fruit';
+  if (/fiskefrikadeller.*eller.*roget makrel|roget makrel.*eller.*fiskefrikadeller/.test(name)) return 'seafood_mixed_offer';
+  if (/fiskefars/.test(name)) return 'fish_mince';
+  if (/buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/.test(name)) return 'prepared_chicken_wings_seasoned';
+  if (/(?:classic|original).*(?:eller).*(?:crispy|breaded).*(?:hot wings|wings)|(?:hot wings|wings).*(?:classic|original).*(?:eller).*(?:crispy|breaded)/.test(name)) return 'prepared_chicken_wings_mixed_offer';
+  if (/(?:crispy|breaded|paneret).*(?:hot wings|kyllingevinger|chicken wings)|(?:hot wings|kyllingevinger|chicken wings).*(?:crispy|breaded|paneret)/.test(name)) return 'prepared_chicken_wings_breaded';
+  if (/marineret kyllingebryst|kyllingebryst.*(?:bbq|citron|rosmarin)/.test(name)) return 'prepared_chicken_breast_marinated';
+  if (/burgerboffer af oksekod|hamburger af oksekod/.test(name)) return 'prepared_beef_burgers';
+  if (/poussin.*marineret.*eller|marineret.*eller.*poussin/.test(name)) return 'prepared_poultry_mixed_offer';
+  if (/(?:pulled pork|pulled chicken|spareribs|porchetta|roget hamburgerryg|marineret kamfilet).*(?:eller)|(?:eller).*(?:pulled pork|pulled chicken|spareribs|porchetta|roget hamburgerryg|marineret kamfilet)|(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad).*(?:eller).*(?:marineret|bbq|chimichurri|ovnklar)|(?:marineret|bbq|chimichurri|ovnklar).*(?:eller).*(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad)/.test(name)) return 'prepared_pork_mixed_offer';
+  if (/pulled pork/.test(name)) return 'prepared_pork_cooked';
+  if (/rogede? kamben|kamben.*roget/.test(name)) return 'prepared_pork_cooked';
+  if (/porchetta|kotelet.*tilsat lage|kotelet.*(?:tomat|ramslog)|marinerede? spareribs/.test(name)) return 'prepared_pork_marinated';
+  if (/krydrede kodboller.*eller.*hakket gris|hakket gris.*eller.*krydrede kodboller/.test(name)) return 'prepared_pork_mixed_offer';
+  if (/(?:marineret|bbq|barbecue|chimichurri|mesquit|smokey|paprika|lakrids|firepit|gyros|ovnklar).*(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad)|(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad).*(?:marineret|bbq|barbecue|chimichurri|mesquit|smokey|paprika|lakrids|firepit|gyros|ovnklar)/.test(name)) return 'prepared_pork_marinated';
+  if (/(?:marineret|bbq|hvidlog).*(?:lam|lamm)|(?:lam|lamm).*(?:marineret|bbq|hvidlog)/.test(name)) return 'prepared_lamb_marinated';
+  if (/(?:marineret|chimichurri|bbq|hvidlog|peberkant).*(?:okse|kalv|steak|flank|flatsteak|culotte)|(?:okse|kalv|steak|flank|flatsteak|culotte).*(?:marineret|chimichurri|bbq|hvidlog|peberkant)/.test(name)) return 'prepared_beef_marinated';
+  if (/vaadservietter|wet wipes/.test(name)) return 'paper_wet_wipes';
+  if (/lommeletter|lommetorklaeder|ansigtsservietter|facial tissue|kleenex|puffs/.test(name)) return 'paper_facial';
   // If ribeye/entrecôte is one of the explicitly purchasable choices, the
   // offer is useful in the ribeye aisle and its price is valid for that choice.
   if (comparisonGroup === 'beef_mixed_offer' && /rib ?eye|entrecote/.test(name)) return 'beef_ribeye';
@@ -241,6 +271,13 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
 }
 
 export function refineAarhusCategory(categoryId, comparisonGroup) {
+  if (comparisonGroup === 'excluded_drink') return 'excluded';
+  if (comparisonGroup === 'bread') return 'bread_bakery';
+  if (comparisonGroup === 'biscuits') return 'biscuits_cakes';
+  if (comparisonGroup === 'ice_cream') return 'ice_cream';
+  if (comparisonGroup === 'ready_meal' || comparisonGroup === 'prepared_salad') return 'frozen_ready';
+  if (comparisonGroup === 'prepared_fruit' || comparisonGroup === 'mixed_fruit') return 'fruit';
+  if (comparisonGroup === 'fish_mince' || comparisonGroup.startsWith('seafood_')) return 'seafood';
   if (MINCED_MEAT_GROUPS.has(comparisonGroup)) return 'minced_meat';
   if (comparisonGroup === 'yoghurt') return 'yoghurt';
   if (['cream', 'mixed_dairy'].includes(comparisonGroup)) return 'cream_cold_dairy';
@@ -249,7 +286,7 @@ export function refineAarhusCategory(categoryId, comparisonGroup) {
   if (comparisonGroup.startsWith('bacon_')) return 'bacon';
   if (comparisonGroup.startsWith('sausage_')) return 'sausages';
   if (comparisonGroup.startsWith('deli_') || ['beef_deli', 'deli_spreads'].includes(comparisonGroup)) return 'deli_meat';
-  if (comparisonGroup.startsWith('prepared_') || ['chicken_skewers'].includes(comparisonGroup)) return 'prepared_meat';
+  if (comparisonGroup.startsWith('prepared_') || ['chicken_skewers', 'beef_burgers'].includes(comparisonGroup)) return 'prepared_meat';
   if (comparisonGroup.startsWith('potato_') && comparisonGroup !== 'potatoes_fresh') return 'potato_products';
   if (comparisonGroup.startsWith('sauce_')) return 'sauces_condiments';
   if (comparisonGroup.startsWith('oil_') || comparisonGroup === 'vinegar') return 'cooking_oils';
@@ -311,6 +348,17 @@ export const AARHUS_COMPARISON_GROUPS = {
   deli_cured_sliced: group('萨拉米与风干肉片', '腌制肉片按具体肉种和原名参考。'),
   deli_mixed_offer: group('冷切多品项任选', '不同肉种或形态的冷切组合不计算最低价。', false),
   prepared_chicken_breaded: group('裹粉鸡肉制品', '鸡块、爆米花鸡等按制成形态查看，不跨形态比价。', false),
+  prepared_chicken_wings_seasoned: group('调味鸡翅', '已经调味的冷冻鸡翅按公斤比较，不与生鲜原味鸡翅混比。'),
+  prepared_chicken_wings_breaded: group('裹粉脆皮鸡翅', '裹粉鸡翅单独比较，不与普通调味鸡翅或生鸡翅混比。'),
+  prepared_chicken_wings_mixed_offer: group('原味或脆皮鸡翅任选', '跨普通调味与裹粉脆皮形态，不计算统一最低价。', false),
+  prepared_chicken_breast_marinated: group('腌制调味鸡胸', '已经腌制或带明确口味的鸡胸单独比较，不与原味生鸡胸混比。'),
+  prepared_beef_burgers: group('牛肉汉堡饼', '成型牛肉汉堡饼按公斤比较，不与牛肉末或整块牛排混比。'),
+  prepared_poultry_mixed_offer: group('禽肉生鲜或腌制任选', '跨未调味和腌制禽肉形态，不计算统一最低价。', false),
+  prepared_pork_marinated: group('腌制调味猪肉', '已经腌制或带明确口味的猪肉按公斤参考，不与原味生猪肉混比。'),
+  prepared_pork_cooked: group('熟制猪肉', 'Pulled pork 等已经慢煮或熟制的猪肉单独比较。'),
+  prepared_pork_mixed_offer: group('猪肉制成品多形态任选', '腌制、熟制、烟熏或不同猪肉形态任选，不计算统一最低价。', false),
+  prepared_beef_marinated: group('腌制调味牛肉', '已经腌制或带明确口味的牛排和牛肉单独比较。'),
+  prepared_lamb_marinated: group('腌制调味羊肉', '已经腌制的羊肉单独比较，不与原味生羊肉混比。'),
   prepared_chicken_meatballs: group('鸡肉丸', '鸡肉丸按公斤比较。'),
   prepared_beef_meatballs: group('牛肉丸', '牛肉丸按公斤比较。'),
   prepared_pork_meatballs: group('猪肉丸', '猪肉丸按公斤比较。'),
@@ -341,6 +389,7 @@ export const AARHUS_COMPARISON_GROUPS = {
   salmon: group('三文鱼（旧分类）', '兼容旧记录，不计算全局最低价。', false),
   shrimp: group('虾', '熟虾与生虾用途不同。'),
   white_fish: group('白身鱼', '不同鱼种保留原名，不计算跨鱼种最低价。', false),
+  fish_mince: group('调味鱼肉糜与鱼滑', '鱼肉糜可做鱼丸或鱼饼，不与整片鱼柳比较最低价。'),
   seafood_mixed_offer: group('鱼虾海鲜多品项任选', '不同鱼种、虾或加工海鲜任选，不计算单一商品最低价。', false),
   seafood_other: group('其他海鲜', '贝类和加工海鲜不强行视作同一种，也不计算全局最低价。', false),
   eggs: group('鸡蛋', '优先按每枚价格比较。'),
@@ -663,7 +712,9 @@ const PRODUCT_FORM_RULES = [
   ['seafood', 'salmon_smoked', /(?:koldroget|varmroget|roget|gravad).*laks|laks.*(?:koldroget|varmroget|roget|gravad)/],
   ['seafood', 'salmon_fresh', /laks|salmon/],
   ['seafood', 'shrimp', /rejer|shrimp|prawns|vannamei|gambas/],
-  ['seafood', 'white_fish', /tunsteak|tun steak|torsk|sej|rodspaette|fiskefilet|fiskefars|makrel|sardiner|\btun\b|dorade/],
+  ['seafood', 'seafood_mixed_offer', /fiskefrikadeller.*eller.*roget makrel|roget makrel.*eller.*fiskefrikadeller/],
+  ['seafood', 'fish_mince', /fiskefars/],
+  ['seafood', 'white_fish', /tunsteak|tun steak|torsk|sej|rodspaette|fiskefilet|makrel|sardiner|\btun\b|dorade/],
   ['seafood', 'seafood_other', /skagensalat|fiskesalat|seafoodmix|fiskemarked|skaldyr|muslinger|blaeksprutte/],
   ['chicken', 'turkey_mixed_offer', /kalkunoverlaar.*schnitzel.*bryst|schnitzel.*bryst.*kalkunoverlaar/],
   ['chicken', 'poultry_deli_mixed', /kalkunbacon.*(?:paalaeg|postej)|(?:paalaeg|postej).*kalkunbacon/],
@@ -672,6 +723,19 @@ const PRODUCT_FORM_RULES = [
   ['chicken', 'turkey_breast', /kalkunbryst|kalkunschnitz|kalkunstrimler/],
   ['chicken', 'turkey_thigh', /kalkunoverlaar|kalkununderlaar/],
   ['chicken', 'other_poultry', /poussin/],
+  ['chicken', 'prepared_chicken_wings_mixed_offer', /(?:classic|original).*(?:eller).*(?:crispy|breaded).*(?:hot wings|wings)/],
+  ['chicken', 'prepared_chicken_wings_seasoned', /buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/],
+  ['chicken', 'prepared_chicken_wings_breaded', /(?:crispy|breaded|paneret).*(?:hot wings|kyllingevinger|chicken wings)|(?:hot wings|kyllingevinger|chicken wings).*(?:crispy|breaded|paneret)/],
+  ['chicken', 'prepared_chicken_breast_marinated', /marineret kyllingebryst|kyllingebryst.*(?:bbq|citron|rosmarin)/],
+  ['chicken', 'prepared_poultry_mixed_offer', /poussin.*marineret.*eller|marineret.*eller.*poussin/],
+  ['pork', 'prepared_pork_mixed_offer', /(?:pulled pork|pulled chicken|spareribs|porchetta|roget hamburgerryg|marineret kamfilet).*(?:eller)|(?:eller).*(?:pulled pork|pulled chicken|spareribs|porchetta|roget hamburgerryg|marineret kamfilet)|(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad).*(?:eller).*(?:marineret|bbq|chimichurri|ovnklar)|(?:marineret|bbq|chimichurri|ovnklar).*(?:eller).*(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad)/],
+  ['pork', 'prepared_pork_cooked', /pulled pork/],
+  ['pork', 'prepared_pork_cooked', /rogede? kamben|kamben.*roget/],
+  ['pork', 'prepared_pork_marinated', /porchetta|kotelet.*tilsat lage|kotelet.*(?:tomat|ramslog)|marinerede? spareribs/],
+  ['pork', 'prepared_pork_mixed_offer', /krydrede kodboller.*eller.*hakket gris|hakket gris.*eller.*krydrede kodboller/],
+  ['pork', 'prepared_pork_marinated', /(?:marineret|bbq|barbecue|chimichurri|mesquit|smokey|paprika|lakrids|firepit|gyros|ovnklar).*(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad)|(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad).*(?:marineret|bbq|barbecue|chimichurri|mesquit|smokey|paprika|lakrids|firepit|gyros|ovnklar)/],
+  ['beef', 'prepared_lamb_marinated', /(?:marineret|bbq|hvidlog).*(?:lam|lamm)|(?:lam|lamm).*(?:marineret|bbq|hvidlog)/],
+  ['beef', 'prepared_beef_marinated', /(?:marineret|chimichurri|bbq|hvidlog|peberkant).*(?:okse|kalv|steak|flank|flatsteak|culotte)|(?:okse|kalv|steak|flank|flatsteak|culotte).*(?:marineret|chimichurri|bbq|hvidlog|peberkant)/],
   ['beef', 'mixed_meat_offer', /hakket gris.*kalv.*kyllingelaar|kyllingelaar.*hakket gris.*kalv/],
   ['chicken', 'chicken_mixed_offer', /bryst.*(?:laar|laarmix|hakket)|(?:laar|laarmix|hakket).*bryst|kyllingemarked|kyllingelaarmix.*hakket kylling|kyllingelaar.*spyd.*overlaar|kyllingevinger.*laarfilet|wings.*nuggets.*spyd/],
   ['chicken', 'chicken_thigh', /kyllinge?(overlaar|laar|underlaar)|chicken thigh/],
@@ -684,6 +748,7 @@ const PRODUCT_FORM_RULES = [
   ['chicken', 'chicken_sausages', /kylling snack polser|kyllingepolser/],
   ['chicken', 'chicken_other', /\bkylling\b|kyllinge/],
   ['pork', 'pork_mixed_offer', /hakket.*(?:kotelet|medister|flaesk|frilandsgris|kodbol)|(?:kotelet|medister|flaesk|frilandsgris|kodbol).*hakket|morbrad.*nakkefilet|nakkefilet.*morbrad|grisemorbrad.*ribbensteg|spareribs.*pulled|pulled.*spareribs|long ribs.*morbrad|morbrad.*long ribs|kamfilet.*porchetta.*hamburgerryg|flaeskesteg.*kamfilet.*skinkeculotte|postej.*medister|polser.*bacon|bacon.*polser/],
+  ['pork', 'prepared_mixed_meat', /taga.*bacondadler.*fuet|bacondadler.*fuet|(?:postej|leverpostej).*(?:eller).*medister|medister.*(?:eller).*(?:postej|leverpostej)/],
   ['beef', 'mixed_minced', /hakket.*(?:gris|svin|okse|kalv).*(?:gris|svin|okse|kalv)|mesterhakket.*(?:grise|okse)/],
   ['pork', 'prepared_meatballs', /farsbrod|kodbol|frikadeller/],
   ['pork', 'bacon_deli', /bacon|skinke|hamburgerryg|leverpostej|postej|paalaeg|salami|serrano|rullepolse|saltkod/],
@@ -738,7 +803,7 @@ const PRODUCT_FORM_RULES = [
 ];
 
 const DRINK_ALLOWED = /coca cola zero|coke zero|sprite zero/;
-const DRINK_WORDS = /cola|sprite|sodavand|soft drink|energidrik|energy|juice|saft|\bnektar\b|smoothie|sportsdrik|ice tea|drik\b/;
+const DRINK_WORDS = /cola|sprite|sodavand|soft drink|energidrik|energy|juice|saft|ribena|\bnektar\b|smoothie|sportsdrik|ice tea|drik\b/;
 const ALCOHOL = /\b(ol|vin|whisky|vodka|gin|rom|cider|soju|jaegermeister|mousserende|zinfandel|merlot|pinot grigio|rosé)\b|carlsberg|tuborg|heineken|corona|grimbergen|smirnoff|captain morgan/;
 const DURABLE_OR_IRRELEVANT = /\b(legetoj|vaerktoj|beklaedning|elektronik|soundbar|skaerm|computer|oplader|blomst|plante|t shirt|boxershorts|stromper|bog|termometer|skriveredskaber|kontorartikler|dualmarkers|drikkedunk|madkasse|opbevaringsglas|madopbevaringsbokse|kokkenredskab|flaske|juicepresser|kaffemaskine|ophaengningstilbehor|badevaegt|induktionskogeplade|vaskemaskine|kondenstorretumbler|torretumbler|ovn|cigaret|tobak|nicorette)\b/;
 

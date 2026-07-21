@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "generatedAt": "2026-07-21T23:06:15.046Z",
-  "count": 80,
+  "count": 79,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -145,11 +145,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fff1fc22a210eeb56c1eb0bbd854543ec&w=1000&s=98825d833403d40006bda61a740aa8ac"
     },
     {
-      "descriptionKey": "v1|coop bbq koteletter|pork_chop",
+      "descriptionKey": "v1|coop bbq koteletter|prepared_pork_marinated",
       "originalName": "Coop bbq koteletter",
       "originalDescription": "1000 g. Kg-pris 69,00. 1 pakke",
-      "currentCategoryId": "pork_fresh",
-      "currentComparisonGroup": "pork_chop",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_pork_marinated",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a6a5e0e654077b0450a698833f7ad80&w=1000&s=39900ca828246a9c3f0bbda0a7039b38"
@@ -245,11 +245,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93f88655d48d9fbddef2c504f44b671f&w=1000&s=f86c02f5d0b689f205f8ed7d0855f87e"
     },
     {
-      "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|beef_flat_steak",
+      "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|prepared_beef_marinated",
       "originalName": "Coop marineret flanksteak med oregano og hvidløg",
       "originalDescription": "Kg-pris 220,00. Pris pr. ½ kg.",
-      "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_flat_steak",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_beef_marinated",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc3e22659cc9aa44b88829b2fc8d7745b&w=1000&s=7f61fd8222397cc8f4b750510e68cbf1"
@@ -275,11 +275,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F159d829b43a7830f73f3bb1f8784a42a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F214f636bbac2a2499b15a2c72961f03c&w=1000&s=c8eb131fff33d012037d306b563d2091"
     },
     {
-      "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|beef_ribeye",
+      "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|prepared_pork_marinated",
       "originalName": "Coop ribsteak bbq med lakrids/chili eller firepit",
       "originalDescription": "325 g. Kg-pris 107,69. Frit valg. 1 pakke",
-      "currentCategoryId": "beef",
-      "currentComparisonGroup": "beef_ribeye",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_pork_marinated",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbbb8ed0d935afb11e15dfff58faf8372%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F458bb2d8105122130b05b36815743a81&w=1000&s=94ff2cd12228c59d068d29278f771aa9"
@@ -575,16 +575,6 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1f07b3f60e802bf1cc170b0a3824abbd%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff8fd1a853e24c7f1e6401a5d64a92cb2&w=1000&s=a871f62d88dfc643395e45c36039438a"
     },
     {
-      "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
-      "originalName": "Mutti tomater eller pizzasauce",
-      "originalDescription": "400 g tomater eller 210 g pizzasauce. Flere varianter. Pr. kg max. 57.14 Frit valg 12.-",
-      "currentCategoryId": "sauces_condiments",
-      "currentComparisonGroup": "sauce_pizza",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "bilka",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdS417I0o%2Fp-25.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.58&y2r=0.76&s=3e7bbaff99cb6f335e60eb18b33386bd"
-    },
-    {
       "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
       "originalName": "Nescafe iskaffe*",
       "originalDescription": "250 ml. Literpris 48,00. Frit valg. 1 dåse",
@@ -735,11 +725,11 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a8f3617702083e2dd2060c19fe68e6c&w=1000&s=bb0562b572c30164e3d6ba57308ec310"
     },
     {
-      "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|pork_mixed_offer",
+      "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer",
       "originalName": "Tulip pulled pork, pulled chicken eller spareribs*",
       "originalDescription": "450-500 g. Kg-pris maks. 86,67. Frit valg. 1 pakke",
-      "currentCategoryId": "pork_fresh",
-      "currentComparisonGroup": "pork_mixed_offer",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_pork_mixed_offer",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc09b3685be33565a26343c1aa4084af3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9e3293995a161365c485e56b521dbed6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F34f2d9ac81b570f0a983d5b3c3590612&w=1000&s=bb9722f5d23c077309d301a9fbb7f0a4"
