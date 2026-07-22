@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T04:08:36.599Z",
-  "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its complete English name; image review is tracked separately.",
+  "updatedAt": "2026-07-22T04:12:27.528Z",
+  "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack michelob ultra beer": {
       "originalName": "12-Pack Michelob Ultra Beer",
