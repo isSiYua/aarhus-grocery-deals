@@ -104,7 +104,7 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
   if (/melonmix|frugtmix|ananas i skiver/.test(name)) return 'prepared_fruit';
   if (/fiskefrikadeller.*eller.*roget makrel|roget makrel.*eller.*fiskefrikadeller/.test(name)) return 'seafood_mixed_offer';
   if (/fiskefars/.test(name)) return 'fish_mince';
-  if (/buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/.test(name)) return 'prepared_chicken_wings_seasoned';
+  if (/hotwings|buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/.test(name)) return 'prepared_chicken_wings_seasoned';
   if (/(?:classic|original).*(?:eller).*(?:crispy|breaded).*(?:hot wings|wings)|(?:hot wings|wings).*(?:classic|original).*(?:eller).*(?:crispy|breaded)/.test(name)) return 'prepared_chicken_wings_mixed_offer';
   if (/(?:crispy|breaded|paneret).*(?:hot wings|kyllingevinger|chicken wings)|(?:hot wings|kyllingevinger|chicken wings).*(?:crispy|breaded|paneret)/.test(name)) return 'prepared_chicken_wings_breaded';
   if (/marineret kyllingebryst|kyllingebryst.*(?:bbq|citron|rosmarin)/.test(name)) return 'prepared_chicken_breast_marinated';
@@ -724,7 +724,7 @@ const PRODUCT_FORM_RULES = [
   ['chicken', 'turkey_thigh', /kalkunoverlaar|kalkununderlaar/],
   ['chicken', 'other_poultry', /poussin/],
   ['chicken', 'prepared_chicken_wings_mixed_offer', /(?:classic|original).*(?:eller).*(?:crispy|breaded).*(?:hot wings|wings)/],
-  ['chicken', 'prepared_chicken_wings_seasoned', /buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/],
+  ['chicken', 'prepared_chicken_wings_seasoned', /hotwings|buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/],
   ['chicken', 'prepared_chicken_wings_breaded', /(?:crispy|breaded|paneret).*(?:hot wings|kyllingevinger|chicken wings)|(?:hot wings|kyllingevinger|chicken wings).*(?:crispy|breaded|paneret)/],
   ['chicken', 'prepared_chicken_breast_marinated', /marineret kyllingebryst|kyllingebryst.*(?:bbq|citron|rosmarin)/],
   ['chicken', 'prepared_poultry_mixed_offer', /poussin.*marineret.*eller|marineret.*eller.*poussin/],

@@ -15632,12 +15632,12 @@
       }
     },
     "v1|rose hotwings|chicken_wings": {
-      "productNameZh": "调味鸡翅",
-      "descriptionZh": "调味鸡翅。鸡翅，适合烤箱、空气炸锅或烧烤；原味、辣味和裹粉款的调味与加热时间不同。",
+      "productNameZh": "ROSE 香辣调味鸡翅",
+      "descriptionZh": "ROSE 冷冻香辣调味鸡翅，已经带有辣味腌料，适合用烤箱或空气炸锅充分加热；属于鸡肉制成品，不与未调味生鲜鸡翅比较。",
       "originalName": "ROSE Hotwings",
       "originalDescription": "1700 g. Pr. kg 44,12\nDybfrost\n1700 g\nSpot¹",
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_wings",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v3",

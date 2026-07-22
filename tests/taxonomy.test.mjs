@@ -17,6 +17,7 @@ test('keeps prepared chicken and formed beef products out of raw meat aisles', (
   const expected = new Map([
     ['SOL&MAR Kyllingevinger', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
     ['ROSE Buffalo Wings', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
+    ['ROSE Hotwings', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
     ['Morliny classic eller crispy hot wings', ['prepared_meat', 'prepared_chicken_wings_mixed_offer']],
     ['Løgismose marineret kyllingebryst', ['prepared_meat', 'prepared_chicken_breast_marinated']],
     ['MADVÆRKET Burgerbøffer af oksekød', ['prepared_meat', 'prepared_beef_burgers']],

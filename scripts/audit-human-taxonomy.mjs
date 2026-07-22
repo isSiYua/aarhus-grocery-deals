@@ -28,7 +28,7 @@ for (const offer of aarhus.offers) {
   }
   if (String(offer.zhExplanation || '').trim().length < 12) fail(offer, '中文解释过短');
 
-  if (/(buffalo wings|sol mar kyllingevinger)/.test(name)
+  if (/(hotwings|buffalo wings|sol mar kyllingevinger)/.test(name)
       && (offer.categoryId !== 'prepared_meat' || offer.comparisonGroup !== 'prepared_chicken_wings_seasoned')) {
     fail(offer, '调味鸡翅误归入生鲜鸡肉');
   }
