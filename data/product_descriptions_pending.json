@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T03:22:35.876Z",
-  "count": 13,
+  "generatedAt": "2026-07-22T03:27:24.752Z",
+  "count": 17,
   "items": [
     {
       "descriptionKey": "v1|cloetta bars|chocolate",
@@ -21,7 +21,7 @@
       "descriptionKey": "v1|coop proteinshake|milk",
       "originalName": "Coop proteinshake*",
       "sampleDescriptions": [
-        "50 g protein 500 g. Kg-pris 30,00. Frit valg. 1 stk."
+        "500 g. Kg-pris 30,00. Frit valg. 1 stk."
       ],
       "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
@@ -66,6 +66,19 @@
       "comparisonGroup": "paper_other",
       "stores": [
         "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|heinz tomat ketchup eller sauce|sauce_mixed_offer",
+      "originalName": "Heinz tomat-ketchup eller sauce",
+      "sampleDescriptions": [
+        "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. MÅNEDENS Medlems KØB JULI Bliv Coop Medlem og få del i de eksklusive medlemsfordele nu Gælder fra 1. juli til og med 31. juli, så længe lager haves. Medlemsrabat op til 12,95 Pris ikke-medlem op til 29,95"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "stores": [
+        "365"
       ],
       "occurrences": 1
     },
@@ -172,6 +185,45 @@
       "comparisonGroup": "bread",
       "stores": [
         "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizo kroketter|sausage_chorizo",
+      "originalName": "SOL&MAR Blæksprutteringe eller chorizo-kroketter",
+      "sampleDescriptions": [
+        "500 g. Pr. kg 50,00 Spot¹"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sol mar chorizo grillpolser|sausage_chorizo",
+      "originalName": "SOL&MAR Chorizo-grillpølser",
+      "sampleDescriptions": [
+        "300 g. Pr. kg 100,00 Spot¹"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|xtra marineret kyllinge bryst med citron rosmarin eller bbq|chicken_other",
+      "originalName": "Xtra! marineret kyllinge-bryst med citron/ rosmarin eller bbq",
+      "sampleDescriptions": [
+        "375 g. Kg-pris 104,00. Frit valg. 1 pakke."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "superbrugsen"
       ],
       "occurrences": 1
     }
