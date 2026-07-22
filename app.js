@@ -23,10 +23,10 @@ const SHOPPING_KEY = 'grocery-deals-shopping-v1';
 const LOCATIONS = [
   {
     id: 'aarhus-v',
-    label: 'Aarhus V',
-    radiusLabel: '10 km',
+    label: 'Aarhus 全市',
+    radiusLabel: 'Aarhus Kommune',
     mode: 'items',
-    descriptionZh: '丹麦商品级促销：每天更新、按品类比较，并保留来源定位状态。',
+    descriptionZh: '覆盖 Aarhus 市区与 Aarhus Kommune 有公开促销单的主要食品连锁；每天更新并按可比规格比较。',
   },
   {
     id: 'atlanta-westside',
@@ -854,9 +854,10 @@ function homeView() {
     return days >= 0 && days <= 1.5;
   }).length;
   const hero = el('section', { class: 'hero' }, [
-    el('h2', {}, '今天去哪家，买什么，一眼就知道。'),
-    el('p', {}, '本期和下期商品都放进对应分类；下期会明确标注，并使用独立最低价。若下期比本期更便宜，会用另一种颜色提醒。'),
+    el('h2', {}, 'Aarhus 全市促销，今天去哪家一眼就知道。'),
+    el('p', {}, '同一连锁的促销只保留一份并覆盖其 Aarhus 分店，不为每个地址重复商品。本期和下期商品都放进对应分类，并分别计算最低价；实际库存以所选门店为准。'),
     el('div', { class: 'hero-meta' }, [
+      el('span', { class: 'hero-pill' }, `${activeStores().filter(store => allOffers.some(offer => offer.storeId === store.id)).length} 个有促销数据的连锁`),
       el('span', { class: 'hero-pill' }, `${nowOffers.length} 项现在能买`),
       el('span', { class: 'hero-pill' }, `${nextOffers.length} 项下期开始`),
       el('span', { class: 'hero-pill' }, `${changed} 项新增或降价`),

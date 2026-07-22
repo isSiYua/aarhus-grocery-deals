@@ -1,9 +1,193 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T02:29:16.071Z",
-  "count": 170,
+  "generatedAt": "2026-07-22T02:45:06.892Z",
+  "count": 456,
   "items": [
+    {
+      "descriptionKey": "v1|1 hel kasse slikkepinde afhent senest torsdag|chocolate",
+      "originalName": "1 hel kasse slikkepinde 🚨AFHENT SENEST TORSDAG🚨",
+      "sampleDescriptions": [
+        "🪅🎊🎈🎉JA TAK TILBUD 🎉🎊🎈🪅\n \n🍭 1/1 KASSE SLIKKEPINDE (85/90 STK) 🍭\n\n    🚫 NORMALPRIS 129,99 🚫\n  \n   🤭 JA TAK KUN 89,99 PR KASSE 🤭\n\n   ➡️  PRIS ER ca.1 kr pr pind  ⬅️\n\nPerfekt til uddeling til fødselsdag, børnefest eller til børnebørnene ☀️\n\nFLERE VARIANTER - efter først til mølle princippet\n\nSkal afhentes ved pakkeshoppen \nSENEST TORSDAG😁🙌\n\nVi ses i Løvbjerg IKAST❤"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|1 hel kasse slikkepinde|chocolate",
+      "originalName": "1 hel kasse slikkepinde",
+      "sampleDescriptions": [
+        "🪅🎊🎈🎉JA TAK TILBUD 🎉🎊🎈🪅\n \n🍭 1/1 KASSE SLIKKEPINDE (85 STK) 🍭\n\n    🚫 NORMALPRIS 129,99 🚫\n  \n   🤭 JA TAK KUN 59,99 PR KASSE 🤭\n\n            ➡️  PRIS ER 0,71 ⬅️\n\nPerfekt til, uddeling til fødselsdag eller til børnebørnene ☀️\n\n➡️ NORDTHY SLIKKEPINDE  🍭\nVælg mellem \nØrkenpinde (Karamel)\nBjørnebande(Karamel med Kakao-overtræk) \n\nSkal afhentes ved lagerporten fra nu og senest TORSDAG 😁🙌\n\nVi ses I Løvbjerg Brønderslev ❤"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|1 kg peberfrugt|peppers",
+      "originalName": "1 kg peberfrugt",
+      "sampleDescriptions": [
+        "JA TAK XXL PEBERFRUGT\n\n                   1 KG. XXL PEBERFRUGT\n                          I MIXEDE FARVER\n\n                🤩JA TAK - KUN 19,99 KR.🤩\n\n👉 HOLLAND, KV. 1\n\n👉 1 KG. 🤩\n\n👉 NET MED 7-8 PEBERFRUGTER \n\n👉 DET ER VIRKELIGT BILLIGT🤩\n\n👉 AFHENTNING SENEST ONSDAG\n\n👉 AFHENTNING VED LAGERPORTEN VED MEJERI.\n \nVI SES I LØVBJERG BRØNDERSLEV, DIN LOKALE GRØNTHANDLER 😍\n🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "peppers",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|2 kg kyllingespyd afhentning tirsdag eller onsdag|chicken_skewers",
+      "originalName": "2 kg kyllingespyd😍 afhentning tirsdag eller onsdag ‼️",
+      "sampleDescriptions": [
+        "🔥JA TAK TIL 2 KG KYLLINGE GRILLSPYD🔥\n\n🤩 Ca. 25 lækre, forstegte kyllingespyd i hver pose!\n\n💛 Møre, saftige og fyldt med smag – en favorit til hele familien.\n\n🥪 Perfekte til:\n✔️ Madpakken\n✔️ Den hurtige aftensmad\n✔️ Grillen eller airfryeren\n✔️ Buffet og tapas\n\n❄️ Løsfrosne – tag kun det antal op, du har brug for.\n\n💥 ‼️JA TAK-PRIS KUN 129,99,- ‼️💥\n\n😲 Spar hele 90,-\n\n📍 Afhentes TIRSDAG ELLER ONSDAG senest kl. 21.00 i slagterafdelingen.\n\n⏳ Begrænset parti – først til mølle!\n\n❤️ Vi glæder os til at se jer i Løvbjerg Brønderslev."
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "chicken_skewers",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|3 frikadeller 3 fiskefilet eller 3 skiver kamsteg|white_fish",
+      "originalName": "3 FRIKADELLER, 3 FISKEFILET ELLER 3 SKIVER KAMSTEG",
+      "sampleDescriptions": [
+        "LAVET AF OS NYDES AF DIG PR. PAKKE SKARP PRIS"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "white_fish",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|450 gram hakket kyllingekod|chicken_minced",
+      "originalName": "450 gram hakket kyllingekød",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK HUG ‼️😍\n\n  🇩🇰🇩🇰 HAKKET KYLLINGEKØD🇩🇰🇩🇰\n \n  ❌ Pr. pakke KUN 12,99 kr. ❌ \n \n🇩🇰 Hakket kyllingekød 7-10% fedt. \n\n🇩🇰 450 gram ‼️\n\n🇩🇰 24/7-26\n\n‼️ KAN FRYSES ‼️❄️\n\nAFHENTES TIRSDAG TIL TORSDAG \n\n\nVi ses i Løvbjerg HORSENS ❤️"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "chicken_minced",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|5 kg kyllingekebab|chicken_other",
+      "originalName": "5 KG kyllingekebab",
+      "sampleDescriptions": [
+        "😍JA TAK AMOK😍\n\n5 KG KYLLINGEKEBAB TIL EN SKARP PRIS 🐓\n\n   ✅ DIN JA TAK PRIS: 199,99kr✅\n\n‼️ DET ER 40kr PR. KG. ‼️\n\n⚖️ 5 kg – perfekt til både hverdag, fest og fryseren\n\n💥 Ideel til pita, durum, wraps, salater & grill\n\n💥 Nem, hurtig og mega lækker\n\nAFHENTNING TIRSDAG 21/07-26 OG TORSDAG 23/07-26⏰\n\nVi ses i Løvbjerg Frederikshavn♥️"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|6 pak is afhent senest onsdag|ice_cream",
+      "originalName": "6-pak is - 🚨 AFHENT SENEST ONSDAG 🚨",
+      "sampleDescriptions": [
+        "⚠️ HUSK AT TJEKKE MESSENGER OM DIN ORDRE ER GÅET IGENNEM ⚠️       \n\nYaaaay, nu kommer solen og i den forbindelse har vi fundet et kanon godt tilbud på is til jer, som I bare må gøre brug af 🌞    \n\n                    🍦 JAA TAAAK 6‑PAK IS! 🍦\n\n         6‑PAK Mars, Snickers Gold,Bounty eller \n           Mars Salt Karamel – til lækker pris!\n\n                🤑 KUN 24,99 kr. pr. pakke! 🤑 \n                 👀DET ER KUN 4,17 pr. IS!👀\n\n         VARIANT VÆLGES VED AFHENTNING\n\n✨ Den ikoniske Mars‑smag med cremet vaniljeis, blød karamel og et lag mælkechokolade – en favorit hos både børn og voksne!\n\n✨ Den uimodståelige Snickers Gold‑kombination af vaniljeis, karamelsauce og peanuts – en luksusis, der hurtigt bliver en favorit!\n\n✨ Elsker du sødt og salt? Så prøv Mars Salt Karamel‑isen – cremet vaniljeis med blød saltkaramel, overtrukket med mælkechokolade. En smagsoplevelse ud over det sædvanlige!\n\n✅ 6 stk. pr. pakke\n✅ Perfekt til fryseren derhjemme\n✅ Ideel til sommer, gæster eller en sød snack\n\n👉 Kan afhentes fra nu til og med ONSDAG\n👉 Afhentes ved vores pakkeshop\n👉 Hav venligst dit bestillingsnummer klar ved afhentning \n\nAfhentes fra nu og senest ONSDAG ved vores pakkeshop 📦\n\n              🙋 VI SES I LØVBJERG IKAST 🙋"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|700 g flaesk i skiver af dansk gris 700 g spareribs af dansk gris eller 1 kg rose hakket dansk kylling 7 10|prepared_pork_mixed_offer",
+      "originalName": "700 G FLÆSK I SKIVER AF DANSK GRIS, 700 G SPARERIBS AF DANSK GRIS ELLER 1 KG ROSE HAKKET DANSK KYLLING 7-10 %",
+      "sampleDescriptions": [
+        "Max. kg pris 85,64. PR. PAKKE",
+        "Flere varianter. Max. kg pris 85,64. Pr. pakke",
+        "Flere varianter. Max. kg pris 85,64. Pr. pakke 59,95"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
+      "stores": [
+        "meny",
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 3
+    },
+    {
+      "descriptionKey": "v1|aarstiderne dansk okologisk hjertesalat|lettuce",
+      "originalName": "AARSTIDERNE DANSK ØKOLOGISK HJERTESALAT",
+      "sampleDescriptions": [
+        "2 stk. Stk. pris 7,50. PR. POSE"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "lettuce",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|aarstiderne dansk okologisk rod graesk basilikum|basil",
+      "originalName": "AARSTIDERNE DANSK ØKOLOGISK RØD & GRÆSK BASILIKUM",
+      "sampleDescriptions": [
+        "PR. POTTE Brug frisk økologisk basilikum fra Italien – formidabel til pesto, pasta, salater og pynt"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "basil",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|aarstiderne danske okologiske kartofler|potatoes_fresh",
+      "originalName": "AARSTIDERNE DANSKE ØKOLOGISKE KARTOFLER",
+      "sampleDescriptions": [
+        "650 g. Kg pris 24,62. PR. BAKKE"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "potatoes_fresh",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|actimel jordbaer|strawberries",
+      "originalName": "Actimel Jordbær",
+      "sampleDescriptions": [
+        "🤩 JA TAK 🤩\n\n🍦🍓 Actimel med jordbær 🍓🍦\n\nVi har et restparti Actimel til en SUPER pris:\n \n♥️ 8,99 kr. pr. stk. ♥️\n\n📅 M.h.t. d. 25.07.2026 \n\n🙌 Afhentning senest onsdag kl. 21.00 🙌\n\nVi ses i Løvbjerg Tarup 🛒♥️"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "strawberries",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|affaldsposer el hundeposer|trash_bags",
+      "originalName": "Affaldsposer el. hundeposer",
+      "sampleDescriptions": [],
+      "categoryId": "household_paper",
+      "comparisonGroup": "trash_bags",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
       "originalName": "Ajax rengøring eller Bref toiletblokke*",
@@ -53,6 +237,17 @@
       "comparisonGroup": "nuts",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|always bind discreet el tampax|hygiene",
+      "originalName": "Always bind, Discreet el. Tampax",
+      "sampleDescriptions": [],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hygiene",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -109,6 +304,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|anglamark okologiske aeg fra dueholm|eggs",
+      "originalName": "Änglamark økologiske æg fra Dueholm",
+      "sampleDescriptions": [
+        "Str. M/L. 10 stk. Stk.-pris 2,90. 1 bakke"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "eggs",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|anglamark okologiske gulerodder fra lammefjordspakkeriet|lamb_other",
       "originalName": "Änglamark økologiske gulerødder fra Lammefjordspakkeriet",
       "sampleDescriptions": [
@@ -138,12 +346,49 @@
       "descriptionKey": "v1|anglamark okologiske smaa sprode gulerodder fra gl estrup|carrots",
       "originalName": "Änglamark økologiske små sprøde gulerødder fra Gl. Estrup",
       "sampleDescriptions": [
-        "Danmark, kl. I. 250 g. Kg-pris 32,00. 1 pose"
+        "Danmark, kl. I. 250 g. Kg-pris 32,00. 1 pose",
+        "Danmark, kl. I. 250 g. Kg-pris 40,00. 1 pose 10,-"
       ],
       "categoryId": "vegetables",
       "comparisonGroup": "carrots",
       "stores": [
-        "365"
+        "365",
+        "brugsen"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|arla el cheasy koldskaal el kefir|yoghurt",
+      "originalName": "Arla el. Cheasy koldskål el. kefir",
+      "sampleDescriptions": [],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|arla eller cheasy koldskaal eller cultura kefir|yoghurt",
+      "originalName": "Arla eller Cheasy Koldskål eller Cultura Kefir",
+      "sampleDescriptions": [
+        "MAX. 4 STK. SKARP PRIS 12.- PR. STK. Flere varianter. 1 liter. Max. 4 stk. pr. kunde pr. dag. Herefter er prisen op til 25,95 pr. stk."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|arla protein mousse budding el skyr el cheasy skyr|yoghurt",
+      "originalName": "Arla Protein mousse, budding el. skyr el. Cheasy skyr",
+      "sampleDescriptions": [],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -187,6 +432,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|bahncke dressing mayonnaise med smag sennep ketchup eller ristede log|spices",
+      "originalName": "Bähncke Dressing, Mayonnaise med smag, Sennep, Ketchup eller Ristede Løg",
+      "sampleDescriptions": [
+        "Flere varianter. 100-425 g. Max. kg pris 150,00."
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "spices",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|baileys milka minions oreo snacks|chips",
       "originalName": "BAILEYS/MILKA/MINIONS/OREO Snacks",
       "sampleDescriptions": [
@@ -200,6 +458,69 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|basso olivenolie|oil_olive",
+      "originalName": "Basso olivenolie",
+      "sampleDescriptions": [
+        "‼️ 1 LITER OLIVENOLIE - KUN 49,99 ‼️\n\n \n   😱➡️ JA TAK PRIS KUN 49,99 ⬅️😱\n          ‼️ SPAR HELE 40,00 KRONER‼️\n\nAFHENTES IDAG TIL ONSDAG 😄👍\n\nVi ses I Løvbjerg VARDE  ❤️"
+      ],
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_olive",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|beauvais ketchup el arffmann sennep|sauce_mixed_offer",
+      "originalName": "Beauvais ketchup el. Arffmann sennep",
+      "sampleDescriptions": [],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|beauvais ketchup eller bahncke sennep|sauce_mixed_offer",
+      "originalName": "Beauvais ketchup eller Bähncke sennep",
+      "sampleDescriptions": [
+        "225-500 g. Kg-pris maks. 84,44. Frit valg. Begrænset parti. 1 stk."
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|beauvais survarer eller herregaardsrodkaal|pickled_vegetables",
+      "originalName": "Beauvais Survarer eller Herregårdsrødkål",
+      "sampleDescriptions": [
+        "Flere varianter. 325-375/550-720 g. Max. kg pris 61,54. Pr. stk."
+      ],
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "pickled_vegetables",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|beauvais survarer herregaardsrodkaal eller bahncke sennep|pickled_vegetables",
+      "originalName": "Beauvais Survarer, Herregårdsrødkål eller Bähncke Sennep",
+      "sampleDescriptions": [
+        "Flere varianter. 300-375/ 250-720 g. Max. kg pris 66,67. Pr. stk."
+      ],
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "pickled_vegetables",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|beauvais syltede grontsager|pickled_vegetables",
       "originalName": "BEAUVAIS Syltede grøntsager",
       "sampleDescriptions": [
@@ -209,6 +530,71 @@
       "comparisonGroup": "pickled_vegetables",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|billige kiks|biscuits",
+      "originalName": "🤑billige kiks🤑",
+      "sampleDescriptions": [
+        "VI HAR SKAFFET SAFARI KIKS FRA NORDTHY\n🤑😚🤑\n\n💣DIN JA TAK PRIS KUN 10,- PR STK.💣 \n🤑Du spare 11,-🤑\n👍 vælge mellem mørk og lys chokolade.\n\n\n   Skriv ja tak og antal I kommentarfeltet \n\nKan afhentes idag og senest Fredag ved ja tak udlevering\n\nVI SES I LØVBJERG Fredericia ❤️"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|biotex vaskemiddel eller ajax rengoringsspray|cleaning",
+      "originalName": "Biotex vaskemiddel eller Ajax rengøringsspray",
+      "sampleDescriptions": [
+        "Flere varianter. 14 vaske/750-1000 ml. Ltr.-pris maks. 32,00/Pris pr. vask 1,71. Frit valg. 1 stk."
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|biotex vaskemiddel eller ajax renogrinsspray|cleaning",
+      "originalName": "Biotex vaskemiddel eller Ajax renøgrinsspray",
+      "sampleDescriptions": [
+        "Flere varianter. 14 vaske/750-1000 ml. Ltr-pris maks. 32,00/Pris pr. vask 1,71."
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bki eller peter larsen formalet kaffe|coffee_tea",
+      "originalName": "BKI eller Peter Larsen Formalet Kaffe",
+      "sampleDescriptions": [
+        "SKARP PRIS 45.- PR. POSE Flere varianter. 300-400 g. Max. kg pris 150,00."
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bki formalet kaffe|coffee_tea",
+      "originalName": "BKI FORMALET KAFFE",
+      "sampleDescriptions": [
+        "Guld eller Extra. 350-400 g. Max. kg pris 128,57 PR. POSE"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "letkoeb"
       ],
       "occurrences": 1
     },
@@ -239,6 +625,21 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|brioche fastfoodbrod|bread",
+      "originalName": "BRIOCHE FASTFOODBRØD",
+      "sampleDescriptions": [
+        "Flere varianter. 270-500 g. Max. kg pris 92,59. PR. STK. SKARP PRIS",
+        "Flere varianter. 310-400 g. Max. kg pris 80,65. BEGRÆNSET PARTI. Pr. stk."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "meny",
+        "spar"
+      ],
+      "occurrences": 2
+    },
+    {
       "descriptionKey": "v1|burger boost boffer|beef_minced",
       "originalName": "BURGER BOOST Bøffer",
       "sampleDescriptions": [
@@ -248,6 +649,19 @@
       "comparisonGroup": "beef_minced",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|burger boost original eller smoky twist|chocolate",
+      "originalName": "Burger Boost original eller smoky twist",
+      "sampleDescriptions": [
+        "300-350 g. Kg-pris maks. 130,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -278,6 +692,30 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|care toiletpapir eller kokkenruller|paper_mixed_offer",
+      "originalName": "Care Toiletpapir eller Køkkenruller",
+      "sampleDescriptions": [
+        "6 ruller toiletpapir eller 3 ruller køkkenruller. 430-560 g/3-6 stk. Max. kg pris 27,91."
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|castello el karolines kokken grillost|cheese_grilling",
+      "originalName": "Castello el. Karolines køkken grillost",
+      "sampleDescriptions": [],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grilling",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|castello haard ost|cheese_other",
       "originalName": "Castello hård ost",
       "sampleDescriptions": [
@@ -291,6 +729,82 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|castello ost|cheese_other",
+      "originalName": "Castello ost",
+      "sampleDescriptions": [
+        "Udvalgte varianter"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|castus frugtstaenger grinebidder eller frugtpaalaeg|dried_fruit",
+      "originalName": "Castus Frugtstænger, Grinebidder eller Frugtpålæg",
+      "sampleDescriptions": [
+        "Flere varianter. 70-160 g. Max. kg pris 142,86."
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "dried_fruit",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cheasy el karolines kokken salatost i tern el hytteost|cheese_cottage_ricotta",
+      "originalName": "Cheasy el. Karolines Køkken salatost i tern el. hytteost",
+      "sampleDescriptions": [],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cheasy hytteost 500 gr|cheese_cottage_ricotta",
+      "originalName": "Cheasy hytteost 500 gr.",
+      "sampleDescriptions": [
+        "🤍 JA TAK – CHEASY HYTTEOST 500 G 🤍\n\nEn rigtig hverdagsfavorit til en skarp pris! 😍\n\nPerfekt til morgenmad, frokost, salater, bagning eller som et proteinrigt mellemmåltid. 💪\n\n\n♥️😎♥️😎 KUN 12,99 kr. pr. bøtte (500 g)😎♥️😎♥️\n\n\n👇 Skriv JA TAK + antal i kommentarfeltet.\n\n📦 Afhentning i dag eller senest torsdag efter ved butikkens lagerport.\n\n⏳ Begrænset antal – først til mølle!\n\n#LøvbjergSctMathias #JaTakTilbud #Cheasy #Hytteost #500g"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cheasy skyr afhentning tirsdag onsdag|yoghurt",
+      "originalName": "Cheasy skyr - afhentning tirsdag/onsdag",
+      "sampleDescriptions": [
+        "🚨 DEN HER SKAL I PRØVE! 🚨\n\nCheasy Skyr Mango & Lime er landet, og vi har den til en skarp JA TAK-pris! 🥭🍋\n\n✨ Højt proteinindhold\n✨ Kun 0,2 % fedt\n✨ Uden tilsat sukker\n\n\n😎♥️😎♥️ JA TAK kun 13,99 kr. ♥️😎♥️😎\n\n\n👉🏻 M.h.t 31.07.26 🚨\n\nSkriv JA TAK + antal i kommentarfeltet.\n📦 Afhentning i dag eller senest onsdag ved lagerporten.\n\nVi ses i løvbjerg Sct. Mathias ♥️"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cheasy skyr|yoghurt",
+      "originalName": "Cheasy Skyr",
+      "sampleDescriptions": [
+        "Skovbær, Vanilje eller Naturel. 1 kg. Pr. stk. SKARP PRIS"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|chef select paw patrol kyllingenuggets|prepared_chicken_breaded",
       "originalName": "CHEF SELECT PAW Patrol kyllingenuggets",
       "sampleDescriptions": [
@@ -300,6 +814,19 @@
       "comparisonGroup": "prepared_chicken_breaded",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|chokoladebar|chocolate",
+      "originalName": "Chokoladebar",
+      "sampleDescriptions": [
+        "Flere varianter. 45-51 g. Max. kg pris 222,22. Pr. stk. 10.- SKARP PRIS"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "min_koebmand"
       ],
       "occurrences": 1
     },
@@ -328,6 +855,75 @@
         "lidl"
       ],
       "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cloetta store bars kun afhentning tirsdag onsdag|chocolate",
+      "originalName": "Cloetta store bars - kun afhentning tirsdag/onsdag",
+      "sampleDescriptions": [
+        "🍫JA TAK CLOETTA STORE BARS🍫\n\n🤯💥🤯💥🤯‼️ KUN 7,99 KR. ‼️🤯💥🤯💥🤯vejledende udsalgspris op til 22,56 kr. \n\nVi har købt et parti Cloetta Store Bars (60-80 g.) i flere varianter: Plopp, Sportlunch Choco, Kex som vi sælger til en vanvittig skarp pris🍫\n\n⛔️ Begrænset Parti ⛔️\n\nKan KUN afhentes tirsdag eller onsdag ved butikkens lagerport 🚨👈\n\nVi ses i Løvbjerg Sct. Mathias ♥️"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coca cola coca cola zero eller fanta|zero_soda",
+      "originalName": "Coca-Cola, Coca-Cola Zero eller Fanta",
+      "sampleDescriptions": [
+        "SKARP PRIS 75.- + pant 24 X 33 CL Literpris 9,47 Afhentningspris Sælges kun i hele rammer."
+      ],
+      "categoryId": "drinks",
+      "comparisonGroup": "zero_soda",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coca cola eller coca cola zero|zero_soda",
+      "originalName": "COCA-COLA ELLER COCA-COLA ZERO",
+      "sampleDescriptions": [
+        "Literpris 10,73. Afhentningspris Sælges kun i hele rammer + pant 24 X 33 CL"
+      ],
+      "categoryId": "drinks",
+      "comparisonGroup": "zero_soda",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coca cola fanta squash sprite zero el ramlosa|zero_soda",
+      "originalName": "Coca Cola, Fanta, Squash, Sprite Zero el. Ramlösa",
+      "sampleDescriptions": [
+        "Flere varianter | Sodavand el. danskvand"
+      ],
+      "categoryId": "drinks",
+      "comparisonGroup": "zero_soda",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cocio cocio iskaffe eller matilde kakaomaelk|milk",
+      "originalName": "COCIO, COCIO ISKAFFE ELLER MATILDE KAKAOMÆLK",
+      "sampleDescriptions": [
+        "Flere varianter. 25 cl. Literpris 24,00. PR. STK.",
+        "Flere varianter. 25 cl. Literpris 24,00. Pr. stk.",
+        "Flere varianter. 25 cl. Literpris 24,00. Pr. stk. 6.-"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "meny",
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 3
     },
     {
       "descriptionKey": "v1|colgate tandborste twister|hair_body",
@@ -424,14 +1020,16 @@
       "descriptionKey": "v1|coop faerdigret|ready_meal",
       "originalName": "Coop færdigret",
       "sampleDescriptions": [
-        "Dybfrost. 300 g. Kg-pris 50,00. Frit valg. 1 pakke"
+        "Dybfrost. 300 g. Kg-pris 50,00. Frit valg. 1 pakke",
+        "Dybfrost. Flere varianter. 350-400 g. Kg-pris maks. 45,71. Frit valg. 1 stk."
       ],
       "categoryId": "frozen_ready",
       "comparisonGroup": "ready_meal",
       "stores": [
-        "365"
+        "365",
+        "brugsen"
       ],
-      "occurrences": 1
+      "occurrences": 2
     },
     {
       "descriptionKey": "v1|coop flydende vaskemiddel|cleaning",
@@ -443,6 +1041,19 @@
       "comparisonGroup": "cleaning",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop hakket grisekod 8 12 koteletter eller ribsteaks|pork_mixed_offer",
+      "originalName": "Coop hakket grisekød 8-12%, koteletter eller ribsteaks",
+      "sampleDescriptions": [
+        "325-500 g. Kg-pris maks. 107,69. Frit valg. 1 pakke"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -460,6 +1071,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|coop hakket oksekod 4 7|beef_minced",
+      "originalName": "Coop hakket oksekød 4-7%",
+      "sampleDescriptions": [
+        "400 g. Kg-pris 122,50. 1 pakke"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "beef_minced",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|coop iskaffe|coffee_tea",
       "originalName": "Coop iskaffe",
       "sampleDescriptions": [
@@ -469,6 +1093,45 @@
       "comparisonGroup": "coffee_tea",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop italiana pizza|pizza_snacks",
+      "originalName": "Coop Italiana pizza",
+      "sampleDescriptions": [
+        "Dybfrost. 300-370 g. Kg-pris maks. 83,33. Frit valg. 1 stk."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop kartofler|potatoes_fresh",
+      "originalName": "Coop kartofler",
+      "sampleDescriptions": [
+        "Dybfrost. Flere varianter. 600-1000 g. Kg-pris maks. 25,00. Frit valg. 1 pose"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "potatoes_fresh",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop kylling|chicken_other",
+      "originalName": "Coop kylling",
+      "sampleDescriptions": [
+        "Dybfrost. 750-1500 g. Kg-pris maks. 50,67. Frit valg. 1 stk."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -538,6 +1201,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|coop revet ost|cheese_grated",
+      "originalName": "Coop revet ost",
+      "sampleDescriptions": [
+        "150-200 g. Kg-pris maks. 100,00. 1 pose"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|coop ribsteak bbq med lakrids chili eller firepit|prepared_pork_marinated",
       "originalName": "Coop ribsteak bbq med lakrids/chili eller firepit",
       "sampleDescriptions": [
@@ -586,6 +1262,56 @@
       "comparisonGroup": "flour_baking",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop yoghurt eller piskeflode|cream",
+      "originalName": "Coop yoghurt eller piskefløde",
+      "sampleDescriptions": [
+        "Flere varianter. 1 kg/250 ml. Kg-pris 14,00/Literpris 56,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cordon bleu af fjerkrae|prepared_chicken_breaded",
+      "originalName": "Cordon Bleu af Fjerkræ",
+      "sampleDescriptions": [
+        "490 g. Kg pris 51,02. Pr. pakke SKARP PRIS"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|corny big muslibar|cereal",
+      "originalName": "Corny BIG müslibar",
+      "sampleDescriptions": [],
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|culotte af dansk kalv|beef_roast",
+      "originalName": "CULOTTE AF DANSK KALV",
+      "sampleDescriptions": [
+        "Kg pris 169,90."
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_roast",
+      "stores": [
+        "meny"
       ],
       "occurrences": 1
     },
@@ -642,6 +1368,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|dansk flaeskesteg|pork_roast",
+      "originalName": "Dansk flæskesteg",
+      "sampleDescriptions": [
+        "Ridset og ovnklar"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|dansk icebergsalat fra maansson|lettuce",
       "originalName": "Dansk icebergsalat fra Månsson",
       "sampleDescriptions": [
@@ -651,6 +1390,54 @@
       "comparisonGroup": "lettuce",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk kalve entrecote|beef_ribeye",
+      "originalName": "Dansk kalve entrecote",
+      "sampleDescriptions": [],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk kalve flanksteak|beef_flat_steak",
+      "originalName": "Dansk kalve flanksteak",
+      "sampleDescriptions": [
+        "Alm. el. marinerede"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_flat_steak",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk kodkvaeg roastbeef|beef_roast",
+      "originalName": "Dansk kødkvæg roastbeef",
+      "sampleDescriptions": [],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_roast",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk nakkefilet|pork_roast",
+      "originalName": "Dansk nakkefilet",
+      "sampleDescriptions": [
+        "Steges hel el. udskæres til nakkekoteletter"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -668,6 +1455,43 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|danske cherrytomater|tomatoes",
+      "originalName": "Danske cherrytomater",
+      "sampleDescriptions": [
+        "Danmark kl. 1"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "tomatoes",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|danske svinekoteletter|pork_chop",
+      "originalName": "Danske svinekoteletter",
+      "sampleDescriptions": [
+        "Alm. el. marinerede"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_chop",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dejlig dansk danbo 45 ml|cheese_danish_table",
+      "originalName": "Dejlig dansk Danbo 45+ ML",
+      "sampleDescriptions": [],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_danish_table",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|deluxe briochehotdogbrod|bread",
       "originalName": "DELUXE Briochehotdogbrød",
       "sampleDescriptions": [
@@ -681,6 +1505,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|den gamle fabrik marmelade nesquik fras morgenmad eller pauluns super granola|cereal",
+      "originalName": "Den Gamle Fabrik marmelade, Nesquik, Fras morgenmad eller Pauluns super granola",
+      "sampleDescriptions": [
+        "Flere varianter. 350-420 g. Kg-pris maks. 80,00. Frit valg. Begrænset parti. 1 stk."
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|dentalux bornetandborster|hair_body",
       "originalName": "DENTALUX Børnetandbørster",
       "sampleDescriptions": [
@@ -690,6 +1527,43 @@
       "comparisonGroup": "hair_body",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|derma solcreme spf 15 50 el aftersun|sun_care",
+      "originalName": "Derma solcreme SPF 15-50 el. aftersun",
+      "sampleDescriptions": [],
+      "categoryId": "personal_care",
+      "comparisonGroup": "sun_care",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|disco bars|chocolate",
+      "originalName": "Disco bars",
+      "sampleDescriptions": [
+        "🍫 JA TAK KIKS🍫\n \nVi har skaffet et STORT parti af de lækre disco bars fra Nordthy 😋\nEn kiks med chokolade, karamel og chokoladeknapper  - MUMS! 👌\n\nDer er 24 enkelt pakkede kiks i hver kasse\n648gr.😋\n\n♥️JA TAK KUN 49.99 PR KASSE ♥️\n\n           😱Det er 2.08 kr. pr. stk😱\n          \n                💪DU SPARER 25,00 💪\n\n💚💙💛🧡❤️🧡💛💚💙❤️🧡💛💚💙\n\n⏰AFHENTNING TIL OG MED Fredag KL 21 VED LAGERPORT ⏰\n\nVi ses i Løvbjerg♥️"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dogman kyllinge sticks|chicken_other",
+      "originalName": "Dogman kyllinge sticks",
+      "sampleDescriptions": [
+        "🐶‼️🐶‼️🐶‼️🐶JA TAK🐶‼️🐶‼️🐶‼️🐶\n \n  ‼️ SÅ ER DER BILLIGE HUNDESNACKS ‼️\n\n          🐶 DOGMAN KYLLINGE STICKS 🐶\n             💰 KUN 39.99 KR. 💰\n\n👉 Normalpris 79.99\n\n👉 Spar 40.- kr\n\n👉375 gr. \n\n\nAFHENTES SENEST ONSDAG VED JA TAK selvhent VED BLAND SELV SLIK\n\nVi ses i Løvbjerg VEJEN ❤️"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -720,6 +1594,60 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|dr oetker dessert milka el oreo snack rice n go el skyr|yoghurt",
+      "originalName": "Dr. Oetker dessert, Milka el. Oreo snack, Rice'n'go el. Skyr",
+      "sampleDescriptions": [
+        "Flere varianter"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dr oetker ristorante pizza|pizza_snacks",
+      "originalName": "Dr. Oetker Ristorante pizza",
+      "sampleDescriptions": [
+        "Dybfrost",
+        "Flere varianter. 320-375 g. Max. kg pris 62,50.Frost."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "loevbjerg",
+        "spar"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|dr oetker rustica eller la mia familia cheese pizza|pizza_snacks",
+      "originalName": "DR. OETKER RUSTICA ELLER LA MIA FAMILIA CHEESE PIZZA",
+      "sampleDescriptions": [
+        "Rustica: Pepperoni eller Meat Supreme. 480-565 g. Max. kg pris 79,17. Frost"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dreamies pedigree snacks frolic twistos eller chewy chomps|chips",
+      "originalName": "DREAMIES, PEDIGREE SNACKS, FROLIC TWISTOS-ELLER CHEWY CHOMPS",
+      "sampleDescriptions": [
+        "Flere varianter. 40-170 g. 3 stk. Max. kg pris 375,00 Stk. pris 5,00."
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|dueholm okologiske aeg|eggs",
       "originalName": "Dueholm økologiske æg",
       "sampleDescriptions": [
@@ -746,6 +1674,145 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|elvital shampoo el balsam|hair_body",
+      "originalName": "Elvital shampoo el. balsam",
+      "sampleDescriptions": [],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|entrecote|beef_ribeye",
+      "originalName": "Entrecote",
+      "sampleDescriptions": [
+        "God på grillen 4 stk. 800 g. Kg pris 173,75. BEGRÆNSET PARTI. Pr. pakke 139.-"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|fastfoodbrod|bread",
+      "originalName": "fastfoodbrød",
+      "sampleDescriptions": [
+        "🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰\n  😍‼️ JA TAK BRØD‼️😍\n  🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰\n\n🫣 KUN 6,99 KUN 6,99 KUN 6,99 🫣\n\n\n 🥇🚨 Quickbury FASTFOOD🚨🥇\n\nVi har skaffet et stort parti quickbury fastfood  burgerboller og hotdog brød som vi sælger ekstraordinært billig 🤪🥊🎯\n\n                  Pr. Stk KUN\n             🚨 6,99 KR 🚨\n\n ⭐️DET ER MEGA BILLIGT⭐️\n           \n⭐️ MEGA BURGERBOLLER \n      PAKKE M/4 STK.\n\n🌟 BURGERBOLLER M/6 STK.\n\n⭐️ HOT DOG BRØD PAKKE M/4 STK\n\n\nVariant vælges ved afhentning og efter først til mølle princippet 👍\n\nAfhentes senest torsdag i INDGANGSPARTIET 👍\n\nVi ses i Løvbjerg VEJEN ❤️"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|filet ala morbrad el polser|sausage_other",
+      "originalName": "Filet ala mørbrad el. pølser",
+      "sampleDescriptions": [
+        "Theilgaard | Filet a la mørbrad gyros/hvidløg, puszta marineret, frankfurter alm. el. ost/bacon, ringrider el. gourmet pølser"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|first price laks i skiver|salmon_fresh",
+      "originalName": "FIRST PRICE LAKS I SKIVER",
+      "sampleDescriptions": [
+        "Gravad eller Røget. 100 g. Kg pris 350,00 PR. PAKKE"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|first price skiveost|cheese_sliced",
+      "originalName": "FIRST PRICE SKIVEOST",
+      "sampleDescriptions": [
+        "Mellemlagret 45+, Mellemlagret 30+ eller Mild 45+. 300 g. Kg pris 66,67. Max. 4 stk. pr. kunde pr. dag. Herefter er prisen 30,95 pr. pakke. PR. PAKKE"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_sliced",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|flaeskesteg af dansk gris|pork_roast",
+      "originalName": "FLÆSKESTEG AF DANSK GRIS",
+      "sampleDescriptions": [
+        "Ridset og uden ben. Kg pris 45,90. PR. ½ KG 22,95"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|flensted flodekartofler|potato_gratin",
+      "originalName": "Flensted flødekartofler",
+      "sampleDescriptions": [],
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_gratin",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|flensted kartoffelsalat|potato_salad",
+      "originalName": "Flensted kartoffelsalat",
+      "sampleDescriptions": [
+        "Med karry, hvidløg el. chipotle"
+      ],
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_salad",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|flode havarti|cheese_danish_table",
+      "originalName": "Fløde havarti",
+      "sampleDescriptions": [
+        "😍 JA TAK 😍\n \n 🧀 Flødehavarti 400 g. 🧀\n\nVi har skaffet et parti flødehavarti hjem til en god pris: \n\n🙌♥️ 29,99 kr. pr. stk. ♥️🙌\n\n📅 M.h.t. 04.11.2026\n\n🙌 Afhentning senest fredag kl. 21.00 🙌\n\n🛒 Vi ses i Løvbjerg Tarup ♥️"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_danish_table",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|freygaard entrecote|beef_ribeye",
+      "originalName": "FREYGAARD ENTRECOTE",
+      "sampleDescriptions": [
+        "2 STK./500 G Kg pris 339,90. SKARP PRIS"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|friland okologisk paalaeg eller postej|deli_mixed_offer",
       "originalName": "Friland økologisk pålæg eller postej*",
       "sampleDescriptions": [
@@ -755,6 +1822,30 @@
       "comparisonGroup": "deli_mixed_offer",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|frilandsaeg|eggs",
+      "originalName": "Frilandsæg",
+      "sampleDescriptions": [
+        "Str. S/M/L"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "eggs",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|frosch rengoring el opvask|cleaning",
+      "originalName": "Frosch rengøring el. opvask",
+      "sampleDescriptions": [],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -772,6 +1863,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|galbani mini mozzarella 1 kg|cheese_mozzarella_burrata",
+      "originalName": "Galbani Mini Mozzarella 1 KG.",
+      "sampleDescriptions": [
+        "🫵 JA TAK  🫵.                               \n\n    🧀 MINI MOZZARELLA 1 KG. I SPAND.🧀\n\n                 🇮🇹🇮🇹🇮🇹 KUN 39.99 KR. 🇮🇹🇮🇹🇮🇹\n\n                🏋️‍♀️🏋️‍♀️🏋️‍♀️ SPAR 60 KR.🏋️‍♀️🏋️‍♀️🏋️‍♀️\n\n👉 Mht.28.07.26\n\nFrisk og cremet mozzarella i små kugler. Perfekt til salater, pizza, tapas. Eller som en lille snack. Perfekt str. direkte fra posen .\n\nAfhent ved lagerport ved mejeri nu. Senest ONSDAG.\n\nSES I LØVBJERG TRØJBORG😍."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|galia eller honningmelon|melon",
       "originalName": "Galia eller honningmelon",
       "sampleDescriptions": [
@@ -781,6 +1885,278 @@
       "comparisonGroup": "melon",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus bacon i skiver|bacon_sliced",
+      "originalName": "GESTUS BACON I SKIVER",
+      "sampleDescriptions": [
+        "150 g. Kg pris 100,00. PR. PAKKE SKARP PRIS"
+      ],
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus ciabatta baguette eller pave brod|bread",
+      "originalName": "Gestus Ciabatta, Baguette eller Pavé Brød",
+      "sampleDescriptions": [
+        "250-300 g. Max. kg pris 40,00."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus dansk kyllingebrystfilet|chicken_breast",
+      "originalName": "GESTUS DANSK KYLLINGEBRYSTFILET",
+      "sampleDescriptions": [
+        "STOR PAKKE 1 KG 79,95 SKARP PRIS",
+        "2 kg. Kg pris 79,50. Pr. pakke STOR PAKKE Dansk God på grillen Gestus"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breast",
+      "stores": [
+        "meny",
+        "spar"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|gestus danske aerter|peas",
+      "originalName": "Gestus Danske Ærter",
+      "sampleDescriptions": [
+        "500 g. Kg pris 50,00. Pr. bakke SKARP PRIS",
+        "500 g. Kg pris 48,00 PR. BAKKE"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "peas",
+      "stores": [
+        "letkoeb",
+        "min_koebmand"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|gestus danske brombaer eller hindbaer|other_berries",
+      "originalName": "Gestus Danske Brombær eller Hindbær",
+      "sampleDescriptions": [
+        "125 g. Kg pris 176,00. Pr. bakke"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "other_berries",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus danske hindbaer|other_berries",
+      "originalName": "Gestus Danske Hindbær",
+      "sampleDescriptions": [
+        "125 g. Kg pris 176,00. Pr. bakke"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "other_berries",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus ekstra store rejer i lage|shrimp",
+      "originalName": "GESTUS EKSTRA STORE REJER I LAGE",
+      "sampleDescriptions": [
+        "170/340 g. Kg pris 229,41"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus el frigodan gront el gestus el nordthy brod|bread",
+      "originalName": "Gestus el. Frigodan grønt el. Gestus el. Nordthy brød",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus grontsager|vegetables_other",
+      "originalName": "Gestus Grøntsager",
+      "sampleDescriptions": [
+        "Flere varianter. 400-700 g. Max. kg pris 32,50. Frost. Pr. pose SKARP PRIS"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus hvidlogsmarinerede koteletter eller barbecue marinerede nakkekoteletter af dansk gris|prepared_pork_marinated",
+      "originalName": "Gestus Hvidløgsmarinerede Koteletter eller Barbecue Marinerede Nakkekoteletter af Dansk Gris",
+      "sampleDescriptions": [
+        "300 g. Kg pris 116,67. Pr. pakke Dansk God på grillen Gestus"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus ispinde sandwich is eller isvafler|ice_cream",
+      "originalName": "GESTUS ISPINDE, SANDWICH IS ELLER ISVAFLER",
+      "sampleDescriptions": [
+        "Flere varianter. 4-10 stk. Max. stk. pris 6,25. Frost PR. STK.",
+        "Flere varianter. 4-10 stk. Max. stk. pris 6,25. Frost. Pr. stk.",
+        "Flere varianter. 4-10 stk. Max. stk. pris 6,25. Frost. Pr. stk. 25.-"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "meny",
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 3
+    },
+    {
+      "descriptionKey": "v1|gestus nordatlantiske koldtvandsrejer|shrimp",
+      "originalName": "Gestus Nordatlantiske Koldtvandsrejer",
+      "sampleDescriptions": [
+        "100 g. Kg pris v/2 poser 100,00. Frost. 2 POSER SKARP PRIS 20.-"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus paalaeg|deli_mixed_offer",
+      "originalName": "GESTUS PÅLÆG",
+      "sampleDescriptions": [
+        "Flere varianter. 60-110 g. Max. kg pris 250,00 PR. PAKKE"
+      ],
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus pasta|pasta_noodles",
+      "originalName": "GESTUS PASTA",
+      "sampleDescriptions": [
+        "Flere varianter. 500 g. Kg pris 20,00"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus pizza|pizza_snacks",
+      "originalName": "Gestus Pizza",
+      "sampleDescriptions": [
+        "Flere varianter. 340-355 g. Max. kg pris 58,82. Frost. BEGRÆNSET PARTI. Pr. stk.",
+        "Flere varianter. 340-355 g. Max. kg pris 73,53 Frost PR. STK."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "letkoeb",
+        "min_koebmand"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|gestus spareribs|pork_ribs",
+      "originalName": "Gestus Spareribs",
+      "sampleDescriptions": [
+        "550 g. Kg pris 81,82. Pr. pakke",
+        "550 g. Kg pris 70,91. Max. 4 pakker pr. kunde pr. dag. Herefter er prisen 49,95 pr. pakke."
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_ribs",
+      "stores": [
+        "letkoeb",
+        "spar"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|gestus spiseklare avocado|avocado",
+      "originalName": "GESTUS SPISEKLARE AVOCADO",
+      "sampleDescriptions": [
+        "3 STK. PR. BAKKE SKARP PRIS Udenlandske. Stk. pris 7,33."
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "avocado",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus taerte panderetter eller middagsretter|ready_meal",
+      "originalName": "Gestus Tærte, Panderetter eller Middagsretter",
+      "sampleDescriptions": [
+        "Flere varianter. 400-500 g. Max. kg pris 75,00. Frost. Pr. stk."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gestus varmroget laks|salmon_smoked",
+      "originalName": "Gestus varmrøget laks",
+      "sampleDescriptions": [
+        "Peber, naturel el. hvidløg"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gevalia merrild lavazza eller cafe noir formalet kaffe eller merrild instant kaffe|coffee_tea",
+      "originalName": "Gevalia, Merrild, Lavazza eller Cafe Noir formalet kaffe eller Merrild instant kaffe",
+      "sampleDescriptions": [
+        "Flere varianter. 150-500 g. Kg-pris maks. 541,67. Frit valg. 1 pose/glas"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -807,6 +2183,17 @@
       "comparisonGroup": "salmon_fresh",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|glyngore tun i vand el olie|white_fish",
+      "originalName": "Glyngøre tun i vand el. olie",
+      "sampleDescriptions": [],
+      "categoryId": "seafood",
+      "comparisonGroup": "white_fish",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -850,15 +2237,262 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|graasten kartoffelsalat eller coleslaw|potato_salad",
+      "originalName": "Graasten Kartoffelsalat eller Coleslaw",
+      "sampleDescriptions": [
+        "Flere varianter. 400 g. Kg pris 62,50. BEGRÆNSET PARTI. Pr. stk."
+      ],
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_salad",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|graasten remoulade mayonnaise el dressing|sauce_mixed_offer",
+      "originalName": "Graasten remoulade, mayonnaise el. dressing",
+      "sampleDescriptions": [],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|grana padano|cheese_aged_hard",
       "originalName": "Grana Padano",
       "sampleDescriptions": [
-        "200 g. Pr. kg 150.-"
+        "200 g. Pr. kg 150.-",
+        "😍 JA TAK 😍\n \n 🧀 Grana Padano 200 g. 🧀\n\nVi har skaffet et parti Grana Padano hjem til en god pris: \n\n🙌♥️ 29,99 kr. pr. stk. ♥️🙌\n\n📅 M.h.t. 18.10.2026\n\n🙌 Afhentning senest fredag kl. 21.00 🙌\n\n🛒 Vi ses i Løvbjerg Tarup ♥️"
       ],
       "categoryId": "cheese",
       "comparisonGroup": "cheese_aged_hard",
       "stores": [
-        "bilka"
+        "bilka",
+        "loevbjerg"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|grillet kyllingefilet i strimler|chicken_other",
+      "originalName": "Grillet kyllingefilet i strimler",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|grillspyd med gris og grontsager|vegetables_other",
+      "originalName": "Grillspyd med Gris og Grøntsager",
+      "sampleDescriptions": [
+        "450 g. Kg pris 122,22. Pr. pakke"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance baby vaadservietter|paper_wet_wipes",
+      "originalName": "GRØN BALANCE BABY VÅDSERVIETTER",
+      "sampleDescriptions": [
+        "Luksus ekstra tykke og bløde, Baby eller 3-pak mini Baby & Kids. 36-100 stk. Max. stk. pris 0,28."
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_wet_wipes",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance danske okologiske champignon fra tvedemose|mushrooms",
+      "originalName": "GRØN BALANCE DANSKE ØKOLOGISKE CHAMPIGNON FRA TVEDEMOSE",
+      "sampleDescriptions": [
+        "MAD SKAT Mark eller Hvide. 200 g. Kg pris 80,00. PR. BAKKE"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "mushrooms",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance danske okologiske portobello svampe|mushrooms",
+      "originalName": "Grøn Balance Danske Økologiske Portobello Svampe",
+      "sampleDescriptions": [
+        "Dansk 250 g. Kg pris 72,00. Pr. bakke"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "mushrooms",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance okologisk koldroget laks i skiver|salmon_smoked",
+      "originalName": "GRØN BALANCE ØKOLOGISK KOLDRØGET LAKS I SKIVER",
+      "sampleDescriptions": [
+        "100 g. Kg pris 220,00. Max. 4 pakker pr. kunde pr. dag. Herefter er prisen 56,95 pr. pakke. PR. PAKKE"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance okologisk pasta|pasta_noodles",
+      "originalName": "GRØN BALANCE ØKOLOGISK PASTA",
+      "sampleDescriptions": [
+        "Flere varianter. 500 g. Kg pris 20,00. PR. POSE 10.-"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance okologiske bonner eller hakkede tomater|canned_tomatoes",
+      "originalName": "Grøn Balance Økologiske Bønner eller Hakkede Tomater",
+      "sampleDescriptions": [
+        "Flere varianter. 240-244/400-420 g. Max. kg pris 33,33. Pr. dåse"
+      ],
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_tomatoes",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance okologiske grontsager|vegetables_other",
+      "originalName": "GRØN BALANCE ØKOLOGISKE GRØNTSAGER",
+      "sampleDescriptions": [
+        "Flere varianter. 250-450 g. Max. kg pris 52,00. Frost PR. POSE 13.- SKARP PRIS"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance ollingegaard okologisk creme fraiche 18 eller fraiche 9|cream",
+      "originalName": "Grøn Balance Øllingegaard Økologisk Creme Fraiche 18% eller Fraiche 9%",
+      "sampleDescriptions": [
+        "Dansk SKARP PRIS PR. STK. 200 g. Kg pris 60,00."
+      ],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gron balance ollingegaard okologisk skyr|yoghurt",
+      "originalName": "GRØN BALANCE ØLLINGEGAARD ØKOLOGISK SKYR",
+      "sampleDescriptions": [
+        "Jordbær eller Vanilje. 450 g. Kg pris 44,33. PR. STK. 19,95 SKARP PRIS"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|guf til is afhent foran kiosk|ice_cream",
+      "originalName": "Guf til is AFHENT FORAN KIOSK",
+      "sampleDescriptions": [
+        "😍. JA TAK JA TAK 😍\n\n🍓 GUF TIL IS – JORDBÆRSMAG 🍓\n\n\n🍧. KUN 4.99. 🍧\n\nGør din is ekstra lækker med den populære guf med jordbærsmag fra Dr. Oetker.\n\n✨ Luftig og sød smag af jordbær\n🍦 Perfekt til is, desserter og milkshakes\n📦 Indeholder 150 gram\n\n\nSkynd dig – så længe lager haves! 🌸\n \n\nAFHENTNING  FORAN KIOSK ‼️\n\nAFHENTNING  SENEST ONSDAG \n\nVI SES I LØVBJERG ODDER 🍧"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|guld ost|cheese_other",
+      "originalName": "Guld ost",
+      "sampleDescriptions": [],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gyoza med kylling|dumplings",
+      "originalName": "Gyoza med kylling",
+      "sampleDescriptions": [
+        "🔥 🥟 JA TAK GYOZA MED KYLLING  🥟 🔥\n\n600g sprøde og saftige dumplings fyldt med mørt kyllingekød, grøntsager og lækre krydderier.\nPerfekte som snack, forret eller en del af et asiatisk måltid 🥟 😋\n\n     😱➡️ PR. POSE KUN 39,99,- ⬅️😱\n\nNemme at tilberede – lige til panden, ovnen eller airfryeren.\n\n👉 En smagsoplevelse udover det sædvanlige – til en skarp pris!\n\n✅ 600 gram (30 stk. x 20 gram)\n✅ Frostvare\n✅ Lang holdbarhed - nyproduceret \n\n👉 Uimodståelig smag – til en vild pris!\n\n————————————————————————\n\nAfhentning senest torsdag ved Ja-Tak Udlevering\n\n————————————————————————\n\nVi ses i Løvbjerg Koldingvej❤️"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "dumplings",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hakket dansk grise og oksekod 8 12|mixed_minced",
+      "originalName": "Hakket Dansk Grise- og Oksekød 8-12 %",
+      "sampleDescriptions": [
+        "Velegnet til bl.a. bolognese, lasagne og kødboller. 400 g. Kg pris 97,50. Pr. pakke Dansk",
+        "400 g. Kg pris 97,50. Pr. pakke"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "mixed_minced",
+      "stores": [
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|hakket dansk kylling|chicken_other",
+      "originalName": "Hakket dansk kylling",
+      "sampleDescriptions": [
+        "Rose"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hakket oksekod 4 7 fedt|beef_minced",
+      "originalName": "Hakket oksekød 4-7% fedt",
+      "sampleDescriptions": [
+        "Gestus"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "beef_minced",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -876,6 +2510,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|hansens okologiske is eller ispinde eller ben jerry s|ice_cream",
+      "originalName": "Hansens Økologiske Is eller Ispinde eller Ben & Jerry’s",
+      "sampleDescriptions": [
+        "Flere varianter. 465-725 ml. 4 stk. Max. literpris 86,02 Stk. pris 10,00. Frost."
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|haribo slikposer|chocolate",
       "originalName": "HARIBO Slikposer",
       "sampleDescriptions": [
@@ -884,7 +2531,47 @@
       "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
       "stores": [
-        "lidl"
+        "lidl",
+        "loevbjerg"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|hel kylling 1350 gr|whole_chicken",
+      "originalName": "Hel kylling 1350 gr. ❤️ 😃",
+      "sampleDescriptions": [
+        "🐥JA TAK - HEL DANSK KYLLING (1350 G.)🐥\n      39,99‼️ 39,99‼️ 39,99‼️ 39,99‼️39,99\n\n    ⛔️VILDT TILBUD PÅ HEL KYLLING⛔️\n\n     🔥PERFEKT TIL GRILLEN/AIRFRYER🔥\n\nVI HAR SKAFFET ET PARTI AF 1350 GRAMS HIMMERLAND KYLLING SOM VI SÆLGER TIL EN FULDSTÆNDIG VANVITTIG SKARP PRIS🤩\n\n1350 GRAM KYLLING✅\n2 hjerter 💚\nANIMAL WELFARE 🧡\nFROST❄️\n\n\nHOLD NU FAST… PR. STK KUN\n🤑 39,99 🤑\nSPAR 30 KR!!! \n\nAFHENTES I ENDEBOKSEN OVERFOR OST SENEST ONSDAG \n\nVI SES I LØVBJERG STRUER ❤️"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "whole_chicken",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hele danske kyllingelaar|chicken_thigh",
+      "originalName": "Hele danske kyllingelår",
+      "sampleDescriptions": [
+        "Gestus"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_thigh",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|himmerland hel kylling eller brystfilet af dansk kylling|whole_chicken",
+      "originalName": "HIMMERLAND HEL KYLLING ELLER BRYSTFILET AF DANSK KYLLING",
+      "sampleDescriptions": [
+        "Vælg velfærdskylling fra Himmerland, der er udvalgt som Dansk Madskat for deres øgede fokus på dyrevelfærd. Kyllingerne er vokset op på danske gårde, hvor de har mere plads i stalden og adgang til udearealer Brystfilet: Med eller uden skind. Max. kg pris 211,00. 450-1350 G"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "whole_chicken",
+      "stores": [
+        "meny"
       ],
       "occurrences": 1
     },
@@ -902,6 +2589,67 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|hojer spegepolse roget morbrad el kaalpolser|sausage_other",
+      "originalName": "Højer spegepølse, røget mørbrad el. kålpølser",
+      "sampleDescriptions": [],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hojer spegepolse|sausage_other",
+      "originalName": "Højer Spegepølse",
+      "sampleDescriptions": [
+        "Sønderjysk, Kartoffel eller Hvidløg. 275 g. Kg pris 163,64. Pr. stk."
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|honningmelon|melon",
+      "originalName": "Honningmelon",
+      "sampleDescriptions": [
+        "Udenlandsk. SKARP PRIS PR. STK."
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "melon",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hvidebaek polser|sausage_other",
+      "originalName": "Hvidebæk pølser",
+      "sampleDescriptions": [],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|iceberg salat|leafy_green",
+      "originalName": "Iceberg salat",
+      "sampleDescriptions": [
+        "Udenlandske kl. 1"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "leafy_green",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|idento tandborstehoveder eller tandpleje|hair_body",
       "originalName": "IDENTO Tandbørstehoveder eller tandpleje",
       "sampleDescriptions": [
@@ -911,6 +2659,71 @@
       "comparisonGroup": "hair_body",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|il fornaio|ready_meal",
+      "originalName": "Il fornaio",
+      "sampleDescriptions": [
+        "Flute, boller el. pizzabund Dybfrost"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|irma brioche burgerboller eller hotdogbrod|bread",
+      "originalName": "Irma brioche burgerboller eller hotdogbrød",
+      "sampleDescriptions": [
+        "250-270 g. Kg-pris maks. 88,00. Frit valg. 1 pakke"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|irma danish butter cookies|biscuits",
+      "originalName": "Irma Danish Butter Cookies",
+      "sampleDescriptions": [
+        "454 g. Kg-pris 114,54. 1 dåse"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|irma dulcita tomater|tomatoes",
+      "originalName": "Irma Dulcita tomater",
+      "sampleDescriptions": [
+        "Holland, kl. I. 200 g. Kg-pris 100,00. 1 bakke"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "tomatoes",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|irma is fra aabybro mejeri|ice_cream",
+      "originalName": "Irma is fra Aabybro Mejeri",
+      "sampleDescriptions": [
+        "Dybfrost. 700 ml. Literpris 70,00. Frit valg. Begrænset parti. 1 stk."
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -928,15 +2741,197 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|irma spisemodne avocadoer|avocado",
+      "originalName": "Irma spisemodne avocadoer",
+      "sampleDescriptions": [
+        "Udenlandske, kl. I. Stk.-pris 6,33. 6 stk. 1 bakke"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "avocado",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|irske tykstegsboffer|beef_rump_steak",
+      "originalName": "Irske Tykstegsbøffer",
+      "sampleDescriptions": [
+        "GOD TIL GRILL Med eller uden gyrosmarinade. 2 stk. 300 g. Kg pris 283,33. Pr. pakke"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_rump_steak",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|iskaffe|coffee_tea",
+      "originalName": "Iskaffe🍦☕️",
+      "sampleDescriptions": [
+        "🧊☕ JA TAK – Iskaffe 1 liter ☕🧊\n\nPerfekt til de varme sommerdage eller når du trænger til en lækker, iskold kaffepause! 😍\n\n🤎 Cremet iskaffe med skøn kaffesmag – lige til at nyde, iskold direkte fra køleskabet.\n\n🔥 JA TAK-PRIS KUN 13,28 kr. pr. stk.\n\n👉 Skriv JA TAK i kommentarfeltet samt det antal, du ønsker.\n\n📍 Afhentes i Løvbjerg Brønderslev senest onsdag ved vores ja tak udlevering ved mejeri 🍦☕️"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|isvafler loacker|ice_cream",
+      "originalName": "Isvafler Loacker",
+      "sampleDescriptions": [
+        "😍 JA TAK - ISVAFLER\n\nFOR DEM KAN VI DA IKKE UNDVÆRE TIL DESSERTEN🥳🎉🎊❤️\n\n‼️ VANILJE ISVAFLER ‼️\n\nSå DU KAN SNUPPE DEM MED PÅ JA TAK 😁👍\n\n🤑❎🤑 DIN JA-TAK-PRIS - KUN 9,99 🤑❎🤑\n\n‼️ Afhentning senest onsdag kl 21\n\nVi ses i Løvbjerg TARUP ❤️"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|jakobsens dansk blomster honning|spreads_jam",
+      "originalName": "Jakobsens Dansk Blomster Honning",
+      "sampleDescriptions": [
+        "425 g. Kg pris 65,88. Pr. stk."
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "spreads_jam",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|jalm b eller il fornaio okologisk brod|bread",
+      "originalName": "JALM&B ELLER IL FORNAIO ØKOLOGISK BRØD",
+      "sampleDescriptions": [
+        "Flere varianter. 250-400 g. Max. kg pris 140,00. Frost"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|jasmin ris 5 kg|rice",
+      "originalName": "Jasmin ris 5 kg",
+      "sampleDescriptions": [
+        "😍 JA TAK 😍\n🫵 5 KG JASMINRIS🫵 5 KG JASMINRIS 🫵\n  \n  SÅ ER DER RIS TIL EN SUPER PRIS \n   🤩\n\n     REGAL THAI  JASMIN RIS - 5 KG. \n               🍚 PR. POSE 🍚\n                    🤩 69,99 KR. 🤩\n\n                NORMALPRIS 107.99\n\nMax 6 poser pr. Kunde \n\nAfhentning SENEST ONSDAG kl 21.00 🛒 \n\nVi ses i Løvbjerg Viborg ❤️"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "rice",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|jumbo rosiner|dried_fruit",
+      "originalName": "Jumbo Rosiner",
+      "sampleDescriptions": [
+        "🍇1 KG ROSINER🍇\nPERFEKT TIL SALATER ELLER SOM SNACK\n\n              🥳🍇1 KG JUMBO ROSINER🍇🥳\n                           🍇KUN 34,99🍇\n\nKan afhentes allerede NU, og til og med onsdag  kl. 21 ved Ja-Tak-Udleveringen🤩🍇\n\nVi ses i Løvbjerg Brønderslev❤️"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "dried_fruit",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|k salat bearnaise el brun sauce|sauce_other",
+      "originalName": "K-salat bearnaise el. brun sauce",
+      "sampleDescriptions": [],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|k salat paalaegssalat eller sauce|deli_spreads",
+      "originalName": "K-Salat Pålægssalat eller Sauce",
+      "sampleDescriptions": [
+        "Flere varianter. 150-325 g. Max. kg pris 80,00. Pr. stk. SKARP PRIS"
+      ],
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_spreads",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|k salat remoulade eller mayonnaise|sauce_mixed_offer",
+      "originalName": "K-Salat remoulade eller mayonnaise",
+      "sampleDescriptions": [
+        "375 g. Kg-pris 40,00. Frit valg. 1 stk.",
+        "375 g. Kg pris 42,67"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "stores": [
+        "brugsen",
+        "letkoeb"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|kaergaarden smor|butter",
+      "originalName": "Kærgården smør",
+      "sampleDescriptions": [],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|kaergaarden smorbar|butter",
       "originalName": "Kærgården smørbar",
       "sampleDescriptions": [
-        "200 g. Kg-pris 90,00. 1 pakke"
+        "200 g. Kg-pris 90,00. 1 pakke",
+        "200 g. Kg-pris 90,00. Frit valg. 1 pakke"
       ],
       "categoryId": "butter_spreads",
       "comparisonGroup": "butter",
       "stores": [
-        "365"
+        "365",
+        "brugsen"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|kaffe|coffee_tea",
+      "originalName": "Kaffe",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK KAFFE HUG‼️😍\n\n✅ JA-TAK PRIS KUN 49,99  ✅\n⛔️ SÅ DET NU DU SKAL SLÅ TIL! ⛔️\n\nVi har købt et stort parti PETER LARSEN KAFFE som vi sælger til en super skarp pris! 🤪💪\n\n ☕️ PETER LARSEN RØD, 400 GRAM ☕️\n\n ‼️ MAX 16 POSER PR. KUNDE TIL DENNE PRIS ‼️\n\n🚨 AFHENTNING TIL OG MED ONSDAG VED JA-TAK UDLEVERINGEN  💪\n\nVi ses I LØVBJERG Koldingvej  ❤️"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kalvesteak af yderlaar af dansk kalv|beef_steak",
+      "originalName": "Kalvesteak af Yderlår af Dansk Kalv",
+      "sampleDescriptions": [
+        "GOD TIL GRILL Med kryddermarinade. 125 g. Kg pris 160,00. Pr. stk. SKARP PRIS"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_steak",
+      "stores": [
+        "min_koebmand"
       ],
       "occurrences": 1
     },
@@ -950,6 +2945,45 @@
       "comparisonGroup": "sauce_chili",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|karat formalet kaffe|coffee_tea",
+      "originalName": "Karat Formalet Kaffe",
+      "sampleDescriptions": [
+        "Original. 400 g. Kg pris 105,00. Pr. pose"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|karen volf kiks|biscuits",
+      "originalName": "Karen Volf kiks",
+      "sampleDescriptions": [
+        "Udvalgte varianter"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|karen volf smaakager bites kiks vafler flager eller cookies|biscuits",
+      "originalName": "KAREN VOLF SMÅKAGER, BITES, KIKS, VAFLER, FLAGER ELLER COOKIES",
+      "sampleDescriptions": [
+        "Flere varianter. 130-260 g. Max. kg pris 123,08 PR. STK."
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "letkoeb"
       ],
       "occurrences": 1
     },
@@ -980,6 +3014,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|karolines kokken hytteost creme fraiche eller cheasy fraiche|cheese_cottage_ricotta",
+      "originalName": "KAROLINES KØKKEN HYTTEOST, CREME FRAICHE ELLER CHEASY FRAICHE",
+      "sampleDescriptions": [
+        "Flere varianter. 450-500 g. 500 ml. Max. kg pris 40,00 Literpris 36,00. PR. STK. 18.-"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_cottage_ricotta",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|karolines kokken revet ost eller ost i tern|cheese_grated",
       "originalName": "KAROLINES KØKKEN Revet ost eller ost i tern",
       "sampleDescriptions": [
@@ -993,6 +3040,141 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|karolines kokken revet ost|cheese_grated",
+      "originalName": "Karolines Køkken Revet Ost",
+      "sampleDescriptions": [
+        "Mozzarella, Pizzatopping eller Mozzarella tern. 150-200 g. Max. kg pris 80,00. Pr. pose 12.-",
+        "Mozzarella. 200 g. Kg pris 65,00. Pr. pose"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|karolines piskeflode|cream",
+      "originalName": "Karolines piskefløde",
+      "sampleDescriptions": [],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kims chips el snacks|chips",
+      "originalName": "Kims chips el. snacks",
+      "sampleDescriptions": [],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kims chips eller snacks 50|chips",
+      "originalName": "KIMS CHIPS ELLER SNACKS +50%",
+      "sampleDescriptions": [
+        "Flere varianter. 210-255 g. Max. kg pris 104,76."
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kinder chokolade|chocolate",
+      "originalName": "Kinder chokolade",
+      "sampleDescriptions": [],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|knorr el maizena|baking_ingredients",
+      "originalName": "Knorr el. Maizena",
+      "sampleDescriptions": [
+        "Knorr sauce, snack pot, nuddle cup, bouillon, fond du chef el. Maizena sovsejævner el. majsstivelse"
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "baking_ingredients",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|knorr pasta el risretter hellmanns mayo el maille sennep|pasta_noodles",
+      "originalName": "Knorr pasta- el. risretter, Hellmanns mayo el. Maille sennep",
+      "sampleDescriptions": [],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg fastfood brod|bread",
+      "originalName": "Kohberg Fastfood Brød",
+      "sampleDescriptions": [
+        "Burgerboller eller Hotdogbrød. 330-360 g. Max. kg pris 60,61. Pr. pose"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg favorit rugbrod eller sandwich|bread",
+      "originalName": "Kohberg Favorit Rugbrød eller Sandwich",
+      "sampleDescriptions": [
+        "SKARP PRIS Flere varianter. 400-1000 g. Max. kg pris 40,00. PR. STK."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg rugbrod el boller|bread",
+      "originalName": "Kohberg rugbrød el. boller",
+      "sampleDescriptions": [],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg rugbrodsboller eller rugmild|bread",
+      "originalName": "Kohberg Rugbrødsboller eller Rugmild",
+      "sampleDescriptions": [
+        "500 g. Kg pris 36,00. Pr. stk."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
       "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
       "sampleDescriptions": [
@@ -1002,6 +3184,32 @@
       "comparisonGroup": "butter",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg velsmag hvedebrod|bread",
+      "originalName": "Kohberg Velsmag Hvedebrød",
+      "sampleDescriptions": [
+        "Ciabatta, Yoghurtboller eller Surdej Stykker. 420-490 g. Max. kg pris 47,62."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg velsmag rugbrod|bread",
+      "originalName": "Kohberg Velsmag Rugbrød",
+      "sampleDescriptions": [
+        "Bagernes bedste eller Mesterværk. 600 g. Kg pris 30,00."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "min_koebmand"
       ],
       "occurrences": 1
     },
@@ -1032,6 +3240,159 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|kyllingbryst filet|ready_meal",
+      "originalName": "Kyllingbryst filet",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllinge brystfilet paalaeg|chicken_other",
+      "originalName": "Kyllinge-brystfilet pålæg",
+      "sampleDescriptions": [],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllinge polser el kodpolse|chicken_other",
+      "originalName": "Kyllinge pølser el. kødpølse",
+      "sampleDescriptions": [],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllinge strimler 2 0 kg|chicken_other",
+      "originalName": "Kyllinge strimler 2,0 kg.",
+      "sampleDescriptions": [
+        "🐥\n                           JA TAK HUG\n \n                 🐥KYLLINGESTRIMLER🐥\n                         ⚖️POSE MED 2,0KG.⚖️\n  \n              😵 PRISEN ER KUN 129,99 kr 😵\n\nDu får 2000 gram forstegte kyllingestrimler, perfekt til frokosten på turen, madpakken, en lækker sandwich, salaten og meget mere 😋😍🥪🥗\n \n             ❄️FROSNE❄️\n\nAFHENTES TIRSDAG TIL TORSDAG \n\n⚠️BEMÆRK⚠️\n📌Kommenter “Ja tak + antal stk”\n📌Modtag dit ordrenummer i kommentarfeltet\n📌Afhent din bestilling i butikken\n\n\nVi ses i Løvbjerg Horsens ♥️"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllinge strimler 2 kg|chicken_other",
+      "originalName": "Kyllinge strimler 2 kg",
+      "sampleDescriptions": [
+        "😍 JA TAK TIL KYLLINGESTRIMLER 😍\n \n ❌ TILBEREDTE KYLLINGESTRIMLER❌\n\nPOSE MED 2 KG. FROSNE KYLLINGESTRIMLER  \n\n                ❌KUN 129,99KR.❌\n\nHer får du 2 kg. kogte og forstegte kyllingestrimler i super kvalitet! \nDe er perfekte til pizzatopping, i salater (fx til madpakken), i pitabrød, i en hurtig pastaret, i sandwich og bagels, i madpandekager og wraps - og meget, meget mere! \n\n❌BILLIGT, BILLIGT, BILLIGT❌\n\n👉 God dato\n👉 2 kg kyllingestrimler\n👉 Begrænset parti\n\nAfhentning senest onsdag\n\nVi ses i Løvbjerg Varde ❤️",
+        "😍 JA TAK TIL KYLLINGESTRIMLER 😍\n \n ❌ TILBEREDTE KYLLINGESTRIMLER❌\n\nPOSE MED 2 KG. FROSNE KYLLINGESTRIMLER  \n\n                ❌KUN 129,99KR.❌\n\nHer får du 2 kg. kogte og forstegte kyllingestrimler i super kvalitet! \nDe er perfekte til pizzatopping, i salater (fx til madpakken), i pitabrød, i en hurtig pastaret, i sandwich og bagels, i madpandekager og wraps - og meget, meget mere! \n\n❌BILLIGT, BILLIGT, BILLIGT❌\n\n👉 God dato\n👉 2 kg kyllingestrimler\n👉 Begrænset parti\n\n*AVIS TILBUD\n\nAfhentning kun Onsdag d. 22/07-2026\nVed slagterafdelingen\n\nVi ses i Løvbjerg Fredericia❤️",
+        "😍‼️ JA TAK ‼️😍\n\n                 🐥KYLLINGESTRIMLER🐥\n                         ⚖️POSE MED 2KG.⚖️\n  \n                 😵 PRISEN ER KUN 129,99kr 😵\n\nDu får 2000 gram forstegte kyllingestrimler, perfekt til frokosten på turen, madpakken, en lækker sandwich, salaten og meget mere 😋😍🥪🥗\n \n             ❄️FROSNE❄️\n\nKan afhentes fra i morgen ONSDAG til og med TORSDAG ⏰\n\nSkal afhentes ved slagterafdelingen \n\nVi ses i Løvbjerg Frederikshavn♥️"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 3
+    },
+    {
+      "descriptionKey": "v1|kyllingebryst bbq marinerede el hel kylling|prepared_chicken_breast_marinated",
+      "originalName": "Kyllingebryst BBQ marinerede el. hel kylling",
+      "sampleDescriptions": [
+        "Rose"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllingebryst|chicken_breast",
+      "originalName": "Kyllingebryst😍",
+      "sampleDescriptions": [
+        "🚨 JA TAK ALARM 🚨   \n\n                😍MØRE OG SAFTIGE😍\n            😳 99,99 😳\n\n        2000G KYLLINGEBRYSTER \n       Frost\n              \n\n                    😳 KUN 99,99 😳\n              😳BARE BILLIGT😳\n\n                AFHENTNING TIR-ONS 😎\n\nVI SES I LØVBJERG KOLDINGVEJ ❤️"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breast",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllingeburger 1 kg|prepared_chicken_breaded",
+      "originalName": "Kyllingeburger 1 kg.",
+      "sampleDescriptions": [
+        "🍔 JA TAK TILBUD 🍔\n➖\n🐥 KYLLINGEBURGER 🐥\n\nHvem elsker ikke en super lækker juicy KYLLINGEBURGER? 😋\n\n                       ❤️ KUN 49,99 ❤️\n\n                ❄️DYBFROSSEN❄️\n\n🔝 1 KG/10 STK KYLLINGBURGER ✔️\n\nAfhentning idag til torsdag 😎\n\n\nVi ses i Løvbjerg Koldingvej❤️"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllingeburger|prepared_chicken_breaded",
+      "originalName": "Kyllingeburger",
+      "sampleDescriptions": [
+        "Dybfrost \n10 stk/1000 g ",
+        "🍔 JA TAK TILBUD 🍔\n\n      ‼️SÅ ER DE HER IGEN‼️\n\n🐥 KYLLINGEBURGER 🐥\n\nHvem elsker ikke en super lækker juicy KYLLINGEBURGER? 😋\n\n❄️DYBFROSSEN❄️\n\n🔝 1 KG/10 STK KYLLINGBURGER ✔️\n🔝 Skarpt HUG denne uge‼️\n\n‼️ KUN 44.99kr‼️\n\n👉 Bestil nu 🖌 Begrænset parti 🏃\n 👉Afhentes ved  slagter afdelingen 👍\n   👉   Afhent senest onsdag\n\ni ses i Løvbjerg Varde 🥰"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|kyllingestrimler afhent i pakkeshoppen|chicken_other",
+      "originalName": "Kyllingestrimler🚨afhent i pakkeshoppen 📦🚨",
+      "sampleDescriptions": [
+        "🌯 JA TAK- NEMT OG LÆKKERT🌯\n\nTILBEREDTE KYLLINGESTRIMLER\n\n            😋POSE MED 2 KG😋\n  FROSNE KYLLINGESTRIMLER❄️\n\n   ✅JA TAK PRIS KUN 129,99✅\n🔥DET ER BARE BILLIGT🔥\n\nHer får du 2 kg. kogte og forstegte kyllingestrimler i super kvalitet!  \nDe er perfekte til:\n👉🏻 Pizza topping\n👉🏻 Salater\n👉🏻 Pitabrød\n👉🏻 Pastaret\n👉🏻 Sandwich og bagels\n👉🏻 Madpandekager og wraps\n      - og meget, meget mere!  \n➖\nAFHENTES I PAKKESHOPPEN 📦🛒\nTIRSDAG TIL TORSDAG ⏰ 🏃‍♂️🏃‍♀️\n➖\nVI SES I LØVBJERG IKAST🇩🇰🇩🇰"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|l oreal triple active garnier micellar water el sorbet cream|hair_body",
+      "originalName": "L'oreal triple active, Garnier micellar water el. sorbet cream",
+      "sampleDescriptions": [],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|laksefilet|salmon_fresh",
+      "originalName": "LAKSEFILET",
+      "sampleDescriptions": [
+        "500 G 84,95 SKARP PRIS Kg pris 169,90. Grillet laks med grønne asparges, blomkålsris og teriyakisauce SE OPSKRIFTER MENY.DK"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|lambi classic papir|paper_other",
       "originalName": "Lambi Classic papir",
       "sampleDescriptions": [
@@ -1058,6 +3419,30 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|lambi toiletpapir|paper_toilet",
+      "originalName": "Lambi toiletpapir",
+      "sampleDescriptions": [],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lammekolle kun afhentning tirsdag og onsdag|lamb_other",
+      "originalName": "Lammekølle😍 kun afhentning tirsdag og onsdag‼️",
+      "sampleDescriptions": [
+        "😍‼️JA TAK TIL STOR LAMMEKØLLE‼️😍\n                  🐑‼️BILLIGT‼️🐑\n\n                   😍 SAFTIG LAMMEKØLLE😍\n\nSTOR FLOT LAMMEKØLLE \nUDEN NØLGEBEN\n1,5-2,1 KG ‼️\n\n❄️FROST❄️\n\n                      ‼️ KUN 199,99‼️\n\n                                        SPAR 100,-\n\n👉SKAL AFHENTES TIRSDAG ELLER ONSDAG IMELLEM KL 8:00-21:00"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|lammemarked|lamb_other",
       "originalName": "Lammemarked",
       "sampleDescriptions": [
@@ -1071,6 +3456,68 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|latz menuboks eller best friend snacks|chips",
+      "originalName": "Latz menuboks eller Best Friend snacks",
+      "sampleDescriptions": [
+        "160-1020 g. Kg-pris maks. 237,50. Frit valg. 1 stk."
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lavazza 1 kg|coffee_tea",
+      "originalName": "Lavazza 1 kg",
+      "sampleDescriptions": [
+        "🗣️JA TAK LAVAZZA🗣️\n     \n         🤘1 KG LAVAZZA ORO BØNNER🤘\n\n🤘 1 KG LAVAZZA ESPRESSO BØNNER 🤘\n\n                     ❤️ KUN 139,99 kr ❤️\n                         💵 spar 85 kr 💵\n \n➡️Hele bønner \n\nVariant vælges ved afhentning efter først til mølle princip.\n\nAfhentning senest ONSDAG kl 21\n\n❤️Vi ses i Løvbjerg Esbjerg❤️",
+        "🗣️JA TAK LAVAZZA🗣️\n     \n         🤘1 KG LAVAZZA ORO BØNNER🤘\n\n🤘 1 KG LAVAZZA ESPRESSO BØNNER 🤘\n\n                     ❤️ KUN 139,99 kr ❤️\n                         💵 spar 85 kr 💵\n\n➡️Lang holdbarhed \n➡️Hele bønner \n\nVariant vælges ved afhentning efter først til mølle princip.\n\nAfhentning senest TORSDAG ved lagerporten ved mejeri\n\n❤️Vi ses i Løvbjerg Trøjborg❤️"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|lavazza hele bonner|coffee_tea",
+      "originalName": "LAVAZZA HELE BØNNER",
+      "sampleDescriptions": [
+        "STOR PAKKE 1 KG SKARP PRIS Flere varianter."
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lavazza kaffekapsler|coffee_tea",
+      "originalName": "Lavazza kaffekapsler",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lavazza qualita oro el espresso perfetto hele kaffebonner|coffee_tea",
+      "originalName": "Lavazza qualita oro el. espresso perfetto hele kaffebønner",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|lay s chips|chips",
       "originalName": "LAY'S Chips",
       "sampleDescriptions": [
@@ -1080,6 +3527,17 @@
       "comparisonGroup": "chips",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|libero comfort el up go bleer|diapers",
+      "originalName": "Libero Comfort el. Up&Go bleer",
+      "sampleDescriptions": [],
+      "categoryId": "baby",
+      "comparisonGroup": "diapers",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -1121,6 +3579,79 @@
         "bilka"
       ],
       "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lotus comfort toiletpapir eller premium kokkenrulle|paper_mixed_offer",
+      "originalName": "Lotus Comfort toiletpapir eller Premium køkkenrulle",
+      "sampleDescriptions": [
+        "4-8 rl. 464-805 g. Kg-pris maks. 37,74. Frit valg. 1 pakke"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lotus toiletpapir eller kokkenruller|paper_mixed_offer",
+      "originalName": "LOTUS TOILETPAPIR ELLER KØKKENRULLER",
+      "sampleDescriptions": [
+        "6 ruller Premium toiletpapir, 8 ruller comfort toiletpapir, 6 ruller Nature Lover toiletpapir, Most Family Pack fugtig toiletpapir, 2 Just 1 køkkenruller, 1 Jumbo køkkenrulle eller 4 Ruller Premium Køkkenruller. 271-777 g/1-80 stk. Stk. pris 0,28 Max. kg pris 81,18.",
+        "6 ruller comfort toiletpapir eller 3 ruller premium køkkenruller. 459-580 g/3-6 stk. Max. kg pris 43,57. SKARP PRIS Pr. pakke 20.-",
+        "8 ruller comfort toiletpapir eller 4 Ruller Premium Køkkenruller. 613-777 g/ 4-8 stk. Max. kg pris 42,41"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "stores": [
+        "letkoeb",
+        "meny",
+        "min_koebmand"
+      ],
+      "occurrences": 3
+    },
+    {
+      "descriptionKey": "v1|lu kiks|biscuits",
+      "originalName": "LU kiks",
+      "sampleDescriptions": [
+        "Udvalgte varianter"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lurpak|butter",
+      "originalName": "Lurpak",
+      "sampleDescriptions": [
+        "Flere varianter. 150-200 g. Max. kg pris 120,00. Max. 4 stk. pr. kunde pr. dag. Herefter er prisen op til 32,08 pr. stk. SKARP PRIS MAX. 4 STK."
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|m m s eller maltesers|chocolate",
+      "originalName": "M&M’S ELLER MALTESERS",
+      "sampleDescriptions": [
+        "Flere varianter. 93-125 g. Max. kg pris 236,56. PR. POSE",
+        "Flere varianter. 93-125 g. Max. kg pris 236,56. Pr. pose",
+        "Flere varianter. 93-125 g. Max. kg pris 236,56. Pr. stk. 22.-"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "meny",
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 3
     },
     {
       "descriptionKey": "v1|m m s maltesers daim drage eller kvikk lunsj|chocolate",
@@ -1188,6 +3719,30 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|magnum 3 pk|ice_cream",
+      "originalName": "Magnum 3-pk",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|malaco snorer stjerner strimler el toms slikposer|chocolate",
+      "originalName": "Malaco snører, stjerner, strimler el. Toms slikposer",
+      "sampleDescriptions": [],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|malaco stjerner eller snore|chocolate",
       "originalName": "MALACO Stjerner eller Snøre",
       "sampleDescriptions": [
@@ -1227,6 +3782,78 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|mandler 900 g|nuts",
+      "originalName": "Mandler 900 g.",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK MANDLER ‼️😍\n\n    🥜NUTA NATURAL MANDLER 900 G. 🥜\n\n         💰JA TAK KUN 69,99 KR. 💰\n\n           👉BILLIGT ❤ BILLIGT ❤ BILLIGT👈\n\nAFHENTNING SENEST ONSDAG KL. 21. \n\nVI SES I LØVBJERG Esbjerg ♥️"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mandler el cashew nodder|nuts",
+      "originalName": "Mandler el. cashew-nødder",
+      "sampleDescriptions": [],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marabou chokolade|chocolate",
+      "originalName": "Marabou chokolade",
+      "sampleDescriptions": [],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marabou homestyle cookies|biscuits",
+      "originalName": "Marabou Homestyle Cookies",
+      "sampleDescriptions": [
+        "Chokolate filled eller Oreo Creme. 156 g. Kg pris 179,49. Pr. pakke SKARP PRIS PR. STK. SPAR SAMMEN MEDLEMSPRIS* PR. PAKKE Kg pris 115,38. Max. 4 Pakker pr. kunde."
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marabou premium chokolade|chocolate",
+      "originalName": "Marabou premium chokolade",
+      "sampleDescriptions": [],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marabou|chocolate",
+      "originalName": "MARABOU",
+      "sampleDescriptions": [
+        "Flere varianter. 160-180 g. Max. kg pris 187,50 PR. STK."
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|marinerede flanksteak|beef_flat_steak",
       "originalName": "Marinerede flanksteak",
       "sampleDescriptions": [
@@ -1249,6 +3876,19 @@
       "comparisonGroup": "pork_chop",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marineret morbrad af dansk gris|prepared_pork_marinated",
+      "originalName": "Marineret Mørbrad af Dansk Gris",
+      "sampleDescriptions": [
+        "GOD TIL GRILL Alabama/bacon. 575 g. Kg pris 120,00. BEGRÆNSET PARTI. Pr. stk."
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
+      "stores": [
+        "min_koebmand"
       ],
       "occurrences": 1
     },
@@ -1279,6 +3919,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|matilde vicenzi kager|biscuits",
+      "originalName": "MATILDE VICENZI KAGER",
+      "sampleDescriptions": [
+        "Flere varianter. 135-200 g. Max. kg pris 147,78."
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|mcennedy spareribs|pork_ribs",
       "originalName": "MCENNEDY Spareribs",
       "sampleDescriptions": [
@@ -1301,6 +3954,76 @@
       "comparisonGroup": "pasta_noodles",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|merrild hele kaffebonner|coffee_tea",
+      "originalName": "Merrild hele kaffebønner",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|merrild instant kaffe|coffee_tea",
+      "originalName": "Merrild instant kaffe",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|merrild instant|coffee_tea",
+      "originalName": "Merrild instant",
+      "sampleDescriptions": [
+        "JA TAK VILD PRIS PÅ MERRILD 103 INSTANT\n\n🫵 RØD MERRILD INSTANT- KUN 49,99🫵 \n\n         ♥️MERRILD INSTANT ♥️ \n                 BEMÆRK - 150GRAM!!!\n\n     ☕️MERRILD INSTANT 150G ☕\n     ☕️MERRILD CREMA 120G ☕ \n\n\n   🙌 JA TAK PR. GLAS KUN 49,99 🙌\n\nMAX 6 glas PR KUNDE 👍 \n\nKAN AFHENTES SENEST ONSDAG VED JA TAK SELVHENT \n\nVI SES  I LØVBJERG VEJEN ❤️"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|merrild kaffe|coffee_tea",
+      "originalName": "Merrild kaffe",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK TILBUD ‼️😍\n\n                💣SUPER TILBUD 💣\n           \n               ☕️RØD MERRILD KAFFE☕️\n                                  400 GR. PR. POSE. \n\n                     😵 PRISEN ER KUN 42,99kr 😵\n\nSet ved grænsen til 44.44 pr. pose, så måske billigste pris i Danmark & Tyskland🤪😜\n\nMAX 16 poser pr. kunde❌\n\nKan afhentes fra i dag til og med ONSDAG ⏰\n\n⚠️BEMÆRK⚠️\n📌Kommenter “Ja tak + antal stk”\n📌Modtag dit ordrenummer i en kommentar.\n📌Afhent din bestilling i butikken\n\nSkal afhentes ved den grå lagerport - se efter det STORE “Ja Tak” skilt.\n\nVi ses i Løvbjerg Frederikshavn♥️"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|merrild special kaffe|coffee_tea",
+      "originalName": "Merrild special kaffe",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|merrild vienna roast okologisk koffeinlet el mellemristet el lavazza filterkaffe|coffee_tea",
+      "originalName": "Merrild Vienna Roast, økologisk, koffeinlet el. mellemristet el. Lavazza filterkaffe",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -1370,6 +4093,45 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|morbrad af gris og kartoffeltaarne eller kyllingebryst med mozzarella og flodekartofler|potato_gratin",
+      "originalName": "MØRBRAD AF GRIS OG KARTOFFELTÅRNE ELLER KYLLINGEBRYST MED MOZZARELLA OG FLØDEKARTOFLER",
+      "sampleDescriptions": [
+        "Varm retten i ovnen ved 180°C i 30-35 minutter LAVET AF OS NYDES AF DIG PR. PAKKE"
+      ],
+      "categoryId": "potato_products",
+      "comparisonGroup": "potato_gratin",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mr beef spareribs med bbq|prepared_pork_marinated",
+      "originalName": "Mr Beef Spareribs med BBQ",
+      "sampleDescriptions": [
+        "Pr. pakke 800 g. Kg pris 98,75. SKARP PRIS"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
+      "stores": [
+        "min_koebmand"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mutti hakkede eller flaaede tomater|tomatoes",
+      "originalName": "MUTTI HAKKEDE ELLER FLÅEDE TOMATER",
+      "sampleDescriptions": [
+        "400 g. Kg pris 35,00. PR. DÅSE MEDLEMSPRIS* PR. DÅSE Kg pris 19,88 Max. 4 Dåser pr. kunde"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "tomatoes",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|mutti tomater eller pizzasauce|sauce_pizza",
       "originalName": "Mutti tomater eller pizzasauce",
       "sampleDescriptions": [
@@ -1379,6 +4141,17 @@
       "comparisonGroup": "sauce_pizza",
       "stores": [
         "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|naturli smorbar iskaffe havre el mandeldrik|butter",
+      "originalName": "Naturli smørbar, iskaffe, havre- el. mandeldrik",
+      "sampleDescriptions": [],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -1396,6 +4169,30 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|nescafe gold el original instant kaffe|coffee_tea",
+      "originalName": "Nescafé gold el. original instant kaffe",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nescafe gold|coffee_tea",
+      "originalName": "Nescafé Gold",
+      "sampleDescriptions": [
+        "🏃🏼‍♀️‼️ JA TAK 100 G. NESCAFE ‼️🏃🏼‍♀️\n\n\nKUN 34.99 PR GLAS - KUN 34,99  PR GLAS\nDET HER! DET ER BILLIGT! 😳🤑\n \n          ☕️ 100 G. NESCAFÉ GOLD ☕️\n\n    ❌ JA TAK KUN 34,99 KR. PR GLAS ❌\n\nMAX 6 glas pr kunde ! 😉\n\n AFHENTNING senest torsdag 🏃🏼‍♀️🏃🏼‍♀️☕️\nved lagerporten i butikken \n\nVi ses i Løvbjerg Fredericia ❤️"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|nescafe iskaffe|coffee_tea",
       "originalName": "Nescafe iskaffe*",
       "sampleDescriptions": [
@@ -1409,6 +4206,41 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|nescafe kaffe specialiteter el nesquik kakao|coffee_tea",
+      "originalName": "Nescafé kaffe specialiteter el. Nesquik kakao",
+      "sampleDescriptions": [],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nestle bars|chocolate",
+      "originalName": "Nestlé bars",
+      "sampleDescriptions": [],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nice n easy pizza|pizza_snacks",
+      "originalName": "Nice 'N Easy Pizza 🍕",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK PIZZA‼️😍\n\n                    🔥 KUN 14,99,- 🔥\n\nLækre og nemme Nice 'N Easy Pizza\nforskellige varianter.\n\n➡️Hawaii\n➡️Prosciutto\n➡️ Speciale\n➡️ Mozzarella\n\nVælg din variant ved afhentning. Først til mølle princippet! 🫶\n\n\nAFHENTNING FRA NU OG SENEST TORSDAG👍\n\nVi ses i Løvbjerg KOLDINGVEJ❤"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|nivea deodorant eller shower|hair_body",
       "originalName": "Nivea deodorant eller shower*",
       "sampleDescriptions": [
@@ -1418,6 +4250,69 @@
       "comparisonGroup": "hair_body",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nordthy knaekbrod|bread",
+      "originalName": "Nordthy knækbrød",
+      "sampleDescriptions": [],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nordthy noddemix|nuts",
+      "originalName": "Nordthy nøddemix 😋",
+      "sampleDescriptions": [
+        "😍🥜 JA TAK 🥜😍\n \n                Nordthy nødder i bøtte \n\n                      Vælge imellem \n                   👉Hot Snack 360 g\n                  👉Sweet & Salty 500 g. \n                   👉 salut mix 425g \n\n                   Vælg ved afhentning \n\n✅ HALV PRIS ✅\n\n✨️😛  PR BØTTE - 21,99,- 😛✨️\n\n                       Normalpris 43,99\n\nAFHENTES  SENEST TORSDAG \nAFHENTES VED JA TAK UDLEVERINGEN VED MEJERI\n\n   ❤️VI SES I LØVBJERG HORSENS❤️"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nordthy pasta|pasta_noodles",
+      "originalName": "Nordthy pasta🤩",
+      "sampleDescriptions": [
+        "🎉 JA TAK TIL NORDTHY PASTA 🎉\n\n              NORDTHY SPAGHETTI  1 KG\n             😱 PR pose KUN... 6,66 😱\n\n\nKAN AFHENTES VED PAKKESHOPPEN \n\nAfhentes idag til torsdag  🏃‍♂️🏃‍♂️\n\nAFHENTES VED PAKKESHOPPEN \n\nSES I LØVBJERG ♥️"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nordthy slik|chocolate",
+      "originalName": "Nordthy slik",
+      "sampleDescriptions": [
+        "😍 JA TAK NORDYHY SLIKPOSER😍\n🫵 170 GRAM SLIKPOSER - KUN 12,99 KR!! 🫵\n\n         NORDTHY, 170 GRAM SLIKPOSE\n     😳 JA TAK PRIS KUN 12,99 KR 😳\n\nNormalpris 24.99💲\n\nVARIANT VÆLGES VED AFHENTNING EFTER FØRST TIL MØLLE PRINCIPPET.\n\nBILLEDET ER ET STEMNINGSBILLEDE,\nFRA START KAN DU VÆLGE IMELLEM: \n\n👉BLANDET SLIK\n👉SUR MIX\n👉VINGUMMI BAMSER\n👉FAVORIT MIX\n👉HINDBÆRBOMBER\n👉FAVORIT MIX\n👉SALT MIX\n👉ENGELSK VINGUMMI\n👉MENTHOL TOPPE\n👉JORDBÆR MED SUKKER\n\nAfhentning KUN TIRSDAG OG ONSDAG \n\n Vi ses i Løvbjerg Trøjborg❤️"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nordthy slikposer afhent senest onsdag|chocolate",
+      "originalName": "Nordthy slikposer 🚨afhent senest onsdag🚨",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK TILBUD ‼️😍\n  ⭐️✅ BILLIG NORDTHY SLIK✅⭐️\n\n🌟\n\nSKARP PRIS PÅ DISSE VARIANTER\n\nVÆLG MELLEM:\n👉 ENGELSK VINGUMMI \n👉 LAKRIDSKONFEKT \n👉 KULØRTE FISK\n👉 ENGELSK VINGUMMI SUR\n👉 VINGUMMI BAMSER\n👉 ENGELSK VINGUMMI BLACK EDITION\n👉 LAKRIDS MIX\n👉 FRUGTMIX\n👉 FAMILIEMIX\n👉 BLANDET SLIK\n\n⭐POSERNE INDEHOLDER 300 G⭐\n\n⭐DIN JA TAK PRIS KUN 29.99⭐️\nSPAR 10.00 😱\n\nDet er dælme billigt 🤩\n\nAFHENTES FRA NU OG SENEST ONSDAG VED PAKKESHOPPEN\n\nVariant vælges ved afhentning efter først til mølle princippet\n\nVI SES I LØVBJERG IKAST ❤️\n\n⭐"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -1461,6 +4356,247 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|okologisk lurpak|butter",
+      "originalName": "Økologisk Lurpak",
+      "sampleDescriptions": [
+        "🚨🧈 JA TAK TIL LURPAK TIL EN VANVITTIG PRIS 🧈🚨\n\nVi har fået fingrene i et parti Lurpak Organic smør 200 g – og prisen er helt skarp! 😳🔥\n\n🌱🧈 LURPAK ORGANIC 200 G 🧈🌱\n💥 KUN 9,99 KR. PR. STK. 💥\n\nFyld køleskabet op til morgenbordet, bagningen og madlavningen 😍🙌\n\n👉 Skriv JA TAK + antal i kommentarfeltet.\n\n⚠️ MAKS. 6 STK. PR. KUNDE ⚠️\n\n📦 Afhentning KUN tirsdag eller onsdag ved butikkens lagerport.\n\nFørst til mølle – så længe lager haves! 🏃‍♂️💨🧈"
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|oma stege bagemargarine el becel flydende|butter",
+      "originalName": "Oma stege/bagemargarine el. Becel flydende",
+      "sampleDescriptions": [],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu burrata|cheese_mozzarella_burrata",
+      "originalName": "OMHU BURRATA",
+      "sampleDescriptions": [
+        "Nyd burrata fra det sydlige Italien, som er håndformet mozzarella med blød stracciatella i midten 120 g. Kg pris 166,25."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mozzarella_burrata",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu culotte af frilandslammekod|lamb_other",
+      "originalName": "OMHU CULOTTE AF FRILANDSLAMMEKØD",
+      "sampleDescriptions": [
+        "290-300 G SKARP PRIS Med eller uden marinade af hvidløg og rosmarin. Max. kg pris 258,45. Lammeculotte med selleripuré, grønt og urter"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu danske kirsebaer fra bredemosegaard|cherries",
+      "originalName": "OMHU DANSKE KIRSEBÆR FRA BREDEMOSEGAARD",
+      "sampleDescriptions": [
+        "350 g. Kg pris 71,43. PR. BAKKE SKARP PRIS"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "cherries",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu eller sigdal knaekbrod|bread",
+      "originalName": "OMHU eller Sigdal Knækbrød",
+      "sampleDescriptions": [
+        "Flere varianter. 190-235 g. Max. kg pris 105,26. SKARP PRIS 20.- PR. STK."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu marinerede grillspyd af frilandslammekod|lamb_other",
+      "originalName": "OMHU MARINEREDE GRILLSPYD AF FRILANDSLAMMEKØD",
+      "sampleDescriptions": [
+        "BBQ eller Rosmarin/ hvidløg. Kg pris 272,55. 275 G"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu morbrad af frilandslammekod|lamb_other",
+      "originalName": "OMHU MØRBRAD AF FRILANDSLAMMEKØD",
+      "sampleDescriptions": [
+        "Kg pris 428,33. 210 G"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu nektariner el ferskner|peaches_nectarines",
+      "originalName": "Omhu nektariner el. ferskner",
+      "sampleDescriptions": [
+        "Udenlandske kl. 1"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "peaches_nectarines",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu polser|sausage_other",
+      "originalName": "OMHU Pølser",
+      "sampleDescriptions": [
+        "Cocktailpølser, Grillpølser med rød cheddar & jalapeños eller Grillpølser med ramsløg. 198-240 g. Max. kg pris 146,46. BEGRÆNSET PARTI. Pr. stk."
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omo el bamseline|cleaning",
+      "originalName": "Omo el. Bamseline",
+      "sampleDescriptions": [
+        "Flere varianter | Vask el. skyllemiddel"
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|oreo cookies|biscuits",
+      "originalName": "Oreo cookies",
+      "sampleDescriptions": [],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|ota solgryn el branflakes|cereal",
+      "originalName": "Ota solgryn el. branflakes",
+      "sampleDescriptions": [],
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|p taerter carletti|ready_meal",
+      "originalName": "P-tærter Carletti",
+      "sampleDescriptions": [
+        "😍Ja tak😍\n\nBILLIGT 💰 BILLIGT💰BILLIGT 💰BILLIGT💰\n\n             🍭🍫P-tærter 70g pose🍫🍭\n\n                          💰8,99💰\n\n😍DET ER NÆSTEN HALV PRIS😍\n\nDe kan afhentes fra nu tilmed Torsdag  ved lagerporten ❤️\n\nVi ses i Løvbjerg på øen 😍"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|paalaekker klassiker paalaeg eller tulip leverpostej|deli_mixed_offer",
+      "originalName": "Pålækker Klassiker Pålæg eller Tulip Leverpostej",
+      "sampleDescriptions": [
+        "Flere varianter. 50-200 g. Max. kg pris 259,00. Pr. stk."
+      ],
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|panda soja afhent fredag lordag|sauce_soy",
+      "originalName": "Panda soja - AFHENT FREDAG & LØRDAG‼️",
+      "sampleDescriptions": [
+        "😍 JA TAK 😍\n \n              🥢KÆMPE SOJA SAUCE🥢\n                                       1 LITER \n\n             ‼️PRISEN ER KUN 19,99 ‼️\n                                SPAR 50,00 KR\n                             \n                             MAX 3 PR KUNDE \n\nAFHENTNING TIL OG MED ONSDAG ⏰\n\nVi ses i Løvbjerg Frederikshavn♥️"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_soy",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|paneret fiskefilet 1 5 kg|white_fish",
+      "originalName": "Paneret fiskefilet 1,5 kg!!",
+      "sampleDescriptions": [
+        "🐟🎉 JA TAK STORKØB 🎉🐟 \n\n  🐟🎉 PANERET FISK! 🎉🐟\n\n💪🏻STÆRK PRIS: KUN 59,99,-💪🏻\nNormal pris 149,99,-\n\nVi har fået fingrene i en vanvittig lækker kasse med sprød paneret fisk – klar lige fra fryseren til panden 🐠🔥\n\n👉 1,5 kg pr. kasse\n👉 Hurtig, nem og mega lækker! 🤩\n👉Ca 15 stk pr kasse.\n\n💬 Skriv JA TAK i kommentaren for at sikre dig din kasse inden naboen gør det! 💪\n\nAfhentes senest onsdag i endeboksen overfor æg 🙂"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "white_fish",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|pastella pasta|pasta_noodles",
+      "originalName": "Pastella pasta",
+      "sampleDescriptions": [
+        "Flere varianter"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|peberfrugt|peppers",
+      "originalName": "Peberfrugt",
+      "sampleDescriptions": [
+        "Rød, gul el. grøn | Holland kl. 1"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "peppers",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|philips brodrister|bread",
       "originalName": "PHILIPS Brødrister",
       "sampleDescriptions": [
@@ -1470,6 +4606,32 @@
       "comparisonGroup": "bread",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|polar fodselsdags islagkage|biscuits",
+      "originalName": "Polar fødselsdags islagkage",
+      "sampleDescriptions": [
+        "❄️🎂❄️🎂 JA TAK - ISLAGKAGE🎂❄️🎂❄️\n\n😍DIN JA TAK PRIS ER KUN 29,99😍\n\n🚨SPAR 20 KR🚨\n \n🎂Polar Fødselsdags islagkage🎂\n\nDen perfekte dessert til fødselsdag eller hyggelige stunder – lækker vaniljeis med flødeskum og chokolade🍫\n\n \nAfhentning senest TORSDAG ved lagerporten 🚗\n\nVi ses i Løvbjerg AABENRAA ❤️"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|polsehorn|ready_meal",
+      "originalName": "Pølsehorn",
+      "sampleDescriptions": [
+        "🤩JA TAK🤩\n\n😍 BILLIGE FROSNE PØLSEHORN 😍\n\n🥰❤️SÅ ER DER BILLIGE PØLSEHORN PÅ JA TAK!❤️🥰\n\nÉN POSE MED 40 STK = 89,99!\n\nDET ER 2,24 KR. PR PØLSEHORN!\n\nAFHENTNING SENEST TORSDAG 🚗\n\nVI SES I LØVBJERG AABENRAA ❤️"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -1487,6 +4649,34 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|premier is i baegre ispinde eller isbaad|ice_cream",
+      "originalName": "PREMIER IS I BÆGRE, ISPINDE ELLER ISBÅD",
+      "sampleDescriptions": [
+        "Flere varianter. 750 ml 3-6 stk. Literpris 37,33 Max. stk. pris 9,33. Frost SKARP PRIS",
+        "Flere varianter. 750 ml. 3-6 stk. Literpris 37,33. Max. stk. pris 9,33. Frost. Pr. stk. SKARP PRIS"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "meny",
+        "min_koebmand"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|puck hvid ost|cheese_feta_white",
+      "originalName": "PUCK HVID OST",
+      "sampleDescriptions": [
+        "500 g. Kg pris 48,00 PR. STK."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_feta_white",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|purio affaldsposer med snoreluk|trash_bags",
       "originalName": "PURIO Affaldsposer med snøreluk",
       "sampleDescriptions": [
@@ -1500,6 +4690,45 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|quickbury buns fastfood brod|bread",
+      "originalName": "QUICKBURY BUNS FASTFOOD BRØD",
+      "sampleDescriptions": [
+        "Hot Dog Buns, Hamburger Buns eller Mega Burger Buns. 250-300 g. Max. kg pris 40,00"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rahbek fish chips lakselasagne eler indbagte blaeksprutteringe|ready_meal",
+      "originalName": "Rahbek Fish & Chips, Lakselasagne eler Indbagte Blæksprutteringe",
+      "sampleDescriptions": [
+        "350-500 g. Max. kg pris 85,71. Frost. Pr. stk."
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rahbek fisk el royal greenland kutterrejer xl el skalrejer|shrimp",
+      "originalName": "Rahbek fisk el. Royal Greenland kutterrejer XL el. skalrejer",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|rahbek indbagt fisk|seafood_other",
       "originalName": "Rahbek indbagt fisk",
       "sampleDescriptions": [
@@ -1509,6 +4738,45 @@
       "comparisonGroup": "seafood_other",
       "stores": [
         "365"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|revet gouda|cheese_grated",
+      "originalName": "Revet Gouda",
+      "sampleDescriptions": [
+        "😍 JA TAK 😍 \n\nVi har fået et godt tilbud på revet Gouda ost 😍\n\n                           ‼️KUN 9,99 ‼️\n\nAfhentning ved lagerporten i butikken, senest TORSDAG!!!!😛\n\nVi ses i Løvbjerg TARM ❤️"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|revet ost pizzatopping el mozzarella i tern|cheese_grated",
+      "originalName": "Revet ost, pizzatopping el. mozzarella i tern",
+      "sampleDescriptions": [
+        "Flere varianter"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|riberhus eller cheasy skaereost|cheese_danish_table",
+      "originalName": "Riberhus eller Cheasy Skæreost",
+      "sampleDescriptions": [
+        "Flere varianter. 450-550 g. Max. kg pris 108,89. Pr. stk. 45.- PR. STK. Max. kg pris 100,00. Max. 4 Stk. pr. kunde."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_danish_table",
+      "stores": [
+        "spar"
       ],
       "occurrences": 1
     },
@@ -1539,17 +4807,54 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|rodalon rengoring el vask|cleaning",
+      "originalName": "Rodalon rengøring el. vask",
+      "sampleDescriptions": [],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|roget bacon|bacon_other",
+      "originalName": "RØGET Bacon",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK BACON ‼️😍\n \nVi har skaffet et parti billig\nRøget Bacon  FRA SLAGTER THEILGAARD🇩🇰😋\n\n 🥓STORT STYKKE RØGET BACON 700-900G.🥓\n                                  \n                         🚨KUN 39,99 🚨\n\nSPAR 30,-‼️\n         \n\n👉Afhentes TIRSDAG ELLER ONSDAG I SLAGTER AFD.\n\nVi ses i LØVBJERG FREDERIKSHAVN ❤ 🛒"
+      ],
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|roget el gravad laks i skiver|salmon_smoked",
+      "originalName": "Røget el. gravad laks i skiver",
+      "sampleDescriptions": [],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|rose hotwings|prepared_chicken_wings_seasoned",
       "originalName": "ROSE Hotwings",
       "sampleDescriptions": [
-        "Dybfrost 600 g. Pr. kg 48,33"
+        "Dybfrost 600 g. Pr. kg 48,33",
+        "Dybfrost"
       ],
       "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_chicken_wings_seasoned",
       "stores": [
-        "lidl"
+        "lidl",
+        "loevbjerg"
       ],
-      "occurrences": 1
+      "occurrences": 2
     },
     {
       "descriptionKey": "v1|rose kyllingetopping|chicken_other",
@@ -1565,6 +4870,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|ryaa is|ice_cream",
+      "originalName": "Ryå is",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|sagra butchers butterfly eller yellow poussin|other_poultry",
       "originalName": "SAGRA/BUTCHERS Butterfly- eller yellow poussin",
       "sampleDescriptions": [
@@ -1574,6 +4892,19 @@
       "comparisonGroup": "other_poultry",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|salat|leafy_green",
+      "originalName": "Salat",
+      "sampleDescriptions": [
+        "Tomatsalsa, Crunchy kålsalat eller Kimchi style slaw. 220-300 g. Max. kg pris 90,91. Pr. stk."
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "leafy_green",
+      "stores": [
+        "spar"
       ],
       "occurrences": 1
     },
@@ -1604,6 +4935,82 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|santa maria tex mex asia eller krydderier|spices",
+      "originalName": "Santa Maria Tex Mex, Asia eller Krydderier",
+      "sampleDescriptions": [
+        "Flere varianter. 5-371 g. Max. kg pris 3.000,00. SKARP PRIS PR. STK."
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "spices",
+      "stores": [
+        "spar"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|schulstad levebrod eller sodmaelksbrod|milk",
+      "originalName": "Schulstad levebrød eller sødmælksbrød",
+      "sampleDescriptions": [
+        "550-950 g. Kg-pris maks. 25,45. Frit valg. 1 pakke"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|schulstad levebrod rugbrod eller hvedebrod|bread",
+      "originalName": "SCHULSTAD LEVEBRØD RUGBRØD ELLER HVEDEBRØD",
+      "sampleDescriptions": [
+        "Multikernesandwich, Kernegrov eller Multikerneboller. 550-950 g. Max. kg pris 32,73"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|selpak mega kokkenrulle|paper_kitchen",
+      "originalName": "Selpak mega køkkenrulle",
+      "sampleDescriptions": [
+        "🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵\n\n‼️ JA TAK MEGA KØKKENRULLE ‼️\n\n🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵\n\n \n👉 1 MAXI ROLL, DET SVARER TIL 6 RULLER🤩\n👉 KRAFTIG SUGEEVNE😍\n👉 MEGA BILLIGT🤑\n\n🔵⚪️🔵  KUN 24,99 kr  🔵⚪️🔵\n\n🔵⚪🔵 DU SPARE HELE 20 KR 🔵⚪🔵\n\n👉 HVOR MANGE PAKKER SKAL DU HAVE TIL DEN HER PRIS ???😳\n \n🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵⚪️🔵\n\nAfhentes ved vores JA TAK UDLEVERING FRA NU OG SENEST ONSDAG KL 21.00🚗\n\nVi ses i Løvbjerg NYKØBING❤️"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_kitchen",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|selpak toiletpapir 24 rl|paper_toilet",
+      "originalName": "Selpak toiletpapir 24 rl.",
+      "sampleDescriptions": [
+        "😍 JA TAK STORKØB TOILETPAPIR 😍\n🎉24 RL - 49,99🎉24 RL - 49,99🎉\n\nSÅ ER DER BILLIG TOILETPAPIR 🧻\n\n\n    🧻 SELPAK STORKØB (24 RULLER) 🧻\n\n          ⭐️JA TAK PR PAKKE - kr 49,99⭐️ \n(Normalpris 99,99)\n\n3 lags kvalitets papir fra Selpak  🤩. \n\nAfhentning ved lagerporten fra nu og senest onsdag kl 21.00\n\n\nVi ses I Løvbjerg NYKØBING ❤️"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sensodyne tandpasta|hair_body",
+      "originalName": "Sensodyne tandpasta",
+      "sampleDescriptions": [],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|silvercrest gryde kasserolle eller maelkegryde af staal|milk",
       "originalName": "SILVERCREST Gryde, kasserolle eller mælkegryde af stål",
       "sampleDescriptions": [
@@ -1626,6 +5033,19 @@
       "comparisonGroup": "bread",
       "stores": [
         "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|skaerekage|biscuits",
+      "originalName": "Skærekage",
+      "sampleDescriptions": [
+        "Stk.-pris 40 ,00. Frit valg. 1 stk. Føres ikke i alle butikker."
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -1669,6 +5089,84 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|spangsberg flodebolle is jordbaer|ice_cream",
+      "originalName": "Spangsberg flødebolle is jordbær",
+      "sampleDescriptions": [
+        "😍 JA TAK SPANGSBERG IS 😍\n\n🚨\n\nSpangsberg **Flødebolle Is – JORDBÆR** 🍨\n\n🍨 Spangsberg Flødebolle Is 🍨\n❌ 1 BØTTE 750 ml ❌\n**Ja tak pris KUN 34,99  kr** 😍\n\nDet er saftsuseme billigt! 😳\n\nCremet flødebolleis med smag af jordbær, lækker is og selvfølgelig de klassiske Spangsberg flødeboller i isen 🤤\n\n🍨 Stor bøtte 750 ml\n🍨 Begrænset parti\n\nAFHENTES ved vores ja tak udlevering senest TORSDAG \n\nVI SES I LØVBJERG AABENRAA ❤️"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|spangsberg jordbaer flodebolle is|ice_cream",
+      "originalName": "SPANGSBERG JORDBÆR FLØDEBOLLE IS",
+      "sampleDescriptions": [
+        "750 ml. Literpris 38,67 Frost PR. STK."
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|steff houlberg el tulip middags retter|ready_meal",
+      "originalName": "Steff Houlberg el. Tulip middags-retter",
+      "sampleDescriptions": [
+        "Dybfrost"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|steff houlberg polser el tulip bacon steak|sausage_bacon",
+      "originalName": "Steff Houlberg pølser el. tulip bacon steak",
+      "sampleDescriptions": [
+        "Hotdog, bayerske, grill, frankfurter el. brunchpølser | 200-450 g | Pr kg max 124,95"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_bacon",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|stegte kyllingegrillspyd|chicken_other",
+      "originalName": "Stegte kyllingegrillspyd",
+      "sampleDescriptions": [
+        "Dybfrost\n25 stk/2000 g"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|suprema toiletpapir|paper_toilet",
+      "originalName": "SUPREMA toiletpapir",
+      "sampleDescriptions": [
+        "😍 😍JA TAK SUPREMA TOILETPAPIR😍\n\nSÅ ER DER BILLIG TOILETPAPIR 💩🧻\n\n 🧻 SUPREMA STORKØB 8 RL. PR. PAKKE   🧻\n        ⭐️JA TAK PR PAKKE 14.99 ⭐️ \n                      \n\n3 lags kvalitets papir fra SUPREMA  🤩. \n\n\nAFHENTNING TIRSDAG ELLER ONSDAG🤩\n\nVi ses I Løvbjerg Sct. Mathias ❤️"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|surdejsbrod|bread",
       "originalName": "Surdejsbrød",
       "sampleDescriptions": [
@@ -1698,14 +5196,16 @@
       "descriptionKey": "v1|taffel chips eller nodder|chips",
       "originalName": "Taffel chips eller nødder*",
       "sampleDescriptions": [
-        "90-175 g. Kg-pris maks. 155,56. Frit valg. 1 pose"
+        "90-175 g. Kg-pris maks. 155,56. Frit valg. 1 pose",
+        "Begrænset parti. Flere varianter. 90-175 g. Kg-pris maks. 155,56. Frit valg. 1 pose"
       ],
       "categoryId": "salty_snacks",
       "comparisonGroup": "chips",
       "stores": [
-        "365"
+        "365",
+        "brugsen"
       ],
-      "occurrences": 1
+      "occurrences": 2
     },
     {
       "descriptionKey": "v1|taquitos|ice_cream",
@@ -1717,6 +5217,32 @@
       "comparisonGroup": "ice_cream",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|them skaereost|cheese_danish_table",
+      "originalName": "THEM SKÆREOST",
+      "sampleDescriptions": [
+        "MAD SKAT PR. STK. Flere varianter. 450-613 g. Max. kg pris 122,22."
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_danish_table",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|thise okologisk koldskaal|yoghurt",
+      "originalName": "Thise økologisk koldskål",
+      "sampleDescriptions": [
+        "Begrænset parti. 1 liter. Literpris 20,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -1734,6 +5260,32 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|tican polser|sausage_other",
+      "originalName": "🚨tican pølser🚨",
+      "sampleDescriptions": [
+        "😍‼️ JA TAK TILBUD ‼️😍\n\n    🥳SÅ ER DE HER IGEN VIBORG HELT FRISK PRODUCERET 🥳\n\n🤩 VI HAR FUNDET ET GODT TILBUD TIL JER 🤩\n\n☀️🔥BILLIGE TICAN PØLSER 🔥☀️\n\n       \n👉SUPER FRANKFURTER\n👉SUPER FRANKFURTER MEGA\n👉GRILLPØLSER\n👉HOTDOG PØLSER\n\n                                FRIT VALG \n                                     69,99\n\n                   ‼️SPAR 50,-‼️\n\n              ‼️BARE BILLIGT‼️\n\n                         ❄️KAN FRYSES❄️\n\n😃”FØRST TIL MØLLE”😃\n👉VÆLG VARIANT NÅR DU HENTER👈\n\n👉KAN AFHENTES MANDAG TIL ONSDAG🛒 \n\nVi ses i Løvbjerg KOLDINGVEJ 🛒"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|toms chokoladebar eller guld barre|chocolate",
+      "originalName": "TOMS CHOKOLADEBAR ELLER GULD BARRE",
+      "sampleDescriptions": [
+        "Flere varianter. 45-50 g. Max. kg pris 244,44 PR. STK."
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|toms guldkarameller eller kaempe skildpadder 3 pak|chocolate",
       "originalName": "Toms Guldkarameller eller Kæmpe Skildpadder 3-pak",
       "sampleDescriptions": [
@@ -1743,6 +5295,19 @@
       "comparisonGroup": "chocolate",
       "stores": [
         "365"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|toms pingvin slikpose|chocolate",
+      "originalName": "Toms Pingvin Slikpose",
+      "sampleDescriptions": [
+        "Flere varianter. 110-130 g. Max. kg pris 127,27. Pr. pose SKARP PRIS"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "min_koebmand"
       ],
       "occurrences": 1
     },
@@ -1773,6 +5338,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|tulip bacon i skiver|bacon_sliced",
+      "originalName": "Tulip bacon i skiver",
+      "sampleDescriptions": [
+        "3 x 125 g. Kg-pris 104,00. 1 pakke 3-pak"
+      ],
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|tulip bacon|bacon_other",
       "originalName": "Tulip bacon",
       "sampleDescriptions": [
@@ -1781,9 +5359,10 @@
       "categoryId": "bacon",
       "comparisonGroup": "bacon_other",
       "stores": [
-        "bilka"
+        "bilka",
+        "loevbjerg"
       ],
-      "occurrences": 1
+      "occurrences": 2
     },
     {
       "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer",
@@ -1795,6 +5374,49 @@
       "comparisonGroup": "prepared_pork_mixed_offer",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|tulip spareribs eller pulled pork|prepared_pork_mixed_offer",
+      "originalName": "Tulip spareribs eller pulled pork",
+      "sampleDescriptions": [
+        "Begrænset parti. 900 g. Kg-pris 94,44. Frit valg. 1 pakke"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|tulip spareribs pulled pork eller gol polser|prepared_pork_mixed_offer",
+      "originalName": "TULIP SPARERIBS, PULLED PORK ELLER GØL PØLSER",
+      "sampleDescriptions": [
+        "Flere varianter. 900-1250 g. Max. kg pris 88,83. PR. STK. STOR PAKKE",
+        "Flere varianter. 900-1250 g. Max. kg pris 88,83. Pr. stk. STOR PAKKE",
+        "900-1120 g. Max. kg pris 88,83. Pr. stk. 79,95 STOR PAKKE"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
+      "stores": [
+        "meny",
+        "min_koebmand",
+        "spar"
+      ],
+      "occurrences": 3
+    },
+    {
+      "descriptionKey": "v1|varmroget laks|salmon_smoked",
+      "originalName": "Varmrøget Laks😍",
+      "sampleDescriptions": [
+        "🔥 JA TAK LAKS🔥\n \n          ❤️JA TAK PÅ VARMRØGET LAKS❤️\n\n😍PERFEKT TIL MADPAKKEN, FROKOSTBORDET el.  BARE NEM AFTENSMADEN😍\n\n1 pakke med 100 G. \n\n❗️ KORT DATO 23/07 \n\n🚨 9,99 🚨\n \nVælg mellem: 👇🏻\n- Peber \n- Hvidløg \n\n👉 KAN AFHENTES SENEST ONSDAG, VED LAGERPORTEN \n\nVi ses i Løvbjerg TARM ❤️"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "loevbjerg"
       ],
       "occurrences": 1
     },
@@ -2128,12 +5750,40 @@
       "descriptionKey": "v1|wasa knaekbrod|bread",
       "originalName": "Wasa knækbrød*",
       "sampleDescriptions": [
-        "Flere varianter. 110-275 g. Kg-pris maks. 90,91. Frit valg. 1 pakke"
+        "Flere varianter. 110-275 g. Kg-pris maks. 90,91. Frit valg. 1 pakke",
+        "☀️Wasa knækbrød☀️\n\nVælg mellem:\n ☀️Delikatess☀️Rågi☀️Delikatess sesam☀️surdeg flerkorn☀️\n\n        🤯DIN PRIS KUN 10,99 KR🤯\n        DU SPARER OP TIL 14,00 KR PR STK. \n\nAfhentning senest onsdag\n\nVi ses i Løvbjerg Tarup ❤️"
       ],
       "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
       "stores": [
-        "365"
+        "365",
+        "loevbjerg"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|wasa runda eller irma knaekbrod|bread",
+      "originalName": "Wasa Runda eller Irma knækbrød",
+      "sampleDescriptions": [
+        "Flere varianter. 190-330 g. Kg-pris maks. 166,67. Frit valg. 1 pakke"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "brugsen"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|xtra hel kylling|whole_chicken",
+      "originalName": "Xtra! hel kylling",
+      "sampleDescriptions": [
+        "1450 g. Kg-pris 37,93. 1 stk."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "whole_chicken",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     },
@@ -2177,6 +5827,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|xtra marineret kyllinge bryst med citron rosmarin eller bbq|chicken_other",
+      "originalName": "Xtra! marineret kyllinge-bryst med citron/ rosmarin eller bbq",
+      "sampleDescriptions": [
+        "375 g. Kg-pris 104,00. Frit valg. 1 pakke."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "superbrugsen"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|yum yum instantnudler|pasta_noodles",
       "originalName": "YUM YUM Instantnudler",
       "sampleDescriptions": [
@@ -2212,6 +5875,19 @@
       "comparisonGroup": "hair_body",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|zendium tandpasta|hair_body",
+      "originalName": "Zendium tandpasta",
+      "sampleDescriptions": [
+        "Begrænset parti. 2 x 50 ml. Literpris 290,00. Frit valg. 1 pakke."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "brugsen"
       ],
       "occurrences": 1
     }

@@ -104,3 +104,27 @@ test('keeps the same product stable for shopping but separates current and upcom
   assert.equal(current.productKey, upcoming.productKey);
   assert.notEqual(current.canonicalKey, upcoming.canonicalKey);
 });
+
+test('recognizes every Aarhus flyer chain added for city-wide coverage', () => {
+  const chains = [
+    ['MENY', 'meny', 'Meny'],
+    ['Løvbjerg', 'loevbjerg', 'Lovbjerg'],
+    ['SuperBrugsen', 'superbrugsen', 'SuperBrugsen'],
+    ['SPAR', 'spar', 'SPAR'],
+    ['Min Købmand', 'min_koebmand', 'Min-Kobmand'],
+    ['Brugsen', 'brugsen', 'Brugsen'],
+    ['LET-KØB', 'letkoeb', 'Let-Kob'],
+    ['Salling', 'salling', 'Salling'],
+  ];
+
+  for (const [name, storeId, slug] of chains) {
+    const normalized = normalizeOffer({
+      ...baseOffer,
+      id: `offer-${storeId}`,
+      dealer: { name },
+      branding: { name },
+    }, '2026-07-18T12:00:00Z');
+    assert.equal(normalized.storeId, storeId);
+    assert.equal(normalized.sourceUrl, `https://etilbudsavis.dk/${slug}?publication=catalog-1&offer=offer-${storeId}`);
+  }
+});

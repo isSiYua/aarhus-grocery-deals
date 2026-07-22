@@ -5,7 +5,8 @@
 ## 已实现
 
 - 固定在线网址的 PWA，可添加到 iPhone 主屏幕
-- 隐私安全的地点切换：Aarhus V 与 Atlanta Westside 都可在站内查看商品级促销
+- 隐私安全的地点切换：Aarhus 全市与 Atlanta Westside 都可在站内查看商品级促销
+- Aarhus 按连锁品牌接入公开促销单，同一促销不为每家分店重复；覆盖 Aarhus 市区与 Aarhus Kommune 内已核验有门店的主要食品连锁
 - 每个商品大类一页，类内纵向滚动；支持上一类、下一类和左右滑动
 - 同类商品放在一起，按可比较的单位价格从低到高排列
 - 商品原名在前，完整中文解释默认展开；Codex 编写的说明按稳定商品键生成一次后永久复用
@@ -18,6 +19,8 @@
 ## 数据来源
 
 更新器对 Aarhus 使用 Tjek / eTilbudsavis 的公开促销数据端点，对 Atlanta 使用 Flipp 的公开 weekly-ad feed。促销通常是连锁店或邮编区域级别，不能保证某一家门店当天库存。项目不下载促销图片，只保存商品文字、价格、有效期、远程图片链接和促销来源链接。
+
+Aarhus 当前接入 Lidl、Netto、REMA 1000、365discount、føtex、Bilka、Kvickly、MENY、Løvbjerg、SuperBrugsen、SPAR、Min Købmand、Brugsen 与 LET-KØB 的公开促销来源。连锁促销按品牌保存一份并服务该品牌在 Aarhus 的分店，避免重复商品和错误比价。Salling Super Aarhus 与 KFT Jylland 当前没有可发布的公开结构化周促销，只保留商店入口并持续检查，不参与最低价。
 
 API 客户端结构参考了 MIT 许可的 `olgasafonova/tilbudstrolden-mcp` 项目所公开的端点使用方式，但本项目界面、分类、中文解释、增量合并和部署流程均为独立实现。
 

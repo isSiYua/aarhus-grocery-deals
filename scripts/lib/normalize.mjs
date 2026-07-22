@@ -6,7 +6,17 @@ const storeAlias = value => String(value || '').toLowerCase().replace(/ø/g,'o')
 const STORE_NAMES = {
   netto: 'netto', lidl: 'lidl', rema1000: 'rema', rema: 'rema', '365discount': '365',
   fotex: 'foetex', foetex: 'foetex', bilka: 'bilka',
-  kvickly: 'kvickly',
+  kvickly: 'kvickly', meny: 'meny', lovbjerg: 'loevbjerg',
+  superbrugsen: 'superbrugsen', spar: 'spar', minkobmand: 'min_koebmand',
+  letkob: 'letkoeb', brugsen: 'brugsen', salling: 'salling',
+};
+
+const SOURCE_SLUGS = {
+  netto: 'Netto', lidl: 'Lidl', rema: 'REMA-1000', '365': '365discount',
+  foetex: 'fotex', bilka: 'Bilka', kvickly: 'Kvickly', meny: 'Meny',
+  loevbjerg: 'Lovbjerg', superbrugsen: 'SuperBrugsen', spar: 'SPAR',
+  min_koebmand: 'Min-Kobmand', brugsen: 'Brugsen', letkoeb: 'Let-Kob',
+  salling: 'Salling',
 };
 
 function getStoreId(raw) {
@@ -148,7 +158,7 @@ export function normalizeOffer(raw, nowIso, options = {}) {
   const sourceOfferId = String(raw.id || '').trim() || null;
   const offerIdentity = sourceOfferId || [catalogId || 'no-catalog', raw.run_from || '', raw.run_till || ''].join('|');
   const canonicalKey = `${productKey}|${offerIdentity}`;
-  const sourceSlug = { netto:'Netto', lidl:'Lidl', rema:'REMA-1000', '365':'365discount', foetex:'fotex', bilka:'Bilka', kvickly:'Kvickly' }[storeId];
+  const sourceSlug = SOURCE_SLUGS[storeId];
   const catalogPage = Number.isInteger(raw.catalog_page) && raw.catalog_page >= 1 ? raw.catalog_page : null;
   const sourceUrl = catalogId
     ? `https://etilbudsavis.dk/${sourceSlug}?publication=${encodeURIComponent(catalogId)}${sourceOfferId ? `&offer=${encodeURIComponent(sourceOfferId)}` : ''}`
