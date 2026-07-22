@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-22T00:48:35.252Z",
-  "count": 86,
+  "generatedAt": "2026-07-22T01:09:07.026Z",
+  "count": 169,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -14,6 +14,45 @@
       "comparisonGroup": "cleaning",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|alesto cashewnodder og peanuts|nuts",
+      "originalName": "ALESTO Cashewnødder og peanuts",
+      "sampleDescriptions": [
+        "200 g. Pr. kg 100,00"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|alesto dadler med lakrids eller peanuts|nuts",
+      "originalName": "ALESTO Dadler med lakrids eller peanuts",
+      "sampleDescriptions": [
+        "100-175 g. Pr. kg maks. 120,00"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|alesto ristede og saltede solsikkekerner|nuts",
+      "originalName": "ALESTO Ristede og saltede solsikkekerner",
+      "sampleDescriptions": [
+        "200 g. Pr. kg 45,00"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "nuts",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -109,6 +148,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|aubergine|vegetables_other",
+      "originalName": "Aubergine",
+      "sampleDescriptions": [
+        "Klasse 1. Pr. stk. 5,00"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|aussie haarpleje|hair_body",
       "originalName": "Aussie hårpleje",
       "sampleDescriptions": [
@@ -118,6 +170,58 @@
       "comparisonGroup": "hair_body",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|babyvandmelon|watermelon",
+      "originalName": "Babyvandmelon",
+      "sampleDescriptions": [
+        "Klasse 1. Pr. stk. 20,00 Dyrk prisen"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "watermelon",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|baileys milka minions oreo snacks|chips",
+      "originalName": "BAILEYS/MILKA/MINIONS/OREO Snacks",
+      "sampleDescriptions": [
+        "108-112 g. Pr. kg maks. 185,19"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|beauvais syltede grontsager|pickled_vegetables",
+      "originalName": "BEAUVAIS Syltede grøntsager",
+      "sampleDescriptions": [
+        "560-580 g. Pr. kg maks. 35,71"
+      ],
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "pickled_vegetables",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bon gelati gelatelli ispinde|ice_cream",
+      "originalName": "BON GELATI/GELATELLI Ispinde",
+      "sampleDescriptions": [
+        "6 x 100 ml. Pr. l 33,33 Maks. 6 pk. pr. kunde pr. dag. Med Lidl Plus³ -42 % Dybfrost"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -135,6 +239,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|burger boost boffer|beef_minced",
+      "originalName": "BURGER BOOST Bøffer",
+      "sampleDescriptions": [
+        "350 g. Pr. kg 100,00\nMed Lidl Plus³ -12 %"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "beef_minced",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|burger boost original smoky twist eller hakket oksekod 8 12|chocolate",
       "originalName": "Burger Boost original, smoky twist eller hakket oksekød 8-12%",
       "sampleDescriptions": [
@@ -144,6 +261,19 @@
       "comparisonGroup": "chocolate",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|burger boost smokey twist eller sliders|chocolate",
+      "originalName": "BURGER BOOST Smokey Twist eller sliders",
+      "sampleDescriptions": [
+        "300-360 g. Pr. kg maks. 130,00\nPr. kg maks. 116,67\nMed Lidl Plus³"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -161,6 +291,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|chef select paw patrol kyllingenuggets|prepared_chicken_breaded",
+      "originalName": "CHEF SELECT PAW Patrol kyllingenuggets",
+      "sampleDescriptions": [
+        "300 g. Pr. kg 116,67 Dybfrost Spot¹"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breaded",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|chrisco hundesnacks|chips",
       "originalName": "Chrisco hundesnacks*",
       "sampleDescriptions": [
@@ -170,6 +313,45 @@
       "comparisonGroup": "chips",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|cien paw patrol 2i1 shampoo og balsam|hair_body",
+      "originalName": "CIEN PAW Patrol 2i1 shampoo og balsam",
+      "sampleDescriptions": [
+        "500 ml.\nPr. l 30,00"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|colgate tandborste twister|hair_body",
+      "originalName": "COLGATE Tandbørste Twister",
+      "sampleDescriptions": [
+        "1 stk. Pr. stk. 10,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|combino nudler|pasta_noodles",
+      "originalName": "COMBINO Nudler",
+      "sampleDescriptions": [
+        "250 g. Pr. kg 24,00"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -408,6 +590,32 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|daddelcherrytomater|tomatoes",
+      "originalName": "Daddelcherrytomater",
+      "sampleDescriptions": [
+        "Klasse 1. 500 g. Pr. kg 24,00"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "tomatoes",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|daloon classic foraarsruller|ice_cream",
+      "originalName": "DALOON Classic forårsruller",
+      "sampleDescriptions": [
+        "800 g. Pr. kg 22,50 Maks. 3 ps. pr. kunde. Fredags deal Gælder kun 31. juli Dybfrost Kuponpris ved køb på min. 200 kr.*3 Plus 35,25"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|dan cake maaner roulader eller mazarintaerte|biscuits",
       "originalName": "Dan Cake måner, roulader eller mazarintærte*",
       "sampleDescriptions": [
@@ -460,6 +668,32 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|deluxe briochehotdogbrod|bread",
+      "originalName": "DELUXE Briochehotdogbrød",
+      "sampleDescriptions": [
+        "270 g. Pr. kg 44,44"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dentalux bornetandborster|hair_body",
+      "originalName": "DENTALUX Børnetandbørster",
+      "sampleDescriptions": [
+        "2 stk.\nPr. stk. 5,00"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|donut ferskner|biscuits",
       "originalName": "Donut ferskner",
       "sampleDescriptions": [
@@ -473,6 +707,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|dr oetker citronfromage chokolade eller vaniljemousse|yoghurt",
+      "originalName": "DR. OETKER Citronfromage, chokolade- eller vaniljemousse",
+      "sampleDescriptions": [
+        "100 g. Pr. kg 50,00. Frit valg¹"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|dueholm okologiske aeg|eggs",
       "originalName": "Dueholm økologiske æg",
       "sampleDescriptions": [
@@ -480,6 +727,32 @@
       ],
       "categoryId": "eggs_milk",
       "comparisonGroup": "eggs",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dunlet skyllemiddel|cleaning",
+      "originalName": "DUNLET Skyllemiddel",
+      "sampleDescriptions": [
+        "2 l. Pr. l 19,50 Spot¹ Apple Blossom Softness & Care Sensitive Mild parfume Outdoor Fresh"
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|friland okologisk paalaeg eller postej|deli_mixed_offer",
+      "originalName": "Friland økologisk pålæg eller postej*",
+      "sampleDescriptions": [
+        "70-200 g. Kg-pris maks. 214,29. Frit valg. 1 stk."
+      ],
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
       "stores": [
         "365"
       ],
@@ -590,6 +863,58 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|hanseatic delifood hel lakseside|salmon_fresh",
+      "originalName": "HANSEATIC DELIFOOD Hel lakseside",
+      "sampleDescriptions": [
+        "Pr. kg 130,00 Maks. 6 stk. pr. kunde pr. dag. Spot¹ Pr. 1/2 kg"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|haribo slikposer|chocolate",
+      "originalName": "HARIBO Slikposer",
+      "sampleDescriptions": [
+        "Flere varianter. 120 g. Pr. kg 83,33 Spot¹"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hojer frankfurter med bacon og ost eller jubilaeumsfrankfurter|sausage_mixed_offer",
+      "originalName": "HØJER Frankfurter med bacon og ost eller jubilæumsfrankfurter",
+      "sampleDescriptions": [
+        "2000 g. Pr. kg 74,50 Spot¹"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|idento tandborstehoveder eller tandpleje|hair_body",
+      "originalName": "IDENTO Tandbørstehoveder eller tandpleje",
+      "sampleDescriptions": [
+        "2-40 stk. Pr. stk. maks. 5,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|irma mix tomater fra regnemark|tomatoes",
       "originalName": "Irma mix tomater fra Regnemark",
       "sampleDescriptions": [
@@ -616,6 +941,32 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|kania chilisauce|sauce_chili",
+      "originalName": "KANIA Chilisauce",
+      "sampleDescriptions": [
+        "700 ml. Pr. l 17,14"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_chili",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|karolines kokken creme fraiche|cream",
+      "originalName": "KAROLINES KØKKEN Creme fraiche",
+      "sampleDescriptions": [
+        "18 % fedt. 250 g. Pr. kg 40,00 -22 %"
+      ],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|karolines kokken fraiche med smag eller creme fraiche|cream",
       "originalName": "Karolines Køkken fraiche med smag eller creme fraiche",
       "sampleDescriptions": [
@@ -623,6 +974,32 @@
       ],
       "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|karolines kokken revet ost eller ost i tern|cheese_grated",
+      "originalName": "KAROLINES KØKKEN Revet ost eller ost i tern",
+      "sampleDescriptions": [
+        "150-200 g. Pr. kg maks. 100,00 Frit valg¹"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
+      "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
+      "sampleDescriptions": [
+        "Flere varianter. 330-400 g. Kg-pris maks. 45,45. Frit valg. 1 pakke"
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
       "stores": [
         "365"
       ],
@@ -638,6 +1015,19 @@
       "comparisonGroup": "yoghurt",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|koteletter grillsticks eller grillpolser|sausage_mixed_offer",
+      "originalName": "Koteletter, grillsticks eller grillpølser",
+      "sampleDescriptions": [
+        "MADVÆRKET. BBQ, Smokey BBQ, salsiccia eller bacon og ost. 300-360 g. Pr. kg maks. 83,33"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -681,6 +1071,45 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|lay s chips|chips",
+      "originalName": "LAY'S Chips",
+      "sampleDescriptions": [
+        "175 g. Pr. kg 68,57 Spot¹"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|livarno skoreol|biscuits",
+      "originalName": "LIVARNO Skoreol",
+      "sampleDescriptions": [
+        "84 x 66 x 35 cm (B x H x D). Spot²"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|livarno stabelbar skoreol|biscuits",
+      "originalName": "LIVARNO Stabelbar skoreol",
+      "sampleDescriptions": [
+        "26 x 24 x 65,5 cm (L x B x H). Spot²"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|livol 10 vitaminer mineraler|supplements",
       "originalName": "Livol+10% vitaminer/ mineraler",
       "sampleDescriptions": [
@@ -707,6 +1136,32 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|madvaerket dronning dagmar ost|cheese_other",
+      "originalName": "MADVÆRKET Dronning Dagmar ost",
+      "sampleDescriptions": [
+        "Mellemlagret 45+. 1000 g. Pr. kg 65,00 Maks. 3 stk. pr. kunde pr. dag. Pr. kg 59,00 Med Lidl Plus³"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|madvaerket hakket grisekod eller grise og kalvekod|mixed_minced",
+      "originalName": "MADVÆRKET Hakket grisekød eller grise- og kalvekød",
+      "sampleDescriptions": [
+        "14-18 % fedt. 300 g. Pr. kg 40,00 Maks. 3 pk. pr. kunde pr. dag. Spot¹"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "mixed_minced",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|madvaerket kyllingebrystfilet eller laarmix|chicken_mixed_offer",
       "originalName": "MADVÆRKET Kyllingebrystfilet eller -lårmix",
       "sampleDescriptions": [
@@ -714,6 +1169,45 @@
       ],
       "categoryId": "chicken",
       "comparisonGroup": "chicken_mixed_offer",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|madvaerket kyllingeoverlaar med ryg underlaar eller vinger|chicken_thigh",
+      "originalName": "MADVÆRKET Kyllingeoverlår med ryg, -underlår eller -vinger",
+      "sampleDescriptions": [
+        "650-800 g. Pr. kg maks. 38,46\nMed Lidl Plus³ -16 %"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_thigh",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|malaco stjerner eller snore|chocolate",
+      "originalName": "MALACO Stjerner eller Snøre",
+      "sampleDescriptions": [
+        "80-94 g. Pr. kg maks. 150,00 Spot¹"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mammen guld skiveost salatost i tern eller danablu|cheese_sliced",
+      "originalName": "MAMMEN Guld skiveost, salatost i tern eller Danablu",
+      "sampleDescriptions": [
+        "100-350 g. Pr. kg maks. 150,00 Frit valg¹"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_sliced",
       "stores": [
         "lidl"
       ],
@@ -746,6 +1240,32 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|marinerede nakkekoteletter eller sommersteaks|pork_chop",
+      "originalName": "Marinerede nakkekoteletter eller sommersteaks",
+      "sampleDescriptions": [
+        "GRILLMEISTER. 1000 g. Pr. kg 69,00. Spot¹"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_chop",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|marineret oksecuvette|prepared_beef_marinated",
+      "originalName": "Marineret oksecuvette",
+      "sampleDescriptions": [
+        "Pr. kg 138,00\nPr. 1/2 kg\nSpot¹"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|matilde milkshake eller kakaomaelk|milk",
       "originalName": "Matilde milkshake eller kakaomælk",
       "sampleDescriptions": [
@@ -755,6 +1275,84 @@
       "comparisonGroup": "milk",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mcennedy spareribs|pork_ribs",
+      "originalName": "MCENNEDY Spareribs",
+      "sampleDescriptions": [
+        "Hot eller BBQ. Pr. kg 58,00. Spot¹. Pr. 1/2 kg"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_ribs",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|melissa paw patrol pasta|pasta_noodles",
+      "originalName": "MELISSA PAW Patrol pasta",
+      "sampleDescriptions": [
+        "400 g. Pr. kg 30,00 Spot¹"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|milbona madlavningsflode|cream",
+      "originalName": "MILBONA Madlavningsfløde",
+      "sampleDescriptions": [
+        "15 % fedt. 250 ml. Pr. l 40,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves."
+      ],
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "cream",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|milbona maelkesnitter|milk",
+      "originalName": "MILBONA Mælkesnitter",
+      "sampleDescriptions": [
+        "5-pak\n5 x 28 g. Pr. kg 71,43"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|milbona yoghurt med knas|yoghurt",
+      "originalName": "MILBONA Yoghurt med knas",
+      "sampleDescriptions": [
+        "175 g. Pr. kg 28,57. Frit valg¹"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|milbona yoghurtdrik|yoghurt",
+      "originalName": "MILBONA Yoghurtdrik",
+      "sampleDescriptions": [
+        "250 ml. Pr. l 20,00. Frit valg¹"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -811,15 +1409,15 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|nivea deodorant eller shower|hair_body",
-      "originalName": "Nivea deodorant eller shower*",
+      "descriptionKey": "v1|nordthy xl myslibar|cereal",
+      "originalName": "NORDTHY XL myslibar",
       "sampleDescriptions": [
-        "50-250 ml. Literpris maks. 300,00. Frit valg. 1 stk."
+        "50 g. Pr. kg 100,00. Frit valg¹"
       ],
-      "categoryId": "personal_care",
-      "comparisonGroup": "hair_body",
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
       "stores": [
-        "365"
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -850,6 +1448,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|philips brodrister|bread",
+      "originalName": "PHILIPS Brødrister",
+      "sampleDescriptions": [
+        "830 W [ 1 ] Brødrister: Model: Daily HD2581/10."
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|pomi tomatkonserves|canned_tomatoes",
       "originalName": "Pomi tomatkonserves*",
       "sampleDescriptions": [
@@ -863,6 +1474,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|purio affaldsposer med snoreluk|trash_bags",
+      "originalName": "PURIO Affaldsposer med snøreluk",
+      "sampleDescriptions": [
+        "20 eller 30 l. 20 stk. Pr. stk. 0,25. Med Lidl Plus³ -49 %"
+      ],
+      "categoryId": "household_paper",
+      "comparisonGroup": "trash_bags",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|rahbek indbagt fisk|seafood_other",
       "originalName": "Rahbek indbagt fisk",
       "sampleDescriptions": [
@@ -872,6 +1496,45 @@
       "comparisonGroup": "seafood_other",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rod merrild|coffee_tea",
+      "originalName": "Rød Merrild",
+      "sampleDescriptions": [
+        "400 g. Pr. kg 97,50 Maks. 3 ps. pr. kunde pr. dag. Med Lidl Plus³"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rod peberfrugt|peppers",
+      "originalName": "Rød peberfrugt",
+      "sampleDescriptions": [
+        "Klasse 1. Pr. stk. 5,00"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "peppers",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rose hotwings|prepared_chicken_wings_seasoned",
+      "originalName": "ROSE Hotwings",
+      "sampleDescriptions": [
+        "Dybfrost 600 g. Pr. kg 48,33"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_wings_seasoned",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },
@@ -915,26 +1578,104 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizokroketter|sausage_chorizo",
-      "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
+      "descriptionKey": "v1|samyang instantnudler|pasta_noodles",
+      "originalName": "SAMYANG Instantnudler",
       "sampleDescriptions": [
-        "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost"
+        "5 x 130-140 g. Pr. kg maks. 121,54"
       ],
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_chorizo",
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
       "stores": [
         "lidl"
       ],
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|sol mar chorizogrillpolser|sausage_chorizo",
-      "originalName": "SOL&MAR Chorizogrillpølser",
+      "descriptionKey": "v1|silvercrest gryde kasserolle eller maelkegryde af staal|milk",
+      "originalName": "SILVERCREST Gryde, kasserolle eller mælkegryde af stål",
       "sampleDescriptions": [
-        "300 g.\nPr. kg 100,00\nSpot¹"
+        "[ A, B ] 1,45 l. [ C ] 2,5 l. Egnet til alle komfurtyper. Spot²"
       ],
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_chorizo",
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|silvercrest toastmaskine vaffeljern eller brodrister|bread",
+      "originalName": "SILVERCREST Toastmaskine, vaffeljern eller brødrister",
+      "sampleDescriptions": [
+        "750 W\nFrit valg²\nNonstick-belægning og skridhæmmende fødder\n6 justerbare risteindstillinger og autosluk"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|skolekridt tyrkisk peber eller dumle|chocolate",
+      "originalName": "Skolekridt, Tyrkisk Peber eller Dumle",
+      "sampleDescriptions": [
+        "80 g. Pr. kg 125,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves."
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sondey cremevafler|biscuits",
+      "originalName": "SONDEY Cremevafler",
+      "sampleDescriptions": [
+        "190 g. Pr. kg 42,11"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sondey neo kikserulle|biscuits",
+      "originalName": "SONDEY Neo kikserulle",
+      "sampleDescriptions": [
+        "154-180 g. Pr. kg maks. 51,95"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|surdejsbrod|bread",
+      "originalName": "Surdejsbrød",
+      "sampleDescriptions": [
+        "600 g. Pr. kg 33,33"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|svanso avocadocreme eller aioli|avocado",
+      "originalName": "SVANSØ Avocadocreme eller aioli",
+      "sampleDescriptions": [
+        "210 g. Pr. kg 71,43 Spot¹"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "avocado",
       "stores": [
         "lidl"
       ],
@@ -1045,6 +1786,332 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|vel opvaskemiddel|cleaning",
+      "originalName": "VEL Opvaskemiddel",
+      "sampleDescriptions": [
+        "2-PAK"
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vita d or solsikke eller rapsolie|butter",
+      "originalName": "VITA D'OR Solsikke- eller rapsolie",
+      "sampleDescriptions": [
+        "1 l. Pr. l 15,00 Med Lidl Plus³ -20 %"
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspirerede ispinde|ice_cream",
+      "originalName": "VITASIA Asiatisk-inspirerede ispinde",
+      "sampleDescriptions": [
+        "4 x 110 ml. Pr. l 56,82 Spot¹ Dybfrost"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspirerede minispareribs|pork_ribs",
+      "originalName": "VITASIA Asiatisk-inspirerede minispareribs",
+      "sampleDescriptions": [
+        "580 g. Pr. kg 68,97"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_ribs",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspireret sauce|sauce_other",
+      "originalName": "VITASIA Asiatisk-inspireret sauce",
+      "sampleDescriptions": [
+        "Flere varianter. 250 ml. Pr. l 40,00 Spot¹"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspireret suppe|ready_meal",
+      "originalName": "VITASIA Asiatisk-inspireret suppe",
+      "sampleDescriptions": [
+        "400 g. Pr. kg 75,00 Dybfrost Spot¹"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatiske faerdigretter|ready_meal",
+      "originalName": "VITASIA Asiatiske færdigretter",
+      "sampleDescriptions": [
+        "360 g. Pr. kg 83,33"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatiskinspireret sauce|sauce_other",
+      "originalName": "VITASIA Asiatiskinspireret sauce",
+      "sampleDescriptions": [
+        "250 ml. Pr. l 48,00 Spot¹"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia bao med teriyakikylling|ready_meal",
+      "originalName": "VITASIA Bao med teriyakikylling",
+      "sampleDescriptions": [
+        "224 g. Pr. kg 111,61 Dybfrost Spot¹"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia gyoza|dumplings",
+      "originalName": "VITASIA Gyoza",
+      "sampleDescriptions": [
+        "Med grisekød og kimchi. 400 g. Pr. kg 62,50 Dybfrost Spot¹",
+        "400 g. Pr. kg 75,00 Dybfrost Spot¹"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "dumplings",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|vitasia is i baeger|ice_cream",
+      "originalName": "VITASIA Is i bæger",
+      "sampleDescriptions": [
+        "473 ml. Pr. l 74,00 Spot¹ Dybfrost"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia kokosis i kokosskal|ice_cream",
+      "originalName": "VITASIA Kokosis i kokosskal",
+      "sampleDescriptions": [
+        "2 x 91 g. Pr. kg 192,31 Spot¹ Dybfrost"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia kyllingespyd med teriyaki|chicken_skewers",
+      "originalName": "VITASIA Kyllingespyd med teriyaki",
+      "sampleDescriptions": [
+        "150 g. Pr. kg 166,67"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "chicken_skewers",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia lassi drikkeyoghurt|yoghurt",
+      "originalName": "VITASIA Lassi drikkeyoghurt",
+      "sampleDescriptions": [
+        "Flere varianter. 250 g. Pr. kg 32,00 Spot¹"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia nudler|pasta_noodles",
+      "originalName": "VITASIA Nudler",
+      "sampleDescriptions": [
+        "270 g. Pr. kg 37,04 Spot¹"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia peanut satay sauce|sauce_satay",
+      "originalName": "VITASIA Peanut satay-sauce",
+      "sampleDescriptions": [
+        "185 g. Pr. kg 81,08 Spot¹"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_satay",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia rejechips|chips",
+      "originalName": "VITASIA Rejechips",
+      "sampleDescriptions": [
+        "Spot¹ 100 g. Pr. kg 150,00"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia satay kyllingespyd|chicken_skewers",
+      "originalName": "VITASIA Satay-kyllingespyd",
+      "sampleDescriptions": [
+        "Dybfrost 150 g. Pr. kg 200,00"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "chicken_skewers",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia sesambar|chocolate",
+      "originalName": "VITASIA Sesambar",
+      "sampleDescriptions": [
+        "70 g. Pr. kg 71,43 Spot¹"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia suppe|ready_meal",
+      "originalName": "VITASIA Suppe",
+      "sampleDescriptions": [
+        "450 g. Pr. kg 48,89 Spot¹"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia sursod eller foraarsrullesauce|sauce_other",
+      "originalName": "VITASIA Sursød eller forårsrullesauce",
+      "sampleDescriptions": [
+        "150-330 ml. Pr. l maks. 100,00 Spot¹"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia tempurarejer med chilisauce|shrimp",
+      "originalName": "VITASIA Tempurarejer med chilisauce",
+      "sampleDescriptions": [
+        "Dybfrost Spot¹ 200 g. Pr. kg 225,00"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia vietnamesisk bbq sauce med honning|spreads_jam",
+      "originalName": "VITASIA Vietnamesisk BBQ-sauce med honning",
+      "sampleDescriptions": [
+        "270 g. Pr. kg 74,07 Spot¹"
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "spreads_jam",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia wokkrydderier|spices",
+      "originalName": "VITASIA Wokkrydderier",
+      "sampleDescriptions": [
+        "35 g. Pr. kg 285,71 Spot¹"
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "spices",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|vitasia woksauce|sauce_other",
+      "originalName": "VITASIA Woksauce",
+      "sampleDescriptions": [
+        "375 ml. Pr. l 53,33 Spot¹"
+      ],
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|wasa knaekbrod|bread",
       "originalName": "Wasa knækbrød*",
       "sampleDescriptions": [
@@ -1093,6 +2160,19 @@
       "comparisonGroup": "chicken_breast",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|yum yum instantnudler|pasta_noodles",
+      "originalName": "YUM YUM Instantnudler",
+      "sampleDescriptions": [
+        "60 g. Pr. kg 83,33"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "lidl"
       ],
       "occurrences": 1
     },

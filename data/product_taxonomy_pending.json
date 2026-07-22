@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-22T00:48:35.252Z",
-  "count": 80,
+  "generatedAt": "2026-07-22T01:09:07.026Z",
+  "count": 163,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -13,6 +13,36 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9aa36b86b002c05aaca14aeb08e625ee%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb2422feb6d95ea2acea7a278d2ddb119%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4494589ce2039747342a0d7445cc3d31%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83514f0027cba5f1be68ed5b627cdee7%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9eb2627d3e7317705d1fbc12d041ad00&w=1000&s=7d18949f8cbabefb01607304ae30c6a7"
+    },
+    {
+      "descriptionKey": "v1|alesto cashewnodder og peanuts|nuts",
+      "originalName": "ALESTO Cashewnødder og peanuts",
+      "originalDescription": "200 g. Pr. kg 100,00",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "nuts",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-9.webp&w=1000&x1r=0.64&x2r=0.99&y1r=0.43&y2r=0.72&s=86bd8dfbe71d40514b0376ec6eb9285c"
+    },
+    {
+      "descriptionKey": "v1|alesto dadler med lakrids eller peanuts|nuts",
+      "originalName": "ALESTO Dadler med lakrids eller peanuts",
+      "originalDescription": "100-175 g. Pr. kg maks. 120,00",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "nuts",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-9.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.46&y2r=0.72&s=10c7af516c91aae0a60c4f531dea2f5f"
+    },
+    {
+      "descriptionKey": "v1|alesto ristede og saltede solsikkekerner|nuts",
+      "originalName": "ALESTO Ristede og saltede solsikkekerner",
+      "originalDescription": "200 g. Pr. kg 45,00",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "nuts",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-9.webp&w=1000&x1r=0.015&x2r=0.38&y1r=0.15&y2r=0.5&s=dfb90f4bcd1cfa6f989089b67aff9334"
     },
     {
       "descriptionKey": "v1|amanda yellowfin tun|white_fish",
@@ -72,7 +102,7 @@
       "currentComparisonGroup": "bread",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcbfb74859097db58e4d9de18e4b3093a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc94fde1e1087e047cab9356ea9d3773d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed0510a7c69b47acb0d401db6052aea1&w=1000&s=59046e742cc15bb80862fd09e91b56e3"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1c8ce58d78f6f4a43822cb0d4e1823ed&w=1000&s=406fc0ce5c4ca43a26412a1e607e9855"
     },
     {
       "descriptionKey": "v1|anglamark okologiske smaa sprode gulerodder fra gl estrup|carrots",
@@ -85,6 +115,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F446cb85a926ba4ce62489a9934041e54&w=1000&s=c1fa63661fbf942c442a2563314cd393"
     },
     {
+      "descriptionKey": "v1|aubergine|vegetables_other",
+      "originalName": "Aubergine",
+      "originalDescription": "Klasse 1. Pr. stk. 5,00",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "vegetables_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-2.webp&w=1000&x1r=0.49&x2r=1&y1r=0.7&y2r=0.96&s=9518451d38c794ecb50d30c80f47f7dd"
+    },
+    {
       "descriptionKey": "v1|aussie haarpleje|hair_body",
       "originalName": "Aussie hårpleje",
       "originalDescription": "200-300 ml. Literpris maks. 175,00. Frit valg. 1 stk.",
@@ -92,7 +132,47 @@
       "currentComparisonGroup": "hair_body",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0d99bdc4601db7c4b693bc43d38e1fa9%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fec4452717e67d07e23ea53ad7bf5652a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F39fa7179b5abfdcdad3cb35131d6c30a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fadb6c08a7e3b3787163316d4e6df9e70&w=1000&s=959a4acdabfd41bcabc43ca12f6ccb91"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F21875ddd5b298b67b56f5f04e5b1e12a&w=1000&s=d92dd1b7e8190d999b50a8fe8ff40b7f"
+    },
+    {
+      "descriptionKey": "v1|babyvandmelon|watermelon",
+      "originalName": "Babyvandmelon",
+      "originalDescription": "Klasse 1. Pr. stk. 20,00 Dyrk prisen",
+      "currentCategoryId": "fruit",
+      "currentComparisonGroup": "watermelon",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-2.webp&w=1000&x1r=0.49&x2r=1&y1r=0.38&y2r=0.74&s=7f08129f90437105d70f289776dcdd3c"
+    },
+    {
+      "descriptionKey": "v1|baileys milka minions oreo snacks|chips",
+      "originalName": "BAILEYS/MILKA/MINIONS/OREO Snacks",
+      "originalDescription": "108-112 g. Pr. kg maks. 185,19",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "chips",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-8.webp&w=1000&x1r=0.0165&x2r=0.9907&y1r=0.2694&y2r=0.4442&s=98ec343ff4aa04d2e2eee26923eacab8"
+    },
+    {
+      "descriptionKey": "v1|beauvais syltede grontsager|pickled_vegetables",
+      "originalName": "BEAUVAIS Syltede grøntsager",
+      "originalDescription": "560-580 g. Pr. kg maks. 35,71",
+      "currentCategoryId": "canned_pickled",
+      "currentComparisonGroup": "pickled_vegetables",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-8.webp&w=1000&x1r=0.0721&x2r=0.9536&y1r=0.7124&y2r=0.9454&s=1baa37972782a3086dde15f34d60f047"
+    },
+    {
+      "descriptionKey": "v1|bon gelati gelatelli ispinde|ice_cream",
+      "originalName": "BON GELATI/GELATELLI Ispinde",
+      "originalDescription": "6 x 100 ml. Pr. l 33,33 Maks. 6 pk. pr. kunde pr. dag. Med Lidl Plus³ -42 % Dybfrost",
+      "currentCategoryId": "ice_cream",
+      "currentComparisonGroup": "ice_cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhWEhBGdw%2Fp-1.webp&w=1000&x1r=0.67&x2r=0.99&y1r=0.18&y2r=0.72&s=7ca3b9ede4551c16777b83b02c5591af"
     },
     {
       "descriptionKey": "v1|brema frisk pappardelle eller tagliatelle pasta|pasta_noodles",
@@ -105,6 +185,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3b2ed3805b0e983a3612423c0a594e06%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2fd51735b0573c72a3b31d75a77f1556&w=1000&s=b4e9ebc2dbffdb02b4e7f606268b7e9b"
     },
     {
+      "descriptionKey": "v1|burger boost boffer|beef_minced",
+      "originalName": "BURGER BOOST Bøffer",
+      "originalDescription": "350 g. Pr. kg 100,00\nMed Lidl Plus³ -12 %",
+      "currentCategoryId": "minced_meat",
+      "currentComparisonGroup": "beef_minced",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-37.webp&w=1000&x1r=0.5&x2r=0.99&y1r=0.07&y2r=0.28&s=55ea402d6f4658840958fca2e881f328"
+    },
+    {
       "descriptionKey": "v1|burger boost original smoky twist eller hakket oksekod 8 12|chocolate",
       "originalName": "Burger Boost original, smoky twist eller hakket oksekød 8-12%",
       "originalDescription": "300-400 g. Kg-pris maks. 130,00. Frit valg. 1 pakke",
@@ -112,7 +202,17 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0603856a41cddd9eff52fa536d433d8b%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3d40d0da732aa8828cf91bde2eb0435f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F94ec9b4558d042f5ae61a4ae8ae96211&w=1000&s=88d97a860f7523f3abbebd60f8a5151a"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faff3cfef168cb7dddb847751dc6aa61d&w=1000&s=91fe7ea1ea6b4cb5e9773e9c42df58bb"
+    },
+    {
+      "descriptionKey": "v1|burger boost smokey twist eller sliders|chocolate",
+      "originalName": "BURGER BOOST Smokey Twist eller sliders",
+      "originalDescription": "300-360 g. Pr. kg maks. 130,00\nPr. kg maks. 116,67\nMed Lidl Plus³",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-37.webp&w=1000&x1r=0.5&x2r=0.99&y1r=0.264&y2r=0.49&s=e72dee423737cf587af1d3f0b4ee1505"
     },
     {
       "descriptionKey": "v1|castello haard ost|cheese_other",
@@ -125,6 +225,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwK6aSR1z%2Fp-4.webp&w=1000&x1r=0.5013&x2r=0.788&y1r=0.2107&y2r=0.5721&s=685f038ba6b80115066acd6a1b08d6a3"
     },
     {
+      "descriptionKey": "v1|chef select paw patrol kyllingenuggets|prepared_chicken_breaded",
+      "originalName": "CHEF SELECT PAW Patrol kyllingenuggets",
+      "originalDescription": "300 g. Pr. kg 116,67 Dybfrost Spot¹",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_chicken_breaded",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-29.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.71&y2r=0.95&s=99eda1d90adaf03ac78b6ddbe9774f75"
+    },
+    {
       "descriptionKey": "v1|chrisco hundesnacks|chips",
       "originalName": "Chrisco hundesnacks*",
       "originalDescription": "80-105 g. Kg-pris maks. 187,50. Frit valg. 1 stk.",
@@ -132,7 +242,37 @@
       "currentComparisonGroup": "chips",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F618884d0d8485fe8170b79bf357eb6d0%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faf6fc1187fe4f11df2969de202b4c496%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0e73f78ac46bd5ce90fa06a3745dfbd0%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd0f047e1a9a1a6a5b9ecb0bfd73a06be&w=1000&s=3ce929f17a2e9d6c2d8d46293008f53a"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe0e971b265823384c911f3c529c19954&w=1000&s=715f25cc065a1a6e6d01e6ed947a182e"
+    },
+    {
+      "descriptionKey": "v1|cien paw patrol 2i1 shampoo og balsam|hair_body",
+      "originalName": "CIEN PAW Patrol 2i1 shampoo og balsam",
+      "originalDescription": "500 ml.\nPr. l 30,00",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-30.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.71&y2r=0.95&s=b39bcad5b094c2f923ea6462fb34d296"
+    },
+    {
+      "descriptionKey": "v1|colgate tandborste twister|hair_body",
+      "originalName": "COLGATE Tandbørste Twister",
+      "originalDescription": "1 stk. Pr. stk. 10,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves.",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-6.webp&w=1000&x1r=0.74&x2r=0.98&y1r=0.36&y2r=0.71&s=9c6cd1671fc5056d80d518d10a0cf652"
+    },
+    {
+      "descriptionKey": "v1|combino nudler|pasta_noodles",
+      "originalName": "COMBINO Nudler",
+      "originalDescription": "250 g. Pr. kg 24,00",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-11.webp&w=1000&x1r=0.012&x2r=0.325&y1r=0.505&y2r=0.715&s=6d6b33cc6dba9be0ce4d1ee1be5e31cd"
     },
     {
       "descriptionKey": "v1|coop bacon i skiver eller tern|bacon_mixed_offer",
@@ -142,7 +282,7 @@
       "currentComparisonGroup": "bacon_mixed_offer",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F57d6df412f12a8e0353f3e0443c441f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd08f84b5d8b0f930e5507e87d3634b9e&w=1000&s=869bbdba483f1455abdc1a3181391eb9"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fff1fc22a210eeb56c1eb0bbd854543ec&w=1000&s=98825d833403d40006bda61a740aa8ac"
     },
     {
       "descriptionKey": "v1|coop bbq koteletter|prepared_pork_marinated",
@@ -162,7 +302,7 @@
       "currentComparisonGroup": "chicken_minced",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6273273f5a35571429eaa864b139b909%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd3018d5ea91189d781b9ac7d44fcf89a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe60815eefd43f0f58139ed3921e66567%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3b3b20aa0f577cfd3b6b1bf356070cf3&w=1000&s=0d0acb49c9b59de95b9fb5d97175be35"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb7a3d3fe24a8839a2af945813869fdc5&w=1000&s=8d4e307298c17b660e8c9cf177deac8d"
     },
     {
       "descriptionKey": "v1|coop dansk piskeflode eller arla laktosefri piskeflode|cream",
@@ -202,7 +342,7 @@
       "currentComparisonGroup": "cleaning",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdad382091013e39cf014c5002ae508ac%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F65ef2469fedc00bfb2d9906f9242d350&w=1000&s=31ed1321bf4ba412cc73007e81b59560"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F345ff17bc8dc01dbdec647cbe2502cfb&w=1000&s=bae6ecccce5abc8f8b5f20cde618d9de"
     },
     {
       "descriptionKey": "v1|coop hakket grisekod 8 12|pork_minced",
@@ -232,7 +372,7 @@
       "currentComparisonGroup": "chicken_thigh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F87958936e2559cf850be655e9e6054a4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F27f74e239f03d9c7b8cc0c15c712dd3e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1fafb1b84b394c485175b63feec88b2b&w=1000&s=c0b4cc58966adcb5fa8819a8060a92fd"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F18c429d3e4029ebdef90c6acb12e6fbf&w=1000&s=5cb61d119d4828e41b3c8a911e1e5a62"
     },
     {
       "descriptionKey": "v1|coop mandler|nuts",
@@ -242,7 +382,7 @@
       "currentComparisonGroup": "nuts",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb3735d104f10bb62d6449ea8df36994f&w=1000&s=b46e2267f5752d7f2cc31265ea4f3950"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93f88655d48d9fbddef2c504f44b671f&w=1000&s=f86c02f5d0b689f205f8ed7d0855f87e"
     },
     {
       "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|prepared_beef_marinated",
@@ -262,7 +402,7 @@
       "currentComparisonGroup": "cheese_mozzarella_burrata",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fbe91508a19dbc64aa5a73ed530271ad9&w=1000&s=a4437af961818e2096182b8dccf3d736"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9d760d5bf0a524a32d3790c1f5fb4f4c%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3928811700a11db71d13f53db7f7d93f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc040f733479c3509b6d7cf232ba99e55&w=1000&s=8c8b530798ef59348fca52540fec5d1c"
     },
     {
       "descriptionKey": "v1|coop pesto|sauce_pesto",
@@ -292,7 +432,7 @@
       "currentComparisonGroup": "cheese_grated",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F11509cc96df7287005f2828377a83a62%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F24f8cf6f0d168b74a72f2ebd98da232e&w=1000&s=18d9e1f4a334e12175cc415bc7260b15"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fde9938b0841e47aa69e495c829b1a289&w=1000&s=b5cdf7994e7232b77086f2748607b1f7"
     },
     {
       "descriptionKey": "v1|coop romkugler traestammer eller mazarintaerte|biscuits",
@@ -302,7 +442,7 @@
       "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc92f9ee6110596264f813b252dfec39b&w=1000&s=8dd55d1a6102466ce04f5c68adcf878f"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8268907c0b56f23693a604e9bf17651e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5f901969cba7b155a1088f9ebd5348b6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F24bf2ce147589ac312f846688cc3f11c&w=1000&s=609a1f2e2a374c914049e875d61a0d87"
     },
     {
       "descriptionKey": "v1|coop tortilla|flour_baking",
@@ -315,6 +455,26 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2258f7c5e5d890d110bffd7503530828&w=1000&s=ab27f1c65ff9776d50abb0cd08bb6fac"
     },
     {
+      "descriptionKey": "v1|daddelcherrytomater|tomatoes",
+      "originalName": "Daddelcherrytomater",
+      "originalDescription": "Klasse 1. 500 g. Pr. kg 24,00",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "tomatoes",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-41.webp&w=1000&x1r=0.015&x2r=0.33&y1r=0.18&y2r=0.4&s=4cc47c2e2de9fcbd54307ff38bad9a95"
+    },
+    {
+      "descriptionKey": "v1|daloon classic foraarsruller|ice_cream",
+      "originalName": "DALOON Classic forårsruller",
+      "originalDescription": "800 g. Pr. kg 22,50 Maks. 3 ps. pr. kunde. Fredags deal Gælder kun 31. juli Dybfrost Kuponpris ved køb på min. 200 kr.*3 Plus 35,25",
+      "currentCategoryId": "ice_cream",
+      "currentComparisonGroup": "ice_cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-41.webp&w=1000&x1r=0.015&x2r=0.49&y1r=0.72&y2r=0.95&s=8efa25ffae2f547c349180692ec72892"
+    },
+    {
       "descriptionKey": "v1|dan cake maaner roulader eller mazarintaerte|biscuits",
       "originalName": "Dan Cake måner, roulader eller mazarintærte*",
       "originalDescription": "Flere varianter. 275-350 g. Kg-pris maks. 50,00. Frit valg. 1 pakke",
@@ -322,7 +482,7 @@
       "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc30d2ec91ecd5f89e335f74e2327da90%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F10e5b044ba9fdfc7b0318c8335512051%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F06fa5995eecedfa03a3fe64873112075%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe5b66dd81429230f9aa29f31619bde6c%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F407209f7ef6c726e2555703b0ac127e7&w=1000&s=c496938418c22d1f9fcf78f4d82947fd"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1062bf226059311f86422dd4bf03d0aa&w=1000&s=1c0521b32ea321c05488721c3b535b3b"
     },
     {
       "descriptionKey": "v1|danpo tempura nuggets eller coop cordon bleu|prepared_chicken_breaded",
@@ -332,7 +492,7 @@
       "currentComparisonGroup": "prepared_chicken_breaded",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd69a3756f7fa3dd7d1a789d069c6d46e&w=1000&s=51b1c38756bd464c5700d38108fbc142"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F634aac2b7d46c82d5a476f867ad5b076%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6415f73f278207d7a14e80444a5ea86b&w=1000&s=926dc47429724b7bb548a3831f3ae02c"
     },
     {
       "descriptionKey": "v1|dansk icebergsalat fra maansson|lettuce",
@@ -342,7 +502,7 @@
       "currentComparisonGroup": "lettuce",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5b43eb399edee4af179d30685309acb9&w=1000&s=3ccc8ef46d7422c819c5aa8adf26bfff"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F80654b76eef373214a6ca0b7bfdeedaf&w=1000&s=045b177b6d6d9cc3b0af68c982d2d783"
     },
     {
       "descriptionKey": "v1|dansk spidskaal fra torup bakkegaard eller birkemosegaard|cabbage",
@@ -352,7 +512,27 @@
       "currentComparisonGroup": "cabbage",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faa7524a89103c42465387847ffe6c355&w=1000&s=82b1427d441ed2db2e5bf0bf6d434ae2"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8a0ffc1ac09f973dc0c8b745609d993c&w=1000&s=d28fd456e82e38a671a2cff52036301b"
+    },
+    {
+      "descriptionKey": "v1|deluxe briochehotdogbrod|bread",
+      "originalName": "DELUXE Briochehotdogbrød",
+      "originalDescription": "270 g. Pr. kg 44,44",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-38.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0&y2r=0.49&s=04cbe2f480396be0736cd61b31aef29e"
+    },
+    {
+      "descriptionKey": "v1|dentalux bornetandborster|hair_body",
+      "originalName": "DENTALUX Børnetandbørster",
+      "originalDescription": "2 stk.\nPr. stk. 5,00",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-30.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.48&y2r=0.72&s=ea0b46f91dbd61a43fca71dc29958215"
     },
     {
       "descriptionKey": "v1|donut ferskner|biscuits",
@@ -365,6 +545,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-24.webp&w=1000&x1r=0&x2r=1&y1r=0.5&y2r=1&s=485e332b70127373aed837d5e6de48bc"
     },
     {
+      "descriptionKey": "v1|dr oetker citronfromage chokolade eller vaniljemousse|yoghurt",
+      "originalName": "DR. OETKER Citronfromage, chokolade- eller vaniljemousse",
+      "originalDescription": "100 g. Pr. kg 50,00. Frit valg¹",
+      "currentCategoryId": "yoghurt",
+      "currentComparisonGroup": "yoghurt",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-5.webp&w=1000&x1r=0.01&x2r=0.44&y1r=0.71&y2r=0.95&s=b2535d4777943e333b4a07f2113933df"
+    },
+    {
       "descriptionKey": "v1|dueholm okologiske aeg|eggs",
       "originalName": "Dueholm økologiske æg",
       "originalDescription": "Str. L. 4 stk. Stk-pris 4,00. 1 bakke",
@@ -372,7 +562,27 @@
       "currentComparisonGroup": "eggs",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2759c48c95dd9a8728edb09ec63866ca&w=1000&s=1f01dd3485ec48bef84d2467be9df6d5"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4aa777117dd3fa7418f183bc149349a3&w=1000&s=ca0a4656c152d61b52d38632f8ee66b2"
+    },
+    {
+      "descriptionKey": "v1|dunlet skyllemiddel|cleaning",
+      "originalName": "DUNLET Skyllemiddel",
+      "originalDescription": "2 l. Pr. l 19,50 Spot¹ Apple Blossom Softness & Care Sensitive Mild parfume Outdoor Fresh",
+      "currentCategoryId": "household_cleaning",
+      "currentComparisonGroup": "cleaning",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-32.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.512&y2r=0.938&s=284d1e579927a07b5ea4eae11f38d245"
+    },
+    {
+      "descriptionKey": "v1|friland okologisk paalaeg eller postej|deli_mixed_offer",
+      "originalName": "Friland økologisk pålæg eller postej*",
+      "originalDescription": "70-200 g. Kg-pris maks. 214,29. Frit valg. 1 stk.",
+      "currentCategoryId": "deli_meat",
+      "currentComparisonGroup": "deli_mixed_offer",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fca44f6e1f8b1ba2934cdf16f7010d6f3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F79039bd46bca1c0d323695a56edfa541%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F660f8ef3a972a98413e778903bad667e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F779205a5c3ac5343f35bc78a461d7a18&w=1000&s=cee09c8f8c6b414d24cb1afcb816d3a4"
     },
     {
       "descriptionKey": "v1|gaardlykke hel spegepolse|sausage_other",
@@ -382,7 +592,7 @@
       "currentComparisonGroup": "sausage_other",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa48aa42bb8102c4e025231e6c0b6ce19&w=1000&s=4f9b20f0bba35e3e0d361374d3094aeb"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F87369c4e881f1c719886cd23dc0df112%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7e8ce53c8c622447db661d3d3b4857ea%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F31884496ddf6602b98ff89cba90a31a3&w=1000&s=5ec8d831f535c0cc709cb57fc1179abc"
     },
     {
       "descriptionKey": "v1|galia eller honningmelon|melon",
@@ -402,7 +612,7 @@
       "currentComparisonGroup": "salmon_fresh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F56e0db74439455b66b6e921f3f16e3f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1179730a4b876575e6286b844a1626d5&w=1000&s=5ffd603e22c1a7268e616b1542644941"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F57e698c15d2876f89d54e474b9e45824&w=1000&s=0ccbb1f52b2e0c424e0ee3d5d8941388"
     },
     {
       "descriptionKey": "v1|glyngore lakseportioner|salmon_fresh",
@@ -445,6 +655,46 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwK6aSR1z%2Fp-4.webp&w=1000&x1r=0.7064&x2r=0.9867&y1r=0.2121&y2r=0.5791&s=26e5bb013a933903663c195764d3a9bf"
     },
     {
+      "descriptionKey": "v1|hanseatic delifood hel lakseside|salmon_fresh",
+      "originalName": "HANSEATIC DELIFOOD Hel lakseside",
+      "originalDescription": "Pr. kg 130,00 Maks. 6 stk. pr. kunde pr. dag. Spot¹ Pr. 1/2 kg",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "salmon_fresh",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-41.webp&w=1000&x1r=0.59&x2r=0.98&y1r=0.18&y2r=0.71&s=7e2e1e2ccde4a09d6ef60acd37a422eb"
+    },
+    {
+      "descriptionKey": "v1|haribo slikposer|chocolate",
+      "originalName": "HARIBO Slikposer",
+      "originalDescription": "Flere varianter. 120 g. Pr. kg 83,33 Spot¹",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-41.webp&w=1000&x1r=0.015&x2r=0.33&y1r=0.41&y2r=0.71&s=15abe2aeb38e27863464b83082a5f4b2"
+    },
+    {
+      "descriptionKey": "v1|hojer frankfurter med bacon og ost eller jubilaeumsfrankfurter|sausage_mixed_offer",
+      "originalName": "HØJER Frankfurter med bacon og ost eller jubilæumsfrankfurter",
+      "originalDescription": "2000 g. Pr. kg 74,50 Spot¹",
+      "currentCategoryId": "sausages",
+      "currentComparisonGroup": "sausage_mixed_offer",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-38.webp&w=1000&x1r=0.49&x2r=0.99&y1r=0&y2r=0.49&s=cdb85b5546b4dbb665519de34dbba07c"
+    },
+    {
+      "descriptionKey": "v1|idento tandborstehoveder eller tandpleje|hair_body",
+      "originalName": "IDENTO Tandbørstehoveder eller tandpleje",
+      "originalDescription": "2-40 stk. Pr. stk. maks. 5,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves.",
+      "currentCategoryId": "personal_care",
+      "currentComparisonGroup": "hair_body",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-6.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.7&y2r=0.95&s=50f61427758c0e0d74fe4531530c1857"
+    },
+    {
       "descriptionKey": "v1|irma mix tomater fra regnemark|tomatoes",
       "originalName": "Irma mix tomater fra Regnemark",
       "originalDescription": "Danmark, kl. I. 200 g. Kg-pris 90,00. 1 bakke",
@@ -465,6 +715,26 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F05f2e473c4b0e401a99c63fad36c42dd&w=1000&s=7458b365a6397611c5f9b4945b26d5b6"
     },
     {
+      "descriptionKey": "v1|kania chilisauce|sauce_chili",
+      "originalName": "KANIA Chilisauce",
+      "originalDescription": "700 ml. Pr. l 17,14",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_chili",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-12.webp&w=1000&x1r=0.354&x2r=0.655&y1r=0.063&y2r=0.285&s=f47424f839365e6b90c7f44933b2b80e"
+    },
+    {
+      "descriptionKey": "v1|karolines kokken creme fraiche|cream",
+      "originalName": "KAROLINES KØKKEN Creme fraiche",
+      "originalDescription": "18 % fedt. 250 g. Pr. kg 40,00 -22 %",
+      "currentCategoryId": "cream_cold_dairy",
+      "currentComparisonGroup": "cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-40.webp&w=1000&x1r=0.505&x2r=0.981&y1r=0.725&y2r=0.895&s=25472a65040abad862d1ff2791ed5566"
+    },
+    {
       "descriptionKey": "v1|karolines kokken fraiche med smag eller creme fraiche|cream",
       "originalName": "Karolines Køkken fraiche med smag eller creme fraiche",
       "originalDescription": "200-250 g. Kg-pris maks. 60,00. Frit valg. 1 stk.",
@@ -475,6 +745,26 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa1247d0c87e42ebc082979afdf6abcda%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7d4203bbd097dcb13007a00836b1829d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3f187ec9798ef4bbd77b63f3319d38b1&w=1000&s=403147027057680b7089ed32610a325b"
     },
     {
+      "descriptionKey": "v1|karolines kokken revet ost eller ost i tern|cheese_grated",
+      "originalName": "KAROLINES KØKKEN Revet ost eller ost i tern",
+      "originalDescription": "150-200 g. Pr. kg maks. 100,00 Frit valg¹",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_grated",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-7.webp&w=1000&x1r=0.02&x2r=0.99&y1r=0.708&y2r=0.952&s=276c153b635a95b1b11364fcc89268a6"
+    },
+    {
+      "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
+      "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
+      "originalDescription": "Flere varianter. 330-400 g. Kg-pris maks. 45,45. Frit valg. 1 pakke",
+      "currentCategoryId": "butter_spreads",
+      "currentComparisonGroup": "butter",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "365",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4cd0ecae63c213664d0869399f4a485e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F71304f37bdf62b85c8a31ebcdf03f1bc%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F45abcf2d3d9a85f6c36b72042d0a35bc&w=1000&s=d8e7e0092874c39370770a0ee574d93a"
+    },
+    {
       "descriptionKey": "v1|kolios graesk yoghurt|yoghurt",
       "originalName": "Kolios græsk yoghurt",
       "originalDescription": "1 kg. Kg-pris 25,00. Frit valg. 1 stk.",
@@ -483,6 +773,16 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2fe416707f0a22a3e92e760da483b85b%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa74c15f4330f6ef209de437d35fb4abb&w=1000&s=b25f7ad97bee46692c0dae80afd6622a"
+    },
+    {
+      "descriptionKey": "v1|koteletter grillsticks eller grillpolser|sausage_mixed_offer",
+      "originalName": "Koteletter, grillsticks eller grillpølser",
+      "originalDescription": "MADVÆRKET. BBQ, Smokey BBQ, salsiccia eller bacon og ost. 300-360 g. Pr. kg maks. 83,33",
+      "currentCategoryId": "sausages",
+      "currentComparisonGroup": "sausage_mixed_offer",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-3.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.04&y2r=0.27&s=9a03b7a648871ae5a3c5eae00487aaf6"
     },
     {
       "descriptionKey": "v1|lambi classic toiletpapir eller kokkenrulle|paper_mixed_offer",
@@ -505,6 +805,36 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-21.webp&w=1000&x1r=0.51&x2r=0.98&y1r=0.02&y2r=0.26&s=e3e59f4d6ed2bf4ae5a58dceca636e46"
     },
     {
+      "descriptionKey": "v1|lay s chips|chips",
+      "originalName": "LAY'S Chips",
+      "originalDescription": "175 g. Pr. kg 68,57 Spot¹",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "chips",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-40.webp&w=1000&x1r=0.019&x2r=0.495&y1r=0.076&y2r=0.495&s=abebf0d8500c51d839748c07f93b5ae9"
+    },
+    {
+      "descriptionKey": "v1|livarno skoreol|biscuits",
+      "originalName": "LIVARNO Skoreol",
+      "originalDescription": "84 x 66 x 35 cm (B x H x D). Spot²",
+      "currentCategoryId": "biscuits_cakes",
+      "currentComparisonGroup": "biscuits",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-24.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.385&y2r=0.625&s=34da68e93e4316297202d96fb57457ef"
+    },
+    {
+      "descriptionKey": "v1|livarno stabelbar skoreol|biscuits",
+      "originalName": "LIVARNO Stabelbar skoreol",
+      "originalDescription": "26 x 24 x 65,5 cm (L x B x H). Spot²",
+      "currentCategoryId": "biscuits_cakes",
+      "currentComparisonGroup": "biscuits",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-24.webp&w=1000&x1r=0.04&x2r=0.47&y1r=0.625&y2r=0.94&s=37c5a3714775584f25c7fc2f481deb74"
+    },
+    {
       "descriptionKey": "v1|livol 10 vitaminer mineraler|supplements",
       "originalName": "Livol+10% vitaminer/ mineraler",
       "originalDescription": "165-385 stk. Flere varianter. Pr. stk. max. 1.05 Frit valg 79.-",
@@ -522,7 +852,57 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fba2e692fdcf592b34b960953e2e85bfa&w=1000&s=45fe9bcd4854c48d0eaff76a8ebf0b35"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe31d127ebc187bee3ac77fb008745bed%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8552410d9de76c3ce15cba3754c39f19%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F605513d8d61b1e0ffa340829c29de1cf%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7e1bed93992c718d8a747fbfdda422fb&w=1000&s=815e1f39e485d5dd783e36ca0b43bb96"
+    },
+    {
+      "descriptionKey": "v1|madvaerket dronning dagmar ost|cheese_other",
+      "originalName": "MADVÆRKET Dronning Dagmar ost",
+      "originalDescription": "Mellemlagret 45+. 1000 g. Pr. kg 65,00 Maks. 3 stk. pr. kunde pr. dag. Pr. kg 59,00 Med Lidl Plus³",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhWEhBGdw%2Fp-1.webp&w=1000&x1r=0.015&x2r=0.33&y1r=0.375&y2r=0.72&s=eed76c5ecbfc658b49bb8675b4937015"
+    },
+    {
+      "descriptionKey": "v1|madvaerket hakket grisekod eller grise og kalvekod|mixed_minced",
+      "originalName": "MADVÆRKET Hakket grisekød eller grise- og kalvekød",
+      "originalDescription": "14-18 % fedt. 300 g. Pr. kg 40,00 Maks. 3 pk. pr. kunde pr. dag. Spot¹",
+      "currentCategoryId": "minced_meat",
+      "currentComparisonGroup": "mixed_minced",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FhWEhBGdw%2Fp-1.webp&w=1000&x1r=0.34&x2r=0.66&y1r=0.18&y2r=0.72&s=30d614bd1a843ba818b006110fb42d50"
+    },
+    {
+      "descriptionKey": "v1|madvaerket kyllingeoverlaar med ryg underlaar eller vinger|chicken_thigh",
+      "originalName": "MADVÆRKET Kyllingeoverlår med ryg, -underlår eller -vinger",
+      "originalDescription": "650-800 g. Pr. kg maks. 38,46\nMed Lidl Plus³ -16 %",
+      "currentCategoryId": "chicken",
+      "currentComparisonGroup": "chicken_thigh",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-37.webp&w=1000&x1r=0.002&x2r=0.5&y1r=0.272&y2r=0.49&s=d8259b8a76d53771541deae0babb9409"
+    },
+    {
+      "descriptionKey": "v1|malaco stjerner eller snore|chocolate",
+      "originalName": "MALACO Stjerner eller Snøre",
+      "originalDescription": "80-94 g. Pr. kg maks. 150,00 Spot¹",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-40.webp&w=1000&x1r=0.505&x2r=0.981&y1r=0.512&y2r=0.718&s=c5f0af724935a36f5029e35f83401319"
+    },
+    {
+      "descriptionKey": "v1|mammen guld skiveost salatost i tern eller danablu|cheese_sliced",
+      "originalName": "MAMMEN Guld skiveost, salatost i tern eller Danablu",
+      "originalDescription": "100-350 g. Pr. kg maks. 150,00 Frit valg¹",
+      "currentCategoryId": "cheese",
+      "currentComparisonGroup": "cheese_sliced",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-7.webp&w=1000&x1r=0.01&x2r=0.74&y1r=0.25&y2r=0.73&s=4dc597ea57aa663586903a2d8ba31529"
     },
     {
       "descriptionKey": "v1|mammen skaereost eller danablu|cheese_danish_table",
@@ -535,6 +915,26 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F05965b3302e03c70169bfd3ae322aa90%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa8a25cd5269501511b0f6ef0be253101%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa989811ac8ed447705edb3bf441fa9f3&w=1000&s=a334edfade441ebb13d38f2347017aba"
     },
     {
+      "descriptionKey": "v1|marinerede nakkekoteletter eller sommersteaks|pork_chop",
+      "originalName": "Marinerede nakkekoteletter eller sommersteaks",
+      "originalDescription": "GRILLMEISTER. 1000 g. Pr. kg 69,00. Spot¹",
+      "currentCategoryId": "pork_fresh",
+      "currentComparisonGroup": "pork_chop",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-3.webp&w=1000&x1r=0.015&x2r=0.49&y1r=0.27&y2r=0.5&s=8c2a060266621d7b9f874d0c5bd148c9"
+    },
+    {
+      "descriptionKey": "v1|marineret oksecuvette|prepared_beef_marinated",
+      "originalName": "Marineret oksecuvette",
+      "originalDescription": "Pr. kg 138,00\nPr. 1/2 kg\nSpot¹",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_beef_marinated",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-37.webp&w=1000&x1r=0.01&x2r=0.5&y1r=0.122&y2r=0.296&s=20857879d9a167f6effe55843171e826"
+    },
+    {
       "descriptionKey": "v1|matilde milkshake eller kakaomaelk|milk",
       "originalName": "Matilde milkshake eller kakaomælk",
       "originalDescription": "200-250 ml. Literpris maks. 35,00. Frit valg. 1 stk.",
@@ -543,6 +943,66 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ffaf74a6720f1adce412196bd3e73f5df%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83b5d5b9b1622c695b2c4c0b32427295%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F80c6a49ab13c01c1423e69e5d1f4da38%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa51e37a6f4a8ec3814df0d0ee7bc4d8f&w=1000&s=c2cd96f22201902b906338245d5b8dd8"
+    },
+    {
+      "descriptionKey": "v1|mcennedy spareribs|pork_ribs",
+      "originalName": "MCENNEDY Spareribs",
+      "originalDescription": "Hot eller BBQ. Pr. kg 58,00. Spot¹. Pr. 1/2 kg",
+      "currentCategoryId": "pork_fresh",
+      "currentComparisonGroup": "pork_ribs",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-3.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.27&y2r=0.5&s=4e6443af1ee518c1164293e4b44e0116"
+    },
+    {
+      "descriptionKey": "v1|melissa paw patrol pasta|pasta_noodles",
+      "originalName": "MELISSA PAW Patrol pasta",
+      "originalDescription": "400 g. Pr. kg 30,00 Spot¹",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-29.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.71&y2r=0.95&s=75a318e9d438cc7dca34f0d3707397ec"
+    },
+    {
+      "descriptionKey": "v1|milbona madlavningsflode|cream",
+      "originalName": "MILBONA Madlavningsfløde",
+      "originalDescription": "15 % fedt. 250 ml. Pr. l 40,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves.",
+      "currentCategoryId": "cream_cold_dairy",
+      "currentComparisonGroup": "cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-6.webp&w=1000&x1r=0.02&x2r=0.25&y1r=0.43&y2r=0.71&s=ba68e5cae0c0fbef9beb98b942697fa1"
+    },
+    {
+      "descriptionKey": "v1|milbona maelkesnitter|milk",
+      "originalName": "MILBONA Mælkesnitter",
+      "originalDescription": "5-pak\n5 x 28 g. Pr. kg 71,43",
+      "currentCategoryId": "eggs_milk",
+      "currentComparisonGroup": "milk",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-6.webp&w=1000&x1r=0&x2r=1&y1r=0&y2r=0.28&s=c86130cf64b6084ef57161c015da7e89"
+    },
+    {
+      "descriptionKey": "v1|milbona yoghurt med knas|yoghurt",
+      "originalName": "MILBONA Yoghurt med knas",
+      "originalDescription": "175 g. Pr. kg 28,57. Frit valg¹",
+      "currentCategoryId": "yoghurt",
+      "currentComparisonGroup": "yoghurt",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-5.webp&w=1000&x1r=0.45&x2r=0.98&y1r=0.7&y2r=0.95&s=a4ab8956a6cf411b357cc773240c688b"
+    },
+    {
+      "descriptionKey": "v1|milbona yoghurtdrik|yoghurt",
+      "originalName": "MILBONA Yoghurtdrik",
+      "originalDescription": "250 ml. Pr. l 20,00. Frit valg¹",
+      "currentCategoryId": "yoghurt",
+      "currentComparisonGroup": "yoghurt",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-5.webp&w=1000&x1r=0.01&x2r=0.26&y1r=0.43&y2r=0.71&s=e0d542ae7ac5bedbb69771b22dda98cf"
     },
     {
       "descriptionKey": "v1|monini classico eller delicato olivenolie|oil_olive",
@@ -585,14 +1045,14 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F521e7422e7eeb393750b9cdc9eb4dc3a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F33d8fe96dc40b54b3621220cbc91c3c3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1d773b6277a58d1644b9c2344df39a6b&w=1000&s=5eb927c5ff2784d9c2028d7ab15068a4"
     },
     {
-      "descriptionKey": "v1|nivea deodorant eller shower|hair_body",
-      "originalName": "Nivea deodorant eller shower*",
-      "originalDescription": "50-250 ml. Literpris maks. 300,00. Frit valg. 1 stk.",
-      "currentCategoryId": "personal_care",
-      "currentComparisonGroup": "hair_body",
+      "descriptionKey": "v1|nordthy xl myslibar|cereal",
+      "originalName": "NORDTHY XL myslibar",
+      "originalDescription": "50 g. Pr. kg 100,00. Frit valg¹",
+      "currentCategoryId": "breakfast",
+      "currentComparisonGroup": "cereal",
       "currentReviewStatus": "unreviewed",
-      "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff03b992aaf91548bda9e02deced2a2e6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F82d35553097d698f248ffc2c59aa015a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdcd3e3f513081e04d1c16aa3413b0480%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F03f3cd65ed22f543bb3a3da4b3ded6c4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7ec549e26db7730ae643769338d8d8c9&w=1000&s=73ca746b50402a129566543dca08ccb6"
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-5.webp&w=1000&x1r=0.018&x2r=0.728&y1r=0.27&y2r=0.47&s=f0bafc06a6f4b1c069aeb154454fb24a"
     },
     {
       "descriptionKey": "v1|nutramino wafer eller coop proteinbar|chocolate",
@@ -602,7 +1062,7 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3c3d780230d23d07f8d90923243fea22&w=1000&s=3353a5eb441c922c34c9ffa421ea972b"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8c3e2e98ae71d3d9da45afdb23c803e2%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fca9a814625b68625ac27d924f912c833%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa8cfadba3ea64e06b05a489896f68ee5%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff7c44e03c79bc3fa3aea342d2f72b6d9&w=1000&s=abbac28bd6eef0910e33bd61fd07a21c"
     },
     {
       "descriptionKey": "v1|nye danske kartofler fra storohage|potatoes_fresh",
@@ -612,7 +1072,17 @@
       "currentComparisonGroup": "potatoes_fresh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0105809cb389ce0d69c5602eb3217a7c&w=1000&s=3bfae688237dc5874cc72d29e2fc1cc0"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8cb4d4d44f7a2ab54a978f0e990bc55d&w=1000&s=980da88b6aba440ea6232ccdc30e8072"
+    },
+    {
+      "descriptionKey": "v1|philips brodrister|bread",
+      "originalName": "PHILIPS Brødrister",
+      "originalDescription": "830 W [ 1 ] Brødrister: Model: Daily HD2581/10.",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.441&y1r=0.54&y2r=0.94&s=13a9f4cee62731aa8f8926e33fa12c71"
     },
     {
       "descriptionKey": "v1|pomi tomatkonserves|canned_tomatoes",
@@ -622,7 +1092,17 @@
       "currentComparisonGroup": "canned_tomatoes",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5828cb2e05f5400f136095a3dde91efb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F61f3bae4d67cdf200a2ccb1c19939aef%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F21644d8561d4708885c264e7ec5f793a&w=1000&s=77f9168d00cd2d21311de7c00375e64e"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83465f0e40bf4627364e5c98a9bece91&w=1000&s=946fa36feca9ef202cadf962a5d425b6"
+    },
+    {
+      "descriptionKey": "v1|purio affaldsposer med snoreluk|trash_bags",
+      "originalName": "PURIO Affaldsposer med snøreluk",
+      "originalDescription": "20 eller 30 l. 20 stk. Pr. stk. 0,25. Med Lidl Plus³ -49 %",
+      "currentCategoryId": "household_paper",
+      "currentComparisonGroup": "trash_bags",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-5.webp&w=1000&x1r=0.46&x2r=0.99&y1r=0.02&y2r=0.27&s=9b6d2f9b35aff33b2922d3fe2c594021"
     },
     {
       "descriptionKey": "v1|rahbek indbagt fisk|seafood_other",
@@ -633,6 +1113,36 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93573585e8b74b51597b0bff56b6cba1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8abda8d15f97ea38a281757acb175c09&w=1000&s=a725d2313da38c25f517b4944111eb98"
+    },
+    {
+      "descriptionKey": "v1|rod merrild|coffee_tea",
+      "originalName": "Rød Merrild",
+      "originalDescription": "400 g. Pr. kg 97,50 Maks. 3 ps. pr. kunde pr. dag. Med Lidl Plus³",
+      "currentCategoryId": "coffee_tea",
+      "currentComparisonGroup": "coffee_tea",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-41.webp&w=1000&x1r=0.34&x2r=0.58&y1r=0.18&y2r=0.71&s=29ff3ef0d0600ce25ce8a1701d203e88"
+    },
+    {
+      "descriptionKey": "v1|rod peberfrugt|peppers",
+      "originalName": "Rød peberfrugt",
+      "originalDescription": "Klasse 1. Pr. stk. 5,00",
+      "currentCategoryId": "vegetables",
+      "currentComparisonGroup": "peppers",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-2.webp&w=1000&x1r=0&x2r=0.51&y1r=0.7&y2r=0.96&s=e802720ab5eeef920cf1dd027bdbc19c"
+    },
+    {
+      "descriptionKey": "v1|rose hotwings|prepared_chicken_wings_seasoned",
+      "originalName": "ROSE Hotwings",
+      "originalDescription": "Dybfrost 600 g. Pr. kg 48,33",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "prepared_chicken_wings_seasoned",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-38.webp&w=1000&x1r=0.01&x2r=0.48&y1r=0.5&y2r=0.72&s=8f241e37d8bb0b449f759f3f0576c8ae"
     },
     {
       "descriptionKey": "v1|rose kyllingetopping|chicken_other",
@@ -655,24 +1165,84 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-18.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.52&y2r=0.73&s=e6078d903eea1d1d9da924b4d224f7d8"
     },
     {
-      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizokroketter|sausage_chorizo",
-      "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
-      "originalDescription": "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost",
-      "currentCategoryId": "sausages",
-      "currentComparisonGroup": "sausage_chorizo",
+      "descriptionKey": "v1|samyang instantnudler|pasta_noodles",
+      "originalName": "SAMYANG Instantnudler",
+      "originalDescription": "5 x 130-140 g. Pr. kg maks. 121,54",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
       "currentReviewStatus": "unreviewed",
       "storeId": "lidl",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.66&y1r=0.5&y2r=0.72&s=22d9f3c29b2c6db57446a983698010f5"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-13.webp&w=1000&x1r=0.01&x2r=0.49&y1r=0.26&y2r=0.49&s=876b380f02a3c5303fff86db2b18d4aa"
     },
     {
-      "descriptionKey": "v1|sol mar chorizogrillpolser|sausage_chorizo",
-      "originalName": "SOL&MAR Chorizogrillpølser",
-      "originalDescription": "300 g.\nPr. kg 100,00\nSpot¹",
-      "currentCategoryId": "sausages",
-      "currentComparisonGroup": "sausage_chorizo",
+      "descriptionKey": "v1|silvercrest gryde kasserolle eller maelkegryde af staal|milk",
+      "originalName": "SILVERCREST Gryde, kasserolle eller mælkegryde af stål",
+      "originalDescription": "[ A, B ] 1,45 l. [ C ] 2,5 l. Egnet til alle komfurtyper. Spot²",
+      "currentCategoryId": "eggs_milk",
+      "currentComparisonGroup": "milk",
       "currentReviewStatus": "unreviewed",
       "storeId": "lidl",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.714&y2r=0.932&s=9be5ca76ba40077004b8c24f71a0050f"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-19.webp&w=1000&x1r=0.63&x2r=0.98&y1r=0.31&y2r=0.72&s=7d21498219be0027d363d690bf31e8b7"
+    },
+    {
+      "descriptionKey": "v1|silvercrest toastmaskine vaffeljern eller brodrister|bread",
+      "originalName": "SILVERCREST Toastmaskine, vaffeljern eller brødrister",
+      "originalDescription": "750 W\nFrit valg²\nNonstick-belægning og skridhæmmende fødder\n6 justerbare risteindstillinger og autosluk",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-20.webp&w=1000&x1r=0.02&x2r=0.98&y1r=0.05&y2r=0.29&s=eaa5935999bf9ed5b4f10f87a890fd41"
+    },
+    {
+      "descriptionKey": "v1|skolekridt tyrkisk peber eller dumle|chocolate",
+      "originalName": "Skolekridt, Tyrkisk Peber eller Dumle",
+      "originalDescription": "80 g. Pr. kg 125,00\nFrit valg¹\n¹Spotvare i begrænset mængde, som kan købes, så længe lager haves.",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-6.webp&w=1000&x1r=0.03&x2r=0.76&y1r=0.27&y2r=0.48&s=8ec749aedd3e31f11736973737090e74"
+    },
+    {
+      "descriptionKey": "v1|sondey cremevafler|biscuits",
+      "originalName": "SONDEY Cremevafler",
+      "originalDescription": "190 g. Pr. kg 42,11",
+      "currentCategoryId": "biscuits_cakes",
+      "currentComparisonGroup": "biscuits",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-39.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.504&y2r=0.945&s=fad5f7b6b399e99f72477f5f0cce1c61"
+    },
+    {
+      "descriptionKey": "v1|sondey neo kikserulle|biscuits",
+      "originalName": "SONDEY Neo kikserulle",
+      "originalDescription": "154-180 g. Pr. kg maks. 51,95",
+      "currentCategoryId": "biscuits_cakes",
+      "currentComparisonGroup": "biscuits",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-10.webp&w=1000&x1r=0.015&x2r=0.506&y1r=0.485&y2r=0.725&s=e063d57e14f6533fb846fc9d0e73797d"
+    },
+    {
+      "descriptionKey": "v1|surdejsbrod|bread",
+      "originalName": "Surdejsbrød",
+      "originalDescription": "600 g. Pr. kg 33,33",
+      "currentCategoryId": "bread_bakery",
+      "currentComparisonGroup": "bread",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-8.webp&w=1000&x1r=0.0206&x2r=0.9948&y1r=0.0243&y2r=0.2621&s=bca54593f4b17daca0d6f658daf7ba7a"
+    },
+    {
+      "descriptionKey": "v1|svanso avocadocreme eller aioli|avocado",
+      "originalName": "SVANSØ Avocadocreme eller aioli",
+      "originalDescription": "210 g. Pr. kg 71,43 Spot¹",
+      "currentCategoryId": "fruit",
+      "currentComparisonGroup": "avocado",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-38.webp&w=1000&x1r=0.47&x2r=0.99&y1r=0.49&y2r=0.72&s=54a821c3379852aa5f9634affd2833a3"
     },
     {
       "descriptionKey": "v1|taffel chips eller nodder|chips",
@@ -682,7 +1252,7 @@
       "currentComparisonGroup": "chips",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd04991d94ca3da2581b75f73c90be40c&w=1000&s=47c3e4089fee5b13ce4e5af285fb07f4"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3895a31c1ea070ca91cc5707b66db9eb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcc80f334e4b1ba5110dded76bba08c8e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff372ef24c42b1510675f3a7913711358%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93349d82f916db86be6cb88de92838d6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc11487ee691aa20bd4c8b0050b4f7545&w=1000&s=eb5638880c95807f532ce0bc0d1c7fa0"
     },
     {
       "descriptionKey": "v1|taquitos|ice_cream",
@@ -702,7 +1272,7 @@
       "currentComparisonGroup": "yoghurt",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8595aeacf5d9825ea2d05821e057382d&w=1000&s=5149eec427986fd9a8036a3cb7893655"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F767ae5b0f08c8ea393d9abfee0ec822f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed2942b2b787ed957602316c97a71482%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6461f93ee7b73031ba5df09215b8bc0e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cdc2f9ab96856657a0af1f7694dbfae&w=1000&s=510bfb259223984c5827e8ea1abb0ab1"
     },
     {
       "descriptionKey": "v1|toms guldkarameller eller kaempe skildpadder 3 pak|chocolate",
@@ -712,7 +1282,7 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc6cc272da56055874a907515b5a910dc&w=1000&s=909c13c046b060ced6718383cb8c6fc6"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F852121cda06682d4f900e68384eebbfc%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1b47e0786525c0fc5684e741a45e67a7&w=1000&s=9fc11c492bcd66bdc15b78dcb95a074e"
     },
     {
       "descriptionKey": "v1|toms slikpose|chocolate",
@@ -722,7 +1292,7 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb7f7a83d0b818fb41884992f82ea0f4c%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcf37a12b95fe4e7b2405d8bae4a57b11%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F56adc80f739adb9a0980833293b2857e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc4d95f274513f7556f643dd0f87c80df&w=1000&s=94bead04eb644e43a45c69fc91fb4380"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5f55373b24f45f38ab753cb0cc50111f&w=1000&s=a6ed1e06c2a091ecd442c41d19c3b257"
     },
     {
       "descriptionKey": "v1|tresemme shampoo eller balsam|hair_body",
@@ -732,7 +1302,7 @@
       "currentComparisonGroup": "hair_body",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6efc2a668d7c3d7598145f325376a53b%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb709b1be06ecc4fc80817104d31c2bdf%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff2dbb269680dfa00dea5ac9b8640fca5%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4157c77c2ec573c44fedebcc6a55d959&w=1000&s=b9f6ca12bd7929f9d7dbd7d9dfa73046"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a8f3617702083e2dd2060c19fe68e6c&w=1000&s=bb0562b572c30164e3d6ba57308ec310"
     },
     {
       "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer",
@@ -742,7 +1312,257 @@
       "currentComparisonGroup": "prepared_pork_mixed_offer",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F078006993aa2c9e3b6031ea25f8c48f4&w=1000&s=68191946f317157444c2cd9e47f6518d"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc09b3685be33565a26343c1aa4084af3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9e3293995a161365c485e56b521dbed6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F34f2d9ac81b570f0a983d5b3c3590612&w=1000&s=bb9722f5d23c077309d301a9fbb7f0a4"
+    },
+    {
+      "descriptionKey": "v1|vel opvaskemiddel|cleaning",
+      "originalName": "VEL Opvaskemiddel",
+      "originalDescription": "2-PAK",
+      "currentCategoryId": "household_cleaning",
+      "currentComparisonGroup": "cleaning",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-8.webp&w=1000&x1r=0.0082&x2r=0.2636&y1r=0.4284&y2r=0.7148&s=146ea46f6efc61ad3b9ad93ae72ad7ee"
+    },
+    {
+      "descriptionKey": "v1|vita d or solsikke eller rapsolie|butter",
+      "originalName": "VITA D'OR Solsikke- eller rapsolie",
+      "originalDescription": "1 l. Pr. l 15,00 Med Lidl Plus³ -20 %",
+      "currentCategoryId": "butter_spreads",
+      "currentComparisonGroup": "butter",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-7.webp&w=1000&x1r=0.42&x2r=0.99&y1r=0.01&y2r=0.28&s=d558fac9af474eddd0283bab0ca4c510"
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspirerede ispinde|ice_cream",
+      "originalName": "VITASIA Asiatisk-inspirerede ispinde",
+      "originalDescription": "4 x 110 ml. Pr. l 56,82 Spot¹ Dybfrost",
+      "currentCategoryId": "ice_cream",
+      "currentComparisonGroup": "ice_cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-16.webp&w=1000&x1r=0.33&x2r=0.68&y1r=0.28&y2r=0.49&s=ccf0668d884da1b2fd134207997510d6"
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspirerede minispareribs|pork_ribs",
+      "originalName": "VITASIA Asiatisk-inspirerede minispareribs",
+      "originalDescription": "580 g. Pr. kg 68,97",
+      "currentCategoryId": "pork_fresh",
+      "currentComparisonGroup": "pork_ribs",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-13.webp&w=1000&x1r=0.35&x2r=0.67&y1r=0.73&y2r=0.94&s=2615a3f54ffb8d23fb8d240455f982ef"
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspireret sauce|sauce_other",
+      "originalName": "VITASIA Asiatisk-inspireret sauce",
+      "originalDescription": "Flere varianter. 250 ml. Pr. l 40,00 Spot¹",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.02&x2r=0.38&y1r=0.73&y2r=0.94&s=3b131bef5647e55165c2bf72d0ad03d5"
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatisk inspireret suppe|ready_meal",
+      "originalName": "VITASIA Asiatisk-inspireret suppe",
+      "originalDescription": "400 g. Pr. kg 75,00 Dybfrost Spot¹",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-11.webp&w=1000&x1r=0.515&x2r=0.985&y1r=0.205&y2r=0.485&s=a7f1d435487fea79bc19a15f64c85e45"
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatiske faerdigretter|ready_meal",
+      "originalName": "VITASIA Asiatiske færdigretter",
+      "originalDescription": "360 g. Pr. kg 83,33",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-13.webp&w=1000&x1r=0.68&x2r=0.98&y1r=0.73&y2r=0.94&s=d3756ff3665000e368594f83a2b9d1b6"
+    },
+    {
+      "descriptionKey": "v1|vitasia asiatiskinspireret sauce|sauce_other",
+      "originalName": "VITASIA Asiatiskinspireret sauce",
+      "originalDescription": "250 ml. Pr. l 48,00 Spot¹",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.38&x2r=0.67&y1r=0.73&y2r=0.94&s=d29082bf801713cdd487a48bff4437dc"
+    },
+    {
+      "descriptionKey": "v1|vitasia bao med teriyakikylling|ready_meal",
+      "originalName": "VITASIA Bao med teriyakikylling",
+      "originalDescription": "224 g. Pr. kg 111,61 Dybfrost Spot¹",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-14.webp&w=1000&x1r=0.505&x2r=0.985&y1r=0.5&y2r=0.96&s=73a354d4c98805583cf7a223e372b264"
+    },
+    {
+      "descriptionKey": "v1|vitasia gyoza|dumplings",
+      "originalName": "VITASIA Gyoza",
+      "originalDescription": "Med grisekød og kimchi. 400 g. Pr. kg 62,50 Dybfrost Spot¹",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "dumplings",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-14.webp&w=1000&x1r=0.355&x2r=0.665&y1r=0.06&y2r=0.3&s=d19f9a29547c4614c416979c137b7d59"
+    },
+    {
+      "descriptionKey": "v1|vitasia is i baeger|ice_cream",
+      "originalName": "VITASIA Is i bæger",
+      "originalDescription": "473 ml. Pr. l 74,00 Spot¹ Dybfrost",
+      "currentCategoryId": "ice_cream",
+      "currentComparisonGroup": "ice_cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-16.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.72&y2r=0.95&s=d43a669445dcf8430c3b71ba80d37051"
+    },
+    {
+      "descriptionKey": "v1|vitasia kokosis i kokosskal|ice_cream",
+      "originalName": "VITASIA Kokosis i kokosskal",
+      "originalDescription": "2 x 91 g. Pr. kg 192,31 Spot¹ Dybfrost",
+      "currentCategoryId": "ice_cream",
+      "currentComparisonGroup": "ice_cream",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-16.webp&w=1000&x1r=0.45&x2r=0.98&y1r=0.49&y2r=0.95&s=0e1f7463aeb93c3cb038ed0fdfb49b81"
+    },
+    {
+      "descriptionKey": "v1|vitasia kyllingespyd med teriyaki|chicken_skewers",
+      "originalName": "VITASIA Kyllingespyd med teriyaki",
+      "originalDescription": "150 g. Pr. kg 166,67",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "chicken_skewers",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-13.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.5&y2r=0.73&s=c0befeab8a634be6624d54b302a5d4f0"
+    },
+    {
+      "descriptionKey": "v1|vitasia lassi drikkeyoghurt|yoghurt",
+      "originalName": "VITASIA Lassi drikkeyoghurt",
+      "originalDescription": "Flere varianter. 250 g. Pr. kg 32,00 Spot¹",
+      "currentCategoryId": "yoghurt",
+      "currentComparisonGroup": "yoghurt",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-16.webp&w=1000&x1r=0.68&x2r=0.98&y1r=0.06&y2r=0.49&s=e05fe992dc97f6868d79f041c6b0e6f8"
+    },
+    {
+      "descriptionKey": "v1|vitasia nudler|pasta_noodles",
+      "originalName": "VITASIA Nudler",
+      "originalDescription": "270 g. Pr. kg 37,04 Spot¹",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-11.webp&w=1000&x1r=0.293&x2r=0.667&y1r=0.505&y2r=0.715&s=41e6377414d7aefa58cd91e3c0ef12b6"
+    },
+    {
+      "descriptionKey": "v1|vitasia peanut satay sauce|sauce_satay",
+      "originalName": "VITASIA Peanut satay-sauce",
+      "originalDescription": "185 g. Pr. kg 81,08 Spot¹",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_satay",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.02&x2r=0.36&y1r=0.23&y2r=0.49&s=59e103668bb3d51ec96b4ebf8cf8d742"
+    },
+    {
+      "descriptionKey": "v1|vitasia rejechips|chips",
+      "originalName": "VITASIA Rejechips",
+      "originalDescription": "Spot¹ 100 g. Pr. kg 150,00",
+      "currentCategoryId": "salty_snacks",
+      "currentComparisonGroup": "chips",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-12.webp&w=1000&x1r=0.655&x2r=0.984&y1r=0.015&y2r=0.285&s=a082828b0af065ea570e5efc137af9c8"
+    },
+    {
+      "descriptionKey": "v1|vitasia satay kyllingespyd|chicken_skewers",
+      "originalName": "VITASIA Satay-kyllingespyd",
+      "originalDescription": "Dybfrost 150 g. Pr. kg 200,00",
+      "currentCategoryId": "prepared_meat",
+      "currentComparisonGroup": "chicken_skewers",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-13.webp&w=1000&x1r=0.68&x2r=0.98&y1r=0.5&y2r=0.73&s=dcf19953027108260066de000acbfa6e"
+    },
+    {
+      "descriptionKey": "v1|vitasia sesambar|chocolate",
+      "originalName": "VITASIA Sesambar",
+      "originalDescription": "70 g. Pr. kg 71,43 Spot¹",
+      "currentCategoryId": "candy_chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-16.webp&w=1000&x1r=0.02&x2r=0.32&y1r=0.25&y2r=0.49&s=b5aa62eab69fca713993a77bbb115bd9"
+    },
+    {
+      "descriptionKey": "v1|vitasia suppe|ready_meal",
+      "originalName": "VITASIA Suppe",
+      "originalDescription": "450 g. Pr. kg 48,89 Spot¹",
+      "currentCategoryId": "frozen_ready",
+      "currentComparisonGroup": "ready_meal",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-11.webp&w=1000&x1r=0.345&x2r=0.675&y1r=0.725&y2r=0.935&s=54668f9a0a309b65d326e2804172b1b5"
+    },
+    {
+      "descriptionKey": "v1|vitasia sursod eller foraarsrullesauce|sauce_other",
+      "originalName": "VITASIA Sursød eller forårsrullesauce",
+      "originalDescription": "150-330 ml. Pr. l maks. 100,00 Spot¹",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.37&x2r=0.97&y1r=0.22&y2r=0.49&s=09cc335b385efdb51cd171c67fd3e429"
+    },
+    {
+      "descriptionKey": "v1|vitasia tempurarejer med chilisauce|shrimp",
+      "originalName": "VITASIA Tempurarejer med chilisauce",
+      "originalDescription": "Dybfrost Spot¹ 200 g. Pr. kg 225,00",
+      "currentCategoryId": "seafood",
+      "currentComparisonGroup": "shrimp",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-12.webp&w=1000&x1r=0.01&x2r=0.501&y1r=0.505&y2r=0.939&s=dc6623a5d246ed7cc9c565516ca73561"
+    },
+    {
+      "descriptionKey": "v1|vitasia vietnamesisk bbq sauce med honning|spreads_jam",
+      "originalName": "VITASIA Vietnamesisk BBQ-sauce med honning",
+      "originalDescription": "270 g. Pr. kg 74,07 Spot¹",
+      "currentCategoryId": "breakfast",
+      "currentComparisonGroup": "spreads_jam",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.68&x2r=0.98&y1r=0.73&y2r=0.94&s=ef90c5416c53a93cf90a761588c9acb5"
+    },
+    {
+      "descriptionKey": "v1|vitasia wokkrydderier|spices",
+      "originalName": "VITASIA Wokkrydderier",
+      "originalDescription": "35 g. Pr. kg 285,71 Spot¹",
+      "currentCategoryId": "pantry",
+      "currentComparisonGroup": "spices",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.34&x2r=0.67&y1r=0.5&y2r=0.72&s=21824c274e5240a008e6c698c0001c54"
+    },
+    {
+      "descriptionKey": "v1|vitasia woksauce|sauce_other",
+      "originalName": "VITASIA Woksauce",
+      "originalDescription": "375 ml. Pr. l 53,33 Spot¹",
+      "currentCategoryId": "sauces_condiments",
+      "currentComparisonGroup": "sauce_other",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-15.webp&w=1000&x1r=0.632&x2r=0.98&y1r=0.5&y2r=0.72&s=6af956e8aee857733dead2ca9647564f"
     },
     {
       "descriptionKey": "v1|wasa knaekbrod|bread",
@@ -785,6 +1605,16 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa89faaf61e835e261f87306f8f5a33a8&w=1000&s=bdb4928ec510568f028aee10f35e2fe3"
     },
     {
+      "descriptionKey": "v1|yum yum instantnudler|pasta_noodles",
+      "originalName": "YUM YUM Instantnudler",
+      "originalDescription": "60 g. Pr. kg 83,33",
+      "currentCategoryId": "rice_pasta",
+      "currentComparisonGroup": "pasta_noodles",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "lidl",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-13.webp&w=1000&x1r=0.012&x2r=0.348&y1r=0.73&y2r=0.94&s=6a8fea51e46e217db4c614a7d2212813"
+    },
+    {
       "descriptionKey": "v1|yum yum nudler|pasta_noodles",
       "originalName": "Yum Yum nudler*",
       "originalDescription": "360 g. Kg-pris 88,89. Frit valg. 1 pakke",
@@ -792,7 +1622,7 @@
       "currentComparisonGroup": "pasta_noodles",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8c58e1d095ff705145608cb8850e81f4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe1b526a13e40ef031ed8cde5d4334310%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3f07b7b361bfeea5c09111c82c3c0cf6&w=1000&s=4511a9b9ba72105bd253ca9939f7dd3d"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6761d7d9a13a38f9a29dec4370a8b048&w=1000&s=fd90a3cfe9aa402ae7b3c92c009fb869"
     },
     {
       "descriptionKey": "v1|zendium mundpleje|hair_body",
