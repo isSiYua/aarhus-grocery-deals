@@ -46,11 +46,11 @@ jobs:
             echo "should_run=false" >> "$GITHUB_OUTPUT"
           fi
 
-      # v6
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      # v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         if: steps.schedule_gate.outputs.should_run == 'true'
-      # v6
-      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+      # v7
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         if: steps.schedule_gate.outputs.should_run == 'true'
         with:
           node-version: 24
@@ -101,8 +101,8 @@ jobs:
       # v6
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
         if: steps.deploy_gate.outputs.should_deploy == 'true'
-      # v4
-      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
+      # v5
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
         if: steps.deploy_gate.outputs.should_deploy == 'true'
         with:
           path: .
