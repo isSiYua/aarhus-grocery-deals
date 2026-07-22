@@ -1,3 +1,5 @@
+import { offerSearchScore } from './search-ranking.js?v=25';
+
 const state = {
   data: null,
   atlantaData: null,
@@ -9,6 +11,7 @@ const state = {
   locationId: null,
   storeFilters: [],
   storeFilterScroll: {},
+  storeCategoryByStore: {},
   shopping: {},
   completedListOpen: false,
   chrome: { topHidden: false, bottomHidden: false },
@@ -754,18 +757,19 @@ function setStoreCategoryNavigation(open) {
   navigation.setAttribute('aria-hidden', String(!open));
   if (!open) return;
 
-  const sections = [...document.querySelectorAll('.store-category-section')];
-  const current = [...sections].reverse().find(section => section.getBoundingClientRect().top <= innerHeight * .34) || sections[0];
+  const currentCategoryId = state.storeCategoryByStore[state.route.id]
+    || document.querySelector('.store-category-section')?.dataset.categoryId;
   navigation.querySelectorAll('.store-category-option').forEach(button => {
-    button.classList.toggle('active', button.dataset.categoryId === current?.dataset.categoryId);
+    button.classList.toggle('active', button.dataset.categoryId === currentCategoryId);
   });
   navigation.querySelector('.store-category-option.active')?.scrollIntoView({ block: 'nearest' });
 }
 
 function selectStoreCategory(storeId, categoryId) {
   setStoreCategoryNavigation(false);
-  if (!(state.chrome.topHidden && state.chrome.bottomHidden)) toggleReadingChrome();
-  document.getElementById(`store-${storeId}-${categoryId}`)?.scrollIntoView({ block: 'start', behavior: 'auto' });
+  state.storeCategoryByStore[storeId] = categoryId;
+  render();
+  requestAnimationFrame(() => document.getElementById(`store-${storeId}-${categoryId}`)?.scrollIntoView({ block: 'start', behavior: 'auto' }));
 }
 
 function attachReadingChromeTap(node) {
@@ -1558,9 +1562,19 @@ function storeView(storeId) {
   const store = storeById(storeId) || activeStores()[0];
   const offers = currentOffers().filter(o => o.storeId === store.id);
   const categoryIds = orderedCategoryIds(offers);
+  const selectedCategoryId = categoryIds.includes(state.storeCategoryByStore[store.id])
+    ? state.storeCategoryByStore[store.id]
+    : categoryIds[0];
+  if (selectedCategoryId) state.storeCategoryByStore[store.id] = selectedCategoryId;
   const catChips = el('div', { class: 'chip-row store-category-chips' }, categoryIds.map(id => {
     const c = categoryById(id);
-    return el('button', { class: 'chip', onClick: () => document.getElementById(`store-${store.id}-${id}`)?.scrollIntoView({ block: 'start' }) }, `${c?.emoji || '🛒'} ${c?.nameZh || id}`);
+    const active = id === selectedCategoryId;
+    return el('button', {
+      class: `chip${active ? ' active' : ''}`,
+      type: 'button',
+      'aria-pressed': String(active),
+      onClick: () => selectStoreCategory(store.id, id),
+    }, `${c?.emoji || '🛒'} ${c?.nameZh || id}`);
   }));
   const categoryNavigation = offers.length ? el('aside', {
     class: 'store-category-float',
@@ -1575,7 +1589,7 @@ function storeView(storeId) {
       const category = categoryById(id);
       const count = offers.filter(offer => offer.categoryId === id).length;
       return el('button', {
-        class: 'store-category-option',
+        class: `store-category-option${id === selectedCategoryId ? ' active' : ''}`,
         type: 'button',
         'data-category-id': id,
         onClick: () => selectStoreCategory(store.id, id),
@@ -1597,9 +1611,9 @@ function storeView(storeId) {
         el('a', { href: store.website, target: '_blank', rel: 'noopener noreferrer' }, '商店官网 ↗'),
       ]),
     ]),
-    sectionTitle(`${offers.length} 项当前促销`, `${store.membership}；同类商品使用与首页一致的排序逻辑`),
+    sectionTitle(`${offers.length} 项当前促销`, `${store.membership}；每次只显示一个大类，减少手机卡顿`),
     offers.length ? catChips : null,
-    ...categoryIds.map(id => {
+    ...categoryIds.filter(id => id === selectedCategoryId).map(id => {
       const c = categoryById(id);
       const list = offers.filter(o => o.categoryId === id);
       return el('section', { id: `store-${store.id}-${id}`, class: 'group store-category-section', 'data-category-id': id }, [
@@ -1615,7 +1629,15 @@ function storeView(storeId) {
 function searchView() {
   const all = currentOffers();
   const query = state.search.trim().toLowerCase();
-  const allResults = !query ? [] : all.filter(o => [o.productNameZh, o.originalName, o.originalDescription, o.zhExplanation, storeById(o.storeId)?.name].join(' ').toLowerCase().includes(query));
+  const scoredResults = !query ? [] : all.map(offer => ({
+    offer,
+    score: offerSearchScore(offer, query, {
+      storeName: storeById(offer.storeId)?.name,
+      comparisonGroupName: activeComparisonGroups()?.[offer.comparisonGroup]?.nameZh,
+    }),
+  })).filter(result => result.score > 0);
+  const scoreByKey = new Map(scoredResults.map(result => [result.offer.canonicalKey, result.score]));
+  const allResults = scoredResults.map(result => result.offer);
   const results = filterOffersByStore(allResults);
   const input = el('input', { class: 'search-input', value: state.search, placeholder: '输入商品名后按回车搜索……', type: 'search', enterKeyHint: 'search' });
   input.addEventListener('input', e => {
@@ -1630,7 +1652,10 @@ function searchView() {
     el('div', { class: 'search-panel' }, [input, el('p', { class: 'search-hint' }, '同时搜索商品原名、中文解释、商店名称。中文解释不会折叠。')]),
     query ? storeFilterBar(allResults) : null,
     query ? sectionTitle(`找到 ${results.length} 项`, hasStoreFilters() ? `最低价与差价按已选 ${state.storeFilters.length} 家商店计算` : '最低价与差价按全部商店计算') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
-    query ? el('div', { class: 'offer-list' }, [...results].sort(compareOffers).map(o => offerCard(o))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
+    query ? el('div', { class: 'offer-list' }, [...results].sort((a, b) => (
+      (scoreByKey.get(b.canonicalKey) || 0) - (scoreByKey.get(a.canonicalKey) || 0)
+      || compareOffers(a, b)
+    )).map(o => offerCard(o))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
     el('aside', { class: 'github-star-card', 'aria-label': '支持买菜口袋书项目' }, [
       el('div', { class: 'github-star-copy' }, [
         el('span', { class: 'github-star-icon', 'aria-hidden': 'true' }, '⭐'),

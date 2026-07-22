@@ -50,6 +50,11 @@ export function mergeIncrementally(previous, freshByStore, storeStatuses, nowIso
     const expired = old.validUntil && new Date(old.validUntil) < new Date(nowIso);
     if (status === 'failed') {
       next.push({ ...old, status: 'unconfirmed' });
+    } else if (status === 'skipped' || status == null) {
+      // A store-scoped refresh must leave every unselected chain byte-for-byte
+      // intact. This is what lets multiple maintainers update different
+      // flyers without withdrawing or rewriting one another's data.
+      next.push(old);
     } else {
       // A successful store refresh is authoritative: a missing item is no longer
       // presented as current, even if its previously stated end date is later.

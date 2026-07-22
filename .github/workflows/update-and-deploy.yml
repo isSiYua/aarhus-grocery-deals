@@ -2,6 +2,20 @@ name: Update deals and deploy
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'app.js'
+      - 'search-ranking.js'
+      - 'styles.css'
+      - 'index.html'
+      - 'sw.js'
+      - 'manifest.webmanifest'
+      - 'icon.svg'
+      - 'data/current_offers.json'
+      - 'data/product_descriptions_zh.json'
+      - 'data/product_taxonomy_zh.json'
+      - 'data/product_review_overrides_zh.json'
   schedule:
     # GitHub cron uses UTC. Check shortly after Copenhagen 03:00 and 15:00;
     # run both possible UTC slots and keep only the current DST match.
@@ -26,14 +40,21 @@ jobs:
       id-token: write
     outputs:
       should_run: ${{ steps.schedule_gate.outputs.should_run }}
+      should_refresh: ${{ steps.schedule_gate.outputs.should_refresh }}
       should_deploy: ${{ steps.deploy_gate.outputs.should_deploy }}
     steps:
       - name: Select the Copenhagen 03:17 or 15:17 schedule
         id: schedule_gate
         shell: bash
         run: |
-          if [[ "${{ github.event_name }}" != "schedule" ]]; then
+          if [[ "${{ github.event_name }}" == "push" ]]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "should_refresh=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "should_refresh=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -42,8 +63,10 @@ jobs:
           if [[ "$copenhagen_offset" == "+0200" && ( "$scheduled_cron" == "17 1 * * *" || "$scheduled_cron" == "17 13 * * *" ) ]] || \
              [[ "$copenhagen_offset" == "+0100" && ( "$scheduled_cron" == "17 2 * * *" || "$scheduled_cron" == "17 14 * * *" ) ]]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "should_refresh=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "should_refresh=false" >> "$GITHUB_OUTPUT"
           fi
 
       # v7
@@ -55,11 +78,11 @@ jobs:
         with:
           node-version: 24
       - name: Refresh Aarhus offers from the public flyer feed
-        if: steps.schedule_gate.outputs.should_run == 'true'
+        if: steps.schedule_gate.outputs.should_refresh == 'true'
         run: npm run update:fallback
       - name: Detect material data changes
         id: data_changes
-        if: steps.schedule_gate.outputs.should_run == 'true'
+        if: steps.schedule_gate.outputs.should_refresh == 'true'
         shell: bash
         run: |
           if git diff --quiet -- data/*.json; then
@@ -80,7 +103,7 @@ jobs:
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm run validate
       - name: Preserve changed Aarhus data for the next fallback run
-        if: steps.schedule_gate.outputs.should_run == 'true' && steps.data_changes.outputs.changed == 'true'
+        if: steps.schedule_gate.outputs.should_refresh == 'true' && steps.data_changes.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -93,7 +116,7 @@ jobs:
         if: steps.schedule_gate.outputs.should_run == 'true'
         shell: bash
         run: |
-          if [[ "${{ github.event_name }}" != "schedule" || "${{ steps.data_changes.outputs.changed }}" == "true" ]]; then
+          if [[ "${{ github.event_name }}" == "push" || "${{ github.event_name }}" == "workflow_dispatch" || "${{ steps.data_changes.outputs.changed }}" == "true" ]]; then
             echo "should_deploy=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_deploy=false" >> "$GITHUB_OUTPUT"

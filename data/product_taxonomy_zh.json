@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T17:48:59.784Z",
+  "updatedAt": "2026-07-22T18:27:51.741Z",
   "entries": {
     "v1|1 enkelt bitter grant s whisky brondums snaps bacardi rom ramazzotti limoncello eller raastoff shots|alcohol_spirits": {
       "status": "active",
@@ -1702,7 +1702,7 @@
       "comparisonGroup": "alcohol_beer",
       "labelZh": "啤酒花香型 IPA 或精酿啤酒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Anarkist, Humlesovs, !PA eller Willemoes øl*",
+      "originalName": "Anarkist, Humlesovs, !PA eller Willemoes øl",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -4178,7 +4178,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|basic gummies|supplements|variant-b0436fb3032e": {
       "status": "active",
@@ -8692,11 +8692,23 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T15:17:37.945Z"
     },
+    "v1|colgate mundpleje|personal_oral_care|variant-56e68ad69128": {
+      "status": "active",
+      "categoryId": "personal_oral_beauty",
+      "comparisonGroup": "personal_oral_care",
+      "labelZh": "Colgate 牙膏或漱口水等口腔护理任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Colgate mundpleje",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T15:17:37.945Z"
+    },
     "v1|colgate mundpleje|personal_oral_care|variant-76024d1f8132": {
       "status": "active",
       "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_oral_care",
-      "labelZh": "牙膏、牙刷或其他口腔护理用品任选",
+      "labelZh": "Colgate 牙膏或漱口水等口腔护理任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Colgate mundpleje",
       "authoredBy": "Codex",
@@ -12082,7 +12094,7 @@
       "comparisonGroup": "alcohol_wine_rose",
       "labelZh": "桃红葡萄酒",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Diablo, Rosé d’Adimant eller Why Not? Premium Zin",
+      "originalName": "Diablo, Rosé d'Adimant eller Why Not? Premium Zin",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -15134,7 +15146,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|ferietekstiler badeponcho|clothing_adult_underwear|variant-69ddc34cb271": {
       "status": "active",
@@ -15206,7 +15218,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|ferietekstiler pude|home_textiles|variant-9958e17f9790": {
       "status": "active",
@@ -15866,7 +15878,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|flergangsservice|home_tableware|variant-3838d9935882": {
       "status": "active",
@@ -17000,13 +17012,13 @@
       "status": "active",
       "categoryId": "alcohol_wine_mixed",
       "comparisonGroup": "alcohol_wine_mixed_offer",
-      "labelZh": "起泡葡萄酒、浓郁果香型红酒任选",
+      "labelZh": "起泡葡萄酒任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Fuentespina Crianza, Z-Elebrate 16% eller Laugel Cremant d'Alsace",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:40:56.608Z"
+      "reviewedAt": "2026-07-22T18:21:49.064Z"
     },
     "v1|fuentespina crianza z elebrate 16 eller laugel cremant d alsace|alcohol_wine_sparkling": {
       "status": "active",
@@ -24698,7 +24710,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|kasket|clothing_adult_accessories|variant-7d3ec9e8f8cb": {
       "status": "active",
@@ -27602,7 +27614,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|lekaform|supplements|variant-a0e2059f9f05": {
       "status": "active",
@@ -33886,7 +33898,7 @@
       "comparisonGroup": "drink_energy",
       "labelZh": "能量饮料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Nailed eller State",
+      "originalName": "Nailed eller State*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -35162,7 +35174,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T15:14:08.030Z"
     },
     "v1|notesbog|leisure_toys|variant-c23d60d5abed": {
       "status": "active",
@@ -37378,7 +37390,7 @@
       "comparisonGroup": "spreads_jam",
       "labelZh": "花生酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Paradiso økologisk peanutbutter",
+      "originalName": "Paradiso økologisk peanutbutter*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -46490,7 +46502,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|skolesaet|leisure_stationery|variant-fcbc918db4d6": {
       "status": "active",
@@ -47584,11 +47596,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
-    "v1|soilmates avocadoolie|avocado": {
+    "v1|soilmates avocadoolie|oil_other": {
       "status": "active",
-      "categoryId": "fruit",
-      "comparisonGroup": "avocado",
-      "labelZh": "牛油果",
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_other",
+      "labelZh": "Soilmates 牛油果油",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Soilmates avocadoolie",
       "authoredBy": "Codex",
@@ -52610,7 +52622,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T04:08:36.238Z"
+      "reviewedAt": "2026-07-22T17:48:59.784Z"
     },
     "v1|torsdagssmorrebrod|ready_meal|variant-19e7c16d6862": {
       "status": "active",
@@ -52635,6 +52647,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T17:48:59.784Z"
+    },
+    "v1|tortilla chips|chips": {
+      "status": "active",
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "labelZh": "Old El Paso 原味玉米片",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Tortilla Chips",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T18:21:49.064Z"
     },
     "v1|tp link ax1500 router|electronics_computer": {
       "status": "active",
@@ -56774,7 +56798,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|yummylab brus|supplements|variant-b8641eae86d3": {
       "status": "active",
@@ -56942,7 +56966,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T17:48:59.784Z"
     },
     "v1|zendium|personal_oral_care|variant-07cdf9108791": {
       "status": "active",

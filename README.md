@@ -30,6 +30,12 @@ npm run check
 
 完整维护契约见 [Aarhus 促销数据长期更新工作流](docs/AGENT_UPDATE_PLAYBOOK.md)，其中规定了抓取、去重、分类、中文名称/原名分离、增量 AI 审核、发布和回滚流程。
 
+## 多人协作维护
+
+项目支持按连锁增量更新。例如 A 先从最新 `main` 运行 `npm run update:stores -- rema` 并合并 PR；B 之后同步 `main` 再运行 `npm run update:stores -- lidl`，B 的结果会保留 A 的 REMA 数据并复用已经审核的共享商品知识。
+
+普通贡献者使用 Fork + Pull Request，不需要获得仓库直接写权限。可信维护者也可以在 Actions 手动运行 **Refresh selected grocery chains**，由系统从最新主分支创建只包含指定连锁的更新 PR。领取刊期、同步顺序、重复审核避免策略和权限边界见 [多人维护指南](CONTRIBUTING.md)。
+
 ## 数据来源和覆盖边界
 
 Aarhus 使用 Tjek / eTilbudsavis 的公开促销端点。当前覆盖 Lidl、Netto、REMA 1000、365discount、føtex、Bilka、Kvickly、MENY、Løvbjerg、SuperBrugsen、SPAR、Min Købmand、Brugsen、LET-KØB 和 Wolt Market 等有可核验公开 feed 的日常食品商店。Salling Super 与 KFT Jylland 目前没有可发布的同类结构化周促销，只保留商店入口，不伪造价格。
@@ -48,12 +54,13 @@ Atlanta 数据已于 2026-07-22 冻结。`data/atlanta_offers.json` 与对应商
 
 ## 容量
 
-首页代码和当前 Aarhus JSON 由 GitHub Pages/Fastly 静态分发。当前 JSON 原始约 3.9 MB，经线上 gzip 后约 0.5 MB；图片由促销来源的图片 CDN 提供，不计入本仓库 Pages 数据文件流量。500–1000 名普通用户远低于 GitHub Pages 官方说明的每月 100 GB 软带宽限制；若以后出现数万名高频日活或收到限流通知，再迁移到专用 CDN。
+首页代码和当前 Aarhus JSON 由 GitHub Pages 静态分发。当前 JSON 原始约 11 MB，本地 gzip 约 1.1 MB；图片由促销来源的图片 CDN 提供。商店页每次只渲染一个大类，避免 Bilka 等大型卖场一次生成上千张卡片。500–1000 名普通用户的主要风险是手机渲染而不是服务端并发；若以后收到 Pages 限流通知，再迁移到专用 CDN。
 
 ## 本地维护
 
 ```sh
 npm run update:fallback
+npm run update:stores -- rema,lidl  # 只刷新指定连锁，其余数据原样保留
 npm run taxonomy:migrate   # 只有分类或中文审核规则变化时
 npm run check
 npm run build:preview

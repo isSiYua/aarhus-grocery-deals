@@ -43,6 +43,14 @@ const reviewCandidates = [
     imageUrl: null,
     publish: false,
   })),
+  ...(previousPendingTaxonomy.items || []).map(item => ({
+    originalName: item.originalName,
+    originalDescription: item.originalDescription || '',
+    categoryId: item.currentCategoryId,
+    comparisonGroup: item.currentComparisonGroup,
+    imageUrl: item.imageUrl || null,
+    publish: false,
+  })),
 ];
 
 const sameDescriptionReview = (previous, next) => Boolean(previous)
@@ -205,4 +213,5 @@ await Promise.all([
   write(taxonomyUrl, taxonomy), write(pendingTaxonomyUrl, pendingTaxonomy),
 ]);
 
-console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} reusable Aarhus products, including ${pendingDescriptionsToReview.items?.length || 0} pending products; no reviewed descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);
+const reviewedPendingCount = (pendingDescriptionsToReview.items?.length || 0) + (previousPendingTaxonomy.items?.length || 0);
+console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} reusable Aarhus products and resolved ${reviewedPendingCount} queued review records; no reviewed descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);

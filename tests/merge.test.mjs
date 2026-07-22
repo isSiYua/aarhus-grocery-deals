@@ -38,6 +38,19 @@ test('successful source removes a missing offer instead of showing a reconfirmat
   assert.equal(out.history[0].status, 'withdrawn');
 });
 
+test('store-scoped refresh preserves every unselected chain unchanged', () => {
+  const rema = { ...old, canonicalKey: 'rema|milk|1|l', storeId: 'rema', price: 12 };
+  const out = mergeIncrementally(
+    { offers: [old, rema], history: [] },
+    { netto: [{ ...old, price: 18 }] },
+    { netto: 'ok', rema: 'skipped' },
+    '2026-07-18T07:00:00Z',
+  );
+  const preserved = out.offers.find(offer => offer.storeId === 'rema');
+  assert.deepEqual(preserved, rema);
+  assert.equal(out.history.some(offer => offer.storeId === 'rema'), false);
+});
+
 test('deduplicates the same source offer before merging and archiving', () => {
   const fresh = { ...old, price:15, lastSeenAt:'2026-07-18' };
   const out = mergeIncrementally({ offers:[old], history:[] }, { netto:[fresh, fresh] }, { netto:'ok' }, '2026-07-18T07:00:00Z');

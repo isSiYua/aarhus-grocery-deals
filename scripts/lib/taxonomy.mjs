@@ -980,6 +980,8 @@ const HEADING_RULES = [
 // strawberry ice cream is ice cream, not fresh berries; tomato sauce is sauce,
 // not fresh tomatoes. These rules intentionally run before the produce rules.
 const PRODUCT_FORM_RULES = [
+  ['cooking_oils', 'oil_other', /avocadoolie|avocado oil/],
+  ['salty_snacks', 'chips', /tortilla chips/],
   ['vegetables', 'peas', /^slikaerter(?:\b|$)/],
   ['prepared_meat', 'prepared_mixed_meat', /filet ala morbrad.*polser/],
   ['prepared_meat', 'prepared_pork_mixed_offer', /koteletter.*grillsticks.*grillpolser/],

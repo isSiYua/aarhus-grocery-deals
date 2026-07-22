@@ -99,6 +99,21 @@ npm run build:preview
 
 已审核商品会进入可复用知识库。下一周相同商品即使换促销 ID，也不再消耗 AI token。
 
+### 多人按连锁更新
+
+维护者可以只刷新自己领取的连锁：
+
+```sh
+git pull --ff-only
+npm run update:stores -- rema
+npm run check
+npm run build:preview
+```
+
+`update:stores` 只把所选连锁视为本次权威来源；未选择连锁的数据、状态、附近门店和历史记录必须保持不变。每个维护者都必须从最新 `main` 开始，使用独立分支和 Pull Request。后一位维护者在前一位 PR 合并后同步 `main`，即可同时继承前一位更新的数据和共享商品知识。
+
+开始 AI/人工新品审核前，应使用 GitHub Issue 的“领取一次连锁促销更新”模板登记连锁和刊期。两个并行 PR 遇到同一 `descriptionKey` 时，后合并者必须先同步主分支并重新运行更新；主分支已有的审核结论直接复用，不应再次生成。
+
 ## 4. 分类与翻页规则
 
 分类分两层：
@@ -173,6 +188,8 @@ npm run build:preview
 ## 7. GitHub Actions、Agents 与安全边界
 
 - `.github/workflows/update-and-deploy.yml`：定时抓取、检测变化、运行检查、提交数据并部署 Pages。
+- `.github/workflows/refresh-selected-stores.yml`：可信维护者手动选择一个或多个连锁，从最新主分支创建隔离的数据更新 PR。
+- `CONTRIBUTING.md`：规定 Fork、领取刊期、按连锁更新、同步主分支和 PR 审核流程。
 - `.github/workflows/codeql.yml`：检查 JavaScript/TypeScript 安全问题。
 - `AGENTS.md`：告诉所有进入仓库的 AI 或人类维护者必须遵守的最低契约。
 - Actions 使用最小权限，第三方 Action 必须固定到完整 commit SHA。

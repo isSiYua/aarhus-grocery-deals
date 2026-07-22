@@ -7,6 +7,7 @@ import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS } from './lib/taxonomy.mjs'
 import { collectPendingDescriptions, loadDescriptionCache } from './lib/product-descriptions.mjs';
 import { collectPendingTaxonomy, loadProductTaxonomy } from './lib/product-taxonomy.mjs';
 import { isAarhusRelevantOffer, publicStoreRecord } from './lib/aarhus-coverage.mjs';
+import { parseUpdateStoreIds } from './lib/update-scope.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/current_offers.json');
@@ -35,6 +36,8 @@ const wantedStores = {
   salling: ['salling'],
   wolt_market: ['wolt market'],
 };
+const selectedStoreIds = parseUpdateStoreIds(process.env.AARHUS_UPDATE_STORES, Object.keys(wantedStores));
+const scopedUpdate = selectedStoreIds.size !== Object.keys(wantedStores).length;
 
 const aarhusStores = [
   {
@@ -266,11 +269,18 @@ try {
 }
 const dealerFor = aliases => dealers.find(d => aliases.some(a => normalizeName(d.name).includes(normalizeName(a))));
 const freshByStore = {};
-const storeStatuses = {};
+const storeStatuses = Object.fromEntries(Object.keys(wantedStores).map(storeId => [
+  storeId,
+  selectedStoreIds.has(storeId) ? 'pending' : 'skipped',
+]));
 const nearbyStoresByStore = {};
 const sourceNamesByStore = {};
 
-for (const [storeId, aliases] of Object.entries(wantedStores)) {
+console.log(scopedUpdate
+  ? `Refreshing selected stores only: ${[...selectedStoreIds].join(', ')}`
+  : 'Refreshing all configured public flyer sources');
+
+for (const [storeId, aliases] of Object.entries(wantedStores).filter(([storeId]) => selectedStoreIds.has(storeId))) {
   if (directoryError) {
     storeStatuses[storeId] = 'failed';
     continue;
@@ -304,7 +314,14 @@ for (const [storeId, aliases] of Object.entries(wantedStores)) {
 }
 
 const result = mergeIncrementally(previous, freshByStore, storeStatuses, nowIso);
-const failedStores = Object.entries(storeStatuses).filter(([,s]) => s === 'failed').map(([id]) => id);
+const failedStoresSet = scopedUpdate
+  ? new Set((previous.metadata?.failedStores || []).filter(storeId => !selectedStoreIds.has(storeId)))
+  : new Set();
+for (const [storeId, status] of Object.entries(storeStatuses)) {
+  if (status === 'failed') failedStoresSet.add(storeId);
+  if (status === 'ok') failedStoresSet.delete(storeId);
+}
+const failedStores = [...failedStoresSet].sort();
 const anySuccessfulStore = Object.values(storeStatuses).some(status => status === 'ok');
 const previousForOutput = { ...previous };
 delete previousForOutput.history;
@@ -317,11 +334,14 @@ const sortedOffers = [...result.offers].sort((a, b) => (
 ));
 const next = {
   ...previousForOutput,
-  stores: aarhusStores.map(store => ({
-    ...store,
-    sourceName: sourceNamesByStore[store.id] || store.sourceName || store.name,
-    nearbyStores: nearbyStoresByStore[store.id] || previous.stores?.find(item => item.id === store.id)?.nearbyStores || [],
-  })),
+  stores: aarhusStores.map(store => {
+    const previousStore = previous.stores?.find(item => item.id === store.id);
+    return {
+      ...store,
+      sourceName: sourceNamesByStore[store.id] || previousStore?.sourceName || store.sourceName || store.name,
+      nearbyStores: nearbyStoresByStore[store.id] || previousStore?.nearbyStores || [],
+    };
+  }),
   categories: AARHUS_CATEGORIES,
   comparisonGroups: AARHUS_COMPARISON_GROUPS,
   metadata: {

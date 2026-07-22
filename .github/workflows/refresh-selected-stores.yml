@@ -1,0 +1,83 @@
+name: Refresh selected grocery chains
+
+on:
+  workflow_dispatch:
+    inputs:
+      stores:
+        description: 'Comma-separated store ids, for example: rema or lidl,netto'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: selected-grocery-refresh-${{ inputs.stores }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      # v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      # v7
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: 24
+      - name: Refresh only the selected public flyer sources
+        env:
+          REQUESTED_STORES: ${{ inputs.stores }}
+        run: npm run update:stores -- "$REQUESTED_STORES"
+      - name: Run the complete publication gate
+        run: npm run check
+      - name: Build the mobile preview
+        run: npm run build:preview
+      - name: Report coverage and pending reviews
+        run: node scripts/report-update-status.mjs
+      - name: Create an isolated data branch
+        id: changes
+        env:
+          REQUESTED_STORES: ${{ inputs.stores }}
+        shell: bash
+        run: |
+          if git diff --quiet -- data/*.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No material data changes were found for $REQUESTED_STORES."
+            exit 0
+          fi
+          branch="data-refresh/${{ github.run_id }}-${{ github.run_attempt }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data/*.json
+          git commit -m "data: refresh $REQUESTED_STORES"
+          git push --set-upstream origin "$branch"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+      - name: Open a reviewable pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_BRANCH: ${{ steps.changes.outputs.branch }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+          REQUESTED_STORES: ${{ inputs.stores }}
+        shell: bash
+        run: |
+          gh pr create \
+            --base "$BASE_BRANCH" \
+            --head "$HEAD_BRANCH" \
+            --title "data: refresh $REQUESTED_STORES" \
+            --body "## 更新范围
+
+          仅刷新：$REQUESTED_STORES
+
+          该分支从触发时最新的 $BASE_BRANCH 创建；未选连锁的数据保持不变。已运行完整测试、分类审计、数据校验和移动端预览构建。
+
+          合并前请检查 pending 数量。真正新品必须完成中文名称、针对性说明和分类审核；已审核商品会直接复用，不重复调用模型。"
