@@ -1,7 +1,1139 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T04:18:42.112Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-07-22T05:21:19.954Z",
+  "count": 87,
+  "items": [
+    {
+      "descriptionKey": "v1|andoni glutenfri pizza salami|pizza_snacks",
+      "originalName": "Andoni glutenfri pizza salami",
+      "sampleDescriptions": [
+        "325 g.\nPr. kg 89,23"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|andoni italiensk pizza|pizza_snacks",
+      "originalName": "Andoni italiensk pizza",
+      "sampleDescriptions": [
+        "402-439 g.\nPr. kg max. 49,75"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|baadsmand fiskefrikadeller|prepared_mixed_meat",
+      "originalName": "Bådsmand fiskefrikadeller",
+      "sampleDescriptions": [
+        "170 g. Pr. kg 70,59"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|baadsmand varmroget laks|salmon_smoked",
+      "originalName": "Bådsmand varmrøget laks",
+      "sampleDescriptions": [
+        "125 g. Pr. kg 280,00"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bagepapir i ark traek luk 15 20 eller 30 liter affaldsposer|trash_bags",
+      "originalName": "Bagepapir i ark, Træk&Luk 15, 20 eller 30 liter affaldsposer",
+      "sampleDescriptions": [
+        "12-22 stk. Pr. stk. max. 0,42"
+      ],
+      "categoryId": "household_paper",
+      "comparisonGroup": "trash_bags",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bakersfield hvidlogsbrod 2 pak|bread",
+      "originalName": "Bakersfield hvidløgsbrød 2-pak",
+      "sampleDescriptions": [
+        "Dyb frost 350 g. Pr. kg 40,00"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bamseline skyllemiddel omo flydende vaskemiddel eller pulver|cleaning",
+      "originalName": "Bamseline skyllemiddel, OMO flydende vaskemiddel eller pulver",
+      "sampleDescriptions": [
+        "700-925 ml/700 g.\nPr. liter max. 2,00 /pr. vask max. 21,62"
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bananpose|tropical_fruit",
+      "originalName": "Bananpose",
+      "sampleDescriptions": [
+        "SMART OPBEVARING TIL DINE BANANER"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "tropical_fruit",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|bonduelle majs|corn",
+      "originalName": "Bonduelle majs",
+      "sampleDescriptions": [
+        "140 g. Pr. kg 35,71"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "corn",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|breakfast from bell s havregryn|cereal",
+      "originalName": "Breakfast from Bell's havregryn",
+      "sampleDescriptions": [
+        "1000 g. Finvalsede."
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|buko pisket flodeost|cheese_spreadable",
+      "originalName": "Buko pisket flødeost",
+      "sampleDescriptions": [
+        "125 g. Pr. kg 40,00 Max. 6 stk. pr. variant pr. kunde pr. dag til denne pris"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_spreadable",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|casa tarradellas pizza|pizza_snacks",
+      "originalName": "Casa Tarradellas pizza",
+      "sampleDescriptions": [
+        "400-430 g. Pr. kg max. 75,00 FINDES PÅ KØL"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|chestfords karry mango dressing|mango",
+      "originalName": "Chestfords karry/mango dressing",
+      "sampleDescriptions": [
+        "250 g. Pr. kg 48,00"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "mango",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|christgau eller black coffee helbonner|coffee_tea",
+      "originalName": "Christgau eller Black Coffee helbønner",
+      "sampleDescriptions": [
+        "375-400 g. Pr. kg max. 173,33"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|colgate tandborste|hair_body",
+      "originalName": "Colgate tandbørste",
+      "sampleDescriptions": [
+        "4-pak.\nPr. stk. 5,00"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|daim toblerone marabou king size chokoladebar|chocolate",
+      "originalName": "Daim, Toblerone, Marabou king size chokoladebar",
+      "sampleDescriptions": [
+        "45-60 g. Pr. kg max. 222,22"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk hel kylling eller hakket kyllingekod 7 10|whole_chicken",
+      "originalName": "Dansk hel kylling eller hakket kyllingekød 7-10%",
+      "sampleDescriptions": [
+        "800-1450 g. Pr. kg max. 61,25"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "whole_chicken",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk kyllingefilet|chicken_other",
+      "originalName": "Dansk kyllingefilet",
+      "sampleDescriptions": [
+        "SPOT 750 g. 100% kylling. Pr. kg 78,67"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|danske porrer|vegetables_other",
+      "originalName": "Danske porrer",
+      "sampleDescriptions": [
+        "2 stk. Danmark. Pr. stk. 6,50 PR. BUNDT"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|egelykke lagret skiveost|cheese_sliced",
+      "originalName": "Egelykke lagret skiveost",
+      "sampleDescriptions": [
+        "250 g. pr. kg 99,80"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_sliced",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|egelykke skyr naturel|yoghurt",
+      "originalName": "Egelykke skyr naturel",
+      "sampleDescriptions": [
+        "1000 g."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|egelykke smorbar|butter",
+      "originalName": "Egelykke smørbar",
+      "sampleDescriptions": [
+        "200 g. Pr. kg 49,75"
+      ],
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|egelykke yoghurt|yoghurt",
+      "originalName": "Egelykke yoghurt",
+      "sampleDescriptions": [
+        "1 liter. jordbær og peach/melba 1,4%, eller Jordbær og pære/banan 3,1%."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gamle molle krydderboller|bread",
+      "originalName": "Gamle Mølle krydderboller",
+      "sampleDescriptions": [
+        "6 stk. 350 g. Pr. kg 20,00"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|garnier micellar water eller derma eco hudpleje|hair_body",
+      "originalName": "Garnier micellar water eller Derma Eco hudpleje",
+      "sampleDescriptions": [
+        "50-400 ml.\nPr. liter max. 780,00"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|garofalo pasta|pasta_noodles",
+      "originalName": "Garofalo pasta",
+      "sampleDescriptions": [
+        "500 g. Pr. kg 32,00"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gevalia eller cafe noir instant kaffe|coffee_tea",
+      "originalName": "Gevalia eller Café Noir instant kaffe",
+      "sampleDescriptions": [
+        "240 g. Pr. kg 287,50"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|glyngore tun eller bornholms torskerogn|white_fish",
+      "originalName": "Glyngøre tun eller Bornholms torskerogn",
+      "sampleDescriptions": [
+        "105-200 g. Pr. kg max. 142,86"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "white_fish",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|gullon pick kiks|biscuits",
+      "originalName": "Gullón Pick kiks",
+      "sampleDescriptions": [
+        "250 g. Pr. kg 56,00 SPOT"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hakket okse og grisekod 8 12|mixed_minced",
+      "originalName": "Hakket okse- og grisekød 8-12%",
+      "sampleDescriptions": [
+        "650 g. Pr. kg 84,62 SPOT + PRIS 49.- Pr. kg 75,38 Gælder kun med Netto+ appen"
+      ],
+      "categoryId": "minced_meat",
+      "comparisonGroup": "mixed_minced",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|harvest best grontsager|vegetables_other",
+      "originalName": "Harvest Best grøntsager",
+      "sampleDescriptions": [
+        "400-750 g.\nPr. kg max. 35,00"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|hello sensitive opvaskemiddel|cleaning",
+      "originalName": "Hello Sensitive opvaskemiddel",
+      "sampleDescriptions": [
+        "500 ml.\nPr. liter 20,00"
+      ],
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|jensens spareribs|pork_ribs",
+      "originalName": "Jensens spareribs",
+      "sampleDescriptions": [
+        "500 g. Pr. kg 78,00"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_ribs",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kettle crispy chips|chips",
+      "originalName": "Kettle crispy chips",
+      "sampleDescriptions": [
+        "150 g. Pr. kg 80,00"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kinder maelkesnitte pingui eller maxi king|milk",
+      "originalName": "Kinder mælkesnitte, pingui eller maxi king",
+      "sampleDescriptions": [
+        "105-140 g.\nPr. kg max. 190,48"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kleenex eller urtekram haandsaebe|paper_facial",
+      "originalName": "Kleenex eller Urtekram håndsæbe",
+      "sampleDescriptions": [
+        "112 stk/300 ml.\nPr. liter 66,67 / pr. stk. 0,18"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_facial",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|knoppers tictac kinder country eller sour devils|chocolate",
+      "originalName": "Knoppers, TicTac, Kinder country eller Sour Devils",
+      "sampleDescriptions": [
+        "15-25 g. Pr. kg max. 333,33"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kohberg madbrod|bread",
+      "originalName": "Kohberg madbrød",
+      "sampleDescriptions": [
+        "SPOT 330 g. Pr. kg 45,45"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|koko chokoladeovertrukket frugt|chocolate",
+      "originalName": "Koko chokoladeovertrukket frugt",
+      "sampleDescriptions": [
+        "130 g.\nPr. kg 269,23"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|kyllingeunderlaar eller marinerede kyllingespyd|chicken_thigh",
+      "originalName": "Kyllingeunderlår eller marinerede kyllingespyd",
+      "sampleDescriptions": [
+        "250-600 g. Pr. kg max. 100,00"
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_thigh",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|langelaender storkobspolser|sausage_other",
+      "originalName": "Langelænder storkøbspølser",
+      "sampleDescriptions": [
+        "560-630 g. Pr. kg max. 69,64"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lavazza iskaffe|coffee_tea",
+      "originalName": "Lavazza iskaffe",
+      "sampleDescriptions": [
+        "250 ml. Cappuccino, espresso med mælk eller caffé latte. Pr. liter 40,00 SPOT"
+      ],
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|livskraft skrabeaeg|eggs",
+      "originalName": "Livskraft skrabeæg",
+      "sampleDescriptions": [
+        "8 stk. Str. M/L. Pr. stk. 3,00"
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "eggs",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|logismose marineret kyllingesteak|prepared_beef_marinated",
+      "originalName": "Løgismose marineret kyllingesteak",
+      "sampleDescriptions": [
+        "200 g. Pr. kg 175,00"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_beef_marinated",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|logismose okologisk farmor eller mormor koldskaal|yoghurt",
+      "originalName": "Løgismose økologisk farmor eller mormor koldskål",
+      "sampleDescriptions": [
+        "1 liter."
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|logismose okologisk graesk inspireret yoghurt|yoghurt",
+      "originalName": "Løgismose økologisk græsk inspireret yoghurt",
+      "sampleDescriptions": [
+        "800 g. Pr. kg 40,00"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|logismose okologisk mel|flour_baking",
+      "originalName": "Løgismose økologisk mel",
+      "sampleDescriptions": [
+        "800-1000 g. Pr. kg max. 25,00"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "flour_baking",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|logismose okologiske kammerjunkere|biscuits",
+      "originalName": "Løgismose økologiske kammerjunkere",
+      "sampleDescriptions": [
+        "180 g. Pr. kg 166,67"
+      ],
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|logismose torret frugt|dried_fruit",
+      "originalName": "Løgismose tørret frugt",
+      "sampleDescriptions": [
+        "65-80 g. Pr. kg max. 230,77"
+      ],
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "dried_fruit",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|magnum isbaeger eller bonbon|ice_cream",
+      "originalName": "Magnum isbæger eller bonbon",
+      "sampleDescriptions": [
+        "204-440 ml.\nPr. liter max. 171,57"
+      ],
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mamone sukker|baking_ingredients",
+      "originalName": "Mamone sukker",
+      "sampleDescriptions": [
+        "1 kg."
+      ],
+      "categoryId": "pantry",
+      "comparisonGroup": "baking_ingredients",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|minimum paalaeg|deli_mixed_offer",
+      "originalName": "Minimum pålæg",
+      "sampleDescriptions": [
+        "100 g. Pr. kg 120,00"
+      ],
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mutti hakkede tomater 3 pak|canned_tomatoes",
+      "originalName": "Mutti hakkede tomater 3-pak",
+      "sampleDescriptions": [
+        "1200 g. Pr. kg 25,00"
+      ],
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_tomatoes",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|naemt basissalat|leafy_green",
+      "originalName": "Næmt basissalat",
+      "sampleDescriptions": [
+        "SNITTET OG SKYLLET 200 g. Pr. kg 55,00 PR. POSE"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "leafy_green",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|naemt taertedej|ready_meal",
+      "originalName": "Næmt tærtedej",
+      "sampleDescriptions": [
+        "275 g. Pr. kg 36,36"
+      ],
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|naturli solbaerdrom|other_berries",
+      "originalName": "Naturli' solbærdrøm",
+      "sampleDescriptions": [
+        "520 ml.\nPr. liter 67,31"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "other_berries",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|navito fiskepinde eller tempurarejer|seafood_mixed_offer",
+      "originalName": "Navito fiskepinde eller tempurarejer",
+      "sampleDescriptions": [
+        "200-450 g. Pr. kg max. 125,00 Dyb-frost + PRIS 20.- Pr. kg max. 100,00 Gælder kun med Netto+ appen"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nestle morgenmad maxi pack|cereal",
+      "originalName": "Nestlé morgenmad maxi pack",
+      "sampleDescriptions": [
+        "600-625 g. Pr. kg max. 58,33 SPOT"
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|ogo okologisk bacon i skiver|bacon_sliced",
+      "originalName": "ØGO økologisk bacon i skiver",
+      "sampleDescriptions": [
+        "100 g. Pr. kg 200,00"
+      ],
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|ogo okologisk dansk broccoli|broccoli",
+      "originalName": "ØGO økologisk dansk broccoli",
+      "sampleDescriptions": [
+        "Pr. bundt. Danmark. Gælder kun med Netto+ appen"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "broccoli",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|ogo okologisk dansk hjertesalat|lettuce",
+      "originalName": "ØGO økologisk dansk hjertesalat",
+      "sampleDescriptions": [
+        "2 stk. Danmark. Pr. stk. 6,00"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "lettuce",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|ogo okologisk spinat fettuccine|spinach",
+      "originalName": "ØGO økologisk spinat fettuccine",
+      "sampleDescriptions": [
+        "250 g. Pr. kg 48,00"
+      ],
+      "categoryId": "vegetables",
+      "comparisonGroup": "spinach",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|ogo okologiske finvalsede havregryn|cereal",
+      "originalName": "ØGO økologiske finvalsede havregryn",
+      "sampleDescriptions": [
+        "1 kg. PRIS CHOK"
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|oyakata kopnudler|pasta_noodles",
+      "originalName": "Oyakata kopnudler",
+      "sampleDescriptions": [
+        "63-93 g. Pr. kg max. 158,73"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|peanutbutter pusheren peanutbutter|spreads_jam",
+      "originalName": "Peanutbutter Pusheren peanutbutter",
+      "sampleDescriptions": [
+        "1 kg. Smooth eller crunchy. SPOT"
+      ],
+      "categoryId": "breakfast",
+      "comparisonGroup": "spreads_jam",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|premieur gronlandske rejer|shrimp",
+      "originalName": "Premieur grønlandske rejer",
+      "sampleDescriptions": [
+        "300-330 g. Pr. kg max. 216,67"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|premieur marineret lammekolle|prepared_lamb_marinated",
+      "originalName": "Premieur marineret lammekølle",
+      "sampleDescriptions": [
+        "Pr. kg 149,90 PR. 1/2 KG BEGRÆNSET PARTI SPOT UGENS WEEKENDKØD KUN torsdag og fredag 30.-31. juli"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_lamb_marinated",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|premieur roget eller gravad laks|salmon_smoked",
+      "originalName": "Premieur røget eller gravad laks",
+      "sampleDescriptions": [
+        "100 g. Pr. kg 390,00"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|protein lab ost|cheese_other",
+      "originalName": "Protein Lab ost",
+      "sampleDescriptions": [
+        "100-250 g. Pr. kg max. 100,00"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|protein lab pitabrod|bread",
+      "originalName": "Protein Lab pitabrød",
+      "sampleDescriptions": [
+        "420 g. Pr. kg 59,52"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|protein lab proteindrik drikkeyoghurt budding eller mousse|yoghurt",
+      "originalName": "Protein Lab proteindrik, -drikkeyoghurt, -budding eller -mousse",
+      "sampleDescriptions": [
+        "200 g/300-500 ml. Pr. kg 24,00 / pr. liter max. 60,00"
+      ],
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|protein lab revet eller skiveskaaret ost|cheese_grated",
+      "originalName": "Protein Lab revet eller skiveskåret ost",
+      "sampleDescriptions": [
+        "150 g. Pr. kg 100,00"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|rahbek indbagte rejer eller laks|seafood_mixed_offer",
+      "originalName": "Rahbek indbagte rejer eller laks",
+      "sampleDescriptions": [
+        "250 g. Pr. kg 59,80 Normalpris 29,95 Max. 6 stk. pr. kunde pr. dag til 14,95 SPAR 15-"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|respons shampoo eller balsam|hair_body",
+      "originalName": "Respons shampoo eller balsam",
+      "sampleDescriptions": [
+        "400 ml.\nPr. liter 62,50"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|revet gouda lillebror ostehaps eller happy zoo smoreost|cheese_grated",
+      "originalName": "Revet gouda, Lillebror ostehaps eller Happy Zoo smøreost",
+      "sampleDescriptions": [
+        "108-200 g. Pr. kg max. 92,59"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_grated",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|saeby chilensk makrel|white_fish",
+      "originalName": "Sæby chilensk makrel",
+      "sampleDescriptions": [
+        "125 g. Filet eller findelt. Pr. kg 80,00"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "white_fish",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|salling princip brioche pretzel style burgerboller eller premieur sliders|bread",
+      "originalName": "Salling Princip brioche pretzel style burgerboller eller Premieur sliders",
+      "sampleDescriptions": [
+        "200-250 g. Pr. kg max. 125,00"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|salling princip ferskner eller nektariner|peaches_nectarines",
+      "originalName": "Salling Princip ferskner eller nektariner",
+      "sampleDescriptions": [
+        "6 stk. Udenlandske. Pr. stk. 4,17"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "peaches_nectarines",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|santa maria okologisk hvede tortilla|flour_baking",
+      "originalName": "Santa Maria økologisk hvede tortilla",
+      "sampleDescriptions": [
+        "320 g. Pr. kg 62,50"
+      ],
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "flour_baking",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|spangsberg petit flodeboller|chocolate",
+      "originalName": "Spangsberg petit flødeboller",
+      "sampleDescriptions": [
+        "144 g. Pr. kg 277,77"
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|tapas ost|cheese_other",
+      "originalName": "Tapas ost",
+      "sampleDescriptions": [
+        "125-150 g.\nPr. kg max. 133,33"
+      ],
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|the hair cafe haarpleje fiona friends eller palmolive haandsaebe|hair_body",
+      "originalName": "The Hair Café hårpleje, Fiona&Friends eller Palmolive håndsæbe",
+      "sampleDescriptions": [
+        "300-400 ml. Pr. liter max. 33,33"
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|velsmag dansk nakkefilet|pork_roast",
+      "originalName": "Velsmag dansk nakkefilet",
+      "sampleDescriptions": [
+        "Pr. kg 49,90 PR. 1/2 KG SPOT"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|velsmag entrecotes|beef_ribeye",
+      "originalName": "Velsmag entrecotes",
+      "sampleDescriptions": [
+        "600 g. Pr. kg 183,25 Modnet i min. 14 dage PRIS CHOK SPOT"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|velsmag koteletter eller hakket grise og kalvekod 4 7|pork_mixed_offer",
+      "originalName": "Velsmag koteletter eller hakket grise- og kalvekød 4-7%",
+      "sampleDescriptions": [
+        "400 g. Pr. kg 74,88 PRIS CHOK"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|velsmag lakseside|salmon_fresh",
+      "originalName": "Velsmag lakseside",
+      "sampleDescriptions": [
+        "600 g. Pr. kg 166,58 PRIS CHOK"
+      ],
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|velsmag medister eller hakket grisekod 8 12|pork_mixed_offer",
+      "originalName": "Velsmag medister eller hakket grisekød 8-12%",
+      "sampleDescriptions": [
+        "PRIS CHOK 500 g. Pr. kg 49,90"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "stores": [
+        "netto"
+      ],
+      "occurrences": 1
+    }
+  ]
 }
