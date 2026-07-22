@@ -19,11 +19,11 @@ jobs:
       contents: read
       security-events: write
     steps:
+      # v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
       # v4
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
-      # v3
-      - uses: github/codeql-action/init@08d09a53f0f5d694f253bd25732e4429c9e9337f
+      - uses: github/codeql-action/init@e4c79b4e9ebfe577d446333c2e31ed81079e7b03
         with:
           languages: javascript-typescript
-      # v3
-      - uses: github/codeql-action/analyze@08d09a53f0f5d694f253bd25732e4429c9e9337f
+      # v4
+      - uses: github/codeql-action/analyze@e4c79b4e9ebfe577d446333c2e31ed81079e7b03
