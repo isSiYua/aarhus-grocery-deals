@@ -11,6 +11,11 @@ const normalize = value => String(value || '')
 const title = (pattern, nameZh) => [pattern, nameZh];
 
 const DANISH_PRODUCT_FORM_TITLES = [
+  title(/^slikaerter$/, '甜脆豌豆荚'),
+  title(/toms guldkarameller.*kaempe skildpadder/, 'Toms 黄油焦糖或巧克力夹心糖任选'),
+  title(/^fredagsslik$/, '周五自选散装糖果'),
+  title(/twist.*marabou slikmarked/, 'Twist 或 Marabou 混合糖果任选'),
+  title(/panda lakrids/, 'Panda 甘草糖'),
   title(/^daaselaag med sugeror$/, '易拉罐防洒盖与吸管（2件装）'),
   title(/^steamcleaner$/, 'Sjö 蒸汽清洁机'),
   title(/ben s sauce.*dolmio|dolmio.*ben s sauce/, 'Ben’s 或 Dolmio 意面烹调酱任选'),
@@ -576,9 +581,9 @@ const GROUP_DEFAULTS = {
   mushrooms: '蘑菇', cauliflower: '花椰菜', broccoli: '西兰花', lettuce: '生菜', spinach: '菠菜', chives: '细香葱', basil: '罗勒', parsley: '欧芹', mixed_fresh_herbs: '多款鲜香草任选', fresh_herbs: '鲜香草', carrots: '胡萝卜', root_vegetables: '根茎蔬菜', peppers: '甜椒或辣椒', peas: '豌豆', corn: '玉米', vegetable_mix: '蔬菜组合', mixed_produce: '多款果蔬任选', prepared_salad: '预制沙拉', potatoes_fresh: '新鲜土豆', potato_salad: '土豆沙拉', potato_sides: '加工土豆配菜', tomatoes: '番茄', cucumber: '黄瓜', cabbage: '卷心菜', onion_garlic: '葱姜蒜或洋葱', leafy_green: '叶菜', vegetables_other: '其他蔬菜',
   apples: '苹果', pears: '梨', strawberries: '草莓', blueberries: '蓝莓', other_berries: '莓果', watermelon: '西瓜', melon: '甜瓜', grapes: '葡萄', apricots: '杏', plums: '李子', cherries: '樱桃', peaches_nectarines: '桃或油桃', mixed_stone_fruit: '多款核果任选', pineapple: '菠萝', mango: '芒果', avocado: '牛油果', bananas: '香蕉', prepared_fruit: '切配水果', mixed_fruit: '多款水果任选',
   bread: '面包', mixed_bakery: '多款烘焙食品任选', rice: '大米', pasta_noodles: '意面或面条', flour_baking: '面粉或饼皮', pizza_snacks: '披萨', dumplings: '冷冻饺子或春卷', ready_meal: '预制方便餐', plant_based_meat: '植物肉或素香肠', frozen_vegetables: '冷冻蔬菜', ice_cream: '冰淇淋或冰品', cereal: '早餐谷物', coffee_tea: '咖啡或茶', spreads_jam: '果酱、蜂蜜或抹酱', mixed_grocery_offer: '跨类别食品任选', canned: '罐头食品', sauces: '酱料', spices: '香料或调味料', oil_vinegar: '食用油或醋', oil_mixed_offer: '多种食用油任选', baking_ingredients: '烘焙原料', pickled_vegetables: '腌菜或橄榄', chips: '咸味零食', chocolate: '巧克力或糖果', biscuits: '饼干或蛋糕', nuts: '坚果', dried_fruit: '果干',
-  paper: '纸品', cleaning: '清洁用品', trash_bags: '垃圾袋或保鲜袋', kitchen_consumables: '厨房耗材', diapers: '纸尿裤', baby_care: '婴儿护理用品', baby_food: '婴幼儿食品', hair_body: '个人洗护用品', sun_care: '防晒用品', hygiene: '卫生护理用品', supplements: '营养补充剂', zero_soda: '无糖可乐或雪碧',
+  paper: '纸品', cleaning: '清洁用品', trash_bags: '垃圾袋或保鲜袋', kitchen_consumables: '厨房耗材', diapers: '纸尿裤', baby_care: '婴儿护理用品', baby_food: '婴幼儿食品', hair_body: '个人洗护用品', personal_hair_care: '洗发或护发用品', personal_skin_care: '洁面或护肤用品', personal_body_care: '沐浴或身体护理用品', personal_deodorant: '止汗除味用品', personal_oral_care: '口腔护理用品', personal_makeup: '彩妆用品', personal_shaving: '剃须用品', personal_appliances: '个人护理电器', personal_appliances_mixed_offer: '多种个人护理电器任选', personal_accessories: '个人护理辅助用品', personal_health_devices: '健康检测或护理设备', personal_care_mixed_offer: '多种个人护理用品任选', sun_care: '防晒用品', hygiene: '卫生护理用品', supplements: '营养补充剂', zero_soda: '无糖可乐或雪碧',
   drink_soda: '汽水或软饮', drink_juice: '果汁或果味饮料', drink_water: '饮用水或气泡水', drink_energy: '能量饮料', drink_sports: '运动饮料', drink_concentrate: '浓缩兑水饮料', drink_other: '其他饮料',
-  alcohol_beer: '啤酒', alcohol_wine: '葡萄酒或起泡酒', alcohol_spirits: '烈酒或利口酒', alcohol_cider_rtd: '苹果酒或即饮调制酒', alcohol_other: '其他酒类',
+  alcohol_beer: '啤酒', alcohol_wine: '葡萄酒', alcohol_wine_red: '红葡萄酒', alcohol_wine_white: '白葡萄酒', alcohol_wine_rose: '桃红葡萄酒', alcohol_wine_sparkling: '起泡酒', alcohol_wine_mixed_offer: '多种葡萄酒任选', alcohol_wine_other: '葡萄酒（类型未明确）', alcohol_spirits: '烈酒或利口酒', alcohol_cider_rtd: '苹果酒或即饮调制酒', alcohol_other: '其他酒类',
   pet_cat: '猫粮或猫用品', pet_dog: '狗粮或狗用品', pet_other: '其他宠物用品', flower_bouquet: '鲜花或花束', plants: '盆栽或园艺植物',
   home_appliances: '家用小电器', home_cookware: '锅具或厨房工具', home_tableware: '餐具或饮具', home_storage: '家居收纳用品', home_furniture: '家具', home_textiles: '床品或家用纺织品', home_bath: '浴室用品或毛巾', home_tools: '家用工具', home_garden: '园艺或户外家居用品', home_decor: '家居装饰用品', home_other: '其他家居用品',
   electronics_audio: '音频设备', electronics_computing: '数码产品或配件', electronics_tv: '电视或投影设备', electronics_mobile: '手机、平板或智能手表', electronics_computer: '电脑或数码配件', electronics_print_photo: '打印或影像设备', electronics_gaming: '游戏设备或游戏', electronics_charging: '充电器或线材', electronics_lighting: '电子照明用品', electronics_other: '其他电子电器',
@@ -589,7 +594,7 @@ const GROUP_DEFAULTS = {
 
 const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
   'drink_soda', 'drink_juice', 'drink_water', 'drink_energy', 'drink_sports', 'drink_concentrate', 'drink_other',
-  'alcohol_beer', 'alcohol_wine', 'alcohol_spirits', 'alcohol_cider_rtd', 'alcohol_other',
+  'alcohol_beer', 'alcohol_wine', 'alcohol_wine_red', 'alcohol_wine_white', 'alcohol_wine_rose', 'alcohol_wine_sparkling', 'alcohol_wine_mixed_offer', 'alcohol_wine_other', 'alcohol_spirits', 'alcohol_cider_rtd', 'alcohol_other',
   'pet_cat', 'pet_dog', 'pet_other', 'flower_bouquet', 'plants',
   'home_appliances', 'home_cookware', 'home_storage', 'home_decor', 'home_other',
   'electronics_audio', 'electronics_computing', 'electronics_lighting', 'electronics_other',
@@ -727,7 +732,7 @@ const SPECIFIC_DESCRIPTIONS = [
   [/asia cubes/, '冷冻亚洲风味一口小食，需加热后食用；具体馅料需按包装图片确认，不是冰淇淋。'],
 ];
 
-const LOW_PRIORITY_GROUP = /^(?:drink_|alcohol_|pet_|flower_|plants$|home_|electronics_|clothing_|leisure_|tobacco_|other_offer$)/;
+const LOW_PRIORITY_GROUP = /^(?:drink_|alcohol_|pet_|flower_|plants$|home_|electronics_|clothing_|leisure_|personal_|hair_body$|sun_care$|hygiene$|supplements$|tobacco_|other_offer$)/;
 
 const CLOTHING_TYPE_RULES = [
   [/regnjakke.*bukser/, ['雨衣或雨裤任选', '分别用于上身和下身的雨天防风防水']],
@@ -761,6 +766,7 @@ const CLOTHING_TYPE_RULES = [
   [/nederdel/, ['半身裙', '裙装下装']],
   [/\bkjole\b/, ['连衣裙', '上下连为一体的裙装']],
   [/natdragt/, ['连体睡衣', '睡眠时穿着的连体衣']],
+  [/\bbody\b/, ['婴幼儿连体衣', '包住上身并在裆部扣合，适合婴幼儿日常打底']],
   [/nattoj/, ['睡衣', '睡眠时穿着的衣物']],
   [/\bbh\b/, ['文胸', '女性胸部支撑内衣']],
   [/boxershorts/, ['平角内裤', '贴身平角内衣']],
@@ -791,7 +797,80 @@ const CLOTHING_TYPE_RULES = [
   [/haarklemme|haarspaende|haarpynt/, ['发饰', '用于固定或装饰头发']],
 ];
 
+const PERSONAL_TYPE_RULES = [
+  [/blodtryksmaaler.*airstyler.*massageapparat/, ['血压计、吹风造型器或拔罐按摩器任选', '可按需要选择测量血压、吹干造型或热敷按摩的电器']],
+  [/infrarodt? (?:ore)?termometer|termometer/, ['红外体温计', '通过红外感应测量体温；使用方式和测量部位以说明书为准']],
+  [/menopause test/, ['更年期检测棒', '通过检测尿液中的 FSH 水平辅助判断是否进入更年期']],
+  [/insektstik healer/, ['虫咬热敷止痒器', '对虫咬部位短时加热，帮助缓解瘙痒和刺痛']],
+  [/eltandborste/, ['电动牙刷', '用电动刷头清洁牙齿；替换刷头需确认接口型号']],
+  [/tandborstehoveder|ekstra borstehoveder/, ['电动牙刷替换刷头', '安装在兼容电动牙刷手柄上清洁牙齿']],
+  [/tandpasta.*tandborst|tandborst.*tandpasta|mundpleje|tandpleje/, ['牙膏、牙刷或其他口腔护理用品任选', '促销包含用途或规格不同的口腔清洁用品']],
+  [/tandpasta|^zendium\b|sensodyne/, ['牙膏', '配合牙刷清洁牙齿和口腔']],
+  [/tandborster?|borntandborster/, ['手动牙刷', '用于日常刷牙；购买时可按刷毛软硬度和适用年龄选择']],
+  [/mundskyl/, ['漱口水', '刷牙后用于漱口和辅助清洁口腔']],
+  [/soft picks/, ['齿间清洁棒', '用于清洁牙刷不易触及的牙缝']],
+  [/shampoo.*balsam|balsam.*shampoo|haarpleje|harpleje|h?rpleje/, ['洗发水、护发素或护发用品任选', '用于清洁、柔顺或护理头发']],
+  [/torshampoo/, ['干洗发喷雾', '喷在发根吸附油脂，无需用水冲洗']],
+  [/haarolie/, ['护发油', '涂在发中和发尾帮助柔顺并减少毛躁']],
+  [/hair styling/, ['头发造型用品', '用于定型、增加蓬松度或整理发型']],
+  [/shampoo.*(?:bad|shower)/, ['洗发沐浴二合一', '可用于清洗头发和身体']],
+  [/\bshampoo\b|antiskael/, ['洗发水', '用于清洁头发和头皮']],
+  [/\bbalsam\b/, ['护发素', '洗发后用于柔顺和护理头发']],
+  [/haartorrer|hartorrer/, ['吹风机', '吹干头发并辅助造型']],
+  [/glattejern/, ['直发器', '用加热夹板拉直头发并辅助造型']],
+  [/bolgejern/, ['卷发波浪造型器', '用加热造型棒制作卷发或波浪发型']],
+  [/airstyler|flexstyle|coconut serien|remington/, ['吹风造型器', '用于吹干、卷发、拉直或增加头发蓬松度']],
+  [/haarklipper/, ['理发器', '用不同限位梳修剪头发长度']],
+  [/skaegtrimmer.*ekstra skaer|trimmer.*ekstra skaer/, ['胡须修剪器或替换刀头任选', '可选择修剪胡须的电器或与指定型号兼容的替换刀头']],
+  [/skaegtrimmer|oneblade|multitrimmer|3 i 1 trimmer/, ['胡须或多用途修剪器', '用于修整胡须、鼻毛、眉毛或身体毛发，具体用途以型号为准']],
+  [/skraber|barberblad|comfortglide|hybrid 5 flex/, ['手动剃须刀或刀片', '用于剃除面部或身体毛发']],
+  [/micellar water.*ansigtscreme|renseprodukter|cleansing wipes/, ['卸妆洁肤或面部护理用品任选', '用于卸妆、清洁面部或日常保湿']],
+  [/micellar/, ['卸妆洁肤水', '用化妆棉擦拭面部，帮助卸妆和清洁']],
+  [/ansigtscreme|dagcreme|collagen jelly cream|sorbet cream/, ['面霜', '涂在面部用于保湿和日常皮肤护理']],
+  [/serum/, ['面部精华液', '洁面后涂在面部，进行保湿或针对性皮肤护理']],
+  [/eye patch/, ['眼膜贴', '贴在眼周用于保湿和护理']],
+  [/master patch/, ['痘痘贴', '覆盖在痘痘表面，保护局部皮肤']],
+  [/maskansigt|real deep mask|ansigtsmaske/, ['面膜', '敷在面部进行保湿或针对性皮肤护理']],
+  [/hudpleje|ansigts eller kropspleje/, ['面部或身体护肤用品任选', '用于保湿、清洁或护理面部和身体皮肤']],
+  [/hand treatment|laebepomade/, ['护手霜或润唇膏任选', '用于滋润手部或唇部皮肤']],
+  [/kropspleje|body creme|shower cream|body wash|haandsaebe|palmolive/, ['沐浴、洗手或身体护理用品任选', '用于清洁或滋润身体和双手']],
+  [/deodorant.*(?:shower|haandsaebe|haarpleje)|(?:shower|haandsaebe|haarpleje).*deodorant/, ['止汗剂、沐浴或洗护用品任选', '促销包含用途不同的个人清洁护理用品']],
+  [/deodorant|deo roll on|\bdeo\b/, ['止汗除味剂', '涂抹或喷在腋下等部位，帮助减少汗味']],
+  [/mascara/, ['睫毛膏', '涂在睫毛上，使睫毛颜色更明显并帮助定型']],
+  [/brow lift/, ['眉部定型胶或妆前乳任选', '用于整理眉毛或在上妆前打底']],
+  [/cheek paint/, ['腮红', '涂在面颊增加色彩']],
+  [/makeupspejl/, ['带灯化妆镜', '用镜面和补光灯辅助化妆或面部护理']],
+  [/vatrondeller.*vatpinde/, ['化妆棉或棉签任选', '用于卸妆、清洁或局部涂抹护理用品']],
+  [/vatrondeller/, ['化妆棉', '配合卸妆水、爽肤水等擦拭皮肤']],
+  [/vatpinde/, ['棉签', '用于局部清洁或涂抹护理用品；不要深入耳道']],
+  [/orepropper/, ['隔音耳塞', '塞在外耳道入口处降低环境噪声']],
+  [/brysttape/, ['胸部固定贴', '贴在皮肤上固定和支撑胸部，穿露背或低领服装时使用']],
+  [/solcreme.*aftersun|solpleje/, ['防晒霜或晒后护理用品任选', '外出前涂防晒产品，晒后护理产品用于舒缓和保湿']],
+  [/aftersun/, ['晒后舒缓乳', '日晒后涂在皮肤上帮助舒缓和保湿']],
+  [/solcreme/, ['防晒霜', '日晒前涂在暴露皮肤上，并按包装提示补涂']],
+  [/whey.*kreatin/, ['乳清蛋白粉加肌酸', '冲调饮用，用于补充蛋白质和肌酸']],
+  [/whey|proteinpulver/, ['乳清蛋白粉', '加水或牛奶冲调，用于补充蛋白质']],
+  [/kreatin|creatin/, ['肌酸粉', '冲调食用的运动营养补充剂']],
+  [/kollagen|collagen/, ['胶原蛋白粉', '冲调食用的胶原蛋白补充剂']],
+  [/maelkesyrebakterier|lacto seven|vita biosa/, ['益生菌补充剂', '用于补充乳酸菌等微生物成分']],
+  [/lactrase/, ['乳糖酶片', '食用含乳糖食品时补充乳糖酶']],
+  [/elektrolytter/, ['电解质补充剂', '冲调饮用，用于补充电解质']],
+  [/basic gummies|yummylab brus/, ['维生素软糖或泡腾片', '按包装标明的每日用量补充维生素或矿物质']],
+  [/4her|nordbo menopause|rodklovertabletter/, ['女性营养补充剂', '用于补充包装标明的营养成分；适用人群和用量以包装为准']],
+  [/aktivt kul/, ['活性炭片', '口服活性炭补充剂；用量及与药物同服的注意事项以包装为准']],
+  [/perikon draaber/, ['贯叶连翘滴剂', '含贯叶连翘成分的口服滴剂；用量和药物相互作用以包装为准']],
+  [/protein lab marked/, ['运动营养食品或饮料任选', '促销包含蛋白类食品、饮料或其他运动营养商品']],
+  [/b vitamin/, ['维生素 B 补充剂', '用于补充 B 族维生素']],
+  [/c vitamin/, ['维生素 C 补充剂', '用于补充维生素 C']],
+  [/d3 vitamin/, ['维生素 D3 补充剂', '用于补充维生素 D3']],
+  [/folsyre/, ['叶酸补充剂', '用于补充叶酸']],
+  [/magnesium/, ['镁补充剂', '用于补充镁元素']],
+  [/vitaminer|mineraler|livol|multi tabs|multiplus|longo vital|futura|lekaform/, ['维生素或矿物质补充剂', '用于补充包装标明的维生素和矿物质']],
+  [/bind|tampax|trusseindlaeg|tena|libresse|always/, ['卫生巾、棉条或失禁护理用品任选', '按经期或失禁护理需要选择具体类型、吸收量和规格']],
+];
+
 const GENERAL_TYPE_RULES = [
+  [/graestrimmer/, ['电动割草修边机', '用于修剪草坪边缘和割草机不易到达的位置']],
   [/robotstovsuger/, ['扫拖或扫地机器人', '自动在地面吸尘；部分型号还能湿拖或自动集尘']],
   [/ledningsfri stovsuger.*gulvvasker|gulvvasker/, ['洗地机', '吸走污水并清洗硬质地面']],
   [/stovsuger med pose|bosch stovsuger|miele stovsuger|nilfisk stovsuger/, ['有尘袋吸尘器', '用可更换尘袋收集地面灰尘']],
@@ -963,6 +1042,7 @@ const GENERAL_TYPE_RULES = [
   [/rullemadras/, ['床垫保护垫', '铺在床垫上增加舒适度并保护床垫']],
   [/siddehynde|bokshynde|havehynder|\bhynde\b/, ['坐垫', '放在椅子、长凳或地面上增加舒适度']],
   [/picnictaeppe/, ['防潮野餐垫', '铺在草地或沙滩上坐卧，背面可防潮']],
+  [/strandmaatte.*ryglaen/, ['带靠背折叠沙滩垫', '展开后铺在沙滩、草地或公园，并用内置靠背支撑坐姿']],
   [/fleeceplaid|rejsetaeppe|vattaeppe|varmetaeppe|\btaeppe\b/, ['毯子', '用于保暖、旅行或铺垫']],
   [/dormaatte/, ['门垫', '放在门口刮除鞋底灰尘和水分']],
   [/skuffemaatte/, ['抽屉或橱柜防滑垫', '铺在抽屉、橱柜或冰箱隔层防滑防污']],
@@ -999,7 +1079,7 @@ const GENERAL_TYPE_RULES = [
   [/skruetraekker|tang|krogesortiment|somsortiment|vaerktoj/, ['家用工具或紧固件套装', '用于简单安装和维修']],
   [/strikkepinde/, ['编织针', '用于手工编织毛线']],
   [/sytraad/, ['缝纫线', '用于手缝或缝纫机缝制']],
-  [/garn/, ['编织毛线', '用于针织、钩编或其他纤维手工']],
+  [/\bgarn\b/, ['编织毛线', '用于针织、钩编或其他纤维手工']],
   [/elcykel|\be[- ](?:city|cargo|fresh|gravel|metropolis|modern|mtb|patron|short john|street|stylish|uni|browse)/, ['电助力自行车', '由电机辅助骑行的自行车']],
   [/tandem/, ['双人自行车', '供两人前后共同踩踏']],
   [/lobecykel|loebecykel/, ['儿童平衡车', '无脚踏，儿童用脚蹬地练习平衡']],
@@ -1067,7 +1147,7 @@ const GROUP_TYPE_FALLBACK = {
   drink_water: ['饮用水或气泡水', '用于日常补水'], drink_energy: ['能量饮料', '通常含咖啡因的提神饮料'],
   drink_sports: ['运动或功能饮料', '用于补水或补充电解质'], drink_concentrate: ['浓缩兑水饮料', '按比例兑水后饮用'],
   drink_other: ['非酒精饮料', '可直接饮用或按包装方式冲调'], alcohol_beer: ['啤酒', '以麦芽发酵制成的含酒精饮料'],
-  alcohol_wine: ['葡萄酒或起泡酒', '以葡萄酿制的含酒精饮料'], alcohol_spirits: ['烈酒或利口酒', '酒精度较高的蒸馏酒或甜味酒'],
+  alcohol_wine: ['葡萄酒', '以葡萄酿制的含酒精饮料'], alcohol_wine_red: ['红葡萄酒', '用深色葡萄带皮发酵制成'], alcohol_wine_white: ['白葡萄酒', '以白葡萄或去皮葡萄汁酿制'], alcohol_wine_rose: ['桃红葡萄酒', '颜色介于红白葡萄酒之间，通常冷藏后饮用'], alcohol_wine_sparkling: ['起泡酒', '含有气泡的葡萄酒，具体甜度和类型以酒标为准'], alcohol_wine_mixed_offer: ['多种葡萄酒任选', '促销包含红、白、桃红或起泡等不同类型'], alcohol_wine_other: ['葡萄酒（类型未明确）', '公开促销资料未明确标出颜色或起泡类型'], alcohol_spirits: ['烈酒或利口酒', '酒精度较高的蒸馏酒或甜味酒'],
   alcohol_cider_rtd: ['苹果酒或预调酒', '水果发酵酒或已调配好的即饮酒'], alcohol_other: ['含酒精饮料', '含酒精的饮品'],
   pet_cat: ['猫粮或猫零食', '供猫食用的主粮、湿粮或零食'], pet_dog: ['狗粮或狗零食', '供犬只食用的主粮或零食'],
   pet_other: ['宠物用品', '供宠物使用或食用的商品'], flower_bouquet: ['鲜花或花束', '用于瓶插、家居摆放或送礼'],
@@ -1106,6 +1186,22 @@ const GROUP_TYPE_FALLBACK = {
   leisure_crafts_learning: ['手工或学习用品', '用于动手制作、认知练习或课堂学习'],
   leisure_gaming: ['电子游戏或软件', '用于对应游戏平台和设备'],
   leisure_other: ['休闲用品', '用于兴趣、聚会、学习或户外活动'],
+  personal_hair_care: ['洗发或护发用品', '用于清洁、护理或造型头发'],
+  personal_skin_care: ['洁面或护肤用品', '用于清洁面部、保湿或针对性护理皮肤'],
+  personal_body_care: ['沐浴或身体护理用品', '用于清洁、保湿或护理身体和双手'],
+  personal_deodorant: ['止汗除味用品', '用于腋下或身体其他部位减少汗味'],
+  personal_oral_care: ['口腔护理用品', '用于清洁牙齿、牙缝、舌面或护理口腔'],
+  personal_makeup: ['彩妆用品', '用于面部、眼部、眉部或唇部化妆'],
+  personal_shaving: ['剃须用品', '用于剃除或修整面部和身体毛发'],
+  personal_appliances: ['个人护理电器', '用于刷牙、吹干造型、理发或修整毛发'],
+  personal_appliances_mixed_offer: ['多种个人护理电器任选', '促销包含用途不同的健康或理容电器'],
+  personal_accessories: ['个人护理辅助用品', '用于清洁、化妆、隔音或其他日常护理'],
+  personal_health_devices: ['健康检测或护理设备', '用于测量、检测或辅助日常健康护理'],
+  personal_care_mixed_offer: ['多种个人护理用品任选', '促销包含清洁、护肤、洗护或其他不同用途的个人护理商品'],
+  hair_body: ['个人洗护用品', '用于头发、面部或身体的清洁护理'],
+  sun_care: ['防晒或晒后护理用品', '用于减少紫外线伤害或舒缓晒后皮肤'],
+  hygiene: ['卫生护理用品', '用于经期、失禁或其他个人卫生护理'],
+  supplements: ['营养补充剂', '用于补充维生素、矿物质、蛋白质或其他膳食成分'],
   other_offer: ['跨品类促销组合', '同一促销卡包含不同类型的商品，不能当作一个单品理解'],
 };
 
@@ -1114,11 +1210,20 @@ function inferLowPriorityType(originalName, originalDescription, comparisonGroup
   if (comparisonGroup.startsWith('clothing_')) {
     const childSize = '(?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)';
     const childSized = new RegExp('\\b' + childSize + '(?:\\s+' + childSize + '){1,3}\\b').test(text);
-    const audience = comparisonGroup.includes('_children') || childSized || /\b(?:lupilu|esmara kids|minions)\b/.test(text) ? '儿童' : '成人';
+    const audience = comparisonGroup.includes('_children') || childSized || /\b(?:lupilu|esmara kids|minions|til born)\b/.test(text) ? '儿童' : '成人';
     for (const [pattern, [typeZh, useZh]] of CLOTHING_TYPE_RULES) {
       if (pattern.test(text)) return { typeZh: `${audience}${typeZh}`, useZh };
     }
     return { typeZh: comparisonGroup.includes('_children') ? '儿童服饰' : '成人服饰', useZh: '日常穿着的服装或配件' };
+  }
+  if (/^(?:personal_|hair_body$|sun_care$|hygiene$|supplements$)/.test(comparisonGroup || '')) {
+    for (const [pattern, [typeZh, useZh]] of PERSONAL_TYPE_RULES) {
+      if (pattern.test(text)) return { typeZh, useZh };
+    }
+  }
+  if (/^(?:drink_|alcohol_|pet_|flower_|plants$|personal_|hair_body$|sun_care$|hygiene$|supplements$|tobacco_)/.test(comparisonGroup || '')) {
+    const protectedFallback = GROUP_TYPE_FALLBACK[comparisonGroup];
+    if (protectedFallback) return { typeZh: protectedFallback[0], useZh: protectedFallback[1] };
   }
   for (const [pattern, [typeZh, useZh]] of GENERAL_TYPE_RULES) if (pattern.test(text)) return { typeZh, useZh };
   const fallback = GROUP_TYPE_FALLBACK[comparisonGroup];
@@ -1126,19 +1231,10 @@ function inferLowPriorityType(originalName, originalDescription, comparisonGroup
   return null;
 }
 
-function compactOriginalName(originalName) {
-  return String(originalName || '').replace(/\*+$/u, '').trim();
-}
-
 function preciseLowPriorityName(originalName, originalDescription, comparisonGroup) {
   const inferred = inferLowPriorityType(originalName, originalDescription, comparisonGroup);
   if (!inferred) return null;
-  const source = compactOriginalName(originalName);
-  const normalizedSource = normalize(source);
-  const normalizedType = normalize(inferred.typeZh);
-  if (!source) return inferred.typeZh;
-  if (normalizedSource === normalizedType) return inferred.typeZh;
-  return `${source}（${inferred.typeZh}）`;
+  return inferred.typeZh;
 }
 
 const normalizeDash = value => String(value || '').replace(/\s+/g, ' ').replace(/\s*[-–]\s*/g, '–').trim();
@@ -1248,6 +1344,13 @@ function collectUsefulFactsZh(originalDescription, comparisonGroup) {
     if (/mousseux|prosecco|cava|cremant|spumante/i.test(text)) add('起泡类型');
   }
 
+  if (/^(?:personal_|hair_body$|sun_care$|hygiene$|supplements$)/.test(comparisonGroup)) {
+    const amount = raw.match(/\b(\d+(?:[.,]\d+)?(?:\s*[-–]\s*\d+(?:[.,]\d+)?)?)\s*(ml|g|stk)\b/i);
+    if (amount) add(`规格 ${normalizeDash(amount[1])} ${amount[2].toLowerCase() === 'stk' ? '件' : amount[2].toLowerCase()}`);
+    const spf = raw.match(/\bSPF\s*(\d+)\b/i);
+    if (spf) add(`SPF ${spf[1]}`);
+  }
+
   if (comparisonGroup === 'plants' || comparisonGroup === 'flower_bouquet') {
     const height = raw.match(/Højde\s*(\d+\s*[-–]\s*\d+|\d+)\s*cm/i);
     if (height) add(`株高 ${normalizeDash(height[1])} cm`);
@@ -1273,6 +1376,9 @@ function specificLowPriorityDescription(originalName, originalDescription, compa
 
 export function danishProductNameZh(originalName, comparisonGroup, originalDescription = '') {
   const text = normalize(originalName);
+  if (/^(?:personal_|hair_body$|sun_care$|hygiene$|supplements$)/.test(comparisonGroup || '')) {
+    return preciseLowPriorityName(originalName, originalDescription, comparisonGroup) || GROUP_DEFAULTS[comparisonGroup];
+  }
   for (const [pattern, nameZh] of DANISH_PRODUCT_FORM_TITLES) if (pattern.test(text)) return nameZh;
   if (LOW_PRIORITY_GROUP.test(comparisonGroup || '')) {
     return preciseLowPriorityName(originalName, originalDescription, comparisonGroup) || `${originalName}（${GROUP_DEFAULTS[comparisonGroup]}）`;

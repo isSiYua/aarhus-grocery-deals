@@ -28,7 +28,7 @@ npm run check
 
 更新器把成功刷新后已消失的促销移入 `data/history.json`，不再放进 `data/current_offers.json`。真正未见过或有歧义的新品会写入两个 pending 文件并暂不公开；Actions 日志会给出 warning，等待一次人工审核后永久复用。只有促销内容、来源状态或待审核队列发生实质变化时，定时任务才提交数据并重新部署 Pages。
 
-完整维护契约见 [AGENT_UPDATE_PLAYBOOK.md](docs/AGENT_UPDATE_PLAYBOOK.md)。
+完整维护契约见 [Aarhus 促销数据长期更新工作流](docs/AGENT_UPDATE_PLAYBOOK.md)，其中规定了抓取、去重、分类、中文名称/原名分离、增量 AI 审核、发布和回滚流程。
 
 ## 数据来源和覆盖边界
 

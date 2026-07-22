@@ -1,45 +1,173 @@
-# Agent-neutral Aarhus deal update playbook
+# Aarhus 促销数据长期更新工作流
 
-The scheduled path is credential-free and model-neutral. GitHub Actions checks the public Aarhus flyer feed at Copenhagen 03:17 and 15:17. It never calls Codex/OpenAI and therefore consumes no model tokens.
+这份文档是未来一至两年每次促销更新必须遵守的项目契约。维护者可以是 Codex、其他模型、人类或 GitHub Actions；最终数据质量标准相同。
 
-Atlanta is a frozen historical archive. Routine, fallback, review, preview, and taxonomy commands must not modify or fetch Atlanta data. Only an explicit future reactivation decision may use `npm run update:atlanta:archive` or `INCLUDE_ATLANTA_ARCHIVE=1`.
+## 1. 不可改变的页面展示规则
 
-## Routine refresh
+每张商品卡必须把三个字段分开：
+
+1. `productNameZh`：主标题，只写能让中文用户直接理解的中文商品名。可以保留必要品牌或型号，例如“Sjö 蒸汽清洁机”，但不得写成“Steamcleaner（蒸汽清洁机）”或“丹麦原名（中文类别）”。
+2. `originalName`：主标题下面的小字，逐字保留数据源中的丹麦原名。
+3. 复制按钮：只复制 `originalName`，方便用户去 Google、门店或原促销单检索。
+
+`zhExplanation` 解释具体商品，而不是重复大类。至少应说明下列有用信息中的两项（数据源确实提供时）：
+
+- 商品是什么、与中国消费者熟悉的什么东西相近；
+- 生鲜、腌制、调味、熟制、烟熏、裹粉、冷冻或即食状态；
+- 普通吃法、烹饪方法或实际用途；
+- 肉种、部位、商品形态；
+- 件数、重量、容量、尺码、材质、功率、尺寸或主要设备参数；
+- 混合任选促销包含哪些不同选项。
+
+禁止出现“请核对原名”“具体功能以原名为准”“成人服饰鞋袜”“购买时确认尺码”这类不能解释商品本身的空话。数据源没有的信息不得猜测，促销页码也不得猜测。
+
+## 2. 日常自动更新：零模型 token
+
+GitHub Actions 的 `Update deals and deploy` 工作流按 Copenhagen 时间每天 03:17 和 15:17 检查公开促销源。它执行：
+
+```sh
+npm run update:fallback
+npm test
+npm run audit:taxonomy
+npm run validate
+```
+
+这条路径不得配置 `OPENAI_API_KEY`、Codex token 或任何模型调用，模型 token 消耗固定为 0。
+
+自动任务按以下顺序工作：
+
+1. 只读取 Aarhus 的 Tjek / eTilbudsavis 公开 feed，不刷新 Atlanta 历史档案。
+2. 分页读取所有已配置连锁及其 Aarhus Kommune 门店，不能只取第一页或前六件商品。
+3. 过滤非 Aarhus 门店，保留连锁原名、公开地址和坐标；不保存用户位置。
+4. 标准化商品原名、包装、价格、有效期、会员价和多件价。
+5. 用来源商品 ID、稳定商品身份和促销周期去重；同一连锁促销不按每个门店重复展示。
+6. 用 `descriptionKey` 查询仓库中已经审核的中文名称、解释和分类。
+7. 已知商品直接复用，不因促销 ID、日期、图片或门店变化重复调用 AI。
+8. 真正未见过或有歧义的商品写入 `data/product_descriptions_pending.json` 与 `data/product_taxonomy_pending.json`，暂缓公开。
+9. 成功读取的促销源若不再包含上一期商品，旧促销从 `current_offers.json` 移入 `history.json`；不会继续伪装为当前优惠。
+10. 执行测试、分类审计、隐私审计和数据校验。任一失败都不得部署。
+11. 只有数据、来源健康状态或待审核队列发生实质变化时才自动提交和重新部署 Pages。
+
+GitHub Actions 的作用是稳定执行这些确定性步骤、记录日志、运行安全扫描和发布 Pages。它不负责凭空撰写新品中文解释。
+
+## 3. 新商品出现时：只审核增量
+
+Actions 报告 pending 数量大于 0 时，只处理 pending 中的新身份，不重写全部商品。
+
+推荐命令顺序：
 
 ```sh
 git pull --ff-only
+npm run update:fallback
+# 逐项阅读两个 pending 文件中的原名、说明、商店、图片和来源
+# 在长期规则、固定 override 或审核缓存中写入结果
+npm run taxonomy:migrate
+npm run review:products
 npm run update:fallback
 npm run check
 npm run build:preview
 ```
 
-`update:fallback` downloads only Aarhus source data, reuses repository-reviewed taxonomy/descriptions, queues truly unseen products, and withholds those unseen rows from publication. A successful source refresh is authoritative: a promotion missing from the new flyer leaves current data and moves to history. The UI also filters by `validUntil`, so an expired category disappears even before the next scheduled run.
+逐项审核新品时：
 
-Unchanged offers keep their stable identity, discovery date, last meaningful confirmation timestamp, and reviewed Chinese content. Sorting is deterministic to keep automated commits small. Scheduled Pages deployment happens only when data, source health, or a pending-review queue materially changes; a manual workflow run always deploys code changes.
+1. 先识别“它实际是什么”，再看原分类。不能因品牌或词语片段直接决定商品类型。
+2. 原名和说明足够明确时写可复用规则到 `scripts/lib/taxonomy.mjs`、`scripts/lib/product-name-zh.mjs`。
+3. 特殊商品或需要人工固定的例外写入 `data/product_review_overrides_zh.json`。
+4. 新比价小类必须同时补充 `AARHUS_COMPARISON_GROUPS`、中文解释和测试。
+5. 先区分肉种、部位和加工状态，再决定是否可进入同一个最低价池。
+6. 跨商品形态的任选促销使用不可比的 `*_mixed_offer`，不能制造虚假最低价。
+7. 生成的 `productNameZh` 只能是中文主标题；原名由 `originalName` 单独展示。
+8. 写清实际用途、加工状态和来源提供的规格，不用大类模板敷衍。
+9. 再运行一次 `update:fallback`，让已审核新品从 pending 转为正式发布数据。
+10. pending 必须回到 0，才能宣称当期商品全部录入。
 
-## When classification or Chinese text needs correction
+已审核商品会进入可复用知识库。下一周相同商品即使换促销 ID，也不再消耗 AI token。
 
-1. Add a normalized original-name entry to `data/product_review_overrides_zh.json`.
-2. Add or refine the reusable rule in `scripts/lib/taxonomy.mjs`.
-3. Add a Chinese group explanation in `scripts/lib/explain-zh.mjs` if the comparison group is new.
-4. Run:
+## 4. 分类与翻页规则
+
+分类分两层：
+
+- `categoryId` 决定用户翻到哪一页；必须按购物用途拆分，避免一个大类堆积数百件。
+- `comparisonGroup` 决定哪些商品能互相比最低价；必须比页面大类更严格。
+
+长期原则：
+
+- 家居拆为家电、厨具餐具、收纳、家具、家纺装饰、工具园艺。
+- 电子产品拆为电视音频、手机充电、电脑打印游戏、其他电子。
+- 服饰拆为成人服装、成人内衣袜子、成人鞋靴配饰、儿童服饰、综合任选。
+- 休闲拆为玩具游乐、文具图书手工、骑行、运动露营、其他休闲。
+- 个人护理按洗护发、护肤、身体护理、口腔、美妆、剃须、护理电器、卫生健康细分。
+- 奶酪、加工肉、饮料、冷冻方便餐按可靠商品形态拆页；葡萄酒拆为红、白、桃红/起泡、跨类型任选和类型待确认。
+- “其他促销”只允许真正跨类别或无法可靠识别的综合活动，不得作为偷懒桶。
+
+当前审计禁止任何单一页面超过 220 条促销；普通类别应尽量控制在约 120 条以内。若某一期可靠商品自然超过上限，应先设计有购物意义的新分类，不能按字母或随机编号硬拆。
+
+## 5. 每次更新必须完成的自检
+
+### 数据完整性
+
+- 所有配置连锁是否成功读取并完成分页？
+- 促销数突然大幅下降时，是正常换刊还是来源失败？
+- Min Købmand、Lidl、REMA 1000、Netto 等是否不是只显示少量第一页数据？
+- current、history、pending 和稳定商品身份数量是否合理？
+- pending 中文与 pending 分类是否均为 0？
+- 成功源中已经消失或过期的商品是否停止展示？
+
+### 中文名称与说明
+
+- 主标题是否只有中文商品名，而不是“原名（中文）”？
+- 原始丹麦名是否仍在下面独立显示且可复制？
+- 中文说明是否解释了具体商品、加工状态、用途与规格？
+- 是否出现品牌片段误判，例如 `Garnier` 被识别成 `garn` 毛线、`tandpasta` 被识别成 pasta 意面？
+- 是否出现所有商品共用一个“个人护理”“成人服饰”模板？
+
+### 分类与比价
+
+- 生肉与腌制、熟制、烟熏、裹粉或成型肉是否分开？
+- 肉种、部位、准备状态、计价单位和包装基础是否兼容？
+- 儿童尺码、`til børn`、LUPILU、ESMARA KIDS 是否进入儿童类？
+- 冰淇淋是否只在冰品类？湿巾是否不在卫生纸/厨房纸？鱼肉糜是否不在鱼柳？
+- 大类是否过度拥挤？“其他促销”是否出现可再细分商品？
+
+### 发布前命令
 
 ```sh
-npm run taxonomy:migrate
-npm run check
+npm run taxonomy:migrate   # 分类、类别顺序、固定审核或中文规则变化时必跑
+npm run check              # 任何失败都禁止部署
 npm run build:preview
 ```
 
-5. Inspect the offer, its comparison pool, neighbouring products, and at least one 390 px mobile card.
+最后至少检查 390 px 手机宽度下的首页、搜索页和代表性商品卡：中文主标题、原名小字、复制按钮、门店原名、解释、价格、有效期和来源都应正常。
 
-## Mandatory self-review
+## 6. Token 控制策略
 
-- Is it raw, seasoned, marinated, cooked, smoked, breaded, minced, formed, or mixed?
-- Are products in a lowest-price pool interchangeable in species, cut/form, preparation state, unit basis, and package basis?
-- Does the Chinese name reveal the actual item rather than a broad template?
-- Does the explanation match the original name, description, and any inspected flyer image?
-- Are mixed-choice, item-count, and unknown-weight offers excluded from incompatible price pools?
-- Did `npm run check` pass the tests, Aarhus audit, archived-data integrity check, privacy scan, and validation?
-- Are both pending review counts understood before deployment?
+按优先级执行：
 
-Never patch rendered HTML as the only correction, never guess a flyer page, and never deploy after a failed check.
+1. **确定性复用**：已审核 `descriptionKey` 直接复用，0 token。
+2. **规则复用**：常见商品由 taxonomy/name/description 规则生成，0 token。
+3. **增量审核**：只把 pending 的真正新品交给 AI，不发送 4,000 多条完整数据库。
+4. **上下文最小化**：每个新品只提供原名、原说明、现有分类、商店和必要图片；不重复发送无关历史。
+5. **一次写入、长期复用**：审核结论写回规则、override 和知识 JSON，避免下周再次询问。
+6. **批量校验不用 AI**：格式、分类一致性、过期、去重、隐私和页面拥挤均由本地脚本检查。
+
+日常更新应保持 0 token；只有当期真正新商品的翻译、解释或分类需要判断时，才产生有限的 AI token。
+
+## 7. GitHub Actions、Agents 与安全边界
+
+- `.github/workflows/update-and-deploy.yml`：定时抓取、检测变化、运行检查、提交数据并部署 Pages。
+- `.github/workflows/codeql.yml`：检查 JavaScript/TypeScript 安全问题。
+- `AGENTS.md`：告诉所有进入仓库的 AI 或人类维护者必须遵守的最低契约。
+- Actions 使用最小权限，第三方 Action 必须固定到完整 commit SHA。
+- 自动任务不接受网页访客写入内容；公开页面没有投稿、支付或远程管理接口。
+- 不在仓库或 Actions 中保存个人位置、支付二维码、数据库密钥或模型密钥。
+- Atlanta 仅作为冻结历史档案保留，日常命令不得刷新或发布它。
+
+## 8. 故障处理与回滚
+
+- 单个来源失败：保留其最后一次可确认数据并标记来源状态，不能把网络失败误当成全量下架。
+- 来源成功但商品消失：视为促销结束或换刊，移出当前列表。
+- pending 大于 0：已知商品可以继续发布，新品暂缓；完成审核后重新跑完整命令。
+- 检查失败：停止部署，先修复规则和数据，禁止手工改 `preview.html` 掩盖问题。
+- 线上异常：用 Git 历史定位最后一个通过全部检查的提交；优先修复前进，不使用破坏用户变更的强制 reset。
+
+任何维护者完成更新后，应在交付说明中报告：当前促销总数、覆盖连锁数、pending 数量、最大类别及数量、测试结果、部署 run 和最终提交。

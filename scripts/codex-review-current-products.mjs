@@ -4,7 +4,7 @@ import { explainInChinese } from './lib/explain-zh.mjs';
 import { danishProductNameZh, specificDanishDescription } from './lib/product-name-zh.mjs';
 import { descriptionKeyFor, DESCRIPTION_SPEC_VERSION } from './lib/product-descriptions.mjs';
 import { sanitizeItemDescriptionZh } from './lib/description-quality.mjs';
-import { AARHUS_COMPARISON_GROUPS, classifyOffer, isClearlyOutOfScope, normalizedText } from './lib/taxonomy.mjs';
+import { AARHUS_COMPARISON_GROUPS, classifyOffer, isClearlyOutOfScope, normalizedText, refineAarhusCategory } from './lib/taxonomy.mjs';
 
 const aarhusUrl = new URL('../data/current_offers.json', import.meta.url);
 const descriptionsUrl = new URL('../data/product_descriptions_zh.json', import.meta.url);
@@ -65,7 +65,7 @@ for (const offer of reviewCandidates) {
   const override = reviewOverrides.entries?.[normalizedText(offer.originalName)] || null;
   if (override?.status === 'excluded') continue;
   const classification = override?.categoryId && override?.comparisonGroup
-    ? { categoryId: override.categoryId, comparisonGroup: override.comparisonGroup }
+    ? { categoryId: refineAarhusCategory(override.categoryId, override.comparisonGroup), comparisonGroup: override.comparisonGroup }
     : (classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup });
   const descriptionKey = descriptionKeyFor(raw, classification);
   const productNameZh = override?.productNameZh || danishProductNameZh(

@@ -10,6 +10,7 @@ This repository is intentionally model-neutral. Codex, Hermes, DeepSeek, a human
 4. Run `npm run taxonomy:migrate` after changing fixed classifications, comparison groups, category order, or review overrides.
 5. Run `npm run check`. Do not deploy when tests, the human-taxonomy audit, or data validation fails.
 6. Build the preview with `npm run build:preview` and inspect representative mobile cards before publishing material UI or taxonomy changes.
+7. When pending products were reviewed, run `npm run update:fallback` again and confirm both pending counts are zero before claiming the period is complete.
 
 ## Taxonomy and comparison policy
 
@@ -19,6 +20,9 @@ This repository is intentionally model-neutral. Codex, Hermes, DeepSeek, a human
 - Item-count offers without a known weight do not compete with weight-based offers.
 - Product identity beats incidental ingredient/flavour words. Bread named “hotdogbrød” is bread; fish mince is not fish fillet; wet wipes are not toilet/kitchen paper.
 - Chinese names must tell a Chinese-speaking shopper what the product actually is. Descriptions should state preparation state, ordinary use, and a familiar comparison when useful. Avoid empty category templates when the original name or flyer image is specific.
+- `productNameZh` is the Chinese-only card title. Never format it as `originalName（中文名）`. `originalName` stays on the separate source-name line and the copy button copies only `originalName`.
+- Do not allow brand substrings to override product identity. Examples: `Garnier` is not Danish `garn` (yarn), and `tandpasta` is toothpaste rather than pasta.
+- Split shopper-facing categories by practical use before a page becomes unwieldy. The audit rejects a category above 220 offers; ordinary categories should target roughly 120 or fewer without arbitrary alphabetic splitting.
 - Never guess a flyer page number or source locator.
 
 ## New or uncertain products

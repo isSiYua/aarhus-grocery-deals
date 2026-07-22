@@ -17,7 +17,7 @@ test('fixed Codex taxonomy overrides the fallback without changing stable identi
     },
   };
   assert.deepEqual(resolveProductTaxonomy('v1|citronella lys|fruit_other', { categoryId: 'fruit', comparisonGroup: 'fruit_other' }, taxonomy), {
-    categoryId: 'home_kitchen',
+    categoryId: 'home_tools_garden',
     comparisonGroup: 'home_goods',
     taxonomySource: 'codex_taxonomy',
     taxonomyReviewStatus: 'reviewed',
@@ -117,9 +117,11 @@ test('published fine taxonomy keeps mince, yoghurt, cold dairy, and cheese forms
     if (aarhusMince.has(offer.comparisonGroup)) assert.equal(offer.categoryId, 'minced_meat', offer.originalName);
     if (offer.comparisonGroup === 'yoghurt') assert.equal(offer.categoryId, 'yoghurt', offer.originalName);
     if (['cream', 'mixed_dairy'].includes(offer.comparisonGroup)) assert.equal(offer.categoryId, 'cream_cold_dairy', offer.originalName);
-    if (offer.comparisonGroup.startsWith('cheese_')) assert.equal(offer.categoryId, 'cheese', offer.originalName);
+    if (offer.comparisonGroup.startsWith('cheese_')) {
+      assert.ok(['cheese_table', 'cheese_soft_fresh', 'cheese_sliced_grated', 'cheese_other'].includes(offer.categoryId), offer.originalName);
+    }
   }
-  const aarhusCheeseGroups = new Set(aarhus.offers.filter(offer => offer.categoryId === 'cheese').map(offer => offer.comparisonGroup));
+  const aarhusCheeseGroups = new Set(aarhus.offers.filter(offer => offer.comparisonGroup.startsWith('cheese_')).map(offer => offer.comparisonGroup));
   assert.ok(aarhusCheeseGroups.size >= 10);
   assert.equal(aarhusCheeseGroups.has('cheese'), false);
   assert.equal(aarhusCheeseGroups.has('cheese_fresh'), false);

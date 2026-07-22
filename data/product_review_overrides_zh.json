@@ -2,15 +2,57 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
   "entries": {
+    "toms guldkarameller eller kaempe skildpadder 3 pak": {
+      "categoryId": "candy",
+      "comparisonGroup": "candy",
+      "productNameZh": "Toms 黄油焦糖或巧克力夹心糖任选",
+      "descriptionZh": "可选 Toms Guldkarameller 黄油焦糖，或 Kæmpe Skildpadder 三枚装巧克力夹心糖，规格 84–100 克。两者口味和单颗大小不同，均为开袋即食糖果。",
+      "descriptionSpecVersion": "zh-product-v5"
+    },
+    "fredagsslik": {
+      "categoryId": "candy",
+      "comparisonGroup": "candy",
+      "productNameZh": "周五自选散装糖果",
+      "descriptionZh": "周五限定的自选散装糖果，现场有 75 种以上款式，按重量计价。可自行混装软糖、硬糖或甘草糖等，实际配料和过敏原按所选糖果标签确认。",
+      "descriptionSpecVersion": "zh-product-v5"
+    },
+    "twist eller marabou slikmarked": {
+      "categoryId": "candy",
+      "comparisonGroup": "candy",
+      "productNameZh": "Twist 或 Marabou 混合糖果任选",
+      "descriptionZh": "可选 Twist 混合夹心巧克力，或 Marabou 糖果与巧克力系列，规格 130–180 克。不同袋装组合的夹心、坚果和过敏原可能不同。",
+      "descriptionSpecVersion": "zh-product-v5"
+    },
+    "panda lakrids": {
+      "categoryId": "candy",
+      "comparisonGroup": "candy",
+      "productNameZh": "Panda 甘草糖",
+      "descriptionZh": "Panda 袋装甘草糖，规格 175–200 克。甘草风味明显，开袋即食；具体甜味或咸味款式及配料以包装为准。",
+      "descriptionSpecVersion": "zh-product-v5"
+    },
+    "slikaerter": {
+      "categoryId": "vegetables",
+      "comparisonGroup": "peas",
+      "productNameZh": "丹麦甜脆豌豆荚",
+      "descriptionZh": "丹麦产甜脆豌豆荚，125 克装，豆荚嫩脆可直接食用，也可用于沙拉或快速翻炒。丹麦语 slikærter 指甜脆豌豆，不是糖果。",
+      "descriptionSpecVersion": "zh-product-v5"
+    },
+    "foldbar strandmaatte med ryglaen": {
+      "categoryId": "leisure_sports_outdoors",
+      "comparisonGroup": "leisure_camping",
+      "productNameZh": "带靠背折叠沙滩垫",
+      "descriptionZh": "可折叠沙滩垫，带内置靠背，展开尺寸约 149×50 厘米，重约 800 克，材质为聚酯纤维和金属。可铺在沙滩、公园草地或节庆场地坐靠，折叠后可像手提包一样携带。",
+      "descriptionSpecVersion": "zh-product-v5"
+    },
     "aktivitets legetoj": {
-      "categoryId": "leisure",
+      "categoryId": "leisure_toys_play",
       "comparisonGroup": "leisure_toys",
       "productNameZh": "Lamaze 婴儿活动摇铃玩具任选",
       "descriptionZh": "Lamaze 婴儿活动玩具或摇铃，多种款式任选，1 件装。适合通过抓握、摇动和触摸进行感官启蒙；购买前请按包装确认建议月龄、清洁方法以及小零件等安全提示。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "aktivitetslegetoj": {
-      "categoryId": "leisure",
+      "categoryId": "leisure_toys_play",
       "comparisonGroup": "leisure_toys",
       "productNameZh": "Lamaze 婴儿活动摇铃玩具任选",
       "descriptionZh": "Lamaze 婴儿活动玩具或摇铃，多种款式任选，1 件装。适合通过抓握、摇动和触摸进行感官启蒙；购买前请按包装确认建议月龄、清洁方法以及小零件等安全提示。",
@@ -38,7 +80,7 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "hapsermenu": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "多人份小食拼盘菜单",
       "descriptionZh": "需提前预订的多人份小食拼盘，每人包含鸡肉培根小汉堡、饺子和萨莫萨、咸派、鸡肉串、丹麦肉丸及鸡肉小食。页面所示至少订 6 人份，取餐时间与过敏原需向门店确认。",
@@ -52,28 +94,28 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "klassisk brunch": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "经典多人份早午餐菜单",
       "descriptionZh": "需提前预订的经典早午餐菜单，包含面包、炒蛋、培根、香肠、冷切肉、肝酱、奶酪、Skyr、水果和小煎饼等。页面所示至少订 6 人份，具体取餐与过敏原信息需向门店确认。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "menu to go med flaeskestegsburger": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "四人份脆皮烤猪肉汉堡食材包",
       "descriptionZh": "供四人食用的 flæskestegsburger 食材包，包含汉堡面包、脆皮烤猪肉、腌黄瓜沙拉、腌红甘蓝和蛋黄酱。按门店说明组合并加热即可，不是单独售卖的生鲜猪肉。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "stor brunch": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "豪华多人份早午餐菜单",
       "descriptionZh": "需提前预订的豪华早午餐菜单，包含多款面包、冷切肉、烟熏鱼酱、肝酱、炒蛋、培根、香肠、Skyr、水果、煎饼及奶酪拼盘。页面所示至少订 6 人份，过敏原与取餐时间需向门店确认。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "tapasmenu": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "多人份 Tapas 小食菜单",
       "descriptionZh": "需提前预订的多人份 Tapas 菜单，包含法棍、青酱、鹰嘴豆泥、橄榄、咸派、鸡肉串、三文鱼酱、火腿、香肠、奶酪及水果等。页面所示至少订 6 人份，取餐和过敏原信息需向门店确认。",
@@ -87,21 +129,21 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "brunch": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "Brunch 早午餐商品",
       "descriptionZh": "促销原名只写 Brunch，表示早午餐相关的即食或方便餐商品。具体内容、是否需要加热以及过敏原信息需按门店标签和包装确认。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "grillbakke": {
-      "categoryId": "home_kitchen",
+      "categoryId": "kitchenware",
       "comparisonGroup": "home_cookware",
       "productNameZh": "烧烤托盘",
       "descriptionZh": "这是放在烧烤架或烤箱中的金属托盘，用来承托肉类、蔬菜和其他较小食材，减少食物掉入火中；可重复使用的款式清洗后可再次使用。",
       "descriptionSpecVersion": "zh-product-v5"
     },
     "grillmix fra slagteren": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "prepared_mixed_meat",
       "productNameZh": "肉铺烧烤肉类组合",
       "descriptionZh": "肉铺提供的多款烧烤肉组合或任选，可能包含不同肉种、部位和调味方式。购买时请按柜台标签确认具体肉类，并彻底加热后食用。",
@@ -115,7 +157,7 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "lun lordag": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "mixed_grocery_offer",
       "productNameZh": "烤猪肉片、丹麦肉饼、炸鱼柳或肝酱任选",
       "descriptionZh": "这是熟食柜的烤猪肉片、丹麦肉饼、裹粉炸鱼柳或肝酱任选；各选项的肉种、形态和食用方式不同，不是一种统一商品。",
@@ -129,14 +171,14 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "tulip slow cooked": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_pork",
       "comparisonGroup": "prepared_pork_cooked",
       "productNameZh": "Tulip 慢煮猪肉制品",
       "descriptionZh": "Tulip 慢煮猪肉制品，肉类已经调味并经过慢煮处理，通常只需按包装说明充分复热即可食用；具体部位、口味和重量以包装为准。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "cloetta bars": {
-      "categoryId": "candy_chocolate",
+      "categoryId": "chocolate",
       "comparisonGroup": "chocolate",
       "productNameZh": "Cloetta 夹心巧克力棒或巧克力威化棒任选",
       "descriptionZh": "Cloetta 单人装甜食棒任选，图片包括 Plopp 夹心牛奶巧克力、Center 焦糖或太妃糖夹心巧克力，以及 Kex 巧克力威化棒，规格为 60–80 克。开袋即食；夹心巧克力与威化棒形态不同，应按实际口味和包装选择。",
@@ -159,7 +201,7 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "filet ala morbrad el polser": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "prepared_mixed_meat",
       "productNameZh": "Theilgaard 腌制猪里脊风味肉或多款香肠任选",
       "descriptionZh": "Theilgaard 多品项任选，包括 gyros 或蒜味、Puszta 风味的腌制猪里脊形态肉，以及普通或芝士培根法兰克福肠、Ringrider 或 gourmet 香肠。肉块与香肠的形态、配料和用途不同，应按实际选项选择。",
@@ -181,7 +223,7 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "koteletter grillsticks eller grillpolser": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_pork",
       "comparisonGroup": "prepared_pork_mixed_offer",
       "productNameZh": "MADVÆRKET 调味猪排、烧烤肉条或烧烤肠任选",
       "descriptionZh": "MADVÆRKET 烧烤肉品任选，可选 BBQ 或 Smokey BBQ 猪排、调味烧烤肉条，以及 salsiccia 或培根芝士烧烤肠，规格为 300–360 克。各选项的部位、是否成型和香肠配料不同。",
@@ -195,28 +237,28 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "madvaerket kyllingebrystfilet eller laarmix": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_poultry_mixed_offer",
       "productNameZh": "MADVÆRKET BBQ 鸡胸肉或鸡腿肉混合装任选",
       "descriptionZh": "已经带 BBQ 调味的鸡肉，可选鸡胸肉片或鸡腿肉混合装，规格为 325–800 克。两种部位的骨肉比例、口感和烹调时间不同，适合煎烤或烧烤；它们都不是未调味的生鸡肉。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "mcennedy spareribs": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_pork",
       "comparisonGroup": "prepared_pork_mixed_offer",
       "productNameZh": "MCENNEDY 辣味或 BBQ 调味猪肋排",
       "descriptionZh": "MCENNEDY 调味猪肋排，可选 Hot 辣味或 BBQ 烧烤味。适合按包装说明用烤箱、空气炸锅或烧烤架充分加热；它已经带明确调味，不是未调味生鲜猪肋排。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "omhu culotte af frilandslammekod": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "prepared_mixed_meat",
       "productNameZh": "OMHU 散养羊臀尖肉原味或蒜香迷迭香腌制款",
       "descriptionZh": "OMHU 散养羊肉 culotte，也就是适合整块煎烤的羊臀尖肉，规格约 290–300 克，可选原味或蒜香迷迭香腌制款。两种准备状态不同，均需彻底加热并按对应口味烹调。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "pakkemarked lige klar til grillen": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "prepared_mixed_meat",
       "productNameZh": "Coop 多款即烤腌制肉品任选",
       "descriptionZh": "Coop 烧烤肉品任选，包括 BBQ 红椒猪排、腌制羊臀尖、猪肉烧烤串、腌制鸡腿、Firepit 猪肋排、牛猪混合 cevapcici、带蔬菜肉串和牛猪混合汉堡饼，单包 200–800 克。各选项的肉种、部位、可食比例和成型方式差异很大。",
@@ -231,7 +273,7 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "sol mar blaeksprutteringe eller chorizo kroketter": {
-      "categoryId": "frozen_ready",
+      "categoryId": "frozen_other",
       "comparisonGroup": "mixed_grocery_offer",
       "productNameZh": "SOL&MAR 裹粉鱿鱼圈或 Chorizo 辣肠可乐饼任选",
       "descriptionZh": "SOL&MAR 冷冻西班牙风味点心任选，可选裹浆鱿鱼圈，或以 Chorizo 辣味香肠为馅的可乐饼，每包 500 克。通常用油炸、烤箱或空气炸锅加热；一个是海鲜、一个是肉馅点心。",
@@ -247,55 +289,55 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "sol mar kyllingevinger": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_wings_seasoned",
       "productNameZh": "SOL&MAR Piri 香辣调味鸡翅",
       "descriptionZh": "SOL&MAR 冷冻调味鸡翅，包装图显示为 Piri 香辣风味。适合烤箱或空气炸锅充分加热；这是已经调味的制成品，不是未调味生鸡翅。"
     },
     "rose buffalo wings": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_wings_seasoned",
       "productNameZh": "ROSE 水牛城辣味鸡翅",
       "descriptionZh": "ROSE 冷冻水牛城辣味鸡翅，已经腌制调味，可用烤箱或空气炸锅充分加热。它属于调味鸡肉制成品。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "morliny classic eller crispy hot wings": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_wings_mixed_offer",
       "productNameZh": "Morliny 原味热辣或裹粉脆皮鸡翅",
       "descriptionZh": "Morliny 冷冻鸡翅，可选普通热辣款或带面衣的脆皮款。两者都适合烤箱或空气炸锅复热，但裹粉比例不同。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "logismose marineret kyllingebryst": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_breast_marinated",
       "productNameZh": "Løgismose 柠檬百里香腌制鸡胸",
       "descriptionZh": "已经用柠檬和百里香腌好的鸡胸肉，可直接平底锅煎或烧烤。它带调味和腌料。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "xtra marineret kyllingebryst med citron rosmarin eller bbq": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_breast_marinated",
       "productNameZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
       "descriptionZh": "已经腌制的鸡胸肉，可选柠檬迷迭香味或烧烤味，适合煎、烤或空气炸。因为带腌料和明确口味。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "xtra marineret kyllinge bryst med citron rosmarin eller bbq": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_breast_marinated",
       "productNameZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
       "descriptionZh": "已经腌制的鸡胸肉，375 克，可选柠檬迷迭香味或烧烤味，适合煎、烤或空气炸。它带腌料和明确口味，不是原味鸡胸。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "madvaerket burgerboffer af oksekod": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_beef_lamb",
       "comparisonGroup": "prepared_beef_burgers",
       "productNameZh": "MADVÆRKET 牛肉汉堡饼",
       "descriptionZh": "已经压成形的牛肉汉堡饼，脂肪含量最高 20%，可平底锅煎或烧烤后夹汉堡面包。它是成型肉制品。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "hamburger af oksekod": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_beef_lamb",
       "comparisonGroup": "prepared_beef_burgers",
       "productNameZh": "牛肉汉堡饼",
       "descriptionZh": "已经压成形的牛肉汉堡饼，可平底锅煎或烧烤后夹面包。它属于成型牛肉制品。",
@@ -315,7 +357,7 @@
       "descriptionZh": "调味鱼肉糜，类似可做鱼丸或鱼饼的鱼滑。可分成小饼煎熟、做鱼丸或加入汤中；它不是整片鱼柳。"
     },
     "salatbowls": {
-      "categoryId": "frozen_ready",
+      "categoryId": "frozen_other",
       "comparisonGroup": "prepared_salad",
       "productNameZh": "即食沙拉碗",
       "descriptionZh": "开盒即可拌食的沙拉碗，含爽脆蔬菜、配料和酱汁，可选热熏三文鱼、裹粉鸡肉或炸鹰嘴豆丸版本。不同主料任选。",
@@ -336,14 +378,14 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "taga bacondadler fuet snack sticks eller skiver": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "prepared_mixed_meat",
       "productNameZh": "Taga 培根枣、Fuet 肉棒或肉片任选",
       "descriptionZh": "可选培根包枣、Fuet 风干肉零食棒或切片，三者形态和配料明显不同。它是混合肉制品任选，不属于单纯培根片。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "stryhns postej eller roget medister": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_meat_mixed",
       "comparisonGroup": "prepared_mixed_meat",
       "productNameZh": "Stryhns 肝酱或烟熏 Medister 香肠",
       "descriptionZh": "可选抹面包用的丹麦肝酱，或需要加热食用的烟熏 Medister 猪肉香肠。两者用途和形态不同。",
@@ -395,20 +437,20 @@
       "descriptionZh": "可选含润肤成分的便携手帕纸或日常面巾纸，用于擤鼻涕和擦脸。应按总张数与包装形式比较，不属于餐巾纸。"
     },
     "ribena solbaer": {
-      "categoryId": "drinks",
+      "categoryId": "juice_drinks",
       "comparisonGroup": "drink_concentrate",
       "productNameZh": "Ribena 黑加仑浓缩果汁饮料",
       "descriptionZh": "Ribena 黑加仑浓缩果汁饮料，需要按瓶身比例兑水后饮用，不是新鲜黑加仑。购买时可查看浓缩液容量、建议稀释比例和含糖量。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "andoni glutenfri pizza salami": {
-      "categoryId": "frozen_ready",
+      "categoryId": "pizza_dumplings",
       "comparisonGroup": "pizza_snacks",
       "productNameZh": "Andoni 无麸质萨拉米披萨",
       "descriptionZh": "Andoni 无麸质萨拉米披萨，325 克。需要按包装说明用烤箱充分加热；适合不能食用麸质的人，但仍应核对过敏原标识。"
     },
     "andoni italiensk pizza": {
-      "categoryId": "frozen_ready",
+      "categoryId": "pizza_dumplings",
       "comparisonGroup": "pizza_snacks",
       "productNameZh": "Andoni 意式披萨",
       "descriptionZh": "Andoni 意式披萨，单盒 402–439 克。需要按包装说明烤热，具体口味、配料和是否冷藏或冷冻以包装为准。"
@@ -462,13 +504,13 @@
       "descriptionZh": "细压燕麦片，1 千克。可加牛奶或酸奶直接食用，也可煮燕麦粥或用于烘焙；这是原味谷物，不是即食甜味麦片。"
     },
     "buko pisket flodeost": {
-      "categoryId": "cheese",
+      "categoryId": "cheese_soft_fresh",
       "comparisonGroup": "cheese_spreadable",
       "productNameZh": "BUKO 打发奶油奶酪",
       "descriptionZh": "BUKO 打发奶油奶酪，125 克。质地轻盈，适合涂面包、贝果或做蘸酱；开封后需冷藏。"
     },
     "casa tarradellas pizza": {
-      "categoryId": "frozen_ready",
+      "categoryId": "pizza_dumplings",
       "comparisonGroup": "pizza_snacks",
       "productNameZh": "Casa Tarradellas 冷藏披萨",
       "descriptionZh": "Casa Tarradellas 冷藏披萨，400–430 克，促销单明确标注在冷藏区。需要按包装说明烤热，具体口味和配料以包装为准。"
@@ -486,13 +528,13 @@
       "descriptionZh": "Christgau 或 Black Coffee 整粒咖啡豆任选，375–400 克。饮用前需要研磨并用咖啡机、手冲或法压壶冲煮。"
     },
     "colgate tandborste": {
-      "categoryId": "personal_care",
-      "comparisonGroup": "hair_body",
-      "productNameZh": "Colgate 牙刷四支装",
+      "categoryId": "personal_oral_beauty",
+      "comparisonGroup": "personal_oral_care",
+      "productNameZh": "手动牙刷四支装",
       "descriptionZh": "Colgate 手动牙刷四支装。用于日常刷牙，应按刷毛软硬度和适用人群选择；不是电动牙刷替换头。"
     },
     "daim toblerone marabou king size chokoladebar": {
-      "categoryId": "candy_chocolate",
+      "categoryId": "chocolate",
       "comparisonGroup": "chocolate",
       "productNameZh": "Daim、Toblerone 或 Marabou 大号巧克力棒任选",
       "descriptionZh": "Daim、Toblerone 或 Marabou King Size 巧克力棒任选，45–60 克。品牌、夹心和口感不同，开袋即食。"
@@ -516,7 +558,7 @@
       "descriptionZh": "丹麦产 porrer 韭葱，每把 2 根。白色和浅绿色部分可切片炒菜、煮汤或炖菜；它不是中式细韭菜。"
     },
     "egelykke lagret skiveost": {
-      "categoryId": "cheese",
+      "categoryId": "cheese_sliced_grated",
       "comparisonGroup": "cheese_sliced",
       "productNameZh": "Egelykke 熟成切片奶酪",
       "descriptionZh": "Egelykke 熟成切片奶酪，250 克。可直接夹三明治、放汉堡或烤吐司，熟成款通常比普通温和奶酪味道更浓。"
@@ -546,7 +588,7 @@
       "descriptionZh": "Gamle Mølle krydderboller 香料小圆面包，6 个共 350 克。可直接食用或稍微烤热，适合早餐、抹果酱或夹奶酪。"
     },
     "garnier micellar water eller derma eco hudpleje": {
-      "categoryId": "personal_care",
+      "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_care_mixed_offer",
       "productNameZh": "Garnier 卸妆洁肤水或 Derma Eco 护肤品任选",
       "descriptionZh": "可选 Garnier micellar water 卸妆洁肤水，或 Derma Eco 护肤品，规格 50–400 毫升。洁面、卸妆和护肤用途不同，应按实际品名和肤质选择。"
@@ -582,7 +624,7 @@
       "descriptionZh": "牛肉和猪肉混合肉末，脂肪含量 8–12%，650 克。适合做肉丸、肉酱、饺子馅或汉堡饼，食用前必须彻底煮熟。"
     },
     "harvest best grontsager": {
-      "categoryId": "frozen_ready",
+      "categoryId": "frozen_other",
       "comparisonGroup": "frozen_vegetables",
       "productNameZh": "Harvest Best 冷冻蔬菜",
       "descriptionZh": "Harvest Best 冷冻蔬菜，400–750 克。无需提前解冻即可炒、煮或加入汤和炖菜；具体蔬菜组合以包装为准。"
@@ -594,7 +636,7 @@
       "descriptionZh": "Hello Sensitive 手洗餐具洗洁精，500 毫升。用于清洗餐具和厨具，使用后需用清水冲净；不是洗碗机专用洗涤块。"
     },
     "jensens spareribs": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_pork",
       "comparisonGroup": "prepared_pork_cooked",
       "productNameZh": "Jensens 熟制猪肋排",
       "descriptionZh": "Jensens 猪肋排，500 克，属于预先调味或熟制的冷藏肉品。食用前按包装说明用烤箱或烧烤架充分加热；不是未调味生鲜排骨。"
@@ -618,7 +660,7 @@
       "descriptionZh": "可选 112 抽 Kleenex 面巾纸或 300 毫升 Urtekram 洗手液。一个用于日常擦拭和擤鼻涕，一个用于清洁双手，用途和计量单位不同。"
     },
     "knoppers tictac kinder country eller sour devils": {
-      "categoryId": "candy_chocolate",
+      "categoryId": "chocolate",
       "comparisonGroup": "chocolate",
       "productNameZh": "Knoppers、Tic Tac、Kinder Country 或 Sour Devils 糖果任选",
       "descriptionZh": "多款小包装甜食任选，15–25 克，包括威化巧克力、薄荷糖、谷物巧克力或酸味糖。品类、口感和配料不同，开袋即食。"
@@ -630,13 +672,13 @@
       "descriptionZh": "Kohberg madbrød 餐用面包，330 克。可直接食用或稍微烘热，适合配汤、沙拉或夹馅；具体面包类型以包装为准。"
     },
     "koko chokoladeovertrukket frugt": {
-      "categoryId": "candy_chocolate",
+      "categoryId": "chocolate",
       "comparisonGroup": "chocolate",
       "productNameZh": "Koko 巧克力裹水果",
       "descriptionZh": "Koko 巧克力裹水果零食，130 克。水果经过加工并包裹巧克力，开袋即食；它不是新鲜水果。"
     },
     "kyllingeunderlaar eller marinerede kyllingespyd": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_poultry_mixed_offer",
       "productNameZh": "原味鸡小腿或腌制鸡肉串任选",
       "descriptionZh": "可选原味生鸡小腿或已经腌制的鸡肉串，250–600 克。部位、是否带骨和调味状态不同，均需彻底煮熟。"
@@ -660,7 +702,7 @@
       "descriptionZh": "Livskraft skrabeæg 平养鸡蛋，M/L 号 8 枚。可煮、煎或用于烘焙，生食或半熟食用需自行注意食品安全。"
     },
     "logismose marineret kyllingesteak": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_poultry",
       "comparisonGroup": "prepared_chicken_breast_marinated",
       "productNameZh": "Løgismose 腌制鸡肉排",
       "descriptionZh": "Løgismose 腌制鸡肉排，200 克。已经带腌料，可平底锅煎、烤箱烤或烧烤，食用前必须彻底熟透；不是牛排。"
@@ -726,7 +768,7 @@
       "descriptionZh": "Næmt 已切丝并洗净的基础沙拉，200 克。开袋即可拌酱食用，也可加入三明治；需冷藏并尽快吃完。"
     },
     "naemt taertedej": {
-      "categoryId": "frozen_ready",
+      "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "Næmt 即用咸派饼皮",
       "descriptionZh": "Næmt tærtedej 即用咸派饼皮，275 克。铺入模具、加入蛋奶和蔬菜或肉类馅料后烘烤；它是生面团，不是已经做好的派。"
@@ -798,7 +840,7 @@
       "descriptionZh": "Premieur 格陵兰虾，300–330 克。可用于沙拉、开放式三明治或海鲜菜；购买后按包装确认是熟虾还是需要加热的生虾。"
     },
     "premieur marineret lammekolle": {
-      "categoryId": "prepared_meat",
+      "categoryId": "prepared_beef_lamb",
       "comparisonGroup": "prepared_lamb_marinated",
       "productNameZh": "Premieur 腌制羊腿",
       "descriptionZh": "Premieur 已腌制羊腿，按重量出售。适合烤箱慢烤或烧烤，食用前需充分熟制并静置切片；它已经带腌料，不是原味生羊腿。"
@@ -810,7 +852,7 @@
       "descriptionZh": "Premieur 烟熏三文鱼或 gravad 北欧香料腌渍三文鱼任选，100 克。两者都可冷食并配面包或沙拉，但加工方式和风味不同。"
     },
     "protein lab ost": {
-      "categoryId": "cheese",
+      "categoryId": "cheese_other",
       "comparisonGroup": "cheese_other",
       "productNameZh": "Protein Lab 高蛋白奶酪",
       "descriptionZh": "Protein Lab 高蛋白奶酪，100–250 克。可直接食用、夹面包或用于烹饪；具体奶酪形态、脂肪和蛋白质含量以包装为准。"
@@ -828,7 +870,7 @@
       "descriptionZh": "Protein Lab 高蛋白乳制品任选，包括蛋白饮料、饮用酸奶、布丁或慕斯，规格 200 克或 300–500 毫升。液体和固体甜点形态、单位和饱腹感不同，需冷藏。"
     },
     "protein lab revet eller skiveskaaret ost": {
-      "categoryId": "cheese",
+      "categoryId": "cheese_other",
       "comparisonGroup": "cheese_mixed_offer",
       "productNameZh": "Protein Lab 刨丝或切片高蛋白奶酪任选",
       "descriptionZh": "Protein Lab 高蛋白奶酪，可选刨丝或切片，150 克。刨丝适合焗烤，切片适合三明治和汉堡；两种形态的用途不同。"
@@ -840,13 +882,13 @@
       "descriptionZh": "Rahbek 裹酥虾或裹酥三文鱼任选，250 克。海鲜种类和馅料不同，需要按包装用烤箱或空气炸锅充分加热。"
     },
     "respons shampoo eller balsam": {
-      "categoryId": "personal_care",
+      "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_care_mixed_offer",
       "productNameZh": "Respons 洗发水或护发素任选",
       "descriptionZh": "Respons 洗发水或护发素任选，400 毫升。洗发水用于清洁头发，护发素用于洗后护理，购买前应按实际用途选择。"
     },
     "revet gouda lillebror ostehaps eller happy zoo smoreost": {
-      "categoryId": "cheese",
+      "categoryId": "cheese_other",
       "comparisonGroup": "cheese_mixed_offer",
       "productNameZh": "刨丝 Gouda、儿童奶酪条或动物造型涂抹奶酪任选",
       "descriptionZh": "可选刨丝 Gouda 奶酪、Lillebror Ostehaps 儿童奶酪条或 Happy Zoo 涂抹奶酪，108–200 克。三者形态、用途和单份规格不同。"
@@ -876,19 +918,19 @@
       "descriptionZh": "Santa Maria 有机小麦 tortilla 卷饼，320 克。稍微加热后可包肉、豆类、蔬菜和酱料；它是薄饼，不是散装面粉。"
     },
     "spangsberg petit flodeboller": {
-      "categoryId": "candy_chocolate",
+      "categoryId": "chocolate",
       "comparisonGroup": "chocolate",
       "productNameZh": "Spangsberg Petit 巧克力棉花糖小圆糕",
       "descriptionZh": "Spangsberg Petit flødeboller，144 克，是薄脆底、泡沫糖霜内馅和巧克力外壳组成的丹麦甜点。开盒即食。"
     },
     "tapas ost": {
-      "categoryId": "cheese",
+      "categoryId": "cheese_other",
       "comparisonGroup": "cheese_mixed_offer",
       "productNameZh": "Tapas 小份奶酪任选",
       "descriptionZh": "适合 tapas 拼盘的小份奶酪，125–150 克。具体品种、软硬度和熟成风味不同，可配饼干、面包或水果。"
     },
     "the hair cafe haarpleje fiona friends eller palmolive haandsaebe": {
-      "categoryId": "personal_care",
+      "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_care_mixed_offer",
       "productNameZh": "The Hair Café/Fiona&Friends 护发用品或 Palmolive 洗手液任选",
       "descriptionZh": "可选 The Hair Café 或 Fiona&Friends 头发护理用品，或 Palmolive 洗手液，300–400 毫升。护发和洗手用途不同，应按实际品名选择。"

@@ -19,7 +19,8 @@ const recordDescriptionKey = (record, name, comparisonGroup) => descriptionKey(
   comparisonGroup,
   record.originalDescription || record.sampleDescriptions?.[0] || '',
 );
-const reviewOverrides = (await read('data/product_review_overrides_zh.json')).entries;
+const reviewOverridesDocument = await read('data/product_review_overrides_zh.json');
+const reviewOverrides = reviewOverridesDocument.entries;
 
 function applyAarhusReviewOverride(record, name = record.originalName) {
   const override = reviewOverrides[normalizedText(name)];
@@ -36,7 +37,7 @@ function applyAarhusReviewOverride(record, name = record.originalName) {
   }
   const next = {
     ...record,
-    categoryId: override.categoryId,
+    categoryId: refineAarhusCategory(override.categoryId, override.comparisonGroup),
     comparisonGroup: override.comparisonGroup,
     ...(record.descriptionKey ? { descriptionKey: recordDescriptionKey(record, name, override.comparisonGroup) } : {}),
   };
@@ -277,6 +278,12 @@ const history = (await read('data/history.json'))
   .map(record => repairPublishedPackage(refineAarhusRecord(record)))
   .filter(record => record.categoryId !== 'excluded' && record.comparisonGroup !== 'excluded_drink');
 await write('data/history.json', history);
+
+for (const override of Object.values(reviewOverrides)) {
+  if (override.status === 'excluded') continue;
+  override.categoryId = refineAarhusCategory(override.categoryId, override.comparisonGroup);
+}
+await write('data/product_review_overrides_zh.json', reviewOverridesDocument);
 
 if (process.env.INCLUDE_ATLANTA_ARCHIVE === '1') {
   const atlanta = await read('data/atlanta_offers.json');

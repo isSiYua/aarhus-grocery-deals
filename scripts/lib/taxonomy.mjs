@@ -16,7 +16,10 @@ export const AARHUS_CATEGORIES = [
   ['pork_fresh', '🐷', '鲜猪肉', '猪里脊、猪排、肋排和整块猪肉分组比较。'],
   ['beef', '🥩', '牛羊肉与牛排', '牛排、整块牛肉、牛肉丁和羊肉分别比较。'],
   ['seafood', '🐟', '鱼虾海鲜', '区分三文鱼、白身鱼、虾和熟制海鲜。'],
-  ['prepared_meat', '🍖', '肉类制成品', '调味、熟制、裹粉、肉丸和肉饼按肉种与形态细分。'],
+  ['prepared_pork', '🍖', '调味与熟制猪肉', '腌制、熟制、烧烤猪肉和猪肉任选促销。'],
+  ['prepared_poultry', '🍗', '调味与熟制禽肉', '腌制、熟制、裹粉鸡肉和其他禽肉制品。'],
+  ['prepared_beef_lamb', '🥩', '调味牛羊肉与肉饼', '腌制牛羊肉、牛肉汉堡饼和相关制成品。'],
+  ['prepared_meat_mixed', '🍖', '混合肉类制成品', '跨肉种、跨部位或多种加工形态的任选促销。'],
   ['liver_pate', '🍞', '肝酱与肉酱', 'Leverpostej 等肝酱单独展示，不再混入培根或冷切。'],
   ['bacon', '🥓', '培根', '培根片与培根丁分开；培根肠归入香肠。'],
   ['sausages', '🌭', '香肠', '按鸡肉、牛肉、猪肉、培根、法兰克福和其他明确类型细分。'],
@@ -24,12 +27,17 @@ export const AARHUS_CATEGORIES = [
   ['eggs_milk', '🥚', '鸡蛋、牛奶与植物饮', '鸡蛋、牛奶、乳饮品和植物奶分组显示。'],
   ['yoghurt', '🥣', '酸奶与 Skyr', '酸奶、Skyr、布丁和发酵乳集中展示。'],
   ['cream_cold_dairy', '🥛', '奶油与其他冷藏乳品', '淡奶油、烹饪奶油和跨乳品任选促销集中展示。'],
-  ['cheese', '🧀', '奶酪', '硬质、软质、切片、刨丝和新鲜白奶酪保留原名差异。'],
+  ['cheese_table', '🧀', '餐桌与硬质奶酪', '丹麦餐桌奶酪、长期熟成硬质奶酪和烧烤奶酪。'],
+  ['cheese_soft_fresh', '🧀', '软质与新鲜奶酪', '奶油奶酪、白奶酪、马苏里拉、布里和其他新鲜软质奶酪。'],
+  ['cheese_sliced_grated', '🧀', '切片与刨丝奶酪', '切片奶酪和刨丝奶酪分组浏览。'],
+  ['cheese_other', '🧀', '奶酪综合促销', '多种奶酪任选和无法可靠归入单一形态的奶酪。'],
   ['butter_spreads', '🧈', '黄油与乳脂抹酱', '真黄油和混合抹酱按重量与原名比较。'],
   ['potato_products', '🍟', '土豆制成品', '薯条、薯角、薯饼、焗土豆和土豆沙拉各自比较。'],
   ['bread_bakery', '🍞', '面包与烘焙主食', '黑麦面包、法棍、小面包和其他烘焙主食。'],
   ['rice_pasta', '🍚', '米面、意面与烘焙面粉', '大米、面条、意面、面粉和饼皮分组显示。'],
-  ['frozen_ready', '🍕', '冷冻食品与方便餐', '冷冻主食、披萨、饺子和即食餐分组显示。'],
+  ['ready_meals', '🍱', '即食餐与方便餐', '可直接复热或简单烹调的成套餐食。'],
+  ['pizza_dumplings', '🍕', '披萨、饺子与冷冻小食', '冷冻披萨、饺子、春卷和类似方便小食。'],
+  ['frozen_other', '🧊', '其他冷冻食品', '冷冻蔬菜、植物肉和其他冷冻商品。'],
   ['ice_cream', '🍨', '冰淇淋与冰品', '冰淇淋、冰棒和其他冷冻甜品集中展示。'],
   ['breakfast', '🥣', '麦片与早餐抹酱', '麦片、燕麦、果酱、蜂蜜和花生酱。'],
   ['coffee_tea', '☕', '咖啡与茶', '咖啡豆、咖啡粉、速溶咖啡和茶单独展示。'],
@@ -39,20 +47,48 @@ export const AARHUS_CATEGORIES = [
   ['pantry', '🧂', '香料与烹饪食材', '香料、烘焙辅料和其他常温烹饪食材。'],
   ['salty_snacks', '🥨', '咸味零食、坚果与果干', '薯片、爆米花、坚果和果干集中展示。'],
   ['biscuits_cakes', '🍪', '饼干、蛋糕与甜点', '饼干、华夫、蛋糕和小甜点按原商品形态查看。'],
-  ['candy_chocolate', '🍫', '糖果与巧克力', '巧克力、糖果、焦糖和甜味棒集中展示。'],
+  ['chocolate', '🍫', '巧克力', '巧克力板、巧克力盒、巧克力棒和巧克力甜点。'],
+  ['candy', '🍬', '糖果', '软糖、硬糖、薄荷糖、甘草糖和混合糖果。'],
   ['household_cleaning', '🧼', '家庭清洁与洗衣', '清洁剂、洗衣和洗碗用品单独展示。'],
   ['paper_products', '🧻', '生活纸品', '卫生纸、厨房纸、手帕纸、餐巾纸和湿巾各自显示。'],
   ['household_paper', '🗑️', '袋类与厨房耗材', '垃圾袋、保鲜袋和厨房耗材；不会混进食品或生活纸品。'],
   ['baby', '🍼', '婴幼儿用品', '纸尿裤、婴儿棉片和无香护理用品。'],
-  ['personal_care', '🧴', '个人护理', '洗发、沐浴、防晒和身体护理用品。'],
-  ['drinks', '🥤', '饮料', '普通与无糖汽水、果汁、水、能量饮料和浓缩饮品集中浏览。'],
-  ['alcohol', '🍷', '酒类', '啤酒、葡萄酒、烈酒和预调酒；仅供符合丹麦法定购买年龄的成年人。'],
+  ['personal_hair_body', '🧴', '洗发、护肤与身体护理', '洗护发、洁面护肤、沐浴、止汗和身体护理用品。'],
+  ['personal_oral_beauty', '🪥', '口腔、美妆与理容', '牙膏牙刷、美妆、剃须和个人护理电器。'],
+  ['personal_health', '🩹', '卫生、防晒与营养补充', '卫生护理、防晒、健康检测和营养补充剂。'],
+  ['soft_drinks', '🥤', '汽水、能量饮料与水', '普通或无糖汽水、能量饮料和饮用水。'],
+  ['juice_drinks', '🧃', '果汁与浓缩饮品', '果汁、果味饮料、浓缩兑水饮料和运动饮料。'],
+  ['other_drinks', '🥤', '其他非酒精饮料', '冰茶、乳饮料和无法归入前述类型的非酒精饮品。'],
+  ['alcohol_beer', '🍺', '啤酒', '啤酒促销；仅供符合丹麦法定购买年龄的成年人。'],
+  ['alcohol_wine_red', '🍷', '红葡萄酒', '明确为红葡萄酒的促销；仅供符合丹麦法定购买年龄的成年人。'],
+  ['alcohol_wine_white', '🥂', '白葡萄酒', '明确为白葡萄酒的促销；仅供符合丹麦法定购买年龄的成年人。'],
+  ['alcohol_wine_rose_sparkling', '🍾', '桃红与起泡酒', '桃红葡萄酒、Prosecco、Cava、Crémant 和其他起泡酒。'],
+  ['alcohol_wine_mixed', '🍷', '葡萄酒跨类型任选', '跨红、白、桃红或起泡类型的任选促销。'],
+  ['alcohol_wine_other', '🍇', '其他葡萄酒', '公开资料无法可靠确认红、白、桃红或起泡类型的葡萄酒。'],
+  ['alcohol_spirits', '🥃', '烈酒与利口酒', '蒸馏酒、苦酒和利口酒；仅供符合丹麦法定购买年龄的成年人。'],
+  ['alcohol_rtd', '🍹', '苹果酒与预调酒', '苹果酒和预调即饮酒；仅供符合丹麦法定购买年龄的成年人。'],
   ['pet', '🐾', '宠物用品', '猫狗食品、零食和日常用品。'],
   ['flowers_plants', '🌿', '鲜花与植物', '花束、盆栽和园艺植物。'],
-  ['home_kitchen', '🏠', '家居与厨具', '锅具、收纳、厨房工具、小家电和其他家居用品。'],
-  ['electronics', '🔌', '电子电器', '音频、电脑配件、照明和其他电子产品。'],
-  ['clothing', '👕', '服饰鞋袜', '成人与儿童服饰、鞋袜和配件。'],
-  ['leisure', '🧸', '玩具文具与休闲', '玩具、文具、书刊和休闲用品。'],
+  ['home_appliances', '🔌', '家用电器', '厨房、清洁、空气处理和衣物护理电器。'],
+  ['kitchenware', '🍳', '锅具、厨具与餐具', '锅具、厨房工具、餐具和饮具。'],
+  ['home_storage', '🧺', '收纳用品', '食品分装、家居整理和衣物收纳用品。'],
+  ['home_furniture', '🪑', '家具', '桌椅、床具、柜架和户外家具。'],
+  ['home_textiles_decor', '🛏️', '家纺、浴室与装饰', '床品、毛巾、软装、灯饰和其他家居装饰。'],
+  ['home_tools_garden', '🛠️', '工具与园艺维护', '家用工具、安装维修和花园维护用品。'],
+  ['electronics_tv_audio', '📺', '电视与音频', '电视、家庭影音、音箱和耳机。'],
+  ['electronics_mobile', '📱', '手机、穿戴与充电', '手机、平板、穿戴设备、充电器和供电配件。'],
+  ['electronics_computing', '💻', '电脑、打印与游戏设备', '电脑、网络、存储、打印、影像和电子游戏设备。'],
+  ['electronics_other', '💡', '照明与其他电子产品', '电子照明和其他无法归入前述用途的电子产品。'],
+  ['clothing_adult', '👕', '成人服装', '成人上衣、裤装、裙装和外套。'],
+  ['clothing_underwear_socks', '🧦', '成人内衣与袜子', '成人内衣、睡衣和袜子。'],
+  ['clothing_footwear_accessories', '👟', '成人鞋靴与配饰', '成人鞋靴、帽子、腰带、包和饰品。'],
+  ['clothing_children', '🧒', '儿童服饰鞋袜', '儿童服装、内衣、鞋袜和配件。'],
+  ['clothing_mixed', '👚', '服饰综合促销', '跨成人儿童或跨服装形态的任选促销。'],
+  ['leisure_toys_play', '🧸', '玩具与儿童游乐', '玩具、骑乘玩具和户外游乐设施。'],
+  ['leisure_stationery_learning', '✏️', '文具、图书与学习手工', '文具、书刊、手工和学习用品。'],
+  ['leisure_cycling', '🚲', '自行车与骑行用品', '自行车、电助力自行车、头盔和骑行配件。'],
+  ['leisure_sports_outdoors', '⛺', '运动、露营与户外', '运动器材、露营、节庆和户外装备。'],
+  ['leisure_other', '🎒', '包袋、游戏与其他休闲', '书包、背包、电子游戏和其他休闲用品。'],
   ['tobacco_nicotine', '🚭', '烟草与尼古丁', '烟草或尼古丁产品；仅供符合法律要求的成年人。'],
   ['other_offers', '📦', '其他促销', '无法可靠归入上述类别的促销商品，保留原名供浏览。'],
 ].map(([id, emoji, nameZh, descriptionZh]) => ({ id, emoji, nameZh, descriptionZh, color: '#315f51' }));
@@ -71,10 +107,10 @@ const AARHUS_CATEGORY_SPLITS = {
     bread: 'bread_bakery', mixed_bakery: 'bread_bakery',
     default: 'rice_pasta',
   },
-  frozen_ready: { ice_cream: 'ice_cream', default: 'frozen_ready' },
+  frozen_ready: { ice_cream: 'ice_cream', default: 'frozen_other' },
   breakfast: { coffee_tea: 'coffee_tea', default: 'breakfast' },
   snacks: {
-    biscuits: 'biscuits_cakes', chocolate: 'candy_chocolate',
+    biscuits: 'biscuits_cakes', chocolate: 'chocolate', candy: 'candy',
     default: 'salty_snacks',
   },
   household: { cleaning: 'household_cleaning', default: 'household_paper' },
@@ -101,6 +137,43 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
   const mixedChoice = /eller|marked|mix/.test(name);
   if (/pantene eller kleenex/.test(name)) return 'other_offer';
   if (comparisonGroup === 'clothing_adult' && /til born|kids|lupilu/.test(name)) return 'clothing_children';
+  if (comparisonGroup.startsWith('clothing_adult_') && /til born|kids|lupilu|esmara kids/.test(name)) {
+    return comparisonGroup.replace('clothing_adult_', 'clothing_children_');
+  }
+  if (comparisonGroup === 'hair_body') {
+    if (/friends body|lupilu body/.test(name)) return 'clothing_children_underwear';
+    if (/graestrimmer/.test(name)) return 'home_garden';
+    if (/blodtryksmaaler.*airstyler.*massageapparat/.test(name)) return 'personal_appliances_mixed_offer';
+    if (/deodorant.*(?:eller|el ).*(?:shower|haandsaebe|haarpleje)|(?:shower|haandsaebe|haarpleje).*(?:eller|el ).*deodorant|haar.*eller.*hudpleje|krops.*eller.*haarpleje|personlig pleje(?:marked)?/.test(name)) return 'personal_care_mixed_offer';
+    if (/eltandborste|tandborstehoveder/.test(name)) return 'personal_appliances';
+    if (/tandpasta|tandborste|tandpleje|mundskyl|mundpleje|zendium|sensodyne|colgate|dentalux|dental care|soft picks|jordan|aquafresh/.test(name)) return 'personal_oral_care';
+    if (/shampoo|balsam|haarpleje|harpleje|torshampoo|haarolie|hair styling/.test(name)) return 'personal_hair_care';
+    if (/micellar|ansigts|hudpleje|dagcreme|serum|renseprodukter|cleansing|master patch|collagen.*cream|biodance|cosrx|anua/.test(name)) return 'personal_skin_care';
+    if (/mascara|makeup|brow|cheek paint|primer|makeupspejl/.test(name)) return 'personal_makeup';
+    if (/deodorant|\bdeo\b|roll on/.test(name)) return 'personal_deodorant';
+    if (/skraber|barber|skraegtrimmer|oneblade|bic hybrid/.test(name)) return 'personal_shaving';
+    if (/airstyler|haartorrer|haarklipper|glattejern|bolgejern|trimmer|remington|flexstyle/.test(name)) return 'personal_appliances';
+    if (/insektstik/.test(name)) return 'personal_health_devices';
+    if (/vatrondeller|vatpinde|orepropper|brysttape/.test(name)) return 'personal_accessories';
+    if (/shower|kropspleje|haandsaebe|laebepomade|body wash|palmolive|creme/.test(name)) return 'personal_body_care';
+    return 'personal_care_mixed_offer';
+  }
+  if (comparisonGroup === 'hygiene' && /termometer|menopause test/.test(name)) return 'personal_health_devices';
+  if (comparisonGroup === 'hygiene' && /gum soft picks|soft picks/.test(name)) return 'personal_oral_care';
+  if (comparisonGroup === 'chocolate' && /slik|bolcher|mentos|vingummi|lakrids|karameller|skum|pastiller|familieposer|frugtpaalaeg|sesambar/.test(name)) return 'candy';
+  if (comparisonGroup === 'alcohol_wine') {
+    const red = /rodvin|red wine|\brosso\b|\brouge\b|shiraz|syrah|cabernet|merlot|malbec|tempranillo|primitivo|zinfandel|chianti|amarone|appassimento|ripasso|negroamaro|barolo|pinot noir|spatburgunder|brunello|rioja/.test(name);
+    const white = /hvidvin|white wine|\bblanc\b|\bblanco\b|chardonnay|sauvignon|riesling|pinot grigio|pinot gris|verdejo|chablis|gruner veltliner|chenin|viognier|lugana/.test(name);
+    const rose = /rose|rosado|rosato|pink moscato/.test(name);
+    const sparkling = /prosecco|cava|cremant|champagne|mousseux|spumante|mousserende|sparkling|\bbrut\b|moscato d asti|\basti\b/.test(name);
+    const typeCount = [red, white, rose, sparkling].filter(Boolean).length;
+    if (typeCount > 1 || /rodvin.*hvidvin|hvidvin.*rodvin|flere varianter|vinmarked|bag in box marked/.test(name)) return 'alcohol_wine_mixed_offer';
+    if (sparkling) return 'alcohol_wine_sparkling';
+    if (rose) return 'alcohol_wine_rose';
+    if (white) return 'alcohol_wine_white';
+    if (red) return 'alcohol_wine_red';
+    return 'alcohol_wine_other';
+  }
   if (comparisonGroup === 'excluded_drink') {
     if (/energidrik|energy/.test(name)) return 'drink_energy';
     if (/juice|smoothie|nektar/.test(name)) return 'drink_juice';
@@ -298,37 +371,77 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
 }
 
 export function refineAarhusCategory(categoryId, comparisonGroup) {
-  if (comparisonGroup.startsWith('drink_') || comparisonGroup === 'zero_soda') return 'drinks';
-  if (comparisonGroup.startsWith('alcohol_')) return 'alcohol';
+  if (['drink_soda', 'drink_energy', 'drink_water', 'zero_soda'].includes(comparisonGroup)) return 'soft_drinks';
+  if (['drink_juice', 'drink_concentrate', 'drink_sports'].includes(comparisonGroup)) return 'juice_drinks';
+  if (comparisonGroup.startsWith('drink_')) return 'other_drinks';
+  if (comparisonGroup === 'alcohol_beer') return 'alcohol_beer';
+  if (comparisonGroup === 'alcohol_wine_red') return 'alcohol_wine_red';
+  if (comparisonGroup === 'alcohol_wine_white') return 'alcohol_wine_white';
+  if (['alcohol_wine_rose', 'alcohol_wine_sparkling'].includes(comparisonGroup)) return 'alcohol_wine_rose_sparkling';
+  if (comparisonGroup === 'alcohol_wine_other') return 'alcohol_wine_other';
+  if (comparisonGroup.startsWith('alcohol_wine')) return 'alcohol_wine_mixed';
+  if (comparisonGroup === 'alcohol_spirits') return 'alcohol_spirits';
+  if (comparisonGroup.startsWith('alcohol_')) return 'alcohol_rtd';
   if (comparisonGroup.startsWith('pet_')) return 'pet';
   if (comparisonGroup.startsWith('flower_') || comparisonGroup === 'plants') return 'flowers_plants';
-  if (comparisonGroup.startsWith('home_')) return 'home_kitchen';
-  if (comparisonGroup.startsWith('electronics_')) return 'electronics';
-  if (comparisonGroup.startsWith('clothing_')) return 'clothing';
-  if (comparisonGroup.startsWith('leisure_')) return 'leisure';
+  if (comparisonGroup === 'home_appliances') return 'home_appliances';
+  if (['home_cookware', 'home_tableware'].includes(comparisonGroup)) return 'kitchenware';
+  if (comparisonGroup === 'home_storage') return 'home_storage';
+  if (comparisonGroup === 'home_furniture') return 'home_furniture';
+  if (['home_textiles', 'home_bath', 'home_decor'].includes(comparisonGroup)) return 'home_textiles_decor';
+  if (comparisonGroup.startsWith('home_')) return 'home_tools_garden';
+  if (['electronics_tv', 'electronics_audio'].includes(comparisonGroup)) return 'electronics_tv_audio';
+  if (['electronics_mobile', 'electronics_charging'].includes(comparisonGroup)) return 'electronics_mobile';
+  if (['electronics_computer', 'electronics_print_photo', 'electronics_gaming'].includes(comparisonGroup)) return 'electronics_computing';
+  if (comparisonGroup.startsWith('electronics_')) return 'electronics_other';
+  if (comparisonGroup.startsWith('clothing_children_') || comparisonGroup === 'clothing_children') return 'clothing_children';
+  if (['clothing_adult_underwear', 'clothing_adult_socks'].includes(comparisonGroup)) return 'clothing_underwear_socks';
+  if (['clothing_adult_footwear', 'clothing_adult_accessories'].includes(comparisonGroup)) return 'clothing_footwear_accessories';
+  if (comparisonGroup === 'clothing_mixed_offer' || comparisonGroup === 'clothing_other') return 'clothing_mixed';
+  if (comparisonGroup.startsWith('clothing_')) return 'clothing_adult';
+  if (['leisure_toys', 'leisure_ride_on', 'leisure_outdoor_play'].includes(comparisonGroup)) return 'leisure_toys_play';
+  if (['leisure_stationery', 'leisure_books', 'leisure_crafts_learning'].includes(comparisonGroup)) return 'leisure_stationery_learning';
+  if (['leisure_bicycles', 'leisure_bike_accessories'].includes(comparisonGroup)) return 'leisure_cycling';
+  if (['leisure_sports', 'leisure_camping'].includes(comparisonGroup)) return 'leisure_sports_outdoors';
+  if (comparisonGroup.startsWith('leisure_')) return 'leisure_other';
+  if (['personal_hair_care', 'personal_skin_care', 'personal_body_care', 'personal_deodorant'].includes(comparisonGroup)) return 'personal_hair_body';
+  if (['personal_oral_care', 'personal_makeup', 'personal_shaving', 'personal_appliances', 'personal_appliances_mixed_offer', 'personal_accessories', 'personal_care_mixed_offer', 'hair_body'].includes(comparisonGroup)) return 'personal_oral_beauty';
+  if (['hygiene', 'sun_care', 'supplements', 'personal_health_devices'].includes(comparisonGroup)) return 'personal_health';
   if (comparisonGroup.startsWith('tobacco_')) return 'tobacco_nicotine';
   if (comparisonGroup === 'other_offer') return 'other_offers';
   if (comparisonGroup === 'bread') return 'bread_bakery';
   if (comparisonGroup === 'biscuits') return 'biscuits_cakes';
   if (comparisonGroup === 'ice_cream' || comparisonGroup === 'ice_cream_mixed_offer') return 'ice_cream';
-  if (comparisonGroup === 'ready_meal') return 'frozen_ready';
-  if (comparisonGroup === 'prepared_salad') return categoryId === 'vegetables' ? 'vegetables' : 'frozen_ready';
+  if (comparisonGroup === 'ready_meal') return 'ready_meals';
+  if (['pizza_snacks', 'dumplings'].includes(comparisonGroup)) return 'pizza_dumplings';
+  if (['frozen_vegetables', 'plant_based_meat'].includes(comparisonGroup)) return 'frozen_other';
+  if (comparisonGroup === 'prepared_salad') return categoryId === 'vegetables' ? 'vegetables' : 'frozen_other';
   if (comparisonGroup === 'prepared_fruit' || comparisonGroup === 'mixed_fruit') return 'fruit';
   if (comparisonGroup === 'fish_mince' || comparisonGroup.startsWith('seafood_')) return 'seafood';
   if (MINCED_MEAT_GROUPS.has(comparisonGroup)) return 'minced_meat';
   if (comparisonGroup === 'yoghurt') return 'yoghurt';
   if (['cream', 'mixed_dairy'].includes(comparisonGroup)) return 'cream_cold_dairy';
-  if (comparisonGroup.startsWith('cheese_')) return 'cheese';
+  if (['cheese_danish_table', 'cheese_aged_hard', 'cheese_grilling'].includes(comparisonGroup)) return 'cheese_table';
+  if (['cheese_spreadable', 'cheese_cottage_ricotta', 'cheese_mozzarella_burrata', 'cheese_feta_white', 'cheese_soft_mould'].includes(comparisonGroup)) return 'cheese_soft_fresh';
+  if (['cheese_sliced', 'cheese_grated'].includes(comparisonGroup)) return 'cheese_sliced_grated';
+  if (comparisonGroup.startsWith('cheese_')) return 'cheese_other';
   if (comparisonGroup === 'liver_pate') return 'liver_pate';
   if (comparisonGroup.startsWith('bacon_')) return 'bacon';
   if (comparisonGroup.startsWith('sausage_')) return 'sausages';
   if (comparisonGroup.startsWith('deli_') || ['beef_deli', 'deli_spreads'].includes(comparisonGroup)) return 'deli_meat';
-  if (comparisonGroup.startsWith('prepared_') || ['chicken_skewers', 'beef_burgers'].includes(comparisonGroup)) return 'prepared_meat';
+  if (comparisonGroup.startsWith('prepared_pork')) return 'prepared_pork';
+  if (comparisonGroup.startsWith('prepared_chicken') || comparisonGroup.startsWith('prepared_poultry') || comparisonGroup === 'prepared_turkey' || comparisonGroup === 'chicken_skewers') return 'prepared_poultry';
+  if (comparisonGroup.startsWith('prepared_beef') || comparisonGroup.startsWith('prepared_lamb') || comparisonGroup === 'beef_burgers') return 'prepared_beef_lamb';
+  if (comparisonGroup.startsWith('prepared_')) return 'prepared_meat_mixed';
+  if (categoryId === 'prepared_meat') return 'prepared_meat_mixed';
   if (comparisonGroup.startsWith('potato_') && comparisonGroup !== 'potatoes_fresh') return 'potato_products';
   if (comparisonGroup.startsWith('sauce_')) return 'sauces_condiments';
   if (comparisonGroup.startsWith('oil_') || comparisonGroup === 'vinegar') return 'cooking_oils';
   if (comparisonGroup.startsWith('canned_') || comparisonGroup === 'pickled_vegetables') return 'canned_pickled';
   if (comparisonGroup.startsWith('paper_')) return 'paper_products';
+  if (comparisonGroup === 'candy') return 'candy';
+  if (comparisonGroup === 'chocolate') return 'chocolate';
+  if (categoryId === 'frozen_ready') return 'frozen_other';
   const split = AARHUS_CATEGORY_SPLITS[categoryId];
   return split?.[comparisonGroup] || split?.default || categoryId;
 }
@@ -569,7 +682,8 @@ export const AARHUS_COMPARISON_GROUPS = {
   baking_ingredients: group('糖、面粉与烘焙原料', '按公斤比较。'),
   pickled_vegetables: group('腌菜与橄榄', '口味和沥干重量不同，不计算跨品种最低价。', false),
   chips: group('薯片与咸味零食', '多件价会明确标注。'),
-  chocolate: group('巧克力与甜食', '巧克力、糖果和甜味棒形态不同，不计算全局最低价。', false),
+  chocolate: group('巧克力', '巧克力板、巧克力盒和巧克力棒按重量与可可类型查看。', false),
+  candy: group('糖果', '软糖、硬糖、甘草糖和混合糖果按重量与口味查看。', false),
   biscuits: group('饼干与蛋糕', '饼干、蛋糕和华夫点心形态不同，不计算全局最低价。', false),
   nuts: group('坚果', '优先按公斤比较。'),
   dried_fruit: group('果干与冻干水果', '不与新鲜水果混比，优先按公斤比较。'),
@@ -590,6 +704,17 @@ export const AARHUS_COMPARISON_GROUPS = {
   baby_care: group('婴儿护理', '注意是否无香、适用年龄和包装数量。'),
   baby_food: group('婴幼儿食品', '注意适用月龄、糖分和配料。'),
   hair_body: group('洗发与身体护理', '按容量和用途比较。'),
+  personal_hair_care: group('洗发与护发', '洗发水、护发素、发膜和造型用品按用途与容量查看。'),
+  personal_skin_care: group('洁面与护肤', '洁面水、面霜、精华和面膜按肤质、用途与容量查看。'),
+  personal_body_care: group('沐浴与身体护理', '沐浴、洗手、润肤和唇部护理用品按用途与容量查看。'),
+  personal_deodorant: group('止汗与除味', '止汗剂和除味剂按使用部位、形式与容量查看。'),
+  personal_oral_care: group('口腔护理', '牙膏、牙刷、刷头、牙线和漱口水按具体用途查看。'),
+  personal_makeup: group('彩妆与化妆工具', '睫毛膏、底妆、眉妆、腮红和化妆工具按用途查看。'),
+  personal_shaving: group('剃须用品', '剃须刀、刀头和胡须修整用品按兼容型号与数量查看。'),
+  personal_appliances: group('个人护理电器', '电动牙刷、理发器、造型器和吹风机按功能与型号查看。'),
+  personal_appliances_mixed_offer: group('多种个人护理电器任选', '不同用途的健康或理容电器不能计算统一最低价。', false),
+  personal_accessories: group('个人护理辅助用品', '化妆棉、棉签、耳塞和其他辅助用品按用途与数量查看。'),
+  personal_health_devices: group('健康检测与护理设备', '体温计、检测用品和健康护理设备按用途与规格查看。'),
   personal_care_mixed_offer: group('多种个人护理用品任选', '洗发、护肤、洁面或洗手用品用途不同，不计算统一最低价。', false),
   sun_care: group('防晒用品', '注意 SPF、适用人群和容量。'),
   hygiene: group('卫生护理用品', '按用途、吸收量和包装数量比较。'),
@@ -603,7 +728,13 @@ export const AARHUS_COMPARISON_GROUPS = {
   drink_concentrate: group('浓缩果汁与冲调饮料', '饮用前通常需要兑水，按浓缩比例和容量查看。'),
   drink_other: group('其他非酒精饮料', '类型和配方不同，购买时按原名和包装确认。', false),
   alcohol_beer: group('啤酒', '酒精度、风格和包装规格不同，按实际品牌与包装查看。', false),
-  alcohol_wine: group('葡萄酒与起泡酒', '红、白、桃红和起泡酒的葡萄品种、产区与酒精度不同。', false),
+  alcohol_wine: group('葡萄酒与起泡酒（旧分类）', '兼容旧记录；迁移时按可确认的酒类拆分。', false),
+  alcohol_wine_red: group('红葡萄酒', '红葡萄品种、产区、年份和酒精度不同，按原名与酒标查看。', false),
+  alcohol_wine_white: group('白葡萄酒', '白葡萄品种、产区、甜度和酒精度不同，按原名与酒标查看。', false),
+  alcohol_wine_rose: group('桃红葡萄酒', '桃红葡萄酒按产区、甜度和酒精度查看。', false),
+  alcohol_wine_sparkling: group('起泡酒', 'Prosecco、Cava、Crémant、Champagne 等类型不同，按原名查看。', false),
+  alcohol_wine_mixed_offer: group('多种葡萄酒任选', '同一促销跨红、白、桃红或起泡类型，不计算统一最低价。', false),
+  alcohol_wine_other: group('其他葡萄酒', '酒种或颜色无法从公开促销资料可靠确认，保留原名浏览。', false),
   alcohol_spirits: group('烈酒', '威士忌、伏特加、金酒、朗姆等酒种和酒精度不同。', false),
   alcohol_cider_rtd: group('苹果酒与预调酒', '苹果酒、罐装鸡尾酒和预调酒的口味与酒精度不同。', false),
   alcohol_other: group('其他酒类', '酒种未明确时保留原名与包装信息。', false),
@@ -822,6 +953,7 @@ const HEADING_RULES = [
 // strawberry ice cream is ice cream, not fresh berries; tomato sauce is sauce,
 // not fresh tomatoes. These rules intentionally run before the produce rules.
 const PRODUCT_FORM_RULES = [
+  ['vegetables', 'peas', /^slikaerter(?:\b|$)/],
   ['prepared_meat', 'prepared_mixed_meat', /filet ala morbrad.*polser/],
   ['prepared_meat', 'prepared_pork_mixed_offer', /koteletter.*grillsticks.*grillpolser/],
   ['prepared_meat', 'prepared_mixed_meat', /pakkemarked.*klar til grillen/],
@@ -1022,7 +1154,7 @@ const HOME_OTHER = /\b(vaerktoj|vaerktojssaet|termometer|ophaengningstilbehor|du
 const CLOTHING = /\b(beklaedning|t shirt|stroptop|croptop|tanktop|g streng|boxershorts|hipsters|trusser|stromper|sneakerstromper|sneakersstromper|bornestromper|glimmerstromper|sko|lyssko|sneakers|ballerina|skechers|slippers|sandaler|flip flops|clogs|stovler|gummistovler|texstovler|jakke|regnjakke|bukser|regnbukser|smækbukser|suitpants|joggingbukser|jeans|nederdel|leggings|caprileggings|tights|kjole|bluse|musselinbluse|skjorte|skjortejakke|cardigan|strikcardigan|undertoj|undertroje|herreundertroje|mens underwear|bh|handsker|hue|hat|bollehat|straahat|kasket|baelte|baeltetaske|torklaede|shorts|badeshorts|denimshorts|indershorts|cykelshorts|sweatshorts|nattoj|natdragt|hoodie|sweatsaet|regnsaet|strik|badeponcho|solbriller|pandebaand|halskaede|oreringe|haarpynt|haarklemme|haarspaende)\b/;
 const CHILD_HEIGHT_SIZE = '(?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)';
 const CHILDREN_CLOTHING = new RegExp(`(?:borne|born|baby|kids|lupilu|esmara kids|minions).*(?:toj|sko|sneakers|stromper|jakke|bukser|leggings|troje|top|trusser|hat|kasket|nattoj|natdragt)|(?:toj|sko|sneakers|stromper|jakke|bukser|leggings|troje|top|trusser|hat|kasket|nattoj|natdragt).*(?:borne|born|baby|kids|lupilu)|\\b${CHILD_HEIGHT_SIZE}(?:\\/${CHILD_HEIGHT_SIZE})?\\s*[-–]\\s*${CHILD_HEIGHT_SIZE}(?:\\/${CHILD_HEIGHT_SIZE})?\\b|\\b${CHILD_HEIGHT_SIZE}(?:\\/${CHILD_HEIGHT_SIZE})?(?:\\s*[-–]\\s*${CHILD_HEIGHT_SIZE}(?:\\/${CHILD_HEIGHT_SIZE})?)?\\s*cm\\b|\\b7\\s*[-–]\\s*17\\s*aar\\b`);
-const LEISURE = /\b(legetoj|legetojsbiler|aktivitetslegetoj|sanselegetoj|skriveredskaber|skrivesaet|skriveartikler|kontorartikler|skoleaccessories|skolesaet|staedtler|twinmarkers|dualmarkers|designermarker|brushpens|bog|notesbog|notesboger|spiralnotesbog|spiralhaefte|opgavebog|pegebog|kogebog|haefte|kalender|studiekalender|ugeplan|dagsplan|tavle|belonningstavle|penalhus|skoletaske|rygsaek|bornetaske|taske|mappe|elastikmappe|bogbind|blyant|grafitblyanter|kuglepen|kuglepenne|viskelaeder|geometrisaet|kompassersaet|spil|minecraft|samlealbum|puslespil|kropspuslespil|krea|farveblyanter|perler|perleboks|perleplader|diamond art|sjippetov|gadekridt|kridt|bamse|plys|samlefigur|funko pop|laeringskort|laeringscomputer|laeringstaarn|airtrack|trampolin|gynge|gyngestativ|legetaarn|sandkasse|kongespil|bowlingsaet|ringspil|rutsjebane|strandspil|strandleg|sandlegetoj|fodbold|basketstander|padelbolde|sup board|cykel|lobecykel|loebecykel|cykelhjelm|elbil|rideon|atv|offroader|buggy|skaterhjelm|maalmandshandsker|telt|festivaltelt|tipi|pavillon|festivalstol|picnictaeppe|traekvogn|luftmadras|pool|udekokken)\b/;
+const LEISURE = /\b(legetoj|legetojsbiler|aktivitetslegetoj|sanselegetoj|skriveredskaber|skrivesaet|skriveartikler|kontorartikler|skoleaccessories|skolesaet|staedtler|twinmarkers|dualmarkers|designermarker|brushpens|bog|notesbog|notesboger|spiralnotesbog|spiralhaefte|opgavebog|pegebog|kogebog|haefte|kalender|studiekalender|ugeplan|dagsplan|tavle|belonningstavle|penalhus|skoletaske|rygsaek|bornetaske|taske|mappe|elastikmappe|bogbind|blyant|grafitblyanter|kuglepen|kuglepenne|viskelaeder|geometrisaet|kompassersaet|spil|minecraft|samlealbum|puslespil|kropspuslespil|krea|farveblyanter|perler|perleboks|perleplader|diamond art|sjippetov|gadekridt|kridt|bamse|plys|samlefigur|funko pop|laeringskort|laeringscomputer|laeringstaarn|airtrack|trampolin|gynge|gyngestativ|legetaarn|sandkasse|kongespil|bowlingsaet|ringspil|rutsjebane|strandspil|strandleg|strandmaatte|sandlegetoj|fodbold|basketstander|padelbolde|sup board|cykel|lobecykel|loebecykel|cykelhjelm|elbil|rideon|atv|offroader|buggy|skaterhjelm|maalmandshandsker|telt|festivaltelt|tipi|pavillon|festivalstol|picnictaeppe|traekvogn|luftmadras|pool|udekokken)\b/;
 const FLOWERS = /\b(blomst|blomster|buket|roser|krysantemum|krysantemumbuket|havechrysanthemum|hortensia|syrenhortensia|klokkeblomst|tulipan|blomsterpicks)\b/;
 const PLANTS = /\b(plante|potteplante|haveplante|krydderurt|kalanchoe|orkide|miniorkide|sukkulent|muehlenbeckia|hedera|stauder|sunbeckia|yucca|cycas|strelitzia|alocasia|klokkelyng|myrte|palmemarked|graes|graes til haven|stor rose)\b/;
 const TOBACCO = /\b(cigaret|tobak|nikotin|nicorette|nicotinell|snus)\b/;
@@ -1119,7 +1251,7 @@ const leisureGroup = text => {
   if (/\belbil\b|rideon|offroader|buggy|\batv\b|gaffeltruck.*batteri|gravemaskine.*batteri|porsche taycan|bmw m4|range rover|rescue truck/.test(text)) return 'leisure_ride_on';
   if (/elcykel|\be[- ](?:city|cargo|fresh|gravel|metropolis|modern|mtb|patron|short john|street|stylish|uni|browse)\b|\b(?:cykel|tandem|lobecykel|loebecykel)\b|\b(?:hjul|stel).*(?:gear|bremse)|\b\d{2}.*hjul.*stel.*daek/.test(text)) return 'leisure_bicycles';
   if (/cykelhjelm|skaterhjelm|lader til elbil/.test(text)) return /lader til elbil/.test(text) ? 'electronics_charging' : 'leisure_bike_accessories';
-  if (/telt|tipi|pavillon|festivalstol|picnictaeppe|traekvogn|luftmadras/.test(text)) return 'leisure_camping';
+  if (/telt|tipi|pavillon|festivalstol|picnictaeppe|strandmaatte|traekvogn|luftmadras/.test(text)) return 'leisure_camping';
   if (/trampolin|gynge|gyngestativ|legetaarn|sandkasse|rutsjebane|laeringstaarn|\bpool\b|udekokken|stige.*trampolin|stormsikring/.test(text)) return 'leisure_outdoor_play';
   if (/fodbold|basketstander|padelbolde|sup board|maalmandshandsker|strandspil|kongespil|bowlingsaet|ringspil|sjippetov|airtrack/.test(text)) return 'leisure_sports';
   if (/skoletaske|rygsaek|bornetaske|junior rygsaek|mini taske|crossover taske|baeltetaske|skind.*taske/.test(text)) return 'leisure_bags';
@@ -1145,7 +1277,7 @@ export function classifyOffer(raw) {
     if (regex.test(heading)) return classified(categoryId, comparisonGroup, heading);
   }
   if (/alkoholfri/.test(heading)) return classified('drinks', 'drink_other', heading);
-  if (ALCOHOL.test(heading)) return classified('alcohol', alcoholGroup(heading), heading);
+  if (ALCOHOL.test(heading)) return classified('alcohol', alcoholGroup(heading), text);
   if (PET.test(heading)) return classified('pet', /kat|cat|dreamies|latz|whiskas|sheba|gourmet gold/.test(heading) ? 'pet_cat' : (/hund|dog|pedigree|frolic/.test(heading) ? 'pet_dog' : 'pet_other'), heading);
   if (TOBACCO.test(heading)) return classified('tobacco_nicotine', /cigaret|tobak/.test(heading) ? 'tobacco_cigarettes' : 'tobacco_nicotine', heading);
   if (ELECTRONICS.test(heading)) {
@@ -1201,7 +1333,7 @@ export function classifyOffer(raw) {
   // product-form rules found nothing, use explicit nouns from the flyer body
   // rather than leaving recognisable wine, electronics, bikes and tents in
   // the generic bucket.
-  if (ALCOHOL.test(text)) return classified('alcohol', alcoholGroup(text), heading);
+  if (ALCOHOL.test(text)) return classified('alcohol', alcoholGroup(text), text);
   if (ELECTRONICS.test(text)) return classified('electronics', electronicsGroup(text), heading);
   if (/\b(?:hjul|staalstel|aluminiumsstel).*(?:gear|bremse|daek)|(?:gear|bremse).*(?:hjul|stel|daek)\b/.test(text)) {
     return classified('leisure', leisureGroup(text), heading);
@@ -1268,7 +1400,7 @@ export function classifyOffer(raw) {
     ['prepared_meat', 'mixed_grocery_offer', /lun lordag.*kamsteg.*frikadeller.*fiskefilet/],
   ];
   for (const [categoryId, comparisonGroup, pattern] of secondaryRules) {
-    if (pattern.test(text)) return classified(categoryId, comparisonGroup, heading);
+    if (pattern.test(text)) return classified(categoryId, comparisonGroup, comparisonGroup === 'alcohol_wine' ? text : heading);
   }
   return classified('other_offers', 'other_offer', heading);
 }

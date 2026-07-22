@@ -6,14 +6,15 @@ import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, classifyOffer, refineAarhu
 
 test('places lower-priority flyer categories after everyday shopping categories', () => {
   assert.deepEqual(AARHUS_CATEGORIES.slice(-10).map(category => category.id), [
-    'drinks', 'alcohol', 'pet', 'flowers_plants', 'home_kitchen',
-    'electronics', 'clothing', 'leisure', 'tobacco_nicotine', 'other_offers',
+    'clothing_footwear_accessories', 'clothing_children', 'clothing_mixed',
+    'leisure_toys_play', 'leisure_stationery_learning', 'leisure_cycling',
+    'leisure_sports_outdoors', 'leisure_other', 'tobacco_nicotine', 'other_offers',
   ]);
 });
 
 test('keeps both zero-sugar and ordinary soda', () => {
-  assert.deepEqual(classifyOffer({ heading:'Coca-Cola Zero 6 x 1,5 L' }), { categoryId:'drinks', comparisonGroup:'zero_soda' });
-  assert.deepEqual(classifyOffer({ heading:'Pepsi Max 1,5 L' }), { categoryId:'drinks', comparisonGroup:'drink_soda' });
+  assert.deepEqual(classifyOffer({ heading:'Coca-Cola Zero 6 x 1,5 L' }), { categoryId:'soft_drinks', comparisonGroup:'zero_soda' });
+  assert.deepEqual(classifyOffer({ heading:'Pepsi Max 1,5 L' }), { categoryId:'soft_drinks', comparisonGroup:'drink_soda' });
 });
 
 test('groups comparable chicken thighs', () => {
@@ -23,12 +24,12 @@ test('groups comparable chicken thighs', () => {
 
 test('keeps prepared chicken and formed beef products out of raw meat aisles', () => {
   const expected = new Map([
-    ['SOL&MAR Kyllingevinger', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
-    ['ROSE Buffalo Wings', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
-    ['ROSE Hotwings', ['prepared_meat', 'prepared_chicken_wings_seasoned']],
-    ['Morliny classic eller crispy hot wings', ['prepared_meat', 'prepared_chicken_wings_mixed_offer']],
-    ['Løgismose marineret kyllingebryst', ['prepared_meat', 'prepared_chicken_breast_marinated']],
-    ['MADVÆRKET Burgerbøffer af oksekød', ['prepared_meat', 'prepared_beef_burgers']],
+    ['SOL&MAR Kyllingevinger', ['prepared_poultry', 'prepared_chicken_wings_seasoned']],
+    ['ROSE Buffalo Wings', ['prepared_poultry', 'prepared_chicken_wings_seasoned']],
+    ['ROSE Hotwings', ['prepared_poultry', 'prepared_chicken_wings_seasoned']],
+    ['Morliny classic eller crispy hot wings', ['prepared_poultry', 'prepared_chicken_wings_mixed_offer']],
+    ['Løgismose marineret kyllingebryst', ['prepared_poultry', 'prepared_chicken_breast_marinated']],
+    ['MADVÆRKET Burgerbøffer af oksekød', ['prepared_beef_lamb', 'prepared_beef_burgers']],
   ]);
   for (const [heading, [categoryId, comparisonGroup]] of expected) {
     assert.deepEqual(classifyOffer({ heading }), { categoryId, comparisonGroup }, heading);
@@ -38,22 +39,22 @@ test('keeps prepared chicken and formed beef products out of raw meat aisles', (
 
 test('keeps clearly marinated or cooked pork, beef, and lamb out of fresh meat aisles', () => {
   const expected = new Map([
-    ['Velsmag marineret kotelet', 'prepared_pork_marinated'],
-    ['Pulled pork', 'prepared_pork_cooked'],
-    ['Tulip pulled pork eller spareribs', 'prepared_pork_mixed_offer'],
-    ['Marinerede flanksteak med chimichurri', 'prepared_beef_marinated'],
-    ['Coop marineret lammeculotte', 'prepared_lamb_marinated'],
+    ['Velsmag marineret kotelet', ['prepared_pork', 'prepared_pork_marinated']],
+    ['Pulled pork', ['prepared_pork', 'prepared_pork_cooked']],
+    ['Tulip pulled pork eller spareribs', ['prepared_pork', 'prepared_pork_mixed_offer']],
+    ['Marinerede flanksteak med chimichurri', ['prepared_beef_lamb', 'prepared_beef_marinated']],
+    ['Coop marineret lammeculotte', ['prepared_beef_lamb', 'prepared_lamb_marinated']],
   ]);
-  for (const [heading, comparisonGroup] of expected) {
+  for (const [heading, [categoryId, comparisonGroup]] of expected) {
     const result = classifyOffer({ heading });
-    assert.equal(result.categoryId, 'prepared_meat', heading);
+    assert.equal(result.categoryId, categoryId, heading);
     assert.equal(result.comparisonGroup, comparisonGroup, heading);
   }
 });
 
 test('uses product form before incidental meat, fish, fruit, and paper words', () => {
   assert.deepEqual(classifyOffer({ heading:'REMA 1000 Fiskefars' }), { categoryId:'seafood', comparisonGroup:'fish_mince' });
-  assert.deepEqual(classifyOffer({ heading:'Ribena solbær' }), { categoryId:'drinks', comparisonGroup:'drink_concentrate' });
+  assert.deepEqual(classifyOffer({ heading:'Ribena solbær' }), { categoryId:'juice_drinks', comparisonGroup:'drink_concentrate' });
   assert.deepEqual(classifyOffer({ heading:'LUPILU Vådservietter' }), { categoryId:'paper_products', comparisonGroup:'paper_wet_wipes' });
   assert.deepEqual(classifyOffer({ heading:'REMA 1000 Lommeletter eller ansigtsservietter' }), { categoryId:'paper_products', comparisonGroup:'paper_facial' });
   assert.equal(classifyOffer({ heading:'Hatting Burgerboller eller hotdogbrød' }).categoryId, 'bread_bakery');
@@ -114,18 +115,18 @@ test('only actual mushrooms enter the mushroom comparison group', () => {
 });
 
 test('classifies non-food and formerly excluded flyer products', () => {
-  assert.deepEqual(classifyOffer({ heading:'Royal eller Heineken øl 6 x 33 cl' }), { categoryId:'alcohol', comparisonGroup:'alcohol_beer' });
-  assert.deepEqual(classifyOffer({ heading:'Capri-Sun 10 x 20 cl' }), { categoryId:'drinks', comparisonGroup:'drink_other' });
-  assert.deepEqual(classifyOffer({ heading:'T-shirt 2 stk.' }), { categoryId:'clothing', comparisonGroup:'clothing_adult_tops' });
+  assert.deepEqual(classifyOffer({ heading:'Royal eller Heineken øl 6 x 33 cl' }), { categoryId:'alcohol_beer', comparisonGroup:'alcohol_beer' });
+  assert.deepEqual(classifyOffer({ heading:'Capri-Sun 10 x 20 cl' }), { categoryId:'other_drinks', comparisonGroup:'drink_other' });
+  assert.deepEqual(classifyOffer({ heading:'T-shirt 2 stk.' }), { categoryId:'clothing_adult', comparisonGroup:'clothing_adult_tops' });
   assert.deepEqual(classifyOffer({ heading:'Ukendt tilbud 500 g' }), { categoryId:'other_offers', comparisonGroup:'other_offer' });
 });
 
 test('classifies durable and pet products before incidental grocery words', () => {
   const expected = new Map([
-    ['LED pære classic 60W E27 Warm Glow', ['electronics', 'electronics_lighting']],
-    ['PHILIPS Brødrister', ['home_kitchen', 'home_appliances']],
-    ['LIVARNO Skoreol', ['home_kitchen', 'home_storage']],
-    ['SILVERCREST Gryde, kasserolle eller mælkegryde af stål', ['home_kitchen', 'home_cookware']],
+    ['LED pære classic 60W E27 Warm Glow', ['electronics_other', 'electronics_lighting']],
+    ['PHILIPS Brødrister', ['home_appliances', 'home_appliances']],
+    ['LIVARNO Skoreol', ['home_storage', 'home_storage']],
+    ['SILVERCREST Gryde, kasserolle eller mælkegryde af stål', ['kitchenware', 'home_cookware']],
     ['Godbidder t. kat m. laks', ['pet', 'pet_cat']],
     ['Andekødsstrimler t. hund eller Kyllingestrimler', ['pet', 'pet_dog']],
   ]);
@@ -136,23 +137,23 @@ test('classifies durable and pet products before incidental grocery words', () =
 
 test('handles newly reviewed Wolt and mixed-choice product identities before ingredients', () => {
   assert.deepEqual(classifyOffer({ heading: 'Bananer 5 stk.', description: '5 stk' }), { categoryId: 'fruit', comparisonGroup: 'bananas' });
-  assert.deepEqual(classifyOffer({ heading: 'Burger Boost original eller smoky twist', description: '4 stk' }), { categoryId: 'prepared_meat', comparisonGroup: 'beef_burgers' });
+  assert.deepEqual(classifyOffer({ heading: 'Burger Boost original eller smoky twist', description: '4 stk' }), { categoryId: 'prepared_beef_lamb', comparisonGroup: 'beef_burgers' });
   assert.deepEqual(classifyOffer({ heading: 'VITA D’OR Solsikke- eller rapsolie', description: '1 l' }), { categoryId: 'cooking_oils', comparisonGroup: 'oil_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: '3 FRIKADELLER, 3 FISKEFILET ELLER 3 SKIVER KAMSTEG', description: '' }), { categoryId: 'prepared_meat', comparisonGroup: 'mixed_grocery_offer' });
+  assert.deepEqual(classifyOffer({ heading: '3 FRIKADELLER, 3 FISKEFILET ELLER 3 SKIVER KAMSTEG', description: '' }), { categoryId: 'prepared_meat_mixed', comparisonGroup: 'mixed_grocery_offer' });
   assert.deepEqual(classifyOffer({ heading: 'Mutti tomater eller pizzasauce', description: '' }), { categoryId: 'pantry', comparisonGroup: 'mixed_grocery_offer' });
   assert.deepEqual(classifyOffer({ heading: 'Nektariner, ferskner, blommer eller abrikoser', description: '' }), { categoryId: 'fruit', comparisonGroup: 'mixed_stone_fruit' });
-  assert.deepEqual(classifyOffer({ heading: 'OMHU MARINEREDE GRILLSPYD AF FRILANDSLAMMEKØD', description: '' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_lamb_marinated' });
-  assert.deepEqual(classifyOffer({ heading: 'Dansk kalve flanksteak', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_beef_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'Danske svinekoteletter', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_pork_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'SAGRA/BUTCHERS Butterfly- eller yellow poussin', description: 'Marineret eller frilands' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_poultry_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'Pakkemarked - lige klar til grillen' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_mixed_meat' });
-  assert.deepEqual(classifyOffer({ heading: 'SOL&MAR Blæksprutteringe eller chorizo-kroketter' }), { categoryId: 'frozen_ready', comparisonGroup: 'mixed_grocery_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'MADVÆRKET Kyllingebrystfilet eller -lårmix', description: 'Med BBQ' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_poultry_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'MCENNEDY Spareribs', description: 'Hot eller BBQ' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_pork_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'OMHU CULOTTE AF FRILANDSLAMMEKØD', description: 'Med eller uden marinade af hvidløg og rosmarin' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_mixed_meat' });
+  assert.deepEqual(classifyOffer({ heading: 'OMHU MARINEREDE GRILLSPYD AF FRILANDSLAMMEKØD', description: '' }), { categoryId: 'prepared_beef_lamb', comparisonGroup: 'prepared_lamb_marinated' });
+  assert.deepEqual(classifyOffer({ heading: 'Dansk kalve flanksteak', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_beef_lamb', comparisonGroup: 'prepared_beef_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Danske svinekoteletter', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_pork', comparisonGroup: 'prepared_pork_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'SAGRA/BUTCHERS Butterfly- eller yellow poussin', description: 'Marineret eller frilands' }), { categoryId: 'prepared_poultry', comparisonGroup: 'prepared_poultry_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Pakkemarked - lige klar til grillen' }), { categoryId: 'prepared_meat_mixed', comparisonGroup: 'prepared_mixed_meat' });
+  assert.deepEqual(classifyOffer({ heading: 'SOL&MAR Blæksprutteringe eller chorizo-kroketter' }), { categoryId: 'frozen_other', comparisonGroup: 'mixed_grocery_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'MADVÆRKET Kyllingebrystfilet eller -lårmix', description: 'Med BBQ' }), { categoryId: 'prepared_poultry', comparisonGroup: 'prepared_poultry_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'MCENNEDY Spareribs', description: 'Hot eller BBQ' }), { categoryId: 'prepared_pork', comparisonGroup: 'prepared_pork_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'OMHU CULOTTE AF FRILANDSLAMMEKØD', description: 'Med eller uden marinade af hvidløg og rosmarin' }), { categoryId: 'prepared_meat_mixed', comparisonGroup: 'prepared_mixed_meat' });
   assert.deepEqual(classifyOffer({ heading: 'Godt papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
   assert.deepEqual(classifyOffer({ heading: 'Lambi Classic papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
-  assert.deepEqual(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), { categoryId: 'drinks', comparisonGroup: 'drink_water' });
+  assert.deepEqual(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), { categoryId: 'soft_drinks', comparisonGroup: 'drink_water' });
 });
 
 test('splits breakfast and real pantry goods into specific groups', () => {
@@ -181,8 +182,8 @@ test('product form wins over ingredient and flavour words', () => {
   assert.equal(classifyOffer({ heading:'Pizzamel 1 kg' }).comparisonGroup, 'flour_baking');
   assert.equal(classifyOffer({ heading:'Saltede karamelvafler' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Chili chips' }).comparisonGroup, 'chips');
-  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics', comparisonGroup:'electronics_computer' });
-  assert.deepEqual(classifyOffer({ heading:'Prosonic soundbar' }), { categoryId:'electronics', comparisonGroup:'electronics_audio' });
+  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics_computing', comparisonGroup:'electronics_computer' });
+  assert.deepEqual(classifyOffer({ heading:'Prosonic soundbar' }), { categoryId:'electronics_tv_audio', comparisonGroup:'electronics_audio' });
 });
 
 test('keeps ice cream, child clothing, bikes and chargers in their real product groups', () => {
@@ -190,34 +191,34 @@ test('keeps ice cream, child clothing, bikes and chargers in their real product 
     categoryId:'ice_cream', comparisonGroup:'ice_cream',
   });
   assert.deepEqual(classifyOffer({ heading:'Bluse', description:'Str. 134-170 cm, 100% bomuld' }), {
-    categoryId:'clothing', comparisonGroup:'clothing_children_tops',
+    categoryId:'clothing_children', comparisonGroup:'clothing_children_tops',
   });
   assert.deepEqual(classifyOffer({ heading:'T-shirt*', description:'Bomuld. Str. 98/104-122/128.' }), {
-    categoryId:'clothing', comparisonGroup:'clothing_children_tops',
+    categoryId:'clothing_children', comparisonGroup:'clothing_children_tops',
   });
   assert.deepEqual(classifyOffer({ heading:'Sneakers', description:'Str. 28-35' }), {
-    categoryId:'clothing', comparisonGroup:'clothing_children_footwear',
+    categoryId:'clothing_children', comparisonGroup:'clothing_children_footwear',
   });
   assert.deepEqual(classifyOffer({ heading:'Adidas Tiro bukser', description:'Str. S-2XL' }), {
-    categoryId:'clothing', comparisonGroup:'clothing_adult_bottoms',
+    categoryId:'clothing_adult', comparisonGroup:'clothing_adult_bottoms',
   });
   assert.deepEqual(classifyOffer({ heading:'LUPILU Sweattrøje eller -bukser', description:'98/104-122/128. Frit valg.' }), {
-    categoryId:'clothing', comparisonGroup:'clothing_mixed_offer',
+    categoryId:'clothing_mixed', comparisonGroup:'clothing_mixed_offer',
   });
   assert.deepEqual(classifyOffer({ heading:'Sweatshirt eller -bukser', description:'S-2XL. Frit valg.' }), {
-    categoryId:'clothing', comparisonGroup:'clothing_mixed_offer',
+    categoryId:'clothing_mixed', comparisonGroup:'clothing_mixed_offer',
   });
   assert.deepEqual(classifyOffer({ heading:'E-Modern 7-U', description:'28” hjul. Shimano 7 indvendige gear. Aluminiumstel.' }), {
-    categoryId:'leisure', comparisonGroup:'leisure_bicycles',
+    categoryId:'leisure_cycling', comparisonGroup:'leisure_bicycles',
   });
   assert.deepEqual(classifyOffer({ heading:'WP21 lader til elbil' }), {
-    categoryId:'electronics', comparisonGroup:'electronics_charging',
+    categoryId:'electronics_mobile', comparisonGroup:'electronics_charging',
   });
 });
 
 test('separates cooked chicken, canned fish and exact raw chicken forms', () => {
   assert.deepEqual(classifyOffer({ heading:'Rose kyllingetopping' }), {
-    categoryId:'prepared_meat', comparisonGroup:'prepared_chicken_cooked',
+    categoryId:'prepared_poultry', comparisonGroup:'prepared_chicken_cooked',
   });
   assert.deepEqual(classifyOffer({ heading:'Rahbek indbagt fisk' }), {
     categoryId:'seafood', comparisonGroup:'seafood_breaded',
@@ -241,25 +242,25 @@ test('separates cooked chicken, canned fish and exact raw chicken forms', () => 
 
 test('keeps food, flowers and appliances ahead of incidental container words', () => {
   assert.deepEqual(classifyOffer({ heading:'Grillspyd med Gris og Grøntsager' }), {
-    categoryId:'prepared_meat', comparisonGroup:'prepared_pork_marinated',
+    categoryId:'prepared_pork', comparisonGroup:'prepared_pork_marinated',
   });
   assert.deepEqual(classifyOffer({ heading:'Salling eller Michelle Kristensen færdigret i glas' }), {
-    categoryId:'frozen_ready', comparisonGroup:'ready_meal',
+    categoryId:'ready_meals', comparisonGroup:'ready_meal',
   });
   assert.deepEqual(classifyOffer({ heading:'Flerfarvet krysantemum i skål' }), {
     categoryId:'flowers_plants', comparisonGroup:'flower_bouquet',
   });
   assert.deepEqual(classifyOffer({ heading:'Salling glas blender' }), {
-    categoryId:'home_kitchen', comparisonGroup:'home_appliances',
+    categoryId:'home_appliances', comparisonGroup:'home_appliances',
   });
   assert.deepEqual(classifyOffer({ heading:'SILVERCREST Bestikbakke' }), {
-    categoryId:'home_kitchen', comparisonGroup:'home_storage',
+    categoryId:'home_storage', comparisonGroup:'home_storage',
   });
   assert.deepEqual(classifyOffer({ heading:'Dåselåg med sugerør' }), {
-    categoryId:'home_kitchen', comparisonGroup:'home_tableware',
+    categoryId:'kitchenware', comparisonGroup:'home_tableware',
   });
   assert.deepEqual(classifyOffer({ heading:'Steamcleaner' }), {
-    categoryId:'home_kitchen', comparisonGroup:'home_appliances',
+    categoryId:'home_appliances', comparisonGroup:'home_appliances',
   });
 });
 
@@ -294,11 +295,46 @@ test('writes item-specific Chinese explanations with useful flyer facts', () => 
   assert.match(danishProductNameZh('ESMARA KIDS Stroptop', 'clothing_children_tops', '2-pak.'), /儿童细肩带背心/);
   assert.match(specificDanishDescription('Steamcleaner', '', 'home_appliances'), /4 bar/);
   assert.match(specificDanishDescription('Steamcleaner', '', 'home_appliances'), /1500 W/);
+
+  assert.equal(danishProductNameZh('ESMARA KIDS Croptop', 'clothing_children_underwear', '2-pak.'), '儿童短款背心');
+  assert.equal(danishProductNameZh('Ballerina til børn', 'clothing_children_footwear', '22-27.'), '儿童芭蕾平底鞋');
+  assert.equal(danishProductNameZh('Colgate tandpasta', 'personal_oral_care', '75 ml'), '牙膏');
+  assert.equal(danishProductNameZh('Oral-B Eltandbørste', 'personal_appliances', 'Model: Pro 1'), '电动牙刷');
+  assert.equal(danishProductNameZh('dreame Hårtørrer', 'personal_appliances', '4 temperaturindstillinger'), '吹风机');
+  assert.equal(danishProductNameZh('Friends Body 3-pak', 'clothing_children_underwear', 'Str. 50/56-86/92'), '儿童婴幼儿连体衣');
+  assert.equal(danishProductNameZh('Gum soft picks pro', 'personal_oral_care', '60 stk.'), '齿间清洁棒');
+  assert.equal(danishProductNameZh('Jean Marie Garnier Bag-in-Box', 'alcohol_wine_red', '3 liter rødvin'), '红葡萄酒');
+  assert.doesNotMatch(danishProductNameZh('Bukser', 'clothing_adult_bottoms', 'S-2XL'), /Bukser|（/);
+});
+
+test('splits personal care and child clothing by actual use', () => {
+  assert.deepEqual(classifyOffer({ heading:'Colgate tandpasta' }), {
+    categoryId:'personal_oral_beauty', comparisonGroup:'personal_oral_care',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Oral-B Eltandbørste' }), {
+    categoryId:'personal_oral_beauty', comparisonGroup:'personal_appliances',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Garnier Micellar water eller ansigtscreme' }), {
+    categoryId:'personal_hair_body', comparisonGroup:'personal_skin_care',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Ballerina til børn' }), {
+    categoryId:'clothing_children', comparisonGroup:'clothing_children_footwear',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Gum soft picks pro' }), {
+    categoryId:'personal_oral_beauty', comparisonGroup:'personal_oral_care',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Insektstik-healer' }), {
+    categoryId:'personal_health', comparisonGroup:'personal_health_devices',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Foldbar strandmåtte med ryglæn' }), {
+    categoryId:'leisure_sports_outdoors', comparisonGroup:'leisure_camping',
+  });
+  assert.equal(danishProductNameZh('Foldbar strandmåtte med ryglæn', 'leisure_camping'), '带靠背折叠沙滩垫');
 });
 
 test('rescues clearly identifiable products from the generic other-offers bucket', () => {
   const expected = new Map([
-    ['Brother mekanisk symaskine', ['home_kitchen', 'home_appliances']],
+    ['Brother mekanisk symaskine', ['home_appliances', 'home_appliances']],
     ['Danske radiser', ['vegetables', 'root_vegetables']],
     ['Økologisk rucola', ['vegetables', 'leafy_green']],
     ['Onsdagssnegl', ['bread_bakery', 'bread']],
@@ -310,12 +346,13 @@ test('rescues clearly identifiable products from the generic other-offers bucket
 });
 
 test('uses product identity rather than flavour words or brand fragments', () => {
-  assert.deepEqual(classifyOffer({ heading:'AEG Ovn' }), { categoryId:'home_kitchen', comparisonGroup:'home_appliances' });
-  assert.deepEqual(classifyOffer({ heading:'AEG Vaskemaskine' }), { categoryId:'home_kitchen', comparisonGroup:'home_appliances' });
+  assert.deepEqual(classifyOffer({ heading:'AEG Ovn' }), { categoryId:'home_appliances', comparisonGroup:'home_appliances' });
+  assert.deepEqual(classifyOffer({ heading:'AEG Vaskemaskine' }), { categoryId:'home_appliances', comparisonGroup:'home_appliances' });
   assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
   assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'prepared_beef_marinated');
   assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'prepared_chicken_breaded');
   assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).comparisonGroup, 'cheese_spreadable');
+  assert.deepEqual(classifyOffer({ heading:'Slikærter', description:'Danske 125 g' }), { categoryId:'vegetables', comparisonGroup:'peas' });
   assert.equal(classifyOffer({ heading:'HUSK kosttilskud eller mælkesyrebakterier' }).comparisonGroup, 'supplements');
   assert.equal(classifyOffer({ heading:'Nordthy Mini ris- eller majskiks' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Skagenfood koldrøget laks' }).comparisonGroup, 'salmon_smoked');
@@ -345,19 +382,26 @@ test('splits actual species while keeping presentation variants together', () =>
 
 test('handles Danish compound words without classifying incidental fragments', () => {
   assert.equal(classifyOffer({ heading:'Lambi Premium toiletpapir' }).comparisonGroup, 'paper_toilet');
-  assert.deepEqual(classifyOffer({ heading:'Wilfa kaffemaskine' }), { categoryId:'home_kitchen', comparisonGroup:'home_appliances' });
+  assert.deepEqual(classifyOffer({ heading:'Wilfa kaffemaskine' }), { categoryId:'home_appliances', comparisonGroup:'home_appliances' });
   assert.equal(classifyOffer({ heading:'Træstamme' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Merrild eller Lavazza helbønner' }).comparisonGroup, 'coffee_tea');
   assert.equal(classifyOffer({ heading:'REMA 1000 Vannameirejer eller tunsteak' }).comparisonGroup, 'seafood_mixed_offer');
 });
 
 test('splits overloaded parent categories into practical shopping aisles', () => {
-  assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).categoryId, 'cheese');
+  assert.equal(classifyOffer({ heading:'BUKO Flødeost' }).categoryId, 'cheese_soft_fresh');
   assert.equal(classifyOffer({ heading:'Lurpak Smør' }).categoryId, 'butter_spreads');
   assert.equal(classifyOffer({ heading:'Merrild helbønner' }).categoryId, 'coffee_tea');
-  assert.equal(classifyOffer({ heading:'Marabou chokolade' }).categoryId, 'candy_chocolate');
+  assert.equal(classifyOffer({ heading:'Marabou chokolade' }).categoryId, 'chocolate');
   assert.equal(classifyOffer({ heading:'Oreo cookies' }).categoryId, 'biscuits_cakes');
   assert.equal(classifyOffer({ heading:'Bacon i skiver' }).categoryId, 'bacon');
+});
+
+test('splits crowded wine offers by actual wine type', () => {
+  assert.deepEqual(classifyOffer({ heading:'San Felice Chianti Classico', description:'Italien. Rødvin. 75 cl.' }), { categoryId:'alcohol_wine_red', comparisonGroup:'alcohol_wine_red' });
+  assert.deepEqual(classifyOffer({ heading:'Mâcon Azé', description:'Frankrig. Hvidvin. 75 cl.' }), { categoryId:'alcohol_wine_white', comparisonGroup:'alcohol_wine_white' });
+  assert.deepEqual(classifyOffer({ heading:'Joseph Hubster Crémant d’Alsace', description:'Frankrig. Brut. 75 cl.' }), { categoryId:'alcohol_wine_rose_sparkling', comparisonGroup:'alcohol_wine_sparkling' });
+  assert.deepEqual(classifyOffer({ heading:'Bag-in-Box marked', description:'Rødvin, hvidvin eller rosé.' }), { categoryId:'alcohol_wine_mixed', comparisonGroup:'alcohol_wine_mixed_offer' });
 });
 
 test('separates liver pate, bacon, sausages, sauces, oils, paper and potato forms', () => {

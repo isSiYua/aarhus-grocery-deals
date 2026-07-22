@@ -8,6 +8,15 @@ const [data, descriptions, taxonomy] = await Promise.all([
 ]);
 
 const pending = Math.max(descriptions.count || 0, taxonomy.count || 0);
+const categoryCounts = Object.entries(data.offers.reduce((counts, offer) => {
+  counts[offer.categoryId] = (counts[offer.categoryId] || 0) + 1;
+  return counts;
+}, {})).sort((a, b) => b[1] - a[1]);
+const [largestCategory = 'none', largestCategoryCount = 0] = categoryCounts[0] || [];
+const originalInChineseTitle = data.offers.filter(offer => {
+  const original = String(offer.originalName || '').replace(/\*+$/u, '').trim();
+  return original && String(offer.productNameZh || '').startsWith(`${original}（`);
+}).length;
 const summary = [
   '## Aarhus grocery refresh',
   '',
@@ -15,6 +24,8 @@ const summary = [
   `- Active grocery chains with offers: ${new Set(data.offers.map(offer => offer.storeId)).size}`,
   `- Pending Chinese descriptions: ${descriptions.count || 0}`,
   `- Pending taxonomy reviews: ${taxonomy.count || 0}`,
+  `- Largest shopper category: ${largestCategory} (${largestCategoryCount} offers)`,
+  `- Chinese titles repeating the source name: ${originalInChineseTitle}`,
   '- Scheduled refresh uses repository rules and reviewed product knowledge; no model API or token is used.',
   '',
 ].join('\n');
