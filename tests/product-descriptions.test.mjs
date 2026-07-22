@@ -19,6 +19,23 @@ test('description identity is reusable across stores and package sizes', () => {
   assert.equal(first, second);
 });
 
+test('clothing description identity keeps materially different size ranges separate', () => {
+  const classification = { categoryId: 'clothing', comparisonGroup: 'clothing_adult_tops' };
+  const standard = descriptionKeyFor({ heading: 'T-shirt', description: 'Str. S-2XL. 100% bomuld.' }, classification);
+  const extended = descriptionKeyFor({ heading: 'T-shirt', description: 'Str. S-5XL. 100% bomuld.' }, classification);
+  assert.notEqual(standard, extended);
+});
+
+test('clothing size identity captures a complete alphanumeric range, not a letter inside prose', () => {
+  const classification = { categoryId: 'clothing', comparisonGroup: 'clothing_adult_bottoms' };
+  const key = descriptionKeyFor({
+    heading: 'Bukser',
+    description: 'Normal talje. Wide fit. Normal længde. S-2XL.',
+  }, classification);
+  assert.match(key, /\|s 2xl$/);
+  assert.doesNotMatch(key, /\|l$/);
+});
+
 test('taxonomy changes refresh stale fallback descriptions instead of retaining generic vegetable text', () => {
   const offers = [{
     originalName: 'Danske løse ærter',

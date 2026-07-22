@@ -11,6 +11,89 @@ const normalize = value => String(value || '')
 const title = (pattern, nameZh) => [pattern, nameZh];
 
 const DANISH_PRODUCT_FORM_TITLES = [
+  title(/ben s sauce.*dolmio|dolmio.*ben s sauce/, 'Ben’s 或 Dolmio 意面烹调酱任选'),
+  title(/karolines kokken sauce/, 'Karolines Køkken 奶油烹调酱'),
+  title(/odense marcipan dessert sauce/, 'Odense Marcipan 甜点酱'),
+  title(/k salat bearnaise|bearnaisesauce|sauce bearnaise/, '贝阿恩酱'),
+  title(/jensens.*sauce/, 'Jensens Køkken 佐餐酱'),
+  title(/vitasia asiatisk.*sauce/, 'VITASIA 亚洲风味烹调酱'),
+  title(/vitasia sursod.*forarsrullesauce/, 'VITASIA 糖醋酱或春卷蘸酱任选'),
+  title(/vitasia woksauce/, 'VITASIA 炒菜酱'),
+  title(/middagsfrikadeller.*mini kodboller/, '丹麦煎肉饼或迷你肉丸任选'),
+  title(/^salsiccia$/, '意式 Salsiccia 生香肠'),
+  title(/vitasia slow cooked svineslag/, 'VITASIA 慢煮猪五花肉'),
+  title(/pantene eller kleenex/, 'Pantene 洗护用品或 Kleenex 面巾纸任选'),
+  title(/tulip pizzatopping/, 'Tulip 熟制披萨肉类配料'),
+  title(/ristet sesamolie/, '烘香芝麻油'),
+  title(/koldpresset rapsolie/, '有机冷榨菜籽油'),
+  title(/super kraes kebab/, 'Super Kræs Kebab 调味烤肉条'),
+  title(/^oksekebab$/, '牛肉 Kebab 烤肉条'),
+  title(/^grillpolse$/, '烧烤香肠'),
+  title(/santa maria indisk/, 'Santa Maria 印度风味酱料或调味料任选'),
+  title(/santa maria tex mex|coop tex mex|banderos/, 'Tex-Mex 墨西哥风味酱料或调味商品'),
+  title(/dipmix/, '蘸酱调味粉'),
+  title(/dippies fruit dips/, '水果蘸酱'),
+  title(/miracle whip/, 'Miracle Whip 蛋黄酱式调味酱'),
+  title(/bahncke|gestus pebermix/, 'Bähncke 或 Gestus 调味酱'),
+  title(/meyers spreads eller ostetern/, 'Meyers 抹酱或奶酪丁任选'),
+  title(/antonius marked|grillmarked|rema 1000 dansk grillkod/, '多款调味烧烤肉任选'),
+  title(/fredagstapas/, '熟食柜周五 Tapas 拼盘'),
+  title(/italiensk antipasti|citterio italiensk charcuteri/, '意式冷切肉拼盘'),
+  title(/charcuteri med troffel/, '松露风味冷切肉'),
+  title(/den gronne slagter/, 'Den Grønne Slagter 熟制肉品任选'),
+  title(/gestus topping|steff houlberg topping/, '熟制肉类配料'),
+  title(/^cevapcici$/, '巴尔干风味烤肉条'),
+  title(/vitasia chicken bites/, 'VITASIA 调味鸡肉块'),
+  title(/^sucuk/, '土耳其辣味牛肉香肠'),
+  title(/yakitori spyd/, '日式调味鸡肉串'),
+  title(/dansk grillkam/, '丹麦调味猪外脊烧烤肉'),
+  title(/bbq grillben/, 'BBQ 调味猪肋骨'),
+  title(/krebinetter af fjerkrae/, '禽肉煎肉饼'),
+  title(/premieur pommes gigant/, 'Premieur 大号冷冻薯条'),
+  title(/velsmag tykstegsbof af gris/, '调味猪后腿肉排'),
+  title(/parmaskinke eller antipasto misto/, '帕尔马火腿或意式冷切拼盘任选'),
+  title(/filet a la morbrad/, '猪里脊式调味肉排'),
+  title(/frilandsgris morbrad.*grillkoller/, '散养猪里脊或 BBQ 烧烤肉任选'),
+  title(/marineret tomahawk/, 'BBQ 腌制 Tomahawk 牛排'),
+  title(/grillfakler/, 'BBQ 调味螺旋肉串'),
+  title(/ekstra jomfruolie/, '特级初榨橄榄油'),
+  title(/magnum.*minecraft.*solero.*iskasse/, 'Magnum、Minecraft 或 Solero 盒装冰品任选'),
+  title(/rose kyllingetopping/, 'Rose 熟制鸡肉配料'),
+  title(/rahbek indbagt fisk/, 'Rahbek 冷冻裹面糊鱼制品'),
+  title(/amanda yellowfin tun/, 'Amanda 黄鳍金枪鱼罐头'),
+  title(/saeby makrel/, 'Sæby 鲭鱼罐头'),
+  title(/protein kebab.*kyllinge.*oksekod/, '鸡牛混合或纯牛肉 Kebab 烤肉条任选'),
+  title(/xxl kyllingefilet/, 'XXL 冷冻鸡胸肉'),
+  title(/xxl kyllingestrimler/, 'XXL 鸡肉条'),
+  title(/grillspyd med gris og grontsager/, '猪肉蔬菜烧烤串'),
+  title(/coop kylling|rema 1000 dansk kylling/, '多款丹麦鸡肉任选'),
+  title(/^kylling$/, '熟制鸡肉条、鸡肉片或鸡肉块'),
+  title(/grillet kyllingefilet i strimler/, '熟制烤鸡胸肉条'),
+  title(/hakket dansk kylling/, '丹麦鸡肉末'),
+  title(/kyllinge polser.*kodpolse/, '鸡肉香肠或肉香肠任选'),
+  title(/kyllinge brystfilet paalaeg/, '鸡胸肉冷切片'),
+  title(/stegte kyllingegrillspyd/, '熟制鸡肉烧烤串'),
+  title(/laarfilet med skind.*kylling/, '带皮丹麦鸡腿排'),
+  title(/underlaar.*kylling/, '丹麦鸡小腿'),
+  title(/brystfilet.*kylling/, '丹麦鸡胸肉'),
+  title(/havblaa hel dorade/, '整条金头鲷'),
+  title(/sol mar hele sardiner/, '整条冷冻沙丁鱼'),
+  title(/thorfisk torskefileter/, '鳕鱼柳'),
+  title(/glyngore tun i vand.*olie/, '水浸或油浸金枪鱼罐头'),
+  title(/lykkeberg sild|gestus sild/, '腌渍鲱鱼'),
+  title(/amanda rogn.*glyngore tun/, '鱼籽罐头或金枪鱼罐头任选'),
+  title(/rema 1000 dansk rodfiskfilet.*kullerloins.*rodspaettefileter/, '红鱼柳、黑线鳕鱼里脊或鲽鱼柳任选'),
+  title(/rema 1000 rogn.*kippers.*yellowfin tun/, '鱼籽、烟熏鲱鱼或黄鳍金枪鱼罐头任选'),
+  title(/glyngore eller bornholms fiskemarked/, '鱼籽、鱼丸、鳕鱼肝、番茄鲭鱼或金枪鱼罐头任选'),
+  title(/fiske eller skaldyrsmarked|^fiskemarked$/, '多款冷冻鱼类或海鲜任选'),
+  title(/penalhus.*mobilholder.*drikkedunk/, '文具、学习用品、手机支架或水瓶任选'),
+  title(/^o (?:20|24|28) cm\b/, '不锈钢陶瓷不粘煎锅'),
+  title(/lekaform/, 'Lekaform 维生素或矿物质补充剂'),
+  title(/la campagna udenlandske specialiteter/, 'La Campagna 萨拉米、火腿或肉酱等冷切任选'),
+  title(/pakkemarked/, '腌制猪牛羊烧烤肉、肉串或汉堡肉饼任选'),
+  title(/lun lordag/, '烤猪肉、丹麦肉饼、炸鱼柳或肝酱任选'),
+  title(/f[oe]tex favoritter/, 'føtex 多品类门店精选商品'),
+  title(/^(?:20.*alt urtekram|urtekram)$/, 'Urtekram 有机食品或个人护理用品任选'),
   title(/sagra.*butchers.*poussin/, 'Butterfly 童子鸡或黄皮童子鸡任选'),
   title(/dansk kalve flanksteak/, '丹麦小牛腹肉排（原味或腌制）'),
   title(/danske svinekoteletter/, '丹麦猪排（原味或腌制）'),
@@ -486,7 +569,7 @@ const GROUP_DEFAULTS = {
   turkey_breast: '火鸡胸肉', turkey_thigh: '火鸡腿肉', turkey_minced: '火鸡肉末', turkey_processed: '火鸡加工肉品', turkey_mixed_offer: '多款火鸡部位任选', poultry_deli_mixed: '禽肉冷切多品项任选', other_poultry: '其他禽肉',
   pork_roast: '烤猪肉块', pork_tenderloin: '猪里脊', pork_ribs: '猪肋排', pork_chop: '猪排或猪肉片', pork_minced: '猪肉末', sausages: '香肠', bacon_deli: '肉类冷切', prepared_meatballs: '肉丸或肉糜制品', pork_mixed_offer: '多款猪肉任选', deli_spreads: '三明治夹馅沙拉/抹酱',
   beef_minced: '牛肉末', mixed_minced: '混合肉末', beef_ribeye: '肋眼牛排', beef_striploin: '外脊牛排', beef_flat_steak: '腹肉薄切牛排', beef_rump_steak: '牛臀排', beef_bone_steak: '带骨牛排', beef_steak: '其他牛排', beef_burgers: '牛肉汉堡饼', beef_diced: '牛肉丁或牛肉条', beef_roast: '整块烤牛肉', beef_deli: '牛肉熟食', beef_mixed_offer: '多款牛肉部位任选', prepared_beef_mixed_offer: '原味或腌制牛肉任选', mixed_meat_offer: '跨肉种多品项任选', lamb_other: '羊肉',
-  salmon_fresh: '生鲜三文鱼', salmon_smoked: '烟熏或腌渍三文鱼', salmon: '三文鱼', shrimp: '虾', white_fish: '鱼类商品', seafood_mixed_offer: '多款鱼虾海鲜任选', seafood_other: '多款海鲜或加工海鲜', eggs: '鸡蛋', milk: '牛奶或乳饮料', plant_drinks: '植物奶', cream: '奶油', mixed_dairy: '多款乳制品任选', yoghurt: '酸奶或发酵乳', cheese: '奶酪',
+  salmon_fresh: '生鲜三文鱼', salmon_smoked: '烟熏或腌渍三文鱼', salmon: '三文鱼', shrimp: '虾', white_fish: '鱼类商品', seafood_mixed_offer: '多款鱼虾海鲜任选', seafood_breaded: '裹粉或面糊鱼制品', seafood_tuna_canned: '金枪鱼罐头', seafood_canned_fish: '鱼类罐头', seafood_herring_pickled: '腌渍鲱鱼', seafood_other: '多款海鲜或加工海鲜', prepared_chicken_cooked: '熟制鸡肉', eggs: '鸡蛋', milk: '牛奶或乳饮料', plant_drinks: '植物奶', cream: '奶油', mixed_dairy: '多款乳制品任选', yoghurt: '酸奶或发酵乳', cheese: '奶酪',
   cheese_grated: '刨丝奶酪', cheese_sliced: '切片奶酪', cheese_spreadable: '涂抹奶酪', cheese_cottage_ricotta: '茅屋奶酪或 Ricotta', cheese_mozzarella_burrata: 'Mozzarella 或 Burrata', cheese_feta_white: 'Feta 或白奶酪', cheese_grilling: '煎烤奶酪', cheese_soft_mould: '软质或蓝纹奶酪', cheese_aged_hard: '熟成硬奶酪', cheese_danish_table: '丹麦餐桌奶酪', cheese_mixed_offer: '多款奶酪任选', cheese_other: '其他奶酪', butter: '黄油或涂抹脂',
   mushrooms: '蘑菇', cauliflower: '花椰菜', broccoli: '西兰花', lettuce: '生菜', spinach: '菠菜', chives: '细香葱', basil: '罗勒', parsley: '欧芹', mixed_fresh_herbs: '多款鲜香草任选', fresh_herbs: '鲜香草', carrots: '胡萝卜', root_vegetables: '根茎蔬菜', peppers: '甜椒或辣椒', peas: '豌豆', corn: '玉米', vegetable_mix: '蔬菜组合', mixed_produce: '多款果蔬任选', prepared_salad: '预制沙拉', potatoes_fresh: '新鲜土豆', potato_salad: '土豆沙拉', potato_sides: '加工土豆配菜', tomatoes: '番茄', cucumber: '黄瓜', cabbage: '卷心菜', onion_garlic: '葱姜蒜或洋葱', leafy_green: '叶菜', vegetables_other: '其他蔬菜',
   apples: '苹果', pears: '梨', strawberries: '草莓', blueberries: '蓝莓', other_berries: '莓果', watermelon: '西瓜', melon: '甜瓜', grapes: '葡萄', apricots: '杏', plums: '李子', cherries: '樱桃', peaches_nectarines: '桃或油桃', mixed_stone_fruit: '多款核果任选', pineapple: '菠萝', mango: '芒果', avocado: '牛油果', bananas: '香蕉', prepared_fruit: '切配水果', mixed_fruit: '多款水果任选',
@@ -495,9 +578,10 @@ const GROUP_DEFAULTS = {
   drink_soda: '汽水或软饮', drink_juice: '果汁或果味饮料', drink_water: '饮用水或气泡水', drink_energy: '能量饮料', drink_sports: '运动饮料', drink_concentrate: '浓缩兑水饮料', drink_other: '其他饮料',
   alcohol_beer: '啤酒', alcohol_wine: '葡萄酒或起泡酒', alcohol_spirits: '烈酒或利口酒', alcohol_cider_rtd: '苹果酒或即饮调制酒', alcohol_other: '其他酒类',
   pet_cat: '猫粮或猫用品', pet_dog: '狗粮或狗用品', pet_other: '其他宠物用品', flower_bouquet: '鲜花或花束', plants: '盆栽或园艺植物',
-  home_appliances: '家用小电器', home_cookware: '锅具或厨房工具', home_storage: '家居收纳用品', home_decor: '家居装饰用品', home_other: '其他家居用品',
-  electronics_audio: '音频设备', electronics_computing: '数码产品或配件', electronics_lighting: '电子照明用品', electronics_other: '其他电子电器',
-  clothing_adult: '成人服饰鞋袜', clothing_children: '儿童服饰鞋袜', clothing_other: '其他服饰配件', leisure_toys: '玩具或游戏', leisure_stationery: '文具用品', leisure_books: '图书或杂志', leisure_other: '其他休闲用品',
+  home_appliances: '家用小电器', home_cookware: '锅具或厨房工具', home_tableware: '餐具或饮具', home_storage: '家居收纳用品', home_furniture: '家具', home_textiles: '床品或家用纺织品', home_bath: '浴室用品或毛巾', home_tools: '家用工具', home_garden: '园艺或户外家居用品', home_decor: '家居装饰用品', home_other: '其他家居用品',
+  electronics_audio: '音频设备', electronics_computing: '数码产品或配件', electronics_tv: '电视或投影设备', electronics_mobile: '手机、平板或智能手表', electronics_computer: '电脑或数码配件', electronics_print_photo: '打印或影像设备', electronics_gaming: '游戏设备或游戏', electronics_charging: '充电器或线材', electronics_lighting: '电子照明用品', electronics_other: '其他电子电器',
+  clothing_adult: '成人服饰鞋袜', clothing_children: '儿童服饰鞋袜', clothing_other: '其他服饰配件', clothing_adult_tops: '成人上衣', clothing_adult_bottoms: '成人裤装或裙装', clothing_adult_dresses: '成人连衣裙', clothing_adult_outerwear: '成人外套或雨具', clothing_adult_underwear: '成人内衣', clothing_adult_socks: '成人袜子', clothing_adult_footwear: '成人鞋靴', clothing_adult_accessories: '成人服饰配件', clothing_children_tops: '儿童上衣', clothing_children_bottoms: '儿童裤装或裙装', clothing_children_outerwear: '儿童外套或雨具', clothing_children_underwear: '儿童内衣或睡衣', clothing_children_socks: '儿童袜子', clothing_children_footwear: '儿童鞋靴', clothing_children_accessories: '儿童服饰配件', clothing_mixed_offer: '服饰多品项任选',
+  leisure_toys: '玩具或游戏', leisure_stationery: '文具用品', leisure_books: '图书或杂志', leisure_bicycles: '自行车或电助力自行车', leisure_bike_accessories: '骑行护具或配件', leisure_ride_on: '儿童电动骑乘玩具', leisure_outdoor_play: '户外游乐设施', leisure_sports: '运动或户外装备', leisure_camping: '露营或节庆户外用品', leisure_bags: '书包或背包', leisure_crafts_learning: '手工或学习用品', leisure_gaming: '电子游戏或软件', leisure_other: '其他休闲用品',
   tobacco_cigarettes: '烟草制品', tobacco_nicotine: '尼古丁产品', tobacco_other: '其他烟草相关商品', other_offer: '其他促销商品',
 };
 
@@ -512,6 +596,101 @@ const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
 ]);
 
 const SPECIFIC_DESCRIPTIONS = [
+  [/ben s sauce.*dolmio|dolmio.*ben s sauce/, '这是 Ben’s 或 Dolmio 瓶装烹调酱任选，可加入煎熟的肉类、蔬菜、米饭或意面快速完成一餐；不同款可能偏意式番茄或其他风味。'],
+  [/karolines kokken sauce/, '这是 Karolines Køkken 冷藏或常温烹调酱，通常以奶油为基底，可加热后搭配肉类、意面、土豆或蔬菜。'],
+  [/odense marcipan dessert sauce/, '这是 Odense Marcipan 甜点淋酱，可淋在冰淇淋、蛋糕、水果、煎饼或其他甜点上；商品主体是甜酱，不是杏仁膏。'],
+  [/k salat bearnaise|bearnaisesauce|sauce bearnaise/, '这是贝阿恩酱，带黄油、龙蒿和微酸风味，适合搭配牛排、猪排、薯条和烤蔬菜；可按包装冷食或加热。'],
+  [/jensens.*sauce/, '这是 Jensens Køkken 佐餐酱，常见款可搭配牛排、猪排、汉堡、薯条或烤肉；按包装说明冷食或加热。'],
+  [/vitasia asiatisk.*sauce/, '这是 VITASIA 亚洲风味烹调酱，可与肉类、豆腐、蔬菜和面条一起炒热，快速做成一份炒菜或拌面。'],
+  [/vitasia sursod.*foraarsrullesauce/, '这是 VITASIA 糖醋酱或春卷蘸酱任选，前者可炒肉和蔬菜，后者适合蘸春卷、炸物和小吃。'],
+  [/vitasia woksauce/, '这是 VITASIA 炒菜酱，倒入炒熟的肉类、豆腐、蔬菜或面条中翻炒即可调味；不同款的辣度和风味不同。'],
+  [/middagsfrikadeller.*mini kodboller/, '这是丹麦煎肉饼或迷你肉丸任选，均为肉糜成型制品，可按包装直接复热，搭配土豆、意面、酱汁或三明治。'],
+  [/^salsiccia$/, '这是意式 Salsiccia 生香肠，通常用猪肉、盐和香料制成，需彻底煎烤；可配意面、烩饭、披萨或烤蔬菜。'],
+  [/vitasia slow cooked svineslag/, '这是 VITASIA 亚洲风味慢煮猪五花肉，肥瘦相间并已长时间熟制，复热后可配米饭、面条或蔬菜；商品主体是猪肉，不是葡萄酒。'],
+  [/pantene eller kleenex/, '这是 Pantene 洗发水或护发素与 Kleenex 面巾纸的跨类别任选促销；一个用于清洁护理头发，另一个是擦拭用纸，不能当作同类商品理解。'],
+  [/tulip pizzatopping/, '这是 Tulip 已切碎的熟制肉类披萨配料，撒在披萨、意面或焗饭上后加热食用；商品主体是加工肉，不是奶酪。'],
+  [/ristet sesamolie/, '这是烘香芝麻油，香气浓、通常在炒菜出锅、凉拌、蘸料或汤面中少量增香；不是适合大量高温煎炸的普通食用油。'],
+  [/koldpresset rapsolie/, '这是有机冷榨菜籽油，保留较明显的籽香，适合凉拌、调酱和中低温烹调；高温用途按瓶身耐温说明使用。'],
+  [/super kraes kebab|^oksekebab$/, '这是调味 Kebab 烤肉条，平底锅充分加热后可夹皮塔饼、卷饼，或搭配薯条、米饭和沙拉。'],
+  [/^grillpolse$/, '这是适合煎烤的香肠，可用烤架、平底锅或热水充分加热后夹热狗面包或配土豆；具体肉种见包装配料。'],
+  [/santa maria indisk/, '这是 Santa Maria 印度风味烹调酱、香料或餐食配料任选，用于咖喱和印度风味菜肴；各选项的辣度和使用步骤不同。'],
+  [/santa maria tex mex|coop tex mex|banderos/, '这是 Tex-Mex 墨西哥风味酱料或调味商品，可用于塔可、墨西哥卷、玉米片和蘸酱；促销可能包含不同辣度与用途的选项。'],
+  [/dipmix/, '这是蘸酱调味粉，通常与酸奶油、Skyr 或其他基底拌匀后，搭配薯片、蔬菜条或烤肉食用。'],
+  [/dippies fruit dips/, '这是给苹果、草莓、香蕉等水果蘸食的甜味蘸酱，可作零食或甜点搭配；商品主体是酱料，不是桃子或其他鲜果。'],
+  [/miracle whip/, '这是 Miracle Whip 蛋黄酱式调味酱，口味比普通蛋黄酱更甜酸，可用于三明治、汉堡、土豆沙拉和凉拌菜。'],
+  [/bahncke|gestus pebermix/, '这是佐餐调味酱，可搭配热狗、汉堡、薯条、烤肉或三明治；具体款式可能是芥末、番茄、胡椒或其他口味。'],
+  [/meyers spreads eller ostetern/, '这是 Meyers 涂抹酱或奶酪丁任选；涂抹酱可配面包和蔬菜，奶酪丁可直接加入沙拉或冷盘。'],
+  [/antonius marked|grillmarked|rema 1000 dansk grillkod/, '这是多款调味烧烤肉任选，可能包含不同肉种、部位、肉串或肉排；均需彻底加热，适合烤架、烤箱或平底锅。'],
+  [/fredagstapas/, '这是熟食柜制作的周五 Tapas 拼盘，通常由多种冷切、奶酪或小食组合，可直接作为分享冷盘食用。'],
+  [/italiensk antipasti|citterio italiensk charcuteri|parmaskinke eller antipasto misto/, '这是意式冷切肉或 Antipasti 拼盘，常含火腿、萨拉米等熟成肉，可直接配面包、奶酪、橄榄和沙拉食用。'],
+  [/charcuteri med troffel/, '这是加入松露风味的熟成冷切肉，切片后可直接用于三明治、奶酪拼盘或 Tapas 冷盘。'],
+  [/den gronne slagter/, '这是 Den Grønne Slagter 系列熟制肉品任选，可用于三明治、冷盘或简单加热后的热餐；不同包装可能是冷切片、肉丸或其他加工肉。'],
+  [/gestus topping|steff houlberg topping/, '这是已切丁、切条或切片的熟制肉类配料，可撒在披萨、沙拉、三明治、意面或焗饭上再加热食用。'],
+  [/^cevapcici$/, '这是巴尔干风味调味肉糜条，外形像无肠衣小香肠，需煎烤至熟，常配皮塔饼、洋葱、Ajvar 红椒酱和沙拉。'],
+  [/vitasia chicken bites/, '这是 VITASIA 调味鸡肉块，属于需要按包装充分加热的亚洲风味方便肉食，可配米饭、面条或蘸酱。'],
+  [/^sucuk/, '这是 Sucuk 土耳其辣味牛肉香肠，蒜香和香料味较重，可切片煎香后配鸡蛋、面包、披萨或炖菜。'],
+  [/yakitori spyd/, '这是日式酱汁调味鸡肉串，需充分加热，可作烧烤小食并搭配米饭、沙拉或照烧汁。'],
+  [/dansk grillkam/, '这是丹麦猪外脊部位的调味烧烤肉，肉质较瘦，可整块烤后切片，或按包装分切煎烤；需彻底熟制。'],
+  [/bbq grillben/, '这是 BBQ 调味猪肋骨或肋排段，适合烤箱或烤架慢烤至软嫩；带骨且酱料含糖时需避免表面烤焦。'],
+  [/krebinetter af fjerkrae/, '这是用禽肉肉糜压成的煎肉饼，需用平底锅、烤箱或空气炸锅彻底加热；可配土豆、蔬菜和酱汁。'],
+  [/premieur pommes gigant/, '这是 Premieur 大号冷冻薯条，条形较粗，适合烤箱、空气炸锅或油炸加热至外脆内软。'],
+  [/velsmag tykstegsbof af gris/, '这是猪后腿或外侧部位切成的调味猪肉排，可平底锅煎或烤架烧烤；属于生肉，需彻底加热。'],
+  [/filet a la morbrad/, '这是用猪肉制成并调味的“里脊式”肉排，可煎、烤或切片配饭；它是加工成型肉，不等同于整条猪里脊。'],
+  [/frilandsgris morbrad.*grillkoller/, '这是散养猪里脊或 BBQ 调味烧烤肉任选；猪里脊较瘦，烧烤肉通常已腌制，两者都需彻底加热。'],
+  [/marineret tomahawk/, '这是 BBQ 腌制 Tomahawk 牛排，保留长肋骨并带肋眼肉，适合高温煎烤后静置切片；厚度较大时需控制中心熟度。'],
+  [/grillfakler/, '这是把调味肉条缠绕成螺旋状的烧烤串，带 BBQ 香料，可用烤架、烤箱或平底锅充分加热。'],
+  [/ekstra jomfruolie/, '这是特级初榨橄榄油，带橄榄果香，适合凉拌、蘸面包、做酱汁和中温烹调；不同款的产地和风味会不同。'],
+  [/grillspyd med gris og grontsager/, '这是猪肉和蔬菜串成的烧烤串，适合烤架、烤箱或平底锅加热；商品主体是需要彻底熟制的调味猪肉串，不是单独蔬菜。'],
+  [/salling eller michelle kristensen faerdigret i glas/, '这是玻璃罐装即食餐任选，每罐约 625 克；打开后按包装说明加热即可作为一餐，商品主体是预制菜，不是玻璃杯。'],
+  [/vitasia foraarsruller.*samosa.*dessert i glas/, '这是亚洲风味春卷、咖喱角或杯装甜点任选；前两种是需要加热的咸味点心，杯装甜点可按包装直接食用，三者不是同一种商品。'],
+  [/vitasia dessert i glas/, '这是 Vitasia 杯装亚洲风味甜点，按包装冷藏或常温保存并直接食用；商品主体是甜品，不是饮水玻璃杯。'],
+  [/flerfarvet krysantemum i skaal/, '这是多色菊花盆栽组合，连同花盆售卖，株高约 23–29 厘米；适合阳台、门前或庭院摆放，需要按天气和盆土情况浇水。'],
+  [/lillebror ostehaps.*flodehavarti/, '这是儿童奶酪条或丹麦奶油 Havarti 奶酪任选；奶酪条可直接作零食，Havarti 质地柔软、奶香较浓，适合切片夹面包。'],
+  [/mammen skaereost.*danablu/, '这是丹麦切片用餐桌奶酪或 Danablu 蓝纹奶酪任选；前者口味较温和，后者咸香浓烈并带蓝纹霉菌，适合奶酪盘或酱汁。'],
+  [/castello aged havarti.*gouda/, '这是熟成 Havarti 或 Gouda 奶酪任选，均可切片夹面包、配饼干或做奶酪拼盘；熟成时间和风味强度不同。'],
+  [/castello kant.*glod.*ikon|^castello$/, '这是 Castello 系列餐桌奶酪任选，可能包含不同熟成度或霉菌类型；可配面包、饼干和水果作冷盘，风味从温和到浓郁不等。'],
+  [/ostehaps|danbo|skaereost|skæreost|flodehavarti|havarti|dronning dagmar|fætter kras|samso|tilsiter/, '这是可切片或单条食用的丹麦餐桌奶酪，常见类型包括 Danbo、Havarti、Samsø、Tilsiter 或儿童奶酪条；可夹黑麦面包、做三明治，也可直接作奶酪零食。'],
+  [/flodeost|smoreost|smelteost|philadelphia|rygeost/, '这是质地柔软的涂抹奶酪，可直接抹面包、贝果和饼干，也可做三明治馅、蘸酱或烘焙配料；需冷藏保存。'],
+  [/\bdressing\b|fastfood dressing/, '这是沙拉或快餐用调味酱，可淋在生菜沙拉、汉堡、薯条或烤肉上；不同款可能是奶油、油醋、蒜味或辣味。'],
+  [/aubergine/, '这是新鲜茄子，果肉吸味、加热后柔软，适合红烧、鱼香做法、煎烤、咖喱或烤箱料理。'],
+  [/grontsagsblanding|grontsager/, '这是蔬菜混合装或多款蔬菜任选，常用于快炒、炖菜、汤或配菜；促销通常覆盖不同配方和包装重量。'],
+  [/danske radiser/, '这是带叶丹麦樱桃萝卜，口感清脆微辣，可生吃、拌沙拉、蘸酱，也可快速腌渍；叶子新鲜时也可炒食。'],
+  [/magnum.*minecraft.*solero.*iskasse/, '这是 Magnum、Minecraft 联名冰品或 Solero 水果风味冰品的盒装任选促销，均为冷冻甜品；具体支数、口味和单支大小由所选包装标明。'],
+  [/rose kyllingetopping/, '这是已切小块或切条的熟制鸡肉配料，可用于披萨、沙拉、三明治或方便餐；有多种调味款，不是未经处理的生鸡肉。'],
+  [/rahbek indbagt fisk/, '这是冷冻裹面糊或裹皮鱼制品，通常用烤箱或空气炸锅加热至外层酥脆；商品主体是加工鱼排，不是生鲜鱼柳。'],
+  [/amanda yellowfin tun/, '这是黄鳍金枪鱼罐头，开罐沥干后可拌沙拉、夹三明治或拌意面；属于熟制罐头，不是生鲜金枪鱼排。'],
+  [/saeby makrel/, '这是 Sæby 鲭鱼罐头，鱼肉已经熟制并装罐，可直接配黑麦面包、沙拉或热饭食用；不是生鲜鲭鱼。'],
+  [/protein kebab.*kyllinge.*oksekod/, '这是调味 Kebab 烤肉条任选，可选鸡牛混合肉或纯牛肉；通常用于平底锅加热后夹皮塔饼、卷饼或配沙拉，不是生鲜整块肉。'],
+  [/xxl kyllingefilet/, '这是 2.5 kg 大包装冷冻鸡胸肉，肉质较瘦，可解冻后煎、烤、炒或做咖喱；必须彻底加热，不是熟食。'],
+  [/xxl kyllingestrimler/, '这是 2.5 kg 大包装鸡肉条，已切成适合快炒、咖喱、卷饼或沙拉配料的形状；需按包装确认是否冷冻并彻底加热。'],
+  [/coop kylling|rema 1000 dansk kylling/, '这是多款丹麦鸡肉任选促销，包装重量覆盖不同部位或切法；均为需要彻底加热的鸡肉，具体部位由所选包装正面标明。'],
+  [/^kylling$/, '这是已经熟制并切成条、片或小块的鸡肉，可直接用于沙拉和三明治，也可短暂复热后加入卷饼、意面或热饭。'],
+  [/grillet kyllingefilet i strimler/, '这是已经烤熟并切条的鸡胸肉，解冻或复热后可用于沙拉、卷饼、三明治和意面；不是生鲜鸡胸。'],
+  [/hakket dansk kylling/, '这是丹麦鸡肉末，可做肉丸、肉饼、饺子馅或番茄肉酱；属于生肉末，烹调时需彻底加热。'],
+  [/kyllinge polser.*kodpolse/, '这是鸡肉香肠或普通肉香肠任选，均为成型肉制品，可煎、烤或煮热后食用；具体肉种按所选包装区分。'],
+  [/kyllinge brystfilet paalaeg/, '这是熟制鸡胸肉冷切片，可直接夹面包、卷饼或搭配沙拉；商品主体是冷切肉，不是生鲜鸡胸。'],
+  [/stegte kyllingegrillspyd/, '这是已经煎烤熟制的鸡肉串，冷冻大包装共约 25 串/2 kg；充分复热后可作聚餐、烧烤或配饭。'],
+  [/laarfilet med skind.*kylling/, '这是带皮丹麦鸡腿排，去除大骨后保留鸡皮，油脂和风味比鸡胸更足，适合煎烤或空气炸锅。'],
+  [/underlaar.*kylling/, '这是丹麦鸡小腿，带骨带皮，适合烤箱、空气炸锅、炖煮或红烧；需彻底加热至中心熟透。'],
+  [/brystfilet.*kylling/, '这是丹麦鸡胸肉，脂肪较少，可切片快炒、整块煎烤、做咖喱或沙拉；属于需要彻底加热的生鲜鸡肉。'],
+  [/havblaa hel dorade/, '这是整条金头鲷，肉质细嫩、刺较集中，适合清蒸、烤箱烤或香煎；售卖单位按半公斤计价。'],
+  [/sol mar hele sardiner/, '这是整条冷冻沙丁鱼，油脂较丰富，可解冻后煎、烤或油炸；不是沙丁鱼罐头。'],
+  [/thorfisk torskefileter/, '这是鳕鱼柳，去除大骨后的白身鱼片，适合煎、烤、蒸或做鱼汤；仍需留意可能残留的小刺。'],
+  [/glyngore tun i vand.*olie/, '这是水浸或油浸金枪鱼罐头任选，开罐沥干后可拌沙拉、夹三明治或做意面；油浸口感更润，水浸脂肪更低。'],
+  [/lykkeberg sild|gestus sild/, '这是腌渍鲱鱼，有原味腌汁、咖喱或香料口味，可直接配黑麦面包、鸡蛋和洋葱食用；属于冷藏熟成鱼制品，不是需要煎烤的生鱼。'],
+  [/amanda rogn.*glyngore tun/, '这是午餐鱼籽罐头或水浸/油浸金枪鱼罐头任选，可直接配黑麦面包、沙拉或三明治；鱼种和口感不同。'],
+  [/rema 1000 dansk rodfiskfilet.*kullerloins.*rodspaettefileter/, '这是红鱼柳、黑线鳕鱼里脊或鲽鱼柳任选，都是白身鱼但鱼种、厚度和口感不同；可煎、烤或蒸，需留意残留小刺。'],
+  [/rema 1000 rogn.*kippers.*yellowfin tun/, '这是鱼籽、烟熏鲱鱼或黄鳍金枪鱼罐头任选，均可作冷餐或三明治配料，但鱼种、烟熏味和浸泡液不同。'],
+  [/glyngore eller bornholms fiskemarked/, '这是鱼类罐头多品项任选，包含鱼籽、鱼丸、鳕鱼肝、番茄酱鲭鱼和金枪鱼；均为开罐即食或可简单加热的熟制食品。'],
+  [/fiske eller skaldyrsmarked|^fiskemarked$/, '这是多款冷冻鱼类或海鲜任选，选项可能包含不同鱼种、贝类或加工海鲜；烹调方法由具体包装决定，不应把它们当作同一种鱼比较。'],
+  [/penalhus.*mobilholder.*drikkedunk/, '这是跨类别小商品任选，包含铅笔盒、钥匙扣烫印贴、黑板贴、粉笔笔、奖励计划表、手机支架、水瓶、笔记本和涂色活动书；各选项用途不同，不是一种统一商品。'],
+  [/^o (?:20|24|28) cm\b/, '这是不锈钢煎锅，锅内为陶瓷不粘涂层，可使用金属厨具，耐烤箱高温并适用于含电磁炉在内的各类炉灶；当前促销按 20、24 或 28 cm 直径分别标价。'],
+  [/lekaform/, '这是 Lekaform 营养补充剂任选，促销图片包含维生素 D、钙加维生素 D，以及含多种维生素和矿物质的片剂；不同配方不能互相替代，应按自身需要和包装剂量选择。'],
+  [/la campagna udenlandske specialiteter/, '这是 La Campagna 冷切肉任选，图片包含萨拉米、Mortadella、熟火腿、风干火腿、鸭肉酱和迷你风干肠等；均可作三明治或冷盘，但肉种、熟制方式和包装重量不同。'],
+  [/pakkemarked/, '这是多款烧烤肉任选，图片包含 BBQ 猪排、腌制羊后臀肉、猪肉烧烤条、腌制猪颈肉、猪肋排、牛猪混合肉串和汉堡肉饼；均需彻底加热，肉种和形态不同。'],
+  [/lun lordag/, '这是熟食柜的烤猪肉片、丹麦肉饼、裹粉炸鱼柳或肝酱任选；它们的肉种、形态和食用方式不同，不是一种统一商品。'],
+  [/f[oe]tex favoritter/, '这是 føtex 门店精选的多品类商品合集，当前促销图片同时列出烘焙面包和甜点、肉饼、切配水果、鲜花、熟食与果汁，各商品分别标价；不是一个可统一比较的单品。'],
+  [/^(?:20.*alt urtekram|urtekram)$/, '这是 Urtekram 全品牌跨品类会员折扣，清单同时包含橄榄油、面粉、披萨酱、葡萄干、椰糖，以及沐浴露、面霜、洗手液和身体乳；具体折后价按所选商品计算。'],
   [/filet ala morbrad.*polser/, '这是调味猪里脊式肉排，或法兰克福、普斯塔等多种香肠任选。均属于调味肉制品，但形态和烹调时间不同，购买时按包装选择。'],
   [/koteletter.*grillsticks.*grillpolser/, '这是猪排、烧烤肉条或烧烤肠任选，肉块与香肠形态不同；均需按包装说明彻底加热，并按想做的菜选择。'],
   [/mutti.*tomater.*pizzasauce/, '这是 Mutti 番茄罐头或披萨酱任选。番茄罐头适合炖菜、汤和意面，披萨酱可直接涂饼底；用途不同。'],
@@ -544,18 +723,565 @@ const SPECIFIC_DESCRIPTIONS = [
   [/asia cubes/, '冷冻亚洲风味一口小食，需加热后食用；具体馅料需按包装图片确认，不是冰淇淋。'],
 ];
 
-export function danishProductNameZh(originalName, comparisonGroup) {
+const LOW_PRIORITY_GROUP = /^(?:drink_|alcohol_|pet_|flower_|plants$|home_|electronics_|clothing_|leisure_|tobacco_|other_offer$)/;
+
+const CLOTHING_TYPE_RULES = [
+  [/regnjakke.*bukser/, ['雨衣或雨裤任选', '分别用于上身和下身的雨天防风防水']],
+  [/strikcardigan.*bukser/, ['针织开衫或针织裤任选', '可选上衣或裤装，适合换季保暖']],
+  [/(?:sweatshirt|sweatbluse|sweattroje).*bukser/, ['卫衣或运动裤任选', '可选休闲上衣或柔软运动裤']],
+  [/(?:musselinbluse|ribbluse).*(?:leggings|bukser)/, ['上衣或裤装任选', '可选儿童上衣、紧身裤或长裤']],
+  [/regnsaet/, ['雨衣雨裤套装', '用于雨天防风防水']],
+  [/regnjakke/, ['雨衣外套', '用于雨天防风防水']],
+  [/regnbukser/, ['防水雨裤', '用于雨天户外穿着']],
+  [/skjortejakke/, ['衬衫式外套', '可作轻薄外套或叠穿']],
+  [/sweatshirt|sweatbluse|hoodie|sweattroje/, ['卫衣', '适合日常休闲穿着']],
+  [/strikcardigan|cardigan/, ['针织开衫', '适合叠穿和换季保暖']],
+  [/\bstrik\b/, ['针织上衣', '适合换季或室内保暖']],
+  [/t shirt/, ['T恤', '短袖上衣，适合日常穿着']],
+  [/tanktop|stroptop|croptop|undertroje|herreundertroje/, ['背心', '贴身或单穿的无袖上衣']],
+  [/skjorte/, ['衬衫', '有领上衣，可单穿或叠穿']],
+  [/\bbluse\b/, ['上衣', '日常穿着的套头或长袖上衣']],
+  [/smaekbukser/, ['背带裤', '带肩带的连体裤装']],
+  [/joggingbukser|sweatbukser/, ['运动长裤', '柔软休闲裤装']],
+  [/suitpants/, ['西装风长裤', '版型偏正式的长裤']],
+  [/jeans/, ['牛仔裤', '丹宁面料长裤']],
+  [/capribukser/, ['七分裤', '裤长约到小腿位置']],
+  [/leggings|caprileggings/, ['紧身裤', '弹性贴身裤装']],
+  [/denimshorts/, ['牛仔短裤', '丹宁面料短裤']],
+  [/cykelshorts/, ['骑行短裤', '贴身弹性短裤']],
+  [/badeshorts|badebukser/, ['泳裤', '游泳或海滩穿着']],
+  [/\bshorts\b|sweatshorts/, ['短裤', '日常休闲短裤']],
+  [/\bbukser\b/, ['长裤', '日常长裤']],
+  [/nederdel/, ['半身裙', '裙装下装']],
+  [/\bkjole\b/, ['连衣裙', '上下连为一体的裙装']],
+  [/natdragt/, ['连体睡衣', '睡眠时穿着的连体衣']],
+  [/nattoj/, ['睡衣', '睡眠时穿着的衣物']],
+  [/\bbh\b/, ['文胸', '女性胸部支撑内衣']],
+  [/boxershorts/, ['平角内裤', '贴身平角内衣']],
+  [/hipsters/, ['低腰平角内裤', '贴身短款内衣']],
+  [/g streng/, ['丁字裤', '贴身内衣']],
+  [/trusser/, ['内裤', '贴身下装内衣']],
+  [/tights med ekstra benlaengde/, ['加长款连裤袜', '贴身弹性袜裤']],
+  [/\btights\b/, ['贴身打底裤或平角内裤', '具体形态由原促销名和包装决定']],
+  [/sneakerstromper|footies/, ['隐形短袜', '鞋口较低，适合运动鞋']],
+  [/stromper/, ['袜子', '日常穿着的袜类']],
+  [/gummistovler/, ['雨靴', '防水橡胶靴']],
+  [/texstovler/, ['防水保暖靴', '适合湿冷天气']],
+  [/lyssko/, ['带灯童鞋', '走动时可发光的儿童鞋']],
+  [/sneakers|skechers/, ['运动休闲鞋', '适合日常行走']],
+  [/sandaler/, ['凉鞋', '露脚或透气鞋款']],
+  [/slippers|flip flops|clogs/, ['拖鞋', '居家、泳池或夏季穿着']],
+  [/ballerina/, ['芭蕾平底鞋', '浅口平底鞋']],
+  [/solbriller/, ['太阳镜', '遮挡强光和紫外线的眼镜']],
+  [/kasket/, ['棒球帽', '带帽檐的休闲帽']],
+  [/bollehat/, ['渔夫帽', '圆顶软檐帽']],
+  [/straahat/, ['草帽', '夏季遮阳帽']],
+  [/pandebaand/, ['发带或头带', '用于固定头发或装饰']],
+  [/baeltetaske/, ['腰包', '系在腰间或斜挎的小包']],
+  [/\bbaelte\b/, ['腰带', '用于固定裤腰或搭配造型']],
+  [/torklaede/, ['围巾或方巾', '用于保暖或搭配']],
+  [/halskaede/, ['项链', '颈部饰品']],
+  [/oreringe/, ['耳环', '耳部饰品']],
+  [/haarklemme|haarspaende|haarpynt/, ['发饰', '用于固定或装饰头发']],
+];
+
+const GENERAL_TYPE_RULES = [
+  [/robotstovsuger/, ['扫拖或扫地机器人', '自动在地面吸尘；部分型号还能湿拖或自动集尘']],
+  [/ledningsfri stovsuger.*gulvvasker|gulvvasker/, ['洗地机', '吸走污水并清洗硬质地面']],
+  [/stovsuger med pose|bosch stovsuger|miele stovsuger|nilfisk stovsuger/, ['有尘袋吸尘器', '用可更换尘袋收集地面灰尘']],
+  [/poselos stovsuger|hoover/, ['无尘袋吸尘器', '把灰尘收集到可清空的集尘盒']],
+  [/batteridreven cyklonstovsuger|ledningsfri stovsuger|cyklonstovsuger/, ['无线手持吸尘器', '用充电电池吸除地面和家具灰尘']],
+  [/\bstovsuger\b/, ['吸尘器', '吸除地板、地毯或家具表面的灰尘']],
+  [/damprenser/, ['蒸汽清洁机', '用高温蒸汽清洁瓷砖、缝隙、玻璃或织物表面']],
+  [/dampmoppe/, ['蒸汽拖把', '用蒸汽和拖布清洁硬质地面']],
+  [/steamer med sugefunktion/, ['蒸汽清洁吸洗机', '一边喷蒸汽一边吸走污物和水分']],
+  [/luftblaeser.*varm.*kold/, ['冷热风扇', '夏季送凉风、冬季作为暖风机使用']],
+  [/luftkoler/, ['蒸发式冷风机', '通过水箱和冷却元件送出较凉空气']],
+  [/ventilator/, ['电风扇', '促进室内空气流动并送风']],
+  [/affugter/, ['除湿机', '从空气中凝结并收集水分，降低室内湿度']],
+  [/purifier|luftrenser/, ['空气净化器', '过滤室内空气中的颗粒物并循环送风']],
+  [/kole fryseskab|koleskab.*fryse|køle fryseskab/, ['冷藏冷冻组合冰箱', '上部或独立区域冷藏，另一区域冷冻食品']],
+  [/fryseskab/, ['立式冷冻柜', '低温冷冻并储存食品']],
+  [/koleskab/, ['冰箱', '冷藏食品和饮料']],
+  [/vinkoleskab/, ['恒温酒柜', '按设定温度存放葡萄酒']],
+  [/torretumbler/, ['滚筒式烘干机', '把洗后的衣物滚筒烘干']],
+  [/vaskemaskine/, ['滚筒洗衣机', '自动清洗和脱水衣物']],
+  [/mikroovn|mikrobolgeovn/, ['微波炉', '快速加热、解冻或烹调食物']],
+  [/pizzaovn/, ['披萨烤炉', '以高温烘烤披萨饼底和配料']],
+  [/\bovn\b/, ['烤箱', '烘烤、焙烤或加热食物']],
+  [/gasgrill/, ['燃气烧烤炉', '使用燃气在户外烧烤肉类和蔬菜']],
+  [/airfryer/, ['空气炸锅', '用循环热风烤制食物，适合薯条、鸡块和烤蔬菜']],
+  [/sandwichtoaster/, ['三明治压烤机', '夹热并压烤三明治；带替换烤盘的型号也可煎烤']],
+  [/toastmaskine.*vaffeljern.*brodrister/, ['三明治机、华夫饼机或烤面包机任选', '分别用于压烤三明治、烤华夫饼或烘烤面包片']],
+  [/toastmaskine.*vaffeljern/, ['三明治机或华夫饼机', '用于压烤三明治或烤制华夫饼']],
+  [/toastmaskine|brodrister/, ['烤面包机', '把切片面包烘烤至表面酥脆']],
+  [/elkedel/, ['电热水壶', '快速烧开饮用水']],
+  [/kaffemaskine/, ['滴滤咖啡机', '用咖啡粉冲煮滤泡咖啡']],
+  [/espressomaskine/, ['全自动咖啡机', '研磨咖啡豆并制作意式浓缩或奶咖']],
+  [/kokkenmaskine/, ['厨师机', '用搅拌、打发或揉面配件处理烘焙原料']],
+  [/stavblender/, ['手持搅拌棒套装', '在杯或锅中搅打浓汤、酱料和果昔']],
+  [/glas blender|\bblender\b|smoothie maker/, ['台式搅拌机', '用高速刀头搅打果昔、汤汁或碎冰']],
+  [/multihakker|minihakker|elektrisk hakker/, ['电动切碎机', '快速切碎蔬菜、坚果、香草或少量肉类']],
+  [/multiskaerer/, ['电动切片切丝机', '把蔬果切片、切丝或刨碎']],
+  [/kodhakker/, ['电动绞肉机', '把肉类绞碎；部分型号带灌肠或制丸配件']],
+  [/juicepresser/, ['榨汁机', '压榨水果或蔬菜制作果汁']],
+  [/riskoger/, ['迷你电饭煲', '自动煮饭并保温']],
+  [/frituregryde/, ['电炸锅', '在控温热油中炸制薯条或其他食物']],
+  [/kontaktgrill/, ['双面接触式烤炉', '上下烤盘同时加热三明治、肉类或蔬菜']],
+  [/dobbelt kogeplade|kogeplade/, ['电炉盘', '提供一个或多个电加热灶面用于烹调']],
+  [/vakuumpakker/, ['真空封口机', '抽出包装袋空气并热封，延长食材保存时间']],
+  [/plastruller til vakuumpakker/, ['真空封口袋卷', '裁剪后配合真空封口机包装食材']],
+  [/slush ice.*soft ice maker/, ['冰沙和软冰淇淋机', '制作冰沙、软冰淇淋或其他冷冻甜品']],
+  [/ismaskine/, ['冰淇淋机', '搅拌并冷冻原料制作冰淇淋或雪葩']],
+  [/varmtvandsdispenser/, ['即热饮水机', '按需快速输出热水']],
+  [/dampstrygejern/, ['蒸汽熨斗', '用加热底板和蒸汽熨平衣物褶皱']],
+  [/digital kokkenvaegt|kokkenvaegt/, ['电子厨房秤', '称量烹饪和烘焙食材']],
+  [/brita.*vandfilter|vandfilter kande/, ['滤水壶', '通过可更换滤芯过滤自来水']],
+  [/vandfilterpatroner/, ['净水壶替换滤芯', '安装到兼容滤水壶中用于过滤自来水']],
+  [/cocktail shaker/, ['鸡尾酒摇壶', '加入冰块和饮料后摇匀鸡尾酒']],
+  [/wok/, ['炒锅', '圆弧深锅，适合中式快炒和翻炒']],
+  [/kasserolle|maelkegryde/, ['单柄小奶锅', '适合煮酱汁、牛奶或少量食物']],
+  [/grydesaet|gryde st/, ['锅具套装', '包含多个汤锅或奶锅，用于煮、炖和焯烫']],
+  [/\bgryde\b/, ['汤锅', '用于煮汤、炖菜、煮面或焯烫']],
+  [/pandesaet/, ['煎锅套装', '包含不同尺寸煎锅，用于煎炒食物']],
+  [/serveringspande/, ['带柄深煎锅', '可煎炒、焖煮并直接上桌']],
+  [/stegepande|\bpande\b/, ['煎锅', '用于煎蛋、煎肉或炒菜']],
+  [/santoku kniv/, ['日式三德刀', '用于切肉、切菜和切片']],
+  [/knivblok/, ['厨房刀具收纳座', '集中收纳多把厨房刀具']],
+  [/\bkniv\b/, ['厨房刀', '用于切片、切丁或处理食材']],
+  [/y skraeller/, ['Y形削皮器', '削去土豆、胡萝卜等蔬果外皮']],
+  [/skaerebraet/, ['砧板', '垫在食材下方用于切配']],
+  [/dorslag/, ['滤水篮', '沥干意面、蔬菜或洗净食材的水分']],
+  [/saet med sier|\bsier\b/, ['滤筛套装', '过滤液体、筛粉或沥干小颗粒食材']],
+  [/ovnfast fad|stegegryde/, ['烤箱用烤盘或烤皿', '盛装食材后放入烤箱烘烤']],
+  [/grillbakke/, ['烧烤托盘', '放在烤架上承托较小食材并减少掉落']],
+  [/grillbriketter/, ['烧烤炭块', '在炭火烧烤炉中作为燃料']],
+  [/forklaede/, ['厨房围裙', '烹饪时保护衣物免受油水污渍']],
+  [/kokkenredskab|kokkenartikler|kokkentilbehor/, ['厨房工具', '用于翻炒、夹取、盛取或处理食材']],
+  [/madkasse.*drikkedunk|drikkedunk.*madkasse/, ['饭盒或水瓶', '用于携带午餐、零食或饮水']],
+  [/snackboks|minibokse/, ['小号食物收纳盒', '分装零食、配料或少量食物']],
+  [/madkasse/, ['饭盒', '分格或密封携带午餐和零食']],
+  [/drikkedunk|drikkeflaske|vanddunk/, ['便携水瓶', '盛装并携带冷饮或饮用水']],
+  [/skoreol|skoskab/, ['鞋架或鞋柜', '在玄关或衣帽区收纳鞋子']],
+  [/vasketojskurv/, ['脏衣篮', '集中收纳待洗衣物']],
+  [/indkobskurv/, ['购物篮', '在购物或搬运小件物品时手提使用']],
+  [/foldekasser?/, ['折叠收纳箱', '展开后装物，空置时可折叠节省空间']],
+  [/glasbeholder med hane/, ['带龙头饮料罐', '盛装冷饮并通过底部龙头取用']],
+  [/kulsyremaskine/, ['家用气泡水机', '向饮用水注入二氧化碳制作气泡水']],
+  [/bestikbakke/, ['餐具抽屉分隔盒', '放在抽屉内分类收纳刀、叉和勺']],
+  [/termoflaske/, ['保温瓶', '真空保温结构可盛装冷热饮']],
+  [/termokrus|termokop/, ['保温杯', '带盖携带并保温咖啡、茶或冷饮']],
+  [/shotsglas/, ['烈酒小杯', '小容量杯具，用于盛装烈酒或小份饮品']],
+  [/papkrus/, ['一次性纸杯', '聚会时盛装冷饮或温热饮品']],
+  [/paptallerken/, ['一次性纸盘', '聚会或野餐时盛放食物']],
+  [/skaalesaet|glasskaale|skaale med laag/, ['碗具套装', '盛装、搅拌或密封保存食物']],
+  [/stege.*af glas/, ['玻璃烤皿', '耐热玻璃容器，可在烤箱中烘烤食物']],
+  [/\bglas\b/, ['饮水杯', '盛装水、果汁或其他饮料']],
+  [/borneservice/, ['儿童餐具套装', '供儿童吃饭使用的杯、碗、盘或餐具组合']],
+  [/flergangsservice/, ['可重复使用餐具', '野餐或聚会后可清洗再次使用']],
+  [/loungesaet/, ['户外休闲桌椅套装', '包含沙发、椅子和桌子，用于庭院休闲']],
+  [/loungesofa/, ['户外休闲沙发', '供多人在庭院或露台就坐']],
+  [/halvhoj seng/, ['儿童半高床', '床面抬高并配梯子，下方可留作游戏或收纳空间']],
+  [/natbord/, ['床头柜', '放在床边收纳或摆放灯具和随身物品']],
+  [/sofabord|sidebord|cafebord/, ['茶几或边桌', '放在沙发、座椅或阳台旁摆放小物']],
+  [/skammel/, ['矮凳', '无靠背矮座，也可临时搁脚']],
+  [/\bpuf\b/, ['软包脚凳', '可坐、搁脚或作为小型软装家具']],
+  [/soundbar/, ['回音壁音箱', '连接电视后增强对白、音乐和电影声效']],
+  [/party hojttaler|sound tower/, ['派对音箱', '大功率便携音箱，适合聚会播放音乐']],
+  [/bluetooth.*hojttaler|tradlos.*hojtaler|tradlos.*hojttaler/, ['蓝牙音箱', '通过蓝牙播放手机或电脑中的音频']],
+  [/in ear|earbuds|airpods/, ['入耳式耳机', '塞入耳道使用的便携耳机']],
+  [/over ear|on ear|hovedtelefon|horetelefon/, ['头戴式耳机', '佩戴在耳部或包耳使用']],
+  [/gaming headset|pc headset|\bheadset\b/, ['游戏耳麦', '带麦克风的耳机，适合游戏和语音']],
+  [/clock radio/, ['收音机闹钟', '兼具 FM 收音、时钟和闹铃功能']],
+  [/dab.*radio|\bradio\b/, ['收音机', '接收 DAB+ 或 FM 广播']],
+  [/pladespiller/, ['黑胶唱片机', '用于播放黑胶唱片']],
+  [/cd afspiller/, ['CD 播放机', '用于播放 CD 和兼容音频源']],
+  [/smart tv|qled|oled|\btv\b/, ['电视', '用于观看电视、流媒体和外接视频']],
+  [/projektor/, ['投影仪', '把视频画面投射到墙面或幕布']],
+  [/dvd afspiller/, ['DVD 播放机', '用于播放 DVD 光盘']],
+  [/streaming box|google tv stick/, ['电视流媒体播放器', '通过 HDMI 给电视增加流媒体与智能电视功能']],
+  [/tv vaegbeslag/, ['电视壁挂架', '把指定尺寸和承重范围的电视固定到墙面']],
+  [/iphone|smartphone|galaxy a|redmi|zte blade|doro aurora|doro leva/, ['智能手机', '用于通话、上网、拍照和安装应用']],
+  [/ipad|android tablet|\btablet\b/, ['平板电脑', '触控屏移动设备，适合影音、学习和轻办公']],
+  [/apple watch|smartwatch|garmin|galaxy fit/, ['智能手表', '记录运动与健康数据，并显示手机通知']],
+  [/chromebook|macbook|baerbar.*pc|\bpc\b/, ['笔记本电脑', '便携式电脑，适合学习、办公或游戏']],
+  [/stationaer pc|aio computer/, ['台式电脑', '桌面电脑，适合固定场所办公或娱乐']],
+  [/gaming skaerm|pc skaerm|baerbar skaerm|touch skaerm|dobbelt skaerm/, ['电脑显示器', '为电脑或兼容设备提供外接显示画面']],
+  [/harddisk/, ['外置硬盘', '用于备份和扩展电脑存储空间']],
+  [/microsd|flashdrive|flash drive/, ['存储卡或U盘', '用于扩展存储或传输文件']],
+  [/printer|laserjet|deskjet|smart tank/, ['打印一体机', '用于打印；部分型号还可扫描和复印']],
+  [/instax.*kamera/, ['拍立得相机', '拍摄后直接输出实体照片']],
+  [/overvagningskamera|smart kamera/, ['监控摄像头', '用于查看和记录室内外画面']],
+  [/digital.*fotoramme|frameo/, ['数码相框', '通过屏幕循环显示数码照片']],
+  [/gaming mus|tradlos mus|\bmus\b/, ['电脑鼠标', '用于操作电脑光标']],
+  [/gaming keyboard|\bkeyboard\b|tastatur/, ['电脑键盘', '用于电脑文字输入和快捷操作']],
+  [/controller/, ['游戏手柄', '用于兼容游戏平台的操控']],
+  [/nintendo switch|ps5|playstation/, ['游戏主机或游戏', '用于对应游戏平台']],
+  [/router|mesh|wifi extender|wi fi extender|mobil wifi/, ['无线路由或网络扩展设备', '用于建立或扩大 Wi‑Fi 网络']],
+  [/powerbank/, ['移动电源', '给手机等 USB 设备临时充电']],
+  [/biloplader/, ['车载充电器', '从汽车电源接口给 USB 设备充电']],
+  [/tradlos oplader/, ['无线充电器', '给兼容 Qi 无线充电的设备充电']],
+  [/oplader|stromforsyning/, ['电源适配器', '给兼容设备供电或充电']],
+  [/ladekabel|usb.*kabel|\bkabel\b/, ['充电或数据线', '连接并给兼容设备充电或传输数据']],
+  [/ladestander|lader til elbil|11kw lader/, ['电动汽车充电设备', '通过 Type 2 等接口给兼容电动车充电']],
+  [/led.*paere/, ['LED 灯泡', '用于室内照明']],
+  [/led.*bordlampe/, ['LED 台灯', '用于桌面阅读或局部照明']],
+  [/led.*standerlampe/, ['LED 落地灯', '用于房间局部或氛围照明']],
+  [/infrarodt termometer/, ['红外额温计', '非接触测量体温，当前型号量程为 35–42°C']],
+  [/armbaandsur/, ['儿童教学腕表', '表盘用不同指针帮助儿童学习辨认小时和分钟']],
+  [/mobilholder/, ['车载手机支架', '安装在汽车出风口，用于固定手机导航']],
+  [/^batterier\b/, ['电池', '为兼容设备供电，需按 AA、AAA 或 CR2032 等型号选择']],
+  [/symaskine/, ['机械缝纫机', '用于直线、包缝等家庭缝纫']],
+  [/fodmassageapparat/, ['足部按摩器', '通过按摩程序放松足部']],
+  [/raclettegrill/, ['Raclette 奶酪烧烤炉', '可在上层煎烤食材、下层小盘融化奶酪']],
+  [/koleboks/, ['电动冷藏箱', '接电后为饮料和食物保冷']],
+  [/plaeneklipper/, ['汽油割草机', '用于修剪草坪']],
+  [/haekkeklipper/, ['电动绿篱机', '用于修剪树篱和较细枝条']],
+  [/brusesaet/, ['淋浴花洒套装', '包含顶喷、手持花洒和相关杆件或龙头']],
+  [/gamerbord/, ['电竞桌', '为显示器、键鼠和游戏配件提供桌面空间']],
+  [/gamerstol/, ['电竞椅', '带靠背和可调部件的电脑椅']],
+  [/foldebord/, ['折叠桌', '可折叠收纳的临时餐桌或活动桌']],
+  [/havestol|loungestol|spisebordsstol|barstol|foldestol/, ['椅子', '供就坐使用的餐椅、花园椅或休闲椅']],
+  [/loungebord|spisebord|havebord|bord baenke saet/, ['桌子或桌椅组合', '用于用餐、庭院休闲或儿童户外活动']],
+  [/boxmadrasseng|boxmadras|\bmadras\b/, ['床垫或箱式床', '用于睡眠承托，需按床面尺寸选择']],
+  [/hyndeboks/, ['户外坐垫收纳箱', '用于存放花园坐垫和其他户外物品']],
+  [/madkasse.*drikkeflaske|drikkeflaske.*madkasse/, ['饭盒或水瓶', '用于携带午餐、零食或饮水']],
+  [/opbevaringsbotter|opbevaringsbokse|opbevaring/, ['收纳盒', '用于分装和整理食品或家居小物']],
+  [/vandfilterpatroner/, ['净水壶滤芯', '替换兼容净水壶中的过滤芯']],
+  [/slibesten/, ['双面磨刀石', '用于磨利刀具和剪刀']],
+  [/multifunktionssaet.*aluminium/, ['铝制多功能锅具套装', '可煮、煎、炖、炸或蒸']],
+  [/bordskaner|bordskaaner/, ['隔热锅垫', '放在热锅与桌面之间隔热防烫']],
+  [/haandklaede|viskestykke/, ['毛巾或厨房擦布', '用于擦干身体、双手或厨房器具']],
+  [/filtpuder/, ['家具防刮毛毡垫', '粘在桌椅脚或小家具底部，减少划伤地板和移动噪音']],
+  [/termodyne|silkedyne|silkesommerdyne|naturfyldspude|dyne|pude/, ['被子或枕芯', '用于睡眠保暖或头颈承托']],
+  [/rullemadras/, ['床垫保护垫', '铺在床垫上增加舒适度并保护床垫']],
+  [/siddehynde|bokshynde|havehynder|\bhynde\b/, ['坐垫', '放在椅子、长凳或地面上增加舒适度']],
+  [/picnictaeppe/, ['防潮野餐垫', '铺在草地或沙滩上坐卧，背面可防潮']],
+  [/fleeceplaid|rejsetaeppe|vattaeppe|varmetaeppe|\btaeppe\b/, ['毯子', '用于保暖、旅行或铺垫']],
+  [/dormaatte/, ['门垫', '放在门口刮除鞋底灰尘和水分']],
+  [/skuffemaatte/, ['抽屉或橱柜防滑垫', '铺在抽屉、橱柜或冰箱隔层防滑防污']],
+  [/strygebraetbetraek/, ['熨衣板罩', '套在兼容尺寸的熨衣板表面']],
+  [/torrestativ/, ['晾衣架', '展开后晾晒衣物，可折叠收纳']],
+  [/kokkentekstiler|karklude/, ['厨房布艺用品', '用于隔热、擦拭或餐桌布置']],
+  [/sengesaet|sengetoj/, ['床品套装', '用于被子和枕头的外罩']],
+  [/damaskdug|\bdug\b/, ['桌布', '铺在餐桌上防污并装饰']],
+  [/glasvase/, ['玻璃花瓶', '用于插放鲜花或作家居装饰']],
+  [/\brammer\b/, ['相框', '用于装裱照片、海报或画作']],
+  [/blomsterkrukke|plantekrukke/, ['花盆', '用于种植或套放盆栽']],
+  [/selvvandingskrukke/, ['自浇水花盆', '带蓄水结构，帮助盆栽持续吸水']],
+  [/potteskjuler|\bkrukke\b/, ['装饰花盆套', '套在植物原盆外或作家居装饰']],
+  [/bloklys|stagelys|fyrfadslys|havelys|citronella lys/, ['蜡烛', '用于室内外照明或营造氛围；使用时远离易燃物']],
+  [/duftlys/, ['香薰蜡烛', '燃烧时散发香味，用于室内氛围']],
+  [/pearlwax lys/, ['蜡烛颗粒和烛芯套装', '把蜡粒倒入耐热容器并插入烛芯制作蜡烛']],
+  [/fletlanterner|lanterne/, ['装饰灯笼', '放置蜡烛或灯源用于室内外装饰']],
+  [/duftolie/, ['香薰油', '用于兼容香薰扩香器或香薰炉']],
+  [/gavepapir/, ['礼品包装纸', '用于包裹礼物']],
+  [/kort med kuvert/, ['贺卡和信封', '用于写祝福、邀请或留言']],
+  [/koleskabsmagneter/, ['冰箱磁贴', '吸附在冰箱等磁性表面，当前款含字母、数字或押韵词']],
+  [/sommerpynt|sommerhavenisse/, ['夏季家居装饰', '用于室内、阳台或花园摆设']],
+  [/akustiske traepaneler/, ['吸音木饰面板', '安装在墙面用于装饰并改善室内声学']],
+  [/ophaengningstilbehor/, ['墙面悬挂配件套装', '用于测平、固定和悬挂相框或其他轻型物品']],
+  [/^stige\b/, ['梯子', '用于登高取物；使用时应放在平整地面并确认承重和适配用途']],
+  [/\bbojler\b/, ['衣架', '用于悬挂上衣、裤装或其他衣物']],
+  [/vinkoler/, ['葡萄酒快速冰镇套', '预先放入冷冻室，使用时套在酒瓶外帮助快速降温']],
+  [/klaebefolie/, ['自粘装饰膜', '贴在柜门、墙面或其他平整表面翻新装饰']],
+  [/uraeske/, ['手表收纳盒', '用于分格收纳和保护手表']],
+  [/kokken.*kurve|kurve til kokkenskab/, ['橱柜收纳篮', '放在橱柜或冰箱中分类收纳']],
+  [/fluesmaekker/, ['苍蝇拍', '用于拍打室内飞虫']],
+  [/hvepsefaelde/, ['黄蜂诱捕器', '放在户外诱捕黄蜂']],
+  [/rustfanger/, ['洗碗机防锈吸附器', '放入洗碗机中帮助减少餐具锈斑']],
+  [/skruetraekker|tang|krogesortiment|somsortiment|vaerktoj/, ['家用工具或紧固件套装', '用于简单安装和维修']],
+  [/strikkepinde/, ['编织针', '用于手工编织毛线']],
+  [/sytraad/, ['缝纫线', '用于手缝或缝纫机缝制']],
+  [/garn/, ['编织毛线', '用于针织、钩编或其他纤维手工']],
+  [/elcykel|\be[- ](?:city|cargo|fresh|gravel|metropolis|modern|mtb|patron|short john|street|stylish|uni|browse)/, ['电助力自行车', '由电机辅助骑行的自行车']],
+  [/tandem/, ['双人自行车', '供两人前后共同踩踏']],
+  [/lobecykel|loebecykel/, ['儿童平衡车', '无脚踏，儿童用脚蹬地练习平衡']],
+  [/\bcykel\b|\b\d{2}[”"] hjul.*(?:stel|bremse)/, ['自行车', '脚踏骑行的两轮车']],
+  [/cykelhjelm|skaterhjelm/, ['骑行头盔', '骑车或滑行时保护头部']],
+  [/elbil|rideon|offroader|buggy|\batv\b/, ['儿童电动骑乘车', '儿童乘坐并由电机驱动的玩具车']],
+  [/festivaltelt|pop up \d|easy up \d|\btelt\b|\btipi\b/, ['帐篷', '用于露营或节庆活动，需按容纳人数、尺寸和防水等级选择']],
+  [/pavillon|gazebo/, ['户外凉棚', '用于节庆、庭院或活动时遮阳挡小雨']],
+  [/festivalstol/, ['折叠露营椅', '可折叠携带，适合露营、节庆或户外活动']],
+  [/traekvogn/, ['折叠拖车', '用于搬运野餐、露营、购物或花园物品']],
+  [/luftmadras/, ['充气床垫', '充气后用于临时睡眠或露营']],
+  [/\bpool\b/, ['充气或支架水池', '供户外戏水使用，儿童必须由成年人看护']],
+  [/udekokken/, ['儿童户外玩具厨房', '供儿童进行过家家和户外角色扮演']],
+  [/stige.*trampolin|stormsikring|overtraek.*stige/, ['蹦床配件', '用于进出、覆盖或固定兼容尺寸的蹦床']],
+  [/trampolin/, ['蹦床', '带弹力面的户外跳跃游乐设施']],
+  [/gyngestativ|babygynge|\bgynge\b/, ['秋千或秋千架', '供儿童坐在摆座上前后摆动']],
+  [/legetaarn/, ['户外儿童游乐塔', '组合攀爬、秋千或沙坑等户外玩法']],
+  [/rutsjebane/, ['儿童滑梯', '供儿童从斜面滑下玩耍']],
+  [/sandkasse/, ['儿童沙坑', '用于户外玩沙']],
+  [/fodboldmaal/, ['足球球门', '用于足球射门练习']],
+  [/sup board/, ['充气桨板', '用于水面站立划行']],
+  [/skoletaske|rygsaek/, ['书包或背包', '用于携带书本、电脑或出行用品']],
+  [/penalhus/, ['铅笔盒', '用于收纳笔、尺和橡皮']],
+  [/skolesaet/, ['文具套装', '包含多件书写、绘画或课堂用品']],
+  [/geometrisaet|kompassersaet/, ['几何绘图工具套装', '用于画直线、角度、圆和几何图形']],
+  [/skoleaccessories/, ['书包或文具小配件', '当前选项包含包挂、闪粉笔、DIY 尺等小件']],
+  [/staedtler/, ['STAEDTLER 文具', '铅笔、彩笔、马克笔或其他书写绘画用品']],
+  [/beer bong/, ['啤酒漏斗饮用器具', '节庆聚会用软管漏斗，不是啤酒本身']],
+  [/twinmarkers|dualmarkers|brushpens/, ['双头马克笔', '用于绘画、上色和手账']],
+  [/notesbog|spiralhaefte/, ['笔记本', '用于书写课堂、工作或日常记录']],
+  [/kuglepen/, ['圆珠笔', '用于日常书写']],
+  [/grafitblyant|\bblyant\b/, ['石墨铅笔', '用于书写、草图或几何作图']],
+  [/viskelaeder/, ['橡皮擦', '擦除铅笔字迹']],
+  [/bogbind/, ['书皮或包书膜', '包裹课本封面，减少磨损和污渍']],
+  [/skrivesaet.*stempel/, ['书写工具或印章套装', '包含笔类或儿童图案印章']],
+  [/skriveartikler|skriveredskaber/, ['书写文具组合', '包含笔、铅笔、橡皮或其他书写用品']],
+  [/pegebog med lyd/, ['有声翻翻启蒙书', '儿童翻开机关并聆听动物等主题声音']],
+  [/kogebog/, ['食谱书', '提供菜谱、用料和烹饪步骤']],
+  [/\bbog\b|afdelingen for magisk taenkning|den fantastiske bus|\bstyx\b/, ['书籍', '供阅读的小说、儿童读物或主题图书']],
+  [/hama.*perler|perleboks|perleplader/, ['拼豆手工材料', '把彩色塑料珠排列在模板上制作图案']],
+  [/diamond art/, ['钻石贴画手工', '把彩色树脂钻贴到图案上完成装饰画或小物']],
+  [/laeringscomputer/, ['儿童学习机', '通过丹麦语和英语练习数字、字母、语言和词汇']],
+  [/laeringskort/, ['儿童学习卡', '练习数字、字母、算术或迷宫题']],
+  [/opgavebog/, ['儿童练习册', '包含学习任务并配奖励贴纸']],
+  [/fodbold/, ['足球', '用于踢球训练或比赛']],
+  [/basketstander/, ['可调高度篮球架', '用于投篮练习']],
+  [/maalmandshandsker/, ['守门员手套', '守门时增加抓握并保护手掌']],
+  [/padelbolde/, ['板式网球用球', '用于 Padel 板式网球运动']],
+  [/sjippetov/, ['跳绳', '用于跳跃训练和儿童户外活动']],
+  [/airtrack/, ['充气体操垫', '为翻滚、体操和跳跃练习提供缓冲']],
+  [/saebebobler/, ['泡泡玩具', '蘸取泡泡液后吹出或挥出肥皂泡']],
+  [/uno flex/, ['UNO Flex 卡牌游戏', '带特殊弹性规则的 UNO 多人卡牌游戏']],
+  [/funko pop|minions.*samlefigur|samlefigur/, ['收藏摆件公仔', '用于陈列或角色收藏']],
+  [/kalender|ugeplan|dagsplan|belonningstavle|rutine/, ['计划板或日程工具', '用于安排日期、任务或儿童日常流程']],
+  [/dagen i dag tavle/, ['儿童日期与天气学习板', '用磁贴认识星期、月份、季节和天气']],
+  [/puslespil/, ['拼图', '把拼图片组合成完整图案']],
+  [/bamse|plys/, ['毛绒玩具', '柔软填充玩具']],
+  [/legetojsbiler/, ['玩具车', '供儿童推行或情景游戏']],
+  [/sanselegetoj|aktivitetslegetoj/, ['婴幼儿感官玩具', '通过抓握、声音、镜面或活动部件进行感官游戏']],
+  [/\blegetoj\b|\bspil\b/, ['玩具或游戏', '用于儿童玩耍或多人游戏']],
+];
+
+const GROUP_TYPE_FALLBACK = {
+  drink_soda: ['汽水', '可直接饮用的碳酸软饮'], drink_juice: ['果汁或果味饮料', '可直接饮用的果汁或果味饮品'],
+  drink_water: ['饮用水或气泡水', '用于日常补水'], drink_energy: ['能量饮料', '通常含咖啡因的提神饮料'],
+  drink_sports: ['运动或功能饮料', '用于补水或补充电解质'], drink_concentrate: ['浓缩兑水饮料', '按比例兑水后饮用'],
+  drink_other: ['非酒精饮料', '可直接饮用或按包装方式冲调'], alcohol_beer: ['啤酒', '以麦芽发酵制成的含酒精饮料'],
+  alcohol_wine: ['葡萄酒或起泡酒', '以葡萄酿制的含酒精饮料'], alcohol_spirits: ['烈酒或利口酒', '酒精度较高的蒸馏酒或甜味酒'],
+  alcohol_cider_rtd: ['苹果酒或预调酒', '水果发酵酒或已调配好的即饮酒'], alcohol_other: ['含酒精饮料', '含酒精的饮品'],
+  pet_cat: ['猫粮或猫零食', '供猫食用的主粮、湿粮或零食'], pet_dog: ['狗粮或狗零食', '供犬只食用的主粮或零食'],
+  pet_other: ['宠物用品', '供宠物使用或食用的商品'], flower_bouquet: ['鲜花或花束', '用于瓶插、家居摆放或送礼'],
+  plants: ['盆栽植物', '带盆售卖、需要光照和浇水养护的植物'], tobacco_cigarettes: ['烟草制品', '含烟草并具有健康风险的产品'],
+  tobacco_nicotine: ['尼古丁产品', '含尼古丁并可能导致依赖的产品'], tobacco_other: ['烟草相关商品', '与烟草或尼古丁有关的商品'],
+  home_appliances: ['家用电器', '通过电力完成烹饪、清洁、空气处理或衣物护理'],
+  home_cookware: ['锅具或厨房工具', '用于切配、煎炒、蒸煮、烘烤或盛取食物'],
+  home_tableware: ['餐具或饮具', '用于盛装、饮用或上桌食物和饮料'],
+  home_storage: ['家居收纳用品', '用于分装食物、整理衣物或收纳家居小物'],
+  home_furniture: ['家具', '供就坐、睡眠、置物或收纳使用'],
+  home_textiles: ['家纺用品', '用于床铺、保暖、擦拭或家居软装'],
+  home_bath: ['浴室或清洁布艺用品', '用于擦干、浴室防滑或收纳洗漱用品'],
+  home_tools: ['家用工具', '用于安装、粘接、紧固、标记或简单维修'],
+  home_garden: ['花园与户外维护用品', '用于修剪、浇灌、除虫或整理户外空间'],
+  home_decor: ['家居装饰品', '用于照明、摆设、节庆装饰或营造室内氛围'],
+  home_other: ['家居生活用品', '用于居家收纳、布置、维护或日常使用'],
+  electronics_audio: ['音频设备', '用于播放、收听或录制声音'],
+  electronics_tv: ['电视或家庭影音设备', '用于显示和播放电视、流媒体或外接视频'],
+  electronics_mobile: ['手机、平板或穿戴设备', '用于通讯、移动应用或运动健康记录'],
+  electronics_computer: ['电脑或网络设备', '用于学习、办公、存储或网络连接'],
+  electronics_print_photo: ['打印或影像设备', '用于打印、拍摄或展示照片'],
+  electronics_gaming: ['电子游戏设备', '用于对应平台的电子游戏和操控'],
+  electronics_charging: ['充电与供电配件', '给兼容电子设备连接电源或传输数据'],
+  electronics_lighting: ['电气照明用品', '用于室内局部、工作或氛围照明'],
+  electronics_other: ['电子产品或配件', '通过电池或电源工作，用于供电、控制、测量或其他电子功能'],
+  leisure_toys: ['玩具', '用于儿童游戏、角色扮演或收藏'],
+  leisure_stationery: ['文具用品', '用于书写、绘画、包书或课堂办公'],
+  leisure_books: ['书籍或杂志', '供阅读、学习或查阅'],
+  leisure_bicycles: ['自行车', '用于脚踏或电助力骑行'],
+  leisure_bike_accessories: ['骑行配件', '用于骑行防护、维护或携带'],
+  leisure_ride_on: ['儿童骑乘玩具', '供儿童乘坐、滑行或电动驾驶'],
+  leisure_outdoor_play: ['户外游乐设施', '供儿童攀爬、滑行、跳跃或戏水'],
+  leisure_sports: ['运动器材', '用于球类、体操或户外运动'],
+  leisure_camping: ['露营或节庆用品', '用于户外就坐、遮蔽、睡眠或搬运'],
+  leisure_bags: ['包袋', '用于携带书本、电脑或随身物品'],
+  leisure_crafts_learning: ['手工或学习用品', '用于动手制作、认知练习或课堂学习'],
+  leisure_gaming: ['电子游戏或软件', '用于对应游戏平台和设备'],
+  leisure_other: ['休闲用品', '用于兴趣、聚会、学习或户外活动'],
+  other_offer: ['跨品类促销组合', '同一促销卡包含不同类型的商品，不能当作一个单品理解'],
+};
+
+function inferLowPriorityType(originalName, originalDescription, comparisonGroup) {
+  const text = normalize(`${originalName || ''} ${originalDescription || ''}`);
+  if (comparisonGroup.startsWith('clothing_')) {
+    const childSize = '(?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)';
+    const childSized = new RegExp('\\b' + childSize + '(?:\\s+' + childSize + '){1,3}\\b').test(text);
+    const audience = comparisonGroup.includes('_children') || childSized || /\b(?:lupilu|esmara kids|minions)\b/.test(text) ? '儿童' : '成人';
+    for (const [pattern, [typeZh, useZh]] of CLOTHING_TYPE_RULES) {
+      if (pattern.test(text)) return { typeZh: `${audience}${typeZh}`, useZh };
+    }
+    return { typeZh: comparisonGroup.includes('_children') ? '儿童服饰' : '成人服饰', useZh: '日常穿着的服装或配件' };
+  }
+  for (const [pattern, [typeZh, useZh]] of GENERAL_TYPE_RULES) if (pattern.test(text)) return { typeZh, useZh };
+  const fallback = GROUP_TYPE_FALLBACK[comparisonGroup];
+  if (fallback) return { typeZh: fallback[0], useZh: fallback[1] };
+  return null;
+}
+
+function compactOriginalName(originalName) {
+  return String(originalName || '').replace(/\*+$/u, '').trim();
+}
+
+function preciseLowPriorityName(originalName, originalDescription, comparisonGroup) {
+  const inferred = inferLowPriorityType(originalName, originalDescription, comparisonGroup);
+  if (!inferred) return null;
+  const source = compactOriginalName(originalName);
+  const normalizedSource = normalize(source);
+  const normalizedType = normalize(inferred.typeZh);
+  if (!source) return inferred.typeZh;
+  if (normalizedSource === normalizedType) return inferred.typeZh;
+  return `${source}（${inferred.typeZh}）`;
+}
+
+const normalizeDash = value => String(value || '').replace(/\s+/g, ' ').replace(/\s*[-–]\s*/g, '–').trim();
+
+function collectUsefulFactsZh(originalDescription, comparisonGroup) {
+  const raw = String(originalDescription || '').replace(/[\r\n]+/g, ' ');
+  const text = normalize(raw);
+  const facts = [];
+  const add = value => { if (value && !facts.includes(value)) facts.push(value); };
+
+  const pack = raw.match(/\b(\d+)\s*[- ]?pak\b/i);
+  if (pack) add(`${pack[1]} 件装`);
+  if (/flere varianter|frit valg/.test(text)) {
+    if (comparisonGroup.startsWith('clothing_')) add('有多种款式或颜色可选');
+    else if (/^(?:drink_|alcohol_)/.test(comparisonGroup)) add('有多种口味或品种可选');
+    else if (/^(?:home_|electronics_|leisure_)/.test(comparisonGroup)) add('有多个款式或型号可选');
+    else if (comparisonGroup === 'other_offer') add('同一促销包含多个选项');
+    else add('有多个选项可选');
+  }
+
+  if (comparisonGroup.startsWith('clothing_')) {
+    const sizeToken = '(?:\\d{1,2}XL|XXXL|XXL|XL|XS|S|M|L|\\d{1,3})';
+    const sizeEnd = '(?:\\s*cm\\b)?(?=\\s*(?:[.,;)]|$))';
+    const explicitSize = raw.match(new RegExp(
+      `\\bStr\\.?\\s*:?\\s*(${sizeToken}(?:\\s*[-–/]\\s*${sizeToken}){0,3})${sizeEnd}`,
+      'i',
+    ));
+    const heightSize = raw.match(/\b((?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)(?:\s*[-–/]\s*(?:68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)){1,3})(?:\s*cm)?\b/i)
+      || raw.match(/\b((?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170))\s*cm\b/i);
+    const namedSize = raw.match(new RegExp(
+      `\\b(${sizeToken}(?:\\s*[-–/]\\s*${sizeToken}){1,3})${sizeEnd}`,
+      'i',
+    )) || raw.match(/\b(\d{1,2}XL|XXXL|XXL|XL|XS|S|M|L)(?=\s*(?:[.,;)]|$))/i);
+    const size = explicitSize || heightSize || namedSize;
+    const childHeightCode = size && /^(?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)(?:\s*[-–/]\s*\d{2,3})+/i.test(size[1]);
+    if (size) add(`尺码 ${normalizeDash(size[1])}${size === heightSize || childHeightCode || /cm/i.test(size[0]) ? ' cm 身高码' : ''}`);
+    if (/100\s*%\s*(?:(?:ø|o)kologisk\s*)?bomuld/i.test(raw)) add(`${/(?:ø|o)kologisk/i.test(raw) ? '100% 有机棉' : '100% 棉'}`);
+    else if (/bomuld.*polyester.*elastan/i.test(raw)) add('棉、聚酯纤维和弹性纤维混纺');
+    else if (/bomuld.*elastan/i.test(raw)) add('棉和弹性纤维混纺');
+    else if (/viscose.*polyamid/i.test(raw)) add('粘胶纤维和聚酰胺混纺');
+    if (/vandtaet/i.test(text)) {
+      const water = raw.match(/VANDTÆT\s*([\d.]+\s*MM)?/i);
+      add(`防水${water?.[1] ? `等级 ${water[1]}` : ''}`.trim());
+    }
+    if (/refleks/i.test(text)) add('带反光细节');
+  }
+
+  if (comparisonGroup.startsWith('electronics_') || comparisonGroup === 'home_appliances') {
+    const screen = raw.match(/\b(\d{1,3}(?:[.,]\d+)?)\s*[”"]/);
+    if (screen) add(`${screen[1]} 英寸屏幕`);
+    const ram = raw.match(/\b(\d+)\s*GB\s*(?:DDR\d\s*)?RAM\b/i);
+    if (ram) add(`${ram[1]} GB 内存`);
+    const storage = raw.match(/\b(\d+(?:[.,]\d+)?)\s*(TB|GB)\s*(?:PCIe\s*)?(?:NVMe\s*)?(?:SSD|harddisk|hukommelse)\b/i);
+    if (storage) add(`${storage[1]} ${storage[2].toUpperCase()} 存储`);
+    const power = raw.match(/\b(\d+(?:[.,]\d+)?)\s*(?:Watt|W)\b/i);
+    if (power) add(`功率 ${power[1]} W`);
+    const load = raw.match(/(?:Vaske|Tørre)kapacitet\s*:?\s*(\d+(?:[.,]\d+)?)\s*kg/i);
+    if (load) add(`衣物容量 ${load[1]} kg`);
+    const runtime = raw.match(/(?:Driftstid|op til)\s*:?\s*(?:op til\s*)?(\d+)\s*(?:min|minutter)/i);
+    if (runtime) add(`续航或运行时间最长 ${runtime[1]} 分钟`);
+    const suction = raw.match(/(\d[\d.]*)\s*Pa\b/i);
+    if (suction) add(`吸力 ${suction[1]} Pa`);
+    const noise = raw.match(/Støjniveau(?:\s*\([^)]*\))?\s*:?\s*(\d+)\s*dB/i);
+    if (noise) add(`噪声 ${noise[1]} dB`);
+    const room = raw.match(/(?:Max\.?\s*)?rumareal\s*:?\s*(\d+)\s*m[²2]?/i);
+    if (room) add(`适用面积约 ${room[1]} m²`);
+    const battery = raw.match(/\b(\d[\d.]*)\s*mAh\b/i);
+    if (battery) add(`${battery[1]} mAh 电池`);
+    const ip = raw.match(/\bIPX?\d\b/i);
+    if (ip) add(`${ip[0].toUpperCase()} 防护等级`);
+    if (/bluetooth/i.test(raw)) add('支持 Bluetooth');
+    if (/hdmi arc/i.test(raw)) add('支持 HDMI ARC');
+    if (/aktiv stojreduktion|stojreduktion/i.test(text)) add('支持主动降噪');
+  }
+
+  if (comparisonGroup.startsWith('leisure_')) {
+    const age = raw.match(/(?:Anbefalet alder|Alder)\s*:?\s*(\d+\s*[-–]\s*\d+\s*år|fra\s*\d+\s*år)/i);
+    if (age) add(`建议年龄 ${normalizeDash(age[1])}`);
+    const wheel = raw.match(/\b(\d{2}(?:[.,]\d+)?)\s*[”"]\s*hjul/i);
+    if (wheel) add(`${wheel[1]} 英寸车轮`);
+    const gears = raw.match(/Shimano\s+(\d+)\s+(indvendige|udvendige)\s+gear/i);
+    if (gears) add(`Shimano ${gears[1]} 速${/indvendige/i.test(gears[2]) ? '内变速' : '外变速'}`);
+    if (/aluminiumstel/i.test(text)) add('铝合金车架');
+    else if (/staalstel/i.test(text)) add('钢制车架');
+    const load = raw.match(/Max\.?\s*(?:bruger)?vægt\s*:?\s*(\d+)\s*kg/i);
+    if (load) add(`最大承重 ${load[1]} kg`);
+    const motor = raw.match(/Motor\s*:?\s*([^•.]{2,30})/i);
+    if (motor) add(`电机 ${normalizeDash(motor[1])}`);
+  }
+
+  if (comparisonGroup.startsWith('home_') || comparisonGroup.startsWith('leisure_')) {
+    const dimensions = raw.match(/(?:Mål\s*:?\s*)?((?:[LBHDØ]\s*:?\s*)?\d+(?:[.,]\d+)?(?:\s*[x×]\s*(?:[LBHDØ]\s*:?\s*)?\d+(?:[.,]\d+)?){1,3}\s*cm)/i);
+    if (dimensions) add(`尺寸 ${normalizeDash(dimensions[1])}`);
+    if (/100\s*%\s*bomuld/i.test(raw)) add('100% 棉');
+    if (/rustfrit staal/i.test(text)) add('不锈钢材质');
+    if (/stobt aluminium/i.test(text)) add('铸铝材质');
+    const capacity = raw.match(/\b(\d+(?:[.,]\d+)?)\s*(l|liter)\b/i);
+    if (capacity) add(`容量 ${capacity[1]} L`);
+  }
+
+  if (/^(?:drink_|alcohol_)/.test(comparisonGroup)) {
+    const volume = raw.match(/\b(\d+(?:[.,]\d+)?)\s*(cl|ml|l|liter)\b/i);
+    if (volume) add(`容量 ${volume[1]} ${volume[2].toLowerCase() === 'liter' ? 'L' : volume[2]}`);
+    if (/elderflower|hyldeblomst/i.test(raw)) add('接骨木花口味');
+    if (/wild berry|baer/i.test(text)) add('莓果口味');
+    if (/rose/i.test(text)) add('桃红类型');
+    if (/mousseux|prosecco|cava|cremant|spumante/i.test(text)) add('起泡类型');
+  }
+
+  if (comparisonGroup === 'plants' || comparisonGroup === 'flower_bouquet') {
+    const height = raw.match(/Højde\s*(\d+\s*[-–]\s*\d+|\d+)\s*cm/i);
+    if (height) add(`株高 ${normalizeDash(height[1])} cm`);
+    const pot = raw.match(/Pottestr\.?\s*(\d+(?:[.,]\d+)?)\s*cm/i);
+    if (pot) add(`花盆直径 ${pot[1]} cm`);
+  }
+  return facts.slice(0, 4);
+}
+
+function specificLowPriorityDescription(originalName, originalDescription, comparisonGroup) {
+  if (!LOW_PRIORITY_GROUP.test(comparisonGroup || '')) return null;
+  const inferred = inferLowPriorityType(originalName, originalDescription, comparisonGroup);
+  if (!inferred) return null;
+  const facts = collectUsefulFactsZh(originalDescription, comparisonGroup);
+  const statements = [`这是${inferred.typeZh}，${inferred.useZh}`];
+  if (facts.length) statements.push(facts.join('；'));
+  if (comparisonGroup.startsWith('alcohol_')) statements.push('含酒精，仅供符合丹麦年龄规定的成年人');
+  if (comparisonGroup.startsWith('tobacco_')) statements.push('含烟草或尼古丁，会危害健康并可能导致依赖');
+  if (comparisonGroup === 'pet_cat') statements.push('仅供猫食用或使用');
+  if (comparisonGroup === 'pet_dog') statements.push('仅供犬只食用或使用');
+  return `${statements.join('。')}。`;
+}
+
+export function danishProductNameZh(originalName, comparisonGroup, originalDescription = '') {
   const text = normalize(originalName);
   for (const [pattern, nameZh] of DANISH_PRODUCT_FORM_TITLES) if (pattern.test(text)) return nameZh;
-  if (ORIGINAL_NAME_FALLBACK_GROUPS.has(comparisonGroup)) return `${originalName}（${GROUP_DEFAULTS[comparisonGroup]}）`;
+  if (LOW_PRIORITY_GROUP.test(comparisonGroup || '')) {
+    return preciseLowPriorityName(originalName, originalDescription, comparisonGroup) || `${originalName}（${GROUP_DEFAULTS[comparisonGroup]}）`;
+  }
   for (const [pattern, nameZh] of DANISH_TITLES) if (pattern.test(text)) return nameZh;
+  if (ORIGINAL_NAME_FALLBACK_GROUPS.has(comparisonGroup)) {
+    return preciseLowPriorityName(originalName, originalDescription, comparisonGroup) || `${originalName}（${GROUP_DEFAULTS[comparisonGroup]}）`;
+  }
   return GROUP_DEFAULTS[comparisonGroup] || '商品（请核对原名）';
 }
 
-export function specificDanishDescription(originalName) {
+export function specificDanishDescription(originalName, originalDescription = '', comparisonGroup = '') {
   const text = normalize(originalName);
   for (const [pattern, descriptionZh] of SPECIFIC_DESCRIPTIONS) if (pattern.test(text)) return descriptionZh;
-  return null;
+  return specificLowPriorityDescription(originalName, originalDescription, comparisonGroup);
 }
 
 const ENGLISH_TITLES = [

@@ -16,6 +16,7 @@ const reviewOverridesUrl = new URL('../data/product_review_overrides_zh.json', i
 const read = async url => JSON.parse(await fs.readFile(url, 'utf8'));
 const write = async (url, value) => fs.writeFile(url, `${JSON.stringify(value, null, 2)}\n`);
 const now = new Date().toISOString();
+const LEGACY_GENERIC_DESCRIPTION = /其他家居用品|其他电子电器|其他休闲、户外或兴趣用品|成人服饰或鞋袜|儿童服饰或鞋袜|请按原名|请按原始商品名|具体品种以原名|原名为准|购买时请确认年龄段/;
 
 const aarhus = await read(aarhusUrl);
 const previousAarhusOffers = aarhus.offers;
@@ -67,14 +68,25 @@ for (const offer of reviewCandidates) {
     ? { categoryId: override.categoryId, comparisonGroup: override.comparisonGroup }
     : (classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup });
   const descriptionKey = descriptionKeyFor(raw, classification);
-  const productNameZh = override?.productNameZh || danishProductNameZh(offer.originalName, classification.comparisonGroup);
+  const productNameZh = override?.productNameZh || danishProductNameZh(
+    offer.originalName,
+    classification.comparisonGroup,
+    offer.originalDescription,
+  );
   const previous = previousDescriptions.entries?.[descriptionKey] || previousByName.get(offer.originalName);
-  const exactDescription = specificDanishDescription(offer.originalName);
+  const exactDescription = specificDanishDescription(
+    offer.originalName,
+    offer.originalDescription,
+    classification.comparisonGroup,
+  );
   const fallback = explainInChinese(raw, classification);
-  const keepImageReviewedDescription = previous?.evidence?.offerImageReviewed && previous?.descriptionZh;
+  const keepImageReviewedDescription = previous?.evidence?.offerImageReviewed
+    && previous?.descriptionZh
+    && !LEGACY_GENERIC_DESCRIPTION.test(previous.descriptionZh);
   const descriptionZh = sanitizeItemDescriptionZh(
     override?.descriptionZh
-      || (keepImageReviewedDescription ? previous.descriptionZh : (exactDescription || `${productNameZh}。${fallback}`)),
+      || exactDescription
+      || (keepImageReviewedDescription ? previous.descriptionZh : `${productNameZh}。${fallback}`),
   );
 
   const descriptionCandidate = {
@@ -135,8 +147,18 @@ for (const offer of reviewCandidates) {
   }
 }
 
-const offersChanged = JSON.stringify(nextAarhusOffers) !== JSON.stringify(previousAarhusOffers);
-aarhus.offers = nextAarhusOffers;
+const finalizedAarhusOffers = nextAarhusOffers.map(offer => {
+  const reviewed = descriptionEntries[offer.descriptionKey];
+  if (!reviewed) return offer;
+  return {
+    ...offer,
+    productNameZh: reviewed.productNameZh,
+    zhExplanation: reviewed.descriptionZh,
+    taxonomyLabelZh: reviewed.productNameZh,
+  };
+});
+const offersChanged = JSON.stringify(finalizedAarhusOffers) !== JSON.stringify(previousAarhusOffers);
+aarhus.offers = finalizedAarhusOffers;
 aarhus.comparisonGroups = AARHUS_COMPARISON_GROUPS;
 if (offersChanged) aarhus.metadata.contentUpdatedAt = now;
 aarhus.metadata.contentRevision = 'codex-product-review-v3';
@@ -151,9 +173,13 @@ const descriptions = {
   reviewPolicy: 'Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.',
   entries: Object.fromEntries(Object.entries(descriptionEntries).sort(([a], [b]) => a.localeCompare(b))),
 };
-const pendingDescriptions = pendingDescriptionsToReview.count === 0
-  ? pendingDescriptionsToReview
-  : { schemaVersion: 2, descriptionSpecVersion: DESCRIPTION_SPEC_VERSION, generatedAt: now, count: 0, items: [] };
+const pendingDescriptions = {
+  schemaVersion: 2,
+  descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
+  generatedAt: pendingDescriptionsToReview.count === 0 ? pendingDescriptionsToReview.generatedAt || now : now,
+  count: 0,
+  items: [],
+};
 const taxonomy = {
   schemaVersion: 1,
   taxonomyVersion: 'codex-taxonomy-v1',

@@ -97,8 +97,8 @@
       "categoryId": "home_kitchen",
       "comparisonGroup": "home_cookware",
       "productNameZh": "烧烤托盘",
-      "descriptionZh": "用于烤架或烤箱的烧烤托盘，可承托肉类、蔬菜等食材。购买前请确认材质、尺寸、是否可重复使用以及适用温度。",
-      "descriptionSpecVersion": "zh-product-v4"
+      "descriptionZh": "这是放在烧烤架或烤箱中的金属托盘，用来承托肉类、蔬菜和其他较小食材，减少食物掉入火中；可重复使用的款式清洗后可再次使用。",
+      "descriptionSpecVersion": "zh-product-v5"
     },
     "grillmix fra slagteren": {
       "categoryId": "prepared_meat",
@@ -115,11 +115,11 @@
       "descriptionSpecVersion": "zh-product-v4"
     },
     "lun lordag": {
-      "categoryId": "other_offers",
-      "comparisonGroup": "other_offer",
-      "productNameZh": "Lun lørdag 周六热食促销",
-      "descriptionZh": "促销原名为 Lun lørdag，通常指门店周六供应的热食或熟食活动。具体菜品、份量、供应时间和过敏原信息需按当期门店标签确认。",
-      "descriptionSpecVersion": "zh-product-v4"
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "mixed_grocery_offer",
+      "productNameZh": "烤猪肉片、丹麦肉饼、炸鱼柳或肝酱任选",
+      "descriptionZh": "这是熟食柜的烤猪肉片、丹麦肉饼、裹粉炸鱼柳或肝酱任选；各选项的肉种、形态和食用方式不同，不是一种统一商品。",
+      "descriptionSpecVersion": "zh-product-v5"
     },
     "sandwichstykke": {
       "categoryId": "bread_bakery",

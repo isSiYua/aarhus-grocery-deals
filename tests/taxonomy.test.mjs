@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { explainInChinese } from '../scripts/lib/explain-zh.mjs';
+import { danishProductNameZh, specificDanishDescription } from '../scripts/lib/product-name-zh.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, classifyOffer, refineAarhusComparisonGroup } from '../scripts/lib/taxonomy.mjs';
 
 test('places lower-priority flyer categories after everyday shopping categories', () => {
@@ -115,7 +116,7 @@ test('only actual mushrooms enter the mushroom comparison group', () => {
 test('classifies non-food and formerly excluded flyer products', () => {
   assert.deepEqual(classifyOffer({ heading:'Royal eller Heineken øl 6 x 33 cl' }), { categoryId:'alcohol', comparisonGroup:'alcohol_beer' });
   assert.deepEqual(classifyOffer({ heading:'Capri-Sun 10 x 20 cl' }), { categoryId:'drinks', comparisonGroup:'drink_other' });
-  assert.deepEqual(classifyOffer({ heading:'T-shirt 2 stk.' }), { categoryId:'clothing', comparisonGroup:'clothing_adult' });
+  assert.deepEqual(classifyOffer({ heading:'T-shirt 2 stk.' }), { categoryId:'clothing', comparisonGroup:'clothing_adult_tops' });
   assert.deepEqual(classifyOffer({ heading:'Ukendt tilbud 500 g' }), { categoryId:'other_offers', comparisonGroup:'other_offer' });
 });
 
@@ -180,8 +181,121 @@ test('product form wins over ingredient and flavour words', () => {
   assert.equal(classifyOffer({ heading:'Pizzamel 1 kg' }).comparisonGroup, 'flour_baking');
   assert.equal(classifyOffer({ heading:'Saltede karamelvafler' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Chili chips' }).comparisonGroup, 'chips');
-  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics', comparisonGroup:'electronics_computing' });
+  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics', comparisonGroup:'electronics_computer' });
   assert.deepEqual(classifyOffer({ heading:'Prosonic soundbar' }), { categoryId:'electronics', comparisonGroup:'electronics_audio' });
+});
+
+test('keeps ice cream, child clothing, bikes and chargers in their real product groups', () => {
+  assert.deepEqual(classifyOffer({ heading:'Magnum, Minecraft eller Solero iskasse' }), {
+    categoryId:'ice_cream', comparisonGroup:'ice_cream',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Bluse', description:'Str. 134-170 cm, 100% bomuld' }), {
+    categoryId:'clothing', comparisonGroup:'clothing_children_tops',
+  });
+  assert.deepEqual(classifyOffer({ heading:'T-shirt*', description:'Bomuld. Str. 98/104-122/128.' }), {
+    categoryId:'clothing', comparisonGroup:'clothing_children_tops',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Sneakers', description:'Str. 28-35' }), {
+    categoryId:'clothing', comparisonGroup:'clothing_children_footwear',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Adidas Tiro bukser', description:'Str. S-2XL' }), {
+    categoryId:'clothing', comparisonGroup:'clothing_adult_bottoms',
+  });
+  assert.deepEqual(classifyOffer({ heading:'LUPILU Sweattrøje eller -bukser', description:'98/104-122/128. Frit valg.' }), {
+    categoryId:'clothing', comparisonGroup:'clothing_mixed_offer',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Sweatshirt eller -bukser', description:'S-2XL. Frit valg.' }), {
+    categoryId:'clothing', comparisonGroup:'clothing_mixed_offer',
+  });
+  assert.deepEqual(classifyOffer({ heading:'E-Modern 7-U', description:'28” hjul. Shimano 7 indvendige gear. Aluminiumstel.' }), {
+    categoryId:'leisure', comparisonGroup:'leisure_bicycles',
+  });
+  assert.deepEqual(classifyOffer({ heading:'WP21 lader til elbil' }), {
+    categoryId:'electronics', comparisonGroup:'electronics_charging',
+  });
+});
+
+test('separates cooked chicken, canned fish and exact raw chicken forms', () => {
+  assert.deepEqual(classifyOffer({ heading:'Rose kyllingetopping' }), {
+    categoryId:'prepared_meat', comparisonGroup:'prepared_chicken_cooked',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Rahbek indbagt fisk' }), {
+    categoryId:'seafood', comparisonGroup:'seafood_breaded',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Glyngøre tun i vand el. olie' }), {
+    categoryId:'seafood', comparisonGroup:'seafood_tuna_canned',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Gestus Sild' }), {
+    categoryId:'seafood', comparisonGroup:'seafood_herring_pickled',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Hakket dansk kylling' }), {
+    categoryId:'minced_meat', comparisonGroup:'chicken_minced',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Himmerland Brystfilet af Dansk Kylling' }), {
+    categoryId:'chicken', comparisonGroup:'chicken_breast',
+  });
+  assert.deepEqual(classifyOffer({ heading:'HIMMERLAND UNDERLÅR AF DANSK KYLLING' }), {
+    categoryId:'chicken', comparisonGroup:'chicken_thigh',
+  });
+});
+
+test('keeps food, flowers and appliances ahead of incidental container words', () => {
+  assert.deepEqual(classifyOffer({ heading:'Grillspyd med Gris og Grøntsager' }), {
+    categoryId:'prepared_meat', comparisonGroup:'prepared_pork_marinated',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Salling eller Michelle Kristensen færdigret i glas' }), {
+    categoryId:'frozen_ready', comparisonGroup:'ready_meal',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Flerfarvet krysantemum i skål' }), {
+    categoryId:'flowers_plants', comparisonGroup:'flower_bouquet',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Salling glas blender' }), {
+    categoryId:'home_kitchen', comparisonGroup:'home_appliances',
+  });
+  assert.deepEqual(classifyOffer({ heading:'SILVERCREST Bestikbakke' }), {
+    categoryId:'home_kitchen', comparisonGroup:'home_storage',
+  });
+});
+
+test('writes item-specific Chinese explanations with useful flyer facts', () => {
+  const childName = danishProductNameZh('Bluse med korte ærmer', 'clothing_children_tops', 'Str. 134-170 cm. 100% bomuld.');
+  const childDescription = specificDanishDescription('Bluse med korte ærmer', 'Str. 134-170 cm. 100% bomuld.', 'clothing_children_tops');
+  assert.match(childName, /儿童.*上衣|儿童.*衬衫/);
+  assert.match(childDescription, /134–170 cm 身高码/);
+  assert.match(childDescription, /100% 棉/);
+  assert.doesNotMatch(childDescription, /请确认|以原名为准/);
+
+  const adultDescription = specificDanishDescription('Bukser', 'Normal talje. Wide fit. Normal længde. S-2XL.', 'clothing_adult_bottoms');
+  assert.match(adultDescription, /尺码 S–2XL/);
+  assert.doesNotMatch(adultDescription, /尺码 (?:S|L)。/);
+
+  const vacuumDescription = specificDanishDescription('iRobot Robotstøvsuger', 'Støvsuger og mopper gulvet.', 'home_appliances');
+  assert.match(vacuumDescription, /扫拖或扫地机器人/);
+  assert.doesNotMatch(vacuumDescription, /家用小电器|购买前请确认/);
+
+  const tvDescription = specificDanishDescription('Hisense 55” 4K Smart TV', '55” QLED. HDMI ARC.', 'electronics_tv');
+  assert.match(tvDescription, /电视/);
+  assert.match(tvDescription, /55 英寸屏幕/);
+  assert.match(tvDescription, /HDMI ARC/);
+
+  const bikeDescription = specificDanishDescription('E-Modern 7-U elcykel', '28” hjul. Shimano 7 indvendige gear. Aluminiumstel.', 'leisure_bicycles');
+  assert.match(bikeDescription, /电助力自行车/);
+  assert.match(bikeDescription, /28 英寸车轮/);
+  assert.match(bikeDescription, /Shimano 7 速内变速/);
+  assert.match(bikeDescription, /铝合金车架/);
+});
+
+test('rescues clearly identifiable products from the generic other-offers bucket', () => {
+  const expected = new Map([
+    ['Brother mekanisk symaskine', ['home_kitchen', 'home_appliances']],
+    ['Danske radiser', ['vegetables', 'root_vegetables']],
+    ['Økologisk rucola', ['vegetables', 'leafy_green']],
+    ['Onsdagssnegl', ['bread_bakery', 'bread']],
+    ['Ristet sesamolie', ['cooking_oils', 'oil_other']],
+  ]);
+  for (const [heading, [categoryId, comparisonGroup]] of expected) {
+    assert.deepEqual(classifyOffer({ heading }), { categoryId, comparisonGroup }, heading);
+  }
 });
 
 test('uses product identity rather than flavour words or brand fragments', () => {

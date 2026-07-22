@@ -5,12 +5,29 @@ import { explainInChinese } from './explain-zh.mjs';
 import { sanitizeItemDescriptionZh } from './description-quality.mjs';
 
 export const DESCRIPTION_SCHEMA_VERSION = 2;
-export const DESCRIPTION_SPEC_VERSION = 'zh-product-v4';
+export const DESCRIPTION_SPEC_VERSION = 'zh-product-v5';
+
+function clothingDetailIdentity(raw, group) {
+  if (!String(group || '').startsWith('clothing_')) return '';
+  const description = String(raw?.description || raw?.originalDescription || '');
+  const facts = [];
+  const sizeToken = '(?:\\d{1,2}XL|XXXL|XXL|XL|XS|S|M|L|\\d{1,3})';
+  const sizePattern = new RegExp(
+    `\\b(?:Str\\.?\\s*:?\\s*)?(${sizeToken}(?:\\s*[-–/]\\s*${sizeToken}){1,3})(?:\\s*cm\\b)?(?=\\s*(?:[.,;)]|$))`,
+    'i',
+  );
+  const size = description.match(sizePattern);
+  if (size) facts.push(size[0]);
+  const material = description.match(/(?:100\s*%\s*)?(?:(?:ø|o)kologisk\s*)?bomuld(?:\s*\/\s*(?:polyester|elastan))?|viscose\s*\/\s*polyamid/i);
+  if (material) facts.push(material[0]);
+  return normalizedText(facts.join(' '));
+}
 
 export function descriptionKeyFor(raw, classification) {
   const name = normalizedText(raw?.heading || raw?.originalName || '');
   const group = classification?.comparisonGroup || raw?.comparisonGroup || 'unknown';
-  return `v1|${name}|${group}`;
+  const detail = clothingDetailIdentity(raw, group);
+  return `v1|${name}|${group}${detail ? `|${detail}` : ''}`;
 }
 
 export function emptyDescriptionCache() {

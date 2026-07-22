@@ -4,21 +4,22 @@ import { ATLANTA_COMPARISON_GROUPS, refineAtlantaCategory, refineAtlantaComparis
 import { explainComparisonGroupInChinese } from './lib/explain-zh.mjs';
 import { sanitizeItemDescriptionZh } from './lib/description-quality.mjs';
 import { repairPublishedPackage } from './lib/normalize.mjs';
+import { descriptionKeyFor } from './lib/product-descriptions.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, normalizedText, refineAarhusCategory, refineAarhusComparisonGroup } from './lib/taxonomy.mjs';
 
 const read = async path => JSON.parse(await fs.readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 const write = async (path, value) => fs.writeFile(new URL(`../${path}`, import.meta.url), `${JSON.stringify(value, null, 2)}\n`);
 const now = new Date().toISOString();
-const descriptionKey = (name, comparisonGroup) => `v1|${normalizedText(name)}|${comparisonGroup}`;
+const descriptionKey = (name, comparisonGroup, originalDescription = '') => descriptionKeyFor(
+  { heading: name, description: originalDescription },
+  { comparisonGroup },
+);
+const recordDescriptionKey = (record, name, comparisonGroup) => descriptionKey(
+  name,
+  comparisonGroup,
+  record.originalDescription || record.sampleDescriptions?.[0] || '',
+);
 const reviewOverrides = (await read('data/product_review_overrides_zh.json')).entries;
-const GROUPS_REQUIRING_FORM_EXPLANATION = new Set([
-  'prepared_poultry_mixed_offer',
-  'prepared_pork_marinated',
-  'prepared_pork_cooked',
-  'prepared_pork_mixed_offer',
-  'prepared_beef_marinated',
-  'prepared_lamb_marinated',
-]);
 
 function applyAarhusReviewOverride(record, name = record.originalName) {
   const override = reviewOverrides[normalizedText(name)];
@@ -30,14 +31,14 @@ function applyAarhusReviewOverride(record, name = record.originalName) {
       reasonZh: override.reasonZh,
       categoryId: 'excluded',
       comparisonGroup: 'excluded_drink',
-      ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, 'excluded_drink') } : {}),
+      ...(record.descriptionKey ? { descriptionKey: recordDescriptionKey(record, name, 'excluded_drink') } : {}),
     };
   }
   const next = {
     ...record,
     categoryId: override.categoryId,
     comparisonGroup: override.comparisonGroup,
-    ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, override.comparisonGroup) } : {}),
+    ...(record.descriptionKey ? { descriptionKey: recordDescriptionKey(record, name, override.comparisonGroup) } : {}),
   };
   if ('productNameZh' in record) next.productNameZh = override.productNameZh;
   if ('labelZh' in record) next.labelZh = override.productNameZh;
@@ -57,12 +58,12 @@ function refineAarhusRecord(record, name = record.originalName) {
     ...record,
     categoryId: refineAarhusCategory(record.categoryId, comparisonGroup),
     comparisonGroup,
-    ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, comparisonGroup) } : {}),
+    ...(record.descriptionKey ? { descriptionKey: recordDescriptionKey(record, name, comparisonGroup) } : {}),
   };
-  if ((comparisonGroup !== record.comparisonGroup || GROUPS_REQUIRING_FORM_EXPLANATION.has(comparisonGroup)) && 'zhExplanation' in record) {
+  if (comparisonGroup !== record.comparisonGroup && 'zhExplanation' in record) {
     migrated.zhExplanation = sanitizeItemDescriptionZh(`${record.productNameZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`);
   }
-  if ((comparisonGroup !== record.comparisonGroup || GROUPS_REQUIRING_FORM_EXPLANATION.has(comparisonGroup)) && 'descriptionZh' in record) {
+  if (comparisonGroup !== record.comparisonGroup && 'descriptionZh' in record) {
     migrated.descriptionZh = sanitizeItemDescriptionZh(`${record.productNameZh || record.labelZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`);
   }
   if ('zhExplanation' in migrated) migrated.zhExplanation = sanitizeItemDescriptionZh(migrated.zhExplanation);
@@ -79,7 +80,7 @@ function migrateKnowledgeEntries(entries) {
     }
     const name = value.originalName || oldKey.split('|')[1];
     const migrated = refineAarhusRecord(value, name);
-    const newKey = descriptionKey(name, migrated.comparisonGroup);
+    const newKey = recordDescriptionKey(migrated, name, migrated.comparisonGroup);
     const existing = next[newKey];
     next[newKey] = existing
       ? { ...existing, ...migrated, reviewStatus: existing.reviewStatus === 'reviewed' || migrated.reviewStatus === 'reviewed' ? 'reviewed' : migrated.reviewStatus }
@@ -188,7 +189,7 @@ taxonomyPending.items = taxonomyPending.items.map(item => {
   const currentComparisonGroup = refineAarhusComparisonGroup(item.currentComparisonGroup, item.originalName);
   return {
     ...item,
-    descriptionKey: descriptionKey(item.originalName, currentComparisonGroup),
+    descriptionKey: recordDescriptionKey(item, item.originalName, currentComparisonGroup),
     currentCategoryId: refineAarhusCategory(item.currentCategoryId, currentComparisonGroup),
     currentComparisonGroup,
   };
@@ -209,7 +210,11 @@ for (const [oldKey, product] of Object.entries(identityHistory.products)) {
   for (const categoryId of product.categoryIds || []) {
     for (const comparisonGroup of groups) categories.add(refineAarhusCategory(categoryId, comparisonGroup));
   }
-  const newKey = descriptionKey(name, primaryGroup);
+  const canonicalKey = descriptionKey(name, primaryGroup);
+  const oldKeyDetail = oldKey.split('|').slice(3).join('|');
+  const newKey = oldKeyDetail && primaryGroup.startsWith('clothing_')
+    ? `${canonicalKey}|${oldKeyDetail}`
+    : canonicalKey;
   const existing = migratedProducts[newKey];
   migratedProducts[newKey] = {
     ...product,

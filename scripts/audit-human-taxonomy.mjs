@@ -10,6 +10,7 @@ const overrides = (await read('data/product_review_overrides_zh.json')).entries;
 const errors = [];
 const warnings = [];
 const fail = (offer, message) => errors.push(`${message}: ${offer.originalName}`);
+const legacyGenericZh = /商品（请核对原名）|其他家居用品|其他电子电器|其他休闲、户外或兴趣用品|成人服饰或鞋袜|儿童服饰或鞋袜|请按原名|请按原始商品名|购买前请确认|购买时请确认年龄段|具体功能以商品原名|具体用途由商品原名|具体品种以原名|原名为准|因商品而异|需按原名/;
 
 const expectedLeadingCategories = ['vegetables', 'fruit', 'chicken', 'minced_meat', 'pork_fresh', 'beef', 'seafood'];
 const actualLeadingCategories = aarhus.categories.slice(0, expectedLeadingCategories.length).map(category => category.id);
@@ -35,6 +36,14 @@ for (const offer of aarhus.offers) {
   }
   if (String(offer.zhExplanation || '').trim().length < 12) fail(offer, '中文解释过短');
   if (ITEM_DESCRIPTION_META_PATTERN.test(offer.zhExplanation || '')) fail(offer, '商品说明混入了比价系统规则');
+  if (legacyGenericZh.test(`${offer.productNameZh || ''} ${offer.zhExplanation || ''}`)) fail(offer, '仍在使用空泛的旧版中文模板');
+  if (offer.categoryId === 'leisure' && /(?:^| )(?:is|iskasse|magnum|solero|gelatelli)(?: |$)/.test(name)) {
+    fail(offer, '冰淇淋或冰品误归入休闲用品');
+  }
+  if (offer.comparisonGroup.startsWith('clothing_adult')
+      && /str\.?\s*(?:80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)(?:\/\d{2,3})?\s*[-–]\s*(?:86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)/i.test(offer.originalDescription || '')) {
+    fail(offer, '儿童身高尺码误归入成人服饰');
+  }
 
   if (/(hotwings|buffalo wings|sol mar kyllingevinger)/.test(name)
       && (offer.categoryId !== 'prepared_meat' || offer.comparisonGroup !== 'prepared_chicken_wings_seasoned')) {
@@ -72,6 +81,9 @@ for (const offer of aarhus.offers) {
     fail(offer, '明确腌制、熟制或裹粉肉类仍归入生鲜大类');
   }
 }
+
+const otherOffers = aarhus.offers.filter(offer => offer.categoryId === 'other_offers');
+if (otherOffers.length > 20) errors.push(`“其他促销”仍堆积过多：${otherOffers.length} 条`);
 
 for (const [key, override] of Object.entries(overrides)) {
   const matches = aarhus.offers.filter(offer => normalizedText(offer.originalName) === key);
