@@ -11,6 +11,8 @@ const normalize = value => String(value || '')
 const title = (pattern, nameZh) => [pattern, nameZh];
 
 const DANISH_PRODUCT_FORM_TITLES = [
+  title(/^daaselaag med sugeror$/, '易拉罐防洒盖与吸管（2件装）'),
+  title(/^steamcleaner$/, 'Sjö 蒸汽清洁机'),
   title(/ben s sauce.*dolmio|dolmio.*ben s sauce/, 'Ben’s 或 Dolmio 意面烹调酱任选'),
   title(/karolines kokken sauce/, 'Karolines Køkken 奶油烹调酱'),
   title(/odense marcipan dessert sauce/, 'Odense Marcipan 甜点酱'),
@@ -596,6 +598,8 @@ const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
 ]);
 
 const SPECIFIC_DESCRIPTIONS = [
+  [/^daaselaag med sugeror$/, '这是可重复使用的易拉罐盖和吸管二件套，把盖子压在已开封的饮料罐上，可减少泼洒并挡住黄蜂等昆虫；材质为 ABS、PP 和硅胶，可放洗碗机清洗。'],
+  [/^steamcleaner$/, '这是 Sjö 蒸汽清洁机，用约 100°C、4 bar 高压蒸汽清洁厨房、浴室、瓷砖缝、窗户和织物等表面；功率 1500 W，水箱 1450 ml，约 15 秒预热，并附 8 种刷头和刮具。'],
   [/ben s sauce.*dolmio|dolmio.*ben s sauce/, '这是 Ben’s 或 Dolmio 瓶装烹调酱任选，可加入煎熟的肉类、蔬菜、米饭或意面快速完成一餐；不同款可能偏意式番茄或其他风味。'],
   [/karolines kokken sauce/, '这是 Karolines Køkken 冷藏或常温烹调酱，通常以奶油为基底，可加热后搭配肉类、意面、土豆或蔬菜。'],
   [/odense marcipan dessert sauce/, '这是 Odense Marcipan 甜点淋酱，可淋在冰淇淋、蛋糕、水果、煎饼或其他甜点上；商品主体是甜酱，不是杏仁膏。'],
@@ -738,7 +742,9 @@ const CLOTHING_TYPE_RULES = [
   [/strikcardigan|cardigan/, ['针织开衫', '适合叠穿和换季保暖']],
   [/\bstrik\b/, ['针织上衣', '适合换季或室内保暖']],
   [/t shirt/, ['T恤', '短袖上衣，适合日常穿着']],
-  [/tanktop|stroptop|croptop|undertroje|herreundertroje/, ['背心', '贴身或单穿的无袖上衣']],
+  [/croptop/, ['短款背心', '下摆较短的无袖上衣，可作内搭或单穿']],
+  [/stroptop/, ['细肩带背心', '带细肩带的贴身或夏季上衣']],
+  [/tanktop|undertroje|herreundertroje/, ['背心', '贴身或单穿的无袖上衣']],
   [/skjorte/, ['衬衫', '有领上衣，可单穿或叠穿']],
   [/\bbluse\b/, ['上衣', '日常穿着的套头或长袖上衣']],
   [/smaekbukser/, ['背带裤', '带肩带的连体裤装']],
@@ -792,7 +798,7 @@ const GENERAL_TYPE_RULES = [
   [/poselos stovsuger|hoover/, ['无尘袋吸尘器', '把灰尘收集到可清空的集尘盒']],
   [/batteridreven cyklonstovsuger|ledningsfri stovsuger|cyklonstovsuger/, ['无线手持吸尘器', '用充电电池吸除地面和家具灰尘']],
   [/\bstovsuger\b/, ['吸尘器', '吸除地板、地毯或家具表面的灰尘']],
-  [/damprenser/, ['蒸汽清洁机', '用高温蒸汽清洁瓷砖、缝隙、玻璃或织物表面']],
+  [/damprenser|steamcleaner/, ['蒸汽清洁机', '用高温蒸汽清洁瓷砖、缝隙、玻璃或织物表面']],
   [/dampmoppe/, ['蒸汽拖把', '用蒸汽和拖布清洁硬质地面']],
   [/steamer med sugefunktion/, ['蒸汽清洁吸洗机', '一边喷蒸汽一边吸走污物和水分']],
   [/luftblaeser.*varm.*kold/, ['冷热风扇', '夏季送凉风、冬季作为暖风机使用']],

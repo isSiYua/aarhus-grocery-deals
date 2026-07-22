@@ -255,6 +255,12 @@ test('keeps food, flowers and appliances ahead of incidental container words', (
   assert.deepEqual(classifyOffer({ heading:'SILVERCREST Bestikbakke' }), {
     categoryId:'home_kitchen', comparisonGroup:'home_storage',
   });
+  assert.deepEqual(classifyOffer({ heading:'Dåselåg med sugerør' }), {
+    categoryId:'home_kitchen', comparisonGroup:'home_tableware',
+  });
+  assert.deepEqual(classifyOffer({ heading:'Steamcleaner' }), {
+    categoryId:'home_kitchen', comparisonGroup:'home_appliances',
+  });
 });
 
 test('writes item-specific Chinese explanations with useful flyer facts', () => {
@@ -283,6 +289,11 @@ test('writes item-specific Chinese explanations with useful flyer facts', () => 
   assert.match(bikeDescription, /28 英寸车轮/);
   assert.match(bikeDescription, /Shimano 7 速内变速/);
   assert.match(bikeDescription, /铝合金车架/);
+
+  assert.match(danishProductNameZh('ESMARA KIDS Croptop', 'clothing_children_tops', '2-pak.'), /儿童短款背心/);
+  assert.match(danishProductNameZh('ESMARA KIDS Stroptop', 'clothing_children_tops', '2-pak.'), /儿童细肩带背心/);
+  assert.match(specificDanishDescription('Steamcleaner', '', 'home_appliances'), /4 bar/);
+  assert.match(specificDanishDescription('Steamcleaner', '', 'home_appliances'), /1500 W/);
 });
 
 test('rescues clearly identifiable products from the generic other-offers bucket', () => {

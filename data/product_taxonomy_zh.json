@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T14:25:03.344Z",
+  "updatedAt": "2026-07-22T14:39:35.183Z",
   "entries": {
     "v1|1 enkelt bitter grant s whisky brondums snaps bacardi rom ramazzotti limoncello eller raastoff shots|alcohol_spirits": {
       "status": "active",
@@ -1186,7 +1186,7 @@
       "comparisonGroup": "cleaning",
       "labelZh": "清洁用品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Ajax rengøring eller Bref toiletblokke",
+      "originalName": "Ajax rengøring eller Bref toiletblokke*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -4778,7 +4778,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|bluse eller leggings|clothing_adult": {
       "status": "active",
@@ -4814,7 +4814,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|bluse|clothing_adult": {
       "status": "active",
@@ -5590,7 +5590,7 @@
       "comparisonGroup": "pasta_noodles",
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Brema frisk pappardelle eller tagliatelle pasta",
+      "originalName": "Brema frisk pappardelle eller tagliatelle pasta*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8266,7 +8266,7 @@
       "comparisonGroup": "paper_kitchen",
       "labelZh": "厨房纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Coop giant køkkenrulle*",
+      "originalName": "Coop giant køkkenrulle",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8638,7 +8638,7 @@
       "comparisonGroup": "sauce_pesto",
       "labelZh": "青酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Coop pesto",
+      "originalName": "Coop pesto*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8998,7 +8998,7 @@
       "comparisonGroup": "alcohol_beer",
       "labelZh": "Corona, Leffe, Stella eller Mokai, Shaker（啤酒）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Corona, Leffe, Stella eller Mokai, Shaker",
+      "originalName": "Corona, Leffe, Stella eller Mokai, Shaker*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -9447,6 +9447,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
+    },
+    "v1|daaselaag med sugeror|home_tableware": {
+      "status": "active",
+      "categoryId": "home_kitchen",
+      "comparisonGroup": "home_tableware",
+      "labelZh": "易拉罐防洒盖与吸管（2件装）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Dåselåg med sugerør",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T14:39:02.838Z"
     },
     "v1|dab 2000 radio|electronics_audio": {
       "status": "active",
@@ -10976,13 +10988,13 @@
       "status": "active",
       "categoryId": "alcohol",
       "comparisonGroup": "alcohol_wine",
-      "labelZh": "Diablo, Rosé d'Adimant eller Why Not? Premium Zin（葡萄酒或起泡酒）",
+      "labelZh": "Diablo, Rosé d’Adimant eller Why Not? Premium Zin（葡萄酒或起泡酒）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Diablo, Rosé d'Adimant eller Why Not? Premium Zin",
+      "originalName": "Diablo, Rosé d’Adimant eller Why Not? Premium Zin",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:49:59.805Z"
+      "reviewedAt": "2026-07-22T14:39:02.838Z"
     },
     "v1|diablo rose d adimant eller why not premium zin|other_offer": {
       "status": "active",
@@ -12680,13 +12692,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult_underwear",
-      "labelZh": "ESMARA [ 1 ] Stroptop med blonder（成人背心）",
+      "labelZh": "ESMARA [ 1 ] Stroptop med blonder（成人细肩带背心）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA [ 1 ] Stroptop med blonder",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T14:39:02.838Z"
     },
     "v1|esmara 2 trusser med blonder|clothing_adult": {
       "status": "active",
@@ -12812,7 +12824,7 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "ESMARA KIDS Croptop（儿童背心）",
+      "labelZh": "ESMARA KIDS Croptop（儿童短款背心）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA KIDS Croptop",
       "authoredBy": "Codex",
@@ -12920,7 +12932,7 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "ESMARA KIDS Stroptop（儿童背心）",
+      "labelZh": "ESMARA KIDS Stroptop（儿童细肩带背心）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA KIDS Stroptop",
       "authoredBy": "Codex",
@@ -13136,13 +13148,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult_underwear",
-      "labelZh": "ESMARA Stroptop（成人背心）",
+      "labelZh": "ESMARA Stroptop（成人细肩带背心）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA Stroptop",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T14:39:02.838Z"
     },
     "v1|esmara trusser|clothing_adult": {
       "status": "active",
@@ -15118,7 +15130,7 @@
       "comparisonGroup": "alcohol_wine",
       "labelZh": "Frontera eller Viña Flora Pink Moscato（葡萄酒或起泡酒）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Frontera eller Viña Flora Pink Moscato*",
+      "originalName": "Frontera eller Viña Flora Pink Moscato",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -15730,7 +15742,7 @@
       "comparisonGroup": "hair_body",
       "labelZh": "面部护肤品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Garnier Micellar water eller Triple Active ansigtscreme*",
+      "originalName": "Garnier Micellar water eller Triple Active ansigtscreme",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -16930,7 +16942,7 @@
       "comparisonGroup": "potato_salad",
       "labelZh": "土豆沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Graasten eller K-salat kartoffelsalat",
+      "originalName": "Graasten eller K-salat kartoffelsalat*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -24418,7 +24430,7 @@
       "comparisonGroup": "paper_mixed_offer",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Lambi Classic toiletpapir eller køkkenrulle *",
+      "originalName": "Lambi Classic toiletpapir eller køkkenrulle",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -24430,7 +24442,7 @@
       "comparisonGroup": "paper_mixed_offer",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Lambi Premium toiletpapir/ køkkenrulle eller Coop giant køkkenrulle",
+      "originalName": "Lambi Premium toiletpapir/køkkenrulle eller Coop giant køkkenrulle",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -26462,7 +26474,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|lupilu natdragt|clothing_children": {
       "status": "active",
@@ -26642,7 +26654,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|lupilu strikcardigan eller busker|clothing_adult_tops": {
       "status": "active",
@@ -26750,7 +26762,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
     "v1|lupilu t shirt|clothing_adult_tops": {
       "status": "active",
@@ -28018,7 +28030,7 @@
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Malaco, Skippers mini eller Polly",
+      "originalName": "Malaco, Skippers mini eller Polly.",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -30526,7 +30538,7 @@
       "comparisonGroup": "drink_energy",
       "labelZh": "Nailed eller State（能量饮料）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Nailed eller State*",
+      "originalName": "Nailed eller State",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -31390,7 +31402,7 @@
       "comparisonGroup": "hair_body",
       "labelZh": "止汗除味剂",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Nivea deodorant eller shower",
+      "originalName": "Nivea deodorant eller shower*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -34534,7 +34546,7 @@
       "comparisonGroup": "alcohol_wine",
       "labelZh": "Piccini Appassimento, Zinfandel eller Chianti Riserva（葡萄酒或起泡酒）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Piccini Appassimento, Zinfandel eller Chianti Riserva",
+      "originalName": "Piccini Appassimento, Zinfandel eller Chianti Riserva*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -36746,7 +36758,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|regnjakke|clothing_adult": {
       "status": "active",
@@ -38530,7 +38542,7 @@
       "comparisonGroup": "seafood_canned_fish",
       "labelZh": "Sæby 鲭鱼罐头",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Sæby makrel*",
+      "originalName": "Sæby makrel",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -40964,13 +40976,13 @@
       "status": "active",
       "categoryId": "home_kitchen",
       "comparisonGroup": "home_cookware",
-      "labelZh": "SILVERCREST  Multifunktionssæt af støbt aluminium（汤锅）",
+      "labelZh": "SILVERCREST Multifunktionssæt af støbt aluminium（汤锅）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "SILVERCREST  Multifunktionssæt af støbt aluminium",
+      "originalName": "SILVERCREST Multifunktionssæt af støbt aluminium",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:12:55.065Z"
+      "reviewedAt": "2026-07-22T14:39:02.838Z"
     },
     "v1|silvercrest multifunktionssaet af stobt aluminium|other_offer": {
       "status": "active",
@@ -41822,7 +41834,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|skoleaccessories|leisure_other": {
       "status": "active",
@@ -44032,6 +44044,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
+    "v1|steamcleaner|home_appliances": {
+      "status": "active",
+      "categoryId": "home_kitchen",
+      "comparisonGroup": "home_appliances",
+      "labelZh": "Sjö 蒸汽清洁机",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Steamcleaner",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T14:39:02.838Z"
+    },
     "v1|steelseries aerox 3 gen 2 gaming mus|electronics_computing": {
       "status": "active",
       "categoryId": "electronics",
@@ -45302,7 +45326,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|sweatsaet|clothing_adult": {
       "status": "active",
@@ -45374,7 +45398,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T14:25:02.281Z"
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
     "v1|sweatshorts|clothing_adult": {
       "status": "active",
@@ -48454,7 +48478,7 @@
       "comparisonGroup": "flour_baking",
       "labelZh": "面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Valsemøllen mel*",
+      "originalName": "Valsemøllen mel",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -50374,7 +50398,7 @@
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Xtra! ispinde eller isvafler*",
+      "originalName": "Xtra! ispinde eller isvafler",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -50470,7 +50494,7 @@
       "comparisonGroup": "mixed_grocery_offer",
       "labelZh": "金枪鱼罐头或鱼排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Xtra! tun eller Bonduelle majs*",
+      "originalName": "Xtra! tun eller Bonduelle majs",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -50944,42 +50968,6 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
-    "v1|bjorn borg tights|clothing_adult_bottoms|s xxl": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_adult_bottoms",
-      "labelZh": "Björn Borg tights（成人贴身打底裤或平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Björn Borg tights",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
-    "v1|tights|clothing_adult_underwear|m 2xl": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_adult_underwear",
-      "labelZh": "Tights（成人贴身打底裤或平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Tights",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
-    "v1|tights|clothing_adult_bottoms|m 2xl": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_adult_bottoms",
-      "labelZh": "Tights（成人贴身打底裤或平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Tights",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
     "v1|kasket til voksne|clothing_adult_accessories|bomuld": {
       "status": "active",
       "categoryId": "clothing",
@@ -51015,6 +51003,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
+    "v1|bjorn borg tights|clothing_adult_bottoms|s xxl": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_adult_bottoms",
+      "labelZh": "Björn Borg tights（成人贴身打底裤或平角内裤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Björn Borg tights",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
     "v1|bukser|clothing_adult_bottoms|s 2xl": {
       "status": "active",
@@ -51136,29 +51136,17 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
-    "v1|sweatshirt eller bukser|clothing_mixed_offer|s 2xl": {
+    "v1|tights|clothing_adult_bottoms|m 2xl": {
       "status": "active",
       "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "Sweatshirt eller -bukser（成人卫衣或运动裤任选）",
+      "comparisonGroup": "clothing_adult_bottoms",
+      "labelZh": "Tights（成人贴身打底裤或平角内裤）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Sweatshirt eller -bukser",
+      "originalName": "Tights",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
-    },
-    "v1|sweatshirt eller bukser|clothing_mixed_offer|m 2xl": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "Sweatshirt eller -bukser（成人卫衣或运动裤任选）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Sweatshirt eller -bukser",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
     "v1|kjole|clothing_adult_dresses|s 2xl": {
       "status": "active",
@@ -51400,6 +51388,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
+    "v1|tights|clothing_adult_underwear|m 2xl": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_adult_underwear",
+      "labelZh": "Tights（成人贴身打底裤或平角内裤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Tights",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
+    },
     "v1|trusser|clothing_adult_underwear|38 48": {
       "status": "active",
       "categoryId": "clothing",
@@ -51472,18 +51472,6 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
-    "v1|sweatsaet|clothing_mixed_offer|98 104 cm": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "Sweatsæt（成人服饰）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Sweatsæt",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
-    },
     "v1|kasket til born|clothing_children_accessories|bomuld": {
       "status": "active",
       "categoryId": "clothing",
@@ -51491,18 +51479,6 @@
       "labelZh": "Kasket til børn.（儿童棒球帽）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Kasket til børn.",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
-    },
-    "v1|bluse eller leggings|clothing_mixed_offer|98 152 cm": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "Bluse eller leggings（儿童上衣）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Bluse eller leggings",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -51688,18 +51664,6 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
-    "v1|regnjakke eller bukser|clothing_mixed_offer|98 152 cm": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "Regnjakke eller -bukser（儿童雨衣或雨裤任选）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Regnjakke eller -bukser",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
-    },
     "v1|regnsaet|clothing_children_outerwear|86 140 cm": {
       "status": "active",
       "categoryId": "clothing",
@@ -51784,6 +51748,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
+    "v1|bluse eller leggings|clothing_mixed_offer|98 152 cm": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "Bluse eller leggings（儿童上衣）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bluse eller leggings",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
+    "v1|regnjakke eller bukser|clothing_mixed_offer|98 152 cm": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "Regnjakke eller -bukser（儿童雨衣或雨裤任选）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Regnjakke eller -bukser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
     "v1|skjorte eller shorts|clothing_mixed_offer|s 3xl": {
       "status": "active",
       "categoryId": "clothing",
@@ -51832,6 +51820,42 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
     },
+    "v1|sweatshirt eller bukser|clothing_mixed_offer|s 2xl": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "Sweatshirt eller -bukser（成人卫衣或运动裤任选）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Sweatshirt eller -bukser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
+    "v1|sweatshirt eller bukser|clothing_mixed_offer|m 2xl": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "Sweatshirt eller -bukser（成人卫衣或运动裤任选）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Sweatshirt eller -bukser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
+    "v1|sweatsaet|clothing_mixed_offer|98 104 cm": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "Sweatsæt（成人服饰）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Sweatsæt",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
     "v1|t shirt undertroje eller trusser|clothing_mixed_offer|m 2xl": {
       "status": "active",
       "categoryId": "clothing",
@@ -51843,18 +51867,6 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:48:00.194Z"
-    },
-    "v1|marathon mens underwear|clothing_adult_underwear|m 2xl": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_adult_underwear",
-      "labelZh": "MARATHON MENS UNDERWEAR（成人贴身打底裤或平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "MARATHON MENS UNDERWEAR",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
     "v1|bollehat til dame|clothing_adult_accessories|bomuld": {
       "status": "active",
@@ -52035,6 +52047,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
+    },
+    "v1|marathon mens underwear|clothing_adult_underwear|m 2xl": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_adult_underwear",
+      "labelZh": "MARATHON MENS UNDERWEAR（成人贴身打底裤或平角内裤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "MARATHON MENS UNDERWEAR",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
     "v1|olympia undertroje tights eller trusser|clothing_adult_underwear|m 2xl": {
       "status": "active",
@@ -52276,6 +52300,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
+    "v1|minions stromper 3 pak|clothing_children_socks|str 23 26 31 33 bomuld polyester": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children_socks",
+      "labelZh": "Minions strømper 3-pak（儿童袜子）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Minions strømper 3-pak",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
+    },
     "v1|minions hoodie|clothing_children_tops|str 86 92 122 128 bomuld polyester": {
       "status": "active",
       "categoryId": "clothing",
@@ -52295,18 +52331,6 @@
       "labelZh": "Minions t-shirt（儿童T恤）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Minions t-shirt",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
-    },
-    "v1|minions stromper 3 pak|clothing_children_socks|str 23 26 31 33 bomuld polyester": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_socks",
-      "labelZh": "Minions strømper 3-pak（儿童袜子）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Minions strømper 3-pak",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -52360,47 +52384,11 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
-    "v1|lupilu strikcardigan|clothing_children_tops|98 104 122 128": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_tops",
-      "labelZh": "LUPILU Strikcardigan（儿童针织开衫）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU Strikcardigan",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
-    "v1|lupilu strikcardigan eller busker|clothing_children_tops|62 68 86 92 100 okologisk bomuld": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_tops",
-      "labelZh": "LUPILU Strikcardigan eller -busker（儿童针织开衫）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU Strikcardigan eller -busker",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
-    "v1|lupilu t shirt|clothing_children_tops|98 104 122 128": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_tops",
-      "labelZh": "LUPILU T-shirt（儿童T恤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU T-shirt",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:49:59.805Z"
-    },
     "v1|esmara 1 stroptop med blonder|clothing_adult_underwear|s l": {
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult_underwear",
-      "labelZh": "ESMARA [ 1 ] Stroptop med blonder（成人背心）",
+      "labelZh": "ESMARA [ 1 ] Stroptop med blonder（成人细肩带背心）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA [ 1 ] Stroptop med blonder",
       "authoredBy": "Codex",
@@ -52444,30 +52432,6 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
-    "v1|esmara kids boxershorts|clothing_children_underwear|134 140 158 164": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "ESMARA KIDS Boxershorts（儿童平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "ESMARA KIDS Boxershorts",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
-    "v1|esmara kids hipsters|clothing_children_underwear|134 140 158 164": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "ESMARA KIDS Hipsters（儿童低腰平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "ESMARA KIDS Hipsters",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
     "v1|esmara men boxershorts|clothing_adult_underwear|m xl": {
       "status": "active",
       "categoryId": "clothing",
@@ -52508,7 +52472,7 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult_underwear",
-      "labelZh": "ESMARA Stroptop（成人背心）",
+      "labelZh": "ESMARA Stroptop（成人细肩带背心）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA Stroptop",
       "authoredBy": "Codex",
@@ -52539,30 +52503,6 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
-    },
-    "v1|lupilu boxershorts|clothing_children_underwear|98 104 122 128": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "LUPILU Boxershorts（儿童平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU Boxershorts",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
-    },
-    "v1|lupilu hipsters|clothing_children_underwear|98 104 122 128": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "LUPILU Hipsters（儿童低腰平角内裤）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU Hipsters",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
     "v1|esmara kids leggings|clothing_children_bottoms|134 140 158 164": {
       "status": "active",
@@ -52612,30 +52552,6 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
-    "v1|lupilu strikcardigan eller bukser|clothing_mixed_offer|62 68 86 92 100 okologisk bomuld": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "LUPILU Strikcardigan eller -bukser（儿童针织开衫或针织裤任选）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU Strikcardigan eller -bukser",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
-    },
-    "v1|lupilu sweattroje eller bukser|clothing_mixed_offer|98 104 122 128": {
-      "status": "active",
-      "categoryId": "clothing",
-      "comparisonGroup": "clothing_mixed_offer",
-      "labelZh": "LUPILU Sweattrøje eller -bukser（儿童卫衣或运动裤任选）",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LUPILU Sweattrøje eller -bukser",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
-    },
     "v1|lupilu sneakersstromper|clothing_children_socks|19 22 27 30": {
       "status": "active",
       "categoryId": "clothing",
@@ -52648,31 +52564,55 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T14:03:48.215Z"
     },
-    "v1|esmara kids croptop|clothing_children_underwear|134 140 158 164": {
+    "v1|lupilu strikcardigan|clothing_children_tops|98 104 122 128": {
       "status": "active",
       "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "ESMARA KIDS Croptop（儿童背心）",
+      "comparisonGroup": "clothing_children_tops",
+      "labelZh": "LUPILU Strikcardigan（儿童针织开衫）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "ESMARA KIDS Croptop",
+      "originalName": "LUPILU Strikcardigan",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
-    "v1|esmara kids stroptop|clothing_children_underwear|134 140 158 164": {
+    "v1|lupilu strikcardigan eller busker|clothing_children_tops|62 68 86 92 100 okologisk bomuld": {
       "status": "active",
       "categoryId": "clothing",
-      "comparisonGroup": "clothing_children_underwear",
-      "labelZh": "ESMARA KIDS Stroptop（儿童背心）",
+      "comparisonGroup": "clothing_children_tops",
+      "labelZh": "LUPILU Strikcardigan eller -busker（儿童针织开衫）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "ESMARA KIDS Stroptop",
+      "originalName": "LUPILU Strikcardigan eller -busker",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
-    "v1|esmara kids trusser|clothing_children_underwear|134 140 158 164 100 bomuld": {
+    "v1|lupilu t shirt|clothing_children_tops|98 104 122 128": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children_tops",
+      "labelZh": "LUPILU T-shirt（儿童T恤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "LUPILU T-shirt",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:49:59.805Z"
+    },
+    "v1|esmara kids boxershorts|clothing_children_underwear|134 140 158 164": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children_underwear",
+      "labelZh": "ESMARA KIDS Boxershorts（儿童平角内裤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "ESMARA KIDS Boxershorts",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
+    },
+    "v1|esmara kids trusser|clothing_children_underwear|100 bomuld": {
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children_underwear",
@@ -52719,6 +52659,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
+    },
+    "v1|lupilu boxershorts|clothing_children_underwear|98 104 122 128": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children_underwear",
+      "labelZh": "LUPILU Boxershorts（儿童平角内裤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "LUPILU Boxershorts",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
+    },
+    "v1|lupilu hipsters|clothing_children_underwear|98 104 122 128": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children_underwear",
+      "labelZh": "LUPILU Hipsters（儿童低腰平角内裤）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "LUPILU Hipsters",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:39:29.058Z"
     },
     "v1|lupilu natdragt|clothing_children_underwear|62 68 86 92 100 okologisk bomuld": {
       "status": "active",
@@ -52775,6 +52739,30 @@
       "labelZh": "LUPILU Musselinbluse med ribleggings eller ribbluse med musselinbukser（儿童上衣或裤装任选）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Musselinbluse med ribleggings eller ribbluse med musselinbukser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
+    },
+    "v1|lupilu strikcardigan eller bukser|clothing_mixed_offer|62 68 86 92 100 okologisk bomuld": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "LUPILU Strikcardigan eller -bukser（儿童针织开衫或针织裤任选）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "LUPILU Strikcardigan eller -bukser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:36:17.362Z"
+    },
+    "v1|lupilu sweattroje eller bukser|clothing_mixed_offer|98 104 122 128": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_mixed_offer",
+      "labelZh": "LUPILU Sweattrøje eller -bukser（儿童卫衣或运动裤任选）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "LUPILU Sweattrøje eller -bukser",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
