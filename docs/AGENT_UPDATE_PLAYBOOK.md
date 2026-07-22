@@ -1,6 +1,8 @@
-# Agent-neutral deal update playbook
+# Agent-neutral Aarhus deal update playbook
 
-No Codex quota, OpenAI key, or model API is required for the scheduled refresh. GitHub Actions runs the same repository code every day at Copenhagen 03:00. This playbook is the fallback for any local agent or human maintainer.
+The scheduled path is credential-free and model-neutral. GitHub Actions checks the public Aarhus flyer feed at Copenhagen 03:17 and 15:17. It never calls Codex/OpenAI and therefore consumes no model tokens.
+
+Atlanta is a frozen historical archive. Routine, fallback, review, preview, and taxonomy commands must not modify or fetch Atlanta data. Only an explicit future reactivation decision may use `npm run update:atlanta:archive` or `INCLUDE_ATLANTA_ARCHIVE=1`.
 
 ## Routine refresh
 
@@ -11,12 +13,14 @@ npm run check
 npm run build:preview
 ```
 
-`update:fallback` downloads Aarhus and Atlanta source data, reuses repository-reviewed taxonomy/descriptions, queues unseen products, and withholds those unseen items from publication. If the source data did not change, the workflow may update refresh metadata without inventing product changes.
+`update:fallback` downloads only Aarhus source data, reuses repository-reviewed taxonomy/descriptions, queues truly unseen products, and withholds those unseen rows from publication. A successful source refresh is authoritative: a promotion missing from the new flyer leaves current data and moves to history. The UI also filters by `validUntil`, so an expired category disappears even before the next scheduled run.
+
+Unchanged offers keep their stable identity, discovery date, last meaningful confirmation timestamp, and reviewed Chinese content. Sorting is deterministic to keep automated commits small. Scheduled Pages deployment happens only when data, source health, or a pending-review queue materially changes; a manual workflow run always deploys code changes.
 
 ## When classification or Chinese text needs correction
 
 1. Add a normalized original-name entry to `data/product_review_overrides_zh.json`.
-2. Add or refine the general detection rule in `scripts/lib/taxonomy.mjs` so future names of the same kind are classified correctly.
+2. Add or refine the reusable rule in `scripts/lib/taxonomy.mjs`.
 3. Add a Chinese group explanation in `scripts/lib/explain-zh.mjs` if the comparison group is new.
 4. Run:
 
@@ -26,15 +30,16 @@ npm run check
 npm run build:preview
 ```
 
-5. Inspect the current offer, the lowest-price modal, neighbouring offers in the same small category, and at least one mobile layout.
+5. Inspect the offer, its comparison pool, neighbouring products, and at least one 390 px mobile card.
 
-## Mandatory self-review questions
+## Mandatory self-review
 
-- Is it raw, or is it seasoned, marinated, cooked, smoked, breaded, minced, formed, or mixed?
-- Are all products in the lowest-price pool truly interchangeable in species, cut/form, preparation state, and unit basis?
-- Does the Chinese name reveal the actual item rather than merely its broad category?
-- Does the explanation match both the original name and the visible flyer evidence?
-- Are fruit, vegetables, seafood, meat, non-food paper goods, and drinks kept out of one another's aisles?
-- Did the audit run for both Aarhus and Atlanta?
+- Is it raw, seasoned, marinated, cooked, smoked, breaded, minced, formed, or mixed?
+- Are products in a lowest-price pool interchangeable in species, cut/form, preparation state, unit basis, and package basis?
+- Does the Chinese name reveal the actual item rather than a broad template?
+- Does the explanation match the original name, description, and any inspected flyer image?
+- Are mixed-choice, item-count, and unknown-weight offers excluded from incompatible price pools?
+- Did `npm run check` pass the tests, Aarhus audit, archived-data integrity check, privacy scan, and validation?
+- Are both pending review counts understood before deployment?
 
-The command `npm run audit:taxonomy` converts these known failure modes into a deployment-blocking gate. Add a regression rule whenever a new repeatable error pattern is discovered.
+Never patch rendered HTML as the only correction, never guess a flyer page, and never deploy after a failed check.

@@ -92,7 +92,6 @@ test('home integrates upcoming offers into normal categories instead of recommen
 
 test('manual refresh checks the active location data file and only replaces changed data', () => {
   assert.match(appSource, /function refreshActiveData/);
-  assert.match(appSource, /data\/atlanta_offers\.json/);
   assert.match(appSource, /data\/current_offers\.json/);
   assert.match(appSource, /\?refresh=\$\{Date\.now\(\)\}/);
   assert.match(appSource, /comparableData\(nextData\) !== comparableData\(currentData\)/);
@@ -100,6 +99,22 @@ test('manual refresh checks the active location data file and only replaces chan
   assert.match(appSource, /已取得新数据并更新/);
   assert.match(appSource, /刷新失败，仍显示现有数据/);
   assert.match(appSource, /aria-label': refresh\.status === 'checking' \? '正在检查更新' : '刷新并检查数据更新'/);
+});
+
+test('Aarhus is the only normal location and archived Atlanta data is an opt-in easter egg', () => {
+  assert.match(appSource, /ATLANTA_EASTER_EGG_ENABLED/);
+  assert.match(appSource, /get\('city'\) === 'atlanta'/);
+  assert.match(appSource, /ATLANTA_EASTER_EGG_ENABLED\s*\? \[AARHUS_LOCATION, ATLANTA_ARCHIVE_LOCATION\]\s*:\s*\[AARHUS_LOCATION\]/);
+  assert.match(appSource, /if \(ATLANTA_EASTER_EGG_ENABLED\) \{[\s\S]*fetch\('data\/atlanta_offers\.json'/);
+  assert.match(appSource, /const aarhusRes = await fetch\('data\/current_offers\.json'/);
+  assert.match(appSource, /LOCATIONS\.length > 1/);
+});
+
+test('expired promotions and their empty categories disappear without waiting for the next refresh', () => {
+  assert.match(appSource, /!o\.validUntil \|\| new Date\(o\.validUntil\) >= now\(\)/);
+  assert.match(appSource, /const ids = new Set\(offers\.map\(o => o\.categoryId\)\)/);
+  assert.match(appSource, /activeCategories\(\)\.filter\(c => ids\.has\(c\.id\)\)/);
+  assert.match(appSource, /旧优惠已不在本期数据中，暂不显示/);
 });
 
 test('nearby store lookup is permission-based, local-only, and keeps original store names copyable', () => {
@@ -135,6 +150,15 @@ test('search page links to the public GitHub repository for stars', () => {
   assert.match(appSource, /rel: 'noopener noreferrer'/);
   assert.match(styleSource, /\.github-star-link \{/);
   assert.match(styleSource, /\.github-star-action \{/);
+});
+
+test('every main view shows an anti-fraud, privacy, and source disclaimer', () => {
+  assert.match(appSource, /永久免费 · 不收款 · 不接受捐款/);
+  assert.match(appSource, /任何以“买菜口袋书”或作者名义索要转账/);
+  assert.match(appSource, /不代表任何超市、Tjek 或 eTilbudsavis/);
+  assert.match(appSource, /security\/policy/);
+  assert.match(styleSource, /\.public-trust-note \{/);
+  assert.doesNotMatch(appSource, /\.innerHTML\s*=/);
 });
 
 test('mobile chrome behaves like a reading app and has no visible handles', () => {

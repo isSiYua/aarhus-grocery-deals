@@ -1,0 +1,29 @@
+name: CodeQL security scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '37 3 * * 3'
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    name: Analyze JavaScript
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      # v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      # v3
+      - uses: github/codeql-action/init@08d09a53f0f5d694f253bd25732e4429c9e9337f
+        with:
+          languages: javascript-typescript
+      # v3
+      - uses: github/codeql-action/analyze@08d09a53f0f5d694f253bd25732e4429c9e9337f

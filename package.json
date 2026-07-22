@@ -3,10 +3,11 @@
   "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "Mobile-first Aarhus and Atlanta grocery deal pocketbook with daily updates.",
+  "description": "Mobile-first Aarhus grocery deal pocketbook with automated flyer updates.",
   "scripts": {
-    "update": "node scripts/update-data.mjs && node scripts/update-atlanta-data.mjs && node scripts/sync-atlanta-product-knowledge.mjs && node scripts/update-product-identities.mjs",
+    "update": "node scripts/update-data.mjs && node scripts/update-product-identities.mjs",
     "update:fallback": "npm run update && node scripts/prepare-fallback-data.mjs",
+    "update:atlanta:archive": "node scripts/update-atlanta-data.mjs && node scripts/sync-atlanta-product-knowledge.mjs",
     "validate": "node scripts/validate-data.mjs",
     "audit:taxonomy": "node scripts/audit-human-taxonomy.mjs",
     "check": "npm test && npm run audit:taxonomy && npm run validate",

@@ -1,7 +1,7 @@
 {
   "name": "买菜口袋书",
   "short_name": "买菜优惠",
-  "description": "附近超市促销、中文解释与单位价格比较",
+  "description": "Aarhus 超市促销、中文解释、附近门店与单位价格比较",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6f1e7",

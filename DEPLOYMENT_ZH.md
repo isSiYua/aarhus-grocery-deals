@@ -1,31 +1,30 @@
-# 部署到固定在线网址
+# Aarhus 买菜口袋书部署与日常维护
 
-## 最终效果
+固定网址：<https://issiyua.github.io/aarhus-grocery-deals/>
 
-部署后使用固定网址：
-
-```text
-https://<GitHub用户名>.github.io/<仓库名>/
-```
-
-页面每天按丹麦时间 07:00 检查一次数据。未变化商品继续保留；变化商品替换并归档；数据源失败时保留上一版记录。
-
-## 一次性部署
-
-1. 在 GitHub 新建一个仓库，例如 `aarhus-grocery-deals`。
-2. 将本项目全部文件上传至仓库默认分支。
-3. 打开仓库 `Settings → Pages`。
-4. 在 `Build and deployment` 中把 Source 设为 `GitHub Actions`。
-5. 打开 `Actions → Update deals and deploy → Run workflow`，手动运行一次。
-6. 部署成功后，在 Pages 设置页或工作流结果中打开固定网址。
+GitHub Actions 在丹麦时间每天 03:17 和 15:17 检查 Aarhus 促销单。日常更新使用本地规则与已审核知识库，不需要模型 API 或 token。只有数据、来源状态或待审核队列实际变化时才自动提交和部署；手动运行工作流会强制部署代码更新。
 
 ## iPhone 添加到主屏幕
 
-1. 用 Safari 打开网站。
+1. 用 Safari 打开固定网址。
 2. 点击分享按钮。
 3. 选择“添加到主屏幕”。
-4. 以后可像普通 App 一样打开。
+4. 以后重新打开或切回前台时，应用会检查新版代码和促销数据。
 
-## 日常维护
+## 促销换期
 
-通常不需要人工操作。若页面显示“等待重新确认”，表示当天的数据源或单个商店没有成功刷新，系统正在保留上一版商品，而不是误删记录。
+- 新促销中仍存在的已知商品直接复用中文说明与分类。
+- 成功刷新后消失的旧促销立即从当前数据移入历史，不再展示。
+- `validUntil` 已到期的商品会在浏览器端即时隐藏；若某类别没有有效商品，该类别也自动隐藏。
+- 从未见过或存在歧义的商品进入 pending 队列并暂不发布，避免自动猜错。
+- 数据源失败时只把受影响来源标记为待确认，不会把失败误当成促销撤回。
+
+## 发布前命令
+
+```sh
+npm run update:fallback
+npm run check
+npm run build:preview
+```
+
+公开宣传前同时阅读 [PUBLIC_NOTICE_ZH.md](PUBLIC_NOTICE_ZH.md) 与 [SECURITY.md](SECURITY.md)。

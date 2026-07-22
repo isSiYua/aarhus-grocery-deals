@@ -1,8 +1,7 @@
 import fs from 'node:fs/promises';
 
 import { explainInChinese } from './lib/explain-zh.mjs';
-import { classifyFlippItem, ATLANTA_COMPARISON_GROUPS, flippKnowledgeKey } from './lib/flipp-client.mjs';
-import { danishProductNameZh, englishProductNameZh, specificDanishDescription, specificEnglishDescription } from './lib/product-name-zh.mjs';
+import { danishProductNameZh, specificDanishDescription } from './lib/product-name-zh.mjs';
 import { descriptionKeyFor, DESCRIPTION_SPEC_VERSION } from './lib/product-descriptions.mjs';
 import { sanitizeItemDescriptionZh } from './lib/description-quality.mjs';
 import { AARHUS_COMPARISON_GROUPS, classifyOffer, isClearlyOutOfScope, normalizedText } from './lib/taxonomy.mjs';
@@ -13,8 +12,6 @@ const pendingDescriptionsUrl = new URL('../data/product_descriptions_pending.jso
 const taxonomyUrl = new URL('../data/product_taxonomy_zh.json', import.meta.url);
 const pendingTaxonomyUrl = new URL('../data/product_taxonomy_pending.json', import.meta.url);
 const reviewOverridesUrl = new URL('../data/product_review_overrides_zh.json', import.meta.url);
-const atlantaUrl = new URL('../data/atlanta_offers.json', import.meta.url);
-const atlantaKnowledgeUrl = new URL('../data/atlanta_product_knowledge_zh.json', import.meta.url);
 
 const read = async url => JSON.parse(await fs.readFile(url, 'utf8'));
 const write = async (url, value) => fs.writeFile(url, `${JSON.stringify(value, null, 2)}\n`);
@@ -116,66 +113,9 @@ const taxonomy = {
 };
 const pendingTaxonomy = { schemaVersion: 1, taxonomyVersion: 'codex-taxonomy-v1', generatedAt: now, count: 0, items: [] };
 
-const atlanta = await read(atlantaUrl);
-const atlantaKnowledge = await read(atlantaKnowledgeUrl);
-const nextAtlantaEntries = {};
-const nextAtlantaOffers = [];
-for (const offer of atlanta.offers) {
-  const key = flippKnowledgeKey(offer.originalName);
-  const existing = atlantaKnowledge.entries?.[key];
-  const classification = classifyFlippItem(offer.originalName)
-    || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup, zhExplanation: offer.zhExplanation };
-  const groupNameZh = ATLANTA_COMPARISON_GROUPS[classification.comparisonGroup]?.nameZh || null;
-  const productNameZh = englishProductNameZh(offer.originalName, classification.comparisonGroup, groupNameZh);
-  const exactDescription = specificEnglishDescription(offer.originalName);
-  const descriptionZh = sanitizeItemDescriptionZh(exactDescription
-    ? exactDescription
-    : existing?.reviewStatus === 'reviewed' && existing.descriptionZh
-    ? existing.descriptionZh
-    : `${productNameZh}。${classification.zhExplanation || offer.zhExplanation}`);
-  const entry = {
-    ...existing,
-    originalName: offer.originalName,
-    productNameZh,
-    categoryId: classification.categoryId,
-    comparisonGroup: classification.comparisonGroup,
-    descriptionZh,
-    authoredBy: 'Codex',
-    reviewStatus: 'codex_name_and_description_reviewed',
-    reviewedAt: now,
-    imageReviewed: Boolean(existing?.imageReviewed),
-    evidence: {
-      originalNameReviewed: true,
-      originalDescriptionReviewed: true,
-      imageUrl: offer.imageUrl || existing?.evidence?.imageUrl || null,
-    },
-  };
-  nextAtlantaEntries[key] = entry;
-  nextAtlantaOffers.push({
-    ...offer,
-    productNameZh,
-    categoryId: entry.categoryId,
-    comparisonGroup: entry.comparisonGroup,
-    zhExplanation: entry.descriptionZh,
-    descriptionSource: 'codex_product_knowledge',
-    descriptionAuthor: 'Codex',
-    productKnowledgeKey: key,
-  });
-}
-atlanta.offers = nextAtlantaOffers;
-atlanta.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
-atlanta.metadata.contentUpdatedAt = now;
-atlanta.metadata.contentRevision = 'codex-product-review-v3';
-atlanta.metadata.productKnowledgeUpdatedAt = now;
-atlanta.metadata.productKnowledgeEntries = Object.keys(nextAtlantaEntries).length;
-atlantaKnowledge.entries = Object.fromEntries(Object.entries(nextAtlantaEntries).sort(([a], [b]) => a.localeCompare(b)));
-atlantaKnowledge.updatedAt = now;
-atlantaKnowledge.reviewPolicy = 'Each published product has a repository-backed Chinese name and explanation reviewed from its complete English name; image review is tracked separately.';
-
 await Promise.all([
   write(aarhusUrl, aarhus), write(descriptionsUrl, descriptions), write(pendingDescriptionsUrl, pendingDescriptions),
   write(taxonomyUrl, taxonomy), write(pendingTaxonomyUrl, pendingTaxonomy),
-  write(atlantaUrl, atlanta), write(atlantaKnowledgeUrl, atlantaKnowledge),
 ]);
 
-console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} Aarhus products and ${Object.keys(nextAtlantaEntries).length} Atlanta products; no current descriptions remain on category fallbacks.`);
+console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} Aarhus products; no current descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);

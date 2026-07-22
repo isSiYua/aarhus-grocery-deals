@@ -15,6 +15,8 @@ test('published data contains no private home-base fields, secrets, or home word
 
   assert.equal(Object.hasOwn(data.metadata, 'addressLabel'), false);
   assert.equal(Object.hasOwn(atlanta.metadata, 'addressLabel'), false);
+  assert.equal(atlanta.metadata.archived, true);
+  assert.equal(atlantaKnowledge.archived, true);
   assert.doesNotMatch(JSON.stringify(atlanta), /homeBase|privateAddress|residentAddress/i);
   assert.doesNotMatch(JSON.stringify({ atlantaKnowledge, descriptionCache, descriptionPending, productTaxonomy, taxonomyPending }), /sk-[A-Za-z0-9_-]{20,}|OPENAI_API_KEY|api[_-]?key/i);
   for (const store of data.stores) {

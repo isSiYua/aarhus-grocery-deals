@@ -8,7 +8,16 @@ test('unchanged offer preserves discovery date', () => {
   const fresh = { ...old, price:20, lastSeenAt:'2026-07-18', changeType:'new' };
   const out = mergeIncrementally({ offers:[old], history:[] }, { netto:[fresh] }, { netto:'ok' }, '2026-07-18T07:00:00Z');
   assert.equal(out.offers[0].discoveredAt, '2026-07-01');
+  assert.equal(out.offers[0].lastSeenAt, '2026-07-17');
   assert.equal(out.offers[0].changeType, null);
+});
+
+test('unchanged newly discovered offer keeps its badge without rewriting confirmation timestamps', () => {
+  const previous = { ...old, changeType: 'new', priceDropAmount: null };
+  const fresh = { ...previous, lastSeenAt: '2026-07-18', changeType: 'new' };
+  const out = mergeIncrementally({ offers:[previous], history:[] }, { netto:[fresh] }, { netto:'ok' }, '2026-07-18T07:00:00Z');
+  assert.equal(out.offers[0].lastSeenAt, '2026-07-17');
+  assert.equal(out.offers[0].changeType, 'new');
 });
 
 test('price drop replaces current and archives old', () => {

@@ -266,6 +266,10 @@ a { color: inherit; }
 
 .status-banner { margin-bottom: 14px; border-radius: 16px; padding: 12px 14px; background: #fff0d8; color: #6c4516; font-size: 13px; line-height: 1.5; font-weight: 700; }
 .footer-note { color: var(--muted); font-size: 11px; line-height: 1.6; padding: 20px 2px 4px; }
+.public-trust-note { margin-top: 24px; border: 1px solid #c7b98e; border-radius: 18px; padding: 15px 16px; color: #4c4431; background: #fffaf0; box-shadow: 0 8px 22px rgba(66,53,23,.06); }
+.public-trust-note strong { display: block; color: #7d3f21; font-size: 14px; }
+.public-trust-note p { margin: 7px 0 0; font-size: 11px; line-height: 1.65; }
+.public-trust-note a { display: inline-block; margin-top: 9px; color: var(--green); font-size: 11px; font-weight: 800; }
 .shopping-hero { background: linear-gradient(135deg, #315f51, #77572c); }
 .shopping-store-section { margin-top: 18px; padding-top: 12px; border-top: 4px solid var(--store-color); }
 .shopping-store-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; margin: 0 2px 10px; }

@@ -119,10 +119,12 @@ const fruitVegetableText = data.offers.filter(offer => ['fruit','vegetables'].in
 if (/citronella|\blys\b|rosé|chokobanan|salatost|tomatkniv|majskylling|hvidløgsflutes|long ribs|tomatkonserves/i.test(fruitVegetableText)) throw new Error('Non-produce item leaked into fruit or vegetables');
 
 if (!atlanta.metadata || !atlanta.metadata.contentUpdatedAt || !Array.isArray(atlanta.offers) || !Array.isArray(atlanta.flyers) || !Array.isArray(atlanta.categories) || !atlanta.comparisonGroups) throw new Error('Invalid Atlanta data shape');
+if (atlanta.metadata.archived !== true || !atlanta.metadata.archivedAt) throw new Error('Atlanta data must remain an explicitly frozen archive');
 const atlantaStoreIds = new Set(['kroger-howell-mill', 'publix-howell-mill', 'whole-foods-midtown', 'target-midtown', 'walmart-mlk']);
 const atlantaCategoryIds = new Set(atlanta.categories.map(category => category.id));
 const atlantaIds = new Set();
 if (atlantaKnowledge.schemaVersion !== 1 || atlantaKnowledge.maintainedBy !== 'Codex' || typeof atlantaKnowledge.entries !== 'object') throw new Error('Invalid Atlanta product knowledge');
+if (atlantaKnowledge.archived !== true) throw new Error('Atlanta product knowledge must remain archived');
 const emptyGenericDescription = /^(蔬菜商品|水果商品|肉类或熟食优惠|常温食品或调料|冷冻食品或方便餐|乳制品或鸡蛋优惠|蔬菜水果类优惠|饮料优惠|鱼类或海鲜优惠|面包或烘焙食品优惠|冷冻食品优惠|主食、罐头或调味品优惠|零食或甜品优惠)/;
 for (const offer of data.offers) if (emptyGenericDescription.test(offer.zhExplanation)) throw new Error(`Generic Aarhus description is not publishable: ${offer.canonicalKey}`);
 for (const [index, offer] of atlanta.offers.entries()) {
@@ -167,4 +169,4 @@ for (const flyer of atlanta.flyers) {
   const expectedFlyerUrl = `https://flipp.com/en-us/atlanta-ga/flyer/${flyer.id}?postal_code=30318`;
   if (flyer.url !== expectedFlyerUrl) throw new Error(`Atlanta flyer directory URL is not pinned to 30318: ${flyer.storeId}`);
 }
-console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores, ${atlanta.offers.length} Atlanta offers backed by ${Object.keys(atlantaKnowledge.entries).length} reusable products, ${Object.keys(descriptionCache.entries).length} Codex descriptions, ${Object.values(productTaxonomy.entries).filter(entry => entry.reviewStatus === 'reviewed').length} Codex-reviewed taxonomies, ${taxonomyPending.count} pending taxonomy reviews, and ${Object.keys(identityHistory.products).length} stable product identities.`);
+console.log(`Validated ${data.offers.length} Aarhus offers across ${data.stores.length} stores, frozen ${atlanta.offers.length}-offer Atlanta archive, ${Object.keys(descriptionCache.entries).length} Codex descriptions, ${Object.values(productTaxonomy.entries).filter(entry => entry.reviewStatus === 'reviewed').length} Codex-reviewed taxonomies, ${taxonomyPending.count} pending taxonomy reviews, and ${Object.keys(identityHistory.products).length} stable product identities.`);

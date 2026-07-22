@@ -12,7 +12,10 @@
     "contentUpdatedAt": "2026-07-22T04:18:54.334Z",
     "productKnowledgeEntries": 261,
     "fallbackMode": "reviewed-cache-only",
-    "withheldPendingReview": 0
+    "withheldPendingReview": 0,
+    "archived": true,
+    "archivedAt": "2026-07-22T04:18:54.334Z",
+    "archiveReason": "Frozen historical easter-egg data; the public project now targets Aarhus only."
   },
   "categories": [
     {

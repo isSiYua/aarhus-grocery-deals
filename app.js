@@ -22,22 +22,24 @@ const state = {
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
 const SHOPPING_KEY = 'grocery-deals-shopping-v1';
-const LOCATIONS = [
-  {
+const ATLANTA_EASTER_EGG_ENABLED = new URLSearchParams(globalThis.location?.search || '').get('city') === 'atlanta';
+const AARHUS_LOCATION = {
     id: 'aarhus-v',
     label: 'Aarhus 全市',
     radiusLabel: 'Aarhus Kommune',
     mode: 'items',
     descriptionZh: '覆盖 Aarhus 市区与 Aarhus Kommune 有公开促销单的主要食品连锁；每天更新并按可比规格比较。',
-  },
-  {
+};
+const ATLANTA_ARCHIVE_LOCATION = {
     id: 'atlanta-westside',
-    label: 'Atlanta Westside',
+    label: 'Atlanta Westside · 历史彩蛋',
     radiusLabel: '10 km',
     mode: 'items',
-    descriptionZh: '美国商品级周促销：站内查看商品、美元价格、有效期和可追溯来源。',
-  },
-];
+    descriptionZh: '已冻结的历史数据，不再自动更新，也不属于当前 Aarhus 服务范围。',
+};
+const LOCATIONS = ATLANTA_EASTER_EGG_ENABLED
+  ? [AARHUS_LOCATION, ATLANTA_ARCHIVE_LOCATION]
+  : [AARHUS_LOCATION];
 
 const ATLANTA_STORES = [
   {
@@ -146,7 +148,6 @@ const el = (tag, attrs = {}, children = []) => {
   const node = document.createElement(tag);
   Object.entries(attrs).forEach(([key, value]) => {
     if (key === 'class') node.className = value;
-    else if (key === 'html') node.innerHTML = value;
     else if (key.startsWith('on') && typeof value === 'function') node.addEventListener(key.slice(2).toLowerCase(), value);
     else if (value !== null && value !== undefined) node.setAttribute(key, value);
   });
@@ -191,7 +192,10 @@ const activeData = () => isAarhusLocation() ? state.data : state.atlantaData;
 const activeStores = () => isAarhusLocation() ? state.data.stores : ATLANTA_STORES;
 const activeCategories = () => activeData()?.categories || (isAarhusLocation() ? state.data.categories : ATLANTA_CATEGORIES);
 const activeComparisonGroups = () => activeData()?.comparisonGroups || state.data.comparisonGroups;
-const currentOffers = () => (activeData()?.offers || []).filter(o => !['expired', 'withdrawn'].includes(o.status));
+const currentOffers = () => (activeData()?.offers || []).filter(o => (
+  !['expired', 'withdrawn'].includes(o.status)
+  && (!o.validUntil || new Date(o.validUntil) >= now())
+));
 const atlantaOffers = () => (state.atlantaData?.offers || []).filter(o => o.status !== 'expired');
 const purchasableNow = () => currentOffers().filter(o => new Date(o.validFrom) <= now() && new Date(o.validUntil) >= now());
 const upcomingOffers = () => currentOffers().filter(o => new Date(o.validFrom) > now());
@@ -842,7 +846,7 @@ function topbar() {
           disabled: refresh.status === 'checking' ? '' : null,
           onClick: refreshActiveData,
         }, '↻'),
-        el('button', { class: 'icon-btn', 'aria-label': '切换地点', onClick: () => go('locations') }, '◎'),
+        LOCATIONS.length > 1 ? el('button', { class: 'icon-btn', 'aria-label': '打开隐藏地点彩蛋', onClick: () => go('locations') }, '◎') : null,
         el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
       ]),
     ]),
@@ -1719,7 +1723,17 @@ function shoppingListView() {
 
 function footerNote() {
   const defaultText = '促销通常是连锁店级别，附近门店库存可能不同。单位价格只在规格可可靠换算时参与同类排序；会员价、多件价和限购条件会明确标注。';
-  return el('p', { class: 'footer-note' }, activeData()?.metadata?.disclaimerZh || defaultText);
+  return el('aside', { class: 'public-trust-note', 'aria-label': '公开使用与安全说明' }, [
+    el('strong', {}, '永久免费 · 不收款 · 不接受捐款'),
+    el('p', {}, '任何以“买菜口袋书”或作者名义索要转账、银行卡、验证码或捐款的行为，都不是本站行为。本站不售卖商品，也不代表任何超市、Tjek 或 eTilbudsavis。'),
+    el('p', {}, activeData()?.metadata?.disclaimerZh || defaultText),
+    el('p', {}, '价格、库存、会员条件和促销有效期最终以门店及原促销单为准。定位只在你的设备本地计算，购物清单只保存在当前浏览器。'),
+    el('a', {
+      href: 'https://github.com/isSiYua/aarhus-grocery-deals/security/policy',
+      target: '_blank',
+      rel: 'noopener noreferrer',
+    }, '查看官方安全与反冒用说明 ↗'),
+  ]);
 }
 
 function render({ preserveScroll = false } = {}) {
@@ -1757,17 +1771,21 @@ async function boot() {
   try {
     if (globalThis.__GROCERY_DATA__) {
       state.data = globalThis.__GROCERY_DATA__;
-      state.atlantaData = globalThis.__ATLANTA_DATA__ || { metadata: { stale: true, failedStores: [] }, offers: [], flyers: [] };
+      state.atlantaData = ATLANTA_EASTER_EGG_ENABLED
+        ? (globalThis.__ATLANTA_DATA__ || { metadata: { stale: true, failedStores: [] }, offers: [], flyers: [] })
+        : null;
     } else {
-      const [aarhusRes, atlantaRes] = await Promise.all([
-        fetch('data/current_offers.json', { cache: 'no-store' }),
-        fetch('data/atlanta_offers.json', { cache: 'no-store' }),
-      ]);
+      const aarhusRes = await fetch('data/current_offers.json', { cache: 'no-store' });
       if (!aarhusRes.ok) throw new Error(`Aarhus data HTTP ${aarhusRes.status}`);
       state.data = await aarhusRes.json();
-      state.atlantaData = atlantaRes.ok
-        ? await atlantaRes.json()
-        : { metadata: { stale: true, failedStores: [] }, offers: [], flyers: [] };
+      if (ATLANTA_EASTER_EGG_ENABLED) {
+        const atlantaRes = await fetch('data/atlanta_offers.json', { cache: 'no-store' });
+        state.atlantaData = atlantaRes.ok
+          ? await atlantaRes.json()
+          : { metadata: { stale: true, failedStores: [] }, offers: [], flyers: [] };
+      } else {
+        state.atlantaData = null;
+      }
     }
     const savedLocation = localStorage.getItem(LOCATION_KEY);
     state.locationId = LOCATIONS.some(location => location.id === savedLocation) ? savedLocation : LOCATIONS[0].id;
@@ -1782,7 +1800,9 @@ async function boot() {
     parseRoute();
     render();
   } catch (error) {
-    document.getElementById('app').innerHTML = `<main class="content"><div class="empty"><strong>数据加载失败</strong><br>${String(error)}</div></main>`;
+    document.getElementById('app').replaceChildren(el('main', { class: 'content' }, [
+      el('div', { class: 'empty' }, [el('strong', {}, '数据加载失败'), el('br'), String(error)]),
+    ]));
   }
   if (!globalThis.__GROCERY_DATA__ && 'serviceWorker' in navigator && location.protocol.startsWith('http')) {
     registerServiceWorker().catch(() => {});

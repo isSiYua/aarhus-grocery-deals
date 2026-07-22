@@ -273,18 +273,21 @@ const history = (await read('data/history.json'))
   .filter(record => record.categoryId !== 'excluded' && record.comparisonGroup !== 'excluded_drink');
 await write('data/history.json', history);
 
-const atlanta = await read('data/atlanta_offers.json');
-atlanta.categories = atlantaCategories;
-atlanta.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
-atlanta.offers = atlanta.offers.map(offer => refineAtlantaRecord(offer));
-atlanta.metadata.contentUpdatedAt = now;
-await write('data/atlanta_offers.json', atlanta);
+if (process.env.INCLUDE_ATLANTA_ARCHIVE === '1') {
+  const atlanta = await read('data/atlanta_offers.json');
+  atlanta.categories = atlantaCategories;
+  atlanta.comparisonGroups = ATLANTA_COMPARISON_GROUPS;
+  atlanta.offers = atlanta.offers.map(offer => refineAtlantaRecord(offer));
+  atlanta.metadata.contentUpdatedAt = now;
+  await write('data/atlanta_offers.json', atlanta);
 
-const atlantaKnowledge = await read('data/atlanta_product_knowledge_zh.json');
-for (const entry of Object.values(atlantaKnowledge.entries)) {
-  Object.assign(entry, refineAtlantaRecord(entry));
+  const atlantaKnowledge = await read('data/atlanta_product_knowledge_zh.json');
+  for (const entry of Object.values(atlantaKnowledge.entries)) {
+    Object.assign(entry, refineAtlantaRecord(entry));
+  }
+  atlantaKnowledge.updatedAt = now;
+  await write('data/atlanta_product_knowledge_zh.json', atlantaKnowledge);
+  console.log(`Split ${aarhus.offers.length} Aarhus offers and manually migrated ${atlanta.offers.length} archived Atlanta offers.`);
+} else {
+  console.log(`Split ${aarhus.offers.length} Aarhus offers into ${aarhus.categories.length} categories; archived Atlanta data was not changed.`);
 }
-atlantaKnowledge.updatedAt = now;
-await write('data/atlanta_product_knowledge_zh.json', atlantaKnowledge);
-
-console.log(`Split ${aarhus.offers.length} Aarhus offers into ${aarhus.categories.length} categories and ${atlanta.offers.length} Atlanta offers into ${atlanta.categories.length} categories.`);

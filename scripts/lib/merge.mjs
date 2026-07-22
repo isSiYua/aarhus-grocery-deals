@@ -2,6 +2,14 @@ const SIGNIFICANT_FIELDS = ['price','prePrice','packageText','unitPriceValue','v
 
 const changed = (a,b) => SIGNIFICANT_FIELDS.some(key => JSON.stringify(a?.[key] ?? null) !== JSON.stringify(b?.[key] ?? null));
 
+function preserveVerifiedLocationTimestamp(oldLocation, freshLocation) {
+  if (!oldLocation || !freshLocation) return freshLocation;
+  const stable = location => ({ ...location, verifiedAt: null });
+  return JSON.stringify(stable(oldLocation)) === JSON.stringify(stable(freshLocation))
+    ? oldLocation
+    : freshLocation;
+}
+
 export function mergeIncrementally(previous, freshByStore, storeStatuses, nowIso) {
   const previousMap = new Map((previous.offers || []).map(o => [o.canonicalKey, o]));
   const next = [];
@@ -23,9 +31,14 @@ export function mergeIncrementally(previous, freshByStore, storeStatuses, nowIso
         ...old,
         ...fresh,
         discoveredAt: old.discoveredAt || nowIso,
-        lastSeenAt: nowIso,
-        changeType: isChanged ? (Number.isFinite(old.price) && fresh.price < old.price ? 'price_drop' : 'updated') : null,
-        priceDropAmount: Number.isFinite(old.price) && fresh.price < old.price ? `${(old.price - fresh.price).toFixed(2)} DKK` : null,
+        lastSeenAt: isChanged ? nowIso : (old.lastSeenAt || old.discoveredAt || nowIso),
+        sourceLocation: preserveVerifiedLocationTimestamp(old.sourceLocation, fresh.sourceLocation),
+        changeType: isChanged
+          ? (Number.isFinite(old.price) && fresh.price < old.price ? 'price_drop' : 'updated')
+          : (old.changeType || null),
+        priceDropAmount: isChanged
+          ? (Number.isFinite(old.price) && fresh.price < old.price ? `${(old.price - fresh.price).toFixed(2)} DKK` : null)
+          : (old.priceDropAmount || null),
         status: 'active',
       });
     }

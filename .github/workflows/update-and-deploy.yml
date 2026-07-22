@@ -3,27 +3,32 @@ name: Update deals and deploy
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC. Run both possible Copenhagen 03:00 slots, then
-    # keep only the one matching the current Europe/Copenhagen UTC offset.
-    - cron: '0 1 * * *'
-    - cron: '0 2 * * *'
+    # GitHub cron uses UTC. Check shortly after Copenhagen 03:00 and 15:00;
+    # run both possible UTC slots and keep only the current DST match.
+    - cron: '17 1 * * *'
+    - cron: '17 2 * * *'
+    - cron: '17 13 * * *'
+    - cron: '17 14 * * *'
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: grocery-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     outputs:
       should_run: ${{ steps.schedule_gate.outputs.should_run }}
+      should_deploy: ${{ steps.deploy_gate.outputs.should_deploy }}
     steps:
-      - name: Select the Copenhagen 03:00 schedule
+      - name: Select the Copenhagen 03:17 or 15:17 schedule
         id: schedule_gate
         shell: bash
         run: |
@@ -34,22 +39,37 @@ jobs:
 
           copenhagen_offset="$(TZ=Europe/Copenhagen date +%z)"
           scheduled_cron="${{ github.event.schedule }}"
-          if [[ "$copenhagen_offset" == "+0200" && "$scheduled_cron" == "0 1 * * *" ]] || \
-             [[ "$copenhagen_offset" == "+0100" && "$scheduled_cron" == "0 2 * * *" ]]; then
+          if [[ "$copenhagen_offset" == "+0200" && ( "$scheduled_cron" == "17 1 * * *" || "$scheduled_cron" == "17 13 * * *" ) ]] || \
+             [[ "$copenhagen_offset" == "+0100" && ( "$scheduled_cron" == "17 2 * * *" || "$scheduled_cron" == "17 14 * * *" ) ]]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           else
             echo "should_run=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - uses: actions/checkout@v4
+      # v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         if: steps.schedule_gate.outputs.should_run == 'true'
-      - uses: actions/setup-node@v4
+      # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         if: steps.schedule_gate.outputs.should_run == 'true'
         with:
-          node-version: 20
-      - name: Refresh Aarhus and Atlanta offers
+          node-version: 24
+      - name: Refresh Aarhus offers from the public flyer feed
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm run update:fallback
+      - name: Detect material data changes
+        id: data_changes
+        if: steps.schedule_gate.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- data/*.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Report current coverage and review queue
+        if: steps.schedule_gate.outputs.should_run == 'true'
+        run: node scripts/report-update-status.mjs
       - name: Run regression tests
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm test
@@ -59,34 +79,47 @@ jobs:
       - name: Validate refreshed data
         if: steps.schedule_gate.outputs.should_run == 'true'
         run: npm run validate
-      - name: Preserve refreshed data for the next fallback run
-        if: steps.schedule_gate.outputs.should_run == 'true'
+      - name: Preserve changed Aarhus data for the next fallback run
+        if: steps.schedule_gate.outputs.should_run == 'true' && steps.data_changes.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/*.json
-          if git diff --cached --quiet; then
-            echo "No data-file changes to commit."
+          git commit -m "chore: refresh Aarhus grocery deals"
+          git push
+      - name: Decide whether Pages needs a new deployment
+        id: deploy_gate
+        if: steps.schedule_gate.outputs.should_run == 'true'
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" != "schedule" || "${{ steps.data_changes.outputs.changed }}" == "true" ]]; then
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore: refresh grocery deals"
-            git push
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/configure-pages@v5
-        if: steps.schedule_gate.outputs.should_run == 'true'
-      - uses: actions/upload-pages-artifact@v3
-        if: steps.schedule_gate.outputs.should_run == 'true'
+      # v5
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
+        if: steps.deploy_gate.outputs.should_deploy == 'true'
+      # v3
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        if: steps.deploy_gate.outputs.should_deploy == 'true'
         with:
           path: .
 
   deploy:
     needs: update
-    if: needs.update.outputs.should_run == 'true'
+    if: needs.update.outputs.should_deploy == 'true'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        # v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e

@@ -251,6 +251,8 @@ const previous = await loadJson(dataPath, { metadata:{}, stores:[], categories:[
 const descriptionCache = await loadDescriptionCache(descriptionCachePath);
 const productTaxonomy = await loadProductTaxonomy(taxonomyPath);
 const previousHistory = await loadJson(historyPath, []);
+const previousDescriptionPending = await loadJson(descriptionPendingPath, null);
+const previousTaxonomyPending = await loadJson(taxonomyPendingPath, null);
 previous.history = previousHistory;
 let dealers = [];
 let directoryError = null;
@@ -304,6 +306,13 @@ const failedStores = Object.entries(storeStatuses).filter(([,s]) => s === 'faile
 const anySuccessfulStore = Object.values(storeStatuses).some(status => status === 'ok');
 const previousForOutput = { ...previous };
 delete previousForOutput.history;
+const sortedOffers = [...result.offers].sort((a, b) => (
+  String(a.storeId).localeCompare(String(b.storeId))
+  || String(a.categoryId).localeCompare(String(b.categoryId))
+  || String(a.comparisonGroup).localeCompare(String(b.comparisonGroup))
+  || String(a.originalName).localeCompare(String(b.originalName), 'da')
+  || String(a.canonicalKey).localeCompare(String(b.canonicalKey))
+));
 const next = {
   ...previousForOutput,
   stores: aarhusStores.map(store => ({
@@ -316,20 +325,46 @@ const next = {
   metadata: {
     ...previous.metadata,
     mode: anySuccessfulStore ? 'live' : (previous.metadata.mode || 'demo'),
-    updatedAt: nowIso,
-    contentUpdatedAt: nowIso,
     stale: failedStores.length > 0,
     failedStores,
     source: 'Tjek / eTilbudsavis public offer feed',
     coverageScope: 'Major Aarhus city and Aarhus Kommune grocery chains; structured comparison only for verifiable public flyer feeds',
     chainLevelOffers: true,
   },
-  offers: result.offers,
+  offers: sortedOffers,
 };
+
+const stableOffer = offer => {
+  const { lastSeenAt, ...rest } = offer;
+  return {
+    ...rest,
+    sourceLocation: rest.sourceLocation ? { ...rest.sourceLocation, verifiedAt: null } : rest.sourceLocation,
+  };
+};
+const publishState = value => ({
+  stores: value.stores,
+  categories: value.categories,
+  comparisonGroups: value.comparisonGroups,
+  mode: value.metadata?.mode || null,
+  stale: Boolean(value.metadata?.stale),
+  failedStores: value.metadata?.failedStores || [],
+  offers: [...(value.offers || [])].map(stableOffer).sort((a, b) => String(a.canonicalKey).localeCompare(String(b.canonicalKey))),
+});
+const publishedChanged = JSON.stringify(publishState(previous)) !== JSON.stringify(publishState(next));
+next.metadata.updatedAt = publishedChanged ? nowIso : (previous.metadata.updatedAt || nowIso);
+next.metadata.contentUpdatedAt = previous.metadata.contentUpdatedAt || next.metadata.updatedAt;
 await fs.writeFile(dataPath, JSON.stringify(next, null, 2) + '\n');
 await fs.writeFile(historyPath, JSON.stringify(result.history, null, 2) + '\n');
-const pendingDescriptions = collectPendingDescriptions(next.offers, descriptionCache, nowIso);
+const generatedPendingDescriptions = collectPendingDescriptions(next.offers, descriptionCache, nowIso);
+const pendingDescriptions = previousDescriptionPending
+  && JSON.stringify(previousDescriptionPending.items) === JSON.stringify(generatedPendingDescriptions.items)
+  ? previousDescriptionPending
+  : generatedPendingDescriptions;
 await fs.writeFile(descriptionPendingPath, JSON.stringify(pendingDescriptions, null, 2) + '\n');
-const pendingTaxonomy = collectPendingTaxonomy(next.offers, productTaxonomy, nowIso);
+const generatedPendingTaxonomy = collectPendingTaxonomy(next.offers, productTaxonomy, nowIso);
+const pendingTaxonomy = previousTaxonomyPending
+  && JSON.stringify(previousTaxonomyPending.items) === JSON.stringify(generatedPendingTaxonomy.items)
+  ? previousTaxonomyPending
+  : generatedPendingTaxonomy;
 await fs.writeFile(taxonomyPendingPath, JSON.stringify(pendingTaxonomy, null, 2) + '\n');
 console.log(`Saved ${next.offers.length} current offers; ${result.history.length} archived records; ${pendingDescriptions.count} descriptions and ${pendingTaxonomy.count} taxonomy entries pending Codex review.`);

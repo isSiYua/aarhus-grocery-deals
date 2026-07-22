@@ -2,6 +2,8 @@
   "schemaVersion": 1,
   "maintainedBy": "Codex",
   "updatedAt": "2026-07-22T04:18:54.334Z",
+  "archived": true,
+  "archiveReason": "Frozen historical Atlanta product knowledge; retained for reference and no longer refreshed automatically.",
   "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack michelob ultra beer": {
