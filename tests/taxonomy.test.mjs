@@ -134,6 +134,12 @@ test('handles newly reviewed Wolt and mixed-choice product identities before ing
   assert.deepEqual(classifyOffer({ heading: 'Dansk kalve flanksteak', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_beef_mixed_offer' });
   assert.deepEqual(classifyOffer({ heading: 'Danske svinekoteletter', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_pork_mixed_offer' });
   assert.deepEqual(classifyOffer({ heading: 'SAGRA/BUTCHERS Butterfly- eller yellow poussin', description: 'Marineret eller frilands' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_poultry_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Pakkemarked - lige klar til grillen' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_mixed_meat' });
+  assert.deepEqual(classifyOffer({ heading: 'SOL&MAR Blæksprutteringe eller chorizo-kroketter' }), { categoryId: 'frozen_ready', comparisonGroup: 'mixed_grocery_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'MADVÆRKET Kyllingebrystfilet eller -lårmix', description: 'Med BBQ' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_poultry_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'MCENNEDY Spareribs', description: 'Hot eller BBQ' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_pork_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Godt papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Lambi Classic papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
   assert.equal(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), null);
 });
 

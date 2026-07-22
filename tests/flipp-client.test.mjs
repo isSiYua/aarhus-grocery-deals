@@ -10,6 +10,7 @@ import {
   ATLANTA_COMPARISON_GROUPS,
   normalizeFlippItems,
 } from '../scripts/lib/flipp-client.mjs';
+import { englishProductNameZh, specificEnglishDescription } from '../scripts/lib/product-name-zh.mjs';
 
 test('builds a location-pinned Atlanta flyer URL that cannot fall back to Aarhus', () => {
   assert.equal(
@@ -102,6 +103,7 @@ test('automatically separates Atlanta mince, yoghurt, and cheese forms', () => {
       ['Sargento Cheese Slices', 'cheese_sliced'],
       ['Kraft Shredded Cheese', 'cheese_grated'],
       ['Frigo Cheese Sticks', 'cheese_portioned'],
+      ['Philadelphia Cream Cheese Spread', 'cheese_spreadable'],
       ['Publix Cheddar Cheese', 'cheese_table'],
       ['Publix Breaded Mozzarella Cheese Sticks', 'cheese_prepared'],
     ].map(([name, comparisonGroup]) => {
@@ -112,10 +114,37 @@ test('automatically separates Atlanta mince, yoghurt, and cheese forms', () => {
       ['cheese', 'cheese_sliced'],
       ['cheese', 'cheese_grated'],
       ['cheese', 'cheese_portioned'],
+      ['cheese', 'cheese_spreadable'],
       ['cheese', 'cheese_table'],
       ['cheese', 'cheese_prepared'],
     ],
   );
+  assert.deepEqual(classifyFlippItem('Cheez-It Original Cheese Crackers'), {
+    categoryId: 'snacks',
+    comparisonGroup: 'snacks_savory',
+    zhExplanation: classifyFlippItem('Cheez-It Original Cheese Crackers').zhExplanation,
+    evidenceBasis: 'original_name',
+  });
+  assert.equal(
+    englishProductNameZh('Cheez-It Original Cheese Crackers', 'snacks_savory'),
+    'Cheez-It 奶酪味咸饼干',
+  );
+  assert.match(specificEnglishDescription('Cheez-It Original Cheese Crackers'), /商品主体是脆饼/);
+  assert.equal(
+    englishProductNameZh('Philadelphia Cream Cheese Spread', 'cheese_spreadable'),
+    '奶油奶酪抹酱',
+  );
+  assert.match(specificEnglishDescription('Philadelphia Cream Cheese Spread'), /冷藏奶油奶酪抹酱/);
+  for (const [name, titleZh] of [
+    ['Publix Original Popcorn Chicken', '爆米花鸡块'],
+    ['Perdue Simply Smart Breaded Chicken Breast', '裹粉鸡胸肉'],
+  ]) {
+    const result = classifyFlippItem(name);
+    assert.equal(result.categoryId, 'prepared_meat', name);
+    assert.equal(result.comparisonGroup, 'meat_breaded_chicken', name);
+    assert.equal(englishProductNameZh(name, result.comparisonGroup), titleZh, name);
+    assert.match(specificEnglishDescription(name), /不是.*生鲜鸡/, name);
+  }
 });
 
 test('Atlanta keeps turkey, pork deli, sausage, and prepared chicken in separate price pools', () => {

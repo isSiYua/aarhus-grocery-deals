@@ -97,7 +97,12 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
   if (/wienerstang|kanelstang/.test(name)) return 'biscuits';
   if (/fransk hotdog/.test(name)) return 'ready_meal';
   if (/ribena|solbaer.*(?:saft|drik)|(?:saft|drik).*solbaer/.test(name)) return 'excluded_drink';
-  if (/nektarin.*fersken.*blomme.*abrikos/.test(name)) return 'mixed_fruit';
+  if (/nektarin.*fersken.*blomme.*abrikos/.test(name)) return 'mixed_stone_fruit';
+  if (/sol mar.*blaeksprutte.*chorizo/.test(name)) return 'mixed_grocery_offer';
+  if (/pakkemarked.*klar til grillen/.test(name)) return 'prepared_mixed_meat';
+  if (/madvaerket.*kyllingebrystfilet.*laarmix/.test(name)) return 'prepared_poultry_mixed_offer';
+  if (/mcennedy.*spareribs/.test(name)) return 'prepared_pork_mixed_offer';
+  if (/godt papir|lambi classic papir/.test(name)) return 'paper_mixed_offer';
   if (/taga.*bacondadler.*fuet|bacondadler.*fuet/.test(name)) return 'prepared_mixed_meat';
   if (/(?:postej|leverpostej).*(?:eller).*medister|medister.*(?:eller).*(?:postej|leverpostej)/.test(name)) return 'prepared_mixed_meat';
   if (/salatbowls|hvidkaalssalat/.test(name)) return 'prepared_salad';
@@ -655,7 +660,10 @@ const HEADING_RULES = [
 // not fresh tomatoes. These rules intentionally run before the produce rules.
 const PRODUCT_FORM_RULES = [
   ['prepared_meat', 'prepared_mixed_meat', /filet ala morbrad.*polser/],
-  ['prepared_meat', 'pork_mixed_offer', /koteletter.*grillsticks.*grillpolser/],
+  ['prepared_meat', 'prepared_pork_mixed_offer', /koteletter.*grillsticks.*grillpolser/],
+  ['prepared_meat', 'prepared_mixed_meat', /pakkemarked.*klar til grillen/],
+  ['prepared_meat', 'prepared_poultry_mixed_offer', /madvaerket.*kyllingebrystfilet.*laarmix/],
+  ['prepared_meat', 'prepared_pork_mixed_offer', /mcennedy.*spareribs/],
   ['pantry', 'mixed_grocery_offer', /mutti.*tomater.*pizzasauce/],
   ['fruit', 'mixed_stone_fruit', /nektariner.*ferskner.*blommer.*abrikoser/],
   ['beef', 'prepared_lamb_marinated', /marinerede.*(?:lam|lamm)|(?:lam|lamm).*marinerede/],
@@ -732,7 +740,8 @@ const PRODUCT_FORM_RULES = [
   ['vegetables', 'potato_salad', /kartoffelsalat/],
   ['frozen_ready', 'potato_sides', /pommes frites|kartoffelbaade|kartoffelkroket|kartoffelgratin|flodekartof|kartoffelrosti|peka kartof/],
   ['pantry', 'mixed_grocery_offer', /tun.*(?:majs|tomater|pizzasauce)|(?:majs|tomater|pizzasauce).*tun/],
-  ['seafood', 'seafood_mixed_offer', /laks.*(?:rejer|orred|krebsehaler|havtaske|fiskesalat)|(?:rejer|orred|krebsehaler|havtaske|fiskesalat).*laks|(?:rejer|vannamei|gambas).*(?:tun|fiskepinde|seafood)|(?:tun|fiskepinde|seafood).*(?:rejer|vannamei|gambas)|blaeksprutte.*chorizo/],
+  ['frozen_ready', 'mixed_grocery_offer', /blaeksprutte.*chorizo/],
+  ['seafood', 'seafood_mixed_offer', /laks.*(?:rejer|orred|krebsehaler|havtaske|fiskesalat)|(?:rejer|orred|krebsehaler|havtaske|fiskesalat).*laks|(?:rejer|vannamei|gambas).*(?:tun|fiskepinde|seafood)|(?:tun|fiskepinde|seafood).*(?:rejer|vannamei|gambas)/],
   ['seafood', 'salmon_smoked', /(?:koldroget|varmroget|roget|gravad).*laks|laks.*(?:koldroget|varmroget|roget|gravad)/],
   ['seafood', 'salmon_fresh', /laks|salmon/],
   ['seafood', 'shrimp', /rejer|shrimp|prawns|vannamei|gambas/],

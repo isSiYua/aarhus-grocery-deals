@@ -81,6 +81,7 @@ const PRODUCT_RULES = [
   ['pantry', /\bpork and beans\b/i, '美式番茄酱汁猪肉焗豆罐头，主要是熟豆类，带少量猪肉调味；可加热配面包、米饭或烧烤，不是生猪肉。'],
   ['pantry', /\b(mac\s*(?:&|and)\s*cheese|macaroni.*cheese)\b/i, '芝士通心粉，是常温盒装主食，煮熟面后拌入芝士酱；类似奶酪味方便意面。'],
   ['snacks', /\b(rice krispies treats?|cookie pudding)\b/i, '甜味谷物棒或布丁类零食，可直接食用；虽然名称含米、花生酱或饼干，但不是大米或早餐抹酱。'],
+  ['snacks', /\b(cheez-it|cheese crackers?)\b/i, '奶酪风味咸饼干，开袋即食；名称虽然含 cheese，但主体是烘烤脆饼，不是奶酪块或奶酪棒。'],
   ['pantry', /\b(peanut butter|grape (?:jam|jelly)|jam|jelly)\b/i, '花生酱或果酱，可抹面包、搭配早餐或用于烘焙；这是常温抹酱，不是新鲜水果或乳制品。'],
   ['snacks', /\b(fruit\s*(?:&|and)\s*nut bar|protein bar)\b/i, '水果坚果棒或蛋白棒，开袋即食，适合随身加餐；比较时看净重、蛋白质与含糖量。'],
   ['drinks', /\b(capri[ -]?sun|juice drink blend|fruit punch)\b/i, '果汁风味饮料，通常为便携小袋装，可冷藏后直接饮用；不是新鲜水果，应查看果汁含量和添加糖。'],
@@ -101,10 +102,10 @@ const PRODUCT_RULES = [
   ['meat', /\bground (?:beef|chuck)\b|\bbeef burgers?\b/i, '牛肉末或牛肉汉堡饼，可做肉酱、肉丸、汉堡或炒饭；脂肪比例越高通常越多汁。'],
   ['meat', /\b(steak|ribeye|sirloin)\b/i, '牛排，适合平底锅煎或烧烤；嫩度和所需火候取决于具体部位与厚度。'],
   ['meat', /\b(beef brisket|beef roast|chuck roast|round roast|roast beef)\b/i, '整块烤牛肉或牛腩类，适合慢烤、炖煮或切片；具体嫩度取决于部位。'],
+  ['meat', /\b(breaded chicken|popcorn chicken|fried chicken|oven-roasted chicken|chicken tender|chicken bites?)\b/i, '已裹粉、调味或熟制的鸡肉，可按包装说明用烤箱或空气炸锅复热；不是未经处理的生鲜鸡胸或鸡腿。'],
   ['meat', /\b(chicken breast|chicken cutlets?|chicken tenderloins?|ground chicken)\b/i, '鸡胸肉、鸡里脊或鸡肉末，脂肪较少，适合快炒、煎烤、咖喱或做肉丸。'],
   ['meat', /\b(chicken drumsticks?|chicken thighs?)\b/i, '鸡腿或带骨鸡大腿，肉汁较多，适合红烧、炖煮、烧烤或空气炸。'],
   ['meat', /\bwhole young chicken\b/i, '整只嫩鸡，可烤、炖汤、白切或拆分烹调；比较时应结合整鸡重量。'],
-  ['meat', /\b(fried chicken|oven-roasted chicken|chicken tender|chicken bites?)\b/i, '已调味或熟制鸡肉，可直接吃或复热；按原名确认是炸鸡、烤鸡、鸡柳还是鸡肉小食。'],
   ['meat', /\b(pork loin|ground pork|pulled pork|pork meatballs?)\b/i, '猪里脊、猪肉末或熟制手撕猪肉；可煎炒、做肉丸或复热夹面包，具体做法按产品形态选择。'],
   ['meat', /\b(sausage|bacon|pepperoni|ham|turkey breast|meat sticks?)\b/i, '香肠、培根、火腿或肉类熟食，通常已调味且盐分较高，可煎烤、夹面包或作披萨配料。'],
   ['meat', /\blamb\b/i, '羊排或羊肩肉，适合煎烤或慢炖；风味比牛猪肉更明显。'],
@@ -188,7 +189,7 @@ export const ATLANTA_COMPARISON_GROUPS = {
   seafood_salmon: atlantaGroup('三文鱼'), seafood_salmon_burgers: atlantaGroup('三文鱼汉堡饼'), seafood_shrimp: atlantaGroup('虾'),
   seafood_tuna_fresh: atlantaGroup('金枪鱼排'), seafood_mixed_fish_steaks: atlantaGroup('金枪鱼或剑鱼排任选', '鱼种不同，不计算单一鱼种最低价。', false), seafood_tuna_canned: atlantaGroup('金枪鱼罐头'), seafood_other: atlantaGroup('其他海鲜', '品种不同，不计算全局最低价。', false),
   dairy_yogurt: atlantaGroup('酸奶'), dairy_cheese: atlantaGroup('奶酪'), dairy_prepared_cheese: atlantaGroup('裹粉奶酪小食'), dairy_eggs: atlantaGroup('鸡蛋'), dairy_other: atlantaGroup('其他乳制品', '品种不同，不计算全局最低价。', false),
-  cheese_sliced: atlantaGroup('切片奶酪'), cheese_grated: atlantaGroup('刨丝奶酪'), cheese_portioned: atlantaGroup('奶酪棒与分装奶酪'),
+  cheese_sliced: atlantaGroup('切片奶酪'), cheese_grated: atlantaGroup('刨丝奶酪'), cheese_portioned: atlantaGroup('奶酪棒与分装奶酪'), cheese_spreadable: atlantaGroup('奶油奶酪与涂抹奶酪'),
   cheese_prepared: atlantaGroup('裹粉奶酪小食', '加工形态不同，不与普通奶酪直接比较。', false), cheese_table: atlantaGroup('块状与餐桌奶酪', '具体品种不同，按原名和净重参考。', false),
   bakery_bread: atlantaGroup('面包'), bakery_cake: atlantaGroup('蛋糕与甜点'), bakery_pie: atlantaGroup('派'), bakery_cookies: atlantaGroup('饼干'),
   bakery_croissants: atlantaGroup('可颂'), bakery_other: atlantaGroup('其他烘焙', '品种不同，不计算全局最低价。', false),
@@ -225,7 +226,7 @@ function atlantaComparisonGroup(name, categoryId) {
     meat: [
       ['meat_beef_burgers', /beef burgers?|slider burgers?/], ['meat_ground_beef', /ground (?:beef|chuck)/], ['meat_beef_ribeye', /ribeye/], ['meat_beef_sirloin', /sirloin/], ['meat_beef_steak', /steak/],
       ['meat_beef_roast', /brisket|beef roast|chuck roast|round roast|roast beef/],
-      ['meat_chicken_sandwich', /chicken.*(?:wrap|sub)|(?:wrap|sub).*chicken/], ['meat_breaded_chicken', /parmesan chicken|chicken bites?/], ['meat_prepared_chicken', /fried chicken|oven-roasted chicken/],
+      ['meat_chicken_sandwich', /chicken.*(?:wrap|sub)|(?:wrap|sub).*chicken/], ['meat_breaded_chicken', /parmesan chicken|breaded chicken|popcorn chicken|chicken bites?/], ['meat_prepared_chicken', /fried chicken|oven-roasted chicken/],
       ['meat_ground_chicken', /ground chicken/], ['meat_chicken_breast', /chicken breast|chicken cutlets?|chicken tenderloins?/],
       ['meat_chicken_thigh', /chicken drumsticks?|chicken thighs?/], ['meat_whole_chicken', /whole young chicken/],
       ['meat_turkey_bacon', /turkey bacon/], ['meat_pork_bacon', /bacon/], ['meat_ground_pork', /ground pork/], ['meat_pork_tenderloin', /pork loin tenderloin/], ['meat_pork_chops', /pork loin chops?/], ['meat_pork_meatballs', /pork meatballs?/], ['meat_pulled_pork', /pulled pork/],
@@ -303,6 +304,7 @@ export function refineAtlantaComparisonGroup(comparisonGroup, originalName = '')
   if (comparisonGroup !== 'dairy_cheese') return comparisonGroup;
   if (/shredded|grated/.test(name)) return 'cheese_grated';
   if (/slices?/.test(name)) return 'cheese_sliced';
+  if (/cream cheese|spread/.test(name)) return 'cheese_spreadable';
   if (/sticks?|snack/.test(name)) return 'cheese_portioned';
   return 'cheese_table';
 }

@@ -2,6 +2,117 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
   "entries": {
+    "cloetta bars": {
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "productNameZh": "Cloetta 夹心巧克力棒或巧克力威化棒任选",
+      "descriptionZh": "Cloetta 单人装甜食棒任选，图片包括 Plopp 夹心牛奶巧克力、Center 焦糖或太妃糖夹心巧克力，以及 Kex 巧克力威化棒，规格为 60–80 克。开袋即食；夹心巧克力与威化棒形态不同，应按实际口味和包装选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "coop proteinshake": {
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "productNameZh": "Coop 高蛋白奶昔",
+      "descriptionZh": "Coop 即饮高蛋白乳饮料，每瓶 500 克并标注含 50 克蛋白质，可选咸焦糖、巧克力、香草或香草柠檬等口味。冷藏后直接饮用；它是调味蛋白奶昔，不是普通鲜牛奶。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "dansk flaeskesteg": {
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "productNameZh": "丹麦带皮烤猪肉块",
+      "descriptionZh": "丹麦生鲜带皮猪肉烤肉块，猪皮已经划刀并整理成可进烤箱的形态。需要彻底烤熟，可做丹麦常见的脆皮烤猪肉 flæskesteg；这是未熟的整块猪肉，不是熟食肉片。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "filet ala morbrad el polser": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Theilgaard 腌制猪里脊风味肉或多款香肠任选",
+      "descriptionZh": "Theilgaard 多品项任选，包括 gyros 或蒜味、Puszta 风味的腌制猪里脊形态肉，以及普通或芝士培根法兰克福肠、Ringrider 或 gourmet 香肠。肉块与香肠的形态、配料和用途不同，应按实际选项选择。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "godt papir": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "productNameZh": "Godt 卫生纸或厨房纸任选",
+      "descriptionZh": "Godt 生活纸品任选，每包可选 6 卷卫生纸或 3 卷厨房纸。卫生纸用于如厕，厨房纸用于吸油、吸水和擦拭；两种纸品的用途、卷数和每卷规格不同。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "heinz tomat ketchup eller sauce": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "productNameZh": "Heinz 番茄酱、蛋黄酱或调味酱任选",
+      "descriptionZh": "Heinz 多款酱料任选，图片包括番茄酱、汉堡酱、薯条酱、蛋黄酱和辣味烤肉酱，规格为 395–570 克或 220 毫升。可配薯条、汉堡、热狗或烤肉；具体用途和计量单位因酱料而异。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "koteletter grillsticks eller grillpolser": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
+      "productNameZh": "MADVÆRKET 调味猪排、烧烤肉条或烧烤肠任选",
+      "descriptionZh": "MADVÆRKET 烧烤肉品任选，可选 BBQ 或 Smokey BBQ 猪排、调味烧烤肉条，以及 salsiccia 或培根芝士烧烤肠，规格为 300–360 克。各选项的部位、是否成型和香肠配料不同。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "lambi classic papir": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "productNameZh": "Lambi Classic 卫生纸或厨房纸任选",
+      "descriptionZh": "Lambi Classic 生活纸品任选，可选 8 卷卫生纸或 4 卷厨房纸。两者的用途、卷数、层数和每卷张数不同，应按实际包装选择。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "madvaerket kyllingebrystfilet eller laarmix": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_poultry_mixed_offer",
+      "productNameZh": "MADVÆRKET BBQ 鸡胸肉或鸡腿肉混合装任选",
+      "descriptionZh": "已经带 BBQ 调味的鸡肉，可选鸡胸肉片或鸡腿肉混合装，规格为 325–800 克。两种部位的骨肉比例、口感和烹调时间不同，适合煎烤或烧烤；它们都不是未调味的生鸡肉。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "mcennedy spareribs": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_mixed_offer",
+      "productNameZh": "MCENNEDY 辣味或 BBQ 调味猪肋排",
+      "descriptionZh": "MCENNEDY 调味猪肋排，可选 Hot 辣味或 BBQ 烧烤味。适合按包装说明用烤箱、空气炸锅或烧烤架充分加热；它已经带明确调味，不是未调味生鲜猪肋排。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "omhu culotte af frilandslammekod": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "OMHU 散养羊臀尖肉原味或蒜香迷迭香腌制款",
+      "descriptionZh": "OMHU 散养羊肉 culotte，也就是适合整块煎烤的羊臀尖肉，规格约 290–300 克，可选原味或蒜香迷迭香腌制款。两种准备状态不同，均需彻底加热并按对应口味烹调。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "pakkemarked lige klar til grillen": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Coop 多款即烤腌制肉品任选",
+      "descriptionZh": "Coop 烧烤肉品任选，包括 BBQ 红椒猪排、腌制羊臀尖、猪肉烧烤串、腌制鸡腿、Firepit 猪肋排、牛猪混合 cevapcici、带蔬菜肉串和牛猪混合汉堡饼，单包 200–800 克。各选项的肉种、部位、可食比例和成型方式差异很大。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "quickbury buns fastfood brod": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "QUICKBURY 热狗面包或汉堡面包任选",
+      "descriptionZh": "QUICKBURY 快餐面包任选，可选 Hot Dog Buns 热狗面包、Hamburger Buns 汉堡面包或更大的 Mega Burger Buns，规格为 250–300 克。可直接夹香肠或汉堡饼，也可稍微烘热；形状和单个大小不同。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "sol mar blaeksprutteringe eller chorizo kroketter": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "mixed_grocery_offer",
+      "productNameZh": "SOL&MAR 裹粉鱿鱼圈或 Chorizo 辣肠可乐饼任选",
+      "descriptionZh": "SOL&MAR 冷冻西班牙风味点心任选，可选裹浆鱿鱼圈，或以 Chorizo 辣味香肠为馅的可乐饼，每包 500 克。通常用油炸、烤箱或空气炸锅加热；一个是海鲜、一个是肉馅点心。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "sol mar chorizo grillpolser": {
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "productNameZh": "SOL&MAR 西班牙 Chorizo 烧烤香肠",
+      "descriptionZh": "SOL&MAR 西班牙风味 Chorizo 烧烤香肠，包装标注为 Cooking Chorizo，每包 300 克。带红椒和烟熏辛香味，需要煎、烤或烧烤至充分熟透，可配面包、米饭或炖菜。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v4"
+    },
     "sol mar kyllingevinger": {
       "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_chicken_wings_seasoned",
@@ -78,9 +189,10 @@
     },
     "nektariner ferskner blommer eller abrikoser": {
       "categoryId": "fruit",
-      "comparisonGroup": "mixed_fruit",
-      "productNameZh": "油桃、桃、李子或杏任选",
-      "descriptionZh": "油桃、桃子、李子或杏四种核果任选。品种、果核比例和大小不同。",
+      "comparisonGroup": "mixed_stone_fruit",
+      "productNameZh": "Salling Princip 油桃、桃、李子或杏任选",
+      "descriptionZh": "Salling Princip 进口核果任选，可选油桃、桃子、李子或杏，每包 6–8 个。四种水果的大小、果核比例、成熟度和口感不同，应按实际品种选择。",
+      "imageReviewed": true,
       "descriptionSpecVersion": "zh-product-v4"
     },
     "taga bacondadler fuet snack sticks eller skiver": {

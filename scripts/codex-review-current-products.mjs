@@ -61,7 +61,7 @@ for (const offer of aarhus.offers) {
       evidence: {
         originalNameReviewed: true,
         originalDescriptionReviewed: true,
-        offerImageReviewed: Boolean(previous?.evidence?.offerImageReviewed),
+        offerImageReviewed: Boolean(override?.imageReviewed || previous?.evidence?.offerImageReviewed),
         imageUrl: offer.imageUrl || previous?.evidence?.imageUrl || null,
       },
     };

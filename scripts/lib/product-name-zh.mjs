@@ -520,11 +520,11 @@ export function specificDanishDescription(originalName) {
 const ENGLISH_TITLES = [
   title(/russet potatoes?/, 'Russet 褐皮土豆'), title(/sweet potatoes?.*butter/, '黄油调味红薯配菜'), title(/potatoes?/, '新鲜土豆'),
   title(/peaches?.*nectarines?|nectarines?.*peaches?/, '桃或油桃'), title(/plums?/, '李子'), title(/strawberries?/, '草莓'), title(/blueberries?/, '蓝莓'), title(/watermelon/, '西瓜'), title(/avocados?/, '牛油果'), title(/bananas?/, '香蕉'), title(/\bapples?\b/, '苹果'), title(/grapes?/, '葡萄'),
-  title(/whole young chicken/, '整只嫩鸡'), title(/chicken.*(?:sub|wrap)|(?:sub|wrap).*chicken/, '鸡肉三明治或卷饼'), title(/parmesan chicken|chicken bites?/, '帕玛森裹粉鸡肉'), title(/chicken breasts?|chicken cutlets?/, '鸡胸肉'), title(/chicken thighs?|drumsticks?/, '鸡腿肉'), title(/ground chicken/, '鸡肉末'), title(/fried chicken|chicken tenders?/, '熟制或裹粉鸡肉'),
+  title(/whole young chicken/, '整只嫩鸡'), title(/chicken.*(?:sub|wrap)|(?:sub|wrap).*chicken/, '鸡肉三明治或卷饼'), title(/popcorn chicken/, '爆米花鸡块'), title(/breaded chicken breasts?/, '裹粉鸡胸肉'), title(/parmesan chicken|chicken bites?/, '帕玛森裹粉鸡肉'), title(/chicken breasts?|chicken cutlets?/, '鸡胸肉'), title(/chicken thighs?|drumsticks?/, '鸡腿肉'), title(/ground chicken/, '鸡肉末'), title(/fried chicken|chicken tenders?/, '熟制或裹粉鸡肉'),
   title(/ground beef|ground chuck/, '牛肉末'), title(/beef burgers?/, '牛肉汉堡饼'), title(/ribeye|sirloin|steak/, '牛排'), title(/beef roast|chuck roast|brisket/, '整块烤牛肉'),
   title(/ground pork/, '猪肉末'), title(/pork tenderloin/, '猪里脊'), title(/pork chops?/, '猪排'), title(/pork meatballs?/, '猪肉丸'), title(/pulled pork/, '手撕猪肉'), title(/turkey bacon/, '火鸡培根'), title(/turkey breast/, '烤火鸡胸冷切'), title(/pepperoni/, '意式辣香肠片'), title(/black forest ham|\bham\b/, '火腿冷切'), title(/meat sticks?/, '肉条零食'), title(/sausage/, '香肠'), title(/bacon/, '猪肉培根'),
   title(/salmon burgers?/, '三文鱼汉堡饼'), title(/salmon|sockeye/, '三文鱼'), title(/shrimp|prawns?/, '虾'), title(/tuna.*canned|canned tuna/, '金枪鱼罐头'), title(/tuna|swordfish/, '金枪鱼或剑鱼排'),
-  title(/greek yogurt/, '希腊酸奶'), title(/yogurt|yoghurt/, '酸奶'), title(/mozzarella/, '马苏里拉奶酪'), title(/cheddar/, '切达奶酪'), title(/cheese/, '奶酪'), title(/eggs?/, '鸡蛋'),
+  title(/greek yogurt/, '希腊酸奶'), title(/yogurt|yoghurt/, '酸奶'), title(/cheez-it|cheese crackers?/, 'Cheez-It 奶酪味咸饼干'), title(/cream cheese spread/, '奶油奶酪抹酱'), title(/mozzarella/, '马苏里拉奶酪'), title(/cheddar/, '切达奶酪'), title(/cheese/, '奶酪'), title(/eggs?/, '鸡蛋'),
   title(/croissants?/, '可颂'), title(/bagels?/, '贝果'), title(/bread/, '面包'), title(/cookies?/, '饼干'), title(/cake/, '蛋糕'), title(/pie/, '派'),
   title(/ice cream/, '冰淇淋'), title(/pizza/, '冷冻披萨'), title(/egg rolls?|dumplings?/, '冷冻春卷或饺子'),
   title(/rice krispies treats/, '米香棉花糖谷物棒'), title(/chips?|crisps?/, '薯片或咸味脆片'), title(/candy|chocolate/, '糖果或巧克力'),
@@ -538,6 +538,10 @@ export function englishProductNameZh(originalName, comparisonGroup, groupNameZh 
 }
 
 const SPECIFIC_ENGLISH_DESCRIPTIONS = [
+  [/popcorn chicken/, '裹粉爆米花鸡块，是一口大小的调味鸡肉小食；通常已预炸或预熟，需按包装说明用烤箱或空气炸锅复热，不是生鲜鸡肉。'],
+  [/breaded chicken breasts?/, '裹粉鸡胸肉，通常已经调味并预炸或预熟；需按包装说明用烤箱或空气炸锅加热，不是未经处理的生鲜鸡胸。'],
+  [/cheez-it|cheese crackers?/, '奶酪风味烘烤咸饼干，开袋即食；商品主体是脆饼，不是奶酪块或奶酪棒。'],
+  [/cream cheese spread/, '冷藏奶油奶酪抹酱，质地柔软，可抹贝果或面包、做三明治或用于烘焙；不是切片或块状餐桌奶酪。'],
   [/turkey bacon/, '火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。'],
   [/ovengold roasted turkey breast/, '烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。'],
   [/black forest ham/, '黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。'],

@@ -131,5 +131,12 @@ test('published fine taxonomy keeps mince, yoghurt, cold dairy, and cheese forms
     if (offer.comparisonGroup.startsWith('cheese_')) assert.equal(offer.categoryId, 'cheese', offer.originalName);
   }
   const atlantaCheeseGroups = new Set(atlanta.offers.filter(offer => offer.categoryId === 'cheese').map(offer => offer.comparisonGroup));
-  assert.deepEqual([...atlantaCheeseGroups].sort(), ['cheese_grated', 'cheese_portioned', 'cheese_prepared', 'cheese_sliced', 'cheese_table']);
+  const allowedAtlantaCheeseGroups = new Set(['cheese_grated', 'cheese_portioned', 'cheese_prepared', 'cheese_sliced', 'cheese_spreadable', 'cheese_table']);
+  for (const group of atlantaCheeseGroups) assert.equal(allowedAtlantaCheeseGroups.has(group), true, group);
+  assert.equal(atlantaCheeseGroups.has('cheese_table'), true);
+  assert.equal(atlantaCheeseGroups.has('cheese_grated'), true);
+  for (const offer of atlanta.offers.filter(offer => offer.categoryId === 'cheese')) {
+    assert.doesNotMatch(offer.originalName, /cheez-it|crackers?/i, offer.originalName);
+    if (/cream cheese|spread/i.test(offer.originalName)) assert.equal(offer.comparisonGroup, 'cheese_spreadable', offer.originalName);
+  }
 });
