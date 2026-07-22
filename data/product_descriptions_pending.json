@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-22T00:26:52.402Z",
-  "count": 88,
+  "generatedAt": "2026-07-22T00:48:35.252Z",
+  "count": 86,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -486,19 +486,6 @@
       "occurrences": 1
     },
     {
-      "descriptionKey": "v1|friland okologisk paalaeg eller postej|deli_mixed_offer",
-      "originalName": "Friland økologisk pålæg eller postej*",
-      "sampleDescriptions": [
-        "70-200 g. Kg-pris maks. 214,29. Frit valg. 1 stk."
-      ],
-      "categoryId": "deli_meat",
-      "comparisonGroup": "deli_mixed_offer",
-      "stores": [
-        "365"
-      ],
-      "occurrences": 1
-    },
-    {
       "descriptionKey": "v1|gaardlykke hel spegepolse|sausage_other",
       "originalName": "Gårdlykke hel spegepølse*",
       "sampleDescriptions": [
@@ -636,19 +623,6 @@
       ],
       "categoryId": "cream_cold_dairy",
       "comparisonGroup": "cream",
-      "stores": [
-        "365"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
-      "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
-      "sampleDescriptions": [
-        "Flere varianter. 330-400 g. Kg-pris maks. 45,45. Frit valg. 1 pakke"
-      ],
-      "categoryId": "butter_spreads",
-      "comparisonGroup": "butter",
       "stores": [
         "365"
       ],

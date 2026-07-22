@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-22T00:26:52.402Z",
-  "count": 82,
+  "generatedAt": "2026-07-22T00:48:35.252Z",
+  "count": 80,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -142,7 +142,7 @@
       "currentComparisonGroup": "bacon_mixed_offer",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fff1fc22a210eeb56c1eb0bbd854543ec&w=1000&s=98825d833403d40006bda61a740aa8ac"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F57d6df412f12a8e0353f3e0443c441f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd08f84b5d8b0f930e5507e87d3634b9e&w=1000&s=869bbdba483f1455abdc1a3181391eb9"
     },
     {
       "descriptionKey": "v1|coop bbq koteletter|prepared_pork_marinated",
@@ -292,7 +292,7 @@
       "currentComparisonGroup": "cheese_grated",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fde9938b0841e47aa69e495c829b1a289&w=1000&s=b5cdf7994e7232b77086f2748607b1f7"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F11509cc96df7287005f2828377a83a62%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F24f8cf6f0d168b74a72f2ebd98da232e&w=1000&s=18d9e1f4a334e12175cc415bc7260b15"
     },
     {
       "descriptionKey": "v1|coop romkugler traestammer eller mazarintaerte|biscuits",
@@ -302,7 +302,7 @@
       "currentComparisonGroup": "biscuits",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8268907c0b56f23693a604e9bf17651e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5f901969cba7b155a1088f9ebd5348b6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F24bf2ce147589ac312f846688cc3f11c&w=1000&s=609a1f2e2a374c914049e875d61a0d87"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc92f9ee6110596264f813b252dfec39b&w=1000&s=8dd55d1a6102466ce04f5c68adcf878f"
     },
     {
       "descriptionKey": "v1|coop tortilla|flour_baking",
@@ -342,7 +342,7 @@
       "currentComparisonGroup": "lettuce",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F80654b76eef373214a6ca0b7bfdeedaf&w=1000&s=045b177b6d6d9cc3b0af68c982d2d783"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5b43eb399edee4af179d30685309acb9&w=1000&s=3ccc8ef46d7422c819c5aa8adf26bfff"
     },
     {
       "descriptionKey": "v1|dansk spidskaal fra torup bakkegaard eller birkemosegaard|cabbage",
@@ -352,7 +352,7 @@
       "currentComparisonGroup": "cabbage",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8a0ffc1ac09f973dc0c8b745609d993c&w=1000&s=d28fd456e82e38a671a2cff52036301b"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faa7524a89103c42465387847ffe6c355&w=1000&s=82b1427d441ed2db2e5bf0bf6d434ae2"
     },
     {
       "descriptionKey": "v1|donut ferskner|biscuits",
@@ -373,16 +373,6 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2759c48c95dd9a8728edb09ec63866ca&w=1000&s=1f01dd3485ec48bef84d2467be9df6d5"
-    },
-    {
-      "descriptionKey": "v1|friland okologisk paalaeg eller postej|deli_mixed_offer",
-      "originalName": "Friland økologisk pålæg eller postej*",
-      "originalDescription": "70-200 g. Kg-pris maks. 214,29. Frit valg. 1 stk.",
-      "currentCategoryId": "deli_meat",
-      "currentComparisonGroup": "deli_mixed_offer",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fca44f6e1f8b1ba2934cdf16f7010d6f3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F79039bd46bca1c0d323695a56edfa541%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F660f8ef3a972a98413e778903bad667e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F779205a5c3ac5343f35bc78a461d7a18&w=1000&s=cee09c8f8c6b414d24cb1afcb816d3a4"
     },
     {
       "descriptionKey": "v1|gaardlykke hel spegepolse|sausage_other",
@@ -483,16 +473,6 @@
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa1247d0c87e42ebc082979afdf6abcda%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7d4203bbd097dcb13007a00836b1829d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3f187ec9798ef4bbd77b63f3319d38b1&w=1000&s=403147027057680b7089ed32610a325b"
-    },
-    {
-      "descriptionKey": "v1|kohberg smorbagt fastfoodbrod eller cafesandwich|butter",
-      "originalName": "Kohberg smørbagt fastfoodbrød eller cafesandwich*",
-      "originalDescription": "Flere varianter. 330-400 g. Kg-pris maks. 45,45. Frit valg. 1 pakke",
-      "currentCategoryId": "butter_spreads",
-      "currentComparisonGroup": "butter",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb6a7a1b6ad43af665862c83ae96c6869&w=1000&s=9119687cd05da592c27329a28901dd12"
     },
     {
       "descriptionKey": "v1|kolios graesk yoghurt|yoghurt",
@@ -622,7 +602,7 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8c3e2e98ae71d3d9da45afdb23c803e2%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fca9a814625b68625ac27d924f912c833%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fa8cfadba3ea64e06b05a489896f68ee5%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff7c44e03c79bc3fa3aea342d2f72b6d9&w=1000&s=abbac28bd6eef0910e33bd61fd07a21c"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3c3d780230d23d07f8d90923243fea22&w=1000&s=3353a5eb441c922c34c9ffa421ea972b"
     },
     {
       "descriptionKey": "v1|nye danske kartofler fra storohage|potatoes_fresh",
@@ -642,7 +622,7 @@
       "currentComparisonGroup": "canned_tomatoes",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83465f0e40bf4627364e5c98a9bece91&w=1000&s=946fa36feca9ef202cadf962a5d425b6"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5828cb2e05f5400f136095a3dde91efb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F61f3bae4d67cdf200a2ccb1c19939aef%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F21644d8561d4708885c264e7ec5f793a&w=1000&s=77f9168d00cd2d21311de7c00375e64e"
     },
     {
       "descriptionKey": "v1|rahbek indbagt fisk|seafood_other",
@@ -702,7 +682,7 @@
       "currentComparisonGroup": "chips",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3895a31c1ea070ca91cc5707b66db9eb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcc80f334e4b1ba5110dded76bba08c8e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff372ef24c42b1510675f3a7913711358%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93349d82f916db86be6cb88de92838d6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc11487ee691aa20bd4c8b0050b4f7545&w=1000&s=eb5638880c95807f532ce0bc0d1c7fa0"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd04991d94ca3da2581b75f73c90be40c&w=1000&s=47c3e4089fee5b13ce4e5af285fb07f4"
     },
     {
       "descriptionKey": "v1|taquitos|ice_cream",
