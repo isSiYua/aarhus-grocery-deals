@@ -20,7 +20,7 @@ jobs:
       security-events: write
     steps:
       # v6
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       # v4
       - uses: github/codeql-action/init@e4c79b4e9ebfe577d446333c2e31ed81079e7b03
         with:
