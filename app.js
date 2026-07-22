@@ -8,6 +8,7 @@ const state = {
   touchStartedInControl: false,
   locationId: null,
   storeFilters: [],
+  storeFilterScroll: {},
   shopping: {},
   completedListOpen: false,
   chrome: { topHidden: false, bottomHidden: false },
@@ -498,6 +499,24 @@ function filterOffersByStore(offers) {
 
 const hasStoreFilters = () => state.storeFilters.length > 0;
 const storeFilterKey = () => state.storeFilters.join(',');
+
+function storeFilterScrollKey(scope = 'main') {
+  return [state.locationId || 'default', state.route.view, state.route.id || '', scope].join(':');
+}
+
+function captureStoreFilterScroll(root) {
+  root.querySelectorAll('[data-store-filter-scroll-key]').forEach(row => {
+    const key = row.dataset.storeFilterScrollKey;
+    if (key) state.storeFilterScroll[key] = row.scrollLeft;
+  });
+}
+
+function restoreStoreFilterScroll(root) {
+  root.querySelectorAll('[data-store-filter-scroll-key]').forEach(row => {
+    const key = row.dataset.storeFilterScrollKey;
+    if (key && Number.isFinite(state.storeFilterScroll[key])) row.scrollLeft = state.storeFilterScroll[key];
+  });
+}
 const priceScopeLabel = () => hasStoreFilters() ? '已选商店' : '全局';
 
 function storeFilterSummary(offers) {
@@ -763,7 +782,10 @@ function storeFilterBar(offers, title = '按商店筛选') {
       el('strong', {}, title),
       el('span', {}, storeFilterSummary(offers)),
     ]),
-    el('div', { class: 'chip-row store-filter-row' }, [
+    el('div', {
+      class: 'chip-row store-filter-row',
+      'data-store-filter-scroll-key': storeFilterScrollKey(),
+    }, [
       el('button', {
         class: `chip${hasStoreFilters() ? '' : ' active'}`,
         type: 'button',
@@ -1181,7 +1203,10 @@ function mobileReaderStoreFilter(offers) {
     open: state.readerStoreFilterOpen ? '' : null,
   }, [
     el('summary', {}, `商店：${hasStoreFilters() ? `已选 ${state.storeFilters.length} 家` : '全部商店'} ▾`),
-    el('div', { class: 'chip-row' }, [
+    el('div', {
+      class: 'chip-row store-filter-row',
+      'data-store-filter-scroll-key': storeFilterScrollKey(),
+    }, [
       el('button', {
         class: `chip${hasStoreFilters() ? '' : ' active'}`,
         type: 'button',
@@ -1700,6 +1725,7 @@ function footerNote() {
 function render({ preserveScroll = false } = {}) {
   const scrollY = window.scrollY;
   const root = document.getElementById('app');
+  captureStoreFilterScroll(root);
   root.classList.toggle('mobile-reading-mode', isMobileReadingMode());
   // Keep chrome (topbar + bottom-nav) always visible on listing/search/home views;
   // only the category reader uses hidden chrome for immersive swiping.
@@ -1718,9 +1744,13 @@ function render({ preserveScroll = false } = {}) {
   else if (state.route.view === 'search') view = searchView();
   else view = homeView();
   root.append(view, bottomNav());
+  restoreStoreFilterScroll(root);
   attachReadingChromeTap(view);
   window.scrollTo({ top: preserveScroll ? scrollY : 0, behavior: 'auto' });
-  requestAnimationFrame(syncChromeLayout);
+  requestAnimationFrame(() => {
+    restoreStoreFilterScroll(root);
+    syncChromeLayout();
+  });
 }
 
 async function boot() {

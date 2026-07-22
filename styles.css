@@ -78,7 +78,7 @@ a { color: inherit; }
 .filter-label { display: flex; justify-content: space-between; gap: 12px; padding: 0 2px 9px; }
 .filter-label strong { font-size: 13px; }
 .filter-label span { color: var(--muted); font-size: 11px; text-align: right; }
-.store-filter-row { padding-bottom: 3px; }
+.store-filter-row { padding-bottom: 3px; overscroll-behavior-inline: contain; -webkit-overflow-scrolling: touch; }
 .store-filter-chip { border-color: color-mix(in srgb, var(--store-color) 45%, var(--border)); }
 .store-filter-chip.active { background: var(--store-color); border-color: var(--store-color); color: white; box-shadow: 0 4px 12px color-mix(in srgb, var(--store-color) 24%, transparent); }
 .store-filter-help { margin: 6px 2px 0; color: var(--muted); font-size: 10px; line-height: 1.45; }

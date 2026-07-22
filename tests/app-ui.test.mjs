@@ -46,6 +46,12 @@ test('store filters support multiple selections across views and scope price com
   assert.match(appSource, /const scopedOffers = filterOffersByStore\(currentOffers\(\)\)/);
   assert.match(appSource, /storeFilterBar\(allOffers, '选择要比较的商店'\)/);
   assert.match(appSource, /价格与最低价只在已选商店之间比较/);
+  assert.match(appSource, /storeFilterScroll: \{\}/);
+  assert.match(appSource, /function captureStoreFilterScroll\(root\)/);
+  assert.match(appSource, /function restoreStoreFilterScroll\(root\)/);
+  assert.match(appSource, /data-store-filter-scroll-key/);
+  assert.match(appSource, /captureStoreFilterScroll\(root\);[\s\S]*root\.replaceChildren\(\);[\s\S]*restoreStoreFilterScroll\(root\);/);
+  assert.match(styleSource, /\.store-filter-row \{[^}]*overscroll-behavior-inline: contain/);
 });
 
 test('shopping quantity controls stay compact and update without replacing the card', () => {
