@@ -211,6 +211,8 @@ function shoppingTotal(offers) {
   return {
     value,
     display: currency === 'USD' ? usd(value) : money(value),
+    amount: currency === 'USD' ? `$${value.toFixed(2)}` : Number(value).toFixed(value % 1 ? 2 : 0),
+    currency,
     quantity,
     pricedCount: priced.length,
     missingCount: offers.length - priced.length,
@@ -281,7 +283,46 @@ function setShoppingStatus(offer, status) {
   };
   state.shopping = { ...state.shopping, [state.locationId]: entries };
   saveShopping();
-  render({ preserveScroll: true });
+  updateShoppingQuantityUi(offer);
+}
+
+function updateShoppingQuantityUi(offer) {
+  const key = shoppingOfferKey(offer);
+  const card = [...document.querySelectorAll('.offer-card[data-shopping-key]')]
+    .find(candidate => candidate.dataset.shoppingKey === key);
+  if (!card || state.route.view !== 'shopping') {
+    render({ preserveScroll: true });
+    return;
+  }
+
+  const quantity = shoppingQuantity(offer);
+  const output = card.querySelector('[data-quantity-value]');
+  const decrease = card.querySelector('[data-quantity-action="decrease"]');
+  const lineTotal = card.querySelector('.shopping-line-total');
+  if (output) {
+    output.value = String(quantity);
+    output.textContent = String(quantity);
+  }
+  if (decrease) decrease.disabled = quantity === 0;
+  if (lineTotal) {
+    const subtotal = Number.isFinite(offer.price)
+      ? (offer.currency === 'USD' ? usd(offer.price * quantity) : money(offer.price * quantity))
+      : '价格待确认';
+    lineTotal.textContent = `本项 ${subtotal}`;
+  }
+
+  const entries = locationShopping();
+  const allWanted = currentOffers().filter(candidate => entries[shoppingOfferKey(candidate)]?.status === 'wanted');
+  const visibleWanted = filterOffersByStore(allWanted);
+  const total = shoppingTotal(allWanted);
+  const visibleTotal = shoppingTotal(visibleWanted);
+  const totalBar = document.querySelector('.shopping-total');
+  const number = totalBar?.querySelector('.shopping-total-number');
+  const summary = totalBar?.querySelector('.shopping-total-summary');
+  const filtered = totalBar?.querySelector('.shopping-total-filtered');
+  if (number) number.textContent = total.amount;
+  if (summary) summary.textContent = `${allWanted.length} 项商品 · 合计 ${total.quantity} 份${total.missingCount ? ` · ${total.missingCount} 项价格待确认` : ''}`;
+  if (filtered) filtered.textContent = `当前商店 ${visibleWanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`;
 }
 
 function updateShoppingQuantity(offer, change) {
@@ -506,10 +547,10 @@ function syncChromeLayout() {
   const root = document.getElementById('app');
   const topbar = root?.querySelector('.topbar');
   const bottom = root?.querySelector('.bottom-nav');
-  if (!root || !topbar || !bottom) return;
-  root.style.setProperty('--topbar-height', `${Math.ceil(topbar.getBoundingClientRect().height)}px`);
+  if (!root || !bottom) return;
+  root.style.setProperty('--topbar-height', `${topbar ? Math.ceil(topbar.getBoundingClientRect().height) : 0}px`);
   root.style.setProperty('--bottom-nav-height', `${Math.ceil(bottom.getBoundingClientRect().height)}px`);
-  root.classList.toggle('topbar-hidden', state.chrome.topHidden);
+  root.classList.toggle('topbar-hidden', !topbar || state.chrome.topHidden);
   root.classList.toggle('bottom-nav-hidden', state.chrome.bottomHidden);
   root.classList.toggle('mobile-reading-mode', isMobileReadingMode());
 }
@@ -544,7 +585,7 @@ function selectStoreCategory(storeId, categoryId) {
 }
 
 function attachReadingChromeTap(node) {
-  if (!isMobileReadingMode()) return;
+  if (!isMobileReadingMode() || state.route.view === 'shopping') return;
   node.addEventListener('click', event => {
     if (Date.now() < state.suppressReaderClickUntil) return;
     if (event.target.closest('button, a, input, select, textarea, summary, dialog')) return;
@@ -1155,10 +1196,11 @@ function shoppingControls(o, listView = false) {
           el('button', {
             type: 'button',
             disabled: quantity === 0 ? '' : null,
+            'data-quantity-action': 'decrease',
             'aria-label': `减少${o.productNameZh || o.originalName}数量`,
             onClick: () => updateShoppingQuantity(o, -1),
           }, '−'),
-          el('output', { 'aria-live': 'polite', 'aria-label': '当前数量' }, quantity),
+          el('output', { 'data-quantity-value': '', 'aria-live': 'polite', 'aria-label': '当前数量' }, quantity),
           el('button', {
             type: 'button',
             'aria-label': `增加${o.productNameZh || o.originalName}数量`,
@@ -1209,6 +1251,7 @@ function offerCard(o, options = {}) {
   return el('article', {
     class: `offer-card${best ? ' best' : ''}${best?.futureBetter ? ' future-best' : ''}${entry?.status === 'wanted' ? ' selected-offer' : ''}${entry?.status === 'done' ? ' completed-offer' : ''}`,
     'data-best-label': best?.label || null,
+    'data-shopping-key': entry ? shoppingOfferKey(o) : null,
   }, [
     o.imageUrl ? el('img', { class: 'offer-image', src: o.imageUrl, alt: o.originalName, loading: 'lazy', referrerpolicy: 'no-referrer' }) : null,
     offerTitle(o),
@@ -1427,13 +1470,16 @@ function shoppingListView() {
     el('div', { class: 'shopping-total', 'aria-live': 'polite' }, [
       el('div', { class: 'shopping-total-copy' }, [
         el('span', {}, '当前已选合计'),
-        el('small', {}, [
+        el('small', { class: 'shopping-total-summary' }, [
           `${allWanted.length} 项商品 · 合计 ${total.quantity} 份`,
           total.missingCount ? ` · ${total.missingCount} 项价格待确认` : '',
         ]),
       ]),
-      el('strong', {}, total.display),
-      state.storeFilter ? el('em', {}, `当前商店 ${wanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`) : null,
+      el('strong', { class: 'shopping-total-value', 'aria-label': total.display }, [
+        el('span', { class: 'shopping-total-number' }, total.amount),
+        total.currency === 'DKK' ? el('span', { class: 'shopping-total-unit' }, 'DKK') : null,
+      ]),
+      state.storeFilter ? el('em', { class: 'shopping-total-filtered' }, `当前商店 ${wanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`) : null,
     ]),
     storeFilterBar(allOffers, '只看准备去的商店'),
     unavailableCount > 0 ? el('div', { class: 'status-banner' }, `${unavailableCount} 项旧优惠已不在本期数据中，暂不显示；不会影响当前清单。`) : null,
@@ -1458,7 +1504,8 @@ function render({ preserveScroll = false } = {}) {
   if (state.route.view !== 'category') {
     state.chrome = { topHidden: false, bottomHidden: false };
   }
-  root.replaceChildren(topbar());
+  root.replaceChildren();
+  if (state.route.view !== 'shopping') root.append(topbar());
   let view;
   if (state.route.view === 'locations') view = locationsView();
   else if (state.route.view === 'categories') view = categoriesView();

@@ -19,14 +19,20 @@ test('shopping list is local, store-filterable, and keeps completed items recove
   assert.match(appSource, /function shoppingTotal\(offers\)/);
   assert.match(appSource, /当前已选合计/);
   assert.match(appSource, /function updateShoppingQuantity\(offer, change\)/);
+  assert.match(appSource, /function updateShoppingQuantityUi\(offer\)/);
   assert.match(appSource, /quantity: Math\.max\(0, current \+ change\)/);
   assert.match(appSource, /offer\.price \* shoppingQuantity\(offer\)/);
+  assert.match(appSource, /saveShopping\(\);\n  updateShoppingQuantityUi\(offer\);/);
+  assert.match(appSource, /data-shopping-key/);
   assert.match(appSource, /只有“移出清单”才会删除/);
   assert.match(appSource, /已加入清单 · 查看清单/);
   assert.match(appSource, /const allWanted = allOffers\.filter/);
   assert.match(styleSource, /\.shopping-total \{/);
   assert.match(styleSource, /position: sticky; top: calc\(var\(--topbar-height/);
   assert.match(styleSource, /\.shopping-stepper \{/);
+  assert.match(styleSource, /\.shopping-total-unit \{/);
+  assert.match(appSource, /if \(state\.route\.view !== 'shopping'\) root\.append\(topbar\(\)\);/);
+  assert.match(appSource, /state\.route\.view === 'shopping'\) return;/);
 });
 
 test('store pages follow the configured homepage category order', () => {
