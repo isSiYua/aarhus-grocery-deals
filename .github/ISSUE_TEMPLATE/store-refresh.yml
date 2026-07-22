@@ -1,0 +1,43 @@
+name: 领取一次连锁促销更新
+description: 在开始处理前公开登记连锁和刊期，避免两个人重复审核同一批新品。
+title: "[更新领取] 商店 / 刊期"
+body:
+  - type: dropdown
+    id: store
+    attributes:
+      label: 连锁
+      options:
+        - REMA 1000
+        - Lidl
+        - Netto
+        - 365discount
+        - føtex
+        - Bilka
+        - Kvickly
+        - MENY
+        - Løvbjerg
+        - SuperBrugsen
+        - SPAR
+        - Min Købmand
+        - Brugsen
+        - LET-KØB
+        - Wolt Market
+        - 多家连锁
+    validations:
+      required: true
+  - type: input
+    id: period
+    attributes:
+      label: 促销刊期或计划检查日期
+      placeholder: "例如 2026-07-26"
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: 开始前确认
+      options:
+        - label: 我会先同步最新 main，并检查是否已有相同连锁/刊期的领取记录或 PR。
+          required: true
+        - label: 我只通过 PR 提交，接受自动检查和仓库所有者审核。
+          required: true

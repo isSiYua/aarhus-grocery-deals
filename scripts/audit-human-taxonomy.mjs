@@ -113,6 +113,14 @@ for (const offer of aarhus.offers) {
       && /通常加热即可|预制方便餐/.test(offer.zhExplanation || '')) {
     fail(offer, '明确菜式仍被通用方便餐模板覆盖');
   }
+  if (/avocadoolie|avocado oil/.test(name)
+      && (offer.categoryId !== 'cooking_oils' || offer.comparisonGroup !== 'oil_other' || !/牛油果油/.test(offer.productNameZh || ''))) {
+    fail(offer, '牛油果油被误归为新鲜牛油果');
+  }
+  if (/tortilla chips/.test(heading)
+      && (offer.categoryId !== 'salty_snacks' || offer.comparisonGroup !== 'chips' || !/玉米片/.test(`${offer.productNameZh} ${offer.zhExplanation}`))) {
+    fail(offer, 'Tortilla chips 被误归为面粉或饼皮');
+  }
   if (/\bpowerbank\b/.test(heading)) {
     const advertisedCapacity = heading.match(/(\d[\d.]*)\s*mah/);
     if (advertisedCapacity && !new RegExp(`${advertisedCapacity[1]}\\s*mAh`, 'i').test(offer.zhExplanation || '')) {

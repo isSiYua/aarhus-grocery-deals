@@ -17,6 +17,7 @@ test('service worker refreshes online resources and immediately activates update
   assert.ok(version, 'service worker cache must have a numeric version');
   assert.match(source, new RegExp(`styles\\.css\\?v=${version}`));
   assert.match(source, new RegExp(`app\\.js\\?v=${version}`));
+  assert.match(source, new RegExp(`search-ranking\\.js\\?v=${version}`));
   assert.match(html, new RegExp(`styles\\.css\\?v=${version}`));
   assert.match(html, new RegExp(`app\\.js\\?v=${version}`));
 });

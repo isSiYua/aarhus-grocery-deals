@@ -20,6 +20,9 @@ The project is free, has no payment flow, accepts no donations, and never asks f
 - HTTPS enforcement, restrictive content security policy, no-referrer policy, and safe external-link attributes.
 - Geolocation is opt-in and processed locally; coordinates are neither transmitted nor persisted.
 - Scheduled automation uses no repository secrets or model credentials, grants job-specific permissions, and pins every action to a full commit SHA.
+- Pull requests run a read-only publication gate; repository-authored shopper text is rejected when it contains payment solicitation, credential requests, unexpected links, or script injection.
 - New or ambiguous source products are withheld until reviewed; successful source refreshes remove withdrawn promotions.
+
+Repository owners must also enable the external branch rules documented in `docs/GITHUB_REPOSITORY_PROTECTION.md`; those GitHub settings cannot be enforced by files in the repository alone.
 
 Please allow reasonable time for investigation. Do not test by disrupting the public site, changing third-party data, or accessing another person's device or account.

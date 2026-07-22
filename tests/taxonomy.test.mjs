@@ -494,6 +494,17 @@ test('separates liver pate, bacon, sausages, sauces, oils, paper and potato form
   assert.equal(refineAarhusComparisonGroup('sausage_other', 'Steff Houlberg pølser. Hotdog- eller grillpølser'), 'sausage_mixed_offer');
 });
 
+test('product form beats ingredient words for avocado oil and tortilla chips', () => {
+  assert.deepEqual(classifyOffer({ heading: 'Soilmates avocadoolie' }), {
+    categoryId: 'cooking_oils',
+    comparisonGroup: 'oil_other',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Tortilla Chips' }), {
+    categoryId: 'salty_snacks',
+    comparisonGroup: 'chips',
+  });
+});
+
 test('automatically separates mince, yoghurt, cold dairy, and cheese forms', () => {
   for (const heading of ['Hakket kyllingekød', 'Hakket kalkunkød', 'Hakket grisekød', 'Hakket oksekød', 'Hakket grise- og oksekød']) {
     assert.equal(classifyOffer({ heading }).categoryId, 'minced_meat', heading);

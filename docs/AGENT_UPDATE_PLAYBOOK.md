@@ -99,6 +99,21 @@ npm run build:preview
 
 已审核商品会进入可复用知识库。下一周相同商品即使换促销 ID，也不再消耗 AI token。
 
+### 多人按连锁更新
+
+维护者默认自动检查全部公开连锁：
+
+```sh
+git pull --ff-only
+npm run update:stores
+npm run check
+npm run build:preview
+```
+
+`update:stores` 会抓取全部公开来源并逐连锁比较稳定商品内容。没有变化的连锁保持不变，只有新刊期、商品增删、价格、规格或有效期变化才产生 Git 差异。调试来源时允许附加 `-- rema` 等范围参数，但日常维护不要求记忆商店 ID。每个维护者都必须从最新 `main` 开始，使用独立分支和 Pull Request。后一位维护者在前一位 PR 合并后同步 `main`，即可同时继承前一位更新的数据和共享商品知识。
+
+开始 AI/人工新品审核前，应使用 GitHub Issue 的“领取一次连锁促销更新”模板登记连锁和刊期。两个并行 PR 遇到同一 `descriptionKey` 时，后合并者必须先同步主分支并重新运行更新；主分支已有的审核结论直接复用，不应再次生成。
+
 ## 4. 分类与翻页规则
 
 分类分两层：
@@ -173,9 +188,13 @@ npm run build:preview
 ## 7. GitHub Actions、Agents 与安全边界
 
 - `.github/workflows/update-and-deploy.yml`：定时抓取、检测变化、运行检查、提交数据并部署 Pages。
+- `.github/workflows/refresh-selected-stores.yml`：可信维护者手动选择一个或多个连锁，从最新主分支创建隔离的数据更新 PR。
+- `.github/workflows/pull-request-checks.yml`：对每个 PR 以只读权限运行完整发布门禁，不接收仓库密钥。
+- `CONTRIBUTING.md`：规定 Fork、领取刊期、按连锁更新、同步主分支和 PR 审核流程。
 - `.github/workflows/codeql.yml`：检查 JavaScript/TypeScript 安全问题。
 - `AGENTS.md`：告诉所有进入仓库的 AI 或人类维护者必须遵守的最低契约。
 - Actions 使用最小权限，第三方 Action 必须固定到完整 commit SHA。
+- 本地更新命令绝不自动 push；陌生贡献者只能 Fork + PR，只有受保护的 `main` 能触发正式 Pages 部署。
 - 自动任务不接受网页访客写入内容；公开页面没有投稿、支付或远程管理接口。
 - 不在仓库或 Actions 中保存个人位置、支付二维码、数据库密钥或模型密钥。
 - Atlanta 仅作为冻结历史档案保留，日常命令不得刷新或发布它。

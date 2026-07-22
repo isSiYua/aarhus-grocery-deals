@@ -43,6 +43,14 @@ const reviewCandidates = [
     imageUrl: null,
     publish: false,
   })),
+  ...(previousPendingTaxonomy.items || []).map(item => ({
+    originalName: item.originalName,
+    originalDescription: item.originalDescription || '',
+    categoryId: item.currentCategoryId,
+    comparisonGroup: item.currentComparisonGroup,
+    imageUrl: item.imageUrl || null,
+    publish: false,
+  })),
 ];
 
 const sameDescriptionReview = (previous, next) => Boolean(previous)
@@ -50,6 +58,8 @@ const sameDescriptionReview = (previous, next) => Boolean(previous)
   && previous.descriptionZh === next.descriptionZh
   && previous.categoryId === next.categoryId
   && previous.comparisonGroup === next.comparisonGroup
+  && previous.descriptionSpecVersion === next.descriptionSpecVersion
+  && previous.reviewStatus === next.reviewStatus
   && Boolean(previous.evidence?.offerImageReviewed) === Boolean(next.evidence?.offerImageReviewed);
 
 const sameTaxonomyReview = (previous, next) => Boolean(previous)
@@ -87,6 +97,7 @@ for (const offer of reviewCandidates) {
   );
   const fallback = explainInChinese(raw, classification);
   const keepImageReviewedDescription = previous?.evidence?.offerImageReviewed
+    && previous?.descriptionSpecVersion === DESCRIPTION_SPEC_VERSION
     && previous?.descriptionZh
     && !LEGACY_GENERIC_DESCRIPTION.test(previous.descriptionZh);
   const descriptionZh = sanitizeItemDescriptionZh(
@@ -160,6 +171,7 @@ const finalizedAarhusOffers = nextAarhusOffers.map(offer => {
     ...offer,
     productNameZh: reviewed.productNameZh,
     zhExplanation: reviewed.descriptionZh,
+    descriptionVersion: reviewed.descriptionSpecVersion,
     taxonomyLabelZh: reviewed.productNameZh,
   };
 });
@@ -205,4 +217,5 @@ await Promise.all([
   write(taxonomyUrl, taxonomy), write(pendingTaxonomyUrl, pendingTaxonomy),
 ]);
 
-console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} reusable Aarhus products, including ${pendingDescriptionsToReview.items?.length || 0} pending products; no reviewed descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);
+const reviewedPendingCount = (pendingDescriptionsToReview.items?.length || 0) + (previousPendingTaxonomy.items?.length || 0);
+console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} reusable Aarhus products and resolved ${reviewedPendingCount} queued review records; no reviewed descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);

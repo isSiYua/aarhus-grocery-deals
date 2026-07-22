@@ -67,6 +67,9 @@ test('store pages follow the configured homepage category order', () => {
   assert.match(appSource, /activeCategories\(\)\.map\(category => category\.id\)\.filter\(id => present\.has\(id\)\)/);
   assert.equal((appSource.match(/const categoryIds = orderedCategoryIds\(offers\);/g) || []).length, 2);
   assert.match(styleSource, /\.store-category-section > \.group-head \{/);
+  assert.match(appSource, /storeCategoryByStore/);
+  assert.match(appSource, /categoryIds\.filter\(id => id === selectedCategoryId\)/);
+  assert.match(appSource, /每次只显示一个大类，减少手机卡顿/);
 });
 
 test('global price comparison separates current/upcoming minima and exposes all ties in a modal', () => {

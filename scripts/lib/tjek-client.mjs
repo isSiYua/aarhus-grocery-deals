@@ -57,6 +57,9 @@ export async function fetchDealerOffers(dealerId, fetchPage = fetchJson) {
     if (page.length < limit) return offers;
   }
 
+  // Preserve the Array API for callers while exposing that absence is not
+  // authoritative: there may be more current rows beyond Tjek's hard limit.
+  Object.defineProperty(offers, 'truncated', { value: true, enumerable: false });
   return offers;
 }
 

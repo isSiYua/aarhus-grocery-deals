@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names, or a variant-specific descriptionKey when a generic flyer heading changes its pictured products.",
   "entries": {
+    "v1|lekaform|supplements|variant-a0e2059f9f05": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplements",
+      "productNameZh": "Lekaform 复合维生素、钙加维生素 D 或维生素 D 片任选",
+      "descriptionZh": "图片中的 Lekaform 营养补充片每瓶 100 片，可选含 A、B、C、D、E 及矿物质的复合维生素片、钙加维生素 D 片，或每片含 35 微克维生素 D 的 D Vitamin 片。三款补充成分不同，应按自己的饮食与补充需要选择，并遵循瓶身建议用量；膳食补充剂不能代替均衡饮食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|lekaform|supplements|variant-f6f793a881be": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplements",
+      "productNameZh": "Lekaform 复合维生素、钙加维生素 D 或维生素 D 片任选",
+      "descriptionZh": "图片中的 Lekaform 营养补充片每瓶 100 片，可选含 A、B、C、D、E 及矿物质的复合维生素片、钙加维生素 D 片，或每片含 35 微克维生素 D 的 D Vitamin 片。三款补充成分不同，应按自己的饮食与补充需要选择，并遵循瓶身建议用量；膳食补充剂不能代替均衡饮食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "soilmates avocadoolie": {
+      "categoryId": "cooking_oils",
+      "comparisonGroup": "oil_other",
+      "productNameZh": "Soilmates 牛油果油",
+      "descriptionZh": "这是 500 ml 的 Soilmates 牛油果食用油，不是新鲜牛油果。牛油果油风味通常较温和并可能带轻微坚果感，可用于沙拉调味、日常煎炒或烤蔬菜；是否精炼以及能否用于高温煎炸应按瓶身说明判断。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "tortilla chips": {
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "productNameZh": "Old El Paso 原味玉米片",
+      "descriptionZh": "这是 Old El Paso Original 原味脆玉米片，185 g。以玉米 tortilla 烘烤或油炸成三角脆片，味道以咸香玉米味为主，适合直接当零食，或蘸莎莎酱、牛油果酱和奶酪酱，也可铺上肉末与奶酪制作 nachos。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|colgate mundpleje|personal_oral_care|variant-56e68ad69128": {
+      "categoryId": "personal_oral_beauty",
+      "comparisonGroup": "personal_oral_care",
+      "productNameZh": "Colgate 牙膏或漱口水等口腔护理任选",
+      "descriptionZh": "图片中的 Colgate 口腔护理任选包括 Karies Kontrol 防蛀牙膏、Sensation White 美白牙膏、MaxFresh Cool Mint 清凉薄荷牙膏，以及 Plax Cool Mint 无酒精漱口水。牙膏为 2×75 ml 组合装，分别侧重日常防蛀、美白或更强清凉感；漱口水用于刷牙后的口腔清洁和清新口气，不能代替刷牙。公开文字还允许其他规格，购买时按实际品种选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|colgate mundpleje|personal_oral_care|variant-76024d1f8132": {
+      "categoryId": "personal_oral_beauty",
+      "comparisonGroup": "personal_oral_care",
+      "productNameZh": "Colgate 牙膏或漱口水等口腔护理任选",
+      "descriptionZh": "图片中的 Colgate 口腔护理任选包括 Karies Kontrol 防蛀牙膏、Sensation White 美白牙膏、MaxFresh Cooling Crystals 清凉牙膏，以及 Plax Cool Mint 漱口水。牙膏为双支组合装，分别侧重日常防蛀、美白或更强清凉感；漱口水用于刷牙后的口腔清洁和清新口气，不能代替刷牙。公开促销还允许其他规格，购买时按实际品种选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
     "okologisk dansk persille eller basilikum": {
       "categoryId": "vegetables",
       "comparisonGroup": "mixed_fresh_herbs",
