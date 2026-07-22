@@ -10,20 +10,22 @@ import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, normalizedText, refineAarh
 const read = async path => JSON.parse(await fs.readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 const write = async (path, value) => fs.writeFile(new URL(`../${path}`, import.meta.url), `${JSON.stringify(value, null, 2)}\n`);
 const now = new Date().toISOString();
-const descriptionKey = (name, comparisonGroup, originalDescription = '') => descriptionKeyFor(
-  { heading: name, description: originalDescription },
+const descriptionKey = (name, comparisonGroup, originalDescription = '', imageUrl = null) => descriptionKeyFor(
+  { heading: name, description: originalDescription, imageUrl },
   { comparisonGroup },
 );
 const recordDescriptionKey = (record, name, comparisonGroup) => descriptionKey(
   name,
   comparisonGroup,
   record.originalDescription || record.sampleDescriptions?.[0] || '',
+  record.imageUrl || record.evidence?.imageUrl || null,
 );
 const reviewOverridesDocument = await read('data/product_review_overrides_zh.json');
 const reviewOverrides = reviewOverridesDocument.entries;
 
 function applyAarhusReviewOverride(record, name = record.originalName) {
-  const override = reviewOverrides[normalizedText(name)];
+  const variantKey = recordDescriptionKey(record, name, record.comparisonGroup);
+  const override = reviewOverrides[variantKey] || reviewOverrides[normalizedText(name)];
   if (!override) return record;
   if (override.status === 'excluded') {
     return {

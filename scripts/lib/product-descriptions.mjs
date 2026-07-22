@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 
 import { normalizedText } from './taxonomy.mjs';
 import { explainInChinese } from './explain-zh.mjs';
@@ -23,10 +24,60 @@ function clothingDetailIdentity(raw, group) {
   return normalizedText(facts.join(' '));
 }
 
+// A short flyer heading is not always a product identity. Retailers repeatedly
+// publish headings such as "Spiritusmarked", "Rygsæk" and "Færdigretter" while
+// changing every option shown underneath. Reusing a review by heading alone in
+// those cases silently assigns the wrong products, flavours or specifications
+// to another store/week. Keep ordinary named groceries reusable, but bind
+// ambiguous complex offers to the meaningful option text (or, as a last resort,
+// the flyer image crop) so only genuinely identical evidence shares a review.
+const VARIANT_SENSITIVE_GROUP = /^(?:alcohol_|ready_meal$|supplements$|electronics_|home_|leisure_|clothing_|personal_)/;
+const AMBIGUOUS_HEADING = /(?:^| )(?:spiritusmarked|vinmarked|vin marked|bag in box marked|frost ?marked|to go marked|asiatisk marked|faerdigret(?:ter)?|middagsretter|familleret|rygsaek|taske|mini taske|dyne|hovedpude|stovsuger|robotstovsuger|ledningsfri stovsuger|tv|fjernsyn|skaerm|computer|elmarked)(?: |$)/;
+const COMMERCIAL_NOISE = /\b(?:flere varianter|frit valg|partivare|spot|skarp pris|normalpris|pr stk|pr pakke|pr pose|pr flaske|pr box|pr liter|literpris|kg pris|kg pris max|max kg pris|max literpris|gaelder kun|med appen|ekskl embl|plus pris|ved kob af flere end)\b/g;
+
+function meaningfulVariantEvidence(raw) {
+  const source = String(raw?.description || raw?.originalDescription || '')
+    .replace(/\b\d+(?:[.,]\d+)?\s*(?:ml|cl|dl|l|liter|g|kg|stk|pak|pcs|cm|mm|w|mah|hz|tommer)\b/gi, ' ')
+    .replace(/\b\d+(?:[.,]\d+)?\s*%\b/g, ' ');
+  return normalizedText(source)
+    .replace(COMMERCIAL_NOISE, ' ')
+    .replace(/\b(?:max|pris|kr|dkk|per|kun|tilbud|ugen|uge|dag|kunde|denne|pris)\b/g, ' ')
+    .replace(/\b\d+(?:[.,]\d+)?\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function imageEvidence(raw) {
+  const value = String(raw?.imageUrl || '').trim();
+  if (!value) return '';
+  try {
+    const url = new URL(value);
+    for (const parameter of ['w', 'width', 'dpr', 'quality']) url.searchParams.delete(parameter);
+    url.searchParams.sort();
+    return url.toString();
+  } catch {
+    return value;
+  }
+}
+
+function variantDetailIdentity(raw, group) {
+  if (!VARIANT_SENSITIVE_GROUP.test(String(group || ''))) return '';
+  const name = normalizedText(raw?.heading || raw?.originalName || '');
+  const detail = meaningfulVariantEvidence(raw);
+  const hasChoiceEvidence = /\b(?:eller|frit valg|flere varianter|marked)\b/.test(normalizedText(
+    `${raw?.heading || raw?.originalName || ''} ${raw?.description || raw?.originalDescription || ''}`,
+  ));
+  const shortGenericName = name.split(' ').filter(Boolean).length <= 2;
+  if (!AMBIGUOUS_HEADING.test(name) && !(shortGenericName && hasChoiceEvidence)) return '';
+  const evidence = detail.length >= 8 ? detail : imageEvidence(raw);
+  if (!evidence) return '';
+  return `variant-${createHash('sha256').update(evidence).digest('hex').slice(0, 12)}`;
+}
+
 export function descriptionKeyFor(raw, classification) {
   const name = normalizedText(raw?.heading || raw?.originalName || '');
   const group = classification?.comparisonGroup || raw?.comparisonGroup || 'unknown';
-  const detail = clothingDetailIdentity(raw, group);
+  const detail = clothingDetailIdentity(raw, group) || variantDetailIdentity(raw, group);
   return `v1|${name}|${group}${detail ? `|${detail}` : ''}`;
 }
 

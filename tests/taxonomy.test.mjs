@@ -237,6 +237,14 @@ test('named drinks, wines, supplements, meals, and electronics receive item-spec
   assert.match(danishProductNameZh('Depend neglefil eller Kiss naturlige vipper', 'personal_makeup'), /美甲锉.*假睫毛/);
   assert.match(specificDanishDescription('Murph proteinbar med kreatin', '', 'supplement_sports_snack'), /肌酸.*蛋白质/);
   assert.match(specificDanishDescription('Breezer, Somersby, Schweppes tonic el. Red Bull energidrik', '', 'other_offer'), /预调酒.*苹果酒.*汤力水.*能量饮料/);
+  assert.match(danishProductNameZh('Pudebamse / Bamse', 'leisure_toys'), /毛绒/);
+  assert.match(specificDanishDescription('Pudebamse / Bamse', '60 cm. 80 cm.', 'leisure_toys'), /毛绒玩具.*不是被子或枕芯/);
+  assert.match(danishProductNameZh('Boost-my-bag nøglering', 'leisure_other'), /钥匙扣/);
+  assert.match(specificDanishDescription('Boost-my-bag nøglering', '', 'leisure_other'), /挂在书包.*不是书包本体/);
+  assert.match(danishProductNameZh('Pokémon mini taske*', 'leisure_bags'), /宝可梦.*迷你随身包/);
+  assert.match(specificDanishDescription('Pokémon mini taske*', '10,5 x 8,5 cm.', 'leisure_bags'), /硬币.*钥匙.*耳机/);
+  assert.match(specificDanishDescription('San Felice Campogiovanni Brunello', 'Italien. Rødvin.', 'alcohol_wine_red'), /酸樱桃.*烟草.*单宁/);
+  assert.match(specificDanishDescription('Spiritusmarked', 'Absolut Vodka, Beefeater Gin eller Havana Club rom.', 'alcohol_spirits'), /Absolut.*伏特加.*金酒.*朗姆酒/);
 });
 
 test('keeps ice cream, child clothing, bikes and chargers in their real product groups', () => {

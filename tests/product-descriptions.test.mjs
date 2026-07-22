@@ -19,6 +19,32 @@ test('description identity is reusable across stores and package sizes', () => {
   assert.equal(first, second);
 });
 
+test('generic market headings do not reuse a different store or week option list', () => {
+  const classification = { categoryId: 'alcohol_spirits', comparisonGroup: 'alcohol_spirits' };
+  const vodkaGin = descriptionKeyFor({
+    heading: 'Spiritusmarked',
+    description: 'Absolut Vodka, Beefeater Gin eller Havana Club rom. 70 cl. Frit valg.',
+  }, classification);
+  const whiskyCognac = descriptionKeyFor({
+    heading: 'SPIRITUSMARKED',
+    description: 'Gentleman Jack, Jameson eller Martell Cognac. 50-70 cl. Frit valg.',
+  }, classification);
+  assert.notEqual(vodkaGin, whiskyCognac);
+});
+
+test('generic headings still reuse the same option evidence across stores despite price and size noise', () => {
+  const classification = { categoryId: 'alcohol_spirits', comparisonGroup: 'alcohol_spirits' };
+  const first = descriptionKeyFor({
+    heading: 'Spiritusmarked',
+    description: 'Absolut Vodka eller Beefeater Gin. 70 cl. Literpris 142,79. Frit valg.',
+  }, classification);
+  const second = descriptionKeyFor({
+    heading: 'SPIRITUSMARKED',
+    description: 'Absolut Vodka eller Beefeater Gin. 50 cl. Pr. flaske 99.-',
+  }, classification);
+  assert.equal(first, second);
+});
+
 test('clothing description identity keeps materially different size ranges separate', () => {
   const classification = { categoryId: 'clothing', comparisonGroup: 'clothing_adult_tops' };
   const standard = descriptionKeyFor({ heading: 'T-shirt', description: 'Str. S-2XL. 100% bomuld.' }, classification);

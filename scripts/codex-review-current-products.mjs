@@ -62,12 +62,18 @@ const sameTaxonomyReview = (previous, next) => Boolean(previous)
 for (const offer of reviewCandidates) {
   const raw = { heading: offer.originalName, description: offer.originalDescription || '' };
   if (isClearlyOutOfScope(raw)) continue;
-  const override = reviewOverrides.entries?.[normalizedText(offer.originalName)] || null;
+  const namedOverride = reviewOverrides.entries?.[normalizedText(offer.originalName)] || null;
+  if (namedOverride?.status === 'excluded') continue;
+  const initialClassification = namedOverride?.categoryId && namedOverride?.comparisonGroup
+    ? { categoryId: refineAarhusCategory(namedOverride.categoryId, namedOverride.comparisonGroup), comparisonGroup: namedOverride.comparisonGroup }
+    : (classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup });
+  const initialDescriptionKey = descriptionKeyFor({ ...raw, imageUrl: offer.imageUrl }, initialClassification);
+  const override = reviewOverrides.entries?.[initialDescriptionKey] || namedOverride;
   if (override?.status === 'excluded') continue;
   const classification = override?.categoryId && override?.comparisonGroup
     ? { categoryId: refineAarhusCategory(override.categoryId, override.comparisonGroup), comparisonGroup: override.comparisonGroup }
-    : (classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup });
-  const descriptionKey = descriptionKeyFor(raw, classification);
+    : initialClassification;
+  const descriptionKey = descriptionKeyFor({ ...raw, imageUrl: offer.imageUrl }, classification);
   const productNameZh = override?.productNameZh || danishProductNameZh(
     offer.originalName,
     classification.comparisonGroup,

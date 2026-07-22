@@ -143,12 +143,18 @@ function imageUrl(raw) {
 export function normalizeOffer(raw, nowIso, options = {}) {
   const storeId = getStoreId(raw);
   if (!storeId) return null;
-  const reviewOverride = options.reviewOverrides?.entries?.[normalizedText(raw.heading || '')] || null;
+  const namedReviewOverride = options.reviewOverrides?.entries?.[normalizedText(raw.heading || '')] || null;
+  if (namedReviewOverride?.status === 'excluded') return null;
+  const initialClassification = namedReviewOverride?.categoryId && namedReviewOverride?.comparisonGroup
+    ? { categoryId: namedReviewOverride.categoryId, comparisonGroup: namedReviewOverride.comparisonGroup }
+    : classifyOffer(raw);
+  if (!initialClassification) return null;
+  const initialDescriptionKey = descriptionKeyFor(raw, initialClassification);
+  const reviewOverride = options.reviewOverrides?.entries?.[initialDescriptionKey] || namedReviewOverride;
   if (reviewOverride?.status === 'excluded') return null;
   const baseClassification = reviewOverride?.categoryId && reviewOverride?.comparisonGroup
     ? { categoryId: reviewOverride.categoryId, comparisonGroup: reviewOverride.comparisonGroup }
-    : classifyOffer(raw);
-  if (!baseClassification) return null;
+    : initialClassification;
   const pricing = priceFields(raw);
   if (!Number.isFinite(pricing.price)) return null;
   const q = quantityFields(raw);

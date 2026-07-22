@@ -1,7 +1,455 @@
 {
   "schemaVersion": 1,
-  "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
+  "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names, or a variant-specific descriptionKey when a generic flyer heading changes its pictured products.",
   "entries": {
+    "okologisk dansk persille eller basilikum": {
+      "categoryId": "vegetables",
+      "comparisonGroup": "mixed_fresh_herbs",
+      "productNameZh": "有机欧芹或罗勒盆栽香草任选",
+      "descriptionZh": "这是丹麦有机盆栽欧芹或罗勒二选一。欧芹带清新的草本味，适合切碎撒在土豆、汤、鱼肉和酱汁上；罗勒带甜香与轻微辛香，适合番茄、意面、披萨、沙拉或制作青酱。两种香草味道和用法不同，买回后放在明亮处并保持土壤微湿。",
+      "imageReviewed": false,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|to go marked|ready_meal|variant-091bcb29b2bf": {
+      "categoryId": "other_offers",
+      "comparisonGroup": "other_offer",
+      "productNameZh": "Dr. Oetker 柠檬奶酪甜点或 Latte Macchiato 冰咖啡任选",
+      "descriptionZh": "图片中的 To-go 任选是两类可直接享用的商品：Dr. Oetker Citron Fromage 为柠檬口味杯装奶酪慕斯甜点，口感轻盈、酸甜，用勺食用；Coffee & Milk Latte Macchiato 是牛奶比例较高、咖啡味柔和的即饮冰咖啡。一个是甜点、一个是饮料，不是方便主餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|elmarked|electronics_other|variant-2030606141dd": {
+      "categoryId": "home_appliances",
+      "comparisonGroup": "home_appliances",
+      "productNameZh": "咖啡机、电热水壶、搅拌机、磨豆机等厨房小家电任选",
+      "descriptionZh": "图片中的电器专区均为厨房小家电，包括滴滤咖啡机、电热水壶、台式搅拌机、电动咖啡磨豆机、奶泡机、三明治或帕尼尼压烤机，以及圆形煎烤类电器。每件任选价相同，但用途并不相同；应按需要的功能、容量、功率和实际型号选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "sol mar paellasaet": {
+      "categoryId": "other_offers",
+      "comparisonGroup": "other_offer",
+      "productNameZh": "SOL&MAR 西班牙海鲜饭锅具与食材套装",
+      "descriptionZh": "这不是做好的海鲜饭，而是一套 Paella 制作组合。图片显示套装包含双耳浅口 Paella 锅、大米、食用油和海鲜饭调味料；需要另备海鲜、鸡肉或蔬菜等配料，再按说明烹煮。适合想在家从原料制作西班牙海鲜饭、同时缺少专用浅锅的人。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "naemt to og server": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Næmt 冷冻迷你披萨佛卡夏、披萨卷或香肠酥卷任选",
+      "descriptionZh": "图片中的 Næmt 冷冻小吃包括 mini focaccia 迷你佛卡夏披萨、pizzasnegle 螺旋披萨卷、kyllingepølsehorn 鸡肉香肠酥卷和普通 pølsehorn 香肠酥卷。解冻后按包装加热，可作派对手指食物、午餐盒点心或简便加餐；四款馅料和肉类不同。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "adobe reserva eller yellow tail": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Adobe Reserva 或 Yellow Tail 智利、澳洲红白桃红葡萄酒任选",
+      "descriptionZh": "图片中的 Adobe Reserva 可选 Chardonnay 白葡萄酒、Carmenère 红葡萄酒和桃红酒；Yellow Tail 可选 Chardonnay、Shiraz、Moscato 与 Pink Moscato。Chardonnay 通常有柑橘、苹果或热带水果味，Carmenère 和 Shiraz 偏黑莓、李子与香料，Moscato 系列更芳香偏甜。喜欢清爽不甜可选 Chardonnay，喜欢浓郁红酒可选 Carmenère 或 Shiraz，喜欢易入口甜香可选 Moscato。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "savanha i boks": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Savanha 南非盒装红、白或桃红葡萄酒任选",
+      "descriptionZh": "Savanha 3 升盒装酒有 Shiraz/Pinotage 红葡萄酒、Chenin Blanc/Chardonnay 白葡萄酒和 Rosé 桃红酒。红款通常带成熟李子、黑莓和轻微香料感；白款以苹果、柑橘和热带水果为主，较清爽；桃红款偏红莓果香、冰镇后易入口。适合聚餐按口味选大包装，三款不是同一种酒。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "veronia i boks": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Veronia 意大利盒装红、白或桃红葡萄酒任选",
+      "descriptionZh": "Veronia 盒装酒可选 Vino Rosso 红葡萄酒、Vino Bianco 白葡萄酒或 Vino Rosato 桃红酒。红款通常有樱桃、李子等果味并带轻柔单宁；白款偏柑橘、苹果，口感清爽；桃红款带草莓或红莓果香，适合冰镇饮用。适合想要日常、容易搭餐的大包装酒，但应按颜色分别选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "1924 eller gotas de mar": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "1924 红白葡萄酒或 Gotas de Mar 西班牙干白任选",
+      "descriptionZh": "本期可选 1924 Double Black Old Vine Zinfandel 红葡萄酒、1924 Buttery Chardonnay 白葡萄酒，以及 Gotas de Mar Albariño 或 Ribeiro 白葡萄酒。Zinfandel 偏成熟黑莓、李子与香草烘烤味；Buttery Chardonnay 更圆润，有奶油、香草和熟果感；两款西班牙白酒更清脆，常见柑橘、白桃和矿物感。重口配烤肉选 Zinfandel，喜欢圆润白酒选 Chardonnay，配海鲜选 Gotas de Mar。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "guigal cuvee philipson blanc eller rouge": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Guigal Cuvée Philipson 罗讷河谷红葡萄酒或白葡萄酒任选",
+      "descriptionZh": "Guigal Cuvée Philipson 有 Rouge 红款与 Blanc 白款。罗讷红酒通常以 Grenache、Syrah 等品种呈现红黑水果、胡椒和南法香草气息，口感中等至饱满；白款通常带白桃、杏、花香和较圆润的质地。喜欢带香料感、适合烤肉的选红款；喜欢芳香柔和、配鱼或鸡肉的选白款。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "robert charton bordeaux charles aine fils rhone eller ch tanunda established": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Robert Charton 波尔多、Charles Aîné 罗讷或 Château Tanunda 澳洲葡萄酒任选",
+      "descriptionZh": "图片可选 Robert Charton Bordeaux 红酒或 Blanc de Blancs 白酒、Charles Aîné & Fils Côtes du Rhône 红酒，以及 Château Tanunda Cabernet Shiraz 红酒。波尔多红偏黑醋栗、李子和单宁，罗讷红偏红果、胡椒与香草，澳洲 Cabernet Shiraz 果味更成熟浓郁；Blanc de Blancs 则更清爽，有柑橘和白色水果味。适合先按红白与浓淡选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "ap eller casillero del diablo": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "AP 意大利葡萄酒或 Casillero del Diablo 智利葡萄酒任选",
+      "descriptionZh": "图片中的 AP 系列包括意大利 Mappo Rosso 红酒、白酒和桃红酒；Casillero del Diablo 可选 Cabernet Sauvignon 红酒或 Chardonnay 白酒。Cabernet 常见黑醋栗、黑樱桃与橡木香，Chardonnay 偏苹果、菠萝并带圆润口感；AP 红白桃红更适合作为日常易饮选择。喜欢果味与单宁选红款，喜欢清爽或冰镇饮用选白款、桃红款。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "mchogan s i boks": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "McHogan’s 澳洲盒装红、白或桃红葡萄酒任选",
+      "descriptionZh": "McHogan’s Great Australian Selection 3 升盒装酒可选 Red Selection 红酒、White Selection 白酒或 Rosé 桃红酒。红款通常果味成熟、带李子与浆果感；白款偏苹果、柑橘，较清爽；桃红款带草莓等红色水果香并适合冰镇。适合聚会或日常佐餐的大包装，按想要的颜色和风格选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "route 2 i boks": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Route 2 加州盒装红、白或桃红葡萄酒任选",
+      "descriptionZh": "Route 2 3 升盒装酒可选 Rubired Zinfandel 红酒、Chardonnay 白酒或 White Zinfandel 桃红酒。Rubired Zinfandel 通常有成熟莓果与微甜果酱感；Chardonnay 偏苹果、柑橘和圆润果味；White Zinfandel 桃红酒通常更甜、更轻盈，带草莓、西瓜等红果味。喜欢不太涩、易入口果味酒的人可按甜度和颜色选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "1908 appasionante rosso trapiche oak cask eller vidal fleury ventoux": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "1908 意大利红酒、Trapiche 橡木霞多丽或 Vidal-Fleury 罗讷红酒任选",
+      "descriptionZh": "1908 Appassionante Rosso 是意大利威尼托红酒，通常成熟果味浓、口感柔顺；Trapiche Oak Cask Chardonnay 是阿根廷橡木桶霞多丽，带熟苹果、热带水果、香草与奶油感；Vidal-Fleury Ventoux 是法国罗讷红酒，偏红莓、黑胡椒和南法香草。想要圆润白酒选 Trapiche，想配烤肉可在浓郁意大利红和更有香料感的罗讷红之间选。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "let it be": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Let It Be 西班牙红葡萄酒或白葡萄酒任选",
+      "descriptionZh": "Let It Be 西班牙酒有红、白两款。红款通常以成熟樱桃、李子等果味为主，单宁较温和，适合配披萨、意面或烤肉；白款通常带柑橘、苹果和白花香，冰镇后较清爽，适合海鲜、沙拉或单独饮用。该促销是红白任选，不应写成一种统一口味。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "hardys crest eller vina maipo i boks": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Hardy’s Crest 澳洲或 Viña Maipo 智利盒装红白葡萄酒任选",
+      "descriptionZh": "Hardy’s Crest 3 升盒装可选 Cabernet/Shiraz/Merlot 红酒或 Chardonnay/Sauvignon Blanc 白酒；Viña Maipo 图片款为 Chardonnay 白酒。红款通常带黑莓、李子和柔和香料，适合烤肉；Chardonnay 偏苹果、热带水果和圆润口感，Sauvignon Blanc 更偏柑橘、青草与清爽酸度，适合冰镇配海鲜或沙拉。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "1000 stories eller torres celeste crianza": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "1000 Stories 加州红白葡萄酒或 Torres Celeste 西班牙陈酿红酒任选",
+      "descriptionZh": "1000 Stories 可选 Bourbon Barrel-Aged Zinfandel 红酒或 Chardonnay 白酒；Torres Celeste Crianza 是西班牙 Ribera del Duero 陈酿红酒。桶陈 Zinfandel 果味浓，常有黑莓、香草、焦糖与烟熏感；Chardonnay 较圆润，带熟苹果、热带水果和烘烤香；Celeste Crianza 偏黑樱桃、李子、香料和橡木，单宁更明显。适合喜欢浓郁桶香风格的人。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "fortune cove eller veronia i boks": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Fortune Cove 新西兰白酒或 Veronia 意大利盒装红白酒任选",
+      "descriptionZh": "图片中的 Fortune Cove 是新西兰 Sauvignon Blanc 白葡萄酒，通常有葡萄柚、青柠、百香果和青草香，酸度清爽；Veronia 可选 Vino Rosso 红酒或 Vino Bianco 白酒，红款偏樱桃李子与柔和单宁，白款偏苹果柑橘。喜欢香气鲜明的清爽白酒可选 Fortune Cove，想要日常盒装红白酒可选 Veronia。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "santa rita eller mateus": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Santa Rita 120 智利红白桃红酒或 Mateus 葡萄牙桃红酒任选",
+      "descriptionZh": "Santa Rita 120 系列图片包含 Cabernet Sauvignon 红酒、Chardonnay 白酒和 Rosé 桃红酒；Mateus The Original Rosé 是葡萄牙半起泡感桃红酒。Cabernet 偏黑醋栗与香料，Chardonnay 偏苹果和热带水果，Santa Rita Rosé 较干爽有红莓果香；Mateus 更轻盈微甜、带细微气泡。喜欢清爽易饮桃红可选后两者，配肉可选 Cabernet。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "torres coronas esmeralda eller spier note": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Torres Coronas、Viña Esmeralda 或 Spier Signature 南非葡萄酒任选",
+      "descriptionZh": "Torres Coronas 是西班牙红葡萄酒，通常有樱桃、李子、香草和柔和橡木感；Viña Esmeralda 可见白酒与桃红酒，风格芳香、偏柑橘白花或红莓果香；Spier Signature 可选 Pinotage 红酒或 Chenin Blanc 白酒，Pinotage 偏深色浆果与烟熏香，Chenin Blanc 偏苹果、梨和热带水果。适合按红白桃红及想要的浓淡选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "la mancha": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Libertario La Mancha Tempranillo 西班牙红葡萄酒",
+      "descriptionZh": "图片中的酒是 Libertario，来自西班牙 La Mancha，葡萄品种为 Tempranillo。此类年轻红酒通常有樱桃、李子和少量甘草、香料气息，酒体中等，单宁不算厚重。适合喜欢干型、果味直接、价格亲民红酒的人，可配西班牙火腿、披萨、番茄肉酱意面或烤肉。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "genius premium edition": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Genius Premium Edition 意大利红葡萄酒",
+      "descriptionZh": "Genius Premium Edition 是意大利红葡萄酒。包装未标出具体葡萄，但这类南意风格通常以成熟黑樱桃、李子和香料味为主，酒体较饱满、酸度柔和，入口偏圆润。适合喜欢果味浓、涩感不过分强的红酒饮用者，可配披萨、肉酱意面、烤肉或硬质奶酪。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "grande alberone": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Grande Alberone 意大利盒装红葡萄酒",
+      "descriptionZh": "Grande Alberone 是 3 升意大利盒装红酒，图片可见常规 Rosso 与 Zinfandel 版本。风格通常偏成熟黑莓、黑樱桃、李子和甜香料，酒体圆润饱满、酸度不尖锐；Zinfandel 版本果酱感会更明显。适合喜欢浓郁易饮红酒、聚餐需要大包装的人，可配烧烤、披萨或浓味意面。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "la cuvee": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "La Cuvée 盒装红、白或桃红葡萄酒任选",
+      "descriptionZh": "La Cuvée 3 升盒装酒可选 Vin Rouge 红酒、Vin Blanc 白酒或 Vin Rosé 桃红酒。红款通常有樱桃、李子等果味和温和单宁；白款偏苹果、柑橘，较清爽；桃红款带草莓、红莓果香，适合冰镇。属于日常聚餐大包装，三种颜色口味不同，应按菜肴与个人喜好选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "cono sur bicicleta reserva": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Cono Sur Bicicleta Reserva 智利白葡萄酒任选",
+      "descriptionZh": "图片可见 Cono Sur Bicicleta Reserva Chardonnay 与 Riesling，促销文字说明还有其他款式。Chardonnay 通常带苹果、梨和热带水果味，口感较圆润；Riesling 更芳香，常有青苹果、柑橘和花香，酸度更鲜明，部分批次可能带少量残糖。适合喜欢清爽白酒的人，Chardonnay 配鸡肉，Riesling 配亚洲菜或微辣食物。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "santa luna eller okologisk augustina": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Santa Luna 智利或 Augustina 有机西班牙盒装葡萄酒任选",
+      "descriptionZh": "3 升盒装葡萄酒可选智利 Santa Luna 或西班牙 Augustina ØKO 有机系列，图片与促销文字均提示有多种红白款式。红款通常偏成熟莓果、李子与柔和单宁，适合烤肉和意面；白款通常偏苹果、柑橘、清爽酸度，适合海鲜和沙拉。购买时按包装颜色与葡萄品种选择，不能把两个系列写成一种味道。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "la cuvee eller paddy s creek": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "La Cuvée 或 Paddy’s Creek 澳洲盒装红白葡萄酒任选",
+      "descriptionZh": "La Cuvée 可选红、白盒装酒；Paddy’s Creek 可选澳洲 Red Blend 红酒或 White Blend 白酒。红款一般偏成熟莓果、李子与柔和香料，适合披萨、肉酱意面或烧烤；白款偏苹果、柑橘和热带水果，冰镇后较清爽，适合鸡肉、海鲜或沙拉。均为 3 升聚餐大包装，需按红白分别选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|santa rita|alcohol_wine_mixed_offer|variant-58983ecd0c2b": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Santa Rita 120 智利红、白或桃红葡萄酒任选",
+      "descriptionZh": "图片中的 Santa Rita 120 Reserva Especial 可选 Chardonnay、Coastal Sauvignon Blanc、Cabernet Sauvignon 和 Rosé。Chardonnay 果味圆润，Sauvignon Blanc 柑橘草本、酸度清爽，Cabernet 有黑醋栗、李子和单宁，Rosé 带草莓等红莓果香。喜欢清爽配海鲜选 Sauvignon Blanc，圆润白酒选 Chardonnay，配肉选 Cabernet，轻松冰饮选 Rosé。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "auguste bessac ernst ludwig jean marie garnier eller the wild life": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Auguste Bessac、Ernst Ludwig、Jean-Marie Garnier 或 The Wild Life 葡萄酒任选",
+      "descriptionZh": "图片包含多种风格：Auguste Bessac Côtes du Rhône 红酒偏红果、胡椒与香草；Ernst Ludwig Riesling 白酒偏柑橘、青苹果和花香；法国 Chardonnay 较圆润；Jean-Marie Garnier 起泡酒清爽有气泡；The Wild Life Riesling 芳香清脆；Pinot Noir 红酒偏樱桃、覆盆子且单宁较轻。可按红、白或起泡及想要的浓淡选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "ernst ludwig star eller uno grande bag in box": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Ernst Ludwig Riesling、Star 红酒或 Uno Grande Appassimento 盒装酒任选",
+      "descriptionZh": "Ernst Ludwig Riesling 是芳香型德国白酒，常有青苹果、柑橘和花香；Star Limited Edition 是盒装红酒，通常偏成熟浆果和柔和香料；Uno Grande Appassimento 使用风干葡萄风格，红款果味浓、带葡萄干与甜香料，白款则更圆润成熟。喜欢清爽白酒选 Riesling，喜欢浓郁柔顺红酒可选 Appassimento 或 Star。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "kung fu girl francois martenot bourgogne guigal cuvee philipson eller pago de fuentecojo": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Kung Fu Girl、勃艮第、Guigal 罗讷或 Pago de Fuentecojo 葡萄酒任选",
+      "descriptionZh": "Kung Fu Girl 是美国 Riesling，偏青柠、白桃和花香；François Martenot Bourgogne 可选轻盈樱桃味 Pinot Noir 红酒或苹果柑橘味 Chardonnay 白酒；Guigal Cuvée Philipson 是带红果、胡椒和香草气息的罗讷红酒；Pago de Fuentecojo 是西班牙红酒，通常更偏黑樱桃、李子和单宁。想要芳香白酒选 Riesling，细腻轻盈选勃艮第，配烤肉选后两款红酒。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "enzo bartoli italiensk rodvin 75 cl": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Enzo Bartoli 皮埃蒙特 Albarossa 或 Barbera d’Asti 红葡萄酒任选",
+      "descriptionZh": "本期可选 Enzo Bartoli Piemonte Albarossa DOC 或 Barbera d’Asti DOCG。Albarossa 通常颜色深、带黑樱桃、李子和香料，酒体较饱满；Barbera d’Asti 以鲜明酸度、樱桃和红李子果味见长，单宁通常较柔和。喜欢更浓郁深色果味可选 Albarossa，喜欢酸爽开胃、配番茄意面可选 Barbera。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "candeline alpes de haute provence igp": {
+      "categoryId": "alcohol_wine_rose_sparkling",
+      "comparisonGroup": "alcohol_wine_rose",
+      "productNameZh": "Candeline Alpes de Haute-Provence 有机桃红葡萄酒",
+      "descriptionZh": "Candeline 是法国 Alpes-de-Haute-Provence IGP 有机桃红葡萄酒。普罗旺斯风格桃红通常颜色浅，带草莓、覆盆子、白桃、柑橘和轻微草本香，口感干爽、酸度清新。适合喜欢不甜、轻盈桃红酒的人，充分冰镇后可配沙拉、海鲜、烤蔬菜或作为夏日开胃酒。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "mentor white": {
+      "categoryId": "alcohol_wine_white",
+      "comparisonGroup": "alcohol_wine_white",
+      "productNameZh": "Mentor White 葡萄牙白葡萄酒",
+      "descriptionZh": "Mentor White 是葡萄牙白葡萄酒。图片未标出葡萄品种，但葡萄牙日常干白通常以柑橘、青苹果、梨和白花香为主，酸度清爽、酒体轻至中等。适合喜欢不甜、容易搭餐白酒的人，冰镇后可配烤鱼、海鲜、沙拉、鸡肉或清淡奶酪。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "seleccion del hermanito ribera del jucar": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Selección del Hermanito Ribera del Júcar 西班牙红葡萄酒",
+      "descriptionZh": "Selección del Hermanito 来自西班牙 Ribera del Júcar，是经过橡木桶熟化的红葡萄酒。当地红酒通常带黑樱桃、李子、甘草、香草和烘烤香，酒体中等至饱满，单宁比普通日常红酒更明显。适合喜欢干型、有桶香和结构感红酒的人，可配牛羊肉、烤肉或熟成奶酪。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|dark horse|alcohol_wine_mixed_offer|variant-b8f36f163feb": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "Dark Horse 加州 Chardonnay、Pinot Grigio、Zinfandel 或 Cabernet 任选",
+      "descriptionZh": "Dark Horse 本期可选 Chardonnay、Pinot Grigio、Zinfandel 和 Cabernet Sauvignon。Chardonnay 偏熟苹果、热带水果与圆润口感；Pinot Grigio 更轻盈，有柑橘和梨味；Zinfandel 果味浓，常见黑莓、李子和香料；Cabernet 偏黑醋栗、深色水果和单宁。喜欢清爽白酒选 Pinot Grigio，圆润白酒选 Chardonnay，浓郁红酒选后两款。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "south african bay cape eller okologisk augustina": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "South African Bay Cape 或 Augustina 有机盒装红白葡萄酒任选",
+      "descriptionZh": "South African Bay Cape 可选南非 Cape Red 红酒或 Cape White 白酒；Augustina ØKO 是西班牙有机盒装红白酒。南非红款通常偏成熟浆果与柔和香料，白款偏苹果、柑橘和热带水果；Augustina 红款更偏樱桃李子，白款清爽易饮。均为 3 升大包装，适合聚餐，但应按红白和配餐需求选择。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "matsu el recio 14 50": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Matsu El Recio 西班牙 Toro 陈酿红葡萄酒",
+      "descriptionZh": "Matsu El Recio 来自西班牙 Toro，主要使用当地 Tempranillo（Tinta de Toro）葡萄。典型风味是成熟黑莓、黑樱桃、李子、可可、香草与烘烤香，酒体饱满、单宁扎实但成熟。适合喜欢浓郁、有力量和桶陈风味红酒的人，建议稍醒酒后配牛排、羊肉、炖肉或硬质奶酪。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "san felice vigorello": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "San Felice Vigorello 托斯卡纳混酿红葡萄酒",
+      "descriptionZh": "San Felice Vigorello 是托斯卡纳干型混酿红酒，也是当地较早出现的“超级托斯卡纳”风格酒款之一；不同年份混酿比例会变化。典型风味为黑樱桃、李子、紫罗兰、烟草、可可与橡木香，酒体饱满、酸度和单宁都有存在感。适合喜欢不甜、结构扎实、带桶陈复杂度红酒的人，可醒酒后配牛排、炖牛肉或熟成奶酪。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "leone marrone rosso italiano": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Leone Marrone Rosso Italiano 意大利红葡萄酒",
+      "descriptionZh": "Leone Marrone Rosso Italiano 是意大利日常干红。酒标未写明单一葡萄品种，因此说明以风格为准：通常带成熟樱桃、李子、干草本和少量甜香料，酒体中等、单宁较柔和。适合想要果味直接、容易配餐红酒的人，可搭配披萨、番茄肉酱意面、烤香肠或半硬质奶酪。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "astrale vino rosso": {
+      "categoryId": "alcohol_wine_red",
+      "comparisonGroup": "alcohol_wine_red",
+      "productNameZh": "Astrale Vino Rosso 意大利红葡萄酒",
+      "descriptionZh": "Astrale Vino Rosso 是意大利干红，酒款强调成熟、浓郁的南意果香风格。通常可感受到黑樱桃、李子、黑莓、甘草和甜香料，酒体较饱满、入口圆润。适合喜欢果味浓、酸涩不过分尖锐红酒的人，可配烧烤、炖肉、披萨或浓味意面。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "seleccion del hermanito blanco": {
+      "categoryId": "alcohol_wine_white",
+      "comparisonGroup": "alcohol_wine_white",
+      "productNameZh": "Selección del Hermanito Blanco 西班牙白葡萄酒",
+      "descriptionZh": "Selección del Hermanito Blanco 是西班牙白葡萄酒。酒标未标出单一葡萄品种，整体属于清爽日常干白风格，通常带柠檬、青苹果、梨、白花和轻微热带水果味，酸度中等。适合喜欢不甜、易入口白酒的人，冰镇后可配海鲜、烤鱼、鸡肉、沙拉或西班牙小吃。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|coop asiatisk marked|ready_meal|variant-19a16bb5b6a0": {
+      "categoryId": "pantry",
+      "comparisonGroup": "mixed_grocery_offer",
+      "productNameZh": "Coop 寿司海苔、面包糠与亚洲调味酱任选",
+      "descriptionZh": "本期图片中的 Coop 亚洲食品包括寿司海苔、日式 Panko 面包糠、甜辣酱、Sriracha 辣椒酱和辣椒酱膏。海苔用于卷寿司，Panko 用于裹炸，瓶装及罐装酱用于蘸食或给炒菜调味；这些不是同一种方便餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|coop faerdigret|ready_meal|variant-57a681df8c31": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Coop 咖喱肉丸饭、丹麦肉糜烤肉餐或辣味素食餐任选",
+      "descriptionZh": "本期图片显示三款 Coop 冷冻一人份主餐：Boller i karry med ris 是咖喱肉丸配米饭；Forloren hare med kartofler og sauce 是丹麦肉糜烤肉配土豆和酱汁；Brændende kærlighed 为土豆泥搭配配料的丹麦家常菜，本图包装标示为素食款。三款均按包装充分加热后食用。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|coop faerdigret|ready_meal|variant-cc9982faaefa": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Coop 咖喱肉丸饭、牛猪肉末酱土豆泥或肉酱千层面任选",
+      "descriptionZh": "本期图片显示三款 Coop 冷冻一人份主餐：Boller i karry med ris 是咖喱肉丸配米饭；Millionbøf med okse- og grisekød 是牛猪混合肉末棕色肉汁配土豆泥；Lasagne Bolognese 是番茄肉酱千层面。三款均按包装用微波炉、烤箱或空气炸锅充分加热。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|food collective familleret|ready_meal|variant-713d89dcd49d": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Food Collective 肉酱意面或番茄马斯卡彭鸡肉通心粉家庭餐",
+      "descriptionZh": "Food Collective 3–4 人份冷藏家庭餐二选一：Spaghetti Bolognese 是番茄肉酱意大利面；Penne Chicken Mascarpone & Tomato 是鸡肉、番茄与马斯卡彭奶酪酱通心粉，口感更奶油浓郁。整盒按包装用烤箱或微波炉加热后分食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|food collective familleret|ready_meal|variant-713b1481d590": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Food Collective 肉酱意面或番茄马斯卡彭鸡肉通心粉家庭餐",
+      "descriptionZh": "Food Collective 3–4 人份冷藏家庭餐二选一：Spaghetti Bolognese 是番茄肉酱意大利面；Penne Chicken Mascarpone & Tomato 是鸡肉、番茄与马斯卡彭奶酪酱通心粉，口感更奶油浓郁。整盒按包装用烤箱或微波炉加热后分食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|frost marked|ready_meal|variant-38efee172759": {
+      "categoryId": "prepared_meat_mixed",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Salling 冷冻 Gyros 调味烤肉或 Köfte 肉饼任选",
+      "descriptionZh": "本期图片显示 Salling Gyros 和 Köfte 两种冷冻调味肉制品。Gyros 是带香料的烤肉片或肉条，适合煎热后夹皮塔饼；Köfte 是中东或土耳其风味香料肉饼，适合煎烤后配沙拉、米饭或饼。两款肉形态不同，均需彻底加热。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|to go marked|ready_meal|variant-e9971e42cb18": {
+      "categoryId": "other_offers",
+      "comparisonGroup": "other_offer",
+      "productNameZh": "Dr. Oetker 柠檬奶酪甜点或 Latte Macchiato 冰咖啡任选",
+      "descriptionZh": "本期图片中的 To go 任选包含两类商品：Dr. Oetker Citron Fromage 是带柠檬酸香、质地轻盈的杯装奶酪慕斯甜点；Latte Macchiato 是以牛奶和咖啡为主的即饮冰咖啡。一个用勺吃、一个直接饮用，并不是方便主餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|frostmarked|ready_meal|variant-b90e37a48caa": {
+      "categoryId": "prepared_meat_mixed",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Salling 冷冻鸡肉 Gyros 或羊肉 Kebab 任选",
+      "descriptionZh": "本期图片显示 Salling 冷冻 Gyros 鸡肉和 Lammekebab 羊肉 Kebab。鸡肉 Gyros 带地中海香料，煎热后可夹皮塔饼；羊肉 Kebab 肉味更浓、带中东香料感，可配米饭、沙拉或卷饼。两款肉种不同，均需彻底加热。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|steff houlberg faerdigret eller protein lab faerdigret|ready_meal|variant-20d944c52210": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Steff Houlberg 丹麦家常餐或 Protein Lab 高蛋白肉酱意面任选",
+      "descriptionZh": "图片中的 Steff Houlberg 选项包括贝阿恩酱肉饼配豌豆和土豆、猪里脊炖菜等大份冷冻家常餐；Protein Lab 选项为加入豆类、西兰花等配菜的高蛋白肉酱意面。前者偏传统肉菜套餐，后者更强调蛋白质组成，均按包装加热后作为一餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|santa maria asiatisk marked|ready_meal|variant-2c08fcbebb7c": {
+      "categoryId": "pantry",
+      "comparisonGroup": "mixed_grocery_offer",
+      "productNameZh": "Santa Maria 包子、蛋面、椰奶或亚洲调味酱任选",
+      "descriptionZh": "本期图片中的 Santa Maria 亚洲食品包括蒸包用 Bao 面饼、蛋面、椰奶，以及照烧酱、蚝油、甜辣酱、鱼露和 Sambal Oelek 辣椒酱。面饼和蛋面是主食材料，椰奶用于咖喱，瓶罐调料分别提供甜咸、鲜味、甜辣、咸鲜或辣味；它们不是同一道成品餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|youcook faerdigretter|ready_meal|variant-5b8e363ddb53": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "YouCook 凯撒鸡肉意面、芒果鸡饭或黄油鸡饭任选",
+      "descriptionZh": "YouCook 420 克一人份成品餐任选：Pasta Caesar Chicken 是奶油凯撒风味鸡肉意面；Mango Chicken 是带芒果甜酸果香的印度风味鸡肉饭；Butter Chicken 是番茄、黄油和香料构成的浓郁印度鸡肉饭。均可按包装快速加热，三款酱汁和主食风格不同。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|gestus middagsretter|ready_meal|variant-361471aca5e0": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Gestus 肉酱意面、培根蛋酱宽面或鸡肉通心粉等主餐任选",
+      "descriptionZh": "本期图片显示 Gestus 400 克成品主餐，包括瑞典香肠餐、Tagliatelle Carbonara 培根蛋酱宽面、Spaghetti Bolognese 番茄肉酱意面和番茄马斯卡彭鸡肉通心粉。均按包装加热；喜欢奶油咸香可选 Carbonara，喜欢番茄肉酱可选 Bolognese，鸡肉通心粉口感更柔和奶香。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|gestus taerte panderetter eller middagsretter|ready_meal|variant-72c83a50424a": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Gestus 丹麦肉饼、肉丸、土豆肉丁杂烩或咸派任选",
+      "descriptionZh": "本期图片中的冷冻选项包括 Middagsfrikadeller 丹麦煎肉饼、Middagskødboller 肉丸、Klassisk Biksemad 土豆肉丁杂烩，以及火腿培根或鸡肉西兰花咸派。肉饼和肉丸适合配酱汁与土豆，Biksemad 是平底锅式家常杂烩，咸派用烤箱加热后切片食用。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
     "protein lab protein sandwich": {
       "categoryId": "bread_bakery",
       "comparisonGroup": "bread",
@@ -267,9 +715,9 @@
     "brunch": {
       "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
-      "productNameZh": "Brunch 早午餐商品",
-      "descriptionZh": "促销原名只写 Brunch，表示早午餐相关的即食或方便餐商品。具体内容、是否需要加热以及过敏原信息需按门店标签和包装确认。",
-      "descriptionSpecVersion": "zh-product-v4"
+      "productNameZh": "多人份完整早午餐套餐",
+      "descriptionZh": "这是按人数预订的完整早午餐套餐，包含美式煎饼、蜂蜜、培根、早餐香肠、Brie 奶酪、烟熏猪里脊冷切、肝酱、果酱、肉卷冷切、炒蛋和切片奶酪；面包与黄油不包含在套餐内，需要另购。",
+      "descriptionSpecVersion": "zh-product-v6"
     },
     "grillbakke": {
       "categoryId": "kitchenware",

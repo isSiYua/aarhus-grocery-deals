@@ -1210,7 +1210,7 @@ const PRIORITY_FOOD_FORM = [
   ['prepared_meat', 'prepared_pork_marinated', /grillspyd med gris og grontsager/],
   ['frozen_ready', 'ready_meal', /salling eller michelle kristensen faerdigret i glas/],
   ['frozen_ready', 'mixed_grocery_offer', /vitasia foraarsruller.*samosa.*dessert i glas/],
-  ['frozen_ready', 'ready_meal', /vitasia dessert i glas/],
+  ['biscuits_cakes', 'biscuits', /vitasia dessert i glas/],
   ['flowers_plants', 'flower_bouquet', /flerfarvet krysantemum i skaal/],
   ['home_kitchen', 'home_storage', /bestikbakke/],
   ['seafood', 'seafood_breaded', /indbagt fisk/],
@@ -1298,6 +1298,7 @@ const clothingGroup = text => {
 };
 
 const leisureGroup = text => {
+  if (/boost my bag noglering|\bnoglering\b/.test(text) && !/taske.*(?:med|inkl).*noglering/.test(text)) return 'leisure_other';
   if (/\belbil\b|rideon|offroader|buggy|\batv\b|gaffeltruck.*batteri|gravemaskine.*batteri|porsche taycan|bmw m4|range rover|rescue truck/.test(text)) return 'leisure_ride_on';
   if (/elcykel|\be[- ](?:city|cargo|fresh|gravel|metropolis|modern|mtb|patron|short john|street|stylish|uni|browse)\b|\b(?:cykel|tandem|lobecykel|loebecykel)\b|\b(?:hjul|stel).*(?:gear|bremse)|\b\d{2}.*hjul.*stel.*daek/.test(text)) return 'leisure_bicycles';
   if (/cykelhjelm|skaterhjelm|lader til elbil/.test(text)) return /lader til elbil/.test(text) ? 'electronics_charging' : 'leisure_bike_accessories';
@@ -1451,7 +1452,8 @@ export function classifyOffer(raw) {
     ['leisure', 'leisure_sports', /guardian fodboldmaal/],
     ['leisure', 'leisure_crafts_learning', /craftncreate sytraad|knitpro.*strikkepinde|strompegarn|bomuldsgarn|akrylgarn|rutiner/],
     ['leisure', 'leisure_toys', /unicorn eller dino saebebobler|spand graveredskaber eller saebeboblesvaerd|uno flex/],
-    ['leisure', 'leisure_bags', /my small bag|shopper|boost my bag noglering/],
+    ['leisure', 'leisure_bags', /my small bag|shopper/],
+    ['leisure', 'leisure_other', /boost my bag noglering/],
     ['electronics', 'electronics_computer', /trust ivy traadlos mus/],
     ['electronics', 'electronics_other', /^elmarked\b/],
     ['prepared_meat', 'mixed_grocery_offer', /lun lordag.*kamsteg.*frikadeller.*fiskefilet/],

@@ -11,6 +11,17 @@ const normalize = value => String(value || '')
 const title = (pattern, nameZh) => [pattern, nameZh];
 
 const DANISH_PRODUCT_FORM_TITLES = [
+  title(/^pudebamse bamse$/, '60或80厘米毛绒抱枕玩具任选'),
+  title(/boost my bag noglering/, 'Boost-my-bag 彩色装饰钥匙扣'),
+  title(/pokemon mini taske/, '宝可梦角色迷你随身包'),
+  title(/san felice campogiovanni brunello/, 'San Felice Campogiovanni 蒙塔奇诺布鲁奈罗红酒'),
+  title(/diamond hill eller casa nostra bag in box/, 'Diamond Hill 或 Casa Nostra 盒装红白葡萄酒任选'),
+  title(/rahbek fish chips.*lakselasagne.*indbagte blaeksprutteringe/, 'Rahbek 炸鱼薯条、三文鱼千层面或裹粉鱿鱼圈任选'),
+  title(/vitasia dessert i glas/, 'VITASIA 百香果芒果杯装甜点'),
+  title(/^grillpolse med ost$/, '奶酪夹心烧烤香肠'),
+  title(/hojer chorizo brunchpols(?:e|er).*steff houlberg bacon/, 'Højer 辣味早餐小香肠或 Steff Houlberg 培根任选'),
+  title(/steff houlberg brunchpolser eller bacon i skiver/, 'Steff Houlberg 早餐小香肠或培根片任选'),
+  title(/hojer spegepolse brunchpolser eller roget morbrad/, 'Højer 风干香肠、早餐小香肠或烟熏猪里脊任选'),
   title(/silvercrest elkedel.*smoothie maker/, 'SILVERCREST 电热水壶或随行搅拌机任选'),
   title(/depend neglefil.*kiss naturlige vipper/, '美甲锉或自然款假睫毛任选'),
   title(/murph proteinbar.*energi gel/, 'Murph 蛋白棒、麦片棒或运动能量胶任选'),
@@ -638,6 +649,18 @@ const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
 ]);
 
 const SPECIFIC_DESCRIPTIONS = [
+  [/^pudebamse bamse$/, '这是两款柔软填充玩具任选：粉色海星造型的 Pudebamse 约 60 厘米，可抱靠或作房间摆设；浅色小熊 Bamse 约 80 厘米，可供儿童拥抱玩耍。两款都是毛绒玩具，不是被子或枕芯。'],
+  [/boost my bag noglering/, '这是挂在书包、钥匙或拉链上的 Boost-my-bag 装饰钥匙扣，可选不同颜色和造型，用来辨认并装饰自己的包。商品只是小型挂饰，不是书包本体，也不用于装电脑。'],
+  [/pokemon mini taske/, '这是宝可梦角色造型迷你随身包，可选皮卡丘、妙蛙种子或小火龙等款式；约 10.5 × 8.5 厘米，只适合装硬币、钥匙、耳机等小物，并配有挂扣。它不是能装课本或电脑的书包。'],
+  [/san felice campogiovanni brunello/, 'San Felice Campogiovanni Brunello di Montalcino 是意大利托斯卡纳以 Sangiovese 酿成的干型红酒。这一风格通常有酸樱桃、红李子、干香草、烟草与皮革气息，酸度鲜明、单宁结实，酒体比普通 Chianti 更饱满。适合喜欢不甜、有结构和陈年风味红酒的人，可配炖牛肉、烤羊肉、牛排或熟成硬奶酪。'],
+  [/diamond hill eller casa nostra bag in box/, '这是 3 升盒装葡萄酒二选一：Diamond Hill 提供美国红葡萄酒或白葡萄酒，Casa Nostra Appassimento 是偏浓郁的意大利红酒。Diamond Hill 白酒通常更清爽果香，红酒偏柔和红黑水果；Appassimento 由较成熟或风干葡萄酿制，常带熟李子、葡萄干和甜香料感。想配海鲜和轻食可选白酒，喜欢浓郁果味并搭配披萨、烤肉可选红酒。'],
+  [/rahbek fish chips.*lakselasagne.*indbagte blaeksprutteringe/, 'Rahbek 冷冻主餐或海鲜小食三选一：Fish & Chips 是裹粉鱼块配薯条，烤热后外酥内嫩；Lakselasagne 是三文鱼奶油酱千层面，口感较浓郁；Indbagte Blæksprutteringe 是裹粉鱿鱼圈，适合空气炸锅或烤箱加热后蘸酱。三款主体和吃法不同。'],
+  [/vitasia dessert i glas/, 'VITASIA 杯装甜点以百香果和芒果调味，带明显热带水果酸甜味，开杯后用勺直接食用，适合作为小份餐后甜品。它不是方便主餐，也不是玻璃杯商品。'],
+  [/^grillpolse med ost$/, '这是加入奶酪的烧烤香肠，煎烤加热后奶酪会融化，肉香中带咸香奶味；适合夹热狗面包、配土豆沙拉或作为烧烤主食。应充分加热，并留意切开时热奶酪可能烫口。'],
+  [/hojer chorizo brunchpols(?:e|er).*steff houlberg bacon/, '本期可选 Højer Chorizo 风味早餐小香肠或 Steff Houlberg 培根。Chorizo 小香肠带红椒与香料味，适合煎熟后配鸡蛋；培根是带烟熏咸香的猪肉片，煎脆后可作早餐或三明治配料。两者形态和风味不同。'],
+  [/steff houlberg brunchpolser eller bacon i skiver/, '可选 Steff Houlberg 早餐小香肠或切片培根。早餐肠口感多汁、适合整根煎烤后配鸡蛋和面包；培根片咸香带烟熏味，可煎脆后作早餐、汉堡或意面配料。两款均需充分加热。'],
+  [/hojer spegepolse brunchpolser eller roget morbrad/, 'Højer 三种猪肉制品任选：Spegepølse 是发酵风干香肠，可薄切冷吃；Brunchpølser 是早餐小香肠，需煎烤；Røget mørbrad 是烟熏猪里脊，肉质较瘦，可切片作冷盘或三明治。适合按冷吃还是热食选择。'],
+  [/^brunch\b/, '这是按人数预订的完整早午餐套餐，包含美式煎饼、蜂蜜、培根、早餐香肠、Brie 奶酪、烟熏猪里脊冷切、肝酱、果酱、肉卷冷切、炒蛋和切片奶酪；面包与黄油不包含在套餐内，需要另购。'],
   [/silvercrest elkedel.*smoothie maker/, '这是两种厨房电器任选：2200 W、1.7 L 的电热水壶用于烧水；300 W 随行搅拌机用于把水果、酸奶等打成 smoothie。两者功能完全不同，应按实际需要和包装中的杯具配件选择。'],
   [/depend neglefil.*kiss naturlige vipper/, '这是美甲锉或自然款假睫毛任选。美甲锉用于修整指甲边缘，假睫毛用于眼妆并需搭配适用胶水；购买时确认所选款式、是否含胶及一次性或可重复使用说明。'],
   [/murph proteinbar.*energi gel/, '这是 Murph 蛋白棒、麦片能量棒或运动能量胶任选。蛋白棒侧重便携补充蛋白质，麦片棒侧重碳水零食，能量胶适合长时间耐力运动中快速补充碳水；三者不是同一种营养品，应按包装查看每份蛋白质、糖和咖啡因。'],
@@ -1337,6 +1360,24 @@ function alcoholIdentity(originalName, originalDescription, comparisonGroup) {
     descriptionZh: '这是跨酒种任选促销，可能同时包含清爽微苦的啤酒、果香和单宁不同的葡萄酒、酒感较强的烈酒，以及甜酸有气泡的果味预调酒。它们味道、饮法和酒精度差异很大，应按原名先选酒种，再看具体品牌与风味，不能用同一模板概括。',
   };
   if (comparisonGroup === 'alcohol_spirits') {
+    if (/spiritusmarked/.test(text)) {
+      const groups = [];
+      const add = (label, pattern, detail) => { if (pattern.test(text)) groups.push(`${label}（${detail}）`); };
+      add('伏特加', /absolut|smirnoff|koskenkorva|stoli|vodka/, '味道较中性清爽，适合兑果汁或汽水');
+      add('金酒', /bombay|monkey 47|hendrick|beefeater|bulldog|gordon|aviation|malfy|tanqueray|\bgin\b/, '以杜松、柑橘和草本香为主，常配汤力水');
+      add('威士忌', /gentleman jack|jameson|bushmills|johnnie walker|ballantine|jack daniel|grant|whisk/, '偏焦糖、香草、谷物和橡木香，可纯饮或加冰');
+      add('朗姆酒', /don papa|bacardi|havana|captain morgan|hansen|diplomatico|\brom\b/, '有甘蔗、焦糖或香料感，适合兑可乐或调酒');
+      add('北欧香料酒', /akvavit|o p anderson|taffel/, '以葛缕子等草本辛香为主，常冰镇配冷盘');
+      add('草本苦味酒', /campari|fernet|gammel dansk|enkelt bitter|bitter/, '苦甜并带草本、橙皮或香料味，适合作开胃或餐后酒');
+      add('甜味利口酒', /kahlua|dooleys|amarula|licor 43|malibu|pisang ambon|limoncino|bailey|raastoff|pure shots|flugel|fisk raw|glitter fisk/, '可能偏咖啡、奶油、椰子、水果或香草甜味，适合加冰或调甜味鸡尾酒');
+      add('干邑白兰地', /martell|cognac/, '偏葡萄干、香草、香料和橡木味，适合小口饮用');
+      add('龙舌兰酒', /sierra tequila|tequila/, '带龙舌兰、柑橘和胡椒感，可配青柠或调 Margarita');
+      const named = String(originalDescription || '').split(/\.\s*(?:Pr\.|Max\.|Literpris|PR\.)/i)[0].trim();
+      return {
+        titleZh: groups.length ? `${groups.map(item => item.split('（')[0]).join('、')}任选` : '多种烈酒或利口酒任选',
+        descriptionZh: `${named ? `本期原文列出的选择为：${named}。` : ''}${groups.length ? `其中包括${groups.join('；')}。` : '本期包含风味不同的蒸馏酒或利口酒。'}应先按品牌和酒种选择，不能把这些商品理解成同一种味道。`,
+      };
+    }
     if (/jack daniels/.test(text)) return {
       titleZh: 'Jack Daniel’s 田纳西威士忌',
       descriptionZh: 'Jack Daniel’s Old No. 7 风格的田纳西威士忌，典型为焦糖、香草和橡木香，口感偏圆润微甜。适合喜欢美式威士忌甜香的人，可加冰、加可乐或用于经典威士忌调酒；40% 酒精度，未成年人及驾车前后不要饮用。',
@@ -1390,7 +1431,9 @@ function alcoholIdentity(originalName, originalDescription, comparisonGroup) {
     if (/moscato/.test(text)) return { titleZh: '莫斯卡托芳香型葡萄酒', descriptionZh: 'Moscato（莫斯卡托）通常带葡萄、桃子、橙花和蜂蜜香，口感偏甜，有些款带轻微气泡。适合喜欢甜口、低苦涩和花果香的人，可冰镇后配水果、蛋糕或辛辣小食。' };
     if (/chablis|macon|mâcon/.test(text)) return { titleZh: '法国勃艮第霞多丽白葡萄酒', descriptionZh: 'Chablis 或 Mâcon 白葡萄酒以 Chardonnay 为主。Chablis 通常更清瘦、带柠檬和矿物感，Mâcon 往往更圆润、带苹果和白桃；适合喜欢干型白酒的人，可配贝类、鱼或鸡肉。' };
     if (/sancerre/.test(text)) return { titleZh: '法国 Sancerre 长相思白葡萄酒', descriptionZh: 'Sancerre 通常以 Sauvignon Blanc 酿造，风格干爽，带柠檬、青苹果、青草和矿物感。适合喜欢高酸、克制果香与清爽收口的人，可配山羊奶酪、贝类和白身鱼。' };
-    if (/chianti|brunello|sangiovese/.test(text)) return { titleZh: '意大利 Sangiovese 红葡萄酒', descriptionZh: 'Chianti 或 Brunello 以 Sangiovese 为主，常见酸樱桃、红李子、干香草、香料和皮革气息，酸度较高、单宁从中等到有力。适合喜欢不甜、配餐型红酒的人，可配番茄意面、牛羊肉和硬奶酪。' };
+    if (/san felice campogiovanni brunello/.test(text)) return { titleZh: 'San Felice Campogiovanni 蒙塔奇诺布鲁奈罗红酒', descriptionZh: 'San Felice Campogiovanni Brunello di Montalcino 是意大利托斯卡纳以 Sangiovese 酿成的干型红酒。这一风格通常有酸樱桃、红李子、干香草、烟草与皮革气息，酸度鲜明、单宁结实，酒体比普通 Chianti 更饱满。适合喜欢不甜、有结构和陈年风味红酒的人，可配炖牛肉、烤羊肉、牛排或熟成硬奶酪。' };
+    if (/brunello/.test(text)) return { titleZh: '意大利蒙塔奇诺布鲁奈罗红葡萄酒', descriptionZh: 'Brunello di Montalcino 以 Sangiovese 酿成，通常有酸樱桃、红李子、干香草、烟草和皮革味，酸度鲜明、单宁结实、酒体较饱满。适合喜欢不甜、有结构和陈年风味红酒的人，可配炖牛肉、烤羊肉和熟成硬奶酪。' };
+    if (/chianti|sangiovese/.test(text)) return { titleZh: '意大利 Sangiovese 红葡萄酒', descriptionZh: 'Chianti 等 Sangiovese 红酒常见酸樱桃、红李子、干香草和香料气息，酸度较高、单宁中等。适合喜欢不甜、清爽配餐型红酒的人，可配番茄意面、披萨、烤肉和硬奶酪。' };
     if (/cotes du rhone|cote du rhone|rhône/.test(text)) return { titleZh: '法国罗讷河谷红葡萄酒', descriptionZh: 'Côtes du Rhône 红酒通常以 Grenache、Syrah 等混酿，带熟红莓、黑莓、黑胡椒和南法香草味。适合喜欢果香与辛香平衡、不过分厚重红酒的人，可配烤肉、香肠和炖菜。' };
     if (/ripasso|valpolicella/.test(text)) return { titleZh: '意大利 Valpolicella Ripasso 红葡萄酒', descriptionZh: 'Valpolicella Ripasso 通常带樱桃、李子、葡萄干、香料和柔和木桶味，酒体比普通 Valpolicella 更饱满。适合喜欢成熟果香但不想要 Amarone 那么厚重的人，可配烤肉、意面和熟成奶酪。' };
     if (/spatburgunder/.test(text)) return { titleZh: '德国黑皮诺红葡萄酒', descriptionZh: 'Spätburgunder 是德国黑皮诺，通常带红樱桃、草莓、香料和轻微泥土气息，酒体较轻、单宁柔和。适合不喜欢厚重涩口红酒的人，可配烤鸡、蘑菇和冷切。' };
@@ -1412,6 +1455,11 @@ function alcoholIdentity(originalName, originalDescription, comparisonGroup) {
     return { titleZh: '多款啤酒任选', descriptionZh: '本期为多款啤酒任选；浅色拉格通常清爽麦香，IPA 更苦并有柑橘或热带水果啤酒花香，深色或修道院风格会更有焦糖和烘烤味。应按原名选择喜欢的风格，而不是只看酒精度和容量。' };
   }
   if (comparisonGroup === 'alcohol_cider_rtd') {
+    if (/somersby.*breezer.*smirnoff|breezer.*smirnoff/.test(text)) return {
+      titleZh: /somersby/.test(text) ? 'Somersby 苹果酒、Breezer 与 Smirnoff Ice 预调酒任选' : 'Breezer 或 Smirnoff Ice 果味预调酒任选',
+      descriptionZh: `${/somersby/.test(text) ? 'Somersby 是带苹果甜酸和气泡感的苹果酒；' : ''}Breezer 是以朗姆酒为基底的水果预调酒，常见橙味等明亮果香；Smirnoff Ice 是伏特加基底的柠檬或水果味气泡预调酒，口感清爽偏甜。都适合充分冰镇、喜欢果味明显且不喜欢啤酒苦味的人，但基酒与具体口味不同。`,
+    };
+    if (/smirnoff ice(?: original)?$/.test(normalize(originalName))) return { titleZh: 'Smirnoff Ice 柠檬风味伏特加预调酒', descriptionZh: 'Smirnoff Ice Original 是伏特加基底的柠檬柑橘风味气泡预调酒，甜酸、清爽且酒感较轻，充分冰镇后直接饮用。适合喜欢类似柠檬汽水口感、但希望带少量酒精的人；若包装标有 Raspberry 等字样则是对应水果口味。' };
     if (/somersby|cider/.test(text) && !/breezer|smirnoff|mokai|shaker/.test(text)) return { titleZh: '果味苹果酒', descriptionZh: '这是以苹果酒为基础的果味酒饮，通常酸甜、有气泡，水果味明显、苦味较低。适合喜欢冰镇甜爽口感、不喜欢啤酒苦味的人；具体苹果、莓果或其他口味按瓶罐选择。' };
     return { titleZh: '果味预调酒或苹果酒任选', descriptionZh: '这是已经调好、可冰镇直接饮用的果味酒饮，通常带柑橘、莓果或热带水果甜酸味和气泡感。适合喜欢酒感较轻、果味明显的人；不同款的基酒、甜度与实际酒精度应按瓶罐确认。' };
   }
@@ -1526,7 +1574,6 @@ function collectUsefulFactsZh(originalDescription, comparisonGroup, originalName
   if (/flere varianter|frit valg/.test(text)) {
     if (comparisonGroup.startsWith('clothing_')) add('有多种款式或颜色可选');
     else if (/^(?:drink_|alcohol_)/.test(comparisonGroup)) add('有多种口味或品种可选');
-    else if (/^(?:home_|electronics_|leisure_)/.test(comparisonGroup)) add('有多个款式或型号可选');
     else if (comparisonGroup === 'other_offer') add('同一促销包含多个选项');
     else add('有多个选项可选');
   }

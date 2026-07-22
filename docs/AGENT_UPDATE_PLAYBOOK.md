@@ -55,6 +55,8 @@ npm run validate
 5. 用来源商品 ID、稳定商品身份和促销周期去重；同一连锁促销不按每个门店重复展示。
 6. 用 `descriptionKey` 查询仓库中已经审核的中文名称、解释和分类。
 7. 已知商品直接复用，不因促销 ID、日期、图片或门店变化重复调用 AI。
+   - 普通明确商品以标准化原名和严格比价小类作为稳定身份，因此同一商品跨门店、跨星期和跨促销 ID 可直接复用。
+   - `Spiritusmarked`、`Elmarked`、`To-go marked` 等通用栏目名必须再纳入去除价格/日期噪声后的选项文字；文字仍不足时纳入促销图片签名。这样同一组商品仍可复用，不同图片或不同选项不会错误共用一份说明。
 8. 真正未见过或有歧义的商品写入 `data/product_descriptions_pending.json` 与 `data/product_taxonomy_pending.json`，暂缓公开。
 9. 成功读取的促销源若不再包含上一期商品，旧促销从 `current_offers.json` 移入 `history.json`；不会继续伪装为当前优惠。
 10. 执行测试、分类审计、隐私审计和数据校验。任一失败都不得部署。

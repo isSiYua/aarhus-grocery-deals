@@ -12,6 +12,7 @@ const warnings = [];
 const fail = (offer, message) => errors.push(`${message}: ${offer.originalName}`);
 const legacyGenericZh = /商品（请核对原名）|其他家居用品|其他电子电器|其他休闲、户外或兴趣用品|成人服饰或鞋袜|儿童服饰或鞋袜|请按原名|请按原始商品名|购买前请确认|购买时请确认年龄段|具体功能以商品原名|具体用途由商品原名|具体品种以原名|原名为准|因商品而异|需按原名/;
 const dangerousDescriptionTemplate = /预制方便餐。方便餐或预制菜|这是汽水，可直接饮用的碳酸软饮|这是烈酒或利口酒，酒精度较高的蒸馏酒或甜味酒|这是电脑或网络设备，用于学习、办公、存储或网络连接。有多个款式或型号可选/;
+const evasiveProductCopy = /公开文字没有|不能负责任|应先从原名和图片确认|有多个款式或型号可选|肉种或具体形态不明确|购买时按原名/;
 
 const expectedLeadingCategories = ['vegetables', 'fruit', 'chicken', 'minced_meat', 'pork_fresh', 'beef', 'seafood'];
 const actualLeadingCategories = aarhus.categories.slice(0, expectedLeadingCategories.length).map(category => category.id);
@@ -54,6 +55,7 @@ for (const offer of aarhus.offers) {
   if (ITEM_DESCRIPTION_META_PATTERN.test(offer.zhExplanation || '')) fail(offer, '商品说明混入了比价系统规则');
   if (legacyGenericZh.test(`${offer.productNameZh || ''} ${offer.zhExplanation || ''}`)) fail(offer, '仍在使用空泛的旧版中文模板');
   if (dangerousDescriptionTemplate.test(offer.zhExplanation || '')) fail(offer, '仍在使用会掩盖商品身份的通用描述模板');
+  if (evasiveProductCopy.test(offer.zhExplanation || '')) fail(offer, '商品说明仍把识别工作推给用户');
   if (/silvercrest elkedel.*smoothie maker/.test(name)
       && (offer.comparisonGroup !== 'home_appliances' || !/电热水壶.*搅拌机/.test(`${offer.productNameZh} ${offer.zhExplanation}`))) {
     fail(offer, '厨房电器被 smoothie 关键词误判为饮料');
@@ -178,7 +180,7 @@ for (const [categoryId, count] of categoryCounts) {
 }
 
 for (const [key, override] of Object.entries(overrides)) {
-  const matches = aarhus.offers.filter(offer => normalizedText(offer.originalName) === key);
+  const matches = aarhus.offers.filter(offer => normalizedText(offer.originalName) === key || offer.descriptionKey === key);
   if (override.status === 'excluded') {
     if (matches.length) errors.push(`已排除商品仍出现在页面：${key}`);
     continue;
