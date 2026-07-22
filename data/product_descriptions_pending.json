@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T01:52:51.518Z",
-  "count": 173,
+  "generatedAt": "2026-07-22T02:12:57.555Z",
+  "count": 172,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -1510,7 +1510,7 @@
       "stores": [
         "365"
       ],
-      "occurrences": 1
+      "occurrences": 2
     },
     {
       "descriptionKey": "v1|rod merrild|coffee_tea",
@@ -2199,19 +2199,6 @@
       "comparisonGroup": "chicken_breast",
       "stores": [
         "365"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|xtra marineret kyllinge bryst med citron rosmarin eller bbq|chicken_other",
-      "originalName": "Xtra! marineret kyllinge-bryst med citron/ rosmarin eller bbq",
-      "sampleDescriptions": [
-        "375 g. Kg-pris 104,00. Frit valg. 1 pakke."
-      ],
-      "categoryId": "chicken",
-      "comparisonGroup": "chicken_other",
-      "stores": [
-        "kvickly"
       ],
       "occurrences": 1
     },

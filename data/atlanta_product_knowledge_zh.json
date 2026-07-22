@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T02:08:18.497Z",
+  "updatedAt": "2026-07-22T02:13:07.684Z",
   "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -1313,8 +1313,7 @@
       "evidence": {
         "originalNameReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/427648329/1784214241/extra_large.jpg"
-      },
-      "descriptionSpecVersion": "zh-product-v4"
+      }
     },
     "good gathertm 52 oz ultra filtered milk": {
       "originalName": "Good & Gather™ 52-oz. ultra-filtered milk.",
