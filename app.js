@@ -189,6 +189,28 @@ const shoppingOfferKey = offer => offer.productKey || offer.canonicalKey;
 const shoppingEntry = offer => locationShopping()[shoppingOfferKey(offer)] || null;
 const shoppingCount = () => Object.values(locationShopping()).filter(entry => entry.status === 'wanted').length;
 
+function orderedCategoryIds(offers) {
+  const present = new Set(offers.map(offer => offer.categoryId).filter(Boolean));
+  const configured = activeCategories().map(category => category.id).filter(id => present.has(id));
+  const configuredSet = new Set(configured);
+  const unknown = [...present]
+    .filter(id => !configuredSet.has(id))
+    .sort((a, b) => String(a).localeCompare(String(b), 'zh-CN'));
+  return [...configured, ...unknown];
+}
+
+function shoppingTotal(offers) {
+  const priced = offers.filter(offer => Number.isFinite(offer.price));
+  const value = priced.reduce((sum, offer) => sum + offer.price, 0);
+  const currency = priced.find(offer => offer.currency)?.currency || (isAarhusLocation() ? 'DKK' : 'USD');
+  return {
+    value,
+    display: currency === 'USD' ? usd(value) : money(value),
+    pricedCount: priced.length,
+    missingCount: offers.length - priced.length,
+  };
+}
+
 const dataFileForLocation = locationId => locationId === 'atlanta-westside'
   ? 'data/atlanta_offers.json'
   : 'data/current_offers.json';
@@ -680,7 +702,7 @@ function atlantaStoresView() {
 function atlantaStoreView(storeId) {
   const store = ATLANTA_STORES.find(item => item.id === storeId) || ATLANTA_STORES[0];
   const offers = atlantaOffers().filter(offer => offer.storeId === store.id);
-  const categoryIds = [...new Set(offers.map(offer => offer.categoryId))];
+  const categoryIds = orderedCategoryIds(offers);
   const flyer = state.atlantaData?.flyers?.find(item => item.storeId === store.id);
   return el('main', { class: 'content', style: `--store-color:${store.color}` }, [
     el('section', { class: 'store-hero' }, [
@@ -1228,8 +1250,8 @@ function storesView() {
 function storeView(storeId) {
   const store = storeById(storeId) || activeStores()[0];
   const offers = currentOffers().filter(o => o.storeId === store.id);
-  const categoryIds = [...new Set(offers.map(o => o.categoryId))];
-  const catChips = el('div', { class: 'chip-row' }, categoryIds.map(id => {
+  const categoryIds = orderedCategoryIds(offers);
+  const catChips = el('div', { class: 'chip-row store-category-chips' }, categoryIds.map(id => {
     const c = categoryById(id);
     return el('button', { class: 'chip', onClick: () => document.getElementById(`store-${store.id}-${id}`)?.scrollIntoView({ block: 'start' }) }, `${c?.emoji || '🛒'} ${c?.nameZh || id}`);
   }));
@@ -1311,8 +1333,12 @@ function shoppingListView() {
   const entries = locationShopping();
   const allOffers = currentOffers().filter(offer => entries[shoppingOfferKey(offer)]);
   const visibleOffers = filterOffersByStore(allOffers);
+  const allWanted = allOffers.filter(offer => entries[shoppingOfferKey(offer)]?.status === 'wanted');
+  const allCompleted = allOffers.filter(offer => entries[shoppingOfferKey(offer)]?.status === 'done');
   const wanted = visibleOffers.filter(offer => entries[shoppingOfferKey(offer)]?.status === 'wanted');
   const completed = visibleOffers.filter(offer => entries[shoppingOfferKey(offer)]?.status === 'done');
+  const total = shoppingTotal(allWanted);
+  const visibleTotal = shoppingTotal(wanted);
   const availableKeys = new Set(allOffers.map(shoppingOfferKey));
   const unavailableCount = Object.keys(entries).filter(key => !availableKeys.has(key)).length;
 
@@ -1342,9 +1368,19 @@ function shoppingListView() {
     el('section', { class: 'hero shopping-hero' }, [
       el('h2', {}, '我的购物清单'),
       el('p', {}, '先按商店规划路线，再逐项打勾。清单只保存在这台设备的浏览器中，不会上传。'),
+      el('div', { class: 'shopping-total', 'aria-live': 'polite' }, [
+        el('span', {}, '当前已选合计'),
+        el('strong', {}, total.display),
+        el('small', {}, [
+          `按本期仍显示的 ${total.pricedCount} 项促销价、每项各买 1 份估算`,
+          total.missingCount ? `；另有 ${total.missingCount} 项价格待确认` : '',
+          '；会员价和多件价条件以商品卡片为准。',
+        ]),
+      ]),
       el('div', { class: 'hero-meta' }, [
-        el('span', { class: 'hero-pill' }, `${wanted.length} 项待购买`),
-        el('span', { class: 'hero-pill' }, `${completed.length} 项已买到`),
+        el('span', { class: 'hero-pill' }, `${allWanted.length} 项待购买`),
+        el('span', { class: 'hero-pill' }, `${allCompleted.length} 项已买到`),
+        state.storeFilter ? el('span', { class: 'hero-pill shopping-filter-total' }, `当前商店 ${wanted.length} 项 · ${visibleTotal.display}`) : null,
       ]),
     ]),
     storeFilterBar(allOffers, '只看准备去的商店'),

@@ -79,6 +79,11 @@ a { color: inherit; }
 .store-filter-row { padding-bottom: 7px; }
 .store-filter-chip { border-color: color-mix(in srgb, var(--store-color) 45%, var(--border)); }
 .store-filter-chip.active { background: var(--store-color); border-color: var(--store-color); }
+.shopping-total { min-width: min(100%, 360px); margin-top: 18px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 4px 16px; border: 1px solid rgba(255,255,255,.22); border-radius: 18px; padding: 13px 15px; background: rgba(255,255,255,.12); box-shadow: inset 0 1px 0 rgba(255,255,255,.12); }
+.shopping-total span { align-self: center; font-size: 13px; font-weight: 850; }
+.shopping-total strong { color: #fff2c5; font-size: 29px; line-height: 1; letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
+.shopping-total small { grid-column: 1 / -1; margin-top: 3px; color: rgba(255,255,255,.78); font-size: 10px; line-height: 1.55; }
+.shopping-filter-total { background: rgba(255,242,197,.18); }
 
 .page-head { padding: 20px; background: #315f51; border-radius: 24px; color: white; background: linear-gradient(135deg, var(--page-color, #315f51), color-mix(in srgb, var(--page-color, #315f51) 70%, black)); box-shadow: var(--shadow); }
 .page-head .kicker { text-transform: uppercase; letter-spacing: .11em; font-size: 11px; font-weight: 900; opacity: .82; }
@@ -91,6 +96,9 @@ a { color: inherit; }
 .category-content .group-head { position: sticky; top: calc(var(--topbar-height, 0px) + 6px); z-index: 15; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-left: -4px; margin-right: -4px; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--page-color, #315f51) 35%, var(--border)); border-radius: 15px; background: color-mix(in srgb, #fffdf8 94%, var(--page-color, #315f51)); box-shadow: 0 6px 18px rgba(25,45,38,.10); }
 .group-head h3 { margin: 0; font-size: 19px; letter-spacing: -.02em; }
 .group-head p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
+.store-category-chips { margin-top: 2px; padding: 4px 2px 10px; }
+.store-category-section > .group-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--store-color, var(--green)) 30%, var(--border)); border-left: 5px solid var(--store-color, var(--green)); border-radius: 15px; background: color-mix(in srgb, #fffdf8 95%, var(--store-color, var(--green))); box-shadow: 0 5px 16px rgba(25,45,38,.07); }
+.store-category-section > .group-head p { margin: 0; flex: none; }
 .group-count { flex: none; border-radius: 999px; padding: 6px 9px; background: var(--page-color, #315f51); color: white; font-size: 11px; font-weight: 900; }
 .offer-list { display: grid; gap: 12px; }
 .offer-card { border: 1px solid var(--border); background: var(--card); border-radius: 22px; padding: 17px; box-shadow: 0 6px 20px rgba(25,45,38,.065); position: relative; overflow: hidden; }
@@ -343,6 +351,9 @@ a { color: inherit; }
   .lowest-dialog-nav span { grid-column:1 / -1; grid-row:1; }
 
   .store-category-section { scroll-margin-top: 10px; }
+  .store-category-section > .group-head { position: sticky; top: 4px; z-index: 16; padding: 8px 10px; border-radius: 13px; }
+  .shopping-total { margin-top: 14px; padding: 12px 13px; }
+  .shopping-total strong { font-size: 26px; }
   .store-category-float { position: fixed; z-index: 42; left: 50%; bottom: calc(var(--bottom-nav-height, 0px) + 12px); width: min(520px, calc(100% - 20px)); max-height: min(62dvh, 520px); display: grid; grid-template-rows: auto minmax(0, 1fr) auto; padding: 10px; border: 1px solid color-mix(in srgb, var(--store-color, var(--green)) 28%, var(--border)); border-radius: 22px; background: color-mix(in srgb, rgba(255,253,248,.96) 96%, var(--store-color, var(--green))); box-shadow: 0 22px 70px rgba(15,34,28,.30), 0 3px 14px rgba(15,34,28,.10); backdrop-filter: blur(20px); opacity: 0; pointer-events: none; transform: translate(-50%, 14px) scale(.985); transition: opacity .14s ease, transform .16s cubic-bezier(.22,.8,.2,1), bottom .18s ease; }
   .store-category-float.open { opacity: 1; pointer-events: auto; transform: translate(-50%, 0) scale(1); }
   .store-category-float-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 3px 3px 9px 7px; }

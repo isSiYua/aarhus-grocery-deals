@@ -16,6 +16,18 @@ test('shopping list is local, store-filterable, and keeps completed items recove
   assert.match(appSource, /onToggle: event => \{ state\.completedListOpen = event\.currentTarget\.open; \}/);
   assert.match(appSource, /nextView === 'shopping' && previousView !== 'shopping'/);
   assert.match(appSource, /storeFilterBar\(allOffers, '只看准备去的商店'\)/);
+  assert.match(appSource, /function shoppingTotal\(offers\)/);
+  assert.match(appSource, /当前已选合计/);
+  assert.match(appSource, /每项各买 1 份估算/);
+  assert.match(appSource, /const allWanted = allOffers\.filter/);
+  assert.match(styleSource, /\.shopping-total \{/);
+});
+
+test('store pages follow the configured homepage category order', () => {
+  assert.match(appSource, /function orderedCategoryIds\(offers\)/);
+  assert.match(appSource, /activeCategories\(\)\.map\(category => category\.id\)\.filter\(id => present\.has\(id\)\)/);
+  assert.equal((appSource.match(/const categoryIds = orderedCategoryIds\(offers\);/g) || []).length, 2);
+  assert.match(styleSource, /\.store-category-section > \.group-head \{/);
 });
 
 test('global price comparison separates current/upcoming minima and exposes all ties in a modal', () => {
