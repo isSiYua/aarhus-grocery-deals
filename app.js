@@ -7,14 +7,15 @@ const state = {
   touchStartY: null,
   touchStartedInControl: false,
   locationId: null,
-  storeFilter: null,
+  storeFilters: [],
   shopping: {},
   completedListOpen: false,
   chrome: { topHidden: false, bottomHidden: false },
-  reader: { categoryId: null, storeFilter: null, index: 0 },
+  reader: { categoryId: null, storeFilterKey: '', index: 0 },
   readerTransitioning: false,
   suppressReaderClickUntil: 0,
   refresh: { status: 'idle', locationId: null, checkedAt: null, error: null },
+  readerStoreFilterOpen: false,
 };
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
@@ -283,7 +284,7 @@ function setShoppingStatus(offer, status) {
   };
   state.shopping = { ...state.shopping, [state.locationId]: entries };
   saveShopping();
-  updateShoppingQuantityUi(offer);
+  render({ preserveScroll: true });
 }
 
 function updateShoppingQuantityUi(offer) {
@@ -322,7 +323,7 @@ function updateShoppingQuantityUi(offer) {
   const filtered = totalBar?.querySelector('.shopping-total-filtered');
   if (number) number.textContent = total.amount;
   if (summary) summary.textContent = `${allWanted.length} 项商品 · 合计 ${total.quantity} 份${total.missingCount ? ` · ${total.missingCount} 项价格待确认` : ''}`;
-  if (filtered) filtered.textContent = `当前商店 ${visibleWanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`;
+  if (filtered) filtered.textContent = `已选 ${state.storeFilters.length} 家商店 · ${visibleWanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`;
 }
 
 function updateShoppingQuantity(offer, change) {
@@ -342,11 +343,24 @@ function updateShoppingQuantity(offer, change) {
   };
   state.shopping = { ...state.shopping, [state.locationId]: entries };
   saveShopping();
-  render({ preserveScroll: true });
+  updateShoppingQuantityUi(offer);
 }
 
 function filterOffersByStore(offers) {
-  return state.storeFilter ? offers.filter(offer => offer.storeId === state.storeFilter) : offers;
+  if (!state.storeFilters.length) return offers;
+  const selected = new Set(state.storeFilters);
+  return offers.filter(offer => selected.has(offer.storeId));
+}
+
+const hasStoreFilters = () => state.storeFilters.length > 0;
+const storeFilterKey = () => state.storeFilters.join(',');
+const priceScopeLabel = () => hasStoreFilters() ? '已选商店' : '全局';
+
+function storeFilterSummary(offers) {
+  if (!hasStoreFilters()) return `全部商店 · ${offers.length} 项`;
+  const names = state.storeFilters.map(id => storeById(id)?.name || id);
+  const label = names.length <= 2 ? names.join(' + ') : `已选 ${names.length} 家商店`;
+  return `${label} · ${filterOffersByStore(offers).length} 项`;
 }
 
 const offerPeriod = offer => new Date(offer.validFrom) > now() ? 'upcoming' : 'current';
@@ -357,7 +371,8 @@ function globalPriceComparison(offer) {
   const unit = String(offer.unitPriceUnit || '');
   if (!Number.isFinite(offer.unitPriceValue) || !/(?:\/kg|\/L)$/.test(unit)) return null;
   const period = offerPeriod(offer);
-  const candidates = currentOffers().filter(candidate =>
+  const scopedOffers = filterOffersByStore(currentOffers());
+  const candidates = scopedOffers.filter(candidate =>
     candidate.comparisonGroup === offer.comparisonGroup &&
     candidate.currency === offer.currency &&
     candidate.unitPriceUnit === unit &&
@@ -377,7 +392,7 @@ function globalPriceComparison(offer) {
   const bestOffers = comparable.filter(candidate => Math.abs(metric(candidate) - minimum) <= tolerance);
   let currentMinimum = null;
   if (period === 'upcoming') {
-    const currentCandidates = currentOffers().filter(candidate =>
+    const currentCandidates = scopedOffers.filter(candidate =>
       candidate.comparisonGroup === offer.comparisonGroup &&
       candidate.currency === offer.currency &&
       candidate.unitPriceUnit === unit &&
@@ -392,8 +407,8 @@ function globalPriceComparison(offer) {
   return {
     isBest,
     label: period === 'upcoming'
-      ? `${futureBetter ? '下期新低' : '下期最低'}单位价`
-      : '本期全局最低单位价',
+      ? `${futureBetter ? '下期新低' : `下期${priceScopeLabel()}最低`}单位价`
+      : `本期${priceScopeLabel()}最低单位价`,
     ties: bestOffers.length,
     bestOffers,
     difference,
@@ -523,8 +538,12 @@ function parseRoute() {
   state.route.view = nextView;
   state.route.id = params.get('id');
   state.search = params.get('q') || '';
-  const requestedStore = params.get('store');
-  state.storeFilter = activeStores().some(store => store.id === requestedStore) ? requestedStore : null;
+  const requestedStores = (params.get('stores') || params.get('store') || '')
+    .split(',')
+    .map(id => id.trim())
+    .filter(Boolean);
+  const available = new Set(activeStores().map(store => store.id));
+  state.storeFilters = [...new Set(requestedStores)].filter(id => available.has(id));
 }
 function go(view, id = null, extra = {}) {
   if (isMobileReadingMode()) {
@@ -532,15 +551,19 @@ function go(view, id = null, extra = {}) {
   }
   const p = new URLSearchParams({ view });
   if (id) p.set('id', id);
-  if (!Object.hasOwn(extra, 'store') && state.storeFilter && ['home', 'categories', 'category', 'shopping', 'search'].includes(view)) {
-    p.set('store', state.storeFilter);
+  if (!Object.hasOwn(extra, 'stores') && hasStoreFilters() && ['home', 'categories', 'category', 'shopping', 'search'].includes(view)) {
+    p.set('stores', storeFilterKey());
   }
   Object.entries(extra).forEach(([k, v]) => v !== null && v !== undefined && v !== '' && p.set(k, v));
   location.hash = p.toString();
 }
 
 function setStoreFilter(storeId) {
-  go(state.route.view, state.route.id, { q: state.search, store: storeId });
+  const selected = new Set(state.storeFilters);
+  if (!storeId) selected.clear();
+  else if (selected.has(storeId)) selected.delete(storeId);
+  else selected.add(storeId);
+  go(state.route.view, state.route.id, { q: state.search, stores: [...selected].join(',') });
 }
 
 function syncChromeLayout() {
@@ -604,19 +627,28 @@ function storeFilterBar(offers, title = '按商店筛选') {
   return el('section', { class: 'store-filter-panel', 'aria-label': title }, [
     el('div', { class: 'filter-label' }, [
       el('strong', {}, title),
-      el('span', {}, state.storeFilter ? `${storeById(state.storeFilter)?.name || state.storeFilter} · ${filterOffersByStore(offers).length} 项` : `全部商店 · ${offers.length} 项`),
+      el('span', {}, storeFilterSummary(offers)),
     ]),
     el('div', { class: 'chip-row store-filter-row' }, [
-      el('button', { class: `chip${state.storeFilter ? '' : ' active'}`, onClick: () => setStoreFilter(null) }, `全部 ${offers.length}`),
+      el('button', {
+        class: `chip${hasStoreFilters() ? '' : ' active'}`,
+        type: 'button',
+        'aria-pressed': String(!hasStoreFilters()),
+        onClick: () => setStoreFilter(null),
+      }, `全部 ${offers.length}`),
       ...stores.map(store => {
         const count = offers.filter(offer => offer.storeId === store.id).length;
+        const selected = state.storeFilters.includes(store.id);
         return el('button', {
-          class: `chip store-filter-chip${state.storeFilter === store.id ? ' active' : ''}`,
+          class: `chip store-filter-chip${selected ? ' active' : ''}`,
+          type: 'button',
+          'aria-pressed': String(selected),
           style: `--store-color:${store.color}`,
           onClick: () => setStoreFilter(store.id),
-        }, `${store.name} ${count}`);
+        }, `${selected ? '✓ ' : ''}${store.name} ${count}`);
       }),
     ]),
+    el('p', { class: 'store-filter-help' }, '可同时选择多家；再次点击可取消。价格与最低价只在已选商店之间比较。'),
   ]);
 }
 
@@ -685,8 +717,9 @@ function locationCard(location) {
     class: `location-card${selected ? ' selected' : ''}`,
     onClick: () => {
       state.locationId = location.id;
+      state.storeFilters = [];
       localStorage.setItem(LOCATION_KEY, location.id);
-      go('home');
+      go('home', null, { stores: '' });
     },
   }, [
     el('strong', {}, location.label),
@@ -853,16 +886,19 @@ function visibleCategories(offers = currentOffers()) {
 }
 
 function categoriesView() {
-  const cats = visibleCategories();
+  const allOffers = currentOffers();
+  const offers = filterOffersByStore(allOffers);
+  const cats = visibleCategories(offers);
   return el('main', { class: 'content' }, [
     sectionTitle('商品分类', '点击一类进入；手机上左右滑动逐件翻商品'),
+    storeFilterBar(allOffers, '选择要比较的商店'),
     el('div', { class: 'quick-grid' }, cats.map(c => {
-      const offers = currentOffers().filter(o => o.categoryId === c.id);
-      const stores = new Set(offers.map(o => o.storeId)).size;
+      const categoryOffers = offers.filter(o => o.categoryId === c.id);
+      const stores = new Set(categoryOffers.map(o => o.storeId)).size;
       return el('button', { class: 'quick-card', onClick: () => go('category', c.id) }, [
         el('span', { class: 'emoji' }, c.emoji),
         el('strong', {}, c.nameZh),
-        el('span', {}, `${offers.length} 项 · ${stores} 家商店`),
+        el('span', {}, `${categoryOffers.length} 项 · ${stores} 家商店`),
       ]);
     })),
     footerNote(),
@@ -884,7 +920,7 @@ function categoryView(categoryId) {
       el('div', { class: 'kicker' }, '商品分类'),
       el('h2', {}, `${category.emoji} ${category.nameZh}`),
       el('p', {}, category.descriptionZh),
-      el('span', { class: 'page-counter' }, `第 ${index + 1} 类 / 共 ${cats.length} 类 · ${offers.length} 项${state.storeFilter ? '（已筛选）' : ''}`),
+      el('span', { class: 'page-counter' }, `第 ${index + 1} 类 / 共 ${cats.length} 类 · ${offers.length} 项${hasStoreFilters() ? `（${state.storeFilters.length} 家商店）` : ''}`),
     ]),
     storeFilterBar(allOffers),
     ...groups.map(([groupId, groupOffersList]) => renderGroup(groupId, groupOffersList)),
@@ -901,8 +937,8 @@ function mobileCategoryReader(category, allOffers, groups) {
     groupCount: groupOffersList.length,
     offer,
   })));
-  if (state.reader.categoryId !== category.id || state.reader.storeFilter !== state.storeFilter) {
-    state.reader = { categoryId: category.id, storeFilter: state.storeFilter, index: 0 };
+  if (state.reader.categoryId !== category.id || state.reader.storeFilterKey !== storeFilterKey()) {
+    state.reader = { categoryId: category.id, storeFilterKey: storeFilterKey(), index: 0 };
   }
   state.reader.index = Math.max(0, Math.min(state.reader.index, Math.max(0, pages.length - 1)));
   const current = pages[state.reader.index];
@@ -997,6 +1033,7 @@ function attachReaderGroupPicker(main) {
     requestAnimationFrame(() => picker.querySelector('.reader-group-option.active')?.scrollIntoView({ block: 'nearest' }));
   });
   storeFilter?.addEventListener('toggle', () => {
+    state.readerStoreFilterOpen = storeFilter.open;
     if (storeFilter.open) picker?.removeAttribute('open');
   });
 }
@@ -1004,17 +1041,28 @@ function attachReaderGroupPicker(main) {
 function mobileReaderStoreFilter(offers) {
   const stores = activeStores().filter(store => offers.some(offer => offer.storeId === store.id));
   if (stores.length < 2) return null;
-  return el('details', { class: 'reader-store-filter' }, [
-    el('summary', {}, `商店：${state.storeFilter ? storeById(state.storeFilter)?.name || state.storeFilter : '全部商店'} ▾`),
+  return el('details', {
+    class: 'reader-store-filter',
+    open: state.readerStoreFilterOpen ? '' : null,
+  }, [
+    el('summary', {}, `商店：${hasStoreFilters() ? `已选 ${state.storeFilters.length} 家` : '全部商店'} ▾`),
     el('div', { class: 'chip-row' }, [
-      el('button', { class: `chip${state.storeFilter ? '' : ' active'}`, onClick: () => setStoreFilter(null) }, `全部 ${offers.length}`),
+      el('button', {
+        class: `chip${hasStoreFilters() ? '' : ' active'}`,
+        type: 'button',
+        'aria-pressed': String(!hasStoreFilters()),
+        onClick: () => setStoreFilter(null),
+      }, `全部 ${offers.length}`),
       ...stores.map(store => {
         const count = offers.filter(offer => offer.storeId === store.id).length;
+        const selected = state.storeFilters.includes(store.id);
         return el('button', {
-          class: `chip store-filter-chip${state.storeFilter === store.id ? ' active' : ''}`,
+          class: `chip store-filter-chip${selected ? ' active' : ''}`,
+          type: 'button',
+          'aria-pressed': String(selected),
           style: `--store-color:${store.color}`,
           onClick: () => setStoreFilter(store.id),
-        }, `${store.name} ${count}`);
+        }, `${selected ? '✓ ' : ''}${store.name} ${count}`);
       }),
     ]),
   ]);
@@ -1410,14 +1458,14 @@ function searchView() {
     state.search = e.target.value;
     const p = new URLSearchParams({ view: 'search' });
     if (state.search) p.set('q', state.search);
-    if (state.storeFilter) p.set('store', state.storeFilter);
+    if (hasStoreFilters()) p.set('stores', storeFilterKey());
     history.replaceState(null, '', `#${p}`);
   });
   input.addEventListener('keydown', e => { if (e.key === 'Enter') render(); });
   return el('main', { class: 'content' }, [
     el('div', { class: 'search-panel' }, [input, el('p', { class: 'search-hint' }, '同时搜索商品原名、中文解释、商店名称。中文解释不会折叠。')]),
     query ? storeFilterBar(allResults) : null,
-    query ? sectionTitle(`找到 ${results.length} 项`, '最低价按全部商店计算；切换商店后仍保留全局最低提示') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
+    query ? sectionTitle(`找到 ${results.length} 项`, hasStoreFilters() ? `最低价与差价按已选 ${state.storeFilters.length} 家商店计算` : '最低价与差价按全部商店计算') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
     query ? el('div', { class: 'offer-list' }, [...results].sort(compareOffers).map(o => offerCard(o))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
     footerNote(),
   ]);
@@ -1479,11 +1527,11 @@ function shoppingListView() {
         el('span', { class: 'shopping-total-number' }, total.amount),
         total.currency === 'DKK' ? el('span', { class: 'shopping-total-unit' }, 'DKK') : null,
       ]),
-      state.storeFilter ? el('em', { class: 'shopping-total-filtered' }, `当前商店 ${wanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`) : null,
+      hasStoreFilters() ? el('em', { class: 'shopping-total-filtered' }, `已选 ${state.storeFilters.length} 家商店 · ${wanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`) : null,
     ]),
     storeFilterBar(allOffers, '只看准备去的商店'),
     unavailableCount > 0 ? el('div', { class: 'status-banner' }, `${unavailableCount} 项旧优惠已不在本期数据中，暂不显示；不会影响当前清单。`) : null,
-    sectionTitle(`${wanted.length} 项待购买`, wanted.length ? '已按商店分组；商品上的最低价仍按全部商店计算' : '浏览商品时点击“加入购物清单”'),
+    sectionTitle(`${wanted.length} 项待购买`, wanted.length ? `已按商店分组；最低价按${hasStoreFilters() ? '当前所选商店' : '全部商店'}计算` : '浏览商品时点击“加入购物清单”'),
     ...(wanted.length ? renderByStore(wanted) : [el('div', { class: 'empty' }, '清单还是空的。去分类、商店或搜索页面选择想买的商品吧。')]),
     completedSection,
     footerNote(),

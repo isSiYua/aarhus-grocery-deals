@@ -22,7 +22,7 @@ test('shopping list is local, store-filterable, and keeps completed items recove
   assert.match(appSource, /function updateShoppingQuantityUi\(offer\)/);
   assert.match(appSource, /quantity: Math\.max\(0, current \+ change\)/);
   assert.match(appSource, /offer\.price \* shoppingQuantity\(offer\)/);
-  assert.match(appSource, /saveShopping\(\);\n  updateShoppingQuantityUi\(offer\);/);
+  assert.match(appSource, /function updateShoppingQuantity\(offer, change\)[\s\S]*saveShopping\(\);\n  updateShoppingQuantityUi\(offer\);/);
   assert.match(appSource, /data-shopping-key/);
   assert.match(appSource, /只有“移出清单”才会删除/);
   assert.match(appSource, /已加入清单 · 查看清单/);
@@ -33,6 +33,27 @@ test('shopping list is local, store-filterable, and keeps completed items recove
   assert.match(styleSource, /\.shopping-total-unit \{/);
   assert.match(appSource, /if \(state\.route\.view !== 'shopping'\) root\.append\(topbar\(\)\);/);
   assert.match(appSource, /state\.route\.view === 'shopping'\) return;/);
+});
+
+test('store filters support multiple selections across views and scope price comparisons', () => {
+  assert.match(appSource, /storeFilters: \[\]/);
+  assert.match(appSource, /params\.get\('stores'\) \|\| params\.get\('store'\)/);
+  assert.match(appSource, /const selected = new Set\(state\.storeFilters\)/);
+  assert.match(appSource, /selected\.has\(storeId\).*selected\.delete\(storeId\)/s);
+  assert.match(appSource, /p\.set\('stores', storeFilterKey\(\)\)/);
+  assert.match(appSource, /state\.storeFilters\.includes\(store\.id\)/);
+  assert.match(appSource, /'aria-pressed': String\(selected\)/);
+  assert.match(appSource, /const scopedOffers = filterOffersByStore\(currentOffers\(\)\)/);
+  assert.match(appSource, /storeFilterBar\(allOffers, '选择要比较的商店'\)/);
+  assert.match(appSource, /价格与最低价只在已选商店之间比较/);
+});
+
+test('shopping quantity controls stay compact and update without replacing the card', () => {
+  assert.match(styleSource, /\.shopping-quantity-row \{[^}]*grid-template-columns: auto 104px minmax\(82px, 1fr\)/);
+  assert.match(styleSource, /\.shopping-stepper \{[^}]*width: 104px/);
+  assert.doesNotMatch(styleSource, /\.shopping-stepper \{ grid-column: 1; grid-row: 2; \}/);
+  assert.match(appSource, /function updateShoppingQuantity\(offer, change\)[\s\S]*updateShoppingQuantityUi\(offer\);/);
+  assert.match(appSource, /function setShoppingStatus\(offer, status\)[\s\S]*render\(\{ preserveScroll: true \}\);/);
 });
 
 test('store pages follow the configured homepage category order', () => {
