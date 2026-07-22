@@ -18,9 +18,15 @@ test('shopping list is local, store-filterable, and keeps completed items recove
   assert.match(appSource, /storeFilterBar\(allOffers, '只看准备去的商店'\)/);
   assert.match(appSource, /function shoppingTotal\(offers\)/);
   assert.match(appSource, /当前已选合计/);
-  assert.match(appSource, /每项各买 1 份估算/);
+  assert.match(appSource, /function updateShoppingQuantity\(offer, change\)/);
+  assert.match(appSource, /quantity: Math\.max\(0, current \+ change\)/);
+  assert.match(appSource, /offer\.price \* shoppingQuantity\(offer\)/);
+  assert.match(appSource, /只有“移出清单”才会删除/);
+  assert.match(appSource, /已加入清单 · 查看清单/);
   assert.match(appSource, /const allWanted = allOffers\.filter/);
   assert.match(styleSource, /\.shopping-total \{/);
+  assert.match(styleSource, /position: sticky; top: calc\(var\(--topbar-height/);
+  assert.match(styleSource, /\.shopping-stepper \{/);
 });
 
 test('store pages follow the configured homepage category order', () => {

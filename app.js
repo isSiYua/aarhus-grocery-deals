@@ -188,6 +188,10 @@ const locationShopping = () => state.shopping[state.locationId] || {};
 const shoppingOfferKey = offer => offer.productKey || offer.canonicalKey;
 const shoppingEntry = offer => locationShopping()[shoppingOfferKey(offer)] || null;
 const shoppingCount = () => Object.values(locationShopping()).filter(entry => entry.status === 'wanted').length;
+const shoppingQuantity = offer => {
+  const quantity = shoppingEntry(offer)?.quantity;
+  return Number.isInteger(quantity) && quantity >= 0 ? quantity : 1;
+};
 
 function orderedCategoryIds(offers) {
   const present = new Set(offers.map(offer => offer.categoryId).filter(Boolean));
@@ -201,11 +205,13 @@ function orderedCategoryIds(offers) {
 
 function shoppingTotal(offers) {
   const priced = offers.filter(offer => Number.isFinite(offer.price));
-  const value = priced.reduce((sum, offer) => sum + offer.price, 0);
+  const value = priced.reduce((sum, offer) => sum + offer.price * shoppingQuantity(offer), 0);
+  const quantity = offers.reduce((sum, offer) => sum + shoppingQuantity(offer), 0);
   const currency = priced.find(offer => offer.currency)?.currency || (isAarhusLocation() ? 'DKK' : 'USD');
   return {
     value,
     display: currency === 'USD' ? usd(value) : money(value),
+    quantity,
     pricedCount: priced.length,
     missingCount: offers.length - priced.length,
   };
@@ -267,10 +273,31 @@ function setShoppingStatus(offer, status) {
   if (!status) delete entries[key];
   else entries[key] = {
     status,
+    quantity: Number.isInteger(entries[key]?.quantity) && entries[key].quantity >= 0 ? entries[key].quantity : 1,
     addedAt: entries[key]?.addedAt || new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     originalName: offer.originalName,
     storeId: offer.storeId,
+  };
+  state.shopping = { ...state.shopping, [state.locationId]: entries };
+  saveShopping();
+  render({ preserveScroll: true });
+}
+
+function updateShoppingQuantity(offer, change) {
+  const entries = { ...locationShopping() };
+  const key = shoppingOfferKey(offer);
+  const existing = entries[key] || {
+    status: 'wanted',
+    addedAt: new Date().toISOString(),
+    originalName: offer.originalName,
+    storeId: offer.storeId,
+  };
+  const current = Number.isInteger(existing.quantity) && existing.quantity >= 0 ? existing.quantity : 1;
+  entries[key] = {
+    ...existing,
+    quantity: Math.max(0, current + change),
+    updatedAt: new Date().toISOString(),
   };
   state.shopping = { ...state.shopping, [state.locationId]: entries };
   saveShopping();
@@ -1117,25 +1144,49 @@ function renderGroup(groupId, offers) {
 function shoppingControls(o, listView = false) {
   const entry = shoppingEntry(o);
   if (listView) {
-    return el('div', { class: 'shopping-actions' }, [
-      el('button', {
-        class: 'shopping-btn primary',
-        type: 'button',
-        onClick: () => setShoppingStatus(o, entry?.status === 'done' ? 'wanted' : 'done'),
-      }, entry?.status === 'done' ? '↺ 还要买' : '✓ 标记已买到'),
-      el('button', { class: 'shopping-btn', type: 'button', onClick: () => setShoppingStatus(o, null) }, '移出清单'),
+    const quantity = shoppingQuantity(o);
+    const subtotal = Number.isFinite(o.price)
+      ? (o.currency === 'USD' ? usd(o.price * quantity) : money(o.price * quantity))
+      : '价格待确认';
+    return el('div', { class: 'shopping-list-controls' }, [
+      el('div', { class: 'shopping-quantity-row' }, [
+        el('span', { class: 'shopping-quantity-label' }, '购买数量'),
+        el('div', { class: 'shopping-stepper', role: 'group', 'aria-label': `${o.productNameZh || o.originalName}购买数量` }, [
+          el('button', {
+            type: 'button',
+            disabled: quantity === 0 ? '' : null,
+            'aria-label': `减少${o.productNameZh || o.originalName}数量`,
+            onClick: () => updateShoppingQuantity(o, -1),
+          }, '−'),
+          el('output', { 'aria-live': 'polite', 'aria-label': '当前数量' }, quantity),
+          el('button', {
+            type: 'button',
+            'aria-label': `增加${o.productNameZh || o.originalName}数量`,
+            onClick: () => updateShoppingQuantity(o, 1),
+          }, '+'),
+        ]),
+        el('strong', { class: 'shopping-line-total' }, `本项 ${subtotal}`),
+      ]),
+      el('div', { class: 'shopping-actions' }, [
+        el('button', {
+          class: 'shopping-btn primary',
+          type: 'button',
+          onClick: () => setShoppingStatus(o, entry?.status === 'done' ? 'wanted' : 'done'),
+        }, entry?.status === 'done' ? '↺ 还要买' : '✓ 标记已买到'),
+        el('button', { class: 'shopping-btn', type: 'button', onClick: () => setShoppingStatus(o, null) }, '移出清单'),
+      ]),
     ]);
   }
   const label = entry?.status === 'done'
     ? '✓ 已买到 · 点击恢复'
     : entry?.status === 'wanted'
-      ? '✓ 已加入清单 · 点击移出'
+      ? '✓ 已加入清单 · 查看清单'
       : '＋ 加入购物清单';
   return el('button', {
     class: `shopping-toggle${entry ? ' selected' : ''}${entry?.status === 'done' ? ' done' : ''}`,
     type: 'button',
     'aria-pressed': entry ? 'true' : 'false',
-    onClick: () => setShoppingStatus(o, entry?.status === 'wanted' ? null : 'wanted'),
+    onClick: () => entry?.status === 'wanted' ? go('shopping') : setShoppingStatus(o, 'wanted'),
   }, label);
 }
 
@@ -1367,21 +1418,22 @@ function shoppingListView() {
   return el('main', { class: 'content shopping-view' }, [
     el('section', { class: 'hero shopping-hero' }, [
       el('h2', {}, '我的购物清单'),
-      el('p', {}, '先按商店规划路线，再逐项打勾。清单只保存在这台设备的浏览器中，不会上传。'),
-      el('div', { class: 'shopping-total', 'aria-live': 'polite' }, [
-        el('span', {}, '当前已选合计'),
-        el('strong', {}, total.display),
-        el('small', {}, [
-          `按本期仍显示的 ${total.pricedCount} 项促销价、每项各买 1 份估算`,
-          total.missingCount ? `；另有 ${total.missingCount} 项价格待确认` : '',
-          '；会员价和多件价条件以商品卡片为准。',
-        ]),
-      ]),
+      el('p', {}, '先按商店规划路线，再调整数量、逐项打勾。数量减到 0 仍会留在清单中，只有“移出清单”才会删除。'),
       el('div', { class: 'hero-meta' }, [
         el('span', { class: 'hero-pill' }, `${allWanted.length} 项待购买`),
         el('span', { class: 'hero-pill' }, `${allCompleted.length} 项已买到`),
-        state.storeFilter ? el('span', { class: 'hero-pill shopping-filter-total' }, `当前商店 ${wanted.length} 项 · ${visibleTotal.display}`) : null,
       ]),
+    ]),
+    el('div', { class: 'shopping-total', 'aria-live': 'polite' }, [
+      el('div', { class: 'shopping-total-copy' }, [
+        el('span', {}, '当前已选合计'),
+        el('small', {}, [
+          `${allWanted.length} 项商品 · 合计 ${total.quantity} 份`,
+          total.missingCount ? ` · ${total.missingCount} 项价格待确认` : '',
+        ]),
+      ]),
+      el('strong', {}, total.display),
+      state.storeFilter ? el('em', {}, `当前商店 ${wanted.length} 项 / ${visibleTotal.quantity} 份 · ${visibleTotal.display}`) : null,
     ]),
     storeFilterBar(allOffers, '只看准备去的商店'),
     unavailableCount > 0 ? el('div', { class: 'status-banner' }, `${unavailableCount} 项旧优惠已不在本期数据中，暂不显示；不会影响当前清单。`) : null,
