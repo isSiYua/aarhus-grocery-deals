@@ -121,8 +121,8 @@ const comparablePrevious = JSON.stringify({ ...previous, updatedAt: null });
 const comparableNext = JSON.stringify({ ...next, updatedAt: null });
 if (comparablePrevious === comparableNext) {
   console.log(`Product identity history unchanged: ${Object.keys(next.products).length} stable products.`);
-  process.exit(0);
+} else {
+  next.updatedAt = data.metadata?.updatedAt || new Date().toISOString();
+  await fs.writeFile(historyUrl, JSON.stringify(next, null, 2) + '\n');
+  console.log(`Updated product identity history: ${newProducts} new stable products, ${newOfferIds} new source IDs, ${newPeriods} new promotion periods.`);
 }
-next.updatedAt = data.metadata?.updatedAt || new Date().toISOString();
-await fs.writeFile(historyUrl, JSON.stringify(next, null, 2) + '\n');
-console.log(`Updated product identity history: ${newProducts} new stable products, ${newOfferIds} new source IDs, ${newPeriods} new promotion periods.`);

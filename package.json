@@ -6,7 +6,7 @@
   "description": "Mobile-first Aarhus grocery deal pocketbook with automated flyer updates.",
   "scripts": {
     "update": "node scripts/update-data.mjs && node scripts/update-product-identities.mjs",
-    "update:fallback": "npm run update && node scripts/prepare-fallback-data.mjs",
+    "update:fallback": "npm run update:stores",
     "update:stores": "node scripts/update-selected-stores.mjs",
     "update:atlanta:archive": "node scripts/update-atlanta-data.mjs && node scripts/sync-atlanta-product-knowledge.mjs",
     "validate": "node scripts/validate-data.mjs",

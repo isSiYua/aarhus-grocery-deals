@@ -28,10 +28,11 @@ test('public site keeps its browser security and anti-impersonation guardrails',
 });
 
 test('routine automation is Aarhus-only, token-free, and pins every action', async () => {
-  const [pkgText, updateWorkflow, selectedWorkflow, codeqlWorkflow] = await Promise.all([
+  const [pkgText, updateWorkflow, selectedWorkflow, pullRequestWorkflow, codeqlWorkflow] = await Promise.all([
     read('../package.json'),
     read('../.github/workflows/update-and-deploy.yml'),
     read('../.github/workflows/refresh-selected-stores.yml'),
+    read('../.github/workflows/pull-request-checks.yml'),
     read('../.github/workflows/codeql.yml'),
   ]);
   const pkg = JSON.parse(pkgText);
@@ -44,7 +45,10 @@ test('routine automation is Aarhus-only, token-free, and pins every action', asy
   assert.match(selectedWorkflow, /npm run update:stores/);
   assert.doesNotMatch(selectedWorkflow, /update:atlanta|update-atlanta|OPENAI_API_KEY|CODEX_ACCESS_TOKEN/i);
 
-  for (const workflow of [updateWorkflow, selectedWorkflow, codeqlWorkflow]) {
+  assert.match(pullRequestWorkflow, /permissions:\s*\n\s*contents: read/);
+  assert.doesNotMatch(pullRequestWorkflow, /pull_request_target|contents: write/);
+
+  for (const workflow of [updateWorkflow, selectedWorkflow, pullRequestWorkflow, codeqlWorkflow]) {
     for (const line of workflow.split('\n').filter(value => /\buses:/.test(value))) {
       assert.match(line, /@[a-f0-9]{40}\s*$/, `Action is not pinned to a commit: ${line.trim()}`);
     }

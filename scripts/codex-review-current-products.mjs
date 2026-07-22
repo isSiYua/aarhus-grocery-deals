@@ -58,6 +58,8 @@ const sameDescriptionReview = (previous, next) => Boolean(previous)
   && previous.descriptionZh === next.descriptionZh
   && previous.categoryId === next.categoryId
   && previous.comparisonGroup === next.comparisonGroup
+  && previous.descriptionSpecVersion === next.descriptionSpecVersion
+  && previous.reviewStatus === next.reviewStatus
   && Boolean(previous.evidence?.offerImageReviewed) === Boolean(next.evidence?.offerImageReviewed);
 
 const sameTaxonomyReview = (previous, next) => Boolean(previous)
@@ -95,6 +97,7 @@ for (const offer of reviewCandidates) {
   );
   const fallback = explainInChinese(raw, classification);
   const keepImageReviewedDescription = previous?.evidence?.offerImageReviewed
+    && previous?.descriptionSpecVersion === DESCRIPTION_SPEC_VERSION
     && previous?.descriptionZh
     && !LEGACY_GENERIC_DESCRIPTION.test(previous.descriptionZh);
   const descriptionZh = sanitizeItemDescriptionZh(
@@ -168,6 +171,7 @@ const finalizedAarhusOffers = nextAarhusOffers.map(offer => {
     ...offer,
     productNameZh: reviewed.productNameZh,
     zhExplanation: reviewed.descriptionZh,
+    descriptionVersion: reviewed.descriptionSpecVersion,
     taxonomyLabelZh: reviewed.productNameZh,
   };
 });

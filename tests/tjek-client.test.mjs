@@ -31,6 +31,7 @@ test('fetches dealer offers with the API maximum and follows offset pagination',
   });
 
   assert.equal(offers.length, 101);
+  assert.equal(offers.truncated, undefined);
   assert.deepEqual(calls, [
     { path: '/offers', params: { dealer_id: 'dealer-1', limit: 100, offset: 0 } },
     { path: '/offers', params: { dealer_id: 'dealer-1', limit: 100, offset: 100 } },
@@ -45,6 +46,7 @@ test('returns the 1000 records exposed by Tjek instead of requesting forbidden o
   });
 
   assert.equal(offers.length, 1000);
+  assert.equal(offers.truncated, true);
   assert.equal(calls.length, 10);
   assert.equal(calls.at(-1).params.offset, 900);
 });

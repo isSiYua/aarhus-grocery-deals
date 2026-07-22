@@ -32,9 +32,9 @@ npm run check
 
 ## 多人协作维护
 
-项目支持按连锁增量更新。例如 A 先从最新 `main` 运行 `npm run update:stores -- rema` 并合并 PR；B 之后同步 `main` 再运行 `npm run update:stores -- lidl`，B 的结果会保留 A 的 REMA 数据并复用已经审核的共享商品知识。
+项目支持零参数增量检查。A 和 B 都只需从最新 `main` 运行 `npm run update:stores`；命令会检查全部公开促销源，只在连锁的刊期或商品内容确实变化时写入数据。B 同步 `main` 后会自然继承 A 已合并的数据和商品知识，不重复审核。
 
-普通贡献者使用 Fork + Pull Request，不需要获得仓库直接写权限。可信维护者也可以在 Actions 手动运行 **Refresh selected grocery chains**，由系统从最新主分支创建只包含指定连锁的更新 PR。领取刊期、同步顺序、重复审核避免策略和权限边界见 [多人维护指南](CONTRIBUTING.md)。
+普通贡献者使用 Fork + Pull Request，不需要获得仓库直接写权限。可信维护者也可以在 Actions 手动运行 **Check grocery chains and open a data PR**，留空商店输入即可自动检查全部来源。领取刊期、同步顺序、重复审核避免策略和权限边界见 [多人维护指南](CONTRIBUTING.md)。仓库所有者还应按 [GitHub 仓库防护设置](docs/GITHUB_REPOSITORY_PROTECTION.md) 启用主分支规则。
 
 ## 数据来源和覆盖边界
 
@@ -60,7 +60,7 @@ Atlanta 数据已于 2026-07-22 冻结。`data/atlanta_offers.json` 与对应商
 
 ```sh
 npm run update:fallback
-npm run update:stores -- rema,lidl  # 只刷新指定连锁，其余数据原样保留
+npm run update:stores       # 自动检查全部来源，只保留实际变化
 npm run taxonomy:migrate   # 只有分类或中文审核规则变化时
 npm run check
 npm run build:preview

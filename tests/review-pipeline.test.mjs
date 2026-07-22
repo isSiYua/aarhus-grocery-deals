@@ -9,4 +9,6 @@ test('product review consumes both description and taxonomy pending queues', asy
   assert.match(source, /previousPendingTaxonomy\.items/);
   assert.match(source, /currentCategoryId/);
   assert.match(source, /currentComparisonGroup/);
+  assert.match(source, /previous\.descriptionSpecVersion === next\.descriptionSpecVersion/);
+  assert.match(source, /descriptionVersion: reviewed\.descriptionSpecVersion/);
 });

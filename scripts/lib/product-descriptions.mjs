@@ -8,6 +8,18 @@ import { sanitizeItemDescriptionZh } from './description-quality.mjs';
 export const DESCRIPTION_SCHEMA_VERSION = 2;
 export const DESCRIPTION_SPEC_VERSION = 'zh-product-v6';
 
+export function isCurrentDescriptionEntry(entry) {
+  return Boolean(entry?.descriptionZh && entry.descriptionSpecVersion === DESCRIPTION_SPEC_VERSION);
+}
+
+function currentCachedEntry(cache, ...keys) {
+  for (const key of keys) {
+    const entry = cache.entries?.[key];
+    if (isCurrentDescriptionEntry(entry)) return entry;
+  }
+  return null;
+}
+
 function clothingDetailIdentity(raw, group) {
   if (!String(group || '').startsWith('clothing_')) return '';
   const description = String(raw?.description || raw?.originalDescription || '');
@@ -116,8 +128,8 @@ export async function loadDescriptionCache(fileUrl) {
 export function resolveProductDescription(raw, classification, cache = emptyDescriptionCache(), fixedDescriptionKey = null) {
   const descriptionKey = fixedDescriptionKey || descriptionKeyFor(raw, classification);
   const canonicalDescriptionKey = descriptionKeyFor(raw, classification);
-  const cached = cache.entries?.[descriptionKey] || cache.entries?.[canonicalDescriptionKey];
-  if (cached?.descriptionZh) {
+  const cached = currentCachedEntry(cache, descriptionKey, canonicalDescriptionKey);
+  if (cached) {
     return {
       descriptionKey,
       productNameZh: cached.productNameZh || null,
@@ -140,7 +152,7 @@ export function collectPendingDescriptions(offers, cache = emptyDescriptionCache
   for (const offer of offers) {
     const descriptionKey = offer.descriptionKey || descriptionKeyFor(offer, offer);
     const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
-    if (cache.entries?.[descriptionKey]?.descriptionZh || cache.entries?.[canonicalDescriptionKey]?.descriptionZh) continue;
+    if (currentCachedEntry(cache, descriptionKey, canonicalDescriptionKey)) continue;
     const current = pending.get(descriptionKey);
     if (current) {
       current.occurrences += 1;
@@ -177,8 +189,8 @@ export function applyDescriptionCacheToOffers(offers, cache) {
   const nextOffers = offers.map(offer => {
     const descriptionKey = offer.descriptionKey || descriptionKeyFor(offer, offer);
     const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
-    const cached = cache.entries?.[descriptionKey] || cache.entries?.[canonicalDescriptionKey];
-    if (!cached?.descriptionZh) {
+    const cached = currentCachedEntry(cache, descriptionKey, canonicalDescriptionKey);
+    if (!cached) {
       const fallback = sanitizeItemDescriptionZh(explainInChinese(
         {
           heading: offer.originalName || offer.heading || '',

@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 
 import {
   collectPendingDescriptions,
+  DESCRIPTION_SPEC_VERSION,
   descriptionKeyFor,
   emptyDescriptionCache,
   applyDescriptionCacheToOffers,
@@ -110,12 +111,29 @@ test('Codex cache overrides the rule fallback and records provenance', () => {
   cache.entries[key] = {
     descriptionZh: '白蘑菇，也叫口蘑，适合切片炒肉、煮汤或做奶油炖菜；与中国超市常见白色口蘑基本相同。',
     authoredBy: 'Codex',
-    descriptionSpecVersion: 'test-spec',
+    descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
   };
   const result = resolveProductDescription(raw, classification, cache);
   assert.equal(result.descriptionSource, 'codex_cache');
   assert.equal(result.descriptionAuthor, 'Codex');
   assert.match(result.zhExplanation, /白蘑菇/);
+});
+
+test('stale description reviews are quarantined instead of silently reused', () => {
+  const raw = { heading: '10W USB A oplader', description: '1 stk.' };
+  const classification = { categoryId: 'electronics', comparisonGroup: 'electronics_computing' };
+  const key = descriptionKeyFor(raw, classification);
+  const cache = emptyDescriptionCache();
+  cache.entries[key] = {
+    productNameZh: '数码产品或配件',
+    descriptionZh: '旧版空泛说明。',
+    descriptionSpecVersion: 'zh-product-v4',
+  };
+  const resolved = resolveProductDescription(raw, classification, cache);
+  assert.equal(resolved.descriptionSource, 'rules_fallback');
+  const pending = collectPendingDescriptions([{ ...raw, originalName: raw.heading, originalDescription: raw.description, storeId: 'bilka', ...classification }], cache);
+  assert.equal(pending.count, 1);
+  assert.equal(pending.items[0].descriptionKey, key);
 });
 
 test('pending queue deduplicates the same product while retaining occurrence evidence', () => {

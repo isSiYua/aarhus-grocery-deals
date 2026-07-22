@@ -1,18 +1,19 @@
-name: Refresh selected grocery chains
+name: Check grocery chains and open a data PR
 
 on:
   workflow_dispatch:
     inputs:
       stores:
-        description: 'Comma-separated store ids, for example: rema or lidl,netto'
-        required: true
+        description: 'Optional: leave blank to check every chain automatically'
+        required: false
+        default: ''
         type: string
 
 permissions:
   contents: read
 
 concurrency:
-  group: selected-grocery-refresh-${{ inputs.stores }}
+  group: grocery-refresh-${{ inputs.stores || 'auto-all' }}
   cancel-in-progress: false
 
 jobs:
@@ -31,7 +32,7 @@ jobs:
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         with:
           node-version: 24
-      - name: Refresh only the selected public flyer sources
+      - name: Check public flyers and apply only material changes
         env:
           REQUESTED_STORES: ${{ inputs.stores }}
         run: npm run update:stores -- "$REQUESTED_STORES"
@@ -45,11 +46,12 @@ jobs:
         id: changes
         env:
           REQUESTED_STORES: ${{ inputs.stores }}
+          SCOPE_LABEL: ${{ inputs.stores || 'auto-all' }}
         shell: bash
         run: |
           if git diff --quiet -- data/*.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No material data changes were found for $REQUESTED_STORES."
+            echo "No material data changes were found for $SCOPE_LABEL."
             exit 0
           fi
           branch="data-refresh/${{ github.run_id }}-${{ github.run_attempt }}"
@@ -57,7 +59,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
           git add data/*.json
-          git commit -m "data: refresh $REQUESTED_STORES"
+          git commit -m "data: refresh $SCOPE_LABEL"
           git push --set-upstream origin "$branch"
           echo "changed=true" >> "$GITHUB_OUTPUT"
           echo "branch=$branch" >> "$GITHUB_OUTPUT"
@@ -68,16 +70,17 @@ jobs:
           HEAD_BRANCH: ${{ steps.changes.outputs.branch }}
           BASE_BRANCH: ${{ github.event.repository.default_branch }}
           REQUESTED_STORES: ${{ inputs.stores }}
+          SCOPE_LABEL: ${{ inputs.stores || 'auto-all' }}
         shell: bash
         run: |
           gh pr create \
             --base "$BASE_BRANCH" \
             --head "$HEAD_BRANCH" \
-            --title "data: refresh $REQUESTED_STORES" \
+            --title "data: refresh $SCOPE_LABEL" \
             --body "## 更新范围
 
-          仅刷新：$REQUESTED_STORES
+          检查范围：$SCOPE_LABEL
 
-          该分支从触发时最新的 $BASE_BRANCH 创建；未选连锁的数据保持不变。已运行完整测试、分类审计、数据校验和移动端预览构建。
+          该分支从触发时最新的 $BASE_BRANCH 创建；默认检查全部公开来源，但只有促销内容确实变化的连锁会产生数据差异。若填写了商店 ID，则只检查指定来源。已运行完整测试、分类审计、数据校验和移动端预览构建。
 
           合并前请检查 pending 数量。真正新品必须完成中文名称、针对性说明和分类审核；已审核商品会直接复用，不重复调用模型。"

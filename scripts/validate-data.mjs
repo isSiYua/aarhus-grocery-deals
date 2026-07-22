@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import { DESCRIPTION_SPEC_VERSION, descriptionKeyFor } from './lib/product-descriptions.mjs';
 import { explicitMultipack } from './lib/normalize.mjs';
+import { assertSafePublicationText } from './lib/publication-safety.mjs';
 const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
 const atlanta = JSON.parse(await fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8'));
 const atlantaKnowledge = JSON.parse(await fs.readFile(new URL('../data/atlanta_product_knowledge_zh.json', import.meta.url), 'utf8'));
@@ -9,12 +10,24 @@ const descriptionPending = JSON.parse(await fs.readFile(new URL('../data/product
 const identityHistory = JSON.parse(await fs.readFile(new URL('../data/product_identity_history.json', import.meta.url), 'utf8'));
 const productTaxonomy = JSON.parse(await fs.readFile(new URL('../data/product_taxonomy_zh.json', import.meta.url), 'utf8'));
 const taxonomyPending = JSON.parse(await fs.readFile(new URL('../data/product_taxonomy_pending.json', import.meta.url), 'utf8'));
+const reviewOverrides = JSON.parse(await fs.readFile(new URL('../data/product_review_overrides_zh.json', import.meta.url), 'utf8'));
 const requiredTop = ['metadata','stores','categories','comparisonGroups','offers'];
 for (const key of requiredTop) if (!(key in data)) throw new Error(`Missing top-level key: ${key}`);
 if ('history' in data) throw new Error('Archive history must stay in data/history.json, not current_offers.json');
 const storeIds = new Set(data.stores.map(s => s.id));
 const categoryIds = new Set(data.categories.map(c => c.id));
 const ids = new Set();
+for (const store of data.stores) {
+  for (const key of ['name','shortAddress','distanceLabel','membership','descriptionZh']) {
+    assertSafePublicationText(store[key], `store ${store.id}.${key}`);
+  }
+}
+for (const category of data.categories) {
+  for (const key of ['nameZh','descriptionZh']) assertSafePublicationText(category[key], `category ${category.id}.${key}`);
+}
+for (const [groupId, group] of Object.entries(data.comparisonGroups)) {
+  for (const key of ['nameZh','noteZh']) assertSafePublicationText(group[key], `comparison group ${groupId}.${key}`);
+}
 for (const [index, offer] of data.offers.entries()) {
   for (const key of ['canonicalKey','storeId','originalName','productNameZh','zhExplanation','descriptionKey','descriptionSource','categoryId','comparisonGroup','price','validUntil']) {
     if (offer[key] === undefined || offer[key] === null || offer[key] === '') throw new Error(`Offer ${index} missing ${key}`);
@@ -26,9 +39,12 @@ for (const [index, offer] of data.offers.entries()) {
   if (!data.comparisonGroups[offer.comparisonGroup]) throw new Error(`Unknown comparison group ${offer.comparisonGroup}`);
   if (offer.categoryId === 'drinks' && !/^(?:zero_soda|drink_)/.test(offer.comparisonGroup)) throw new Error(`Invalid drink group: ${offer.originalName}`);
   if (offer.descriptionSource !== 'codex_cache') throw new Error(`Published Aarhus description is not individually reviewed: ${offer.canonicalKey}`);
+  assertSafePublicationText(offer.productNameZh, `offer ${offer.canonicalKey}.productNameZh`);
+  assertSafePublicationText(offer.zhExplanation, `offer ${offer.canonicalKey}.zhExplanation`);
   const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
   const cachedDescription = descriptionCache.entries?.[offer.descriptionKey] || descriptionCache.entries?.[canonicalDescriptionKey];
   if (!cachedDescription || cachedDescription.descriptionZh !== offer.zhExplanation || cachedDescription.productNameZh !== offer.productNameZh) throw new Error(`Codex description is not backed by per-product cache: ${offer.canonicalKey}`);
+  if (cachedDescription.descriptionSpecVersion !== DESCRIPTION_SPEC_VERSION || offer.descriptionVersion !== DESCRIPTION_SPEC_VERSION) throw new Error(`Published offer uses a stale description review: ${offer.canonicalKey}`);
   if (!['unlocated','direct','verified'].includes(offer.sourceLocation?.status)) throw new Error(`Invalid source location status: ${offer.canonicalKey}`);
   if (offer.sourceLocation?.status === 'verified' && (!Number.isInteger(offer.sourceLocation.pageNumber) || offer.sourceLocation.pageNumber < 1)) throw new Error(`Invalid verified source location: ${offer.canonicalKey}`);
   const multipack = explicitMultipack(offer.originalDescription, offer.perItemQuantity ?? offer.quantity, offer.perItemQuantityUnit ?? offer.quantityUnit);
@@ -88,13 +104,17 @@ for (const offer of data.offers) {
 }
 
 if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== DESCRIPTION_SPEC_VERSION || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
+for (const [key, entry] of Object.entries(descriptionCache.entries)) {
+  assertSafePublicationText(entry.productNameZh, `description cache ${key}.productNameZh`);
+  assertSafePublicationText(entry.descriptionZh, `description cache ${key}.descriptionZh`);
+}
 if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== DESCRIPTION_SPEC_VERSION || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
 if (!data.metadata.contentUpdatedAt) throw new Error('Aarhus content update time is missing');
 const pendingKeys = new Set();
 for (const item of descriptionPending.items) {
   if (!item.descriptionKey || !item.originalName || !item.categoryId || !item.comparisonGroup) throw new Error('Incomplete pending description item');
   if (pendingKeys.has(item.descriptionKey)) throw new Error(`Duplicate pending description: ${item.descriptionKey}`);
-  if (descriptionCache.entries[item.descriptionKey]) throw new Error(`Cached description still pending: ${item.descriptionKey}`);
+  if (descriptionCache.entries[item.descriptionKey]?.descriptionSpecVersion === DESCRIPTION_SPEC_VERSION) throw new Error(`Current cached description still pending: ${item.descriptionKey}`);
   if (data.offers.some(offer => offer.descriptionKey === item.descriptionKey)) throw new Error(`Pending description was published: ${item.descriptionKey}`);
   pendingKeys.add(item.descriptionKey);
 }
@@ -106,9 +126,15 @@ if (productTaxonomy.schemaVersion !== 1 || productTaxonomy.taxonomyVersion !== '
 if (taxonomyPending.schemaVersion !== 1 || taxonomyPending.taxonomyVersion !== 'codex-taxonomy-v1' || !Array.isArray(taxonomyPending.items) || taxonomyPending.count !== taxonomyPending.items.length) throw new Error('Invalid pending taxonomy queue');
 for (const [key, entry] of Object.entries(productTaxonomy.entries)) {
   if (entry.status === 'excluded') continue;
+  assertSafePublicationText(entry.labelZh, `taxonomy ${key}.labelZh`);
+  assertSafePublicationText(entry.reasonZh, `taxonomy ${key}.reasonZh`);
   if (!categoryIds.has(entry.categoryId) || !data.comparisonGroups[entry.comparisonGroup]) throw new Error(`Invalid fixed taxonomy entry: ${key}`);
   if (!['reviewed','pending_codex_review'].includes(entry.reviewStatus)) throw new Error(`Invalid taxonomy review status: ${key}`);
   if (entry.reviewStatus === 'reviewed' && (!entry.labelZh || !entry.reasonZh || entry.authoredBy !== 'Codex')) throw new Error(`Incomplete Codex taxonomy review: ${key}`);
+}
+for (const [key, entry] of Object.entries(reviewOverrides.entries || {})) {
+  assertSafePublicationText(entry.productNameZh, `review override ${key}.productNameZh`);
+  assertSafePublicationText(entry.descriptionZh, `review override ${key}.descriptionZh`);
 }
 for (const offer of data.offers) {
   const entry = productTaxonomy.entries[offer.descriptionKey];

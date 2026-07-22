@@ -2,6 +2,22 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names, or a variant-specific descriptionKey when a generic flyer heading changes its pictured products.",
   "entries": {
+    "v1|lekaform|supplements|variant-a0e2059f9f05": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplements",
+      "productNameZh": "Lekaform 复合维生素、钙加维生素 D 或维生素 D 片任选",
+      "descriptionZh": "图片中的 Lekaform 营养补充片每瓶 100 片，可选含 A、B、C、D、E 及矿物质的复合维生素片、钙加维生素 D 片，或每片含 35 微克维生素 D 的 D Vitamin 片。三款补充成分不同，应按自己的饮食与补充需要选择，并遵循瓶身建议用量；膳食补充剂不能代替均衡饮食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|lekaform|supplements|variant-f6f793a881be": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplements",
+      "productNameZh": "Lekaform 复合维生素、钙加维生素 D 或维生素 D 片任选",
+      "descriptionZh": "图片中的 Lekaform 营养补充片每瓶 100 片，可选含 A、B、C、D、E 及矿物质的复合维生素片、钙加维生素 D 片，或每片含 35 微克维生素 D 的 D Vitamin 片。三款补充成分不同，应按自己的饮食与补充需要选择，并遵循瓶身建议用量；膳食补充剂不能代替均衡饮食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
     "soilmates avocadoolie": {
       "categoryId": "cooking_oils",
       "comparisonGroup": "oil_other",

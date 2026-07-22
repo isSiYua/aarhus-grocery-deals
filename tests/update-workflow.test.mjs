@@ -4,6 +4,7 @@ import test from 'node:test';
 
 const workflowUrl = new URL('../.github/workflows/update-and-deploy.yml', import.meta.url);
 const selectedWorkflowUrl = new URL('../.github/workflows/refresh-selected-stores.yml', import.meta.url);
+const pullRequestWorkflowUrl = new URL('../.github/workflows/pull-request-checks.yml', import.meta.url);
 
 test('twice-daily Aarhus fallback refresh is token-free and deploys only material changes', async () => {
   const workflow = await fs.readFile(workflowUrl, 'utf8');
@@ -36,8 +37,11 @@ test('twice-daily Aarhus fallback refresh is token-free and deploys only materia
 test('trusted maintainers can refresh selected chains into an isolated pull request', async () => {
   const workflow = await fs.readFile(selectedWorkflowUrl, 'utf8');
 
-  assert.match(workflow, /name: Refresh selected grocery chains/);
+  assert.match(workflow, /name: Check grocery chains and open a data PR/);
   assert.match(workflow, /workflow_dispatch:/);
+  assert.match(workflow, /required: false/);
+  assert.match(workflow, /default: ''/);
+  assert.match(workflow, /auto-all/);
   assert.match(workflow, /npm run update:stores -- "\$REQUESTED_STORES"/);
   assert.match(workflow, /npm run check/);
   assert.match(workflow, /npm run build:preview/);
@@ -47,5 +51,18 @@ test('trusted maintainers can refresh selected chains into an isolated pull requ
   assert.match(workflow, /cancel-in-progress: false/);
   assert.doesNotMatch(workflow, /OPENAI_API_KEY|CODEX_ACCESS_TOKEN|npm run review:products/);
   assert.doesNotMatch(workflow, /uses: [^\n]+@v\d/);
+  assert.equal((workflow.match(/uses: [^\n]+@[a-f0-9]{40}/g) || []).length, 2);
+});
+
+test('every pull request runs a read-only publication gate', async () => {
+  const workflow = await fs.readFile(pullRequestWorkflowUrl, 'utf8');
+
+  assert.match(workflow, /name: Publication gate/);
+  assert.match(workflow, /pull_request:/);
+  assert.match(workflow, /contents: read/);
+  assert.match(workflow, /npm run check/);
+  assert.match(workflow, /npm run build:preview/);
+  assert.match(workflow, /git diff --exit-code/);
+  assert.doesNotMatch(workflow, /contents: write|pull_request_target|OPENAI_API_KEY|CODEX_ACCESS_TOKEN/);
   assert.equal((workflow.match(/uses: [^\n]+@[a-f0-9]{40}/g) || []).length, 2);
 });
