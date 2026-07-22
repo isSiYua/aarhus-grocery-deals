@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchDealerOffers, listDanishDealers } from '../scripts/lib/tjek-client.mjs';
+import { fetchDealerOffers, fetchDealerStores, listDanishDealers } from '../scripts/lib/tjek-client.mjs';
 
 test('fetches every dealer directory page so REMA is not omitted', async () => {
   const calls = [];
@@ -42,4 +42,21 @@ test('rejects an invalid offers response instead of looping', async () => {
     () => fetchDealerOffers('dealer-1', async () => ({ offers: [] })),
     /must be an array/,
   );
+});
+
+test('fetches every nearby dealer store with Aarhus coordinates and pagination', async () => {
+  const calls = [];
+  const firstPage = Array.from({ length: 100 }, (_, index) => ({ id: `store-${index}` }));
+  const secondPage = [{ id: 'store-last' }];
+
+  const stores = await fetchDealerStores('dealer-1', {}, async (path, params) => {
+    calls.push({ path, params });
+    return params.offset === 0 ? firstPage : secondPage;
+  });
+
+  assert.equal(stores.length, 101);
+  assert.deepEqual(calls, [
+    { path: '/stores', params: { dealer_id: 'dealer-1', r_lat: 56.1629, r_lng: 10.2039, r_radius: 35000, limit: 100, offset: 0 } },
+    { path: '/stores', params: { dealer_id: 'dealer-1', r_lat: 56.1629, r_lng: 10.2039, r_radius: 35000, limit: 100, offset: 100 } },
+  ]);
 });

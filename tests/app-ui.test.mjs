@@ -96,6 +96,30 @@ test('manual refresh checks the active location data file and only replaces chan
   assert.match(appSource, /aria-label': refresh\.status === 'checking' \? '正在检查更新' : '刷新并检查数据更新'/);
 });
 
+test('nearby store lookup is permission-based, local-only, and keeps original store names copyable', () => {
+  assert.match(appSource, /function nearbyStoreControl\(store\)/);
+  assert.match(appSource, /store\?\.sourceName \|\| store\?\.name/);
+  assert.match(appSource, /class: 'copy-store-btn'/);
+  assert.match(appSource, /svgIcon\('copy'\)/);
+  assert.match(appSource, /navigator\.clipboard\?\.writeText/);
+  assert.match(appSource, /navigator\.geolocation\.getCurrentPosition/);
+  assert.match(appSource, /nearestPublicStore/);
+  assert.match(appSource, /enableHighAccuracy: false, timeout: 10_000, maximumAge: 300_000/);
+  assert.match(appSource, /仅在本机计算最近门店/);
+  assert.doesNotMatch(appSource, /localStorage\.setItem\([^\n]*(?:latitude|longitude|coords)/i);
+  assert.match(styleSource, /\.copy-store-btn svg/);
+  assert.match(styleSource, /\.locate-store-btn/);
+});
+
+test('installed PWA checks code and data again when returning to the foreground', () => {
+  assert.match(appSource, /register\('sw\.js', \{ updateViaCache: 'none' \}\)/);
+  assert.match(appSource, /registration\.update\(\)/);
+  assert.match(appSource, /controllerchange/);
+  assert.match(appSource, /document\.addEventListener\('visibilitychange', refreshAfterResume\)/);
+  assert.match(appSource, /window\.addEventListener\('focus', refreshAfterResume\)/);
+  assert.match(appSource, /await refreshActiveData\(\)/);
+});
+
 test('search page links to the public GitHub repository for stars', () => {
   assert.match(appSource, /github-star-card/);
   assert.match(appSource, /https:\/\/github\.com\/isSiYua\/aarhus-grocery-deals/);

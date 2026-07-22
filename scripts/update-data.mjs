@@ -1,11 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { listDanishDealers, fetchDealerOffers } from './lib/tjek-client.mjs';
+import { listDanishDealers, fetchDealerOffers, fetchDealerStores } from './lib/tjek-client.mjs';
 import { normalizeOffer } from './lib/normalize.mjs';
 import { mergeIncrementally } from './lib/merge.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS } from './lib/taxonomy.mjs';
 import { collectPendingDescriptions, loadDescriptionCache } from './lib/product-descriptions.mjs';
 import { collectPendingTaxonomy, loadProductTaxonomy } from './lib/product-taxonomy.mjs';
+import { isAarhusRelevantOffer, publicStoreRecord } from './lib/aarhus-coverage.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dataPath = path.join(root, 'data/current_offers.json');
@@ -31,6 +32,7 @@ const wantedStores = {
   brugsen: ['brugsen'],
   letkoeb: ['let-køb', 'let køb', 'let-kob'],
   salling: ['salling'],
+  wolt_market: ['wolt market'],
 };
 
 const aarhusStores = [
@@ -215,6 +217,18 @@ const aarhusStores = [
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Salling+S%C3%B8ndergade+27+Aarhus',
   },
   {
+    id: 'wolt_market',
+    name: 'Wolt Market',
+    color: '#009DE0',
+    shortAddress: 'Aarhus 区域在线食品超市',
+    distanceLabel: '配送范围与库存按 Wolt 所选地址',
+    membership: '公开促销；配送费与最低订单额另计',
+    descriptionZh: 'Wolt Market 是在线食品超市。本页只比较其公开商品促销价；能否配送、实时库存、服务费和最终结算价以 Wolt 为准。',
+    website: 'https://wolt.com/',
+    flyerUrl: 'https://etilbudsavis.dk/Wolt-Market',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Wolt+Market+Aarhus',
+  },
+  {
     id: 'kft',
     name: 'KFT Jylland',
     color: '#6F8C32',
@@ -229,7 +243,6 @@ const aarhusStores = [
 ];
 
 const normalizeName = value => String(value || '').toLowerCase().replace(/ø/g,'o').replace(/æ/g,'ae');
-
 async function loadJson(file, fallback) {
   try { return JSON.parse(await fs.readFile(file, 'utf8')); } catch { return fallback; }
 }
@@ -250,6 +263,8 @@ try {
 const dealerFor = aliases => dealers.find(d => aliases.some(a => normalizeName(d.name).includes(normalizeName(a))));
 const freshByStore = {};
 const storeStatuses = {};
+const nearbyStoresByStore = {};
+const sourceNamesByStore = {};
 
 for (const [storeId, aliases] of Object.entries(wantedStores)) {
   if (directoryError) {
@@ -263,11 +278,21 @@ for (const [storeId, aliases] of Object.entries(wantedStores)) {
     continue;
   }
   try {
-    const raw = await fetchDealerOffers(dealer.id);
-    const normalized = raw.map(item => normalizeOffer(item, nowIso, { descriptionCache, productTaxonomy })).filter(item => item && item.storeId === storeId);
+    const [raw, rawStores] = await Promise.all([
+      fetchDealerOffers(dealer.id),
+      fetchDealerStores(dealer.id),
+    ]);
+    const nearbyStores = rawStores.map(item => publicStoreRecord(item, dealer.name)).filter(Boolean);
+    const localStoreIds = new Set(nearbyStores.map(store => store.id));
+    const normalized = raw
+      .filter(item => isAarhusRelevantOffer(item, storeId, localStoreIds))
+      .map(item => normalizeOffer(item, nowIso, { descriptionCache, productTaxonomy }))
+      .filter(item => item && item.storeId === storeId);
     freshByStore[storeId] = normalized;
+    nearbyStoresByStore[storeId] = nearbyStores;
+    sourceNamesByStore[storeId] = dealer.name;
     storeStatuses[storeId] = 'ok';
-    console.log(`${storeId}: ${normalized.length} retained offers`);
+    console.log(`${storeId}: ${normalized.length} retained offers; ${nearbyStores.length} Aarhus stores`);
   } catch (error) {
     storeStatuses[storeId] = 'failed';
     console.error(`${storeId}:`, error);
@@ -281,7 +306,11 @@ const previousForOutput = { ...previous };
 delete previousForOutput.history;
 const next = {
   ...previousForOutput,
-  stores: aarhusStores,
+  stores: aarhusStores.map(store => ({
+    ...store,
+    sourceName: sourceNamesByStore[store.id] || store.sourceName || store.name,
+    nearbyStores: nearbyStoresByStore[store.id] || previous.stores?.find(item => item.id === store.id)?.nearbyStores || [],
+  })),
   categories: AARHUS_CATEGORIES,
   comparisonGroups: AARHUS_COMPARISON_GROUPS,
   metadata: {

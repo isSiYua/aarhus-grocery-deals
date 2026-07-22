@@ -9,6 +9,7 @@ const STORE_NAMES = {
   kvickly: 'kvickly', meny: 'meny', lovbjerg: 'loevbjerg',
   superbrugsen: 'superbrugsen', spar: 'spar', minkobmand: 'min_koebmand',
   letkob: 'letkoeb', brugsen: 'brugsen', salling: 'salling',
+  woltmarket: 'wolt_market',
 };
 
 const SOURCE_SLUGS = {
@@ -17,6 +18,7 @@ const SOURCE_SLUGS = {
   loevbjerg: 'Lovbjerg', superbrugsen: 'SuperBrugsen', spar: 'SPAR',
   min_koebmand: 'Min-Kobmand', brugsen: 'Brugsen', letkoeb: 'Let-Kob',
   salling: 'Salling',
+  wolt_market: 'Wolt-Market',
 };
 
 function getStoreId(raw) {

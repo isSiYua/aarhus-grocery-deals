@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 
 import { ATLANTA_COMPARISON_GROUPS, refineAtlantaCategory, refineAtlantaComparisonGroup } from './lib/flipp-client.mjs';
 import { explainComparisonGroupInChinese } from './lib/explain-zh.mjs';
+import { sanitizeItemDescriptionZh } from './lib/description-quality.mjs';
 import { repairPublishedPackage } from './lib/normalize.mjs';
 import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, normalizedText, refineAarhusCategory, refineAarhusComparisonGroup } from './lib/taxonomy.mjs';
 
@@ -40,8 +41,8 @@ function applyAarhusReviewOverride(record, name = record.originalName) {
   };
   if ('productNameZh' in record) next.productNameZh = override.productNameZh;
   if ('labelZh' in record) next.labelZh = override.productNameZh;
-  if ('zhExplanation' in record) next.zhExplanation = override.descriptionZh;
-  if ('descriptionZh' in record) next.descriptionZh = override.descriptionZh;
+  if ('zhExplanation' in record) next.zhExplanation = sanitizeItemDescriptionZh(override.descriptionZh);
+  if ('descriptionZh' in record) next.descriptionZh = sanitizeItemDescriptionZh(override.descriptionZh);
   return next;
 }
 
@@ -59,11 +60,13 @@ function refineAarhusRecord(record, name = record.originalName) {
     ...(record.descriptionKey ? { descriptionKey: descriptionKey(name, comparisonGroup) } : {}),
   };
   if ((comparisonGroup !== record.comparisonGroup || GROUPS_REQUIRING_FORM_EXPLANATION.has(comparisonGroup)) && 'zhExplanation' in record) {
-    migrated.zhExplanation = `${record.productNameZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`;
+    migrated.zhExplanation = sanitizeItemDescriptionZh(`${record.productNameZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`);
   }
   if ((comparisonGroup !== record.comparisonGroup || GROUPS_REQUIRING_FORM_EXPLANATION.has(comparisonGroup)) && 'descriptionZh' in record) {
-    migrated.descriptionZh = `${record.productNameZh || record.labelZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`;
+    migrated.descriptionZh = sanitizeItemDescriptionZh(`${record.productNameZh || record.labelZh || '该商品'}。${explainComparisonGroupInChinese(comparisonGroup)}`);
   }
+  if ('zhExplanation' in migrated) migrated.zhExplanation = sanitizeItemDescriptionZh(migrated.zhExplanation);
+  if ('descriptionZh' in migrated) migrated.descriptionZh = sanitizeItemDescriptionZh(migrated.descriptionZh);
   return applyAarhusReviewOverride(migrated, name);
 }
 

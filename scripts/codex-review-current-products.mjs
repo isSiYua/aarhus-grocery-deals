@@ -4,13 +4,15 @@ import { explainInChinese } from './lib/explain-zh.mjs';
 import { classifyFlippItem, ATLANTA_COMPARISON_GROUPS, flippKnowledgeKey } from './lib/flipp-client.mjs';
 import { danishProductNameZh, englishProductNameZh, specificDanishDescription, specificEnglishDescription } from './lib/product-name-zh.mjs';
 import { descriptionKeyFor, DESCRIPTION_SPEC_VERSION } from './lib/product-descriptions.mjs';
-import { AARHUS_COMPARISON_GROUPS, classifyOffer, isClearlyOutOfScope } from './lib/taxonomy.mjs';
+import { sanitizeItemDescriptionZh } from './lib/description-quality.mjs';
+import { AARHUS_COMPARISON_GROUPS, classifyOffer, isClearlyOutOfScope, normalizedText } from './lib/taxonomy.mjs';
 
 const aarhusUrl = new URL('../data/current_offers.json', import.meta.url);
 const descriptionsUrl = new URL('../data/product_descriptions_zh.json', import.meta.url);
 const pendingDescriptionsUrl = new URL('../data/product_descriptions_pending.json', import.meta.url);
 const taxonomyUrl = new URL('../data/product_taxonomy_zh.json', import.meta.url);
 const pendingTaxonomyUrl = new URL('../data/product_taxonomy_pending.json', import.meta.url);
+const reviewOverridesUrl = new URL('../data/product_review_overrides_zh.json', import.meta.url);
 const atlantaUrl = new URL('../data/atlanta_offers.json', import.meta.url);
 const atlantaKnowledgeUrl = new URL('../data/atlanta_product_knowledge_zh.json', import.meta.url);
 
@@ -20,6 +22,7 @@ const now = new Date().toISOString();
 
 const aarhus = await read(aarhusUrl);
 const previousDescriptions = await read(descriptionsUrl);
+const reviewOverrides = await read(reviewOverridesUrl);
 const previousByName = new Map(Object.values(previousDescriptions.entries || {}).map(entry => [entry.originalName, entry]));
 const descriptionEntries = {};
 const taxonomyEntries = {};
@@ -28,16 +31,20 @@ const nextAarhusOffers = [];
 for (const offer of aarhus.offers) {
   const raw = { heading: offer.originalName, description: offer.originalDescription || '' };
   if (isClearlyOutOfScope(raw)) continue;
-  const classification = classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup };
+  const override = reviewOverrides.entries?.[normalizedText(offer.originalName)] || null;
+  const classification = override?.categoryId && override?.comparisonGroup
+    ? { categoryId: override.categoryId, comparisonGroup: override.comparisonGroup }
+    : (classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup });
   const descriptionKey = descriptionKeyFor(raw, classification);
-  const productNameZh = danishProductNameZh(offer.originalName, classification.comparisonGroup);
+  const productNameZh = override?.productNameZh || danishProductNameZh(offer.originalName, classification.comparisonGroup);
   const previous = previousDescriptions.entries?.[descriptionKey] || previousByName.get(offer.originalName);
   const exactDescription = specificDanishDescription(offer.originalName);
   const fallback = explainInChinese(raw, classification);
   const keepImageReviewedDescription = previous?.evidence?.offerImageReviewed && previous?.descriptionZh;
-  const descriptionZh = keepImageReviewedDescription
-    ? previous.descriptionZh
-    : (exactDescription || `${productNameZh}。${fallback}`);
+  const descriptionZh = sanitizeItemDescriptionZh(
+    override?.descriptionZh
+      || (keepImageReviewedDescription ? previous.descriptionZh : (exactDescription || `${productNameZh}。${fallback}`)),
+  );
 
   if (!descriptionEntries[descriptionKey]) {
     descriptionEntries[descriptionKey] = {
@@ -121,11 +128,11 @@ for (const offer of atlanta.offers) {
   const groupNameZh = ATLANTA_COMPARISON_GROUPS[classification.comparisonGroup]?.nameZh || null;
   const productNameZh = englishProductNameZh(offer.originalName, classification.comparisonGroup, groupNameZh);
   const exactDescription = specificEnglishDescription(offer.originalName);
-  const descriptionZh = exactDescription
+  const descriptionZh = sanitizeItemDescriptionZh(exactDescription
     ? exactDescription
     : existing?.reviewStatus === 'reviewed' && existing.descriptionZh
     ? existing.descriptionZh
-    : `${productNameZh}。${classification.zhExplanation || offer.zhExplanation}`;
+    : `${productNameZh}。${classification.zhExplanation || offer.zhExplanation}`);
   const entry = {
     ...existing,
     originalName: offer.originalName,

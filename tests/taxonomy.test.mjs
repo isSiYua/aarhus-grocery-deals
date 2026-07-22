@@ -112,6 +112,31 @@ test('does not treat package units as proof that an item is food', () => {
   assert.equal(classifyOffer({ heading:'Ukendt tilbud 500 g' }), null);
 });
 
+test('filters durable and pet products before incidental grocery words', () => {
+  for (const heading of [
+    'LED pære classic 60W E27 Warm Glow',
+    'PHILIPS Brødrister',
+    'LIVARNO Skoreol',
+    'SILVERCREST Gryde, kasserolle eller mælkegryde af stål',
+    'Godbidder t. kat m. laks',
+    'Andekødsstrimler t. hund eller Kyllingestrimler',
+  ]) assert.equal(classifyOffer({ heading, description: '1 stk' }), null, heading);
+});
+
+test('handles newly reviewed Wolt and mixed-choice product identities before ingredients', () => {
+  assert.deepEqual(classifyOffer({ heading: 'Bananer 5 stk.', description: '5 stk' }), { categoryId: 'fruit', comparisonGroup: 'bananas' });
+  assert.deepEqual(classifyOffer({ heading: 'Burger Boost original eller smoky twist', description: '4 stk' }), { categoryId: 'prepared_meat', comparisonGroup: 'beef_burgers' });
+  assert.deepEqual(classifyOffer({ heading: 'VITA D’OR Solsikke- eller rapsolie', description: '1 l' }), { categoryId: 'cooking_oils', comparisonGroup: 'oil_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: '3 FRIKADELLER, 3 FISKEFILET ELLER 3 SKIVER KAMSTEG', description: '' }), { categoryId: 'prepared_meat', comparisonGroup: 'mixed_grocery_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Mutti tomater eller pizzasauce', description: '' }), { categoryId: 'pantry', comparisonGroup: 'mixed_grocery_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Nektariner, ferskner, blommer eller abrikoser', description: '' }), { categoryId: 'fruit', comparisonGroup: 'mixed_stone_fruit' });
+  assert.deepEqual(classifyOffer({ heading: 'OMHU MARINEREDE GRILLSPYD AF FRILANDSLAMMEKØD', description: '' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_lamb_marinated' });
+  assert.deepEqual(classifyOffer({ heading: 'Dansk kalve flanksteak', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_beef_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'Danske svinekoteletter', description: 'Alm. el. marinerede' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_pork_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'SAGRA/BUTCHERS Butterfly- eller yellow poussin', description: 'Marineret eller frilands' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_poultry_mixed_offer' });
+  assert.equal(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), null);
+});
+
 test('splits breakfast and real pantry goods into specific groups', () => {
   assert.equal(classifyOffer({ heading:'Müsli med nødder 750 g' }).comparisonGroup, 'cereal');
   assert.equal(classifyOffer({ heading:'Hakkede tomater på dåse 400 g' }).comparisonGroup, 'canned_tomatoes');

@@ -16,6 +16,7 @@ const state = {
   suppressReaderClickUntil: 0,
   refresh: { status: 'idle', locationId: null, checkedAt: null, error: null },
   readerStoreFilterOpen: false,
+  serviceWorkerRegistration: null,
 };
 
 const LOCATION_KEY = 'grocery-deals-location-v1';
@@ -155,6 +156,23 @@ const el = (tag, attrs = {}, children = []) => {
   return node;
 };
 
+const SVG_NS = 'http://www.w3.org/2000/svg';
+function svgIcon(kind) {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('aria-hidden', 'true');
+  svg.setAttribute('focusable', 'false');
+  const paths = kind === 'copy'
+    ? ['M8 8h10v12H8z', 'M6 16H4V4h10v2']
+    : ['M12 21s6-5.1 6-11a6 6 0 1 0-12 0c0 5.9 6 11 6 11z', 'M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'];
+  paths.forEach(data => {
+    const path = document.createElementNS(SVG_NS, 'path');
+    path.setAttribute('d', data);
+    svg.append(path);
+  });
+  return svg;
+}
+
 const formatDate = iso => {
   if (!iso) return '未知';
   const d = new Date(iso);
@@ -264,6 +282,132 @@ async function refreshActiveData() {
   }
 
   if (state.locationId === locationId) render({ preserveScroll: true });
+}
+
+function legacyCopyPlainText(value) {
+  const textarea = el('textarea', { 'aria-hidden': 'true' }, value);
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  textarea.setAttribute('readonly', '');
+  document.body.append(textarea);
+  textarea.select();
+  textarea.setSelectionRange(0, value.length);
+  let copied = false;
+  try {
+    copied = document.execCommand('copy');
+  } finally {
+    textarea.remove();
+  }
+  if (!copied) throw new Error('copy unavailable');
+}
+
+async function copyPlainText(value) {
+  let clipboardError = null;
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(value);
+      return;
+    } catch (error) {
+      clipboardError = error;
+    }
+  }
+  try {
+    legacyCopyPlainText(value);
+  } catch (error) {
+    throw clipboardError || error;
+  }
+}
+
+function distanceKm(from, to) {
+  const radians = value => value * Math.PI / 180;
+  const earthKm = 6371;
+  const latitudeDelta = radians(to.latitude - from.latitude);
+  const longitudeDelta = radians(to.longitude - from.longitude);
+  const a = Math.sin(latitudeDelta / 2) ** 2
+    + Math.cos(radians(from.latitude)) * Math.cos(radians(to.latitude)) * Math.sin(longitudeDelta / 2) ** 2;
+  return earthKm * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function nearestPublicStore(position, stores) {
+  return stores
+    .map(store => ({ store, distance: distanceKm(position, store) }))
+    .sort((a, b) => a.distance - b.distance)[0] || null;
+}
+
+function mapsSearchUrl(store) {
+  const query = [store.name, store.address].filter(Boolean).join(', ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+function nearbyStoreControl(store) {
+  const sourceName = store?.sourceName || store?.name || '未知商店';
+  const result = el('div', { class: 'nearby-result', role: 'status', 'aria-live': 'polite' }, '点击定位后，仅在本机计算最近门店');
+  const copyButton = el('button', {
+    class: 'copy-store-btn', type: 'button', title: '复制商店原名', 'aria-label': `复制商店原名 ${sourceName}`,
+    onClick: async event => {
+      const button = event.currentTarget;
+      try {
+        await copyPlainText(sourceName);
+        button.classList.add('copied');
+        button.setAttribute('aria-label', `已复制 ${sourceName}`);
+        setTimeout(() => {
+          button.classList.remove('copied');
+          button.setAttribute('aria-label', `复制商店原名 ${sourceName}`);
+        }, 1400);
+      } catch {
+        result.textContent = `无法自动复制，请长按：${sourceName}`;
+      }
+    },
+  }, svgIcon('copy'));
+  const locateButton = el('button', {
+    class: 'locate-store-btn', type: 'button',
+    onClick: event => {
+      const button = event.currentTarget;
+      const branches = Array.isArray(store?.nearbyStores) ? store.nearbyStores : [];
+      if (!navigator.geolocation) {
+        result.replaceChildren(el('span', {}, '浏览器不支持定位。'), store?.mapUrl ? el('a', { href: store.mapUrl, target: '_blank', rel: 'noopener noreferrer' }, '搜索门店 ↗') : null);
+        return;
+      }
+      if (!branches.length) {
+        result.replaceChildren(el('span', {}, '该来源暂未提供 Aarhus 门店坐标。'), store?.mapUrl ? el('a', { href: store.mapUrl, target: '_blank', rel: 'noopener noreferrer' }, '搜索门店 ↗') : null);
+        return;
+      }
+      button.disabled = true;
+      button.classList.add('checking');
+      result.textContent = '正在请求手机定位权限…';
+      navigator.geolocation.getCurrentPosition(position => {
+        const nearest = nearestPublicStore({
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+        }, branches);
+        button.disabled = false;
+        button.classList.remove('checking');
+        if (!nearest) {
+          result.textContent = '没有找到可用门店坐标';
+          return;
+        }
+        const distance = nearest.distance < 1
+          ? `${Math.round(nearest.distance * 1000)} 米`
+          : `${nearest.distance.toFixed(1)} 公里`;
+        result.replaceChildren(
+          el('strong', {}, nearest.store.name),
+          el('span', {}, `${nearest.store.address} · 约 ${distance}`),
+          el('a', { href: mapsSearchUrl(nearest.store), target: '_blank', rel: 'noopener noreferrer' }, '地图 ↗'),
+        );
+      }, error => {
+        button.disabled = false;
+        button.classList.remove('checking');
+        const message = error.code === 1 ? '定位权限未开启；不会影响浏览优惠。' : '暂时无法取得位置。';
+        result.replaceChildren(el('span', {}, message), store?.mapUrl ? el('a', { href: store.mapUrl, target: '_blank', rel: 'noopener noreferrer' }, '手动搜索 ↗') : null);
+      }, { enableHighAccuracy: false, timeout: 10_000, maximumAge: 300_000 });
+    },
+  }, [svgIcon('location'), el('span', {}, '按当前位置找最近门店')]);
+
+  return el('div', { class: 'nearby-store-control' }, [
+    el('div', { class: 'original-store-name' }, [copyButton, el('strong', {}, sourceName)]),
+    locateButton,
+    result,
+  ]);
 }
 
 function saveShopping() {
@@ -492,17 +636,7 @@ function openLowestModal(comparison) {
 async function copyOfferName(name, button) {
   const resetLabel = '复制';
   try {
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(name);
-    } else {
-      const input = el('textarea', { 'aria-hidden': 'true' }, name);
-      input.style.position = 'fixed';
-      input.style.opacity = '0';
-      document.body.append(input);
-      input.select();
-      if (!document.execCommand('copy')) throw new Error('Copy command failed');
-      input.remove();
-    }
+    await copyPlainText(name);
     button.textContent = '已复制';
     button.classList.add('copied');
   } catch {
@@ -1330,7 +1464,7 @@ function offerDetails(o, store) {
     ]),
     el('div', { class: 'meta-grid' }, [
       el('div', { class: 'meta-line' }, [el('span', {}, '优惠期限'), el('strong', {}, `${formatDate(o.validFrom)}—${formatDate(o.validUntil)}`)]),
-      el('div', { class: 'meta-line' }, [el('span', {}, '附近门店'), el('strong', {}, store?.shortAddress || '查看商店页')]),
+      el('div', { class: 'meta-line store-location-line' }, [el('span', {}, '附近门店'), nearbyStoreControl(store)]),
       el('div', { class: 'meta-line' }, [el('span', {}, '最后确认'), el('strong', {}, formatDate(o.lastSeenAt))]),
     ]),
     renderSourceLocation(o, store),
@@ -1618,9 +1752,36 @@ async function boot() {
     document.getElementById('app').innerHTML = `<main class="content"><div class="empty"><strong>数据加载失败</strong><br>${String(error)}</div></main>`;
   }
   if (!globalThis.__GROCERY_DATA__ && 'serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    registerServiceWorker().catch(() => {});
   }
 }
+
+let workerReloading = false;
+let lastResumeRefreshAt = 0;
+
+async function registerServiceWorker() {
+  const hadController = Boolean(navigator.serviceWorker.controller);
+  const registration = await navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' });
+  state.serviceWorkerRegistration = registration;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || workerReloading) return;
+    workerReloading = true;
+    location.reload();
+  });
+  await registration.update();
+}
+
+async function refreshAfterResume() {
+  if (document.visibilityState !== 'visible' || globalThis.__GROCERY_DATA__) return;
+  const currentTime = Date.now();
+  if (currentTime - lastResumeRefreshAt < 120_000) return;
+  lastResumeRefreshAt = currentTime;
+  state.serviceWorkerRegistration?.update().catch(() => {});
+  if (state.data) await refreshActiveData();
+}
+
+document.addEventListener('visibilitychange', refreshAfterResume);
+window.addEventListener('focus', refreshAfterResume);
 window.addEventListener('hashchange', () => { parseRoute(); render(); });
 window.addEventListener('resize', syncChromeLayout, { passive: true });
 boot();

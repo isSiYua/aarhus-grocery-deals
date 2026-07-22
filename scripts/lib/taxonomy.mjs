@@ -358,6 +358,7 @@ export const AARHUS_COMPARISON_GROUPS = {
   prepared_pork_cooked: group('熟制猪肉', 'Pulled pork 等已经慢煮或熟制的猪肉单独比较。'),
   prepared_pork_mixed_offer: group('猪肉制成品多形态任选', '腌制、熟制、烟熏或不同猪肉形态任选，不计算统一最低价。', false),
   prepared_beef_marinated: group('腌制调味牛肉', '已经腌制或带明确口味的牛排和牛肉单独比较。'),
+  prepared_beef_mixed_offer: group('原味或腌制牛肉任选', '同一促销包含未调味和腌制牛肉，不计算统一最低价。', false),
   prepared_lamb_marinated: group('腌制调味羊肉', '已经腌制的羊肉单独比较，不与原味生羊肉混比。'),
   prepared_chicken_meatballs: group('鸡肉丸', '鸡肉丸按公斤比较。'),
   prepared_beef_meatballs: group('牛肉丸', '牛肉丸按公斤比较。'),
@@ -464,6 +465,7 @@ export const AARHUS_COMPARISON_GROUPS = {
   pineapple: group('菠萝', '整颗与切片菠萝分开参考。'),
   mango: group('芒果', '芒果按每颗或公斤价格比较。'),
   avocado: group('牛油果', '牛油果按成熟度、每颗或包装比较。'),
+  bananas: group('香蕉', '香蕉按每根、每把或公斤价格比较。'),
   prepared_fruit: group('切配水果', '果切和水果拼盘按组成、重量和保鲜期参考。'),
   mixed_fruit: group('水果任选', '多种水果或莓果任选不参与单一品种最低价。', false),
   canned_tomatoes: group('番茄罐头', '切碎、整粒和调味番茄罐头按净重与用途比较。'),
@@ -516,6 +518,7 @@ export const AARHUS_COMPARISON_GROUPS = {
   oil_sunflower: group('葵花籽油', '葵花籽油按升比较。'),
   oil_frying: group('煎炸用油', '煎炸用油按升比较。'),
   oil_other: group('其他食用油', '油种不明确，不计算最低价。', false),
+  oil_mixed_offer: group('多种食用油任选', '葵花籽油、菜籽油等油种任选，不计算统一最低价。', false),
   vinegar: group('醋', '醋按具体品种和容量参考。'),
   canned_beans: group('豆类罐头', '同类豆罐头按净重比较。'),
   canned_coconut_milk: group('椰奶罐头', '椰奶按容量比较。'),
@@ -560,6 +563,7 @@ const HEADING_RULES = [
   ['household', 'paper', /\b(toiletpapir|kokkenrulle|servietter|lommetorklaeder|papir)\b/],
   ['household', 'kitchen_consumables', /\b(bagepapir|alufolie|husholdningsfilm|madpapir|plastruller)\b/],
   ['household', 'cleaning', /\b(husholdningsmarked|at home marked|vaskemiddel|vaskepulver|skyllemiddel|opvask|opvaskemiddel|maskinopvask|rengoring|rodalon|biotex|vanish|omo|klorin|cillit|ajax|domestos|toiletrengoring|skuresvamp|rengoringsmiddel)\b/],
+  ['fruit', 'bananas', /\bbananer?\b/],
   ['chicken', 'turkey_mixed_offer', /kalkunoverlaar.*schnitzel.*bryst|schnitzel.*bryst.*kalkunoverlaar/],
   ['chicken', 'turkey_minced', /hakket kalkun/],
   ['chicken', 'turkey_processed', /kalkunhakkebof|cordon bleu.*kalkun/],
@@ -595,7 +599,7 @@ const HEADING_RULES = [
   ['eggs_dairy', 'cream', /piskeflode|madlavningsflode|madlavningsjaevner|creme fraiche|fraiche/],
   ['eggs_dairy', 'milk', /kaernemaelk|kakaomaelk|maelk|protein ?drik|proteinshake|milkshakemix/],
   ['eggs_dairy', 'yoghurt', /yoghurt|skyr|kefir|a38|cultura|hytteost|koldskaal|budding|fromage|ricotta|kvarkbar|protein frugtshots/],
-  ['eggs_dairy', 'butter', /smor|smorbar|lurpak|bakkedal|margarine|vita d or|ama flydende/],
+  ['eggs_dairy', 'butter', /smor|smorbar|lurpak|bakkedal|margarine|ama flydende/],
   ['pantry', 'canned', /hakkede tomater|kikaerter|bonner|\bdaase\b|tun eller|makrel i tomat|kokosmaelk/],
   ['vegetables', 'mushrooms', /\b(champignon(?:er)?|svampe|shiitake)\b/],
   ['vegetables', 'tomatoes', /tomat/],
@@ -643,13 +647,33 @@ const HEADING_RULES = [
   ['snacks', 'chips', /chips|doritos|bugles|pretzels|popcorn|flaeskesvaer|majssnack|snacks\b|snack sticks/],
   ['snacks', 'nuts', /mandler|valnodder|nodder|nodd|peanuts|rosiner|solsikkekerner/],
   ['snacks', 'biscuits', /kiks|cookies|(?<!s)kage|gifler|vafler|kammerjunkere|donuts|softcake|toffypops|oreo|bastogne/],
-  ['snacks', 'chocolate', /chokolade|slik|bolcher|karamel|lakrids|mentos|marabou|ritter sport|toblerone|kinder|maltesers|skittles|familieposer|bar marked|toms marked|\bbars?\b|proteinbar|toffee|dumle|malaco|twist/],
+  ['snacks', 'chocolate', /chokolade|slik|bolcher|karamel|lakrids|mentos|marabou|ritter sport|toblerone|kinder|maltesers|skittles|familieposer|bar marked|toms marked|\bbars?\b|proteinbar|toffee|dumle|malaco|toms twist/],
 ];
 
 // The product form must win over an ingredient or flavour. For example,
 // strawberry ice cream is ice cream, not fresh berries; tomato sauce is sauce,
 // not fresh tomatoes. These rules intentionally run before the produce rules.
 const PRODUCT_FORM_RULES = [
+  ['prepared_meat', 'prepared_mixed_meat', /filet ala morbrad.*polser/],
+  ['prepared_meat', 'pork_mixed_offer', /koteletter.*grillsticks.*grillpolser/],
+  ['pantry', 'mixed_grocery_offer', /mutti.*tomater.*pizzasauce/],
+  ['fruit', 'mixed_stone_fruit', /nektariner.*ferskner.*blommer.*abrikoser/],
+  ['beef', 'prepared_lamb_marinated', /marinerede.*(?:lam|lamm)|(?:lam|lamm).*marinerede/],
+  ['beef', 'prepared_beef_marinated', /marinerede.*(?:okse|kalv|flank|steak)|(?:okse|kalv|flank|steak).*marinerede/],
+  ['prepared_meat', 'mixed_grocery_offer', /frikadeller.*fiskefilet.*kamsteg/],
+  ['prepared_meat', 'mixed_grocery_offer', /morbrad.*kartoffel.*kyllingebryst.*flodekartof/],
+  ['prepared_meat', 'mixed_meat_offer', /burnt ends.*hakket oksekod|hakket oksekod.*burnt ends/],
+  ['frozen_ready', 'mixed_grocery_offer', /groent.*brod|brod.*groent/],
+  ['pantry', 'mixed_grocery_offer', /knorr.*pasta.*risretter.*hellmanns.*maille/],
+  ['eggs_dairy', 'mixed_dairy', /naturli.*smorbar.*iskaffe.*(?:havre|mandel).*drik/],
+  ['baby', 'baby_care', /shampoo.*balsam.*skifteunderlag/],
+  ['beef', 'beef_burgers', /burger boost/],
+  ['vegetables', 'carrots', /gulerod/],
+  ['fruit', 'bananas', /\bbananer?\b/],
+  ['pantry', 'oil_mixed_offer', /vita d or.*(?:solsikke|raps)olie/],
+  ['bread_grains', 'bread', /focacciabrod|crosti/],
+  ['snacks', 'biscuits', /maelkesnitter/],
+  ['frozen_ready', 'ready_meal', /taquitos/],
   ['personal_care', 'hair_body', /tandpasta|tandborste|mundskyl|mundpleje/],
   ['household', 'kitchen_tools', /tomatkniv/],
   ['household', 'kitchen_tools', /paalaegsbokse/],
@@ -793,7 +817,7 @@ const PRODUCT_FORM_RULES = [
   ['snacks', 'chips', /bananchips|chips|doritos|bugles|pretzels|popcorn|flaeskesvaer|majssnack|snacks\b|snack sticks/],
   ['snacks', 'nuts', /mandler|valnodder|nodder|noddeblanding|peanuts|solsikkekerner/],
   ['snacks', 'biscuits', /kiks|cookies|(?<!s)kage|gifler|vafler|kammerjunkere|donuts|softcake|toffypops|oreo|bastogne/],
-  ['snacks', 'chocolate', /chokolade|slik|bolcher|karamel|lakrids|mentos|marabou|ritter sport|toblerone|kinder|maltesers|skittles|familieposer|bar marked|toms marked|\bbars?\b|proteinbar|toffee|dumle|malaco|twist/],
+  ['snacks', 'chocolate', /chokolade|slik|bolcher|karamel|lakrids|mentos|marabou|ritter sport|toblerone|kinder|maltesers|skittles|familieposer|bar marked|toms marked|\bbars?\b|proteinbar|toffee|dumle|malaco|toms twist/],
   ['pantry', 'canned', /hakkede tomater|kikaerter|bonner|\bdaase\b|tun eller|makrel i tomat|kokosmaelk/],
   ['pantry', 'sauces', /sauce|soja|ketchup|mayonnaise|dressing|remoulade|sennep|pesto|hummus|haydari/],
   ['pantry', 'oil_vinegar', /olivenolie|madolie|rapsolie|eddike|friture olie/],
@@ -803,9 +827,9 @@ const PRODUCT_FORM_RULES = [
 ];
 
 const DRINK_ALLOWED = /coca cola zero|coke zero|sprite zero/;
-const DRINK_WORDS = /cola|sprite|sodavand|soft drink|energidrik|energy|juice|saft|ribena|\bnektar\b|smoothie|sportsdrik|ice tea|drik\b/;
+const DRINK_WORDS = /cola|sprite|sodavand|danskvand|soft drink|energidrik|energy|juice|saft|ribena|\bnektar\b|smoothie|sportsdrik|ice tea|drik\b|ingefaershot|\bshot\b|til opblanding|t opblanding/;
 const ALCOHOL = /\b(ol|vin|whisky|vodka|gin|rom|cider|soju|jaegermeister|mousserende|zinfandel|merlot|pinot grigio|rosé)\b|carlsberg|tuborg|heineken|corona|grimbergen|smirnoff|captain morgan/;
-const DURABLE_OR_IRRELEVANT = /\b(legetoj|vaerktoj|beklaedning|elektronik|soundbar|skaerm|computer|oplader|blomst|plante|t shirt|boxershorts|stromper|bog|termometer|skriveredskaber|kontorartikler|dualmarkers|drikkedunk|madkasse|opbevaringsglas|madopbevaringsbokse|kokkenredskab|flaske|juicepresser|kaffemaskine|ophaengningstilbehor|badevaegt|induktionskogeplade|vaskemaskine|kondenstorretumbler|torretumbler|ovn|cigaret|tobak|nicorette)\b/;
+const DURABLE_OR_IRRELEVANT = /\b(legetoj|vaerktoj|beklaedning|elektronik|soundbar|skaerm|computer|oplader|blomst|plante|t shirt|boxershorts|stromper|bog|termometer|skriveredskaber|kontorartikler|dualmarkers|drikkedunk|madkasse|opbevaringsglas|madopbevaringsbokse|kokkenredskab|flaske|juicepresser|kaffemaskine|ophaengningstilbehor|badevaegt|induktionskogeplade|vaskemaskine|kondenstorretumbler|torretumbler|ovn|cigaret|tobak|nicorette|brodrister|toastmaskine|vaffeljern|skoreol|gryde|kasserolle|maelkegryde)\b|led\s+paere|\b(?:hundesnacks|hundefoder|hundeposer|kattefoder|kattemad|kattegodt|indekatte|godbidder?\s+t\s+kat|t\s+hund|t\s+kat)\b|\b(?:dreamies|pedigree|frolic|latz)\b/;
 
 export function isClearlyOutOfScope(raw) {
   const text = norm(`${raw?.heading || raw?.originalName || ''} ${raw?.description || raw?.originalDescription || ''}`);
@@ -821,6 +845,9 @@ export function classifyOffer(raw) {
     // Dairy protein drinks and plant drinks are handled by explicit food rules.
     if (!/protein ?drik|proteinshake|yoghurt|kefir|cultura|soja|havre/.test(heading)) return null;
   }
+  if (/poussin.*mariner/.test(text)) return classified('chicken', 'prepared_poultry_mixed_offer', text);
+  if (/flanksteak.*(?:alm|mariner)/.test(text)) return classified('beef', 'prepared_beef_mixed_offer', text);
+  if (/(?:svinekotelet|kotelet).*(?:alm|mariner)/.test(text)) return classified('pork', 'prepared_pork_mixed_offer', text);
   for (const [categoryId, comparisonGroup, regex] of PRODUCT_FORM_RULES) {
     if (regex.test(heading)) return classified(categoryId, comparisonGroup, heading);
   }

@@ -55,3 +55,29 @@ export async function fetchDealerOffers(dealerId, fetchPage = fetchJson) {
 
   throw new Error('Tjek offers pagination exceeded the safety limit');
 }
+
+export async function fetchDealerStores(dealerId, options = {}, fetchPage = fetchJson) {
+  const limit = 100;
+  const stores = [];
+  const {
+    latitude = 56.1629,
+    longitude = 10.2039,
+    radius = 35_000,
+  } = options;
+
+  for (let offset = 0; offset < 10_000; offset += limit) {
+    const page = await fetchPage('/stores', {
+      dealer_id: dealerId,
+      r_lat: latitude,
+      r_lng: longitude,
+      r_radius: radius,
+      limit,
+      offset,
+    });
+    if (!Array.isArray(page)) throw new Error('Tjek stores response must be an array');
+    stores.push(...page);
+    if (page.length < limit) return stores;
+  }
+
+  throw new Error('Tjek stores pagination exceeded the safety limit');
+}
