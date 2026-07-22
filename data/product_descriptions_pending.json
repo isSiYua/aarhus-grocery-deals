@@ -1,7 +1,179 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T03:15:27.127Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-07-22T03:22:35.876Z",
+  "count": 13,
+  "items": [
+    {
+      "descriptionKey": "v1|cloetta bars|chocolate",
+      "originalName": "Cloetta bars*",
+      "sampleDescriptions": [
+        "Flere varianter. 60-80 g. Kg-pris maks. 250,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|coop proteinshake|milk",
+      "originalName": "Coop proteinshake*",
+      "sampleDescriptions": [
+        "50 g protein 500 g. Kg-pris 30,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "milk",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|dansk flaeskesteg|pork_roast",
+      "originalName": "Dansk flæskesteg",
+      "sampleDescriptions": [
+        "Ridset og ovnklar"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|filet ala morbrad el polser|prepared_mixed_meat",
+      "originalName": "Filet ala mørbrad el. pølser",
+      "sampleDescriptions": [
+        "Theilgaard | Filet a la mørbrad gyros/hvidløg, puszta marineret, frankfurter alm. el. ost/bacon, ringrider el. gourmet pølser"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "stores": [
+        "loevbjerg"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|godt papir|paper_other",
+      "originalName": "Godt papir",
+      "sampleDescriptions": [
+        "5 PAKKER 50.- PR. PAKKE 14,95 a 6 rl. toiletpapir eller 3 rl. køkkenrulle. Pr. kg max. v/merkøb 25.06"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_other",
+      "stores": [
+        "bilka"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|koteletter grillsticks eller grillpolser|pork_mixed_offer",
+      "originalName": "Koteletter, grillsticks eller grillpølser",
+      "sampleDescriptions": [
+        "MADVÆRKET. BBQ, Smokey BBQ, salsiccia eller bacon og ost. 300-360 g. Pr. kg maks. 83,33"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "pork_mixed_offer",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|lambi classic papir|paper_other",
+      "originalName": "Lambi Classic papir",
+      "sampleDescriptions": [
+        "4 rl. køkkenrulle eller 8 rl. toiletpapir. Pr. kg max. 39,26"
+      ],
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_other",
+      "stores": [
+        "foetex"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|madvaerket kyllingebrystfilet eller laarmix|chicken_mixed_offer",
+      "originalName": "MADVÆRKET Kyllingebrystfilet eller -lårmix",
+      "sampleDescriptions": [
+        "Med BBQ. 325-800 g / pk. Pr. kg maks. 101,38."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_mixed_offer",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|mcennedy spareribs|pork_ribs",
+      "originalName": "MCENNEDY Spareribs",
+      "sampleDescriptions": [
+        "Hot eller BBQ. Pr. kg 58,00. Spot¹. Pr. 1/2 kg"
+      ],
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_ribs",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|nektariner ferskner blommer eller abrikoser|mixed_stone_fruit",
+      "originalName": "Nektariner, ferskner, blommer eller abrikoser",
+      "sampleDescriptions": [
+        "salling Princip\n6-8 stk. Udenlandske. Pr. stk. max. 4,17"
+      ],
+      "categoryId": "fruit",
+      "comparisonGroup": "mixed_stone_fruit",
+      "stores": [
+        "foetex"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|omhu culotte af frilandslammekod|lamb_other",
+      "originalName": "OMHU CULOTTE AF FRILANDSLAMMEKØD",
+      "sampleDescriptions": [
+        "290-300 G SKARP PRIS Med eller uden marinade af hvidløg og rosmarin. Max. kg pris 258,45. Lammeculotte med selleripuré, grønt og urter"
+      ],
+      "categoryId": "beef",
+      "comparisonGroup": "lamb_other",
+      "stores": [
+        "meny"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|pakkemarked lige klar til grillen|prepared_pork_marinated",
+      "originalName": "Pakkemarked - lige klar til grillen",
+      "sampleDescriptions": [
+        "Flere varianter. 200-800 g. Kg-pris maks. 305,56. Frit valg. Coop koteletter med bbq og paprika Coop marineret lammeculotte Coop marinerede grillfakler Coop marinerede grillkøller Coop ribsteak firepit Coop cevapcici okse/gris Coop marinerede grillspyd med grønt Coop hakkebøf okse/gris",
+        "2 pakker Flere varianter. 200-800 g. Kg-pris maks. 305,56. Frit valg. Coop koteletter med bbq og paprika Coop marineret lammeculotte Coop marinerede grillfakler Coop marinerede grillkøller Coop ribsteak firepit Coop cevapcici okse/gris Coop marinerede grillspyd med grønt Coop hakkebøf okse/gris"
+      ],
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_marinated",
+      "stores": [
+        "kvickly",
+        "superbrugsen"
+      ],
+      "occurrences": 2
+    },
+    {
+      "descriptionKey": "v1|quickbury buns fastfood brod|bread",
+      "originalName": "QUICKBURY BUNS FASTFOOD BRØD",
+      "sampleDescriptions": [
+        "Hot Dog Buns, Hamburger Buns eller Mega Burger Buns. 250-300 g. Max. kg pris 40,00"
+      ],
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "stores": [
+        "letkoeb"
+      ],
+      "occurrences": 1
+    }
+  ]
 }
