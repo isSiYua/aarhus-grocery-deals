@@ -102,6 +102,7 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
   if (/pakkemarked.*klar til grillen/.test(name)) return 'prepared_mixed_meat';
   if (/madvaerket.*kyllingebrystfilet.*laarmix/.test(name)) return 'prepared_poultry_mixed_offer';
   if (/mcennedy.*spareribs/.test(name)) return 'prepared_pork_mixed_offer';
+  if (/omhu.*culotte.*frilandslammekod/.test(name)) return 'prepared_mixed_meat';
   if (/godt papir|lambi classic papir/.test(name)) return 'paper_mixed_offer';
   if (/taga.*bacondadler.*fuet|bacondadler.*fuet/.test(name)) return 'prepared_mixed_meat';
   if (/(?:postej|leverpostej).*(?:eller).*medister|medister.*(?:eller).*(?:postej|leverpostej)/.test(name)) return 'prepared_mixed_meat';
@@ -664,6 +665,7 @@ const PRODUCT_FORM_RULES = [
   ['prepared_meat', 'prepared_mixed_meat', /pakkemarked.*klar til grillen/],
   ['prepared_meat', 'prepared_poultry_mixed_offer', /madvaerket.*kyllingebrystfilet.*laarmix/],
   ['prepared_meat', 'prepared_pork_mixed_offer', /mcennedy.*spareribs/],
+  ['prepared_meat', 'prepared_mixed_meat', /omhu.*culotte.*frilandslammekod/],
   ['pantry', 'mixed_grocery_offer', /mutti.*tomater.*pizzasauce/],
   ['fruit', 'mixed_stone_fruit', /nektariner.*ferskner.*blommer.*abrikoser/],
   ['beef', 'prepared_lamb_marinated', /marinerede.*(?:lam|lamm)|(?:lam|lamm).*marinerede/],

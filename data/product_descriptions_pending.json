@@ -1,21 +1,7 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T04:14:29.687Z",
-  "count": 1,
-  "items": [
-    {
-      "descriptionKey": "v1|omhu culotte af frilandslammekod|lamb_other",
-      "originalName": "OMHU CULOTTE AF FRILANDSLAMMEKØD",
-      "sampleDescriptions": [
-        "290-300 G SKARP PRIS Med eller uden marinade af hvidløg og rosmarin. Max. kg pris 258,45. Lammeculotte med selleripuré, grønt og urter"
-      ],
-      "categoryId": "beef",
-      "comparisonGroup": "lamb_other",
-      "stores": [
-        "meny"
-      ],
-      "occurrences": 1
-    }
-  ]
+  "generatedAt": "2026-07-22T04:17:13.772Z",
+  "count": 0,
+  "items": []
 }

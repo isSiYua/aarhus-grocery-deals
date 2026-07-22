@@ -138,6 +138,7 @@ test('handles newly reviewed Wolt and mixed-choice product identities before ing
   assert.deepEqual(classifyOffer({ heading: 'SOL&MAR Blæksprutteringe eller chorizo-kroketter' }), { categoryId: 'frozen_ready', comparisonGroup: 'mixed_grocery_offer' });
   assert.deepEqual(classifyOffer({ heading: 'MADVÆRKET Kyllingebrystfilet eller -lårmix', description: 'Med BBQ' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_poultry_mixed_offer' });
   assert.deepEqual(classifyOffer({ heading: 'MCENNEDY Spareribs', description: 'Hot eller BBQ' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_pork_mixed_offer' });
+  assert.deepEqual(classifyOffer({ heading: 'OMHU CULOTTE AF FRILANDSLAMMEKØD', description: 'Med eller uden marinade af hvidløg og rosmarin' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_mixed_meat' });
   assert.deepEqual(classifyOffer({ heading: 'Godt papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
   assert.deepEqual(classifyOffer({ heading: 'Lambi Classic papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
   assert.equal(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), null);
