@@ -96,6 +96,15 @@ test('manual refresh checks the active location data file and only replaces chan
   assert.match(appSource, /aria-label': refresh\.status === 'checking' \? '正在检查更新' : '刷新并检查数据更新'/);
 });
 
+test('search page links to the public GitHub repository for stars', () => {
+  assert.match(appSource, /github-star-card/);
+  assert.match(appSource, /https:\/\/github\.com\/isSiYua\/aarhus-grocery-deals/);
+  assert.match(appSource, /打开 GitHub · Star/);
+  assert.match(appSource, /target: '_blank'/);
+  assert.match(appSource, /rel: 'noopener noreferrer'/);
+  assert.match(styleSource, /\.github-star-link \{/);
+});
+
 test('mobile chrome behaves like a reading app and has no visible handles', () => {
   assert.match(appSource, /function toggleReadingChrome\(\)/);
   assert.match(appSource, /function attachReadingChromeTap\(node\)/);

@@ -1467,6 +1467,22 @@ function searchView() {
     query ? storeFilterBar(allResults) : null,
     query ? sectionTitle(`找到 ${results.length} 项`, hasStoreFilters() ? `最低价与差价按已选 ${state.storeFilters.length} 家商店计算` : '最低价与差价按全部商店计算') : sectionTitle('搜索商品', '例如鸡腿肉、kylling、chicken、Coca-Cola Zero'),
     query ? el('div', { class: 'offer-list' }, [...results].sort(compareOffers).map(o => offerCard(o))) : el('div', { class: 'empty' }, '输入商品名称后显示结果。'),
+    el('aside', { class: 'github-star-card', 'aria-label': '支持买菜口袋书项目' }, [
+      el('div', { class: 'github-star-copy' }, [
+        el('span', { class: 'github-star-icon', 'aria-hidden': 'true' }, '⭐'),
+        el('div', {}, [
+          el('strong', {}, '觉得这个买菜口袋书好用？'),
+          el('p', {}, '欢迎去 GitHub 看看项目，也可以顺手帮我点个 Star。'),
+        ]),
+      ]),
+      el('a', {
+        class: 'github-star-link',
+        href: 'https://github.com/isSiYua/aarhus-grocery-deals',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+        'aria-label': '在 GitHub 打开 aarhus-grocery-deals 仓库并点 Star',
+      }, '打开 GitHub · Star ⭐'),
+    ]),
     footerNote(),
   ]);
 }
