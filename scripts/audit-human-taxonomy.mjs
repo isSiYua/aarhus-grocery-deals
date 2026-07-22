@@ -11,6 +11,7 @@ const errors = [];
 const warnings = [];
 const fail = (offer, message) => errors.push(`${message}: ${offer.originalName}`);
 const legacyGenericZh = /商品（请核对原名）|其他家居用品|其他电子电器|其他休闲、户外或兴趣用品|成人服饰或鞋袜|儿童服饰或鞋袜|请按原名|请按原始商品名|购买前请确认|购买时请确认年龄段|具体功能以商品原名|具体用途由商品原名|具体品种以原名|原名为准|因商品而异|需按原名/;
+const dangerousDescriptionTemplate = /预制方便餐。方便餐或预制菜|这是汽水，可直接饮用的碳酸软饮|这是烈酒或利口酒，酒精度较高的蒸馏酒或甜味酒|这是电脑或网络设备，用于学习、办公、存储或网络连接。有多个款式或型号可选/;
 
 const expectedLeadingCategories = ['vegetables', 'fruit', 'chicken', 'minced_meat', 'pork_fresh', 'beef', 'seafood'];
 const actualLeadingCategories = aarhus.categories.slice(0, expectedLeadingCategories.length).map(category => category.id);
@@ -34,6 +35,7 @@ if (actualTrailingCategories.join('|') !== expectedTrailingCategories.join('|'))
 }
 
 for (const offer of aarhus.offers) {
+  const heading = normalizedText(offer.originalName);
   const name = normalizedText(`${offer.originalName} ${offer.originalDescription || ''}`);
   const group = AARHUS_COMPARISON_GROUPS[offer.comparisonGroup];
   if (!group) fail(offer, `不存在的 Aarhus 比价小类 ${offer.comparisonGroup}`);
@@ -51,6 +53,70 @@ for (const offer of aarhus.offers) {
   if (String(offer.zhExplanation || '').trim().length < 12) fail(offer, '中文解释过短');
   if (ITEM_DESCRIPTION_META_PATTERN.test(offer.zhExplanation || '')) fail(offer, '商品说明混入了比价系统规则');
   if (legacyGenericZh.test(`${offer.productNameZh || ''} ${offer.zhExplanation || ''}`)) fail(offer, '仍在使用空泛的旧版中文模板');
+  if (dangerousDescriptionTemplate.test(offer.zhExplanation || '')) fail(offer, '仍在使用会掩盖商品身份的通用描述模板');
+  if (/silvercrest elkedel.*smoothie maker/.test(name)
+      && (offer.comparisonGroup !== 'home_appliances' || !/电热水壶.*搅拌机/.test(`${offer.productNameZh} ${offer.zhExplanation}`))) {
+    fail(offer, '厨房电器被 smoothie 关键词误判为饮料');
+  }
+  if (/depend neglefil.*kiss naturlige vipper/.test(name)
+      && (offer.comparisonGroup !== 'personal_makeup' || !/美甲锉.*假睫毛/.test(`${offer.productNameZh} ${offer.zhExplanation}`))) {
+    fail(offer, '美甲锉或假睫毛商品身份错误');
+  }
+  if (/proteinbar|proteinkugler|protein snack|energi gel/.test(name)
+      && (offer.comparisonGroup !== 'supplement_sports_snack' || !/蛋白|能量胶/.test(offer.productNameZh || ''))) {
+    fail(offer, '蛋白零食或运动能量补给误归入普通糖果、薯片或麦片');
+  }
+  if (/^surdejspizza .*prosciutto.*diavola/.test(name)
+      && (offer.comparisonGroup !== 'pizza_snacks' || !/披萨/.test(offer.productNameZh || ''))) {
+    fail(offer, '成品披萨误归入普通面包');
+  }
+  if (/^nye lammefjords kartofler/.test(name)
+      && (offer.comparisonGroup !== 'potatoes_fresh' || !/土豆/.test(offer.productNameZh || ''))) {
+    fail(offer, 'Lammefjords 产地词误触发羊肉分类');
+  }
+  if (/^realme c\d+/.test(name)
+      && (offer.comparisonGroup !== 'electronics_mobile' || !/智能手机/.test(offer.productNameZh || ''))) {
+    fail(offer, 'Realme 智能手机误归入其他电子产品');
+  }
+  if (/computertaske|stylus(?: pen)?/.test(name)
+      && (offer.comparisonGroup !== 'electronics_computer_accessory' || !/电脑包|触控笔/.test(`${offer.productNameZh} ${offer.zhExplanation}`))) {
+    fail(offer, '电脑包或触控笔商品身份错误');
+  }
+  if (/\bskaerm\b/.test(heading)
+      && offer.comparisonGroup.startsWith('electronics_')
+      && (offer.comparisonGroup !== 'electronics_monitor' || !/显示器/.test(offer.productNameZh || ''))) {
+    fail(offer, '显示器被误认为电脑或其他电子产品');
+  }
+  if (/gamerstol/.test(name)
+      && (offer.comparisonGroup !== 'home_furniture' || !/电竞椅|游戏椅/.test(`${offer.productNameZh} ${offer.zhExplanation}`))) {
+    fail(offer, '电竞椅被误认为电源或电子产品');
+  }
+  if (/baileys.*(?:\bis\b|triple chocolate)/.test(name)
+      && !/eller grant/.test(name)
+      && (offer.comparisonGroup !== 'ice_cream' || !/冰淇淋/.test(offer.productNameZh || ''))) {
+    fail(offer, 'Baileys 风味冰淇淋误归入酒类');
+  }
+  if (/coca cola|pepsi|fanta|faxe kondi|tuborg squash|sprite|7 up/.test(name)
+      && offer.comparisonGroup.startsWith('drink_')
+      && !/可乐|橙|果味|柠檬|青柠|汤力|能量/.test(`${offer.productNameZh} ${offer.zhExplanation}`)) {
+    fail(offer, '品牌汽水没有说明实际饮料类型或风味');
+  }
+  if (/whey|kreatin|creatin|pwo/.test(name)
+      && offer.comparisonGroup === 'supplements'
+      && !/蛋白|肌酸|训练|咖啡因/.test(offer.zhExplanation || '')) {
+    fail(offer, '运动补剂没有说明主要成分和用途');
+  }
+  if (/gazpacho|taquitos|paella|bao|pho|pollo alla|polpette con/.test(name)
+      && offer.comparisonGroup === 'ready_meal'
+      && /通常加热即可|预制方便餐/.test(offer.zhExplanation || '')) {
+    fail(offer, '明确菜式仍被通用方便餐模板覆盖');
+  }
+  if (/\bpowerbank\b/.test(heading)) {
+    const advertisedCapacity = heading.match(/(\d[\d.]*)\s*mah/);
+    if (advertisedCapacity && !new RegExp(`${advertisedCapacity[1]}\\s*mAh`, 'i').test(offer.zhExplanation || '')) {
+      fail(offer, '移动电源解释没有使用主商品名称中的标称容量');
+    }
+  }
   if (offer.categoryId.startsWith('leisure_') && /(?:^| )(?:is|iskasse|magnum|solero|gelatelli)(?: |$)/.test(name)) {
     fail(offer, '冰淇淋或冰品误归入休闲用品');
   }

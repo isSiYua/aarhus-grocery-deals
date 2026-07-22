@@ -2,6 +2,142 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
   "entries": {
+    "protein lab protein sandwich": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Protein Lab 高蛋白高纤面包",
+      "descriptionZh": "Protein Lab 高蛋白高纤面包，商品原文说明面包含较高蛋白质并是膳食纤维来源。可像普通切片面包一样做三明治或早餐吐司；它不是已经夹好馅料的即食三明治，也不是必须微波加热的预制菜。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "sol mar gazpacho": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "SOL&MAR 西班牙冷番茄汤",
+      "descriptionZh": "SOL&MAR Gazpacho 是西班牙式冷番茄蔬菜汤，通常以番茄、黄瓜、甜椒、橄榄油和醋调味，冷藏后直接喝或盛碗食用；口感清爽微酸，不需要用烤箱或平底锅加热。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "murph pwo eller kreatin": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplements",
+      "productNameZh": "Murph 训练前补剂或肌酸粉任选",
+      "descriptionZh": "Murph 运动补剂二选一：PWO 是训练前冲调粉，配方常含咖啡因等提神成分；另一款是肌酸粉，适合进行力量或高强度训练、希望长期按建议剂量补充肌酸的人。两类成分和用途不同，应看包装配料与每份剂量；对咖啡因敏感者尤其要核对 PWO 标签。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "murph whey med kreatin": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplements",
+      "productNameZh": "Murph 乳清蛋白肌酸粉",
+      "descriptionZh": "Murph 乳清蛋白粉加入肌酸，香草或可可口味。乳清蛋白用于补充日常蛋白质，肌酸适合力量及反复高强度训练；可用水或牛奶冲调，也可拌入燕麦。它把两种补充剂合在一袋，是否适合你取决于总蛋白摄入和每份肌酸剂量，不能代替正常饮食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "coca cola fanta sodavand": {
+      "categoryId": "soft_drinks",
+      "comparisonGroup": "drink_soda",
+      "productNameZh": "Coca-Cola 可乐或 Fanta 果味汽水任选",
+      "descriptionZh": "可选 Coca-Cola 可乐或 Fanta 果味汽水。可乐是焦糖色、带可乐香料风味的汽水；Fanta 以橙味等水果风味为主，本期图片还显示多种包装口味。是否含糖需按实际罐身确认，不再笼统写成“碳酸软饮”。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "faxe kondi eller pepsi max sodavand": {
+      "categoryId": "soft_drinks",
+      "comparisonGroup": "drink_soda",
+      "productNameZh": "Faxe Kondi 柠檬青柠汽水或 Pepsi Max 无糖可乐任选",
+      "descriptionZh": "可选 Faxe Kondi 或 Pepsi Max。Faxe Kondi 是丹麦常见的柠檬青柠味汽水，酸甜清爽；Pepsi Max 是使用甜味剂的无糖可乐，带焦糖与可乐香料味。两种口味不同，均建议冰镇饮用。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "queens bay sauvignon blanc": {
+      "categoryId": "alcohol_wine_white",
+      "comparisonGroup": "alcohol_wine_white",
+      "productNameZh": "Queen’s Bay 新西兰长相思白葡萄酒",
+      "descriptionZh": "Queen’s Bay 新西兰 Sauvignon Blanc（长相思）盒装白葡萄酒。这类酒通常酸度鲜明，带葡萄柚、青柠、醋栗、百香果和青草香；适合喜欢香气奔放、清爽干型白葡萄酒的人，可冷藏后配贝类、白身鱼或沙拉。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "rueda verdejo 11": {
+      "categoryId": "alcohol_wine_white",
+      "comparisonGroup": "alcohol_wine_white",
+      "productNameZh": "西班牙 Rueda Verdejo 干白葡萄酒",
+      "descriptionZh": "西班牙 Rueda 产区 Verdejo 干白通常酸度清爽，带柠檬、青柠、白桃和茴香或青草般的草本香。适合喜欢不甜、清新、有一点草本感白葡萄酒的人，可冷藏后配海鲜、沙拉、白肉或亚洲清淡菜。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "jack daniels 40": {
+      "categoryId": "alcohol_spirits",
+      "comparisonGroup": "alcohol_spirits",
+      "productNameZh": "Jack Daniel’s 田纳西威士忌",
+      "descriptionZh": "Jack Daniel’s Old No. 7 风格的田纳西威士忌，典型为焦糖、香草和橡木香，口感偏圆润微甜。适合喜欢美式威士忌甜香的人，可加冰、加可乐或用于经典威士忌调酒；40% 酒精度，未成年人及驾车前后不要饮用。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "chateau bouteilley la collection chardonnay terre brunda eller il tauro": {
+      "categoryId": "alcohol_wine_mixed",
+      "comparisonGroup": "alcohol_wine_mixed_offer",
+      "productNameZh": "法国或意大利红白葡萄酒任选",
+      "descriptionZh": "这是法国或意大利多款葡萄酒任选，图片中同时有红葡萄酒和白葡萄酒，并非全是白葡萄酒。La Collection Chardonnay 偏苹果、柑橘与柔和果香；其余红酒通常更偏红黑水果、香料和单宁。适合先按想要清爽白酒还是配肉的红酒来选，再核对瓶身具体酒款。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "targus computertaske 15 6": {
+      "categoryId": "electronics_computing",
+      "comparisonGroup": "electronics_computer_accessory",
+      "productNameZh": "Targus 15.6 英寸笔记本电脑包",
+      "descriptionZh": "Targus 15.6 英寸笔记本电脑包，用于装入并携带兼容尺寸的笔记本电脑及充电器等小配件。购买时主要核对电脑外形尺寸、包内隔层和肩带配置；它不是电脑或网络设备本体。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "targus 2 i 1 stylus pen": {
+      "categoryId": "electronics_computing",
+      "comparisonGroup": "electronics_computer_accessory",
+      "productNameZh": "Targus 二合一触控笔兼书写笔",
+      "descriptionZh": "Targus 二合一触控笔兼普通书写笔：触控端可在兼容电容触摸屏上点按、书写或绘图，另一端用于纸面书写。它是输入配件，不是电脑本体；精细压感、掌托防误触等能力不能从本期促销资料确认。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "acer sa242yh1bi 23 8 pc skaerm": {
+      "categoryId": "electronics_computing",
+      "comparisonGroup": "electronics_monitor",
+      "productNameZh": "Acer 23.8 英寸 Full HD 办公显示器",
+      "descriptionZh": "Acer SA242YH1bi 23.8 英寸电脑显示器，Full HD 1080p、VA LCD 面板、100 Hz 刷新率、4 ms 响应时间并支持 VESA 壁挂。适合日常办公、网页和影音；它是外接显示器，不是笔记本电脑。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "acer pd3 series 15 6 baerbar dobbelt skaerm": {
+      "categoryId": "electronics_computing",
+      "comparisonGroup": "electronics_monitor",
+      "productNameZh": "Acer 15.6 英寸便携双屏显示器",
+      "descriptionZh": "Acer PD3 Series 15.6 英寸便携双屏显示器，Full HD IPS，可 315° 折叠，并通过 Mini HDMI 或 USB-C 连接电脑和手机。适合移动办公时扩展桌面；它是双屏外接显示器，不是笔记本电脑或充电器。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "acer pm1 series 15 6 baerbar touch skaerm": {
+      "categoryId": "electronics_computing",
+      "comparisonGroup": "electronics_monitor",
+      "productNameZh": "Acer 15.6 英寸便携触控显示器",
+      "descriptionZh": "Acer PM1 Series 15.6 英寸便携触控显示器，Full HD IPS、10 点触控、60 Hz，可用 USB-C 单线连接兼容电脑、手机或平板。适合移动办公、演示和触控操作；它不是智能手机。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "borne gamerstol": {
+      "categoryId": "home_furniture",
+      "comparisonGroup": "home_furniture",
+      "productNameZh": "儿童 RGB 电竞椅",
+      "descriptionZh": "儿童电竞椅，高约 95–102 厘米，PVC 皮面、PU 脚轮，最大承重 120 公斤，并带 USB 供电的 RGB 灯。灯光可外接电源或移动电源，但商品主体是供儿童在电脑桌前就坐的椅子，移动电源不随附。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "baileys is eller triple chocolate": {
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "productNameZh": "Baileys 风味或三重巧克力冰淇淋任选",
+      "descriptionZh": "这是 Baileys 风味冰淇淋或 Triple Chocolate 三重巧克力冰淇淋任选，均为冷冻甜品。前者模仿 Baileys 奶油甜酒的奶香甜味，后者突出多层巧克力风味；商品不是一瓶烈酒，实际是否含酒精及过敏原以包装为准。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
     "toms guldkarameller eller kaempe skildpadder 3 pak": {
       "categoryId": "candy",
       "comparisonGroup": "candy",

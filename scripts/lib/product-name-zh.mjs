@@ -11,6 +11,41 @@ const normalize = value => String(value || '')
 const title = (pattern, nameZh) => [pattern, nameZh];
 
 const DANISH_PRODUCT_FORM_TITLES = [
+  title(/silvercrest elkedel.*smoothie maker/, 'SILVERCREST 电热水壶或随行搅拌机任选'),
+  title(/depend neglefil.*kiss naturlige vipper/, '美甲锉或自然款假睫毛任选'),
+  title(/murph proteinbar.*energi gel/, 'Murph 蛋白棒、麦片棒或运动能量胶任选'),
+  title(/barebells proteinbar.*shake/, 'Barebells 蛋白棒或即饮蛋白奶昔任选'),
+  title(/nutramino wafer.*proteinbar|proteinbar.*nutramino wafer/, '蛋白棒或高蛋白威化任选'),
+  title(/murph proteinbar med kreatin/, 'Murph 肌酸蛋白棒'),
+  title(/alesto proteinkugler/, 'ALESTO 蛋白球零食'),
+  title(/protein lab protein snack/, 'Protein Lab 高蛋白零食'),
+  title(/^surdejspizza .*prosciutto.*diavola/, '意式酸种火腿披萨或辣香肠披萨任选'),
+  title(/kohberg smorbagt fastfoodbrod.*cafesandwich/, 'Kohberg 黄油烘焙快餐面包或三明治面包任选'),
+  title(/^nye lammefjords kartofler/, '丹麦 Lammefjords 新土豆'),
+  title(/anglamark.*kartofler.*brod/, 'Änglamark 有机土豆或面包任选'),
+  title(/pepsi max.*faxe kondi.*booster energidrik/, 'Pepsi Max、Faxe Kondi 汽水或 Booster 能量饮料任选'),
+  title(/faxe kondi.*pepsi max.*vitamin well/, 'Faxe Kondi 柠檬青柠汽水、Pepsi Max 无糖可乐或 Vitamin Well 维生素水任选'),
+  title(/barebells.*nupo/, 'Barebells 或 Nupo 蛋白棒、代餐或蛋白奶昔任选'),
+  title(/italiensk charcuteri.*gestus pizzabunde/, '意式冷切肉或 Gestus 披萨饼底任选'),
+  title(/irma.*surdejspizzabund|premieur surdejspizzabund/, '酸种披萨饼底'),
+  title(/il fornaio.*pizzadej/, 'Il Fornaio 有机披萨面团'),
+  title(/protein lab protein brod/, 'Protein Lab 高蛋白面包'),
+  title(/gelatelli high protein isbaeger/, 'GELATELLI 高蛋白杯装冰淇淋'),
+  title(/trust gxt234 mikrofon/, 'Trust GXT234 发光游戏麦克风'),
+  title(/^elmarked$/, '电器商品专区任选'),
+  title(/breezer.*somersby.*schweppes.*red bull/, '预调酒、苹果酒、汤力水或能量饮料任选'),
+  title(/neoprencover.*mobiloplader.*mus/, '14英寸电脑保护套、无线手机充电器或鼠标任选'),
+  title(/harboe sodavand/, 'Harboe 多口味汽水'),
+  title(/state.*xoxo sodavand/, 'State 功能饮料或 XOXO 汽水任选'),
+  title(/^sodavand$/, '甜瓜、李子或金桔味汽水任选'),
+  title(/jolly sodavand/, 'Jolly 多口味汽水'),
+  title(/aarstiderne.*sodavand/, 'Aarstiderne 有机苹果莓果汽水'),
+  title(/sol mar gazpacho/, 'SOL&MAR 西班牙冷番茄汤'),
+  title(/protein lab protein sandwich/, 'Protein Lab 高蛋白高纤面包'),
+  title(/protein cafe sandwich/, 'Protein Café 高蛋白三明治'),
+  title(/murph pwo.*kreatin/, 'Murph 训练前补剂或肌酸粉任选'),
+  title(/murph whey med kreatin/, 'Murph 乳清蛋白肌酸粉'),
+  title(/baileys is.*triple chocolate/, 'Baileys 风味或三重巧克力冰淇淋任选'),
   title(/^slikaerter$/, '甜脆豌豆荚'),
   title(/toms guldkarameller.*kaempe skildpadder/, 'Toms 黄油焦糖或巧克力夹心糖任选'),
   title(/^fredagsslik$/, '周五自选散装糖果'),
@@ -581,20 +616,20 @@ const GROUP_DEFAULTS = {
   mushrooms: '蘑菇', cauliflower: '花椰菜', broccoli: '西兰花', lettuce: '生菜', spinach: '菠菜', chives: '细香葱', basil: '罗勒', parsley: '欧芹', mixed_fresh_herbs: '多款鲜香草任选', fresh_herbs: '鲜香草', carrots: '胡萝卜', root_vegetables: '根茎蔬菜', peppers: '甜椒或辣椒', peas: '豌豆', corn: '玉米', vegetable_mix: '蔬菜组合', mixed_produce: '多款果蔬任选', prepared_salad: '预制沙拉', potatoes_fresh: '新鲜土豆', potato_salad: '土豆沙拉', potato_sides: '加工土豆配菜', tomatoes: '番茄', cucumber: '黄瓜', cabbage: '卷心菜', onion_garlic: '葱姜蒜或洋葱', leafy_green: '叶菜', vegetables_other: '其他蔬菜',
   apples: '苹果', pears: '梨', strawberries: '草莓', blueberries: '蓝莓', other_berries: '莓果', watermelon: '西瓜', melon: '甜瓜', grapes: '葡萄', apricots: '杏', plums: '李子', cherries: '樱桃', peaches_nectarines: '桃或油桃', mixed_stone_fruit: '多款核果任选', pineapple: '菠萝', mango: '芒果', avocado: '牛油果', bananas: '香蕉', prepared_fruit: '切配水果', mixed_fruit: '多款水果任选',
   bread: '面包', mixed_bakery: '多款烘焙食品任选', rice: '大米', pasta_noodles: '意面或面条', flour_baking: '面粉或饼皮', pizza_snacks: '披萨', dumplings: '冷冻饺子或春卷', ready_meal: '预制方便餐', plant_based_meat: '植物肉或素香肠', frozen_vegetables: '冷冻蔬菜', ice_cream: '冰淇淋或冰品', cereal: '早餐谷物', coffee_tea: '咖啡或茶', spreads_jam: '果酱、蜂蜜或抹酱', mixed_grocery_offer: '跨类别食品任选', canned: '罐头食品', sauces: '酱料', spices: '香料或调味料', oil_vinegar: '食用油或醋', oil_mixed_offer: '多种食用油任选', baking_ingredients: '烘焙原料', pickled_vegetables: '腌菜或橄榄', chips: '咸味零食', chocolate: '巧克力或糖果', biscuits: '饼干或蛋糕', nuts: '坚果', dried_fruit: '果干',
-  paper: '纸品', cleaning: '清洁用品', trash_bags: '垃圾袋或保鲜袋', kitchen_consumables: '厨房耗材', diapers: '纸尿裤', baby_care: '婴儿护理用品', baby_food: '婴幼儿食品', hair_body: '个人洗护用品', personal_hair_care: '洗发或护发用品', personal_skin_care: '洁面或护肤用品', personal_body_care: '沐浴或身体护理用品', personal_deodorant: '止汗除味用品', personal_oral_care: '口腔护理用品', personal_makeup: '彩妆用品', personal_shaving: '剃须用品', personal_appliances: '个人护理电器', personal_appliances_mixed_offer: '多种个人护理电器任选', personal_accessories: '个人护理辅助用品', personal_health_devices: '健康检测或护理设备', personal_care_mixed_offer: '多种个人护理用品任选', sun_care: '防晒用品', hygiene: '卫生护理用品', supplements: '营养补充剂', zero_soda: '无糖可乐或雪碧',
-  drink_soda: '汽水或软饮', drink_juice: '果汁或果味饮料', drink_water: '饮用水或气泡水', drink_energy: '能量饮料', drink_sports: '运动饮料', drink_concentrate: '浓缩兑水饮料', drink_other: '其他饮料',
-  alcohol_beer: '啤酒', alcohol_wine: '葡萄酒', alcohol_wine_red: '红葡萄酒', alcohol_wine_white: '白葡萄酒', alcohol_wine_rose: '桃红葡萄酒', alcohol_wine_sparkling: '起泡酒', alcohol_wine_mixed_offer: '多种葡萄酒任选', alcohol_wine_other: '葡萄酒（类型未明确）', alcohol_spirits: '烈酒或利口酒', alcohol_cider_rtd: '苹果酒或即饮调制酒', alcohol_other: '其他酒类',
+  paper: '纸品', cleaning: '清洁用品', trash_bags: '垃圾袋或保鲜袋', kitchen_consumables: '厨房耗材', diapers: '纸尿裤', baby_care: '婴儿护理用品', baby_food: '婴幼儿食品', hair_body: '个人洗护用品', personal_hair_care: '洗发或护发用品', personal_skin_care: '洁面或护肤用品', personal_body_care: '沐浴或身体护理用品', personal_deodorant: '止汗除味用品', personal_oral_care: '口腔护理用品', personal_makeup: '彩妆用品', personal_shaving: '剃须用品', personal_appliances: '个人护理电器', personal_appliances_mixed_offer: '多种个人护理电器任选', personal_accessories: '个人护理辅助用品', personal_health_devices: '健康检测或护理设备', personal_care_mixed_offer: '多种个人护理用品任选', sun_care: '防晒用品', hygiene: '卫生护理用品', supplements: '营养补充剂', supplement_sports_snack: '蛋白零食与运动能量补给', zero_soda: '无糖可乐或雪碧',
+  drink_soda: '汽水或软饮', drink_juice: '果汁或果味饮料', drink_water: '饮用水或气泡水', drink_energy: '能量饮料', drink_sports: '运动饮料', drink_mixed_offer: '汽水与能量饮料任选', drink_concentrate: '浓缩兑水饮料', drink_other: '其他饮料',
+  alcohol_beer: '啤酒', alcohol_wine: '葡萄酒', alcohol_wine_red: '红葡萄酒', alcohol_wine_white: '白葡萄酒', alcohol_wine_rose: '桃红葡萄酒', alcohol_wine_sparkling: '起泡酒', alcohol_wine_mixed_offer: '多种葡萄酒任选', alcohol_wine_other: '葡萄酒（类型未明确）', alcohol_spirits: '烈酒或利口酒', alcohol_cider_rtd: '苹果酒或即饮调制酒', alcohol_mixed_offer: '跨酒种任选', alcohol_other: '其他酒类',
   pet_cat: '猫粮或猫用品', pet_dog: '狗粮或狗用品', pet_other: '其他宠物用品', flower_bouquet: '鲜花或花束', plants: '盆栽或园艺植物',
   home_appliances: '家用小电器', home_cookware: '锅具或厨房工具', home_tableware: '餐具或饮具', home_storage: '家居收纳用品', home_furniture: '家具', home_textiles: '床品或家用纺织品', home_bath: '浴室用品或毛巾', home_tools: '家用工具', home_garden: '园艺或户外家居用品', home_decor: '家居装饰用品', home_other: '其他家居用品',
-  electronics_audio: '音频设备', electronics_computing: '数码产品或配件', electronics_tv: '电视或投影设备', electronics_mobile: '手机、平板或智能手表', electronics_computer: '电脑或数码配件', electronics_print_photo: '打印或影像设备', electronics_gaming: '游戏设备或游戏', electronics_charging: '充电器或线材', electronics_lighting: '电子照明用品', electronics_other: '其他电子电器',
+  electronics_audio: '音频设备', electronics_computing: '数码产品或配件', electronics_tv: '电视或投影设备', electronics_mobile: '手机、平板或智能手表', electronics_computer: '电脑或数码配件', electronics_monitor: '电脑显示器', electronics_computer_accessory: '电脑配件', electronics_print_photo: '打印或影像设备', electronics_gaming: '游戏设备或游戏', electronics_charging: '充电器或线材', electronics_lighting: '电子照明用品', electronics_other: '其他电子电器',
   clothing_adult: '成人服饰鞋袜', clothing_children: '儿童服饰鞋袜', clothing_other: '其他服饰配件', clothing_adult_tops: '成人上衣', clothing_adult_bottoms: '成人裤装或裙装', clothing_adult_dresses: '成人连衣裙', clothing_adult_outerwear: '成人外套或雨具', clothing_adult_underwear: '成人内衣', clothing_adult_socks: '成人袜子', clothing_adult_footwear: '成人鞋靴', clothing_adult_accessories: '成人服饰配件', clothing_children_tops: '儿童上衣', clothing_children_bottoms: '儿童裤装或裙装', clothing_children_outerwear: '儿童外套或雨具', clothing_children_underwear: '儿童内衣或睡衣', clothing_children_socks: '儿童袜子', clothing_children_footwear: '儿童鞋靴', clothing_children_accessories: '儿童服饰配件', clothing_mixed_offer: '服饰多品项任选',
   leisure_toys: '玩具或游戏', leisure_stationery: '文具用品', leisure_books: '图书或杂志', leisure_bicycles: '自行车或电助力自行车', leisure_bike_accessories: '骑行护具或配件', leisure_ride_on: '儿童电动骑乘玩具', leisure_outdoor_play: '户外游乐设施', leisure_sports: '运动或户外装备', leisure_camping: '露营或节庆户外用品', leisure_bags: '书包或背包', leisure_crafts_learning: '手工或学习用品', leisure_gaming: '电子游戏或软件', leisure_other: '其他休闲用品',
   tobacco_cigarettes: '烟草制品', tobacco_nicotine: '尼古丁产品', tobacco_other: '其他烟草相关商品', other_offer: '其他促销商品',
 };
 
 const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
-  'drink_soda', 'drink_juice', 'drink_water', 'drink_energy', 'drink_sports', 'drink_concentrate', 'drink_other',
-  'alcohol_beer', 'alcohol_wine', 'alcohol_wine_red', 'alcohol_wine_white', 'alcohol_wine_rose', 'alcohol_wine_sparkling', 'alcohol_wine_mixed_offer', 'alcohol_wine_other', 'alcohol_spirits', 'alcohol_cider_rtd', 'alcohol_other',
+  'drink_soda', 'drink_juice', 'drink_water', 'drink_energy', 'drink_sports', 'drink_mixed_offer', 'drink_concentrate', 'drink_other',
+  'alcohol_beer', 'alcohol_wine', 'alcohol_wine_red', 'alcohol_wine_white', 'alcohol_wine_rose', 'alcohol_wine_sparkling', 'alcohol_wine_mixed_offer', 'alcohol_wine_other', 'alcohol_spirits', 'alcohol_cider_rtd', 'alcohol_mixed_offer', 'alcohol_other',
   'pet_cat', 'pet_dog', 'pet_other', 'flower_bouquet', 'plants',
   'home_appliances', 'home_cookware', 'home_storage', 'home_decor', 'home_other',
   'electronics_audio', 'electronics_computing', 'electronics_lighting', 'electronics_other',
@@ -603,6 +638,54 @@ const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
 ]);
 
 const SPECIFIC_DESCRIPTIONS = [
+  [/silvercrest elkedel.*smoothie maker/, '这是两种厨房电器任选：2200 W、1.7 L 的电热水壶用于烧水；300 W 随行搅拌机用于把水果、酸奶等打成 smoothie。两者功能完全不同，应按实际需要和包装中的杯具配件选择。'],
+  [/depend neglefil.*kiss naturlige vipper/, '这是美甲锉或自然款假睫毛任选。美甲锉用于修整指甲边缘，假睫毛用于眼妆并需搭配适用胶水；购买时确认所选款式、是否含胶及一次性或可重复使用说明。'],
+  [/murph proteinbar.*energi gel/, '这是 Murph 蛋白棒、麦片能量棒或运动能量胶任选。蛋白棒侧重便携补充蛋白质，麦片棒侧重碳水零食，能量胶适合长时间耐力运动中快速补充碳水；三者不是同一种营养品，应按包装查看每份蛋白质、糖和咖啡因。'],
+  [/barebells proteinbar.*shake/, '这是 Barebells 蛋白棒或瓶装即饮蛋白奶昔任选。蛋白棒便于随身加餐，奶昔更容易饮用；两者都主要用于在日常饮食不足时方便补充蛋白质，应比较每份蛋白质、能量、糖和乳成分，不能保证增肌。'],
+  [/nutramino wafer.*proteinbar|proteinbar.*nutramino wafer/, '这是普通蛋白棒或 Nutramino 高蛋白威化任选。威化口感更酥脆、通常更像甜点，蛋白棒质地可能更扎实；应比较每份蛋白质、糖和总能量，而不是把两种形态当作同一零食。'],
+  [/murph proteinbar med kreatin/, '这是加入肌酸的 Murph 蛋白棒，兼作便携蛋白加餐和肌酸补充。它的便利性在于无需冲泡，但应核对每条实际蛋白质、肌酸、糖和能量；肌酸更适合力量或反复高强度训练并需按标签持续使用，不会自动带来增肌效果。'],
+  [/^proteinbar$|kramer s proteinbar|barebells proteinbar/, '这是高蛋白零食棒，适合在正餐间或训练后作为便携加餐。选择时重点看每条蛋白质、糖、总能量和过敏原；“高蛋白”只是营养组成，不代表吃一条就会增肌或替代正常饮食。'],
+  [/alesto proteinkugler/, '这是 ALESTO 小颗粒蛋白零食，适合随身作为加餐；它不是肌酸或乳清粉。实际蛋白质、糖、脂肪、坚果及乳成分需查看营养表，不能把“高蛋白”理解成保证增肌。'],
+  [/protein lab protein snack/, '这是 Protein Lab 便携高蛋白零食，用于日常或训练后的方便加餐；具体是脆片、棒或其他形态以包装正面为准，并应比较每份蛋白质、能量和糖，而不是只看“protein”字样。'],
+  [/^surdejspizza .*prosciutto.*diavola/, '这是酸种披萨成品，可选 Prosciutto 火腿口味或 Diavola 辣香肠口味；前者偏咸香，后者通常更辛辣。按包装用烤箱加热至饼底酥脆，它不是单独售卖的披萨饼底。'],
+  [/kohberg smorbagt fastfoodbrod.*cafesandwich/, '这是以黄油烘焙的快餐面包或咖啡馆式三明治面包任选，可夹汉堡肉、鸡肉、奶酪和蔬菜。名称中的 smørbagt 表示黄油烘焙风味，商品主体是面包，不是黄油。'],
+  [/^nye lammefjords kartofler/, '这是丹麦 Lammefjorden 地区的新土豆，表皮薄、口感细嫩，适合带皮水煮、拌黄油香草或作为鱼肉配菜；Lammefjords 是产地名，商品不是羊肉。'],
+  [/anglamark.*kartofler.*brod/, '这是 Änglamark 有机土豆或有机面包的跨类别任选促销。土豆用于煮、烤或做配菜，面包可直接作早餐或三明治；应按卡片图片和包装选择实际商品，二者不能比较同一单位价。'],
+  [/pepsi max.*faxe kondi.*booster energidrik/, '这是 Pepsi Max 无糖可乐、Faxe Kondi 柠檬青柠味汽水或 Booster 能量饮料任选。前两种是汽水；Booster 含咖啡因、用于提神，不适合儿童，孕妇及对咖啡因敏感者应谨慎。'],
+  [/faxe kondi.*pepsi max.*vitamin well/, '这是三种不同饮料任选：Faxe Kondi 是清爽柠檬青柠味汽水，Pepsi Max 是无糖可乐，Vitamin Well 是添加维生素的果味水。购买时按想要的可乐味、柑橘汽水或较淡果味选择，并查看糖、甜味剂和咖啡因标示。'],
+  [/barebells.*nupo/, '这是 Barebells 或 Nupo 的蛋白棒、One Meal 代餐或瓶装蛋白奶昔任选。蛋白棒便于加餐，奶昔便于直接饮用，代餐会更强调一餐的能量和营养组成；三者形态和用途不同，应比较蛋白质、糖、总能量和每份大小。'],
+  [/italiensk charcuteri.*gestus pizzabunde/, '这是意式冷切肉或 Gestus 披萨饼底的跨类别任选。冷切肉可直接做三明治、冷盘或披萨配料；披萨饼底需要加酱料、奶酪和配菜后烘烤。两者不能当作同一种面包或肉制品比较。'],
+  [/irma.*surdejspizzabund|premieur surdejspizzabund/, '这是已经成形的酸种披萨饼底，带发酵面香；铺番茄酱、奶酪和喜欢的配料后放入烤箱烘烤。它不是已经带馅料的成品披萨，也不是普通早餐切片面包。'],
+  [/il fornaio.*pizzadej/, '这是有机披萨生面团，两份装；需要擀开或拉伸、加酱料和配菜后烘烤。它比现成披萨饼底多一步整形，也不是已经可以直接吃的面包。'],
+  [/protein lab protein brod/, '这是 Protein Lab 高蛋白面包，可像普通切片面包一样做早餐吐司和三明治。优势是更方便从主食中补充蛋白质，但应核对每 100 克蛋白质、纤维、盐和总能量，不能把它等同于蛋白粉。'],
+  [/gelatelli high protein isbaeger/, '这是 GELATELLI 杯装高蛋白冰淇淋，仍属于冷冻甜品，但配方会比普通冰淇淋更强调蛋白质。适合想吃甜品同时关注蛋白质的人；应比较每杯蛋白质、糖和总能量，“高蛋白”不代表可以无限量食用。'],
+  [/trust gxt234 mikrofon/, '这是 Trust GXT234 带灯效的游戏或直播麦克风，用于语音聊天、直播和录音。促销文字未给出接口、指向性和是否含支架，购买时应以包装型号规格为准；它不是电脑主机。'],
+  [/^elmarked$/, '这是门店“电器商品专区”任选活动，公开促销只说明有多种电器可选，没有列出具体型号，不能负责任地编造某一种功能。到店后应按实际商品标签比较用途、功率、尺寸和保修。'],
+  [/breezer.*somersby.*schweppes.*red bull/, '这项促销跨越含酒精和不含酒精饮料：Breezer 是果味预调酒，Somersby 是果味苹果酒，Schweppes Tonic 是带奎宁苦味的汤力水，Red Bull 是含咖啡因能量饮料。购买时必须按包装区分，含酒精款仅供达到法定年龄者。'],
+  [/neoprencover.*mobiloplader.*mus/, '这是三种电脑或手机配件任选：14 英寸氯丁橡胶电脑保护套用于防刮和轻微碰撞，无线手机充电器用于兼容设备充电，鼠标用于操作电脑。三者用途不同，应按设备尺寸、充电兼容性或连接方式选择。'],
+  [/bodylab whey/, 'Bodylab 乳清蛋白粉，用水或牛奶冲调，用于在日常饮食蛋白质不足时补充蛋白质；乳清消化较快，适合训练后或作为加餐。具体蛋白质含量、口味和甜味剂以包装为准；优势应看每克蛋白价格，而不是把它当成会自动增肌的产品。'],
+  [/optimum nutrition kreatin/, 'Optimum Nutrition 肌酸补充剂，多种包装或口味任选。肌酸适合进行力量、冲刺等反复高强度训练并愿意每日持续补充的人；重点核对是否为肌酸一水合物、每份剂量和添加成分，它不是即时提神剂。'],
+  [/murph whey proteinpulver med kreatin/, 'Murph 乳清蛋白肌酸粉，香草或巧克力口味。乳清蛋白用于补充蛋白质，肌酸适合力量及反复高强度训练；两者合装较方便，但应核对每份各自含量，不能代替正常饮食。'],
+  [/kramer s creatin pulver/, 'Kramer’s 肌酸粉，适合力量、冲刺或其他反复高强度训练人群按包装建议长期补充。选购时重点看是否为肌酸一水合物、每份克数和是否含调味或其他成分；它不会像咖啡因一样立即提神。'],
+  [/harboe sodavand/, 'Harboe 多口味汽水促销，品牌系列通常包含可乐、橙味和柠檬青柠等常见口味；本期文字未列出全部瓶身口味，选购时按实际标签确认含糖或无糖款。'],
+  [/state.*xoxo sodavand/, '可选 State、State Vitamin 或 XOXO 饮料。State 系列偏运动或维生素功能饮料，XOXO 为汽水；不同款的糖分、咖啡因和维生素配方不同，不能只当成一种普通汽水。'],
+  [/^sodavand$/, '亚洲风味果味汽水，可选甜瓜、李子或 calamondin 四季橘/金桔风味。三种都带气泡和明显果香，适合想尝试不同于可乐、雪碧的水果汽水的人；冰镇饮用更清爽。'],
+  [/jolly sodavand/, 'Jolly 多口味汽水，常见系列包含可乐、橙味或柠檬等款式；本期为多种口味任选，购买时按瓶身确认具体风味以及含糖或无糖版本。'],
+  [/aarstiderne.*sodavand/, 'Aarstiderne 有机水果汽水，可选苹果蓝莓或苹果覆盆子口味。以苹果果香为基底，分别带蓝莓或覆盆子的酸甜莓果味，适合喜欢果味明显、不同于普通可乐的汽水。'],
+  [/sol mar gazpacho/, 'SOL&MAR Gazpacho 是西班牙式冷番茄蔬菜汤，通常以番茄、黄瓜、甜椒、橄榄油和醋调味，冷藏后直接喝或盛碗食用；口感清爽微酸，不需要用烤箱或平底锅加热。'],
+  [/protein lab protein sandwich/, 'Protein Lab 高蛋白高纤面包，商品原文说明面包含较高蛋白质并是膳食纤维来源。可像普通切片面包一样做三明治或早餐吐司；它不是已经夹好馅料的即食三明治，也不是必须微波加热的预制菜。'],
+  [/protein cafe sandwich/, 'Protein Café 高蛋白三明治，四件装，适合作为便携早餐或加餐。具体夹馅、是否需冷藏及过敏原必须以包装为准；商品是三明治，不是泛称的“预制方便餐”。'],
+  [/murph pwo.*kreatin/, 'Murph 运动补剂二选一：PWO 是训练前冲调粉，配方常含咖啡因等提神成分；另一款是肌酸粉，适合进行力量或高强度训练、希望长期按建议剂量补充肌酸的人。两类成分和用途不同，应看包装配料与每份剂量；对咖啡因敏感者尤其要核对 PWO 标签。'],
+  [/murph whey med kreatin/, 'Murph 乳清蛋白粉加入肌酸，香草或可可口味。乳清蛋白用于补充日常蛋白质，肌酸适合力量及反复高强度训练；可用水或牛奶冲调，也可拌入燕麦。它把两种补充剂合在一袋，是否适合你取决于总蛋白摄入和每份肌酸剂量，不能代替正常饮食。'],
+  [/baileys is.*triple chocolate/, '这是 Baileys 风味冰淇淋或 Triple Chocolate 三重巧克力冰淇淋任选，均为冷冻甜品。前者模仿 Baileys 奶油甜酒的奶香甜味，后者突出多层巧克力风味；商品不是一瓶烈酒，实际是否含酒精及过敏原以包装为准。'],
+  [/targus computertaske/, 'Targus 15.6 英寸笔记本电脑包，用于装入并携带兼容尺寸的笔记本电脑及充电器等小配件。购买时主要核对电脑外形尺寸、包内隔层和肩带配置；它不是电脑或网络设备本体。'],
+  [/targus 2 i 1 stylus pen/, 'Targus 二合一触控笔兼普通书写笔：触控端可在兼容电容触摸屏上点按、书写或绘图，另一端用于纸面书写。它是输入配件，不是电脑本体；精细压感、掌托防误触等能力不能从本期促销资料确认。'],
+  [/acer sa242yh1bi/, 'Acer SA242YH1bi 23.8 英寸电脑显示器，Full HD 1080p、VA LCD 面板、100 Hz 刷新率、4 ms 响应时间并支持 VESA 壁挂。适合日常办公、网页和影音；它是外接显示器，不是笔记本电脑。'],
+  [/acer nitro 34.*skaerm/, 'Acer Nitro 34 英寸曲面超宽电竞显示器，3440×1440 WQHD、21:9、1500R 曲率、120 Hz、1 ms VRB，并支持 FreeSync Premium 和 HDR10。适合想要宽视野与较流畅游戏画面的用户；这是显示器，不是电脑主机。'],
+  [/acer predator 27.*skaerm/, 'Acer Predator 27 英寸电竞显示器，2560×1440 WQHD IPS 面板、200 Hz、0.5 ms GtG，并标注 HDR400。适合更看重高刷新率和动作清晰度的游戏用户；需另接电脑或游戏设备。'],
+  [/acer pd3 series.*dobbelt skaerm/, 'Acer PD3 Series 15.6 英寸便携双屏显示器，Full HD IPS，可 315° 折叠，并通过 Mini HDMI 或 USB-C 连接电脑和手机。适合移动办公时扩展桌面；它是双屏外接显示器，不是笔记本电脑或充电器。'],
+  [/acer pm1 series.*touch skaerm/, 'Acer PM1 Series 15.6 英寸便携触控显示器，Full HD IPS、10 点触控、60 Hz，可用 USB-C 单线连接兼容电脑、手机或平板。适合移动办公、演示和触控操作；它不是智能手机。'],
+  [/borne gamerstol/, '儿童电竞椅，高约 95–102 厘米，PVC 皮面、PU 脚轮，最大承重 120 公斤，并带 USB 供电的 RGB 灯。灯光可外接电源或移动电源，但商品主体是供儿童在电脑桌前就坐的椅子，移动电源不随附。'],
   [/^daaselaag med sugeror$/, '这是可重复使用的易拉罐盖和吸管二件套，把盖子压在已开封的饮料罐上，可减少泼洒并挡住黄蜂等昆虫；材质为 ABS、PP 和硅胶，可放洗碗机清洗。'],
   [/^steamcleaner$/, '这是 Sjö 蒸汽清洁机，用约 100°C、4 bar 高压蒸汽清洁厨房、浴室、瓷砖缝、窗户和织物等表面；功率 1500 W，水箱 1450 ml，约 15 秒预热，并附 8 种刷头和刮具。'],
   [/ben s sauce.*dolmio|dolmio.*ben s sauce/, '这是 Ben’s 或 Dolmio 瓶装烹调酱任选，可加入煎熟的肉类、蔬菜、米饭或意面快速完成一餐；不同款可能偏意式番茄或其他风味。'],
@@ -658,7 +741,7 @@ const SPECIFIC_DESCRIPTIONS = [
   [/mammen skaereost.*danablu/, '这是丹麦切片用餐桌奶酪或 Danablu 蓝纹奶酪任选；前者口味较温和，后者咸香浓烈并带蓝纹霉菌，适合奶酪盘或酱汁。'],
   [/castello aged havarti.*gouda/, '这是熟成 Havarti 或 Gouda 奶酪任选，均可切片夹面包、配饼干或做奶酪拼盘；熟成时间和风味强度不同。'],
   [/castello kant.*glod.*ikon|^castello$/, '这是 Castello 系列餐桌奶酪任选，可能包含不同熟成度或霉菌类型；可配面包、饼干和水果作冷盘，风味从温和到浓郁不等。'],
-  [/ostehaps|danbo|skaereost|skæreost|flodehavarti|havarti|dronning dagmar|fætter kras|samso|tilsiter/, '这是可切片或单条食用的丹麦餐桌奶酪，常见类型包括 Danbo、Havarti、Samsø、Tilsiter 或儿童奶酪条；可夹黑麦面包、做三明治，也可直接作奶酪零食。'],
+  [/ostehaps|danbo|skaereost|skæreost|flodehavarti|havarti|dronning dagmar|fætter kras|tilsiter/, '这是可切片或单条食用的丹麦餐桌奶酪，常见类型包括 Danbo、Havarti、Samsø、Tilsiter 或儿童奶酪条；可夹黑麦面包、做三明治，也可直接作奶酪零食。'],
   [/flodeost|smoreost|smelteost|philadelphia|rygeost/, '这是质地柔软的涂抹奶酪，可直接抹面包、贝果和饼干，也可做三明治馅、蘸酱或烘焙配料；需冷藏保存。'],
   [/\bdressing\b|fastfood dressing/, '这是沙拉或快餐用调味酱，可淋在生菜沙拉、汉堡、薯条或烤肉上；不同款可能是奶油、油醋、蒜味或辣味。'],
   [/aubergine/, '这是新鲜茄子，果肉吸味、加热后柔软，适合红烧、鱼香做法、煎烤、咖喱或烤箱料理。'],
@@ -732,7 +815,7 @@ const SPECIFIC_DESCRIPTIONS = [
   [/asia cubes/, '冷冻亚洲风味一口小食，需加热后食用；具体馅料需按包装图片确认，不是冰淇淋。'],
 ];
 
-const LOW_PRIORITY_GROUP = /^(?:drink_|alcohol_|pet_|flower_|plants$|home_|electronics_|clothing_|leisure_|personal_|hair_body$|sun_care$|hygiene$|supplements$|tobacco_|other_offer$)/;
+const LOW_PRIORITY_GROUP = /^(?:drink_|alcohol_|pet_|flower_|plants$|home_|electronics_|clothing_|leisure_|personal_|hair_body$|sun_care$|hygiene$|supplements$|supplement_sports_snack$|tobacco_|other_offer$)/;
 
 const CLOTHING_TYPE_RULES = [
   [/regnjakke.*bukser/, ['雨衣或雨裤任选', '分别用于上身和下身的雨天防风防水']],
@@ -870,6 +953,10 @@ const PERSONAL_TYPE_RULES = [
 ];
 
 const GENERAL_TYPE_RULES = [
+  [/targus computertaske|computertaske/, ['笔记本电脑包', '装入并携带兼容尺寸的笔记本电脑和小配件']],
+  [/targus 2 i 1 stylus pen|stylus pen/, ['二合一触控笔', '在兼容触摸屏上点按书写，并可用于纸面书写']],
+  [/click in case/, ['平板电脑保护壳', '保护兼容型号的平板并提供支撑']],
+  [/hyperdrive.*hub|usb c .*hub/, ['USB-C 多功能扩展坞', '给电脑增加显示、USB 或存储卡等接口']],
   [/graestrimmer/, ['电动割草修边机', '用于修剪草坪边缘和割草机不易到达的位置']],
   [/robotstovsuger/, ['扫拖或扫地机器人', '自动在地面吸尘；部分型号还能湿拖或自动集尘']],
   [/ledningsfri stovsuger.*gulvvasker|gulvvasker/, ['洗地机', '吸走污水并清洗硬质地面']],
@@ -986,12 +1073,12 @@ const GENERAL_TYPE_RULES = [
   [/dvd afspiller/, ['DVD 播放机', '用于播放 DVD 光盘']],
   [/streaming box|google tv stick/, ['电视流媒体播放器', '通过 HDMI 给电视增加流媒体与智能电视功能']],
   [/tv vaegbeslag/, ['电视壁挂架', '把指定尺寸和承重范围的电视固定到墙面']],
-  [/iphone|smartphone|galaxy a|redmi|zte blade|doro aurora|doro leva/, ['智能手机', '用于通话、上网、拍照和安装应用']],
   [/ipad|android tablet|\btablet\b/, ['平板电脑', '触控屏移动设备，适合影音、学习和轻办公']],
+  [/iphone|smartphone|galaxy a|redmi|zte blade|doro aurora|doro leva|realme/, ['智能手机', '用于通话、上网、拍照和安装应用']],
   [/apple watch|smartwatch|garmin|galaxy fit/, ['智能手表', '记录运动与健康数据，并显示手机通知']],
-  [/chromebook|macbook|baerbar.*pc|\bpc\b/, ['笔记本电脑', '便携式电脑，适合学习、办公或游戏']],
-  [/stationaer pc|aio computer/, ['台式电脑', '桌面电脑，适合固定场所办公或娱乐']],
   [/gaming skaerm|pc skaerm|baerbar skaerm|touch skaerm|dobbelt skaerm/, ['电脑显示器', '为电脑或兼容设备提供外接显示画面']],
+  [/stationaer pc|aio computer/, ['台式电脑', '桌面电脑，适合固定场所办公或娱乐']],
+  [/chromebook|macbook|baerbar.*pc|\bpc\b/, ['笔记本电脑', '便携式电脑，适合学习、办公或游戏']],
   [/harddisk/, ['外置硬盘', '用于备份和扩展电脑存储空间']],
   [/microsd|flashdrive|flash drive/, ['存储卡或U盘', '用于扩展存储或传输文件']],
   [/printer|laserjet|deskjet|smart tank/, ['打印一体机', '用于打印；部分型号还可扫描和复印']],
@@ -1145,10 +1232,10 @@ const GENERAL_TYPE_RULES = [
 const GROUP_TYPE_FALLBACK = {
   drink_soda: ['汽水', '可直接饮用的碳酸软饮'], drink_juice: ['果汁或果味饮料', '可直接饮用的果汁或果味饮品'],
   drink_water: ['饮用水或气泡水', '用于日常补水'], drink_energy: ['能量饮料', '通常含咖啡因的提神饮料'],
-  drink_sports: ['运动或功能饮料', '用于补水或补充电解质'], drink_concentrate: ['浓缩兑水饮料', '按比例兑水后饮用'],
+  drink_sports: ['运动或功能饮料', '用于补水或补充电解质'], drink_mixed_offer: ['汽水与能量饮料任选', '包含普通汽水和含咖啡因能量饮料'], drink_concentrate: ['浓缩兑水饮料', '按比例兑水后饮用'],
   drink_other: ['非酒精饮料', '可直接饮用或按包装方式冲调'], alcohol_beer: ['啤酒', '以麦芽发酵制成的含酒精饮料'],
   alcohol_wine: ['葡萄酒', '以葡萄酿制的含酒精饮料'], alcohol_wine_red: ['红葡萄酒', '用深色葡萄带皮发酵制成'], alcohol_wine_white: ['白葡萄酒', '以白葡萄或去皮葡萄汁酿制'], alcohol_wine_rose: ['桃红葡萄酒', '颜色介于红白葡萄酒之间，通常冷藏后饮用'], alcohol_wine_sparkling: ['起泡酒', '含有气泡的葡萄酒，具体甜度和类型以酒标为准'], alcohol_wine_mixed_offer: ['多种葡萄酒任选', '促销包含红、白、桃红或起泡等不同类型'], alcohol_wine_other: ['葡萄酒（类型未明确）', '公开促销资料未明确标出颜色或起泡类型'], alcohol_spirits: ['烈酒或利口酒', '酒精度较高的蒸馏酒或甜味酒'],
-  alcohol_cider_rtd: ['苹果酒或预调酒', '水果发酵酒或已调配好的即饮酒'], alcohol_other: ['含酒精饮料', '含酒精的饮品'],
+  alcohol_cider_rtd: ['苹果酒或预调酒', '水果发酵酒或已调配好的即饮酒'], alcohol_mixed_offer: ['跨酒种任选', '包含啤酒、葡萄酒、烈酒或预调酒中的多种类型'], alcohol_other: ['含酒精饮料', '含酒精的饮品'],
   pet_cat: ['猫粮或猫零食', '供猫食用的主粮、湿粮或零食'], pet_dog: ['狗粮或狗零食', '供犬只食用的主粮或零食'],
   pet_other: ['宠物用品', '供宠物使用或食用的商品'], flower_bouquet: ['鲜花或花束', '用于瓶插、家居摆放或送礼'],
   plants: ['盆栽植物', '带盆售卖、需要光照和浇水养护的植物'], tobacco_cigarettes: ['烟草制品', '含烟草并具有健康风险的产品'],
@@ -1168,6 +1255,8 @@ const GROUP_TYPE_FALLBACK = {
   electronics_tv: ['电视或家庭影音设备', '用于显示和播放电视、流媒体或外接视频'],
   electronics_mobile: ['手机、平板或穿戴设备', '用于通讯、移动应用或运动健康记录'],
   electronics_computer: ['电脑或网络设备', '用于学习、办公、存储或网络连接'],
+  electronics_monitor: ['电脑显示器', '连接电脑或兼容设备显示画面'],
+  electronics_computer_accessory: ['电脑配件', '配合电脑、平板或触摸屏使用'],
   electronics_print_photo: ['打印或影像设备', '用于打印、拍摄或展示照片'],
   electronics_gaming: ['电子游戏设备', '用于对应平台的电子游戏和操控'],
   electronics_charging: ['充电与供电配件', '给兼容电子设备连接电源或传输数据'],
@@ -1202,10 +1291,193 @@ const GROUP_TYPE_FALLBACK = {
   sun_care: ['防晒或晒后护理用品', '用于减少紫外线伤害或舒缓晒后皮肤'],
   hygiene: ['卫生护理用品', '用于经期、失禁或其他个人卫生护理'],
   supplements: ['营养补充剂', '用于补充维生素、矿物质、蛋白质或其他膳食成分'],
+  supplement_sports_snack: ['蛋白零食或运动能量补给', '作为便携加餐或运动中的碳水补给'],
   other_offer: ['跨品类促销组合', '同一促销卡包含不同类型的商品，不能当作一个单品理解'],
 };
 
+function sodaIdentity(originalName) {
+  const text = normalize(originalName);
+  if (/faxe kondi booster/.test(text)) return { titleZh: 'Faxe Kondi Booster 能量饮料', descriptionZh: 'Faxe Kondi Booster 是含咖啡因的碳酸能量饮料，用于提神，不是普通 Faxe Kondi 柠檬青柠汽水。具体水果口味、含糖或无糖版本以罐身为准；不适合儿童，孕妇及对咖啡因敏感者应谨慎。' };
+  if (/monster(?: energy)?/.test(text)) return { titleZh: 'Monster 能量饮料', descriptionZh: 'Monster 是含咖啡因的碳酸能量饮料，多种口味任选，可能有含糖和无糖款。它用于提神而不是补水，选购时看罐身的口味、糖和每罐咖啡因；不适合儿童，孕妇及对咖啡因敏感者应谨慎。' };
+  if (/red bull/.test(text) && !/breezer|somersby|schweppes/.test(text)) return { titleZh: 'Red Bull 能量饮料', descriptionZh: 'Red Bull 是含咖啡因和牛磺酸的碳酸能量饮料，原味偏甜酸；不同颜色罐可能是水果风味或无糖款。用于提神而不是补水，不适合儿童，孕妇及对咖啡因敏感者应谨慎。' };
+  if (/coop ice tea/.test(text)) return { titleZh: 'Coop 冰茶饮料', descriptionZh: '这是可直接冰镇饮用的茶味饮料，常见为柠檬或桃味，带茶香和果味；具体口味及含糖或无糖版本以瓶身为准，不是碳酸汽水。' };
+  if (/blue keld/.test(text)) return { titleZh: 'Blue Keld 果味气泡水', descriptionZh: 'Blue Keld 是带水果风味的气泡水，口感比可乐轻，适合喜欢有气泡但不想要浓重可乐味的人；不同款的果味和是否含糖需看瓶身。' };
+  if (/vitamin well|\bnobe\b|valsollille vitamin/.test(text)) return { titleZh: '维生素风味水', descriptionZh: '这是添加维生素并带水果风味的瓶装饮料，可冰镇直接饮用。不同款的维生素、甜味剂、糖和咖啡因配方不同，不能把饮料当作治疗或代替均衡饮食。' };
+  if (/capri sun/.test(text)) return { titleZh: 'Capri-Sun 果味饮料', descriptionZh: 'Capri-Sun 是袋装果味饮料，多种水果口味任选，适合随身携带冰镇饮用；购买时看具体果汁含量和糖分，它不等同于百分百纯果汁。' };
+  if (/san pellegrino|perrier/.test(text)) return { titleZh: 'San Pellegrino 或 Perrier 气泡矿泉水', descriptionZh: '这是天然矿泉气泡水，气泡明显、无普通汽水的可乐或果糖风味；部分包装可能是调味款，需按瓶身确认。适合佐餐、加柠檬饮用或作为调酒用苏打水。' };
+  if (/cacao|kakaomaelkedrik|iskaffe/.test(text)) return { titleZh: '巧克力奶或冰咖啡饮料', descriptionZh: '这是可直接饮用的巧克力奶或冰咖啡任选。巧克力奶偏可可奶香，冰咖啡带咖啡与乳香；两者的咖啡因、糖和乳成分不同，应按实际包装选择。' };
+  if (/yopro.*proteindrikkeyoghurt|activia kefirdrik/.test(text)) return { titleZh: '高蛋白酸奶饮或开菲尔发酵乳任选', descriptionZh: 'Yopro 是偏高蛋白的酸奶饮，Activia kefir 是带发酵酸香的开菲尔乳饮；两者都需冷藏、可直接饮用，但蛋白质和菌种侧重点不同。' };
+  if (/alkoholfri ol/.test(text)) return { titleZh: '无酒精啤酒', descriptionZh: '这是保留麦芽、啤酒花香和轻微苦味的无酒精啤酒，适合想要啤酒风味但避免普通啤酒酒精的人；不同品牌从清爽拉格到较浓麦芽味不等，仍应核对瓶罐标示的实际酒精度。' };
+  if (/alkoholfri cocktail|nozeco|maximillian/.test(text)) return { titleZh: '无酒精鸡尾酒或起泡饮料', descriptionZh: '这是无酒精鸡尾酒或无酒精起泡饮料，通常带水果、花香或气泡感，适合冰镇作为开胃饮品；具体甜度与风味以瓶身为准，购买时仍应核对是否标注 0.0%。' };
+  const options = [];
+  const add = value => { if (!options.includes(value)) options.push(value); };
+  if (/coca cola/.test(text)) add(/zero/.test(text) ? 'Coca-Cola 无糖可乐' : 'Coca-Cola 可乐');
+  if (/pepsi max/.test(text)) add('Pepsi Max 无糖可乐');
+  else if (/\bpepsi\b/.test(text)) add('Pepsi 可乐');
+  if (/\bfanta\b/.test(text)) add('Fanta 果味汽水');
+  if (/tuborg squash/.test(text)) add('Tuborg Squash 橙味汽水');
+  if (/faxe kondi/.test(text) && !/booster/.test(text)) add('Faxe Kondi 柠檬青柠味汽水');
+  if (/\bsprite\b|\b7 up\b/.test(text)) add('柠檬青柠味汽水');
+  if (/schweppes/.test(text)) add('Schweppes 汽水或汤力水');
+  if (/ramlosa/.test(text)) add('Ramlösa 气泡矿泉水');
+  if (/fuze/.test(text)) add('Fuze 茶饮');
+  if (!options.length) return null;
+  const titleZh = options.length === 1 ? options[0] : `${options.join('、')}任选`;
+  const optionText = options.join('；');
+  return {
+    titleZh,
+    descriptionZh: `${optionText}。可乐带焦糖与香料型可乐风味；Fanta 或 Tuborg Squash 偏果香，Faxe Kondi、Sprite 和 7 Up 偏清爽柠檬青柠味。标有 Max、Zero 或 0 kalorier 的款式为无糖或零糖版本；混合促销应按实际包装选择。`,
+  };
+}
+
+function alcoholIdentity(originalName, originalDescription, comparisonGroup) {
+  const text = normalize(`${originalName} ${originalDescription}`);
+  if (comparisonGroup === 'alcohol_mixed_offer') return {
+    titleZh: '啤酒、葡萄酒、烈酒或预调酒跨酒种任选',
+    descriptionZh: '这是跨酒种任选促销，可能同时包含清爽微苦的啤酒、果香和单宁不同的葡萄酒、酒感较强的烈酒，以及甜酸有气泡的果味预调酒。它们味道、饮法和酒精度差异很大，应按原名先选酒种，再看具体品牌与风味，不能用同一模板概括。',
+  };
+  if (comparisonGroup === 'alcohol_spirits') {
+    if (/jack daniels/.test(text)) return {
+      titleZh: 'Jack Daniel’s 田纳西威士忌',
+      descriptionZh: 'Jack Daniel’s Old No. 7 风格的田纳西威士忌，典型为焦糖、香草和橡木香，口感偏圆润微甜。适合喜欢美式威士忌甜香的人，可加冰、加可乐或用于经典威士忌调酒；40% 酒精度，未成年人及驾车前后不要饮用。',
+    };
+    if (/baileys/.test(text) && !/whisky|vodka|gin|rom|spiritusmarked/.test(text)) return {
+      titleZh: 'Baileys 奶油利口酒',
+      descriptionZh: 'Baileys 奶油利口酒带甜润奶油、可可和香草风味，酒感通常比纯威士忌柔和。适合喜欢甜酒、奶咖或甜点风味的人，可加冰、加入咖啡或调制甜味鸡尾酒；含乳成分与酒精。',
+    };
+    if (/whisky|whiskey/.test(text)) return { titleZh: '威士忌', descriptionZh: '威士忌通常带麦芽或谷物甜香、焦糖、香草、香料和橡木味；苏格兰款可能更干、更有烟熏感。适合喜欢木桶香和较温暖酒感的人，可纯饮、加冰、加水或调酒；具体风味仍取决于原名中的酒款。' };
+    if (/vodka/.test(text)) return { titleZh: '伏特加', descriptionZh: '伏特加通常酒体清爽、味道较中性，适合不想要明显木桶味、主要用于兑果汁、汽水或调鸡尾酒的人；若是调味款会带包装标明的水果或香草味。' };
+    if (/\bgin\b|gordon s/.test(text)) return { titleZh: '金酒', descriptionZh: '金酒以杜松子香为核心，常带柑橘、草本和香料气息。适合喜欢清爽草本风味的人，最常配汤力水和柠檬，也可用于 Martini 等鸡尾酒。' };
+    if (/\brom\b|rum|captain morgan|bacardi/.test(text)) return { titleZh: '朗姆酒', descriptionZh: '朗姆酒以甘蔗原料酿制，常有焦糖、香草、热带水果或香料感；白朗姆较清爽，深色或香料朗姆更甜暖。适合兑可乐、果汁或调制 Mojito 等鸡尾酒。' };
+    if (/aperol/.test(text)) return { titleZh: 'Aperol 橙味开胃酒', descriptionZh: 'Aperol 带橙皮、草本和轻微苦甜味，酒精感相对温和。适合喜欢清爽苦甜开胃酒的人，常与起泡酒和苏打水调成 Aperol Spritz。' };
+    if (/cognac/.test(text)) return { titleZh: '干邑白兰地', descriptionZh: '干邑白兰地通常带葡萄干、杏干、香草、香料和橡木香，陈年时间会影响圆润度。适合喜欢果干与木桶香的人，可小口纯饮、加冰或用于经典鸡尾酒。' };
+    if (/tequila/.test(text)) return { titleZh: '龙舌兰酒', descriptionZh: 'Blanco 龙舌兰酒通常带熟龙舌兰、柑橘、胡椒和草本气息，口感直接清爽。适合喜欢植物与辛香风味的人，可配青柠小饮或调制 Margarita、Paloma。' };
+    if (/akvavit|aquavit/.test(text)) return { titleZh: '北欧香料烈酒', descriptionZh: 'Akvavit 是北欧谷物或土豆蒸馏酒，常用葛缕子、莳萝等香料调味，风味干爽辛香。适合喜欢草本香料味的人，丹麦常冰镇后配鲱鱼、冷盘和节日餐。' };
+    if (/fernet|bitter|gammel dansk|underberg/.test(text)) return { titleZh: '草本苦味酒', descriptionZh: '草本苦味酒通常以多种香草、根茎和香料浸制，带明显苦味、药草和辛香，有些款还带薄荷或柑橘。适合喜欢餐后苦甜草本风味的人，可少量纯饮或加冰。' };
+    return { titleZh: '多种烈酒或利口酒任选', descriptionZh: '这项促销包含酒种或风味不同的烈酒、苦味酒或利口酒。选购时应先按原名区分偏中性的伏特加、杜松草本型金酒、木桶香威士忌、甘蔗甜香朗姆或甜润利口酒，再决定纯饮还是调酒；不同酒种不能用同一种味道概括。' };
+  }
+  if (comparisonGroup.startsWith('alcohol_wine')) {
+    if (comparisonGroup === 'alcohol_wine_mixed_offer') {
+      const styles = [];
+      const addStyle = (label, taste) => { if (!styles.some(([existing]) => existing === label)) styles.push([label, taste]); };
+      if (/sauvignon blanc|sancerre|pouilly fume/.test(text)) addStyle('长相思白葡萄酒', '柑橘、醋栗和草本香，酸度清爽');
+      if (/chardonnay|chablis|macon/.test(text)) addStyle('霞多丽白葡萄酒', '苹果、柑橘或白桃味，橡木桶款更圆润');
+      if (/riesling/.test(text)) addStyle('雷司令白葡萄酒', '青苹果、柑橘和白花香，甜度可能从干到甜');
+      if (/pinot grigio|pinot gris/.test(text)) addStyle('灰皮诺白葡萄酒', '梨、苹果和柠檬味，通常轻盈清爽');
+      if (/prosecco|cava|cremant|champagne|mousseux|spumante/.test(text)) addStyle('起泡葡萄酒', '苹果、梨和柑橘香，带清爽气泡');
+      if (/rose|rosado|rosé/.test(text)) addStyle('桃红葡萄酒', '草莓、覆盆子或柑橘果香，适合冰镇');
+      if (/primitivo|zinfandel|appassimento|amarone/.test(text)) addStyle('浓郁果香型红酒', '熟黑莓、李子、葡萄干和甜香料味');
+      if (/pinot noir|spatburgunder/.test(text)) addStyle('黑皮诺红酒', '红樱桃、草莓和轻香料味，单宁较柔');
+      if (/cabernet|merlot|malbec|shiraz|syrah|tempranillo|rioja|chianti|sangiovese|ripasso/.test(text)) addStyle('配餐型红葡萄酒', '红黑水果、香料和不同程度的单宁');
+      if (styles.length) return {
+        titleZh: `${styles.map(([label]) => label).join('、')}任选`,
+        descriptionZh: `本期可选${styles.map(([label, taste]) => `${label}（${taste}）`).join('；')}。白酒和起泡酒适合海鲜、沙拉及轻食，红酒更适合披萨、烤肉和炖菜；应按想要的甜度、酸度和单宁选择具体酒款。`,
+      };
+      return { titleZh: '多款葡萄酒任选', descriptionZh: '这是多款葡萄酒任选，但公开文字没有完整列出每款的颜色、葡萄品种和甜度，不能负责任地编造一种统一味道。应先从原名和图片确认红、白、桃红或起泡类型，再按红酒的果味与单宁、白酒的酸香或起泡酒的清爽气泡选择。' };
+    }
+    if (/rueda verdejo/.test(text)) return {
+      titleZh: '西班牙 Rueda Verdejo 干白葡萄酒',
+      descriptionZh: 'Rueda 产区 Verdejo 干白通常酸度清爽，带柠檬、青柠、白桃和茴香或青草般的草本香。适合喜欢不甜、清新、有一点草本感白葡萄酒的人，可冷藏后配海鲜、沙拉、白肉或亚洲清淡菜。',
+    };
+    if (/sauvignon blanc/.test(text) && /new zealand/.test(text)) return {
+      titleZh: '新西兰长相思白葡萄酒',
+      descriptionZh: '新西兰 Sauvignon Blanc（长相思）典型酸度鲜明，带葡萄柚、青柠、醋栗、百香果和青草或甜椒香。适合喜欢香气奔放、清爽干型白葡萄酒的人，可冷藏后配贝类、白身鱼、沙拉或带柠檬和香草的菜。',
+    };
+    if (/sauvignon blanc/.test(text)) return { titleZh: '长相思白葡萄酒', descriptionZh: 'Sauvignon Blanc（长相思）通常是清爽干型，常见柑橘、醋栗和青草香。适合喜欢酸度明快、果香和草本感的人，冷藏后可配海鲜、沙拉和山羊奶酪。' };
+    if (/chardonnay/.test(text)) return { titleZh: '霞多丽白葡萄酒', descriptionZh: 'Chardonnay（霞多丽）常见苹果、柑橘、桃子或热带水果味；若经过橡木桶还可能更圆润并带香草、烘烤感。适合喜欢果味柔和到较饱满白葡萄酒的人，可配鸡肉、奶油意面或烤鱼。' };
+    if (/riesling/.test(text)) return { titleZh: '雷司令白葡萄酒', descriptionZh: 'Riesling（雷司令）通常香气明亮，带青苹果、柑橘、白花或桃子味，甜度可能从干型到甜型。适合喜欢高香气和清爽酸度的人；微甜款尤其适合辛辣亚洲菜。' };
+    if (/pinot grigio|pinot gris/.test(text)) return { titleZh: '灰皮诺白葡萄酒', descriptionZh: 'Pinot Grigio/Gris（灰皮诺）通常清爽轻盈，带梨、苹果、柠檬和淡淡花香。适合喜欢容易入口、不过分浓郁白葡萄酒的人，可配沙拉、海鲜和清淡意面。' };
+    if (/moscato/.test(text)) return { titleZh: '莫斯卡托芳香型葡萄酒', descriptionZh: 'Moscato（莫斯卡托）通常带葡萄、桃子、橙花和蜂蜜香，口感偏甜，有些款带轻微气泡。适合喜欢甜口、低苦涩和花果香的人，可冰镇后配水果、蛋糕或辛辣小食。' };
+    if (/chablis|macon|mâcon/.test(text)) return { titleZh: '法国勃艮第霞多丽白葡萄酒', descriptionZh: 'Chablis 或 Mâcon 白葡萄酒以 Chardonnay 为主。Chablis 通常更清瘦、带柠檬和矿物感，Mâcon 往往更圆润、带苹果和白桃；适合喜欢干型白酒的人，可配贝类、鱼或鸡肉。' };
+    if (/sancerre/.test(text)) return { titleZh: '法国 Sancerre 长相思白葡萄酒', descriptionZh: 'Sancerre 通常以 Sauvignon Blanc 酿造，风格干爽，带柠檬、青苹果、青草和矿物感。适合喜欢高酸、克制果香与清爽收口的人，可配山羊奶酪、贝类和白身鱼。' };
+    if (/chianti|brunello|sangiovese/.test(text)) return { titleZh: '意大利 Sangiovese 红葡萄酒', descriptionZh: 'Chianti 或 Brunello 以 Sangiovese 为主，常见酸樱桃、红李子、干香草、香料和皮革气息，酸度较高、单宁从中等到有力。适合喜欢不甜、配餐型红酒的人，可配番茄意面、牛羊肉和硬奶酪。' };
+    if (/cotes du rhone|cote du rhone|rhône/.test(text)) return { titleZh: '法国罗讷河谷红葡萄酒', descriptionZh: 'Côtes du Rhône 红酒通常以 Grenache、Syrah 等混酿，带熟红莓、黑莓、黑胡椒和南法香草味。适合喜欢果香与辛香平衡、不过分厚重红酒的人，可配烤肉、香肠和炖菜。' };
+    if (/ripasso|valpolicella/.test(text)) return { titleZh: '意大利 Valpolicella Ripasso 红葡萄酒', descriptionZh: 'Valpolicella Ripasso 通常带樱桃、李子、葡萄干、香料和柔和木桶味，酒体比普通 Valpolicella 更饱满。适合喜欢成熟果香但不想要 Amarone 那么厚重的人，可配烤肉、意面和熟成奶酪。' };
+    if (/spatburgunder/.test(text)) return { titleZh: '德国黑皮诺红葡萄酒', descriptionZh: 'Spätburgunder 是德国黑皮诺，通常带红樱桃、草莓、香料和轻微泥土气息，酒体较轻、单宁柔和。适合不喜欢厚重涩口红酒的人，可配烤鸡、蘑菇和冷切。' };
+    if (/port\b|tawny/.test(text)) return { titleZh: '波特加强葡萄酒', descriptionZh: 'Port 波特酒是甜型加强葡萄酒，常带葡萄干、无花果、坚果、焦糖和香料味。适合喜欢甜润浓郁餐后酒的人，可少量配巧克力、蓝纹奶酪或坚果甜点。' };
+    if (/primitivo|zinfandel|appassimento|amarone/.test(text)) return { titleZh: '浓郁果香型红葡萄酒', descriptionZh: '这类红葡萄酒通常酒体较饱满，带熟黑莓、李子、葡萄干、甜香料和较高酒精感。适合喜欢浓郁、成熟果味和略带甜熟感红酒的人，可配烤肉、披萨、炖牛肉或浓味奶酪。' };
+    if (/pinot noir/.test(text)) return { titleZh: '黑皮诺红葡萄酒', descriptionZh: 'Pinot Noir（黑皮诺）通常酒体较轻到中等，带红樱桃、草莓、香料和轻微泥土气息，单宁较柔。适合不喜欢厚重涩口红酒的人，可配烤鸡、蘑菇、三文鱼或冷切。' };
+    if (/cabernet|merlot|malbec|shiraz|syrah|tempranillo|rioja/.test(text)) return { titleZh: '果香与香料型红葡萄酒', descriptionZh: '这类红葡萄酒通常带黑樱桃、黑莓、李子、香料和橡木气息，单宁与酒体从中等到饱满。适合喜欢较浓郁红酒的人，可配牛排、烤肉、炖菜或硬质奶酪。' };
+    if (comparisonGroup === 'alcohol_wine_sparkling') return { titleZh: '起泡葡萄酒', descriptionZh: '起泡酒带细密气泡，常见苹果、梨、柑橘和白花香，甜度从干型到甜型。适合喜欢清爽、有气泡口感的人，可作开胃酒并搭配海鲜、炸物或小食。' };
+    if (comparisonGroup === 'alcohol_wine_rose') return { titleZh: '桃红葡萄酒', descriptionZh: '桃红葡萄酒通常清爽，带草莓、覆盆子、西瓜或柑橘风味，甜度由酒款决定。适合喜欢介于红白葡萄酒之间、果香明显且适合冰镇口感的人，可配沙拉、烧烤和轻食。' };
+    if (/rod eller hvid|red eller white/.test(text) || comparisonGroup === 'alcohol_wine_mixed_offer') return { titleZh: '红白葡萄酒任选', descriptionZh: '同一促销同时包含红葡萄酒和白葡萄酒。红酒通常偏红黑水果、香料和单宁，适合烤肉与炖菜；白酒更偏柑橘、苹果与清爽酸度，适合海鲜和轻食。应先按想配的食物和口味选择颜色，再核对具体酒款。' };
+    if (comparisonGroup === 'alcohol_wine_red') return { titleZh: '红葡萄酒', descriptionZh: '这款红葡萄酒的促销资料未标明葡萄品种；红酒通常带红樱桃、李子或黑莓等果味，并有不同程度的单宁和香料感。适合搭配烤肉、炖菜或奶酪；喜欢柔和口感可选标有 blød/rund 的款，喜欢厚重可看酒精度与产区。' };
+    if (comparisonGroup === 'alcohol_wine_white') return { titleZh: '白葡萄酒', descriptionZh: '这款白葡萄酒的促销资料未标明葡萄品种；白酒通常带柑橘、苹果、梨或白桃味，酸度与甜度因酒款而异。适合冰镇后配海鲜、鸡肉和沙拉；喜欢不甜可找 tør/dry，喜欢果甜可找 halvsød/sød。' };
+    return { titleZh: '葡萄酒（酒款类型未完整标明）', descriptionZh: '本期公开促销文字没有完整标出这款酒的颜色、葡萄品种或甜度，因此不能负责任地编造单一味道。请先从卡片图片和原名确认红、白、桃红或起泡类型；红酒通常更有果味与单宁，白酒更清爽酸香，起泡酒适合冰镇开胃。' };
+  }
+  if (comparisonGroup === 'alcohol_beer') {
+    if (/ipa|humle|anarkist/.test(text)) return { titleZh: '啤酒花香型 IPA 或精酿啤酒', descriptionZh: '这类啤酒突出啤酒花香和苦味，常带柑橘、松针或热带水果气息。适合喜欢明显苦味和香气层次的人，冰凉饮用可配汉堡、辣味食物和烧烤；具体风格按所选酒款确认。' };
+    if (/blanc|hvede|weiss|hoegaarden/.test(text)) return { titleZh: '小麦或 Blanc 风格啤酒', descriptionZh: '小麦或 Blanc 风格啤酒通常口感较柔和，带柑橘、香蕉、丁香或香菜籽般香气，苦味一般低于 IPA。适合不喜欢强苦味、偏好清爽果香的人，可配沙拉、海鲜和轻食。' };
+    if (/pilsner|lager|carlsberg|tuborg|royal|heineken|slots|corona|asahi|singha|sol\b/.test(text)) return { titleZh: '拉格或皮尔森啤酒', descriptionZh: '拉格或 Pilsner 风格通常清爽、带麦芽谷物香和适中啤酒花苦味，冰镇后易入口。适合喜欢干净爽口啤酒的人，可配炸物、披萨、汉堡和烧烤；各品牌的苦味与麦芽感会不同。' };
+    return { titleZh: '多款啤酒任选', descriptionZh: '本期为多款啤酒任选；浅色拉格通常清爽麦香，IPA 更苦并有柑橘或热带水果啤酒花香，深色或修道院风格会更有焦糖和烘烤味。应按原名选择喜欢的风格，而不是只看酒精度和容量。' };
+  }
+  if (comparisonGroup === 'alcohol_cider_rtd') {
+    if (/somersby|cider/.test(text) && !/breezer|smirnoff|mokai|shaker/.test(text)) return { titleZh: '果味苹果酒', descriptionZh: '这是以苹果酒为基础的果味酒饮，通常酸甜、有气泡，水果味明显、苦味较低。适合喜欢冰镇甜爽口感、不喜欢啤酒苦味的人；具体苹果、莓果或其他口味按瓶罐选择。' };
+    return { titleZh: '果味预调酒或苹果酒任选', descriptionZh: '这是已经调好、可冰镇直接饮用的果味酒饮，通常带柑橘、莓果或热带水果甜酸味和气泡感。适合喜欢酒感较轻、果味明显的人；不同款的基酒、甜度与实际酒精度应按瓶罐确认。' };
+  }
+  return null;
+}
+
+function readyMealIdentity(originalName, originalDescription, comparisonGroup) {
+  if (comparisonGroup !== 'ready_meal') return null;
+  const text = normalize(`${originalName} ${originalDescription}`);
+  const rules = [
+    [/biksemad.*tandoori.*bami goreng/, '丹麦土豆肉丁杂烩、印度烤鸡饭或印尼炒面任选', '三款冷冻主餐任选：biksemad 是土豆与肉丁煎炒杂烩，chicken tandoori 是印度香料鸡肉餐，bami goreng 是印尼风味炒面。口味与主食不同，应按包装选择并充分加热。'],
+    [/polsehorn.*focaccia/, '香肠面包卷或辣香肠佛卡夏任选', '可选包裹香肠的烘焙面包卷，或带 pepperoni 辣香肠的佛卡夏面包；均为冷冻咸味烘焙食品，适合烤箱或空气炸锅加热。'],
+    [/\btaquitos\b/, '墨西哥鸡肉炸卷', 'Taquitos 是把调味鸡肉等馅料卷入小玉米饼后烤或炸的墨西哥风味小吃，通常用烤箱或空气炸锅加热至外皮酥脆，可配 salsa 或酸奶油。'],
+    [/al fez.*blue dragon.*go tan.*patak/, '亚洲与中东风味酱料或料理配料任选', 'Al’Fez、Blue Dragon、Go-Tan 或 Patak’s 跨品牌任选，可能包含咖喱酱、炒菜酱、椰奶或其他亚洲及中东料理配料。各选项不是同一道成品餐，应按包装正面的具体酱料和使用步骤选择。'],
+    [/bagerens morgenmenu/, '面包房新鲜早餐面包任选', 'Bilka 面包房当天烘焙的早餐小圆面包，多种款式任选，可直接配黄油、奶酪、果酱或冷切食用；商品是现烤面包，不是需要微波加热的预制菜。'],
+    [/fransk hotdog/, '法式热狗', '法式热狗是把烤肠插入中空长面包，加入酱料后食用。本期可选普通烤肠、芝士烤肠或 Chorizo 风味肠，肉香和辣度不同；两份装。'],
+    [/mezete hummus.*suppe/, 'Mezete 鹰嘴豆泥或汤任选', '可选 Mezete 鹰嘴豆泥或汤。鹰嘴豆泥是鹰嘴豆芝麻酱抹酱，可蘸面包和蔬菜冷食；汤需要按包装加热。两种形态和吃法不同。'],
+    [/naturli.*middagskomponent/, 'Naturli 植物基主餐配料任选', 'Naturli 植物基主餐组件，多种款式任选，可能是植物肉、肉丸、肉排或其他可搭配米饭、意面和蔬菜的主菜配料；按包装加热，具体形态和口味见正面标签。'],
+    [/^sandwich\b/, '门店现做夹馅三明治', '门店每天制作的现成夹馅三明治，多种口味任选，可直接作为早餐或午餐。购买时按标签选择鸡肉、火腿、奶酪或素食等具体馅料，并确认冷藏和过敏原信息。'],
+    [/steff houlberg.*tulip.*middags/, 'Steff Houlberg 或 Tulip 丹麦家常成品餐任选', 'Steff Houlberg 或 Tulip 冷冻丹麦家常成品餐，多种菜式任选，通常包含肉类、酱汁和土豆或其他配菜；按包装充分加热即可作为一餐。'],
+    [/gestus middagsfrikadeller.*polsemix.*biksemad/, '丹麦肉饼、香肠土豆杂烩或肉丁土豆杂烩任选', '三款冷冻丹麦家常菜任选：middagsfrikadeller 是丹麦煎肉饼，klassisk pølsemix 是香肠配土豆的杂烩，biksemad 是肉丁与土豆煎炒。按包装加热即可，肉类和配菜比例不同。'],
+    [/naemt to og server/, 'Næmt 解冻即食或加热食品任选', 'Næmt 冷冻食品系列，解冻后直接食用或简单加热，多种款式任选。公开文字没有列出全部菜名，应按包装正面确认是甜点、面包还是主餐以及具体解冻或加热方式。'],
+    [/perfect season.*falafel/, 'Perfect Season 有机香脆鹰嘴豆丸', '有机香脆 Falafel 鹰嘴豆丸，以鹰嘴豆和香料制成，外层加热后酥脆。适合素食者，可用烤箱、空气炸锅或平底锅加热后夹皮塔饼、配沙拉或蘸鹰嘴豆泥。'],
+    [/protein lab one meal/, 'Protein Lab 一餐型蛋白饮', 'Protein Lab One Meal 是瓶装一餐型营养饮品，不是需要加热的预制菜。适合赶时间时作为便携代餐或补充蛋白质；应查看每瓶蛋白质、能量、糖分和过敏原，不能长期替代均衡正餐。'],
+    [/halsans kok.*burger.*falafel.*nuggets/, 'Hälsans Kök 植物汉堡、鹰嘴豆丸或素食小食任选', 'Hälsans Kök 冷冻植物基食品任选，包括植物汉堡饼、Falafel、素食 nuggets、schnitzel 或素食块。形态和做法不同，按包装用烤箱、空气炸锅或平底锅加热。'],
+    [/naturli.*hakket gront.*falafel.*green burger/, 'Naturli 植物肉末、鹰嘴豆丸或素食汉堡任选', 'Naturli 植物基食品任选，包括植物肉末、Falafel、Green Burger 或素食小块。植物肉末适合炒菜和肉酱，汉堡与小食适合煎烤；按实际包装选择。'],
+    [/rema 1000 lasagne.*carbonara/, 'REMA 1000 多款速食意面或米饭料理包', 'REMA 1000 速食主食任选，包括千层面、Lasagnette、米饭餐、咖喱饭或 Carbonara 奶油培根意面风味。不同包装可能需另加肉、奶或水，按背面步骤烹调。'],
+    [/rema 1000 madtaerte.*daloon ruller/, 'REMA 1000 咸派或 Daloon 馅卷任选', '冷冻咸派或 Daloon 馅卷任选。咸派是蛋奶馅烘焙主餐，Daloon 馅卷是包裹蔬菜或肉馅的酥脆小食；均适合烤箱或空气炸锅加热。'],
+    [/bornehapsermenu/, '儿童聚会小食套餐', '儿童聚会小食套餐，每人份包含牛肉小汉堡、香肠面包卷、丹麦肉丸、松饼、鸡肉小食、意面沙拉和蔬菜条；页面要求至少订 6 人份并提前 4 天预订。'],
+    [/luksus hapsermenu/, '豪华多人份小食套餐', '豪华多人份小食套餐，示例包含风干火腿小汉堡、三文鱼卷饼、三文鱼酱小薄饼和凯撒沙拉；至少订 6 人份并需提前预订，属于冷食与小吃拼盘。'],
+    [/festbuffet|luksusbuffet/, '可自选多人份宴会自助餐', '可自行搭配酱汁、两种肉类和四种配菜的宴会自助餐，并可加购前菜、甜点或更多菜品；页面要求至少订 6 人份并提前预订。'],
+    [/frokostplatte/, '熟食柜午餐拼盘', '熟食柜制作的午餐拼盘，通常组合冷切肉、鱼、蛋、奶酪、面包或沙拉，拿取后可作为一顿冷餐；具体内容会随门店和当天款式变化。'],
+    [/kitchen joy pollo alla siciliana/, '西西里风味鸡肉大麦饭', '地中海风味成品餐，含大麦粒、番茄酱、茄子和鸡肉。属于一人份主餐，按包装加热后食用；味道偏番茄与香草，不是泛称的预制菜。'],
+    [/kitchen joy polpette con orzotto/, '鸡肉丸番茄粗麦饭', '地中海风味成品餐，含番茄酱、粗麦、豆类和鸡肉丸。按包装加热后可作为一人份主餐；口感是番茄酸香配谷物和肉丸。'],
+    [/pollo alla siciliana/, '西西里风味鸡肉大麦饭', '以鸡肉、番茄酱、茄子和大麦粒组成的地中海风味方便餐，按包装加热后食用。'],
+    [/polpette con orzotto/, '鸡肉丸番茄粗麦饭', '以鸡肉丸、番茄酱、粗麦和豆类组成的地中海风味方便餐，按包装加热后食用。'],
+    [/pokebowl/, '三文鱼或天妇罗虾 Poke 盖饭', '熟食柜 Poke bowl 盖饭，可选冷熏三文鱼或天妇罗虾，通常配米饭、蔬菜和调味酱冷食。两种海鲜与裹粉状态不同，应按实际选项选择。'],
+    [/panini med skinke og ost/, '火腿奶酪帕尼尼三明治', '夹火腿和奶酪的压烤帕尼尼三明治，加热后面包外层酥脆、奶酪融化；可作为便携午餐或加餐。'],
+    [/sol mar paellasaet/, 'SOL&MAR 西班牙海鲜饭炊具套装', '名称为 paellasæt，指制作西班牙海鲜饭的套装商品；本期公开文字没有列出内容物，应结合图片确认是锅具、食材包还是组合套装，不能直接当作成品饭。'],
+    [/sol mar paella/, 'SOL&MAR 西班牙海鲜饭', '冷冻西班牙 Paella 海鲜饭或混合饭，通常含米饭、蔬菜并搭配海鲜或肉类；用平底锅或微波炉按包装充分加热，可直接作为一餐。'],
+    [/vitasia.*bao.*teriyaki/, '照烧鸡肉包子', '亚洲风味冷冻 Bao 夹照烧鸡肉馅，面皮松软、馅料甜咸；按包装蒸热或微波加热，可作小吃或简餐。'],
+    [/vitasia.*pho/, '越南风味 Pho 河粉汤', '越南风味 Pho 方便河粉汤，通常加入热水或短时煮制，带香料汤底与米粉；具体肉味、辣度和配料以包装为准。'],
+    [/vitasia.*suppe/, 'VITASIA 亚洲风味汤', 'VITASIA 亚洲风味汤，可能是椰奶咖喱、面汤或蔬菜汤；按包装加热后食用，口味和辣度需按具体包装选择。'],
+    [/vitasia.*faerdigret/, 'VITASIA 亚洲风味成品餐', 'VITASIA 亚洲风味成品餐，通常由米饭或面条配酱汁、蔬菜及肉类组成；按包装加热即可作为一餐，具体菜名和辣度见包装正面。'],
+    [/spicefield asia box/, '泰式咖喱鸡饭盒', '冷冻泰式咖喱鸡饭盒，可选 Panang 咖喱鸡或红咖喱鸡；Panang 通常更浓郁带花生与椰香，红咖喱香辣感更明显，按包装加热即可食用。'],
+    [/steff houlberg middagsretter/, '丹麦肉类家常成品餐任选', 'Steff Houlberg 冷冻家常成品餐，当前选项包括丹麦肉糜烤肉配菜或咖喱肉丸等；只需按包装充分加热，菜品和酱汁不同。'],
+    [/steff houlberg maxi.*middagsretter|steff houlberg maxi middagsretter/, 'Steff Houlberg 大份家常成品餐', '大份冷冻家常成品餐，选项可包括贝阿恩酱牛排餐或猪里脊炖菜等；按包装加热即可作为一餐，具体配菜见包装。'],
+    [/knorr lasagne.*lasagnette/, 'Knorr 千层面或迷你千层面料理包', 'Knorr Lasagne/Lasagnette 是制作番茄肉酱千层面风味主餐的常温料理包，通常还需按包装另加肉、牛奶或水后烹调；不是开袋即食的成品千层面。'],
+    [/knorr snack pot/, 'Knorr 杯装速食面或速食餐', 'Knorr Snack Pot 杯装速食餐，加入热水后短时间焖泡即可食用；不同款可能是意面、面条或米饭口味，适合快速午餐或加餐。'],
+    [/knorr dinner kit|knorr retter/, 'Knorr 快手料理包任选', 'Knorr 快手料理包用于制作意面、米饭或其他家庭主餐，通常需要按包装另加肉类、蔬菜、水或奶制品；各款所需配料和烹调步骤不同。'],
+    [/grillbuffet|bestil nem og laekker grillbuffet/, '三种烤肉配菜和甜点自助套餐', '需在线预订的多人烧烤自助套餐，包含三种肉类、配菜和甜点；按每人份计价并有最低订购人数，具体肉类与配菜需在预订页面选择。'],
+    [/steg selv menu/, '烤猪肉多人套餐食材包', '需自行烤制的多人套餐，包含腌制猪外脊、奶油土豆、青酱意面沙拉、混合沙拉、法棍和酸奶油酱；肉类需彻底加热，其余配菜按门店说明食用。'],
+    [/noglehulsret/, '健康标识主餐任选', '带丹麦 Nøglehullet 钥匙孔营养标识的主餐任选，例如墨西哥鸡肉糙米饭、三文鱼配青酱土豆蔬菜或鸡肉串配蔬菜；每款主料不同，按实际餐盒选择。'],
+    [/a arstiderne|aarstiderne/, 'Aarstiderne 有机成品主餐', 'Aarstiderne 有机成品主餐，多种口味；当前说明举例为番茄、蘑菇、面片、奶油酱和马苏里拉组成的素食千层面，按包装加热后食用。'],
+    [/beauvais middagsretter/, 'Beauvais 罐装丹麦家常菜', 'Beauvais 罐装家常成品餐，多种菜式任选，开罐后充分加热即可配土豆、米饭或面包；具体肉类、酱汁和配菜见罐身。'],
+  ];
+  for (const [pattern, titleZh, descriptionZh] of rules) if (pattern.test(text)) return { titleZh, descriptionZh };
+  if (/faerdigret|middagsret|familleret|frost ?marked|to go marked|to go|asiatisk marked/.test(text)) return {
+    titleZh: '多款方便主餐或即食小吃任选',
+    descriptionZh: '这是多款方便主餐、冷冻菜或即食小吃的任选促销，公开文字没有逐一列出全部菜名。购买时应结合卡片图片和包装正面选择实际菜式，并按包装确认冷食、微波、烤箱或平底锅的加热方式。',
+  };
+  return null;
+}
+
 function inferLowPriorityType(originalName, originalDescription, comparisonGroup) {
+  const headingText = normalize(originalName || '');
   const text = normalize(`${originalName || ''} ${originalDescription || ''}`);
   if (comparisonGroup.startsWith('clothing_')) {
     const childSize = '(?:62|68|74|80|86|92|98|104|110|116|122|128|134|140|146|152|158|164|170)';
@@ -1218,6 +1490,9 @@ function inferLowPriorityType(originalName, originalDescription, comparisonGroup
   }
   if (/^(?:personal_|hair_body$|sun_care$|hygiene$|supplements$)/.test(comparisonGroup || '')) {
     for (const [pattern, [typeZh, useZh]] of PERSONAL_TYPE_RULES) {
+      if (pattern.test(headingText)) return { typeZh, useZh };
+    }
+    for (const [pattern, [typeZh, useZh]] of PERSONAL_TYPE_RULES) {
       if (pattern.test(text)) return { typeZh, useZh };
     }
   }
@@ -1225,6 +1500,7 @@ function inferLowPriorityType(originalName, originalDescription, comparisonGroup
     const protectedFallback = GROUP_TYPE_FALLBACK[comparisonGroup];
     if (protectedFallback) return { typeZh: protectedFallback[0], useZh: protectedFallback[1] };
   }
+  for (const [pattern, [typeZh, useZh]] of GENERAL_TYPE_RULES) if (pattern.test(headingText)) return { typeZh, useZh };
   for (const [pattern, [typeZh, useZh]] of GENERAL_TYPE_RULES) if (pattern.test(text)) return { typeZh, useZh };
   const fallback = GROUP_TYPE_FALLBACK[comparisonGroup];
   if (fallback) return { typeZh: fallback[0], useZh: fallback[1] };
@@ -1239,7 +1515,7 @@ function preciseLowPriorityName(originalName, originalDescription, comparisonGro
 
 const normalizeDash = value => String(value || '').replace(/\s+/g, ' ').replace(/\s*[-–]\s*/g, '–').trim();
 
-function collectUsefulFactsZh(originalDescription, comparisonGroup) {
+function collectUsefulFactsZh(originalDescription, comparisonGroup, originalName = '') {
   const raw = String(originalDescription || '').replace(/[\r\n]+/g, ' ');
   const text = normalize(raw);
   const facts = [];
@@ -1301,7 +1577,8 @@ function collectUsefulFactsZh(originalDescription, comparisonGroup) {
     if (noise) add(`噪声 ${noise[1]} dB`);
     const room = raw.match(/(?:Max\.?\s*)?rumareal\s*:?\s*(\d+)\s*m[²2]?/i);
     if (room) add(`适用面积约 ${room[1]} m²`);
-    const battery = raw.match(/\b(\d[\d.]*)\s*mAh\b/i);
+    const battery = String(originalName).match(/\b(\d[\d.]*)\s*mAh\b/i)
+      || raw.match(/\b(\d[\d.]*)\s*mAh\b/i);
     if (battery) add(`${battery[1]} mAh 电池`);
     const ip = raw.match(/\bIPX?\d\b/i);
     if (ip) add(`${ip[0].toUpperCase()} 防护等级`);
@@ -1364,7 +1641,7 @@ function specificLowPriorityDescription(originalName, originalDescription, compa
   if (!LOW_PRIORITY_GROUP.test(comparisonGroup || '')) return null;
   const inferred = inferLowPriorityType(originalName, originalDescription, comparisonGroup);
   if (!inferred) return null;
-  const facts = collectUsefulFactsZh(originalDescription, comparisonGroup);
+  const facts = collectUsefulFactsZh(originalDescription, comparisonGroup, originalName);
   const statements = [`这是${inferred.typeZh}，${inferred.useZh}`];
   if (facts.length) statements.push(facts.join('；'));
   if (comparisonGroup.startsWith('alcohol_')) statements.push('含酒精，仅供符合丹麦年龄规定的成年人');
@@ -1376,10 +1653,22 @@ function specificLowPriorityDescription(originalName, originalDescription, compa
 
 export function danishProductNameZh(originalName, comparisonGroup, originalDescription = '') {
   const text = normalize(originalName);
+  for (const [pattern, nameZh] of DANISH_PRODUCT_FORM_TITLES) if (pattern.test(text)) return nameZh;
+  if (comparisonGroup.startsWith('drink_')) {
+    const soda = sodaIdentity(originalName);
+    if (soda) return soda.titleZh;
+  }
+  if (comparisonGroup.startsWith('alcohol_')) {
+    const alcohol = alcoholIdentity(originalName, originalDescription, comparisonGroup);
+    if (alcohol) return alcohol.titleZh;
+  }
+  if (comparisonGroup === 'ready_meal') {
+    const meal = readyMealIdentity(originalName, originalDescription, comparisonGroup);
+    if (meal) return meal.titleZh;
+  }
   if (/^(?:personal_|hair_body$|sun_care$|hygiene$|supplements$)/.test(comparisonGroup || '')) {
     return preciseLowPriorityName(originalName, originalDescription, comparisonGroup) || GROUP_DEFAULTS[comparisonGroup];
   }
-  for (const [pattern, nameZh] of DANISH_PRODUCT_FORM_TITLES) if (pattern.test(text)) return nameZh;
   if (LOW_PRIORITY_GROUP.test(comparisonGroup || '')) {
     return preciseLowPriorityName(originalName, originalDescription, comparisonGroup) || `${originalName}（${GROUP_DEFAULTS[comparisonGroup]}）`;
   }
@@ -1393,6 +1682,18 @@ export function danishProductNameZh(originalName, comparisonGroup, originalDescr
 export function specificDanishDescription(originalName, originalDescription = '', comparisonGroup = '') {
   const text = normalize(originalName);
   for (const [pattern, descriptionZh] of SPECIFIC_DESCRIPTIONS) if (pattern.test(text)) return descriptionZh;
+  if (comparisonGroup.startsWith('drink_')) {
+    const soda = sodaIdentity(originalName);
+    if (soda) return soda.descriptionZh;
+  }
+  if (comparisonGroup.startsWith('alcohol_')) {
+    const alcohol = alcoholIdentity(originalName, originalDescription, comparisonGroup);
+    if (alcohol) return alcohol.descriptionZh;
+  }
+  if (comparisonGroup === 'ready_meal') {
+    const meal = readyMealIdentity(originalName, originalDescription, comparisonGroup);
+    if (meal) return meal.descriptionZh;
+  }
   return specificLowPriorityDescription(originalName, originalDescription, comparisonGroup);
 }
 

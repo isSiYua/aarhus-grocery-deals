@@ -53,7 +53,9 @@ function refineAarhusRecord(record, name = record.originalName) {
   // "frit valg" reveals that the price covers an assortment rather than one
   // specific sliced meat. Keep the stable key name-only, but classify from all
   // reviewed textual evidence available on the record.
-  const classificationText = [name, record.originalDescription].filter(Boolean).join(' ');
+  const classificationText = String(record.comparisonGroup || '').startsWith('electronics_')
+    ? name
+    : [name, record.originalDescription].filter(Boolean).join(' ');
   const comparisonGroup = refineAarhusComparisonGroup(record.comparisonGroup, classificationText);
   const migrated = {
     ...record,

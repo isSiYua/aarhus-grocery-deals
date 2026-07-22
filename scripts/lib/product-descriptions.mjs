@@ -5,7 +5,7 @@ import { explainInChinese } from './explain-zh.mjs';
 import { sanitizeItemDescriptionZh } from './description-quality.mjs';
 
 export const DESCRIPTION_SCHEMA_VERSION = 2;
-export const DESCRIPTION_SPEC_VERSION = 'zh-product-v5';
+export const DESCRIPTION_SPEC_VERSION = 'zh-product-v6';
 
 function clothingDetailIdentity(raw, group) {
   if (!String(group || '').startsWith('clothing_')) return '';

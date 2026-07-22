@@ -182,8 +182,61 @@ test('product form wins over ingredient and flavour words', () => {
   assert.equal(classifyOffer({ heading:'Pizzamel 1 kg' }).comparisonGroup, 'flour_baking');
   assert.equal(classifyOffer({ heading:'Saltede karamelvafler' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Chili chips' }).comparisonGroup, 'chips');
-  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics_computing', comparisonGroup:'electronics_computer' });
+  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics_computing', comparisonGroup:'electronics_monitor' });
   assert.deepEqual(classifyOffer({ heading:'Prosonic soundbar' }), { categoryId:'electronics_tv_audio', comparisonGroup:'electronics_audio' });
+});
+
+test('product identity beats incidental charger, phone, and alcohol brand words', () => {
+  assert.deepEqual(classifyOffer({
+    heading: 'Børne gamerstol',
+    description: 'RGB-lyset kræver strøm via usb-kabel eller powerbank',
+  }), { categoryId: 'home_furniture', comparisonGroup: 'home_furniture' });
+  assert.deepEqual(classifyOffer({
+    heading: 'Acer PM1 Series 15,6” bærbar touch skærm',
+    description: 'USB-C til computer, smartphone eller tablet',
+  }), { categoryId: 'electronics_computing', comparisonGroup: 'electronics_monitor' });
+  assert.deepEqual(classifyOffer({ heading: 'Targus 2-i-1 stylus pen' }), {
+    categoryId: 'electronics_computing', comparisonGroup: 'electronics_computer_accessory',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Coca-Cola, Fanta, Tuborg Squash eller Schweppes' }), {
+    categoryId: 'soft_drinks', comparisonGroup: 'drink_soda',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Baileys is eller Triple Chocolate' }), {
+    categoryId: 'ice_cream', comparisonGroup: 'ice_cream',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'SILVERCREST Elkedel eller smoothie maker' }), {
+    categoryId: 'home_appliances', comparisonGroup: 'home_appliances',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Nye lammefjords-kartofler' }), {
+    categoryId: 'vegetables', comparisonGroup: 'potatoes_fresh',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Depend neglefil eller Kiss naturlige vipper' }), {
+    categoryId: 'personal_oral_beauty', comparisonGroup: 'personal_makeup',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Murph proteinbar med kreatin' }), {
+    categoryId: 'personal_health', comparisonGroup: 'supplement_sports_snack',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Surdejspizza prosciutto eller diavola' }), {
+    categoryId: 'pizza_dumplings', comparisonGroup: 'pizza_snacks',
+  });
+  assert.deepEqual(classifyOffer({ heading: 'Realme C100 5G 128GB' }), {
+    categoryId: 'electronics_mobile', comparisonGroup: 'electronics_mobile',
+  });
+  assert.equal(danishProductNameZh('Samsung Galaxy A11+ Android tablet', 'electronics_mobile'), '平板电脑');
+  assert.equal(danishProductNameZh('HP stationær PC', 'electronics_computer'), '台式电脑');
+});
+
+test('named drinks, wines, supplements, meals, and electronics receive item-specific Chinese text', () => {
+  assert.match(danishProductNameZh('Faxe Kondi eller Pepsi Max sodavand', 'drink_soda'), /无糖可乐.*柠檬青柠|柠檬青柠.*无糖可乐/);
+  assert.match(specificDanishDescription('Faxe Kondi eller Pepsi Max sodavand', '', 'drink_soda'), /柠檬青柠味/);
+  assert.match(specificDanishDescription('🇪🇸 Rueda Verdejo 11%', '750 ml', 'alcohol_wine_white'), /柠檬.*草本香/);
+  assert.match(specificDanishDescription('Jack Daniels 40%', '700 ml', 'alcohol_spirits'), /焦糖.*香草.*橡木/);
+  assert.match(specificDanishDescription('SOL&MAR Gazpacho', '1 l', 'ready_meal'), /冷番茄蔬菜汤/);
+  assert.match(specificDanishDescription('Murph whey med kreatin', 'Vanilla eller cocoa', 'supplements'), /香草或可可/);
+  assert.match(danishProductNameZh('Targus computertaske 15.6”', 'electronics_computer_accessory'), /笔记本电脑包/);
+  assert.match(danishProductNameZh('Depend neglefil eller Kiss naturlige vipper', 'personal_makeup'), /美甲锉.*假睫毛/);
+  assert.match(specificDanishDescription('Murph proteinbar med kreatin', '', 'supplement_sports_snack'), /肌酸.*蛋白质/);
+  assert.match(specificDanishDescription('Breezer, Somersby, Schweppes tonic el. Red Bull energidrik', '', 'other_offer'), /预调酒.*苹果酒.*汤力水.*能量饮料/);
 });
 
 test('keeps ice cream, child clothing, bikes and chargers in their real product groups', () => {
