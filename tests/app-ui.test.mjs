@@ -124,9 +124,11 @@ test('search page links to the public GitHub repository for stars', () => {
   assert.match(appSource, /github-star-card/);
   assert.match(appSource, /https:\/\/github\.com\/isSiYua\/aarhus-grocery-deals/);
   assert.match(appSource, /打开 GitHub · Star/);
+  assert.match(appSource, /求求你了，给我点个 star 吧/);
   assert.match(appSource, /target: '_blank'/);
   assert.match(appSource, /rel: 'noopener noreferrer'/);
   assert.match(styleSource, /\.github-star-link \{/);
+  assert.match(styleSource, /\.github-star-action \{/);
 });
 
 test('mobile chrome behaves like a reading app and has no visible handles', () => {

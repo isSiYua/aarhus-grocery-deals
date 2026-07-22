@@ -1610,13 +1610,16 @@ function searchView() {
           el('p', {}, '欢迎去 GitHub 看看项目，也可以顺手帮我点个 Star。'),
         ]),
       ]),
-      el('a', {
-        class: 'github-star-link',
-        href: 'https://github.com/isSiYua/aarhus-grocery-deals',
-        target: '_blank',
-        rel: 'noopener noreferrer',
-        'aria-label': '在 GitHub 打开 aarhus-grocery-deals 仓库并点 Star',
-      }, '打开 GitHub · Star ⭐'),
+      el('div', { class: 'github-star-action' }, [
+        el('a', {
+          class: 'github-star-link',
+          href: 'https://github.com/isSiYua/aarhus-grocery-deals',
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          'aria-label': '在 GitHub 打开 aarhus-grocery-deals 仓库并点 Star',
+        }, '打开 GitHub · Star ⭐'),
+        el('p', {}, '求求你了，给我点个 star 吧'),
+      ]),
     ]),
     footerNote(),
   ]);
