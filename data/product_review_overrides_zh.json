@@ -1629,7 +1629,23 @@
       "imageReviewed": true,
       "descriptionSpecVersion": "zh-product-v6"
     },
+    "torsdagssmorrebrod": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "周四现做丹麦开放式三明治任选",
+      "descriptionZh": "这是 Mad Cooperativet 柜台周四供应的丹麦 smørrebrød：以一片面包托住冷切肉、炸鱼、虾或其他配料，图片展示火腿蔬菜、炸鱼柠檬和虾等装饰丰富的款式。每份任选价相同，实际口味会因门店库存而不同，适合作为即食午餐或轻餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
     "v1|zendium|personal_oral_care": {
+      "categoryId": "personal_oral_beauty",
+      "comparisonGroup": "personal_oral_care",
+      "productNameZh": "Zendium 牙膏两支装",
+      "descriptionZh": "Zendium 日常牙膏多款任选，促销规格为 2 支、每支 100 毫升。图片展示 Classic 等使用天然酶配方的款式，用于早晚清洁牙齿和牙龈；具体口味、含氟量及适用年龄应以所选包装标示为准。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "zendium": {
       "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_oral_care",
       "productNameZh": "Zendium 牙膏两支装",
@@ -1654,5 +1670,5 @@
       "descriptionSpecVersion": "zh-product-v6"
     }
   },
-  "updatedAt": "2026-07-22T17:43:00.000Z"
+  "updatedAt": "2026-07-22T17:49:00.000Z"
 }

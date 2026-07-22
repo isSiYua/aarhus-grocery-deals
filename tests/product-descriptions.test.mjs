@@ -45,6 +45,23 @@ test('generic headings still reuse the same option evidence across stores despit
   assert.equal(first, second);
 });
 
+test('generic image identity is stable from Tjek API input through the published offer', () => {
+  const classification = { categoryId: 'leisure_toys', comparisonGroup: 'leisure_toys' };
+  const crop = 'https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fp-41.webp&w=1000&x1r=0.65&s=abc';
+  const fromApi = descriptionKeyFor({
+    heading: 'Pudebamse / Bamse',
+    description: 'Flere varianter.',
+    images: { zoom: crop },
+  }, classification);
+  const fromPublishedOffer = descriptionKeyFor({
+    originalName: 'Pudebamse / Bamse',
+    originalDescription: 'Flere varianter.',
+    imageUrl: crop,
+  }, classification);
+  assert.equal(fromApi, fromPublishedOffer);
+  assert.match(fromApi, /\|variant-[a-f0-9]{12}$/);
+});
+
 test('clothing description identity keeps materially different size ranges separate', () => {
   const classification = { categoryId: 'clothing', comparisonGroup: 'clothing_adult_tops' };
   const standard = descriptionKeyFor({ heading: 'T-shirt', description: 'Str. S-2XL. 100% bomuld.' }, classification);

@@ -48,7 +48,16 @@ function meaningfulVariantEvidence(raw) {
 }
 
 function imageEvidence(raw) {
-  const value = String(raw?.imageUrl || '').trim();
+  // Tjek's API returns the crop under `images`, while normalized/published
+  // offers expose the same crop as `imageUrl`. Both stages must hash the same
+  // evidence or a reviewed generic flyer heading falls back on every refresh.
+  const value = String(
+    raw?.imageUrl
+      || raw?.images?.zoom
+      || raw?.images?.view
+      || raw?.images?.thumb
+      || '',
+  ).trim();
   if (!value) return '';
   try {
     const url = new URL(value);
