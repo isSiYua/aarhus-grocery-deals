@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v3",
-  "generatedAt": "2026-07-22T01:09:07.026Z",
-  "count": 169,
+  "generatedAt": "2026-07-22T01:52:51.518Z",
+  "count": 173,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -1409,6 +1409,19 @@
       "occurrences": 1
     },
     {
+      "descriptionKey": "v1|nivea deodorant eller shower|hair_body",
+      "originalName": "Nivea deodorant eller shower*",
+      "sampleDescriptions": [
+        "50-250 ml. Literpris maks. 300,00. Frit valg. 1 stk."
+      ],
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "stores": [
+        "365"
+      ],
+      "occurrences": 1
+    },
+    {
       "descriptionKey": "v1|nordthy xl myslibar|cereal",
       "originalName": "NORDTHY XL myslibar",
       "sampleDescriptions": [
@@ -1624,6 +1637,32 @@
       ],
       "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizokroketter|sausage_chorizo",
+      "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
+      "sampleDescriptions": [
+        "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
+      "stores": [
+        "lidl"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|sol mar chorizogrillpolser|sausage_chorizo",
+      "originalName": "SOL&MAR Chorizogrillpølser",
+      "sampleDescriptions": [
+        "300 g.\nPr. kg 100,00\nSpot¹"
+      ],
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_chorizo",
       "stores": [
         "lidl"
       ],
@@ -2160,6 +2199,19 @@
       "comparisonGroup": "chicken_breast",
       "stores": [
         "365"
+      ],
+      "occurrences": 1
+    },
+    {
+      "descriptionKey": "v1|xtra marineret kyllinge bryst med citron rosmarin eller bbq|chicken_other",
+      "originalName": "Xtra! marineret kyllinge-bryst med citron/ rosmarin eller bbq",
+      "sampleDescriptions": [
+        "375 g. Kg-pris 104,00. Frit valg. 1 pakke."
+      ],
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_other",
+      "stores": [
+        "kvickly"
       ],
       "occurrences": 1
     },
