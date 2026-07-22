@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T12:52:58.175Z",
+  "updatedAt": "2026-07-22T13:08:35.648Z",
   "reviewPolicy": "Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.",
   "entries": {
     "v1|1 enkelt bitter grant s whisky brondums snaps bacardi rom ramazzotti limoncello eller raastoff shots|alcohol_spirits": {
@@ -1427,9 +1427,27 @@
         "imageUrl": null
       }
     },
+    "v1|aktivitets legetoj|leisure_toys": {
+      "productNameZh": "Lamaze 婴儿活动摇铃玩具任选",
+      "descriptionZh": "Lamaze 婴儿活动玩具或摇铃，多种款式任选，1 件装。适合通过抓握、摇动和触摸进行感官启蒙；购买前请按包装确认建议月龄、清洁方法以及小零件等安全提示。",
+      "originalName": "Aktivitets legetøj*",
+      "originalDescription": "Lamaze baby rangler. Vælg mellem flere varianter. Frit valg. 1 stk.",
+      "categoryId": "leisure",
+      "comparisonGroup": "leisure_toys",
+      "authoredBy": "Codex",
+      "reviewStatus": "codex_name_and_description_reviewed",
+      "descriptionSpecVersion": "zh-product-v4",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
+      "evidence": {
+        "originalNameReviewed": true,
+        "originalDescriptionReviewed": true,
+        "offerImageReviewed": false,
+        "imageUrl": null
+      }
+    },
     "v1|aktivitetslegetoj|leisure_toys": {
-      "productNameZh": "Aktivitetslegetøj*（玩具或游戏）",
-      "descriptionZh": "Aktivitetslegetøj*（玩具或游戏）。玩具、游戏或儿童休闲用品；购买前请确认适用年龄、零件大小、电池需求和安全警示。",
+      "productNameZh": "Lamaze 婴儿活动摇铃玩具任选",
+      "descriptionZh": "Lamaze 婴儿活动玩具或摇铃，多种款式任选，1 件装。适合通过抓握、摇动和触摸进行感官启蒙；购买前请按包装确认建议月龄、清洁方法以及小零件等安全提示。",
       "originalName": "Aktivitetslegetøj*",
       "originalDescription": "Lamaze baby ranlger. Vælg mellem flere varianter. Frit valg. 1 stk.",
       "categoryId": "leisure",
@@ -1808,7 +1826,7 @@
     "v1|amanda yellowfin tun|white_fish": {
       "productNameZh": "金枪鱼罐头或鱼排",
       "descriptionZh": "金枪鱼罐头或鱼排。白身鱼或青花鱼类，适合煎、烤、炸或煮汤；请按原名确认鱼种和是否烟熏。",
-      "originalName": "Amanda yellowfin tun",
+      "originalName": "Amanda yellowfin tun*",
       "originalDescription": "105 g. Kg-pris 114,29. Frit valg. 1 stk.",
       "categoryId": "seafood",
       "comparisonGroup": "white_fish",
@@ -2133,7 +2151,7 @@
       "productNameZh": "小颗罗马生菜",
       "descriptionZh": "小颗罗马生菜。生菜或沙拉叶，可生吃、做沙拉、夹三明治，也可快速清炒。",
       "originalName": "Änglamark økologisk hjertesalat fra Månsson",
-      "originalDescription": "Danmark, kl. I. Pose med 2 stk. Stk.-pris 12,00. 1 pakke.",
+      "originalDescription": "Danmark, kl. I\nPose med 2 stk. Stk-pris 12,00. 1 pakke",
       "categoryId": "vegetables",
       "comparisonGroup": "lettuce",
       "authoredBy": "Codex",
@@ -4308,8 +4326,8 @@
       }
     },
     "v1|ballerina til born|clothing_children": {
-      "productNameZh": "Ballerina til børn（成人服饰鞋袜）",
-      "descriptionZh": "Ballerina til børn（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "Ballerina til børn（儿童服饰鞋袜）",
+      "descriptionZh": "Ballerina til børn（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "Ballerina til børn",
       "originalDescription": "22-27.",
       "categoryId": "clothing",
@@ -4317,12 +4335,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:48:00.194Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FWavsjDl2%2Fp-23.webp&w=1000&x1r=0.52&x2r=0.95&y1r=0.8&y2r=0.96&s=a789b91f254a8f921b47f1db140b201e"
       }
     },
     "v1|balthazar|alcohol_wine": {
@@ -4695,7 +4713,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -7503,7 +7521,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -8739,7 +8757,7 @@
       "productNameZh": "Chivas Regal 12 års whisky 40% eller Malfy gin rosa 41%（烈酒或利口酒）",
       "descriptionZh": "Chivas Regal 12 års whisky 40% eller Malfy gin rosa 41%（烈酒或利口酒）。烈酒或利口酒，酒精度通常较高；请查看瓶身酒精度和容量，仅供符合当地年龄要求的成年人饮用。",
       "originalName": "Chivas Regal 12 års whisky 40% eller Malfy gin rosa 41%",
-      "originalDescription": "Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 249.00 pr. stk. 70 cl Partivare. 212.86 pr. liter",
+      "originalDescription": "70 cl 149.- Partivare. 212.86 pr. liter Ved køb af flere end 6 stk. pr. variant pr. dag er prisen op til 249.00 pr. stk.",
       "categoryId": "alcohol",
       "comparisonGroup": "alcohol_spirits",
       "authoredBy": "Codex",
@@ -9063,7 +9081,7 @@
       "productNameZh": "Classic 7-I（其他休闲用品）",
       "descriptionZh": "Classic 7-I（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "Classic 7-I",
-      "originalDescription": "Flere farver. 26” hjul Aluminiumstel Shimano 7 indvendige gear V-bremse for, fodbremse bag 26” x 40c dæk med refleks.",
+      "originalDescription": "28” hjul Aluminiumstel Shimano 7 indvendige gear V-bremse for, fodbremse bag 700 x 40c dæk med refleks. Flere farver.",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -10149,7 +10167,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10347,7 +10365,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10779,7 +10797,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10851,7 +10869,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -10887,7 +10905,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11067,7 +11085,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -11547,7 +11565,7 @@
       "productNameZh": "Cottonfield basis t-shirt（成人服饰鞋袜）",
       "descriptionZh": "Cottonfield basis t-shirt（成人服饰鞋袜）。成人服饰或鞋袜；购买时请按尺码表确认尺寸，并查看材质、版型和洗涤说明。",
       "originalName": "Cottonfield basis t-shirt",
-      "originalDescription": "Udvalgte sæsonfarver. Str. S-3XL. Flere farver. Se udvalget i dit varehus, så længe lager haves. Frit valg. Pr. stk.",
+      "originalDescription": "Udvalgte sæsonfarver\nStr. S-3XL. Flere farver. Se udvalget i dit varehus, så længe lager haves. Frit valg. Pr. stk.",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult",
       "authoredBy": "Codex",
@@ -11565,7 +11583,7 @@
       "productNameZh": "Cottonfield skjorte eller fløjlsbukser（成人服饰鞋袜）",
       "descriptionZh": "Cottonfield skjorte eller fløjlsbukser（成人服饰鞋袜）。成人服饰或鞋袜；购买时请按尺码表确认尺寸，并查看材质、版型和洗涤说明。",
       "originalName": "Cottonfield skjorte eller fløjlsbukser",
-      "originalDescription": "Skjorte: Bomuld. Bukser: Bomuld/elastan.\nStr. S-XXL. Frit valg. Pr. stk./par",
+      "originalDescription": "Skjorte: Bomuld. Bukser: Bomuld/elastan. Str. S-XXL. Frit valg. Pr. stk./par. Findes kun i udvalgte varehuse",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult",
       "authoredBy": "Codex",
@@ -12537,7 +12555,7 @@
       "productNameZh": "天妇罗鸡块或鸡肉蓝带肉排任选",
       "descriptionZh": "天妇罗鸡块或鸡肉蓝带肉排任选。裹粉鸡肉制品，如鸡块或爆米花鸡，通常需烤箱、空气炸锅或平底锅复热。",
       "originalName": "Danpo tempura nuggets eller Coop cordon bleu",
-      "originalDescription": "Dybfrost. 500-750 g. Kg-pris maks. 70,00. Frit valg. 1 pose",
+      "originalDescription": "Dybfrost. 500-750 g. Kg-pris maks. 70,00. Frit valg. 1 pose.",
       "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_chicken_breaded",
       "authoredBy": "Codex",
@@ -14247,7 +14265,7 @@
       "productNameZh": "甜甜圈",
       "descriptionZh": "甜甜圈。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Donut ferskner",
-      "originalDescription": "Udenlanske 450 g Pr. bakke 22.22 pr. kg",
+      "originalDescription": "Udenlanske\n450 g\nPr. bakke\n22.22 pr. kg",
       "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
@@ -14535,7 +14553,7 @@
       "productNameZh": "个人洗护用品",
       "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
       "originalName": "dreame Hårtørrer",
-      "originalDescription": "Dreame Hair Miracle højhastigheds-hårtørrer er en hurtig, avanceret og plejende hårtørrer med fleksible varmeindstillinger • 4 temperaturindstillinger. Fredag d. 3/7 - fredag d. 31/7. Normalpris 1999.-",
+      "originalDescription": "Dreame Hair Miracle højhastigheds-hårtørrer er en hurtig, avanceret og plejende hårtørrer med fleksible varmeindstillinger • 4 temperaturindstillinger. Fredag d. 3/7 - fredag d. 31/7. Normalpris 1999.- SPAR 1000.-",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
       "authoredBy": "Codex",
@@ -15003,7 +15021,7 @@
       "productNameZh": "E-Browse 7-I（其他休闲用品）",
       "descriptionZh": "E-Browse 7-I（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "E-Browse 7-I",
-      "originalDescription": "28’’ hjul. Aluminiumstel. Shimano 7 indvendige gear. Mekanisk skivebremse for, fodbremse bag. 700 x 2.00 dæk med refleks. 12,8 AH batteri. Forhjulsmotor.",
+      "originalDescription": "26’’ hjul. Aluminiumstel. Shimano 7 indvendige gear. Mekanisk skivebremse for, fodbremse bag. 26” x 2.10 dæk med refleks. 12,8 AH batteri. Forhjulsmotor.",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -15057,7 +15075,7 @@
       "productNameZh": "E-City 7-U（其他休闲用品）",
       "descriptionZh": "E-City 7-U（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "E-City 7-U",
-      "originalDescription": "Mekaniske skivebremse for og bag 700 x 40c dæk med refleks 10.4 AH batteri Forhjulsmotor. 28” hjul Aluminiumstel Shimano 7 udvendige gear.",
+      "originalDescription": "28’ hjul. Aluminiumstel. Shimano 7 udvendige gear. Mekaniske skivebremse for og bag. 700 x 40c dæk med refleks. 10.4 AH batteri. Forhjulsmotor.",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -15075,7 +15093,7 @@
       "productNameZh": "E-Fresh 7-I（其他休闲用品）",
       "descriptionZh": "E-Fresh 7-I（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "E-Fresh 7-I",
-      "originalDescription": "28” hjul Aluminiumstel Shimano 7 indvendige gear Hydrauliske skivebremse for, fodbremse bag. 700 x 40c dæk med refleks 13 AH batteri Forhjulsmotor Flere farver.",
+      "originalDescription": "26” hjul Aluminiumstel Shimano 7 indvendige gear Hydrauliske skivebremse for, fodbremse bag. 700 x 40c dæk med refleks 13 AH batteri Forhjulsmotor Flere farver.",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -15255,7 +15273,7 @@
       "productNameZh": "E-Uni 8-I（其他休闲用品）",
       "descriptionZh": "E-Uni 8-I（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "E-Uni 8-I",
-      "originalDescription": "28’’ hjul. Aluminiumstel. Shimano 7 indvendige gear. V-bremse foran, fodbremse bag. 700 x 38c dæk med refleks. 15 AH batteri. Forhjulsmotor. Flere farver. I Bilka forstUr vi vigtigheden af at prøvekøre en cykel, før man træffer den endelige beslutning.. Derfor tilbyder vi altid mulighed for at teste vores elcykler i butikken. Vores medarbejdere stør altid klar til at assistere dig og besvare spørgsmål.",
+      "originalDescription": "16999-. 28’’ hjul. Aluminiumstel. Shimano 7 indvendige gear. V-bremse foran, fodbremse bag. 28’’ x 1.75 dæk med refleks. 15 AH batteri. Forhjulsmotor.",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -15651,7 +15669,7 @@
       "productNameZh": "Elmarked（其他促销商品）",
       "descriptionZh": "Elmarked（其他促销商品）。其他促销商品；请按原始商品名、图片和包装确认具体用途、规格、适用人群及安全说明。",
       "originalName": "Elmarked",
-      "originalDescription": "Vælg mellem et stort udvalg af elvarer. Kom ned i dit lokale varehus og se udvalget. Frit valg. 1 stk. 179,-",
+      "originalDescription": "Vælg mellem et stort udvalg af elvarer. Kom ned i dit lokale varehus og se udvalget. Frit valg. 1 stk.",
       "categoryId": "other_offers",
       "comparisonGroup": "other_offer",
       "authoredBy": "Codex",
@@ -15954,8 +15972,8 @@
       }
     },
     "v1|esmara kids boxershorts|clothing_children": {
-      "productNameZh": "ESMARA KIDS Boxershorts（成人服饰鞋袜）",
-      "descriptionZh": "ESMARA KIDS Boxershorts（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "ESMARA KIDS Boxershorts（儿童服饰鞋袜）",
+      "descriptionZh": "ESMARA KIDS Boxershorts（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "ESMARA KIDS Boxershorts",
       "originalDescription": "Boxershorts: 3-pak. 134/140-158/164. Frit valg²",
       "categoryId": "clothing",
@@ -15963,12 +15981,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-32.webp&w=1000&x1r=0.61&x2r=0.97&y1r=0.25&y2r=0.45&s=ca9aa2e8fa4920d41758eac669c21c05"
       }
     },
     "v1|esmara kids croptop|clothing_children": {
@@ -15990,8 +16008,8 @@
       }
     },
     "v1|esmara kids hipsters|clothing_children": {
-      "productNameZh": "ESMARA KIDS Hipsters（成人服饰鞋袜）",
-      "descriptionZh": "ESMARA KIDS Hipsters（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "ESMARA KIDS Hipsters（儿童服饰鞋袜）",
+      "descriptionZh": "ESMARA KIDS Hipsters（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "ESMARA KIDS Hipsters",
       "originalDescription": "Hipsters: 4-pak. 134/140-158/164. Frit valg²",
       "categoryId": "clothing",
@@ -15999,12 +16017,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-32.webp&w=1000&x1r=0.348&x2r=0.608&y1r=0.31&y2r=0.47&s=e7afd4463e0c7aa6a1059743f46de79b"
       }
     },
     "v1|esmara kids leggings|clothing_children": {
@@ -16263,7 +16281,7 @@
       "productNameZh": "Essential fodmassageapparat（其他促销商品）",
       "descriptionZh": "Essential fodmassageapparat（其他促销商品）。其他促销商品；请按原始商品名、图片和包装确认具体用途、规格、适用人群及安全说明。",
       "originalName": "Essential fodmassageapparat",
-      "originalDescription": "Flere funktioner, programmer og niveauer • Med timerfunktion og fjernbetjening. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 599.-",
+      "originalDescription": "Flere funktioner, programmer og niveauer • Med timerfunktion og fjernbetjening. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 599.- SPAR 100.-",
       "categoryId": "other_offers",
       "comparisonGroup": "other_offer",
       "authoredBy": "Codex",
@@ -19653,7 +19671,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -22235,6 +22253,24 @@
         "imageUrl": null
       }
     },
+    "v1|gummistovler|clothing_children": {
+      "productNameZh": "Gummistøvler（成人服饰鞋袜）",
+      "descriptionZh": "Gummistøvler（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "originalName": "Gummistøvler",
+      "originalDescription": "E. til børn. 28-35.",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children",
+      "authoredBy": "Codex",
+      "reviewStatus": "codex_name_and_description_reviewed",
+      "descriptionSpecVersion": "zh-product-v4",
+      "reviewedAt": "2026-07-22T12:48:00.194Z",
+      "evidence": {
+        "originalNameReviewed": true,
+        "originalDescriptionReviewed": true,
+        "offerImageReviewed": false,
+        "imageUrl": null
+      }
+    },
     "v1|gustus sydafrikansk rod eller hvidvin 75 cl|alcohol_wine": {
       "productNameZh": "Gustus Sydafrikansk rød- eller hvidvin, 75 cl（葡萄酒或起泡酒）",
       "descriptionZh": "Gustus Sydafrikansk rød- eller hvidvin, 75 cl（葡萄酒或起泡酒）。葡萄酒或起泡酒，可按红、白、桃红、甜度和产区选择；仅供符合当地年龄要求的成年人饮用。",
@@ -22977,7 +23013,7 @@
       "productNameZh": "Harboe sodavand（汽水或软饮）",
       "descriptionZh": "Harboe sodavand（汽水或软饮）。汽水或软饮，可直接饮用；购买时可查看口味、容量、含糖量，以及是否含咖啡因或甜味剂。",
       "originalName": "Harboe sodavand",
-      "originalDescription": "Ved køb af flere end 72 stk. pr. variant pr. dag er prisen op til 3.42 pr. stk. 33 cl. Ex. pant 6.06 pr. liter",
+      "originalDescription": "33 cl. Ex. pant 2.- 6.06 pr. liter Ved køb af flere end 72 stk. pr. variant pr. dag er prisen op til 3.42 pr. stk.",
       "categoryId": "drinks",
       "comparisonGroup": "drink_soda",
       "authoredBy": "Codex",
@@ -26709,12 +26745,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoE4C3LU%2Fp-26.webp&w=1000&x1r=0.102&x2r=1&y1r=0&y2r=0.574&s=21feb0081ac621236e7f37ca0c619534"
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8syVPih-%2Fp-4.webp&w=1000&x1r=0.086&x2r=0.985&y1r=0&y2r=0.575&s=32e9b786b8e43b06805e7842d8c2d24d"
       }
     },
     "v1|kalvecuvette|beef_roast": {
@@ -29040,8 +29076,8 @@
       }
     },
     "v1|korte gummistovler til born|clothing_children": {
-      "productNameZh": "Korte gummistøvler til børn（成人服饰鞋袜）",
-      "descriptionZh": "Korte gummistøvler til børn（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "Korte gummistøvler til børn（儿童服饰鞋袜）",
+      "descriptionZh": "Korte gummistøvler til børn（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "Korte gummistøvler til børn",
       "originalDescription": "D. 20-27.",
       "categoryId": "clothing",
@@ -29049,12 +29085,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:48:00.194Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FWavsjDl2%2Fp-29.webp&w=1000&x1r=0.03&x2r=0.26&y1r=0.72&y2r=0.96&s=e21df063bfa37d2b7768e84eaf9ba93d"
       }
     },
     "v1|koskenkorva climate action vodka|alcohol_spirits": {
@@ -29103,7 +29139,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -31797,7 +31833,7 @@
       "productNameZh": "Skyr 高蛋白发酵乳",
       "descriptionZh": "Skyr 高蛋白发酵乳。Skyr 是高蛋白、质地很稠的发酵乳制品，接近低脂希腊酸奶；适合早餐搭配水果或燕麦。",
       "originalName": "Løgismose økologisk skyr",
-      "originalDescription": "SPOT 800 g. Pr. kg 31,25 + PRIS 20:- Pr. kg 25,00 Gælder kun med Netto+ appen",
+      "originalDescription": "800 g. Pr. kg 31,25 PRIS 20 Pr. kg 25,00 Gælder kun med Netto+ appen",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -32037,7 +32073,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -32280,8 +32316,8 @@
       }
     },
     "v1|lupilu boxershorts|clothing_children": {
-      "productNameZh": "LUPILU Boxershorts（成人服饰鞋袜）",
-      "descriptionZh": "LUPILU Boxershorts（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "LUPILU Boxershorts（儿童服饰鞋袜）",
+      "descriptionZh": "LUPILU Boxershorts（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "LUPILU Boxershorts",
       "originalDescription": "3-pak. 98/104-122/128. Super Pris Frit valg²",
       "categoryId": "clothing",
@@ -32289,12 +32325,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-31.webp&w=1000&x1r=0.55&x2r=0.98&y1r=0.47&y2r=0.77&s=27ed77b48ac69ec072d03382e31c1291"
       }
     },
     "v1|lupilu buksebleer|diapers": {
@@ -32334,8 +32370,8 @@
       }
     },
     "v1|lupilu hipsters|clothing_children": {
-      "productNameZh": "LUPILU Hipsters（成人服饰鞋袜）",
-      "descriptionZh": "LUPILU Hipsters（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "LUPILU Hipsters（儿童服饰鞋袜）",
+      "descriptionZh": "LUPILU Hipsters（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "LUPILU Hipsters",
       "originalDescription": "4-pak. 98/104-122/128. Super Pris Frit valg²",
       "categoryId": "clothing",
@@ -32343,12 +32379,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-31.webp&w=1000&x1r=0.01&x2r=0.5&y1r=0.63&y2r=0.8&s=e0b36ecd5fbbed47e5b9889b92726817"
       }
     },
     "v1|lupilu joggingbukser|clothing_children": {
@@ -32550,8 +32586,8 @@
       }
     },
     "v1|lupilu strikcardigan eller busker|clothing_children": {
-      "productNameZh": "LUPILU Strikcardigan eller -busker（成人服饰鞋袜）",
-      "descriptionZh": "LUPILU Strikcardigan eller -busker（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "LUPILU Strikcardigan eller -busker（儿童服饰鞋袜）",
+      "descriptionZh": "LUPILU Strikcardigan eller -busker（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "LUPILU Strikcardigan eller -busker",
       "originalDescription": "100 % økologisk bomuld. 62/68–86/92. Spot²",
       "categoryId": "clothing",
@@ -32559,17 +32595,17 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-30.webp&w=1000&x1r=0&x2r=1&y1r=0.662&y2r=0.902&s=c4808cd23cbce6f7129bf8d91e517898"
       }
     },
     "v1|lupilu strikcardigan|clothing_children": {
-      "productNameZh": "LUPILU Strikcardigan（成人服饰鞋袜）",
-      "descriptionZh": "LUPILU Strikcardigan（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "LUPILU Strikcardigan（儿童服饰鞋袜）",
+      "descriptionZh": "LUPILU Strikcardigan（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "LUPILU Strikcardigan",
       "originalDescription": "98/104-122/128. Spot²",
       "categoryId": "clothing",
@@ -32577,12 +32613,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdTQr8YKT%2Fp-30.webp&w=1000&x1r=0.12&x2r=1&y1r=0.518&y2r=0.7&s=e04faf0e41325e27897e1b39a504330c"
       }
     },
     "v1|lupilu sweattroje eller bukser|clothing_children": {
@@ -32604,8 +32640,8 @@
       }
     },
     "v1|lupilu t shirt|clothing_children": {
-      "productNameZh": "LUPILU T-shirt（成人服饰鞋袜）",
-      "descriptionZh": "LUPILU T-shirt（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "LUPILU T-shirt（儿童服饰鞋袜）",
+      "descriptionZh": "LUPILU T-shirt（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "LUPILU T-shirt",
       "originalDescription": "[ 3 ] 2-pak. 98/104-122/128. Frit valg²",
       "categoryId": "clothing",
@@ -32613,12 +32649,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-27.webp&w=1000&x1r=0.01&x2r=0.68&y1r=0.75&y2r=0.95&s=758af37543c4bd9fc014bd6f6f7ffbfe"
       }
     },
     "v1|lupilu trusser|clothing_children": {
@@ -34227,7 +34263,7 @@
       "productNameZh": "玉米米饼",
       "descriptionZh": "玉米米饼。饼干、蛋糕或华夫点心，可作零食或配咖啡茶；类似中国袋装饼干和小蛋糕。",
       "originalName": "Majskiks med smag*",
-      "originalDescription": "125 g. Kg-pris 96,00. Frit valg. 1 pakke.",
+      "originalDescription": "125 g. Kg-pris 96,00. Frit valg. 1 pakke",
       "categoryId": "biscuits_cakes",
       "comparisonGroup": "biscuits",
       "authoredBy": "Codex",
@@ -34791,7 +34827,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -34845,7 +34881,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -35757,7 +35793,7 @@
       "productNameZh": "Miele Støvsuger（家用小电器）",
       "descriptionZh": "Miele Støvsuger（家用小电器）。家用小电器；购买前请确认功能、尺寸、功率、插头规格、配件和保修信息。",
       "originalName": "Miele Støvsuger",
-      "originalDescription": "Model: Guard L1 Terra • Ideel ydelse til enhver rengøringsopgave: 4 valgbare modes • Individuelt valgbar højde og ergonomisk Comfort-griberør Voucher til 4-pak HyClean Pure TU støvsugerposer medfølger. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 2595.- SPAR 900.-",
+      "originalDescription": "Model: Guard L1 Terra • Ideel ydelse til enhver rengøringsopgave: 4 valgbare modes • Individuelt valgbar højde og ergonomisk Comfort-griberør • Voucher til 4-pak HyClean Pure TU støvsugerposer medfølger. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 2595.- SPAR 900.-",
       "categoryId": "home_kitchen",
       "comparisonGroup": "home_appliances",
       "authoredBy": "Codex",
@@ -35901,7 +35937,7 @@
       "productNameZh": "酸奶",
       "descriptionZh": "酸奶。酸奶、Skyr 或凝乳，适合早餐、加水果或直接吃；注意是否加糖和脂肪含量。",
       "originalName": "MILBONA Græsk-inspireret yoghurt",
-      "originalDescription": "2-10 % fedt. 1000 g / stk. Pr. kg 24,95",
+      "originalDescription": "1000 g / stk. Pr. kg 24,95.",
       "categoryId": "yoghurt",
       "comparisonGroup": "yoghurt",
       "authoredBy": "Codex",
@@ -36603,7 +36639,7 @@
       "productNameZh": "Minions strømper 3-pak（成人服饰鞋袜）",
       "descriptionZh": "Minions strømper 3-pak（成人服饰鞋袜）。成人服饰或鞋袜；购买时请按尺码表确认尺寸，并查看材质、版型和洗涤说明。",
       "originalName": "Minions strømper 3-pak",
-      "originalDescription": "Bomuld/ polyester/elastan. Str. 23/26-31/33. Pr. pakke.",
+      "originalDescription": "Bomuld/polyester/elastan. Str. 23/26-31/33. Pr. pakke",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult",
       "authoredBy": "Codex",
@@ -37149,7 +37185,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -37161,7 +37197,7 @@
       "productNameZh": "MTB og all-round cykelhjelm（其他休闲用品）",
       "descriptionZh": "MTB og all-round cykelhjelm（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "MTB og all-round cykelhjelm",
-      "originalDescription": "Sort. Str. 58-62 cm.",
+      "originalDescription": "Mat sort eller grå. Str. 54-58 cm.",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -37635,7 +37671,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -40587,7 +40623,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -41049,7 +41085,7 @@
       "productNameZh": "个人洗护用品",
       "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
       "originalName": "Oral-B Eltandbørste",
-      "originalDescription": "Model: Pro 1 duo • Hvert 30. sekund giver dig besked om, at du skal skifte position og børste et nyt sted • Indeholder 2 håndtag med 2 minutters timer, 1 oplader, 2 børstehoveder • Husk tilkøb af ekstra børstehoveder, f.eks. Cross Action 2+2+2-pak 159,-. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 599.- XL PACK",
+      "originalDescription": "Model: iO3 • Smart tryksensor advarer dig, når du børster for hårdt Indhold: 1 iO3-eltandbørste, 1 børstehoved, 1 oplader, 1 refill-holder Vælg mellem farverne Ice Blue, Blush Pink eller Matt Black • Husk tilkøb af ekstra børstehoveder, f.eks. Ultimate Clean 3-pak 199,-",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
       "authoredBy": "Codex",
@@ -42957,7 +42993,7 @@
       "productNameZh": "清洁用品",
       "descriptionZh": "清洁用品。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
       "originalName": "Plet- og tæpperenser",
-      "originalDescription": "1,8 liter tank til rent vand 1 liter tank til opsamlet snavset vand 4 meter ledning 2-i-1 mundstykke medfølger velegnet til både våd- og tørstøvsugning Ideel til rensning af: Tæpper, polstrede møbler og andre tekstiloverflader.",
+      "originalDescription": "PROSONIC • En kraftfuld og effektiv måde at rense tæpper, møbler og andre tekstiloverflader. FRIT VALG",
       "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "authoredBy": "Codex",
@@ -43136,7 +43172,7 @@
     "v1|pomi tomatkonserves|canned_tomatoes": {
       "productNameZh": "番茄罐头",
       "descriptionZh": "番茄罐头。罐装番茄，可做番茄汤、意面酱、炖肉或火锅汤底；类似中国常见番茄罐头。",
-      "originalName": "Pomi tomatkonserves",
+      "originalName": "Pomi tomatkonserves*",
       "originalDescription": "200-400 g. Kg-pris maks. 50,00. Frit valg. 1 stk.",
       "categoryId": "canned_pickled",
       "comparisonGroup": "canned_tomatoes",
@@ -45063,7 +45099,7 @@
       "productNameZh": "Red Bull*（其他饮料）",
       "descriptionZh": "Red Bull*（其他饮料）。其他饮料，可按原名和包装确认是即饮、冲泡还是需要稀释，并查看糖分与咖啡因信息。",
       "originalName": "Red Bull*",
-      "originalDescription": "Flere varianter. 25 cl. Literpris 48,00 + pant. Frit valg. 1 dåse. Ikke egnet til børn",
+      "originalDescription": "Flere varianter. 25 cl. Literpris 48,00 + pant. Frit valg. 1 dåse",
       "categoryId": "drinks",
       "comparisonGroup": "drink_other",
       "authoredBy": "Codex",
@@ -45483,7 +45519,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -45501,7 +45537,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -48105,7 +48141,7 @@
       "productNameZh": "SAMLEALBUM（其他休闲用品）",
       "descriptionZh": "SAMLEALBUM（其他休闲用品）。其他休闲、户外或兴趣用品；请按原名和包装确认用途、规格和安全说明。",
       "originalName": "SAMLEALBUM",
-      "originalDescription": "DRØM STORT. SPIL STØRRE. Få en pakke fodboldkort for hver 100 kr. I handler for hos os. Gælder til og med d. 30. juli så længe lager haves. Der udleveres ikke fodboldkort ved køb på Bilka.dk, føtex.dk og BR.dk",
+      "originalDescription": "Få en pakke fodboldkort for hver 100 kr. I handler for hos os. Gælder til og med d. 30. juli så længe lager haves. Der udleveres ikke fodboldkort ved køb på Bilka.dk, føtex.dk og BR.dk",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_other",
       "authoredBy": "Codex",
@@ -49545,7 +49581,7 @@
       "productNameZh": "个人洗护用品",
       "descriptionZh": "个人洗护用品。洗发、护发、沐浴或身体护理用品；按用途和容量选择，不是食品。",
       "originalName": "Shark FlexStyle 5-i-1 style og hårtørrer",
-      "originalDescription": "Model: HD440EU • Med en enkelt twist kan du skifte mellem en kraftfuld hårtørrer og en 5-i-1 stylingwand • Krøl, glat, skab volumen, gør håret glat eller definer dit look. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 2699.- Restsalg",
+      "originalDescription": "Model: HD440EU • Med en enkelt twist kan du skifte mellem en kraftfuld hårtørrer og en 5-i-1 stylingwand Krøl, glat, skab volumen, gør håret glat eller definer dit look. Fredag d. 3/7 - torsdag d. 30/7. Normalpris 2699.- SPAR 1700.- Restsalg",
       "categoryId": "personal_care",
       "comparisonGroup": "hair_body",
       "authoredBy": "Codex",
@@ -51111,7 +51147,7 @@
       "productNameZh": "Skjorte JJ REBEL（成人服饰鞋袜）",
       "descriptionZh": "Skjorte JJ REBEL（成人服饰鞋袜）。成人服饰或鞋袜；购买时请按尺码表确认尺寸，并查看材质、版型和洗涤说明。",
       "originalName": "Skjorte JJ REBEL",
-      "originalDescription": "E.  M-2XL.",
+      "originalDescription": "F. M-2XL.",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult",
       "authoredBy": "Codex",
@@ -51477,7 +51513,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -52620,8 +52656,8 @@
       }
     },
     "v1|solbriller til born|clothing_children": {
-      "productNameZh": "Solbriller til børn（成人服饰鞋袜）",
-      "descriptionZh": "Solbriller til børn（成人服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
+      "productNameZh": "Solbriller til børn（儿童服饰鞋袜）",
+      "descriptionZh": "Solbriller til børn（儿童服饰鞋袜）。儿童服饰或鞋袜；购买时请确认年龄段、尺码、材质和洗涤说明。",
       "originalName": "Solbriller til børn",
       "originalDescription": "G. Flere varianter.",
       "categoryId": "clothing",
@@ -52629,12 +52665,12 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:36:17.362Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
         "offerImageReviewed": false,
-        "imageUrl": null
+        "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FH4X1Lcfh%2Fp-77.webp&w=1000&x1r=0.03&x2r=0.308&y1r=0.44&y2r=0.632&s=c26ea1701df794df755c56c83282aaa3"
       }
     },
     "v1|solbriller til dame eller herre|clothing_adult": {
@@ -53295,7 +53331,7 @@
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "descriptionSpecVersion": "zh-product-v4",
-      "reviewedAt": "2026-07-22T12:49:23.948Z",
+      "reviewedAt": "2026-07-22T13:05:43.182Z",
       "evidence": {
         "originalNameReviewed": true,
         "originalDescriptionReviewed": true,
@@ -53415,7 +53451,7 @@
       "productNameZh": "Spiloppe halvhøj seng（其他家居用品）",
       "descriptionZh": "Spiloppe halvhøj seng（其他家居用品）。其他家居用品；请按原名和包装确认具体用途、尺寸、材质及使用安全说明。",
       "originalName": "Spiloppe halvhøj seng",
-      "originalDescription": "70 x 160 cm. Inkl. stige og forhæng. Normalpris 5000.- SPAR 2750.-",
+      "originalDescription": "70 x 160 cm. Inkl. stige og forhæng. Normalpris 5000.- SPAR 2750.- Bestil i butikken eller på Bilka.dk Plus evt. fragt SPAR OP TIL 55% på børne- og juniorsenge* Fredag d. 17/7 - torsdag d. 30/7 *Gælder ikke Spiloppe juniorseng 70x160, Spiloppe tremmesenge og hørmadras samt i forvejen nedsatte varer",
       "categoryId": "home_kitchen",
       "comparisonGroup": "home_other",
       "authoredBy": "Codex",
@@ -54333,7 +54369,7 @@
       "productNameZh": "清洁用品",
       "descriptionZh": "清洁用品。家庭清洁用品，用于洗衣、洗碗、卫生间或台面清洁；不是食品，使用时按包装说明稀释或佩戴手套。",
       "originalName": "Støvsugerposer",
-      "originalDescription": "4 stk. pr. pk. Passer til Electrolux, Philips, Miele, Nilfisk, Bosch, Siemens m.fl. . Frit valg. 2 pakker 2 pakker",
+      "originalDescription": "4 stk. pr. pk. Passer til Electrolux, Philips, Miele, Nilfisk, Bosch, Siemens m.fl. . Frit valg. 2 pk.",
       "categoryId": "household_cleaning",
       "comparisonGroup": "cleaning",
       "authoredBy": "Codex",
@@ -55161,7 +55197,7 @@
       "productNameZh": "Sweatsæt（成人服饰鞋袜）",
       "descriptionZh": "Sweatsæt（成人服饰鞋袜）。成人服饰或鞋袜；购买时请按尺码表确认尺寸，并查看材质、版型和洗涤说明。",
       "originalName": "Sweatsæt",
-      "originalDescription": "I. 98-104 cm. PR. SÆT",
+      "originalDescription": "E. 98-152 cm. PR. SÆT",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult",
       "authoredBy": "Codex",
@@ -56025,7 +56061,7 @@
       "productNameZh": "Termosæt（其他促销商品）",
       "descriptionZh": "Termosæt（其他促销商品）。其他促销商品；请按原始商品名、图片和包装确认具体用途、规格、适用人群及安全说明。",
       "originalName": "Termosæt",
-      "originalDescription": "A 80-140 cm.",
+      "originalDescription": "E 80-140 cm.",
       "categoryId": "other_offers",
       "comparisonGroup": "other_offer",
       "authoredBy": "Codex",
@@ -58023,7 +58059,7 @@
       "productNameZh": "Twinmarkers（文具用品）",
       "descriptionZh": "Twinmarkers（文具用品）。文具、绘画或办公用品；购买时请确认数量、尺寸、笔尖或纸张规格等信息。",
       "originalName": "Twinmarkers",
-      "originalDescription": "dan•pen 240 stk. alkoholbaserede twinmarkers eller 240 stk. børnevenlige vandbaserede twinmarkers, med brush og bullet spids. Onsdag d. 1/7 - fredag d. 31/7. Normalpris 599.- Frit valg",
+      "originalDescription": "dan pen 240 stk. alkoholbaserede twinmarkers eller 240 stk. børnevenlige vandbaserede twinmarkers, med brush og bullet spids. Onsdag d. 1/7 - fredag d. 31/7. Normalpris 599.- Frit valg",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_stationery",
       "authoredBy": "Codex",
@@ -61082,8 +61118,8 @@
     "v1|xtra ispinde eller isvafler|ice_cream": {
       "productNameZh": "冰淇淋或冰品",
       "descriptionZh": "冰淇淋或冰品。冰淇淋、冰棒或甜筒，开袋即食；比较时应同时看容量或支数。",
-      "originalName": "Xtra! ispinde eller isvafler",
-      "originalDescription": "Dybfrost. 300-360 ml. Literpris maks. 33,33. Frit valg. 1 pakke.",
+      "originalName": "Xtra! ispinde eller isvafler*",
+      "originalDescription": "Dybfrost. 300-360 ml. Literpris maks. 33,33. Frit valg. 1 pakke",
       "categoryId": "ice_cream",
       "comparisonGroup": "ice_cream",
       "authoredBy": "Codex",
@@ -61226,7 +61262,7 @@
     "v1|xtra tun eller bonduelle majs|mixed_grocery_offer": {
       "productNameZh": "金枪鱼罐头或鱼排",
       "descriptionZh": "金枪鱼罐头或鱼排。这是跨鱼罐头、蔬菜罐头或酱料等类别的任选促销。商品主体不同。",
-      "originalName": "Xtra! tun eller Bonduelle majs",
+      "originalName": "Xtra! tun eller Bonduelle majs*",
       "originalDescription": "56-140 g. Kg-pris maks. 107,14. Frit valg. 1 stk.",
       "categoryId": "pantry",
       "comparisonGroup": "mixed_grocery_offer",

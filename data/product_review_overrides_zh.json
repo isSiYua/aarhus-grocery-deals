@@ -2,6 +2,20 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
   "entries": {
+    "aktivitets legetoj": {
+      "categoryId": "leisure",
+      "comparisonGroup": "leisure_toys",
+      "productNameZh": "Lamaze 婴儿活动摇铃玩具任选",
+      "descriptionZh": "Lamaze 婴儿活动玩具或摇铃，多种款式任选，1 件装。适合通过抓握、摇动和触摸进行感官启蒙；购买前请按包装确认建议月龄、清洁方法以及小零件等安全提示。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "aktivitetslegetoj": {
+      "categoryId": "leisure",
+      "comparisonGroup": "leisure_toys",
+      "productNameZh": "Lamaze 婴儿活动摇铃玩具任选",
+      "descriptionZh": "Lamaze 婴儿活动玩具或摇铃，多种款式任选，1 件装。适合通过抓握、摇动和触摸进行感官启蒙；购买前请按包装确认建议月龄、清洁方法以及小零件等安全提示。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
     "heinz tomatketchup eller mayonnaise squeeze": {
       "categoryId": "sauces_condiments",
       "comparisonGroup": "sauce_mixed_offer",

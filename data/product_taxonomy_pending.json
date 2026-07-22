@@ -1,18 +1,7 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-22T13:00:19.492Z",
-  "count": 1,
-  "items": [
-    {
-      "descriptionKey": "v1|aktivitets legetoj|leisure_toys",
-      "originalName": "Aktivitets legetøj*",
-      "originalDescription": "Lamaze baby rangler. Vælg mellem flere varianter. Frit valg. 1 stk.",
-      "currentCategoryId": "leisure",
-      "currentComparisonGroup": "leisure_toys",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "kvickly",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fuw0HW5Gt%2Fp-12.webp&w=1000&x1r=0.5&x2r=0.99&y1r=0.15&y2r=0.75&s=0da424e306c8772c8631480e846b8f52"
-    }
-  ]
+  "generatedAt": "2026-07-22T13:05:43.182Z",
+  "count": 0,
+  "items": []
 }

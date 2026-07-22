@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T12:52:58.175Z",
+  "updatedAt": "2026-07-22T13:08:35.648Z",
   "entries": {
     "v1|1 enkelt bitter grant s whisky brondums snaps bacardi rom ramazzotti limoncello eller raastoff shots|alcohol_spirits": {
       "status": "active",
@@ -940,11 +940,23 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T12:36:17.362Z"
     },
+    "v1|aktivitets legetoj|leisure_toys": {
+      "status": "active",
+      "categoryId": "leisure",
+      "comparisonGroup": "leisure_toys",
+      "labelZh": "Lamaze 婴儿活动摇铃玩具任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Aktivitets legetøj*",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
+    },
     "v1|aktivitetslegetoj|leisure_toys": {
       "status": "active",
       "categoryId": "leisure",
       "comparisonGroup": "leisure_toys",
-      "labelZh": "Aktivitetslegetøj*（玩具或游戏）",
+      "labelZh": "Lamaze 婴儿活动摇铃玩具任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Aktivitetslegetøj*",
       "authoredBy": "Codex",
@@ -1198,7 +1210,7 @@
       "comparisonGroup": "white_fish",
       "labelZh": "金枪鱼罐头或鱼排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Amanda yellowfin tun",
+      "originalName": "Amanda yellowfin tun*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -2864,13 +2876,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "Ballerina til børn（成人服饰鞋袜）",
+      "labelZh": "Ballerina til børn（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Ballerina til børn",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|balthazar|alcohol_wine": {
       "status": "active",
@@ -10628,13 +10640,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "ESMARA KIDS Boxershorts（成人服饰鞋袜）",
+      "labelZh": "ESMARA KIDS Boxershorts（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA KIDS Boxershorts",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|esmara kids croptop|clothing_children": {
       "status": "active",
@@ -10652,13 +10664,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "ESMARA KIDS Hipsters（成人服饰鞋袜）",
+      "labelZh": "ESMARA KIDS Hipsters（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ESMARA KIDS Hipsters",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|esmara kids leggings|clothing_children": {
       "status": "active",
@@ -14804,6 +14816,18 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_adult",
+      "labelZh": "Gummistøvler（成人服饰鞋袜）",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Gummistøvler",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T12:48:00.194Z"
+    },
+    "v1|gummistovler|clothing_children": {
+      "status": "active",
+      "categoryId": "clothing",
+      "comparisonGroup": "clothing_children",
       "labelZh": "Gummistøvler（成人服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Gummistøvler",
@@ -19352,13 +19376,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "Korte gummistøvler til børn（成人服饰鞋袜）",
+      "labelZh": "Korte gummistøvler til børn（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Korte gummistøvler til børn",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:48:00.194Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|koskenkorva climate action vodka|alcohol_spirits": {
       "status": "active",
@@ -21512,13 +21536,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "LUPILU Boxershorts（成人服饰鞋袜）",
+      "labelZh": "LUPILU Boxershorts（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Boxershorts",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|lupilu buksebleer|diapers": {
       "status": "active",
@@ -21548,13 +21572,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "LUPILU Hipsters（成人服饰鞋袜）",
+      "labelZh": "LUPILU Hipsters（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Hipsters",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|lupilu joggingbukser|clothing_children": {
       "status": "active",
@@ -21692,25 +21716,25 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "LUPILU Strikcardigan eller -busker（成人服饰鞋袜）",
+      "labelZh": "LUPILU Strikcardigan eller -busker（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Strikcardigan eller -busker",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|lupilu strikcardigan|clothing_children": {
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "LUPILU Strikcardigan（成人服饰鞋袜）",
+      "labelZh": "LUPILU Strikcardigan（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU Strikcardigan",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|lupilu sweattroje eller bukser|clothing_children": {
       "status": "active",
@@ -21728,13 +21752,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "LUPILU T-shirt（成人服饰鞋袜）",
+      "labelZh": "LUPILU T-shirt（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "LUPILU T-shirt",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|lupilu trusser|clothing_children": {
       "status": "active",
@@ -28750,7 +28774,7 @@
       "comparisonGroup": "canned_tomatoes",
       "labelZh": "番茄罐头",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Pomi tomatkonserves",
+      "originalName": "Pomi tomatkonserves*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -35072,13 +35096,13 @@
       "status": "active",
       "categoryId": "clothing",
       "comparisonGroup": "clothing_children",
-      "labelZh": "Solbriller til børn（成人服饰鞋袜）",
+      "labelZh": "Solbriller til børn（儿童服饰鞋袜）",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Solbriller til børn",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T12:36:17.362Z"
+      "reviewedAt": "2026-07-22T13:05:43.182Z"
     },
     "v1|solbriller til dame eller herre|clothing_adult": {
       "status": "active",
@@ -40702,7 +40726,7 @@
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Xtra! ispinde eller isvafler",
+      "originalName": "Xtra! ispinde eller isvafler*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -40798,7 +40822,7 @@
       "comparisonGroup": "mixed_grocery_offer",
       "labelZh": "金枪鱼罐头或鱼排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Xtra! tun eller Bonduelle majs",
+      "originalName": "Xtra! tun eller Bonduelle majs*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
