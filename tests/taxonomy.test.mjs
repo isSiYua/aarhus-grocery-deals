@@ -456,6 +456,7 @@ test('splits overloaded parent categories into practical shopping aisles', () =>
   assert.equal(classifyOffer({ heading:'Marabou chokolade' }).categoryId, 'chocolate');
   assert.equal(classifyOffer({ heading:'Oreo cookies' }).categoryId, 'biscuits_cakes');
   assert.equal(classifyOffer({ heading:'Bacon i skiver' }).categoryId, 'bacon');
+  assert.deepEqual(classifyOffer({ heading:'Florence sofa med chaiselong' }), { categoryId:'home_furniture', comparisonGroup:'home_furniture' });
 });
 
 test('splits crowded wine offers by actual wine type', () => {

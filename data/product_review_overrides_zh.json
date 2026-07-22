@@ -1548,7 +1548,111 @@
       "comparisonGroup": "pork_mixed_offer",
       "productNameZh": "Velsmag Medister 猪肉香肠或 8–12% 脂肪猪肉末任选",
       "descriptionZh": "可选 medister 丹麦粗猪肉香肠，或脂肪含量 8–12% 的猪肉末，500 克。香肠和肉末的成型、调味与用途不同，均需彻底煮熟。"
+    },
+    "v1|barebells bars afhentning torsdag og fredag|chocolate": {
+      "categoryId": "personal_health",
+      "comparisonGroup": "supplement_sports_snack",
+      "productNameZh": "Barebells 无添加糖高蛋白棒整箱任选",
+      "descriptionZh": "Barebells 高蛋白棒整箱销售，每箱 12 根、每根 55 克，每根标示含 17–20 克蛋白质且无添加糖。口味在到店取货时按现场库存选择，不能混装或预留；适合作为便携蛋白零食，但不能替代完整正餐。本促销仅周四或周五取货。",
+      "imageReviewed": false,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|frost marked|ready_meal": {
+      "categoryId": "prepared_meat_mixed",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "Salling 冷冻 Gyros 调味烤肉或 Köfte 肉饼任选",
+      "descriptionZh": "本期图片显示 Salling Gyros 和 Köfte 两种冷冻调味肉制品。Gyros 是带香料的烤肉片或肉条，适合煎热后夹皮塔饼；Köfte 是中东或土耳其风味香料肉饼，适合煎烤后配沙拉、米饭或饼。两款肉形态不同，均需彻底加热。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|santa maria asiatisk marked|ready_meal|variant-448ddea2591e": {
+      "categoryId": "pantry",
+      "comparisonGroup": "mixed_grocery_offer",
+      "productNameZh": "Santa Maria 包子、蛋面、椰奶或亚洲调味酱任选",
+      "descriptionZh": "本期图片中的 Santa Maria 亚洲食品包括蒸包用 Bao 面饼、蛋面、椰奶，以及照烧酱、蚝油、甜辣酱、鱼露和 Sambal Oelek 辣椒酱。面饼和蛋面是主食材料，椰奶用于咖喱，瓶罐调料分别提供甜咸、鲜味、甜辣、咸鲜或辣味；它们不是同一道成品餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|to go marked|ready_meal": {
+      "categoryId": "other_offers",
+      "comparisonGroup": "other_offer",
+      "productNameZh": "Dr. Oetker 柠檬奶酪甜点或 Latte Macchiato 冰咖啡任选",
+      "descriptionZh": "图片中的 To-go 任选是两类可直接享用的商品：Dr. Oetker Citron Fromage 为柠檬口味杯装奶酪慕斯甜点，口感轻盈、酸甜，用勺食用；Coffee & Milk Latte Macchiato 是牛奶比例较高、咖啡味柔和的即饮冰咖啡。一个是甜点、一个是饮料，不是方便主餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|toiletpapir 3 lags|paper_toilet": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
+      "productNameZh": "三层卫生纸 35 卷装",
+      "descriptionZh": "三层卫生纸大包装，共 35 卷，售价折算约每卷 1.57 丹麦克朗。适合家庭日常囤货；促销信息未提供每卷张数、纸张尺寸或是否带香味。本促销仅周四或周五到 Løvbjerg Trøjborg 取货。",
+      "imageReviewed": false,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|ferietekstiler nakkepude|home_textiles": {
+      "categoryId": "home_textiles_decor",
+      "comparisonGroup": "home_textiles",
+      "productNameZh": "儿童卡通 U 形旅行颈枕",
+      "descriptionZh": "这是儿童使用的 U 形旅行颈枕，图片展示粉色《汪汪队立大功》图案款，促销标注另有多种图案。乘车或乘飞机休息时可环绕颈部，给头颈提供侧向承托；它不是被子、普通睡眠枕芯或靠垫。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|ferietekstiler nakkepude|home_textiles|variant-a060474205f6": {
+      "categoryId": "home_textiles_decor",
+      "comparisonGroup": "home_textiles",
+      "productNameZh": "儿童卡通 U 形旅行颈枕",
+      "descriptionZh": "这是儿童使用的 U 形旅行颈枕，图片展示粉色《汪汪队立大功》图案款，促销标注另有多种图案。乘车或乘飞机休息时可环绕颈部，给头颈提供侧向承托；它不是被子、普通睡眠枕芯或靠垫。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|food collective familleret|ready_meal": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Food Collective 肉酱意面或番茄马斯卡彭鸡肉通心粉家庭餐",
+      "descriptionZh": "Food Collective 3–4 人份冷藏家庭餐二选一：Spaghetti Bolognese 是番茄肉酱意大利面；Penne Chicken Mascarpone & Tomato 是鸡肉、番茄与马斯卡彭奶酪酱通心粉，口感更奶油浓郁。整盒按包装用烤箱或微波炉加热后分食。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "toiletpapir 3 lags": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_toilet",
+      "productNameZh": "三层卫生纸 35 卷装",
+      "descriptionZh": "三层卫生纸大包装，共 35 卷，售价折算约每卷 1.57 丹麦克朗。适合家庭日常囤货；促销信息未提供每卷张数、纸张尺寸或是否带香味。本促销仅周四或周五到 Løvbjerg Trøjborg 取货。",
+      "imageReviewed": false,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|torsdagssmorrebrod|ready_meal": {
+      "categoryId": "ready_meals",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "周四现做丹麦开放式三明治任选",
+      "descriptionZh": "这是 Mad Cooperativet 柜台周四供应的丹麦 smørrebrød：以一片面包托住冷切肉、炸鱼、虾或其他配料，图片展示火腿蔬菜、炸鱼柠檬和虾等装饰丰富的款式。每份任选价相同，实际口味会因门店库存而不同，适合作为即食午餐或轻餐。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "v1|zendium|personal_oral_care": {
+      "categoryId": "personal_oral_beauty",
+      "comparisonGroup": "personal_oral_care",
+      "productNameZh": "Zendium 牙膏两支装",
+      "descriptionZh": "Zendium 日常牙膏多款任选，促销规格为 2 支、每支 100 毫升。图片展示 Classic 等使用天然酶配方的款式，用于早晚清洁牙齿和牙龈；具体口味、含氟量及适用年龄应以所选包装标示为准。",
+      "imageReviewed": true,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "florence sofa med chaiselong": {
+      "categoryId": "home_furniture",
+      "comparisonGroup": "home_furniture",
+      "productNameZh": "Florence 双人模块化贵妃沙发",
+      "descriptionZh": "Florence 双人模块化沙发带贵妃躺位，灰棕色，宽 210、高 80、纵深 145 厘米，另有款式可选。普通坐位之外带一段可伸腿半躺的长坐垫，适合小型客厅；下单前需核对贵妃位方向、入户通道和摆放尺寸。可在 Bilka 门店或官网订购，配送费可能另计。",
+      "imageReviewed": false,
+      "descriptionSpecVersion": "zh-product-v6"
+    },
+    "pepsi max faxe kondi royal classic eller faxe kondi booster": {
+      "categoryId": "other_offers",
+      "comparisonGroup": "other_offer",
+      "productNameZh": "Pepsi Max、Faxe Kondi 汽水、Royal Classic 啤酒或 Faxe Kondi Booster 能量饮料整箱任选",
+      "descriptionZh": "整箱任选：Pepsi Max 为无糖可乐；Faxe Kondi 为柠檬青柠味汽水；Royal Classic 为麦芽与焦糖风味较明显的丹麦啤酒；Faxe Kondi Booster 为含咖啡因能量饮料。汽水或啤酒为 20×330 毫升，Booster 为 8×500 毫升，另收容器押金；啤酒仅限成年人，能量饮料不适合儿童。",
+      "imageReviewed": false,
+      "descriptionSpecVersion": "zh-product-v6"
     }
   },
-  "updatedAt": "2026-07-22T05:32:32.000Z"
+  "updatedAt": "2026-07-22T17:43:00.000Z"
 }
