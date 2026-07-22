@@ -455,6 +455,29 @@ const DANISH_TITLES = [
   title(/deodorant/, '止汗除味剂'),
   title(/hudpleje|serum|ansigtscreme/, '面部护肤品'),
   title(/kosttilskud|mae?lkesyrebakterier/, '益生菌或营养补充剂'),
+  title(/cola|pepsi|fanta|sprite|sodavand/, '汽水或软饮'),
+  title(/juice|smoothie|nektar/, '果汁或果味饮料'),
+  title(/danskvand|mineralvand|kildevand/, '饮用水或气泡水'),
+  title(/energidrik|energy drink/, '能量饮料'),
+  title(/saft|ribena|opblanding/, '浓缩兑水饮料'),
+  title(/\bol\b|beer|carlsberg|tuborg|heineken|corona/, '啤酒'),
+  title(/vin|wine|prosecco|champagne|cava/, '葡萄酒或起泡酒'),
+  title(/vodka|whisky|rom\b|gin\b|likor|snaps/, '烈酒或利口酒'),
+  title(/cider|alcopop|ready to drink/, '苹果酒或即饮调制酒'),
+  title(/kattemad|kattefoder|godbidder.*kat/, '猫粮或猫零食'),
+  title(/hundemad|hundefoder|godbidder.*hund|strimler.*hund/, '狗粮或狗零食'),
+  title(/led.*paere|paere.*led/, 'LED 灯泡'),
+  title(/brodrister/, '烤面包机'),
+  title(/kaffemaskine/, '咖啡机'),
+  title(/gryde|kasserolle|stegepande/, '锅具'),
+  title(/skoreol|opbevaring|reol/, '家居收纳用品'),
+  title(/t shirt|troje|bukser|jakke/, '服装'),
+  title(/blomster|buket/, '鲜花或花束'),
+  title(/plante|potteplante/, '盆栽植物'),
+  title(/legetoj|bamser?|spil/, '玩具或游戏'),
+  title(/notesbog|kuglepen|blyant|kontorartikler/, '文具'),
+  title(/cigaret|tobak/, '烟草制品'),
+  title(/nikotin/, '尼古丁产品'),
 ];
 
 const GROUP_DEFAULTS = {
@@ -469,7 +492,24 @@ const GROUP_DEFAULTS = {
   apples: '苹果', pears: '梨', strawberries: '草莓', blueberries: '蓝莓', other_berries: '莓果', watermelon: '西瓜', melon: '甜瓜', grapes: '葡萄', apricots: '杏', plums: '李子', cherries: '樱桃', peaches_nectarines: '桃或油桃', mixed_stone_fruit: '多款核果任选', pineapple: '菠萝', mango: '芒果', avocado: '牛油果', bananas: '香蕉', prepared_fruit: '切配水果', mixed_fruit: '多款水果任选',
   bread: '面包', mixed_bakery: '多款烘焙食品任选', rice: '大米', pasta_noodles: '意面或面条', flour_baking: '面粉或饼皮', pizza_snacks: '披萨', dumplings: '冷冻饺子或春卷', ready_meal: '预制方便餐', plant_based_meat: '植物肉或素香肠', frozen_vegetables: '冷冻蔬菜', ice_cream: '冰淇淋或冰品', cereal: '早餐谷物', coffee_tea: '咖啡或茶', spreads_jam: '果酱、蜂蜜或抹酱', mixed_grocery_offer: '跨类别食品任选', canned: '罐头食品', sauces: '酱料', spices: '香料或调味料', oil_vinegar: '食用油或醋', oil_mixed_offer: '多种食用油任选', baking_ingredients: '烘焙原料', pickled_vegetables: '腌菜或橄榄', chips: '咸味零食', chocolate: '巧克力或糖果', biscuits: '饼干或蛋糕', nuts: '坚果', dried_fruit: '果干',
   paper: '纸品', cleaning: '清洁用品', trash_bags: '垃圾袋或保鲜袋', kitchen_consumables: '厨房耗材', diapers: '纸尿裤', baby_care: '婴儿护理用品', baby_food: '婴幼儿食品', hair_body: '个人洗护用品', sun_care: '防晒用品', hygiene: '卫生护理用品', supplements: '营养补充剂', zero_soda: '无糖可乐或雪碧',
+  drink_soda: '汽水或软饮', drink_juice: '果汁或果味饮料', drink_water: '饮用水或气泡水', drink_energy: '能量饮料', drink_sports: '运动饮料', drink_concentrate: '浓缩兑水饮料', drink_other: '其他饮料',
+  alcohol_beer: '啤酒', alcohol_wine: '葡萄酒或起泡酒', alcohol_spirits: '烈酒或利口酒', alcohol_cider_rtd: '苹果酒或即饮调制酒', alcohol_other: '其他酒类',
+  pet_cat: '猫粮或猫用品', pet_dog: '狗粮或狗用品', pet_other: '其他宠物用品', flower_bouquet: '鲜花或花束', plants: '盆栽或园艺植物',
+  home_appliances: '家用小电器', home_cookware: '锅具或厨房工具', home_storage: '家居收纳用品', home_decor: '家居装饰用品', home_other: '其他家居用品',
+  electronics_audio: '音频设备', electronics_computing: '数码产品或配件', electronics_lighting: '电子照明用品', electronics_other: '其他电子电器',
+  clothing_adult: '成人服饰鞋袜', clothing_children: '儿童服饰鞋袜', clothing_other: '其他服饰配件', leisure_toys: '玩具或游戏', leisure_stationery: '文具用品', leisure_books: '图书或杂志', leisure_other: '其他休闲用品',
+  tobacco_cigarettes: '烟草制品', tobacco_nicotine: '尼古丁产品', tobacco_other: '其他烟草相关商品', other_offer: '其他促销商品',
 };
+
+const ORIGINAL_NAME_FALLBACK_GROUPS = new Set([
+  'drink_soda', 'drink_juice', 'drink_water', 'drink_energy', 'drink_sports', 'drink_concentrate', 'drink_other',
+  'alcohol_beer', 'alcohol_wine', 'alcohol_spirits', 'alcohol_cider_rtd', 'alcohol_other',
+  'pet_cat', 'pet_dog', 'pet_other', 'flower_bouquet', 'plants',
+  'home_appliances', 'home_cookware', 'home_storage', 'home_decor', 'home_other',
+  'electronics_audio', 'electronics_computing', 'electronics_lighting', 'electronics_other',
+  'clothing_adult', 'clothing_children', 'clothing_other', 'leisure_toys', 'leisure_stationery', 'leisure_books', 'leisure_other',
+  'tobacco_cigarettes', 'tobacco_nicotine', 'tobacco_other', 'other_offer',
+]);
 
 const SPECIFIC_DESCRIPTIONS = [
   [/filet ala morbrad.*polser/, '这是调味猪里脊式肉排，或法兰克福、普斯塔等多种香肠任选。均属于调味肉制品，但形态和烹调时间不同，购买时按包装选择。'],
@@ -507,6 +547,7 @@ const SPECIFIC_DESCRIPTIONS = [
 export function danishProductNameZh(originalName, comparisonGroup) {
   const text = normalize(originalName);
   for (const [pattern, nameZh] of DANISH_PRODUCT_FORM_TITLES) if (pattern.test(text)) return nameZh;
+  if (ORIGINAL_NAME_FALLBACK_GROUPS.has(comparisonGroup)) return `${originalName}（${GROUP_DEFAULTS[comparisonGroup]}）`;
   for (const [pattern, nameZh] of DANISH_TITLES) if (pattern.test(text)) return nameZh;
   return GROUP_DEFAULTS[comparisonGroup] || '商品（请核对原名）';
 }

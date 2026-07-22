@@ -37,6 +37,18 @@ test('fetches dealer offers with the API maximum and follows offset pagination',
   ]);
 });
 
+test('returns the 1000 records exposed by Tjek instead of requesting forbidden offset 1000', async () => {
+  const calls = [];
+  const offers = await fetchDealerOffers('large-dealer', async (path, params) => {
+    calls.push({ path, params });
+    return Array.from({ length: 100 }, (_, index) => ({ id: `${params.offset + index}` }));
+  });
+
+  assert.equal(offers.length, 1000);
+  assert.equal(calls.length, 10);
+  assert.equal(calls.at(-1).params.offset, 900);
+});
+
 test('rejects an invalid offers response instead of looping', async () => {
   await assert.rejects(
     () => fetchDealerOffers('dealer-1', async () => ({ offers: [] })),

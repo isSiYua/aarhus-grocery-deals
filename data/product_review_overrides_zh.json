@@ -2,6 +2,125 @@
   "schemaVersion": 1,
   "purpose": "Repository-owned human-readable corrections that any compatible agent can reuse. Keys are normalized original product names.",
   "entries": {
+    "heinz tomatketchup eller mayonnaise squeeze": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "productNameZh": "Heinz 挤压瓶番茄酱或蛋黄酱任选",
+      "descriptionZh": "可选 Heinz 挤压瓶番茄酱或蛋黄酱。番茄酱适合薯条、热狗和汉堡，蛋黄酱适合三明治、沙拉和蘸食；购买时请按瓶身确认具体一种及容量。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "anglamark okologisk babymad paa glas": {
+      "categoryId": "baby",
+      "comparisonGroup": "baby_food",
+      "productNameZh": "Änglamark 有机瓶装婴儿辅食",
+      "descriptionZh": "Änglamark 有机瓶装婴儿辅食，玻璃瓶只是包装，不是厨具。购买时请按包装确认适用月龄、口味、净含量、加热方法和过敏原信息。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "k salat bearnaisesauce jensens kokken whisky eller favoritsauce": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "productNameZh": "K-Salat Béarnaise 酱或 Jensens Køkken 调味酱任选",
+      "descriptionZh": "可选 K-Salat Béarnaise 酱，或 Jensens Køkken 的威士忌风味酱、招牌调味酱。商品主体是佐餐酱料，可配牛排、烤肉或薯条，不是瓶装威士忌。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "hapsermenu": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "多人份小食拼盘菜单",
+      "descriptionZh": "需提前预订的多人份小食拼盘，每人包含鸡肉培根小汉堡、饺子和萨莫萨、咸派、鸡肉串、丹麦肉丸及鸡肉小食。页面所示至少订 6 人份，取餐时间与过敏原需向门店确认。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "kaempekob papir": {
+      "categoryId": "paper_products",
+      "comparisonGroup": "paper_mixed_offer",
+      "productNameZh": "大包装卫生纸或厨房纸任选",
+      "descriptionZh": "可选 24 卷三层卫生纸或 12 卷两层厨房纸。两者用途、层数和单卷长度不同，购买时请按实际需要和包装标示选择。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "klassisk brunch": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "经典多人份早午餐菜单",
+      "descriptionZh": "需提前预订的经典早午餐菜单，包含面包、炒蛋、培根、香肠、冷切肉、肝酱、奶酪、Skyr、水果和小煎饼等。页面所示至少订 6 人份，具体取餐与过敏原信息需向门店确认。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "menu to go med flaeskestegsburger": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "四人份脆皮烤猪肉汉堡食材包",
+      "descriptionZh": "供四人食用的 flæskestegsburger 食材包，包含汉堡面包、脆皮烤猪肉、腌黄瓜沙拉、腌红甘蓝和蛋黄酱。按门店说明组合并加热即可，不是单独售卖的生鲜猪肉。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "stor brunch": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "豪华多人份早午餐菜单",
+      "descriptionZh": "需提前预订的豪华早午餐菜单，包含多款面包、冷切肉、烟熏鱼酱、肝酱、炒蛋、培根、香肠、Skyr、水果、煎饼及奶酪拼盘。页面所示至少订 6 人份，过敏原与取餐时间需向门店确认。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "tapasmenu": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "多人份 Tapas 小食菜单",
+      "descriptionZh": "需提前预订的多人份 Tapas 菜单，包含法棍、青酱、鹰嘴豆泥、橄榄、咸派、鸡肉串、三文鱼酱、火腿、香肠、奶酪及水果等。页面所示至少订 6 人份，取餐和过敏原信息需向门店确认。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "beauvais tomatketchup eller tomatpure": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_mixed_offer",
+      "productNameZh": "Beauvais 番茄酱或番茄膏任选",
+      "descriptionZh": "可选 Beauvais 番茄酱或番茄膏。番茄酱可直接配薯条、热狗和汉堡，番茄膏味道更浓，适合炒菜、炖菜和调汤底；购买时请按包装确认具体一种。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "brunch": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Brunch 早午餐商品",
+      "descriptionZh": "促销原名只写 Brunch，表示早午餐相关的即食或方便餐商品。具体内容、是否需要加热以及过敏原信息需按门店标签和包装确认。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "grillbakke": {
+      "categoryId": "home_kitchen",
+      "comparisonGroup": "home_cookware",
+      "productNameZh": "烧烤托盘",
+      "descriptionZh": "用于烤架或烤箱的烧烤托盘，可承托肉类、蔬菜等食材。购买前请确认材质、尺寸、是否可重复使用以及适用温度。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "grillmix fra slagteren": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_mixed_meat",
+      "productNameZh": "肉铺烧烤肉类组合",
+      "descriptionZh": "肉铺提供的多款烧烤肉组合或任选，可能包含不同肉种、部位和调味方式。购买时请按柜台标签确认具体肉类，并彻底加热后食用。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "kikkoman ponzu": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_other",
+      "productNameZh": "Kikkoman 柑橘风味 Ponzu 酱油汁",
+      "descriptionZh": "Kikkoman Ponzu 是带柑橘酸香的日式酱油调味汁，可用于蘸食、凉拌、腌肉或给鱼肉调味。咸度和过敏原信息以瓶身为准。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "lun lordag": {
+      "categoryId": "other_offers",
+      "comparisonGroup": "other_offer",
+      "productNameZh": "Lun lørdag 周六热食促销",
+      "descriptionZh": "促销原名为 Lun lørdag，通常指门店周六供应的热食或熟食活动。具体菜品、份量、供应时间和过敏原信息需按当期门店标签确认。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "sandwichstykke": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "三明治面包",
+      "descriptionZh": "适合横切后制作三明治的单个面包，可搭配冷切肉、奶酪、鸡蛋或蔬菜。具体大小、谷物种类和是否需要复烤以门店标签为准。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
+    "tulip slow cooked": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
+      "productNameZh": "Tulip 慢煮猪肉制品",
+      "descriptionZh": "Tulip 慢煮猪肉制品，肉类已经调味并经过慢煮处理，通常只需按包装说明充分复热即可食用；具体部位、口味和重量以包装为准。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
     "cloetta bars": {
       "categoryId": "candy_chocolate",
       "comparisonGroup": "chocolate",
@@ -262,9 +381,10 @@
       "descriptionZh": "可选含润肤成分的便携手帕纸或日常面巾纸，用于擤鼻涕和擦脸。应按总张数与包装形式比较，不属于餐巾纸。"
     },
     "ribena solbaer": {
-      "status": "excluded",
-      "reasonZh": "黑加仑浓缩果汁饮料不在当前饮料收录范围内，不能作为新鲜莓果展示。",
-      "descriptionZh": "",
+      "categoryId": "drinks",
+      "comparisonGroup": "drink_concentrate",
+      "productNameZh": "Ribena 黑加仑浓缩果汁饮料",
+      "descriptionZh": "Ribena 黑加仑浓缩果汁饮料，需要按瓶身比例兑水后饮用，不是新鲜黑加仑。购买时可查看浓缩液容量、建议稀释比例和含糖量。",
       "descriptionSpecVersion": "zh-product-v4"
     },
     "andoni glutenfri pizza salami": {

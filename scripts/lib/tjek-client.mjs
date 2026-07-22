@@ -44,16 +44,20 @@ export async function listDanishDealers(fetchPage = fetchJson) {
 
 export async function fetchDealerOffers(dealerId, fetchPage = fetchJson) {
   const limit = 100;
+  // Tjek rejects offset=1000 with PAGINATION_MAX_REACHED. Large dealers such
+  // as Bilka can fill all ten allowed pages, so return the 1000 available
+  // records instead of discarding the entire dealer refresh on the 11th call.
+  const maximumOffsetExclusive = 1_000;
   const offers = [];
 
-  for (let offset = 0; offset < 10_000; offset += limit) {
+  for (let offset = 0; offset < maximumOffsetExclusive; offset += limit) {
     const page = await fetchPage('/offers', { dealer_id: dealerId, limit, offset });
     if (!Array.isArray(page)) throw new Error('Tjek offers response must be an array');
     offers.push(...page);
     if (page.length < limit) return offers;
   }
 
-  throw new Error('Tjek offers pagination exceeded the safety limit');
+  return offers;
 }
 
 export async function fetchDealerStores(dealerId, options = {}, fetchPage = fetchJson) {

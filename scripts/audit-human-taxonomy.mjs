@@ -17,6 +17,12 @@ if (actualLeadingCategories.join('|') !== expectedLeadingCategories.join('|')) {
   errors.push(`基础品类顺序不正确：${actualLeadingCategories.join(', ')}`);
 }
 
+const expectedTrailingCategories = ['drinks', 'alcohol', 'pet', 'flowers_plants', 'home_kitchen', 'electronics', 'clothing', 'leisure', 'tobacco_nicotine', 'other_offers'];
+const actualTrailingCategories = aarhus.categories.slice(-expectedTrailingCategories.length).map(category => category.id);
+if (actualTrailingCategories.join('|') !== expectedTrailingCategories.join('|')) {
+  errors.push(`低频品类顺序不正确：${actualTrailingCategories.join(', ')}`);
+}
+
 for (const offer of aarhus.offers) {
   const name = normalizedText(`${offer.originalName} ${offer.originalDescription || ''}`);
   const group = AARHUS_COMPARISON_GROUPS[offer.comparisonGroup];
@@ -49,7 +55,9 @@ for (const offer of aarhus.offers) {
   if (/fiskefars/.test(name) && offer.comparisonGroup !== 'fish_mince') fail(offer, '鱼肉糜误归入整片鱼类');
   if (/salatbowls|hvidkaalssalat/.test(name) && offer.comparisonGroup !== 'prepared_salad') fail(offer, '预制沙拉分类错误');
   if (/melonmix|frugtmix|ananas i skiver/.test(name) && offer.comparisonGroup !== 'prepared_fruit') fail(offer, '切配水果分类错误');
-  if (/ribena/.test(name)) fail(offer, '浓缩果汁饮料误作新鲜水果发布');
+  if (/ribena/.test(name) && (offer.categoryId !== 'drinks' || offer.comparisonGroup !== 'drink_concentrate')) {
+    fail(offer, 'Ribena 浓缩果汁饮料分类错误');
+  }
   if (/vaadservietter|wet wipes/.test(name) && offer.comparisonGroup !== 'paper_wet_wipes') fail(offer, '湿巾与干纸品混类');
   if (/lommeletter|ansigtsservietter|facial tissue/.test(name) && offer.comparisonGroup !== 'paper_facial') fail(offer, '手帕纸或面巾纸分类错误');
   if (/tomatketchup/.test(name) && !/番茄酱/.test(offer.productNameZh)) fail(offer, '番茄酱中文名称不清楚');

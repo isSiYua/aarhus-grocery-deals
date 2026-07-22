@@ -24,7 +24,7 @@ for (const [index, offer] of data.offers.entries()) {
   if (!storeIds.has(offer.storeId)) throw new Error(`Unknown store ${offer.storeId}`);
   if (!categoryIds.has(offer.categoryId)) throw new Error(`Unknown category ${offer.categoryId}`);
   if (!data.comparisonGroups[offer.comparisonGroup]) throw new Error(`Unknown comparison group ${offer.comparisonGroup}`);
-  if (offer.categoryId === 'drinks' && !/coca[- ]?cola zero|coke zero|sprite zero/i.test(offer.originalName)) throw new Error(`Disallowed drink: ${offer.originalName}`);
+  if (offer.categoryId === 'drinks' && !/^(?:zero_soda|drink_)/.test(offer.comparisonGroup)) throw new Error(`Invalid drink group: ${offer.originalName}`);
   if (offer.descriptionSource !== 'codex_cache') throw new Error(`Published Aarhus description is not individually reviewed: ${offer.canonicalKey}`);
   const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
   const cachedDescription = descriptionCache.entries?.[offer.descriptionKey] || descriptionCache.entries?.[canonicalDescriptionKey];

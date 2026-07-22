@@ -17,7 +17,7 @@ test('fixed Codex taxonomy overrides the fallback without changing stable identi
     },
   };
   assert.deepEqual(resolveProductTaxonomy('v1|citronella lys|fruit_other', { categoryId: 'fruit', comparisonGroup: 'fruit_other' }, taxonomy), {
-    categoryId: 'household_paper',
+    categoryId: 'home_kitchen',
     comparisonGroup: 'home_goods',
     taxonomySource: 'codex_taxonomy',
     taxonomyReviewStatus: 'reviewed',

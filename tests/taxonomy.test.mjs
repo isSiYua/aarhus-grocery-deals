@@ -1,11 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { explainInChinese } from '../scripts/lib/explain-zh.mjs';
-import { AARHUS_COMPARISON_GROUPS, classifyOffer, refineAarhusComparisonGroup } from '../scripts/lib/taxonomy.mjs';
+import { AARHUS_CATEGORIES, AARHUS_COMPARISON_GROUPS, classifyOffer, refineAarhusComparisonGroup } from '../scripts/lib/taxonomy.mjs';
 
-test('keeps Coca-Cola Zero but excludes ordinary soda', () => {
-  assert.equal(classifyOffer({ heading:'Coca-Cola Zero 6 x 1,5 L' }).categoryId, 'drinks');
-  assert.equal(classifyOffer({ heading:'Pepsi Max 1,5 L' }), null);
+test('places lower-priority flyer categories after everyday shopping categories', () => {
+  assert.deepEqual(AARHUS_CATEGORIES.slice(-10).map(category => category.id), [
+    'drinks', 'alcohol', 'pet', 'flowers_plants', 'home_kitchen',
+    'electronics', 'clothing', 'leisure', 'tobacco_nicotine', 'other_offers',
+  ]);
+});
+
+test('keeps both zero-sugar and ordinary soda', () => {
+  assert.deepEqual(classifyOffer({ heading:'Coca-Cola Zero 6 x 1,5 L' }), { categoryId:'drinks', comparisonGroup:'zero_soda' });
+  assert.deepEqual(classifyOffer({ heading:'Pepsi Max 1,5 L' }), { categoryId:'drinks', comparisonGroup:'drink_soda' });
 });
 
 test('groups comparable chicken thighs', () => {
@@ -45,7 +52,7 @@ test('keeps clearly marinated or cooked pork, beef, and lamb out of fresh meat a
 
 test('uses product form before incidental meat, fish, fruit, and paper words', () => {
   assert.deepEqual(classifyOffer({ heading:'REMA 1000 Fiskefars' }), { categoryId:'seafood', comparisonGroup:'fish_mince' });
-  assert.equal(classifyOffer({ heading:'Ribena solbær' }), null);
+  assert.deepEqual(classifyOffer({ heading:'Ribena solbær' }), { categoryId:'drinks', comparisonGroup:'drink_concentrate' });
   assert.deepEqual(classifyOffer({ heading:'LUPILU Vådservietter' }), { categoryId:'paper_products', comparisonGroup:'paper_wet_wipes' });
   assert.deepEqual(classifyOffer({ heading:'REMA 1000 Lommeletter eller ansigtsservietter' }), { categoryId:'paper_products', comparisonGroup:'paper_facial' });
   assert.equal(classifyOffer({ heading:'Hatting Burgerboller eller hotdogbrød' }).categoryId, 'bread_bakery');
@@ -105,22 +112,25 @@ test('only actual mushrooms enter the mushroom comparison group', () => {
   assert.notEqual(classifyOffer({ heading:'Husholdningsmarked med rengøringssvampe og kost' })?.comparisonGroup, 'mushrooms');
 });
 
-test('does not treat package units as proof that an item is food', () => {
-  assert.equal(classifyOffer({ heading:'Royal eller Heineken øl 6 x 33 cl' }), null);
-  assert.equal(classifyOffer({ heading:'Capri-Sun 10 x 20 cl' }), null);
-  assert.equal(classifyOffer({ heading:'T-shirt 2 stk.' }), null);
-  assert.equal(classifyOffer({ heading:'Ukendt tilbud 500 g' }), null);
+test('classifies non-food and formerly excluded flyer products', () => {
+  assert.deepEqual(classifyOffer({ heading:'Royal eller Heineken øl 6 x 33 cl' }), { categoryId:'alcohol', comparisonGroup:'alcohol_beer' });
+  assert.deepEqual(classifyOffer({ heading:'Capri-Sun 10 x 20 cl' }), { categoryId:'drinks', comparisonGroup:'drink_other' });
+  assert.deepEqual(classifyOffer({ heading:'T-shirt 2 stk.' }), { categoryId:'clothing', comparisonGroup:'clothing_adult' });
+  assert.deepEqual(classifyOffer({ heading:'Ukendt tilbud 500 g' }), { categoryId:'other_offers', comparisonGroup:'other_offer' });
 });
 
-test('filters durable and pet products before incidental grocery words', () => {
-  for (const heading of [
-    'LED pære classic 60W E27 Warm Glow',
-    'PHILIPS Brødrister',
-    'LIVARNO Skoreol',
-    'SILVERCREST Gryde, kasserolle eller mælkegryde af stål',
-    'Godbidder t. kat m. laks',
-    'Andekødsstrimler t. hund eller Kyllingestrimler',
-  ]) assert.equal(classifyOffer({ heading, description: '1 stk' }), null, heading);
+test('classifies durable and pet products before incidental grocery words', () => {
+  const expected = new Map([
+    ['LED pære classic 60W E27 Warm Glow', ['electronics', 'electronics_lighting']],
+    ['PHILIPS Brødrister', ['home_kitchen', 'home_appliances']],
+    ['LIVARNO Skoreol', ['home_kitchen', 'home_storage']],
+    ['SILVERCREST Gryde, kasserolle eller mælkegryde af stål', ['home_kitchen', 'home_cookware']],
+    ['Godbidder t. kat m. laks', ['pet', 'pet_cat']],
+    ['Andekødsstrimler t. hund eller Kyllingestrimler', ['pet', 'pet_dog']],
+  ]);
+  for (const [heading, [categoryId, comparisonGroup]] of expected) {
+    assert.deepEqual(classifyOffer({ heading, description: '1 stk' }), { categoryId, comparisonGroup }, heading);
+  }
 });
 
 test('handles newly reviewed Wolt and mixed-choice product identities before ingredients', () => {
@@ -141,7 +151,7 @@ test('handles newly reviewed Wolt and mixed-choice product identities before ing
   assert.deepEqual(classifyOffer({ heading: 'OMHU CULOTTE AF FRILANDSLAMMEKØD', description: 'Med eller uden marinade af hvidløg og rosmarin' }), { categoryId: 'prepared_meat', comparisonGroup: 'prepared_mixed_meat' });
   assert.deepEqual(classifyOffer({ heading: 'Godt papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
   assert.deepEqual(classifyOffer({ heading: 'Lambi Classic papir' }), { categoryId: 'paper_products', comparisonGroup: 'paper_mixed_offer' });
-  assert.equal(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), null);
+  assert.deepEqual(classifyOffer({ heading: 'Danskvand m. elektrolytter & ægte frugt eller', description: '330 ml' }), { categoryId: 'drinks', comparisonGroup: 'drink_water' });
 });
 
 test('splits breakfast and real pantry goods into specific groups', () => {
@@ -170,13 +180,13 @@ test('product form wins over ingredient and flavour words', () => {
   assert.equal(classifyOffer({ heading:'Pizzamel 1 kg' }).comparisonGroup, 'flour_baking');
   assert.equal(classifyOffer({ heading:'Saltede karamelvafler' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Chili chips' }).comparisonGroup, 'chips');
-  assert.equal(classifyOffer({ heading:'Acer bærbar skærm' }), null);
-  assert.equal(classifyOffer({ heading:'Prosonic soundbar' }), null);
+  assert.deepEqual(classifyOffer({ heading:'Acer bærbar skærm' }), { categoryId:'electronics', comparisonGroup:'electronics_computing' });
+  assert.deepEqual(classifyOffer({ heading:'Prosonic soundbar' }), { categoryId:'electronics', comparisonGroup:'electronics_audio' });
 });
 
 test('uses product identity rather than flavour words or brand fragments', () => {
-  assert.equal(classifyOffer({ heading:'AEG Ovn' }), null);
-  assert.equal(classifyOffer({ heading:'AEG Vaskemaskine' }), null);
+  assert.deepEqual(classifyOffer({ heading:'AEG Ovn' }), { categoryId:'home_kitchen', comparisonGroup:'home_appliances' });
+  assert.deepEqual(classifyOffer({ heading:'AEG Vaskemaskine' }), { categoryId:'home_kitchen', comparisonGroup:'home_appliances' });
   assert.equal(classifyOffer({ heading:'Grøn honningmelon Piel de Sapo' }).comparisonGroup, 'melon');
   assert.equal(classifyOffer({ heading:'BUTCHER S Oksesteak med peberkant' }).comparisonGroup, 'prepared_beef_marinated');
   assert.equal(classifyOffer({ heading:'Kyllingepopcorn' }).comparisonGroup, 'prepared_chicken_breaded');
@@ -210,7 +220,7 @@ test('splits actual species while keeping presentation variants together', () =>
 
 test('handles Danish compound words without classifying incidental fragments', () => {
   assert.equal(classifyOffer({ heading:'Lambi Premium toiletpapir' }).comparisonGroup, 'paper_toilet');
-  assert.equal(classifyOffer({ heading:'Wilfa kaffemaskine' }), null);
+  assert.deepEqual(classifyOffer({ heading:'Wilfa kaffemaskine' }), { categoryId:'home_kitchen', comparisonGroup:'home_appliances' });
   assert.equal(classifyOffer({ heading:'Træstamme' }).comparisonGroup, 'biscuits');
   assert.equal(classifyOffer({ heading:'Merrild eller Lavazza helbønner' }).comparisonGroup, 'coffee_tea');
   assert.equal(classifyOffer({ heading:'REMA 1000 Vannameirejer eller tunsteak' }).comparisonGroup, 'seafood_mixed_offer');
