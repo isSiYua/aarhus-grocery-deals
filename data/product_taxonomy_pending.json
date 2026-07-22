@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-21T23:44:41.687Z",
+  "generatedAt": "2026-07-22T00:26:52.402Z",
   "count": 82,
   "items": [
     {
@@ -12,7 +12,7 @@
       "currentComparisonGroup": "cleaning",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcf5bdb60b78180c10c1cfd30eace97ac&w=1000&s=63909042f94de06adc412bfe8474ce6d"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9aa36b86b002c05aaca14aeb08e625ee%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb2422feb6d95ea2acea7a278d2ddb119%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4494589ce2039747342a0d7445cc3d31%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83514f0027cba5f1be68ed5b627cdee7%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9eb2627d3e7317705d1fbc12d041ad00&w=1000&s=7d18949f8cbabefb01607304ae30c6a7"
     },
     {
       "descriptionKey": "v1|amanda yellowfin tun|white_fish",
@@ -72,7 +72,7 @@
       "currentComparisonGroup": "bread",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1c8ce58d78f6f4a43822cb0d4e1823ed&w=1000&s=406fc0ce5c4ca43a26412a1e607e9855"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcbfb74859097db58e4d9de18e4b3093a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc94fde1e1087e047cab9356ea9d3773d%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed0510a7c69b47acb0d401db6052aea1&w=1000&s=59046e742cc15bb80862fd09e91b56e3"
     },
     {
       "descriptionKey": "v1|anglamark okologiske smaa sprode gulerodder fra gl estrup|carrots",
@@ -92,7 +92,7 @@
       "currentComparisonGroup": "hair_body",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F21875ddd5b298b67b56f5f04e5b1e12a&w=1000&s=d92dd1b7e8190d999b50a8fe8ff40b7f"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0d99bdc4601db7c4b693bc43d38e1fa9%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fec4452717e67d07e23ea53ad7bf5652a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F39fa7179b5abfdcdad3cb35131d6c30a%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fadb6c08a7e3b3787163316d4e6df9e70&w=1000&s=959a4acdabfd41bcabc43ca12f6ccb91"
     },
     {
       "descriptionKey": "v1|brema frisk pappardelle eller tagliatelle pasta|pasta_noodles",
@@ -112,7 +112,7 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Faff3cfef168cb7dddb847751dc6aa61d&w=1000&s=91fe7ea1ea6b4cb5e9773e9c42df58bb"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0603856a41cddd9eff52fa536d433d8b%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3d40d0da732aa8828cf91bde2eb0435f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F94ec9b4558d042f5ae61a4ae8ae96211&w=1000&s=88d97a860f7523f3abbebd60f8a5151a"
     },
     {
       "descriptionKey": "v1|castello haard ost|cheese_other",
@@ -202,7 +202,7 @@
       "currentComparisonGroup": "cleaning",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F345ff17bc8dc01dbdec647cbe2502cfb&w=1000&s=bae6ecccce5abc8f8b5f20cde618d9de"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdad382091013e39cf014c5002ae508ac%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F65ef2469fedc00bfb2d9906f9242d350&w=1000&s=31ed1321bf4ba412cc73007e81b59560"
     },
     {
       "descriptionKey": "v1|coop hakket grisekod 8 12|pork_minced",
@@ -232,7 +232,7 @@
       "currentComparisonGroup": "chicken_thigh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F18c429d3e4029ebdef90c6acb12e6fbf&w=1000&s=5cb61d119d4828e41b3c8a911e1e5a62"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F87958936e2559cf850be655e9e6054a4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F27f74e239f03d9c7b8cc0c15c712dd3e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1fafb1b84b394c485175b63feec88b2b&w=1000&s=c0b4cc58966adcb5fa8819a8060a92fd"
     },
     {
       "descriptionKey": "v1|coop mandler|nuts",
@@ -242,7 +242,7 @@
       "currentComparisonGroup": "nuts",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93f88655d48d9fbddef2c504f44b671f&w=1000&s=f86c02f5d0b689f205f8ed7d0855f87e"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb3735d104f10bb62d6449ea8df36994f&w=1000&s=b46e2267f5752d7f2cc31265ea4f3950"
     },
     {
       "descriptionKey": "v1|coop marineret flanksteak med oregano og hvidlog|prepared_beef_marinated",
@@ -412,7 +412,7 @@
       "currentComparisonGroup": "salmon_fresh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F57e698c15d2876f89d54e474b9e45824&w=1000&s=0ccbb1f52b2e0c424e0ee3d5d8941388"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F56e0db74439455b66b6e921f3f16e3f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F1179730a4b876575e6286b844a1626d5&w=1000&s=5ffd603e22c1a7268e616b1542644941"
     },
     {
       "descriptionKey": "v1|glyngore lakseportioner|salmon_fresh",
@@ -462,7 +462,7 @@
       "currentComparisonGroup": "tomatoes",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6470896cfc014f17aaab69f697ad3703&w=1000&s=197bdf3cc7f1a00cd8a9e3a63265f4e5"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcb7186a8696f8adf2d74a334cdbecaa8&w=1000&s=fa616355c8aa163944670f40c1c628ac"
     },
     {
       "descriptionKey": "v1|kaergaarden smorbar|butter",
@@ -632,7 +632,7 @@
       "currentComparisonGroup": "potatoes_fresh",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8cb4d4d44f7a2ab54a978f0e990bc55d&w=1000&s=980da88b6aba440ea6232ccdc30e8072"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F0105809cb389ce0d69c5602eb3217a7c&w=1000&s=3bfae688237dc5874cc72d29e2fc1cc0"
     },
     {
       "descriptionKey": "v1|pomi tomatkonserves|canned_tomatoes",
@@ -742,7 +742,7 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5f55373b24f45f38ab753cb0cc50111f&w=1000&s=a6ed1e06c2a091ecd442c41d19c3b257"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb7f7a83d0b818fb41884992f82ea0f4c%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcf37a12b95fe4e7b2405d8bae4a57b11%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F56adc80f739adb9a0980833293b2857e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc4d95f274513f7556f643dd0f87c80df&w=1000&s=94bead04eb644e43a45c69fc91fb4380"
     },
     {
       "descriptionKey": "v1|tresemme shampoo eller balsam|hair_body",
@@ -752,7 +752,7 @@
       "currentComparisonGroup": "hair_body",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2a8f3617702083e2dd2060c19fe68e6c&w=1000&s=bb0562b572c30164e3d6ba57308ec310"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6efc2a668d7c3d7598145f325376a53b%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb709b1be06ecc4fc80817104d31c2bdf%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff2dbb269680dfa00dea5ac9b8640fca5%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F4157c77c2ec573c44fedebcc6a55d959&w=1000&s=b9f6ca12bd7929f9d7dbd7d9dfa73046"
     },
     {
       "descriptionKey": "v1|tulip pulled pork pulled chicken eller spareribs|prepared_pork_mixed_offer",
@@ -762,7 +762,7 @@
       "currentComparisonGroup": "prepared_pork_mixed_offer",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc09b3685be33565a26343c1aa4084af3%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F9e3293995a161365c485e56b521dbed6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F34f2d9ac81b570f0a983d5b3c3590612&w=1000&s=bb9722f5d23c077309d301a9fbb7f0a4"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F078006993aa2c9e3b6031ea25f8c48f4&w=1000&s=68191946f317157444c2cd9e47f6518d"
     },
     {
       "descriptionKey": "v1|wasa knaekbrod|bread",
@@ -812,7 +812,7 @@
       "currentComparisonGroup": "pasta_noodles",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6761d7d9a13a38f9a29dec4370a8b048&w=1000&s=fd90a3cfe9aa402ae7b3c92c009fb869"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8c58e1d095ff705145608cb8850e81f4%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fe1b526a13e40ef031ed8cde5d4334310%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3f07b7b361bfeea5c09111c82c3c0cf6&w=1000&s=4511a9b9ba72105bd253ca9939f7dd3d"
     },
     {
       "descriptionKey": "v1|zendium mundpleje|hair_body",
