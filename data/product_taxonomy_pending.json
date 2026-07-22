@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-22T15:21:27.008Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-07-22T16:32:32.745Z",
+  "count": 2,
+  "items": [
+    {
+      "descriptionKey": "v1|barebells bars afhentning torsdag og fredag|chocolate",
+      "originalName": "Barebells bars 🍫  AFHENTNING TORSDAG OG FREDAG🚨",
+      "originalDescription": "⚫️🟡⚫️🟡 JA TAK TIL BAREBELLS 🟡⚫️🟡⚫️\n\nBAREBELLS PROTEINBARS – VANVITTIG PRIS!\n\n🔥 HEL KASSE KUN 109,99 KR. 🔥\n\nVejl. udsalg: 263,88 pr. kasse 😱\n\n🤩FRISK PRODUCERET 🤩\n✅ 12 stk. pr. kasse\n✅ 17-20 g protein pr. bar\n✅ 55 g pr. bar\n✅ Ingen tilsat sukker\n\n🏃 Vælg variant ved afhentning – først til mølle! 🏃\n❌ Der kan ikke reserveres varianter ❌\n❌ Sælges kun i hele kasser – ingen bland selv ❌\n\n📍 Afhentning  i butikken – KUN TORSDAG OG FREDAG ved vores ja tak udleveringen 🥳\n\nVi ses i Løvbjerg Trøjborg❤️",
+      "currentCategoryId": "chocolate",
+      "currentComparisonGroup": "chocolate",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "loevbjerg",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2F65caN%2F4d9110ecaca7547be415525697533a42&w=1000&s=dee3c4eecc8c8da04007d02d7e54db11"
+    },
+    {
+      "descriptionKey": "v1|florence sofa med chaiselong|other_offer",
+      "originalName": "Florence sofa med chaiselong",
+      "originalDescription": "2 pers. modulsofa. Gråbrun. B: 210 x H: 80 x D: 145 cm. Flere varianter. Fredag d. 24/7 - torsdag d. 27/8 Normalpris 5800.- Bestil i butikken eller på Bilka.dk Plus evt. fragt",
+      "currentCategoryId": "other_offers",
+      "currentComparisonGroup": "other_offer",
+      "currentReviewStatus": "unreviewed",
+      "storeId": "bilka",
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FWavsjDl2%2Fp-19.webp&w=1000&x1r=0.02&x2r=0.98&y1r=0.336&y2r=0.634&s=e85e7019989329693794f021a744ad9d"
+    }
+  ]
 }
