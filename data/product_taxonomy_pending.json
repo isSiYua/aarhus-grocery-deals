@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-22T02:12:57.555Z",
-  "count": 166,
+  "generatedAt": "2026-07-22T02:29:16.071Z",
+  "count": 164,
   "items": [
     {
       "descriptionKey": "v1|ajax rengoring eller bref toiletblokke|cleaning",
@@ -92,7 +92,7 @@
       "currentComparisonGroup": "lamb_other",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed5c8a360363ae3f219d38e4d16b1bc6&w=1000&s=bb5ac4df651b829b95a39727dc773d08"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8cb0cc685ae75d1e2f13a3e43a3235a3&w=1000&s=0b2371bd2f3584951904e0b8f15bc61a"
     },
     {
       "descriptionKey": "v1|anglamark okologiske kartofler eller brod|bread",
@@ -282,7 +282,7 @@
       "currentComparisonGroup": "bacon_mixed_offer",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F57d6df412f12a8e0353f3e0443c441f1%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd08f84b5d8b0f930e5507e87d3634b9e&w=1000&s=869bbdba483f1455abdc1a3181391eb9"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fff1fc22a210eeb56c1eb0bbd854543ec&w=1000&s=98825d833403d40006bda61a740aa8ac"
     },
     {
       "descriptionKey": "v1|coop bbq koteletter|prepared_pork_marinated",
@@ -342,7 +342,7 @@
       "currentComparisonGroup": "cleaning",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F345ff17bc8dc01dbdec647cbe2502cfb&w=1000&s=bae6ecccce5abc8f8b5f20cde618d9de"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fdad382091013e39cf014c5002ae508ac%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F65ef2469fedc00bfb2d9906f9242d350&w=1000&s=31ed1321bf4ba412cc73007e81b59560"
     },
     {
       "descriptionKey": "v1|coop hakket grisekod 8 12|pork_minced",
@@ -432,7 +432,7 @@
       "currentComparisonGroup": "cheese_grated",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F11509cc96df7287005f2828377a83a62%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F24f8cf6f0d168b74a72f2ebd98da232e&w=1000&s=18d9e1f4a334e12175cc415bc7260b15"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fde9938b0841e47aa69e495c829b1a289&w=1000&s=b5cdf7994e7232b77086f2748607b1f7"
     },
     {
       "descriptionKey": "v1|coop romkugler traestammer eller mazarintaerte|biscuits",
@@ -1102,7 +1102,7 @@
       "currentComparisonGroup": "canned_tomatoes",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5828cb2e05f5400f136095a3dde91efb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F61f3bae4d67cdf200a2ccb1c19939aef%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F21644d8561d4708885c264e7ec5f793a&w=1000&s=77f9168d00cd2d21311de7c00375e64e"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F83465f0e40bf4627364e5c98a9bece91&w=1000&s=946fa36feca9ef202cadf962a5d425b6"
     },
     {
       "descriptionKey": "v1|purio affaldsposer med snoreluk|trash_bags",
@@ -1215,26 +1215,6 @@
       "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtfOVX-38%2Fp-6.webp&w=1000&x1r=0.03&x2r=0.76&y1r=0.27&y2r=0.48&s=8ec749aedd3e31f11736973737090e74"
     },
     {
-      "descriptionKey": "v1|sol mar blaeksprutteringe eller chorizokroketter|sausage_chorizo",
-      "originalName": "SOL&MAR Blæksprutteringe eller chorizokroketter",
-      "originalDescription": "500 g.\nPr. kg 50,00\nSpot¹\nDybfrost",
-      "currentCategoryId": "sausages",
-      "currentComparisonGroup": "sausage_chorizo",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "lidl",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.66&y1r=0.5&y2r=0.72&s=22d9f3c29b2c6db57446a983698010f5"
-    },
-    {
-      "descriptionKey": "v1|sol mar chorizogrillpolser|sausage_chorizo",
-      "originalName": "SOL&MAR Chorizogrillpølser",
-      "originalDescription": "300 g.\nPr. kg 100,00\nSpot¹",
-      "currentCategoryId": "sausages",
-      "currentComparisonGroup": "sausage_chorizo",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "lidl",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F8X8HzXN6%2Fp-21.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.714&y2r=0.932&s=9be5ca76ba40077004b8c24f71a0050f"
-    },
-    {
       "descriptionKey": "v1|sondey cremevafler|biscuits",
       "originalName": "SONDEY Cremevafler",
       "originalDescription": "190 g. Pr. kg 42,11",
@@ -1282,7 +1262,7 @@
       "currentComparisonGroup": "chips",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fd04991d94ca3da2581b75f73c90be40c&w=1000&s=47c3e4089fee5b13ce4e5af285fb07f4"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3895a31c1ea070ca91cc5707b66db9eb%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fcc80f334e4b1ba5110dded76bba08c8e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ff372ef24c42b1510675f3a7913711358%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F93349d82f916db86be6cb88de92838d6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fc11487ee691aa20bd4c8b0050b4f7545&w=1000&s=eb5638880c95807f532ce0bc0d1c7fa0"
     },
     {
       "descriptionKey": "v1|taquitos|ice_cream",
@@ -1302,7 +1282,7 @@
       "currentComparisonGroup": "yoghurt",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8595aeacf5d9825ea2d05821e057382d&w=1000&s=5149eec427986fd9a8036a3cb7893655"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F767ae5b0f08c8ea393d9abfee0ec822f%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed2942b2b787ed957602316c97a71482%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F6461f93ee7b73031ba5df09215b8bc0e%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cdc2f9ab96856657a0af1f7694dbfae&w=1000&s=510bfb259223984c5827e8ea1abb0ab1"
     },
     {
       "descriptionKey": "v1|toms guldkarameller eller kaempe skildpadder 3 pak|chocolate",
@@ -1602,7 +1582,7 @@
       "currentComparisonGroup": "bread",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb5179aa239b1913f1242d104d7210b79&w=1000&s=baa78e6a813d9b8b736db476682b22e1"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F3967089503ee667bd0d969f31033dc43%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F5da87ab88dad1662813cf80db3671b09%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fb410e0600c258e10eb09d6cca2caf920%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F2b711028fc182168b50a9f8e149dbab6%2Cs3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F43059d26fb438a7d9cef689a7db5c37b&w=1000&s=df924cc52acfd6c92547ff89079e8902"
     },
     {
       "descriptionKey": "v1|xtra hvidlogsbaguette|bread",

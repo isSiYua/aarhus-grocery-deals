@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-22T01:52:51.518Z",
+  "updatedAt": "2026-07-22T02:29:16.071Z",
   "products": {
     "v1|10 friskbagte rundstykker|bread": {
       "stableProductKey": "v1|10 friskbagte rundstykker|bread",
@@ -4302,6 +4302,21 @@
       "firstSeenAt": "2026-07-21T04:45:58.967Z",
       "lastPromotionEnd": "2026-07-29T21:59:59+0000",
       "offerIds": {
+        "8F0xm8F317rKzCy75Wbjc": {
+          "sourceOfferId": "8F0xm8F317rKzCy75Wbjc",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "O_Hq07-F"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-29T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=0b2371bd2f3584951904e0b8f15bc61a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8cb0cc685ae75d1e2f13a3e43a3235a3"
+          ]
+        },
         "PCqTw71Ro42yNkg_-Q_VV": {
           "sourceOfferId": "PCqTw71Ro42yNkg_-Q_VV",
           "stores": [
@@ -4319,6 +4334,14 @@
         }
       },
       "imageReferences": {
+        "https://image-transformer-api.tjek.com/?s=0b2371bd2f3584951904e0b8f15bc61a&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F8cb0cc685ae75d1e2f13a3e43a3235a3": {
+          "offerIds": [
+            "8F0xm8F317rKzCy75Wbjc"
+          ],
+          "validPeriods": [
+            "2026-07-22T22:00:00+0000|2026-07-29T21:59:59+0000"
+          ]
+        },
         "https://image-transformer-api.tjek.com/?s=bb5ac4df651b829b95a39727dc773d08&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Fed5c8a360363ae3f219d38e4d16b1bc6": {
           "offerIds": [
             "PCqTw71Ro42yNkg_-Q_VV"
@@ -4329,8 +4352,8 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -26945,6 +26968,7 @@
     "v1|frokost favorit paalaeg|deli_mixed_offer": {
       "stableProductKey": "v1|frokost favorit paalaeg|deli_mixed_offer",
       "canonicalNames": [
+        "Frokost favorit pålæg",
         "Frokost favorit pålæg*"
       ],
       "categoryIds": [
@@ -26959,6 +26983,21 @@
       "firstSeenAt": "2026-07-18T11:48:55.799Z",
       "lastPromotionEnd": "2026-07-22T21:59:59+0000",
       "offerIds": {
+        "KoDOpqWx-gloeDslZBKB0": {
+          "sourceOfferId": "KoDOpqWx-gloeDslZBKB0",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "du5PQdPJ"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=6272913e0ec5440057ae8d096f69c3bf&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-11.webp&x1r=0.511&x2r=0.966&y1r=0.013&y2r=0.334"
+          ]
+        },
         "XqOPxqVvyWN0kMHcLBFAw": {
           "sourceOfferId": "XqOPxqVvyWN0kMHcLBFAw",
           "stores": [
@@ -26983,11 +27022,19 @@
           "validPeriods": [
             "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
           ]
+        },
+        "https://image-transformer-api.tjek.com/?s=6272913e0ec5440057ae8d096f69c3bf&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-11.webp&x1r=0.511&x2r=0.966&y1r=0.013&y2r=0.334": {
+          "offerIds": [
+            "KoDOpqWx-gloeDslZBKB0"
+          ],
+          "validPeriods": [
+            "2026-07-15T22:00:00+0000|2026-07-22T21:59:59+0000"
+          ]
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 1,
-        "sameNameSeenWithDifferentSourceIds": false,
+        "distinctSourceOfferIdCount": 2,
+        "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
         "exactImageReferencesSharedAcrossSourceIds": []
       }
@@ -56001,6 +56048,21 @@
       "firstSeenAt": "2026-07-18T11:15:00.061Z",
       "lastPromotionEnd": "2026-07-29T21:59:59+0000",
       "offerIds": {
+        "aXL0AREt3tRdXjtVPCF5G": {
+          "sourceOfferId": "aXL0AREt3tRdXjtVPCF5G",
+          "stores": [
+            "365"
+          ],
+          "catalogIds": [
+            "vKPwkOjD"
+          ],
+          "validPeriods": [
+            "2026-07-25T22:00:00+0000|2026-07-29T21:59:59+0000"
+          ],
+          "imageReferences": [
+            "https://image-transformer-api.tjek.com/?s=663acff11360db18ec08bf1842eeb2e9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cd9fd22e29027ee9a5cbda27b818923"
+          ]
+        },
         "HSXBbV5st0kPhSj3bFsFP": {
           "sourceOfferId": "HSXBbV5st0kPhSj3bFsFP",
           "stores": [
@@ -56066,6 +56128,7 @@
         },
         "https://image-transformer-api.tjek.com/?s=663acff11360db18ec08bf1842eeb2e9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cd9fd22e29027ee9a5cbda27b818923": {
           "offerIds": [
+            "aXL0AREt3tRdXjtVPCF5G",
             "MBUYG8o4punzYGsvJxaXU"
           ],
           "validPeriods": [
@@ -56074,10 +56137,18 @@
         }
       },
       "evidence": {
-        "distinctSourceOfferIdCount": 3,
+        "distinctSourceOfferIdCount": 4,
         "sameNameSeenWithDifferentSourceIds": true,
         "repeatedSourceIdsAcrossPromotionPeriods": [],
-        "exactImageReferencesSharedAcrossSourceIds": []
+        "exactImageReferencesSharedAcrossSourceIds": [
+          {
+            "reference": "https://image-transformer-api.tjek.com/?s=663acff11360db18ec08bf1842eeb2e9&u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2F7cd9fd22e29027ee9a5cbda27b818923",
+            "offerIds": [
+              "aXL0AREt3tRdXjtVPCF5G",
+              "MBUYG8o4punzYGsvJxaXU"
+            ]
+          }
+        ]
       }
     },
     "v1|middagsfrikadeller eller mini kodboller|bread": {
