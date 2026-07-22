@@ -164,9 +164,13 @@ function svgIcon(kind) {
   svg.setAttribute('viewBox', '0 0 24 24');
   svg.setAttribute('aria-hidden', 'true');
   svg.setAttribute('focusable', 'false');
-  const paths = kind === 'copy'
-    ? ['M8 8h10v12H8z', 'M6 16H4V4h10v2']
-    : ['M12 21s6-5.1 6-11a6 6 0 1 0-12 0c0 5.9 6 11 6 11z', 'M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'];
+  const iconPaths = {
+    copy: ['M8 8h10v12H8z', 'M6 16H4V4h10v2'],
+    location: ['M12 21s6-5.1 6-11a6 6 0 1 0-12 0c0 5.9 6 11 6 11z', 'M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z'],
+    refresh: ['M20 11a8 8 0 1 0-2.34 5.66', 'M20 4v7h-7'],
+    search: ['M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14z', 'M16 16l5 5'],
+  };
+  const paths = iconPaths[kind] || iconPaths.location;
   paths.forEach(data => {
     const path = document.createElementNS(SVG_NS, 'path');
     path.setAttribute('d', data);
@@ -845,9 +849,9 @@ function topbar() {
           title: '刷新并检查数据更新',
           disabled: refresh.status === 'checking' ? '' : null,
           onClick: refreshActiveData,
-        }, '↻'),
+        }, [svgIcon('refresh'), el('span', {}, '更新')]),
         LOCATIONS.length > 1 ? el('button', { class: 'icon-btn', 'aria-label': '打开隐藏地点彩蛋', onClick: () => go('locations') }, '◎') : null,
-        el('button', { class: 'icon-btn', 'aria-label': '搜索', onClick: () => go('search') }, '⌕'),
+        el('button', { class: 'icon-btn search-btn', 'aria-label': '搜索', onClick: () => go('search') }, [svgIcon('search'), el('span', {}, '搜索')]),
       ]),
     ]),
   ]);
@@ -1062,7 +1066,6 @@ function categoriesView() {
         el('span', {}, `${categoryOffers.length} 项 · ${stores} 家商店`),
       ]);
     })),
-    footerNote(),
   ]);
 }
 
@@ -1086,7 +1089,6 @@ function categoryView(categoryId) {
     storeFilterBar(allOffers),
     ...groups.map(([groupId, groupOffersList]) => renderGroup(groupId, groupOffersList)),
     pager(cats, index),
-    footerNote(),
   ]);
   return main;
 }
@@ -1549,7 +1551,6 @@ function storesView() {
         ]),
       ]);
     })),
-    footerNote(),
   ]);
 }
 
@@ -1608,7 +1609,6 @@ function storeView(storeId) {
     }),
     categoryNavigation,
     offers.length ? null : el('div', { class: 'empty' }, '该商店目前没有可验证的结构化周促销商品。可以使用上方官方入口查看。'),
-    footerNote(),
   ]);
 }
 
@@ -1717,22 +1717,30 @@ function shoppingListView() {
     sectionTitle(`${wanted.length} 项待购买`, wanted.length ? `已按商店分组；最低价按${hasStoreFilters() ? '当前所选商店' : '全部商店'}计算` : '浏览商品时点击“加入购物清单”'),
     ...(wanted.length ? renderByStore(wanted) : [el('div', { class: 'empty' }, '清单还是空的。去分类、商店或搜索页面选择想买的商品吧。')]),
     completedSection,
-    footerNote(),
   ]);
 }
 
 function footerNote() {
   const defaultText = '促销通常是连锁店级别，附近门店库存可能不同。单位价格只在规格可可靠换算时参与同类排序；会员价、多件价和限购条件会明确标注。';
   return el('aside', { class: 'public-trust-note', 'aria-label': '公开使用与安全说明' }, [
-    el('strong', {}, '永久免费 · 不收款 · 不接受捐款'),
-    el('p', {}, '任何以“买菜口袋书”或作者名义索要转账、银行卡、验证码或捐款的行为，都不是本站行为。本站不售卖商品，也不代表任何超市、Tjek 或 eTilbudsavis。'),
-    el('p', {}, activeData()?.metadata?.disclaimerZh || defaultText),
-    el('p', {}, '价格、库存、会员条件和促销有效期最终以门店及原促销单为准。定位只在你的设备本地计算，购物清单只保存在当前浏览器。'),
-    el('a', {
-      href: 'https://github.com/isSiYua/aarhus-grocery-deals/security/policy',
-      target: '_blank',
-      rel: 'noopener noreferrer',
-    }, '查看官方安全与反冒用说明 ↗'),
+    el('div', { class: 'trust-note-header' }, [
+      el('span', { class: 'trust-note-mark', 'aria-hidden': 'true' }, '✓'),
+      el('span', { class: 'trust-note-heading' }, [
+        el('strong', {}, '所有功能永久免费'),
+        el('small', {}, '无广告 · 无会员 · 非官方促销工具'),
+      ]),
+    ]),
+    el('div', { class: 'trust-note-body' }, [
+      el('p', {}, '网站不售卖商品，也不设置会员或付费功能。任何以“买菜口袋书”或作者名义私信索要转账、银行卡或验证码的行为都不是本站行为。'),
+      el('p', {}, '本站不代表任何超市、Tjek 或 eTilbudsavis。'),
+      el('p', {}, activeData()?.metadata?.disclaimerZh || defaultText),
+      el('p', {}, '价格、库存、会员条件和促销有效期最终以门店及原促销单为准。定位只在你的设备本地计算，购物清单只保存在当前浏览器。'),
+      el('a', {
+        href: 'https://github.com/isSiYua/aarhus-grocery-deals/security/policy',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      }, '查看官方安全与反冒用说明 ↗'),
+    ]),
   ]);
 }
 

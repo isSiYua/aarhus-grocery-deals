@@ -18,7 +18,9 @@ test('public site keeps its browser security and anti-impersonation guardrails',
   assert.match(index, /base-uri 'none'/);
   assert.match(index, /form-action 'none'/);
   assert.match(index, /name="referrer" content="no-referrer"/);
-  assert.match(app, /不收款 · 不接受捐款/);
+  assert.match(app, /所有功能永久免费/);
+  assert.match(app, /不设置会员或付费功能/);
+  assert.doesNotMatch(app, /不接受捐款|唯一打赏说明|收款码/);
   assert.match(app, /不代表任何超市、Tjek 或 eTilbudsavis/);
   assert.match(notice, /要求转账/);
   assert.match(notice, /都不是本项目的行为/);

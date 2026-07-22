@@ -152,13 +152,24 @@ test('search page links to the public GitHub repository for stars', () => {
   assert.match(styleSource, /\.github-star-action \{/);
 });
 
-test('every main view shows an anti-fraud, privacy, and source disclaimer', () => {
-  assert.match(appSource, /永久免费 · 不收款 · 不接受捐款/);
-  assert.match(appSource, /任何以“买菜口袋书”或作者名义索要转账/);
+test('home and search end with a fully visible anti-fraud, privacy, and source disclaimer', () => {
+  assert.match(appSource, /所有功能永久免费/);
+  assert.match(appSource, /不设置会员或付费功能/);
+  assert.doesNotMatch(appSource, /不接受捐款|唯一打赏说明|收款码/);
   assert.match(appSource, /不代表任何超市、Tjek 或 eTilbudsavis/);
   assert.match(appSource, /security\/policy/);
   assert.match(styleSource, /\.public-trust-note \{/);
+  assert.match(styleSource, /padding: 14px 10px calc\(var\(--bottom-nav-height, 72px\) \+ 24px\)/);
+  assert.equal((appSource.match(/footerNote\(\)/g) || []).length, 3);
   assert.doesNotMatch(appSource, /\.innerHTML\s*=/);
+});
+
+test('top bar uses labeled SVG actions instead of ambiguous text glyphs', () => {
+  assert.match(appSource, /svgIcon\('refresh'\)/);
+  assert.match(appSource, /svgIcon\('search'\)/);
+  assert.match(appSource, /el\('span', \{\}, '更新'\)/);
+  assert.match(appSource, /el\('span', \{\}, '搜索'\)/);
+  assert.match(styleSource, /\.icon-btn svg \{/);
 });
 
 test('mobile chrome behaves like a reading app and has no visible handles', () => {
