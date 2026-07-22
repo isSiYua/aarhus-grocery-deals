@@ -3,6 +3,7 @@ import path from 'node:path';
 
 import { ATLANTA_COMPARISON_GROUPS, classifyFlippItem, flippKnowledgeKey } from './lib/flipp-client.mjs';
 import { emptyAtlantaProductKnowledge, loadAtlantaProductKnowledge } from './lib/flipp-product-knowledge.mjs';
+import { sanitizeItemDescriptionZh } from './lib/description-quality.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const offersUrl = new URL('../data/atlanta_offers.json', import.meta.url);
@@ -19,7 +20,7 @@ for (const offer of data.offers) {
   const fixed = entries[key];
   const manuallyReviewed = fixed?.reviewStatus === 'reviewed' || fixed?.reviewStatus === 'codex_name_and_description_reviewed';
   const classification = manuallyReviewed && fixed?.categoryId && fixed?.descriptionZh
-    ? { categoryId: fixed.categoryId, comparisonGroup: fixed.comparisonGroup, zhExplanation: fixed.descriptionZh }
+    ? { categoryId: fixed.categoryId, comparisonGroup: fixed.comparisonGroup, zhExplanation: sanitizeItemDescriptionZh(fixed.descriptionZh) }
     : classifyFlippItem(offer.originalName);
   if (!classification) {
     removed += 1;
@@ -29,7 +30,7 @@ for (const offer of data.offers) {
     originalName: offer.originalName,
     categoryId: classification.categoryId,
     comparisonGroup: classification.comparisonGroup || `${classification.categoryId}_other`,
-    descriptionZh: classification.zhExplanation,
+    descriptionZh: sanitizeItemDescriptionZh(classification.zhExplanation),
     authoredBy: 'Codex',
     reviewStatus: 'name_reviewed_image_pending',
     imageReviewed: false,
@@ -38,6 +39,7 @@ for (const offer of data.offers) {
       imageUrl: offer.imageUrl || null,
     },
   };
+  entry.descriptionZh = sanitizeItemDescriptionZh(entry.descriptionZh);
   entries[key] = entry;
   nextOffers.push({
     ...offer,

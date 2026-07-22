@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
 
 import {
   collectPendingDescriptions,
@@ -8,6 +9,7 @@ import {
   applyDescriptionCacheToOffers,
   resolveProductDescription,
 } from '../scripts/lib/product-descriptions.mjs';
+import { ITEM_DESCRIPTION_META_PATTERN, sanitizeItemDescriptionZh } from '../scripts/lib/description-quality.mjs';
 
 const classification = { categoryId: 'vegetables', comparisonGroup: 'mushrooms' };
 
@@ -65,4 +67,37 @@ test('pending queue deduplicates the same product while retaining occurrence evi
   assert.equal(pending.count, 1);
   assert.equal(pending.items[0].occurrences, 2);
   assert.deepEqual(pending.items[0].stores, ['365', 'foetex']);
+});
+
+test('shopper-facing descriptions remove internal price-comparison commentary', () => {
+  assert.equal(
+    sanitizeItemDescriptionZh('火鸡小腿，通常带骨，适合慢烤或炖煮；不与火鸡胸肉比较最低价。'),
+    '火鸡小腿，通常带骨，适合慢烤或炖煮。',
+  );
+  assert.equal(
+    sanitizeItemDescriptionZh('丹麦带荚豌豆，需要先剥出豆粒，不能与去壳豌豆按同一可食重量比较。'),
+    '丹麦带荚豌豆，需要先剥出豆粒，可食豆粒会少于标示重量。',
+  );
+});
+
+test('all reusable and published item descriptions contain product facts, not comparison-engine rules', async () => {
+  const files = [
+    '../data/product_descriptions_zh.json',
+    '../data/atlanta_product_knowledge_zh.json',
+    '../data/product_review_overrides_zh.json',
+    '../data/current_offers.json',
+    '../data/atlanta_offers.json',
+    '../data/history.json',
+  ];
+  for (const file of files) {
+    const data = JSON.parse(await fs.readFile(new URL(file, import.meta.url), 'utf8'));
+    const descriptions = Array.isArray(data)
+      ? data.map(offer => offer.zhExplanation)
+      : data.entries
+        ? Object.values(data.entries).map(entry => entry.descriptionZh)
+        : data.offers.map(offer => offer.zhExplanation);
+    for (const description of descriptions) {
+      assert.doesNotMatch(description || '', ITEM_DESCRIPTION_META_PATTERN, `${file}: ${description}`);
+    }
+  }
 });

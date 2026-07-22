@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 import { AARHUS_COMPARISON_GROUPS, refineAarhusCategory, normalizedText } from './lib/taxonomy.mjs';
+import { ITEM_DESCRIPTION_META_PATTERN } from './lib/description-quality.mjs';
 
 const read = async path => JSON.parse(await fs.readFile(new URL(`../${path}`, import.meta.url), 'utf8'));
 const aarhus = await read('data/current_offers.json');
@@ -27,6 +28,7 @@ for (const offer of aarhus.offers) {
     fail(offer, '缺少中文名称或解释');
   }
   if (String(offer.zhExplanation || '').trim().length < 12) fail(offer, '中文解释过短');
+  if (ITEM_DESCRIPTION_META_PATTERN.test(offer.zhExplanation || '')) fail(offer, '商品说明混入了比价系统规则');
 
   if (/(hotwings|buffalo wings|sol mar kyllingevinger)/.test(name)
       && (offer.categoryId !== 'prepared_meat' || offer.comparisonGroup !== 'prepared_chicken_wings_seasoned')) {
@@ -84,6 +86,7 @@ for (const offer of atlanta.offers) {
   if (!String(offer.productNameZh || '').trim() || !String(offer.zhExplanation || '').trim()) {
     fail(offer, 'Atlanta 缺少中文名称或解释');
   }
+  if (ITEM_DESCRIPTION_META_PATTERN.test(offer.zhExplanation || '')) fail(offer, 'Atlanta 商品说明混入了比价系统规则');
   if (/(breaded|fried|buffalo|nugget|popcorn chicken|chicken sandwich|chicken wrap)/.test(name)
       && ['fresh_meat', 'chicken'].includes(offer.categoryId)) {
     fail(offer, 'Atlanta 熟制或裹粉鸡肉误归入生鲜肉类');

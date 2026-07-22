@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T01:52:59.197Z",
+  "updatedAt": "2026-07-22T02:08:18.497Z",
   "reviewPolicy": "Original name is mandatory evidence. New or ambiguous products retain the image URL for Codex visual review; imageReviewed is true only after an actual visual check.",
   "entries": {
     "12 pack cigar city brewing beer": {
@@ -236,7 +236,7 @@
       "originalName": "Applegate Naturals Uncured Turkey Bacon",
       "categoryId": "bacon",
       "comparisonGroup": "bacon_turkey_sliced",
-      "descriptionZh": "火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦；可煎脆后配早餐、三明治或沙拉，不与猪肉培根混比。",
+      "descriptionZh": "火鸡培根，是用火鸡肉制成的培根风格薄片，通常比猪培根更瘦。可煎脆后配早餐、三明治或沙拉。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -246,7 +246,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752959/1783514879/extra_large.jpg"
       },
       "productNameZh": "火鸡培根",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "arm hammer essentials hand soap": {
       "originalName": "Arm & Hammer Essentials Hand Soap",
@@ -390,7 +391,7 @@
       "originalName": "Boar's Head® Ovengold Roasted Turkey Breast",
       "categoryId": "deli_meat",
       "comparisonGroup": "meat_turkey_deli",
-      "descriptionZh": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉；这是熟制火鸡胸切片，不是生鲜火鸡胸，也不与火腿或香肠混比。",
+      "descriptionZh": "烤火鸡胸冷切肉，可直接夹三明治、卷饼或搭配沙拉。这是熟制火鸡胸切片，不是生鲜火鸡胸。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -400,7 +401,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426823429/1783514858/extra_large.jpg"
       },
       "productNameZh": "烤火鸡胸冷切",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "boar s head vermont cheddar cheese yellow or white": {
       "originalName": "Boar's Head Vermont Cheddar Cheese, Yellow or White",
@@ -756,7 +758,7 @@
       "originalName": "Chomps Meat Sticks",
       "categoryId": "deli_meat",
       "comparisonGroup": "meat_sticks",
-      "descriptionZh": "调味肉条零食，可直接食用；需按包装确认肉种、辣度和单条重量，不与香肠或冷切火腿混比。",
+      "descriptionZh": "调味肉条零食，可直接食用。需按包装确认肉种、辣度和单条重量。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -766,7 +768,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529235/1783380487/extra_large.jpg"
       },
       "productNameZh": "肉条零食",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "coca cola fountain drink": {
       "originalName": "Coca-Cola Fountain Drink",
@@ -955,7 +958,7 @@
       "originalName": "Dole Fruit Cups",
       "categoryId": "fruit",
       "comparisonGroup": "produce_prepared_fruit",
-      "descriptionZh": "切配水果。切配水果杯或水果拼盘，开盒即食；属于预制水果，不与单一整果直接比价。",
+      "descriptionZh": "切配水果。切配水果杯或水果拼盘，开盒即食。属于预制水果。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -965,7 +968,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426754929/1783514879/extra_large.jpg"
       },
       "productNameZh": "切配水果",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "dole salad kits": {
       "originalName": "Dole Salad Kits",
@@ -1302,14 +1306,15 @@
       "originalName": "Good & Gather™ 40-oz. antioxidant frozen fruit blend.",
       "categoryId": "produce_mixed",
       "comparisonGroup": "produce_other",
-      "descriptionZh": "果蔬商品；原名未提供更细品种时，应结合商品图片确认具体果蔬，不能与不同品种直接比价。",
+      "descriptionZh": "果蔬商品。原名未提供更细品种时，应结合商品图片确认具体果蔬。",
       "authoredBy": "Codex",
       "reviewStatus": "name_reviewed_image_pending",
       "imageReviewed": false,
       "evidence": {
         "originalNameReviewed": true,
         "imageUrl": "https://f.wishabi.net/page_items/427648329/1784214241/extra_large.jpg"
-      }
+      },
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "good gathertm 52 oz ultra filtered milk": {
       "originalName": "Good & Gather™ 52-oz. ultra-filtered milk.",
@@ -1783,7 +1788,7 @@
       "originalName": "Hormel Pepperoni",
       "categoryId": "deli_meat",
       "comparisonGroup": "meat_pepperoni",
-      "descriptionZh": "意式辣香肠薄片，通常用于披萨、三明治或零食拼盘；属于高盐熟制肉，不与普通鲜香肠或火腿冷切混比。",
+      "descriptionZh": "意式辣香肠薄片，通常用于披萨、三明治或零食拼盘。属于高盐熟制肉。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -1793,7 +1798,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529237/1783380488/extra_large.jpg"
       },
       "productNameZh": "意式辣香肠片",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "hot house cucumbers": {
       "originalName": "Hot House Cucumbers",
@@ -2611,7 +2617,7 @@
       "originalName": "Private Selection Black Forest Ham",
       "categoryId": "deli_meat",
       "comparisonGroup": "meat_ham_deli",
-      "descriptionZh": "黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐；不与火鸡冷切或香肠混比。",
+      "descriptionZh": "黑森林风味火腿冷切，通常带烟熏和咸香味，可直接夹面包、卷饼或搭配早餐。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2621,7 +2627,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426529341/1783380492/extra_large.jpg"
       },
       "productNameZh": "火腿冷切",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "private selection cedar plank salmon": {
       "originalName": "Private Selection Cedar Plank Salmon",
@@ -2755,7 +2762,7 @@
       "originalName": "Publix Chicken Tender Whole Sub",
       "categoryId": "prepared_meat",
       "comparisonGroup": "meat_chicken_sandwich",
-      "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
+      "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2765,7 +2772,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426745509/1783514793/extra_large.jpg"
       },
       "productNameZh": "鸡肉三明治或卷饼",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "publix chocolate peanut butter cookie pudding": {
       "originalName": "Publix Chocolate Peanut Butter Cookie Pudding",
@@ -2915,7 +2923,7 @@
       "originalName": "Publix Idaho Russet Potatoes",
       "categoryId": "vegetables",
       "comparisonGroup": "produce_potatoes",
-      "descriptionZh": "Russet 褐皮土豆。Russet 褐皮土豆，淀粉较多，适合烤土豆、炸薯条或做松软土豆泥；大小和包装不同仍属于同一种土豆比价组。",
+      "descriptionZh": "Russet 褐皮土豆。Russet 褐皮土豆，淀粉较多，适合烤土豆、炸薯条或做松软土豆泥；常见包装规格可能不同。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2925,7 +2933,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426752925/1783514878/extra_large.jpg"
       },
       "productNameZh": "Russet 褐皮土豆",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "publix italian style pork meatballs": {
       "originalName": "Publix Italian Style Pork Meatballs",
@@ -2979,7 +2988,7 @@
       "originalName": "Publix Parmesan Chicken Breast Bites",
       "categoryId": "prepared_meat",
       "comparisonGroup": "meat_breaded_chicken",
-      "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
+      "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -2989,13 +2998,14 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748890/1783514845/extra_large.jpg"
       },
       "productNameZh": "帕玛森裹粉鸡肉",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "publix parmesan chicken breast cutlets": {
       "originalName": "Publix Parmesan Chicken Breast Cutlets",
       "categoryId": "prepared_meat",
       "comparisonGroup": "meat_breaded_chicken",
-      "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热；不与生鲜鸡胸肉混比。",
+      "descriptionZh": "帕玛森风味裹粉鸡肉块或鸡胸薄片，通常已经调味，适合烤箱或空气炸锅加热。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -3005,7 +3015,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426748738/1783514840/extra_large.jpg"
       },
       "productNameZh": "帕玛森裹粉鸡肉",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "publix premium ground coffee": {
       "originalName": "Publix Premium Ground Coffee†",
@@ -3075,7 +3086,7 @@
       "originalName": "Publix Southwest Chicken Tender Wrap",
       "categoryId": "prepared_meat",
       "comparisonGroup": "meat_chicken_sandwich",
-      "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐；不与单独售卖的鸡胸肉或裹粉鸡块比较最低价。",
+      "descriptionZh": "鸡肉三明治或卷饼，是包含面包/饼皮、鸡肉和配菜的即食餐。",
       "authoredBy": "Codex",
       "reviewStatus": "codex_name_and_description_reviewed",
       "imageReviewed": false,
@@ -3085,7 +3096,8 @@
         "imageUrl": "https://f.wishabi.net/page_items/426750112/1783514855/extra_large.jpg"
       },
       "productNameZh": "鸡肉三明治或卷饼",
-      "reviewedAt": "2026-07-18T16:13:27.448Z"
+      "reviewedAt": "2026-07-18T16:13:27.448Z",
+      "descriptionSpecVersion": "zh-product-v4"
     },
     "publix sweet italian sausage": {
       "originalName": "Publix Sweet Italian Sausage",

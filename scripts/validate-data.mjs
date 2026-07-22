@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import { descriptionKeyFor } from './lib/product-descriptions.mjs';
+import { DESCRIPTION_SPEC_VERSION, descriptionKeyFor } from './lib/product-descriptions.mjs';
 import { explicitMultipack } from './lib/normalize.mjs';
 const data = JSON.parse(await fs.readFile(new URL('../data/current_offers.json', import.meta.url), 'utf8'));
 const atlanta = JSON.parse(await fs.readFile(new URL('../data/atlanta_offers.json', import.meta.url), 'utf8'));
@@ -87,8 +87,8 @@ for (const offer of data.offers) {
   if (mixedOfferPatterns.some(pattern => pattern.test(offer.originalName)) && data.comparisonGroups[offer.comparisonGroup].comparable !== false) throw new Error(`Mixed offer entered a lowest-price pool: ${offer.originalName} -> ${offer.comparisonGroup}`);
 }
 
-if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== 'zh-product-v3' || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
-if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== 'zh-product-v3' || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
+if (descriptionCache.schemaVersion !== 2 || descriptionCache.descriptionSpecVersion !== DESCRIPTION_SPEC_VERSION || descriptionCache.maintainedBy !== 'Codex' || typeof descriptionCache.entries !== 'object') throw new Error('Invalid product description cache');
+if (descriptionPending.schemaVersion !== 2 || descriptionPending.descriptionSpecVersion !== DESCRIPTION_SPEC_VERSION || !Array.isArray(descriptionPending.items) || descriptionPending.count !== descriptionPending.items.length) throw new Error('Invalid pending description queue');
 if (!data.metadata.contentUpdatedAt) throw new Error('Aarhus content update time is missing');
 const pendingKeys = new Set();
 for (const item of descriptionPending.items) {

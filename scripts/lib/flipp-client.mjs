@@ -1,3 +1,5 @@
+import { sanitizeItemDescriptionZh } from './description-quality.mjs';
+
 const BASE_URL = 'https://backflipp.wishabi.com/flipp';
 const TIMEOUT_MS = 15_000;
 const RETRIES = 3;
@@ -333,7 +335,7 @@ export function classifyFlippItem(name) {
   const match = PRODUCT_RULES.find(([, pattern]) => pattern.test(text));
   if (!match) return null;
   const comparisonGroup = refineAtlantaComparisonGroup(atlantaComparisonGroup(text, match[0]), text);
-  return { categoryId: refineAtlantaCategory(match[0], comparisonGroup), comparisonGroup, zhExplanation: match[2], evidenceBasis: 'original_name' };
+  return { categoryId: refineAtlantaCategory(match[0], comparisonGroup), comparisonGroup, zhExplanation: sanitizeItemDescriptionZh(match[2]), evidenceBasis: 'original_name' };
 }
 
 function httpsUrl(value) {
@@ -386,7 +388,7 @@ export function normalizeFlippItems(items, { storeId, flyer, seenAt, postalCode,
     const category = knowledge?.categoryId && knowledge?.descriptionZh
       ? (() => {
           const comparisonGroup = refineAtlantaComparisonGroup(knowledge.comparisonGroup, name);
-          return { categoryId: refineAtlantaCategory(knowledge.categoryId, comparisonGroup), comparisonGroup, zhExplanation: knowledge.descriptionZh, evidenceBasis: 'codex_product_knowledge' };
+          return { categoryId: refineAtlantaCategory(knowledge.categoryId, comparisonGroup), comparisonGroup, zhExplanation: sanitizeItemDescriptionZh(knowledge.descriptionZh), evidenceBasis: 'codex_product_knowledge' };
         })()
       : classifyFlippItem(name);
     if (item.display_type !== 1 || !name || !Number.isFinite(price) || price <= 0 || !category) continue;

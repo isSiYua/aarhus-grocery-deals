@@ -2,9 +2,10 @@ import fs from 'node:fs/promises';
 
 import { normalizedText } from './taxonomy.mjs';
 import { explainInChinese } from './explain-zh.mjs';
+import { sanitizeItemDescriptionZh } from './description-quality.mjs';
 
 export const DESCRIPTION_SCHEMA_VERSION = 2;
-export const DESCRIPTION_SPEC_VERSION = 'zh-product-v3';
+export const DESCRIPTION_SPEC_VERSION = 'zh-product-v4';
 
 export function descriptionKeyFor(raw, classification) {
   const name = normalizedText(raw?.heading || raw?.originalName || '');
@@ -43,7 +44,7 @@ export function resolveProductDescription(raw, classification, cache = emptyDesc
     return {
       descriptionKey,
       productNameZh: cached.productNameZh || null,
-      zhExplanation: cached.descriptionZh,
+      zhExplanation: sanitizeItemDescriptionZh(cached.descriptionZh),
       descriptionSource: 'codex_cache',
       descriptionAuthor: cached.authoredBy || 'Codex',
       descriptionVersion: cached.descriptionSpecVersion || cache.descriptionSpecVersion || null,
@@ -52,7 +53,7 @@ export function resolveProductDescription(raw, classification, cache = emptyDesc
     return {
       descriptionKey,
       productNameZh: null,
-      zhExplanation: explainInChinese(raw, classification),
+      zhExplanation: sanitizeItemDescriptionZh(explainInChinese(raw, classification)),
     descriptionSource: 'rules_fallback',
   };
 }
@@ -101,13 +102,13 @@ export function applyDescriptionCacheToOffers(offers, cache) {
     const canonicalDescriptionKey = descriptionKeyFor(offer, offer);
     const cached = cache.entries?.[descriptionKey] || cache.entries?.[canonicalDescriptionKey];
     if (!cached?.descriptionZh) {
-      const fallback = explainInChinese(
+      const fallback = sanitizeItemDescriptionZh(explainInChinese(
         {
           heading: offer.originalName || offer.heading || '',
           description: offer.originalDescription || offer.description || '',
         },
         { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup },
-      );
+      ));
       const {
         descriptionModel: _model,
         descriptionPromptVersion: _prompt,
@@ -118,12 +119,13 @@ export function applyDescriptionCacheToOffers(offers, cache) {
       if (offer.zhExplanation !== fallback || offer.descriptionSource !== 'rules_fallback') applied += 1;
       return { ...rest, descriptionKey, zhExplanation: fallback, descriptionSource: 'rules_fallback' };
     }
-    if (offer.zhExplanation !== cached.descriptionZh || offer.descriptionSource !== 'codex_cache') applied += 1;
+    const descriptionZh = sanitizeItemDescriptionZh(cached.descriptionZh);
+    if (offer.zhExplanation !== descriptionZh || offer.descriptionSource !== 'codex_cache') applied += 1;
     return {
       ...offer,
       descriptionKey,
       productNameZh: cached.productNameZh || offer.productNameZh || null,
-      zhExplanation: cached.descriptionZh,
+      zhExplanation: descriptionZh,
       descriptionSource: 'codex_cache',
       descriptionAuthor: cached.authoredBy || 'Codex',
       descriptionVersion: cached.descriptionSpecVersion || cache.descriptionSpecVersion || null,
