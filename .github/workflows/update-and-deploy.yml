@@ -84,7 +84,9 @@ jobs:
         id: site_mode
         if: steps.schedule_gate.outputs.should_run == 'true'
         shell: bash
-        run: echo "mode=$(node -e \"console.log(JSON.parse(require('fs').readFileSync('site-mode.json', 'utf8')).mode)\")" >> "$GITHUB_OUTPUT"
+        run: |
+          mode="$(node --input-type=module -e "import fs from 'node:fs'; console.log(JSON.parse(fs.readFileSync('site-mode.json', 'utf8')).mode)")"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
       - name: Refresh Aarhus offers from the public flyer feed
         if: steps.schedule_gate.outputs.should_refresh == 'true' && steps.site_mode.outputs.mode == 'live'
         run: npm run update:fallback
