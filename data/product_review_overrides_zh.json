@@ -1625,7 +1625,7 @@
       "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "周四现做丹麦开放式三明治任选",
-      "descriptionZh": "这是 Mad Cooperativet 柜台周四供应的丹麦 smørrebrød：以一片面包托住冷切肉、炸鱼、虾或其他配料，图片展示火腿蔬菜、炸鱼柠檬和虾等装饰丰富的款式。每份任选价相同，实际口味会因门店库存而不同，适合作为即食午餐或轻餐。",
+      "descriptionZh": "这是 Mad Cooperativet 柜台周四供应的丹麦开放式三明治（smørrebrød）：以一片面包托住冷切肉、炸鱼、虾或其他配料，图片展示火腿蔬菜、炸鱼柠檬和虾等装饰丰富的款式。每份任选价相同，实际口味会因门店库存而不同，适合作为即食午餐或轻餐。",
       "imageReviewed": true,
       "descriptionSpecVersion": "zh-product-v6"
     },
@@ -1633,7 +1633,7 @@
       "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
       "productNameZh": "周四现做丹麦开放式三明治任选",
-      "descriptionZh": "这是 Mad Cooperativet 柜台周四供应的丹麦 smørrebrød：以一片面包托住冷切肉、炸鱼、虾或其他配料，图片展示火腿蔬菜、炸鱼柠檬和虾等装饰丰富的款式。每份任选价相同，实际口味会因门店库存而不同，适合作为即食午餐或轻餐。",
+      "descriptionZh": "这是 Mad Cooperativet 柜台周四供应的丹麦开放式三明治（smørrebrød）：以一片面包托住冷切肉、炸鱼、虾或其他配料，图片展示火腿蔬菜、炸鱼柠檬和虾等装饰丰富的款式。每份任选价相同，实际口味会因门店库存而不同，适合作为即食午餐或轻餐。",
       "imageReviewed": true,
       "descriptionSpecVersion": "zh-product-v6"
     },
@@ -1670,5 +1670,5 @@
       "descriptionSpecVersion": "zh-product-v6"
     }
   },
-  "updatedAt": "2026-07-22T17:49:00.000Z"
+  "updatedAt": "2026-07-22T17:52:00.000Z"
 }

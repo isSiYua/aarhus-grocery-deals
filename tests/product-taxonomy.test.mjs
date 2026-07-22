@@ -76,7 +76,7 @@ test('every published product has a repository-backed Chinese product name and n
     ['Kyllingepopcorn', ['爆米花鸡块（裹粉小鸡块）', 'prepared_chicken_breaded', /甜辣蘸酱/]],
     ['Morliny classic eller crispy hot wings', ['Morliny 原味热辣或裹粉脆皮鸡翅', 'prepared_chicken_wings_mixed_offer', /烤箱或空气炸锅复热/]],
     ['Galle & Jessen pålægschokolade*', ['面包用薄片巧克力', 'chocolate', /不是肉类冷切/]],
-    ['Torsdagssmørrebrød', ['丹麦开放式三明治', 'ready_meal', /开放式三明治/]],
+    ['Torsdagssmørrebrød', ['周四现做丹麦开放式三明治任选', 'ready_meal', /开放式三明治/]],
     ['Kalkunbrystfilet', ['火鸡胸肉', 'turkey_breast', /不是鸡胸肉/]],
     ['Kalkununderlår', ['火鸡小腿', 'turkey_thigh', /慢烤、炖煮或红烧/]],
   ]);

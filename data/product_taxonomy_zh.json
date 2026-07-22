@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T17:43:41.817Z",
+  "updatedAt": "2026-07-22T17:48:59.784Z",
   "entries": {
     "v1|1 enkelt bitter grant s whisky brondums snaps bacardi rom ramazzotti limoncello eller raastoff shots|alcohol_spirits": {
       "status": "active",
@@ -52616,25 +52616,25 @@
       "status": "active",
       "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
-      "labelZh": "丹麦开放式三明治",
+      "labelZh": "周四现做丹麦开放式三明治任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Torsdagssmørrebrød",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T04:08:36.238Z"
+      "reviewedAt": "2026-07-22T17:48:59.784Z"
     },
     "v1|torsdagssmorrebrod|ready_meal|variant-eae09a13f49a": {
       "status": "active",
       "categoryId": "ready_meals",
       "comparisonGroup": "ready_meal",
-      "labelZh": "丹麦开放式三明治",
+      "labelZh": "周四现做丹麦开放式三明治任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Torsdagssmørrebrød",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T04:08:36.238Z"
+      "reviewedAt": "2026-07-22T17:48:59.784Z"
     },
     "v1|tp link ax1500 router|electronics_computer": {
       "status": "active",
@@ -56948,25 +56948,25 @@
       "status": "active",
       "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_oral_care",
-      "labelZh": "牙膏",
+      "labelZh": "Zendium 牙膏两支装",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zendium",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T17:48:59.784Z"
     },
     "v1|zendium|personal_oral_care|variant-4e02a208bf7e": {
       "status": "active",
       "categoryId": "personal_oral_beauty",
       "comparisonGroup": "personal_oral_care",
-      "labelZh": "牙膏",
+      "labelZh": "Zendium 牙膏两支装",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "ZENDIUM",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T17:42:10.447Z"
+      "reviewedAt": "2026-07-22T17:48:59.784Z"
     },
     "v1|zero feel indershorts|clothing_adult": {
       "status": "active",
