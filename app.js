@@ -1003,11 +1003,13 @@ function atlantaStoreView(storeId) {
 
 function statusBanner() {
   const metadata = activeData()?.metadata || {};
-  if (metadata.mode !== 'demo' && !metadata.stale) return null;
+  if (!['demo', 'permission-review'].includes(metadata.mode) && !metadata.stale) return null;
   const failed = (metadata.failedStores || []).map(id => storeById(id)?.name || id).join('、');
-  const text = metadata.mode === 'demo'
-    ? '当前是可交互的首版演示数据。部署后，每日更新程序会从促销数据源替换为真实且仍有效的商品。'
-    : `以下商店今天未能刷新：${failed || '未知来源'}。仅这些商店保留上次确认记录。`;
+  const text = metadata.mode === 'permission-review'
+    ? '授权审核模式：当前页面只使用虚构商店、虚构商品和演示价格，不包含真实促销数据或促销图片。'
+    : metadata.mode === 'demo'
+      ? '当前是可交互的首版演示数据。部署后，每日更新程序会从促销数据源替换为真实且仍有效的商品。'
+      : `以下商店今天未能刷新：${failed || '未知来源'}。仅这些商店保留上次确认记录。`;
   return el('div', { class: 'status-banner' }, text);
 }
 
