@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "descriptionSpecVersion": "zh-product-v4",
-  "generatedAt": "2026-07-22T03:27:24.752Z",
-  "count": 17,
+  "generatedAt": "2026-07-22T03:43:37.084Z",
+  "count": 16,
   "items": [
     {
       "descriptionKey": "v1|cloetta bars|chocolate",
@@ -21,7 +21,7 @@
       "descriptionKey": "v1|coop proteinshake|milk",
       "originalName": "Coop proteinshake*",
       "sampleDescriptions": [
-        "500 g. Kg-pris 30,00. Frit valg. 1 stk."
+        "50 g protein 500 g. Kg-pris 30,00. Frit valg. 1 stk."
       ],
       "categoryId": "eggs_milk",
       "comparisonGroup": "milk",
@@ -66,19 +66,6 @@
       "comparisonGroup": "paper_other",
       "stores": [
         "bilka"
-      ],
-      "occurrences": 1
-    },
-    {
-      "descriptionKey": "v1|heinz tomat ketchup eller sauce|sauce_mixed_offer",
-      "originalName": "Heinz tomat-ketchup eller sauce",
-      "sampleDescriptions": [
-        "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. MÅNEDENS Medlems KØB JULI Bliv Coop Medlem og få del i de eksklusive medlemsfordele nu Gælder fra 1. juli til og med 31. juli, så længe lager haves. Medlemsrabat op til 12,95 Pris ikke-medlem op til 29,95"
-      ],
-      "categoryId": "sauces_condiments",
-      "comparisonGroup": "sauce_mixed_offer",
-      "stores": [
-        "365"
       ],
       "occurrences": 1
     },

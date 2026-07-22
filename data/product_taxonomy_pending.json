@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
-  "generatedAt": "2026-07-22T03:27:24.752Z",
-  "count": 8,
+  "generatedAt": "2026-07-22T03:43:37.084Z",
+  "count": 7,
   "items": [
     {
       "descriptionKey": "v1|cloetta bars|chocolate",
@@ -12,27 +12,17 @@
       "currentComparisonGroup": "chocolate",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-21.webp&w=1000&x1r=0.514&x2r=0.966&y1r=0.044&y2r=0.334&s=295c455757af232cb60f3d5ffcd3ead9"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Ffa8559911310be2a46d98e9c9f4ae031&w=1000&s=ff95e1c7bfc542f7cbad00ed70c8952b"
     },
     {
       "descriptionKey": "v1|coop proteinshake|milk",
       "originalName": "Coop proteinshake*",
-      "originalDescription": "500 g. Kg-pris 30,00. Frit valg. 1 stk.",
+      "originalDescription": "50 g protein 500 g. Kg-pris 30,00. Frit valg. 1 stk.",
       "currentCategoryId": "eggs_milk",
       "currentComparisonGroup": "milk",
       "currentReviewStatus": "unreviewed",
       "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fbusiness_images%2FDWZE1w%2Feff737011a89483043406b9e68533f2f&w=1000&s=6a30da429d5753450466bd842a615b2c"
-    },
-    {
-      "descriptionKey": "v1|heinz tomat ketchup eller sauce|sauce_mixed_offer",
-      "originalName": "Heinz tomat-ketchup eller sauce",
-      "originalDescription": "Flere varianter. 395-570 g./220 ml. Kg-pris 43,04/Literpris 77,27. Frit valg. 1 stk. MÅNEDENS Medlems KØB JULI Bliv Coop Medlem og få del i de eksklusive medlemsfordele nu Gælder fra 1. juli til og med 31. juli, så længe lager haves. Medlemsrabat op til 12,95 Pris ikke-medlem op til 29,95",
-      "currentCategoryId": "sauces_condiments",
-      "currentComparisonGroup": "sauce_mixed_offer",
-      "currentReviewStatus": "unreviewed",
-      "storeId": "365",
-      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-16.webp&w=1000&x1r=0.037&x2r=0.962&y1r=0.675&y2r=0.962&s=09053182d65835cdbc949b0bc49d7134"
+      "imageUrl": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fdu5PQdPJ%2Fp-13.webp&w=1000&x1r=0.032&x2r=0.974&y1r=0.078&y2r=0.328&s=10df3e89fd2853a6343bdb71a1945899"
     },
     {
       "descriptionKey": "v1|nektariner ferskner blommer eller abrikoser|mixed_stone_fruit",
