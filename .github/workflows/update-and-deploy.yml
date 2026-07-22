@@ -5,6 +5,7 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/update-and-deploy.yml'
       - 'app.js'
       - 'search-ranking.js'
       - 'styles.css'
