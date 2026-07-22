@@ -15,6 +15,7 @@ const descriptionCachePath = path.join(root, 'data/product_descriptions_zh.json'
 const descriptionPendingPath = path.join(root, 'data/product_descriptions_pending.json');
 const taxonomyPath = path.join(root, 'data/product_taxonomy_zh.json');
 const taxonomyPendingPath = path.join(root, 'data/product_taxonomy_pending.json');
+const reviewOverridesPath = path.join(root, 'data/product_review_overrides_zh.json');
 const nowIso = new Date().toISOString();
 const wantedStores = {
   netto: ['netto'],
@@ -250,6 +251,7 @@ async function loadJson(file, fallback) {
 const previous = await loadJson(dataPath, { metadata:{}, stores:[], categories:[], comparisonGroups:{}, offers:[] });
 const descriptionCache = await loadDescriptionCache(descriptionCachePath);
 const productTaxonomy = await loadProductTaxonomy(taxonomyPath);
+const reviewOverrides = await loadJson(reviewOverridesPath, { entries: {} });
 const previousHistory = await loadJson(historyPath, []);
 const previousDescriptionPending = await loadJson(descriptionPendingPath, null);
 const previousTaxonomyPending = await loadJson(taxonomyPendingPath, null);
@@ -288,7 +290,7 @@ for (const [storeId, aliases] of Object.entries(wantedStores)) {
     const localStoreIds = new Set(nearbyStores.map(store => store.id));
     const normalized = raw
       .filter(item => isAarhusRelevantOffer(item, storeId, localStoreIds))
-      .map(item => normalizeOffer(item, nowIso, { descriptionCache, productTaxonomy }))
+      .map(item => normalizeOffer(item, nowIso, { descriptionCache, productTaxonomy, reviewOverrides }))
       .filter(item => item && item.storeId === storeId);
     freshByStore[storeId] = normalized;
     nearbyStoresByStore[storeId] = nearbyStores;

@@ -143,7 +143,11 @@ function imageUrl(raw) {
 export function normalizeOffer(raw, nowIso, options = {}) {
   const storeId = getStoreId(raw);
   if (!storeId) return null;
-  const baseClassification = classifyOffer(raw);
+  const reviewOverride = options.reviewOverrides?.entries?.[normalizedText(raw.heading || '')] || null;
+  if (reviewOverride?.status === 'excluded') return null;
+  const baseClassification = reviewOverride?.categoryId && reviewOverride?.comparisonGroup
+    ? { categoryId: reviewOverride.categoryId, comparisonGroup: reviewOverride.comparisonGroup }
+    : classifyOffer(raw);
   if (!baseClassification) return null;
   const pricing = priceFields(raw);
   if (!Number.isFinite(pricing.price)) return null;

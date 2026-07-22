@@ -18,17 +18,51 @@ const write = async (url, value) => fs.writeFile(url, `${JSON.stringify(value, n
 const now = new Date().toISOString();
 
 const aarhus = await read(aarhusUrl);
-const previousDescriptions = await read(descriptionsUrl);
+const previousAarhusOffers = aarhus.offers;
+// The optional baseline paths are useful when recovering a generated review from
+// an earlier repository revision. Normal runs always reuse the checked-in cache.
+const previousDescriptions = await read(process.env.PRODUCT_REVIEW_BASELINE_DESCRIPTIONS || descriptionsUrl);
+const previousTaxonomy = await read(process.env.PRODUCT_REVIEW_BASELINE_TAXONOMY || taxonomyUrl);
+const pendingDescriptionsToReview = await read(
+  process.env.PRODUCT_REVIEW_PENDING_DESCRIPTIONS || pendingDescriptionsUrl,
+);
+const previousPendingTaxonomy = await read(pendingTaxonomyUrl);
 const reviewOverrides = await read(reviewOverridesUrl);
 const previousByName = new Map(Object.values(previousDescriptions.entries || {}).map(entry => [entry.originalName, entry]));
-const descriptionEntries = {};
-const taxonomyEntries = {};
+const descriptionEntries = { ...(previousDescriptions.entries || {}) };
+const taxonomyEntries = { ...(previousTaxonomy.entries || {}) };
 const nextAarhusOffers = [];
+const reviewCandidates = [
+  ...aarhus.offers.map(offer => ({ ...offer, publish: true })),
+  ...(pendingDescriptionsToReview.items || []).map(item => ({
+    originalName: item.originalName,
+    originalDescription: item.sampleDescriptions?.[0] || '',
+    categoryId: item.categoryId,
+    comparisonGroup: item.comparisonGroup,
+    imageUrl: null,
+    publish: false,
+  })),
+];
 
-for (const offer of aarhus.offers) {
+const sameDescriptionReview = (previous, next) => Boolean(previous)
+  && previous.productNameZh === next.productNameZh
+  && previous.descriptionZh === next.descriptionZh
+  && previous.categoryId === next.categoryId
+  && previous.comparisonGroup === next.comparisonGroup
+  && Boolean(previous.evidence?.offerImageReviewed) === Boolean(next.evidence?.offerImageReviewed);
+
+const sameTaxonomyReview = (previous, next) => Boolean(previous)
+  && previous.status === next.status
+  && previous.categoryId === next.categoryId
+  && previous.comparisonGroup === next.comparisonGroup
+  && previous.labelZh === next.labelZh
+  && previous.reasonZh === next.reasonZh;
+
+for (const offer of reviewCandidates) {
   const raw = { heading: offer.originalName, description: offer.originalDescription || '' };
   if (isClearlyOutOfScope(raw)) continue;
   const override = reviewOverrides.entries?.[normalizedText(offer.originalName)] || null;
+  if (override?.status === 'excluded') continue;
   const classification = override?.categoryId && override?.comparisonGroup
     ? { categoryId: override.categoryId, comparisonGroup: override.comparisonGroup }
     : (classifyOffer(raw) || { categoryId: offer.categoryId, comparisonGroup: offer.comparisonGroup });
@@ -43,27 +77,30 @@ for (const offer of aarhus.offers) {
       || (keepImageReviewedDescription ? previous.descriptionZh : (exactDescription || `${productNameZh}。${fallback}`)),
   );
 
-  if (!descriptionEntries[descriptionKey]) {
-    descriptionEntries[descriptionKey] = {
-      productNameZh,
-      descriptionZh,
-      originalName: offer.originalName,
-      originalDescription: offer.originalDescription || '',
-      categoryId: classification.categoryId,
-      comparisonGroup: classification.comparisonGroup,
-      authoredBy: 'Codex',
-      reviewStatus: 'codex_name_and_description_reviewed',
-      descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
-      reviewedAt: now,
-      evidence: {
-        originalNameReviewed: true,
-        originalDescriptionReviewed: true,
-        offerImageReviewed: Boolean(override?.imageReviewed || previous?.evidence?.offerImageReviewed),
-        imageUrl: offer.imageUrl || previous?.evidence?.imageUrl || null,
-      },
-    };
-  }
-  taxonomyEntries[descriptionKey] = {
+  const descriptionCandidate = {
+    productNameZh,
+    descriptionZh,
+    originalName: offer.originalName,
+    originalDescription: offer.originalDescription || '',
+    categoryId: classification.categoryId,
+    comparisonGroup: classification.comparisonGroup,
+    authoredBy: 'Codex',
+    reviewStatus: 'codex_name_and_description_reviewed',
+    descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
+    reviewedAt: now,
+    evidence: {
+      originalNameReviewed: true,
+      originalDescriptionReviewed: true,
+      offerImageReviewed: Boolean(override?.imageReviewed || previous?.evidence?.offerImageReviewed),
+      imageUrl: offer.imageUrl || previous?.evidence?.imageUrl || null,
+    },
+  };
+  const exactPreviousDescription = previousDescriptions.entries?.[descriptionKey];
+  descriptionEntries[descriptionKey] = sameDescriptionReview(exactPreviousDescription, descriptionCandidate)
+    ? exactPreviousDescription
+    : descriptionCandidate;
+
+  const taxonomyCandidate = {
     status: 'active',
     categoryId: classification.categoryId,
     comparisonGroup: classification.comparisonGroup,
@@ -75,47 +112,65 @@ for (const offer of aarhus.offers) {
     taxonomyVersion: 'codex-taxonomy-v1',
     reviewedAt: now,
   };
-  nextAarhusOffers.push({
-    ...offer,
-    ...classification,
-    productNameZh,
-    descriptionKey,
-    zhExplanation: descriptionZh,
-    descriptionSource: 'codex_cache',
-    descriptionAuthor: 'Codex',
-    descriptionVersion: DESCRIPTION_SPEC_VERSION,
-    taxonomySource: 'codex_taxonomy',
-    taxonomyReviewStatus: 'reviewed',
-    taxonomyLabelZh: productNameZh,
-    taxonomyReasonZh: taxonomyEntries[descriptionKey].reasonZh,
-  });
+  const exactPreviousTaxonomy = previousTaxonomy.entries?.[descriptionKey];
+  taxonomyEntries[descriptionKey] = sameTaxonomyReview(exactPreviousTaxonomy, taxonomyCandidate)
+    ? exactPreviousTaxonomy
+    : taxonomyCandidate;
+  if (offer.publish) {
+    const { publish: _publish, ...publicOffer } = offer;
+    nextAarhusOffers.push({
+      ...publicOffer,
+      ...classification,
+      productNameZh,
+      descriptionKey,
+      zhExplanation: descriptionZh,
+      descriptionSource: 'codex_cache',
+      descriptionAuthor: 'Codex',
+      descriptionVersion: DESCRIPTION_SPEC_VERSION,
+      taxonomySource: 'codex_taxonomy',
+      taxonomyReviewStatus: 'reviewed',
+      taxonomyLabelZh: productNameZh,
+      taxonomyReasonZh: taxonomyEntries[descriptionKey].reasonZh,
+    });
+  }
 }
 
+const offersChanged = JSON.stringify(nextAarhusOffers) !== JSON.stringify(previousAarhusOffers);
 aarhus.offers = nextAarhusOffers;
 aarhus.comparisonGroups = AARHUS_COMPARISON_GROUPS;
-aarhus.metadata.contentUpdatedAt = now;
+if (offersChanged) aarhus.metadata.contentUpdatedAt = now;
 aarhus.metadata.contentRevision = 'codex-product-review-v3';
 const descriptions = {
   schemaVersion: 2,
   descriptionSpecVersion: DESCRIPTION_SPEC_VERSION,
   maintainedBy: 'Codex',
-  updatedAt: now,
+  updatedAt: Object.keys(descriptionEntries).length === Object.keys(previousDescriptions.entries || {}).length
+    && Object.entries(descriptionEntries).every(([key, value]) => value === previousDescriptions.entries?.[key])
+    ? previousDescriptions.updatedAt
+    : now,
   reviewPolicy: 'Each published product has a repository-backed Chinese name and explanation reviewed from its original name and flyer description. Image evidence remains separately marked.',
   entries: Object.fromEntries(Object.entries(descriptionEntries).sort(([a], [b]) => a.localeCompare(b))),
 };
-const pendingDescriptions = { schemaVersion: 2, descriptionSpecVersion: DESCRIPTION_SPEC_VERSION, generatedAt: now, count: 0, items: [] };
+const pendingDescriptions = pendingDescriptionsToReview.count === 0
+  ? pendingDescriptionsToReview
+  : { schemaVersion: 2, descriptionSpecVersion: DESCRIPTION_SPEC_VERSION, generatedAt: now, count: 0, items: [] };
 const taxonomy = {
   schemaVersion: 1,
   taxonomyVersion: 'codex-taxonomy-v1',
   maintainedBy: 'Codex',
-  updatedAt: now,
+  updatedAt: Object.keys(taxonomyEntries).length === Object.keys(previousTaxonomy.entries || {}).length
+    && Object.entries(taxonomyEntries).every(([key, value]) => value === previousTaxonomy.entries?.[key])
+    ? previousTaxonomy.updatedAt
+    : now,
   entries: Object.fromEntries(Object.entries(taxonomyEntries).sort(([a], [b]) => a.localeCompare(b))),
 };
-const pendingTaxonomy = { schemaVersion: 1, taxonomyVersion: 'codex-taxonomy-v1', generatedAt: now, count: 0, items: [] };
+const pendingTaxonomy = previousPendingTaxonomy.count === 0
+  ? previousPendingTaxonomy
+  : { schemaVersion: 1, taxonomyVersion: 'codex-taxonomy-v1', generatedAt: now, count: 0, items: [] };
 
 await Promise.all([
   write(aarhusUrl, aarhus), write(descriptionsUrl, descriptions), write(pendingDescriptionsUrl, pendingDescriptions),
   write(taxonomyUrl, taxonomy), write(pendingTaxonomyUrl, pendingTaxonomy),
 ]);
 
-console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} Aarhus products; no current descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);
+console.log(`Codex product review saved ${Object.keys(descriptionEntries).length} reusable Aarhus products, including ${pendingDescriptionsToReview.items?.length || 0} pending products; no reviewed descriptions remain on category fallbacks. Archived Atlanta data was not changed.`);

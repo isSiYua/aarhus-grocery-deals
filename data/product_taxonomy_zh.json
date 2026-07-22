@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "taxonomyVersion": "codex-taxonomy-v1",
   "maintainedBy": "Codex",
-  "updatedAt": "2026-07-22T04:17:24.099Z",
+  "updatedAt": "2026-07-22T05:37:07.385Z",
   "entries": {
     "v1|10 friskbagte rundstykker|bread": {
       "status": "active",
@@ -35,6 +35,18 @@
       "labelZh": "三明治冷切或抹酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "3-Stjernet pålæg",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|3 stjernet paalaeg|sausage_other": {
+      "status": "active",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_other",
+      "labelZh": "三明治冷切或抹酱",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "3-Stjernet Pålæg",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -435,6 +447,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|andoni glutenfri pizza salami|pizza_snacks": {
+      "status": "active",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "labelZh": "Andoni 无麸质萨拉米披萨",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Andoni glutenfri pizza salami",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|andoni italiensk pizza|pizza_snacks": {
+      "status": "active",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "labelZh": "Andoni 意式披萨",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Andoni italiensk pizza",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|andoni pizza|pizza_snacks": {
       "status": "active",
@@ -964,6 +1000,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|baadsmand fiskefrikadeller|seafood_other": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_other",
+      "labelZh": "Bådsmand 丹麦鱼饼",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bådsmand fiskefrikadeller",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|baadsmand koldroget eller gravad laks|salmon_smoked": {
       "status": "active",
       "categoryId": "seafood",
@@ -975,6 +1023,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|baadsmand varmroget laks|salmon_smoked": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "labelZh": "Bådsmand 热熏三文鱼",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bådsmand varmrøget laks",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|babyvandmelon|watermelon": {
       "status": "active",
@@ -1048,6 +1108,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|bagepapir i ark traek luk 15 20 eller 30 liter affaldsposer|household_mixed_offer": {
+      "status": "active",
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "household_mixed_offer",
+      "labelZh": "烘焙纸或 15/20/30 升抽绳垃圾袋任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bagepapir i ark, Træk&Luk 15, 20 eller 30 liter affaldsposer",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|bagerens brod|bread": {
       "status": "active",
       "categoryId": "bread_bakery",
@@ -1096,6 +1168,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|bakersfield hvidlogsbrod 2 pak|bread": {
+      "status": "active",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "labelZh": "Bakersfield 冷冻蒜香面包两包装",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bakersfield hvidløgsbrød 2-pak",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|bakkedal okologisk smor|butter": {
       "status": "active",
       "categoryId": "butter_spreads",
@@ -1108,6 +1192,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|bamseline skyllemiddel omo flydende vaskemiddel eller pulver|cleaning_mixed_offer": {
+      "status": "active",
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning_mixed_offer",
+      "labelZh": "Bamseline 衣物柔顺剂或 OMO 洗衣液/洗衣粉任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bamseline skyllemiddel, OMO flydende vaskemiddel eller pulver",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|bananer 5 stk|bananas": {
       "status": "active",
       "categoryId": "fruit",
@@ -1119,6 +1215,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|bananpose|kitchen_tools": {
+      "status": "active",
+      "categoryId": "household_paper",
+      "comparisonGroup": "kitchen_tools",
+      "labelZh": "香蕉保鲜收纳袋",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bananpose",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|bar marked|chocolate": {
       "status": "active",
@@ -1552,6 +1660,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|bonduelle majs|canned_other": {
+      "status": "active",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_other",
+      "labelZh": "Bonduelle 甜玉米罐头",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Bonduelle majs",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|bornholmsk ost|cheese_other": {
       "status": "active",
       "categoryId": "cheese",
@@ -1563,6 +1683,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|breakfast from bell s havregryn|cereal": {
+      "status": "active",
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "labelZh": "Breakfast from Bell's 细压燕麦片",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Breakfast from Bell's havregryn",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|brema frisk pappardelle eller tagliatelle pasta|pasta_noodles": {
       "status": "active",
@@ -1659,6 +1791,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|buko pisket flodeost|cheese_spreadable": {
+      "status": "active",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_spreadable",
+      "labelZh": "BUKO 打发奶油奶酪",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Buko pisket flødeost",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|buko reje eller skinkeost|cheese_spreadable": {
       "status": "active",
@@ -1774,7 +1918,7 @@
       "comparisonGroup": "pork_roast",
       "labelZh": "烤猪肉块",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "BUTCHER'S Nakkefilet",
+      "originalName": "BUTCHER’S Nakkefilet",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -1863,6 +2007,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|casa tarradellas pizza|pizza_snacks": {
+      "status": "active",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "labelZh": "Casa Tarradellas 冷藏披萨",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Casa Tarradellas pizza",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|castello aged havarti eller gouda|cheese_danish_table": {
       "status": "active",
@@ -1978,7 +2134,7 @@
       "comparisonGroup": "cheese_cottage_ricotta",
       "labelZh": "茅屋奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Cheasy Hytteost",
+      "originalName": "Cheasy hytteost",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -2014,7 +2170,7 @@
       "comparisonGroup": "yoghurt",
       "labelZh": "Skyr 高蛋白发酵乳",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Cheasy Skyr",
+      "originalName": "Cheasy skyr",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -2056,6 +2212,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|chestfords karry mango dressing|sauce_dressing": {
+      "status": "active",
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dressing",
+      "labelZh": "Chestford's 咖喱芒果沙拉酱",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Chestfords karry/mango dressing",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|chimichurri marineret flatsteak af kalv|prepared_beef_marinated": {
       "status": "active",
       "categoryId": "prepared_meat",
@@ -2091,6 +2259,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|christgau eller black coffee helbonner|coffee_tea": {
+      "status": "active",
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "labelZh": "Christgau 或 Black Coffee 咖啡豆任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Christgau eller Black Coffee helbønner",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|cien paw patrol 2i1 shampoo og balsam|hair_body": {
       "status": "active",
@@ -2283,6 +2463,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|colgate tandborste|hair_body": {
+      "status": "active",
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "labelZh": "Colgate 牙刷四支装",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Colgate tandbørste",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|combino farfalle gnocchi eller fusilli tricolore|pasta_noodles": {
       "status": "active",
@@ -2722,7 +2914,7 @@
       "comparisonGroup": "coffee_tea",
       "labelZh": "整粒咖啡豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "COOP hele kaffebønner",
+      "originalName": "Coop hele kaffebønner",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -3268,6 +3460,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|daim toblerone marabou king size chokoladebar|chocolate": {
+      "status": "active",
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "labelZh": "Daim、Toblerone 或 Marabou 大号巧克力棒任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Daim, Toblerone, Marabou king size chokoladebar",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|dairy goood revet mozzarella|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
@@ -3484,6 +3688,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|dansk hel kylling eller hakket kyllingekod 7 10|chicken_mixed_offer": {
+      "status": "active",
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_mixed_offer",
+      "labelZh": "丹麦整鸡或 7–10% 脂肪鸡肉末任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Dansk hel kylling eller hakket kyllingekød 7-10%",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|dansk icebergsalat fra maansson|lettuce": {
       "status": "active",
       "categoryId": "vegetables",
@@ -3579,6 +3795,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|dansk kyllingefilet|chicken_breast": {
+      "status": "active",
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breast",
+      "labelZh": "丹麦鸡胸肉片",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Dansk kyllingefilet",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|dansk nakkefilet|pork_roast": {
       "status": "active",
@@ -3699,6 +3927,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|danske porrer|vegetables_other": {
+      "status": "active",
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "labelZh": "丹麦产韭葱",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Danske porrer",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|danske svinekoteletter|prepared_pork_mixed_offer": {
       "status": "active",
@@ -3874,7 +4114,7 @@
       "comparisonGroup": "spreads_jam",
       "labelZh": "果酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "DEN GAMLE FABRIK MARMELADE",
+      "originalName": "Den Gamle Fabrik Marmelade",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -4192,6 +4432,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|egelykke lagret skiveost|cheese_sliced": {
+      "status": "active",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_sliced",
+      "labelZh": "Egelykke 熟成切片奶酪",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Egelykke lagret skiveost",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|egelykke skyr naturel|yoghurt": {
+      "status": "active",
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "labelZh": "Egelykke 原味 Skyr 高蛋白酸奶",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Egelykke skyr naturel",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|egelykke smor|butter": {
       "status": "active",
       "categoryId": "butter_spreads",
@@ -4203,6 +4467,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|egelykke smorbar|butter": {
+      "status": "active",
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "labelZh": "Egelykke 可涂抹黄油混合抹酱",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Egelykke smørbar",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|egelykke yoghurt|yoghurt": {
+      "status": "active",
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "labelZh": "Egelykke 水果味酸奶",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Egelykke yoghurt",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|ekstra jomfru olivenolie|oil_olive": {
       "status": "active",
@@ -4864,6 +5152,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|gamle molle krydderboller|bread": {
+      "status": "active",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "labelZh": "Gamle Mølle 香料小圆面包",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Gamle Mølle krydderboller",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|garnier micellar water eller derma eco hudpleje|personal_care_mixed_offer": {
+      "status": "active",
+      "categoryId": "personal_care",
+      "comparisonGroup": "personal_care_mixed_offer",
+      "labelZh": "Garnier 卸妆洁肤水或 Derma Eco 护肤品任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Garnier micellar water eller Derma Eco hudpleje",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|garnier micellar water eller triple active ansigtscreme|hair_body": {
       "status": "active",
       "categoryId": "personal_care",
@@ -4875,6 +5187,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|garofalo pasta|pasta_noodles": {
+      "status": "active",
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "labelZh": "Garofalo 意大利面",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Garofalo pasta",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|gelatelli cookie is|ice_cream": {
       "status": "active",
@@ -5002,7 +5326,7 @@
       "comparisonGroup": "peas",
       "labelZh": "豌豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "GESTUS DANSKE ÆRTER",
+      "originalName": "Gestus Danske Ærter",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -5134,7 +5458,7 @@
       "comparisonGroup": "pizza_snacks",
       "labelZh": "冷冻或即食披萨",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "GESTUS PIZZA",
+      "originalName": "Gestus Pizza",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -5146,7 +5470,7 @@
       "comparisonGroup": "pork_ribs",
       "labelZh": "猪肋排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "GESTUS SPARERIBS",
+      "originalName": "Gestus Spareribs",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -5200,6 +5524,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|gevalia eller cafe noir instant kaffe|coffee_tea": {
+      "status": "active",
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "labelZh": "Gevalia 或 Café Noir 速溶咖啡任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Gevalia eller Café Noir instant kaffe",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|gevalia merrild lavazza eller cafe noir formalet kaffe eller merrild instant kaffe|coffee_tea": {
       "status": "active",
       "categoryId": "coffee_tea",
@@ -5248,6 +5584,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|glyngore tun eller bornholms torskerogn|seafood_mixed_offer": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "labelZh": "Glyngøre 金枪鱼罐头或 Bornholms 鳕鱼籽罐头任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Glyngøre tun eller Bornholms torskerogn",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|glyngore tun i vand el olie|white_fish": {
       "status": "active",
       "categoryId": "seafood",
@@ -5278,7 +5626,7 @@
       "comparisonGroup": "paper_mixed_offer",
       "labelZh": "Godt 卫生纸或厨房纸任选",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Godt papir",
+      "originalName": "Godt Papir",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -5362,7 +5710,7 @@
       "comparisonGroup": "potato_salad",
       "labelZh": "土豆沙拉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Graasten kartoffelsalat",
+      "originalName": "GRAASTEN Kartoffelsalat",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -5704,6 +6052,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|gullon pick kiks|biscuits": {
+      "status": "active",
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "labelZh": "Gullón Pick 饼干",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Gullón Pick kiks",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|haarpleje|hair_body": {
       "status": "active",
       "categoryId": "personal_care",
@@ -5775,6 +6135,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|hakket okse og grisekod 8 12|mixed_minced": {
+      "status": "active",
+      "categoryId": "minced_meat",
+      "comparisonGroup": "mixed_minced",
+      "labelZh": "8–12% 脂肪牛猪混合肉末",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Hakket okse- og grisekød 8-12%",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|hakket okse okse grise eller kalve grisekod|mixed_minced": {
       "status": "active",
@@ -5944,6 +6316,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|harvest best grontsager|frozen_vegetables": {
+      "status": "active",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "frozen_vegetables",
+      "labelZh": "Harvest Best 冷冻蔬菜",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Harvest Best grøntsager",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|harvest best syltede rodlog|pickled_vegetables": {
       "status": "active",
       "categoryId": "canned_pickled",
@@ -6058,7 +6442,7 @@
       "comparisonGroup": "sauce_ketchup",
       "labelZh": "番茄酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "HEINZ Ketchup",
+      "originalName": "Heinz ketchup",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -6183,6 +6567,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|hello sensitive opvaskemiddel|cleaning": {
+      "status": "active",
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "labelZh": "Hello Sensitive 敏感配方洗洁精",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Hello Sensitive opvaskemiddel",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|hello sensitive skumklude|baby_care": {
       "status": "active",
@@ -6658,11 +7054,23 @@
       "comparisonGroup": "sauce_other",
       "labelZh": "烹调酱料",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Jensens sauce",
+      "originalName": "Jensens Sauce",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|jensens spareribs|prepared_pork_cooked": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
+      "labelZh": "Jensens 熟制猪肋排",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Jensens spareribs",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|jordbaerkage|biscuits": {
       "status": "active",
@@ -7204,6 +7612,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|kettle crispy chips|chips": {
+      "status": "active",
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "labelZh": "Kettle Crispy 薯片",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Kettle crispy chips",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|kikkoman soya sauce|sauce_soy": {
       "status": "active",
       "categoryId": "sauces_condiments",
@@ -7270,7 +7690,7 @@
       "comparisonGroup": "chips",
       "labelZh": "薯片或玉米脆片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Kims chips - Limited Edition*",
+      "originalName": "Kims chips - Limited edition*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -7294,7 +7714,7 @@
       "comparisonGroup": "nuts",
       "labelZh": "坚果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "KIMS NØDDER",
+      "originalName": "Kims nødder",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -7311,6 +7731,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|kinder maelkesnitte pingui eller maxi king|mixed_dairy": {
+      "status": "active",
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "mixed_dairy",
+      "labelZh": "Kinder Milch-Schnitte、Pingui 或 Maxi King 冷藏甜点任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Kinder mælkesnitte, pingui eller maxi king",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|kinder snack|chocolate": {
       "status": "active",
@@ -7359,6 +7791,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|kleenex eller urtekram haandsaebe|household_mixed_offer": {
+      "status": "active",
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "household_mixed_offer",
+      "labelZh": "Kleenex 面巾纸或 Urtekram 洗手液任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Kleenex eller Urtekram håndsæbe",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|klorin eller cillit bang|cleaning": {
       "status": "active",
@@ -7414,7 +7858,7 @@
       "comparisonGroup": "cheese_sliced",
       "labelZh": "切片奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Klovborg Skiveost",
+      "originalName": "Klovborg skiveost",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -7443,6 +7887,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|knoppers tictac kinder country eller sour devils|chocolate": {
+      "status": "active",
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "labelZh": "Knoppers、Tic Tac、Kinder Country 或 Sour Devils 糖果任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Knoppers, TicTac, Kinder country eller Sour Devils",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|knorr bouillon eller fond|spices": {
       "status": "active",
@@ -7564,6 +8020,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|kohberg madbrod|bread": {
+      "status": "active",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "labelZh": "Kohberg 餐用面包",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Kohberg madbrød",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|kohberg rugbrod boller eller sandwichbrod|bread": {
       "status": "active",
       "categoryId": "bread_bakery",
@@ -7647,6 +8115,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|koko chokoladeovertrukket frugt|chocolate": {
+      "status": "active",
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "labelZh": "Koko 巧克力裹水果",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Koko chokoladeovertrukket frugt",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|koldskaal m tykmaelk jordbaer|strawberries": {
       "status": "active",
@@ -7864,6 +8344,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|kyllingeunderlaar eller marinerede kyllingespyd|prepared_poultry_mixed_offer": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_poultry_mixed_offer",
+      "labelZh": "原味鸡小腿或腌制鸡肉串任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Kyllingeunderlår eller marinerede kyllingespyd",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|l or eller peter larsen kaffe helbonner|coffee_tea": {
       "status": "active",
       "categoryId": "coffee_tea",
@@ -8002,7 +8494,7 @@
       "comparisonGroup": "paper_mixed_offer",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Lambi Premium toiletpapir/køkkenrulle eller Coop giant køkkenrulle",
+      "originalName": "Lambi Premium toiletpapir/ køkkenrulle eller Coop giant køkkenrulle",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8043,6 +8535,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|langelaender storkobspolser|sausage_mixed_offer": {
+      "status": "active",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "labelZh": "Langelænder 大包装香肠",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Langelænder storkøbspølser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|lash sensational body mascara|hair_body": {
       "status": "active",
@@ -8092,6 +8596,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|lavazza iskaffe|coffee_tea": {
+      "status": "active",
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "labelZh": "Lavazza 即饮冰咖啡",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Lavazza iskaffe",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|lavazza kaffekapsler|coffee_tea": {
       "status": "active",
       "categoryId": "coffee_tea",
@@ -8134,7 +8650,7 @@
       "comparisonGroup": "bread",
       "labelZh": "扁面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LIBA Fladbrød",
+      "originalName": "Liba fladbrød",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8170,7 +8686,7 @@
       "comparisonGroup": "diapers",
       "labelZh": "婴儿纸尿裤/拉拉裤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LIBERO COMFORT ELLER UP&GO BLEER",
+      "originalName": "Libero comfort eller up&go bleer",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8182,7 +8698,7 @@
       "comparisonGroup": "diapers",
       "labelZh": "婴儿纸尿裤/拉拉裤",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Libero Touch Bleer",
+      "originalName": "Libero touch bleer",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8248,6 +8764,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|livskraft skrabeaeg|eggs": {
+      "status": "active",
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "eggs",
+      "labelZh": "Livskraft 平养鸡蛋",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Livskraft skrabeæg",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|log|onion_garlic": {
       "status": "active",
       "categoryId": "vegetables",
@@ -8272,6 +8800,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|logismose marineret kyllingesteak|prepared_chicken_breast_marinated": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "labelZh": "Løgismose 腌制鸡肉排",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Løgismose marineret kyllingesteak",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|logismose mini cookies|biscuits": {
       "status": "active",
       "categoryId": "biscuits_cakes",
@@ -8284,6 +8824,42 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|logismose okologisk farmor eller mormor koldskaal|yoghurt": {
+      "status": "active",
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "labelZh": "Løgismose 有机 Farmor 或 Mormor 丹麦冷酸奶汤",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Løgismose økologisk farmor eller mormor koldskål",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|logismose okologisk graesk inspireret yoghurt|yoghurt": {
+      "status": "active",
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "labelZh": "Løgismose 有机希腊风味酸奶",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Løgismose økologisk græsk inspireret yoghurt",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|logismose okologisk mel|flour_baking": {
+      "status": "active",
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "flour_baking",
+      "labelZh": "Løgismose 有机面粉",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Løgismose økologisk mel",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|logismose okologisk skyr|yoghurt": {
       "status": "active",
       "categoryId": "yoghurt",
@@ -8295,6 +8871,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|logismose okologiske kammerjunkere|biscuits": {
+      "status": "active",
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "labelZh": "Løgismose 有机 Kammerjunkere 小饼干",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Løgismose økologiske kammerjunkere",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|logismose paalaegschokolade|chocolate": {
       "status": "active",
@@ -8319,6 +8907,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|logismose torret frugt|dried_fruit": {
+      "status": "active",
+      "categoryId": "fruit",
+      "comparisonGroup": "dried_fruit",
+      "labelZh": "Løgismose 果干",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Løgismose tørret frugt",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|lose danske kirsebaer|cherries": {
       "status": "active",
@@ -8362,7 +8962,7 @@
       "comparisonGroup": "paper_mixed_offer",
       "labelZh": "卫生纸",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "LOTUS TOILETPAPIR ELLER KØKKENRULLER",
+      "originalName": "Lotus Toiletpapir eller Køkkenruller",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -8890,7 +9490,7 @@
       "comparisonGroup": "chicken_breast",
       "labelZh": "鸡胸肉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "MADVÆRKET Kyllingebrystfilet",
+      "originalName": "MADVÆRKET. Kyllingebrystfilet",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -9196,6 +9796,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|magnum isbaeger eller bonbon|ice_cream_mixed_offer": {
+      "status": "active",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream_mixed_offer",
+      "labelZh": "Magnum 杯装冰淇淋或 Bonbon 巧克力脆皮冰淇淋粒任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Magnum isbæger eller bonbon",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|magnum minecraft eller solero iskasse|ice_cream": {
       "status": "active",
       "categoryId": "ice_cream",
@@ -9238,7 +9850,7 @@
       "comparisonGroup": "chocolate",
       "labelZh": "巧克力或糖果",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Malaco, Skippers mini eller Polly",
+      "originalName": "Malaco, Skippers mini eller Polly.",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -9387,6 +9999,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|mamone sukker|baking_ingredients": {
+      "status": "active",
+      "categoryId": "pantry",
+      "comparisonGroup": "baking_ingredients",
+      "labelZh": "Mamone 白砂糖",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Mamone sukker",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|mandler el cashew nodder|nuts": {
       "status": "active",
@@ -10114,7 +10738,7 @@
       "comparisonGroup": "cheese_spreadable",
       "labelZh": "涂抹奶酪",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "MILBONA Smøreost",
+      "originalName": "Milbona Smøreost",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -10215,6 +10839,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|minimum paalaeg|deli_mixed_offer": {
+      "status": "active",
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
+      "labelZh": "Minimum 三明治冷切肉任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Minimum pålæg",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|monday moisture shampoo eller balsam|hair_body": {
       "status": "active",
@@ -10336,6 +10972,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|mutti hakkede tomater 3 pak|canned_tomatoes": {
+      "status": "active",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_tomatoes",
+      "labelZh": "Mutti 切碎番茄罐头三联包",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Mutti hakkede tomater 3-pak",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|mutti tomater eller pizzasauce|mixed_grocery_offer": {
       "status": "active",
       "categoryId": "pantry",
@@ -10359,6 +11007,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|naemt basissalat|prepared_salad": {
+      "status": "active",
+      "categoryId": "vegetables",
+      "comparisonGroup": "prepared_salad",
+      "labelZh": "Næmt 洗净切丝基础沙拉",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Næmt basissalat",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|naemt taertedej|ready_meal": {
+      "status": "active",
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "labelZh": "Næmt 即用咸派饼皮",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Næmt tærtedej",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|naemt to og server|ready_meal": {
       "status": "active",
@@ -10455,6 +11127,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|naturli solbaerdrom|ice_cream": {
+      "status": "active",
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "labelZh": "Naturli' 黑加仑植物基冰淇淋",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Naturli' solbærdrøm",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|navito fiskepinde eller tempurarejer|seafood_mixed_offer": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "labelZh": "Navito 鱼条或天妇罗虾任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Navito fiskepinde eller tempurarejer",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|navito gronlandske eller vannameirejer|shrimp": {
       "status": "active",
@@ -10623,6 +11319,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|nestle morgenmad maxi pack|cereal": {
+      "status": "active",
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "labelZh": "Nestlé 大包装早餐谷物",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Nestlé morgenmad maxi pack",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|nestle morgenmad|cereal": {
       "status": "active",
@@ -10888,6 +11596,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|ogo okologisk bacon i skiver|bacon_sliced": {
+      "status": "active",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
+      "labelZh": "ØGO 有机培根片",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "ØGO økologisk bacon i skiver",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|ogo okologisk bornekiks|biscuits": {
       "status": "active",
       "categoryId": "biscuits_cakes",
@@ -10899,6 +11619,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|ogo okologisk dansk broccoli|broccoli": {
+      "status": "active",
+      "categoryId": "vegetables",
+      "comparisonGroup": "broccoli",
+      "labelZh": "ØGO 丹麦产有机西兰花",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "ØGO økologisk dansk broccoli",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|ogo okologisk dansk hjertesalat|lettuce": {
+      "status": "active",
+      "categoryId": "vegetables",
+      "comparisonGroup": "lettuce",
+      "labelZh": "ØGO 丹麦产有机罗马生菜心",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "ØGO økologisk dansk hjertesalat",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|ogo okologisk hakket oksekod 8 12|beef_minced": {
       "status": "active",
@@ -10912,6 +11656,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|ogo okologisk spinat fettuccine|pasta_noodles": {
+      "status": "active",
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "labelZh": "ØGO 有机菠菜宽面",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "ØGO økologisk spinat fettuccine",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|ogo okologiske blaabaer|blueberries": {
       "status": "active",
       "categoryId": "fruit",
@@ -10923,6 +11679,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|ogo okologiske finvalsede havregryn|cereal": {
+      "status": "active",
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "labelZh": "ØGO 有机细压燕麦片",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "ØGO økologiske finvalsede havregryn",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|ogo okologiske polser|sausage_other": {
       "status": "active",
@@ -11308,6 +12076,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|oyakata kopnudler|pasta_noodles": {
+      "status": "active",
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "labelZh": "Oyakata 杯装方便面",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Oyakata kopnudler",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|paagen brod|bread": {
       "status": "active",
       "categoryId": "bread_bakery",
@@ -11434,7 +12214,7 @@
       "comparisonGroup": "deli_mixed_offer",
       "labelZh": "烟熏猪里脊冷切",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "PÅLÆKKER Rullepølse eller hamburgerryg",
+      "originalName": "Pålækker Rullepølse eller hamburgerryg",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -11506,7 +12286,7 @@
       "comparisonGroup": "spreads_jam",
       "labelZh": "花生酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Paradiso økologisk peanutbutter*",
+      "originalName": "Paradiso økologisk peanutbutter",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -11547,6 +12327,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|peanutbutter pusheren peanutbutter|spreads_jam": {
+      "status": "active",
+      "categoryId": "breakfast",
+      "comparisonGroup": "spreads_jam",
+      "labelZh": "Peanutbutter Pusheren 花生酱",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Peanutbutter Pusheren peanutbutter",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|peanuts m jalapeno eller|nuts": {
       "status": "active",
@@ -11590,7 +12382,7 @@
       "comparisonGroup": "potato_gratin",
       "labelZh": "奶油焗土豆",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "PEKA FLØDEKARTOFLER",
+      "originalName": "Peka flødekartofler",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -11806,11 +12598,47 @@
       "comparisonGroup": "ice_cream",
       "labelZh": "冰淇淋或冰品",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Premier is",
+      "originalName": "Premier Is",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|premieur gronlandske rejer|shrimp": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "labelZh": "Premieur 格陵兰虾",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Premieur grønlandske rejer",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|premieur marineret lammekolle|prepared_lamb_marinated": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_lamb_marinated",
+      "labelZh": "Premieur 腌制羊腿",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Premieur marineret lammekølle",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|premieur roget eller gravad laks|salmon_smoked": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "labelZh": "Premieur 烟熏或北欧腌渍三文鱼任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Premieur røget eller gravad laks",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|premieur varmroget laks|salmon_smoked": {
       "status": "active",
@@ -11872,6 +12700,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|protein lab ost|cheese_other": {
+      "status": "active",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "labelZh": "Protein Lab 高蛋白奶酪",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Protein Lab ost",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|protein lab pitabrod|bread": {
+      "status": "active",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "labelZh": "Protein Lab 高蛋白皮塔饼",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Protein Lab pitabrød",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|protein lab protein brod|bread": {
       "status": "active",
       "categoryId": "bread_bakery",
@@ -11883,6 +12735,30 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|protein lab proteindrik drikkeyoghurt budding eller mousse|mixed_dairy": {
+      "status": "active",
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "mixed_dairy",
+      "labelZh": "Protein Lab 蛋白饮、饮用酸奶、布丁或慕斯任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Protein Lab proteindrik, -drikkeyoghurt, -budding eller -mousse",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|protein lab revet eller skiveskaaret ost|cheese_mixed_offer": {
+      "status": "active",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
+      "labelZh": "Protein Lab 刨丝或切片高蛋白奶酪任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Protein Lab revet eller skiveskåret ost",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|protein tortilla wraps|flour_baking": {
       "status": "active",
@@ -12051,6 +12927,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|rahbek indbagte rejer eller laks|seafood_mixed_offer": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "labelZh": "Rahbek 裹酥虾或裹酥三文鱼任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Rahbek indbagte rejer eller laks",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|rema 1000 croissanter|bread": {
       "status": "active",
@@ -12376,6 +13264,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|respons shampoo eller balsam|personal_care_mixed_offer": {
+      "status": "active",
+      "categoryId": "personal_care",
+      "comparisonGroup": "personal_care_mixed_offer",
+      "labelZh": "Respons 洗发水或护发素任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Respons shampoo eller balsam",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|revet gouda lillebror ostehaps eller happy zoo smoreost|cheese_mixed_offer": {
+      "status": "active",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
+      "labelZh": "刨丝 Gouda、儿童奶酪条或动物造型涂抹奶酪任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Revet gouda, Lillebror ostehaps eller Happy Zoo smøreost",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|revet ost pizzatopping el mozzarella i tern|cheese_grated": {
       "status": "active",
       "categoryId": "cheese",
@@ -12700,13 +13612,25 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|saeby chilensk makrel|canned_other": {
+      "status": "active",
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_other",
+      "labelZh": "Sæby 智利鲭鱼罐头",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Sæby chilensk makrel",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|saeby makrel|white_fish": {
       "status": "active",
       "categoryId": "seafood",
       "comparisonGroup": "white_fish",
       "labelZh": "鲭鱼",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Sæby makrel",
+      "originalName": "Sæby makrel*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -12880,6 +13804,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|salling princip brioche pretzel style burgerboller eller premieur sliders|bread": {
+      "status": "active",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "labelZh": "Salling Princip 椒盐卷饼风味汉堡胚或 Premieur 迷你汉堡胚任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Salling Princip brioche pretzel style burgerboller eller Premieur sliders",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|salling princip ferskner eller nektariner|peaches_nectarines": {
+      "status": "active",
+      "categoryId": "fruit",
+      "comparisonGroup": "peaches_nectarines",
+      "labelZh": "Salling Princip 桃或油桃任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Salling Princip ferskner eller nektariner",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|salling stenovnsbagt pizza|pizza_snacks": {
       "status": "active",
       "categoryId": "frozen_ready",
@@ -12975,6 +13923,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|santa maria okologisk hvede tortilla|bread": {
+      "status": "active",
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "labelZh": "Santa Maria 有机小麦卷饼",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Santa Maria økologisk hvede tortilla",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|santa maria tex mex asia eller krydderier|spices": {
       "status": "active",
@@ -13696,6 +14656,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|spangsberg petit flodeboller|chocolate": {
+      "status": "active",
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "labelZh": "Spangsberg Petit 巧克力棉花糖小圆糕",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Spangsberg petit flødeboller",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|spar 20 paa alt solcreme eller aftersun|sun_care": {
       "status": "active",
       "categoryId": "personal_care",
@@ -13804,6 +14776,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|steff houlberg polser|sausage_mixed_offer": {
+      "status": "active",
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "labelZh": "烧烤香肠",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Steff Houlberg pølser",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
     "v1|steff houlberg polser|sausage_other": {
       "status": "active",
       "categoryId": "sausages",
@@ -13894,7 +14878,7 @@
       "comparisonGroup": "liver_pate",
       "labelZh": "丹麦肝酱",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "STRYHN'S Leverpostej",
+      "originalName": "STRYHN’S Leverpostej",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -14116,6 +15100,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|tapas ost|cheese_mixed_offer": {
+      "status": "active",
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
+      "labelZh": "Tapas 小份奶酪任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Tapas ost",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|taquitos m krydret kylling|ready_meal": {
       "status": "active",
       "categoryId": "frozen_ready",
@@ -14139,6 +15135,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|the hair cafe haarpleje fiona friends eller palmolive haandsaebe|personal_care_mixed_offer": {
+      "status": "active",
+      "categoryId": "personal_care",
+      "comparisonGroup": "personal_care_mixed_offer",
+      "labelZh": "The Hair Café/Fiona&Friends 护发用品或 Palmolive 洗手液任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "The Hair Café hårpleje, Fiona&Friends eller Palmolive håndsæbe",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|them klovborg faetter kras eller danbo|cheese_danish_table": {
       "status": "active",
@@ -14326,7 +15334,7 @@
       "comparisonGroup": "ready_meal",
       "labelZh": "预制方便餐",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "To go marked",
+      "originalName": "To-go marked",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -14519,6 +15527,18 @@
       "labelZh": "培根片",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Tulip bacon i skiver",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|tulip bacon|bacon_mixed_offer": {
+      "status": "active",
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_mixed_offer",
+      "labelZh": "培根",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Tulip bacon",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -14722,7 +15742,7 @@
       "comparisonGroup": "flour_baking",
       "labelZh": "面粉",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Valsemøllen mel",
+      "originalName": "Valsemøllen mel*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -14812,6 +15832,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|velsmag dansk nakkefilet|pork_roast": {
+      "status": "active",
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "labelZh": "Velsmag 丹麦猪颈肉整块",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Velsmag dansk nakkefilet",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|velsmag dansk ovnklar flaeskesteg|prepared_pork_marinated": {
       "status": "active",
       "categoryId": "prepared_meat",
@@ -14835,6 +15867,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|velsmag entrecotes|beef_ribeye": {
+      "status": "active",
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "labelZh": "Velsmag 熟成 Entrecôte 肋眼牛排",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Velsmag entrecotes",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|velsmag hakket grise og kalvekod 8 12 nakkekoteletter eller dansk flaesk i skiver|pork_mixed_offer": {
       "status": "active",
@@ -14872,6 +15916,30 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|velsmag koteletter eller hakket grise og kalvekod 4 7|pork_mixed_offer": {
+      "status": "active",
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "labelZh": "Velsmag 猪排或 4–7% 脂肪猪小牛混合肉末任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Velsmag koteletter eller hakket grise- og kalvekød 4-7%",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
+    "v1|velsmag lakseside|salmon_fresh": {
+      "status": "active",
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "labelZh": "Velsmag 生鲜三文鱼半边",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Velsmag lakseside",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
+    },
     "v1|velsmag marineret kotelet|prepared_pork_marinated": {
       "status": "active",
       "categoryId": "prepared_meat",
@@ -14883,6 +15951,18 @@
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
+    },
+    "v1|velsmag medister eller hakket grisekod 8 12|pork_mixed_offer": {
+      "status": "active",
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "labelZh": "Velsmag Medister 猪肉香肠或 8–12% 脂肪猪肉末任选",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Velsmag medister eller hakket grisekød 8-12%",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:32:26.274Z"
     },
     "v1|velsmag rib eyes|beef_ribeye": {
       "status": "active",
@@ -15226,7 +16306,7 @@
       "comparisonGroup": "bread",
       "labelZh": "面包",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Wasa knækbrød*",
+      "originalName": "Wasa knækbrød",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -15400,6 +16480,18 @@
       "taxonomyVersion": "codex-taxonomy-v1",
       "reviewedAt": "2026-07-22T04:08:36.238Z"
     },
+    "v1|xtra marineret kyllinge bryst med citron rosmarin eller bbq|prepared_chicken_breast_marinated": {
+      "status": "active",
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "labelZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
+      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
+      "originalName": "Xtra! marineret kyllinge-bryst med citron/ rosmarin eller bbq",
+      "authoredBy": "Codex",
+      "reviewStatus": "reviewed",
+      "taxonomyVersion": "codex-taxonomy-v1",
+      "reviewedAt": "2026-07-22T05:34:24.061Z"
+    },
     "v1|xtra marineret kyllingebryst med citron rosmarin eller bbq|prepared_chicken_breast_marinated": {
       "status": "active",
       "categoryId": "prepared_meat",
@@ -15418,7 +16510,7 @@
       "comparisonGroup": "mixed_grocery_offer",
       "labelZh": "金枪鱼罐头或鱼排",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Xtra! tun eller Bonduelle majs",
+      "originalName": "Xtra! tun eller Bonduelle majs*",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",
@@ -15575,42 +16667,6 @@
       "labelZh": "意大利面",
       "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
       "originalName": "Zendium tandpasta",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T04:08:36.238Z"
-    },
-    "v1|steff houlberg polser|sausage_mixed_offer": {
-      "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_mixed_offer",
-      "labelZh": "烧烤香肠",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Steff Houlberg pølser",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T04:08:36.238Z"
-    },
-    "v1|tulip bacon|bacon_mixed_offer": {
-      "status": "active",
-      "categoryId": "bacon",
-      "comparisonGroup": "bacon_mixed_offer",
-      "labelZh": "培根",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "Tulip bacon",
-      "authoredBy": "Codex",
-      "reviewStatus": "reviewed",
-      "taxonomyVersion": "codex-taxonomy-v1",
-      "reviewedAt": "2026-07-22T04:08:36.238Z"
-    },
-    "v1|3 stjernet paalaeg|sausage_other": {
-      "status": "active",
-      "categoryId": "sausages",
-      "comparisonGroup": "sausage_other",
-      "labelZh": "三明治冷切或抹酱",
-      "reasonZh": "Codex 按丹麦商品原名、促销说明和商品形态逐项复核；品牌、尺寸和包装不会单独拆分类别。",
-      "originalName": "3-Stjernet Pålæg",
       "authoredBy": "Codex",
       "reviewStatus": "reviewed",
       "taxonomyVersion": "codex-taxonomy-v1",

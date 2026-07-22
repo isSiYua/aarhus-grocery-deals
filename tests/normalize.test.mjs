@@ -105,6 +105,33 @@ test('keeps the same product stable for shopping but separates current and upcom
   assert.notEqual(current.canonicalKey, upcoming.canonicalKey);
 });
 
+test('applies repository review overrides before building the reusable description key', () => {
+  const normalized = normalizeOffer({
+    ...baseOffer,
+    heading: 'Dansk hel kylling eller hakket kyllingekød 7-10%',
+  }, '2026-07-18T12:00:00Z', {
+    reviewOverrides: {
+      entries: {
+        'dansk hel kylling eller hakket kyllingekod 7 10': {
+          categoryId: 'chicken',
+          comparisonGroup: 'chicken_mixed_offer',
+        },
+      },
+    },
+  });
+
+  assert.equal(normalized.categoryId, 'chicken');
+  assert.equal(normalized.comparisonGroup, 'chicken_mixed_offer');
+  assert.equal(normalized.descriptionKey, 'v1|dansk hel kylling eller hakket kyllingekod 7 10|chicken_mixed_offer');
+});
+
+test('does not normalize a product explicitly excluded by repository review', () => {
+  const normalized = normalizeOffer({ ...baseOffer, heading: 'Ribena solbær' }, '2026-07-18T12:00:00Z', {
+    reviewOverrides: { entries: { 'ribena solbaer': { status: 'excluded' } } },
+  });
+  assert.equal(normalized, null);
+});
+
 test('recognizes every Aarhus flyer chain added for city-wide coverage', () => {
   const chains = [
     ['MENY', 'meny', 'Meny'],

@@ -90,6 +90,9 @@ const CHEESE_GROUP_PATTERNS = [
 export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') {
   const name = norm(originalName);
   const mixedChoice = /eller|marked|mix/.test(name);
+  if (['ice_cream_mixed_offer', 'cleaning_mixed_offer', 'household_mixed_offer', 'personal_care_mixed_offer'].includes(comparisonGroup)) {
+    return comparisonGroup;
+  }
   // Non-meat product forms must win before incidental words such as hotdog,
   // bacon or Wiener can send bread and pastries into a meat aisle.
   if (/ispind|isvafler|isvaffel/.test(name)) return 'ice_cream';
@@ -113,7 +116,7 @@ export function refineAarhusComparisonGroup(comparisonGroup, originalName = '') 
   if (/hotwings|buffalo wings|sol mar kyllingevinger|piri.*(?:chicken wings|kyllingevinger)|(?:chicken wings|kyllingevinger).*piri/.test(name)) return 'prepared_chicken_wings_seasoned';
   if (/(?:classic|original).*(?:eller).*(?:crispy|breaded).*(?:hot wings|wings)|(?:hot wings|wings).*(?:classic|original).*(?:eller).*(?:crispy|breaded)/.test(name)) return 'prepared_chicken_wings_mixed_offer';
   if (/(?:crispy|breaded|paneret).*(?:hot wings|kyllingevinger|chicken wings)|(?:hot wings|kyllingevinger|chicken wings).*(?:crispy|breaded|paneret)/.test(name)) return 'prepared_chicken_wings_breaded';
-  if (/marineret kyllingebryst|kyllingebryst.*(?:bbq|citron|rosmarin)/.test(name)) return 'prepared_chicken_breast_marinated';
+  if (/marineret kyllinge?(?:bryst|steak)|kyllingebryst.*(?:bbq|citron|rosmarin)/.test(name)) return 'prepared_chicken_breast_marinated';
   if (/burgerboffer af oksekod|hamburger af oksekod/.test(name)) return 'prepared_beef_burgers';
   if (/poussin.*marineret.*eller|marineret.*eller.*poussin/.test(name)) return 'prepared_poultry_mixed_offer';
   if (/(?:pulled pork|pulled chicken|spareribs|porchetta|roget hamburgerryg|marineret kamfilet).*(?:eller)|(?:eller).*(?:pulled pork|pulled chicken|spareribs|porchetta|roget hamburgerryg|marineret kamfilet)|(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad).*(?:eller).*(?:marineret|bbq|chimichurri|ovnklar)|(?:marineret|bbq|chimichurri|ovnklar).*(?:eller).*(?:gris|svin|flaesk|kotelet|kamben|sparerib|ribsteak|kamfilet|skinkeculotte|morbrad)/.test(name)) return 'prepared_pork_mixed_offer';
@@ -280,8 +283,9 @@ export function refineAarhusCategory(categoryId, comparisonGroup) {
   if (comparisonGroup === 'excluded_drink') return 'excluded';
   if (comparisonGroup === 'bread') return 'bread_bakery';
   if (comparisonGroup === 'biscuits') return 'biscuits_cakes';
-  if (comparisonGroup === 'ice_cream') return 'ice_cream';
-  if (comparisonGroup === 'ready_meal' || comparisonGroup === 'prepared_salad') return 'frozen_ready';
+  if (comparisonGroup === 'ice_cream' || comparisonGroup === 'ice_cream_mixed_offer') return 'ice_cream';
+  if (comparisonGroup === 'ready_meal') return 'frozen_ready';
+  if (comparisonGroup === 'prepared_salad') return categoryId === 'vegetables' ? 'vegetables' : 'frozen_ready';
   if (comparisonGroup === 'prepared_fruit' || comparisonGroup === 'mixed_fruit') return 'fruit';
   if (comparisonGroup === 'fish_mince' || comparisonGroup.startsWith('seafood_')) return 'seafood';
   if (MINCED_MEAT_GROUPS.has(comparisonGroup)) return 'minced_meat';
@@ -494,6 +498,7 @@ export const AARHUS_COMPARISON_GROUPS = {
   plant_based_meat: group('植物肉与素香肠', '植物肉制品只与同类参考，不与猪肉或鸡肉混比。'),
   frozen_vegetables: group('冷冻蔬菜', '优先按公斤比较。'),
   ice_cream: group('冰淇淋与冰品', '容量、支数和类型不同。'),
+  ice_cream_mixed_offer: group('多种冰淇淋形态任选', '杯装、桶装或小粒冰淇淋的容量和食用形式不同，不计算统一最低价。', false),
   cereal: group('麦片与早餐谷物', '糖分、坚果和水果含量可能不同。'),
   coffee_tea: group('咖啡与茶', '咖啡、茶及冲泡形态不同，不计算全局最低价。', false),
   spreads_jam: group('果酱与抹酱', '甜度、坚果含量和用途不同，不计算全局最低价。', false),
@@ -545,12 +550,15 @@ export const AARHUS_COMPARISON_GROUPS = {
   paper_other: group('其他纸品', '类型不明确，不计算最低价。', false),
   paper_mixed_offer: group('多种生活纸品组合', '卫生纸、厨房纸或面巾纸组合不计算最低价。', false),
   cleaning: group('清洁用品', '区分清洁剂、洗碗和洗衣用品。'),
+  cleaning_mixed_offer: group('多种清洁用品任选', '洗衣液、洗衣粉、柔顺剂等用途和计量方式不同，不计算统一最低价。', false),
+  household_mixed_offer: group('跨用途日用品任选', '纸品、清洁用品或厨房耗材用途和计量单位不同，不计算统一最低价。', false),
   trash_bags: group('垃圾袋与保鲜袋', '按只数、容量和厚度比较。'),
   kitchen_consumables: group('厨房耗材', '烘焙纸、铝箔等按数量或长度比较。'),
   diapers: group('纸尿裤', '按尺码和每片价格比较。'),
   baby_care: group('婴儿护理', '注意是否无香、适用年龄和包装数量。'),
   baby_food: group('婴幼儿食品', '注意适用月龄、糖分和配料。'),
   hair_body: group('洗发与身体护理', '按容量和用途比较。'),
+  personal_care_mixed_offer: group('多种个人护理用品任选', '洗发、护肤、洁面或洗手用品用途不同，不计算统一最低价。', false),
   sun_care: group('防晒用品', '注意 SPF、适用人群和容量。'),
   hygiene: group('卫生护理用品', '按用途、吸收量和包装数量比较。'),
   supplements: group('营养补充剂', '益生菌、纤维等按成分、剂量和包装数量比较，不与乳制品混比。'),

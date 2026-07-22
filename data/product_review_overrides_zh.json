@@ -147,6 +147,13 @@
       "descriptionZh": "已经腌制的鸡胸肉，可选柠檬迷迭香味或烧烤味，适合煎、烤或空气炸。因为带腌料和明确口味。",
       "descriptionSpecVersion": "zh-product-v4"
     },
+    "xtra marineret kyllinge bryst med citron rosmarin eller bbq": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "productNameZh": "Xtra 柠檬迷迭香或烧烤味腌制鸡胸",
+      "descriptionZh": "已经腌制的鸡胸肉，375 克，可选柠檬迷迭香味或烧烤味，适合煎、烤或空气炸。它带腌料和明确口味，不是原味鸡胸。",
+      "descriptionSpecVersion": "zh-product-v4"
+    },
     "madvaerket burgerboffer af oksekod": {
       "categoryId": "prepared_meat",
       "comparisonGroup": "prepared_beef_burgers",
@@ -259,7 +266,529 @@
       "reasonZh": "黑加仑浓缩果汁饮料不在当前饮料收录范围内，不能作为新鲜莓果展示。",
       "descriptionZh": "",
       "descriptionSpecVersion": "zh-product-v4"
+    },
+    "andoni glutenfri pizza salami": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "productNameZh": "Andoni 无麸质萨拉米披萨",
+      "descriptionZh": "Andoni 无麸质萨拉米披萨，325 克。需要按包装说明用烤箱充分加热；适合不能食用麸质的人，但仍应核对过敏原标识。"
+    },
+    "andoni italiensk pizza": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "productNameZh": "Andoni 意式披萨",
+      "descriptionZh": "Andoni 意式披萨，单盒 402–439 克。需要按包装说明烤热，具体口味、配料和是否冷藏或冷冻以包装为准。"
+    },
+    "baadsmand fiskefrikadeller": {
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_other",
+      "productNameZh": "Bådsmand 丹麦鱼饼",
+      "descriptionZh": "Bådsmand fiskefrikadeller 丹麦鱼饼，170 克。它是鱼肉糜调味成型后煎制的食品，可直接冷食或平底锅复热；不是整片鱼柳。"
+    },
+    "baadsmand varmroget laks": {
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "productNameZh": "Bådsmand 热熏三文鱼",
+      "descriptionZh": "Bådsmand 热熏三文鱼，125 克。鱼肉已经熏熟，可直接冷食、拌沙拉或配面包；它不是生鲜三文鱼柳。"
+    },
+    "bagepapir i ark traek luk 15 20 eller 30 liter affaldsposer": {
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "household_mixed_offer",
+      "productNameZh": "烘焙纸或 15/20/30 升抽绳垃圾袋任选",
+      "descriptionZh": "可选片装烘焙纸，或容量 15、20、30 升的 Træk&Luk 抽绳垃圾袋，每包 12–22 件。用途、尺寸和计量方式不同，应按实际包装选择。"
+    },
+    "bakersfield hvidlogsbrod 2 pak": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Bakersfield 冷冻蒜香面包两包装",
+      "descriptionZh": "Bakersfield 冷冻蒜香面包，两包装共 350 克。食用前需要用烤箱或空气炸锅烤热，可配汤、意面或烧烤。"
+    },
+    "bamseline skyllemiddel omo flydende vaskemiddel eller pulver": {
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning_mixed_offer",
+      "productNameZh": "Bamseline 衣物柔顺剂或 OMO 洗衣液/洗衣粉任选",
+      "descriptionZh": "可选 Bamseline 衣物柔顺剂、OMO 洗衣液或洗衣粉，规格为 700–925 毫升或 700 克。三者用途和用量不同；柔顺剂不能代替洗衣剂。"
+    },
+    "bananpose": {
+      "categoryId": "household_paper",
+      "comparisonGroup": "kitchen_tools",
+      "productNameZh": "香蕉保鲜收纳袋",
+      "descriptionZh": "用于单独收纳香蕉的保鲜袋，帮助减少碰伤并与其他食物分开存放。它是可重复使用的厨房收纳用品，不是香蕉或一次性食品包装。"
+    },
+    "bonduelle majs": {
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_other",
+      "productNameZh": "Bonduelle 甜玉米罐头",
+      "descriptionZh": "Bonduelle 甜玉米罐头，净含量 140 克。开罐沥水后可直接拌沙拉、做披萨或加入炒饭；它不是新鲜玉米棒。"
+    },
+    "breakfast from bell s havregryn": {
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "productNameZh": "Breakfast from Bell's 细压燕麦片",
+      "descriptionZh": "细压燕麦片，1 千克。可加牛奶或酸奶直接食用，也可煮燕麦粥或用于烘焙；这是原味谷物，不是即食甜味麦片。"
+    },
+    "buko pisket flodeost": {
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_spreadable",
+      "productNameZh": "BUKO 打发奶油奶酪",
+      "descriptionZh": "BUKO 打发奶油奶酪，125 克。质地轻盈，适合涂面包、贝果或做蘸酱；开封后需冷藏。"
+    },
+    "casa tarradellas pizza": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "pizza_snacks",
+      "productNameZh": "Casa Tarradellas 冷藏披萨",
+      "descriptionZh": "Casa Tarradellas 冷藏披萨，400–430 克，促销单明确标注在冷藏区。需要按包装说明烤热，具体口味和配料以包装为准。"
+    },
+    "chestfords karry mango dressing": {
+      "categoryId": "sauces_condiments",
+      "comparisonGroup": "sauce_dressing",
+      "productNameZh": "Chestford's 咖喱芒果沙拉酱",
+      "descriptionZh": "Chestford's 咖喱芒果风味沙拉酱，250 克。可拌沙拉、搭配鸡肉或作三明治酱；它是调味酱，不是芒果水果。"
+    },
+    "christgau eller black coffee helbonner": {
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "productNameZh": "Christgau 或 Black Coffee 咖啡豆任选",
+      "descriptionZh": "Christgau 或 Black Coffee 整粒咖啡豆任选，375–400 克。饮用前需要研磨并用咖啡机、手冲或法压壶冲煮。"
+    },
+    "colgate tandborste": {
+      "categoryId": "personal_care",
+      "comparisonGroup": "hair_body",
+      "productNameZh": "Colgate 牙刷四支装",
+      "descriptionZh": "Colgate 手动牙刷四支装。用于日常刷牙，应按刷毛软硬度和适用人群选择；不是电动牙刷替换头。"
+    },
+    "daim toblerone marabou king size chokoladebar": {
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "productNameZh": "Daim、Toblerone 或 Marabou 大号巧克力棒任选",
+      "descriptionZh": "Daim、Toblerone 或 Marabou King Size 巧克力棒任选，45–60 克。品牌、夹心和口感不同，开袋即食。"
+    },
+    "dansk hel kylling eller hakket kyllingekod 7 10": {
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_mixed_offer",
+      "productNameZh": "丹麦整鸡或 7–10% 脂肪鸡肉末任选",
+      "descriptionZh": "可选丹麦整鸡或脂肪含量 7–10% 的鸡肉末，规格 800–1450 克。整鸡适合烤制或炖汤，肉末适合肉丸和馅料；两者均为生肉并需彻底煮熟。"
+    },
+    "dansk kyllingefilet": {
+      "categoryId": "chicken",
+      "comparisonGroup": "chicken_breast",
+      "productNameZh": "丹麦鸡胸肉片",
+      "descriptionZh": "丹麦原味生鲜鸡胸肉片，750 克，包装标注 100% 鸡肉。可煎、烤、炒或切块入菜，食用前必须彻底煮熟。"
+    },
+    "danske porrer": {
+      "categoryId": "vegetables",
+      "comparisonGroup": "vegetables_other",
+      "productNameZh": "丹麦产韭葱",
+      "descriptionZh": "丹麦产 porrer 韭葱，每把 2 根。白色和浅绿色部分可切片炒菜、煮汤或炖菜；它不是中式细韭菜。"
+    },
+    "egelykke lagret skiveost": {
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_sliced",
+      "productNameZh": "Egelykke 熟成切片奶酪",
+      "descriptionZh": "Egelykke 熟成切片奶酪，250 克。可直接夹三明治、放汉堡或烤吐司，熟成款通常比普通温和奶酪味道更浓。"
+    },
+    "egelykke skyr naturel": {
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "productNameZh": "Egelykke 原味 Skyr 高蛋白酸奶",
+      "descriptionZh": "Egelykke 原味 Skyr，1 千克。质地浓稠、蛋白质较高，可直接搭配水果和麦片，也可用于酱汁；不是加糖风味酸奶。"
+    },
+    "egelykke smorbar": {
+      "categoryId": "butter_spreads",
+      "comparisonGroup": "butter",
+      "productNameZh": "Egelykke 可涂抹黄油混合抹酱",
+      "descriptionZh": "Egelykke smørbar 可涂抹黄油混合抹酱，200 克。冷藏后仍较容易涂面包，也可用于简单煎烤；具体乳脂和植物油比例以包装为准。"
+    },
+    "egelykke yoghurt": {
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "productNameZh": "Egelykke 水果味酸奶",
+      "descriptionZh": "Egelykke 水果味酸奶，1 升，可选草莓、桃子 Melba 或草莓、梨香蕉等口味，脂肪含量依口味为 1.4% 或 3.1%。冷藏后直接饮用或配麦片。"
+    },
+    "gamle molle krydderboller": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Gamle Mølle 香料小圆面包",
+      "descriptionZh": "Gamle Mølle krydderboller 香料小圆面包，6 个共 350 克。可直接食用或稍微烤热，适合早餐、抹果酱或夹奶酪。"
+    },
+    "garnier micellar water eller derma eco hudpleje": {
+      "categoryId": "personal_care",
+      "comparisonGroup": "personal_care_mixed_offer",
+      "productNameZh": "Garnier 卸妆洁肤水或 Derma Eco 护肤品任选",
+      "descriptionZh": "可选 Garnier micellar water 卸妆洁肤水，或 Derma Eco 护肤品，规格 50–400 毫升。洁面、卸妆和护肤用途不同，应按实际品名和肤质选择。"
+    },
+    "garofalo pasta": {
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "productNameZh": "Garofalo 意大利面",
+      "descriptionZh": "Garofalo 干意大利面，500 克。需要放入沸水煮熟，可配番茄酱、奶油酱或青酱；具体面型以包装为准。"
+    },
+    "gevalia eller cafe noir instant kaffe": {
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "productNameZh": "Gevalia 或 Café Noir 速溶咖啡任选",
+      "descriptionZh": "Gevalia 或 Café Noir 速溶咖啡任选，240 克。用热水冲调即可饮用；它不是需要研磨的咖啡豆。"
+    },
+    "glyngore tun eller bornholms torskerogn": {
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "productNameZh": "Glyngøre 金枪鱼罐头或 Bornholms 鳕鱼籽罐头任选",
+      "descriptionZh": "可选 Glyngøre 金枪鱼罐头或 Bornholms torskerogn 鳕鱼籽罐头，105–200 克。鱼种、质地和用途不同，可分别用于沙拉、三明治或切片煎食。"
+    },
+    "gullon pick kiks": {
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "productNameZh": "Gullón Pick 饼干",
+      "descriptionZh": "Gullón Pick 饼干，250 克。开袋即食，可配咖啡或茶；具体甜度、夹心和过敏原以包装为准。"
+    },
+    "hakket okse og grisekod 8 12": {
+      "categoryId": "minced_meat",
+      "comparisonGroup": "mixed_minced",
+      "productNameZh": "8–12% 脂肪牛猪混合肉末",
+      "descriptionZh": "牛肉和猪肉混合肉末，脂肪含量 8–12%，650 克。适合做肉丸、肉酱、饺子馅或汉堡饼，食用前必须彻底煮熟。"
+    },
+    "harvest best grontsager": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "frozen_vegetables",
+      "productNameZh": "Harvest Best 冷冻蔬菜",
+      "descriptionZh": "Harvest Best 冷冻蔬菜，400–750 克。无需提前解冻即可炒、煮或加入汤和炖菜；具体蔬菜组合以包装为准。"
+    },
+    "hello sensitive opvaskemiddel": {
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "cleaning",
+      "productNameZh": "Hello Sensitive 敏感配方洗洁精",
+      "descriptionZh": "Hello Sensitive 手洗餐具洗洁精，500 毫升。用于清洗餐具和厨具，使用后需用清水冲净；不是洗碗机专用洗涤块。"
+    },
+    "jensens spareribs": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_pork_cooked",
+      "productNameZh": "Jensens 熟制猪肋排",
+      "descriptionZh": "Jensens 猪肋排，500 克，属于预先调味或熟制的冷藏肉品。食用前按包装说明用烤箱或烧烤架充分加热；不是未调味生鲜排骨。"
+    },
+    "kettle crispy chips": {
+      "categoryId": "salty_snacks",
+      "comparisonGroup": "chips",
+      "productNameZh": "Kettle Crispy 薯片",
+      "descriptionZh": "Kettle Crispy 薯片，150 克。开袋即食，具体口味和配料以包装为准。"
+    },
+    "kinder maelkesnitte pingui eller maxi king": {
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "mixed_dairy",
+      "productNameZh": "Kinder Milch-Schnitte、Pingui 或 Maxi King 冷藏甜点任选",
+      "descriptionZh": "Kinder 冷藏乳制甜点任选，可选 Milch-Schnitte 奶夹心蛋糕、Pingui 巧克力奶油点心或 Maxi King 焦糖坚果点心，105–140 克。形态和配料不同，需冷藏保存。"
+    },
+    "kleenex eller urtekram haandsaebe": {
+      "categoryId": "household_cleaning",
+      "comparisonGroup": "household_mixed_offer",
+      "productNameZh": "Kleenex 面巾纸或 Urtekram 洗手液任选",
+      "descriptionZh": "可选 112 抽 Kleenex 面巾纸或 300 毫升 Urtekram 洗手液。一个用于日常擦拭和擤鼻涕，一个用于清洁双手，用途和计量单位不同。"
+    },
+    "knoppers tictac kinder country eller sour devils": {
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "productNameZh": "Knoppers、Tic Tac、Kinder Country 或 Sour Devils 糖果任选",
+      "descriptionZh": "多款小包装甜食任选，15–25 克，包括威化巧克力、薄荷糖、谷物巧克力或酸味糖。品类、口感和配料不同，开袋即食。"
+    },
+    "kohberg madbrod": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Kohberg 餐用面包",
+      "descriptionZh": "Kohberg madbrød 餐用面包，330 克。可直接食用或稍微烘热，适合配汤、沙拉或夹馅；具体面包类型以包装为准。"
+    },
+    "koko chokoladeovertrukket frugt": {
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "productNameZh": "Koko 巧克力裹水果",
+      "descriptionZh": "Koko 巧克力裹水果零食，130 克。水果经过加工并包裹巧克力，开袋即食；它不是新鲜水果。"
+    },
+    "kyllingeunderlaar eller marinerede kyllingespyd": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_poultry_mixed_offer",
+      "productNameZh": "原味鸡小腿或腌制鸡肉串任选",
+      "descriptionZh": "可选原味生鸡小腿或已经腌制的鸡肉串，250–600 克。部位、是否带骨和调味状态不同，均需彻底煮熟。"
+    },
+    "langelaender storkobspolser": {
+      "categoryId": "sausages",
+      "comparisonGroup": "sausage_mixed_offer",
+      "productNameZh": "Langelænder 大包装香肠",
+      "descriptionZh": "Langelænder 大包装香肠，560–630 克。具体香肠类型、肉种和是否已熟以包装为准，通常需要煎、煮或烧烤加热。"
+    },
+    "lavazza iskaffe": {
+      "categoryId": "coffee_tea",
+      "comparisonGroup": "coffee_tea",
+      "productNameZh": "Lavazza 即饮冰咖啡",
+      "descriptionZh": "Lavazza 即饮冰咖啡，250 毫升，可选卡布奇诺、牛奶浓缩咖啡或拿铁。冷藏后开瓶即饮；它不是咖啡豆或速溶咖啡。"
+    },
+    "livskraft skrabeaeg": {
+      "categoryId": "eggs_milk",
+      "comparisonGroup": "eggs",
+      "productNameZh": "Livskraft 平养鸡蛋",
+      "descriptionZh": "Livskraft skrabeæg 平养鸡蛋，M/L 号 8 枚。可煮、煎或用于烘焙，生食或半熟食用需自行注意食品安全。"
+    },
+    "logismose marineret kyllingesteak": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_chicken_breast_marinated",
+      "productNameZh": "Løgismose 腌制鸡肉排",
+      "descriptionZh": "Løgismose 腌制鸡肉排，200 克。已经带腌料，可平底锅煎、烤箱烤或烧烤，食用前必须彻底熟透；不是牛排。"
+    },
+    "logismose okologisk farmor eller mormor koldskaal": {
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "productNameZh": "Løgismose 有机 Farmor 或 Mormor 丹麦冷酸奶汤",
+      "descriptionZh": "Løgismose 有机 koldskål 丹麦夏季冷酸奶汤，1 升，可选 Farmor 或 Mormor 配方。冷藏后直接食用，常搭配 kammerjunkere 小饼干。"
+    },
+    "logismose okologisk graesk inspireret yoghurt": {
+      "categoryId": "yoghurt",
+      "comparisonGroup": "yoghurt",
+      "productNameZh": "Løgismose 有机希腊风味酸奶",
+      "descriptionZh": "Løgismose 有机希腊风味酸奶，800 克。质地较浓稠，可直接吃、配水果麦片或用于蘸酱；需冷藏保存。"
+    },
+    "logismose okologisk mel": {
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "flour_baking",
+      "productNameZh": "Løgismose 有机面粉",
+      "descriptionZh": "Løgismose 有机面粉，800–1000 克。用于制作面包、蛋糕或其他烘焙食品，具体小麦种类和筋度以包装为准。"
+    },
+    "logismose okologiske kammerjunkere": {
+      "categoryId": "biscuits_cakes",
+      "comparisonGroup": "biscuits",
+      "productNameZh": "Løgismose 有机 Kammerjunkere 小饼干",
+      "descriptionZh": "Løgismose 有机 kammerjunkere 小饼干，180 克。丹麦常把它掰碎加入冷藏 koldskål 酸奶汤中，也可直接当饼干食用。"
+    },
+    "logismose torret frugt": {
+      "categoryId": "fruit",
+      "comparisonGroup": "dried_fruit",
+      "productNameZh": "Løgismose 果干",
+      "descriptionZh": "Løgismose 果干，65–80 克。开袋即食，可作零食或配燕麦和酸奶；它经过脱水，含水量和口感不同于新鲜水果。"
+    },
+    "magnum isbaeger eller bonbon": {
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream_mixed_offer",
+      "productNameZh": "Magnum 杯装冰淇淋或 Bonbon 巧克力脆皮冰淇淋粒任选",
+      "descriptionZh": "可选 Magnum 杯装冰淇淋或 Bonbon 小粒巧克力脆皮冰淇淋，204–440 毫升。包装形式、单份大小和容量不同，需冷冻保存。"
+    },
+    "mamone sukker": {
+      "categoryId": "pantry",
+      "comparisonGroup": "baking_ingredients",
+      "productNameZh": "Mamone 白砂糖",
+      "descriptionZh": "Mamone 白砂糖，1 千克。可用于烘焙、甜点和饮品调味；注意干燥密封保存。"
+    },
+    "minimum paalaeg": {
+      "categoryId": "deli_meat",
+      "comparisonGroup": "deli_mixed_offer",
+      "productNameZh": "Minimum 三明治冷切肉任选",
+      "descriptionZh": "Minimum 品牌冷切肉，100 克。可直接夹面包或放冷盘；具体肉种、切片类型和是否烟熏以包装为准。"
+    },
+    "mutti hakkede tomater 3 pak": {
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_tomatoes",
+      "productNameZh": "Mutti 切碎番茄罐头三联包",
+      "descriptionZh": "Mutti 切碎番茄罐头三联包，总重 1200 克。可用于意面酱、披萨酱、炖菜或汤；不是番茄酱 ketchup。"
+    },
+    "naemt basissalat": {
+      "categoryId": "vegetables",
+      "comparisonGroup": "prepared_salad",
+      "productNameZh": "Næmt 洗净切丝基础沙拉",
+      "descriptionZh": "Næmt 已切丝并洗净的基础沙拉，200 克。开袋即可拌酱食用，也可加入三明治；需冷藏并尽快吃完。"
+    },
+    "naemt taertedej": {
+      "categoryId": "frozen_ready",
+      "comparisonGroup": "ready_meal",
+      "productNameZh": "Næmt 即用咸派饼皮",
+      "descriptionZh": "Næmt tærtedej 即用咸派饼皮，275 克。铺入模具、加入蛋奶和蔬菜或肉类馅料后烘烤；它是生面团，不是已经做好的派。"
+    },
+    "naturli solbaerdrom": {
+      "categoryId": "ice_cream",
+      "comparisonGroup": "ice_cream",
+      "productNameZh": "Naturli' 黑加仑植物基冰淇淋",
+      "descriptionZh": "Naturli' Solbærdrøm 黑加仑风味植物基冰淇淋，520 毫升。冷冻保存，开盒即食；它是冰淇淋甜品，不是新鲜黑加仑。"
+    },
+    "navito fiskepinde eller tempurarejer": {
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "productNameZh": "Navito 鱼条或天妇罗虾任选",
+      "descriptionZh": "Navito 冷冻裹粉鱼条或天妇罗虾任选，200–450 克。鱼和虾的原料、裹衣比例和规格不同，需烤、炸或空气炸至充分加热。"
+    },
+    "nestle morgenmad maxi pack": {
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "productNameZh": "Nestlé 大包装早餐谷物",
+      "descriptionZh": "Nestlé 早餐谷物大包装，600–625 克。可加牛奶或酸奶食用；具体谷物形态、巧克力或糖分以包装为准。"
+    },
+    "ogo okologisk bacon i skiver": {
+      "categoryId": "bacon",
+      "comparisonGroup": "bacon_sliced",
+      "productNameZh": "ØGO 有机培根片",
+      "descriptionZh": "ØGO 有机切片培根，100 克。可煎脆后配早餐、三明治或用于炒菜；属于腌制猪肉，食用前需充分加热。"
+    },
+    "ogo okologisk dansk broccoli": {
+      "categoryId": "vegetables",
+      "comparisonGroup": "broccoli",
+      "productNameZh": "ØGO 丹麦产有机西兰花",
+      "descriptionZh": "ØGO 丹麦产有机西兰花，按把出售。可清炒、蒸、烤或加入汤和意面，茎部削皮后也可食用。"
+    },
+    "ogo okologisk dansk hjertesalat": {
+      "categoryId": "vegetables",
+      "comparisonGroup": "lettuce",
+      "productNameZh": "ØGO 丹麦产有机罗马生菜心",
+      "descriptionZh": "ØGO 丹麦产有机 hjertesalat 罗马生菜心，两颗装。洗净后可直接做沙拉、夹三明治或稍微煎烤；需冷藏保鲜。"
+    },
+    "ogo okologisk spinat fettuccine": {
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "productNameZh": "ØGO 有机菠菜宽面",
+      "descriptionZh": "ØGO 有机菠菜 fettuccine 意大利宽面，250 克。菠菜用于给面条着色和调味，需用沸水煮熟后配酱；它不是新鲜菠菜。"
+    },
+    "ogo okologiske finvalsede havregryn": {
+      "categoryId": "breakfast",
+      "comparisonGroup": "cereal",
+      "productNameZh": "ØGO 有机细压燕麦片",
+      "descriptionZh": "ØGO 有机细压燕麦片，1 千克。可煮燕麦粥、配牛奶酸奶或用于烘焙；这是原味谷物。"
+    },
+    "oyakata kopnudler": {
+      "categoryId": "rice_pasta",
+      "comparisonGroup": "pasta_noodles",
+      "productNameZh": "Oyakata 杯装方便面",
+      "descriptionZh": "Oyakata 杯装方便面，63–93 克。加入沸水并按包装等待即可食用；口味、辣度和汤底以包装为准。"
+    },
+    "peanutbutter pusheren peanutbutter": {
+      "categoryId": "breakfast",
+      "comparisonGroup": "spreads_jam",
+      "productNameZh": "Peanutbutter Pusheren 花生酱",
+      "descriptionZh": "Peanutbutter Pusheren 花生酱，1 千克，可选顺滑或颗粒口感。可抹面包、拌燕麦或做酱汁；花生过敏者勿食。"
+    },
+    "premieur gronlandske rejer": {
+      "categoryId": "seafood",
+      "comparisonGroup": "shrimp",
+      "productNameZh": "Premieur 格陵兰虾",
+      "descriptionZh": "Premieur 格陵兰虾，300–330 克。可用于沙拉、开放式三明治或海鲜菜；购买后按包装确认是熟虾还是需要加热的生虾。"
+    },
+    "premieur marineret lammekolle": {
+      "categoryId": "prepared_meat",
+      "comparisonGroup": "prepared_lamb_marinated",
+      "productNameZh": "Premieur 腌制羊腿",
+      "descriptionZh": "Premieur 已腌制羊腿，按重量出售。适合烤箱慢烤或烧烤，食用前需充分熟制并静置切片；它已经带腌料，不是原味生羊腿。"
+    },
+    "premieur roget eller gravad laks": {
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_smoked",
+      "productNameZh": "Premieur 烟熏或北欧腌渍三文鱼任选",
+      "descriptionZh": "Premieur 烟熏三文鱼或 gravad 北欧香料腌渍三文鱼任选，100 克。两者都可冷食并配面包或沙拉，但加工方式和风味不同。"
+    },
+    "protein lab ost": {
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_other",
+      "productNameZh": "Protein Lab 高蛋白奶酪",
+      "descriptionZh": "Protein Lab 高蛋白奶酪，100–250 克。可直接食用、夹面包或用于烹饪；具体奶酪形态、脂肪和蛋白质含量以包装为准。"
+    },
+    "protein lab pitabrod": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Protein Lab 高蛋白皮塔饼",
+      "descriptionZh": "Protein Lab 高蛋白皮塔饼，420 克。稍微加热后可切开夹肉、蔬菜和酱料；它是面包，不是蛋白补充剂。"
+    },
+    "protein lab proteindrik drikkeyoghurt budding eller mousse": {
+      "categoryId": "cream_cold_dairy",
+      "comparisonGroup": "mixed_dairy",
+      "productNameZh": "Protein Lab 蛋白饮、饮用酸奶、布丁或慕斯任选",
+      "descriptionZh": "Protein Lab 高蛋白乳制品任选，包括蛋白饮料、饮用酸奶、布丁或慕斯，规格 200 克或 300–500 毫升。液体和固体甜点形态、单位和饱腹感不同，需冷藏。"
+    },
+    "protein lab revet eller skiveskaaret ost": {
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
+      "productNameZh": "Protein Lab 刨丝或切片高蛋白奶酪任选",
+      "descriptionZh": "Protein Lab 高蛋白奶酪，可选刨丝或切片，150 克。刨丝适合焗烤，切片适合三明治和汉堡；两种形态的用途不同。"
+    },
+    "rahbek indbagte rejer eller laks": {
+      "categoryId": "seafood",
+      "comparisonGroup": "seafood_mixed_offer",
+      "productNameZh": "Rahbek 裹酥虾或裹酥三文鱼任选",
+      "descriptionZh": "Rahbek 裹酥虾或裹酥三文鱼任选，250 克。海鲜种类和馅料不同，需要按包装用烤箱或空气炸锅充分加热。"
+    },
+    "respons shampoo eller balsam": {
+      "categoryId": "personal_care",
+      "comparisonGroup": "personal_care_mixed_offer",
+      "productNameZh": "Respons 洗发水或护发素任选",
+      "descriptionZh": "Respons 洗发水或护发素任选，400 毫升。洗发水用于清洁头发，护发素用于洗后护理，购买前应按实际用途选择。"
+    },
+    "revet gouda lillebror ostehaps eller happy zoo smoreost": {
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
+      "productNameZh": "刨丝 Gouda、儿童奶酪条或动物造型涂抹奶酪任选",
+      "descriptionZh": "可选刨丝 Gouda 奶酪、Lillebror Ostehaps 儿童奶酪条或 Happy Zoo 涂抹奶酪，108–200 克。三者形态、用途和单份规格不同。"
+    },
+    "saeby chilensk makrel": {
+      "categoryId": "canned_pickled",
+      "comparisonGroup": "canned_other",
+      "productNameZh": "Sæby 智利鲭鱼罐头",
+      "descriptionZh": "Sæby 智利鲭鱼罐头，125 克，可选鱼柳块或碎鱼肉。开罐即可配面包、沙拉或米饭；它是加工罐头，不是新鲜白身鱼。"
+    },
+    "salling princip brioche pretzel style burgerboller eller premieur sliders": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Salling Princip 椒盐卷饼风味汉堡胚或 Premieur 迷你汉堡胚任选",
+      "descriptionZh": "可选 brioche pretzel style 椒盐卷饼风味汉堡胚或 Premieur sliders 迷你汉堡胚，200–250 克。大小和口感不同，可稍微烤热后夹肉和蔬菜。"
+    },
+    "salling princip ferskner eller nektariner": {
+      "categoryId": "fruit",
+      "comparisonGroup": "peaches_nectarines",
+      "productNameZh": "Salling Princip 桃或油桃任选",
+      "descriptionZh": "Salling Princip 进口桃或油桃，6 个装。桃表皮有绒毛，油桃表皮光滑；成熟后可直接食用，需按软硬度挑选。"
+    },
+    "santa maria okologisk hvede tortilla": {
+      "categoryId": "bread_bakery",
+      "comparisonGroup": "bread",
+      "productNameZh": "Santa Maria 有机小麦卷饼",
+      "descriptionZh": "Santa Maria 有机小麦 tortilla 卷饼，320 克。稍微加热后可包肉、豆类、蔬菜和酱料；它是薄饼，不是散装面粉。"
+    },
+    "spangsberg petit flodeboller": {
+      "categoryId": "candy_chocolate",
+      "comparisonGroup": "chocolate",
+      "productNameZh": "Spangsberg Petit 巧克力棉花糖小圆糕",
+      "descriptionZh": "Spangsberg Petit flødeboller，144 克，是薄脆底、泡沫糖霜内馅和巧克力外壳组成的丹麦甜点。开盒即食。"
+    },
+    "tapas ost": {
+      "categoryId": "cheese",
+      "comparisonGroup": "cheese_mixed_offer",
+      "productNameZh": "Tapas 小份奶酪任选",
+      "descriptionZh": "适合 tapas 拼盘的小份奶酪，125–150 克。具体品种、软硬度和熟成风味不同，可配饼干、面包或水果。"
+    },
+    "the hair cafe haarpleje fiona friends eller palmolive haandsaebe": {
+      "categoryId": "personal_care",
+      "comparisonGroup": "personal_care_mixed_offer",
+      "productNameZh": "The Hair Café/Fiona&Friends 护发用品或 Palmolive 洗手液任选",
+      "descriptionZh": "可选 The Hair Café 或 Fiona&Friends 头发护理用品，或 Palmolive 洗手液，300–400 毫升。护发和洗手用途不同，应按实际品名选择。"
+    },
+    "velsmag dansk nakkefilet": {
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_roast",
+      "productNameZh": "Velsmag 丹麦猪颈肉整块",
+      "descriptionZh": "Velsmag 丹麦猪颈肉 nakkefilet，按重量出售。属于未调味生鲜整块猪肉，适合慢烤、炖煮或切片烧烤，食用前需彻底熟制。"
+    },
+    "velsmag entrecotes": {
+      "categoryId": "beef",
+      "comparisonGroup": "beef_ribeye",
+      "productNameZh": "Velsmag 熟成 Entrecôte 肋眼牛排",
+      "descriptionZh": "Velsmag entrecôte 肋眼部位牛排，600 克，至少熟成 14 天。适合平底锅大火煎或烧烤，静置后切食；熟度由食用者自行掌握。"
+    },
+    "velsmag koteletter eller hakket grise og kalvekod 4 7": {
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "productNameZh": "Velsmag 猪排或 4–7% 脂肪猪小牛混合肉末任选",
+      "descriptionZh": "可选猪排，或脂肪含量 4–7% 的猪肉与小牛肉混合肉末，400 克。整片猪排和肉末形态、肉种比例与用途不同，均需彻底煮熟。"
+    },
+    "velsmag lakseside": {
+      "categoryId": "seafood",
+      "comparisonGroup": "salmon_fresh",
+      "productNameZh": "Velsmag 生鲜三文鱼半边",
+      "descriptionZh": "Velsmag 生鲜三文鱼半边，600 克。可整块烤、煎或分切烹调，食用前按个人需求充分加热并注意鱼刺；不是烟熏三文鱼。"
+    },
+    "velsmag medister eller hakket grisekod 8 12": {
+      "categoryId": "pork_fresh",
+      "comparisonGroup": "pork_mixed_offer",
+      "productNameZh": "Velsmag Medister 猪肉香肠或 8–12% 脂肪猪肉末任选",
+      "descriptionZh": "可选 medister 丹麦粗猪肉香肠，或脂肪含量 8–12% 的猪肉末，500 克。香肠和肉末的成型、调味与用途不同，均需彻底煮熟。"
     }
   },
-  "updatedAt": "2026-07-22T02:09:15.236Z"
+  "updatedAt": "2026-07-22T05:32:32.000Z"
 }
